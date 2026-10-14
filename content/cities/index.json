@@ -1,0 +1,6 @@
+{
+  "cities": [
+    { "id": "rome", "name": "Rome", "subtitle": "Ancient World", "status": "playable" },
+    { "id": "delhi", "name": "Delhi", "subtitle": "Shahjahanabad", "status": "test" }
+  ]
+}
