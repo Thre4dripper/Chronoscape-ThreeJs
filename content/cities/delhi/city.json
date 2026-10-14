@@ -1,0 +1,212 @@
+{
+  "id": "delhi",
+  "name": "Delhi",
+  "subtitle": "Shahjahanabad",
+  "description": "The walled Mughal capital of Shahjahanabad on the west bank of the Yamuna, as laid out by Shah Jahan in 1639–1648. A deliberately different test city: different architecture, river on the other side, one period in which the great mosque does not yet exist.",
+  "defaultPeriodId": "shahjahan-1660",
+  "world": { "scale": 0.02 },
+  "camera": {
+    "projection": "perspective",
+    "start": { "target": [1850, 1250], "distance": 52, "tilt": 52, "heading": 0 },
+    "minDistance": 2.5,
+    "maxDistance": 120
+  },
+  "map": {
+    "size": [3200, 2600],
+    "palette": { "parchment": "#E8D5AC", "ink": "#5E4330", "water": "#6A8E92", "hill": "#8A8A5E", "road": "#8A6A4A" },
+    "water": [
+      { "name": "Yamuna", "path": [[2700, 0], [2660, 600], [2600, 1300], [2700, 2000], [2820, 2600]], "width": 170 }
+    ],
+    "hills": [
+      { "name": "Bhojla Pahari", "center": [1650, 1650], "radius": 170, "label": false }
+    ],
+    "walls": [
+      { "name": "City wall", "path": [[2560, 300], [2200, 150], [1500, 100], [900, 300], [500, 700], [350, 1300], [500, 1900], [900, 2300], [1600, 2450], [2300, 2400], [2620, 2200]], "closed": false }
+    ],
+    "roads": [
+      { "name": "Faiz Bazaar", "path": [[2250, 1480], [2250, 1900], [2250, 2400]], "width": 24, "style": "major" },
+      { "name": "Khas Bazaar", "path": [[1780, 1650], [2000, 1560], [2250, 1480]], "width": 18, "style": "major" },
+      { "name": "Dariba Kalan", "path": [[1500, 1010], [1550, 1300], [1620, 1500]], "width": 10, "style": "minor" },
+      { "name": "Road to Kashmiri Gate", "path": [[1975, 990], [1960, 600], [1900, 150]], "width": 14, "style": "minor" },
+      { "name": "Road to Ajmeri Gate", "path": [[1650, 1700], [1400, 1950], [1100, 2250]], "width": 14, "style": "minor" },
+      { "name": "Road to Turkman Gate", "path": [[1650, 1720], [1700, 2050], [1750, 2440]], "width": 12, "style": "minor" }
+    ],
+    "districts": [
+      { "id": "dariba", "name": "Dariba", "polygon": [[1440, 1030], [1620, 1030], [1660, 1480], [1480, 1480]] },
+      { "id": "daryaganj", "name": "Daryaganj", "polygon": [[2280, 1500], [2560, 1500], [2600, 2200], [2300, 2300]] }
+    ],
+    "labels": [
+      { "text": "Yamuna", "position": [2740, 760], "size": "lg", "rotation": 84 },
+      { "text": "Shahjahanabad", "position": [1300, 520], "size": "lg" },
+      { "text": "Salimgarh", "position": [2360, 450], "size": "sm" },
+      { "text": "Delhi Gate", "position": [2250, 2470], "size": "sm" },
+      { "text": "Kashmiri Gate", "position": [1900, 110], "size": "sm" },
+      { "text": "Ajmeri Gate", "position": [1080, 2290], "size": "sm" },
+      { "text": "Lahori Gate", "position": [470, 1000], "size": "sm" },
+      { "text": "Daryaganj", "position": [2430, 1900], "size": "md" }
+    ],
+    "compass": [2980, 2360]
+  },
+  "periods": [
+    {
+      "id": "founding-1648",
+      "label": "A new capital",
+      "year": 1648,
+      "startYear": 1639,
+      "endYear": 1649,
+      "summary": "Shah Jahan moves his court from Agra to the new walled city of Shahjahanabad in 1648. The fort is finished; the great mosque and the bazaar are still to come."
+    },
+    {
+      "id": "shahjahan-1660",
+      "label": "The sovereign city",
+      "year": 1660,
+      "startYear": 1650,
+      "endYear": 1680,
+      "summary": "The city complete: Jama Masjid consecrated in 1656, Chandni Chowk laid out by Princess Jahanara with its canal and moonlit pool, and Aurangzeb newly on the throne after the war of succession."
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "red-fort",
+      "placeId": "qila-mubarak",
+      "name": "Red Fort (Lal Qila)",
+      "category": "military",
+      "position": [2250, 1000],
+      "rotation": 0,
+      "footprint": [550, 950],
+      "scale": 1,
+      "model": {
+        "glb": "models/delhi/red-fort.glb",
+        "fallback": { "kit": "fort", "width": 550, "depth": 950, "wallHeight": 24, "bastions": 12 }
+      },
+      "reveal": "assemble",
+      "activePeriods": ["founding-1648", "shahjahan-1660"],
+      "variants": {
+        "founding-1648": {
+          "note": "Just completed; the court arrived from Agra in April 1648 to inaugurate the palace."
+        },
+        "shahjahan-1660": {
+          "note": "Aurangzeb is adding a barbican in front of the Lahori Gate and has just built the small Moti Masjid inside the walls (1659–60)."
+        }
+      },
+      "summary": "Shah Jahan's palace-fortress, built 1639–48 beside the Yamuna: red sandstone walls two kilometres round, enclosing marble pavilions, gardens and the halls of audience.",
+      "details": [
+        "The walls rise about 18 m on the river side and 33 m toward the city, with the Lahori Gate facing Chandni Chowk and the Delhi Gate facing south. Inside, the Diwan-i-Aam, Diwan-i-Khas and Rang Mahal stood along the Stream of Paradise (Nahr-i-Bihisht) that ran through the marble palaces.",
+        "The miniature shows the walls, both gates and the principal pavilions. Most of the inner courts were demolished after 1857 and are reconstructed from plans and paintings."
+      ],
+      "built": "1639–1648",
+      "function": "Imperial residence and seat of government of the Mughal Empire",
+      "confidence": "reconstruction",
+      "sourceIds": ["wiki-red-fort", "koch-mughal", "unesco-red-fort"],
+      "focus": { "tilt": 50 },
+      "activity": { "figures": 40, "radius": 380 }
+    },
+    {
+      "id": "jama-masjid",
+      "placeId": "bhojla-pahari",
+      "name": "Jama Masjid",
+      "category": "religious",
+      "position": [1650, 1650],
+      "rotation": -90,
+      "footprint": [130, 110],
+      "scale": 2,
+      "model": {
+        "glb": "models/delhi/jama-masjid.glb",
+        "fallback": { "kit": "mosque", "width": 120, "depth": 100, "domes": 3, "minaretHeight": 40 }
+      },
+      "reveal": "assemble",
+      "activePeriods": ["shahjahan-1660"],
+      "variants": {
+        "founding-1648": {
+          "note": "Not yet begun; the Bhojla hill was open ground south-west of the fort. Construction started in 1650."
+        },
+        "shahjahan-1660": {
+          "note": "Consecrated in 1656; Shah Jahan's name is cut into the inscriptions over the arches."
+        }
+      },
+      "summary": "The congregational mosque of Shahjahanabad, built 1650–56 on a rocky rise so that its courtyard and three marble domes overlook the city; it holds some 25,000 worshippers.",
+      "details": [
+        "Red sandstone with white marble inlay: a 75 m square courtyard reached by broad flights of steps on three sides, a prayer hall with three striped domes, and two 40 m minarets. The emperor rode here from the fort for Friday prayers.",
+        "The miniature follows the surviving building closely; the surrounding bazaar and the bastioned terrace are simplified."
+      ],
+      "built": "1650–1656",
+      "function": "Friday congregational mosque of the capital",
+      "confidence": "documented",
+      "sourceIds": ["wiki-jama-masjid", "koch-mughal"],
+      "activity": { "figures": 50, "radius": 120 }
+    },
+    {
+      "id": "chandni-chowk",
+      "placeId": "chandni-chowk",
+      "name": "Chandni Chowk",
+      "category": "commercial",
+      "position": [1310, 1000],
+      "rotation": 0,
+      "footprint": [1320, 90],
+      "scale": 1,
+      "model": {
+        "glb": "models/delhi/chandni-chowk.glb",
+        "fallback": { "kit": "street", "length": 1300, "width": 40, "shops": 40, "canal": true }
+      },
+      "reveal": "assemble",
+      "activePeriods": ["shahjahan-1660"],
+      "variants": {
+        "founding-1648": {
+          "note": "Not yet laid out; the ground west of the Lahori Gate was still being surveyed."
+        },
+        "shahjahan-1660": {
+          "note": "Newly built: caravans from Persia and Central Asia unload here, and the Fatehpuri mosque (1650) anchors the far end."
+        }
+      },
+      "summary": "The city's great bazaar, laid out in 1650 by Shah Jahan's daughter Jahanara: a straight avenue from the fort's Lahori Gate with a tree-lined canal down its centre and an octagonal pool that reflected the moon.",
+      "details": [
+        "Jahanara's design had some 1,560 shops in arcades along a 40 m wide street. The canal, a branch of Ali Mardan Khan's Nahr-i-Bihisht, fed the moonlit pool (chandni chowk) that gave the street its name.",
+        "The arcaded shops are reconstructed from Mughal accounts and later views; the present street is far more built up."
+      ],
+      "built": "1650",
+      "function": "Principal market street and ceremonial approach to the fort",
+      "confidence": "interpretation",
+      "sourceIds": ["wiki-chandni-chowk", "blake-shahjahanabad"],
+      "focus": { "tilt": 45 },
+      "activity": { "figures": 60, "radius": 300 }
+    }
+  ],
+  "stories": [
+    {
+      "id": "city-of-procession",
+      "title": "A City Built for Procession",
+      "periodId": "shahjahan-1660",
+      "summary": "Fort, avenue and mosque were planned together as a stage for the emperor's appearances.",
+      "steps": [
+        {
+          "landmarkId": "red-fort",
+          "title": "The Lahori Gate",
+          "when": "1660",
+          "text": "The fort's main gate faced west, straight down the new avenue. Visitors crossed the moat, passed under the gate and into the covered Chhatta Chowk bazaar before reaching the Naubat Khana, where drums announced the hours and the emperor's arrivals.",
+          "sourceIds": ["wiki-red-fort", "blake-shahjahanabad"]
+        },
+        {
+          "landmarkId": "chandni-chowk",
+          "title": "The ceremonial avenue",
+          "text": "Chandni Chowk was the city's parade route. On festival days the emperor rode out of the Lahori Gate along the canal with elephants and guards, and foreign envoys came the other way to be received at the fort.",
+          "sourceIds": ["blake-shahjahanabad", "wiki-chandni-chowk"]
+        },
+        {
+          "landmarkId": "jama-masjid",
+          "title": "Friday prayers",
+          "text": "Each Friday the emperor left the fort by the southern Delhi Gate and rode to the great mosque, climbing the eastern steps reserved for the imperial household to pray in the hall beneath the three domes.",
+          "sourceIds": ["wiki-jama-masjid", "koch-mughal"]
+        }
+      ],
+      "sourceIds": ["blake-shahjahanabad", "koch-mughal"]
+    }
+  ],
+  "sources": [
+    { "id": "koch-mughal", "title": "Mughal Architecture: An Outline of Its History and Development (1526–1858)", "author": "Ebba Koch", "year": 1991 },
+    { "id": "blake-shahjahanabad", "title": "Shahjahanabad: The Sovereign City in Mughal India, 1639–1739", "author": "Stephen P. Blake", "year": 1991 },
+    { "id": "unesco-red-fort", "title": "Red Fort Complex", "author": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/231/" },
+    { "id": "wiki-red-fort", "title": "Red Fort", "author": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Red_Fort" },
+    { "id": "wiki-jama-masjid", "title": "Jama Masjid, Delhi", "author": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi" },
+    { "id": "wiki-chandni-chowk", "title": "Chandni Chowk", "author": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chandni_Chowk" }
+  ]
+}
