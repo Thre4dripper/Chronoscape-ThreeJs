@@ -505,3 +505,25 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .fmap--sm .fmap__label strong { font-size: 14px; }
 .fmap--sm .fmap__label span { font-size: 12.5px; }
 
+/* ---------- the flight of a map between shelf and screen ---------- */
+.flight { position: fixed; inset: 0; z-index: 80; pointer-events: none; perspective: 2600px; perspective-origin: 50% 45%; }
+.flight--wait { background: transparent; }
+.flight__shade { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(40,24,10,0.35), rgba(30,18,8,0.75)); }
+.flight__sheet { position: absolute; left: 0; top: 0; transform-origin: 0 0; transform-style: preserve-3d; will-change: transform; }
+/* (no filter or opacity on the sheet or its rows: either would flatten the folds) */
+.flight__row { position: absolute; left: 0; transform-style: preserve-3d; }
+.flight__panel, .flight__hinge { position: absolute; top: 0; transform-style: preserve-3d; }
+.flight__panel { left: 0; }
+.flight__hinge { transform-origin: 0 50%; }
+.flight__front, .flight__back { position: absolute; inset: 0; backface-visibility: hidden; }
+.flight__front { background-color: #e9dbb8; background-repeat: no-repeat; box-shadow: 0 0 0 0.5px rgba(74,51,34,0.4), 0 14px 30px rgba(20,10,4,0.25); }
+.flight__back { transform: rotateY(180deg); background: linear-gradient(135deg, #f3e7ca, #e0cb9e); box-shadow: inset 0 0 0 1px rgba(74,51,34,0.35); }
+.flight__row--bottom .flight__back { transform: rotateX(180deg); }
+.flight__row--bottom .flight__hinge .flight__back, .flight__row--bottom .flight__panel .flight__panel .flight__back { transform: rotateY(180deg); }
+.flight__crease { position: absolute; inset: 0; pointer-events: none; opacity: calc(var(--fold-shade, 1) * 0.9); backface-visibility: hidden;
+  background: linear-gradient(90deg, rgba(60,36,16,0.22), rgba(60,36,16,0) 10%, rgba(255,250,235,0) 88%, rgba(255,250,235,0.25)); }
+.flight__cover { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 10%; text-align: center; color: #3d2a1c; border: 2px solid rgba(74,51,34,0.7); outline: 1px solid rgba(74,51,34,0.4); outline-offset: -8px; }
+.flight__cover-k { font-family: var(--roman); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: #8a3f26; }
+.flight__cover-t { font-family: var(--roman); font-weight: 700; font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; }
+.flight__cover-s { font-family: var(--display); font-style: italic; font-size: 15px; }
+

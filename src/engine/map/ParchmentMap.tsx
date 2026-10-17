@@ -73,6 +73,9 @@ export function ParchmentMap({ city }: { city: City }) {
     const t0 = performance.now();
     const show = (t: THREE.Texture) => {
       performance.mark(`plate-ready:${periodId}`);
+      // the map room's unfolding map waits for this before it lets go of the screen
+      (window as unknown as { __lastPlate: unknown }).__lastPlate = { city: city.id, period: periodId, t: performance.now() };
+      window.dispatchEvent(new CustomEvent("chronoscape:plate", { detail: { city: city.id, period: periodId } }));
       performance.measure(`base:${periodId}`, { start: t0, end: performance.now() });
       const cur = shown.current.cur;
       if (cur === t) return;
