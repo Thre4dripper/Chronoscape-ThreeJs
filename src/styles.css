@@ -473,3 +473,35 @@ canvas { display: block; cursor: grab; }
   .leftcol { left: 14px; right: 14px; width: auto; bottom: 14px; }
   .app:has(.panel) .leftcol { display: none; }
 }
+
+/* ======================================================================
+   Title page, map room, folded maps, the map case
+   ====================================================================== */
+/* ---------- a folded map ---------- */
+.fmap { display: flex; flex-direction: column; gap: 8px; width: 100%; padding: 0; background: none; border: 0; text-align: left; color: inherit; font: inherit; }
+button.fmap { cursor: pointer; }
+.fmap__packet { position: relative; aspect-ratio: 0.86; perspective: 700px; transition: transform 0.35s cubic-bezier(0.3, 1.4, 0.5, 1); }
+.fmap--sm .fmap__packet { aspect-ratio: 0.9; }
+button.fmap:hover .fmap__packet, button.fmap:focus-visible .fmap__packet { transform: translateY(-5px) rotate(-1.2deg); }
+.fmap__edges { position: absolute; inset: 4px -4px -6px 4px; background: #e2cfa4; border: 1px solid rgba(74,51,34,0.5); box-shadow: 3px 3px 0 #d8c294, 4px 4px 0 rgba(74,51,34,0.45), 7px 6px 0 #ceb788, 8px 7px 0 rgba(74,51,34,0.4), 0 12px 22px rgba(40,24,10,0.3); }
+.fmap__inside { position: absolute; inset: 0; background: var(--img) center / 220% auto #e9dbb8; border: 1px solid rgba(74,51,34,0.55); filter: sepia(0.25) contrast(1.05); }
+.fmap__flap { position: absolute; inset: 0; transform-origin: 0% 50%; transform-style: preserve-3d; transition: transform 0.55s cubic-bezier(0.3, 1.3, 0.5, 1); }
+button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform: rotateY(-38deg); }
+.fmap__face, .fmap__back { position: absolute; inset: 0; backface-visibility: hidden; border: 1px solid rgba(74,51,34,0.65); }
+.fmap__face {
+  background:
+    linear-gradient(90deg, rgba(90,60,30,0) 47%, rgba(90,60,30,0.22) 50%, rgba(255,250,235,0.25) 51%, rgba(255,250,235,0) 54%),
+    linear-gradient(0deg, rgba(90,60,30,0) 47%, rgba(90,60,30,0.18) 50%, rgba(255,250,235,0.22) 51%, rgba(255,250,235,0) 54%),
+    var(--img) center / 165% auto #efe2c3;
+}
+.fmap__back { transform: rotateY(180deg); background: linear-gradient(135deg, #f2e6c8, #e1cda1); }
+.is-planned .fmap__face, .is-planned .fmap__inside { filter: sepia(0.4) saturate(0.85); }
+.fmap__tie { position: absolute; left: -2px; right: -2px; top: 62%; height: 9px; background: var(--tie); box-shadow: inset 0 -2px 0 rgba(0,0,0,0.25), 0 1px 2px rgba(0,0,0,0.3); }
+.fmap__seal { position: absolute; right: 12%; top: calc(62% - 11px); display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; font-size: 13px; color: #fde3c9; background: radial-gradient(circle at 35% 30%, #d0704f, #8f3018 70%); box-shadow: inset 0 0 0 2px rgba(255,200,170,0.25), 0 2px 3px rgba(0,0,0,0.35); }
+.fmap__stamp { position: absolute; left: 50%; top: 30%; transform: translate(-50%, -50%) rotate(-12deg); padding: 3px 8px; white-space: nowrap; font-family: var(--roman); font-weight: 700; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(143,48,24,0.85); border: 2px solid rgba(143,48,24,0.75); border-radius: 3px; background: rgba(242,229,196,0.6); }
+.fmap__label { display: flex; flex-direction: column; }
+.fmap__label strong { font-family: var(--roman); font-weight: 700; font-size: 16px; letter-spacing: 0.04em; }
+.fmap__label span { font-family: var(--display); font-style: italic; font-size: 14px; opacity: 0.8; }
+.fmap--sm .fmap__label strong { font-size: 14px; }
+.fmap--sm .fmap__label span { font-size: 12.5px; }
+
