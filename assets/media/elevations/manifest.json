@@ -1,0 +1,1135 @@
+{
+ "delhi/chandni-chowk": {
+  "ground": 75.4,
+  "h": 24.2,
+  "mpp": 1.05829,
+  "px": [
+   1400,
+   128
+  ],
+  "w": 1370.0,
+  "x0px": 52.7
+ },
+ "delhi/jama-masjid": {
+  "ground": 462.4,
+  "h": 52.4,
+  "mpp": 0.12979,
+  "px": [
+   1400,
+   521
+  ],
+  "w": 166.4,
+  "x0px": 59.0
+ },
+ "delhi/red-fort": {
+  "ground": 155.3,
+  "h": 51.0,
+  "mpp": 0.50171,
+  "px": [
+   1400,
+   209
+  ],
+  "w": 648.51,
+  "x0px": 53.7
+ },
+ "rome/ara-pacis": {
+  "ground": 104.1,
+  "h": 7.2,
+  "mpp": 0.08354,
+  "px": [
+   192,
+   122
+  ],
+  "w": 13.0,
+  "x0px": 18.2
+ },
+ "rome/arch-of-constantine": {
+  "ground": 325.0,
+  "h": 25.04,
+  "mpp": 0.08347,
+  "px": [
+   372,
+   350
+  ],
+  "w": 26.9,
+  "x0px": 24.9
+ },
+ "rome/arch-of-septimius-severus": {
+  "ground": 324.0,
+  "h": 25.04,
+  "mpp": 0.08347,
+  "px": [
+   334,
+   348
+  ],
+  "w": 23.9,
+  "x0px": 23.8
+ },
+ "rome/arch-of-titus": {
+  "ground": 254.7,
+  "h": 19.44,
+  "mpp": 0.08333,
+  "px": [
+   215,
+   276
+  ],
+  "w": 14.4,
+  "x0px": 21.1
+ },
+ "rome/basilica-of-maxentius": {
+  "ground": 663.3,
+  "h": 50.3,
+  "mpp": 0.08333,
+  "px": [
+   1320,
+   723
+  ],
+  "w": 100.0,
+  "x0px": 60.0
+ },
+ "rome/basilica-of-maxentius-ruin": {
+  "ground": 507.3,
+  "h": 37.3,
+  "mpp": 0.08333,
+  "px": [
+   1320,
+   567
+  ],
+  "w": 100.0,
+  "x0px": 60.0
+ },
+ "rome/baths-of-caracalla": {
+  "ground": 284.8,
+  "h": 60.07,
+  "mpp": 0.26171,
+  "px": [
+   1400,
+   340
+  ],
+  "w": 337.4,
+  "x0px": 55.4
+ },
+ "rome/baths-of-caracalla-ruin": {
+  "ground": 162.0,
+  "h": 28.0,
+  "mpp": 0.26171,
+  "px": [
+   1400,
+   217
+  ],
+  "w": 337.4,
+  "x0px": 55.4
+ },
+ "rome/baths-of-diocletian": {
+  "ground": 270.4,
+  "h": 63.66,
+  "mpp": 0.29488,
+  "px": [
+   1400,
+   325
+  ],
+  "w": 380.4,
+  "x0px": 55.0
+ },
+ "rome/baths-of-diocletian-church": {
+  "ground": 286.1,
+  "h": 68.19,
+  "mpp": 0.29488,
+  "px": [
+   1400,
+   341
+  ],
+  "w": 380.4,
+  "x0px": 55.0
+ },
+ "rome/baths-of-diocletian-ruin": {
+  "ground": 149.5,
+  "h": 28.0,
+  "mpp": 0.29488,
+  "px": [
+   1400,
+   204
+  ],
+  "w": 380.4,
+  "x0px": 55.0
+ },
+ "rome/baths-of-trajan": {
+  "ground": 261.7,
+  "h": 52.91,
+  "mpp": 0.25631,
+  "px": [
+   1400,
+   317
+  ],
+  "w": 330.4,
+  "x0px": 55.5
+ },
+ "rome/baths-of-trajan-construction": {
+  "ground": 261.7,
+  "h": 52.91,
+  "mpp": 0.25631,
+  "px": [
+   1400,
+   317
+  ],
+  "w": 330.4,
+  "x0px": 55.5
+ },
+ "rome/campidoglio": {
+  "ground": 767.0,
+  "h": 60.0,
+  "mpp": 0.08334,
+  "px": [
+   970,
+   814
+  ],
+  "w": 73.0,
+  "x0px": 47.0
+ },
+ "rome/castel-santangelo-late": {
+  "ground": 804.4,
+  "h": 62.0,
+  "mpp": 0.08336,
+  "px": [
+   1339,
+   865
+  ],
+  "w": 101.5,
+  "x0px": 60.7
+ },
+ "rome/castel-santangelo-medieval": {
+  "ground": 839.7,
+  "h": 75.98,
+  "mpp": 0.09749,
+  "px": [
+   1372,
+   900
+  ],
+  "w": 122.0,
+  "x0px": 60.3
+ },
+ "rome/castel-santangelo-renaissance": {
+  "ground": 669.0,
+  "h": 75.98,
+  "mpp": 0.12455,
+  "px": [
+   1400,
+   728
+  ],
+  "w": 159.6,
+  "x0px": 59.3
+ },
+ "rome/castra-praetoria": {
+  "ground": 89.7,
+  "h": 12.6,
+  "mpp": 0.35629,
+  "px": [
+   1400,
+   144
+  ],
+  "w": 460.0,
+  "x0px": 54.5
+ },
+ "rome/circus-maximus": {
+  "ground": 120.7,
+  "h": 32.82,
+  "mpp": 0.48639,
+  "px": [
+   1400,
+   174
+  ],
+  "w": 628.65,
+  "x0px": 53.8
+ },
+ "rome/circus-maximus-late": {
+  "ground": 137.5,
+  "h": 40.82,
+  "mpp": 0.48639,
+  "px": [
+   1400,
+   191
+  ],
+  "w": 628.65,
+  "x0px": 53.8
+ },
+ "rome/circus-maximus-regal": {
+  "ground": 103.5,
+  "h": 22.0,
+  "mpp": 0.43967,
+  "px": [
+   1400,
+   157
+  ],
+  "w": 568.09,
+  "x0px": 54.0
+ },
+ "rome/circus-maximus-republic": {
+  "ground": 100.3,
+  "h": 22.0,
+  "mpp": 0.47157,
+  "px": [
+   1400,
+   154
+  ],
+  "w": 609.45,
+  "x0px": 53.8
+ },
+ "rome/colosseum": {
+  "ground": 377.3,
+  "h": 48.1,
+  "mpp": 0.15046,
+  "px": [
+   1400,
+   435
+  ],
+  "w": 193.19,
+  "x0px": 58.0
+ },
+ "rome/colosseum-fortress": {
+  "ground": 460.4,
+  "h": 60.6,
+  "mpp": 0.15046,
+  "px": [
+   1400,
+   518
+  ],
+  "w": 193.19,
+  "x0px": 58.0
+ },
+ "rome/colosseum-ruin": {
+  "ground": 377.3,
+  "h": 48.1,
+  "mpp": 0.15046,
+  "px": [
+   1400,
+   435
+  ],
+  "w": 193.19,
+  "x0px": 58.0
+ },
+ "rome/column-of-marcus-aurelius": {
+  "ground": 580.2,
+  "h": 45.56,
+  "mpp": 0.0834,
+  "px": [
+   187,
+   614
+  ],
+  "w": 10.0,
+  "x0px": 33.5
+ },
+ "rome/curia-church": {
+  "ground": 404.9,
+  "h": 31.5,
+  "mpp": 0.08338,
+  "px": [
+   340,
+   432
+  ],
+  "w": 23.85,
+  "x0px": 27.0
+ },
+ "rome/curia-hostilia": {
+  "ground": 363.5,
+  "h": 28.2,
+  "mpp": 0.08343,
+  "px": [
+   291,
+   389
+  ],
+  "w": 20.0,
+  "x0px": 25.6
+ },
+ "rome/curia-julia": {
+  "ground": 363.5,
+  "h": 28.2,
+  "mpp": 0.08343,
+  "px": [
+   291,
+   389
+  ],
+  "w": 20.0,
+  "x0px": 25.6
+ },
+ "rome/emporium": {
+  "ground": 103.2,
+  "h": 15.0,
+  "mpp": 0.31,
+  "px": [
+   1400,
+   158
+  ],
+  "w": 400.0,
+  "x0px": 54.8
+ },
+ "rome/forum-of-augustus": {
+  "ground": 402.2,
+  "h": 33.4,
+  "mpp": 0.09786,
+  "px": [
+   1400,
+   463
+  ],
+  "w": 125.0,
+  "x0px": 61.3
+ },
+ "rome/forum-of-caesar": {
+  "ground": 379.2,
+  "h": 27.47,
+  "mpp": 0.0834,
+  "px": [
+   1047,
+   429
+  ],
+  "w": 79.0,
+  "x0px": 49.9
+ },
+ "rome/forum-of-caesar-construction": {
+  "ground": 294.3,
+  "h": 20.4,
+  "mpp": 0.0834,
+  "px": [
+   1047,
+   344
+  ],
+  "w": 79.0,
+  "x0px": 49.9
+ },
+ "rome/forum-of-trajan": {
+  "ground": 280.4,
+  "h": 41.3,
+  "mpp": 0.18455,
+  "px": [
+   1400,
+   337
+  ],
+  "w": 237.38,
+  "x0px": 56.9
+ },
+ "rome/forum-of-trajan-construction": {
+  "ground": 202.0,
+  "h": 30.4,
+  "mpp": 0.20831,
+  "px": [
+   1399,
+   258
+  ],
+  "w": 267.99,
+  "x0px": 56.3
+ },
+ "rome/ghetto": {
+  "ground": 269.2,
+  "h": 21.2,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   330
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "rome/lateran-basilica": {
+  "ground": 483.9,
+  "h": 36.51,
+  "mpp": 0.0834,
+  "px": [
+   946,
+   530
+  ],
+  "w": 71.2,
+  "x0px": 46.1
+ },
+ "rome/lateran-medieval": {
+  "ground": 749.9,
+  "h": 58.7,
+  "mpp": 0.0834,
+  "px": [
+   946,
+   796
+  ],
+  "w": 71.2,
+  "x0px": 46.1
+ },
+ "rome/ludus-magnus": {
+  "ground": 151.1,
+  "h": 8.6,
+  "mpp": 0.08333,
+  "px": [
+   996,
+   199
+  ],
+  "w": 75.0,
+  "x0px": 48.0
+ },
+ "rome/mausoleum-of-augustus": {
+  "ground": 659.8,
+  "h": 50.42,
+  "mpp": 0.08339,
+  "px": [
+   1196,
+   715
+  ],
+  "w": 90.5,
+  "x0px": 55.4
+ },
+ "rome/mausoleum-of-augustus-fortress": {
+  "ground": 462.9,
+  "h": 34.0,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   518
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "rome/mausoleum-of-augustus-ruin": {
+  "ground": 357.0,
+  "h": 25.17,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   412
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "rome/mausoleum-of-hadrian": {
+  "ground": 772.9,
+  "h": 59.83,
+  "mpp": 0.08334,
+  "px": [
+   1189,
+   828
+  ],
+  "w": 89.9,
+  "x0px": 55.1
+ },
+ "rome/new-st-peters-construction": {
+  "ground": 533.6,
+  "h": 63.0,
+  "mpp": 0.13257,
+  "px": [
+   1400,
+   592
+  ],
+  "w": 170.0,
+  "x0px": 58.8
+ },
+ "rome/old-st-peters": {
+  "ground": 525.2,
+  "h": 39.54,
+  "mpp": 0.08336,
+  "px": [
+   1076,
+   576
+  ],
+  "w": 81.2,
+  "x0px": 51.0
+ },
+ "rome/old-st-peters-medieval": {
+  "ground": 800.4,
+  "h": 62.5,
+  "mpp": 0.08336,
+  "px": [
+   1076,
+   851
+  ],
+  "w": 81.2,
+  "x0px": 51.0
+ },
+ "rome/orti-farnesiani": {
+  "ground": 158.4,
+  "h": 19.0,
+  "mpp": 0.18657,
+  "px": [
+   1400,
+   215
+  ],
+  "w": 240.0,
+  "x0px": 56.8
+ },
+ "rome/ospedale-santo-spirito": {
+  "ground": 294.1,
+  "h": 27.2,
+  "mpp": 0.11615,
+  "px": [
+   1399,
+   354
+  ],
+  "w": 148.6,
+  "x0px": 59.8
+ },
+ "rome/palatine-palace": {
+  "ground": 249.9,
+  "h": 40.0,
+  "mpp": 0.20632,
+  "px": [
+   1400,
+   306
+  ],
+  "w": 265.6,
+  "x0px": 56.3
+ },
+ "rome/palazzo-farnese": {
+  "ground": 402.0,
+  "h": 30.2,
+  "mpp": 0.08341,
+  "px": [
+   775,
+   442
+  ],
+  "w": 58.0,
+  "x0px": 39.8
+ },
+ "rome/palazzo-senatorio-medieval": {
+  "ground": 695.0,
+  "h": 54.0,
+  "mpp": 0.08334,
+  "px": [
+   970,
+   742
+  ],
+  "w": 73.0,
+  "x0px": 47.0
+ },
+ "rome/pantheon": {
+  "ground": 612.6,
+  "h": 47.28,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   658
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "rome/pantheon-agrippa": {
+  "ground": 373.5,
+  "h": 28.27,
+  "mpp": 0.08341,
+  "px": [
+   632,
+   408
+  ],
+  "w": 46.96,
+  "x0px": 34.5
+ },
+ "rome/piazza-navona": {
+  "ground": 150.3,
+  "h": 20.63,
+  "mpp": 0.21828,
+  "px": [
+   1400,
+   206
+  ],
+  "w": 281.1,
+  "x0px": 56.1
+ },
+ "rome/pons-aelius": {
+  "ground": 156.8,
+  "h": 10.2,
+  "mpp": 0.10557,
+  "px": [
+   1400,
+   217
+  ],
+  "w": 135.0,
+  "x0px": 60.6
+ },
+ "rome/pons-aemilius": {
+  "ground": 153.1,
+  "h": 10.2,
+  "mpp": 0.10943,
+  "px": [
+   1400,
+   213
+  ],
+  "w": 140.0,
+  "x0px": 60.3
+ },
+ "rome/pons-aurelius": {
+  "ground": 182.7,
+  "h": 10.2,
+  "mpp": 0.08474,
+  "px": [
+   1400,
+   245
+  ],
+  "w": 108.0,
+  "x0px": 62.8
+ },
+ "rome/pons-fabricius": {
+  "ground": 163.7,
+  "h": 10.2,
+  "mpp": 0.08339,
+  "px": [
+   827,
+   205
+  ],
+  "w": 62.0,
+  "x0px": 41.7
+ },
+ "rome/ponte-sisto": {
+  "ground": 182.7,
+  "h": 10.2,
+  "mpp": 0.08474,
+  "px": [
+   1400,
+   245
+  ],
+  "w": 108.0,
+  "x0px": 62.8
+ },
+ "rome/porta-appia": {
+  "ground": 395.5,
+  "h": 29.6,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   436
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "rome/porta-maggiore": {
+  "ground": 395.5,
+  "h": 29.6,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   436
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "rome/porta-maggiore-aqueduct": {
+  "ground": 423.2,
+  "h": 33.0,
+  "mpp": 0.08346,
+  "px": [
+   439,
+   451
+  ],
+  "w": 32.0,
+  "x0px": 27.8
+ },
+ "rome/porticus-metelli": {
+  "ground": 267.4,
+  "h": 21.35,
+  "mpp": 0.10326,
+  "px": [
+   1400,
+   328
+  ],
+  "w": 132.0,
+  "x0px": 60.8
+ },
+ "rome/porticus-octaviae": {
+  "ground": 267.4,
+  "h": 21.35,
+  "mpp": 0.10326,
+  "px": [
+   1400,
+   328
+  ],
+  "w": 132.0,
+  "x0px": 60.8
+ },
+ "rome/pyramid-of-cestius": {
+  "ground": 480.0,
+  "h": 37.5,
+  "mpp": 0.08333,
+  "px": [
+   472,
+   510
+  ],
+  "w": 34.4,
+  "x0px": 29.6
+ },
+ "rome/roman-forum": {
+  "ground": 267.3,
+  "h": 32.35,
+  "mpp": 0.1543,
+  "px": [
+   1400,
+   325
+  ],
+  "w": 198.17,
+  "x0px": 57.9
+ },
+ "rome/roman-forum-medieval": {
+  "ground": 229.2,
+  "h": 22.6,
+  "mpp": 0.13257,
+  "px": [
+   1400,
+   288
+  ],
+  "w": 170.0,
+  "x0px": 58.8
+ },
+ "rome/roman-forum-regal": {
+  "ground": 123.3,
+  "h": 8.6,
+  "mpp": 0.13303,
+  "px": [
+   1400,
+   182
+  ],
+  "w": 170.6,
+  "x0px": 58.8
+ },
+ "rome/roman-forum-republic": {
+  "ground": 269.8,
+  "h": 29.2,
+  "mpp": 0.13797,
+  "px": [
+   1400,
+   328
+  ],
+  "w": 177.0,
+  "x0px": 58.6
+ },
+ "rome/san-clemente": {
+  "ground": 460.4,
+  "h": 35.9,
+  "mpp": 0.08333,
+  "px": [
+   510,
+   490
+  ],
+  "w": 37.5,
+  "x0px": 30.0
+ },
+ "rome/san-clemente-early": {
+  "ground": 253.8,
+  "h": 18.91,
+  "mpp": 0.08347,
+  "px": [
+   438,
+   281
+  ],
+  "w": 32.0,
+  "x0px": 27.3
+ },
+ "rome/santa-francesca-romana": {
+  "ground": 413.0,
+  "h": 40.0,
+  "mpp": 0.11329,
+  "px": [
+   1400,
+   473
+  ],
+  "w": 145.0,
+  "x0px": 60.0
+ },
+ "rome/santa-maria-in-aracoeli": {
+  "ground": 337.9,
+  "h": 25.68,
+  "mpp": 0.08341,
+  "px": [
+   516,
+   368
+  ],
+  "w": 38.0,
+  "x0px": 30.2
+ },
+ "rome/santa-maria-in-cosmedin": {
+  "ground": 412.6,
+  "h": 32.1,
+  "mpp": 0.08334,
+  "px": [
+   432,
+   440
+  ],
+  "w": 31.5,
+  "x0px": 27.0
+ },
+ "rome/santa-maria-in-trastevere": {
+  "ground": 507.8,
+  "h": 39.7,
+  "mpp": 0.08346,
+  "px": [
+   561,
+   540
+  ],
+  "w": 41.5,
+  "x0px": 31.9
+ },
+ "rome/santa-maria-in-trastevere-early": {
+  "ground": 257.8,
+  "h": 19.16,
+  "mpp": 0.08345,
+  "px": [
+   464,
+   286
+  ],
+  "w": 34.0,
+  "x0px": 28.3
+ },
+ "rome/santa-maria-maggiore": {
+  "ground": 602.3,
+  "h": 47.3,
+  "mpp": 0.08333,
+  "px": [
+   615,
+   637
+  ],
+  "w": 45.5,
+  "x0px": 34.5
+ },
+ "rome/stadium-medieval": {
+  "ground": 175.1,
+  "h": 26.0,
+  "mpp": 0.21828,
+  "px": [
+   1400,
+   231
+  ],
+  "w": 281.1,
+  "x0px": 56.1
+ },
+ "rome/stadium-of-domitian": {
+  "ground": 157.1,
+  "h": 21.8,
+  "mpp": 0.21539,
+  "px": [
+   1400,
+   213
+  ],
+  "w": 277.36,
+  "x0px": 56.2
+ },
+ "rome/tabularium": {
+  "ground": 457.7,
+  "h": 34.2,
+  "mpp": 0.08334,
+  "px": [
+   983,
+   505
+  ],
+  "w": 74.0,
+  "x0px": 47.5
+ },
+ "rome/temple-of-hercules-church": {
+  "ground": 260.5,
+  "h": 19.98,
+  "mpp": 0.0836,
+  "px": [
+   273,
+   282
+  ],
+  "w": 19.2,
+  "x0px": 21.7
+ },
+ "rome/temple-of-hercules-victor": {
+  "ground": 235.5,
+  "h": 17.88,
+  "mpp": 0.08359,
+  "px": [
+   272,
+   257
+  ],
+  "w": 19.2,
+  "x0px": 21.2
+ },
+ "rome/temple-of-jupiter": {
+  "ground": 512.5,
+  "h": 39.47,
+  "mpp": 0.08344,
+  "px": [
+   769,
+   552
+  ],
+  "w": 57.56,
+  "x0px": 39.6
+ },
+ "rome/temple-of-jupiter-archaic": {
+  "ground": 456.3,
+  "h": 34.75,
+  "mpp": 0.08344,
+  "px": [
+   769,
+   496
+  ],
+  "w": 57.56,
+  "x0px": 39.6
+ },
+ "rome/temple-of-jupiter-construction": {
+  "ground": 425.0,
+  "h": 32.0,
+  "mpp": 0.08335,
+  "px": [
+   817,
+   466
+  ],
+  "w": 61.2,
+  "x0px": 41.4
+ },
+ "rome/temple-of-jupiter-republic": {
+  "ground": 498.1,
+  "h": 38.23,
+  "mpp": 0.08344,
+  "px": [
+   769,
+   538
+  ],
+  "w": 57.56,
+  "x0px": 39.6
+ },
+ "rome/temple-of-portunus": {
+  "ground": 214.2,
+  "h": 16.21,
+  "mpp": 0.08337,
+  "px": [
+   183,
+   234
+  ],
+  "w": 11.98,
+  "x0px": 19.7
+ },
+ "rome/temple-of-portunus-church": {
+  "ground": 271.1,
+  "h": 20.8,
+  "mpp": 0.08349,
+  "px": [
+   253,
+   293
+  ],
+  "w": 17.49,
+  "x0px": 21.8
+ },
+ "rome/temple-of-saturn": {
+  "ground": 418.7,
+  "h": 32.23,
+  "mpp": 0.08342,
+  "px": [
+   577,
+   451
+  ],
+  "w": 42.72,
+  "x0px": 32.5
+ },
+ "rome/temple-of-saturn-ruin": {
+  "ground": 303.2,
+  "h": 22.64,
+  "mpp": 0.08341,
+  "px": [
+   559,
+   335
+  ],
+  "w": 41.32,
+  "x0px": 31.8
+ },
+ "rome/temple-of-venus-and-roma": {
+  "ground": 413.0,
+  "h": 40.0,
+  "mpp": 0.11329,
+  "px": [
+   1400,
+   473
+  ],
+  "w": 145.0,
+  "x0px": 60.0
+ },
+ "rome/theatre-of-marcellus": {
+  "ground": 329.8,
+  "h": 28.8,
+  "mpp": 0.10686,
+  "px": [
+   1400,
+   390
+  ],
+  "w": 136.67,
+  "x0px": 60.5
+ },
+ "rome/theatre-of-marcellus-fortress": {
+  "ground": 471.9,
+  "h": 44.0,
+  "mpp": 0.10686,
+  "px": [
+   1400,
+   532
+  ],
+  "w": 136.67,
+  "x0px": 60.5
+ },
+ "rome/theatre-of-marcellus-palazzo": {
+  "ground": 453.5,
+  "h": 42.0,
+  "mpp": 0.10686,
+  "px": [
+   1400,
+   514
+  ],
+  "w": 136.67,
+  "x0px": 60.5
+ },
+ "rome/theatre-of-pompey": {
+  "ground": 465.8,
+  "h": 56.27,
+  "mpp": 0.13806,
+  "px": [
+   1400,
+   524
+  ],
+  "w": 177.11,
+  "x0px": 58.6
+ },
+ "rome/tiber-island-church": {
+  "ground": 413.0,
+  "h": 32.1,
+  "mpp": 0.08336,
+  "px": [
+   458,
+   441
+  ],
+  "w": 33.5,
+  "x0px": 28.1
+ },
+ "rome/tiber-island-temple": {
+  "ground": 285.4,
+  "h": 21.79,
+  "mpp": 0.08352,
+  "px": [
+   357,
+   310
+  ],
+  "w": 25.76,
+  "x0px": 24.3
+ },
+ "rome/torre-delle-milizie": {
+  "ground": 645.6,
+  "h": 50.8,
+  "mpp": 0.08338,
+  "px": [
+   288,
+   682
+  ],
+  "w": 18.0,
+  "x0px": 36.1
+ },
+ "rome/trajans-column": {
+  "ground": 533.9,
+  "h": 41.84,
+  "mpp": 0.08337,
+  "px": [
+   136,
+   566
+  ],
+  "w": 6.0,
+  "x0px": 32.0
+ },
+ "rome/villa-farnesina": {
+  "ground": 252.8,
+  "h": 17.3,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   298
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ }
+}
