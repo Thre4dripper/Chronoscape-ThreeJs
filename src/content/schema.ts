@@ -403,3 +403,43 @@ export const CityIndexSchema = z.object({
     .min(1),
 });
 export type CityIndex = z.infer<typeof CityIndexSchema>;
+
+/* ---------------------------------------------------------------- the map room */
+
+const LonLat = z.tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)]);
+
+/** One map inside an atlas: a playable city at a chosen era, or one still in preparation. */
+export const AtlasMapSchema = z.object({
+  /** A city pack id; without one the map is shown as "in preparation". */
+  city: z.string().optional(),
+  /** The era the map opens at. */
+  period: z.string().optional(),
+  title: z.string(),
+  subtitle: z.string(),
+  blurb: z.string(),
+  /** Where it is on the globe, [lon, lat]. */
+  at: LonLat,
+  /** The little engraved drawing that marks it on the world map. */
+  glyph: z.enum(["temple", "arena", "obelisk", "ziggurat", "lighthouse", "stupa", "dome", "pagoda", "cathedral", "tower", "mughal", "adobe", "enclosure", "steps"]).default("temple"),
+});
+
+/** An atlas on the map-room shelf: a region of the world in an age. */
+export const AtlasSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: z.string(),
+  region: z.string(),
+  era: z.string(),
+  from: z.number().int(),
+  to: z.number().int(),
+  color: z.string().regex(/^#[0-9a-fA-F]{6}$/),
+  blurb: z.string(),
+  themes: z.array(z.string()).default([]),
+  /** Rough outline of the region on the globe, [lon, lat] points. */
+  area: z.array(LonLat).min(3),
+  maps: z.array(AtlasMapSchema).min(1),
+});
+
+export const AtlasCatalogSchema = z.object({ atlases: z.array(AtlasSchema).min(1) });
+export type AtlasMap = z.infer<typeof AtlasMapSchema>;
+export type Atlas = z.infer<typeof AtlasSchema>;
+export type AtlasCatalog = z.infer<typeof AtlasCatalogSchema>;

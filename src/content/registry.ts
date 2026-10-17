@@ -1,11 +1,14 @@
-import { CityIndexSchema, type CityIndex, type City } from "./schema";
+import { AtlasCatalogSchema, CityIndexSchema, type AtlasCatalog, type CityIndex, type City } from "./schema";
 import { validateCity } from "./validate";
 import indexJson from "../../content/cities/index.json";
+import atlasJson from "../../content/atlases.json";
 
 /** City packs are code-split: a city's JSON is only fetched when selected. */
 const packs = import.meta.glob("../../content/cities/*/city.json");
 
 export const cityIndex: CityIndex = CityIndexSchema.parse(indexJson);
+/** The map-room shelf: atlases of regions and ages, each holding city maps. */
+export const atlasCatalog: AtlasCatalog = AtlasCatalogSchema.parse(atlasJson);
 
 const cache = new Map<string, Promise<City>>();
 

@@ -1,0 +1,494 @@
+{
+  "atlases": [
+    {
+      "id": "egypt-near-east",
+      "title": "Egypt and the Ancient Near East",
+      "region": "Nile, Mesopotamia and Persia",
+      "era": "3000 – 330 BCE",
+      "from": -3000,
+      "to": -330,
+      "color": "#b08a3e",
+      "blurb": "The first cities: temple towns on the Nile, brick metropolises between the Tigris and Euphrates, and the palace terraces of the Persian kings.",
+      "themes": [
+        "Temples and palaces",
+        "Writing and records",
+        "Rivers and irrigation"
+      ],
+      "area": [[24, 22], [36, 22], [44, 25], [52, 25], [60, 28], [60, 38], [46, 40], [36, 37], [30, 32], [24, 32]],
+      "maps": [
+        {
+          "title": "Thebes",
+          "subtitle": "Temples of Karnak and Luxor, 1250 BCE",
+          "at": [32.64, 25.7],
+          "glyph": "obelisk",
+          "blurb": "The religious capital of New Kingdom Egypt, its east bank given over to the great temples of Amun."
+        },
+        {
+          "title": "Babylon",
+          "subtitle": "Nebuchadnezzar's city, 575 BCE",
+          "at": [44.42, 32.54],
+          "glyph": "ziggurat",
+          "blurb": "A walled city on the Euphrates with the Ishtar Gate, the processional way and the ziggurat Etemenanki."
+        },
+        {
+          "title": "Persepolis",
+          "subtitle": "Terrace of the Achaemenid kings, 500 BCE",
+          "at": [52.89, 29.93],
+          "glyph": "temple",
+          "blurb": "Ceremonial capital of Darius and Xerxes, built on a stone terrace at the foot of the Mountain of Mercy."
+        }
+      ]
+    },
+    {
+      "id": "classical-mediterranean",
+      "title": "The Classical Mediterranean",
+      "region": "Greece, Rome and the Mediterranean shores",
+      "era": "800 BCE – 500 CE",
+      "from": -800,
+      "to": 500,
+      "color": "#a65238",
+      "blurb": "City-states and an empire around one sea: Greek agoras and theatres, then Rome's forums, baths and aqueducts from Britain to Egypt.",
+      "themes": [
+        "Forums, temples and baths",
+        "Republic and empire",
+        "Sea lanes and roads"
+      ],
+      "area": [[-10, 30], [36, 30], [37, 36], [30, 42], [20, 46], [10, 46], [0, 44], [-10, 44]],
+      "maps": [
+        {
+          "city": "rome",
+          "period": "empire-100ce",
+          "title": "Rome",
+          "subtitle": "Caput mundi, 100 CE",
+          "at": [12.48, 41.89],
+          "glyph": "arena",
+          "blurb": "The capital of the empire at its height: the Colosseum new, Trajan's Forum rising, a million people in the insulae."
+        },
+        {
+          "title": "Athens",
+          "subtitle": "The city of Pericles, 430 BCE",
+          "at": [23.73, 37.98],
+          "glyph": "temple",
+          "blurb": "The Parthenon newly finished on the Acropolis, the Agora below, the Long Walls running to the Piraeus."
+        },
+        {
+          "title": "Alexandria",
+          "subtitle": "Ptolemaic capital, 200 BCE",
+          "at": [29.92, 31.2],
+          "glyph": "lighthouse",
+          "blurb": "Alexander's city on the Egyptian coast, with the Pharos lighthouse, the royal quarter and the Museum and Library."
+        },
+        {
+          "title": "Carthage",
+          "subtitle": "The Punic city, 150 BCE",
+          "at": [10.32, 36.85],
+          "glyph": "temple",
+          "blurb": "Rome's great rival in its last years: the circular naval harbour, the Byrsa hill and the city walls."
+        }
+      ]
+    },
+    {
+      "id": "ancient-india",
+      "title": "Ancient India",
+      "region": "The Indus and the Ganges",
+      "era": "2600 BCE – 550 CE",
+      "from": -2600,
+      "to": 550,
+      "color": "#c07a2c",
+      "blurb": "From the planned brick cities of the Indus to the capitals of the Mauryan and Gupta kings on the Ganges plain.",
+      "themes": [
+        "Planned cities and drains",
+        "Kingdoms and monasteries",
+        "Trade along the rivers"
+      ],
+      "area": [[66, 22], [72, 8], [80, 6], [88, 20], [89, 27], [80, 31], [72, 35], [66, 30]],
+      "maps": [
+        {
+          "title": "Mohenjo-daro",
+          "subtitle": "Indus city, 2500 BCE",
+          "at": [68.14, 27.33],
+          "glyph": "stupa",
+          "blurb": "A grid of baked-brick houses with covered drains, a citadel mound and the Great Bath."
+        },
+        {
+          "title": "Pataliputra",
+          "subtitle": "Mauryan capital, 300 BCE",
+          "at": [85.14, 25.6],
+          "glyph": "stupa",
+          "blurb": "The capital of Chandragupta Maurya and Ashoka on the Ganges, described by the Greek envoy Megasthenes."
+        },
+        {
+          "title": "Taxila",
+          "subtitle": "Gateway city, 300 BCE",
+          "at": [72.82, 33.75],
+          "glyph": "stupa",
+          "blurb": "A crossroads city of the north-west, known for its centre of learning and for the meeting of Indian and Greek worlds."
+        }
+      ]
+    },
+    {
+      "id": "silk-road",
+      "title": "The Silk Road",
+      "region": "Central Asia, from Persia to China",
+      "era": "200 BCE – 1450 CE",
+      "from": -200,
+      "to": 1450,
+      "color": "#8f6b3a",
+      "blurb": "Oasis cities strung across deserts and mountains, where caravans traded silk, horses, paper and ideas between China, India, Persia and the West.",
+      "themes": [
+        "Caravanserais and bazaars",
+        "Oases and irrigation",
+        "Religions on the move"
+      ],
+      "area": [[30, 34], [50, 30], [70, 30], [90, 36], [105, 34], [110, 40], [95, 44], [75, 44], [55, 42], [38, 40]],
+      "maps": [
+        {
+          "title": "Samarkand",
+          "subtitle": "Timur's capital, 1400",
+          "at": [66.97, 39.65],
+          "glyph": "dome",
+          "blurb": "Timur's showpiece city, with the Bibi-Khanym mosque and the Registan square of markets."
+        },
+        {
+          "title": "Merv",
+          "subtitle": "Seljuk metropolis, 1100",
+          "at": [61.84, 37.66],
+          "glyph": "dome",
+          "blurb": "One of the largest cities of its age, an oasis capital ringed by walls, later destroyed by the Mongols."
+        },
+        {
+          "title": "Dunhuang",
+          "subtitle": "Oasis of the caves, 800",
+          "at": [94.66, 40.14],
+          "glyph": "pagoda",
+          "blurb": "The last stop before the deserts of the Tarim, and the Buddhist cave temples of Mogao carved into the cliffs nearby."
+        }
+      ]
+    },
+    {
+      "id": "imperial-china",
+      "title": "Imperial China",
+      "region": "The Yellow River and the north China plain",
+      "era": "200 BCE – 1400 CE",
+      "from": -200,
+      "to": 1400,
+      "color": "#9b3b2e",
+      "blurb": "Capitals laid out on a grid around the emperor's palace: wards and markets, canals for grain, and walls with great gates.",
+      "themes": [
+        "Gridded capitals",
+        "Markets and wards",
+        "The Grand Canal"
+      ],
+      "area": [[100, 22], [122, 22], [124, 32], [122, 42], [115, 42], [104, 38], [98, 30]],
+      "maps": [
+        {
+          "title": "Chang'an",
+          "subtitle": "Tang capital, 750",
+          "at": [108.94, 34.26],
+          "glyph": "pagoda",
+          "blurb": "The largest city of its time, a vast walled grid of residential wards with the East and West Markets."
+        },
+        {
+          "title": "Kaifeng",
+          "subtitle": "Northern Song capital, 1120",
+          "at": [114.31, 34.8],
+          "glyph": "pagoda",
+          "blurb": "A busy commercial city on the canals, the world of the scroll 'Along the River During the Qingming Festival'."
+        },
+        {
+          "title": "Khanbaliq",
+          "subtitle": "Yuan capital, 1290",
+          "at": [116.4, 39.9],
+          "glyph": "pagoda",
+          "blurb": "Kublai Khan's new capital on the site of later Beijing, as Marco Polo described it."
+        }
+      ]
+    },
+    {
+      "id": "islamic-golden-age",
+      "title": "The Islamic Golden Age",
+      "region": "From al-Andalus to Mesopotamia",
+      "era": "750 – 1260",
+      "from": 750,
+      "to": 1260,
+      "color": "#2f6f6a",
+      "blurb": "Caliphal capitals of scholars, mosques and markets, linked by pilgrimage and trade from Spain to Iraq.",
+      "themes": [
+        "Mosques and madrasas",
+        "Houses of learning",
+        "Gardens and water"
+      ],
+      "area": [[-10, 32], [-6, 44], [0, 40], [10, 36], [30, 30], [36, 36], [44, 38], [60, 38], [62, 28], [50, 22], [40, 14], [30, 22], [10, 30], [-6, 30]],
+      "maps": [
+        {
+          "title": "Baghdad",
+          "subtitle": "The Round City, 800",
+          "at": [44.36, 33.31],
+          "glyph": "dome",
+          "blurb": "Al-Mansur's circular capital on the Tigris, with the caliph's palace and great mosque at its centre."
+        },
+        {
+          "title": "Córdoba",
+          "subtitle": "Umayyad capital, 950",
+          "at": [-4.78, 37.88],
+          "glyph": "dome",
+          "blurb": "The largest city of western Europe in its day, with its Great Mosque and the palace-city of Madinat al-Zahra."
+        },
+        {
+          "title": "Cairo",
+          "subtitle": "Fatimid city, 1050",
+          "at": [31.26, 30.05],
+          "glyph": "dome",
+          "blurb": "The walled royal city of the Fatimids, with the mosque of al-Azhar and its gates of Bab Zuwayla and Bab al-Futuh."
+        }
+      ]
+    },
+    {
+      "id": "medieval-europe",
+      "title": "Medieval Europe",
+      "region": "Latin Christendom and Byzantium",
+      "era": "500 – 1450",
+      "from": 500,
+      "to": 1450,
+      "color": "#5c6f86",
+      "blurb": "Walled towns of towers and churches, pilgrims and guilds, cathedrals rising over crowded streets and markets.",
+      "themes": [
+        "Churches and pilgrims",
+        "Towers and walls",
+        "Guilds and markets"
+      ],
+      "area": [[-10, 36], [-10, 58], [5, 60], [20, 58], [30, 50], [30, 40], [18, 38], [10, 38], [0, 40]],
+      "maps": [
+        {
+          "city": "rome",
+          "period": "medieval-1300",
+          "title": "Rome",
+          "subtitle": "City of pilgrims, 1300",
+          "at": [12.48, 41.89],
+          "glyph": "tower",
+          "blurb": "The first Jubilee year: baronial towers in the ruins, pilgrims crowding to St Peter's and the Lateran."
+        },
+        {
+          "title": "Constantinople",
+          "subtitle": "Queen of cities, 1150",
+          "at": [28.98, 41.01],
+          "glyph": "dome",
+          "blurb": "The Byzantine capital behind its land walls, with Hagia Sophia, the Hippodrome and the harbours of the Golden Horn."
+        },
+        {
+          "title": "Paris",
+          "subtitle": "Gothic Paris, 1250",
+          "at": [2.35, 48.86],
+          "glyph": "cathedral",
+          "blurb": "Notre-Dame and the Sainte-Chapelle on the Île de la Cité, the university on the Left Bank, the merchants on the Right."
+        },
+        {
+          "title": "Venice",
+          "subtitle": "The lagoon republic, 1400",
+          "at": [12.34, 45.44],
+          "glyph": "tower",
+          "blurb": "A trading empire on islands: St Mark's, the Doge's Palace, the Arsenal and the Rialto market."
+        }
+      ]
+    },
+    {
+      "id": "renaissance-europe",
+      "title": "Renaissance Europe",
+      "region": "Italy, Iberia and the Low Countries",
+      "era": "1400 – 1650",
+      "from": 1400,
+      "to": 1650,
+      "color": "#6d7a46",
+      "blurb": "New palaces, piazzas and domes, printing presses and banks, and ports facing an ocean world.",
+      "themes": [
+        "Palaces and piazzas",
+        "Artists and patrons",
+        "Ports of the ocean trade"
+      ],
+      "area": [[-10, 36], [-8, 52], [5, 55], [18, 54], [20, 44], [16, 38], [0, 36]],
+      "maps": [
+        {
+          "city": "rome",
+          "period": "renaissance-1560",
+          "title": "Rome",
+          "subtitle": "Papal Rome, 1560",
+          "at": [12.48, 41.89],
+          "glyph": "cathedral",
+          "blurb": "Michelangelo's St Peter's rising, new straight streets cut by the popes, palazzi in the old Campus Martius."
+        },
+        {
+          "title": "Florence",
+          "subtitle": "The Medici city, 1490",
+          "at": [11.26, 43.77],
+          "glyph": "cathedral",
+          "blurb": "Brunelleschi's dome over the cathedral, the Medici palace and the workshops of painters and goldsmiths."
+        },
+        {
+          "title": "Lisbon",
+          "subtitle": "Port of the Indies, 1550",
+          "at": [-9.14, 38.71],
+          "glyph": "tower",
+          "blurb": "The riverside capital of a sea empire, its palace on the Tagus waterfront and ships leaving for India and Brazil."
+        }
+      ]
+    },
+    {
+      "id": "mughal-india",
+      "title": "Mughal India",
+      "region": "Hindustan, from Lahore to Bengal",
+      "era": "1526 – 1857",
+      "from": 1526,
+      "to": 1857,
+      "color": "#b3563d",
+      "blurb": "Red sandstone forts, white marble tombs and garden cities of the Mughal emperors.",
+      "themes": [
+        "Forts and palaces",
+        "Gardens and tombs",
+        "Bazaars and caravanserais"
+      ],
+      "area": [[64, 23], [72, 16], [80, 18], [90, 22], [92, 26], [84, 30], [74, 35], [66, 32]],
+      "maps": [
+        {
+          "city": "delhi",
+          "period": "shahjahan-1660",
+          "title": "Delhi",
+          "subtitle": "Shahjahanabad, 1660",
+          "at": [77.24, 28.65],
+          "glyph": "mughal",
+          "blurb": "Shah Jahan's new capital: the Red Fort on the Yamuna, the Jama Masjid and the bazaar of Chandni Chowk."
+        },
+        {
+          "title": "Agra",
+          "subtitle": "City of the Taj, 1650",
+          "at": [78.01, 27.18],
+          "glyph": "mughal",
+          "blurb": "The Agra Fort and the newly finished Taj Mahal, with riverside gardens along the Yamuna."
+        },
+        {
+          "title": "Fatehpur Sikri",
+          "subtitle": "Akbar's city, 1585",
+          "at": [77.66, 27.09],
+          "glyph": "mughal",
+          "blurb": "Akbar's red sandstone capital on a ridge, with the Buland Darwaza and the court of the Diwan-i-Khas."
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "title": "Japan, from Nara to Edo",
+      "region": "The Japanese islands",
+      "era": "710 – 1868",
+      "from": 710,
+      "to": 1868,
+      "color": "#7a4e6d",
+      "blurb": "Capitals modelled on Chang'an, then castle towns and the great shogun's city of Edo.",
+      "themes": [
+        "Temples and shrines",
+        "Castles and samurai",
+        "Merchants and the floating world"
+      ],
+      "area": [[129, 31], [131, 30], [136, 33], [141, 35], [142, 40], [140, 42], [136, 37], [131, 34]],
+      "maps": [
+        {
+          "title": "Nara",
+          "subtitle": "Heijō-kyō, 750",
+          "at": [135.8, 34.69],
+          "glyph": "pagoda",
+          "blurb": "A gridded capital on the Chinese model, with the great bronze Buddha of Tōdai-ji."
+        },
+        {
+          "title": "Kyoto",
+          "subtitle": "Heian-kyō, 1000",
+          "at": [135.77, 35.01],
+          "glyph": "pagoda",
+          "blurb": "The court city of the Tale of Genji, its avenues laid out between the hills."
+        },
+        {
+          "title": "Edo",
+          "subtitle": "The shogun's city, 1800",
+          "at": [139.76, 35.68],
+          "glyph": "pagoda",
+          "blurb": "One of the largest cities in the world, around the shogun's castle, with merchant quarters and the Nihonbashi bridge."
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "title": "African Kingdoms",
+      "region": "The Horn, the Sahel and the Zimbabwe plateau",
+      "era": "100 – 1600",
+      "from": 100,
+      "to": 1600,
+      "color": "#a8732f",
+      "blurb": "Capitals of trade in gold, salt and ivory: stelae fields, mud-brick mosques and great stone enclosures.",
+      "themes": [
+        "Gold and salt",
+        "Scholars and mosques",
+        "Stone towns"
+      ],
+      "area": [[-12, 12], [-12, 22], [0, 22], [10, 18], [20, 12], [38, 16], [43, 10], [36, -6], [34, -22], [26, -24], [24, -14], [14, 0], [0, 4], [-10, 6]],
+      "maps": [
+        {
+          "title": "Aksum",
+          "subtitle": "City of the stelae, 350",
+          "at": [38.72, 14.13],
+          "glyph": "obelisk",
+          "blurb": "Capital of a trading kingdom of the Horn of Africa, with its tall carved stone stelae."
+        },
+        {
+          "title": "Timbuktu",
+          "subtitle": "City of scholars, 1450",
+          "at": [-3.0, 16.77],
+          "glyph": "adobe",
+          "blurb": "A Saharan trading town with the mud-brick mosques of Djinguereber and Sankoré and their scholars."
+        },
+        {
+          "title": "Great Zimbabwe",
+          "subtitle": "The stone city, 1350",
+          "at": [30.93, -20.27],
+          "glyph": "enclosure",
+          "blurb": "Dry-stone enclosures on the Zimbabwe plateau, the centre of a kingdom trading gold to the Indian Ocean coast."
+        }
+      ]
+    },
+    {
+      "id": "americas",
+      "title": "Mesoamerica and the Andes",
+      "region": "The Valley of Mexico to the Andes",
+      "era": "100 BCE – 1532 CE",
+      "from": -100,
+      "to": 1532,
+      "color": "#3f7a5a",
+      "blurb": "Pyramid cities, island capitals on a lake and an empire of roads across the mountains.",
+      "themes": [
+        "Pyramids and plazas",
+        "Lakes and causeways",
+        "Roads across the mountains"
+      ],
+      "area": [[-106, 22], [-97, 24], [-86, 20], [-78, 8], [-70, -5], [-66, -18], [-70, -20], [-80, -8], [-80, 0], [-92, 14], [-104, 18]],
+      "maps": [
+        {
+          "title": "Teotihuacan",
+          "subtitle": "City of the gods, 450",
+          "at": [-98.84, 19.69],
+          "glyph": "steps",
+          "blurb": "A great planned city along the Avenue of the Dead, with the Pyramids of the Sun and the Moon."
+        },
+        {
+          "title": "Tenochtitlan",
+          "subtitle": "The island capital, 1519",
+          "at": [-99.13, 19.43],
+          "glyph": "steps",
+          "blurb": "The Mexica capital on Lake Texcoco, joined to the shore by causeways, with the Templo Mayor at its heart."
+        },
+        {
+          "title": "Cusco",
+          "subtitle": "Navel of the Inca world, 1530",
+          "at": [-71.97, -13.53],
+          "glyph": "enclosure",
+          "blurb": "The Inca capital of fitted stone walls, the Coricancha temple and roads leading to every corner of the empire."
+        }
+      ]
+    }
+  ]
+}
