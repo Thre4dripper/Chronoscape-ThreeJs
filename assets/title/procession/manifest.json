@@ -1,0 +1,125 @@
+{
+ "figures": [
+  {
+   "id": "scribe",
+   "label": "A scribe of Thebes",
+   "era": "Egypt, 1250 BCE",
+   "src": "scribe.webp",
+   "frames": 8,
+   "w": 77,
+   "h": 126,
+   "fps": 9
+  },
+  {
+   "id": "legionary",
+   "label": "A Roman legionary",
+   "era": "Rome, 100 CE",
+   "src": "legionary.webp",
+   "frames": 8,
+   "w": 106,
+   "h": 157,
+   "fps": 9
+  },
+  {
+   "id": "monk",
+   "label": "A monk on pilgrimage",
+   "era": "India, 250 BCE",
+   "src": "monk.webp",
+   "frames": 8,
+   "w": 86,
+   "h": 142,
+   "fps": 9
+  },
+  {
+   "id": "merchant",
+   "label": "A Silk Road merchant",
+   "era": "Samarkand, 1400",
+   "src": "merchant.webp",
+   "frames": 8,
+   "w": 201,
+   "h": 165,
+   "fps": 9
+  },
+  {
+   "id": "official",
+   "label": "A Tang official",
+   "era": "Chang'an, 750",
+   "src": "official.webp",
+   "frames": 8,
+   "w": 78,
+   "h": 129,
+   "fps": 9
+  },
+  {
+   "id": "scholar",
+   "label": "A scholar of the House of Wisdom",
+   "era": "Baghdad, 830",
+   "src": "scholar.webp",
+   "frames": 8,
+   "w": 93,
+   "h": 128,
+   "fps": 9
+  },
+  {
+   "id": "knight",
+   "label": "A crusader knight",
+   "era": "Europe, 1190",
+   "src": "knight.webp",
+   "frames": 8,
+   "w": 102,
+   "h": 124,
+   "fps": 9
+  },
+  {
+   "id": "painter",
+   "label": "A painter's apprentice",
+   "era": "Florence, 1490",
+   "src": "painter.webp",
+   "frames": 8,
+   "w": 91,
+   "h": 123,
+   "fps": 9
+  },
+  {
+   "id": "courtier",
+   "label": "A Mughal courtier",
+   "era": "Delhi, 1660",
+   "src": "courtier.webp",
+   "frames": 8,
+   "w": 76,
+   "h": 142,
+   "fps": 9
+  },
+  {
+   "id": "samurai",
+   "label": "A samurai",
+   "era": "Edo, 1800",
+   "src": "samurai.webp",
+   "frames": 8,
+   "w": 90,
+   "h": 133,
+   "fps": 9
+  },
+  {
+   "id": "trader",
+   "label": "A salt trader",
+   "era": "Timbuktu, 1450",
+   "src": "trader.webp",
+   "frames": 8,
+   "w": 92,
+   "h": 132,
+   "fps": 9
+  },
+  {
+   "id": "chasqui",
+   "label": "An Inca runner",
+   "era": "Cusco, 1500",
+   "src": "chasqui.webp",
+   "frames": 8,
+   "w": 85,
+   "h": 123,
+   "fps": 9
+  }
+ ],
+ "scale": 1.0
+}
