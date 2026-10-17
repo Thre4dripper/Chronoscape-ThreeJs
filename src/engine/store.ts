@@ -45,7 +45,7 @@ type State = {
 };
 
 type Actions = {
-  setCity: (id: string, city: City) => void;
+  setCity: (id: string, city: City, periodId?: string | null) => void;
   setLoading: (id: string) => void;
   setError: (msg: string) => void;
   hover: (id: string | null) => void;
@@ -100,14 +100,14 @@ export const useStore = create<Store>((set, get) => ({
 
   setLoading: (id) => set({ loading: true, error: null, cityId: id }),
   setError: (msg) => set({ loading: false, error: msg }),
-  setCity: (id, city) =>
+  setCity: (id, city, periodId) =>
     set({
       ...initial,
       touch: get().touch,
       hour: get().hour,
       city,
       cityId: id,
-      periodId: city.defaultPeriodId,
+      periodId: periodId && city.periods.some((p) => p.id === periodId) ? periodId : city.defaultPeriodId,
     }),
 
   hover: (id) => {

@@ -22,6 +22,8 @@ export type Fabric = { lots: Lot[]; insulae: Insula[]; fields: Field[]; trees: T
 const cache = new Map<string, Fabric>();
 
 export function getFabric(city: City, periodId: string): Fabric {
+  // while one city hands over to another, the outgoing 3D scene can render once with the new city's era
+  if (!city.periods.some((p) => p.id === periodId)) periodId = city.defaultPeriodId;
   const key = `${city.id}:${periodId}`;
   let f = cache.get(key);
   if (!f) {

@@ -24,7 +24,9 @@ const SETTLE_S = 0.3;
 export function ParchmentMap({ city }: { city: City }) {
   const f = frameOf(city);
   const [MW, MH] = city.map.size;
-  const periodId = useStore((s) => s.periodId) ?? city.defaultPeriodId;
+  const storePeriod = useStore((s) => s.periodId);
+  // during a hand-over between cities the store can briefly hold the next city's era
+  const periodId = storePeriod && city.periods.some((p) => p.id === storePeriod) ? storePeriod : city.defaultPeriodId;
   const { camera, gl } = useThree();
   // one service (and worker) per mounted city; created in an effect so it survives React's dev double-mount
   const [service, setService] = useState<PlateService | null>(null);
