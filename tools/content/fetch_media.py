@@ -30,10 +30,15 @@ HISTORIC = [(r"piranesi", 6), (r"\bvasi\b|giuseppe_vasi", 5), (r"panini|pannini"
 def get(params):
     params = {**params, "format": "json", "formatversion": "2"}
     req = urllib.request.Request(API + "?" + urllib.parse.urlencode(params), headers={"User-Agent": UA})
-    for attempt in range(4):
+    for attempt in range(8):
         try:
             with urllib.request.urlopen(req, timeout=30, context=CTX) as r:
                 return json.load(r)
+        except urllib.error.HTTPError as e:
+            err = e
+            # rate-limited: wait as long as the server asks (or back off), then try again
+            wait = float(e.headers.get("Retry-After") or 0) or 8 * (attempt + 1) if e.code in (429, 503) else 1.5 * (attempt + 1)
+            time.sleep(min(wait, 120))
         except Exception as e:
             time.sleep(1.5 * (attempt + 1))
             err = e
