@@ -57,7 +57,7 @@ export function firstYear(text: string | undefined): number | null {
   const re = /(\d{1,4})(?:\s*(?:–|-|or|to|and)\s*(\d{1,4}))?\s*(BCE|BC|CE|AD)\b/g;
   const m = re.exec(text);
   if (!m) {
-    const c = /\b(1[0-9]{3})\b/.exec(text); // a bare later year, "1560"
+    const c = /\b([1-9][0-9]{2,3})\b(?!\s*(?:m|metres|km|ft)\b)/.exec(text); // a bare later year, "1560", "537"
     return c ? parseInt(c[1], 10) : null;
   }
   const y = parseInt(m[1], 10);
