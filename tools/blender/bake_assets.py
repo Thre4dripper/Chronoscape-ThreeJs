@@ -50,6 +50,14 @@ def set_cycles(samples):
     except TypeError as e:
         raise RuntimeError(f"Cycles not available: {e}")
     c = scene.cycles
+    if os.environ.get("BAKE_CPU"):
+        # headless runs from a terminal can hang initialising Metal; the occlusion bake is light enough for the CPU
+        c.device = "CPU"
+        c.samples = samples
+        c.use_denoising = False
+        scene.render.bake.margin = 6
+        scene.render.bake.use_clear = False
+        return
     try:
         prefs = bpy.context.preferences.addons["cycles"].preferences
         prefs.compute_device_type = "METAL"
