@@ -4,7 +4,7 @@ import { planFor } from "./plans";
 import { ctx2d, makeCanvas, type AnyCanvas, type Ctx2D } from "./canvas";
 
 /** Bump when the drawing changes, so baked plates are re-baked. */
-export const PLATE_VERSION = 9;
+export const PLATE_VERSION = 10;
 import { centroid, chaikin, hash, mulberry32, offsetPath, pathLength, pointAlong, rectCorners } from "./geom";
 
 /**
@@ -229,11 +229,14 @@ export function drawPlate(canvas: AnyCanvas, city: City, periodId: string, view:
   }
 
   /* ---------------- water ---------------- */
-  for (const w of m.water.filter(inP)) {
-    const pts = chaikin(w.path, 3);
-    if (!visPath(pts, w.width)) continue;
+  // in passes over every channel (hatching, ink edge, fill, then ripples), so rivers, canals and lagoons
+  // drawn as overlapping ribbons merge into one body of water without seams
+  const waters = m.water
+    .filter(inP)
+    .map((w) => ({ w, pts: chaikin(w.path, 3), rw: mulberry32(hash((w.id ?? w.name) + "shore")) }))
+    .filter(({ w, pts }) => visPath(pts, w.width));
+  for (const { w, pts, rw } of waters) {
     // shore hatching
-    const rw = mulberry32(hash((w.id ?? w.name) + "shore"));
     ctx.strokeStyle = hexA(ink, 0.28);
     ctx.lineWidth = lw(0.7, 0.45);
     for (const side of [-1, 1]) {
@@ -250,8 +253,10 @@ export function drawPlate(canvas: AnyCanvas, city: City, periodId: string, view:
       }
       ctx.stroke();
     }
-    stroke(ctx, pts, hexA(ink, 0.85), w.width + lw(4), "round");
-    stroke(ctx, pts, hexA(pal.water, 0.92), w.width, "round");
+  }
+  for (const { w, pts } of waters) stroke(ctx, pts, hexA(ink, 0.85), w.width + lw(4), "round");
+  for (const { w, pts } of waters) stroke(ctx, pts, hexA(pal.water, 0.92), w.width, "round");
+  for (const { w, pts, rw } of waters) {
     // engraved ripples running with the current
     ctx.setLineDash([lw(18), lw(9)]);
     for (let k = -0.4; k <= 0.41; k += 0.1) {
@@ -601,8 +606,15 @@ export function drawPlate(canvas: AnyCanvas, city: City, periodId: string, view:
   frame(ctx, MW, MH, ink, lw, vis);
   if (m.compass && visPt(m.compass[0], m.compass[1], 300)) compass(ctx, m.compass[0], m.compass[1], 150, ink, pal.parchment);
   {
-    const [cx, cy] = m.cartouche ?? [MW * 0.03, MH * 0.97];
-    const bw = 900, bh = 300;
+    // the box grows to fit long names and subtitles, and stays inside the frame
+    ctx.font = `92px "IM Fell English", "Cormorant Garamond", Georgia, serif`;
+    const nameW = ctx.measureText(city.name.toUpperCase()).width + 92 * 0.18 * city.name.length;
+    ctx.font = `italic 34px "IM Fell English", "Cormorant Garamond", Georgia, serif`;
+    const subW = ctx.measureText(`${period.label} · ${period.year}`).width + 34 * 0.12 * (period.label.length + 8);
+    const bw = Math.max(900, nameW + 180, subW + 180), bh = 300;
+    let [cx, cy] = m.cartouche ?? [MW * 0.03, MH * 0.97];
+    cx = Math.max(MW * 0.02 + 40, Math.min(cx, MW * 0.98 - bw - 40));
+    cy = Math.max(bh + MH * 0.02 + 40, Math.min(cy, MH * 0.98 - 120));
     if (vis(cx, cy - bh, cx + bw, cy + 120)) cartouche(ctx, cx, cy - bh, bw, bh, city.name, period, ink, pal.parchment);
   }
 
