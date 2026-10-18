@@ -11,6 +11,7 @@ import { distToEdges, polygonArea, rectInPolygon, rowsInPolygon, scatterInPolygo
 import { prefersReducedMotion } from "../motion";
 import { bakedMaterial, bakeify, shaded } from "../render/baked";
 import { useModel } from "../render/models";
+import { propUrl, usePropSet } from "../render/propSets";
 
 /**
  * Hover open land and the whole parcel rises out of the paper along its exact
@@ -195,6 +196,7 @@ function Parcel({ city, area, active, onGone }: { city: City; area: Area; active
     return { kind: plants.kind, pts };
   }, [plants, actors, area.pts]);
 
+  const set = usePropSet(city);
   useFrame((_, dtRaw) => {
     const dt = Math.min(dtRaw, 0.1);
     progress.current += ((active ? 1 : 0) - progress.current) * (prefersReducedMotion() ? 1 : 1 - Math.exp(-6 * dt));
@@ -213,15 +215,15 @@ function Parcel({ city, area, active, onGone }: { city: City; area: Area; active
       {plantsInside && plantsInside.pts.length > 0 && <Plants kind={plantsInside.kind} pts={plantsInside.pts} toW={toW} y={depth} scale={f.scale} angle={area.angle} />}
       <Suspense fallback={null}>
         {actors.map((a, i) => (
-          <Actor key={i} prop={a.prop} pos={toW(a.p)} y={depth} rot={a.rot} s={f.scale * EXAG} />
+          <Actor key={i} url={propUrl(set, a.prop)} pos={toW(a.p)} y={depth} rot={a.rot} s={f.scale * EXAG} />
         ))}
       </Suspense>
     </group>
   );
 }
 
-function Actor({ prop, pos, y, rot, s }: { prop: string; pos: [number, number]; y: number; rot: number; s: number }) {
-  const gltf = useModel(`/models/props/${prop}.glb`);
+function Actor({ url, pos, y, rot, s }: { url: string; pos: [number, number]; y: number; rot: number; s: number }) {
+  const gltf = useModel(url);
   const root = useMemo(() => {
     return bakeify(gltf.scene.clone(true));
   }, [gltf]);

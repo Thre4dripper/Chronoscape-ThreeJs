@@ -9,6 +9,7 @@ import { OccGrid, distToSeg, hash, mulberry32, pathLength, pointAlong } from "./
 import { getFabric } from "./fabric";
 import { prefersReducedMotion } from "../motion";
 import { useModel } from "../render/models";
+import { propUrl, usePropSet } from "../render/propSets";
 import { bakedMaterial, miniatureMaterial, shaded } from "../render/baked";
 
 /**
@@ -22,7 +23,6 @@ const EXAG = 2.2; // drawn larger than life so they read on the map
 const HALF = 110; // metres of street either side of the pointer
 
 type Kind = "walker" | "matron" | "porter" | "mule" | "handcart" | "litter" | "cart" | "stall-fruit" | "stall-pots" | "stall-cloth";
-const URL = (k: Kind) => `/models/props/${k}.glb`;
 
 type Stretch = { key: string; path: Vec2[]; s0: number; width: number; town: boolean };
 type Mover = { kind: Kind; s: number; dir: 1 | -1; lane: number; speed: number; phase: number };
@@ -133,8 +133,10 @@ function StretchLife({ city, stretch, active, onGone }: { city: City; stretch: S
   const periodId = useStore((s) => s.periodId) ?? city.defaultPeriodId;
   const hour = useStore((s) => s.hour);
   const fabric = getFabric(city, periodId);
+  const set = usePropSet(city);
   const night = hour < 6 || hour >= 21;
-  const ancient = fabric.style === "antique" || fabric.style === "archaic";
+  const noWheels = fabric.style === "mesoamerican" || fabric.style === "andean" || fabric.style === "kraal";
+  const ancient = fabric.style !== "medieval" && fabric.style !== "early-modern" && fabric.style !== "gothic";
   const L = pathLength(stretch.path);
   const a0 = Math.max(0, stretch.s0 - HALF), a1 = Math.min(L, stretch.s0 + HALF);
 
@@ -202,7 +204,8 @@ function StretchLife({ city, stretch, active, onGone }: { city: City; stretch: S
     for (let i = 0; i < Math.round(5 * crowd); i++) people.push("matron");
     for (let i = 0; i < Math.round(3 * crowd); i++) people.push("porter");
     const VEH: Partial<Record<Kind, [number, number]>> = { mule: [0.9, 3.2], handcart: [0.8, 3.0], litter: [1.05, 4.6], cart: [1.9, 6.5] }; // half width, length (m)
-    const vehicles: Kind[] = night ? [] : ["mule", "handcart", ...(ancient && stretch.town ? (["litter"] as Kind[]) : []), ...(!stretch.town ? (["cart"] as Kind[]) : [])];
+    // no wheels or draught animals in the Americas or southern Africa: people carried everything
+    const vehicles: Kind[] = night || noWheels ? [] : ["mule", "handcart", ...(ancient && stretch.town ? (["litter"] as Kind[]) : []), ...(!stretch.town ? (["cart"] as Kind[]) : [])];
     const span = a1 - a0;
     const fill = (lane: { off: number; speed: number; len: number; kinds: Kind[] }, dir: 1 | -1) => {
       const n = lane.kinds.length;
@@ -229,7 +232,7 @@ function StretchLife({ city, stretch, active, onGone }: { city: City; stretch: S
       }
     }
     return { movers, fixed, exag };
-  }, [stretch, periodId, night, ancient, a0, a1, fabric]);
+  }, [stretch, periodId, night, ancient, noWheels, a0, a1, fabric]);
 
   const group = useRef<THREE.Group>(null);
   const p = useRef(0);
@@ -251,7 +254,7 @@ function StretchLife({ city, stretch, active, onGone }: { city: City; stretch: S
       {kinds.map((k) => (
         <Suspense key={k} fallback={null}>
           <Kinds
-            url={URL(k)}
+            url={propUrl(set, k)}
             movers={movers.filter((m) => m.kind === k)}
             fixed={fixed.filter((x) => x.kind === k)}
             path={stretch.path}

@@ -12,6 +12,7 @@ import { Smoke } from "../effects/Smoke";
 import { prefersReducedMotion } from "../motion";
 import { bakeify } from "../render/baked";
 import { useModel } from "../render/models";
+import { propUrl, usePropSet } from "../render/propSets";
 
 /**
  * Small scenes of daily life that rise out of the map on hover: the forge
@@ -20,7 +21,6 @@ import { useModel } from "../render/models";
  * (assets/models/props), shown a little larger than life so they read.
  */
 type PropName = "forge" | "farmer" | "wagon" | "stall" | "bakery" | "cart" | "shepherd" | "crowd";
-const url = (p: PropName) => `/models/props/${p}.glb`;
 
 const EXAGGERATE = 2.2;
 
@@ -132,7 +132,7 @@ export function LifeProps({ city }: { city: City }) {
 
 function PropScene({ city, scene, active, onGone }: { city: City; scene: Scene; active: boolean; onGone: () => void }) {
   const f = frameOf(city);
-  const gltf = useModel(url(scene.prop));
+  const gltf = useModel(propUrl(usePropSet(city), scene.prop));
   const root = useMemo(() => {
     const r = bakeify(gltf.scene.clone(true));
     return r;

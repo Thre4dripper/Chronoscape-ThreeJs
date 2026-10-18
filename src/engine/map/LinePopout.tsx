@@ -11,6 +11,7 @@ import { prefersReducedMotion } from "../motion";
 import { InstancedGlb } from "./InstancedGlb";
 import { bakeify, shaded } from "../render/baked";
 import { useModel } from "../render/models";
+import { propUrl, usePropSet } from "../render/propSets";
 
 /**
  * Linear things that rise around the pointer: a stretch of city wall with
@@ -210,8 +211,9 @@ function Boats({ city, run, active, onGone }: PartProps) {
   const f = frameOf(city);
   const [MW, MH] = city.map.size;
   const { group } = useRise(active, onGone, 4);
-  const boatG = useModel("/models/props/boat.glb");
-  const skiffG = useModel("/models/props/skiff.glb");
+  const set = usePropSet(city);
+  const boatG = useModel(propUrl(set, "boat"));
+  const skiffG = useModel(propUrl(set, "skiff"));
   const L = pathLength(run.path);
   const RANGE = 220;
   const boats = useMemo(() => {
