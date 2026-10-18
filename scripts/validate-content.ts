@@ -26,7 +26,7 @@ const dirs = readdirSync(citiesDir, { withFileTypes: true })
 for (const d of dirs) if (!listed.has(d)) console.warn(`warn  content/cities/${d} exists but is not listed in index.json`), warnings++;
 for (const id of listed) if (!dirs.includes(id)) console.error(`error index.json lists "${id}" but content/cities/${id}/ does not exist`), errors++;
 
-for (const id of listed) {
+for (const id of new Set([...listed, ...dirs])) {
   const file = join(citiesDir, id, "city.json");
   if (!existsSync(file)) {
     console.error(`error ${id}: missing city.json`);
