@@ -85,3 +85,67 @@ def move(o, x=0, y=0, z=0):
     return o
 
 
+# ---------------------------------------------------------------- openings and trim
+
+def arch_panel(name, w, h, loc, face="S", color=DARK, pointed=True, depth=0.3):
+    """A dark arched recess on a wall face (a door, an arcade bay, a window). loc = centre of its base on the wall."""
+    x, y, z = loc
+    rect_h = h - w / 2 * (1.1 if pointed else 1.0)
+    parts = [box(name + "_r", w, depth, rect_h, (0, 0, 0), color)]
+    if pointed:
+        tip = h - rect_h
+        pts = [(-w / 2, 0), (w / 2, 0), (w * 0.22, tip * 0.75), (0, tip), (-w * 0.22, tip * 0.75)]
+    else:
+        pts = [(w / 2 * math.cos(math.pi * i / 8), w / 2 * math.sin(math.pi * i / 8)) for i in range(9)]
+    verts = [(px, -depth / 2, pz + rect_h) for px, pz in pts] + [(px, depth / 2, pz + rect_h) for px, pz in pts]
+    n = len(pts)
+    faces = [tuple(range(n)), tuple(range(2 * n - 1, n - 1, -1))] + [(i, (i + 1) % n, n + (i + 1) % n, n + i) for i in range(n)]
+    parts.append(mesh_from(name + "_t", verts, faces, (0, 0, 0), color))
+    o = join(parts, name)
+    o = rot(o, {"S": 0, "N": 180, "E": 90, "W": -90}[face])
+    return move(o, x, y, z)
+
+
+def arcade(name, length, h, n, loc, face="S", color=DARK, pointed=True, fill=0.7, depth=0.3):
+    """A row of n arched recesses along a wall face, centred on loc."""
+    x, y, z = loc
+    bay = length / n
+    along = (1, 0) if face in ("S", "N") else (0, 1)
+    out = [arch_panel(f"{name}{i}", bay * fill, h, (x + along[0] * (-length / 2 + bay * (i + 0.5)), y + along[1] * (-length / 2 + bay * (i + 0.5)), z), face, color, pointed, depth) for i in range(n)]
+    return join(out, name)
+
+
+def merlons(name, w, d, z, size=0.8, gap=1.0, color=RED_SANDSTONE, shape="box"):
+    """Battlements round the top of a w x d rectangle. shape: box | round | stepped."""
+    out = []
+    step = size + gap
+    for side, (length, fixed, horiz) in enumerate([(w, -d / 2, True), (w, d / 2, True), (d, -w / 2, False), (d, w / 2, False)]):
+        n = max(1, int(length / step))
+        for i in range(n):
+            t = -length / 2 + (i + 0.5) * length / n
+            x, y = (t, fixed) if horiz else (fixed, t)
+            if shape == "round":
+                out.append(cylinder(f"{name}{side}_{i}", size / 2, size * 1.1, (x, y, z), color, verts=8))
+                out.append(dome(f"{name}{side}_{i}d", size / 2, (x, y, z + size * 1.1), color, segments=8, rings=4))
+            elif shape == "stepped":
+                out.append(box(f"{name}{side}_{i}", size, size, size * 0.6, (x, y, z), color))
+                out.append(box(f"{name}{side}_{i}b", size * 0.55, size * 0.55, size * 0.5, (x, y, z + size * 0.6), color))
+            else:
+                out.append(box(f"{name}{side}_{i}", size, size * 0.7, size * 1.1, (x, y, z), color))
+    return join(out, name)
+
+
+def cornice(name, w, d, z, h=0.6, over=0.5, color=LIMESTONE):
+    return box(name, w + over * 2, d + over * 2, h, (0, 0, z), color)
+
+
+def stair(name, w, rise, run, n, loc, face="S", color=LIMESTONE):
+    """Steps climbing from the ground at loc toward the building (away from face)."""
+    x, y, z = loc
+    # stacked treads, each shorter than the one below, all flush with the building side (+Y before rotation)
+    parts = [box(f"{name}{i}", w, run * (n - i) / n, rise / n, (0, run / 2 - run * (n - i) / n / 2, z + rise * i / n), color) for i in range(n)]
+    o = join(parts, name)
+    o = rot(o, {"S": 0, "N": 180, "E": 90, "W": -90}[face])
+    return move(o, x, y, 0)
+
+
