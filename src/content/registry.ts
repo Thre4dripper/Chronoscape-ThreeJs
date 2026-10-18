@@ -28,3 +28,7 @@ export function loadCity(id: string): Promise<City> {
   }
   return p;
 }
+
+// City packs and the atlas catalogue are rewritten often while content is being built; take those updates here
+// instead of letting them bubble up and remount the app (which sent the visitor back to the title page).
+if (import.meta.hot) import.meta.hot.accept(() => {});
