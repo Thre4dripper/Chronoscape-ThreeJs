@@ -1,0 +1,80 @@
+[
+ {
+  "id": "rome",
+  "src": "room/portraits/rome.jpg",
+  "w": 720,
+  "h": 316,
+  "caption": "Rome, from the Nuremberg Chronicle, 1493",
+  "atlas": "classical-mediterranean",
+  "map": "Rome",
+  "artist": "Michel Wolgemut, Wilhelm Pleydenwurff (Text: Hartmann Schedel)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_-_ROMA.png",
+  "file": "File:Nuremberg chronicles - ROMA.png"
+ },
+ {
+  "id": "venice",
+  "src": "room/portraits/venice.jpg",
+  "w": 720,
+  "h": 357,
+  "caption": "Venice, after Jacopo de' Barbari, 1500",
+  "atlas": "medieval-europe",
+  "map": "Venice",
+  "artist": "Jacopo de' Barbari",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:(Venice)_View_of_Venice_by_Jacopo_de%27_Barbari_-_Museo_Correr.jpg",
+  "file": "File:(Venice) View of Venice by Jacopo de' Barbari - Museo Correr.jpg"
+ },
+ {
+  "id": "constantinople",
+  "src": "room/portraits/constantinople.jpg",
+  "w": 720,
+  "h": 509,
+  "caption": "Constantinople, Braun and Hogenberg, 1572",
+  "atlas": "medieval-europe",
+  "map": "Constantinople",
+  "artist": "Georg Braun / Frans Hogenberg",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Braun_%26_Hogenberg_-_Byzantium_Nunc_Constantinopolis.jpg",
+  "file": "File:Braun & Hogenberg - Byzantium Nunc Constantinopolis.jpg"
+ },
+ {
+  "id": "tenochtitlan",
+  "src": "room/portraits/tenochtitlan.jpg",
+  "w": 720,
+  "h": 456,
+  "caption": "Tenochtitlan, the Nuremberg map of 1524",
+  "atlas": "americas",
+  "map": "Tenochtitlan",
+  "artist": "Hernán Cortés",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Map_of_Tenochtitlan_and_Gulf_of_Mexico,_1524.jpg",
+  "file": "File:Map of Tenochtitlan and Gulf of Mexico, 1524.jpg"
+ },
+ {
+  "id": "delhi",
+  "src": "room/portraits/delhi.jpg",
+  "w": 720,
+  "h": 514,
+  "caption": "The Jama Masjid, Delhi, Thomas Daniell, 1795",
+  "atlas": "mughal-india",
+  "map": "Delhi",
+  "artist": "Thomas Daniell",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Daniell_-_Jami_Masjid,_Delhi_-_Google_Art_Project.jpg",
+  "file": "File:Thomas Daniell - Jami Masjid, Delhi - Google Art Project.jpg"
+ },
+ {
+  "id": "edo",
+  "src": "room/portraits/edo.jpg",
+  "w": 720,
+  "h": 489,
+  "caption": "Nihonbashi, Edo, Hiroshige, 1833",
+  "atlas": "japan",
+  "map": "Edo",
+  "artist": "Utagawa Hiroshige",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E6%B5%B7%E9%81%93%E4%BA%94%E5%8D%81%E4%B8%89%E6%AC%A1%E4%B9%8B%E5%86%85_%E6%97%A5%E6%9C%AC%E6%A9%8B_%E6%9C%9D%E4%B9%8B%E6%99%AF-Stations_One-_Morning_View_of_Nihonbashi_MET_DP122174.jpg",
+  "file": "File:東海道五十三次之内 日本橋 朝之景-Stations One- Morning View of Nihonbashi MET DP122174.jpg"
+ }
+]
