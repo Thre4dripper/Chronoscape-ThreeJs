@@ -949,3 +949,67 @@ def kancha(name, w, d, loc=(0, 0, 0), color=GRANITE, thatch=THATCH, rooms=4, wal
     return join(parts, name)
 
 
+# ---------------------------------------------------------------- Africa
+
+def adobe_mosque(name, w, d, loc=(0, 0, 0), color=ADOBE, towers=3, tower_h=None, spikes=True):
+    """A Sahelian mosque of banco: buttressed walls bristling with toron (palm-wood beams), conical mihrab towers with ostrich-egg finials."""
+    x, y, z = loc
+    h = min(w, d) * 0.18
+    parts = [box(name + "_hall", w, d, h, (x, y, z), color)]
+    nb = max(6, int(w / 4))
+    for i in range(nb + 1):
+        bx = x - w / 2 + w * i / nb
+        for s in (-1, 1):
+            parts.append(cylinder(f"{name}_pil{i}{s}", 0.7, h * 1.25, (bx, y + s * d / 2, z), color, verts=6, r_top=0.35))
+            if spikes:
+                for k in range(3):
+                    parts.append(box(f"{name}_tor{i}{s}{k}", 0.15, 1.6, 0.15, (bx + 0.6, y + s * (d / 2 + 0.4), z + h * (0.3 + k * 0.25)), TIMBER))
+    th = tower_h or h * 2.4
+    for k in range(towers):
+        tx = x - w / 2 + w * (k + 0.5) / towers
+        parts.append(frustum(f"{name}_tw{k}", w * 0.12, w * 0.12, w * 0.05, w * 0.05, th, (tx, y - d / 2 - w * 0.03, z), color))
+        parts.append(dome(f"{name}_egg{k}", w * 0.025, (tx, y - d / 2 - w * 0.03, z + th), WHITEWASH, segments=8, rings=4))
+        if spikes:
+            for j in range(4):
+                parts.append(box(f"{name}_ttor{k}{j}", 1.8, 0.14, 0.14, (tx, y - d / 2 - w * 0.03, z + th * (0.2 + j * 0.18)), TIMBER))
+    parts.append(courtyard_ring(name + "_court", w, d * 0.7, h * 0.7, 2.0, (x, y + d / 2 + d * 0.35, z), color, DARK, False))
+    return join(parts, name)
+
+
+def great_enclosure(name, rx, ry, h, loc=(0, 0, 0), color=GRANITE, tower=True, chevron=True, huts=6):
+    """A drystone elliptical enclosure (Great Zimbabwe): a tall tapering wall, the conical tower, round daga houses inside."""
+    x, y, z = loc
+    n = 48
+    outer = [(x + rx * math.cos(math.tau * i / n), y + ry * math.sin(math.tau * i / n)) for i in range(n)]
+    t = max(2.5, h * 0.45)
+    inner = [(x + (rx - t) * math.cos(math.tau * i / n), y + (ry - t) * math.sin(math.tau * i / n)) for i in range(n)]
+    from chronokit import ring_extrude
+    parts = [ring_extrude(name + "_wall", [(px - x, py - y) for px, py in outer], [(px - x, py - y) for px, py in inner], h, (x, y, z), color)]
+    if chevron:
+        parts.append(ring_extrude(name + "_chev", [(px - x, py - y) for px, py in outer[:16]], [(px - x, py - y) for px, py in inner[:16]], 0.6, (x, y, z + h * 0.85), shade(color, -0.25), closed=False))
+    if tower:
+        parts.append(lathe(name + "_tower", [(rx * 0.09, 0), (rx * 0.085, h * 1.2), (rx * 0.05, h * 1.6), (0.0, h * 1.62)], (x + rx * 0.55, y + ry * 0.2, z), color, verts=20))
+    for i in range(huts):
+        a = math.tau * i / huts + 0.5
+        hx, hy = x + rx * 0.45 * math.cos(a), y + ry * 0.45 * math.sin(a)
+        parts.append(cylinder(f"{name}_hut{i}", 3.2, 2.6, (hx, hy, z), MUDBRICK, verts=12))
+        parts.append(cylinder(f"{name}_hutr{i}", 3.9, 3.0, (hx, hy, z + 2.6), THATCH, verts=12, r_top=0))
+    return join(parts, name)
+
+
+def stele(name, w, h, loc=(0, 0, 0), color=GRANITE, storeys=10, face="S"):
+    """An Aksumite stele: a carved granite monolith showing a multi-storey house, with false windows and a rounded top."""
+    x, y, z = loc
+    d = w * 0.55
+    parts = [box(name + "_base", w * 2.2, w * 1.6, w * 0.3, (x, y, z), shade(color, 0.08))]
+    parts.append(box(name + "_shaft", w, d, h, (x, y, z + w * 0.3), color))
+    parts.append(dome(name + "_top", w / 2, (x, y, z + w * 0.3 + h), color, squash=0.6, segments=12, rings=6))
+    sh = h * 0.8 / storeys
+    for i in range(storeys):
+        zz = z + w * 0.3 + h * 0.15 + i * sh
+        parts.append(box(f"{name}_beam{i}", w * 1.02, d * 1.04, sh * 0.12, (x, y, zz), shade(color, -0.12)))
+        if i:
+            for k in (-1, 1):
+                parts.append(box(f"{name}_win{i}{k}", w * 0.22, d * 1.05, sh * 0.5, (x + k * w * 0.22, y, zz + sh * 0.25), DARK))
+    parts.append(box(name + "_door", w * 0.3, d * 1.05, h * 0.1, (x, y, z + w * 0.3 + h * 0.02), DARK))
+    return join(parts, name)
