@@ -26,6 +26,177 @@
   "size": 1023.88,
   "w": 648.51
  },
+ "props/islamic/bakery": {
+  "cx": 0.0,
+  "cy": 0.39,
+  "d": 6.78,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.28,
+  "w": 7.0
+ },
+ "props/islamic/boat": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 14.56,
+  "w": 3.4
+ },
+ "props/islamic/cart": {
+  "cx": 0.43,
+  "cy": -0.01,
+  "d": 5.07,
+  "ext": "webp",
+  "px": 192,
+  "size": 5.27,
+  "w": 2.7
+ },
+ "props/islamic/crowd": {
+  "cx": 0.01,
+  "cy": -0.2,
+  "d": 4.58,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.33,
+  "w": 6.08
+ },
+ "props/islamic/farmer": {
+  "cx": -0.05,
+  "cy": -0.0,
+  "d": 18.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 18.72,
+  "w": 6.15
+ },
+ "props/islamic/forge": {
+  "cx": 0.0,
+  "cy": 0.92,
+  "d": 8.43,
+  "ext": "webp",
+  "px": 192,
+  "size": 8.77,
+  "w": 7.6
+ },
+ "props/islamic/handcart": {
+  "cx": 0.0,
+  "cy": 0.06,
+  "d": 2.66,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.77,
+  "w": 1.18
+ },
+ "props/islamic/litter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 4.48,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.66,
+  "w": 0.97
+ },
+ "props/islamic/matron": {
+  "cx": -0.02,
+  "cy": -0.0,
+  "d": 0.54,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.62,
+  "w": 0.6
+ },
+ "props/islamic/mule": {
+  "cx": 0.14,
+  "cy": 0.28,
+  "d": 2.46,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.56,
+  "w": 1.43
+ },
+ "props/islamic/porter": {
+  "cx": 0.0,
+  "cy": 0.02,
+  "d": 0.76,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.79,
+  "w": 0.56
+ },
+ "props/islamic/shepherd": {
+  "cx": 0.9,
+  "cy": 0.05,
+  "d": 5.88,
+  "ext": "webp",
+  "px": 192,
+  "size": 10.93,
+  "w": 10.51
+ },
+ "props/islamic/skiff": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 6.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.24,
+  "w": 1.78
+ },
+ "props/islamic/stall": {
+  "cx": 0.0,
+  "cy": 0.39,
+  "d": 2.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/islamic/stall-cloth": {
+  "cx": 0.0,
+  "cy": -0.04,
+  "d": 1.94,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/islamic/stall-fruit": {
+  "cx": 0.0,
+  "cy": -0.02,
+  "d": 1.97,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/islamic/stall-pots": {
+  "cx": 0.0,
+  "cy": -0.03,
+  "d": 1.95,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/islamic/wagon": {
+  "cx": -0.05,
+  "cy": 0.35,
+  "d": 9.14,
+  "ext": "webp",
+  "px": 192,
+  "size": 9.51,
+  "w": 1.67
+ },
+ "props/islamic/walker": {
+  "cx": 0.0,
+  "cy": 0.04,
+  "d": 0.62,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.67,
+  "w": 0.64
+ },
  "rome/ara-pacis": {
   "cx": 0.0,
   "cy": -0.0,
