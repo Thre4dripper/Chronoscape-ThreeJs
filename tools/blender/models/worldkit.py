@@ -870,3 +870,82 @@ def flat_house(name, w, d, h, loc=(0, 0, 0), color=MUDBRICK, parapet=True, door_
     return join(parts, name)
 
 
+# ---------------------------------------------------------------- the Americas
+
+def step_pyramid(name, w, d, tiers, h, loc=(0, 0, 0), color=LIMESTONE, talud_tablero=False, temple=True, temple_color=PLASTER, twin=False, stair_face="W", roof_color=None):
+    """A Mesoamerican pyramid: stepped platforms, one broad stair (two side by side for a twin temple), a temple on top."""
+    x, y, z = loc
+    parts = []
+    th = h / tiers
+    ww, dd, zz = w, d, z
+    for i in range(tiers):
+        nw, nd = ww - (w - w * 0.35) / tiers, dd - (d - d * 0.35) / tiers
+        if talud_tablero:
+            parts.append(frustum(f"{name}_tal{i}", ww, dd, ww * 0.94, dd * 0.94, th * 0.55, (x, y, zz), color))
+            parts.append(box(f"{name}_tab{i}", ww * 0.95, dd * 0.95, th * 0.45, (x, y, zz + th * 0.55), shade(color, 0.08)))
+        else:
+            parts.append(frustum(f"{name}_t{i}", ww, dd, nw * 1.02, nd * 1.02, th, (x, y, zz), shade(color, (i % 2) * 0.04)))
+        zz += th
+        ww, dd = nw, nd
+    sw = w * (0.3 if twin else 0.2)
+    # the stair, as a sloping block in front of the stepped faces, toward -Y; rotated to its face later
+    run = (d - dd) / 2 + 1.0
+    verts = [(-sw / 2, -d / 2 - 1.0, 0), (sw / 2, -d / 2 - 1.0, 0), (sw / 2, -dd / 2, h), (-sw / 2, -dd / 2, h), (-sw / 2, -dd / 2, 0), (sw / 2, -dd / 2, 0)]
+    faces = [(0, 1, 2, 3), (4, 5, 1, 0), (3, 2, 5, 4), (0, 3, 4), (1, 5, 2)]
+    stairs = []
+    if twin:
+        for s in (-1, 1):
+            o = mesh_from(f"{name}_stair{s}", [(vx + s * sw * 0.55, vy, vz) for vx, vy, vz in verts], faces, (x, y, z), shade(color, 0.12))
+            stairs.append(o)
+    else:
+        stairs.append(mesh_from(name + "_stair", verts, faces, (x, y, z), shade(color, 0.12)))
+    for st in stairs:
+        for k in range(1, 12):
+            pass
+    parts += stairs
+    if temple:
+        tops = [(-ww * 0.24, 0), (ww * 0.24, 0)] if twin else [(0, 0)]
+        for k, (tx, ty) in enumerate(tops):
+            tw = ww * (0.4 if twin else 0.55)
+            parts.append(box(f"{name}_tem{k}", tw, dd * 0.55, th * 0.9, (x + tx, y + ty, zz), temple_color))
+            parts.append(arch_panel(f"{name}_tdoor{k}", tw * 0.3, th * 0.6, (x + tx, y + ty - dd * 0.275 - 0.05, zz), "S", DARK, False, 0.2))
+            rc = roof_color or ([TILE_RED, GLAZE_BLUE][k] if twin else shade(temple_color, -0.2))
+            parts.append(frustum(f"{name}_troof{k}", tw * 1.05, dd * 0.58, tw * 0.6, dd * 0.3, th * 0.8, (x + tx, y + ty, zz + th * 0.9), rc))
+    o = join(parts, name)
+    return rot(o, {"S": 0, "N": 180, "E": 90, "W": -90}[stair_face])
+
+
+def ballcourt(name, length, width, loc=(0, 0, 0), color=PLASTER, h=None):
+    """An I-shaped ballcourt: two parallel sloping banks with end zones; rings set in the walls."""
+    x, y, z = loc
+    h = h or width * 0.35
+    parts = [box(name + "_alley", length, width, 0.3, (x, y, z), shade(color, -0.1))]
+    for s in (-1, 1):
+        parts.append(frustum(f"{name}_bank{s}", length * 0.7, width * 0.5, length * 0.7, width * 0.25, h, (x, y + s * width * 0.62, z), color))
+        r = cylinder(f"{name}_ring{s}", width * 0.06, 0.4, (x, y + s * width * 0.36, z + h * 0.7), LIMESTONE, verts=12)
+        r.rotation_euler[0] = math.pi / 2
+        parts.append(r)
+        parts.append(box(f"{name}_end{s}", length * 0.12, width * 1.6, h * 0.6, (x + s * length * 0.5, y, z), color))
+    return join(parts, name)
+
+
+def kancha(name, w, d, loc=(0, 0, 0), color=GRANITE, thatch=THATCH, rooms=4, wall_h=3.2, fine=False):
+    """An Inca enclosure: a fieldstone (or fitted ashlar) wall round a court, single rooms under steep thatch along its sides."""
+    x, y, z = loc
+    parts = [courtyard_ring(name + "_wall", w, d, wall_h * 0.8, 0.8, (x, y, z), color, DARK, False)]
+    for i in range(rooms):
+        side = i % 4
+        rw, rd = (w * 0.7, d * 0.22) if side < 2 else (w * 0.22, d * 0.5)
+        rx = x + (0 if side < 2 else (-1 if side == 2 else 1) * (w / 2 - rw / 2 - 0.8))
+        ry = y + ((-1 if side == 0 else 1) * (d / 2 - rd / 2 - 0.8) if side < 2 else 0)
+        parts.append(box(f"{name}_room{i}", rw, rd, wall_h, (rx, ry, z), shade(color, 0.06 if fine else 0.0)))
+        if side < 2:
+            r = gable_roof(f"{name}_roof{i}", rd, rw, min(rw, rd) * 0.8, (rx, ry, z + wall_h), thatch, overhang=0.5)
+            parts.append(rot(move(r, -rx, -ry, 0), 90))
+            parts[-1] = move(parts[-1], rx, ry, 0)
+        else:
+            parts.append(gable_roof(f"{name}_roof{i}", rw, rd, min(rw, rd) * 0.8, (rx, ry, z + wall_h), thatch, overhang=0.5))
+        parts.append(frustum(f"{name}_door{i}", 1.0, 0.3, 0.7, 0.3, 2.0, (rx, ry - rd / 2 - 0.1 if side == 1 else ry + rd / 2 + 0.1 if side == 0 else ry, z), DARK))
+    return join(parts, name)
+
+
