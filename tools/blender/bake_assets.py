@@ -40,7 +40,14 @@ def builders():
     importlib.reload(rome_hero2)
     importlib.reload(props)
     hero = {**rome_hero.BUILDERS, **rome_hero2.BUILDERS, **props.BUILDERS}
-    return {**rome.BUILDERS, **rome_more.BUILDERS, **rome_fora.BUILDERS, **delhi.BUILDERS, **hero}
+    return {**rome.BUILDERS, **rome_more.BUILDERS, **rome_fora.BUILDERS, **delhi.BUILDERS, **hero, **city_builders()}
+
+
+
+def city_builders():
+    import citymods
+    importlib.reload(citymods)
+    return citymods.city_builders()
 
 
 def set_cycles(samples):

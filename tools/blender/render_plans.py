@@ -17,6 +17,9 @@ import chronokit, archkit, rome, rome_more, rome_fora, delhi, rome_hero, rome_he
 for _m in (chronokit, archkit, rome, rome_more, rome_fora, delhi, rome_hero, rome_hero2):
     importlib.reload(_m)
 BUILDERS = {**rome.BUILDERS, **rome_more.BUILDERS, **rome_fora.BUILDERS, **delhi.BUILDERS, **rome_hero.BUILDERS, **rome_hero2.BUILDERS}
+import citymods
+importlib.reload(citymods)
+BUILDERS.update(citymods.city_builders())
 
 INK = np.array([0x4e, 0x36, 0x25]) / 255.0
 PAPER = np.array([0xf2, 0xe7, 0xcc]) / 255.0
