@@ -757,3 +757,116 @@ def palazzo(name, w, d, h, loc=(0, 0, 0), color=STUCCO, roof=TILE_RED, storeys=3
     return join(parts, name)
 
 
+# ---------------------------------------------------------------- Egypt, Mesopotamia and Persia
+
+def pylon(name, w, h, d, loc=(0, 0, 0), color=LIMESTONE, face="S", flags=True):
+    """A temple gateway: two battered towers with a lintelled gate between them."""
+    x, y, z = loc
+    tw = w * 0.42
+    parts = []
+    for s in (-1, 1):
+        parts.append(frustum(f"{name}_t{s}", tw, d, tw * 0.8, d * 0.65, h, (s * (w / 2 - tw / 2), 0, 0), color))
+        parts.append(box(f"{name}_tc{s}", tw * 0.84, d * 0.7, h * 0.05, (s * (w / 2 - tw / 2), 0, h), shade(color, 0.08)))
+        if flags:
+            for k in (-1, 1):
+                parts.append(cylinder(f"{name}_flag{s}{k}", 0.35, h * 1.25, (s * (w / 2 - tw / 2) + k * tw * 0.22, -d / 2 - 0.4, 0), TIMBER, verts=6))
+    parts.append(box(name + "_gate", w * 0.18, d * 0.8, h * 0.62, (0, 0, 0), color))
+    parts.append(box(name + "_door", w * 0.08, d * 0.85, h * 0.48, (0, 0, 0), DARK))
+    o = join(parts, name)
+    o = rot(o, {"S": 0, "N": 180, "E": 90, "W": -90}[face])
+    return move(o, x, y, z)
+
+
+def hypostyle(name, w, d, h, loc=(0, 0, 0), color=LIMESTONE, cols=(8, 6), col_r=None, roof=True, papyrus=True):
+    """A columned hall: a grid of thick papyrus columns under a flat stone roof (a clerestory down the middle)."""
+    x, y, z = loc
+    parts = []
+    nx, ny = cols
+    cr = col_r or min(w / nx, d / ny) * 0.28
+    for i in range(nx):
+        for j in range(ny):
+            cx, cy = x - w / 2 + w * (i + 0.5) / nx, y - d / 2 + d * (j + 0.5) / ny
+            ch = h * (1.25 if abs(j - (ny - 1) / 2) < 0.6 else 1.0)
+            parts.append(cylinder(f"{name}_c{i}_{j}", cr, ch, (cx, cy, z), color, verts=10, r_top=cr * 0.85))
+            if papyrus:
+                parts.append(cylinder(f"{name}_cap{i}_{j}", cr * 0.85, cr * 0.8, (cx, cy, z + ch), color, verts=10, r_top=cr * 1.25))
+    if roof:
+        parts.append(box(name + "_roof", w + 1, d + 1, 1.0, (x, y, z + h + cr * 0.8), shade(color, 0.05)))
+        parts.append(box(name + "_clere", w + 1, d * 0.3, 1.0, (x, y, z + h * 1.25 + cr * 0.8), shade(color, 0.05)))
+    for s in (-1, 1):
+        parts.append(box(f"{name}_wall{s}", w + 1, 1.2, h + cr * 0.8, (x, y + s * (d / 2 + 0.6), z), shade(color, -0.04)))
+    return join(parts, name)
+
+
+def ziggurat(name, w, d, tiers=3, loc=(0, 0, 0), color=MUDBRICK, tier_h=None, shrine_color=GLAZE_BLUE, stairs=True):
+    """A stepped temple tower of mud brick with a triple stair and a blue-glazed shrine on top."""
+    x, y, z = loc
+    th = tier_h or min(w, d) * 0.13
+    parts = []
+    ww, dd, zz = w, d, z
+    for i in range(tiers):
+        parts.append(frustum(f"{name}_t{i}", ww, dd, ww * 0.96, dd * 0.96, th, (x, y, zz), shade(color, i * 0.04)))
+        # vertical buttress ribs on the faces
+        for k in range(-3, 4):
+            parts.append(box(f"{name}_rib{i}{k}", ww * 0.03, dd * 1.005, th * 0.95, (x + k * ww * 0.13, y, zz), shade(color, -0.05)))
+        zz += th
+        ww *= 0.72
+        dd *= 0.72
+    parts.append(box(name + "_shrine", ww * 0.6, dd * 0.6, th * 0.7, (x, y, zz), shrine_color))
+    if stairs:
+        parts.append(stair(name + "_stc", w * 0.08, th * 2, d * 0.45, 12, (x, y - d / 2 - d * 0.2, z), "S", shade(color, 0.08)))
+        for s in (-1, 1):
+            st = box(f"{name}_sts{s}", w * 0.06, w * 0.35, 1.0, (0, 0, 0), shade(color, 0.08))
+            st.rotation_euler[0] = 0.5
+            parts.append(move(st, x + s * w * 0.32, y - d / 2 - w * 0.06, th * 0.5))
+    return join(parts, name)
+
+
+def apadana(name, w, d, h, loc=(0, 0, 0), color=LIMESTONE, terrace=3.0, cols=(6, 6), porticoes=True):
+    """A Persian columned audience hall on a terrace: slender fluted columns with bull capitals, porticoes, corner towers, double stairs."""
+    x, y, z = loc
+    parts = [box(name + "_terr", w * 1.4, d * 1.4, terrace, (x, y, z), shade(color, -0.06))]
+    zz = z + terrace
+    for s in (-1, 1):
+        parts.append(stair(f"{name}_st{s}", w * 0.12, terrace, terrace * 3, 8, (x + s * w * 0.3, y - d * 0.7, z), "S", shade(color, -0.02)))
+    nx, ny = cols
+    for i in range(nx):
+        for j in range(ny):
+            cx, cy = x - w * 0.4 + w * 0.8 * i / (nx - 1), y - d * 0.4 + d * 0.8 * j / (ny - 1)
+            parts.append(cylinder(f"{name}_c{i}{j}", 0.7, h, (cx, cy, zz), color, verts=10))
+            parts.append(box(f"{name}_cap{i}{j}", 2.6, 0.9, 1.2, (cx, cy, zz + h), DARK if (i + j) % 2 else BASALT))
+    parts.append(box(name + "_roof", w * 0.95, d * 0.95, 1.2, (x, y, zz + h + 1.2), TIMBER))
+    for sx in (-1, 1):
+        for sy in (-1, 1):
+            parts.append(box(f"{name}_tw{sx}{sy}", w * 0.16, d * 0.16, h * 1.1, (x + sx * w * 0.47, y + sy * d * 0.47, zz), MUDBRICK))
+    return join(parts, name)
+
+
+def glazed_gate(name, w, h, d, loc=(0, 0, 0), face="S", color=GLAZE_BLUE, trim=TILE_GOLD):
+    """A gate of blue-glazed brick (the Ishtar Gate) with towers, stepped crenellations and rows of beasts."""
+    x, y, z = loc
+    parts = [box(name + "_b", w, d, h, (0, 0, 0), color)]
+    for s in (-1, 1):
+        parts.append(box(f"{name}_tw{s}", w * 0.28, d * 1.15, h * 1.2, (s * w * 0.36, 0, 0), color))
+        parts.append(merlons(f"{name}_m{s}", w * 0.28, d * 1.15, h * 1.2, 0.9, 0.5, color, "stepped"))
+        parts[-1] = move(parts[-1], s * w * 0.36, 0, 0)
+    for k in range(4):
+        parts.append(box(f"{name}_beasts{k}", w * 1.01, d * 1.02, 0.5, (0, 0, h * (0.2 + k * 0.18)), trim))
+    parts.append(arch_panel(name + "_arch", w * 0.24, h * 0.62, (0, -d / 2 - 0.05, 0), "S", DARK, False))
+    o = join(parts, name)
+    o = rot(o, {"S": 0, "N": 180, "E": 90, "W": -90}[face])
+    return move(o, x, y, z)
+
+
+def flat_house(name, w, d, h, loc=(0, 0, 0), color=MUDBRICK, parapet=True, door_face="S"):
+    """A plain flat-roofed building of mud brick or plaster with a parapet and a doorway."""
+    x, y, z = loc
+    parts = [box(name + "_b", w, d, h, (x, y, z), color)]
+    if parapet:
+        parts.append(box(name + "_par", w + 0.2, d + 0.2, 0.6, (x, y, z + h), shade(color, -0.06)))
+        parts.append(box(name + "_parin", w - 0.6, d - 0.6, 0.7, (x, y, z + h), color))
+    dx, dy = {"S": (0, -d / 2), "N": (0, d / 2), "E": (w / 2, 0), "W": (-w / 2, 0)}[door_face]
+    parts.append(arch_panel(name + "_door", min(w, d) * 0.18, h * 0.6, (x + dx * 1.01, y + dy * 1.01, z), door_face, DARK, False, 0.2))
+    return join(parts, name)
+
+
