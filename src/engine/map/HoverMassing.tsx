@@ -53,6 +53,14 @@ export function HoverMassing({ city }: { city: City }) {
       antique: [3.4, 4.2, 0.1, 0.32, 1],
       medieval: [3.2, 3.6, 0.1, 0.34, 1],
       "early-modern": [3.6, 3.3, 0.12, 0.42, 0],
+      gothic: [3.0, 2.8, 0.13, 0.42, 0],
+      courtyard: [3.6, 4.6, 0.07, 0.22, 1],
+      sinic: [4.2, 3.4, 0.0, 0.0, 0],
+      japanese: [3.0, 1.9, 0.3, 0.42, 0],
+      mesoamerican: [3.2, 4.4, 0.0, 0.0, 0],
+      andean: [3.0, 3.6, 0.05, 0.3, 0],
+      sahel: [3.3, 3.8, 0.04, 0.16, 0],
+      kraal: [3.0, 4.0, 0.0, 0.0, 0],
     };
     const [st, bay, ww, wh, arch] = F[fabric.style] ?? F.antique;
     uniforms.uStorey.value = st * f.scale;
@@ -212,7 +220,7 @@ export function HoverMassing({ city }: { city: City }) {
       const b = fabric.insulae[id];
       let pieces = pieceCache.current.get(id);
       if (!pieces) {
-        pieces = piecesFor(fabric.style, b, fabric.lots);
+        pieces = piecesFor(fabric.style, b, fabric.lots, city.world);
         pieceCache.current.set(id, pieces);
       }
       const primary = (want.get(id) ?? 0) >= 1;

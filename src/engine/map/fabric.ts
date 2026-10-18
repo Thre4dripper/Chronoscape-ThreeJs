@@ -1,4 +1,4 @@
-import type { City, Vec2 } from "@/content/schema";
+import type { City, Period, STYLES, Vec2 } from "@/content/schema";
 import { polygonArea as polyArea } from "./scatter";
 import { OccGrid, clipParcel, obbOverlap, SegGrid, bbox, centroid, distToSeg, hash, inRRect, mulberry32, pointInPolygon, type RRect, type Seg } from "./geom";
 
@@ -16,7 +16,7 @@ export type Insula = { id: number; x: number; y: number; w: number; d: number; a
 export type FieldKind = "furrow" | "pasture" | "orchard" | "vineyard";
 export type Field = { pts: Vec2[]; kind: FieldKind; angle: number; cx: number; cy: number };
 export type Tree = { x: number; y: number; r: number };
-export type Style = "archaic" | "antique" | "medieval" | "early-modern";
+export type Style = (typeof STYLES)[number];
 export type Fabric = { lots: Lot[]; insulae: Insula[]; fields: Field[]; trees: Tree[]; style: Style; index: InsulaIndex; occ: OccGrid };
 
 const cache = new Map<string, Fabric>();
@@ -74,9 +74,15 @@ export function styleFor(year: number): Style {
   return year < -400 ? "archaic" : year < 500 ? "antique" : year < 1450 ? "medieval" : "early-modern";
 }
 
+/** The period's own building tradition, or the Mediterranean one for its year. */
+export const styleOf = (p: Period): Style => p.style ?? styleFor(p.year);
+
 type Params = { u: [number, number]; v: [number, number]; street: [number, number]; lot: [number, number]; h: [number, number];
   /** Storey mix: [share, min height, max height]. Overrides h for ordinary houses. */
-  mix?: [number, number, number][]; court: number; keep: number; tower: number; palazzo: number; flat: number; jitter: number };
+  mix?: [number, number, number][];
+  /** Lots may be this many times deeper than wide (narrow gabled houses, machiya); 1 = square-ish. */
+  deep?: number;
+  court: number; keep: number; tower: number; palazzo: number; flat: number; jitter: number };
 
 const PARAMS: Record<Style, { dense: Params; loose: Params }> = {
   archaic: {
@@ -95,11 +101,51 @@ const PARAMS: Record<Style, { dense: Params; loose: Params }> = {
     dense: { u: [30, 62], v: [22, 42], street: [5, 8], lot: [10, 20], h: [8, 18], mix: [[0.4, 8, 10.5], [0.45, 11, 14], [0.15, 15, 18]], court: 0.3, keep: 1, tower: 0.004, palazzo: 0.07, flat: 0.05, jitter: 0.05 },
     loose: { u: [36, 66], v: [26, 50], street: [6, 10], lot: [10, 18], h: [7, 12], court: 0.4, keep: 0.5, tower: 0, palazzo: 0.04, flat: 0.05, jitter: 0.06 },
   },
+  // northern Europe: narrow gabled houses of timber and plaster, steep roofs, jettied upper floors
+  gothic: {
+    dense: { u: [20, 44], v: [16, 30], street: [3, 6], lot: [6, 9], deep: 2.4, h: [7, 14], mix: [[0.45, 7, 9.5], [0.4, 10, 12.5], [0.15, 13, 15]], court: 0.08, keep: 0.93, tower: 0.004, palazzo: 0, flat: 0, jitter: 0.12 },
+    loose: { u: [24, 50], v: [20, 40], street: [4, 8], lot: [7, 12], h: [5, 9], court: 0.15, keep: 0.4, tower: 0, palazzo: 0, flat: 0, jitter: 0.15 },
+  },
+  // the Islamic, Persian, Indian, Egyptian and Mesopotamian city: inward-looking courtyard houses with flat roof terraces
+  courtyard: {
+    dense: { u: [26, 56], v: [22, 44], street: [3, 6], lot: [9, 16], h: [4.5, 10], mix: [[0.5, 4.5, 6.5], [0.4, 7, 9], [0.1, 9.5, 12]], court: 0.55, keep: 0.94, tower: 0, palazzo: 0.03, flat: 1, jitter: 0.14 },
+    loose: { u: [40, 80], v: [34, 64], street: [6, 12], lot: [12, 22], h: [4, 7], court: 0.75, keep: 0.45, tower: 0, palazzo: 0, flat: 1, jitter: 0.1 },
+  },
+  // the Chinese walled ward: single-storey courtyard compounds with grey-tiled roofs
+  sinic: {
+    dense: { u: [40, 64], v: [34, 56], street: [4, 7], lot: [12, 18], deep: 2.6, h: [4.5, 7], court: 0.75, keep: 0.88, tower: 0, palazzo: 0.04, flat: 0, jitter: 0.02 },
+    loose: { u: [50, 84], v: [42, 70], street: [6, 10], lot: [14, 22], deep: 2.6, h: [4, 6], court: 0.8, keep: 0.42, tower: 0, palazzo: 0, flat: 0, jitter: 0.02 },
+  },
+  // Japanese machiya: narrow, deep timber town houses of one or two storeys
+  japanese: {
+    dense: { u: [30, 50], v: [24, 40], street: [4, 7], lot: [6, 9], deep: 3, h: [4.5, 8], mix: [[0.55, 4.5, 6], [0.45, 6.5, 8]], court: 0.12, keep: 0.94, tower: 0, palazzo: 0, flat: 0, jitter: 0.02 },
+    loose: { u: [40, 70], v: [34, 60], street: [6, 10], lot: [10, 18], h: [4, 6], court: 0.6, keep: 0.45, tower: 0, palazzo: 0, flat: 0, jitter: 0.03 },
+  },
+  // Mesoamerica: whitewashed adobe and stone compounds around patios, flat roofs
+  mesoamerican: {
+    dense: { u: [24, 46], v: [22, 42], street: [3, 6], lot: [8, 14], h: [3.5, 5.5], court: 0.6, keep: 0.92, tower: 0, palazzo: 0.02, flat: 1, jitter: 0.03 },
+    loose: { u: [30, 56], v: [28, 50], street: [5, 9], lot: [8, 14], h: [3, 4.5], court: 0.5, keep: 0.5, tower: 0, palazzo: 0, flat: 1, jitter: 0.05 },
+  },
+  // the Andes: kancha, stone-walled enclosures of single rooms with steep thatched roofs
+  andean: {
+    dense: { u: [30, 50], v: [26, 44], street: [3, 5], lot: [8, 12], h: [3.5, 5], court: 0.75, keep: 0.92, tower: 0, palazzo: 0, flat: 0, jitter: 0.03 },
+    loose: { u: [34, 56], v: [30, 50], street: [5, 9], lot: [8, 12], h: [3, 4.5], court: 0.6, keep: 0.5, tower: 0, palazzo: 0, flat: 0, jitter: 0.06 },
+  },
+  // the Sahel: banco (mud-brick) courtyard houses with flat roofs
+  sahel: {
+    dense: { u: [22, 44], v: [20, 40], street: [3, 6], lot: [8, 13], h: [3.5, 7], mix: [[0.7, 3.5, 4.5], [0.3, 6, 7.5]], court: 0.6, keep: 0.9, tower: 0, palazzo: 0, flat: 1, jitter: 0.2 },
+    loose: { u: [30, 56], v: [26, 50], street: [5, 10], lot: [8, 14], h: [3, 4.5], court: 0.6, keep: 0.5, tower: 0, palazzo: 0, flat: 1, jitter: 0.25 },
+  },
+  // southern Africa: round daga houses with conical thatch, in walled family yards
+  kraal: {
+    dense: { u: [26, 44], v: [24, 40], street: [6, 10], lot: [5, 8], h: [3.2, 4.5], court: 0, keep: 0.85, tower: 0, palazzo: 0, flat: 0, jitter: 0.5 },
+    loose: { u: [32, 56], v: [30, 50], street: [8, 14], lot: [5, 8], h: [3, 4.2], court: 0, keep: 0.6, tower: 0, palazzo: 0, flat: 0, jitter: 0.6 },
+  },
 };
 
 function generate(city: City, periodId: string): Fabric {
   const period = city.periods.find((p) => p.id === periodId)!;
-  const style = styleFor(period.year);
+  const style = styleOf(period);
   // a city can make its houses taller or lower than the era's default (Rome uses the defaults)
   const hScale = city.world.heightScale ?? 1;
   const rnd = mulberry32(hash(`${city.id}:${periodId}:fabric`));
@@ -266,8 +312,8 @@ function generate(city: City, periodId: string): Fabric {
       const [px, py] = at(lu, lv);
       lots.push({ x: px, y: py, w: Math.max(1.5, lw - 0.5), d: Math.max(1.5, ld - 0.5), a, h, kind, roof: kind === "court" ? "flat" : rnd() < P.flat ? "flat" : "tile", tone: tone * 0.6 + rnd() * 0.4, g });
     };
-    // archaic villages: oval huts of wattle and daub with thatched roofs, a fenced yard
-    if (style === "archaic") {
+    // archaic villages and southern African homesteads: round huts with thatched roofs, a fenced yard
+    if (style === "archaic" || style === "kraal") {
       type = "villa";
       const n = 2 + Math.floor(rnd() * 4);
       for (let i = 0; i < n; i++) {
@@ -282,8 +328,8 @@ function generate(city: City, periodId: string): Fabric {
       }
       return;
     }
-    // villa / domus in a garden
-    if (density === "loose" && style === "antique") {
+    // villa / domus / garden house in its grounds
+    if (density === "loose" && (style === "antique" || style === "courtyard" || style === "sinic" || style === "japanese")) {
       type = "villa";
       const bw = w * R(0.45, 0.65), bd = d * R(0.45, 0.65);
       const ox = (rnd() - 0.5) * (w - bw) * 0.6, oy = (rnd() - 0.5) * (d - bd) * 0.6;
@@ -324,7 +370,8 @@ function generate(city: City, periodId: string): Fabric {
 
     function split(lu: number, lv: number, lw: number, ld: number, depthLevel: number) {
       const max = R(P.lot[0], P.lot[1]);
-      if ((lw <= max && ld <= max) || depthLevel > 6) {
+      const deep = P.deep ?? 1;
+      if ((Math.min(lw, ld) <= max && Math.max(lw, ld) <= max * deep) || depthLevel > 6) {
         if (rnd() < P.tower && lw > 5 && ld > 5) {
           const t = Math.min(lw, ld, R(6, 8.5));
           push(lu, lv, t, t, "tower", R(24, 42));
@@ -338,7 +385,9 @@ function generate(city: City, periodId: string): Fabric {
         return;
       }
       const t = R(0.35, 0.65);
-      if (lw >= ld) {
+      // deep plots: cut the long side only while it is too long, then cut the short side down to a narrow frontage
+      const cutW = deep > 1 && Math.max(lw, ld) <= max * deep ? lw < ld : lw >= ld;
+      if (cutW) {
         const a1 = lw * t;
         split(lu - lw / 2 + a1 / 2, lv, a1, ld, depthLevel + 1);
         split(lu - lw / 2 + a1 + (lw - a1) / 2, lv, lw - a1, ld, depthLevel + 1);

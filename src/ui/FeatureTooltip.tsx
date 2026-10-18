@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import type { City } from "@/content/schema";
 import { useStore, spotById, vignetteAt, resolveSpot } from "@/engine/store";
 import { getFabric } from "@/engine/map/fabric";
-import { describeBlock, describeField } from "@/engine/map/blockInfo";
+import { describeBlock, describeField, gardenText } from "@/engine/map/blockInfo";
 import { pointInPolygon } from "@/engine/map/geom";
 
 /** Follows the pointer; names whatever map feature is under it. */
@@ -58,7 +58,7 @@ function TooltipBody({ city }: { city: City }) {
     const fabric = getFabric(city, periodId);
     const b = fabric.insulae[blockId];
     if (b) {
-      const info = describeBlock(fabric.style, b, fabric.lots);
+      const info = describeBlock(fabric.style, b, fabric.lots, city.periods.find((p) => p.id === periodId));
       const district = city.map.districts.find((d) => (!d.periods || d.periods.includes(periodId)) && pointInPolygon(b.x, b.y, d.polygon));
       return (
         <div className="tooltip tooltip--block" >
@@ -74,7 +74,7 @@ function TooltipBody({ city }: { city: City }) {
     const fabric = getFabric(city, periodId);
     const info =
       area.kind === "park"
-        ? { title: area.name ?? "Garden", text: "Pleasure gardens: shaded walks, clipped hedges, fountains and statues, where the rich entertained and philosophers walked." }
+        ? { title: area.name ?? "Garden", text: gardenText(fabric.style) }
         : area.kind === "marsh"
           ? { title: area.name ?? "Marsh", text: "Low wet ground where streams pooled before the valleys were drained: reeds, frogs and fever. Fishermen and reed-cutters worked it." }
           : describeField(fabric.style, area.kind as "furrow" | "pasture" | "vineyard" | "orchard");
