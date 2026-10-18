@@ -13,7 +13,7 @@ import { tmpdir } from "node:os";
 const ROOT = resolve(import.meta.dirname, "..");
 const BASE = process.env.APP_URL ?? "http://localhost:5173";
 const CHROME = process.env.CHROME ?? "/Users/ijlalahmad/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-const PORT = 9333;
+const PORT = +(process.env.PORT ?? 9333);
 const cities = JSON.parse(readFileSync(join(ROOT, "content/cities/index.json"), "utf8")).cities.map((c) => c.id);
 const only = process.argv[2];
 
