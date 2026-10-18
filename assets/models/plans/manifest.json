@@ -197,6 +197,177 @@
   "size": 0.74,
   "w": 0.71
  },
+ "props/eastasian/bakery": {
+  "cx": 0.0,
+  "cy": -0.13,
+  "d": 6.97,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.25,
+  "w": 6.44
+ },
+ "props/eastasian/boat": {
+  "cx": 0.0,
+  "cy": -0.19,
+  "d": 13.27,
+  "ext": "webp",
+  "px": 192,
+  "size": 13.81,
+  "w": 3.0
+ },
+ "props/eastasian/cart": {
+  "cx": -0.07,
+  "cy": 0.2,
+  "d": 5.2,
+  "ext": "webp",
+  "px": 192,
+  "size": 5.41,
+  "w": 2.62
+ },
+ "props/eastasian/crowd": {
+  "cx": 0.1,
+  "cy": -0.08,
+  "d": 5.15,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.46,
+  "w": 6.21
+ },
+ "props/eastasian/farmer": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 18.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 18.72,
+  "w": 6.1
+ },
+ "props/eastasian/forge": {
+  "cx": 0.0,
+  "cy": -0.77,
+  "d": 5.93,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.86,
+  "w": 6.6
+ },
+ "props/eastasian/handcart": {
+  "cx": 0.0,
+  "cy": -0.33,
+  "d": 2.17,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.26,
+  "w": 0.92
+ },
+ "props/eastasian/litter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 4.1,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.26,
+  "w": 1.83
+ },
+ "props/eastasian/matron": {
+  "cx": 0.0,
+  "cy": -0.02,
+  "d": 0.68,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.71,
+  "w": 0.68
+ },
+ "props/eastasian/mule": {
+  "cx": 0.15,
+  "cy": 0.18,
+  "d": 2.64,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.74,
+  "w": 1.4
+ },
+ "props/eastasian/porter": {
+  "cx": 0.01,
+  "cy": -0.0,
+  "d": 0.78,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.81,
+  "w": 0.61
+ },
+ "props/eastasian/shepherd": {
+  "cx": 0.07,
+  "cy": 0.03,
+  "d": 6.07,
+  "ext": "webp",
+  "px": 192,
+  "size": 11.37,
+  "w": 10.93
+ },
+ "props/eastasian/skiff": {
+  "cx": 0.0,
+  "cy": -0.17,
+  "d": 5.93,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.17,
+  "w": 1.24
+ },
+ "props/eastasian/stall": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "d": 2.53,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.63,
+  "w": 2.4
+ },
+ "props/eastasian/stall-cloth": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "d": 1.93,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.77,
+  "w": 2.66
+ },
+ "props/eastasian/stall-fruit": {
+  "cx": 0.0,
+  "cy": -0.03,
+  "d": 2.37,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.77,
+  "w": 2.66
+ },
+ "props/eastasian/stall-pots": {
+  "cx": 0.0,
+  "cy": -0.06,
+  "d": 2.31,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.77,
+  "w": 2.66
+ },
+ "props/eastasian/wagon": {
+  "cx": 0.03,
+  "cy": 0.15,
+  "d": 6.9,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.18,
+  "w": 3.42
+ },
+ "props/eastasian/walker": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 0.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.68,
+  "w": 0.65
+ },
  "props/islamic/bakery": {
   "cx": 0.0,
   "cy": 0.39,
