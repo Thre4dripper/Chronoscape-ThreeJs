@@ -40,5 +40,9 @@
   "stall-pots",
   "wagon",
   "walker"
+ ],
+ "venetian": [
+  "boat",
+  "skiff"
  ]
 }

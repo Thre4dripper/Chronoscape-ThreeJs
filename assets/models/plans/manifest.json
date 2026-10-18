@@ -368,6 +368,24 @@
   "size": 0.67,
   "w": 0.64
  },
+ "props/venetian/boat": {
+  "cx": 0.0,
+  "cy": 0.01,
+  "d": 13.62,
+  "ext": "webp",
+  "px": 192,
+  "size": 14.16,
+  "w": 3.97
+ },
+ "props/venetian/skiff": {
+  "cx": 0.16,
+  "cy": 0.02,
+  "d": 6.35,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.6,
+  "w": 1.46
+ },
  "rome/ara-pacis": {
   "cx": 0.0,
   "cy": -0.0,
