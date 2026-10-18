@@ -26,6 +26,177 @@
   "size": 1023.88,
   "w": 648.51
  },
+ "props/african/bakery": {
+  "cx": 0.0,
+  "cy": -0.01,
+  "d": 6.02,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.28,
+  "w": 7.0
+ },
+ "props/african/boat": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 14.56,
+  "w": 2.05
+ },
+ "props/african/cart": {
+  "cx": 0.26,
+  "cy": 0.18,
+  "d": 5.3,
+  "ext": "webp",
+  "px": 192,
+  "size": 5.51,
+  "w": 1.7
+ },
+ "props/african/crowd": {
+  "cx": -0.07,
+  "cy": -0.26,
+  "d": 4.59,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.18,
+  "w": 5.94
+ },
+ "props/african/farmer": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 18.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 18.72,
+  "w": 5.78
+ },
+ "props/african/forge": {
+  "cx": -0.01,
+  "cy": -0.08,
+  "d": 6.16,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.73,
+  "w": 7.43
+ },
+ "props/african/handcart": {
+  "cx": 0.04,
+  "cy": -0.05,
+  "d": 1.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 1.87,
+  "w": 0.83
+ },
+ "props/african/litter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 4.48,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.66,
+  "w": 1.68
+ },
+ "props/african/matron": {
+  "cx": 0.03,
+  "cy": -0.0,
+  "d": 0.54,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.64,
+  "w": 0.62
+ },
+ "props/african/mule": {
+  "cx": 0.16,
+  "cy": 0.27,
+  "d": 2.39,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.49,
+  "w": 1.34
+ },
+ "props/african/porter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 0.5,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.61,
+  "w": 0.59
+ },
+ "props/african/shepherd": {
+  "cx": 0.88,
+  "cy": 0.17,
+  "d": 6.04,
+  "ext": "webp",
+  "px": 192,
+  "size": 11.18,
+  "w": 10.75
+ },
+ "props/african/skiff": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 5.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.03,
+  "w": 0.9
+ },
+ "props/african/stall": {
+  "cx": 0.0,
+  "cy": 0.32,
+  "d": 2.89,
+  "ext": "webp",
+  "px": 192,
+  "size": 3.01,
+  "w": 2.8
+ },
+ "props/african/stall-cloth": {
+  "cx": 0.0,
+  "cy": -0.05,
+  "d": 2.15,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/african/stall-fruit": {
+  "cx": 0.0,
+  "cy": -0.05,
+  "d": 2.15,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/african/stall-pots": {
+  "cx": 0.0,
+  "cy": -0.05,
+  "d": 2.15,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.91,
+  "w": 2.8
+ },
+ "props/african/wagon": {
+  "cx": -0.05,
+  "cy": 0.35,
+  "d": 9.14,
+  "ext": "webp",
+  "px": 192,
+  "size": 9.51,
+  "w": 1.67
+ },
+ "props/african/walker": {
+  "cx": 0.0,
+  "cy": 0.04,
+  "d": 0.62,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.74,
+  "w": 0.71
+ },
  "props/islamic/bakery": {
   "cx": 0.0,
   "cy": 0.39,

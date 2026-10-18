@@ -1,4 +1,25 @@
 {
+ "african": [
+  "bakery",
+  "boat",
+  "cart",
+  "crowd",
+  "farmer",
+  "forge",
+  "handcart",
+  "litter",
+  "matron",
+  "mule",
+  "porter",
+  "shepherd",
+  "skiff",
+  "stall",
+  "stall-cloth",
+  "stall-fruit",
+  "stall-pots",
+  "wagon",
+  "walker"
+ ],
  "islamic": [
   "bakery",
   "boat",
