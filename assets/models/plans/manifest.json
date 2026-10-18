@@ -197,6 +197,177 @@
   "size": 0.74,
   "w": 0.71
  },
+ "props/americas/bakery": {
+  "cx": 0.0,
+  "cy": -0.12,
+  "d": 7.25,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.54,
+  "w": 6.6
+ },
+ "props/americas/boat": {
+  "cx": 0.1,
+  "cy": -0.0,
+  "d": 12.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 12.48,
+  "w": 1.35
+ },
+ "props/americas/cart": {
+  "cx": 0.03,
+  "cy": -0.11,
+  "d": 4.43,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.61,
+  "w": 1.05
+ },
+ "props/americas/crowd": {
+  "cx": 0.28,
+  "cy": 0.01,
+  "d": 5.38,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.29,
+  "w": 6.05
+ },
+ "props/americas/farmer": {
+  "cx": -0.08,
+  "cy": -0.02,
+  "d": 18.03,
+  "ext": "webp",
+  "px": 192,
+  "size": 18.75,
+  "w": 5.95
+ },
+ "props/americas/forge": {
+  "cx": 0.0,
+  "cy": -0.6,
+  "d": 7.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.9,
+  "w": 7.0
+ },
+ "props/americas/handcart": {
+  "cx": 0.11,
+  "cy": -0.06,
+  "d": 1.47,
+  "ext": "webp",
+  "px": 192,
+  "size": 1.53,
+  "w": 1.05
+ },
+ "props/americas/litter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 4.1,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.26,
+  "w": 1.84
+ },
+ "props/americas/matron": {
+  "cx": 0.0,
+  "cy": 0.07,
+  "d": 0.64,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.67,
+  "w": 0.6
+ },
+ "props/americas/mule": {
+  "cx": -0.0,
+  "cy": -0.06,
+  "d": 2.14,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.23,
+  "w": 0.8
+ },
+ "props/americas/porter": {
+  "cx": -0.0,
+  "cy": -0.09,
+  "d": 0.59,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.63,
+  "w": 0.6
+ },
+ "props/americas/shepherd": {
+  "cx": 1.26,
+  "cy": -0.06,
+  "d": 5.33,
+  "ext": "webp",
+  "px": 192,
+  "size": 10.12,
+  "w": 9.73
+ },
+ "props/americas/skiff": {
+  "cx": 0.17,
+  "cy": -0.0,
+  "d": 4.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.78,
+  "w": 0.94
+ },
+ "props/americas/stall": {
+  "cx": 0.0,
+  "cy": 0.15,
+  "d": 3.07,
+  "ext": "webp",
+  "px": 192,
+  "size": 3.19,
+  "w": 3.06
+ },
+ "props/americas/stall-cloth": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 2.2,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.55,
+  "w": 2.45
+ },
+ "props/americas/stall-fruit": {
+  "cx": 0.0,
+  "cy": -0.08,
+  "d": 2.06,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.55,
+  "w": 2.45
+ },
+ "props/americas/stall-pots": {
+  "cx": 0.0,
+  "cy": 0.04,
+  "d": 2.29,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.55,
+  "w": 2.45
+ },
+ "props/americas/wagon": {
+  "cx": -0.0,
+  "cy": 0.66,
+  "d": 8.28,
+  "ext": "webp",
+  "px": 192,
+  "size": 8.61,
+  "w": 0.9
+ },
+ "props/americas/walker": {
+  "cx": -0.0,
+  "cy": -0.02,
+  "d": 0.53,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.63,
+  "w": 0.6
+ },
  "props/eastasian/bakery": {
   "cx": 0.0,
   "cy": -0.13,
