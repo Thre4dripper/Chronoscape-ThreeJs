@@ -524,3 +524,105 @@ def gatehouse(name, w, d, h, loc=(0, 0, 0), face="S", color=RED_SANDSTONE, trim=
     return move(o, x, y, z)
 
 
+# ---------------------------------------------------------------- China, Korea and Japan
+
+def eaved_roof(name, w, d, h, loc=(0, 0, 0), color=TILE_GREY, over=None, curve=0.18, double=False, hip=True):
+    """An East Asian hipped roof with wide eaves whose corners turn up; double = a second eave below."""
+    x, y, z = loc
+    over = over if over is not None else min(w, d) * 0.18
+    W, D = w + 2 * over, d + 2 * over
+    ridge = max(0.0, (W - D) * 0.5) if hip else W * 0.5
+    lift = h * curve
+    verts = [(-W / 2, -D / 2, lift), (W / 2, -D / 2, lift), (W / 2, D / 2, lift), (-W / 2, D / 2, lift),
+             (-W * 0.42, -D * 0.42, h * 0.12), (W * 0.42, -D * 0.42, h * 0.12), (W * 0.42, D * 0.42, h * 0.12), (-W * 0.42, D * 0.42, h * 0.12),
+             (-ridge / 2, 0, h), (ridge / 2, 0, h)]
+    faces = [(0, 1, 5, 4), (1, 2, 6, 5), (2, 3, 7, 6), (3, 0, 4, 7), (4, 5, 9, 8), (6, 7, 8, 9), (5, 6, 9), (7, 4, 8), (3, 2, 1, 0)]
+    parts = [mesh_from(name + "_r", verts, faces, (x, y, z), color)]
+    parts.append(box(name + "_ridge", max(ridge, 0.5) + 0.6, 0.6, 0.5, (x, y, z + h - 0.2), shade(color, -0.25)))
+    for s in (-1, 1):
+        if ridge > 0.5:
+            parts.append(box(f"{name}_ch{s}", 0.6, 0.9, 1.0, (x + s * (ridge / 2 + 0.2), y, z + h - 0.2), shade(color, -0.25)))
+    if double:
+        parts.append(eaved_roof(name + "_low", w * 1.18, d * 1.25, h * 0.35, (x, y, z - h * 0.42), color, over * 0.9, curve, False, True))
+    return join(parts, name)
+
+
+def east_asian_hall(name, w, d, h, loc=(0, 0, 0), wall=TIMBER_RED, roof=TILE_GREY, platform=1.2, plat_color=LIMESTONE, double=False, columns=True, roof_h=None, face="S"):
+    """A timber hall on a stone platform: red columns, plastered or latticed walls, a heavy eaved roof."""
+    x, y, z = loc
+    parts = [box(name + "_plat", w + 4, d + 4, platform, (x, y, z), plat_color)]
+    parts.append(stair(name + "_st", w * 0.3, platform, platform * 2, 4, (x, y - d / 2 - 2, z), "S", plat_color))
+    zb = z + platform
+    parts.append(box(name + "_walls", w * 0.94, d * 0.86, h, (x, y, zb), shade(wall, 0.25) if columns else wall))
+    if columns:
+        n = max(3, int(w / 3.5))
+        for i in range(n + 1):
+            for sy in (-1, 1):
+                parts.append(cylinder(f"{name}_c{i}{sy}", 0.32, h, (x - w / 2 + w * i / n, y + sy * d / 2, zb), wall, verts=8))
+        parts.append(box(name + "_lattice", w * 0.7, 0.3, h * 0.6, (x, y - d * 0.43 - 0.1, zb + h * 0.1), shade(wall, -0.25)))
+    parts.append(box(name + "_beam", w + 0.6, d + 0.6, 0.6, (x, y, zb + h - 0.3), wall))
+    parts.append(eaved_roof(name + "_roof", w, d, roof_h or min(w, d) * 0.42, (x, y, zb + h + 0.3), roof, double=double))
+    o = join(parts, name)
+    if face != "S":
+        o = rot(o, {"N": 180, "E": 90, "W": -90}[face])
+    return o
+
+
+def pagoda(name, w, storeys, loc=(0, 0, 0), wall=PLASTER, roof=TILE_GREY, storey_h=None, sides=4, taper=0.86, spire=True, masonry=False):
+    """A multi-storey pagoda: diminishing storeys, an eave at each, a bronze spire with rings (sorin)."""
+    x, y, z = loc
+    sh = storey_h or w * 0.42
+    parts = [box(name + "_base", w * 1.3, w * 1.3, w * 0.12, (x, y, z), LIMESTONE)]
+    zz = z + w * 0.12
+    ww = w
+    for i in range(storeys):
+        if sides == 4:
+            parts.append(box(f"{name}_s{i}", ww, ww, sh, (x, y, zz), wall))
+        else:
+            pts = [((ww / 2) * math.cos(math.pi / sides + k * math.tau / sides), (ww / 2) * math.sin(math.pi / sides + k * math.tau / sides)) for k in range(sides)]
+            parts.append(prism(f"{name}_s{i}", pts, sh, (x, y, zz), wall))
+        if masonry:
+            parts.append(box(f"{name}_e{i}", ww * 1.18, ww * 1.18, sh * 0.12, (x, y, zz + sh), roof))
+            parts.append(box(f"{name}_e{i}b", ww * 1.06, ww * 1.06, sh * 0.08, (x, y, zz + sh - sh * 0.08), shade(roof, 0.1)))
+        else:
+            parts.append(eaved_roof(f"{name}_r{i}", ww, ww, ww * 0.18, (x, y, zz + sh), roof, over=ww * 0.32, curve=0.3))
+        zz += sh + (ww * 0.12 if not masonry else sh * 0.12)
+        ww *= taper
+    if spire:
+        parts.append(cylinder(name + "_spire", ww * 0.08, w * 1.1, (x, y, zz - ww * 0.05), BRONZE, verts=8))
+        for k in range(7):
+            parts.append(cylinder(f"{name}_ring{k}", ww * 0.18, 0.18, (x, y, zz + w * 0.12 + k * w * 0.1), BRONZE, verts=10))
+        parts.append(dome(name + "_jewel", ww * 0.12, (x, y, zz + w * 1.1), GILT, segments=10, rings=6))
+    return join(parts, name)
+
+
+def torii(name, w, h, loc=(0, 0, 0), color=LACQUER, face="S"):
+    x, y, z = loc
+    parts = [cylinder(f"{name}_p{s}", w * 0.06, h, (x + s * w * 0.4, y, z), color, verts=10) for s in (-1, 1)]
+    parts.append(box(name + "_kasagi", w * 1.25, w * 0.1, w * 0.1, (x, y, z + h), DARK))
+    parts.append(box(name + "_shimaki", w * 1.12, w * 0.09, w * 0.08, (x, y, z + h - w * 0.08), color))
+    parts.append(box(name + "_nuki", w * 1.0, w * 0.06, w * 0.07, (x, y, z + h * 0.78), color))
+    o = join(parts, name)
+    return rot(o, {"S": 0, "N": 0, "E": 90, "W": 90}[face])
+
+
+def castle_keep(name, w, d, storeys, loc=(0, 0, 0), base_h=None, wall=WHITEWASH, roof=TILE_GREY, stone=GRANITE):
+    """A Japanese tenshu on a battered stone base: stacked storeys, each with eaves and gables."""
+    x, y, z = loc
+    bh = base_h or w * 0.5
+    parts = [frustum(name + "_base", w * 1.35, d * 1.35, w * 1.05, d * 1.05, bh, (x, y, z), stone)]
+    zz, ww, dd = z + bh, w, d
+    for i in range(storeys):
+        sh = 4.2 if i else 5.0
+        parts.append(box(f"{name}_s{i}", ww, dd, sh, (x, y, zz), wall))
+        parts.append(box(f"{name}_w{i}", ww * 1.01, dd * 1.01, 0.6, (x, y, zz + sh * 0.55), DARK))
+        last = i == storeys - 1
+        parts.append(eaved_roof(f"{name}_r{i}", ww, dd, (ww * 0.35 if last else ww * 0.16), (x, y, zz + sh), roof, over=ww * 0.12, curve=0.25, hip=not last or True))
+        if not last and i % 2 == 0:
+            parts.append(gable_roof(f"{name}_g{i}", ww * 0.4, dd * 0.3, ww * 0.15, (x, y - dd / 2, zz + sh), roof, overhang=0.3))
+        zz += sh + ww * 0.1
+        ww *= 0.8
+        dd *= 0.8
+    return join(parts, name)
+
+
