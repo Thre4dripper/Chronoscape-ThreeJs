@@ -137,3 +137,21 @@ def start(keys):
     if bpy.app.timers.is_registered(_tick):
         bpy.app.timers.unregister(_tick)
     bpy.app.timers.register(_tick, first_interval=0.3)
+
+
+def render_now(keys):
+    """Headless: Blender -b -P tools/blender/render_elevations.py -- <prefix> renders every model whose key starts with it."""
+    os.makedirs(OUT, exist_ok=True)
+    mp = os.path.join(OUT, "manifest.json")
+    man = json.load(open(mp)) if os.path.exists(mp) else {}
+    for k in keys:
+        try:
+            man[k] = render_elevation(k)
+        except Exception as e:
+            print("elevation failed", k, e)
+    json.dump(man, open(mp, "w"), indent=1, sort_keys=True)
+
+
+if __name__ == "__main__" and "--" in sys.argv:
+    pre = sys.argv[sys.argv.index("--") + 1:]
+    render_now([k for k in BUILDERS if any(k.startswith(p) for p in pre)])
