@@ -454,3 +454,73 @@ def shikhara_temple(name, w, h, loc=(0, 0, 0), color=BUFF_SANDSTONE, mandapa=Tru
     return rot(o, {"W": 0, "S": 90, "E": 180, "N": -90}[face]) if face != "W" else o
 
 
+# ---------------------------------------------------------------- fortifications (every tradition)
+
+def wall_run(name, pts, h, t, loc=(0, 0, 0), color=RED_SANDSTONE, towers=True, tower_r=None, tower_every=40.0, merlon="box", tower_shape="round", batter=0.0):
+    """A wall along a polyline [(x, y), ...] with towers at the corners and every tower_every metres."""
+    x0, y0, z0 = loc
+    parts = []
+    tr = tower_r or t * 1.4
+    for i in range(1, len(pts)):
+        (ax, ay), (bx, by) = pts[i - 1], pts[i]
+        L = math.hypot(bx - ax, by - ay)
+        a = math.atan2(by - ay, bx - ax)
+        cx, cy = (ax + bx) / 2 + x0, (ay + by) / 2 + y0
+        if batter:
+            seg = frustum(f"{name}_s{i}", L, t * (1 + batter), L, t, h, (0, 0, 0), color)
+            seg = rot(seg, math.degrees(a))
+            parts.append(move(seg, cx, cy, z0))
+        else:
+            parts.append(box(f"{name}_s{i}", L, t, h, (cx, cy, z0), color, rot_z=a))
+        n = max(1, int(L / 2.2))
+        for k in range(n):
+            u = -L / 2 + (k + 0.5) * L / n
+            mx, my = cx + math.cos(a) * u, cy + math.sin(a) * u
+            if merlon == "round":
+                parts.append(cylinder(f"{name}_m{i}_{k}", 0.55, 1.0, (mx, my, z0 + h), color, verts=6))
+            elif merlon:
+                parts.append(box(f"{name}_m{i}_{k}", 1.1, t * 0.9, 1.2, (mx, my, z0 + h), color, rot_z=a))
+        if towers:
+            tpts = [(ax, ay)] + [(ax + (bx - ax) * j / max(1, round(L / tower_every)), ay + (by - ay) * j / max(1, round(L / tower_every))) for j in range(1, max(1, round(L / tower_every)))]
+            for j, (tx, ty) in enumerate(tpts):
+                if tower_shape == "round":
+                    parts.append(cylinder(f"{name}_t{i}_{j}", tr, h * 1.18, (tx + x0, ty + y0, z0), shade(color, -0.04), verts=12, r_top=tr * (0.9 if batter else 1.0)))
+                else:
+                    parts.append(box(f"{name}_t{i}_{j}", tr * 2, tr * 2, h * 1.2, (tx + x0, ty + y0, z0), shade(color, -0.04), rot_z=a))
+    if towers:
+        tx, ty = pts[-1]
+        if tower_shape == "round":
+            parts.append(cylinder(f"{name}_tend", tr, h * 1.18, (tx + x0, ty + y0, z0), shade(color, -0.04), verts=12))
+        else:
+            parts.append(box(f"{name}_tend", tr * 2, tr * 2, h * 1.2, (tx + x0, ty + y0, z0), shade(color, -0.04)))
+    return join(parts, name)
+
+
+def gatehouse(name, w, d, h, loc=(0, 0, 0), face="S", color=RED_SANDSTONE, trim=MARBLE, style="mughal"):
+    """A city or fort gate: a block with a tall arched passage, flanking towers and a crown (style: mughal | gothic | sinic | roman)."""
+    x, y, z = loc
+    parts = [box(name + "_b", w, d, h, (0, 0, 0), color)]
+    parts.append(arch_panel(name + "_arch", w * 0.32, h * 0.62, (0, -d / 2 - 0.05, 0), "S", DARK, style in ("mughal", "gothic")))
+    parts.append(arch_panel(name + "_archb", w * 0.32, h * 0.62, (0, d / 2 + 0.05, 0), "N", DARK, style in ("mughal", "gothic")))
+    if style == "sinic":
+        parts.append(box(name + "_hall", w * 0.8, d * 0.75, h * 0.45, (0, 0, h), TIMBER_RED))
+        parts.append(eaved_roof(name + "_r1", w * 0.8, d * 0.75, h * 0.3, (0, 0, h * 1.45), TILE_GREY, double=True))
+    elif style == "gothic":
+        for s in (-1, 1):
+            parts.append(cylinder(f"{name}_tw{s}", w * 0.2, h * 1.35, (s * w * 0.45, -d * 0.2, 0), color, verts=12))
+            parts.append(cylinder(f"{name}_tc{s}", w * 0.22, h * 0.45, (s * w * 0.45, -d * 0.2, h * 1.35), SLATE, verts=12, r_top=0))
+        parts.append(merlons(name + "_mer", w, d, h, 0.9, 0.8, color))
+    else:
+        for s in (-1, 1):
+            parts.append(cylinder(f"{name}_tw{s}", w * 0.17, h * 1.12, (s * w * 0.5, -d * 0.15, 0), shade(color, -0.04), verts=12))
+            if style == "mughal":
+                parts.append(chhatri(f"{name}_ct{s}", w * 0.13, w * 0.36, (s * w * 0.5, -d * 0.15, h * 1.12), trim))
+        parts.append(merlons(name + "_mer", w * 0.7, d, h, 0.9, 0.7, color, "round" if style == "mughal" else "box"))
+        if style == "mughal":
+            for i in range(-2, 3):
+                parts.append(chhatri(f"{name}_cs{i}", w * 0.04, w * 0.11, (i * w * 0.12, -d / 2 + 0.6, h), trim))
+    o = join(parts, name)
+    o = rot(o, {"S": 0, "N": 180, "E": 90, "W": -90}[face])
+    return move(o, x, y, z)
+
+
