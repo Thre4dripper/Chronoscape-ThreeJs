@@ -676,6 +676,63 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .flight__cover-t { font-family: var(--roman); font-weight: 700; font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; }
 .flight__cover-s { font-family: var(--display); font-style: italic; font-size: 15px; }
 
+/* ---------- the map case (in a city) ---------- */
+.btn--case { display: inline-flex; align-items: center; gap: 8px; }
+.btn--case__icon { width: 16px; height: 13px; border: 1.5px solid currentColor; border-radius: 1px; background: linear-gradient(90deg, transparent 47%, currentColor 47% 53%, transparent 53%), linear-gradient(0deg, transparent 47%, currentColor 47% 53%, transparent 53%); opacity: 0.85; }
+.mapcase__scrim { position: absolute; inset: 0; z-index: 40; background: rgba(30,18,8,0.4); opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+.mapcase__scrim.is-open { opacity: 1; pointer-events: auto; }
+.mapcase {
+  position: absolute; z-index: 41; top: 0; right: 0; bottom: 0; width: min(440px, 100vw); display: flex; flex-direction: column; color: var(--page-ink);
+  background: radial-gradient(ellipse at 0% 0%, rgba(255,250,232,0.6), transparent 60%), var(--page); border-left: 6px solid #5d3620;
+  box-shadow: -20px 0 60px rgba(0,0,0,0.4); transform: translateX(105%); transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1); visibility: hidden;
+}
+.mapcase.is-open { transform: none; visibility: visible; }
+.mapcase__head { display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 22px 8px; }
+.mapcase__kicker { font-family: var(--roman); font-size: 11px; letter-spacing: 0.4em; text-transform: uppercase; color: #8a3f26; }
+.mapcase__head h2 { margin: 2px 0 0; font-family: var(--roman); font-weight: 700; font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; }
+.mapcase__close { width: 34px; height: 34px; border-radius: 50%; border: 1px solid rgba(84,58,38,0.4); background: rgba(255,250,235,0.6); font-size: 22px; line-height: 1; cursor: pointer; color: var(--page-ink); }
+.mapcase__nav { display: flex; gap: 8px; padding: 0 22px 12px; border-bottom: 1px solid var(--page-rule); }
+.mapcase .btn { color: var(--page-ink); border-color: rgba(84,58,38,0.45); background: rgba(255,250,235,0.5); padding: 6px 12px; font-size: 14px; }
+.mapcase .btn--ghost { background: none; border-color: transparent; }
+.mapcase__body { flex: 1; overflow: auto; padding: 6px 22px 22px; }
+.mapcase__atlas { padding: 14px 0 4px; border-bottom: 1px solid var(--page-rule); }
+.mapcase__atlas h3 { margin: 0 0 10px; padding-left: 10px; border-left: 4px solid var(--tie); font-family: var(--roman); font-weight: 700; font-size: 14px; letter-spacing: 0.06em; display: flex; flex-direction: column; }
+.mapcase__atlas h3 span { font-family: var(--display); font-weight: 400; font-style: italic; font-size: 13px; letter-spacing: 0; opacity: 0.75; }
+.mapcase__maps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.mapcase__map { position: relative; }
+.mapcase__map.is-here .fmap__packet { outline: 2px solid var(--terracotta); outline-offset: 4px; }
+.mapcase__here { position: absolute; top: -8px; left: 50%; transform: translateX(-50%); padding: 1px 7px; white-space: nowrap; font-family: var(--roman); font-size: 9.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #fbf1d9; background: var(--terracotta); border-radius: 8px; z-index: 2; }
+
+@media (max-width: 1100px) {
+  .ways { grid-template-columns: repeat(2, minmax(0, 240px)); }
+  .room__hover { width: min(300px, calc(30vw - 30px)); }
+}
+@media (max-width: 720px) {
+  .title-page { overflow-y: auto; }
+  .frontis { padding-top: 40px; }
+  .frontis__frame { padding: 34px 22px 28px; }
+  .frontis__lead { font-size: 17px; }
+  .ways { grid-template-columns: 1fr; gap: 26px; margin-top: 30px; }
+  .room__heading h1 { font-size: 22px; }
+  .room__heading p { display: none; }
+  .atlas-card { top: auto; left: 12px; right: 12px; width: auto; max-height: 72vh; }
+  .atlas-card__maps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .room__hover { display: none; }
+  .mapcase__maps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.fmap--sm .fmap__stamp { font-size: 8px; padding: 2px 4px; letter-spacing: 0.08em; border-width: 1.5px; }
+.fmap--sm .fmap__seal { width: 22px; height: 22px; font-size: 10px; top: calc(62% - 7px); }
+.mapcase__nav .btn { white-space: nowrap; }
+.mapcase__atlas--ready h3 { border-left-color: var(--terracotta); }
+.mapcase__nav { flex-wrap: wrap; }
+.mapcase .btn { letter-spacing: 0.12em; font-size: 13px; }
+.room__heading { max-width: 320px; }
+@media (max-width: 720px) {
+  .room__back-text { display: none; }
+  .room__back { padding: 8px 12px; }
+  .room__top { gap: 12px; }
+}
+
 /* the title page's chart answers to the pointer wherever the page leaves it uncovered */
 .frontis, .ways { pointer-events: none; }
 .frontis__frame, .ways__item { pointer-events: auto; }
