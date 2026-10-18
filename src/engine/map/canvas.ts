@@ -11,7 +11,10 @@ export function makeCanvas(w: number, h: number): AnyCanvas {
 }
 
 export function ctx2d(c: AnyCanvas): Ctx2D {
-  return c.getContext("2d") as Ctx2D;
+  // a whole-city plate (16+ megapixels with thousands of clipped fields) can make a GPU-backed canvas lose its
+  // context halfway, silently dropping everything drawn after; big canvases draw in software instead
+  const big = c.width * c.height > 8e6;
+  return c.getContext("2d", big ? { willReadFrequently: true } : undefined) as Ctx2D;
 }
 
 export const FONT_FACES: { family: string; url: string; style: string; weight: string }[] = [
