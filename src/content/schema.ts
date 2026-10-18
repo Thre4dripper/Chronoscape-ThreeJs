@@ -27,6 +27,17 @@ export const SourceSchema = z.object({
 });
 export type Source = z.infer<typeof SourceSchema>;
 
+/**
+ * How ordinary houses are built in a period: the generated city blocks, their
+ * hover models and the descriptions follow it. Mediterranean cities step
+ * through archaic → antique → medieval → early-modern by year; other cities
+ * name their tradition per period.
+ */
+export const STYLES = ["archaic", "antique", "medieval", "early-modern", "gothic", "courtyard", "sinic", "japanese", "mesoamerican", "andean", "sahel", "kraal"] as const;
+export const StyleSchema = z.enum(STYLES);
+
+const Blurb = z.object({ title: z.string().min(1), text: z.string().min(1) });
+
 export const PeriodSchema = z.object({
   id: z.string().min(1),
   label: z.string().min(1),
@@ -37,6 +48,12 @@ export const PeriodSchema = z.object({
   summary: z.string().min(1),
   population: z.string().optional(),
   feel: z.string().optional(),
+  /** House-building tradition; defaults to the Mediterranean style for the year. */
+  style: StyleSchema.optional(),
+  /** What an ordinary built-up block was in this city and period (overrides the tradition's generic text). */
+  houses: Blurb.optional(),
+  /** What a loosely built block (gardens, outskirts) was. */
+  outskirts: Blurb.optional(),
 });
 export type Period = z.infer<typeof PeriodSchema>;
 
@@ -366,6 +383,11 @@ export const CitySchema = z.object({
       scale: z.number().positive().default(0.02),
       /** Multiplies the era's default house heights (a city of towers, or of low courtyard houses). */
       heightScale: z.number().positive().optional(),
+      /** Wall and roof colours for the hover models of ordinary houses (the tradition's defaults otherwise). */
+      walls: z.array(Hex).min(1).optional(),
+      /** Street-life prop set (people, animals, stalls, boats); by default it follows each era's building style. */
+      props: z.enum(["islamic", "eastasian", "americas", "andean", "african", "venetian"]).optional(),
+      roofs: z.array(Hex).min(1).optional(),
     })
     .prefault({}),
   camera: z
