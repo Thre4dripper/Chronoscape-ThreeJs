@@ -626,3 +626,134 @@ def castle_keep(name, w, d, storeys, loc=(0, 0, 0), base_h=None, wall=WHITEWASH,
     return join(parts, name)
 
 
+# ---------------------------------------------------------------- Gothic, Romanesque and Byzantine Europe
+
+def gothic_church(name, length, width, nave_h, loc=(0, 0, 0), color=LIMESTONE, roof=SLATE, towers=2, spire=False, transept=True, apse=True, rose=True, face="W",
+                  flying=True, tower_h=None):
+    """A cathedral facing west: twin-towered front, nave and aisles with buttresses, transept, round apse, a crossing flèche."""
+    parts = []
+    aisle_w, aisle_h = width * 0.22, nave_h * 0.5
+    nave_w = width - 2 * aisle_w
+    L = length
+    parts.append(box(name + "_nave", L, nave_w, nave_h, (0, 0, 0), color))
+    parts.append(gable_roof(name + "_naveroof", nave_w, L, nave_w * 0.75, (0, 0, nave_h), roof, overhang=0.4))
+    # gable_roof ridge runs along Y; rotate it to run along X
+    parts[-1] = rot(parts[-1], 90)
+    for s in (-1, 1):
+        parts.append(box(f"{name}_aisle{s}", L, aisle_w, aisle_h, (0, s * (nave_w / 2 + aisle_w / 2), 0), color))
+        parts.append(box(f"{name}_aisleroof{s}", L, aisle_w * 1.05, 0.8, (0, s * (nave_w / 2 + aisle_w / 2), aisle_h), roof))
+        n = max(4, int(L / 7))
+        for i in range(n):
+            bx = -L / 2 + L * (i + 0.5) / n
+            parts.append(box(f"{name}_but{s}{i}", 1.4, 2.2, aisle_h * 1.2, (bx, s * (width / 2 + 0.6), 0), shade(color, -0.06)))
+            parts.append(cylinder(f"{name}_pin{s}{i}", 0.5, 3.0, (bx, s * (width / 2 + 0.6), aisle_h * 1.2), shade(color, -0.06), verts=4, r_top=0))
+            parts.append(arch_panel(f"{name}_win{s}{i}", L / n * 0.4, nave_h * 0.35, (bx, s * (nave_w / 2 + 0.05), aisle_h + 1.2), "S" if s < 0 else "N", "#4A5568", True, 0.25))
+            if flying:
+                fb = frustum(f"{name}_fly{s}{i}", 0.6, aisle_w + 1.2, 0.6, 0.6, 0.8, (0, 0, 0), shade(color, -0.04))
+                parts.append(move(fb, bx, s * (nave_w / 2 + aisle_w / 2 + 0.3), aisle_h + nave_h * 0.2))
+    if transept:
+        tw = width * 1.55
+        parts.append(box(name + "_transept", nave_w * 1.1, tw, nave_h, (L * 0.12, 0, 0), color))
+        parts.append(gable_roof(name + "_troof", nave_w * 1.1, tw, nave_w * 0.75, (L * 0.12, 0, nave_h), roof, overhang=0.4))
+        for s in (-1, 1):
+            parts.append(cylinder(f"{name}_trose{s}", nave_w * 0.3, 0.4, (L * 0.12, s * tw / 2, nave_h * 0.55), "#4A5568", verts=20))
+            parts[-1].rotation_euler[0] = math.pi / 2
+        parts.append(cylinder(name + "_fleche", 1.2, nave_h * 0.9, (L * 0.12, 0, nave_h + nave_w * 0.7), LEAD, verts=8, r_top=0))
+    if apse:
+        prof_r = nave_w / 2
+        a = cylinder(name + "_apse", prof_r, nave_h, (L / 2, 0, 0), color, verts=16)
+        parts.append(a)
+        parts.append(cylinder(name + "_apseroof", prof_r * 1.05, nave_w * 0.6, (L / 2, 0, nave_h), roof, verts=16, r_top=0.2))
+        parts.append(cylinder(name + "_amb", prof_r + aisle_w, aisle_h, (L / 2, 0, 0), color, verts=16))
+    th = tower_h or nave_h * 1.6
+    front = -L / 2
+    if towers == 2:
+        for s in (-1, 1):
+            parts.append(box(f"{name}_tower{s}", width * 0.34, width * 0.34, th, (front + width * 0.15, s * (width / 2 - width * 0.17), 0), color))
+            parts.append(merlons(f"{name}_tm{s}", width * 0.34, width * 0.34, th, 0.6, 0.6, color))
+            parts[-1] = move(parts[-1], front + width * 0.15, s * (width / 2 - width * 0.17), 0)
+            for k in range(2):
+                parts.append(arch_panel(f"{name}_tw{s}{k}", width * 0.06, th * 0.2, (front - 0.05, s * (width / 2 - width * 0.17) + (k - 0.5) * width * 0.12, th * 0.62), "W", DARK, True, 0.3))
+            if spire:
+                parts.append(cylinder(f"{name}_sp{s}", width * 0.19, th * 0.9, (front + width * 0.15, s * (width / 2 - width * 0.17), th), color, verts=8, r_top=0))
+        parts.append(box(name + "_front", 2.0, width * 0.36, nave_h * 1.05, (front, 0, 0), color))
+    elif towers == 1:
+        parts.append(box(name + "_tower", width * 0.4, width * 0.4, th, (front, 0, 0), color))
+        if spire:
+            parts.append(cylinder(name + "_sp", width * 0.26, th * 0.9, (front, 0, th), roof if spire == "slate" else color, verts=8, r_top=0))
+    for k, s in enumerate((-1, 0, 1)):
+        parts.append(arch_panel(f"{name}_portal{k}", width * (0.14 if s else 0.18), nave_h * (0.36 if s else 0.45), (front - 1.0, s * width * 0.3, 0), "W", DARK, True, 0.6))
+    if rose:
+        r = cylinder(name + "_rose", nave_w * 0.32, 0.5, (front - 1.05, 0, nave_h * 0.68), "#4A5568", verts=24)
+        r.rotation_euler[1] = math.pi / 2
+        parts.append(r)
+    o = join(parts, name)
+    return rot(o, {"W": 0, "S": 90, "E": 180, "N": -90}[face])
+
+
+def campanile(name, w, h, loc=(0, 0, 0), color=BRICK, cap="spire", cap_color=None, belfry=DARK):
+    x, y, z = loc
+    parts = [box(name + "_shaft", w, w, h, (x, y, z), color)]
+    for f, (dx, dy) in (("S", (0, -w / 2)), ("N", (0, w / 2)), ("E", (w / 2, 0)), ("W", (-w / 2, 0))):
+        parts.append(arcade(f"{name}_bel{f}", w * 0.8, h * 0.12, 2, (x + dx * 1.02, y + dy * 1.02, z + h * 0.8), f, belfry, False))
+    parts.append(cornice(name + "_c", w, w, z + h, 0.5, 0.3, shade(color, 0.15)))
+    parts[-1] = move(parts[-1], x, y, 0)
+    if cap == "spire":
+        parts.append(cylinder(name + "_sp", w * 0.62, h * 0.35, (x, y, z + h + 0.5), cap_color or shade(color, -0.1), verts=4, r_top=0))
+        parts[-1].rotation_euler[2] = math.pi / 4
+    elif cap == "pyramid":
+        parts.append(cylinder(name + "_py", w * 0.72, w * 0.6, (x, y, z + h + 0.5), cap_color or TILE_RED, verts=4, r_top=0))
+        parts[-1].rotation_euler[2] = math.pi / 4
+    elif cap == "merlons":
+        parts.append(merlons(name + "_m", w, w, z + h + 0.5, 0.7, 0.6, color))
+        parts[-1] = move(parts[-1], x, y, 0)
+    return join(parts, name)
+
+
+def domed_basilica(name, w, d, loc=(0, 0, 0), color=PLASTER, dome_color=LEAD, main_r=None, semi=True, buttress=True, minarets=0):
+    """A Byzantine domed church (Hagia Sophia type): a square core, a great dome on a ring of windows, semi-domes east and west."""
+    x, y, z = loc
+    h = min(w, d) * 0.42
+    r = main_r or min(w, d) * 0.3
+    parts = [box(name + "_core", w, d, h, (x, y, z), color)]
+    parts.append(cylinder(name + "_drum", r * 1.02, r * 0.18, (x, y, z + h), color, verts=40))
+    parts.append(arcade(name + "_drumwin", r * 1.6, r * 0.14, 8, (x, y - r * 1.02, z + h + 0.1), "S", DARK, False))
+    parts.append(shallow_dome(name + "_dome", r, (x, y, z + h + r * 0.18), dome_color, rise=0.55, finial=True))
+    if semi:
+        for s in (-1, 1):
+            sd = shallow_dome(f"{name}_semi{s}", r * 0.95, (0, 0, 0), dome_color, rise=0.5)
+            for v in sd.data.vertices:
+                if v.co.x * s < 0:
+                    v.co.x = 0
+            parts.append(move(sd, x + s * r * 0.95, y, z + h * 0.88))
+    if buttress:
+        for sx in (-1, 1):
+            for sy in (-1, 1):
+                parts.append(box(f"{name}_bt{sx}{sy}", w * 0.16, d * 0.16, h * 1.2, (x + sx * w * 0.36, y + sy * d * 0.42, z), shade(color, -0.06)))
+    parts.append(box(name + "_narthex", w * 0.12, d * 0.9, h * 0.6, (x - w / 2 - w * 0.06, y, z), color))
+    for i in range(minarets):
+        sx, sy = [(-1, -1), (1, -1), (1, 1), (-1, 1)][i]
+        parts.append(minaret(f"{name}_min{i}", 1.6, h * 1.9, (x + sx * w * 0.55, y + sy * d * 0.55, z), WHITEWASH, WHITEWASH, 2, "cone"))
+    return join(parts, name)
+
+
+def palazzo(name, w, d, h, loc=(0, 0, 0), color=STUCCO, roof=TILE_RED, storeys=3, rustic=None, court=True, loggia=False, tower=False):
+    """An Italian palace: rusticated ground floor, rows of arched windows, a deep cornice, a courtyard."""
+    x, y, z = loc
+    parts = []
+    if court:
+        parts.append(courtyard_ring(name + "_ring", w, d, h, min(w, d) * 0.3, (x, y, z), color, DARK, True))
+    else:
+        parts.append(box(name + "_b", w, d, h, (x, y, z), color))
+    parts.append(box(name + "_rust", w + 0.3, d + 0.3, h / storeys, (x, y, z), rustic or shade(color, -0.15)))
+    for s in range(1, storeys):
+        for f, dy in (("S", -d / 2), ("N", d / 2)):
+            parts.append(arcade(f"{name}_w{s}{f}", w * 0.9, h / storeys * 0.55, max(3, int(w / 4)), (x, y + dy * 1.01, z + h / storeys * s + 0.6), f, DARK, False, 0.4))
+    parts.append(cornice(name + "_corn", w, d, z + h, 0.9, 0.9, shade(color, 0.12)))
+    parts[-1] = move(parts[-1], x, y, 0)
+    parts.append(hip_roof(name + "_roof", w, d, min(w, d) * 0.15, (x, y, z + h + 0.9), roof, ridge=0.5, overhang=0.6))
+    if tower:
+        parts.append(campanile(name + "_tower", w * 0.16, h * 1.9, (x, y - d * 0.3, z), color, "merlons"))
+    return join(parts, name)
+
+
