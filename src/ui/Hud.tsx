@@ -1,6 +1,5 @@
 import type { City } from "@/content/schema";
 import { useStore, landmarkById, resolveVariant, currentFocus } from "@/engine/store";
-import { cityIndex } from "@/content/registry";
 
 const HINTS: Record<string, string> = {
   exploring: "Drag to explore · scroll to zoom · right-drag to rotate",
@@ -9,7 +8,7 @@ const HINTS: Record<string, string> = {
   immersed: "Esc to step back",
 };
 
-export function Hud({ city, onSwitchCity }: { city: City; onSwitchCity: (id: string) => void }) {
+export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) {
   const mode = useStore((s) => s.mode);
   const periodId = useStore((s) => s.periodId);
   const hoveredId = useStore((s) => s.hoveredId);
@@ -38,17 +37,10 @@ export function Hud({ city, onSwitchCity }: { city: City; onSwitchCity: (id: str
         <button className={`btn btn--era ${eraOpen ? "is-active" : ""}`} onClick={() => useStore.getState().toggleEra()}>
           This era
         </button>
-        <label className="city-picker">
-          <span>City</span>
-          <select value={city.id} onChange={(e) => onSwitchCity(e.target.value)}>
-            {cityIndex.cities.map((c) => (
-              <option key={c.id} value={c.id}>
-                {c.name}
-                {c.status !== "playable" ? ` (${c.status})` : ""}
-              </option>
-            ))}
-          </select>
-        </label>
+        <button className="btn btn--case" onClick={onMapCase} aria-label="Open the map case: every atlas and map">
+          <span className="btn--case__icon" aria-hidden="true" />
+          Map case
+        </button>
       </div>
 
       <footer className="hud hud--bottom-left">
