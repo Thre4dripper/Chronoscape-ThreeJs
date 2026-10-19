@@ -1,0 +1,4794 @@
+{
+ "id": "agra",
+ "name": "Agra",
+ "subtitle": "City of the Taj",
+ "description": "Agra on both banks of the Yamuna, from Sikandar Lodi's brick fort (1505) through the Mughal capital to the decline under the Jats and Marathas (1780): the fort, the old city, Taj Ganj, and the garden-tombs and gardens along both banks. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "shahjahan-1650",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#D9C3A0",
+   "#C99E78",
+   "#E3D3B6",
+   "#B97F5E",
+   "#CDB08A"
+  ],
+  "roofs": [
+   "#BFA584",
+   "#C7AE8A"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    4159,
+    4161
+   ],
+   "distance": 40,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   6436,
+   6102
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Yamuna (Jamna)",
+    "path": [
+     [
+      3169,
+      -277
+     ],
+     [
+      3713,
+      333
+     ],
+     [
+      3961,
+      888
+     ],
+     [
+      4010,
+      1553
+     ],
+     [
+      3862,
+      2219
+     ],
+     [
+      3743,
+      2774
+     ],
+     [
+      3644,
+      3329
+     ],
+     [
+      3585,
+      3828
+     ],
+     [
+      3684,
+      4161
+     ],
+     [
+      4040,
+      4305
+     ],
+     [
+      4555,
+      4272
+     ],
+     [
+      5149,
+      4194
+     ],
+     [
+      5644,
+      4127
+     ],
+     [
+      6040,
+      3905
+     ],
+     [
+      6318,
+      3439
+     ],
+     [
+      6486,
+      2885
+     ],
+     [
+      6684,
+      2219
+     ]
+    ],
+    "width": 260,
+    "id": "yamuna",
+    "blurb": "The Yamuna swings south past the fort and turns east to the Taj. Mughal Agra was built along it: some forty walled gardens and mansions on the two banks, with terraces and towers on the water. Low and sandy in winter, it runs a kilometre wide in the monsoon."
+   }
+  ],
+  "islands": [],
+  "hills": [],
+  "roads": [
+   {
+    "name": "Road to Fatehpur Sikri and Ajmer",
+    "path": [
+     [
+      2832,
+      3850
+     ],
+     [
+      1980,
+      3883
+     ],
+     [
+      1287,
+      3717
+     ],
+     [
+      -99,
+      3550
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "fatehpur-road",
+    "blurb": "The road west from the fort's Delhi Gate toward Bayana, Fatehpur Sikri and Ajmer, the pilgrim road to the shrine of Muin al-Din Chishti that Akbar walked on foot."
+   },
+   {
+    "name": "Road to Sikandra and Delhi",
+    "path": [
+     [
+      1980,
+      3883
+     ],
+     [
+      1832,
+      3218
+     ],
+     [
+      1584,
+      2552
+     ],
+     [
+      1089,
+      1775
+     ],
+     [
+      495,
+      888
+     ],
+     [
+      -69,
+      0
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "sikandra-road",
+    "blurb": "The imperial highway north-west to Sikandra, Mathura and Delhi, later lined with kos minars marking every two miles."
+   },
+   {
+    "name": "Road to Gwalior",
+    "path": [
+     [
+      3020,
+      4327
+     ],
+     [
+      2872,
+      4771
+     ],
+     [
+      2674,
+      5437
+     ],
+     [
+      2476,
+      6102
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "gwalior-road",
+    "blurb": "South from the fort toward Dholpur, Gwalior and the Deccan: the road of armies and of the Deccan trade."
+   },
+   {
+    "name": "Riverside street",
+    "path": [
+     [
+      2832,
+      3750
+     ],
+     [
+      2971,
+      3384
+     ],
+     [
+      3149,
+      2996
+     ],
+     [
+      3347,
+      2552
+     ],
+     [
+      3466,
+      1997
+     ],
+     [
+      3515,
+      1331
+     ],
+     [
+      3317,
+      666
+     ],
+     [
+      2921,
+      0
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "belanganj-street",
+    "blurb": "The street behind the riverfront mansions north of the fort, where the gates of the havelis faced the town and their gardens faced the river.",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "name": "Lane along the river",
+    "path": [
+     [
+      2832,
+      3750
+     ],
+     [
+      2971,
+      3384
+     ],
+     [
+      3149,
+      2996
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "lodi-river-lane",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "name": "Road of the Rauza",
+    "path": [
+     [
+      3248,
+      4416
+     ],
+     [
+      3862,
+      4604
+     ],
+     [
+      4555,
+      4682
+     ],
+     [
+      4931,
+      4793
+     ],
+     [
+      5070,
+      4860
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "rauza-road",
+    "blurb": "From the fort along the backs of the riverfront havelis to the west gate of the Taj's forecourt: the route of Shah Jahan's Friday visits to the tomb when he was in Agra.",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "name": "Taj Ganj road",
+    "path": [
+     [
+      5001,
+      5215
+     ],
+     [
+      4258,
+      5104
+     ],
+     [
+      3565,
+      4826
+     ],
+     [
+      3119,
+      4493
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "tajganj-road",
+    "blurb": "The road from the city to the bazaars and sarais of Taj Ganj (Mumtazabad).",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "name": "Road to Fatehabad",
+    "path": [
+     [
+      5308,
+      5303
+     ],
+     [
+      5941,
+      5437
+     ],
+     [
+      6436,
+      5603
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "fatehabad-road",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "name": "Road to Firozabad and Etawah",
+    "path": [
+     [
+      3961,
+      3107
+     ],
+     [
+      4357,
+      3051
+     ],
+     [
+      5149,
+      2829
+     ],
+     [
+      5941,
+      2496
+     ],
+     [
+      6436,
+      2164
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "firozabad-road",
+    "blurb": "From the river crossing east across the doab toward Firozabad, Etawah and the road to Bengal."
+   },
+   {
+    "name": "Lane of the gardens",
+    "path": [
+     [
+      4357,
+      3051
+     ],
+     [
+      4327,
+      2441
+     ],
+     [
+      4575,
+      1886
+     ],
+     [
+      4674,
+      1220
+     ],
+     [
+      4624,
+      555
+     ],
+     [
+      4337,
+      0
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "garden-lane",
+    "blurb": "The lane behind the east-bank gardens: their gates opened onto it, their terraces onto the river.",
+    "periods": [
+     "babur-1530",
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "name": "Lane to the Mahtab Bagh",
+    "path": [
+     [
+      5050,
+      2851
+     ],
+     [
+      5129,
+      3329
+     ],
+     [
+      5159,
+      3717
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "mehtab-lane",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "name": "Kachhpura lane",
+    "path": [
+     [
+      5149,
+      2829
+     ],
+     [
+      5644,
+      3218
+     ],
+     [
+      5842,
+      3306
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "kachhpura-lane",
+    "periods": [
+     "lodi-1505",
+     "babur-1530",
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [
+   {
+    "name": "Bridge of boats",
+    "path": [
+     [
+      3486,
+      3107
+     ],
+     [
+      3921,
+      3107
+     ]
+    ],
+    "build": "timber",
+    "arches": 12,
+    "id": "bridge-of-boats",
+    "blurb": "A pontoon bridge of boats lashed together and planked over, linking the city to the east bank; travellers describe it in the 17th century. It was taken up when the river rose.",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   }
+  ],
+  "aqueducts": [
+   {
+    "name": "Taj waterworks aqueduct",
+    "path": [
+     [
+      4872,
+      4416
+     ],
+     [
+      5001,
+      4493
+     ],
+     [
+      5070,
+      4527
+     ]
+    ],
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2030,
+      3794
+     ],
+     [
+      2030,
+      3495
+     ],
+     [
+      2773,
+      3495
+     ],
+     [
+      2792,
+      3772
+     ]
+    ],
+    "density": "dense",
+    "name": "Mohallas by the Delhi Gate"
+   },
+   {
+    "polygon": [
+     [
+      1931,
+      3439
+     ],
+     [
+      2426,
+      3439
+     ],
+     [
+      2426,
+      2607
+     ],
+     [
+      1733,
+      2607
+     ],
+     [
+      1911,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Kinari and Johri Bazaars",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2476,
+      3439
+     ],
+     [
+      2872,
+      3439
+     ],
+     [
+      3020,
+      3107
+     ],
+     [
+      3218,
+      2607
+     ],
+     [
+      2476,
+      2607
+     ]
+    ],
+    "density": "dense",
+    "name": "Rawatpara",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2476,
+      3439
+     ],
+     [
+      2872,
+      3439
+     ],
+     [
+      3020,
+      3107
+     ],
+     [
+      2476,
+      3107
+     ]
+    ],
+    "density": "loose",
+    "name": "North of Badalgarh",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3089,
+      3329
+     ],
+     [
+      3466,
+      3329
+     ],
+     [
+      3545,
+      2885
+     ],
+     [
+      3287,
+      2885
+     ]
+    ],
+    "density": "loose",
+    "name": "Riverside hamlet",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3070,
+      3329
+     ],
+     [
+      3486,
+      3329
+     ],
+     [
+      3594,
+      2774
+     ],
+     [
+      3763,
+      1775
+     ],
+     [
+      3545,
+      1775
+     ],
+     [
+      3406,
+      2552
+     ],
+     [
+      3228,
+      2996
+     ]
+    ],
+    "density": "dense",
+    "name": "Belanganj and the riverfront havelis",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3070,
+      3329
+     ],
+     [
+      3486,
+      3329
+     ],
+     [
+      3594,
+      2774
+     ],
+     [
+      3763,
+      1775
+     ],
+     [
+      3545,
+      1775
+     ],
+     [
+      3406,
+      2552
+     ],
+     [
+      3228,
+      2996
+     ]
+    ],
+    "density": "loose",
+    "name": "Belanganj",
+    "periods": [
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2426,
+      2552
+     ],
+     [
+      3248,
+      2552
+     ],
+     [
+      3387,
+      1831
+     ],
+     [
+      2426,
+      1831
+     ]
+    ],
+    "density": "dense",
+    "name": "Mohallas behind the river",
+    "periods": [
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2426,
+      2552
+     ],
+     [
+      3248,
+      2552
+     ],
+     [
+      3387,
+      1831
+     ],
+     [
+      2426,
+      1831
+     ]
+    ],
+    "density": "loose",
+    "name": "Mohallas behind the river",
+    "periods": [
+     "akbar-1580",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1832,
+      2496
+     ],
+     [
+      2377,
+      2496
+     ],
+     [
+      2377,
+      1831
+     ],
+     [
+      1485,
+      1831
+     ],
+     [
+      1703,
+      2219
+     ]
+    ],
+    "density": "loose",
+    "name": "Wazirpura and Padritola",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1337,
+      3606
+     ],
+     [
+      1881,
+      3750
+     ],
+     [
+      1802,
+      3329
+     ],
+     [
+      1565,
+      2718
+     ],
+     [
+      1238,
+      2330
+     ],
+     [
+      891,
+      2774
+     ],
+     [
+      990,
+      3439
+     ]
+    ],
+    "density": "dense",
+    "name": "Lohamandi",
+    "periods": [
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1337,
+      3606
+     ],
+     [
+      1881,
+      3750
+     ],
+     [
+      1802,
+      3329
+     ],
+     [
+      1565,
+      2718
+     ],
+     [
+      1238,
+      2330
+     ],
+     [
+      891,
+      2774
+     ],
+     [
+      990,
+      3439
+     ]
+    ],
+    "density": "loose",
+    "name": "Lohamandi",
+    "periods": [
+     "akbar-1580",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      297,
+      3462
+     ],
+     [
+      941,
+      3495
+     ],
+     [
+      842,
+      2774
+     ],
+     [
+      248,
+      2885
+     ]
+    ],
+    "density": "loose",
+    "name": "Shahganj",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1931,
+      3994
+     ],
+     [
+      2377,
+      3994
+     ],
+     [
+      2377,
+      4993
+     ],
+     [
+      1931,
+      4993
+     ]
+    ],
+    "density": "dense",
+    "name": "Nai ki Mandi",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1931,
+      3994
+     ],
+     [
+      2377,
+      3994
+     ],
+     [
+      2377,
+      4993
+     ],
+     [
+      1931,
+      4993
+     ]
+    ],
+    "density": "loose",
+    "name": "Nai ki Mandi",
+    "periods": [
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1931,
+      3994
+     ],
+     [
+      2377,
+      3994
+     ],
+     [
+      2377,
+      4993
+     ],
+     [
+      1931,
+      4993
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet west of Badalgarh",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1832,
+      2496
+     ],
+     [
+      2228,
+      2496
+     ],
+     [
+      2228,
+      2130
+     ],
+     [
+      1763,
+      2130
+     ]
+    ],
+    "density": "loose",
+    "name": "Village on the Sikandra road",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1188,
+      3439
+     ],
+     [
+      1584,
+      3606
+     ],
+     [
+      1683,
+      3218
+     ],
+     [
+      1287,
+      2996
+     ]
+    ],
+    "density": "loose",
+    "name": "Lohamandi hamlet",
+    "periods": [
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2426,
+      3994
+     ],
+     [
+      2773,
+      3994
+     ],
+     [
+      2792,
+      4549
+     ],
+     [
+      2654,
+      4993
+     ],
+     [
+      2426,
+      4993
+     ]
+    ],
+    "density": "dense",
+    "name": "Chhipitola",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2426,
+      3994
+     ],
+     [
+      2773,
+      3994
+     ],
+     [
+      2792,
+      4549
+     ],
+     [
+      2654,
+      4993
+     ],
+     [
+      2426,
+      4993
+     ]
+    ],
+    "density": "loose",
+    "name": "Huts south of Badalgarh",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3466,
+      4471
+     ],
+     [
+      3862,
+      4416
+     ],
+     [
+      4555,
+      4460
+     ],
+     [
+      4902,
+      4438
+     ],
+     [
+      4931,
+      4660
+     ],
+     [
+      4555,
+      4571
+     ],
+     [
+      3862,
+      4493
+     ]
+    ],
+    "density": "loose",
+    "name": "Riverfront havelis south of the fort",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3515,
+      4638
+     ],
+     [
+      3961,
+      4726
+     ],
+     [
+      4278,
+      4782
+     ],
+     [
+      4278,
+      4993
+     ],
+     [
+      3862,
+      4860
+     ],
+     [
+      3585,
+      4749
+     ]
+    ],
+    "density": "dense",
+    "name": "Mohallas behind the river havelis",
+    "periods": [
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3515,
+      4638
+     ],
+     [
+      3961,
+      4726
+     ],
+     [
+      4278,
+      4782
+     ],
+     [
+      4278,
+      4993
+     ],
+     [
+      3862,
+      4860
+     ],
+     [
+      3585,
+      4749
+     ]
+    ],
+    "density": "loose",
+    "name": "Mohallas behind the river havelis",
+    "periods": [
+     "akbar-1580",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4357,
+      4793
+     ],
+     [
+      4951,
+      4882
+     ],
+     [
+      4951,
+      5082
+     ],
+     [
+      4357,
+      5015
+     ]
+    ],
+    "density": "dense",
+    "name": "Taj Ganj (Mumtazabad)",
+    "periods": [
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4357,
+      4793
+     ],
+     [
+      4951,
+      4882
+     ],
+     [
+      4951,
+      5082
+     ],
+     [
+      4357,
+      5015
+     ]
+    ],
+    "density": "loose",
+    "name": "Taj Ganj",
+    "periods": [
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5367,
+      4937
+     ],
+     [
+      5743,
+      4937
+     ],
+     [
+      5743,
+      5270
+     ],
+     [
+      5367,
+      5215
+     ]
+    ],
+    "density": "dense",
+    "name": "Taj Ganj, east",
+    "periods": [
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5367,
+      4937
+     ],
+     [
+      5743,
+      4937
+     ],
+     [
+      5743,
+      5270
+     ],
+     [
+      5367,
+      5215
+     ]
+    ],
+    "density": "loose",
+    "name": "Taj Ganj, east",
+    "periods": [
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4753,
+      5437
+     ],
+     [
+      5228,
+      5414
+     ],
+     [
+      5743,
+      5658
+     ],
+     [
+      4951,
+      5825
+     ]
+    ],
+    "density": "loose",
+    "name": "Villages south of Taj Ganj",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3961,
+      2951
+     ],
+     [
+      3981,
+      2641
+     ],
+     [
+      4238,
+      2641
+     ],
+     [
+      4258,
+      2951
+     ]
+    ],
+    "density": "loose",
+    "name": "East-bank landing",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3961,
+      3495
+     ],
+     [
+      3961,
+      3195
+     ],
+     [
+      4555,
+      3195
+     ],
+     [
+      4634,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "East-bank village"
+   },
+   {
+    "polygon": [
+     [
+      5723,
+      3573
+     ],
+     [
+      5723,
+      3329
+     ],
+     [
+      6040,
+      3329
+     ],
+     [
+      6040,
+      3573
+     ]
+    ],
+    "density": "loose",
+    "name": "Kachhpura"
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      3862,
+      3994
+     ],
+     [
+      3862,
+      3573
+     ],
+     [
+      4872,
+      3573
+     ],
+     [
+      4902,
+      3994
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Riverfront gardens of the east bank",
+    "periods": [
+     "babur-1530",
+     "akbar-1580",
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3862,
+      3994
+     ],
+     [
+      3862,
+      3573
+     ],
+     [
+      4872,
+      3573
+     ],
+     [
+      4902,
+      3994
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Overgrown gardens of the east bank",
+    "periods": [
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4020,
+      2308
+     ],
+     [
+      4139,
+      1797
+     ],
+     [
+      4406,
+      1797
+     ],
+     [
+      4357,
+      2308
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens by Itimad-ud-Daulah",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3981,
+      2607
+     ],
+     [
+      4139,
+      1797
+     ],
+     [
+      4406,
+      1797
+     ],
+     [
+      4307,
+      2607
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of Babur's begs",
+    "periods": [
+     "babur-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4208,
+      1498
+     ],
+     [
+      4179,
+      1165
+     ],
+     [
+      4505,
+      1165
+     ],
+     [
+      4505,
+      1498
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Babur's garden quarter",
+    "periods": [
+     "babur-1530",
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      396,
+      2219
+     ],
+     [
+      743,
+      1831
+     ],
+     [
+      347,
+      1442
+     ],
+     [
+      50,
+      1831
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mango groves"
+   },
+   {
+    "polygon": [
+     [
+      1584,
+      1609
+     ],
+     [
+      2277,
+      1609
+     ],
+     [
+      2277,
+      999
+     ],
+     [
+      1188,
+      999
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards of Sikandra road",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2476,
+      1664
+     ],
+     [
+      3268,
+      1664
+     ],
+     [
+      3169,
+      888
+     ],
+     [
+      2476,
+      888
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens north of the city",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4852,
+      2219
+     ],
+     [
+      5644,
+      2219
+     ],
+     [
+      5644,
+      1110
+     ],
+     [
+      4951,
+      1110
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the east bank",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      5644,
+      4527
+     ],
+     [
+      5842,
+      4238
+     ],
+     [
+      6238,
+      4050
+     ],
+     [
+      6417,
+      4327
+     ],
+     [
+      6139,
+      4660
+     ]
+    ],
+    "name": "Sandy floodplain (khadar)"
+   },
+   {
+    "polygon": [
+     [
+      5327,
+      3750
+     ],
+     [
+      5466,
+      3639
+     ],
+     [
+      5605,
+      3684
+     ],
+     [
+      5525,
+      3794
+     ]
+    ],
+    "name": "Floodplain below Kachhpura"
+   }
+  ],
+  "districts": [
+   {
+    "id": "old-city",
+    "name": "The old city (Kinari Bazaar and Rawatpara)",
+    "polygon": [
+     [
+      1881,
+      3462
+     ],
+     [
+      2921,
+      3462
+     ],
+     [
+      3248,
+      2607
+     ],
+     [
+      1703,
+      2607
+     ]
+    ],
+    "description": "The dense heart of Mughal Agra north-west of the fort: the Jama Masjid, the Kinari, Johri and cloth bazaars, temples and mosques, and katras of merchants and craftsmen packed along narrow lanes.",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "id": "badalgarh-town",
+    "name": "The Lodi town",
+    "polygon": [
+     [
+      1931,
+      4993
+     ],
+     [
+      2822,
+      4993
+     ],
+     [
+      3020,
+      3107
+     ],
+     [
+      1980,
+      3107
+     ]
+    ],
+    "description": "Sikandar Lodi's capital: a town of brick and mud houses gathered round the Badalgarh fort on the west bank, with the houses of the sultan's Afghan nobles.",
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   },
+   {
+    "id": "belanganj",
+    "name": "The riverfront north of the fort",
+    "polygon": [
+     [
+      3070,
+      3329
+     ],
+     [
+      3486,
+      3329
+     ],
+     [
+      3594,
+      2774
+     ],
+     [
+      3763,
+      1775
+     ],
+     [
+      3545,
+      1775
+     ],
+     [
+      3406,
+      2552
+     ],
+     [
+      3228,
+      2996
+     ]
+    ],
+    "description": "Mansions of princes and nobles stood shoulder to shoulder along the west bank here, each with a garden on the water; behind them, the grain and timber markets of the river trade.",
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "id": "taj-ganj",
+    "name": "Taj Ganj (Mumtazabad)",
+    "polygon": [
+     [
+      4307,
+      4793
+     ],
+     [
+      5743,
+      4937
+     ],
+     [
+      5743,
+      5437
+     ],
+     [
+      4307,
+      5437
+     ]
+    ],
+    "description": "The town built with the Taj: sarais and bazaars whose rents paid for the tomb's upkeep, and the houses of the marble cutters, inlayers and masons who stayed on.",
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "id": "across-the-jamna",
+    "name": "Across the Jamna ('Kabul')",
+    "polygon": [
+     [
+      3961,
+      3550
+     ],
+     [
+      3961,
+      222
+     ],
+     [
+      4852,
+      222
+     ],
+     [
+      4852,
+      3550
+     ]
+    ],
+    "description": "The east bank, where Babur laid out the first Mughal gardens; his memoir says the Hindustanis called it Kabul. Later the site of Nur Jahan's gardens and the tombs of Itimad-ud-Daulah and Afzal Khan.",
+    "periods": [
+     "babur-1530",
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Jamna",
+    "position": [
+     3832,
+     2496
+    ],
+    "size": "lg",
+    "rotation": -78
+   },
+   {
+    "text": "Yamuna",
+    "position": [
+     4902,
+     4238
+    ],
+    "size": "md",
+    "rotation": -6
+   },
+   {
+    "text": "To Sikandra and Delhi",
+    "position": [
+     594,
+     721
+    ],
+    "size": "sm",
+    "rotation": 38
+   },
+   {
+    "text": "To Fatehpur Sikri",
+    "position": [
+     446,
+     3362
+    ],
+    "size": "sm",
+    "rotation": -6
+   },
+   {
+    "text": "To Gwalior",
+    "position": [
+     2822,
+     5658
+    ],
+    "size": "sm",
+    "rotation": 70
+   },
+   {
+    "text": "To Firozabad",
+    "position": [
+     6139,
+     2385
+    ],
+    "size": "sm",
+    "rotation": -30
+   },
+   {
+    "text": "Kachhpura",
+    "position": [
+     5892,
+     3240
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Rawatpara",
+    "position": [
+     2872,
+     2829
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "text": "Belanganj",
+    "position": [
+     3268,
+     2108
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "text": "Lohamandi",
+    "position": [
+     1287,
+     3107
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "text": "Nai ki Mandi",
+    "position": [
+     2159,
+     4493
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "text": "Taj Ganj",
+    "position": [
+     4555,
+     5548
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "text": "Across the Jamna",
+    "position": [
+     5248,
+     1831
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "babur-1530",
+     "akbar-1580",
+     "shahjahan-1650",
+     "jat-maratha-1780"
+    ]
+   },
+   {
+    "text": "Agra of the Lodis",
+    "position": [
+     2079,
+     4604
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "lodi-1505",
+     "babur-1530"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D5AC",
+   "ink": "#6E4A33",
+   "water": "#6A8C88",
+   "hill": "#7C805C",
+   "road": "#8C6B4B"
+  },
+  "compass": [
+   5941,
+   610
+  ],
+  "cartouche": [
+   297,
+   5825
+  ]
+ },
+ "periods": [
+  {
+   "id": "lodi-1505",
+   "label": "Sikandar Lodi's Agra",
+   "year": 1505,
+   "startYear": 1504,
+   "endYear": 1525,
+   "summary": "Sikandar Lodi, sultan of Delhi, moves his court to Agra in about 1504–06 to watch the Rajput chiefs of Gwalior and Dholpur. The town gathers round Badalgarh, an older brick fort on a rise of the Yamuna's west bank. Houses are of brick and mud, with nobles' compounds and a few mosques; the far bank is fields. In 1505 a great earthquake brings much of it down.",
+   "population": "a few tens of thousands at most (no count survives)",
+   "feel": "Brick dust and wet mortar, camel trains on the Gwalior road, ferrymen calling across a river that is wide and slow in the dry months.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Brick and mud houses round Badalgarh",
+    "text": "Mostly one-storey houses of mud and burnt brick round small courts, flat roofs of beaten earth on timber joists, sheds of thatch for cattle. Lanes are unpaved; a noble's compound has a gate, a court, a well and a small mosque."
+   },
+   "outskirts": {
+    "title": "Hamlets and wells",
+    "text": "Mud-walled hamlets among wheat, barley and indigo, wells worked by bullocks, tanks and groves. Sikandra, the sultan's new village and garden, lies off the map to the north-west."
+   }
+  },
+  {
+   "id": "babur-1530",
+   "label": "Babur's Agra",
+   "year": 1530,
+   "startYear": 1526,
+   "endYear": 1555,
+   "summary": "After Panipat (April 1526) Babur takes Agra and makes it the first Mughal capital. Finding the plain joyless, he crosses the Yamuna and lays out walled gardens with wells, stepped channels and baths on the east bank, the first Mughal charbaghs in India; his begs copy him. The Lodi town and Badalgarh carry on. Babur dies here in December 1530; Humayun and then Sher Shah's Suris hold the city.",
+   "population": "unknown; perhaps a few tens of thousands",
+   "feel": "Creaking Persian wheels and the smell of wet earth in the new gardens; Turki and Persian among the tents and brick pavilions, Hindavi in the bazaar.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Courtyard houses of the Lodi town",
+    "text": "Brick houses round courts, a few of two storeys, with flat roofs and parapets for sleeping out in summer. The newcomers camp in tents or build quickly in rubble and brick plastered with lime."
+   },
+   "outskirts": {
+    "title": "Gardens across the river",
+    "text": "Walled charbaghs with wells and channels, young orchards, villages between. Babur writes that the Hindustanis called this bank, with its Kabuli-style gardens, 'Kabul'."
+   }
+  },
+  {
+   "id": "akbar-1580",
+   "label": "Akbar's Agra",
+   "year": 1580,
+   "startYear": 1556,
+   "endYear": 1627,
+   "summary": "Akbar rebuilds the fort in red sandstone (1565–73) and Agra becomes one of Asia's great cities, though the court lives at Fatehpur Sikri from 1571 to 1585. Nobles' mansions and gardens line both banks; bazaars, sarais and mohallas spread west and north of the fort. Jesuits build a church here in 1599. Under Jahangir Agra is the capital again, and Nur Jahan builds her father's tomb across the river.",
+   "population": "perhaps several hundred thousand; Ralph Fitch (1585) thought Agra and Fatehpur each much greater than London",
+   "feel": "Red sandstone dust from the fort works, elephants at the gates, bales of indigo and cotton on the riverbank, the call to prayer and temple bells in the same lanes.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Havelis and katras",
+    "text": "Merchants' and officers' havelis of brick and red sandstone, two or three storeys round courts, carved jharokhas over the lane. Behind them, katras: walled clusters of single rooms round a shared yard with one gate."
+   },
+   "outskirts": {
+    "title": "Riverside mansions and orchards",
+    "text": "Nobles' walled gardens and mansions along the Yamuna, mango orchards, brick kilns, indigo vats, and mud-walled villages along the roads out."
+   }
+  },
+  {
+   "id": "shahjahan-1650",
+   "label": "Akbarabad, City of the Taj",
+   "year": 1650,
+   "startYear": 1628,
+   "endYear": 1707,
+   "summary": "Agra, now Akbarabad, at its height. The Taj Mahal (1632–48) stands in its garden on the riverbank with the markets of Taj Ganj behind it; Shah Jahan has rebuilt the fort palaces in white marble, and Jahanara's Jama Masjid (1648) faces the fort across a new square. In 1648 the court leaves for Shahjahanabad, but Agra stays a vast city of havelis and riverfront gardens on both banks.",
+   "population": "perhaps 500,000–700,000 (travellers' guesses)",
+   "feel": "The rasp of marble polishers in Taj Ganj, boats and water-wheels along the river, carts of indigo and saltpetre, the naubat drums sounding the watches from the fort.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Havelis, katras and riverfront mansions",
+    "text": "Brick havelis faced with lime plaster or red sandstone, two to four storeys round one or more courts, with roof terraces and carved jharokhas. Katras of single rooms round shared yards. Nobles' mansions on the river with terraces down to the water."
+   },
+   "outskirts": {
+    "title": "Gardens, suburbs and sarais",
+    "text": "Walled riverfront gardens with pavilions and corner towers, mango and citrus orchards, sarais on the roads out, potters' and tanners' quarters, and mud-walled villages."
+   }
+  },
+  {
+   "id": "jat-maratha-1780",
+   "label": "Agra of the Jats and Marathas",
+   "year": 1780,
+   "startYear": 1708,
+   "endYear": 1803,
+   "summary": "Agra has lost its emperors. The Jats of Bharatpur took the city in 1761 and held the fort until 1774; the Mughal general Najaf Khan retook it, and from 1785 Mahadji Scindia's Marathas rule it. Riverfront gardens are abandoned or farmed, havelis stand half empty, Taj Ganj has shrunk, and the Taj garden is overgrown, though the tomb itself still stands untouched.",
+   "population": "much reduced; no reliable count (perhaps under 100,000)",
+   "feel": "Jackals in the empty gardens at night, cavalry camped below the fort, cloth, grain and gold lace still haggled over in the bazaars by the Jama Masjid.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Old havelis, divided",
+    "text": "Mughal havelis split among many families or left to fall in; new houses are low, built of reused brick and stone. The bazaars round the Jama Masjid stay crowded while the outer mohallas thin into rubble and fields."
+   },
+   "outskirts": {
+    "title": "Ruined gardens",
+    "text": "Garden walls breached, pavilions roofless, beds turned over to melons and vegetables; ruined sarais and tombs along the roads and soldiers' camps on the open ground."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "taj-mahal",
+   "placeId": "rauza-i-munawwara",
+   "name": "Taj Mahal (Rauza-i Munawwara)",
+   "category": "monument",
+   "position": [
+    5159,
+    4650
+   ],
+   "rotation": 0,
+   "footprint": [
+    315.0,
+    545.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/taj-mahal.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 315,
+     "depth": 546,
+     "height": 126.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Not yet built. The site is a riverside mansion and garden of Raja Man Singh of Amber; in 1632 his grandson Jai Singh trades it to Shah Jahan for four havelis.",
+     "confidence": "documented"
+    },
+    "shahjahan-1650": {
+     "note": "Complete: the tomb finished by about 1643, the great gate inscribed 1057 AH (1647–48). Mumtaz Mahal lies in the crypt; Shah Jahan will be laid beside her in 1666."
+    },
+    "jat-maratha-1780": {
+     "note": "Neglected: water channels dry, the beds overgrown with trees and scrub. The Jats who took Agra in 1761 are said to have carried off the silver doors; the marble tomb itself is intact.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/agra/taj-mahal-1780.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 315,
+       "depth": 546,
+       "height": 126.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "Shah Jahan's tomb for his wife Mumtaz Mahal: a white marble mausoleum on a riverfront terrace between a mosque and its twin, above a vast four-part garden entered through a red sandstone gate.",
+   "details": [
+    "Mumtaz Mahal died in childbirth at Burhanpur in June 1631; work on her tomb began in early 1632 under a team usually credited to Ustad Ahmad Lahauri, with Amanat Khan as calligrapher. Marble came from Makrana in Rajasthan. Tavernier's figure of 20,000 workers for 22 years is a traveller's guess; the inscriptions date the tomb to about 1643 and the gate to 1648.",
+    "The miniature shows the 95 m plinth and four 40 m minarets, the chamfered tomb with its pishtaqs, the double dome on a tall drum rising to about 73 m, four chhatris, the red mosque and jawab, the charbagh with raised walks, channels and central tank, the great gate and forecourt. Inlay is left out; the planting is a guess (fruit trees and flowers, not lawns)."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-taj-mahal",
+    "koch-taj",
+    "begley-desai",
+    "tavernier",
+    "mundy"
+   ],
+   "built": "1632–1648",
+   "function": "Imperial mausoleum and garden",
+   "activity": {
+    "figures": 70,
+    "radius": 320
+   }
+  },
+  {
+   "id": "taj-ganj",
+   "placeId": "taj-ganj",
+   "name": "Taj Ganj (Mumtazabad) sarais",
+   "category": "commercial",
+   "position": [
+    5159,
+    5126
+   ],
+   "rotation": 0,
+   "footprint": [
+    300.0,
+    280.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/taj-ganj.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 300,
+      "depth": 280
+     },
+     "buildings": [
+      {
+       "offset": [
+        -75.0,
+        -70.0
+       ],
+       "width": 90.0,
+       "depth": 84.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        75.0,
+        56.0
+       ],
+       "width": 90.0,
+       "depth": 84.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Open land south of Raja Man Singh's riverside garden; a village and fields."
+    },
+    "shahjahan-1650": {
+     "note": "Four sarais round a crossing of covered bazaars, the market town of Mumtazabad. Its rents, with the revenue of thirty villages, pay for the tomb's upkeep."
+    },
+    "jat-maratha-1780": {
+     "name": "Taj Ganj",
+     "note": "Shrunken: two of the sarais half ruined and let out as houses, but the bazaar and the inlayers' and masons' families remain."
+    }
+   },
+   "summary": "The market town built with the Taj: four caravanserais round a cross of bazaars south of the forecourt, whose rents endowed the tomb.",
+   "details": [
+    "Lahauri and Kambo describe the complex south of the forecourt: four sarais, each a court ringed by rooms for travelling merchants, opening onto two crossing bazaar streets. Merchants from Persia, Central Asia and the Deccan lodged here. With thirty villages it formed the Taj's waqf, its endowment.",
+    "The miniature shows the four courts and their gateways, the crossing bazaars with their shops and a chowk at the centre, after Koch's plan. Later houses have long since filled the sarais; heights and the gateway details are reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-taj-ganj",
+    "koch-taj",
+    "begley-desai"
+   ],
+   "built": "1630s–1640s",
+   "function": "Caravanserais and bazaar (the Taj's endowment)",
+   "activity": {
+    "figures": 60,
+    "radius": 200
+   }
+  },
+  {
+   "id": "mehtab-bagh",
+   "placeId": "mehtab-bagh",
+   "name": "Mahtab Bagh (Moonlight Garden)",
+   "category": "monument",
+   "position": [
+    5159,
+    3872
+   ],
+   "rotation": 0,
+   "footprint": [
+    298.4,
+    296.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/mehtab-bagh.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 298,
+     "depth": 297,
+     "height": 118.80000000000001,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Riverside land facing Raja Man Singh's garden; a tradition makes this one of Babur's gardens, but nothing of it is known."
+    },
+    "shahjahan-1650": {
+     "note": "The Taj's garden across the river, the same width as the Taj complex, with a great octagonal pool that mirrors the tomb at night."
+    },
+    "jat-maratha-1780": {
+     "note": "Abandoned: floods have silted the beds and breached the walls; only the corner towers and the pool's rim show above the sand.",
+     "confidence": "reconstruction"
+    }
+   },
+   "summary": "A square garden on the far bank, aligned on the Taj, with a great octagonal pool on its riverside terrace where the tomb's reflection could be seen.",
+   "details": [
+    "Excavations in the 1990s (Moynihan) found the octagonal pool with 25 fountains, a pavilion, channels and planting pits beneath flood silt. The garden matches the Taj complex in width and lies on its axis; Koch reads it as part of Shah Jahan's design. The legend of a 'black Taj' planned here has no support.",
+    "The miniature shows the walled charbagh, the riverside terrace and its octagonal pool, pavilions on the river front and the sandstone corner towers, one of which still stands. Planting and pavilion forms are reconstruction from the excavation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mehtab-bagh",
+    "moynihan",
+    "koch-taj"
+   ],
+   "built": "c. 1631–1650",
+   "function": "Riverfront garden",
+   "activity": {
+    "figures": 10,
+    "radius": 150
+   }
+  },
+  {
+   "id": "agra-fort",
+   "placeId": "qila-i-akbari",
+   "name": "Agra Fort (Qila-i Akbari)",
+   "category": "military",
+   "position": [
+    3099,
+    3917
+   ],
+   "rotation": 0,
+   "footprint": [
+    472.3,
+    914.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/agra-fort.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 480,
+     "depth": 920,
+     "wallHeight": 96.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "lodi-1505",
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "lodi-1505": {
+     "name": "Badalgarh",
+     "note": "The brick fort of the Lodi sultans on a rise by the river: walls and round bastions round palaces, a mosque and storehouses. It predates Sikandar Lodi; its plan is unknown.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/agra/badalgarh.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 480,
+       "depth": 920,
+       "wallHeight": 96.0,
+       "bastions": 8
+      }
+     }
+    },
+    "babur-1530": {
+     "name": "Badalgarh",
+     "note": "Babur and Humayun take over the Lodi fort and its treasury in May 1526. Babur lives mostly in his gardens across the river.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/agra/badalgarh.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 480,
+       "depth": 920,
+       "wallHeight": 96.0,
+       "bastions": 8
+      }
+     }
+    },
+    "akbar-1580": {
+     "note": "Akbar's red sandstone fort, finished in 1573: double walls, the Delhi and Amar Singh gates, palaces of carved sandstone along the river (the Jahangiri Mahal survives). No marble yet.",
+     "model": {
+      "glb": "models/agra/agra-fort-1580.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 480,
+       "depth": 920,
+       "wallHeight": 96.0,
+       "bastions": 8
+      }
+     }
+    },
+    "shahjahan-1650": {
+     "note": "Shah Jahan's marble palaces stand on the river wall: the Khas Mahal and Anguri Bagh, the Musamman Burj, the Diwan-i Khas, and the Moti Masjid (1654). After 1658 it is his prison."
+    },
+    "jat-maratha-1780": {
+     "note": "Held by the Jats from 1761 to 1774, then by Najaf Khan's Mughal troops and from 1785 by the Marathas. The palaces are stripped and partly used as stores; the walls stand."
+    }
+   },
+   "summary": "Akbar's red sandstone citadel on the Yamuna, a half-moon of double walls round the palaces where Akbar, Jahangir and Shah Jahan held court, and where Shah Jahan died a prisoner.",
+   "details": [
+    "Akbar replaced the brick Badalgarh with a fort of red sandstone over a rubble core between 1565 and 1573: about 2.5 km of double walls, the inner one some 20 m high, with a moat on the landward side. Abu'l Fazl says more than 500 buildings in the styles of Bengal and Gujarat stood inside. Shah Jahan pulled many down in the 1630s for marble halls.",
+    "The miniature shows the half-moon plan flattened along the river, the double walls with round bastions, the Delhi Gate (west) and Amar Singh Gate (south), the Diwan-i Am and its court, the Jahangiri Mahal, the Khas Mahal with the Anguri Bagh and gilded Bangla pavilions, the Musamman Burj and the Moti Masjid. Lesser courts and barracks are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-agra-fort",
+    "koch-mughal",
+    "ain-i-akbari",
+    "asher"
+   ],
+   "built": "1565–1573; palaces to 1654",
+   "function": "Imperial fortress-palace",
+   "activity": {
+    "figures": 60,
+    "radius": 400
+   }
+  },
+  {
+   "id": "tripolia",
+   "placeId": "tripolia-chowk",
+   "name": "Tripolia Chowk",
+   "category": "commercial",
+   "position": [
+    2693,
+    3717
+   ],
+   "rotation": 0,
+   "footprint": [
+    101.8,
+    100.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/tripolia.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 102,
+      "depth": 100
+     },
+     "buildings": [
+      {
+       "offset": [
+        -25.5,
+        -25.0
+       ],
+       "width": 30.599999999999998,
+       "depth": 30.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        25.5,
+        20.0
+       ],
+       "width": 30.599999999999998,
+       "depth": 30.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Open ground and houses before the fort's Delhi Gate."
+    },
+    "shahjahan-1650": {
+     "note": "Shah Jahan's octagonal market square between the Delhi Gate and the Jama Masjid, ringed by shops, with the triple gateway that gave it its name."
+    },
+    "jat-maratha-1780": {
+     "note": "Still the city's busiest square, its shops let to cloth and grain dealers. The British cleared it for the railway in the 1870s."
+    }
+   },
+   "summary": "The octagonal bazaar square that joined the fort's Delhi Gate to the Jama Masjid, entered by a triple-arched gateway.",
+   "details": [
+    "Laid out with the Jama Masjid in the 1640s, the chowk was an octagon of vaulted shops round an open square, a ceremonial forecourt to both the fort and the mosque. It vanished in the 1870s under the tracks of Agra Fort station.",
+    "The miniature is a reconstruction from 19th-century plans and descriptions: an octagonal ring of shops, the Tripolia gate on the mosque side and a lesser gate toward the fort."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-agra-fort-station",
+    "koch-taj",
+    "latif"
+   ],
+   "built": "c. 1637–1648",
+   "function": "Market square and forecourt",
+   "activity": {
+    "figures": 50,
+    "radius": 110
+   }
+  },
+  {
+   "id": "jama-masjid",
+   "placeId": "jama-masjid-agra",
+   "name": "Jama Masjid (Jahanara's mosque)",
+   "category": "religious",
+   "position": [
+    2476,
+    3573
+   ],
+   "rotation": 0,
+   "footprint": [
+    132.4,
+    111.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/jama-masjid.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 132,
+     "depth": 111,
+     "domes": 3,
+     "minaretHeight": 39.6
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Houses and lanes of the old city stand on the site."
+    },
+    "shahjahan-1650": {
+     "note": "New: finished in 1648, paid for by Princess Jahanara, the emperor's eldest daughter, on a high plinth facing the fort across the Tripolia Chowk."
+    },
+    "jat-maratha-1780": {
+     "note": "Still the city's Friday mosque; the bazaars of the old city press round its plinth."
+    }
+   },
+   "summary": "Agra's Friday mosque, built by Princess Jahanara in 1643–48: a red sandstone prayer hall under three domes banded in red and white chevrons, round a court on a high plinth.",
+   "details": [
+    "Jahanara Begum, Shah Jahan's eldest daughter, funded the mosque; its inscription dates it 1648. It has no minarets. The prayer hall's five arches open on a broad court; the three bulbous domes are striped in zigzags of red sandstone and white marble, a pattern found nowhere else in Mughal domes.",
+    "The miniature shows the plinth with its arcade of cells, the court with its gateways, the prayer hall and pishtaq, and the chevron domes, drawn here as zigzag bands. The east gate and part of the court were demolished in the 19th century; the model restores them."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-jama-masjid-agra",
+    "koch-mughal",
+    "asher"
+   ],
+   "built": "1643–1648",
+   "function": "Congregational mosque",
+   "activity": {
+    "figures": 50,
+    "radius": 120
+   }
+  },
+  {
+   "id": "kinari-bazaar",
+   "placeId": "kinari-bazaar",
+   "name": "Kinari Bazaar",
+   "category": "commercial",
+   "position": [
+    2277,
+    3273
+   ],
+   "rotation": -12,
+   "footprint": [
+    45.2,
+    240.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/kinari-bazaar.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 50,
+      "depth": 240
+     },
+     "buildings": [
+      {
+       "offset": [
+        -12.5,
+        -60.0
+       ],
+       "width": 15.0,
+       "depth": 72.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        12.5,
+        48.0
+       ],
+       "width": 15.0,
+       "depth": 72.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "babur-1530": {
+     "note": "Lanes and open ground north-west of the small Lodi town."
+    },
+    "akbar-1580": {
+     "note": "A crowded market street of the growing city, where cloth, thread and gold and silver lace are sold."
+    },
+    "shahjahan-1650": {
+     "note": "The trimmings bazaar of the imperial city: gold and silver lace (kinari), braid and tassels for the robes of the court and the city's weddings."
+    },
+    "jat-maratha-1780": {
+     "note": "Still busy: lace and cloth are what the city has left to sell."
+    }
+   },
+   "summary": "The old city's market street for gold and silver lace, braid and wedding finery, a narrow lane of shopfronts under the jharokhas of merchants' houses.",
+   "details": [
+    "Kinari means the gold or silver lace that edges a sari or turban; the bazaar takes its name from the trade, which still fills it. Its age is not documented, but it lies in the heart of the Mughal city north-west of the Jama Masjid, among the Johri (jewellers') and cloth bazaars.",
+    "The miniature shows a winding street of two- and three-storey shophouses with awnings, balconies and a small shrine, a type rather than a survey of particular houses."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kinari-bazaar",
+    "latif",
+    "pelsaert"
+   ],
+   "built": "16th–17th century",
+   "function": "Market street",
+   "activity": {
+    "figures": 80,
+    "radius": 140
+   }
+  },
+  {
+   "id": "mubarak-manzil",
+   "placeId": "mubarak-manzil",
+   "name": "Mubarak Manzil",
+   "category": "civic",
+   "position": [
+    3347,
+    3240
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/mubarak-manzil.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "shahjahan-1650": {
+     "note": "Riverside mansions north of the fort; Mubarak Manzil will be built here in Aurangzeb's reign, usually dated to the 1660s."
+    },
+    "jat-maratha-1780": {
+     "note": "A riverside palace of Aurangzeb's time with four corner towers, now in the hands of whichever garrison holds the fort. The British will make it a customs house."
+    }
+   },
+   "summary": "A compact riverside palace north of the fort, with four domed corner towers, built in Aurangzeb's reign and later used as a customs house.",
+   "details": [
+    "Tradition credits Aurangzeb with the building in the 1660s; it was later called Tara Niwas and served the British as a customs house and the railway as a goods office, gaining an upper storey. The original form is not certain.",
+    "The miniature shows a two-storey block of plastered brick and sandstone with octagonal domed towers at the corners and a terrace toward the river."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mubarak-manzil",
+    "latif"
+   ],
+   "built": "c. 1660s",
+   "function": "Riverside palace",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "dara-shikoh-haveli",
+   "placeId": "dara-shikoh-haveli",
+   "name": "Haveli of Dara Shikoh",
+   "category": "civic",
+   "position": [
+    3416,
+    2940
+   ],
+   "rotation": 0,
+   "footprint": [
+    93.7,
+    111.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/dara-shikoh-haveli.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 94,
+     "depth": 112,
+     "height": 37.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Riverside mansions of Akbar's nobles; the prince's house will be built or rebuilt here in the 1630s–40s."
+    },
+    "shahjahan-1650": {
+     "note": "The Agra mansion of Dara Shikoh, Shah Jahan's eldest son, scholar of Sufism and the Upanishads. In 1658 he loses the war of succession to Aurangzeb."
+    },
+    "jat-maratha-1780": {
+     "note": "Confiscated after 1658, divided and decaying; parts are let to merchants.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The riverside mansion attributed to Prince Dara Shikoh: courts and halls behind a terrace with pavilions over the Yamuna, among the princes' and nobles' houses north of the fort.",
+   "details": [
+    "The princes and great nobles of Agra lived in havelis on the riverbank with gardens and terraces on the water; Dara Shikoh's stood north of the fort. Little of it survives and its plan is not known, so the attribution and site follow later tradition.",
+    "The miniature is a type of the great riverfront haveli: an entrance court on the town side, a hall court, a garden, and a river terrace with chhatris and a tower over the water."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-dara-shikoh",
+    "koch-taj",
+    "wiki-haveli"
+   ],
+   "built": "c. 1630s–1640s",
+   "function": "Princely mansion",
+   "activity": {
+    "figures": 14,
+    "radius": 90
+   }
+  },
+  {
+   "id": "bathing-ghats",
+   "placeId": "bathing-ghats",
+   "name": "Bathing ghats north of the fort",
+   "category": "religious",
+   "position": [
+    3545,
+    2607
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.8,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/ghats.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 120,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "lodi-1505",
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "lodi-1505": {
+     "note": "Earth banks and a few brick steps where the town bathes, washes and draws water.",
+     "confidence": "interpretation"
+    },
+    "babur-1530": {
+     "note": "Brick steps and a small shrine at the water's edge."
+    },
+    "akbar-1580": {
+     "note": "Stone flights of steps with small shrines and chhatris, between the havelis."
+    },
+    "shahjahan-1650": {
+     "note": "Stone ghats crowded at dawn with bathers, washermen and water-carriers; boats tie up below the havelis."
+    },
+    "jat-maratha-1780": {
+     "note": "Still used daily; some steps have slipped into the river."
+    }
+   },
+   "summary": "Flights of stone steps down to the Yamuna where the city bathed, washed and drew water, with small shrines and chhatris on the landings.",
+   "details": [
+    "Every Indian river city had its ghats. Agra's lay between the riverfront mansions, used for bathing at dawn, for the festivals of the Yamuna and for cremation further out. Their exact Mughal positions are not recorded.",
+    "The miniature shows broad flights of steps with landings, two small shrines and a chhatri, a type placed on the west bank north of the fort."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ghat",
+    "latif"
+   ],
+   "built": "16th–18th century",
+   "function": "Bathing and landing steps",
+   "activity": {
+    "figures": 30,
+    "radius": 80
+   }
+  },
+  {
+   "id": "riverfront-haveli",
+   "placeId": "riverfront-haveli-south",
+   "name": "A noble's riverfront haveli",
+   "category": "civic",
+   "position": [
+    4258,
+    4527
+   ],
+   "rotation": 0,
+   "footprint": [
+    101.6,
+    83.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/riverfront-haveli.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 102,
+     "depth": 84,
+     "height": 33.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Akbar's nobles begin to build garden mansions along the bank between the fort and the future Taj."
+    },
+    "shahjahan-1650": {
+     "note": "One of the great nobles' mansions along the bank between the fort and the Taj, each with a walled garden and a terrace on the river."
+    },
+    "jat-maratha-1780": {
+     "note": "Abandoned by its owners; the garden is farmed and the halls stand roofless.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A walled garden mansion on the river between the fort and the Taj, of the kind that lined both banks of Mughal Agra.",
+   "details": [
+    "Koch's survey of the riverfront identifies more than forty gardens and mansions on the two banks, owned by princes, princesses and nobles such as Asaf Khan, Mahabat Khan and Islam Khan. Pelsaert in 1626 found the riverbank the finest part of the city.",
+    "The miniature is a type: a garden quarter with a raised riverside terrace, a pavilion and two octagonal towers on the water, living courts at the back. It does not reproduce a particular house."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "koch-taj",
+    "pelsaert",
+    "wiki-haveli"
+   ],
+   "built": "c. 1580–1650",
+   "function": "Noble's mansion and garden",
+   "activity": {
+    "figures": 12,
+    "radius": 80
+   }
+  },
+  {
+   "id": "akbars-church",
+   "placeId": "akbars-church",
+   "name": "Akbar's Church",
+   "category": "religious",
+   "position": [
+    1832,
+    2164
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.7,
+    50.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/akbars-church.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 50,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Built in 1599 by the Jesuit mission on land given by Akbar, the first church in northern India. Jesuits from Goa have been at court since 1580."
+    },
+    "shahjahan-1650": {
+     "note": "Partly pulled down in 1632 after Shah Jahan's war with the Portuguese at Hugli, then rebuilt; the Jesuits keep a school and a residence here."
+    },
+    "jat-maratha-1780": {
+     "note": "Damaged in the wars of the 1760s and rebuilt in 1772 with the help of the mercenary Walter Reinhardt (Samru).",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The Jesuits' church of 1599, the first in northern India, on land granted by Akbar in the Christian quarter of Padritola.",
+   "details": [
+    "Jesuits from Goa came to Akbar's court from 1580; the mission church at Agra was built in 1599. It was damaged in 1632 and again in the 18th century and rebuilt each time; the present building dates from 1772, beside the 19th-century cathedral.",
+    "The miniature is a small whitewashed church: a nave with a flat roof, a front with an arched door and a bell cote, and a cross. Its 17th-century form is unknown."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-akbars-church",
+    "maclagan"
+   ],
+   "built": "1599; rebuilt 1636 and 1772",
+   "function": "Church of the Jesuit mission",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "humayun-mosque",
+   "placeId": "humayun-mosque-kachhpura",
+   "name": "Humayun's Mosque, Kachhpura",
+   "category": "religious",
+   "position": [
+    5644,
+    3750
+   ],
+   "rotation": 0,
+   "footprint": [
+    24.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/humayun-mosque.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 24,
+     "depth": 40,
+     "domes": 3,
+     "minaretHeight": 20
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "lodi-1505": {
+     "note": "The village of Kachhpura on the east bank, among fields."
+    },
+    "babur-1530": {
+     "note": "New: built in 1530 under Humayun, one of the oldest Mughal buildings in India."
+    },
+    "akbar-1580": {
+     "note": "The village mosque of Kachhpura, beside the riverfront gardens."
+    },
+    "shahjahan-1650": {
+     "note": "A village mosque beside the Taj's Moonlight Garden."
+    },
+    "jat-maratha-1780": {
+     "note": "Its dome has cracked and the side wings are falling in.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A small mosque of 1530 in the village of Kachhpura on the east bank: a tall central arch under a dome, flanked by vaulted wings.",
+   "details": [
+    "An inscription dates it to 937 AH (1530–31), in Humayun's name. Built of brick and rubble covered in lime plaster, with a tall pishtaq and a single dome, it shows the Lodi and Timurid traditions the first Mughals brought together.",
+    "The miniature shows the prayer hall with its central arch and dome and two side bays, on a small platform. Surface decoration is omitted."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-humayun-mosque-agra",
+    "koch-mughal"
+   ],
+   "built": "1530",
+   "function": "Mosque",
+   "activity": {
+    "figures": 6,
+    "radius": 50
+   }
+  },
+  {
+   "id": "itimad-ud-daulah",
+   "placeId": "itimad-ud-daulah",
+   "name": "Tomb of Itimad-ud-Daulah",
+   "category": "monument",
+   "position": [
+    4080,
+    2463
+   ],
+   "rotation": 0,
+   "footprint": [
+    173.4,
+    173.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/itimad-ud-daulah.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 174,
+     "depth": 174,
+     "height": 69.60000000000001,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "The riverside garden of Mirza Ghiyas Beg, Itimad-ud-Daulah, Jahangir's chief minister; after his death in 1622 his daughter Nur Jahan begins his tomb in it."
+    },
+    "shahjahan-1650": {
+     "note": "Finished in 1628: the first Mughal tomb faced entirely in white marble and inlaid with coloured stone, the 'jewel box' that announces the Taj."
+    },
+    "jat-maratha-1780": {
+     "note": "Garden neglected, the inlay unharmed; the tomb is still visited by boat from the city."
+    }
+   },
+   "summary": "Nur Jahan's tomb for her parents, 1622–28: a small white marble tomb inlaid all over with coloured stone, with four corner towers and a canopied pavilion on the roof, in a riverside charbagh.",
+   "details": [
+    "Mirza Ghiyas Beg, a Persian who rose to be Jahangir's chief minister as Itimad-ud-Daulah, 'pillar of the state', died in 1622; his wife Asmat Begum lies beside him. The tomb, about 21 m square, was the first faced wholly in white marble with pietra dura and mosaic of jasper, cornelian and topaz.",
+    "The miniature shows the walled garden with its channels, the red sandstone gate on the east and the river pavilion on the west, and the tomb on its platform with octagonal corner towers and the roof pavilion. Inlay is shown as a warm tint."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-itimad",
+    "koch-mughal",
+    "asher"
+   ],
+   "built": "1622–1628",
+   "function": "Garden tomb",
+   "activity": {
+    "figures": 14,
+    "radius": 120
+   }
+  },
+  {
+   "id": "chini-ka-rauza",
+   "placeId": "chini-ka-rauza",
+   "name": "Chini ka Rauza (Tomb of Afzal Khan)",
+   "category": "monument",
+   "position": [
+    4307,
+    1664
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/chini-ka-rauza.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Riverside gardens of the east bank, between the gardens of Babur's time and Itimad-ud-Daulah's."
+    },
+    "shahjahan-1650": {
+     "note": "The tomb of Afzal Khan Shirazi, Shah Jahan's wazir (d. 1639), its walls ablaze with glazed tile in blue, green, yellow and orange."
+    },
+    "jat-maratha-1780": {
+     "note": "Tiles falling from the walls and the garden gone to fields.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The riverside tomb of Afzal Khan, Shah Jahan's Persian chief minister, faced in glazed tile (chini) in the Persian manner, under a single bulbous dome.",
+   "details": [
+    "Mulla Shukrullah Shirazi, called Afzal Khan, poet and scholar, served as Shah Jahan's wazir and died at Lahore in 1639; he built the tomb in his lifetime and was brought here. It is the only Mughal building in Agra faced entirely in glazed tile mosaic, a technique from Persia and Lahore.",
+    "The miniature shows the square tomb with chamfered corners and arched recesses, faced in tile colours, under a bulbous dome on a drum, on a riverside terrace. Tile patterns are reduced to coloured panels; the lost garden is not shown."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chini-ka-rauza",
+    "koch-mughal"
+   ],
+   "built": "c. 1628–1639",
+   "function": "Garden tomb",
+   "activity": {
+    "figures": 6,
+    "radius": 60
+   }
+  },
+  {
+   "id": "zohra-bagh",
+   "placeId": "zohra-bagh",
+   "name": "Zohra Bagh",
+   "category": "monument",
+   "position": [
+    4307,
+    1021
+   ],
+   "rotation": 0,
+   "footprint": [
+    155.3,
+    172.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/zohra-bagh.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 155,
+     "depth": 172,
+     "height": 62.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "lodi-1505": {
+     "note": "Fields and wells on the east bank."
+    },
+    "babur-1530": {
+     "note": "One of the gardens of Babur's family on the east bank, traditionally named for a daughter of Babur.",
+     "confidence": "interpretation"
+    },
+    "akbar-1580": {
+     "note": "A walled garden with a great two-storey pavilion facing the river."
+    },
+    "shahjahan-1650": {
+     "note": "Kept up as one of the riverfront gardens between Aram Bagh and Afzal Khan's tomb."
+    },
+    "jat-maratha-1780": {
+     "note": "The pavilion stands; the garden is farmed.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A walled garden of the first Mughal generations on the east bank, its great pavilion of brick and stone among the largest surviving Mughal garden buildings.",
+   "details": [
+    "Tradition names the garden after Zahra, a daughter of Babur; Koch identifies it with a Mughal princess's garden of the riverfront. Its main survivor is a massive two-storey pavilion of rubble and red sandstone, later used as a residence.",
+    "The miniature shows the walled four-part garden, the pavilion on a raised terrace with its arcaded front, and a riverside wall with towers. Layout of the beds is reconstruction."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-zohra-bagh",
+    "koch-taj"
+   ],
+   "built": "16th century (attributed to Babur's time)",
+   "function": "Garden and pavilion",
+   "activity": {
+    "figures": 6,
+    "radius": 80
+   }
+  },
+  {
+   "id": "aram-bagh",
+   "placeId": "aram-bagh",
+   "name": "Aram Bagh (Bagh-i Nur Afshan)",
+   "category": "monument",
+   "position": [
+    4184,
+    644
+   ],
+   "rotation": 0,
+   "footprint": [
+    226.8,
+    268.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/aram-bagh.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 227,
+     "depth": 268,
+     "height": 90.80000000000001,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "lodi-1505": {
+     "note": "Uncultivated land across the river from the Lodi town, which Babur will call 'ugly and disorderly'."
+    },
+    "babur-1530": {
+     "name": "Aram Bagh (Babur's garden)",
+     "note": "Babur's 'Garden of Rest', begun in 1528 with wells, channels and terraces. His body is said to have rested here before burial at Kabul."
+    },
+    "akbar-1580": {
+     "name": "Bagh-i Nur Afshan",
+     "note": "Rebuilt for Nur Jahan in the 1610s as the 'Light-scattering Garden', with the two riverside pavilions that survive."
+    },
+    "shahjahan-1650": {
+     "name": "Bagh-i Nur Afshan",
+     "note": "A royal garden of the east bank, kept by the crown."
+    },
+    "jat-maratha-1780": {
+     "name": "Ram Bagh",
+     "note": "Now called Ram Bagh; the Marathas use it as a garden residence.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The oldest Mughal garden in India: Babur's terraced charbagh on the east bank, rebuilt by Nur Jahan with twin pavilions on the river and channels stepping down to it.",
+   "details": [
+    "Babur describes making gardens across the Yamuna soon after taking Agra in 1526, with a great well, channels and a bath, in a landscape he found joyless. Aram Bagh is traditionally his; Jahangir records it as Nur Jahan's Bagh-i Nur Afshan, rebuilt in the 1610s.",
+    "The miniature shows raised walks and channels on terraces stepping down toward the river, the riverside terrace with two pavilions and a tank between them, and octagonal towers on the corners. The Babur-era garden would have been simpler."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-aram-bagh",
+    "baburnama",
+    "koch-taj"
+   ],
+   "built": "1528; rebuilt c. 1615–1620",
+   "function": "Royal garden",
+   "activity": {
+    "figures": 10,
+    "radius": 120
+   }
+  },
+  {
+   "id": "jaswant-singh-chhatri",
+   "placeId": "jaswant-singh-chhatri",
+   "name": "Jaswant Singh's Chhatri",
+   "category": "monument",
+   "position": [
+    3961,
+    277
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.0,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/agra/jaswant-singh-chhatri.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 30,
+     "height": 12.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "The Rajput quarter on the east bank north of the gardens, where the households of Rajput nobles in Mughal service stay."
+    },
+    "shahjahan-1650": {
+     "note": "A Rajput memorial pavilion of red sandstone, said to mark where Rani Hada became sati after her husband Amar Singh Rathore was killed at the fort in 1644."
+    },
+    "jat-maratha-1780": {
+     "note": "Still standing among the houses of the Rajwara quarter."
+    }
+   },
+   "summary": "A Rajput cenotaph pavilion of carved red sandstone on the east bank, a rare Hindu monument of Shah Jahan's Agra.",
+   "details": [
+    "Tradition says Amar Singh Rathore was killed in the fort in 1644 after drawing his dagger on the paymaster Salabat Khan, and that his wife Rani Hada became sati here; the pavilion is attributed to Jaswant Singh of Marwar. Dates and builder are not firmly documented.",
+    "The miniature shows a pillared pavilion with a domed roof on a raised platform inside a low enclosure wall with carved panels."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-jaswant-chhatri",
+    "latif"
+   ],
+   "built": "c. 1644–1658",
+   "function": "Memorial pavilion (chhatri)",
+   "activity": {
+    "figures": 4,
+    "radius": 40
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "badalgarh-kilns",
+   "name": "Brick kilns below Badalgarh",
+   "kind": "works",
+   "position": [
+    3119,
+    4860
+   ],
+   "activePeriods": [
+    "lodi-1505",
+    "babur-1530"
+   ],
+   "summary": "Clamp kilns on the flat ground south of the fort where the small flat bricks of Lodi walls and houses are fired.",
+   "details": [
+    "Lodi and early Mughal builders used thin burnt bricks laid in lime, faced in plaster. Kilns stood outside every Indian town where clay and fuel were at hand; this site is placed for illustration. After the 1505 earthquake the kilns had work for years."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sikandar-lodi",
+    "latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke hangs low over the clamps. Children stack cow-dung cakes for fuel while the moulders slap wet clay into wooden frames and lay the bricks out in rows to dry."
+    },
+    {
+     "hour": 13,
+     "text": "Too hot to work. Donkeys stand head-down in the shade of a neem; their panniers are full of broken brick for the fort's rubble core."
+    },
+    {
+     "hour": 21,
+     "text": "A kiln is opened and glows red at the base. The fireman sleeps beside it on a charpoy to keep the draught right."
+    }
+   ],
+   "variants": {
+    "babur-1530": {
+     "note": "Babur's builders need bricks for wells, walls and pavilions across the river; the kilns are busier than ever."
+    }
+   }
+  },
+  {
+   "id": "lodi-ferry",
+   "name": "The ferry landing",
+   "kind": "dock",
+   "position": [
+    3505,
+    3195
+   ],
+   "activePeriods": [
+    "lodi-1505",
+    "babur-1530",
+    "akbar-1580"
+   ],
+   "summary": "Where flat-bottomed ferries cross the Yamuna to the east bank, carrying people, cattle and carts.",
+   "details": [
+    "Before the bridge of boats the river was crossed by ferry. Babur's men went over this way to lay out his gardens; Babur himself writes of crossing the river to look for garden sites. The exact landing is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "baburnama",
+    "latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Milkmen from the east-bank villages wade their buffaloes across at the shallow place; the ferry takes their cans and a holy man who will not get wet."
+    },
+    {
+     "hour": 13,
+     "text": "A bullock cart is coaxed down the bank onto the boat's planks. The ferryman poles off, singing to keep his crew's time."
+    },
+    {
+     "hour": 19,
+     "text": "The last crossing: gardeners from the new gardens over the river come home with baskets of greens on their heads."
+    }
+   ],
+   "variants": {
+    "babur-1530": {
+     "note": "Busy with Babur's gardeners, masons and well-diggers going to the east bank."
+    },
+    "akbar-1580": {
+     "name": "Old ferry landing",
+     "note": "A bridge of boats now crosses just upstream; the ferry carries what the bridge will not."
+    }
+   }
+  },
+  {
+   "id": "babur-well",
+   "name": "Babur's great well and bath",
+   "kind": "bath",
+   "position": [
+    4406,
+    865
+   ],
+   "activePeriods": [
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650"
+   ],
+   "summary": "The large step-well and the bath-house Babur had built across the river, one of the first things he made in Agra.",
+   "details": [
+    "Babur writes that in Hindustan's heat he needed running water and a bath, so he had a great well dug, with a hammam and rooms beside it, before laying out the garden beds. Its site among the east-bank gardens is not certain; this placement follows the gardens Babur describes."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "baburnama",
+    "koch-taj"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Bullocks walk the ramp, hauling the leather bag up out of the well; it splashes into a channel that runs off to the beds."
+    },
+    {
+     "hour": 14,
+     "text": "In the hammam's vaulted rooms Babur's companions escape the heat, talking of Kabul's melons and grapes."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps on the step-well's landings. A servant sits on the cool steps far below ground, waiting to be called."
+    }
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "An old royal well, still used to water the gardens round it."
+    },
+    "shahjahan-1650": {
+     "note": "A relic of Babur's time, kept among the east-bank gardens."
+    }
+   }
+  },
+  {
+   "id": "persian-wheel",
+   "name": "A garden-keeper's Persian wheel",
+   "kind": "garden",
+   "position": [
+    3981,
+    499
+   ],
+   "activePeriods": [
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "A geared water-wheel by the river, turned by a pair of bullocks, lifting water in a chain of pots into the garden channels.",
+   "details": [
+    "The saqiya or Persian wheel, a chain of clay pots on a wheel geared to a horizontal drive, watered the gardens on both banks. Babur describes the water-lifting wheels of Hindustan; Mughal gardens were laid out so that one wheel by the river could feed every channel."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "baburnama",
+    "wiki-persian-wheel",
+    "koch-taj"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before light the boy hitches the bullocks and the wheel starts its creak; each pot tips its water into the trough with a slap."
+    },
+    {
+     "hour": 12,
+     "text": "The bullocks are rested in the shade. The garden-keeper cleans silt from the channel with his mattock and opens the sluice to the orange trees."
+    },
+    {
+     "hour": 18,
+     "text": "The wheel turns again for the evening watering. Jasmine smells strongest now; the keeper's wife picks blossoms for the market."
+    }
+   ],
+   "variants": {
+    "jat-maratha-1780": {
+     "note": "One of the few wheels still turning, watering melons where the garden's flower beds once were."
+    }
+   }
+  },
+  {
+   "id": "dhobi-ghat",
+   "name": "Washermen's ghat",
+   "kind": "works",
+   "position": [
+    3644,
+    2385
+   ],
+   "activePeriods": [
+    "lodi-1505",
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "A stretch of riverbank where the dhobis beat the city's laundry on flat stones and spread it to dry on the sand.",
+   "details": [
+    "Washing at the river was the dhobi caste's hereditary work; travellers describe linen spread for miles along the banks of Indian rivers. In Mughal Agra the bleaching and washing of cotton cloth for export also went on by the river. The site is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "pelsaert",
+    "latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Thwack, thwack: wet cloth swung over the shoulder and brought down on the stones. Donkeys wait with the next bundles."
+    },
+    {
+     "hour": 12,
+     "text": "White turbans, red saris and long cotton lengths are pegged out on the sand in rows; boys chase off the crows."
+    },
+    {
+     "hour": 17,
+     "text": "The dry laundry is folded and counted against marks made in ink on each piece. The donkeys carry it back up into the lanes."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "elephant-stables",
+   "name": "Imperial elephant stables",
+   "kind": "works",
+   "position": [
+    2693,
+    4216
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650"
+   ],
+   "summary": "The fil-khana outside the fort, where the emperor's war and state elephants are tethered, fed and trained.",
+   "details": [
+    "The Ain-i Akbari lists the ranks of imperial elephants, their daily rations of grain, sugar and ghee, and the keepers assigned to each. Elephant fights were staged on the river sand below the fort. The site outside the fort's west walls is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ain-i-akbari",
+    "bernier"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The mahouts lead the elephants down to the river to bathe; they lie in the shallows while the boys scrub them with bricks."
+    },
+    {
+     "hour": 13,
+     "text": "Ration time: each elephant's grain, jaggery and ghee measured out by a clerk who writes it all down."
+    },
+    {
+     "hour": 19,
+     "text": "Chains clink as the elephants are tethered for the night; a great tusker sways from foot to foot, eating sugar cane."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "agra-mint",
+   "name": "The Agra mint",
+   "kind": "works",
+   "position": [
+    2624,
+    3972
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "One of the empire's main mints, striking gold mohurs, silver rupees and copper dams for the capital.",
+   "details": [
+    "Agra (Dar al-Khilafa, 'seat of the caliphate', on its coins) was one of the busiest Mughal mints. Merchants brought silver bullion, much of it from the Americas by way of Surat, to be coined for a fee. Its building is not known; it is placed near the fort for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ain-i-akbari",
+    "habib-agrarian",
+    "tavernier"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Merchants' agents queue with bags of foreign silver to be assayed. The assayer touches each bar to his stone and squints at the streak."
+    },
+    {
+     "hour": 13,
+     "text": "Hammers ring: a striker brings the upper die down on a blank held by his partner. The rupees pile up in brass basins."
+    },
+    {
+     "hour": 18,
+     "text": "Everything weighed again before the doors are sealed. A guard sleeps across the threshold."
+    }
+   ],
+   "variants": {
+    "jat-maratha-1780": {
+     "note": "Still striking coins, now in the name of whoever holds the fort."
+    }
+   }
+  },
+  {
+   "id": "jain-temple",
+   "name": "Jain temple of the merchants",
+   "kind": "shrine",
+   "position": [
+    2575,
+    3018
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "A temple of Agra's Jain merchants, behind a plain house front in the old city, where the poet Banarsidas and his circle met.",
+   "details": [
+    "Agra's Jain merchants were rich and devout; the Jain monk Hiravijaya visited Akbar, and Banarsidas, whose verse autobiography (1641) describes his life in Agra's trade, led a reforming circle here. Temples were set inside houses to avoid notice. The location is illustrative."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ardhakathanak",
+    "latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Barefoot merchants in white wash and enter before opening their shops; the smell of sandalwood paste and the murmur of the Namokar mantra."
+    },
+    {
+     "hour": 12,
+     "text": "In a side room men argue about the soul and the self over a manuscript, as Banarsidas's circle did."
+    },
+    {
+     "hour": 19,
+     "text": "Ghee lamps before the white image of the Tirthankara; the evening aarti, and sweets handed round to the children."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "padritola-cemetery",
+   "name": "Padritola: the Christian cemetery",
+   "kind": "monument",
+   "position": [
+    1881,
+    1720
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "The burial ground of Agra's Armenian and European Christians, the oldest in northern India, in the quarter called Padritola, 'the fathers' quarter'.",
+   "details": [
+    "Armenian merchants were in Agra by Akbar's time; the tomb of Khwaja Mortenepus (1611), an Armenian, is thought the oldest Christian grave in northern India. Jesuits, Dutch and English traders and mercenaries were buried here, under tombs in Mughal style."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "maclagan",
+    "latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "An Armenian widow sets a lamp on a domed tomb with a Persian and Armenian inscription."
+    },
+    {
+     "hour": 13,
+     "text": "A Jesuit father reads his breviary in the shade of a tamarind. Kites wheel over the walls."
+    },
+    {
+     "hour": 18,
+     "text": "Gravediggers work quickly before dark for a Dutch factor dead of fever this morning."
+    }
+   ],
+   "variants": {
+    "jat-maratha-1780": {
+     "note": "European mercenaries in the service of the Jats and Marathas are buried here now."
+    }
+   }
+  },
+  {
+   "id": "hammam-ali-verdi",
+   "name": "Hammam of Ali Verdi Khan",
+   "kind": "bath",
+   "position": [
+    2258,
+    4416
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "A public bath of 1620 in Chhipitola, the printers' quarter: domed hot and cold rooms behind a gateway of plastered brick.",
+   "details": [
+    "An inscription dates the hammam to 1620 and names its builder Ali Verdi Khan. Turkish-style baths with steam rooms were a Mughal city amenity; this is one of the few in Agra that survive. Its location in Chhipitola follows the surviving building."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "latif",
+    "wiki-hammam-agra"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The stoker feeds dung and wood into the furnace under the hot room; steam curls out of the little glass-capped holes in the domes."
+    },
+    {
+     "hour": 11,
+     "text": "Bathers lie on warm marble while the attendant cracks their joints and scrubs them with a coarse mitt."
+    },
+    {
+     "hour": 20,
+     "text": "Women's hours are over; the floors are sluiced and the towels hung up to dry on the roof."
+    }
+   ],
+   "variants": {
+    "akbar-1580": {
+     "note": "Built in 1620, under Jahangir, in the printers' quarter."
+    }
+   }
+  },
+  {
+   "id": "kinari-trimmings",
+   "name": "Trimmings sellers of the Kinari Bazaar",
+   "kind": "shop",
+   "position": [
+    2198,
+    3195
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "Shops of gold and silver lace, braid, sequins and tassels, where the city's brides and the nobles' tailors buy their edgings.",
+   "details": [
+    "Gold and silver thread (zari) was drawn and wound in Agra, and the lace made from it edged turbans, sashes, saris and the robes given at court. The trimmings sellers sit cross-legged on raised shop floors with their stock in bundles round them."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "pelsaert",
+    "latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "Shutters come down to make the shop floor. The seller unrolls a reel of gold lace in the sun so it flashes for the street."
+    },
+    {
+     "hour": 14,
+     "text": "A wedding party's women bargain for a whole bolt of silver kinari; the boy runs for tea and the scales."
+    },
+    {
+     "hour": 20,
+     "text": "Oil lamps in every shop; the lace glints, and a tailor's apprentice is sent back for a forgotten length of red braid."
+    }
+   ],
+   "variants": {
+    "jat-maratha-1780": {
+     "note": "Fewer court robes to trim, but the city's weddings keep the lane busy."
+    }
+   }
+  },
+  {
+   "id": "calligrapher",
+   "name": "A Persian calligrapher's studio",
+   "kind": "workshop",
+   "position": [
+    2822,
+    2829
+   ],
+   "activePeriods": [
+    "shahjahan-1650"
+   ],
+   "summary": "The house of a master of nastaliq and thuluth, where pupils copy letters and stone-cutters' patterns for inscriptions are drawn.",
+   "details": [
+    "Amanat Khan, a Persian from Shiraz, designed the Quranic inscriptions of the Taj and signed one in 1639; calligraphers drew the letters full size for inlayers to cut in black marble. This studio is a type, placed in the old city."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "begley-desai",
+    "koch-taj"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Pupils sharpen reed pens on a bone plate and practise the same letter a hundred times while the master watches."
+    },
+    {
+     "hour": 13,
+     "text": "A full-size cartoon for an arch inscription is pricked along its lines and pounced with charcoal onto paper for the marble cutters."
+    },
+    {
+     "hour": 20,
+     "text": "By lamplight the master writes a single couplet for a noble's album, then burns three failed sheets."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pietra-dura",
+   "name": "Inlay workshop (parchin kari)",
+   "kind": "workshop",
+   "position": [
+    4872,
+    4993
+   ],
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "A workshop where marble is cut and inlaid with cornelian, jasper, lapis and agate in flowers and scrolls, the craft of the Taj.",
+   "details": [
+    "The Taj's inlay (parchin kari, pietra dura) required thousands of cut stones; families of inlayers settled in Taj Ganj, and the craft has continued there since. Stones came from Arabia, Tibet, Sri Lanka and Afghanistan, according to later lists of doubtful detail."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "koch-taj",
+    "wiki-pietra-dura",
+    "begley-desai"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A boy turns the bow of the lap-wheel while his father grinds a sliver of cornelian into a petal, testing it against a paper template."
+    },
+    {
+     "hour": 13,
+     "text": "The slab is carved out with a chisel to take the petals; each stone is set in a paste of lime and sugar and tapped home."
+    },
+    {
+     "hour": 19,
+     "text": "Polishing: the slab rubbed with fine sand and water until the inlay and the marble are one smooth surface."
+    }
+   ],
+   "variants": {
+    "jat-maratha-1780": {
+     "note": "Fewer imperial orders; the inlayers make boxes and tabletops for travellers and repair the Taj's lost stones."
+    }
+   }
+  },
+  {
+   "id": "tajganj-merchants",
+   "name": "Merchants' sarai of Taj Ganj",
+   "kind": "inn",
+   "position": [
+    5446,
+    5259
+   ],
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "Rooms round a court where merchants from Persia, Central Asia and the Deccan lodge with their bales and camels.",
+   "details": [
+    "The four sarais of Taj Ganj housed travelling merchants for rent paid to the Taj's endowment; Tavernier stayed in such sarais and describes their rooms, wells and keepers. This spot stands for the merchants and their trade in the Taj Ganj sarais."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "tavernier",
+    "koch-taj",
+    "begley-desai"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Camels groan as they are loaded in the court; a Persian merchant counts his bales of indigo and argues with the camel-driver about the price."
+    },
+    {
+     "hour": 13,
+     "text": "In the cool rooms brokers unwrap Kashmir shawls and Gujarati cottons; tea, betel and hard bargaining."
+    },
+    {
+     "hour": 21,
+     "text": "The sarai gate is shut and barred. The keeper walks the court with a lamp, calling out that the guests should mind their goods."
+    }
+   ],
+   "variants": {
+    "jat-maratha-1780": {
+     "note": "Fewer caravans; part of the sarai is let as houses."
+    }
+   }
+  },
+  {
+   "id": "riverside-grain-market",
+   "name": "Grain market on the river",
+   "kind": "market",
+   "position": [
+    3585,
+    2130
+   ],
+   "activePeriods": [
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "Where river boats unload wheat, rice, sugar and salt for the city, weighed out by grain merchants on the bank.",
+   "details": [
+    "Agra was fed by the river and the roads of the Doab; boats came up and down the Yamuna with grain, salt and cotton. The grain market by the river, later known as Belanganj, is placed here for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "pelsaert",
+    "habib-agrarian"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Porters run down the planks with sacks on their heads; the weighman sings out the count at every tenth load."
+    },
+    {
+     "hour": 12,
+     "text": "The grain merchants sit on gunny-cloth under awnings, testing wheat between their teeth."
+    },
+    {
+     "hour": 18,
+     "text": "Boats are pulled up onto the sand for the night; the boatmen cook on the bank and sleep on the decks."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "petha-seller",
+   "name": "Petha sweet-seller",
+   "kind": "shop",
+   "position": [
+    2060,
+    3528
+   ],
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "A sweet shop selling petha, translucent candied ash gourd, Agra's most famous sweet.",
+   "details": [
+    "Petha is made by soaking pieces of ash gourd in lime water and boiling them in syrup. Local tradition links it to the kitchens of the Mughal court or to the Taj's workers; the claim cannot be documented and the trade is first well attested much later."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-petha"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Pale cubes of gourd soak in lime water in big earthen vats; the sweet-maker's son pricks each one with a fork."
+    },
+    {
+     "hour": 13,
+     "text": "Syrup bubbles in a wide iron pan; the pieces turn glassy and are lifted out to dry on cane trays."
+    },
+    {
+     "hour": 20,
+     "text": "Travellers buy a leaf-wrapped packet for the road; it keeps for weeks."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tanners-yard",
+   "name": "Tanners' yard",
+   "kind": "works",
+   "position": [
+    5694,
+    4604
+   ],
+   "activePeriods": [
+    "lodi-1505",
+    "babur-1530",
+    "akbar-1580",
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "Pits and drying frames for tanning hides, downstream and downwind of the city, as the trade's smell demanded.",
+   "details": [
+    "Leather for saddles, shoes, buckets and water bags was tanned outside the town by leatherworkers of low caste, using lime and tanning barks. Agra's leather trade grew large later; this downstream site is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "latif",
+    "habib-agrarian"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Hides come out of the lime pits, stinking, and are scraped on sloping beams with blunt knives."
+    },
+    {
+     "hour": 12,
+     "text": "The yard is still in the heat; hides stretched on frames, kites waiting on the walls."
+    },
+    {
+     "hour": 18,
+     "text": "Water-bags and saddle leathers loaded on a donkey for the city's bazaar."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kotwali",
+   "name": "The Kotwali",
+   "kind": "civic",
+   "position": [
+    2634,
+    3439
+   ],
+   "activePeriods": [
+    "shahjahan-1650",
+    "jat-maratha-1780"
+   ],
+   "summary": "The office of the kotwal, the city's chief of police and markets, near the Jama Masjid.",
+   "details": [
+    "The kotwal kept the watch, fixed prices, checked weights and recorded strangers, according to the Ain-i Akbari's list of his duties. Bernier says the kotwal answered for every theft in the city. Its building is placed near the Jama Masjid for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ain-i-akbari",
+    "bernier"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Shopkeepers wait with their weights to be checked; one is fined for a light seer and sent away cursing."
+    },
+    {
+     "hour": 14,
+     "text": "A merchant reports a stolen horse; the kotwal's clerk writes it in the register and sends men to the horse fair."
+    },
+    {
+     "hour": 22,
+     "text": "The night watch goes out with lamps and drums, calling the hours through the empty bazaars."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "sikandar-capital",
+   "title": "Sikandar Lodi makes Agra his capital",
+   "periodId": "lodi-1505",
+   "date": "c. 1504–1506",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "crowd",
+   "text": "Sikandar Lodi, campaigning against the Rajput chiefs of Dholpur and Gwalior, moves his court from Delhi to Agra, a village by the old fort of Badalgarh. Courtiers, soldiers and merchants follow; Sikandra, his new suburb, is named after him. Agra will be the seat of the Lodis and then of the first Mughals.",
+   "sourceIds": [
+    "wiki-sikandar-lodi",
+    "latif"
+   ]
+  },
+  {
+   "id": "earthquake-1505",
+   "title": "The great earthquake of 1505",
+   "periodId": "lodi-1505",
+   "date": "1505",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     2426,
+     3661
+    ]
+   },
+   "effect": "none",
+   "text": "A great earthquake shakes northern India. In the new capital the chroniclers say houses and buildings fell and many were killed; it was remembered as the worst in living memory. The same earthquake, centred in the Himalaya, is recorded in Nepal and Tibet.",
+   "sourceIds": [
+    "wiki-1505-earthquake",
+    "wiki-sikandar-lodi"
+   ]
+  },
+  {
+   "id": "humayun-diamond",
+   "title": "Humayun takes Agra and a famous diamond",
+   "periodId": "babur-1530",
+   "date": "May 1526",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "crowd",
+   "text": "After Panipat, Babur sends Humayun ahead to secure Agra. The family of the late raja of Gwalior, sheltering there, buy safety with jewels, among them a great diamond which a jeweller valued, Babur says, at two and a half days' food for the whole world. Some identify it with the Koh-i-Noor.",
+   "sourceIds": [
+    "baburnama",
+    "wiki-koh-i-noor"
+   ]
+  },
+  {
+   "id": "babur-gardens",
+   "title": "Babur lays out gardens across the river",
+   "periodId": "babur-1530",
+   "date": "1526–1528",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "aram-bagh"
+   },
+   "effect": "construction",
+   "text": "Babur finds Agra's plain hot, dusty and joyless, but crosses the Yamuna to dig a great well, then a tank, a bath and orderly beds and channels. His nobles copy him along the bank, and the locals, Babur writes, call the east bank 'Kabul'. These are the first Mughal gardens in India.",
+   "sourceIds": [
+    "baburnama",
+    "koch-taj"
+   ]
+  },
+  {
+   "id": "babur-death",
+   "title": "Babur dies at Agra",
+   "periodId": "babur-1530",
+   "date": "26 December 1530",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "aram-bagh"
+   },
+   "effect": "procession",
+   "text": "When Humayun fell gravely ill, the story goes, Babur walked three times round his bed and offered his own life for his son's. Humayun recovered; Babur sickened and died. His body is said to have rested in a garden across the river before it was carried to Kabul, as he wished.",
+   "sourceIds": [
+    "wiki-babur",
+    "baburnama"
+   ]
+  },
+  {
+   "id": "akbar-fort",
+   "title": "Akbar begins the red fort",
+   "periodId": "akbar-1580",
+   "date": "1565",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "construction",
+   "text": "Akbar orders Badalgarh pulled down and a new fort built of red sandstone from Fatehpur Sikri and Rupbas, under Qasim Khan. Thousands of masons and labourers work for eight years; Abu'l Fazl counts more than 500 buildings inside when it is done in 1573.",
+   "sourceIds": [
+    "ain-i-akbari",
+    "wiki-agra-fort"
+   ]
+  },
+  {
+   "id": "jesuit-christmas",
+   "title": "Christmas at the Jesuits' church",
+   "periodId": "akbar-1580",
+   "date": "Christmas, c. 1600",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "akbars-church"
+   },
+   "effect": "crowd",
+   "text": "The Jesuit fathers set up a nativity crib in their new church, and, their letters report, crowds of Agra's Hindus and Muslims, and nobles of the court, come to look at it for days. The mission's processions with music and lights are allowed through the streets by imperial permission.",
+   "sourceIds": [
+    "maclagan",
+    "wiki-akbars-church"
+   ]
+  },
+  {
+   "id": "chain-of-justice",
+   "title": "Jahangir hangs the chain of justice",
+   "periodId": "akbar-1580",
+   "date": "1605",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "none",
+   "text": "On his accession Jahangir orders a chain of gold, thirty gaz long and hung with sixty bells, fastened from the battlements of the fort's Shah Burj to a stone post on the riverbank, so that anyone denied justice could shake it and be heard by the emperor himself.",
+   "sourceIds": [
+    "jahangirnama",
+    "wiki-agra-fort"
+   ]
+  },
+  {
+   "id": "taj-begun",
+   "title": "Mumtaz Mahal brought to Agra; the Taj begun",
+   "periodId": "shahjahan-1650",
+   "date": "December 1631 – January 1632",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "taj-mahal"
+   },
+   "effect": "construction",
+   "text": "Mumtaz Mahal died at Burhanpur in June 1631 after her fourteenth child. Her body is brought to Agra and laid in a temporary grave on Raja Jai Singh's riverside land, and the work begins: foundations sunk in wells to the water table, a ramp for marble, and brick scaffolding. Peter Mundy watched it rising in 1632.",
+   "sourceIds": [
+    "begley-desai",
+    "mundy",
+    "wiki-taj-mahal"
+   ]
+  },
+  {
+   "id": "first-urs",
+   "title": "The first urs of Mumtaz Mahal",
+   "periodId": "shahjahan-1650",
+   "date": "June 1632",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "taj-mahal"
+   },
+   "effect": "crowd",
+   "text": "On the anniversary of her death Shah Jahan holds the urs on the building site under great tents: nobles, scholars and the poor are fed, prayers recited, and the emperor distributes money. The urs is held each year after; the ceremony helped make the tomb a place of public piety.",
+   "sourceIds": [
+    "begley-desai",
+    "koch-taj"
+   ]
+  },
+  {
+   "id": "court-leaves",
+   "title": "The court leaves for Shahjahanabad",
+   "periodId": "shahjahan-1650",
+   "date": "1648",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "procession",
+   "text": "With his new city at Delhi complete, Shah Jahan moves the court there. Agra keeps its fort, its treasury and its riverfront, but the nobles' households, craftsmen and suppliers follow the court, and the city's slow decline begins.",
+   "sourceIds": [
+    "wiki-shah-jahan",
+    "koch-taj"
+   ]
+  },
+  {
+   "id": "shah-jahan-prisoner",
+   "title": "Aurangzeb besieges his father in the fort",
+   "periodId": "shahjahan-1650",
+   "date": "June 1658",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "crowd",
+   "text": "After defeating Dara Shikoh at Samugarh, Aurangzeb surrounds the fort and cuts it off from the river. Without water Shah Jahan surrenders within days. He lives on as a prisoner in the marble palaces, nursed by his daughter Jahanara, until his death in January 1666.",
+   "sourceIds": [
+    "wiki-shah-jahan",
+    "bernier"
+   ]
+  },
+  {
+   "id": "shah-jahan-burial",
+   "title": "Shah Jahan is carried to the Taj",
+   "periodId": "shahjahan-1650",
+   "date": "23 January 1666",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "taj-mahal"
+   },
+   "effect": "procession",
+   "text": "Shah Jahan dies in the fort on 22 January 1666. Without state ceremony, his body is taken down to the river and by boat to the Taj, and laid beside Mumtaz Mahal. His cenotaph, set off-centre beside hers, is the only asymmetrical thing in the building.",
+   "sourceIds": [
+    "wiki-shah-jahan",
+    "begley-desai"
+   ]
+  },
+  {
+   "id": "shivaji-escape",
+   "title": "Shivaji at Agra, and his escape",
+   "periodId": "shahjahan-1650",
+   "date": "May–August 1666",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "crowd",
+   "text": "The Maratha leader Shivaji comes to Aurangzeb's birthday court in May 1666, is placed among lesser nobles, protests, and is held under guard in the city. In August he escapes; the story says he and his son were carried out in the great baskets of sweets he had been sending out to Brahmins and holy men.",
+   "sourceIds": [
+    "wiki-shivaji",
+    "sarkar-shivaji"
+   ]
+  },
+  {
+   "id": "jat-sack",
+   "title": "The Jats take Agra",
+   "periodId": "jat-maratha-1780",
+   "date": "June 1761",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "fire",
+   "text": "While the Marathas and Afghans fight it out at Panipat, the Jat raja Suraj Mal of Bharatpur takes Agra and its fort. The Jats strip palaces and tombs of their valuables; tradition says the silver doors of the Taj were carried off. They hold the city until 1774.",
+   "sourceIds": [
+    "wiki-suraj-mal",
+    "sarkar-fall"
+   ]
+  },
+  {
+   "id": "scindia-agra",
+   "title": "Mahadji Scindia's Marathas hold Agra",
+   "periodId": "jat-maratha-1780",
+   "date": "1785",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "agra-fort"
+   },
+   "effect": "crowd",
+   "text": "Mahadji Scindia, now regent of the Mughal empire in all but name, takes Agra into Maratha hands; his European-officered brigades garrison the fort. Agra stays Maratha until General Lake's British army takes it in 1803.",
+   "sourceIds": [
+    "wiki-mahadaji-shinde",
+    "sarkar-fall"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "day-of-the-taj",
+   "title": "A day in the City of the Taj",
+   "periodId": "shahjahan-1650",
+   "summary": "From the sarais of Taj Ganj through the Taj and across the river to the fort and the old city's bazaars, in the year the court left for Delhi.",
+   "steps": [
+    {
+     "spotId": "tajganj-merchants",
+     "title": "Dawn in the sarai",
+     "text": "Camels are loaded in the court of a Taj Ganj sarai. The rent the merchants pay goes to the tomb next door; so does the revenue of thirty villages.",
+     "when": "dawn"
+    },
+    {
+     "spotId": "pietra-dura",
+     "title": "The inlayers' lane",
+     "text": "Behind the sarais, families of inlayers grind cornelian petals for the Taj's last panels and for nobles' tombs. The bow of the lap-wheel never stops."
+    },
+    {
+     "landmarkId": "taj-mahal",
+     "title": "Through the great gate",
+     "text": "Under the red gate the whole garden opens at once: raised walks, channels, fruit trees, and at the far end, on its terrace above the river, the white tomb.",
+     "when": "morning"
+    },
+    {
+     "landmarkId": "mehtab-bagh",
+     "title": "Across the water",
+     "text": "A boat takes you over to the Moonlight Garden. From its octagonal pool you see the tomb doubled in the water, as it was meant to be seen."
+    },
+    {
+     "landmarkId": "agra-fort",
+     "title": "The red fort",
+     "text": "Up the river to the fort's water gate. Inside, Shah Jahan's marble halls stand on Akbar's red walls; this year the court is packing for Delhi.",
+     "when": "noon"
+    },
+    {
+     "landmarkId": "tripolia",
+     "title": "Tripolia Chowk",
+     "text": "Out through the Delhi Gate into the octagonal square, loud with cloth sellers and porters, the new Jama Masjid ahead on its plinth."
+    },
+    {
+     "landmarkId": "kinari-bazaar",
+     "title": "Gold lace by lamplight",
+     "text": "Into the lanes of the old city: the Kinari Bazaar, where gold and silver lace flashes in the lamplight and a wedding party bargains late.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "koch-taj",
+    "bernier",
+    "tavernier",
+    "begley-desai"
+   ]
+  },
+  {
+   "id": "babur-kabul",
+   "title": "Babur's 'Kabul' across the Jun",
+   "periodId": "babur-1530",
+   "summary": "A walk with Babur's gardeners from the old Lodi fort over the river to the first Mughal gardens in India.",
+   "steps": [
+    {
+     "landmarkId": "agra-fort",
+     "title": "Badalgarh",
+     "text": "The Lodi brick fort, with its treasury, is Babur's now, but he will not live in it: the town is hot, dusty and, he complains, without running water.",
+     "when": "dawn"
+    },
+    {
+     "spotId": "lodi-ferry",
+     "title": "The ferry",
+     "text": "Masons, well-diggers and gardeners crowd the ferry to the east bank with baskets, ropes and young trees."
+    },
+    {
+     "spotId": "babur-well",
+     "title": "The great well",
+     "text": "The first work: a well wide enough for bullocks to raise water all day, a bath beside it, then a tank. Only then do the beds and walks go in."
+    },
+    {
+     "landmarkId": "aram-bagh",
+     "title": "The Garden of Rest",
+     "text": "Terraces, straight walks and channels, the pattern of Kabul and Samarkand laid on the Indian plain. The locals, Babur writes, call this bank 'Kabul'.",
+     "when": "midday"
+    },
+    {
+     "spotId": "persian-wheel",
+     "title": "The wheel by the river",
+     "text": "A Persian wheel lifts river water into the highest channel; from there it runs through every bed by gravity."
+    },
+    {
+     "landmarkId": "humayun-mosque",
+     "title": "Humayun's mosque",
+     "text": "Downstream at Kachhpura, a new mosque in Humayun's name, of brick and lime under a single dome.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "baburnama",
+    "koch-taj"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "koch-taj",
+   "title": "The Complete Taj Mahal and the Riverfront Gardens of Agra",
+   "author": "Ebba Koch",
+   "year": 2006
+  },
+  {
+   "id": "koch-mughal",
+   "title": "Mughal Architecture: An Outline of Its History and Development (1526–1858)",
+   "author": "Ebba Koch",
+   "year": 1991
+  },
+  {
+   "id": "asher",
+   "title": "Architecture of Mughal India (The New Cambridge History of India I.4)",
+   "author": "Catherine B. Asher",
+   "year": 1992
+  },
+  {
+   "id": "baburnama",
+   "title": "The Baburnama: Memoirs of Babur, Prince and Emperor",
+   "author": "Babur, trans. Wheeler M. Thackston",
+   "year": 1996,
+   "url": "https://en.wikipedia.org/wiki/Baburnama"
+  },
+  {
+   "id": "pelsaert",
+   "title": "Jahangir's India: The Remonstrantie of Francisco Pelsaert",
+   "author": "Francisco Pelsaert, trans. W. H. Moreland & P. Geyl",
+   "year": 1925,
+   "note": "written in Agra, 1626"
+  },
+  {
+   "id": "bernier",
+   "title": "Travels in the Mogul Empire, AD 1656–1668",
+   "author": "François Bernier",
+   "year": 1670,
+   "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Bernier"
+  },
+  {
+   "id": "latif",
+   "title": "Agra, Historical and Descriptive",
+   "author": "Syad Muhammad Latif",
+   "year": 1896,
+   "url": "https://archive.org/details/agrahistoricalde00latiuoft"
+  },
+  {
+   "id": "wiki-agra",
+   "title": "Agra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Agra"
+  },
+  {
+   "id": "wiki-yamuna",
+   "title": "Yamuna",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yamuna"
+  },
+  {
+   "id": "begley-desai",
+   "title": "Taj Mahal: The Illumined Tomb. An Anthology of Seventeenth-Century Mughal and European Documentary Sources",
+   "author": "W. E. Begley & Z. A. Desai",
+   "year": 1989
+  },
+  {
+   "id": "moynihan",
+   "title": "The Moonlight Garden: New Discoveries at the Taj Mahal",
+   "author": "Elizabeth B. Moynihan (ed.)",
+   "year": 2000
+  },
+  {
+   "id": "ain-i-akbari",
+   "title": "Akbarnama and Ain-i Akbari",
+   "author": "Abu'l Fazl",
+   "year": "c. 1590–1602",
+   "url": "https://en.wikipedia.org/wiki/Akbarnama"
+  },
+  {
+   "id": "tavernier",
+   "title": "Travels in India",
+   "author": "Jean-Baptiste Tavernier, trans. V. Ball",
+   "year": 1676,
+   "url": "https://en.wikipedia.org/wiki/Jean-Baptiste_Tavernier"
+  },
+  {
+   "id": "mundy",
+   "title": "The Travels of Peter Mundy in Europe and Asia, 1608–1667, vol. II",
+   "author": "Peter Mundy, ed. R. C. Temple",
+   "year": 1914,
+   "url": "https://en.wikipedia.org/wiki/Peter_Mundy"
+  },
+  {
+   "id": "maclagan",
+   "title": "The Jesuits and the Great Mogul",
+   "author": "Edward Maclagan",
+   "year": 1932
+  },
+  {
+   "id": "nath",
+   "title": "The Immortal Taj Mahal: The Evolution of the Tomb in Mughal Architecture",
+   "author": "R. Nath",
+   "year": 1972
+  },
+  {
+   "id": "wiki-taj-mahal",
+   "title": "Taj Mahal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taj_Mahal"
+  },
+  {
+   "id": "wiki-agra-fort",
+   "title": "Agra Fort",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Agra_Fort"
+  },
+  {
+   "id": "wiki-jama-masjid-agra",
+   "title": "Jama Masjid, Agra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jama_Masjid,_Agra"
+  },
+  {
+   "id": "wiki-itimad",
+   "title": "Tomb of I'timād-ud-Daulah",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah"
+  },
+  {
+   "id": "wiki-chini-ka-rauza",
+   "title": "Chini Ka Rauza",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chini_Ka_Rauza"
+  },
+  {
+   "id": "wiki-aram-bagh",
+   "title": "Aram Bagh, Agra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aram_Bagh,_Agra"
+  },
+  {
+   "id": "wiki-mehtab-bagh",
+   "title": "Mehtab Bagh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mehtab_Bagh"
+  },
+  {
+   "id": "wiki-zohra-bagh",
+   "title": "Zohra Bagh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zohra_Bagh"
+  },
+  {
+   "id": "wiki-dara-shikoh",
+   "title": "Dara Shikoh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dara_Shikoh"
+  },
+  {
+   "id": "wiki-kinari-bazaar",
+   "title": "Kinari Bazaar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kinari_Bazaar"
+  },
+  {
+   "id": "wiki-taj-ganj",
+   "title": "Tajganj",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tajganj"
+  },
+  {
+   "id": "wiki-akbars-church",
+   "title": "Akbar's Church",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Akbar%27s_Church"
+  },
+  {
+   "id": "wiki-jaswant-chhatri",
+   "title": "Jaswant Singh's Chhatri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jaswant_Singh%27s_Chhatri"
+  },
+  {
+   "id": "wiki-ghat",
+   "title": "Ghat",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ghat"
+  },
+  {
+   "id": "wiki-haveli",
+   "title": "Haveli",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Haveli"
+  },
+  {
+   "id": "wiki-mubarak-manzil",
+   "title": "Mubarak Manzil",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mubarak_Manzil"
+  },
+  {
+   "id": "wiki-humayun-mosque-agra",
+   "title": "Humayun's Mosque, Agra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Humayun%27s_Mosque,_Agra"
+  },
+  {
+   "id": "wiki-agra-fort-station",
+   "title": "Agra Fort railway station",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Agra_Fort_railway_station"
+  },
+  {
+   "id": "wiki-mumtaz-mahal",
+   "title": "Mumtaz Mahal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumtaz_Mahal"
+  },
+  {
+   "id": "jahangirnama",
+   "title": "The Jahangirnama: Memoirs of Jahangir, Emperor of India",
+   "author": "Jahangir, trans. Wheeler M. Thackston",
+   "year": 1999,
+   "url": "https://en.wikipedia.org/wiki/Tuzk-e-Jahangiri"
+  },
+  {
+   "id": "manrique",
+   "title": "Travels of Fray Sebastien Manrique, 1629–1643",
+   "author": "Sebastien Manrique, trans. C. E. Luard",
+   "year": 1927,
+   "url": "https://en.wikipedia.org/wiki/Sebastien_Manrique"
+  },
+  {
+   "id": "ardhakathanak",
+   "title": "Ardhakathanak (Half a Tale): A Study in the Interrelationship between Autobiography and History",
+   "author": "Banarsidas, trans. Mukund Lath",
+   "year": 1981,
+   "note": "written in Agra, 1641",
+   "url": "https://en.wikipedia.org/wiki/Ardhakathanaka"
+  },
+  {
+   "id": "sarkar-fall",
+   "title": "Fall of the Mughal Empire",
+   "author": "Jadunath Sarkar",
+   "year": "1932–50"
+  },
+  {
+   "id": "sarkar-shivaji",
+   "title": "Shivaji and His Times",
+   "author": "Jadunath Sarkar",
+   "year": 1919,
+   "url": "https://en.wikipedia.org/wiki/Shivaji"
+  },
+  {
+   "id": "habib-agrarian",
+   "title": "The Agrarian System of Mughal India, 1556–1707",
+   "author": "Irfan Habib",
+   "year": 1963
+  },
+  {
+   "id": "wiki-sikandar-lodi",
+   "title": "Sikandar Lodi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sikandar_Lodi"
+  },
+  {
+   "id": "wiki-1505-earthquake",
+   "title": "1505 Lo Mustang earthquake",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1505_Lo_Mustang_earthquake"
+  },
+  {
+   "id": "wiki-babur",
+   "title": "Babur",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Babur"
+  },
+  {
+   "id": "wiki-koh-i-noor",
+   "title": "Koh-i-Noor",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Koh-i-Noor"
+  },
+  {
+   "id": "wiki-shah-jahan",
+   "title": "Shah Jahan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shah_Jahan"
+  },
+  {
+   "id": "wiki-shivaji",
+   "title": "Shivaji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shivaji"
+  },
+  {
+   "id": "wiki-suraj-mal",
+   "title": "Suraj Mal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Suraj_Mal"
+  },
+  {
+   "id": "wiki-mahadaji-shinde",
+   "title": "Mahadaji Shinde",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mahadaji_Shinde"
+  },
+  {
+   "id": "wiki-pietra-dura",
+   "title": "Pietra dura",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pietra_dura"
+  },
+  {
+   "id": "wiki-persian-wheel",
+   "title": "Sakia (Persian wheel)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sakia"
+  },
+  {
+   "id": "wiki-petha",
+   "title": "Petha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Petha"
+  },
+  {
+   "id": "wiki-hammam-agra",
+   "title": "Hammam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hammam"
+  }
+ ]
+}

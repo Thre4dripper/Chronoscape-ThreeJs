@@ -364,7 +364,9 @@
           "subtitle": "City of the Taj, 1650",
           "at": [78.01, 27.18],
           "glyph": "mughal",
-          "blurb": "The Agra Fort and the newly finished Taj Mahal, with riverside gardens along the Yamuna."
+          "blurb": "The Agra Fort and the newly finished Taj Mahal, with riverside gardens along the Yamuna.",
+          "city": "agra",
+          "period": "shahjahan-1650"
         },
         {
           "title": "Fatehpur Sikri",
