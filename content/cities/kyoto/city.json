@@ -1,0 +1,6690 @@
+{
+ "id": "kyoto",
+ "name": "Kyoto",
+ "subtitle": "Heian-kyō, the Capital of Peace and Tranquillity",
+ "description": "Kyoto from its founding as Heian-kyō in 794 to the Edo period: the eastern two-thirds of the old Chinese-style grid between the Kamo and the Katsura plain, and the temple slopes of Higashiyama across the Kamo. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "fujiwara-1000",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#E4D6BC",
+   "#D8C8A8",
+   "#CDBB98"
+  ],
+  "roofs": [
+   "#6C6A68",
+   "#7A6A58"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3282,
+    3772
+   ],
+   "distance": 40,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7021,
+   7212
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Kamo-gawa",
+    "path": [
+     [
+      4121,
+      0
+     ],
+     [
+      4304,
+      444
+     ],
+     [
+      4541,
+      865
+     ],
+     [
+      4687,
+      1109
+     ],
+     [
+      4678,
+      1664
+     ],
+     [
+      4659,
+      2219
+     ],
+     [
+      4678,
+      2774
+     ],
+     [
+      4723,
+      3329
+     ],
+     [
+      4732,
+      3883
+     ],
+     [
+      4668,
+      4438
+     ],
+     [
+      4577,
+      4849
+     ],
+     [
+      4532,
+      5215
+     ],
+     [
+      4513,
+      5658
+     ],
+     [
+      4468,
+      6213
+     ],
+     [
+      4395,
+      6657
+     ],
+     [
+      4322,
+      7212
+     ]
+    ],
+    "width": 80,
+    "id": "kamo",
+    "blurb": "The Duck River, the capital's eastern edge. Its wide gravel bed flooded so often that a court office existed only to manage its banks; the cloistered emperor Shirakawa named its waters, the dice and the warrior monks as the three things he could not control."
+   },
+   {
+    "name": "Takano-gawa",
+    "path": [
+     [
+      5380,
+      0
+     ],
+     [
+      5152,
+      388
+     ],
+     [
+      4905,
+      777
+     ],
+     [
+      4705,
+      1087
+     ]
+    ],
+    "width": 40,
+    "id": "takano",
+    "blurb": "The eastern branch, joining the Kamo at Tadasu-no-mori below the Shimogamo shrine."
+   },
+   {
+    "name": "Horikawa",
+    "path": [
+     [
+      2900,
+      0
+     ],
+     [
+      2927,
+      1109
+     ],
+     [
+      2936,
+      2219
+     ],
+     [
+      2936,
+      3329
+     ],
+     [
+      2936,
+      5547
+     ],
+     [
+      2954,
+      7212
+     ]
+    ],
+    "width": 12,
+    "id": "horikawa",
+    "blurb": "A canal dug down the middle of an avenue to carry timber and drain the east wards. In the Edo period lumber yards and dyers lined it; Nijō Castle's east wall stood just across the road."
+   },
+   {
+    "name": "Kamiya-gawa (Nishi-Horikawa)",
+    "path": [
+     [
+      1231,
+      0
+     ],
+     [
+      1167,
+      1109
+     ],
+     [
+      1167,
+      2774
+     ],
+     [
+      1185,
+      4438
+     ],
+     [
+      1222,
+      7212
+     ]
+    ],
+    "width": 10,
+    "id": "kamiya",
+    "blurb": "The western canal, flowing down past Kitano. Paper-makers re-pulped old documents in its water, hence the name 'paper-house river'."
+   },
+   {
+    "name": "Takase-gawa",
+    "path": [
+     [
+      4586,
+      3029
+     ],
+     [
+      4595,
+      3439
+     ],
+     [
+      4595,
+      4027
+     ],
+     [
+      4468,
+      4604
+     ],
+     [
+      4395,
+      4849
+     ],
+     [
+      4267,
+      5658
+     ],
+     [
+      4194,
+      6213
+     ],
+     [
+      4057,
+      7212
+     ]
+    ],
+    "width": 8,
+    "id": "takase",
+    "blurb": "A shallow canal dug in 1611–14 by the merchant Suminokura Ryōi to bring rice, sake and timber up from Fushimi in flat-bottomed boats hauled by men walking the bank.",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Funaoka-yama",
+    "center": [
+     2079,
+     244
+    ],
+    "radius": 170,
+    "label": true,
+    "id": "funaoka",
+    "blurb": "A low hill due north of the palace on the axis of Suzaku-ōji, said to have been the surveyors' mark for the city."
+   },
+   {
+    "name": "Yoshida-yama",
+    "center": [
+     6063,
+     1465
+    ],
+    "radius": 330,
+    "label": true,
+    "id": "yoshida",
+    "blurb": "A wooded hill east of the Kamo, home of the Yoshida shrine (founded 859)."
+   },
+   {
+    "name": "Awata-yama",
+    "center": [
+     6838,
+     2663
+    ],
+    "radius": 380,
+    "label": false,
+    "id": "awata",
+    "blurb": "The northern Higashiyama, above the Awataguchi road east to Ōtsu and the Tōkaidō."
+   },
+   {
+    "name": "Kachō-zan",
+    "center": [
+     6519,
+     3772
+    ],
+    "radius": 430,
+    "label": true,
+    "id": "kacho",
+    "blurb": "The hill behind Yasaka, Chion-in and Maruyama, part of the Higashiyama, the Eastern Hills."
+   },
+   {
+    "name": "Otowa-yama",
+    "center": [
+     6702,
+     4882
+    ],
+    "radius": 540,
+    "label": true,
+    "id": "otowa",
+    "blurb": "The hill of the Otowa falls, whose spring gave Kiyomizu-dera, 'pure water temple', its name."
+   },
+   {
+    "name": "Toribe-yama",
+    "center": [
+     6337,
+     5769
+    ],
+    "radius": 460,
+    "label": true,
+    "id": "toribe",
+    "blurb": "Toribeno, the slope where the capital cremated and abandoned its dead; for Heian poets the smoke over Toribeno was the image of impermanence."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Suzaku-ōji",
+    "path": [
+     [
+      2052,
+      2951
+     ],
+     [
+      2052,
+      6790
+     ]
+    ],
+    "width": 84,
+    "style": "major",
+    "labelled": true,
+    "id": "suzaku",
+    "blurb": "The 84 m central avenue from the Suzakumon to the Rashōmon, lined with willows and the earth walls of the wards. Nobody lived on it; by 1000 it was grazed by oxen and horses.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Ichijō-ōji",
+    "path": [
+     [
+      912,
+      1531
+     ],
+     [
+      4304,
+      1531
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": true,
+    "id": "ichijo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Tsuchimikado-ōji",
+    "path": [
+     [
+      2644,
+      1797
+     ],
+     [
+      4304,
+      1797
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": false,
+    "id": "tsuchimikado",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Konoe-ōji",
+    "path": [
+     [
+      2644,
+      2064
+     ],
+     [
+      4304,
+      2064
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": false,
+    "id": "konoe",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Nakamikado-ōji",
+    "path": [
+     [
+      2644,
+      2330
+     ],
+     [
+      4304,
+      2330
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": false,
+    "id": "nakamikado",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Ōimikado-ōji",
+    "path": [
+     [
+      2644,
+      2607
+     ],
+     [
+      4304,
+      2607
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": false,
+    "id": "oimikado",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Ōimikado-ōji (west)",
+    "path": [
+     [
+      0,
+      2607
+     ],
+     [
+      1459,
+      2607
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": false,
+    "id": "oimikado-w",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Nijō-ōji",
+    "path": [
+     [
+      0,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ]
+    ],
+    "width": 51,
+    "style": "minor",
+    "labelled": true,
+    "id": "nijo",
+    "blurb": "At 51 m the widest cross-avenue, running along the palace's south wall in front of the Suzakumon.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Sanjō-ōji",
+    "path": [
+     [
+      0,
+      3495
+     ],
+     [
+      4304,
+      3495
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "sanjo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Shijō-ōji",
+    "path": [
+     [
+      0,
+      4050
+     ],
+     [
+      4304,
+      4050
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "shijo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Gojō-ōji",
+    "path": [
+     [
+      0,
+      4604
+     ],
+     [
+      4304,
+      4604
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "gojo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Rokujō-ōji",
+    "path": [
+     [
+      0,
+      5159
+     ],
+     [
+      4304,
+      5159
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "rokujo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Shichijō-ōji",
+    "path": [
+     [
+      0,
+      5714
+     ],
+     [
+      4304,
+      5714
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "shichijo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Hachijō-ōji",
+    "path": [
+     [
+      0,
+      6269
+     ],
+     [
+      4304,
+      6269
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "hachijo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Kujō-ōji",
+    "path": [
+     [
+      0,
+      6823
+     ],
+     [
+      4304,
+      6823
+     ]
+    ],
+    "width": 29,
+    "style": "minor",
+    "labelled": true,
+    "id": "kujo",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Ōmiya-ōji",
+    "path": [
+     [
+      2644,
+      1531
+     ],
+     [
+      2644,
+      6823
+     ]
+    ],
+    "width": 36,
+    "style": "minor",
+    "labelled": true,
+    "id": "omiya",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Nishi-Ōmiya-ōji",
+    "path": [
+     [
+      1459,
+      1531
+     ],
+     [
+      1459,
+      6823
+     ]
+    ],
+    "width": 36,
+    "style": "minor",
+    "labelled": false,
+    "id": "nishi-omiya",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Mibu-ōji",
+    "path": [
+     [
+      2352,
+      2962
+     ],
+     [
+      2352,
+      6823
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": false,
+    "id": "mibu",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Nishi-no-tōin-ōji",
+    "path": [
+     [
+      3246,
+      1531
+     ],
+     [
+      3246,
+      6823
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "nishinotoin",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Higashi-no-tōin-ōji",
+    "path": [
+     [
+      3811,
+      1531
+     ],
+     [
+      3811,
+      6823
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "higashinotoin",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Higashi-Kyōgoku-ōji",
+    "path": [
+     [
+      4304,
+      1531
+     ],
+     [
+      4304,
+      6823
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": true,
+    "id": "kyogoku",
+    "blurb": "The city's eastern edge avenue. Beyond it lay the Kamo flood plain, where Michinaga built Hōjō-ji in the 1020s.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Toba no tsukurimichi",
+    "path": [
+     [
+      2052,
+      6823
+     ],
+     [
+      2115,
+      7212
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": false,
+    "id": "toba",
+    "blurb": "The 'built road' south from the Rashōmon to the river port of Toba, where goods from the provinces landed.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Awataguchi road",
+    "path": [
+     [
+      4304,
+      3495
+     ],
+     [
+      5106,
+      3439
+     ],
+     [
+      5744,
+      3351
+     ],
+     [
+      6383,
+      3273
+     ],
+     [
+      7021,
+      3218
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "awata-road",
+    "blurb": "The road east over the hills to Ōtsu and the provinces of the east.",
+    "periods": [
+     "fujiwara-1000",
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Kiyomizu road",
+    "path": [
+     [
+      4304,
+      4604
+     ],
+     [
+      5106,
+      4604
+     ],
+     [
+      5471,
+      4715
+     ],
+     [
+      5744,
+      4904
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "kiyomizu-michi",
+    "blurb": "The pilgrims' road from Gojō over the Kamo to Kiyomizu-dera.",
+    "periods": [
+     "fujiwara-1000",
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Imadegawa",
+    "path": [
+     [
+      1824,
+      1165
+     ],
+     [
+      4559,
+      1165
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "imadegawa-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Ichijō",
+    "path": [
+     [
+      1368,
+      1531
+     ],
+     [
+      4304,
+      1531
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "ichijo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Nijō",
+    "path": [
+     [
+      2644,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "nijo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Sanjō",
+    "path": [
+     [
+      1641,
+      3495
+     ],
+     [
+      4304,
+      3495
+     ],
+     [
+      4605,
+      3495
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "sanjo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Shijō",
+    "path": [
+     [
+      2644,
+      4050
+     ],
+     [
+      4632,
+      4050
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "shijo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Gojō",
+    "path": [
+     [
+      2644,
+      4604
+     ],
+     [
+      4513,
+      4604
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "gojo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Shichijō",
+    "path": [
+     [
+      1641,
+      5714
+     ],
+     [
+      4304,
+      5714
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "shichijo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Kujō",
+    "path": [
+     [
+      1641,
+      6823
+     ],
+     [
+      3647,
+      6823
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "kujo-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Muromachi-kōji",
+    "path": [
+     [
+      3392,
+      777
+     ],
+     [
+      3392,
+      4604
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "muromachi-1400",
+    "blurb": "The spine joining Kamigyō and Shimogyō, with the shogun's Flower Palace at its north end; it gave the shogunate and the age their name.",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Karasuma-kōji",
+    "path": [
+     [
+      3574,
+      1165
+     ],
+     [
+      3574,
+      5714
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "karasuma-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Ōmiya",
+    "path": [
+     [
+      2644,
+      777
+     ],
+     [
+      2644,
+      6823
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "omiya-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Horikawa",
+    "path": [
+     [
+      3009,
+      777
+     ],
+     [
+      3009,
+      6823
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "horikawa-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Kyōgoku",
+    "path": [
+     [
+      4304,
+      1109
+     ],
+     [
+      4304,
+      5714
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "kyogoku-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Suzaku track",
+    "path": [
+     [
+      2052,
+      2962
+     ],
+     [
+      2052,
+      6823
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "suzaku-1400",
+    "blurb": "What was left of the great Suzaku-ōji: a cart track between fields called Suzaku-no, 'Suzaku moor'.",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Gion road",
+    "path": [
+     [
+      4796,
+      4050
+     ],
+     [
+      5243,
+      4039
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "gion-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Fushimi road",
+    "path": [
+     [
+      4668,
+      4604
+     ],
+     [
+      4632,
+      5547
+     ],
+     [
+      4696,
+      6657
+     ],
+     [
+      4741,
+      7212
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "fushimi-1400",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Imadegawa-dōri",
+    "path": [
+     [
+      1459,
+      1165
+     ],
+     [
+      4559,
+      1165
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "imadegawa",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Marutamachi-dōri",
+    "path": [
+     [
+      1824,
+      2607
+     ],
+     [
+      4559,
+      2607
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "marutamachi",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Nijō-dōri",
+    "path": [
+     [
+      3009,
+      2962
+     ],
+     [
+      4559,
+      2962
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "nijo-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Sanjō-dōri",
+    "path": [
+     [
+      1641,
+      3495
+     ],
+     [
+      4103,
+      3462
+     ],
+     [
+      4559,
+      3428
+     ],
+     [
+      4924,
+      3417
+     ],
+     [
+      5744,
+      3351
+     ],
+     [
+      6383,
+      3273
+     ],
+     [
+      7021,
+      3218
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "sanjo-1750",
+    "blurb": "The last stretch of the Tōkaidō from Edo: travellers came down from Keage and over the Sanjō bridge into the city, where the inns clustered.",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Shijō-dōri",
+    "path": [
+     [
+      1641,
+      4050
+     ],
+     [
+      4577,
+      4050
+     ],
+     [
+      4924,
+      4050
+     ],
+     [
+      5243,
+      4039
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "shijo-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Gojō-dōri",
+    "path": [
+     [
+      1824,
+      4849
+     ],
+     [
+      4468,
+      4849
+     ],
+     [
+      4924,
+      4849
+     ],
+     [
+      5744,
+      4904
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "gojo-1750",
+    "blurb": "Hideyoshi's Gojō: the old Rokujō-bōmon street, made the Gojō road when he moved the bridge here in 1589 to serve his Great Buddha.",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Matsubara-dōri",
+    "path": [
+     [
+      2553,
+      4604
+     ],
+     [
+      4468,
+      4604
+     ],
+     [
+      4969,
+      4604
+     ],
+     [
+      5380,
+      4660
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "matsubara-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Shichijō-dōri",
+    "path": [
+     [
+      1824,
+      5714
+     ],
+     [
+      4559,
+      5714
+     ],
+     [
+      4924,
+      5625
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "shichijo-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Senbon-dōri",
+    "path": [
+     [
+      2052,
+      444
+     ],
+     [
+      2052,
+      6823
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "senbon-1750",
+    "blurb": "A lane on the line of the old Suzaku-ōji, named for the thousand stupas (senbon) set up at the cremation ground of Rendaino to the north.",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Horikawa-dōri",
+    "path": [
+     [
+      3009,
+      444
+     ],
+     [
+      3009,
+      6823
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "horikawa-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Karasuma-dōri",
+    "path": [
+     [
+      3574,
+      777
+     ],
+     [
+      3574,
+      6823
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "karasuma-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Muromachi-dōri",
+    "path": [
+     [
+      3392,
+      777
+     ],
+     [
+      3392,
+      4849
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "muromachi-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Teramachi-dōri",
+    "path": [
+     [
+      4304,
+      999
+     ],
+     [
+      4304,
+      4849
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "teramachi",
+    "blurb": "Hideyoshi gathered some eighty temples along the old Kyōgoku line in 1590, a 'temple town' on the city's east side.",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Ōmiya-dōri",
+    "path": [
+     [
+      2644,
+      3495
+     ],
+     [
+      2644,
+      6823
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "omiya-1750",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Yamato-ōji",
+    "path": [
+     [
+      4924,
+      3417
+     ],
+     [
+      4942,
+      4050
+     ],
+     [
+      4878,
+      4849
+     ],
+     [
+      4650,
+      5215
+     ],
+     [
+      4632,
+      6102
+     ],
+     [
+      4668,
+      7212
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "yamato-oji",
+    "blurb": "The road south along the east bank to Fushimi and Nara.",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Gojō-zaka and Kiyomizu-zaka",
+    "path": [
+     [
+      4924,
+      4849
+     ],
+     [
+      5380,
+      4882
+     ],
+     [
+      5726,
+      4937
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "kiyomizu-zaka",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Sannen-zaka",
+    "path": [
+     [
+      5516,
+      4327
+     ],
+     [
+      5489,
+      4604
+     ],
+     [
+      5708,
+      4860
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sannei-zaka",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Wall of the Daidairi",
+    "path": [
+     [
+      1486,
+      1564
+     ],
+     [
+      2617,
+      1564
+     ],
+     [
+      2617,
+      2929
+     ],
+     [
+      1486,
+      2929
+     ]
+    ],
+    "closed": true,
+    "id": "daidairi-wall",
+    "blurb": "The tiled earth wall of the Greater Palace, about 1.2 by 1.4 km, pierced by fourteen gates. Inside: the State Halls, the emperor's residence, and the offices of the eight ministries.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Rajō (south wall)",
+    "path": [
+     [
+      1641,
+      6857
+     ],
+     [
+      2462,
+      6857
+     ]
+    ],
+    "closed": false,
+    "id": "rajo",
+    "blurb": "Heian-kyō had no real city wall: only a short earth wall and ditch flanked the Rashōmon, for show.",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "name": "Odoi rampart",
+    "path": [
+     [
+      1532,
+      0
+     ],
+     [
+      1477,
+      1109
+     ],
+     [
+      1349,
+      2219
+     ],
+     [
+      1386,
+      3329
+     ],
+     [
+      1596,
+      4438
+     ],
+     [
+      1732,
+      5547
+     ],
+     [
+      2052,
+      6657
+     ],
+     [
+      2918,
+      6823
+     ],
+     [
+      3647,
+      6768
+     ],
+     [
+      4194,
+      6602
+     ],
+     [
+      4377,
+      5769
+     ],
+     [
+      4468,
+      4882
+     ],
+     [
+      4559,
+      3550
+     ],
+     [
+      4541,
+      2219
+     ],
+     [
+      4559,
+      1109
+     ],
+     [
+      4012,
+      0
+     ]
+    ],
+    "closed": false,
+    "id": "odoi",
+    "blurb": "Hideyoshi's earth rampart and moat of 1591, 22.5 km round, enclosing the city as 'Rakuchū'. By 1750 long stretches had been levelled or planted with bamboo; the seven entrances (nanakuchi) kept their names.",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Suzakumon",
+    "position": [
+     2052,
+     2918
+    ],
+    "id": "suzakumon-g",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Yōmeimon",
+    "position": [
+     2617,
+     2064
+    ],
+    "id": "yomeimon",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Taikenmon",
+    "position": [
+     2617,
+     2607
+    ],
+    "id": "taikenmon",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Ikanmon",
+    "position": [
+     2617,
+     2474
+    ],
+    "id": "ikanmon",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "name": "Awataguchi",
+    "position": [
+     4969,
+     3417
+    ],
+    "id": "awataguchi",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Ōharaguchi",
+    "position": [
+     4559,
+     1109
+    ],
+    "id": "oharaguchi",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Tanbaguchi",
+    "position": [
+     1732,
+     5658
+    ],
+    "id": "tanbaguchi",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Tōjiguchi",
+    "position": [
+     2918,
+     6812
+    ],
+    "id": "tojiguchi",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Gojō bridge",
+    "path": [
+     [
+      4559,
+      4604
+     ],
+     [
+      4760,
+      4604
+     ]
+    ],
+    "build": "timber",
+    "arches": 6,
+    "id": "gojo-1400-bridge",
+    "blurb": "The Kiyomizu pilgrims' bridge at the old Gojō, rebuilt by subscription (kanjin) monks; in legend Benkei met the boy Yoshitsune here.",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Shijō bridge (Gion bridge)",
+    "path": [
+     [
+      4632,
+      4050
+     ],
+     [
+      4833,
+      4050
+     ]
+    ],
+    "build": "timber",
+    "arches": 6,
+    "id": "shijo-1400-bridge",
+    "blurb": "A timber bridge kept up by the Gion shrine's subscriptions, carrying the festival across the Kamo.",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "name": "Sanjō Ōhashi",
+    "path": [
+     [
+      4623,
+      3428
+     ],
+     [
+      4833,
+      3417
+     ]
+    ],
+    "build": "timber",
+    "arches": 8,
+    "id": "sanjo-ohashi",
+    "blurb": "The bridge at the end of the Tōkaidō, on stone piers since 1590.",
+    "landmarkId": "sanjo-bridge",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Gojō Ōhashi",
+    "path": [
+     [
+      4468,
+      4849
+     ],
+     [
+      4687,
+      4849
+     ]
+    ],
+    "build": "timber",
+    "arches": 8,
+    "id": "gojo-ohashi",
+    "blurb": "Hideyoshi's Gojō bridge of 1589, leading to the Great Buddha of Hōkō-ji.",
+    "landmarkId": "gojo-bridge",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "name": "Shijō bridge",
+    "path": [
+     [
+      4623,
+      4050
+     ],
+     [
+      4842,
+      4050
+     ]
+    ],
+    "build": "timber",
+    "arches": 6,
+    "id": "shijo-1750-bridge",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2644,
+      1531
+     ],
+     [
+      4304,
+      1531
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      2644,
+      2962
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, north wards",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2052,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      4304,
+      4050
+     ],
+     [
+      2052,
+      4050
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, Nijō to Shijō",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2052,
+      4050
+     ],
+     [
+      4304,
+      4050
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      2052,
+      5714
+     ]
+    ],
+    "density": "loose",
+    "name": "Sakyō, Shijō to Shichijō",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2052,
+      5714
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      4304,
+      6823
+     ],
+     [
+      2052,
+      6823
+     ]
+    ],
+    "density": "loose",
+    "name": "Sakyō, south wards",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      2962
+     ],
+     [
+      2052,
+      2962
+     ],
+     [
+      2052,
+      4050
+     ],
+     [
+      0,
+      4050
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, Nijō to Shijō",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      4050
+     ],
+     [
+      2052,
+      4050
+     ],
+     [
+      2052,
+      6823
+     ],
+     [
+      0,
+      6823
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, south wards",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      1531
+     ],
+     [
+      1459,
+      1531
+     ],
+     [
+      1459,
+      2962
+     ],
+     [
+      0,
+      2962
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, north wards",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1504,
+      1587
+     ],
+     [
+      2599,
+      1587
+     ],
+     [
+      2599,
+      2907
+     ],
+     [
+      1504,
+      2907
+     ]
+    ],
+    "density": "loose",
+    "name": "Offices of the eight ministries",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4969,
+      4272
+     ],
+     [
+      5608,
+      4272
+     ],
+     [
+      5608,
+      4826
+     ],
+     [
+      4969,
+      4826
+     ]
+    ],
+    "density": "loose",
+    "name": "Yasaka village",
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2644,
+      1531
+     ],
+     [
+      4304,
+      1531
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      2644,
+      2962
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, Ichijō to Nijō",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2052,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      4304,
+      4604
+     ],
+     [
+      2052,
+      4604
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, Nijō to Gojō",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2052,
+      4604
+     ],
+     [
+      4304,
+      4604
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      2052,
+      5714
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, Gojō to Shichijō",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2052,
+      5714
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      4304,
+      6823
+     ],
+     [
+      2052,
+      6823
+     ]
+    ],
+    "density": "loose",
+    "name": "Sakyō, south wards",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4340,
+      1531
+     ],
+     [
+      4513,
+      1531
+     ],
+     [
+      4513,
+      4604
+     ],
+     [
+      4340,
+      4604
+     ]
+    ],
+    "density": "loose",
+    "name": "Beyond Kyōgoku",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      1531
+     ],
+     [
+      1459,
+      1531
+     ],
+     [
+      1459,
+      2962
+     ],
+     [
+      0,
+      2962
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, north",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      857,
+      2962
+     ],
+     [
+      2052,
+      2962
+     ],
+     [
+      2052,
+      4604
+     ],
+     [
+      857,
+      4604
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, Nijō to Gojō",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      857,
+      5159
+     ],
+     [
+      2052,
+      5159
+     ],
+     [
+      2052,
+      6823
+     ],
+     [
+      857,
+      6823
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, Shichijō and the market",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4878,
+      3772
+     ],
+     [
+      5471,
+      3772
+     ],
+     [
+      5471,
+      4715
+     ],
+     [
+      4878,
+      4715
+     ]
+    ],
+    "density": "loose",
+    "name": "Gion and Yasaka",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4696,
+      4715
+     ],
+     [
+      5243,
+      4715
+     ],
+     [
+      5243,
+      5381
+     ],
+     [
+      4696,
+      5381
+     ]
+    ],
+    "density": "loose",
+    "name": "Rokuhara",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5471,
+      4604
+     ],
+     [
+      5763,
+      4604
+     ],
+     [
+      5763,
+      4860
+     ],
+     [
+      5471,
+      4860
+     ]
+    ],
+    "density": "loose",
+    "name": "Kiyomizu-zaka",
+    "periods": [
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2006,
+      610
+     ],
+     [
+      3419,
+      610
+     ],
+     [
+      3419,
+      1165
+     ],
+     [
+      2006,
+      1165
+     ]
+    ],
+    "density": "dense",
+    "name": "Kamigyō, north of Imadegawa",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2644,
+      1165
+     ],
+     [
+      4304,
+      1165
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      2644,
+      2962
+     ]
+    ],
+    "density": "dense",
+    "name": "Kamigyō",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1277,
+      888
+     ],
+     [
+      1915,
+      888
+     ],
+     [
+      1915,
+      1442
+     ],
+     [
+      1277,
+      1442
+     ]
+    ],
+    "density": "loose",
+    "name": "Kitano gate town",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2936,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      4304,
+      3495
+     ],
+     [
+      2936,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "Between the two towns",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2936,
+      3495
+     ],
+     [
+      4322,
+      3495
+     ],
+     [
+      4322,
+      4604
+     ],
+     [
+      2936,
+      4604
+     ]
+    ],
+    "density": "dense",
+    "name": "Shimogyō",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2936,
+      4604
+     ],
+     [
+      4304,
+      4604
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      2936,
+      5714
+     ]
+    ],
+    "density": "loose",
+    "name": "Shimogyō, south",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2352,
+      2962
+     ],
+     [
+      2936,
+      2962
+     ],
+     [
+      2936,
+      5714
+     ],
+     [
+      2352,
+      5714
+     ]
+    ],
+    "density": "loose",
+    "name": "Mibu and Ōmiya farms",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2352,
+      5714
+     ],
+     [
+      3246,
+      5714
+     ],
+     [
+      3246,
+      6413
+     ],
+     [
+      2352,
+      6413
+     ]
+    ],
+    "density": "loose",
+    "name": "Tō-ji gate town",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4833,
+      3828
+     ],
+     [
+      5380,
+      3828
+     ],
+     [
+      5380,
+      4438
+     ],
+     [
+      4833,
+      4438
+     ]
+    ],
+    "density": "dense",
+    "name": "Gion gate town",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5453,
+      4604
+     ],
+     [
+      5763,
+      4604
+     ],
+     [
+      5763,
+      4860
+     ],
+     [
+      5453,
+      4860
+     ]
+    ],
+    "density": "dense",
+    "name": "Kiyomizu-zaka",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4668,
+      4715
+     ],
+     [
+      5243,
+      4715
+     ],
+     [
+      5243,
+      5381
+     ],
+     [
+      4668,
+      5381
+     ]
+    ],
+    "density": "loose",
+    "name": "Rokuhara",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1687,
+      610
+     ],
+     [
+      2644,
+      610
+     ],
+     [
+      2644,
+      1775
+     ],
+     [
+      1687,
+      1775
+     ]
+    ],
+    "density": "dense",
+    "name": "Nishijin",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2644,
+      444
+     ],
+     [
+      4559,
+      444
+     ],
+     [
+      4559,
+      1165
+     ],
+     [
+      2644,
+      1165
+     ]
+    ],
+    "density": "dense",
+    "name": "Kamigyō, north",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2644,
+      1165
+     ],
+     [
+      4304,
+      1165
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      2644,
+      2962
+     ]
+    ],
+    "density": "dense",
+    "name": "Kamigyō",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4331,
+      1331
+     ],
+     [
+      4541,
+      1331
+     ],
+     [
+      4541,
+      4826
+     ],
+     [
+      4331,
+      4826
+     ]
+    ],
+    "density": "dense",
+    "name": "Teramachi and Kawaramachi",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2553,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      4304,
+      4050
+     ],
+     [
+      2553,
+      4050
+     ]
+    ],
+    "density": "dense",
+    "name": "Central wards",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2644,
+      4050
+     ],
+     [
+      4304,
+      4050
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      2644,
+      5714
+     ]
+    ],
+    "density": "dense",
+    "name": "Shimogyō",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2644,
+      5714
+     ],
+     [
+      4194,
+      5714
+     ],
+     [
+      4194,
+      6546
+     ],
+     [
+      2644,
+      6546
+     ]
+    ],
+    "density": "loose",
+    "name": "Shimogyō, south",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1687,
+      1775
+     ],
+     [
+      2553,
+      1775
+     ],
+     [
+      2553,
+      5714
+     ],
+     [
+      1687,
+      5714
+     ]
+    ],
+    "density": "loose",
+    "name": "Senbon and Mibu",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1778,
+      5714
+     ],
+     [
+      2644,
+      5714
+     ],
+     [
+      2644,
+      6435
+     ],
+     [
+      1778,
+      6435
+     ]
+    ],
+    "density": "loose",
+    "name": "Shimabara and the west",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4814,
+      3495
+     ],
+     [
+      5516,
+      3495
+     ],
+     [
+      5516,
+      4460
+     ],
+     [
+      4814,
+      4460
+     ]
+    ],
+    "density": "dense",
+    "name": "Gion",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4723,
+      4460
+     ],
+     [
+      5835,
+      4460
+     ],
+     [
+      5835,
+      5104
+     ],
+     [
+      4723,
+      5104
+     ]
+    ],
+    "density": "dense",
+    "name": "Higashiyama slopes",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4833,
+      3051
+     ],
+     [
+      6018,
+      3051
+     ],
+     [
+      6018,
+      3495
+     ],
+     [
+      4833,
+      3495
+     ]
+    ],
+    "density": "dense",
+    "name": "Awataguchi",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4833,
+      1886
+     ],
+     [
+      5927,
+      1886
+     ],
+     [
+      5927,
+      3051
+     ],
+     [
+      4833,
+      3051
+     ]
+    ],
+    "density": "loose",
+    "name": "Okazaki villages",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4605,
+      5104
+     ],
+     [
+      5380,
+      5104
+     ],
+     [
+      5380,
+      6102
+     ],
+     [
+      4605,
+      6102
+     ]
+    ],
+    "density": "loose",
+    "name": "Shichijō east",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      912,
+      444
+     ],
+     [
+      1641,
+      444
+     ],
+     [
+      1641,
+      1109
+     ],
+     [
+      912,
+      1109
+     ]
+    ],
+    "kind": "park",
+    "name": "Imperial pastures",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      912,
+      3018
+     ],
+     [
+      2316,
+      3018
+     ],
+     [
+      2316,
+      3994
+     ],
+     [
+      912,
+      3994
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of Suzaku-no",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1094,
+      4105
+     ],
+     [
+      2298,
+      4105
+     ],
+     [
+      2298,
+      6768
+     ],
+     [
+      1094,
+      6768
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Ukyō fields",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5471,
+      3772
+     ],
+     [
+      5835,
+      3772
+     ],
+     [
+      5835,
+      3994
+     ],
+     [
+      5471,
+      3994
+     ]
+    ],
+    "kind": "park",
+    "name": "Maruyama",
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4924,
+      1886
+     ],
+     [
+      5653,
+      1886
+     ],
+     [
+      5653,
+      2663
+     ],
+     [
+      4924,
+      2663
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Shōgoin radish fields",
+    "periods": [
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3191,
+      6546
+     ],
+     [
+      4012,
+      6546
+     ],
+     [
+      4012,
+      7101
+     ],
+     [
+      3191,
+      7101
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Kujō leek fields",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      0,
+      4882
+     ],
+     [
+      821,
+      4882
+     ],
+     [
+      1003,
+      5769
+     ],
+     [
+      821,
+      6324
+     ],
+     [
+      0,
+      6324
+     ]
+    ],
+    "name": "Ukyō marsh",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000",
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      365,
+      3550
+     ],
+     [
+      1003,
+      3661
+     ],
+     [
+      1049,
+      4327
+     ],
+     [
+      456,
+      4438
+     ]
+    ],
+    "name": "Wet fields by the Kamiya",
+    "periods": [
+     "fujiwara-1000",
+     "ashikaga-1400"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "daidairi",
+    "name": "Daidairi (Greater Palace)",
+    "polygon": [
+     [
+      1459,
+      1531
+     ],
+     [
+      2644,
+      1531
+     ],
+     [
+      2644,
+      2962
+     ],
+     [
+      1459,
+      2962
+     ]
+    ],
+    "description": "The walled precinct of the state: the State Halls (Chōdō-in) with the Daigokuden, the Hall of Abundant Pleasures (Burakuin), the emperor's residence (Dairi) and dozens of ministry compounds. Abandoned after the fires of 1177 and 1227; its site became the fields of Uchino.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "id": "sakyo",
+    "name": "Sakyō (Left Capital)",
+    "polygon": [
+     [
+      2052,
+      2962
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      4304,
+      6823
+     ],
+     [
+      2052,
+      6823
+     ]
+    ],
+    "description": "The eastern half, 'left' as the emperor looks south. Higher and drier, it became the real city, where nobles built their mansions and the East Market thrived.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "id": "ukyo",
+    "name": "Ukyō (Right Capital)",
+    "polygon": [
+     [
+      0,
+      2962
+     ],
+     [
+      2052,
+      2962
+     ],
+     [
+      2052,
+      6823
+     ],
+     [
+      0,
+      6823
+     ]
+    ],
+    "description": "The western half, low and marshy toward the Katsura. Settled slowly and abandoned early: by 982 it was 'almost a wilderness'.",
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "id": "kamigyo",
+    "name": "Kamigyō (Upper Town)",
+    "polygon": [
+     [
+      2644,
+      610
+     ],
+     [
+      4304,
+      610
+     ],
+     [
+      4304,
+      2962
+     ],
+     [
+      2644,
+      2962
+     ]
+    ],
+    "description": "The northern town of courtiers, the shogun's palace, Zen monasteries and, after the Ōnin War, the Nishijin weavers.",
+    "periods": [
+     "ashikaga-1400",
+     "edo-1750"
+    ]
+   },
+   {
+    "id": "shimogyo",
+    "name": "Shimogyō (Lower Town)",
+    "polygon": [
+     [
+      2936,
+      3495
+     ],
+     [
+      4304,
+      3495
+     ],
+     [
+      4304,
+      5714
+     ],
+     [
+      2936,
+      5714
+     ]
+    ],
+    "description": "The merchants' town around Shijō and Muromachi: sake brewers, moneylenders, cloth dealers, and the neighbourhoods that build the Gion floats.",
+    "periods": [
+     "ashikaga-1400",
+     "edo-1750"
+    ]
+   },
+   {
+    "id": "gion",
+    "name": "Gion",
+    "polygon": [
+     [
+      4787,
+      3550
+     ],
+     [
+      5471,
+      3550
+     ],
+     [
+      5471,
+      4460
+     ],
+     [
+      4787,
+      4460
+     ]
+    ],
+    "description": "The gate town of the Gion shrine. In the Edo period its teahouses (chaya) made it the city's pleasure quarter, licensed in 1712.",
+    "periods": [
+     "fujiwara-1000",
+     "ashikaga-1400",
+     "edo-1750"
+    ]
+   },
+   {
+    "id": "nishijin",
+    "name": "Nishijin",
+    "polygon": [
+     [
+      1687,
+      610
+     ],
+     [
+      2644,
+      610
+     ],
+     [
+      2644,
+      1775
+     ],
+     [
+      1687,
+      1775
+     ]
+    ],
+    "description": "'West Camp': named for the Western Army's headquarters in the Ōnin War, then home of the silk weavers who returned after it. Several thousand looms in the eighteenth century.",
+    "periods": [
+     "edo-1750"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Kamo-gawa",
+    "position": [
+     4814,
+     2330
+    ],
+    "size": "md",
+    "rotation": -88
+   },
+   {
+    "text": "Higashiyama",
+    "position": [
+     6428,
+     4216
+    ],
+    "size": "lg",
+    "rotation": -80
+   },
+   {
+    "text": "Heian-kyō",
+    "position": [
+     2279,
+     5492
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "heian-800"
+    ]
+   },
+   {
+    "text": "Sakyō",
+    "position": [
+     3647,
+     4882
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "text": "Ukyō",
+    "position": [
+     729,
+     4882
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "text": "Daidairi",
+    "position": [
+     1778,
+     1664
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "heian-800",
+     "fujiwara-1000"
+    ]
+   },
+   {
+    "text": "Kamigyō",
+    "position": [
+     3009,
+     1886
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ashikaga-1400",
+     "edo-1750"
+    ]
+   },
+   {
+    "text": "Shimogyō",
+    "position": [
+     3830,
+     4327
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ashikaga-1400",
+     "edo-1750"
+    ]
+   },
+   {
+    "text": "Nishijin",
+    "position": [
+     2097,
+     1109
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "text": "Gion",
+    "position": [
+     5106,
+     3883
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "fujiwara-1000",
+     "ashikaga-1400",
+     "edo-1750"
+    ]
+   },
+   {
+    "text": "Rakuchū",
+    "position": [
+     3647,
+     3218
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "edo-1750"
+    ]
+   },
+   {
+    "text": "Rokuhara",
+    "position": [
+     4969,
+     5048
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "fujiwara-1000",
+     "ashikaga-1400"
+    ]
+   },
+   {
+    "text": "Suzaku-no (fields)",
+    "position": [
+     1687,
+     3828
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ashikaga-1400"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D8B4",
+   "ink": "#5E4636",
+   "water": "#6A8C8E",
+   "hill": "#76805C",
+   "road": "#8A6E50"
+  },
+  "compass": [
+   6656,
+   333
+  ],
+  "cartouche": [
+   5152,
+   7045
+  ]
+ },
+ "periods": [
+  {
+   "id": "heian-800",
+   "label": "Heian-kyō founded",
+   "year": 800,
+   "startYear": 794,
+   "endYear": 900,
+   "summary": "Emperor Kanmu's new capital, laid out from 794 on the model of Tang Chang'an: a walled-ward grid 4.5 by 5.2 km, the 84 m Suzaku-ōji running from the Rashōmon to the Greater Palace. State halls are red-pillared, white-walled and tiled; houses are timber with bark or board roofs. Two official temples, Tō-ji and Sai-ji, guard the south gate.",
+   "population": "perhaps 100,000 (estimates vary widely)",
+   "feel": "Raw earth walls along half-empty avenues, oxcarts creaking on gravel, new-cut cypress, and frogs in the paddies inside the wards.",
+   "style": "sinic",
+   "houses": {
+    "title": "Walled wards of the new capital",
+    "text": "Each ward (bō) of sixteen 120 m blocks (chō) is ringed by earth walls. A high noble holds a whole chō: halls on posts joined by roofed corridors round a pond. A commoner's lot is a thirty-second of a chō: a plank house with a board roof on the street."
+   },
+   "outskirts": {
+    "title": "Fields inside the grid",
+    "text": "Much of the grid is still paddy and vegetable plot. The west half, low and wet, fills slowly; its wards are farmland with a few houses behind brushwood fences."
+   }
+  },
+  {
+   "id": "fujiwara-1000",
+   "label": "Heian-kyō of the Fujiwara",
+   "year": 1000,
+   "startYear": 901,
+   "endYear": 1185,
+   "summary": "The age of Michinaga, Murasaki Shikibu and Sei Shōnagon. Power lies in the regents' mansions, not the palace, which burns again and again while emperors live in town houses. The west half (Ukyō) is emptying; the east (Sakyō) crowds and spills past Kyōgoku toward the Kamo. Halls of unpainted cypress with bark roofs; temples red-pillared and tiled.",
+   "population": "perhaps 100,000–150,000",
+   "feel": "Incense and plum blossom behind tall earth walls; outside, ox dung, beggars at temple gates, and at night the twang of the guards' bowstrings warding off spirits.",
+   "style": "sinic",
+   "houses": {
+    "title": "Shinden mansions and street houses",
+    "text": "In the east wards a great noble's mansion fills a block: a south-facing main hall (shinden) joined by roofed corridors to side halls, a pond with an island, a fishing pavilion. Between them commoners' row houses of planks, their board roofs weighted with stones, line the streets."
+   },
+   "outskirts": {
+    "title": "The deserted west",
+    "text": "West of Suzaku, Yasutane wrote in 982, houses fall down and people leave but no one comes. Abandoned wards turn into paddy and reed marsh; a few great houses survive among them."
+   }
+  },
+  {
+   "id": "ashikaga-1400",
+   "label": "Muromachi Kyoto",
+   "year": 1400,
+   "startYear": 1336,
+   "endYear": 1573,
+   "summary": "The Ashikaga shoguns rule from Kyoto. Yoshimitsu's Flower Palace and his monastery Shōkoku-ji, with a seven-storey pagoda finished in 1399, rise in the north. The old grid has shrunk to two towns, Kamigyō of courtiers and warriors and Shimogyō of merchants, joined by Muromachi-dōri. Sake brewers who lend money are the richest men in town.",
+   "population": "perhaps 100,000–200,000",
+   "feel": "Looms clacking, the sour steam of sake breweries, bells from the Zen monasteries, and in summer the gongs and flutes of the Gion floats.",
+   "style": "japanese",
+   "houses": {
+    "title": "Machiya of Kamigyō and Shimogyō",
+    "text": "Narrow houses of timber and clay, shingle roofs held down by stones, a shop in front and an earth-floored passage to a yard and storehouse. The houses on both sides of a street form a chō, which keeps its own gates and, in Shimogyō, its own Gion float."
+   },
+   "outskirts": {
+    "title": "Fields of the old capital",
+    "text": "Most of the west of the Heian grid is paddy and villages; the old avenues survive as cart tracks and field banks. Temples and their gate towns stand on their own across the Kamo."
+   }
+  },
+  {
+   "id": "edo-1750",
+   "label": "Edo-period Kyoto",
+   "year": 1750,
+   "startYear": 1583,
+   "endYear": 1867,
+   "summary": "Rebuilt by Hideyoshi in the 1590s with new long blocks, an earth rampart (Odoi) and the temples moved to Teramachi, Kyoto is the city of the emperor, the head temples and the crafts: Nishijin silk, fans, lacquer, dolls and books. The shogun keeps Nijō Castle; Gion's teahouses and the Shijō theatres fill the east bank. Tile roofs spread after each great fire.",
+   "population": "about 350,000",
+   "feel": "The clack of Nishijin looms, shamisen from Gion's upper rooms, the cool of the Kamo riverbed on summer evenings, and the smells of pickles, incense and lamp oil.",
+   "style": "japanese",
+   "houses": {
+    "title": "Kyō-machiya, the eel's beds",
+    "text": "Latticed shop fronts five or six metres wide, a low upper storey with clay-barred windows, and an earth passage (tōriniwa) running thirty metres back past the kitchen to a small garden and a white storehouse. Dues were assessed on frontage, the usual explanation for the shape."
+   },
+   "outskirts": {
+    "title": "Kyoto's vegetable fields",
+    "text": "Outside the rampart and across the old west, villages grow vegetables for the city: Kujō leeks, Mibu greens, Shōgoin radishes. Carters' and farmers' hamlets line the roads to Fushimi and Tanba."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "chodo-in",
+   "placeId": "daigokuden",
+   "name": "Daigokuden and the State Halls (Chōdō-in)",
+   "category": "civic",
+   "position": [
+    2052,
+    2330
+   ],
+   "rotation": 0,
+   "footprint": [
+    171.8,
+    221.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/chodo-in.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 170,
+     "depth": 220,
+     "height": 68.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "New: the Great Hall of State on its stone podium, the Dragon-Tail Terrace with its two corner towers, and the twelve assembly halls of the court in the cloistered yard below."
+    },
+    "fujiwara-1000": {
+     "note": "The second Daigokuden, rebuilt after the fire of 876 and finished in 879. Used now only for enthronements and New Year audiences; daily business has moved to the Shishinden and the regents' houses."
+    },
+    "ashikaga-1400": {
+     "note": "Gone. The Daigokuden burned in the Great Fire of Angen in 1177 and was never rebuilt; its site lies under the fields and houses of Uchino, near the later Senbon-Marutamachi."
+    }
+   },
+   "summary": "The ceremonial heart of the Greater Palace: the Hall of State where emperors were enthroned and received the court, raised on a stone podium at the head of a walled court of assembly halls.",
+   "details": [
+    "The Chōdō-in copied the Hanyuan Hall of Tang Chang'an: a long cloistered court, 12 halls for the ministers, and at its head the Daigokuden, eleven bays wide, with red columns, white walls and a hipped roof of grey tiles edged in green glaze. It burned in 876 and 1058 and was rebuilt each time; after the 1177 fire it was abandoned.",
+    "The miniature shows the northern part of the precinct: the hall on its podium, the Ryūbidan (Dragon-Tail Terrace) and its corner towers Sōryūrō and Byakkorō, and four of the assembly halls. Dimensions follow excavation and the Nenjū gyōji scrolls; colours and roof details are reconstruction, guided by the 1895 Heian Shrine copy at five-eighths scale."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heian-palace",
+    "mccullough",
+    "ponsonby-fane"
+   ],
+   "built": "794–795; rebuilt 879 and 1072",
+   "function": "Hall of State: enthronements, New Year audiences, great ceremonies",
+   "activity": {
+    "figures": 40,
+    "radius": 150
+   }
+  },
+  {
+   "id": "dairi",
+   "placeId": "dairi",
+   "name": "The Dairi and the Shishinden",
+   "category": "civic",
+   "position": [
+    2279,
+    1942
+   ],
+   "rotation": 0,
+   "footprint": [
+    220.6,
+    304.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/dairi.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 220,
+     "depth": 300,
+     "height": 88.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "The emperor's own walled residence inside the Greater Palace: the Shishinden throne hall facing its white-gravel court, the Seiryōden where he lived, and the ladies' pavilions behind, all joined by corridors."
+    },
+    "fujiwara-1000": {
+     "note": "Rebuilt again and again: it burned in 960, 976, 980, 982 and 999. Between fires emperors lived in Fujiwara town mansions (sato-dairi); Emperor Ichijō probably moved back late in 1000."
+    },
+    "ashikaga-1400": {
+     "note": "Abandoned after the fire of 1227. The emperors now live in the Tsuchimikado-Higashinotōin mansion, 1.5 km to the east, the ancestor of today's Kyoto Gosho."
+    }
+   },
+   "summary": "The inner palace where the emperor lived: the Shishinden throne hall with its cherry and mandarin-orange trees, the Seiryōden, and the pavilions of the empresses and court ladies of the Tale of Genji and the Pillow Book.",
+   "details": [
+    "About 220 by 300 m inside a double wall. The Shishinden, nine bays wide on raised floors with a cypress-bark roof, faced a court of white gravel with the 'cherry of the left' and 'orange of the right'. Behind it the Seiryōden and the 'seven halls and five pavilions' of the consorts and their ladies, all linked by corridors, held the emperor's daily life.",
+    "Unlike the Chinese-style state halls, the Dairi was built in native style: unpainted cypress, bark roofs, no podiums. The miniature follows the plan recorded in court manuals and copied, at reduced size, in the present Kyoto Gosho rebuilt in 1855; the exact layout of the rear pavilions is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heian-palace",
+    "morris",
+    "mccullough"
+   ],
+   "built": "794; rebuilt many times after fires from 960",
+   "function": "Imperial residence",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "suzakumon",
+   "placeId": "suzakumon",
+   "name": "Suzakumon",
+   "category": "civic",
+   "position": [
+    2052,
+    2918
+   ],
+   "rotation": 0,
+   "footprint": [
+    42.3,
+    21.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/suzakumon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 18,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "The main south gate of the Greater Palace, facing down the 84 m Suzaku-ōji to the Rashōmon 3.7 km away. Here the court performed the great purification of the sixth and twelfth months."
+    },
+    "fujiwara-1000": {
+     "note": "Still standing but less used: the court rarely goes out this way, and the avenue before it is a pasture. It was damaged by storms and repaired more than once."
+    },
+    "ashikaga-1400": {
+     "note": "Gone with the Greater Palace; the crossing of Senbon and Nijō is farmland."
+    }
+   },
+   "summary": "The vermilion two-storey gate of the Greater Palace, seven bays wide, at the head of the Suzaku-ōji.",
+   "details": [
+    "A Chinese-style double-roofed gate of seven bays, about 33 m wide, the twin of the Rashōmon at the other end of the avenue. Foreign envoys entered the palace through it, and the Ōharae purification was held in front of it.",
+    "The miniature uses the standard reconstruction of a Nara-Heian nijūmon: stone base, red columns, white walls, a balcony storey under a hip-and-gable roof. The exact width and roof form are not known from excavation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heian-palace",
+    "mccullough"
+   ],
+   "built": "794",
+   "function": "Main south gate of the Greater Palace",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "rashomon",
+   "placeId": "rashomon",
+   "name": "Rashōmon (Rajōmon)",
+   "category": "military",
+   "position": [
+    2052,
+    6801
+   ],
+   "rotation": 0,
+   "footprint": [
+    37.4,
+    13.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/rashomon.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 36,
+     "depth": 12,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "New and grand: a two-storey gate of seven bays at the south end of Suzaku-ōji, the formal entry to the capital, flanked by a short earth wall and ditch."
+    },
+    "fujiwara-1000": {
+     "note": "A ruin. Blown down in 816 and rebuilt, it fell again in a storm in 980 and was never restored. Its stones and tiles were carted off; Michinaga took base stones for Hōjō-ji around 1020.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/kyoto/rashomon-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 36,
+       "depth": 12,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "ashikaga-1400": {
+     "note": "Nothing left above ground; a stone marks the site today at Kujō-Senbon."
+    }
+   },
+   "summary": "The great south gate of Heian-kyō, where the Suzaku-ōji met the Kujō avenue; ruined after 980, it became a place of thieves, abandoned corpses and demons in the tales.",
+   "details": [
+    "About 32 m wide and perhaps 21 m tall, with a balcony storey under a double roof, the gate stood alone: Heian-kyō had no real city wall. After its collapse in 980 the site turned into a dumping ground for the dead, as in the Konjaku tale of the thief and the old woman that Akutagawa and Kurosawa later used.",
+    "The miniature shows the gate when new; the 1000 variant shows the fallen gate as a rubble podium with a few standing posts. Both are reconstructions: no picture survives, and the dimensions come from later records of seven bays and a double roof."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-rashomon",
+    "konjaku",
+    "mccullough"
+   ],
+   "built": "c. 794; rebuilt after 816",
+   "function": "City gate",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "toji",
+   "placeId": "toji",
+   "name": "Tō-ji: Kondō and five-storey pagoda",
+   "category": "temple",
+   "position": [
+    2544,
+    6629
+   ],
+   "rotation": 0,
+   "footprint": [
+    148.6,
+    120.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/toji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 140,
+     "depth": 120,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 12.0,
+     "columnHeight": 48.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "One of the two state temples at the Rashōmon. Founded 796, its Kondō is still being finished; Emperor Saga gives it to Kūkai in 823. The pagoda will not be finished until about 883.",
+     "model": {
+      "glb": "models/kyoto/toji-800.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 140,
+       "depth": 120,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 12.0,
+       "columnHeight": 48.0
+      }
+     }
+    },
+    "fujiwara-1000": {
+     "note": "The Shingon headquarters, with its first pagoda complete. The pagoda will burn after a lightning strike in 1055 and rise again by 1086."
+    },
+    "ashikaga-1400": {
+     "note": "Patronised by the Ashikaga, who quartered troops here in 1336. The Kondō of Kūkai's day will burn in a riot of 1486."
+    },
+    "edo-1750": {
+     "note": "The Kondō rebuilt in 1603 by Toyotomi Hideyori; the fifth pagoda, 55 m, the tallest in Japan, given by the shogun Iemitsu in 1644."
+    }
+   },
+   "summary": "The 'East Temple' guarding the south gate of Heian-kyō, given to Kūkai in 823 and still standing: its five-storey pagoda has been the first sight of Kyoto for travellers from the south for a thousand years.",
+   "details": [
+    "Tō-ji and its twin Sai-ji were the only Buddhist temples allowed inside the new capital. Kūkai made Tō-ji the centre of Shingon esoteric Buddhism. The pagoda has burned at least four times, in 1055 after lightning and for the last time in 1635; each time it was rebuilt to roughly the same 55 m height.",
+    "The miniature shows the Kondō, a seven-bay hall with a pent roof (mokoshi), and the pagoda at the south-east corner of the precinct. The cloisters, middle gate and lecture hall are left out; the Kōdō is a separate landmark. Form follows the present buildings of 1603 and 1644, which repeat the older plan."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-toji",
+    "ponsonby-fane",
+    "parent"
+   ],
+   "built": "796; pagoda c. 883, rebuilt 1086, 1644",
+   "function": "State temple, head temple of Shingon Buddhism",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "toji-kodo",
+   "placeId": "toji-kodo",
+   "name": "Tō-ji Kōdō (Lecture Hall)",
+   "category": "temple",
+   "position": [
+    2498,
+    6491
+   ],
+   "rotation": 0,
+   "footprint": [
+    44.0,
+    26.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/toji-kodo.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 44,
+     "depth": 26,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 2.6,
+     "columnHeight": 10.4
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "Begun by Kūkai in 825 to hold a three-dimensional mandala of 21 statues; finished after his death in 835 and consecrated in 839."
+    },
+    "fujiwara-1000": {
+     "note": "Kūkai's hall, with its statues of the Five Buddhas, Five Bodhisattvas, Five Wisdom Kings and six guardian gods."
+    },
+    "ashikaga-1400": {
+     "note": "Still Kūkai's hall; it will burn in the Tsuchi-ikki riot of 1486 and be rebuilt in 1491, the statues saved."
+    },
+    "edo-1750": {
+     "note": "The rebuilt hall of 1491 on its Heian foundations, with most of the original ninth-century statues inside."
+    }
+   },
+   "summary": "Kūkai's lecture hall, built to house a mandala of 21 statues arranged as a sculptural diagram of the esoteric universe; most of the statues have survived every fire.",
+   "details": [
+    "A single-storey hall about 34 by 17 m on a low stone platform, with a hipped roof of grey tile. The present hall dates from 1491 but keeps the scale of the first. Inside, most of the 21 statues are ninth-century originals, among the oldest esoteric images in Japan.",
+    "The miniature is a plain hall model: red-painted frame, white plaster panels, deep eaves. The courtyard cloister that once linked it to the Kondō is omitted."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-toji",
+    "ponsonby-fane"
+   ],
+   "built": "825–839; rebuilt 1491",
+   "function": "Lecture hall of Tō-ji",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "saiji",
+   "placeId": "saiji",
+   "name": "Sai-ji (the West Temple)",
+   "category": "temple",
+   "position": [
+    1559,
+    6629
+   ],
+   "rotation": 0,
+   "footprint": [
+    148.6,
+    120.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/saiji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 140,
+     "depth": 120,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 12.0,
+     "columnHeight": 48.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "Tō-ji's mirror image west of the Suzaku-ōji, beside the West Market. Its pagoda stood at the south-west corner, where Tō-ji's stands at the south-east."
+    },
+    "fujiwara-1000": {
+     "note": "Burned in 990 and rebuilt in part, it declines with the deserted west half of the city that supported it.",
+     "confidence": "interpretation"
+    },
+    "ashikaga-1400": {
+     "note": "Gone. The last pagoda burned in 1233 and was not rebuilt; only a small temple hall and the mound of its lecture hall remain among fields."
+    }
+   },
+   "summary": "The West Temple, twin of Tō-ji at the south gate, which declined with the western city and vanished in the thirteenth century; its site is a small park in Karahashi.",
+   "details": [
+    "Built from 796 with the same plan as Tō-ji, Sai-ji went to the monk Shubin while Tō-ji went to Kūkai, and the two rivals are said to have competed in rain-making at the Shinsen-en in 824. Without the Shingon network or rich patrons it could not survive the emptying of Ukyō.",
+    "The miniature mirrors the Tō-ji model: Kondō and pagoda. Excavation has located the lecture hall; the rest is assumed to follow Tō-ji's plan, so this is a reconstruction by analogy."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-saiji",
+    "mccullough"
+   ],
+   "built": "796",
+   "function": "State temple",
+   "activity": {
+    "figures": 12,
+    "radius": 100
+   }
+  },
+  {
+   "id": "shinsen-en",
+   "placeId": "shinsen-en",
+   "name": "Shinsen-en (Divine Spring Garden)",
+   "category": "monument",
+   "position": [
+    2498,
+    3329
+   ],
+   "rotation": 0,
+   "footprint": [
+    200.4,
+    240.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/shinsen-en.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 200,
+     "depth": 240,
+     "height": 80.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "The emperor's pleasure garden south of the palace, older than the city: a spring-fed pond with an island and a pavilion for poetry, boating and cock-fighting. Kūkai prays for rain here in 824."
+    },
+    "fujiwara-1000": {
+     "note": "Still a sacred pond: in drought the court has its water released for the fields, and Shingon monks pray for rain on its banks. The first goryōe plague rite was held here in 863."
+    },
+    "ashikaga-1400": {
+     "note": "Shrunk and neglected after the palace fell; Tō-ji manages what is left, a smaller pond among farms.",
+     "model": {
+      "glb": "models/kyoto/shinsen-en-small.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 200,
+       "depth": 240,
+       "height": 80.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "edo-1750": {
+     "note": "A remnant, cut down when Ieyasu built Nijō Castle over its northern part in 1602–03. A Shingon temple keeps the pond and its shrine to the dragon king.",
+     "model": {
+      "glb": "models/kyoto/shinsen-en-small.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 200,
+       "depth": 240,
+       "height": 80.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "An imperial garden of 'divine spring' south of the Greater Palace, with a dragon-haunted pond used for rain prayers; the origin of the Gion festival's procession of halberds.",
+   "details": [
+    "Originally about 13 hectares, two blocks wide and four long, between Nijō and Sanjō. It had a pond fed by springs, an island, the Kenrinkaku pavilion and fishing pavilions. In 869 66 halberds, one for each province, were set up here to drive out plague spirits: the rite became the Gion Matsuri.",
+    "The miniature compresses the garden's southern half: the pond, island, a Chinese-style pavilion with corridors to two water pavilions. The layout is a reconstruction from records and excavation of the pond edge; the Edo variant shows the small remnant that survives."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-shinsen-en",
+    "ponsonby-fane"
+   ],
+   "built": "before 794",
+   "function": "Imperial garden, site of rain prayers",
+   "activity": {
+    "figures": 15,
+    "radius": 100
+   }
+  },
+  {
+   "id": "kiyomizu",
+   "placeId": "kiyomizu",
+   "name": "Kiyomizu-dera",
+   "category": "temple",
+   "position": [
+    5881,
+    4982
+   ],
+   "rotation": 0,
+   "footprint": [
+    180.0,
+    200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/kiyomizu.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 180,
+     "depth": 200,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 18.0,
+     "columnHeight": 72.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "A young temple of the Kannon of the Otowa spring, founded in 778 and endowed in 798 by the general Sakanoue no Tamuramaro. A main hall on the slope; the great stage is later.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/kyoto/kiyomizu-800.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 180,
+       "depth": 200,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 18.0,
+       "columnHeight": 72.0
+      }
+     }
+    },
+    "fujiwara-1000": {
+     "note": "Already the capital's favourite place of pilgrimage: Sei Shōnagon describes the noise of the crowd and the monks' chanting. A stage over the slope probably existed by the late Heian period.",
+     "confidence": "interpretation"
+    },
+    "ashikaga-1400": {
+     "note": "Burned and rebuilt several times in the quarrels between Kōfuku-ji and Enryaku-ji; a stage on pillars appears in medieval scrolls."
+    },
+    "edo-1750": {
+     "note": "The halls rebuilt in 1631–33 by the shogun Iemitsu, the present stage among them. 'To jump from the stage of Kiyomizu' means to take a great risk; over two hundred people did."
+    }
+   },
+   "summary": "The temple of the Otowa spring on the hillside of Higashiyama, whose main hall stands out over the valley on a timber stage carried by a lattice of 18 tall pillars, 13 m above the ground.",
+   "details": [
+    "The Hondō, under a sweeping roof of cypress bark, sits half on the hill and half on the stage, which is built without nails: zelkova pillars up to 12 m long locked together by horizontal tie-beams (nuki). Below, the three streams of the Otowa falls. A vermilion gate and three-storey pagoda stand on the ridge to the west.",
+    "The miniature follows the 1633 buildings: Niōmon, west gate and pagoda, the Hondō and its stage on the slope. The terrain is simplified to a single falling hillside. The temple burned at least nine times; earlier halls are assumed to have had a similar plan."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kiyomizu",
+    "parent",
+    "meisho-zue"
+   ],
+   "built": "778/798; present halls 1631–33",
+   "function": "Buddhist temple of Kannon",
+   "activity": {
+    "figures": 60,
+    "radius": 150
+   }
+  },
+  {
+   "id": "yasaka-shrine",
+   "placeId": "gion-sha",
+   "name": "Yasaka Shrine (Gion-sha)",
+   "category": "religious",
+   "position": [
+    5352,
+    4039
+   ],
+   "rotation": 0,
+   "footprint": [
+    150.0,
+    152.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/yasaka-shrine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 150,
+     "depth": 150,
+     "height": 60.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "Not yet: the hillside here belongs to the Yasaka clan's temple. The shrine to the plague god Gozu Tennō is founded around 876, by tradition."
+    },
+    "fujiwara-1000": {
+     "name": "Gion Kanshin-in",
+     "note": "A shrine-temple to Gozu Tennō, lord of epidemics, served by monks of Enryaku-ji. Since 970 its plague festival has been held every year."
+    },
+    "ashikaga-1400": {
+     "name": "Gion-sha",
+     "note": "Rich and powerful, with its own guilds of merchants and its festival floats paid for by the Shimogyō neighbourhoods."
+    },
+    "edo-1750": {
+     "name": "Gion-sha",
+     "note": "The main hall of 1654, its single great roof covering both sanctuary and worship hall; the vermilion west gate opens onto Shijō and the teahouses of Gion."
+    }
+   },
+   "summary": "The shrine of the plague god at the east end of Shijō, whose summer festival, the Gion Matsuri, began as a rite against epidemics and became the great festival of the townspeople.",
+   "details": [
+    "The main hall is the type of Gion-zukuri: sanctuary and worship hall under one huge hipped roof of cypress bark. The present hall is from 1654. The two-storey vermilion Nishi Rōmon (west gate), facing down Shijō, is the shrine's emblem; the dance stage before the hall is hung with lanterns.",
+    "The miniature shows the 1654 main hall, the dance stage, the west gate and a small torii; precinct trees are suggested. Before 1654 the hall is assumed similar. Renamed Yasaka Shrine only in 1868."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-yasaka-shrine",
+    "ponsonby-fane",
+    "meisho-zue"
+   ],
+   "built": "c. 876 (tradition); main hall 1654",
+   "function": "Shinto shrine of Gozu Tennō (Susanoo)",
+   "activity": {
+    "figures": 50,
+    "radius": 130
+   }
+  },
+  {
+   "id": "yasaka-pagoda",
+   "placeId": "hokanji",
+   "name": "Yasaka Pagoda (Hōkan-ji)",
+   "category": "temple",
+   "position": [
+    5407,
+    4593
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.0,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/yasaka-pagoda.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 30,
+     "depth": 30,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.0,
+     "columnHeight": 12.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "Already old: the Yasaka clan's temple is said to date from 589, long before the city. Its pagoda marks the slope east of the Kamo.",
+     "confidence": "interpretation"
+    },
+    "fujiwara-1000": {
+     "note": "A landmark for every pilgrim on the way up to Kiyomizu; the pagoda will burn in 1179 and be rebuilt by Minamoto no Yoritomo in 1191."
+    },
+    "ashikaga-1400": {
+     "note": "Yoritomo's pagoda, soon to burn; the shogun Ashikaga Yoshinori will rebuild it in 1440."
+    },
+    "edo-1750": {
+     "note": "The pagoda of 1440, 46 m, rising above the tiled roofs of the Higashiyama lanes."
+    }
+   },
+   "summary": "The five-storey pagoda of Hōkan-ji rising from the lanes between Kiyomizu and Gion, rebuilt in 1440 on the site of one of the oldest temples in the Kyoto basin.",
+   "details": [
+    "The present pagoda of 1440 is 46 m tall, unpainted, with deep tiled eaves and a bronze spire of nine rings. The warlord Kiso Yoshinaka is said to have raised his banner on it in 1183; later shoguns and Oda Nobunaga's men also used it as a lookout.",
+    "The miniature shows the pagoda alone on its stone base; the small temple halls around it are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hokanji",
+    "parent"
+   ],
+   "built": "589 (tradition); present pagoda 1440",
+   "function": "Buddhist pagoda",
+   "activity": {
+    "figures": 15,
+    "radius": 60
+   }
+  },
+  {
+   "id": "sanjusangendo",
+   "placeId": "rengeo-in",
+   "name": "Sanjūsangen-dō (Rengeō-in)",
+   "category": "temple",
+   "position": [
+    4723,
+    5780
+   ],
+   "rotation": -90,
+   "footprint": [
+    125.0,
+    25.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/sanjusangendo.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 125,
+     "depth": 24,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 2.4000000000000004,
+     "columnHeight": 9.600000000000001
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "fujiwara-1000": {
+     "note": "Not yet. Fujiwara no Tamemitsu founded Hōjū-ji here in 988; in the 1160s it becomes the cloistered emperor Go-Shirakawa's palace, and Kiyomori builds this hall for him in 1164."
+    },
+    "ashikaga-1400": {
+     "note": "The hall rebuilt in 1266 after the fire of 1249, with its thousand standing Kannon statues, over a hundred of them saved from the fire."
+    },
+    "edo-1750": {
+     "note": "Famous for the tōshiya archery contest along the west veranda: archers shot at a target 120 m away for 24 hours. In 1686 Wasa Daihachirō hit it 8,133 times."
+    }
+   },
+   "summary": "The 120 m hall of a thousand and one Kannon, built for the retired emperor Go-Shirakawa in 1164 and rebuilt in 1266; its name means 'hall of thirty-three bays'.",
+   "details": [
+    "A single hall, about 120 m long and 17 m deep, under a long low hip-and-gable roof of tile, with 35 bays across the front counting the end bays. Inside, 1,001 gilded wooden statues of the thousand-armed Kannon stand in ten rows on stepped platforms round a great seated Kannon by Tankei.",
+    "The miniature shows the hall with its front veranda and central porch, facing east toward the Higashiyama. The precinct wall (the Taikō wall of Hideyoshi) and the gate are omitted."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sanjusangendo",
+    "parent"
+   ],
+   "built": "1164; rebuilt 1266",
+   "function": "Buddhist hall of the Thousand-armed Kannon",
+   "activity": {
+    "figures": 30,
+    "radius": 100
+   }
+  },
+  {
+   "id": "tsuchimikado-dono",
+   "placeId": "tsuchimikado-dono",
+   "name": "Tsuchimikado-dono (Michinaga's mansion)",
+   "category": "civic",
+   "position": [
+    4121,
+    1931
+   ],
+   "rotation": 0,
+   "footprint": [
+    126.0,
+    220.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/tsuchimikado-dono.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 220,
+     "height": 48.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fujiwara-1000"
+   ],
+   "variants": {
+    "heian-800": {
+     "note": "Not yet built: two wards of the north-east corner of the grid, still partly fields."
+    },
+    "fujiwara-1000": {
+     "note": "Michinaga's main residence: here his daughter Empress Shōshi bore the future Emperor Go-Ichijō in 1008, as Murasaki Shikibu describes in her diary. Burned in 1016, rebuilt more splendidly in 1018."
+    },
+    "ashikaga-1400": {
+     "note": "Long gone. Its neighbour to the west, the Tsuchimikado-Higashinotōin mansion, has become the emperors' palace, the nucleus of the present Gosho."
+    }
+   },
+   "summary": "The mansion of the regent Fujiwara no Michinaga at the north-east corner of the city: a shinden-zukuri compound of halls, corridors and a great pond, the setting of Murasaki Shikibu's diary.",
+   "details": [
+    "Two blocks (about 120 by 250 m) inside an earth wall. A south-facing main hall (shinden) was linked by roofed corridors (watadono) to east and west halls (tai-no-ya); corridors ran south to pavilions over the pond, which had an island, bridges and boats with dragon prows for music on the water. Nobles' carts waited at the east gate.",
+    "The miniature is a reconstruction of a typical great shinden mansion of the period, scaled to the plot. No plan of the Tsuchimikado-dono survives; layout and colours follow Ōta Seiroku's reconstructions of the Higashi Sanjō-dono and the scenes of the Murasaki Shikibu nikki emaki."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-shinden-zukuri",
+    "wiki-michinaga",
+    "murasaki-diary",
+    "morris"
+   ],
+   "built": "before 1000; rebuilt 1018",
+   "function": "Mansion of the Fujiwara regent; often the emperor's town palace",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "hana-no-gosho",
+   "placeId": "muromachi-dono",
+   "name": "Hana no Gosho (the Flower Palace)",
+   "category": "civic",
+   "position": [
+    3501,
+    976
+   ],
+   "rotation": 0,
+   "footprint": [
+    116.0,
+    220.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/hana-no-gosho.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 220,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashikaga-1400"
+   ],
+   "variants": {
+    "fujiwara-1000": {
+     "note": "Not yet: north of the city, beyond Ichijō, among fields and the villas of the Kamo shrine people."
+    },
+    "ashikaga-1400": {
+     "name": "Muromachi-dono (Hana no Gosho)",
+     "note": "Yoshimitsu's palace of 1378, famous for flowering trees sent by every daimyo. Yoshimitsu himself retires to his Kitayama villa (the Golden Pavilion) in 1397."
+    },
+    "edo-1750": {
+     "note": "Gone since the 16th century. The site, at Imadegawa-Muromachi, is covered by townhouses and the Dōshisha grounds of later times."
+    }
+   },
+   "summary": "The palace of the Ashikaga shoguns on Muromachi-dōri, built by Yoshimitsu in 1378 and so filled with flowering trees that it was called the Flower Palace; it gave the Muromachi age its name.",
+   "details": [
+    "About 110 m wide and twice as long, the palace combined a shinden-style main hall for ceremonies with new kinds of building: a hall for receiving guests (kaisho) where Chinese paintings and ceramics were displayed, and a large pond garden fed from the Kamo. Burned in the Ōnin War in 1476.",
+    "The miniature is an interpretation: a shinden-style compound with a kaisho and a garden of flowering trees within an earth wall. No plan survives; it follows the scenes of later Rakuchū-rakugai screens."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hana-no-gosho",
+    "berry",
+    "stavros"
+   ],
+   "built": "1378–1381",
+   "function": "Residence and seat of the Ashikaga shoguns",
+   "activity": {
+    "figures": 25,
+    "radius": 100
+   }
+  },
+  {
+   "id": "shokokuji",
+   "placeId": "shokokuji",
+   "name": "Shōkoku-ji",
+   "category": "temple",
+   "position": [
+    3875,
+    610
+   ],
+   "rotation": 0,
+   "footprint": [
+    220.4,
+    260.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/shokokuji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 220,
+     "depth": 260,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 22.0,
+     "columnHeight": 88.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Yoshimitsu's Zen monastery beside his palace, finished in 1392, with the tallest building ever raised in pre-modern Japan: a seven-storey pagoda of 109 m, completed in 1399 and burned by lightning in 1403."
+    },
+    "edo-1750": {
+     "note": "No pagoda: rebuilt after the Ōnin War and a fire of 1551, the monastery keeps its Hattō of 1605, the oldest of its kind, with Kanō Mitsunobu's dragon on the ceiling.",
+     "model": {
+      "glb": "models/kyoto/shokokuji-1750.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 220,
+       "depth": 260,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 22.0,
+       "columnHeight": 88.0
+      }
+     }
+    }
+   },
+   "summary": "The great Zen monastery of the Ashikaga shoguns, north of their palace; for four years around 1400 its seven-storey pagoda, 109 m tall, was the tallest structure in Japan.",
+   "details": [
+    "One of the Five Mountains of Kyoto Zen, built for Yoshimitsu from 1382, with the late Musō Soseki named as its founder. The pagoda (Shichijū daitō) was dedicated in 1399 with a grand ceremony; after lightning destroyed it in 1403 a second was begun at the Kitayama villa, and a third back here, burned in 1470.",
+    "The miniature shows the gate, Buddha hall and lecture hall on the central axis and the pagoda to the east, its height taken from the 109 m (360 shaku) recorded. Its form, seven tiered roofs on a square plan, is an assumption: no picture of it survives."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-shokokuji",
+    "stavros",
+    "parent"
+   ],
+   "built": "1382–1392; pagoda 1399",
+   "function": "Zen monastery",
+   "activity": {
+    "figures": 25,
+    "radius": 120
+   }
+  },
+  {
+   "id": "kenninji",
+   "placeId": "kenninji",
+   "name": "Kennin-ji",
+   "category": "temple",
+   "position": [
+    5015,
+    4549
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.3,
+    243.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/kenninji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 100,
+     "depth": 240,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 10.0,
+     "columnHeight": 40.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "variants": {
+    "fujiwara-1000": {
+     "note": "Not yet: the riverside fields south of the Gion shrine. Eisai will found the first Zen monastery of Kyoto here in 1202."
+    },
+    "ashikaga-1400": {
+     "note": "One of the Five Mountains of Zen, a monastery of scholar-monks writing Chinese verse, with its gate, Buddha hall and lecture hall in a line."
+    },
+    "edo-1750": {
+     "note": "Rebuilt after the Ōnin War and the 1552 fire. Its abbot's quarters (hōjō) came from Ankoku-ji in 1599; Sōtatsu's Wind and Thunder Gods screens belong to it."
+    }
+   },
+   "summary": "Kyoto's oldest Zen monastery, founded in 1202 by Eisai, who had brought Rinzai Zen and the habit of drinking powdered tea back from China.",
+   "details": [
+    "A Chinese Song-style monastery laid out on a north-south axis: Chokushi-mon gate, Sanmon, Butsuden (Buddha hall), Hattō (lecture hall) and the abbot's quarters, with subtemples round them. It ranked third among the Five Mountains of Kyoto.",
+    "The miniature shows the gate, Buddha hall and lecture hall in a walled precinct with a few subtemples. The Edo halls are assumed to keep the medieval plan."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kenninji",
+    "parent"
+   ],
+   "built": "1202",
+   "function": "Zen monastery",
+   "activity": {
+    "figures": 15,
+    "radius": 100
+   }
+  },
+  {
+   "id": "nijo-castle",
+   "placeId": "nijo-jo",
+   "name": "Nijō Castle",
+   "category": "military",
+   "position": [
+    2562,
+    2863
+   ],
+   "rotation": 0,
+   "footprint": [
+    501.0,
+    400.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/nijo-castle.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 500,
+     "depth": 400,
+     "wallHeight": 80.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Not yet: farms and the north part of the old Shinsen-en garden."
+    },
+    "edo-1750": {
+     "note": "Built by Ieyasu in 1601–03 and enlarged westward in 1624–26 for an imperial visit. The five-storey keep, brought from Fushimi, was struck by lightning and burned in 1750 and never rebuilt.",
+     "confidence": "documented"
+    }
+   },
+   "summary": "The Tokugawa shoguns' castle in Kyoto, a moated rectangle of stone walls and white-plastered corner towers, built to watch over the emperor and to house the shogun on his rare visits.",
+   "details": [
+    "The outer enclosure, about 500 by 400 m, holds the Ninomaru Palace of 1626 with its painted Kanō screens and 'nightingale' floors. The inner Honmaru, with its own moat, had a palace and a five-storey keep (tenshu) at its south-west corner until lightning burned the keep in 1750; the Honmaru palace burned in the fire of 1788.",
+    "The miniature shows the castle as it stood in the first half of 1750, with the keep. The Ninomaru Palace is simplified to a staggered row of halls; the moats, walls and corner towers follow the present castle. After August 1750 only the stone base of the keep remained."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nijo-castle",
+    "coaldrake"
+   ],
+   "built": "1601–1603; enlarged 1624–1626",
+   "function": "Shogun's residence and castle in Kyoto",
+   "activity": {
+    "figures": 40,
+    "radius": 250
+   }
+  },
+  {
+   "id": "higashi-honganji",
+   "placeId": "higashi-honganji",
+   "name": "Higashi Hongan-ji",
+   "category": "temple",
+   "position": [
+    3428,
+    5437
+   ],
+   "rotation": -90,
+   "footprint": [
+    240.5,
+    201.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/higashi-honganji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 240,
+     "depth": 200,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 20.0,
+     "columnHeight": 80.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Not yet: Shimogyō's southern fields. The True Pure Land sect's head temple is at Higashiyama, then Yamashina and Ishiyama."
+    },
+    "edo-1750": {
+     "note": "The 'Eastern' Hongan-ji, founded in 1602 when Ieyasu split the sect, with one of the largest wooden halls in the world. It will burn in 1788 and three more times by 1864."
+    }
+   },
+   "summary": "The head temple of the Ōtani branch of True Pure Land Buddhism, founded in 1602 when Tokugawa Ieyasu gave land to Kyōnyo to split the powerful sect in two; its Founder's Hall is enormous.",
+   "details": [
+    "Two great halls stand side by side facing east: the Founder's Hall (Goeidō), with the image of Shinran, and the smaller Amida Hall, each fronted by its own gate on Karasuma. The present Goeidō, of 1895, is 76 m long and 38 m high; the eighteenth-century hall was similar in size.",
+    "The miniature shows the two halls with their hip-and-gable roofs, the two gates and the precinct wall, after the plan shown in the Miyako meisho zue (1780). Proportions are those of the present halls."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-higashi-honganji",
+    "meisho-zue"
+   ],
+   "built": "1602; halls rebuilt after fires",
+   "function": "Head temple of the Ōtani branch of Jōdo Shinshū",
+   "activity": {
+    "figures": 60,
+    "radius": 150
+   }
+  },
+  {
+   "id": "nishi-honganji",
+   "placeId": "nishi-honganji",
+   "name": "Nishi Hongan-ji",
+   "category": "temple",
+   "position": [
+    2763,
+    5381
+   ],
+   "rotation": -90,
+   "footprint": [
+    240.5,
+    201.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/nishi-honganji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 240,
+     "depth": 200,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 20.0,
+     "columnHeight": 80.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Not yet: the Rokujō fields west of Horikawa. Hideyoshi will give this land to the Hongan-ji in 1591."
+    },
+    "edo-1750": {
+     "note": "The 'Western' Hongan-ji, with the Goeidō of 1636 and an Amida Hall then being rebuilt (finished 1760). Its gates face Horikawa."
+    }
+   },
+   "summary": "The head temple of the Honganji branch of True Pure Land Buddhism, moved here in 1591 on land given by Hideyoshi; its halls, gates and Hiunkaku pavilion are among the finest of the Momoyama and early Edo periods.",
+   "details": [
+    "The precinct faces east onto Horikawa. The Goeidō of 1636 (62 by 48 m) and the Amida Hall of 1760 stand side by side; behind them the Shoin with its painted rooms and the No stage. The carved Karamon gate is said to have come from Fushimi Castle.",
+    "The miniature shows the two halls, their gates and the wall; the shoin and gardens are simplified to low roofs."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nishi-honganji",
+    "meisho-zue"
+   ],
+   "built": "1591; Goeidō 1636, Amida-dō 1760",
+   "function": "Head temple of the Honganji branch of Jōdo Shinshū",
+   "activity": {
+    "figures": 60,
+    "radius": 150
+   }
+  },
+  {
+   "id": "gosho",
+   "placeId": "kyoto-gosho",
+   "name": "Kyoto Imperial Palace (Gosho)",
+   "category": "civic",
+   "position": [
+    3848,
+    1620
+   ],
+   "rotation": 0,
+   "footprint": [
+    257.6,
+    454.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/gosho.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 250,
+     "depth": 450,
+     "height": 100.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Here stands the much smaller Tsuchimikado-Higashinotōin palace, the emperors' home since 1331 and the sole palace after the courts were reunited in 1392."
+    },
+    "edo-1750": {
+     "note": "The palace rebuilt by the shogunate in 1709, ringed by some two hundred courtiers' mansions. It will burn in the Tenmei fire of 1788 and be rebuilt in antique Heian style by 1790."
+    }
+   },
+   "summary": "The emperor's palace from 1331 to 1869, enlarged by Hideyoshi and the Tokugawa: a walled compound of cypress-bark halls round the Shishinden, a smaller copy of the Heian Dairi.",
+   "details": [
+    "The walled palace, about 250 by 450 m, holds the Shishinden throne hall facing a white-gravel court, the Seiryōden, the Kogosho and Gogakumonsho, and the empress's quarters, joined by corridors. Outside the walls, inside the larger enclosure of nine gates, stood the mansions of the court nobles (kuge).",
+    "The miniature follows the present palace of 1855, which repeats the 1790 plan; the 1709 palace was similar but less faithful to the Heian model. Gardens and inner rooms are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kyoto-gosho",
+    "ponsonby-fane"
+   ],
+   "built": "1331 (site); rebuilt 1590, 1613, 1642, 1655, 1709, 1790",
+   "function": "Imperial palace",
+   "activity": {
+    "figures": 30,
+    "radius": 200
+   }
+  },
+  {
+   "id": "sanjo-bridge",
+   "placeId": "sanjo-ohashi",
+   "name": "Sanjō Ōhashi",
+   "category": "monument",
+   "position": [
+    4728,
+    3423
+   ],
+   "rotation": 0,
+   "footprint": [
+    104.0,
+    11.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/sanjo-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 12,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "No permanent bridge yet: travellers from the east forded the Kamo or crossed on light timber bridges that floods carried away."
+    },
+    "edo-1750": {
+     "note": "Hideyoshi's bridge of 1590, the first in Japan on stone piers, with bronze giboshi finials on its railing posts; the western terminus of the Tōkaidō from Edo."
+    }
+   },
+   "summary": "The bridge at the end of the Tōkaidō, built in 1590 on stone pillars by order of Hideyoshi, where travellers from Edo, 53 stations away, finally entered Kyoto.",
+   "details": [
+    "A long timber deck on stone pillars set in pairs, with a railing capped with bronze giboshi finials, some still inscribed with the date Tenshō 18 (1590). The riverbed below was a place of public executions and entertainments.",
+    "The miniature shows the bridge with its pillars, deck and railing; the riverbed and banks are drawn by the map."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sanjo-ohashi",
+    "meisho-zue"
+   ],
+   "built": "1590",
+   "function": "Bridge on the Tōkaidō",
+   "activity": {
+    "figures": 40,
+    "radius": 80
+   }
+  },
+  {
+   "id": "gojo-bridge",
+   "placeId": "gojo-ohashi",
+   "name": "Gojō Ōhashi",
+   "category": "monument",
+   "position": [
+    4577,
+    4849
+   ],
+   "rotation": 0,
+   "footprint": [
+    104.0,
+    10.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/gojo-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 10,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "The Gojō bridge of this time crosses 250 m upstream, at the old Gojō avenue (today's Matsubara), and leads pilgrims to Kiyomizu."
+    },
+    "edo-1750": {
+     "note": "Moved here by Hideyoshi in 1589 to serve his Great Buddha at Hōkō-ji; kept up afterwards by the shogunate as a public bridge."
+    }
+   },
+   "summary": "The Gojō bridge on its new line: moved by Hideyoshi to lead to his Great Buddha, it carried the road to Kiyomizu and Fushimi across the Kamo.",
+   "details": [
+    "A timber bridge on stone piers kept up by the shogunate as one of the public bridges (kōgibashi). The legend of Benkei's fight with the boy Ushiwakamaru belongs to the old Gojō bridge further north, but the statues and the story moved with the name.",
+    "The miniature is a generic Edo public bridge, deck and railing on stone piers; the exact number of spans is not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-gojo-ohashi",
+    "meisho-zue"
+   ],
+   "built": "1589",
+   "function": "Bridge",
+   "activity": {
+    "figures": 25,
+    "radius": 70
+   }
+  },
+  {
+   "id": "chion-in-sanmon",
+   "placeId": "chion-in",
+   "name": "Chion-in Sanmon",
+   "category": "temple",
+   "position": [
+    5617,
+    3794
+   ],
+   "rotation": 0,
+   "footprint": [
+    58.0,
+    29.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/chion-in-sanmon.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 55,
+     "depth": 25,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 2.5,
+     "columnHeight": 10.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Chion-in, at Hōnen's grave on the slope above, is still a modest temple; the great gate and halls come with Tokugawa patronage after 1607."
+    },
+    "edo-1750": {
+     "note": "The great gate of 1621 at the foot of the steps up to Chion-in, the head temple of Pure Land Buddhism, patronised by the Tokugawa as their family temple."
+    }
+   },
+   "summary": "The largest wooden temple gate in Japan, 24 m tall and 50 m wide, built in 1621 by the shogun Hidetada at the foot of Chion-in, the head temple of Hōnen's Pure Land sect.",
+   "details": [
+    "A two-storey gate of five bays with three entrances, in Zen style: plain unpainted timber, a hip-and-gable roof with deep bracketed eaves and an upper storey holding a Buddha and sixteen arhats. It stands at the foot of 'man's steps', the steep stairway to the Mieidō.",
+    "The miniature shows the gate with its flanking roofed stairs and short walls. The Mieidō (1639) up the slope is not modelled."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chionin",
+    "parent"
+   ],
+   "built": "1621",
+   "function": "Main gate of Chion-in",
+   "activity": {
+    "figures": 20,
+    "radius": 70
+   }
+  },
+  {
+   "id": "hokoji-daibutsuden",
+   "placeId": "hokoji",
+   "name": "Hōkō-ji Great Buddha Hall",
+   "category": "temple",
+   "position": [
+    4787,
+    5381
+   ],
+   "rotation": 90,
+   "footprint": [
+    90.0,
+    65.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kyoto/hokoji-daibutsuden.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 90,
+     "depth": 60,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 6.0,
+     "columnHeight": 24.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Not yet: the fields and small temples north of Sanjūsangen-dō."
+    },
+    "edo-1750": {
+     "note": "Hideyori's hall of 1614, its bronze Buddha broken by the 1662 earthquake and replaced by a wooden one in 1667. Hideyoshi's first Buddha fell in the 1596 earthquake. All will burn after lightning in 1798."
+    }
+   },
+   "summary": "Hideyoshi's answer to the Great Buddha of Nara: a hall about 49 m tall housing a Buddha some 19 m high, the largest building in Edo-period Kyoto. Its bell's inscription gave Ieyasu a pretext for war in 1614.",
+   "details": [
+    "Hideyoshi collected swords from the peasants in 1588 claiming the iron would go into the Buddha's nails. The hall, about 88 by 54 m, faced west toward the city over a stone-walled terrace, whose great stones survive. The 1614 bell, with an inscription the Tokugawa read as a curse, still hangs here.",
+    "The miniature follows the dimensions recorded for the hall of 1614 as repeated in the Miyako meisho zue, with a double roof and a large gable window. Details are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hokoji",
+    "meisho-zue"
+   ],
+   "built": "1586–1595; rebuilt 1614",
+   "function": "Hall of the Great Buddha",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "higashi-ichi",
+   "name": "Higashi-ichi (the East Market)",
+   "kind": "market",
+   "position": [
+    3082,
+    5969
+   ],
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "summary": "The official market of the east city, between Shichijō and Hachijō beside the Horikawa canal, run by a market office that checked weights, set prices and flogged cheats.",
+   "details": [
+    "The Engishiki of 927 lists 51 kinds of stall here: silk, thread, cotton wadding, rice, salt, oil, dried fish, seaweed, needles, combs, brushes, saddles, horses. It opened at noon and closed at sunset to the beat of a drum. It traded half the month, the West Market the other half; by 1000 the East had most of the trade."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "engishiki",
+    "mccullough"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Barges come down the Horikawa with rice and timber. Porters stack bales by the market gate while the officials unlock the weights and the drum stands silent."
+    },
+    {
+     "hour": 13,
+     "text": "The noon drum has sounded. Rows of stalls under board roofs: salt in straw bags, dried bonito, bolts of plain silk. A clerk tests a measure of rice with his own box."
+    },
+    {
+     "hour": 18,
+     "text": "The closing drum. Stallholders carry their wares home; a few beggars and dogs pick through the fish scales, and the hijiri Kūya preaches the nembutsu to whoever stays."
+    }
+   ],
+   "variants": {
+    "fujiwara-1000": {
+     "note": "The busier of the two markets now; the holy man Kūya preached here in the 940s and was called 'the saint of the market'."
+    }
+   }
+  },
+  {
+   "id": "nishi-ichi",
+   "name": "Nishi-ichi (the West Market)",
+   "kind": "market",
+   "position": [
+    1021,
+    5969
+   ],
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "summary": "The West Market, mirror of the East across the Suzaku-ōji, beside the Nishi-Horikawa canal. It declined with the western city and was nearly dead by the 11th century.",
+   "details": [
+    "Built to the same plan and regulations as the East Market, with its own market office, warehouses and canal landing. As the west half emptied, the court tried to force trade back by giving the West Market a monopoly on certain goods; it did not work."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "engishiki",
+    "chiteiki"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A carter from Tanba unloads charcoal and firewood at the canal; frogs call in the flooded ward next door."
+    },
+    {
+     "hour": 14,
+     "text": "Fewer stalls than the East Market. A woman sells hemp cloth and lacquer bowls; officials walk the rows checking the prices against the posted list."
+    },
+    {
+     "hour": 19,
+     "text": "Empty already. Grass grows between the stall bases; the market watchman lights a fire against the damp."
+    }
+   ],
+   "variants": {
+    "fujiwara-1000": {
+     "note": "Almost deserted: Yasutane's Chiteiki (982) describes the west city as a place where houses fall and nobody comes to live."
+    }
+   }
+  },
+  {
+   "id": "korokan",
+   "name": "Kōrokan (the State Guesthouse)",
+   "kind": "inn",
+   "position": [
+    2261,
+    5825
+   ],
+   "activePeriods": [
+    "heian-800"
+   ],
+   "summary": "The official lodging for foreign envoys at Shichijō on the Suzaku-ōji, where embassies from Bohai on the Asian mainland stayed, traded and exchanged Chinese poems with Japanese scholars.",
+   "details": [
+    "Two compounds, east and west of the Suzaku-ōji. Bohai embassies came until 919–920; envoys' goods were sold at the guesthouse under supervision. The young Genji is taken here to have his fortune told by a Korean physiognomist in the first chapter of Murasaki's tale."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "mccullough",
+    "genji"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Grooms water the envoys' horses. Interpreters in court robes arrive to escort the Bohai ambassador to the palace."
+    },
+    {
+     "hour": 14,
+     "text": "A trade day under guard: furs of sable and tiger, ginseng and honey on mats, court buyers bidding in silk."
+    },
+    {
+     "hour": 20,
+     "text": "A poetry party: scholars from the university write Chinese verse with the envoys, ink and wine on low tables."
+    }
+   ],
+   "variants": {
+    "fujiwara-1000": {
+     "note": "Decayed and partly abandoned: Japan sent no more embassies to China after 894, and the Bohai kingdom fell in 926."
+    }
+   }
+  },
+  {
+   "id": "daigaku-ryo",
+   "name": "Daigaku-ryō (the State University)",
+   "kind": "school",
+   "position": [
+    2234,
+    3162
+   ],
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "summary": "The court academy just south of the Greater Palace, where sons of officials studied the Chinese classics, law, mathematics and literature to qualify for office.",
+   "details": [
+    "Some four hundred students lived in dormitories and studied the Confucian classics, Chinese history and composition. Noble families founded their own colleges beside it, such as the Fujiwara's Kangaku-in. Genji sends his son here in chapter 21, against custom."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "mccullough",
+    "genji",
+    "morris"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Students in pale robes recite the Analects aloud in the cold lecture hall, the doctors listening for mistakes in the Chinese readings."
+    },
+    {
+     "hour": 12,
+     "text": "Exam day: candidates write essays on the duties of ministers, brushes squeaking on paper, proctors pacing the aisles."
+    },
+    {
+     "hour": 21,
+     "text": "In the dormitory a poor scholar reads by the light of fireflies, as the Chinese stories tell, or more likely by a borrowed lamp."
+    }
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Gone: it burned in 1177 with the palace and was never rebuilt."
+    }
+   }
+  },
+  {
+   "id": "sutra-copyist",
+   "name": "A sutra copyist near Tō-ji",
+   "kind": "workshop",
+   "position": [
+    2462,
+    6158
+   ],
+   "activePeriods": [
+    "heian-800",
+    "fujiwara-1000"
+   ],
+   "summary": "Copying the scriptures was work and devotion at once. Hired copyists wrote out sutras for temples and for nobles earning merit, on ruled paper, in regular script, sometimes in gold on indigo.",
+   "details": [
+    "Copying offices (shakyōsho) at the great temples employed scribes, proofreaders and paper-mounters paid in rice and cloth. A noble might order the whole Lotus Sutra copied for a dead child or a sick wife; Michinaga copied sutras himself and buried them on Mount Kinpu in 1007. Where exactly the Tō-ji copyists worked is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "mccullough",
+    "wiki-toji"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The scribe washes, rinses his mouth, and grinds his ink in silence: a sutra must be written in a state of purity."
+    },
+    {
+     "hour": 12,
+     "text": "Seventeen characters to the column, column after column. A proofreader counts the characters of yesterday's sheets against the master copy."
+    },
+    {
+     "hour": 17,
+     "text": "The day's sheets are pasted into a scroll and rolled on a rod tipped with crystal for a noble's memorial service."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "murasaki-house",
+   "name": "Murasaki Shikibu's family house",
+   "kind": "house",
+   "position": [
+    4450,
+    1664
+   ],
+   "activePeriods": [
+    "fujiwara-1000"
+   ],
+   "summary": "The house of Murasaki's father Fujiwara no Tametoki on the east edge of the city, where she grew up, married, was widowed and probably began the Tale of Genji. Rozan-ji stands on the site.",
+   "details": [
+    "A middling noble's house of a few halls and a small garden, inherited from her great-grandfather Kanesuke. Here she learned Chinese by listening to her brother's lessons, which her father regretted she was not a boy to use. From 1005 or 1006 she served Empress Shōshi in the Tsuchimikado-dono nearby."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "murasaki-diary",
+    "morris"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist off the Kamo. A maid lifts the shutters; inside, behind curtains of state, sheets of paper lie in drifts round a writing box."
+    },
+    {
+     "hour": 14,
+     "text": "A messenger from the palace with a letter tied to a sprig of bush clover. The poem must be answered at once, and well."
+    },
+    {
+     "hour": 22,
+     "text": "Lamplight through the blinds. She writes a chapter that will be copied, borrowed and recopied by every lady at court within the month."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "gissha-builder",
+   "name": "An oxcart builder",
+   "kind": "workshop",
+   "position": [
+    3282,
+    4327
+   ],
+   "activePeriods": [
+    "fujiwara-1000"
+   ],
+   "summary": "The gissha, a lacquered box on two huge wheels pulled by an ox, was how nobles moved through the capital; its style was a public statement of rank.",
+   "details": [
+    "Carts came in grades fixed by rank: woven palm-leaf (birō-ge) for the highest, cypress-strip (ajiro) for middle officials, with curtains and hanging sleeves of the ladies inside. Wheelwrights, lacquerers and metalworkers built them; at festivals, servants fought over places to park, as in the cart quarrel of Genji's chapter 9. The location of the workshops is assumed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-gissha",
+    "genji",
+    "morris"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Two apprentices steam a curved felloe of oak over a fire while the master trues a wheel taller than a man."
+    },
+    {
+     "hour": 13,
+     "text": "A steward orders a new ajiro cart for his lord's daughter: deep red hangings, black lacquer, the family crest in gold on the sides."
+    },
+    {
+     "hour": 18,
+     "text": "A cart is wheeled out to be tried. An ox lumbers it down the lane; the axle squeals and the master shakes his head."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "rokkakudo",
+   "name": "Rokkaku-dō (Chōhō-ji)",
+   "kind": "shrine",
+   "position": [
+    3656,
+    3684
+   ],
+   "activePeriods": [
+    "fujiwara-1000",
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "summary": "A small hexagonal Kannon hall in the middle of the city, said to be older than it; its navel stone marked the centre of Kyoto, and its priests founded the Ikenobō school of flower arranging.",
+   "details": [
+    "Tradition credits Prince Shōtoku with founding it; when Heian-kyō was laid out, the hall is said to have moved a few metres out of the way of a street on its own. Shinran made a hundred-day retreat here in 1201. In Muromachi times the neighbourhood rang its bell to call the townsmen together."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-rokkakudo",
+    "berry"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Townspeople bow to the Kannon on their way to the shops; swans paddle on the little pond where the prince once bathed, as the story goes."
+    },
+    {
+     "hour": 13,
+     "text": "A monk of the Ikenobō sets a tall arrangement of pine, iris and willow before the hall, branches placed like mountains and streams."
+    },
+    {
+     "hour": 20,
+     "text": "The alarm bell: fire in Shimogyō. Men of the chō run for buckets and hooks."
+    }
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "The meeting place of Shimogyō, whose bell called the townsmen to assemble."
+    },
+    "edo-1750": {
+     "note": "The Ikenobō masters here teach rikka flower arrangement to pupils from every province."
+    }
+   }
+  },
+  {
+   "id": "sake-brewer",
+   "name": "A sake brewer and moneylender (sakaya-dosō)",
+   "kind": "works",
+   "position": [
+    3483,
+    4216
+   ],
+   "activePeriods": [
+    "ashikaga-1400"
+   ],
+   "summary": "Shimogyō's richest men brewed sake and lent money against pawns stored in their fireproof earth storehouses (dosō); the shogunate taxed them heavily and the debt riots attacked them.",
+   "details": [
+    "A list of 1425–26 counts some 340 sake brewers in and around Kyoto. Most also ran pawnshops at high interest, and paid the shogunate a monthly levy that became one of its main revenues. In the debt-cancellation uprisings (tokusei ikki) from 1428 on, crowds broke into their storehouses and burned the loan records."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "berry",
+    "stavros"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Steam from the rice-washing vats; brewers stripped to loincloths knead the mash in tubs taller than they are, singing to keep time."
+    },
+    {
+     "hour": 12,
+     "text": "A samurai's wife pawns a lacquer box. The clerk notes it in the ledger and carries it into the dark, cool storehouse."
+    },
+    {
+     "hour": 19,
+     "text": "Shutters and bars go up. The owner counts the day's silver and the bean-paste-coloured walls of his storehouse glow in the last light."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kitano",
+   "name": "Kitano Tenman-gū and its malt guild",
+   "kind": "shrine",
+   "position": [
+    1413,
+    999
+   ],
+   "activePeriods": [
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "summary": "The shrine of the deified scholar Sugawara no Michizane on the north-west edge of the city, whose guild of malt makers (kōji-za) held the monopoly on sake malt until 1444.",
+   "details": [
+    "The shrine was founded in 947 to placate Michizane's angry spirit. In 1444 the guild, losing its monopoly, barricaded itself in the shrine; the shogunate's troops attacked and the buildings burned. In 1587 Hideyoshi held his Grand Tea Gathering in its grove, open to anyone with a kettle, and in 1603 Izumo no Okuni danced here."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kitano",
+    "berry"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Malt makers spread steamed rice on trays in the warm cellars under the shrine's protection, the air thick and sweet."
+    },
+    {
+     "hour": 13,
+     "text": "Pilgrims touch the bronze ox for luck in study. Plum trees, Michizane's favourite, stand bare or in white flower by the gate."
+    },
+    {
+     "hour": 18,
+     "text": "Market day on the 25th: stalls of old clothes, tools and charms crowd the approach until dusk."
+    }
+   ],
+   "variants": {
+    "edo-1750": {
+     "note": "The teahouses of Kamishichiken, built from the timber left over from the shrine's rebuilding, serve pilgrims at the east gate."
+    }
+   }
+  },
+  {
+   "id": "float-workshop",
+   "name": "The Naginata-boko float house",
+   "kind": "workshop",
+   "position": [
+    3337,
+    3994
+   ],
+   "activePeriods": [
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "summary": "The neighbourhood on Shijō that has built and pulled the halberd float, always first in the Gion procession, since the 14th century; its storehouse holds the float's beams and tapestries all year.",
+   "details": [
+    "Each float (yamaboko) belongs to one chō, whose householders pay for it, assemble it without nails from numbered timbers, and pull it. The Naginata-boko carries a long halberd at its top and a boy chosen as the god's page. After the Ōnin War the townsmen revived the floats in 1500 as their own festival."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-gion-matsuri",
+    "berry"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Early in the sixth month: carpenters lash the float's frame with straw rope, knots tied the way their fathers tied them."
+    },
+    {
+     "hour": 15,
+     "text": "Townsmen hang the float's sides with tapestries, some of them, in later centuries, Flemish weavings brought by the Dutch."
+    },
+    {
+     "hour": 20,
+     "text": "Gion-bayashi practice: flutes, gongs and drums from the float house loft, the whole street listening from its shop fronts."
+    }
+   ],
+   "variants": {
+    "edo-1750": {
+     "note": "The float processions of the 7th and 14th days of the 6th month draw crowds from every province; the float tapestries now include Persian and Flemish pieces."
+    }
+   }
+  },
+  {
+   "id": "fan-maker",
+   "name": "Mieidō fan makers",
+   "kind": "shop",
+   "position": [
+    4194,
+    4682
+   ],
+   "activePeriods": [
+    "ashikaga-1400",
+    "edo-1750"
+   ],
+   "summary": "Folding fans, said to be a Japanese invention of the Heian period, were made near the old Gojō bridge by the nuns of the Mieidō temple, and Mieidō fans became a Kyoto speciality.",
+   "details": [
+    "Paper fans on bamboo ribs, painted with flowers, waves or poems, were sold to pilgrims and exported to China in the Muromachi period. In the Edo period dozens of fan shops worked here, with painters, rib-cutters and folders in separate trades."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "meisho-zue",
+    "stavros"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A rib-cutter splits bamboo into slips thinner than a fingernail; the shavings curl round his knees."
+    },
+    {
+     "hour": 13,
+     "text": "Fans fan out on the counter, painted with autumn grasses and the moon. A pilgrim from Kiyomizu haggles for a dozen as presents."
+    },
+    {
+     "hour": 19,
+     "text": "A painter finishes a commissioned fan with a poem in silver ink and sets it to dry on a rack by the lamp."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "nishijin-weaver",
+   "name": "A Nishijin silk weaver",
+   "kind": "workshop",
+   "position": [
+    2462,
+    1276
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "Nishijin, the 'West Camp' of the Ōnin War, became the home of Japan's finest silk weaving: brocades and damasks for the court, temples, Nō costumes and rich townsmen's kimono.",
+   "details": [
+    "In the eighteenth century several thousand looms worked here, including tall drawlooms (sorabiki-bata) with a boy perched on top lifting the pattern threads. A great fire in 1730 burned over a hundred streets of Nishijin and some 3,000 looms, and competition from Kiryū in the provinces began to bite."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nishijin",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The street wakes to the clack and thud of looms behind every lattice; a dyer's boy runs past with skeins of indigo thread."
+    },
+    {
+     "hour": 13,
+     "text": "On the drawloom a boy sits high in the frame pulling cords while the weaver throws gold-wrapped thread: a sash for a Nō costume."
+    },
+    {
+     "hour": 21,
+     "text": "One loom still working by lamplight to finish an order for a merchant's daughter's wedding."
+    }
+   ],
+   "variants": {
+    "ashikaga-1400": {
+     "note": "Not yet: the court weavers (Ōtoneri) work near Ōmiya; they will settle here after the Ōnin War, when the area takes the name Nishijin."
+    }
+   }
+  },
+  {
+   "id": "gion-teahouse",
+   "name": "Ichiriki-tei, a Gion teahouse",
+   "kind": "tavern",
+   "position": [
+    5033,
+    4105
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "The teahouse at Shijō and Hanamikōji where, as the story goes, Ōishi Kuranosuke feigned dissipation in 1702 to hide the plot of the Forty-seven Rōnin; Gion's chaya entertained guests with geiko and maiko.",
+   "details": [
+    "Teahouses (ochaya) did not cook or house the entertainers: they hired the rooms, ordered food from caterers and called geiko (as Kyoto says for geisha) from their lodging houses. The Ichiriki was made famous by the 1748 puppet play Kanadehon Chūshingura, which set Ōishi's drinking here."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ichiriki",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 10,
+     "text": "A maid scrubs the stepping stones and sprinkles water at the entrance; the red walls are still in shadow."
+    },
+    {
+     "hour": 15,
+     "text": "Maiko in trailing sashes come up the lane from their lessons in dance, clogs clicking on the stones."
+    },
+    {
+     "hour": 22,
+     "text": "Shamisen and laughter from the upper room; a merchant from Osaka loses a drinking game and pays in silver."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shijo-theatres",
+   "name": "The Shijō theatres",
+   "kind": "tavern",
+   "position": [
+    4860,
+    3994
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "The licensed kabuki theatres on the east bank at Shijō, successors of Okuni's dances on the Kamo riverbed; of the seven playhouses licensed in the 1600s, the Minami-za still stands.",
+   "details": [
+    "Kabuki began with women's dances on the riverbed in the early 1600s; women were banned from the stage in 1629 and boys in 1652, leaving it to adult men. The theatres had drum towers over the entrance and banners naming the stars; the dry riverbed below was filled with show booths and teahouses in summer."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-okuni",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The drum on the tower beats to announce the day's play; touts hang the actors' names on boards over the door."
+    },
+    {
+     "hour": 13,
+     "text": "Families on mats in the pit eat box lunches while an onnagata in a courtesan's robes holds the house silent."
+    },
+    {
+     "hour": 20,
+     "text": "Summer evening: platforms on stilts over the riverbed, lanterns, grilled eels and cold sake while the river cools the air."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "terakoya",
+   "name": "A temple school (terakoya)",
+   "kind": "school",
+   "position": [
+    3830,
+    3218
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "Private schools in temples and teachers' houses taught townsmen's children reading, writing and the abacus; by the late Edo period Kyoto had hundreds of them.",
+   "details": [
+    "Children of seven or eight joined in any month, sat at their own low desks and copied model texts: the kana syllabary, then letters, lists of place names, merchants' vocabularies and moral precepts. Fees were paid in cash and presents at festivals."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-terakoya"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Twenty children with desks on their backs troop in, bow to the master, and grind ink with much noise."
+    },
+    {
+     "hour": 11,
+     "text": "Brushes black to the elbows: a boy copies the characters for 'rice', 'silver' and 'receipt'; a girl practises a letter to a mother-in-law."
+    },
+    {
+     "hour": 14,
+     "text": "The abacus lesson. The master calls out sums and twenty abacuses rattle together."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "takase-dock",
+   "name": "Ichi-no-funairi on the Takase",
+   "kind": "dock",
+   "position": [
+    4532,
+    3051
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "The head landing of the Takase canal at Nijō, where boats hauled up from Fushimi unloaded rice, sake, salt and timber for the city's warehouses.",
+   "details": [
+    "Suminokura Ryōi dug the canal in 1611–14 and his family collected the tolls. Long, flat-bottomed boats (takasebune) were towed upstream by men walking the bank and floated back down. The landing was lined with warehouses and the mansions of daimyo who received supplies here."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-takase",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The first boats come in on the rope, their haulers bent double on the towpath, chanting."
+    },
+    {
+     "hour": 12,
+     "text": "Rice bales swing from the boats to the warehouses; a clerk with a brush tallies them against the bill from Osaka."
+    },
+    {
+     "hour": 19,
+     "text": "Empty boats drift back down the canal in the dusk; under the willows, a boatman eats rice and pickles on his bow."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tofu-nanzenji",
+   "name": "Tofu shop by Nanzen-ji",
+   "kind": "shop",
+   "position": [
+    6519,
+    3240
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "Zen vegetarian cooking made tofu a Kyoto speciality; on the approach to Nanzen-ji, teahouses served simmered tofu (yudōfu) to pilgrims, a trade one shop claims since 1635.",
+   "details": [
+    "Kyoto's soft water was thought to make the best tofu. Temple approaches across the Higashiyama had stalls serving tofu dishes; the Nanzen-ji yudōfu, simmered in kelp broth, was a famous treat in the guidebooks of the 18th century."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Soybeans soaked overnight are ground between stones; the shop fills with steam as the milk is boiled in an iron cauldron."
+    },
+    {
+     "hour": 12,
+     "text": "Pilgrims kneel on the tatami by a garden; white cubes of tofu shiver in an earthen pot over charcoal."
+    },
+    {
+     "hour": 17,
+     "text": "The last blocks are sold from a tub of cold water; a temple novice carries some home in a dish."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kiyomizu-potter",
+   "name": "A Kiyomizu-zaka potter",
+   "kind": "workshop",
+   "position": [
+    5544,
+    4771
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "The slopes below Kiyomizu-dera were lined with kilns making tea bowls and painted wares for pilgrims and tea-masters; the overglaze painter Ninsei had worked at nearby Omuro.",
+   "details": [
+    "Kyoto wares (kyō-yaki) were thrown and painted in workshops along Gojō-zaka and Kiyomizu-zaka and fired in climbing kilns on the hillside. In 1750 they are still small family shops; the great names of Kiyomizu ware, like Okuda Eisen, come later in the century."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kiyomizu-ware",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke rises from the climbing kiln on the slope; a boy feeds pine splits into the side ports, his face red with heat."
+    },
+    {
+     "hour": 13,
+     "text": "In the shop front a painter dots plum blossoms on a sake bottle while pilgrims on the slope stop to watch."
+    },
+    {
+     "hour": 18,
+     "text": "The kiln is opened after cooling: half the bowls cracked, the rest bright, carried down to the shop in straw."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shimabara",
+   "name": "Shimabara pleasure quarter",
+   "kind": "tavern",
+   "position": [
+    2188,
+    5492
+   ],
+   "activePeriods": [
+    "edo-1750"
+   ],
+   "summary": "Kyoto's licensed quarter, moved here to the western fields in 1641 behind a wall with one gate; its houses of assignation (ageya) entertained guests with tayū courtesans, poetry and banquets.",
+   "details": [
+    "The Sumiya, an ageya of the quarter, survives with its painted rooms and huge kitchen. Shimabara's tayū were trained in poetry, calligraphy and the tea ceremony, and the quarter was also the home of the Shimabara haikai poets; by 1750 Gion's teahouses were winning its custom away."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shimabara",
+    "saikaku"
+   ],
+   "vignettes": [
+    {
+     "hour": 10,
+     "text": "The single gate opens; tradesmen bring fish, sake and flowers for tonight's banquet."
+    },
+    {
+     "hour": 16,
+     "text": "A tayū's procession: high clogs, layered robes, an attendant with a parasol, a slow figure-of-eight step down the street."
+    },
+    {
+     "hour": 23,
+     "text": "Haikai verses passed round a lamp in the Sumiya's upper room; the kitchen fires below are banked for the night."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-794",
+   "title": "Kanmu moves into Heian-kyō",
+   "periodId": "heian-800",
+   "date": "22nd day of the 10th month, 794",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "dairi"
+   },
+   "effect": "procession",
+   "text": "After abandoning Nagaoka-kyō, haunted by bad omens and the spirit of his brother Sawara, Emperor Kanmu moved the court into a new capital still being built. In the 11th month he named it Heian-kyō, 'capital of peace and tranquillity'. Builders would work on its palace and walls for another decade.",
+   "sourceIds": [
+    "wiki-kanmu",
+    "mccullough"
+   ]
+  },
+  {
+   "id": "kukai-toji-823",
+   "title": "Tō-ji given to Kūkai",
+   "periodId": "heian-800",
+   "date": "823",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "toji"
+   },
+   "effect": "construction",
+   "text": "Emperor Saga handed the unfinished East Temple to the monk Kūkai, back from China with the esoteric teachings. Kūkai renamed it Kyōō Gokoku-ji, the temple for the protection of the nation by the King of Teachings, and began the lecture hall and pagoda.",
+   "sourceIds": [
+    "wiki-toji",
+    "ponsonby-fane"
+   ]
+  },
+  {
+   "id": "goryoe-869",
+   "title": "Sixty-six halberds against the plague",
+   "periodId": "heian-800",
+   "date": "869",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "shinsen-en"
+   },
+   "effect": "procession",
+   "text": "With epidemic in the capital, priests set up 66 halberds, one for each province of Japan, and carried the shrine of Gozu Tennō to the Shinsen-en pond to appease the angry spirits. The rite became the Gion goryōe, held every year from 970: the Gion Matsuri.",
+   "sourceIds": [
+    "wiki-gion-matsuri",
+    "ponsonby-fane"
+   ]
+  },
+  {
+   "id": "rashomon-980",
+   "title": "The Rashōmon falls",
+   "periodId": "fujiwara-1000",
+   "date": "980",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "rashomon"
+   },
+   "effect": "none",
+   "text": "A storm brought down the great south gate, already rebuilt once after 816. It was never restored. The site became a place to abandon the unclaimed dead; in the Konjaku tale a thief climbs to its upper storey and finds an old woman pulling the hair from a corpse.",
+   "sourceIds": [
+    "wiki-rashomon",
+    "konjaku"
+   ]
+  },
+  {
+   "id": "genji-1008",
+   "title": "Murasaki's tale at court",
+   "periodId": "fujiwara-1000",
+   "date": "c. 1008",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "tsuchimikado-dono"
+   },
+   "effect": "none",
+   "text": "In autumn 1008 Empress Shōshi gave birth to a prince at her father Michinaga's mansion. Murasaki Shikibu, her lady-in-waiting, recorded the ceremonies in her diary, along with the empress having a fair copy of 'the tale' made and bound, the first sure evidence of the Tale of Genji.",
+   "sourceIds": [
+    "murasaki-diary",
+    "genji"
+   ]
+  },
+  {
+   "id": "michinaga-moon-1018",
+   "title": "Michinaga's full-moon poem",
+   "periodId": "fujiwara-1000",
+   "date": "16th day of the 10th month, 1018",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "tsuchimikado-dono"
+   },
+   "effect": "crowd",
+   "text": "On the day a third of his daughters was made empress, Michinaga, at a banquet at his mansion, recited: 'This world, I think, is indeed my world: like the full moon I see no flaw in it.' The courtier Sanesuke, who recorded it, declined to compose a reply and led the guests in reciting it together.",
+   "sourceIds": [
+    "shoyuki",
+    "wiki-michinaga"
+   ]
+  },
+  {
+   "id": "heiji-1159",
+   "title": "The burning of the Sanjō palace",
+   "periodId": "fujiwara-1000",
+   "date": "9th day of the 12th month, 1159",
+   "kind": "riot",
+   "at": {
+    "position": [
+     3811,
+     3495
+    ]
+   },
+   "effect": "fire",
+   "text": "In the Heiji disturbance Fujiwara no Nobuyori and Minamoto no Yoshitomo attacked the retired emperor Go-Shirakawa's Sanjō palace at night, seized him and set it on fire; those who fled were cut down. The Heiji scroll paints the scene: flames, oxcarts, archers and panicked ladies.",
+   "sourceIds": [
+    "wiki-heiji",
+    "heiji-emaki"
+   ]
+  },
+  {
+   "id": "angen-fire-1177",
+   "title": "The Great Fire of Angen",
+   "periodId": "fujiwara-1000",
+   "date": "28th day of the 4th month, 1177",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "chodo-in"
+   },
+   "effect": "fire",
+   "text": "Wind-driven fire spread north-west from Higuchi-Tominokōji across a third of the capital, burning the mansions of sixteen nobles and the Daigokuden. Kamo no Chōmei described the flames 'fanned out like an opened fan'. The Hall of State was never rebuilt.",
+   "sourceIds": [
+    "hojoki",
+    "wiki-heian-palace"
+   ]
+  },
+  {
+   "id": "shokokuji-pagoda-1399",
+   "title": "The great pagoda dedicated",
+   "periodId": "ashikaga-1400",
+   "date": "9th month, 1399",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "shokokuji"
+   },
+   "effect": "crowd",
+   "text": "Yoshimitsu dedicated the seven-storey pagoda of Shōkoku-ji, 109 m high, with a ceremony as grand as an emperor's: a thousand monks, court nobles and the shogun's warriors. Lightning burned it four years later.",
+   "sourceIds": [
+    "wiki-shokokuji",
+    "stavros"
+   ]
+  },
+  {
+   "id": "onin-1467",
+   "title": "The Ōnin War begins",
+   "periodId": "ashikaga-1400",
+   "date": "18th day of the 1st month, 1467",
+   "kind": "riot",
+   "at": {
+    "position": [
+     3693,
+     388
+    ]
+   },
+   "effect": "fire",
+   "text": "Hatakeyama Masanaga's men fought his cousin's in the wood of Kamigoryō shrine, the first battle of a war between the Hosokawa and Yamana alliances that dragged on eleven years inside the city. Most of Kamigyō burned; the Western Army's camp gave Nishijin its name.",
+   "sourceIds": [
+    "wiki-onin-war",
+    "berry"
+   ]
+  },
+  {
+   "id": "gion-revival-1500",
+   "title": "The townsmen bring back the floats",
+   "periodId": "ashikaga-1400",
+   "date": "6th month, 1500",
+   "kind": "festival",
+   "at": {
+    "spotId": "float-workshop"
+   },
+   "effect": "procession",
+   "text": "After 33 years without a festival, the neighbourhoods of Shimogyō rebuilt their floats and pulled them through the ruined city. Lots were drawn for the order, as they still are, except that the halberd float goes first.",
+   "sourceIds": [
+    "wiki-gion-matsuri",
+    "berry"
+   ]
+  },
+  {
+   "id": "odoi-1591",
+   "title": "Hideyoshi walls the city",
+   "periodId": "edo-1750",
+   "date": "1591",
+   "kind": "construction",
+   "at": {
+    "position": [
+     1359,
+     2219
+    ]
+   },
+   "effect": "construction",
+   "text": "Toyotomi Hideyoshi had an earth rampart with a moat outside thrown round Kyoto, 22.5 km long, planted with bamboo. In the same years he cut new north-south streets through the old square blocks, moved the temples to Teramachi and rebuilt the palace: the shape of Kyoto to this day.",
+   "sourceIds": [
+    "wiki-odoi",
+    "berry"
+   ]
+  },
+  {
+   "id": "okuni-1603",
+   "title": "Okuni dances kabuki",
+   "periodId": "edo-1750",
+   "date": "1603",
+   "kind": "festival",
+   "at": {
+    "spotId": "kitano"
+   },
+   "effect": "crowd",
+   "text": "Izumo no Okuni, who called herself a shrine maiden of Izumo, danced in men's clothes with a sword and a crucifix, playing a dandy visiting a teahouse. Her 'kabuki odori' at Kitano and then on the Kamo riverbed was copied by every troupe of women entertainers in town.",
+   "sourceIds": [
+    "wiki-okuni",
+    "wiki-kitano"
+   ]
+  },
+  {
+   "id": "nijo-keep-1750",
+   "title": "Lightning burns Nijō's keep",
+   "periodId": "edo-1750",
+   "date": "1750",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "nijo-castle"
+   },
+   "effect": "fire",
+   "text": "A thunderstorm set the castle's five-storey keep, brought from Fushimi in the 1620s, on fire. It burned to its stone base and was never rebuilt; shoguns had not visited Kyoto for over a century and would not until 1863.",
+   "sourceIds": [
+    "wiki-nijo-castle"
+   ]
+  },
+  {
+   "id": "tenmei-fire-1788",
+   "title": "The Great Tenmei Fire",
+   "periodId": "edo-1750",
+   "date": "30th day of the 1st month, 1788",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "gosho"
+   },
+   "effect": "fire",
+   "text": "Fire broke out east of the Kamo, jumped the river on the wind and burned for two days: some 37,000 houses, the Imperial Palace, Nijō's Honmaru palace, Higashi Hongan-ji and hundreds of temples, the worst fire in Kyoto's history. The palace was rebuilt in antique style by 1790.",
+   "sourceIds": [
+    "wiki-tenmei-fire"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "court-lady-1000",
+   "title": "A lady-in-waiting's capital",
+   "periodId": "fujiwara-1000",
+   "summary": "Follow a lady of Empress Shōshi's household, like Murasaki Shikibu, from her family house to the regent's mansion, the palace and out to the temple on the hill.",
+   "steps": [
+    {
+     "spotId": "murasaki-house",
+     "title": "Home by the Kamo",
+     "text": "A middling noble's house on the east edge of the city. She writes behind screens, receives poems tied to flowering branches, and is ordered to court.",
+     "when": "1005 or 1006"
+    },
+    {
+     "landmarkId": "tsuchimikado-dono",
+     "title": "The regent's mansion",
+     "text": "In Michinaga's Tsuchimikado-dono she serves the empress behind blinds along the corridors, watches the pond from the gallery and is teased by the regent at night."
+    },
+    {
+     "landmarkId": "dairi",
+     "title": "The Dairi",
+     "text": "At the inner palace the ladies' rooms are cramped and cold. Courtiers on night duty call out their names; a rival lady's poem is criticised for its handwriting."
+    },
+    {
+     "landmarkId": "chodo-in",
+     "title": "The Hall of State",
+     "text": "For the New Year audience the court lines up in the great yard before the Daigokuden, in Chinese-style robes nobody wears otherwise, while the emperor sits hidden on his throne."
+    },
+    {
+     "spotId": "higashi-ichi",
+     "title": "Past the East Market",
+     "text": "Ladies do not shop. From the carriage, through the blinds, she glimpses the stalls and Kūya's followers chanting, and composes a poem about the vulgar crowd."
+    },
+    {
+     "landmarkId": "kiyomizu",
+     "title": "Retreat at Kiyomizu",
+     "text": "A night of prayer at the Kannon of Kiyomizu: the hall full of pilgrims, monks booming sutras, a lamp in every bay. Sei Shōnagon complained of the noise and loved it."
+    }
+   ],
+   "sourceIds": [
+    "murasaki-diary",
+    "makura",
+    "morris"
+   ]
+  },
+  {
+   "id": "tokaido-1750",
+   "title": "Into Kyoto from the Tōkaidō",
+   "periodId": "edo-1750",
+   "summary": "A traveller from Edo crosses the Sanjō bridge and spends a day on the east bank: the theatres, Gion, the shrine, the pagoda and the stage of Kiyomizu.",
+   "steps": [
+    {
+     "landmarkId": "sanjo-bridge",
+     "title": "The end of the road",
+     "text": "After 53 stations and two weeks on foot, the Sanjō bridge: bronze finials on the rails, the Kamo shallow and wide below, the city's roofs beyond.",
+     "when": "morning"
+    },
+    {
+     "spotId": "takase-dock",
+     "title": "Boats on the Takase",
+     "text": "Just across the bridge, rice boats unload at the canal head. The traveller finds an inn on Sanjō and leaves his bags."
+    },
+    {
+     "spotId": "shijo-theatres",
+     "title": "The Shijō theatres",
+     "text": "Drums from the tower, painted billboards, a line at the door. A play about the Forty-seven Rōnin is on again."
+    },
+    {
+     "spotId": "gion-teahouse",
+     "title": "Gion",
+     "text": "Teahouses with red walls and bamboo blinds line the lane; maiko pass on high clogs. Too dear for a traveller; he drinks tea at a stall instead."
+    },
+    {
+     "landmarkId": "yasaka-shrine",
+     "title": "The Gion shrine",
+     "text": "Through the vermilion west gate: lanterns, a dance stage, people praying to the plague god for a safe journey home."
+    },
+    {
+     "landmarkId": "yasaka-pagoda",
+     "title": "The Yasaka pagoda",
+     "text": "Up the stone lanes to the old pagoda. Potters' shops on every side sell tea bowls painted with plum blossoms."
+    },
+    {
+     "landmarkId": "kiyomizu",
+     "title": "The stage of Kiyomizu",
+     "text": "From the stage over the trees the whole city lies below in the haze, Tō-ji's pagoda far to the south-west. Leaping from here takes more courage than he has.",
+     "when": "afternoon"
+    }
+   ],
+   "sourceIds": [
+    "meisho-zue",
+    "kaempfer"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-heian-kyo",
+   "title": "Heian-kyō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heian-ky%C5%8D"
+  },
+  {
+   "id": "wiki-kyoto-history",
+   "title": "History of Kyoto",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Kyoto"
+  },
+  {
+   "id": "wiki-kamo-river",
+   "title": "Kamo River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kamo_River"
+  },
+  {
+   "id": "wiki-takase",
+   "title": "Takase River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Takase_River"
+  },
+  {
+   "id": "wiki-odoi",
+   "title": "Odoi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Odoi"
+  },
+  {
+   "id": "stavros",
+   "title": "Kyoto: An Urban History of Japan's Premodern Capital",
+   "author": "Matthew Stavros",
+   "year": 2014
+  },
+  {
+   "id": "ponsonby-fane",
+   "title": "Kyoto: The Old Capital of Japan, 794–1869",
+   "author": "Richard Ponsonby-Fane",
+   "year": 1956
+  },
+  {
+   "id": "mccullough",
+   "title": "The Capital and Its Society (Cambridge History of Japan, vol. 2: Heian Japan)",
+   "author": "William H. McCullough",
+   "year": 1999
+  },
+  {
+   "id": "fieve-waley",
+   "title": "Japanese Capitals in Historical Perspective: Place, Power and Memory in Kyoto, Edo and Tokyo",
+   "author": "Nicolas Fiévé and Paul Waley (eds.)",
+   "year": 2003
+  },
+  {
+   "id": "berry",
+   "title": "The Culture of Civil War in Kyoto",
+   "author": "Mary Elizabeth Berry",
+   "year": 1994
+  },
+  {
+   "id": "chiteiki",
+   "title": "Chiteiki (Record of the Pond Pavilion)",
+   "author": "Yoshishige no Yasutane",
+   "year": 982,
+   "url": "https://en.wikipedia.org/wiki/Yoshishige_no_Yasutane"
+  },
+  {
+   "id": "wiki-heian-palace",
+   "title": "Heian Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heian_Palace"
+  },
+  {
+   "id": "wiki-rashomon",
+   "title": "Rashōmon (gate)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rash%C5%8Dmon_(gate)"
+  },
+  {
+   "id": "wiki-toji",
+   "title": "Tō-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/T%C5%8D-ji"
+  },
+  {
+   "id": "wiki-saiji",
+   "title": "Sai-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sai-ji"
+  },
+  {
+   "id": "wiki-shinsen-en",
+   "title": "Shinsen-en",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shinsen-en"
+  },
+  {
+   "id": "wiki-kiyomizu",
+   "title": "Kiyomizu-dera",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kiyomizu-dera"
+  },
+  {
+   "id": "wiki-yasaka-shrine",
+   "title": "Yasaka Shrine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yasaka_Shrine"
+  },
+  {
+   "id": "wiki-hokanji",
+   "title": "Hōkan-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/H%C5%8Dkan-ji"
+  },
+  {
+   "id": "wiki-sanjusangendo",
+   "title": "Sanjūsangen-dō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sanj%C5%ABsangen-d%C5%8D"
+  },
+  {
+   "id": "wiki-nijo-castle",
+   "title": "Nijō Castle",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nij%C5%8D_Castle"
+  },
+  {
+   "id": "wiki-higashi-honganji",
+   "title": "Higashi Hongan-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Higashi_Hongan-ji"
+  },
+  {
+   "id": "wiki-nishi-honganji",
+   "title": "Nishi Hongan-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nishi_Hongan-ji"
+  },
+  {
+   "id": "wiki-kyoto-gosho",
+   "title": "Kyoto Imperial Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kyoto_Imperial_Palace"
+  },
+  {
+   "id": "wiki-hana-no-gosho",
+   "title": "Hana no Gosho",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hana_no_Gosho"
+  },
+  {
+   "id": "wiki-shokokuji",
+   "title": "Shōkoku-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sh%C5%8Dkoku-ji"
+  },
+  {
+   "id": "wiki-shinden-zukuri",
+   "title": "Shinden-zukuri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shinden-zukuri"
+  },
+  {
+   "id": "wiki-michinaga",
+   "title": "Fujiwara no Michinaga",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fujiwara_no_Michinaga"
+  },
+  {
+   "id": "wiki-sanjo-ohashi",
+   "title": "Sanjō Ōhashi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sanj%C5%8D_%C5%8Chashi"
+  },
+  {
+   "id": "wiki-gojo-ohashi",
+   "title": "Gojō Ōhashi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Goj%C5%8D_%C5%8Chashi"
+  },
+  {
+   "id": "wiki-chionin",
+   "title": "Chion-in",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chion-in"
+  },
+  {
+   "id": "wiki-kenninji",
+   "title": "Kennin-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kennin-ji"
+  },
+  {
+   "id": "wiki-hokoji",
+   "title": "Hōkō-ji (Kyoto)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%8D-ji_(Kyoto)"
+  },
+  {
+   "id": "coaldrake",
+   "title": "Architecture and Authority in Japan",
+   "author": "William H. Coaldrake",
+   "year": 1996
+  },
+  {
+   "id": "parent",
+   "title": "The Roof in Japanese Buddhist Architecture",
+   "author": "Mary Neighbour Parent",
+   "year": 1983
+  },
+  {
+   "id": "morris",
+   "title": "The World of the Shining Prince: Court Life in Ancient Japan",
+   "author": "Ivan Morris",
+   "year": 1964
+  },
+  {
+   "id": "murasaki-diary",
+   "title": "The Diary of Lady Murasaki",
+   "author": "Murasaki Shikibu (tr. Richard Bowring)",
+   "year": "c. 1010"
+  },
+  {
+   "id": "hojoki",
+   "title": "Hōjōki (An Account of My Hut)",
+   "author": "Kamo no Chōmei",
+   "year": 1212,
+   "url": "https://en.wikipedia.org/wiki/H%C5%8Dj%C5%8Dki"
+  },
+  {
+   "id": "konjaku",
+   "title": "Konjaku monogatari shū (Tales of Times Now Past)",
+   "author": "anonymous",
+   "year": "c. 1120",
+   "url": "https://en.wikipedia.org/wiki/Konjaku_Monogatarish%C5%AB"
+  },
+  {
+   "id": "meisho-zue",
+   "title": "Miyako meisho zue (Illustrated Guide to the Famous Places of the Capital)",
+   "author": "Akisato Ritō",
+   "year": 1780,
+   "url": "https://en.wikipedia.org/wiki/Miyako_meisho_zue"
+  },
+  {
+   "id": "engishiki",
+   "title": "Engishiki (Procedures of the Engi Era), book 42 on the markets of the capital",
+   "author": "Fujiwara no Tokihira and others",
+   "year": 927,
+   "url": "https://en.wikipedia.org/wiki/Engishiki"
+  },
+  {
+   "id": "makura",
+   "title": "The Pillow Book (Makura no sōshi)",
+   "author": "Sei Shōnagon",
+   "year": "c. 1002",
+   "url": "https://en.wikipedia.org/wiki/The_Pillow_Book"
+  },
+  {
+   "id": "genji",
+   "title": "The Tale of Genji",
+   "author": "Murasaki Shikibu",
+   "year": "c. 1008",
+   "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji"
+  },
+  {
+   "id": "shoyuki",
+   "title": "Shōyūki (diary of Fujiwara no Sanesuke)",
+   "author": "Fujiwara no Sanesuke",
+   "year": "982–1032",
+   "url": "https://en.wikipedia.org/wiki/Sh%C5%8Dy%C5%ABki"
+  },
+  {
+   "id": "heiji-emaki",
+   "title": "Heiji monogatari emaki (Illustrated Scrolls of the Heiji War)",
+   "author": "anonymous",
+   "year": "13th century",
+   "url": "https://en.wikipedia.org/wiki/Heiji_Monogatari_Emaki"
+  },
+  {
+   "id": "rakuchu-rakugai",
+   "title": "Rakuchū rakugai zu byōbu (Uesugi screens of Kyoto in and out of the capital)",
+   "author": "Kanō Eitoku",
+   "year": "c. 1565",
+   "url": "https://en.wikipedia.org/wiki/Rakuch%C5%AB_rakugai_zu"
+  },
+  {
+   "id": "kaempfer",
+   "title": "The History of Japan (account of the journeys to Edo through Kyoto, 1691–92)",
+   "author": "Engelbert Kaempfer",
+   "year": 1727,
+   "url": "https://en.wikipedia.org/wiki/Engelbert_Kaempfer"
+  },
+  {
+   "id": "saikaku",
+   "title": "Nippon eitaigura (The Japanese Family Storehouse)",
+   "author": "Ihara Saikaku",
+   "year": 1688,
+   "url": "https://en.wikipedia.org/wiki/Ihara_Saikaku"
+  },
+  {
+   "id": "wiki-gion-matsuri",
+   "title": "Gion Matsuri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gion_Matsuri"
+  },
+  {
+   "id": "wiki-nishijin",
+   "title": "Nishijin-ori",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nishijin-ori"
+  },
+  {
+   "id": "wiki-kitano",
+   "title": "Kitano Tenman-gū",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kitano_Tenman-g%C5%AB"
+  },
+  {
+   "id": "wiki-okuni",
+   "title": "Izumo no Okuni",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Izumo_no_Okuni"
+  },
+  {
+   "id": "wiki-rokkakudo",
+   "title": "Rokkaku-dō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rokkaku-d%C5%8D"
+  },
+  {
+   "id": "wiki-shimabara",
+   "title": "Shimabara (Kyoto)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shimabara,_Kyoto"
+  },
+  {
+   "id": "wiki-ichiriki",
+   "title": "Ichiriki Chaya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ichiriki_Chaya"
+  },
+  {
+   "id": "wiki-terakoya",
+   "title": "Terakoya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Terakoya"
+  },
+  {
+   "id": "wiki-kiyomizu-ware",
+   "title": "Kiyomizu-yaki",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kiyomizu-yaki"
+  },
+  {
+   "id": "wiki-gissha",
+   "title": "Gissha (ox-drawn carriage)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gissha"
+  },
+  {
+   "id": "wiki-onin-war",
+   "title": "Ōnin War",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C5%8Cnin_War"
+  },
+  {
+   "id": "wiki-heiji",
+   "title": "Heiji rebellion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heiji_rebellion"
+  },
+  {
+   "id": "wiki-tenmei-fire",
+   "title": "Great Tenmei Fire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Tenmei_Fire"
+  },
+  {
+   "id": "wiki-kanmu",
+   "title": "Emperor Kanmu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Emperor_Kanmu"
+  }
+ ]
+}

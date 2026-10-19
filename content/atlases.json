@@ -401,7 +401,9 @@
           "subtitle": "Heian-kyō, 1000",
           "at": [135.77, 35.01],
           "glyph": "pagoda",
-          "blurb": "The court city of the Tale of Genji, its avenues laid out between the hills."
+          "blurb": "The court city of the Tale of Genji, its avenues laid out between the hills.",
+          "city": "kyoto",
+          "period": "fujiwara-1000"
         },
         {
           "title": "Edo",
