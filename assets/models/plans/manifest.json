@@ -188,6 +188,393 @@
   "size": 178.88,
   "w": 155.27
  },
+ "constantinople/aqueduct-of-valens": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 936.05,
+  "w": 900.05
+ },
+ "constantinople/basilica-cistern": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 138.0,
+  "ext": "webp",
+  "px": 431,
+  "size": 143.52,
+  "w": 65.0
+ },
+ "constantinople/blachernae": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 150.0
+ },
+ "constantinople/boukoleon": {
+  "cx": 0.0,
+  "cy": 0.15,
+  "d": 45.3,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "constantinople/chalke": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 35.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 47.84,
+  "w": 46.0
+ },
+ "constantinople/chora": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.8,
+  "w": 45.0
+ },
+ "constantinople/chora-1453": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.8,
+  "w": 45.0
+ },
+ "constantinople/chora-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.8,
+  "w": 45.0
+ },
+ "constantinople/column-of-constantine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "constantinople/column-of-constantine-1453": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "constantinople/fatih-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "constantinople/forum-of-constantine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "constantinople/forum-of-constantine-1150": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "constantinople/forum-of-theodosius": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 150.0
+ },
+ "constantinople/galata-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 30.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "constantinople/golden-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 593,
+  "size": 197.6,
+  "w": 190.0
+ },
+ "constantinople/grand-bazaar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 718,
+  "size": 239.2,
+  "w": 230.0
+ },
+ "constantinople/great-palace": {
+  "cx": 0.24,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 686,
+  "size": 228.8,
+  "w": 220.0
+ },
+ "constantinople/great-palace-ruin": {
+  "cx": 0.24,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 686,
+  "size": 228.8,
+  "w": 220.0
+ },
+ "constantinople/hagia-irene": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 86.0,
+  "ext": "webp",
+  "px": 268,
+  "size": 89.44,
+  "w": 36.0
+ },
+ "constantinople/hagia-irene-basilica": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 86.0,
+  "ext": "webp",
+  "px": 268,
+  "size": 89.44,
+  "w": 36.0
+ },
+ "constantinople/hagia-sophia": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 96.0
+ },
+ "constantinople/hagia-sophia-1150": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 96.0
+ },
+ "constantinople/hagia-sophia-basilica": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 96.0
+ },
+ "constantinople/hagia-sophia-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 96.0
+ },
+ "constantinople/hippodrome": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 450.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 468.0,
+  "w": 130.9
+ },
+ "constantinople/hippodrome-337": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 450.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 468.0,
+  "w": 130.9
+ },
+ "constantinople/hippodrome-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 450.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 468.0,
+  "w": 130.0
+ },
+ "constantinople/holy-apostles": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "constantinople/holy-apostles-337": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "constantinople/kastellion": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "d": 40.2,
+  "ext": "webp",
+  "px": 192,
+  "size": 41.81,
+  "w": 40.0
+ },
+ "constantinople/little-hagia-sophia": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 50.0
+ },
+ "constantinople/little-hagia-sophia-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 50.0
+ },
+ "constantinople/pantokrator": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 234,
+  "size": 78.0,
+  "w": 75.0
+ },
+ "constantinople/pantokrator-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 234,
+  "size": 78.0,
+  "w": 75.0
+ },
+ "constantinople/rustem-pasha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "constantinople/sea-walls": {
+  "cx": 0.0,
+  "cy": -0.01,
+  "d": 40.02,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "constantinople/stoa-basilica": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 138.0,
+  "ext": "webp",
+  "px": 431,
+  "size": 143.52,
+  "w": 65.0
+ },
+ "constantinople/suleymaniye": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 250.0,
+  "ext": "webp",
+  "px": 780,
+  "size": 260.0,
+  "w": 230.0
+ },
+ "constantinople/theodosian-walls": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 72.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 374.4,
+  "w": 360.0
+ },
+ "constantinople/theodosian-walls-1453": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 72.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 374.4,
+  "w": 360.0
+ },
+ "constantinople/topkapi": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 360.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 374.4,
+  "w": 200.0
+ },
+ "constantinople/yedikule": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 595,
+  "size": 198.22,
+  "w": 190.6
+ },
  "delhi/chandni-chowk": {
   "cx": -35.0,
   "cy": -3.75,
