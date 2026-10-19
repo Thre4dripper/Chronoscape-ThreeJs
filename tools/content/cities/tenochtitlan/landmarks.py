@@ -1,0 +1,388 @@
+# Tenochtitlan / Mexico City: monuments across four eras.
+F, I, M, C = "founding-1350", "itzcoatl-1440", "moctezuma-1519", "colonial-1620"
+ALL = [F, I, M, C]
+
+SOURCES = [
+    dict(id="matos-great-temple", title="The Great Temple of the Aztecs: Treasures of Tenochtitlan", author="Eduardo Matos Moctezuma", year=1988),
+    dict(id="lopez-lujan", title="The Offerings of the Templo Mayor of Tenochtitlan", author="Leonardo López Luján", year=1994),
+    dict(id="sahagun", title="Florentine Codex: General History of the Things of New Spain (Book 2, appendix: the buildings of the precinct; Books 8 and 10)", author="Bernardino de Sahagún", year="c. 1577", url="https://en.wikipedia.org/wiki/Florentine_Codex"),
+    dict(id="bernal-diaz", title="The True History of the Conquest of New Spain", author="Bernal Díaz del Castillo", year="c. 1568", url="https://en.wikipedia.org/wiki/Bernal_D%C3%ADaz_del_Castillo"),
+    dict(id="cortes-letters", title="Letters from Mexico (Second Letter to Charles V, 30 October 1520)", author="Hernán Cortés", year=1520, url="https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s"),
+    dict(id="duran", title="The History of the Indies of New Spain", author="Diego Durán", year=1581),
+    dict(id="evans-palaces", title="Palaces of the Ancient New World (S. T. Evans, 'Aztec Palaces')", author="Susan Toby Evans and Joanne Pillsbury (eds.)", year=2004),
+    dict(id="toussaint", title="Colonial Art in Mexico", author="Manuel Toussaint", year=1967, note="English edition of Arte colonial en México, 1948"),
+    dict(id="kubler", title="Mexican Architecture of the Sixteenth Century", author="George Kubler", year=1948),
+    dict(id="mundy", title="The Death of Aztec Tenochtitlan, the Life of Mexico City", author="Barbara E. Mundy", year=2015),
+    dict(id="candiani", title="Dreaming of Dry Land: Environmental Transformation in Colonial Mexico City", author="Vera S. Candiani", year=2014),
+    dict(id="smith-aztecs", title="The Aztecs", author="Michael E. Smith", year=2012, note="3rd edition"),
+    dict(id="trasmonte-1628", title="Forma y levantado de la ciudad de México", author="Juan Gómez de Trasmonte", year=1628),
+    dict(id="hassig", title="Mexico and the Spanish Conquest", author="Ross Hassig", year=2006, note="2nd edition"),
+    dict(id="barrera-tzompantli", title="Excavations of the Huey Tzompantli of Tenochtitlan (Programa de Arqueología Urbana, INAH)", author="Raúl Barrera Rodríguez et al.", year="2015–2020"),
+    dict(id="wiki-templo-mayor", title="Templo Mayor", author="Wikipedia", url="https://en.wikipedia.org/wiki/Templo_Mayor"),
+    dict(id="wiki-ehecatl", title="Ehecatl", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ehecatl"),
+    dict(id="wiki-huey-tzompantli", title="Huey Tzompantli", author="Wikipedia", url="https://en.wikipedia.org/wiki/Huey_Tzompantli"),
+    dict(id="wiki-tzompantli", title="Tzompantli", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tzompantli"),
+    dict(id="wiki-ballcourt", title="Mesoamerican ballcourt", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mesoamerican_ballcourt"),
+    dict(id="wiki-calmecac", title="Calmecac", author="Wikipedia", url="https://en.wikipedia.org/wiki/Calmecac"),
+    dict(id="wiki-eagle-warrior", title="Eagle warrior", author="Wikipedia", url="https://en.wikipedia.org/wiki/Eagle_warrior"),
+    dict(id="wiki-moctezuma-ii", title="Moctezuma II", author="Wikipedia", url="https://en.wikipedia.org/wiki/Moctezuma_II"),
+    dict(id="wiki-national-palace", title="National Palace (Mexico)", author="Wikipedia", url="https://en.wikipedia.org/wiki/National_Palace_(Mexico)"),
+    dict(id="wiki-axayacatl", title="Axayacatl", author="Wikipedia", url="https://en.wikipedia.org/wiki/Axayacatl"),
+    dict(id="wiki-monte-de-piedad", title="Nacional Monte de Piedad", author="Wikipedia", url="https://en.wikipedia.org/wiki/Nacional_Monte_de_Piedad"),
+    dict(id="wiki-tlatelolco", title="Tlatelolco (altepetl)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tlatelolco_(altepetl)"),
+    dict(id="wiki-tlatelolco-site", title="Tlatelolco (archaeological site)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tlatelolco_(archaeological_site)"),
+    dict(id="wiki-tres-culturas", title="Plaza de las Tres Culturas", author="Wikipedia", url="https://en.wikipedia.org/wiki/Plaza_de_las_Tres_Culturas"),
+    dict(id="wiki-noche-triste", title="La Noche Triste", author="Wikipedia", url="https://en.wikipedia.org/wiki/La_Noche_Triste"),
+    dict(id="wiki-fall-tenochtitlan", title="Fall of Tenochtitlan", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"),
+    dict(id="wiki-calzada-tlalpan", title="Calzada de Tlalpan", author="Wikipedia", url="https://en.wikipedia.org/wiki/Calzada_de_Tlalpan"),
+    dict(id="wiki-chapultepec-aqueduct", title="Chapultepec aqueduct", author="Wikipedia", url="https://en.wikipedia.org/wiki/Chapultepec_aqueduct"),
+    dict(id="wiki-nezahualcoyotl", title="Nezahualcoyotl (tlatoani)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Nezahualcoyotl_(tlatoani)"),
+    dict(id="wiki-lake-texcoco", title="Lake Texcoco", author="Wikipedia", url="https://en.wikipedia.org/wiki/Lake_Texcoco"),
+    dict(id="wiki-cathedral", title="Mexico City Metropolitan Cathedral", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mexico_City_Metropolitan_Cathedral"),
+    dict(id="wiki-san-francisco", title="Convent of San Francisco, Madero Street, Mexico City", author="Wikipedia", url="https://en.wikipedia.org/wiki/Convent_of_San_Francisco,_Madero_Street,_Mexico_City"),
+    dict(id="wiki-santa-cruz", title="Colegio de Santa Cruz de Tlatelolco", author="Wikipedia", url="https://en.wikipedia.org/wiki/Colegio_de_Santa_Cruz_de_Tlatelolco"),
+    dict(id="wiki-zocalo", title="Zócalo", author="Wikipedia", url="https://en.wikipedia.org/wiki/Z%C3%B3calo"),
+]
+
+LANDMARKS = [
+    # ------------------------------------------------------------ the Sacred Precinct
+    dict(id="sacred-precinct", placeId="recinto-sagrado", name="Sacred Precinct and the Coatepantli", category="district",
+         latlon=(19.43493, -99.13207), rotation=0, footprint=(290, 300), scale=1.0, model="tenochtitlan/sacred-precinct",
+         activePeriods=[I, M],
+         variants={
+             F: dict(note="No precinct yet: the shrine stands in an open space among the huts of the first calpolli.", confidence="interpretation"),
+             I: dict(model="tenochtitlan/sacred-precinct-1440", note="A smaller walled precinct round the enlarged Templo Mayor, with the priests' school and a few temples. Its exact line is not known.", confidence="interpretation"),
+             M: dict(note="A paved square of roughly 300 m a side inside the serpent wall, with four gates toward the causeways and the east; Sahagún lists 78 buildings, temples, schools, altars and priests' houses."),
+             C: dict(note="Gone: the cathedral, the archbishop's palace, the Sagrario and the streets of the traza were laid out over it from the 1520s."),
+         },
+         summary="The walled ceremonial heart of Tenochtitlan, a paved square round the Templo Mayor enclosed by the coatepantli, the 'serpent wall', with gates on the roads to the four quarters.",
+         details=[
+             "The precinct held the temples of the main gods, the priests' schools and houses, the skull racks, a ballcourt, sacred pools and the platforms of the great sacrifices. Its gates were closed at the massacre of Toxcatl in May 1520. Its extent is reconstructed from excavations under the cathedral and the streets round it; estimates range from about 300 to 500 m a side.",
+             "The miniature shows the stucco paving, the wall with its carved serpent heads, the four gates, the priests' houses along the inner side of the wall and a few lesser temples and altars. The main buildings inside are separate models.",
+         ],
+         built="c. 1430s; enlarged to c. 1500", function="Ceremonial precinct", confidence="reconstruction",
+         sourceIds=["wiki-templo-mayor", "sahagun", "matos-great-temple", "bernal-diaz"], activity=dict(figures=0, radius=120)),
+
+    dict(id="templo-mayor", placeId="templo-mayor", name="Templo Mayor (Huey Teocalli)", category="temple",
+         latlon=(19.4347, -99.1314), rotation=90, footprint=(100, 100), scale=1.0, model="tenochtitlan/templo-mayor",
+         activePeriods=ALL,
+         variants={
+             F: dict(model="tenochtitlan/templo-mayor-1350", name="The first temple", note="Stages I–II: an earthen platform a few metres high with shrines of wood and thatch to Huitzilopochtli and Tlaloc, raised where tradition says the eagle stood on the cactus.", confidence="interpretation"),
+             I: dict(model="tenochtitlan/templo-mayor-1440", note="Stages III–IV: Itzcoatl and Moctezuma I enclose the old temple in a larger stone pyramid faced with stucco, with serpent heads and braziers on the platform; the twin stairs face west.", confidence="reconstruction"),
+             M: dict(note="Stages VI–VII: about 82 by 84 m at the base and perhaps 45 m high, twin stairs up to the red shrine of Huitzilopochtli (south) and the blue and white shrine of Tlaloc (north)."),
+             C: dict(model="tenochtitlan/templo-mayor-1620", name="Site of the Templo Mayor", note="Pulled down from 1521 and quarried for the new city; by 1620 houses and streets cover its stump. Its ruins were found only in 1978, by electricity workers.", confidence="reconstruction"),
+         },
+         summary="The twin-temple pyramid of Huitzilopochtli, god of war and the sun, and Tlaloc, god of rain, rebuilt seven times over the old shrine at the centre of the Mexica world.",
+         details=[
+             "Each ruler enlarged the temple by building a new pyramid over the old one, so the excavated stump shows seven main stages, from the shrine of the 1320s to the building Cortés climbed in 1519. Its two summit shrines stood for the hill of Coatepec, Huitzilopochtli's birthplace, and the mountain of sustenance of Tlaloc. More than 200 offerings have been excavated since 1978.",
+             "The miniature shows stage VII as usually reconstructed: four stuccoed tiers, a double stair with serpent-head balustrades, and the two shrines with their tall roofs. The shrines' roof-crests, the colours and the exact height (estimates run 30–45 m) are reconstruction.",
+         ],
+         built="c. 1325; enlarged to c. 1502", function="Main temple of Huitzilopochtli and Tlaloc", confidence="reconstruction",
+         sourceIds=["wiki-templo-mayor", "matos-great-temple", "lopez-lujan", "sahagun", "bernal-diaz"], activity=dict(figures=60, radius=120)),
+
+    dict(id="temple-of-ehecatl", placeId="templo-ehecatl", name="Temple of Ehecatl-Quetzalcoatl", category="temple",
+         latlon=(19.4347, -99.1323), rotation=-90, footprint=(40, 40), scale=1.0, model="tenochtitlan/temple-of-ehecatl",
+         activePeriods=[M],
+         variants={
+             I: dict(note="Not yet in this form: the round temple excavated behind the cathedral dates from the late 15th century, though an earlier temple of the wind god may have stood here.", confidence="interpretation"),
+             M: dict(note="A round temple on a platform facing the Templo Mayor across the plaza, its stair to the east. Its doorway was carved as a serpent's open jaws, said Bernal Díaz."),
+             C: dict(note="Destroyed; colonial houses behind the cathedral stand over it. Remains of its platform were found in 2017 under a hotel on Calle de Guatemala."),
+         },
+         summary="The round temple of the wind god Ehecatl, an aspect of Quetzalcoatl, whose rounded walls let the wind sweep round it; it stood on the axis of the Templo Mayor.",
+         details=[
+             "Round temples were built for Ehecatl across central Mexico. The one in Tenochtitlan's precinct sat on a rectangular platform with a semicircular back, in front of the Templo Mayor on the line of the equinox sunrise. Excavations behind the cathedral, announced in 2017, found part of its platform with a ballcourt beside it.",
+             "The miniature shows the usual reconstruction: a square-fronted platform with a stair, a circular cella with a conical thatched roof, and a serpent-jaw doorway. Its height and the roof form are interpretation.",
+         ],
+         built="late 15th century (latest phase)", function="Temple of the wind god", confidence="reconstruction",
+         sourceIds=["wiki-ehecatl", "wiki-templo-mayor", "matos-great-temple", "bernal-diaz"], activity=dict(figures=12, radius=40)),
+
+    dict(id="huey-tzompantli", placeId="huey-tzompantli", name="Huey Tzompantli (great skull rack)", category="monument",
+         latlon=(19.4352, -99.1323), rotation=0, footprint=(36, 14), scale=1.0, model="tenochtitlan/huey-tzompantli",
+         activePeriods=[M],
+         variants={
+             I: dict(note="An earlier skull rack probably stood here: the excavated platform has several building phases, the earliest perhaps from the mid-15th century.", confidence="interpretation"),
+             M: dict(note="A platform about 35 m long carrying rows of wooden posts strung with the skulls of sacrificed captives, flanked by two towers of skulls set in mortar."),
+             C: dict(note="Gone. Its remains were found in 2015 under a house on Calle de Guatemala, behind the cathedral."),
+         },
+         summary="The great rack of skulls in front of the Templo Mayor, where the heads of sacrificed captives were displayed on wooden poles; the Spaniards were horrified by it.",
+         details=[
+             "Andrés de Tapia, one of Cortés's captains, described beams with skulls threaded on them and claimed to have counted 136,000, an exaggeration. Excavations from 2015 found the platform and two circular towers of skulls in lime mortar, with skulls of men, women and children, more than 600 so far.",
+             "The miniature shows a stuccoed platform with a stair, a grid of posts and crossbars hung with skulls, and the two skull towers. The number of racks and their height are interpretation.",
+         ],
+         built="c. 1485–1502 (last phases)", function="Display of the skulls of sacrificed captives", confidence="reconstruction",
+         sourceIds=["wiki-huey-tzompantli", "wiki-tzompantli", "barrera-tzompantli", "sahagun"], activity=dict(figures=8, radius=30)),
+
+    dict(id="teotlachco", placeId="teotlachco", name="Teotlachco, the ballcourt of the precinct", category="entertainment",
+         latlon=(19.4351, -99.1329), rotation=0, footprint=(56, 20), scale=1.0, model="tenochtitlan/ballcourt",
+         activePeriods=[M],
+         variants={
+             I: dict(note="A ballcourt is likely to have stood in the precinct already; its place in this era is not known.", confidence="interpretation"),
+             M: dict(note="The 'divine ballcourt', an I-shaped court with sloping walls and stone rings, used for ritual games; Sahagún says captives were sacrificed here at the feast of Panquetzaliztli."),
+             C: dict(note="Buried. Part of a ballcourt was found in 2017 behind the cathedral, near the temple of Ehecatl and the skull rack."),
+         },
+         summary="The ritual ballcourt of the Sacred Precinct, where the rubber-ball game was played as an image of the movement of the sun.",
+         details=[
+             "Players struck a heavy rubber ball with their hips and tried to pass it through stone rings set high in the side walls. Sahagún lists two ballcourts in the precinct. Excavations announced in 2017 found the steps and floor of one behind the cathedral, near the temple of Ehecatl and the Huey Tzompantli, as old sources describe.",
+             "The miniature shows the standard Aztec I-shaped court with stuccoed banks and two rings. Its size is estimated from the excavated part.",
+         ],
+         built="late 15th century", function="Ritual ballcourt", confidence="reconstruction",
+         sourceIds=["wiki-ballcourt", "sahagun", "barrera-tzompantli"], activity=dict(figures=16, radius=35)),
+
+    dict(id="calmecac", placeId="calmecac", name="Calmecac (school of the priests)", category="civic",
+         latlon=(19.4357, -99.1322), rotation=0, footprint=(50, 30), scale=1.0, model="tenochtitlan/calmecac",
+         activePeriods=[I, M],
+         variants={
+             F: dict(note="Not yet: the first priests lived in huts beside the shrine.", confidence="interpretation"),
+             I: dict(note="A school for the sons of nobles and future priests, probably already in the north of the precinct; its first form is unknown.", confidence="interpretation"),
+             M: dict(note="Rooms round a patio on a low platform, painted and stuccoed. Remains of a calmecac were found in 2006–2012 under the Cultural Centre of Spain on Calle de Guatemala."),
+             C: dict(note="Destroyed; the street of Guatemala and colonial houses cover it."),
+         },
+         summary="The school where noble boys and future priests learned the calendar, the painted books, songs, history, rhetoric and the strict rule of fasting and self-sacrifice.",
+         details=[
+             "Each major temple had its calmecac. Pupils slept there, swept the temples, fetched wood, kept vigils and drew blood from their ears and shins as offerings, while learning to read the screenfold books and to speak in the elevated style of the nobility. Commoners' sons went to the telpochcalli of their ward instead.",
+             "The miniature shows a stuccoed platform with a ring of rooms round a court, based on the excavated walls and on Sahagún's description. The plan is simplified.",
+         ],
+         built="15th century", function="School for priests and nobles", confidence="reconstruction",
+         sourceIds=["wiki-calmecac", "sahagun", "smith-aztecs"], activity=dict(figures=14, radius=35)),
+
+    dict(id="house-of-eagles", placeId="casa-de-las-aguilas", name="House of the Eagle Warriors", category="civic",
+         latlon=(19.4354, -99.1311), rotation=0, footprint=(40, 28), scale=1.0, model="tenochtitlan/house-of-eagles",
+         activePeriods=[M],
+         variants={
+             I: dict(note="The building's first phase probably dates from these years; it was rebuilt over it in the late 15th century.", confidence="interpretation"),
+             M: dict(note="An L-shaped hall on a platform north of the Templo Mayor, with a columned porch and benches carved with processions of warriors along its walls."),
+             C: dict(note="Buried; excavated in 1981–82, with two life-size clay eagle warriors found by its doorways."),
+         },
+         summary="A hall north of the Templo Mayor associated with the eagle warriors, the elite order of the army, and with rulers' rites of penance; its carved benches survive.",
+         details=[
+             "Excavated in 1981–82, the building has rooms with polychrome benches copying those at Tula, braziers with images of Tlaloc, and two ceramic figures of eagle warriors at its entrances. Whether eagle warriors actually met here is debated; it may have been used by rulers for vigils and penance before their accession.",
+             "The miniature shows the low platform, stair, pillared porch and stuccoed rooms; the roofs are flat with a small parapet. Upper details are reconstruction.",
+         ],
+         built="c. 1430s–1500 (several phases)", function="Ritual hall, probably of the eagle warriors", confidence="reconstruction",
+         sourceIds=["wiki-eagle-warrior", "wiki-templo-mayor", "matos-great-temple"], activity=dict(figures=10, radius=30)),
+
+    # ------------------------------------------------------------ palaces
+    dict(id="moctezuma-palace", placeId="palacio-nacional", name="Palace of Moctezuma (the New Houses)", category="civic",
+         latlon=(19.4325, -99.13126), rotation=90, footprint=(210, 230), scale=1.0, model="tenochtitlan/moctezuma-palace",
+         activePeriods=[M],
+         variants={
+             I: dict(note="Not yet built. Moctezuma I's palace probably stood west of the precinct; this ground south-east of the temple was houses and gardens.", confidence="interpretation"),
+             M: dict(note="Moctezuma II's palace, begun after 1502: courts, halls of state, council rooms, armouries, storehouses of tribute, apartments for his wives, and gardens, all on a platform beside the main square."),
+             C: dict(note="Destroyed in the siege; Cortés built his own houses on its ruins, sold to the Crown in 1562 as the viceregal palace."),
+         },
+         summary="The palace of Moctezuma II, a city within the city: the seat of government, courts of justice, councils and tribute stores, where some 600 lords attended the ruler every day.",
+         details=[
+             "Cortés and Bernal Díaz describe a palace of many courts and rooms with walls of stone and lime, cedar ceilings and woven mats, with apartments for the ruler's wives, rooms for visiting lords, a council of war, a tribute office and treasure rooms. The Codex Mendoza draws its plan: the ruler's hall on a raised platform above a courtyard.",
+             "The miniature follows the Codex Mendoza plan and Evans's study of Aztec palaces: a stepped platform, a great court entered from the square, the raised throne hall, lesser courts and a garden. Its scale is estimated from the block later occupied by the National Palace.",
+         ],
+         built="c. 1502–1519", function="Royal palace and seat of government", confidence="reconstruction",
+         sourceIds=["wiki-moctezuma-ii", "wiki-national-palace", "cortes-letters", "bernal-diaz", "evans-palaces"], activity=dict(figures=50, radius=140)),
+
+    dict(id="axayacatl-palace", placeId="axayacatl-palace", name="Palace of Axayacatl", category="civic",
+         latlon=(19.4342, -99.1342), rotation=0, footprint=(130, 120), scale=1.0, model="tenochtitlan/axayacatl-palace",
+         activePeriods=[M],
+         variants={
+             I: dict(note="Not yet built: Axayacatl reigned 1469–81.", confidence="interpretation"),
+             M: dict(note="The palace of Moctezuma's father, west of the precinct. Cortés and his men were lodged here from 8 November 1519 and found the sealed room of Axayacatl's treasure."),
+             C: dict(name="Houses of the Marquis of the Valley", note="Cortés's 'old houses' were built on its site; the Nacional Monte de Piedad stands there today.", confidence="reconstruction"),
+         },
+         summary="The palace of the ruler Axayacatl, where Moctezuma lodged Cortés and his men in November 1519 and where the Spaniards were besieged in June 1520.",
+         details=[
+             "Bernal Díaz says it was large enough to house all the Spaniards and their 2,000 Tlaxcalan allies, with halls hung with cloth and a temple of its own. The Spaniards held Moctezuma prisoner here, and dug through a freshly plastered wall to find the treasure. After the massacre of Toxcatl the Mexica besieged them here until the flight of the Noche Triste.",
+             "The miniature shows a palace of the usual Aztec form: a low platform, a ring of halls round a central court, a smaller inner court and a shrine. Its plan is not known.",
+         ],
+         built="c. 1470s", function="Royal palace; the Spaniards' quarters in 1519–20", confidence="interpretation",
+         sourceIds=["wiki-axayacatl", "wiki-monte-de-piedad", "bernal-diaz", "cortes-letters"], activity=dict(figures=30, radius=90)),
+
+    dict(id="totocalli", placeId="totocalli", name="Totocalli, Moctezuma's house of birds", category="entertainment",
+         latlon=(19.4337, -99.1400), rotation=0, footprint=(120, 90), scale=1.0, model="tenochtitlan/totocalli",
+         activePeriods=[M],
+         variants={
+             M: dict(note="Pools of salt and fresh water for waterbirds, galleries with cages of eagles and birds of every colour, and a house of jaguars, pumas, wolves, snakes and dwarfs, kept by 300 men."),
+             C: dict(note="Burnt by Cortés during the siege in 1521. The Franciscans built their great convent of San Francisco on or near its site.", confidence="reconstruction"),
+         },
+         summary="Moctezuma's aviary and zoo, with pools for waterbirds, cages for birds of prey, and houses of jaguars, pumas and snakes; feathers from its birds supplied the featherworkers.",
+         details=[
+             "Cortés wrote that ten pools held every kind of waterbird of the land, fed with fish, worms, maize and seeds, while 300 men tended them; another house held birds of prey and animals in cages, fed on turkeys and, Bernal Díaz claims, on the bodies of sacrificed captives. Moulted feathers were collected for featherwork.",
+             "The miniature shows a walled garden with pools, an arcaded gallery of cages and pens. Its plan is unknown and the site is debated; this follows the tradition placing it where San Francisco was later built.",
+         ],
+         built="early 16th century", function="Royal aviary and zoo", confidence="interpretation",
+         sourceIds=["wiki-moctezuma-ii", "cortes-letters", "bernal-diaz"], activity=dict(figures=14, radius=60)),
+
+    # ------------------------------------------------------------ Tlatelolco
+    dict(id="tlatelolco-market", placeId="tianguis-tlatelolco", name="Market of Tlatelolco", category="commercial",
+         latlon=(19.4485, -99.1345), rotation=0, footprint=(220, 200), scale=1.0, model="tenochtitlan/tlatelolco-market",
+         activePeriods=[I, M],
+         variants={
+             F: dict(note="A small exchange of fish, birds, reeds and lake produce for maize, wood and stone from the mainland, already Tlatelolco's livelihood.", confidence="interpretation"),
+             I: dict(model="tenochtitlan/tlatelolco-market-1440", note="The market grows with Tlatelolco's merchants, who trade far beyond the valley; after 1473 the city is ruled from Tenochtitlan but keeps its market.", confidence="interpretation"),
+             M: dict(note="A plaza ringed by arcades, where 20,000 to 25,000 people came daily and 40,000 to 50,000 every fifth day, each kind of goods in its own street, judges keeping order."),
+             C: dict(note="Much reduced after the siege; the main markets moved to the Plaza Mayor and San Juan, though a market at Tlatelolco continued.", confidence="reconstruction"),
+         },
+         summary="The greatest market of the Americas, which astonished the Spaniards: everything from gold, slaves and cacao to herbs, firewood, cloth and turkeys, sold in ordered rows.",
+         details=[
+             "Cortés compared it to the square of Salamanca but twice as large; Bernal Díaz said soldiers who had seen Rome and Constantinople had never seen a market so large and well ordered. Goods were sold by count and measure, not weight; cacao beans and cotton cloaks served as money; a court of judges sat in the market and officials patrolled the rows.",
+             "The miniature shows the plaza with rows of stalls under cotton awnings, arcades round the edge, the judges' house and a canal landing. The size and layout of the real plaza are estimated; its exact site south-east of the temple is not certain.",
+         ],
+         built="14th century; at its height c. 1500", function="Main market of the Valley of Mexico", confidence="reconstruction",
+         sourceIds=["wiki-tlatelolco", "cortes-letters", "bernal-diaz", "sahagun", "smith-aztecs"], activity=dict(figures=120, radius=140)),
+
+    dict(id="tlatelolco-temple", placeId="templo-mayor-tlatelolco", name="Templo Mayor of Tlatelolco", category="temple",
+         latlon=(19.4513, -99.1387), rotation=90, footprint=(200, 230), scale=1.0, model="tenochtitlan/tlatelolco-temple",
+         activePeriods=[F, I, M],
+         variants={
+             F: dict(model="tenochtitlan/tlatelolco-temple-early", note="The first temple of the Tlatelolca, a small platform with a shrine, founded around 1337.", confidence="interpretation"),
+             I: dict(model="tenochtitlan/tlatelolco-temple-early", note="Enlarged in stone by Tlatelolco's rulers in rivalry with Tenochtitlan. In 1473 its ruler Moquihuix fell or was thrown from its summit when Axayacatl took the city.", confidence="reconstruction"),
+             M: dict(note="A walled precinct with a twin-temple pyramid like Tenochtitlan's, smaller, a round temple and a calendar temple. Cortés and Bernal Díaz climbed the pyramid and saw the whole lake from its top."),
+             C: dict(note="Dismantled after the conquest; its stones built the church of Santiago beside it. Its ruins were excavated in the 1960s in the Plaza de las Tres Culturas.", confidence="documented"),
+         },
+         summary="The twin-temple pyramid of Tlatelolco beside its great market, rebuilt in rivalry with Tenochtitlan's; the last stronghold of the Mexica in August 1521.",
+         details=[
+             "Excavations in the Plaza de las Tres Culturas found the pyramid's successive stages, a calendar temple with painted walls, a round temple and burial offerings. From its summit Moctezuma showed Cortés the city, the causeways and the lake 'all full of canoes'. Its stones were reused for the church of Santiago Tlatelolco.",
+             "The miniature shows the precinct with its wall, the twin-temple pyramid with a double stair facing west over the plaza, the round temple and the small calendar temple. Heights and shrine roofs are estimated.",
+         ],
+         built="c. 1337; enlarged to the late 15th century", function="Main temple of Tlatelolco", confidence="reconstruction",
+         sourceIds=["wiki-tlatelolco-site", "wiki-tres-culturas", "bernal-diaz", "cortes-letters"], activity=dict(figures=30, radius=80)),
+
+    # ------------------------------------------------------------ causeways and water works
+    dict(id="xoloc", placeId="xoloc", name="Fort of Xoloc", category="military",
+         latlon=(19.4118, -99.1345), rotation=0, footprint=(50, 36), scale=1.0, model="tenochtitlan/xoloc",
+         activePeriods=[M],
+         variants={
+             I: dict(note="Probably not yet built; the causeway here may have had only a bridge.", confidence="interpretation"),
+             M: dict(note="A walled bulwark with two towers where the Coyoacán causeway joins the Iztapalapa causeway, about 2 km south of the precinct. Here Moctezuma met Cortés on 8 November 1519."),
+             C: dict(name="San Antonio Abad", note="The fort was Cortés's headquarters in the siege of 1521; its site is near the later hermitage of San Antonio Abad on the calzada.", confidence="interpretation"),
+         },
+         summary="A fortified gate on the southern causeway, about two stone walls high with towers and a wooden drawbridge, guarding the main road into the city from the south.",
+         details=[
+             "Cortés describes a strong bulwark of stone two estados (about 3.5 m) high with towers and two gates, where the two causeways met. Moctezuma came out to it to meet the Spaniards on 8 November 1519. During the siege of 1521 Cortés took it and made it his camp.",
+             "The miniature shows a wall across the causeway with two square towers, a gateway and a timber drawbridge in front. Its form is reconstruction from Cortés's letter.",
+         ],
+         built="15th century", function="Causeway fort and toll gate", confidence="interpretation",
+         sourceIds=["wiki-calzada-tlalpan", "cortes-letters", "bernal-diaz", "hassig"], activity=dict(figures=16, radius=40)),
+
+    dict(id="toltec-canal-bridge", placeId="puente-de-alvarado", name="Drawbridge of the Toltec canal", category="military",
+         latlon=(19.4372, -99.1469), rotation=9, footprint=(32, 24), scale=1.5, model="tenochtitlan/toltec-bridge",
+         activePeriods=[M],
+         variants={
+             M: dict(note="Where the Tlacopan causeway crossed the Toltec canal on removable beams. On the Noche Triste the Mexica removed the beams and many of the fleeing Spaniards drowned here."),
+             C: dict(name="Puente de Alvarado", note="Remembered as the 'leap of Alvarado', where Pedro de Alvarado is said to have vaulted the gap; the hermitage of the Martyrs, later San Hipólito, was built nearby.", confidence="interpretation"),
+         },
+         summary="A wooden bridge over a canal on the Tlacopan causeway, one of the gaps that the Mexica opened to trap the Spaniards on the night of 30 June 1520.",
+         details=[
+             "The causeways and streets were cut by canals spanned by beams that could be pulled away. Cortés built a portable bridge for the flight of the Noche Triste, but it jammed at the first gap; at the Toltec canal the gap filled with drowned men, horses and baggage, and the survivors crossed on them.",
+             "The miniature shows a canal with stone revetments, a deck of heavy beams that could be lifted out and small guard platforms. Its form is interpretation.",
+         ],
+         built="15th century", function="Removable bridge on a causeway", confidence="interpretation",
+         sourceIds=["wiki-noche-triste", "bernal-diaz", "cortes-letters", "hassig"], activity=dict(figures=12, radius=30)),
+
+    dict(id="chapultepec-aqueduct", placeId="acueducto-chapultepec", name="Aqueduct of Chapultepec", category="civic",
+         latlon=(19.4393, -99.1556), rotation=19, footprint=(140, 34), scale=1.0, model="tenochtitlan/aqueduct",
+         activePeriods=[I, M, C],
+         variants={
+             F: dict(note="Not yet: the Mexica drew water from springs on the islet and from the lake, and carried fresh water from Chapultepec by canoe.", confidence="interpretation"),
+             I: dict(note="Built under Moctezuma I with Nezahualcoyotl's help, finished in the 1460s: a channel of stone and mortar on an earth dike from the springs of Chapultepec to the city.", confidence="reconstruction"),
+             M: dict(note="Two masonry channels side by side on the causeway, one used while the other was cleaned. At the bridges water was sold from canoes."),
+             C: dict(model="tenochtitlan/aqueduct-1620", name="Aqueduct of Chapultepec (Santa Fe line)", note="Restored by the Spaniards and gradually rebuilt as an arcade along the Tacuba and San Cosme roads; the city's main water supply.", confidence="reconstruction"),
+         },
+         summary="The aqueduct that brought spring water from the hill of Chapultepec to the island, about 5 km, running along the Tlacopan causeway into the city.",
+         details=[
+             "Earlier channels were of clay and reed and broke easily. The masonry aqueduct of the 1460s had a double channel, so one could be cleaned while the other carried water. Cutting it was the Spaniards' first move in the siege of May 1521. In colonial times it was rebuilt on arches.",
+             "The miniature shows a stretch of the causeway in the lake, with the twin channels on a stone embankment beside the road and a short timber bridge. The 1620 version shows a low arcade. The exact course is reconstruction.",
+         ],
+         built="c. 1454–1466", function="Aqueduct", confidence="reconstruction",
+         sourceIds=["wiki-chapultepec-aqueduct", "cortes-letters", "duran", "candiani"], activity=dict(figures=8, radius=60)),
+
+    dict(id="nezahualcoyotl-dike", placeId="albarradon", name="Dike of Nezahualcoyotl (Albarradón)", category="civic",
+         latlon=(19.4350, -99.0981), rotation=5, footprint=(24, 300), scale=1.0, model="tenochtitlan/dike",
+         activePeriods=[I, M],
+         variants={
+             F: dict(note="Not yet built: floods could reach the islets from the salt eastern lake whenever it rose.", confidence="interpretation"),
+             I: dict(note="Built after the flood of 1449 under the direction of Nezahualcoyotl of Texcoco, with labour from the allied cities: about 16 km of stakes, stone and earth.", confidence="reconstruction"),
+             M: dict(note="Kept in repair, with sluices to let canoes through; it kept the lake round the city fresher and its level steadier."),
+             C: dict(note="Broken by Cortés's brigantines during the siege and never fully repaired; the dike of San Lázaro (1555–56) was built closer to the city.", confidence="reconstruction"),
+         },
+         summary="A dike about 16 km long across Lake Texcoco from Atzacoalco to Iztapalapa, built in 1449 to protect the city from floods and keep the salt water of the eastern lake away.",
+         details=[
+             "Nezahualcoyotl, ruler of Texcoco and famous as a poet and engineer, designed it for Moctezuma I after a flood. Thousands of workers drove lines of stakes into the lake bed and filled between them with stone and earth. It created the fresher 'Lake of Mexico' round the island in which the chinampas flourished.",
+             "The miniature shows a short stretch: a stone-faced embankment between rows of stakes, with a sluice gate and a canoe passage. Its width and height are estimates. The line on the map follows the usual reconstruction.",
+         ],
+         built="1449", function="Flood dike and lake divider", confidence="reconstruction",
+         sourceIds=["wiki-nezahualcoyotl", "wiki-lake-texcoco", "duran", "candiani"], activity=dict(figures=6, radius=80)),
+
+    # ------------------------------------------------------------ the Spanish city
+    dict(id="cathedral", placeId="catedral", name="Cathedral of Mexico", category="religious",
+         latlon=(19.4344, -99.1331), rotation=0, footprint=(70, 130), scale=1.0, model="tenochtitlan/cathedral-1620",
+         activePeriods=[C],
+         variants={
+             M: dict(note="The site lies inside the Sacred Precinct, on the west side of its great plaza, near the temple of Ehecatl and the skull rack."),
+             C: dict(note="The small first cathedral (begun c. 1524–32) still in use, while the new cathedral begun in 1573 rises behind it: walls, chapels and the first piers, not yet vaulted."),
+         },
+         summary="The cathedral of New Spain, first a modest church built with stones of the Aztec temples, then from 1573 the great cathedral that took 240 years to finish.",
+         details=[
+             "The first church, on the north side of the Plaza Mayor, was small, low and timber-roofed, and was soon judged unworthy of the capital. The new cathedral, planned by Claudio de Arciniega, was begun in 1573 on a raft of piles in the soft lake bed. By 1620 its walls and side chapels stood, the first vaults followed in the 1620s, and it was consecrated in 1656.",
+             "The miniature shows the old church with its small tower and, north of it, the unfinished new cathedral: thick walls, buttresses and the stumps of the towers. Heights in 1620 are estimated.",
+         ],
+         built="1524–1532; new cathedral 1573–1813", function="Cathedral", confidence="reconstruction",
+         sourceIds=["wiki-cathedral", "toussaint", "kubler", "trasmonte-1628"], activity=dict(figures=40, radius=90)),
+
+    dict(id="viceregal-palace", placeId="palacio-nacional", name="Viceregal Palace (Palacio Real)", category="civic",
+         latlon=(19.4325, -99.13126), rotation=90, footprint=(210, 230), scale=1.0, model="tenochtitlan/viceregal-palace",
+         activePeriods=[C],
+         variants={
+             M: dict(note="The site of Moctezuma's palace, the New Houses."),
+             C: dict(note="Cortés's 'new houses', bought by the Crown in 1562: a fortress-like palace of two storeys round several patios, with the audiencia, the royal treasury, the mint and the viceroy's apartments."),
+         },
+         summary="The palace of the viceroys of New Spain on the east side of the Plaza Mayor, built by Cortés over Moctezuma's palace and later rebuilt as Mexico's National Palace.",
+         details=[
+             "Cortés rebuilt his houses here with towers and battlements; the Crown bought them in 1562 for the viceroys. Besides the viceroy, it held the high court (audiencia), the treasury, the mint, a prison and barracks. In January 1624 a crowd stormed and burned part of it during the riot against the viceroy Gelves; it burned again in 1692.",
+             "The miniature shows the palace as in Gómez de Trasmonte's view of 1628: a long two-storey front with corner towers and battlements, several courts and flat roofs. Details are simplified.",
+         ],
+         built="1522–1530s; Crown palace from 1562", function="Residence of the viceroy and seat of government", confidence="reconstruction",
+         sourceIds=["wiki-national-palace", "trasmonte-1628", "toussaint", "mundy"], activity=dict(figures=40, radius=120)),
+
+    dict(id="plaza-mayor", placeId="zocalo", name="Plaza Mayor", category="commercial",
+         latlon=(19.4326, -99.1335), rotation=0, footprint=(175, 190), scale=1.0, model="tenochtitlan/plaza-mayor",
+         activePeriods=[M, C],
+         variants={
+             M: dict(model="tenochtitlan/plaza-1519", name="Square of the palaces", note="The open paved square south of the Sacred Precinct, between the palaces of Moctezuma and Axayacatl, where the Iztapalapa causeway ended.", confidence="interpretation"),
+             C: dict(note="The main square, crowded with Indian market stalls under mats and awnings, wooden shops (cajones), a fountain, the gallows and the pillory; the stone Parián market came only in 1695–1703."),
+         },
+         summary="The great square of Spanish Mexico, laid out on the plaza in front of Moctezuma's palace, flanked by the cathedral, the viceroy's palace and the city hall, and filled with a daily market.",
+         details=[
+             "Spanish writers boasted it was one of the largest squares in the world. Traders sold food, cloth, pottery and flowers; Spanish merchants kept shops under the arcades (portales) on its west and south sides; the city council met in its own building on the south side. In the flood of 1629 it lay under water for years.",
+             "The miniature shows the paved square with rows of stalls under mat awnings, a fountain, wooden shops and arcaded fronts on two sides. The arrangement of the stalls is interpretation from views of the 17th century.",
+         ],
+         built="laid out 1522–1524", function="Main square and market", confidence="reconstruction",
+         sourceIds=["wiki-zocalo", "trasmonte-1628", "mundy"], activity=dict(figures=100, radius=110)),
+
+    dict(id="san-francisco", placeId="san-francisco", name="Convent of San Francisco", category="religious",
+         latlon=(19.4340, -99.1408), rotation=90, footprint=(170, 150), scale=1.0, model="tenochtitlan/san-francisco",
+         activePeriods=[C],
+         variants={
+             M: dict(note="Moctezuma's house of birds probably stood on or near this ground.", confidence="interpretation"),
+             C: dict(note="The great Franciscan convent: a walled atrium, the church, the open chapel of San José de los Naturales where Indians heard Mass, cloisters, gardens and the school of Pedro de Gante."),
+         },
+         summary="The mother house of the Franciscans in New Spain, founded in the 1520s by the friars who first evangelized the Mexica, once the largest convent of the city.",
+         details=[
+             "The 'Twelve' Franciscans arrived in 1524. Their convent grew into a walled precinct with several churches and chapels, cloisters and orchards. In its chapel of San José de los Naturales the Flemish friar Pedro de Gante taught Indian boys reading, music, painting and crafts from the 1520s. Most of it was demolished after 1856.",
+             "The miniature shows the walled atrium with corner chapels, the single-nave church with a tower, the open chapel and the cloister. It is simplified from the 17th-century views; the church was rebuilt in 1710–16.",
+         ],
+         built="c. 1525; enlarged through the 16th century", function="Franciscan convent and school", confidence="reconstruction",
+         sourceIds=["wiki-san-francisco", "kubler", "toussaint"], activity=dict(figures=30, radius=90)),
+
+    dict(id="santa-cruz-tlatelolco", placeId="santiago-tlatelolco", name="Santiago Tlatelolco and the Colegio de Santa Cruz", category="religious",
+         latlon=(19.4518, -99.1358), rotation=90, footprint=(110, 100), scale=1.0, model="tenochtitlan/santa-cruz-tlatelolco",
+         activePeriods=[C],
+         variants={
+             M: dict(note="The site lay in the temple precinct of Tlatelolco, beside the pyramid."),
+             C: dict(note="The Franciscan church of Santiago (rebuilt 1604–10) with its convent, and the Colegio de Santa Cruz (1536), where Nahua students learned Latin and worked with Sahagún on the Florentine Codex."),
+         },
+         summary="The Franciscan church and college of Tlatelolco, the first school of higher learning in the Americas, built from the stones of the Tlatelolco temple.",
+         details=[
+             "The Colegio de Santa Cruz was founded in 1536 to educate sons of the Nahua nobility in Latin, rhetoric, philosophy and medicine. Its students and teachers produced the Badianus herbal (1552) and worked with Bernardino de Sahagún on the Florentine Codex. By 1620 the college was in decline; the church of Santiago had just been rebuilt in stone.",
+             "The miniature shows the fortress-like single-nave church with a tower, the convent cloister and the college buildings round a second court. The college's form is interpretation.",
+         ],
+         built="1536 (college); church 1604–1610", function="Church, convent and college", confidence="reconstruction",
+         sourceIds=["wiki-santa-cruz", "wiki-tres-culturas", "sahagun", "kubler"], activity=dict(figures=20, radius=60)),
+]
