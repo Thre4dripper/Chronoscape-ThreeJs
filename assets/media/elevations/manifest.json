@@ -2154,5 +2154,324 @@
   ],
   "w": 70.0,
   "x0px": 45.6
+ },
+ "tenochtitlan/aqueduct": {
+  "ground": 82.9,
+  "h": 2.5,
+  "mpp": 0.10943,
+  "px": [
+   1400,
+   143
+  ],
+  "w": 140.0,
+  "x0px": 60.3
+ },
+ "tenochtitlan/aqueduct-1620": {
+  "ground": 118.9,
+  "h": 6.44,
+  "mpp": 0.10943,
+  "px": [
+   1400,
+   179
+  ],
+  "w": 140.0,
+  "x0px": 60.3
+ },
+ "tenochtitlan/axayacatl-palace": {
+  "ground": 227.4,
+  "h": 16.97,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   288
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "tenochtitlan/ballcourt": {
+  "ground": 86.5,
+  "h": 4.0,
+  "mpp": 0.08342,
+  "px": [
+   749,
+   125
+  ],
+  "w": 56.0,
+  "x0px": 38.8
+ },
+ "tenochtitlan/calmecac": {
+  "ground": 171.3,
+  "h": 11.3,
+  "mpp": 0.08333,
+  "px": [
+   672,
+   207
+  ],
+  "w": 50.0,
+  "x0px": 36.0
+ },
+ "tenochtitlan/cathedral-1620": {
+  "ground": 354.5,
+  "h": 25.75,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   400
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "tenochtitlan/dike": {
+  "ground": 107.5,
+  "h": 7.0,
+  "mpp": 0.08334,
+  "px": [
+   335,
+   131
+  ],
+  "w": 24.0,
+  "x0px": 23.5
+ },
+ "tenochtitlan/house-of-eagles": {
+  "ground": 121.9,
+  "h": 7.57,
+  "mpp": 0.08339,
+  "px": [
+   542,
+   153
+  ],
+  "w": 40.0,
+  "x0px": 31.2
+ },
+ "tenochtitlan/huey-tzompantli": {
+  "ground": 125.4,
+  "h": 8.0,
+  "mpp": 0.0835,
+  "px": [
+   496,
+   155
+  ],
+  "w": 36.49,
+  "x0px": 29.5
+ },
+ "tenochtitlan/moctezuma-palace": {
+  "ground": 142.8,
+  "h": 13.99,
+  "mpp": 0.16343,
+  "px": [
+   1400,
+   200
+  ],
+  "w": 210.0,
+  "x0px": 57.5
+ },
+ "tenochtitlan/plaza-1519": {
+  "ground": 162.5,
+  "h": 14.2,
+  "mpp": 0.13643,
+  "px": [
+   1400,
+   221
+  ],
+  "w": 175.0,
+  "x0px": 58.6
+ },
+ "tenochtitlan/plaza-mayor": {
+  "ground": 158.8,
+  "h": 13.77,
+  "mpp": 0.13681,
+  "px": [
+   1400,
+   217
+  ],
+  "w": 175.5,
+  "x0px": 58.6
+ },
+ "tenochtitlan/sacred-precinct": {
+  "ground": 118.4,
+  "h": 14.35,
+  "mpp": 0.22885,
+  "px": [
+   1400,
+   174
+  ],
+  "w": 294.8,
+  "x0px": 55.9
+ },
+ "tenochtitlan/sacred-precinct-1440": {
+  "ground": 75.0,
+  "h": 4.3,
+  "mpp": 0.22514,
+  "px": [
+   1400,
+   131
+  ],
+  "w": 290.0,
+  "x0px": 56.0
+ },
+ "tenochtitlan/san-francisco": {
+  "ground": 345.6,
+  "h": 38.08,
+  "mpp": 0.13257,
+  "px": [
+   1400,
+   404
+  ],
+  "w": 170.0,
+  "x0px": 58.8
+ },
+ "tenochtitlan/santa-cruz-tlatelolco": {
+  "ground": 503.7,
+  "h": 38.08,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   566
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "tenochtitlan/temple-of-ehecatl": {
+  "ground": 288.5,
+  "h": 21.7,
+  "mpp": 0.08348,
+  "px": [
+   469,
+   317
+  ],
+  "w": 34.4,
+  "x0px": 28.5
+ },
+ "tenochtitlan/templo-mayor": {
+  "ground": 701.8,
+  "h": 53.47,
+  "mpp": 0.08334,
+  "px": [
+   1325,
+   762
+  ],
+  "w": 100.4,
+  "x0px": 60.2
+ },
+ "tenochtitlan/templo-mayor-1350": {
+  "ground": 198.4,
+  "h": 11.57,
+  "mpp": 0.08333,
+  "px": [
+   1320,
+   258
+  ],
+  "w": 100.0,
+  "x0px": 60.0
+ },
+ "tenochtitlan/templo-mayor-1440": {
+  "ground": 489.0,
+  "h": 35.75,
+  "mpp": 0.08334,
+  "px": [
+   1325,
+   549
+  ],
+  "w": 100.4,
+  "x0px": 60.2
+ },
+ "tenochtitlan/templo-mayor-1620": {
+  "ground": 162.3,
+  "h": 8.55,
+  "mpp": 0.08333,
+  "px": [
+   1320,
+   222
+  ],
+  "w": 100.0,
+  "x0px": 60.0
+ },
+ "tenochtitlan/tlatelolco-market": {
+  "ground": 106.8,
+  "h": 8.52,
+  "mpp": 0.17168,
+  "px": [
+   1400,
+   164
+  ],
+  "w": 220.7,
+  "x0px": 57.2
+ },
+ "tenochtitlan/tlatelolco-market-1440": {
+  "ground": 106.9,
+  "h": 8.52,
+  "mpp": 0.17114,
+  "px": [
+   1400,
+   164
+  ],
+  "w": 220.0,
+  "x0px": 57.3
+ },
+ "tenochtitlan/tlatelolco-temple": {
+  "ground": 309.6,
+  "h": 39.68,
+  "mpp": 0.15726,
+  "px": [
+   1400,
+   367
+  ],
+  "w": 202.0,
+  "x0px": 57.7
+ },
+ "tenochtitlan/tlatelolco-temple-early": {
+  "ground": 172.5,
+  "h": 17.9,
+  "mpp": 0.15571,
+  "px": [
+   1400,
+   230
+  ],
+  "w": 200.0,
+  "x0px": 57.8
+ },
+ "tenochtitlan/toltec-bridge": {
+  "ground": 87.0,
+  "h": 5.0,
+  "mpp": 0.08347,
+  "px": [
+   438,
+   114
+  ],
+  "w": 32.0,
+  "x0px": 27.3
+ },
+ "tenochtitlan/totocalli": {
+  "ground": 135.7,
+  "h": 7.06,
+  "mpp": 0.09493,
+  "px": [
+   1400,
+   197
+  ],
+  "w": 121.2,
+  "x0px": 61.6
+ },
+ "tenochtitlan/viceregal-palace": {
+  "ground": 169.8,
+  "h": 18.4,
+  "mpp": 0.16343,
+  "px": [
+   1400,
+   227
+  ],
+  "w": 210.0,
+  "x0px": 57.5
+ },
+ "tenochtitlan/xoloc": {
+  "ground": 160.3,
+  "h": 10.38,
+  "mpp": 0.08333,
+  "px": [
+   672,
+   196
+  ],
+  "w": 50.0,
+  "x0px": 36.0
  }
 }
