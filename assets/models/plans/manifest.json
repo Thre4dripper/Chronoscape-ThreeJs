@@ -368,6 +368,177 @@
   "size": 0.63,
   "w": 0.6
  },
+ "props/andean/bakery": {
+  "cx": 0.0,
+  "cy": -0.08,
+  "d": 7.15,
+  "ext": "webp",
+  "px": 192,
+  "size": 7.44,
+  "w": 6.6
+ },
+ "props/andean/boat": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 11.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 11.44,
+  "w": 2.3
+ },
+ "props/andean/cart": {
+  "cx": -0.12,
+  "cy": 0.39,
+  "d": 4.48,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.66,
+  "w": 1.5
+ },
+ "props/andean/crowd": {
+  "cx": 0.27,
+  "cy": 0.04,
+  "d": 5.42,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.41,
+  "w": 6.16
+ },
+ "props/andean/farmer": {
+  "cx": -0.04,
+  "cy": -0.0,
+  "d": 18.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 18.72,
+  "w": 6.08
+ },
+ "props/andean/forge": {
+  "cx": 0.0,
+  "cy": 0.07,
+  "d": 9.73,
+  "ext": "webp",
+  "px": 192,
+  "size": 10.12,
+  "w": 7.2
+ },
+ "props/andean/handcart": {
+  "cx": 0.04,
+  "cy": 0.2,
+  "d": 1.55,
+  "ext": "webp",
+  "px": 192,
+  "size": 1.61,
+  "w": 1.13
+ },
+ "props/andean/litter": {
+  "cx": -0.0,
+  "cy": -0.0,
+  "d": 4.1,
+  "ext": "webp",
+  "px": 192,
+  "size": 4.26,
+  "w": 1.88
+ },
+ "props/andean/matron": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 0.5,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.52,
+  "w": 0.48
+ },
+ "props/andean/mule": {
+  "cx": 0.27,
+  "cy": 0.09,
+  "d": 2.18,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.27,
+  "w": 1.2
+ },
+ "props/andean/porter": {
+  "cx": -0.0,
+  "cy": -0.07,
+  "d": 0.63,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.66,
+  "w": 0.64
+ },
+ "props/andean/shepherd": {
+  "cx": 0.96,
+  "cy": -0.06,
+  "d": 6.36,
+  "ext": "webp",
+  "px": 192,
+  "size": 11.1,
+  "w": 10.68
+ },
+ "props/andean/skiff": {
+  "cx": 0.06,
+  "cy": -0.0,
+  "d": 5.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 5.2,
+  "w": 1.01
+ },
+ "props/andean/stall": {
+  "cx": 0.0,
+  "cy": 0.11,
+  "d": 2.98,
+  "ext": "webp",
+  "px": 192,
+  "size": 3.19,
+  "w": 3.06
+ },
+ "props/andean/stall-cloth": {
+  "cx": 0.02,
+  "cy": 0.02,
+  "d": 2.25,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.6,
+  "w": 2.5
+ },
+ "props/andean/stall-fruit": {
+  "cx": 0.0,
+  "cy": 0.02,
+  "d": 2.26,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.55,
+  "w": 2.45
+ },
+ "props/andean/stall-pots": {
+  "cx": 0.0,
+  "cy": -0.01,
+  "d": 2.19,
+  "ext": "webp",
+  "px": 192,
+  "size": 2.55,
+  "w": 2.45
+ },
+ "props/andean/wagon": {
+  "cx": 0.02,
+  "cy": 0.43,
+  "d": 8.01,
+  "ext": "webp",
+  "px": 192,
+  "size": 8.33,
+  "w": 1.49
+ },
+ "props/andean/walker": {
+  "cx": -0.0,
+  "cy": -0.02,
+  "d": 0.41,
+  "ext": "webp",
+  "px": 192,
+  "size": 0.66,
+  "w": 0.64
+ },
  "props/eastasian/bakery": {
   "cx": 0.0,
   "cy": -0.13,
