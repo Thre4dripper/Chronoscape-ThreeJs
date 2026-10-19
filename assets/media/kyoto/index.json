@@ -1,0 +1,654 @@
+{
+ "chodo-in": [],
+ "dairi": [],
+ "suzakumon": [],
+ "rashomon": [],
+ "toji": [
+  {
+   "src": "media/kyoto/toji/1.jpg",
+   "thumb": "media/kyoto/toji/t1.jpg",
+   "w": 800,
+   "h": 592,
+   "kind": "reconstruction",
+   "caption": "To-ji, or \"East Temple\" (794), lies near Kyoto Station, just east of the site of Rashomon Gate, the southern entrance to Kyoto. The temple's large, double-roofed Kondo (main hall) is shown here.",
+   "artist": "Michael Gunther",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kondo,_Toji_a087.jpg"
+  },
+  {
+   "src": "media/kyoto/toji/2.jpg",
+   "thumb": "media/kyoto/toji/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Kakidai, 2015.",
+   "artist": "Kakidai",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Toji_2015.JPG"
+  },
+  {
+   "src": "media/kyoto/toji/3.jpg",
+   "thumb": "media/kyoto/toji/t3.jpg",
+   "w": 800,
+   "h": 586,
+   "kind": "photograph",
+   "caption": "Pagoda of the Eastern Temple, Kyoto, Kyoto Prefecture, Kinki Region, Japan",
+   "artist": "Zairon",
+   "date": "10 April 2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kyoto_To-ji_Pagode_17.jpg"
+  }
+ ],
+ "toji-kodo": [
+  {
+   "src": "media/kyoto/toji-kodo/1.jpg",
+   "thumb": "media/kyoto/toji-kodo/t1.jpg",
+   "w": 800,
+   "h": 592,
+   "kind": "reconstruction",
+   "caption": "To-ji, or \"East Temple\" (794), lies near Kyoto Station, just east of the site of Rashomon Gate, the southern entrance to Kyoto. The temple's large, double-roofed Kondo (main hall) is shown here.",
+   "artist": "Michael Gunther",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kondo,_Toji_a087.jpg"
+  },
+  {
+   "src": "media/kyoto/toji-kodo/2.jpg",
+   "thumb": "media/kyoto/toji-kodo/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Kakidai, 2015.",
+   "artist": "Kakidai",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Toji_2015.JPG"
+  },
+  {
+   "src": "media/kyoto/toji-kodo/3.jpg",
+   "thumb": "media/kyoto/toji-kodo/t3.jpg",
+   "w": 800,
+   "h": 586,
+   "kind": "photograph",
+   "caption": "Pagoda of the Eastern Temple, Kyoto, Kyoto Prefecture, Kinki Region, Japan",
+   "artist": "Zairon",
+   "date": "10 April 2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kyoto_To-ji_Pagode_17.jpg"
+  }
+ ],
+ "saiji": [
+  {
+   "src": "media/kyoto/saiji/1.jpg",
+   "thumb": "media/kyoto/saiji/t1.jpg",
+   "w": 800,
+   "h": 473,
+   "kind": "reconstruction",
+   "caption": "Reconstruction by Wikiwikiyarou.",
+   "artist": "Wikiwikiyarou",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%AF%BA%E5%BE%A9%E5%85%83%E6%A8%A1%E5%9E%8B.jpg"
+  },
+  {
+   "src": "media/kyoto/saiji/2.jpg",
+   "thumb": "media/kyoto/saiji/t2.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "photograph",
+   "caption": "Photograph by Saigen Jiro, 2014.",
+   "artist": "Saigen Jiro",
+   "date": "2014",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Sai-ji-ato_sekihi.JPG"
+  }
+ ],
+ "shinsen-en": [],
+ "kiyomizu": [
+  {
+   "src": "media/kyoto/kiyomizu/1.jpg",
+   "thumb": "media/kyoto/kiyomizu/t1.jpg",
+   "w": 800,
+   "h": 616,
+   "kind": "artwork",
+   "caption": "Fotograf: Adolfo Farsari (Nagasaki ID 4245). “Kiyomizu, Kyoto”. (einbelichteter Original-Titel). Kiyomizu-dera, Haupthalle (Kyoto). Schwarzweißes Albumin-Foto ca.",
+   "artist": "Adolfo Farsari",
+   "date": "circa 1880",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Circa_1880_detail,_from-_Adolfo_Farsari_-_Kiyomizu_Kyoto_(cropped).jpg"
+  },
+  {
+   "src": "media/kyoto/kiyomizu/2.jpg",
+   "thumb": "media/kyoto/kiyomizu/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "Photograph by Jordy Meow, 2012.",
+   "artist": "Jordy Meow",
+   "date": "2012",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kiyomizu.jpg"
+  },
+  {
+   "src": "media/kyoto/kiyomizu/3.jpg",
+   "thumb": "media/kyoto/kiyomizu/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "A west view of the Nio-mon gate, Kiyomizu-dera Temple, Kyoto",
+   "artist": "DXR",
+   "date": "2019",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Nio-mon,_Kiyomizu-dera_Temple,_Kyoto,_West_view_20190416_1.jpg"
+  }
+ ],
+ "yasaka-shrine": [
+  {
+   "src": "media/kyoto/yasaka-shrine/1.jpg",
+   "thumb": "media/kyoto/yasaka-shrine/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Yasaka_jinja.jpg"
+  },
+  {
+   "src": "media/kyoto/yasaka-shrine/2.jpg",
+   "thumb": "media/kyoto/yasaka-shrine/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Main gate of Yasaka Shrine, Kyoto, Kyoto Prefecture, Japan",
+   "artist": "Bernard Gagnon",
+   "date": "2008",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Yasaka_Shrine_01.jpg"
+  }
+ ],
+ "yasaka-pagoda": [],
+ "sanjusangendo": [
+  {
+   "src": "media/kyoto/sanjusangendo/1.jpg",
+   "thumb": "media/kyoto/sanjusangendo/t1.jpg",
+   "w": 800,
+   "h": 542,
+   "kind": "engraving",
+   "caption": "Perspective Print of the Sanjūsangendō in Kyōto Artwork by Japanese ukiyo-e artist Utagawa Toyoharu (1735–1814)",
+   "artist": "Utagawa Toyoharu",
+   "date": "circa 1770",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Utagawa_Toyoharu_04.jpg"
+  },
+  {
+   "src": "media/kyoto/sanjusangendo/3.jpg",
+   "thumb": "media/kyoto/sanjusangendo/t3.jpg",
+   "w": 800,
+   "h": 602,
+   "kind": "artwork",
+   "caption": "Artwork by Kusakabe Kimbei, 1880.",
+   "artist": "Kusakabe Kimbei",
+   "date": "1880",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:1363_Sanjiu_Sangendo.jpg"
+  },
+  {
+   "src": "media/kyoto/sanjusangendo/4.jpg",
+   "thumb": "media/kyoto/sanjusangendo/t4.jpg",
+   "w": 800,
+   "h": 746,
+   "kind": "artwork",
+   "caption": "Taira no Kiyomori (1118-1181), realist portrait or nise-e. He was a military leader and kugyō of the late Heian period of Japan. [Completed] Late Kamakura period. [Artists] Tamenobu Fujiwara and Takenobu (Fujiwara).",
+   "artist": "Artist: Fujiwara Tamenobu (藤原為信 - ためのぶ) and Takenobu (豪信 たけのぶ) (both dates of birth and…",
+   "date": "Circa 1300 (copied in 1863)",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Taira_no_Kiyomori_Portrait_by_Fujiwara_Tamenobu_and_Takenobu.png"
+  },
+  {
+   "src": "media/kyoto/sanjusangendo/2.jpg",
+   "thumb": "media/kyoto/sanjusangendo/t2.jpg",
+   "w": 800,
+   "h": 516,
+   "kind": "photograph",
+   "caption": "Photograph by Akonnchiroll, 18 March 2022.",
+   "artist": "Akonnchiroll",
+   "date": "18 March 2022",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sanjusangendo_2022.jpg"
+  },
+  {
+   "src": "media/kyoto/sanjusangendo/5.jpg",
+   "thumb": "media/kyoto/sanjusangendo/t5.jpg",
+   "w": 731,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph by Fujiwara no Tamenobu, Former half of 14th century.",
+   "artist": "Fujiwara no Tamenobu",
+   "date": "Former half of 14th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Emperor_Go-Shirakawa2.jpg"
+  }
+ ],
+ "tsuchimikado-dono": [
+  {
+   "src": "media/kyoto/tsuchimikado-dono/1.jpg",
+   "thumb": "media/kyoto/tsuchimikado-dono/t1.jpg",
+   "w": 800,
+   "h": 580,
+   "kind": "reconstruction",
+   "caption": "Miniature Model of the Higashi-Sanjō Dono in Kyoto.",
+   "artist": "Wikiwikiyarou",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Miniature_Model_of_HigashiSanjoDono.jpg"
+  },
+  {
+   "src": "media/kyoto/tsuchimikado-dono/2.jpg",
+   "thumb": "media/kyoto/tsuchimikado-dono/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Room of the Saiō (Ise priest) at Saikū, late Heian period, museum reconstruction. The Saiō sits on a dais, with a byōbu behind her, a kichō to her left, and a boxlike chōdai to her right.",
+   "artist": "Yanajin33",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Saik%C5%AB_Historical_Museum_-_Display_item05_-_The_room_of_Sai%C3%B4.jpg"
+  },
+  {
+   "src": "media/kyoto/tsuchimikado-dono/3.jpg",
+   "thumb": "media/kyoto/tsuchimikado-dono/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Reconstruction by Yanajin33.",
+   "artist": "Yanajin33",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Saik%C5%AB_Historical_Museum_-_Display_item04_-_The_palace_of_Sai%C3%B4_-_Miniature_model.jpg"
+  },
+  {
+   "src": "media/kyoto/tsuchimikado-dono/4.jpg",
+   "thumb": "media/kyoto/tsuchimikado-dono/t4.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "Reconstruction.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Himeji_model7.JPG"
+  }
+ ],
+ "hana-no-gosho": [
+  {
+   "src": "media/kyoto/hana-no-gosho/1.jpg",
+   "thumb": "media/kyoto/hana-no-gosho/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by PlusMinus, 2006.",
+   "artist": "PlusMinus",
+   "date": "2006",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:KikusuiBoko.jpg"
+  },
+  {
+   "src": "media/kyoto/hana-no-gosho/2.jpg",
+   "thumb": "media/kyoto/hana-no-gosho/t2.jpg",
+   "w": 800,
+   "h": 525,
+   "kind": "photograph",
+   "caption": "Photograph by Saigen Jiro, 2017.",
+   "artist": "Saigen Jiro",
+   "date": "2017",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Muromachi-bakufu-ato_sekihi.jpg"
+  }
+ ],
+ "shokokuji": [
+  {
+   "src": "media/kyoto/shokokuji/1.jpg",
+   "thumb": "media/kyoto/shokokuji/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Shōkoku-ji in Kyoto, Kyoto prefecture, Japan",
+   "artist": "663highland",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:150815_Shokokuji_Kyoto_Japan02s3.jpg"
+  },
+  {
+   "src": "media/kyoto/shokokuji/2.jpg",
+   "thumb": "media/kyoto/shokokuji/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Syokokuji Hattou , kyoto japan",
+   "artist": "PlusMinus",
+   "date": "2005",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Syokokuji_hattou.jpg"
+  }
+ ],
+ "kenninji": [
+  {
+   "src": "media/kyoto/kenninji/1.jpg",
+   "thumb": "media/kyoto/kenninji/t1.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Detail of Twin Dragons Ceiling Painting - by Koizumi Junsaku - Hodo Hall - Kennin-ji Zen Temple - Kyoto - Japan",
+   "artist": "Adam Jones from Kelowna, BC, Canada",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Detail_of_Twin_Dragons_Ceiling_Painting_-_by_Koizumi_Junsaku_-_Hodo_Hall_-_Kennin-ji_Zen_Temple_-_Kyoto_-_Japan_(47928781786).jpg"
+  },
+  {
+   "src": "media/kyoto/kenninji/2.jpg",
+   "thumb": "media/kyoto/kenninji/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "At Kennin-ji in Higashiyama-ku, Kyoto, Kyoto prefecture, Japan.",
+   "artist": "663highland",
+   "date": "24 January 2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:150124_Kenninji_Kyoto_Japan01s3.jpg"
+  },
+  {
+   "src": "media/kyoto/kenninji/3.jpg",
+   "thumb": "media/kyoto/kenninji/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Kennin-ji in Higashiyama-ku, Kyoto, Kyoto Prefecture, Japan",
+   "artist": "663highland",
+   "date": "2009",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Kenninji_Kyoto07n3200.jpg"
+  }
+ ],
+ "nijo-castle": [
+  {
+   "src": "media/kyoto/nijo-castle/1.jpg",
+   "thumb": "media/kyoto/nijo-castle/t1.jpg",
+   "w": 800,
+   "h": 602,
+   "kind": "photograph",
+   "caption": "Photograph.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:NinomaruPalace.jpg"
+  },
+  {
+   "src": "media/kyoto/nijo-castle/2.jpg",
+   "thumb": "media/kyoto/nijo-castle/t2.jpg",
+   "w": 800,
+   "h": 389,
+   "kind": "photograph",
+   "caption": "Walkway in Seiryu-en garden",
+   "artist": "Monjur Mourshed",
+   "date": "2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Walkway_in_Seiryu-en_garden.jpg"
+  }
+ ],
+ "higashi-honganji": [
+  {
+   "src": "media/kyoto/higashi-honganji/1.jpg",
+   "thumb": "media/kyoto/higashi-honganji/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Higashi Honganji in Kyoto, Kyoto prefecture, Japan",
+   "artist": "663highland",
+   "date": "16 February 2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:170216_Higashi_Honganji_Kyoto_Japan03bs5.jpg"
+  },
+  {
+   "src": "media/kyoto/higashi-honganji/2.jpg",
+   "thumb": "media/kyoto/higashi-honganji/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Higashi Honganji in Kyoto, Kyoto prefecture, Japan",
+   "artist": "663highland",
+   "date": "16 February 2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:170216_Higashi_Honganji_Kyoto_Japan10n.jpg"
+  }
+ ],
+ "nishi-honganji": [
+  {
+   "src": "media/kyoto/nishi-honganji/1.jpg",
+   "thumb": "media/kyoto/nishi-honganji/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Nishi Honganji in Kyoto, Kyoto prefecture, Japan",
+   "artist": "663highland",
+   "date": "16 February 2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:170216_Nishi_Honganji_Kyoto_Japan03s4.jpg"
+  },
+  {
+   "src": "media/kyoto/nishi-honganji/2.jpg",
+   "thumb": "media/kyoto/nishi-honganji/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Nekosuki, 2011.",
+   "artist": "Nekosuki",
+   "date": "2011",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hongan-ji_National_Treasure_World_heritage_Kyoto_%E5%9B%BD%E5%AE%9D%E3%83%BB%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A3_%E6%9C%AC%E9%A1%98%E5%AF%BA_%E4%BA%AC%E9%83%BD447.JPG"
+  }
+ ],
+ "gosho": [
+  {
+   "src": "media/kyoto/gosho/1.jpg",
+   "thumb": "media/kyoto/gosho/t1.jpg",
+   "w": 800,
+   "h": 532,
+   "kind": "reconstruction",
+   "caption": "Scale model of Kyoto imperial palace",
+   "artist": "Wikiwikiyarou",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Scale_model_of_Kyoto_imperial_palace.jpg"
+  },
+  {
+   "src": "media/kyoto/gosho/2.jpg",
+   "thumb": "media/kyoto/gosho/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "The Mie-do or Founder's Hall at Ninna-ji. It was built as part of the temple reconstruction in the 17th century after the temple complex was largely destroyed by fire during the Onin War in the 15th century.",
+   "artist": "BrianAdler",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Mie-do_(Founders_Hall)_At_Ninna-ji.JPG"
+  },
+  {
+   "src": "media/kyoto/gosho/3.jpg",
+   "thumb": "media/kyoto/gosho/t3.jpg",
+   "w": 800,
+   "h": 564,
+   "kind": "artwork",
+   "caption": "Artwork by Editorfree1011, 1845.",
+   "artist": "Editorfree1011",
+   "date": "1845",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Genpuku_of_Mikado.jpg"
+  },
+  {
+   "src": "media/kyoto/gosho/4.jpg",
+   "thumb": "media/kyoto/gosho/t4.jpg",
+   "w": 800,
+   "h": 536,
+   "kind": "artwork",
+   "caption": "Artwork by 首相官邸, circa 1846.",
+   "artist": "首相官邸",
+   "date": "circa 1846",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Enthronement_Ceremony_of_Emperor_K%C5%8Dmei.png"
+  },
+  {
+   "src": "media/kyoto/gosho/5.jpg",
+   "thumb": "media/kyoto/gosho/t5.jpg",
+   "w": 800,
+   "h": 560,
+   "kind": "artwork",
+   "caption": "Artwork by Unknown authorUnknown author, 1887.",
+   "artist": "Unknown authorUnknown author",
+   "date": "1887",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Seiryoden1.jpg"
+  }
+ ],
+ "sanjo-bridge": [
+  {
+   "src": "media/kyoto/sanjo-bridge/2.jpg",
+   "thumb": "media/kyoto/sanjo-bridge/t2.jpg",
+   "w": 800,
+   "h": 551,
+   "kind": "engraving",
+   "caption": "Sanjo Ohashi on the Tokaido, ukiyo-e prints by Hiroshige",
+   "artist": "Utagawa Hiroshige",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Tokaido_Sanjoohashi.jpg"
+  },
+  {
+   "src": "media/kyoto/sanjo-bridge/1.jpg",
+   "thumb": "media/kyoto/sanjo-bridge/t1.jpg",
+   "w": 800,
+   "h": 646,
+   "kind": "photograph",
+   "caption": "Photograph by Blancoyrojo, 2015.",
+   "artist": "Blancoyrojo",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kyoto_Sanjo_hashi.JPG"
+  }
+ ],
+ "gojo-bridge": [],
+ "chion-in-sanmon": [
+  {
+   "src": "media/kyoto/chion-in-sanmon/1.jpg",
+   "thumb": "media/kyoto/chion-in-sanmon/t1.jpg",
+   "w": 800,
+   "h": 758,
+   "kind": "artwork",
+   "caption": "Artwork, 13th centurydate Kamakura period….",
+   "artist": "Unknown",
+   "date": "13th centurydate Kamakura period…",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Rapid_descent.jpg"
+  },
+  {
+   "src": "media/kyoto/chion-in-sanmon/2.jpg",
+   "thumb": "media/kyoto/chion-in-sanmon/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Lombroso, 2006.",
+   "artist": "Lombroso",
+   "date": "2006",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Chion-in_(Mieido).jpg"
+  },
+  {
+   "src": "media/kyoto/chion-in-sanmon/3.jpg",
+   "thumb": "media/kyoto/chion-in-sanmon/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Wooden gate with open double door leading to the garden of Isshinin Buddhist temple, within the vast compounds of Chion-in, Higashiyama Ward, Kyoto, Japan. focus stacked image obtained from 2 pictures.",
+   "artist": "Basile Morin",
+   "date": "12 June 2019",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wooden_gate_with_open_double_door_leading_to_the_garden_of_Isshinin_Buddhist_temple_in_the_compounds_of_Chion-in_Kyoto_Japan.jpg"
+  }
+ ],
+ "hokoji-daibutsuden": [
+  {
+   "src": "media/kyoto/hokoji-daibutsuden/1.jpg",
+   "thumb": "media/kyoto/hokoji-daibutsuden/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Hōkō-ji, a buddhist temple in Kyoto, Kyoto prefecture, Japan",
+   "artist": "663highland",
+   "date": "2005",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Hokoji_Kyoto01bs1920.jpg"
+  },
+  {
+   "src": "media/kyoto/hokoji-daibutsuden/2.jpg",
+   "thumb": "media/kyoto/hokoji-daibutsuden/t2.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "This photograph shows the bell at Hokoji in Kyoto, Japan. I took the photo and contribute my rights in the file to the public domain; individuals and organizations retain rights to images in the file. Detail",
+   "artist": "No machine-readable author provided. Fg2 assumed (based on copyright claims).",
+   "date": "7 January 2006 (original upload date)",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Hokoji-Bell-M1767.jpg"
+  }
+ ]
+}
