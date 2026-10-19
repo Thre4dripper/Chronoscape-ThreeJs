@@ -485,7 +485,9 @@
           "subtitle": "The island capital, 1519",
           "at": [-99.13, 19.43],
           "glyph": "steps",
-          "blurb": "The Mexica capital on Lake Texcoco, joined to the shore by causeways, with the Templo Mayor at its heart."
+          "blurb": "The Mexica capital on Lake Texcoco, joined to the shore by causeways, with the Templo Mayor at its heart.",
+          "city": "tenochtitlan",
+          "period": "moctezuma-1519"
         },
         {
           "title": "Cusco",
