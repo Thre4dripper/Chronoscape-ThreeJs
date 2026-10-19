@@ -287,6 +287,393 @@
   "size": 158.6,
   "w": 150.0
  },
+ "paris/arena": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "paris/bastille": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 68.0,
+  "ext": "webp",
+  "px": 212,
+  "size": 70.72,
+  "w": 37.0
+ },
+ "paris/cluny-baths": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "d": 70.2,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "paris/cluny-ruins": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "paris/forum": {
+  "cx": 0.0,
+  "cy": 0.0,
+  "d": 90.4,
+  "ext": "webp",
+  "px": 546,
+  "size": 182.0,
+  "w": 175.0
+ },
+ "paris/grand-chatelet": {
+  "cx": 0.0,
+  "cy": 0.16,
+  "d": 40.33,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
+ "paris/grande-galerie": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 26.0,
+  "ext": "webp",
+  "px": 783,
+  "size": 261.04,
+  "w": 251.0
+ },
+ "paris/hotel-de-cluny": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "paris/hotel-de-ville": {
+  "cx": 0.0,
+  "cy": 0.7,
+  "d": 47.2,
+  "ext": "webp",
+  "px": 260,
+  "size": 86.53,
+  "w": 83.2
+ },
+ "paris/hotel-de-ville-1550": {
+  "cx": 0.8,
+  "cy": 0.55,
+  "d": 46.9,
+  "ext": "webp",
+  "px": 255,
+  "size": 84.86,
+  "w": 81.6
+ },
+ "paris/innocents": {
+  "cx": 0.05,
+  "cy": -0.0,
+  "d": 55.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.1,
+  "w": 100.1
+ },
+ "paris/innocents-1250": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 55.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "paris/innocents-1789": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 55.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "paris/les-halles": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "paris/louvre-1550": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 165.0,
+  "ext": "webp",
+  "px": 515,
+  "size": 171.6,
+  "w": 165.0
+ },
+ "paris/louvre-1789": {
+  "cx": 0.25,
+  "cy": -0.0,
+  "d": 165.0,
+  "ext": "webp",
+  "px": 516,
+  "size": 172.12,
+  "w": 165.5
+ },
+ "paris/louvre-fortress": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 165.0,
+  "ext": "webp",
+  "px": 515,
+  "size": 171.6,
+  "w": 165.0
+ },
+ "paris/notre-dame": {
+  "cx": 0.0,
+  "cy": 0.7,
+  "d": 129.4,
+  "ext": "webp",
+  "px": 404,
+  "size": 134.58,
+  "w": 49.45
+ },
+ "paris/notre-dame-1789": {
+  "cx": 0.0,
+  "cy": 0.7,
+  "d": 129.4,
+  "ext": "webp",
+  "px": 404,
+  "size": 134.58,
+  "w": 49.45
+ },
+ "paris/palais-cite": {
+  "cx": 0.0,
+  "cy": 1.41,
+  "d": 72.82,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 150.0
+ },
+ "paris/palais-cite-1250": {
+  "cx": -0.1,
+  "cy": -0.0,
+  "d": 72.4,
+  "ext": "webp",
+  "px": 469,
+  "size": 156.21,
+  "w": 150.2
+ },
+ "paris/palais-cite-capetian": {
+  "cx": -0.1,
+  "cy": -0.0,
+  "d": 72.4,
+  "ext": "webp",
+  "px": 469,
+  "size": 156.21,
+  "w": 150.2
+ },
+ "paris/pantheon": {
+  "cx": 0.0,
+  "cy": 1.05,
+  "d": 112.1,
+  "ext": "webp",
+  "px": 350,
+  "size": 116.58,
+  "w": 84.35
+ },
+ "paris/philippe-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 20.0
+ },
+ "paris/place-royale": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 141.0,
+  "ext": "webp",
+  "px": 440,
+  "size": 146.64,
+  "w": 140.0
+ },
+ "paris/pont-au-change": {
+  "cx": -3.88,
+  "cy": -0.0,
+  "d": 111.2,
+  "ext": "webp",
+  "px": 347,
+  "size": 115.65,
+  "w": 35.75
+ },
+ "paris/pont-au-change-1789": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 36.0
+ },
+ "paris/pont-neuf": {
+  "cx": -3.15,
+  "cy": -2.5,
+  "d": 325.0,
+  "ext": "webp",
+  "px": 1014,
+  "size": 338.0,
+  "w": 33.9
+ },
+ "paris/pont-notre-dame": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 106.0,
+  "ext": "webp",
+  "px": 331,
+  "size": 110.24,
+  "w": 28.0
+ },
+ "paris/pont-notre-dame-1789": {
+  "cx": -3.2,
+  "cy": -0.0,
+  "d": 106.0,
+  "ext": "webp",
+  "px": 331,
+  "size": 110.24,
+  "w": 34.4
+ },
+ "paris/saint-etienne": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "d": 128.7,
+  "ext": "webp",
+  "px": 402,
+  "size": 133.85,
+  "w": 48.0
+ },
+ "paris/saint-eustache": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 105.0,
+  "ext": "webp",
+  "px": 328,
+  "size": 109.2,
+  "w": 45.45
+ },
+ "paris/saint-eustache-1550": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 105.0,
+  "ext": "webp",
+  "px": 328,
+  "size": 109.2,
+  "w": 44.0
+ },
+ "paris/saint-germain": {
+  "cx": 0.0,
+  "cy": -0.7,
+  "d": 88.6,
+  "ext": "webp",
+  "px": 276,
+  "size": 92.14,
+  "w": 30.0
+ },
+ "paris/saint-jacques": {
+  "cx": 0.0,
+  "cy": -0.66,
+  "d": 56.67,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.94,
+  "w": 22.0
+ },
+ "paris/saint-jacques-old": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "d": 55.5,
+  "ext": "webp",
+  "px": 192,
+  "size": 57.72,
+  "w": 22.0
+ },
+ "paris/sainte-chapelle": {
+  "cx": 0.0,
+  "cy": -0.48,
+  "d": 37.55,
+  "ext": "webp",
+  "px": 192,
+  "size": 39.05,
+  "w": 19.4
+ },
+ "paris/sainte-genevieve-abbey": {
+  "cx": -2.45,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 88.9
+ },
+ "paris/sorbonne": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "d": 90.4,
+  "ext": "webp",
+  "px": 282,
+  "size": 94.02,
+  "w": 70.0
+ },
+ "paris/sorbonne-college": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 70.0
+ },
+ "paris/temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 114.9,
+  "ext": "webp",
+  "px": 358,
+  "size": 119.5,
+  "w": 114.9
+ },
+ "paris/tour-de-nesle": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 26.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 27.04,
+  "w": 26.0
+ },
+ "paris/tuileries": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 270.8,
+  "ext": "webp",
+  "px": 845,
+  "size": 281.63,
+  "w": 36.0
+ },
  "props/african/bakery": {
   "cx": 0.0,
   "cy": -0.01,
