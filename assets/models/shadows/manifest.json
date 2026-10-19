@@ -1048,5 +1048,150 @@
   "cx": 0.0,
   "cy": -0.19,
   "size": 109.14
+ },
+ "tenochtitlan/aqueduct": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 152.5
+ },
+ "tenochtitlan/aqueduct-1620": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 159.59
+ },
+ "tenochtitlan/axayacatl-palace": {
+  "cx": 0.0,
+  "cy": 0.75,
+  "size": 168.54
+ },
+ "tenochtitlan/ballcourt": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 71.2
+ },
+ "tenochtitlan/calmecac": {
+  "cx": 0.0,
+  "cy": 1.0,
+  "size": 78.34
+ },
+ "tenochtitlan/cathedral-1620": {
+  "cx": 0.0,
+  "cy": -0.5,
+  "size": 185.35
+ },
+ "tenochtitlan/dike": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 320.6
+ },
+ "tenochtitlan/house-of-eagles": {
+  "cx": 0.0,
+  "cy": 2.6,
+  "size": 61.63
+ },
+ "tenochtitlan/huey-tzompantli": {
+  "cx": 0.0,
+  "cy": 1.12,
+  "size": 58.89
+ },
+ "tenochtitlan/moctezuma-palace": {
+  "cx": 0.0,
+  "cy": 0.75,
+  "size": 264.68
+ },
+ "tenochtitlan/plaza-1519": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 223.56
+ },
+ "tenochtitlan/plaza-mayor": {
+  "cx": 0.1,
+  "cy": 0.17,
+  "size": 223.14
+ },
+ "tenochtitlan/sacred-precinct": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 338.63
+ },
+ "tenochtitlan/sacred-precinct-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 315.74
+ },
+ "tenochtitlan/san-francisco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 246.55
+ },
+ "tenochtitlan/santa-cruz-tlatelolco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 186.55
+ },
+ "tenochtitlan/temple-of-ehecatl": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 87.56
+ },
+ "tenochtitlan/templo-mayor": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 204.65
+ },
+ "tenochtitlan/templo-mayor-1350": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 128.83
+ },
+ "tenochtitlan/templo-mayor-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 172.75
+ },
+ "tenochtitlan/templo-mayor-1620": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 123.39
+ },
+ "tenochtitlan/tlatelolco-market": {
+  "cx": -0.35,
+  "cy": -0.0,
+  "size": 244.04
+ },
+ "tenochtitlan/tlatelolco-market-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 243.34
+ },
+ "tenochtitlan/tlatelolco-temple": {
+  "cx": 0.0,
+  "cy": 0.37,
+  "size": 312.17
+ },
+ "tenochtitlan/tlatelolco-temple-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 270.22
+ },
+ "tenochtitlan/toltec-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 49.0
+ },
+ "tenochtitlan/totocalli": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 141.91
+ },
+ "tenochtitlan/viceregal-palace": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "size": 271.32
+ },
+ "tenochtitlan/xoloc": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 76.68
  }
 }
