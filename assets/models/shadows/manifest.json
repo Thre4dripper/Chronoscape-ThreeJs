@@ -14,6 +14,151 @@
   "cy": 6.25,
   "size": 1084.3
  },
+ "kyoto/chion-in-sanmon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 118.67
+ },
+ "kyoto/chodo-in": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 290.99
+ },
+ "kyoto/dairi": {
+  "cx": 0.0,
+  "cy": 1.85,
+  "size": 352.9
+ },
+ "kyoto/gojo-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 124.33
+ },
+ "kyoto/gosho": {
+  "cx": 3.47,
+  "cy": 1.85,
+  "size": 504.98
+ },
+ "kyoto/hana-no-gosho": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 257.2
+ },
+ "kyoto/higashi-honganji": {
+  "cx": 0.0,
+  "cy": 0.61,
+  "size": 323.29
+ },
+ "kyoto/hokoji-daibutsuden": {
+  "cx": 0.0,
+  "cy": 0.13,
+  "size": 178.56
+ },
+ "kyoto/kenninji": {
+  "cx": 0.0,
+  "cy": 0.8,
+  "size": 291.69
+ },
+ "kyoto/kiyomizu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 289.41
+ },
+ "kyoto/kiyomizu-800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 264.39
+ },
+ "kyoto/nijo-castle": {
+  "cx": 0.5,
+  "cy": -0.0,
+  "size": 597.29
+ },
+ "kyoto/nishi-honganji": {
+  "cx": 0.0,
+  "cy": 0.61,
+  "size": 323.01
+ },
+ "kyoto/rashomon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 91.8
+ },
+ "kyoto/rashomon-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 58.58
+ },
+ "kyoto/saiji": {
+  "cx": 4.1,
+  "cy": 0.1,
+  "size": 256.2
+ },
+ "kyoto/sanjo-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 124.33
+ },
+ "kyoto/sanjusangendo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 163.21
+ },
+ "kyoto/shinsen-en": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 277.66
+ },
+ "kyoto/shinsen-en-small": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 271.32
+ },
+ "kyoto/shokokuji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 463.37
+ },
+ "kyoto/shokokuji-1750": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 317.79
+ },
+ "kyoto/suzakumon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 100.61
+ },
+ "kyoto/toji": {
+  "cx": -4.1,
+  "cy": 0.1,
+  "size": 256.2
+ },
+ "kyoto/toji-800": {
+  "cx": -4.1,
+  "cy": 0.1,
+  "size": 213.48
+ },
+ "kyoto/toji-kodo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 87.1
+ },
+ "kyoto/tsuchimikado-dono": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 257.2
+ },
+ "kyoto/yasaka-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 120.91
+ },
+ "kyoto/yasaka-shrine": {
+  "cx": 0.0,
+  "cy": 1.25,
+  "size": 199.99
+ },
  "props/aqueduct-bay": {
   "cx": 0.0,
   "cy": -0.0,
