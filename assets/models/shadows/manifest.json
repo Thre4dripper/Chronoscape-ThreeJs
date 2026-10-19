@@ -159,6 +159,221 @@
   "cy": 1.25,
   "size": 199.99
  },
+ "paris/arena": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 163.2
+ },
+ "paris/bastille": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 129.1
+ },
+ "paris/cluny-baths": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "size": 134.0
+ },
+ "paris/cluny-ruins": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 128.6
+ },
+ "paris/forum": {
+  "cx": 0.0,
+  "cy": 0.0,
+  "size": 219.9
+ },
+ "paris/grand-chatelet": {
+  "cx": 0.0,
+  "cy": 0.16,
+  "size": 119.48
+ },
+ "paris/grande-galerie": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 305.8
+ },
+ "paris/hotel-de-cluny": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 141.56
+ },
+ "paris/hotel-de-ville": {
+  "cx": 0.0,
+  "cy": 0.7,
+  "size": 163.2
+ },
+ "paris/hotel-de-ville-1550": {
+  "cx": 0.8,
+  "cy": 0.55,
+  "size": 145.4
+ },
+ "paris/innocents": {
+  "cx": 0.05,
+  "cy": -0.0,
+  "size": 157.6
+ },
+ "paris/innocents-1250": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 157.5
+ },
+ "paris/innocents-1789": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 140.54
+ },
+ "paris/les-halles": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 146.8
+ },
+ "paris/louvre-1550": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 234.2
+ },
+ "paris/louvre-1789": {
+  "cx": 0.25,
+  "cy": -0.0,
+  "size": 259.9
+ },
+ "paris/louvre-fortress": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 255.55
+ },
+ "paris/notre-dame": {
+  "cx": 0.0,
+  "cy": 0.7,
+  "size": 314.34
+ },
+ "paris/notre-dame-1789": {
+  "cx": 0.0,
+  "cy": 0.7,
+  "size": 267.36
+ },
+ "paris/palais-cite": {
+  "cx": 0.0,
+  "cy": 1.41,
+  "size": 242.6
+ },
+ "paris/palais-cite-1250": {
+  "cx": -0.1,
+  "cy": -0.0,
+  "size": 212.2
+ },
+ "paris/palais-cite-capetian": {
+  "cx": -0.1,
+  "cy": -0.0,
+  "size": 212.2
+ },
+ "paris/pantheon": {
+  "cx": 0.0,
+  "cy": 1.05,
+  "size": 260.32
+ },
+ "paris/philippe-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 139.78
+ },
+ "paris/place-royale": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 204.8
+ },
+ "paris/pont-au-change": {
+  "cx": -3.88,
+  "cy": -0.0,
+  "size": 161.8
+ },
+ "paris/pont-au-change-1789": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 136.18
+ },
+ "paris/pont-neuf": {
+  "cx": -3.15,
+  "cy": -2.5,
+  "size": 377.1
+ },
+ "paris/pont-notre-dame": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 156.12
+ },
+ "paris/pont-notre-dame-1789": {
+  "cx": -3.2,
+  "cy": -0.0,
+  "size": 148.2
+ },
+ "paris/saint-etienne": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "size": 190.7
+ },
+ "paris/saint-eustache": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 201.85
+ },
+ "paris/saint-eustache-1550": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 189.25
+ },
+ "paris/saint-germain": {
+  "cx": 0.0,
+  "cy": -0.7,
+  "size": 179.4
+ },
+ "paris/saint-jacques": {
+  "cx": 0.0,
+  "cy": -0.66,
+  "size": 170.87
+ },
+ "paris/saint-jacques-old": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "size": 113.0
+ },
+ "paris/sainte-chapelle": {
+  "cx": 0.0,
+  "cy": -0.48,
+  "size": 182.89
+ },
+ "paris/sainte-genevieve-abbey": {
+  "cx": -2.45,
+  "cy": -0.0,
+  "size": 197.2
+ },
+ "paris/sorbonne": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "size": 183.9
+ },
+ "paris/sorbonne-college": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 150.2
+ },
+ "paris/temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 214.7
+ },
+ "paris/tour-de-nesle": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 100.81
+ },
+ "paris/tuileries": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 359.8
+ },
  "props/aqueduct-bay": {
   "cx": 0.0,
   "cy": -0.0,
