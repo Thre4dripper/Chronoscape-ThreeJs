@@ -280,7 +280,9 @@
           "subtitle": "Gothic Paris, 1250",
           "at": [2.35, 48.86],
           "glyph": "cathedral",
-          "blurb": "Notre-Dame and the Sainte-Chapelle on the Île de la Cité, the university on the Left Bank, the merchants on the Right."
+          "blurb": "Notre-Dame and the Sainte-Chapelle on the Île de la Cité, the university on the Left Bank, the merchants on the Right.",
+          "city": "paris",
+          "period": "philippe-1250"
         },
         {
           "title": "Venice",

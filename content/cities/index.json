@@ -2,6 +2,7 @@
   "cities": [
     { "id": "rome", "name": "Rome", "subtitle": "Ancient World", "status": "playable" },
     { "id": "delhi", "name": "Delhi", "subtitle": "Shahjahanabad", "status": "test" },
-    { "id": "kyoto", "name": "Kyoto", "subtitle": "Heian-kyō, the Capital of Peace and Tranquillity", "status": "playable" }
+    { "id": "kyoto", "name": "Kyoto", "subtitle": "Heian-kyō, the Capital of Peace and Tranquillity", "status": "playable" },
+    { "id": "paris", "name": "Paris", "subtitle": "Lutetia to the Revolution", "status": "playable" }
   ]
 }
