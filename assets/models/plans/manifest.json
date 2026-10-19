@@ -2635,5 +2635,266 @@
   "px": 218,
   "size": 72.8,
   "w": 70.0
+ },
+ "tenochtitlan/aqueduct": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 34.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "tenochtitlan/aqueduct-1620": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 34.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "tenochtitlan/axayacatl-palace": {
+  "cx": 0.0,
+  "cy": 0.75,
+  "d": 121.5,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "tenochtitlan/ballcourt": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 21.75,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.24,
+  "w": 56.0
+ },
+ "tenochtitlan/calmecac": {
+  "cx": 0.0,
+  "cy": 1.0,
+  "d": 32.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
+ "tenochtitlan/cathedral-1620": {
+  "cx": 0.0,
+  "cy": -0.5,
+  "d": 131.0,
+  "ext": "webp",
+  "px": 409,
+  "size": 136.24,
+  "w": 70.0
+ },
+ "tenochtitlan/dike": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 24.0
+ },
+ "tenochtitlan/house-of-eagles": {
+  "cx": 0.0,
+  "cy": 2.6,
+  "d": 33.2,
+  "ext": "webp",
+  "px": 192,
+  "size": 41.6,
+  "w": 40.0
+ },
+ "tenochtitlan/huey-tzompantli": {
+  "cx": 0.0,
+  "cy": 1.12,
+  "d": 14.75,
+  "ext": "webp",
+  "px": 192,
+  "size": 37.95,
+  "w": 36.49
+ },
+ "tenochtitlan/moctezuma-palace": {
+  "cx": 0.0,
+  "cy": 0.75,
+  "d": 231.5,
+  "ext": "webp",
+  "px": 722,
+  "size": 240.76,
+  "w": 210.0
+ },
+ "tenochtitlan/plaza-1519": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 190.0,
+  "ext": "webp",
+  "px": 593,
+  "size": 197.6,
+  "w": 175.0
+ },
+ "tenochtitlan/plaza-mayor": {
+  "cx": 0.1,
+  "cy": 0.17,
+  "d": 190.35,
+  "ext": "webp",
+  "px": 594,
+  "size": 197.96,
+  "w": 175.5
+ },
+ "tenochtitlan/sacred-precinct": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 304.8,
+  "ext": "webp",
+  "px": 951,
+  "size": 316.99,
+  "w": 294.8
+ },
+ "tenochtitlan/sacred-precinct-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 290.0
+ },
+ "tenochtitlan/san-francisco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 150.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 170.0
+ },
+ "tenochtitlan/santa-cruz-tlatelolco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "tenochtitlan/temple-of-ehecatl": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "d": 40.5,
+  "ext": "webp",
+  "px": 192,
+  "size": 42.12,
+  "w": 34.4
+ },
+ "tenochtitlan/templo-mayor": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.4,
+  "ext": "webp",
+  "px": 313,
+  "size": 104.42,
+  "w": 100.4
+ },
+ "tenochtitlan/templo-mayor-1350": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "tenochtitlan/templo-mayor-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.4,
+  "ext": "webp",
+  "px": 313,
+  "size": 104.42,
+  "w": 100.4
+ },
+ "tenochtitlan/templo-mayor-1620": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "tenochtitlan/tlatelolco-market": {
+  "cx": -0.35,
+  "cy": -0.0,
+  "d": 201.4,
+  "ext": "webp",
+  "px": 689,
+  "size": 229.53,
+  "w": 220.7
+ },
+ "tenochtitlan/tlatelolco-market-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 686,
+  "size": 228.8,
+  "w": 220.0
+ },
+ "tenochtitlan/tlatelolco-temple": {
+  "cx": 0.0,
+  "cy": 0.37,
+  "d": 232.75,
+  "ext": "webp",
+  "px": 726,
+  "size": 242.06,
+  "w": 202.0
+ },
+ "tenochtitlan/tlatelolco-temple-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 230.0,
+  "ext": "webp",
+  "px": 718,
+  "size": 239.2,
+  "w": 200.0
+ },
+ "tenochtitlan/toltec-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 24.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 33.28,
+  "w": 32.0
+ },
+ "tenochtitlan/totocalli": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 91.2,
+  "ext": "webp",
+  "px": 378,
+  "size": 126.05,
+  "w": 121.2
+ },
+ "tenochtitlan/viceregal-palace": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "d": 230.2,
+  "ext": "webp",
+  "px": 718,
+  "size": 239.41,
+  "w": 210.0
+ },
+ "tenochtitlan/xoloc": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 36.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
  }
 }
