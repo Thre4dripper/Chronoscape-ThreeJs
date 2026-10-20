@@ -188,6 +188,249 @@
   "size": 178.88,
   "w": 155.27
  },
+ "cairo/al-aqmar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 35.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 36.4,
+  "w": 30.55
+ },
+ "cairo/al-azhar-1350": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "d": 95.4,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cairo/al-azhar-1600": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "d": 95.4,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cairo/al-azhar-972": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "d": 95.4,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cairo/al-hakim": {
+  "cx": 0.0,
+  "cy": -0.5,
+  "d": 101.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "cairo/al-muayyad": {
+  "cx": 1.07,
+  "cy": -0.0,
+  "d": 95.0,
+  "ext": "webp",
+  "px": 296,
+  "size": 98.8,
+  "w": 82.15
+ },
+ "cairo/amr-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 112.0,
+  "ext": "webp",
+  "px": 374,
+  "size": 124.8,
+  "w": 120.0
+ },
+ "cairo/amr-mosque-700": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 112.0,
+  "ext": "webp",
+  "px": 374,
+  "size": 124.8,
+  "w": 120.0
+ },
+ "cairo/aqueduct-intake": {
+  "cx": -0.5,
+  "cy": -0.0,
+  "d": 45.0,
+  "ext": "webp",
+  "px": 284,
+  "size": 94.64,
+  "w": 91.0
+ },
+ "cairo/bab-al-futuh": {
+  "cx": 0.0,
+  "cy": -0.18,
+  "d": 24.35,
+  "ext": "webp",
+  "px": 192,
+  "size": 30.16,
+  "w": 29.0
+ },
+ "cairo/bab-al-nasr": {
+  "cx": 0.0,
+  "cy": -0.18,
+  "d": 24.35,
+  "ext": "webp",
+  "px": 192,
+  "size": 30.16,
+  "w": 29.0
+ },
+ "cairo/bab-zuwayla": {
+  "cx": 0.0,
+  "cy": -0.18,
+  "d": 26.35,
+  "ext": "webp",
+  "px": 192,
+  "size": 32.24,
+  "w": 31.0
+ },
+ "cairo/bab-zuwayla-1600": {
+  "cx": 0.0,
+  "cy": -0.15,
+  "d": 26.3,
+  "ext": "webp",
+  "px": 192,
+  "size": 32.24,
+  "w": 31.0
+ },
+ "cairo/babylon": {
+  "cx": -2.38,
+  "cy": 0.25,
+  "d": 267.5,
+  "ext": "webp",
+  "px": 835,
+  "size": 278.2,
+  "w": 191.75
+ },
+ "cairo/bulaq": {
+  "cx": 0.0,
+  "cy": -2.25,
+  "d": 224.5,
+  "ext": "webp",
+  "px": 700,
+  "size": 233.48,
+  "w": 140.0
+ },
+ "cairo/citadel": {
+  "cx": 1.73,
+  "cy": -0.0,
+  "d": 410.9,
+  "ext": "webp",
+  "px": 1024,
+  "size": 548.55,
+  "w": 527.45
+ },
+ "cairo/citadel-1600": {
+  "cx": 1.73,
+  "cy": -0.0,
+  "d": 410.9,
+  "ext": "webp",
+  "px": 1024,
+  "size": 548.55,
+  "w": 527.45
+ },
+ "cairo/eastern-palace": {
+  "cx": -1.0,
+  "cy": -0.0,
+  "d": 364.4,
+  "ext": "webp",
+  "px": 1024,
+  "size": 378.98,
+  "w": 266.4
+ },
+ "cairo/ibn-tulun": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 163.6,
+  "ext": "webp",
+  "px": 510,
+  "size": 170.14,
+  "w": 163.6
+ },
+ "cairo/khan-el-khalili": {
+  "cx": -2.11,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 325,
+  "size": 108.38,
+  "w": 104.22
+ },
+ "cairo/nilometer": {
+  "cx": -0.75,
+  "cy": -0.0,
+  "d": 18.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 20.28,
+  "w": 19.5
+ },
+ "cairo/qaitbay": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.9,
+  "ext": "webp",
+  "px": 192,
+  "size": 63.34,
+  "w": 60.9
+ },
+ "cairo/qalawun": {
+  "cx": 1.39,
+  "cy": 0.17,
+  "d": 90.35,
+  "ext": "webp",
+  "px": 321,
+  "size": 107.09,
+  "w": 102.97
+ },
+ "cairo/sultan-hasan": {
+  "cx": 0.0,
+  "cy": -0.31,
+  "d": 151.63,
+  "ext": "webp",
+  "px": 473,
+  "size": 157.7,
+  "w": 72.1
+ },
+ "cairo/tulunid-palace": {
+  "cx": -0.8,
+  "cy": 1.8,
+  "d": 266.8,
+  "ext": "webp",
+  "px": 1024,
+  "size": 396.86,
+  "w": 381.6
+ },
+ "cairo/western-palace": {
+  "cx": 1.8,
+  "cy": -0.0,
+  "d": 203.2,
+  "ext": "webp",
+  "px": 634,
+  "size": 211.33,
+  "w": 156.8
+ },
+ "cairo/wikala-al-ghuri": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "d": 46.69,
+  "ext": "webp",
+  "px": 192,
+  "size": 48.56,
+  "w": 35.6
+ },
  "constantinople/aqueduct-of-valens": {
   "cx": 0.0,
   "cy": -0.0,
