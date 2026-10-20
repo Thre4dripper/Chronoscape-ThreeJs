@@ -609,6 +609,116 @@
   "cy": -0.0,
   "size": 309.84
  },
+ "fatehpur-sikri/agra-gate": {
+  "cx": 0.0,
+  "cy": 0.87,
+  "size": 111.87
+ },
+ "fatehpur-sikri/ajmeri-gate": {
+  "cx": 0.0,
+  "cy": -1.7,
+  "size": 108.25
+ },
+ "fatehpur-sikri/anup-talao": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 48.5
+ },
+ "fatehpur-sikri/babur-garden": {
+  "cx": 0.0,
+  "cy": 0.4,
+  "size": 117.98
+ },
+ "fatehpur-sikri/baoli": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 68.99
+ },
+ "fatehpur-sikri/birbal-house": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 61.41
+ },
+ "fatehpur-sikri/buland-darwaza": {
+  "cx": 0.0,
+  "cy": -0.2,
+  "size": 152.57
+ },
+ "fatehpur-sikri/caravanserai": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 181.29
+ },
+ "fatehpur-sikri/diwan-i-am": {
+  "cx": 0.7,
+  "cy": -0.68,
+  "size": 146.14
+ },
+ "fatehpur-sikri/diwan-i-khas": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 55.85
+ },
+ "fatehpur-sikri/hakims-hammam": {
+  "cx": 0.5,
+  "cy": 0.62,
+  "size": 50.97
+ },
+ "fatehpur-sikri/hathi-pol": {
+  "cx": 0.0,
+  "cy": 2.34,
+  "size": 75.58
+ },
+ "fatehpur-sikri/hiran-minar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 55.48
+ },
+ "fatehpur-sikri/ibadat-khana": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 92.44
+ },
+ "fatehpur-sikri/islam-khan-tomb": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 52.59
+ },
+ "fatehpur-sikri/jama-masjid": {
+  "cx": 0.59,
+  "cy": -1.5,
+  "size": 230.76
+ },
+ "fatehpur-sikri/jodh-bai-palace": {
+  "cx": 0.95,
+  "cy": -0.0,
+  "size": 130.7
+ },
+ "fatehpur-sikri/khwabgah": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 73.36
+ },
+ "fatehpur-sikri/mariam-house": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 53.42
+ },
+ "fatehpur-sikri/naubat-khana": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 75.26
+ },
+ "fatehpur-sikri/panch-mahal": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 72.11
+ },
+ "fatehpur-sikri/salim-chishti-tomb": {
+  "cx": 0.0,
+  "cy": 0.3,
+  "size": 52.07
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
