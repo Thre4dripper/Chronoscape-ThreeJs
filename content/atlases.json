@@ -273,7 +273,9 @@
           "subtitle": "Queen of cities, 1150",
           "at": [28.98, 41.01],
           "glyph": "dome",
-          "blurb": "The Byzantine capital behind its land walls, with Hagia Sophia, the Hippodrome and the harbours of the Golden Horn."
+          "blurb": "The Byzantine capital behind its land walls, with Hagia Sophia, the Hippodrome and the harbours of the Golden Horn.",
+          "city": "constantinople",
+          "period": "komnenian-1150"
         },
         {
           "title": "Paris",

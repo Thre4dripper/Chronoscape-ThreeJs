@@ -1,0 +1,8414 @@
+{
+ "id": "constantinople",
+ "name": "Constantinople",
+ "subtitle": "Queen of Cities",
+ "description": "Constantinople from Constantine's refoundation (330) to Süleyman's Istanbul (1560): the historic peninsula between the Theodosian Land Walls and Seraglio Point, the Golden Horn with Galata and Pera on its north shore, and the mouth of the Bosphorus. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "komnenian-1150",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#DCC8A4",
+   "#CFAE86",
+   "#E4D6BA",
+   "#C49A78",
+   "#D8BC96"
+  ],
+  "roofs": [
+   "#B5694C",
+   "#A85E44",
+   "#C27E5C"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    5208,
+    3717
+   ],
+   "distance": 40,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 150
+ },
+ "map": {
+  "size": [
+   7391,
+   6102
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Sea of Marmara (Propontis)",
+    "path": [
+     [
+      -1523,
+      7789
+     ],
+     [
+      -731,
+      7318
+     ],
+     [
+      -134,
+      7071
+     ],
+     [
+      525,
+      6854
+     ],
+     [
+      1068,
+      6639
+     ],
+     [
+      1555,
+      6418
+     ],
+     [
+      1937,
+      6180
+     ],
+     [
+      2219,
+      6032
+     ],
+     [
+      2620,
+      5880
+     ],
+     [
+      3067,
+      5742
+     ],
+     [
+      3539,
+      5628
+     ],
+     [
+      4415,
+      5450
+     ],
+     [
+      4702,
+      5423
+     ],
+     [
+      5069,
+      5480
+     ],
+     [
+      5171,
+      5481
+     ],
+     [
+      5535,
+      5468
+     ],
+     [
+      5638,
+      5451
+     ],
+     [
+      5738,
+      5421
+     ],
+     [
+      6065,
+      5275
+     ],
+     [
+      6658,
+      5062
+     ],
+     [
+      6751,
+      5014
+     ],
+     [
+      6838,
+      4955
+     ],
+     [
+      7118,
+      4708
+     ],
+     [
+      7190,
+      4631
+     ],
+     [
+      7250,
+      4546
+     ],
+     [
+      7405,
+      4274
+     ],
+     [
+      7473,
+      4130
+     ],
+     [
+      7501,
+      4029
+     ],
+     [
+      7564,
+      3671
+     ],
+     [
+      7569,
+      3567
+     ],
+     [
+      7562,
+      3463
+     ],
+     [
+      7494,
+      3104
+     ],
+     [
+      7460,
+      3006
+     ],
+     [
+      7415,
+      2911
+     ],
+     [
+      7288,
+      2720
+     ],
+     [
+      7083,
+      2252
+     ],
+     [
+      7353,
+      1897
+     ],
+     [
+      7652,
+      1542
+     ],
+     [
+      7968,
+      1276
+     ],
+     [
+      8581,
+      832
+     ],
+     [
+      9238,
+      211
+     ],
+     [
+      9309,
+      122
+     ],
+     [
+      9363,
+      33
+     ],
+     [
+      9429,
+      -144
+     ],
+     [
+      9451,
+      -322
+     ],
+     [
+      9434,
+      -499
+     ]
+    ],
+    "width": 1600,
+    "id": "propontis",
+    "blurb": "The Propontis, the small sea between the Dardanelles and the Bosphorus. Grain ships from Egypt (until the 7th century) and later from the Black Sea anchored off the southern harbours; the sea walls rise straight from its shore."
+   },
+   {
+    "name": "Golden Horn (Keras)",
+    "path": [
+     [
+      2643,
+      -711
+     ],
+     [
+      2985,
+      -256
+     ],
+     [
+      3230,
+      87
+     ],
+     [
+      3444,
+      346
+     ],
+     [
+      3634,
+      640
+     ],
+     [
+      3807,
+      1004
+     ],
+     [
+      3943,
+      1321
+     ],
+     [
+      4114,
+      1563
+     ],
+     [
+      4612,
+      2169
+     ],
+     [
+      4867,
+      2392
+     ],
+     [
+      5141,
+      2533
+     ],
+     [
+      5446,
+      2634
+     ],
+     [
+      5802,
+      2718
+     ],
+     [
+      6047,
+      2755
+     ],
+     [
+      6288,
+      2715
+     ],
+     [
+      6367,
+      2718
+     ]
+    ],
+    "width": 520,
+    "id": "keras",
+    "blurb": "A drowned river valley 7 km long, the finest natural harbour of the Mediterranean world. In war a chain of iron links on wooden floats was stretched across its mouth from the Tower of Eugenius to the Kastellion of Galata."
+   },
+   {
+    "name": "Harbour of Theodosius",
+    "path": [
+     [
+      3629,
+      4771
+     ],
+     [
+      3612,
+      4516
+     ],
+     [
+      3545,
+      4349
+     ]
+    ],
+    "width": 230,
+    "id": "theodosian-harbour",
+    "blurb": "The largest harbour of the city, built under Theodosius I at the mouth of the Lycus. It silted up from the 7th century; excavations for the Yenikapı station (2004–2013) found 37 shipwrecks in its mud.",
+    "periods": [
+     "justinian-562"
+    ]
+   },
+   {
+    "name": "Harbour of Julian (Sophia, Kontoskalion)",
+    "path": [
+     [
+      5124,
+      4726
+     ],
+     [
+      5098,
+      4516
+     ]
+    ],
+    "width": 170,
+    "id": "harbour-of-sophia",
+    "blurb": "Built by Julian in 362, rebuilt by Justin II and named after his wife Sophia; dredged and walled by Michael VIII as the Kontoskalion base of the Palaiologan fleet, and under the Ottomans the Kadırga ('galley') harbour.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Lycus (Lykos)",
+    "path": [
+     [
+      -42,
+      1498
+     ],
+     [
+      756,
+      1775
+     ],
+     [
+      1579,
+      2197
+     ],
+     [
+      2100,
+      2663
+     ],
+     [
+      2688,
+      3218
+     ],
+     [
+      3150,
+      3606
+     ],
+     [
+      3486,
+      3939
+     ],
+     [
+      3545,
+      4327
+     ]
+    ],
+    "width": 10,
+    "id": "lycus",
+    "blurb": "The only stream of the peninsula, entering under the land walls in the valley between the Gates of St Romanus and Charisius and running to the Marmara at Vlanga. The walls are weakest where they cross it."
+   },
+   {
+    "name": "Cistern of Aetius",
+    "path": [
+     [
+      2520,
+      1953
+     ],
+     [
+      2679,
+      1931
+     ]
+    ],
+    "width": 85,
+    "id": "aetius-cistern",
+    "blurb": "An open reservoir of 421, about 244 × 85 m and 15 m deep, one of three great open cisterns between the walls. Its floor is now a football ground.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "name": "Cistern of Aspar",
+    "path": [
+     [
+      3343,
+      1975
+     ],
+     [
+      3360,
+      1975
+     ]
+    ],
+    "width": 150,
+    "id": "aspar-cistern",
+    "blurb": "An open reservoir of 459, about 152 m square, on the fifth hill; later a sunken village and garden (Çukurbostan).",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "name": "Cistern of Mocius",
+    "path": [
+     [
+      2100,
+      4394
+     ],
+     [
+      2125,
+      4394
+     ]
+    ],
+    "width": 150,
+    "id": "mocius-cistern",
+    "blurb": "The largest open cistern, about 170 × 147 m, built under Anastasius (491–518) on the seventh hill.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "First Hill (Akropolis)",
+    "center": [
+     6283,
+     3639
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "first-hill",
+    "blurb": "The acropolis of Greek Byzantion, later Topkapı Palace."
+   },
+   {
+    "name": "Second Hill",
+    "center": [
+     5308,
+     3883
+    ],
+    "radius": 240,
+    "label": true,
+    "id": "second-hill",
+    "blurb": "Crowned by the Forum and Column of Constantine."
+   },
+   {
+    "name": "Third Hill",
+    "center": [
+     4578,
+     3328
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "third-hill",
+    "blurb": "The Forum of Theodosius below, the Süleymaniye above."
+   },
+   {
+    "name": "Fourth Hill",
+    "center": [
+     3528,
+     2863
+    ],
+    "radius": 360,
+    "label": true,
+    "id": "fourth-hill",
+    "blurb": "The Church of the Holy Apostles, then the Fatih Mosque."
+   },
+   {
+    "name": "Fifth Hill",
+    "center": [
+     3343,
+     1864
+    ],
+    "radius": 300,
+    "label": true,
+    "id": "fifth-hill",
+    "blurb": "The Cistern of Aspar; later the Selim mosque."
+   },
+   {
+    "name": "Sixth Hill",
+    "center": [
+     2394,
+     1553
+    ],
+    "radius": 420,
+    "label": true,
+    "id": "sixth-hill",
+    "blurb": "The ridge behind Blachernae and the Gate of Charisius, highest point of the city at about 76 m."
+   },
+   {
+    "name": "Seventh Hill (Xerolophos)",
+    "center": [
+     2352,
+     4327
+    ],
+    "radius": 520,
+    "label": true,
+    "id": "seventh-hill",
+    "blurb": "The 'dry hill', with the Forum and Column of Arcadius."
+   },
+   {
+    "name": "Galata Hill",
+    "center": [
+     5611,
+     1797
+    ],
+    "radius": 420,
+    "label": true,
+    "id": "galata-hill",
+    "blurb": "The steep hill of Sykai, Pera and Galata across the Golden Horn."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Mese",
+    "path": [
+     [
+      5825,
+      3963
+     ],
+     [
+      5586,
+      3928
+     ],
+     [
+      5325,
+      3917
+     ],
+     [
+      5124,
+      3850
+     ],
+     [
+      4830,
+      3772
+     ],
+     [
+      4704,
+      3750
+     ],
+     [
+      4410,
+      3684
+     ],
+     [
+      4158,
+      3573
+     ],
+     [
+      3990,
+      3495
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": true,
+    "id": "mese",
+    "blurb": "The 'Middle Street', 25 m wide between two-storey colonnades with shops, the processional way from the Milion past the fora to the land gates.",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Divan Yolu",
+    "path": [
+     [
+      5825,
+      3963
+     ],
+     [
+      5586,
+      3928
+     ],
+     [
+      5325,
+      3917
+     ],
+     [
+      5124,
+      3850
+     ],
+     [
+      4830,
+      3772
+     ],
+     [
+      4704,
+      3750
+     ],
+     [
+      4410,
+      3684
+     ],
+     [
+      4158,
+      3573
+     ],
+     [
+      3990,
+      3495
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "divan-yolu",
+    "blurb": "The 'Council Road', the Mese narrowed by encroaching shops, along which viziers rode to the Divan at Topkapı.",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Mese (north branch)",
+    "path": [
+     [
+      3990,
+      3495
+     ],
+     [
+      3738,
+      3273
+     ],
+     [
+      3360,
+      2996
+     ],
+     [
+      3192,
+      2718
+     ],
+     [
+      2856,
+      2385
+     ],
+     [
+      2562,
+      2108
+     ],
+     [
+      2310,
+      1864
+     ],
+     [
+      2075,
+      1664
+     ],
+     [
+      1428,
+      1331
+     ],
+     [
+      588,
+      999
+     ],
+     [
+      -168,
+      666
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "mese-north",
+    "blurb": "From the Philadelphion past the Holy Apostles to the Gate of Charisius and the road to Adrianople.",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Road to Edirnekapı",
+    "path": [
+     [
+      3990,
+      3495
+     ],
+     [
+      3738,
+      3273
+     ],
+     [
+      3360,
+      2996
+     ],
+     [
+      3192,
+      2718
+     ],
+     [
+      2856,
+      2385
+     ],
+     [
+      2562,
+      2108
+     ],
+     [
+      2310,
+      1864
+     ],
+     [
+      2075,
+      1664
+     ],
+     [
+      1428,
+      1331
+     ],
+     [
+      588,
+      999
+     ],
+     [
+      -168,
+      666
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "edirnekapi-road",
+    "blurb": "From Şehzadebaşı past the Fatih complex to the Edirne gate and the road to Edirne.",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Mese and Via Egnatia",
+    "path": [
+     [
+      3990,
+      3495
+     ],
+     [
+      3612,
+      3717
+     ],
+     [
+      3234,
+      3939
+     ],
+     [
+      2646,
+      4216
+     ],
+     [
+      2184,
+      4493
+     ],
+     [
+      1764,
+      4826
+     ],
+     [
+      1470,
+      5159
+     ],
+     [
+      1218,
+      5514
+     ],
+     [
+      588,
+      5492
+     ],
+     [
+      -252,
+      5714
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "mese-south",
+    "blurb": "The southern branch through the Forum of the Ox and the Forum of Arcadius to the Golden Gate, continuing as the Via Egnatia to Thessalonica and the Adriatic.",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Road to Yedikule",
+    "path": [
+     [
+      3990,
+      3495
+     ],
+     [
+      3612,
+      3717
+     ],
+     [
+      3234,
+      3939
+     ],
+     [
+      2646,
+      4216
+     ],
+     [
+      2184,
+      4493
+     ],
+     [
+      1764,
+      4826
+     ],
+     [
+      1470,
+      5159
+     ],
+     [
+      1218,
+      5514
+     ],
+     [
+      588,
+      5492
+     ],
+     [
+      -252,
+      5714
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "yedikule-road",
+    "blurb": "Aksaray to Avratpazarı and Yedikule, along the old southern Mese.",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Road to the Pege Gate",
+    "path": [
+     [
+      2646,
+      4216
+     ],
+     [
+      1848,
+      4194
+     ],
+     [
+      706,
+      4194
+     ],
+     [
+      -84,
+      4161
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "pege-road",
+    "blurb": "To the Gate of the Spring, named after the healing spring and shrine of the Virgin outside it.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Road to Silivrikapı",
+    "path": [
+     [
+      2646,
+      4216
+     ],
+     [
+      1848,
+      4194
+     ],
+     [
+      706,
+      4194
+     ],
+     [
+      -84,
+      4161
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "silivrikapi-road",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Road to the Gate of Rhegion",
+    "path": [
+     [
+      3234,
+      3939
+     ],
+     [
+      2268,
+      3717
+     ],
+     [
+      756,
+      3495
+     ],
+     [
+      -84,
+      3439
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "rhegion-road",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Road to the Gate of St Romanus",
+    "path": [
+     [
+      3612,
+      3717
+     ],
+     [
+      2688,
+      3328
+     ],
+     [
+      1848,
+      2996
+     ],
+     [
+      1109,
+      2740
+     ],
+     [
+      0,
+      2552
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "romanus-road",
+    "blurb": "Down the Lycus valley to the Gate of St Romanus, where the walls were breached in 1453.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Road to Topkapı",
+    "path": [
+     [
+      3612,
+      3717
+     ],
+     [
+      2688,
+      3328
+     ],
+     [
+      1848,
+      2996
+     ],
+     [
+      1109,
+      2740
+     ],
+     [
+      0,
+      2552
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "topkapi-road",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Makros Embolos",
+    "path": [
+     [
+      4872,
+      3750
+     ],
+     [
+      4956,
+      3439
+     ],
+     [
+      5056,
+      3162
+     ],
+     [
+      5250,
+      2885
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "makros-embolos",
+    "blurb": "The 'Long Portico', a colonnaded street from the Mese down to the Golden Horn quays; the Ottoman Uzun Çarşı follows it.",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Uzun Çarşı",
+    "path": [
+     [
+      4872,
+      3750
+     ],
+     [
+      4956,
+      3439
+     ],
+     [
+      5056,
+      3162
+     ],
+     [
+      5250,
+      2885
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "uzun-carsi",
+    "blurb": "The 'Long Market' from the Bedesten down to the Golden Horn, lined with shops of turners, cobblers and haberdashers.",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Road to the Strategion",
+    "path": [
+     [
+      5825,
+      3963
+     ],
+     [
+      5787,
+      3828
+     ],
+     [
+      5821,
+      3606
+     ],
+     [
+      5838,
+      3328
+     ],
+     [
+      5796,
+      3084
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "strategion-road",
+    "blurb": "From the Augusteion down to the old harbours of Byzantion on the Golden Horn.",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Golden Horn shore road",
+    "path": [
+     [
+      6038,
+      3084
+     ],
+     [
+      5741,
+      3039
+     ],
+     [
+      5357,
+      2949
+     ],
+     [
+      5014,
+      2835
+     ],
+     [
+      4681,
+      2662
+     ],
+     [
+      4379,
+      2399
+     ],
+     [
+      3852,
+      1761
+     ],
+     [
+      3657,
+      1480
+     ],
+     [
+      3367,
+      824
+     ],
+     [
+      3179,
+      534
+     ],
+     [
+      3007,
+      333
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "horn-road",
+    "blurb": "Behind the sea walls, past the Italian quarters, the Phanar and the Petrion to Blachernae.",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Road to Blachernae",
+    "path": [
+     [
+      3192,
+      2718
+     ],
+     [
+      3066,
+      2219
+     ],
+     [
+      2982,
+      1664
+     ],
+     [
+      2982,
+      1109
+     ],
+     [
+      3066,
+      832
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "blachernae-road",
+    "blurb": "From the Holy Apostles along the ridge to the Komnenian palace.",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Road to the Boukoleon",
+    "path": [
+     [
+      5846,
+      4005
+     ],
+     [
+      5838,
+      4127
+     ],
+     [
+      5846,
+      4194
+     ],
+     [
+      6090,
+      4260
+     ],
+     [
+      6215,
+      4383
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "hippodrome-road",
+    "periods": [
+     "constantine-337",
+     "justinian-562"
+    ]
+   },
+   {
+    "name": "Main street of Galata",
+    "path": [
+     [
+      5653,
+      2308
+     ],
+     [
+      5619,
+      2152
+     ],
+     [
+      5577,
+      2041
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "galata-street",
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Road to Pera",
+    "path": [
+     [
+      5577,
+      2041
+     ],
+     [
+      5602,
+      1720
+     ],
+     [
+      5964,
+      1331
+     ],
+     [
+      6299,
+      999
+     ],
+     [
+      6509,
+      777
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "pera-road",
+    "blurb": "Up from the Galata Tower over the vineyards of Pera; the later Grande Rue de Péra (İstiklal Caddesi).",
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Tophane shore road",
+    "path": [
+     [
+      5796,
+      2274
+     ],
+     [
+      6090,
+      2108
+     ],
+     [
+      6341,
+      1775
+     ],
+     [
+      6677,
+      1331
+     ],
+     [
+      6929,
+      999
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "tophane-road",
+    "periods": [
+     "suleyman-1560"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Wall of Constantine",
+    "path": [
+     [
+      3822,
+      1553
+     ],
+     [
+      3276,
+      2053
+     ],
+     [
+      3024,
+      2607
+     ],
+     [
+      2898,
+      3218
+     ],
+     [
+      2772,
+      3883
+     ],
+     [
+      2688,
+      4438
+     ],
+     [
+      2646,
+      4937
+     ]
+    ],
+    "closed": false,
+    "id": "constantinian-wall",
+    "blurb": "Built 324–328 about 3 km west of the old wall of Byzantion. Almost nothing survives and its trace is known only from texts; this follows the usual reconstruction. It decayed after 413 and was gone by the 9th century.",
+    "periods": [
+     "constantine-337",
+     "justinian-562"
+    ]
+   },
+   {
+    "name": "Theodosian Land Walls",
+    "path": [
+     [
+      1168,
+      5714
+     ],
+     [
+      1200,
+      5536
+     ],
+     [
+      1050,
+      5270
+     ],
+     [
+      857,
+      4849
+     ],
+     [
+      739,
+      4438
+     ],
+     [
+      706,
+      4194
+     ],
+     [
+      714,
+      3772
+     ],
+     [
+      756,
+      3495
+     ],
+     [
+      907,
+      3107
+     ],
+     [
+      1109,
+      2740
+     ],
+     [
+      1327,
+      2463
+     ],
+     [
+      1579,
+      2197
+     ],
+     [
+      1848,
+      1908
+     ],
+     [
+      2075,
+      1664
+     ],
+     [
+      2436,
+      1354
+     ],
+     [
+      2671,
+      1132
+     ],
+     [
+      2755,
+      976
+     ],
+     [
+      2856,
+      754
+     ],
+     [
+      2940,
+      499
+     ],
+     [
+      3024,
+      244
+     ]
+    ],
+    "closed": false,
+    "id": "theodosian-walls",
+    "blurb": "Built 405–413 under Theodosius II and doubled after the earthquake of 447: a moat, an outer wall and a 12 m inner wall with 96 towers, 5.7 km from the Marmara to the Golden Horn. They held for a thousand years until the cannon of 1453.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Sea walls of the Marmara",
+    "path": [
+     [
+      1164,
+      5695
+     ],
+     [
+      1518,
+      5473
+     ],
+     [
+      1881,
+      5283
+     ],
+     [
+      2344,
+      5105
+     ],
+     [
+      2850,
+      4949
+     ],
+     [
+      3355,
+      4827
+     ],
+     [
+      4280,
+      4638
+     ],
+     [
+      4746,
+      4593
+     ],
+     [
+      5119,
+      4661
+     ],
+     [
+      5452,
+      4650
+     ],
+     [
+      5745,
+      4518
+     ],
+     [
+      6322,
+      4313
+     ],
+     [
+      6548,
+      4118
+     ],
+     [
+      6702,
+      3846
+     ],
+     [
+      6747,
+      3564
+     ],
+     [
+      6700,
+      3317
+     ],
+     [
+      6567,
+      3119
+     ]
+    ],
+    "closed": false,
+    "id": "marmara-walls",
+    "blurb": "A single wall with 188 towers along the Marmara, rising from the water or from a narrow beach; strong currents made landings here difficult.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Sea walls of the Golden Horn",
+    "path": [
+     [
+      6575,
+      3127
+     ],
+     [
+      6313,
+      2996
+     ],
+     [
+      6045,
+      3040
+     ],
+     [
+      5749,
+      2995
+     ],
+     [
+      5370,
+      2906
+     ],
+     [
+      5031,
+      2794
+     ],
+     [
+      4706,
+      2624
+     ],
+     [
+      4410,
+      2368
+     ],
+     [
+      3888,
+      1733
+     ],
+     [
+      3693,
+      1453
+     ],
+     [
+      3403,
+      799
+     ],
+     [
+      3210,
+      503
+     ],
+     [
+      3007,
+      259
+     ]
+    ],
+    "closed": false,
+    "id": "horn-walls",
+    "blurb": "A wall of 110 towers set back from the quays, pierced by gates to the landing stages. The Venetians stormed it in 1203 and 1204 from ladders on their ships.",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Walls of Galata",
+    "path": [
+     [
+      5023,
+      2019
+     ],
+     [
+      5292,
+      1997
+     ],
+     [
+      5558,
+      2025
+     ],
+     [
+      5812,
+      2130
+     ],
+     [
+      6031,
+      2241
+     ],
+     [
+      6014,
+      2452
+     ],
+     [
+      5796,
+      2419
+     ],
+     [
+      5544,
+      2363
+     ],
+     [
+      5334,
+      2297
+     ],
+     [
+      5166,
+      2230
+     ],
+     [
+      5040,
+      2164
+     ]
+    ],
+    "closed": true,
+    "id": "galata-walls",
+    "blurb": "The Genoese colony's walls, built in stages from 1304 and crowned by the Galata Tower in 1348. Mehmed II had the landward walls partly torn down after 1453.",
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Golden Gate",
+    "position": [
+     1200,
+     5536
+    ],
+    "id": "golden-gate-g",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Xylokerkos",
+    "position": [
+     857,
+     4849
+    ],
+    "id": "xylokerkos",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of the Spring (Pege)",
+    "position": [
+     706,
+     4194
+    ],
+    "id": "pege-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Rhegion",
+    "position": [
+     756,
+     3495
+    ],
+    "id": "rhegion-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of St Romanus",
+    "position": [
+     1109,
+     2740
+    ],
+    "id": "romanus-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Charisius",
+    "position": [
+     2075,
+     1664
+    ],
+    "id": "charisius-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Kaligaria",
+    "position": [
+     2755,
+     976
+    ],
+    "id": "kaligaria-gate",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Eugenius",
+    "position": [
+     6215,
+     3051
+    ],
+    "id": "eugenius-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Perama",
+    "position": [
+     5586,
+     2996
+    ],
+    "id": "perama-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of the Drungarios",
+    "position": [
+     5107,
+     2818
+    ],
+    "id": "drungarios-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of the Phanar",
+    "position": [
+     3679,
+     1442
+    ],
+    "id": "phanar-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Gate of Psamathia",
+    "position": [
+     2268,
+     5148
+    ],
+    "id": "psamathia-gate",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "name": "Yedikule Kapı",
+    "position": [
+     1200,
+     5536
+    ],
+    "id": "yedikule-g",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Belgrad Kapı",
+    "position": [
+     857,
+     4849
+    ],
+    "id": "belgrad-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Silivri Kapı",
+    "position": [
+     706,
+     4194
+    ],
+    "id": "silivri-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Mevlevihane Kapı",
+    "position": [
+     756,
+     3495
+    ],
+    "id": "mevlevihane-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Topkapı",
+    "position": [
+     1109,
+     2740
+    ],
+    "id": "top-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Edirnekapı",
+    "position": [
+     2075,
+     1664
+    ],
+    "id": "edirne-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Eğrikapı",
+    "position": [
+     2755,
+     976
+    ],
+    "id": "egri-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Balıkpazarı Kapı",
+    "position": [
+     5586,
+     2996
+    ],
+    "id": "balikpazari-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Fener Kapı",
+    "position": [
+     3679,
+     1442
+    ],
+    "id": "fener-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Samatya Kapı",
+    "position": [
+     2268,
+     5148
+    ],
+    "id": "samatya-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Azapkapı",
+    "position": [
+     5023,
+     2019
+    ],
+    "id": "azap-kapi",
+    "periods": [
+     "suleyman-1560"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Mehmed II's pontoon bridge",
+    "path": [
+     [
+      2990,
+      422
+     ],
+     [
+      3553,
+      -244
+     ]
+    ],
+    "build": "timber",
+    "arches": 12,
+    "id": "pontoon-1453",
+    "blurb": "During the siege the Ottomans floated a road of barrels lashed together across the inner Golden Horn, to bring guns against the walls by the Kynegion.",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   }
+  ],
+  "aqueducts": [
+   {
+    "name": "Water channel of Valens",
+    "path": [
+     [
+      0,
+      1220
+     ],
+     [
+      1008,
+      1498
+     ],
+     [
+      2016,
+      1720
+     ],
+     [
+      2772,
+      2164
+     ],
+     [
+      3150,
+      2663
+     ],
+     [
+      3486,
+      2996
+     ]
+    ],
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "name": "Channel to the Nymphaeum",
+    "path": [
+     [
+      4426,
+      3273
+     ],
+     [
+      4578,
+      3495
+     ],
+     [
+      4620,
+      3661
+     ]
+    ],
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      5208,
+      2829
+     ],
+     [
+      5754,
+      2907
+     ],
+     [
+      6048,
+      2973
+     ],
+     [
+      6148,
+      3218
+     ],
+     [
+      6048,
+      3606
+     ],
+     [
+      5964,
+      3828
+     ],
+     [
+      5796,
+      3883
+     ],
+     [
+      5208,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Old Byzantion",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6215,
+      2929
+     ],
+     [
+      6593,
+      3084
+     ],
+     [
+      6736,
+      3328
+     ],
+     [
+      6736,
+      3828
+     ],
+     [
+      6568,
+      4138
+     ],
+     [
+      6257,
+      3994
+     ],
+     [
+      6090,
+      3661
+     ],
+     [
+      6174,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Akropolis",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5796,
+      3994
+     ],
+     [
+      6257,
+      4016
+     ],
+     [
+      6383,
+      4272
+     ],
+     [
+      6048,
+      4438
+     ],
+     [
+      5754,
+      4538
+     ],
+     [
+      5460,
+      4671
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      5166,
+      3972
+     ]
+    ],
+    "density": "dense",
+    "name": "Palace quarter",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      3794
+     ],
+     [
+      5208,
+      2829
+     ],
+     [
+      5023,
+      2752
+     ],
+     [
+      4704,
+      2574
+     ],
+     [
+      4410,
+      2330
+     ],
+     [
+      4242,
+      2274
+     ],
+     [
+      4200,
+      3107
+     ],
+     [
+      4284,
+      3606
+     ],
+     [
+      4662,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Mese north",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5166,
+      3972
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      4746,
+      4627
+     ],
+     [
+      4284,
+      4660
+     ],
+     [
+      3864,
+      4738
+     ],
+     [
+      3864,
+      3828
+     ],
+     [
+      4368,
+      3717
+     ],
+     [
+      4830,
+      3794
+     ]
+    ],
+    "density": "dense",
+    "name": "Mese south",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4158,
+      3107
+     ],
+     [
+      4200,
+      2274
+     ],
+     [
+      4032,
+      1997
+     ],
+     [
+      3780,
+      1686
+     ],
+     [
+      3570,
+      1442
+     ],
+     [
+      3192,
+      1553
+     ],
+     [
+      3234,
+      2663
+     ],
+     [
+      3696,
+      3384
+     ],
+     [
+      4074,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "New quarters",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3822,
+      3606
+     ],
+     [
+      3822,
+      4738
+     ],
+     [
+      3360,
+      4849
+     ],
+     [
+      2856,
+      4959
+     ],
+     [
+      2856,
+      4216
+     ],
+     [
+      3192,
+      3772
+     ],
+     [
+      3612,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "New quarters",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      2241
+     ],
+     [
+      5292,
+      1997
+     ],
+     [
+      5712,
+      2041
+     ],
+     [
+      5964,
+      2241
+     ],
+     [
+      5880,
+      2408
+     ],
+     [
+      5544,
+      2363
+     ]
+    ],
+    "density": "loose",
+    "name": "Sykai",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5208,
+      2829
+     ],
+     [
+      5754,
+      2907
+     ],
+     [
+      6048,
+      2973
+     ],
+     [
+      6148,
+      3218
+     ],
+     [
+      6048,
+      3606
+     ],
+     [
+      5964,
+      3828
+     ],
+     [
+      5796,
+      3883
+     ],
+     [
+      5208,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Chalkoprateia and the harbours",
+    "periods": [
+     "justinian-562"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6215,
+      2929
+     ],
+     [
+      6593,
+      3084
+     ],
+     [
+      6736,
+      3328
+     ],
+     [
+      6736,
+      3828
+     ],
+     [
+      6568,
+      4138
+     ],
+     [
+      6257,
+      3994
+     ],
+     [
+      6090,
+      3661
+     ],
+     [
+      6174,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Akropolis",
+    "periods": [
+     "justinian-562"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5796,
+      3994
+     ],
+     [
+      6257,
+      4016
+     ],
+     [
+      6383,
+      4272
+     ],
+     [
+      6048,
+      4438
+     ],
+     [
+      5754,
+      4538
+     ],
+     [
+      5460,
+      4671
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      5166,
+      3972
+     ]
+    ],
+    "density": "dense",
+    "name": "Palace quarter",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      3794
+     ],
+     [
+      5208,
+      2829
+     ],
+     [
+      5023,
+      2752
+     ],
+     [
+      4704,
+      2574
+     ],
+     [
+      4410,
+      2330
+     ],
+     [
+      4242,
+      2274
+     ],
+     [
+      4200,
+      3107
+     ],
+     [
+      4284,
+      3606
+     ],
+     [
+      4662,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Artopoleia and Makros Embolos",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5166,
+      3972
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      4746,
+      4627
+     ],
+     [
+      4284,
+      4660
+     ],
+     [
+      3864,
+      4738
+     ],
+     [
+      3864,
+      3828
+     ],
+     [
+      4368,
+      3717
+     ],
+     [
+      4830,
+      3794
+     ]
+    ],
+    "density": "dense",
+    "name": "Kontoskalion quarter",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4158,
+      3107
+     ],
+     [
+      4200,
+      2274
+     ],
+     [
+      4032,
+      1997
+     ],
+     [
+      3780,
+      1686
+     ],
+     [
+      3570,
+      1442
+     ],
+     [
+      3192,
+      1553
+     ],
+     [
+      3234,
+      2663
+     ],
+     [
+      3696,
+      3384
+     ],
+     [
+      4074,
+      3495
+     ]
+    ],
+    "density": "dense",
+    "name": "Fourth hill",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3822,
+      3606
+     ],
+     [
+      3822,
+      4738
+     ],
+     [
+      3360,
+      4849
+     ],
+     [
+      2856,
+      4959
+     ],
+     [
+      2856,
+      4216
+     ],
+     [
+      3192,
+      3772
+     ],
+     [
+      3612,
+      3495
+     ]
+    ],
+    "density": "dense",
+    "name": "Forum of the Ox",
+    "periods": [
+     "justinian-562"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3066,
+      277
+     ],
+     [
+      3259,
+      499
+     ],
+     [
+      3427,
+      799
+     ],
+     [
+      3570,
+      1109
+     ],
+     [
+      3654,
+      1387
+     ],
+     [
+      3150,
+      1520
+     ],
+     [
+      2814,
+      1520
+     ],
+     [
+      2772,
+      1132
+     ],
+     [
+      2940,
+      777
+     ],
+     [
+      3024,
+      444
+     ]
+    ],
+    "density": "loose",
+    "name": "Petrion and Phanar",
+    "periods": [
+     "justinian-562"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2772,
+      1553
+     ],
+     [
+      3150,
+      1553
+     ],
+     [
+      3150,
+      2663
+     ],
+     [
+      2730,
+      2829
+     ],
+     [
+      2184,
+      2663
+     ],
+     [
+      1722,
+      2197
+     ],
+     [
+      2184,
+      1720
+     ],
+     [
+      2562,
+      1276
+     ]
+    ],
+    "density": "loose",
+    "name": "Between the walls",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2142,
+      2663
+     ],
+     [
+      2688,
+      2829
+     ],
+     [
+      3108,
+      2663
+     ],
+     [
+      3612,
+      3384
+     ],
+     [
+      3150,
+      3772
+     ],
+     [
+      2814,
+      4161
+     ],
+     [
+      1932,
+      3994
+     ],
+     [
+      1260,
+      3495
+     ],
+     [
+      1302,
+      2829
+     ]
+    ],
+    "density": "loose",
+    "name": "Lycus valley",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2814,
+      4161
+     ],
+     [
+      2814,
+      4959
+     ],
+     [
+      2352,
+      5126
+     ],
+     [
+      1890,
+      5303
+     ],
+     [
+      1554,
+      5437
+     ],
+     [
+      1218,
+      5215
+     ],
+     [
+      1008,
+      4826
+     ],
+     [
+      924,
+      4161
+     ],
+     [
+      1848,
+      3994
+     ]
+    ],
+    "density": "loose",
+    "name": "Psamathia",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      2241
+     ],
+     [
+      5292,
+      1997
+     ],
+     [
+      5712,
+      2041
+     ],
+     [
+      5964,
+      2241
+     ],
+     [
+      5880,
+      2408
+     ],
+     [
+      5544,
+      2363
+     ]
+    ],
+    "density": "dense",
+    "name": "Sykai (Justinianae)",
+    "periods": [
+     "justinian-562"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5208,
+      2829
+     ],
+     [
+      5754,
+      2907
+     ],
+     [
+      6048,
+      2973
+     ],
+     [
+      6148,
+      3218
+     ],
+     [
+      6048,
+      3606
+     ],
+     [
+      5964,
+      3828
+     ],
+     [
+      5796,
+      3883
+     ],
+     [
+      5208,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Venetian, Amalfitan and Pisan quarters",
+    "periods": [
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6215,
+      2929
+     ],
+     [
+      6593,
+      3084
+     ],
+     [
+      6736,
+      3328
+     ],
+     [
+      6736,
+      3828
+     ],
+     [
+      6568,
+      4138
+     ],
+     [
+      6257,
+      3994
+     ],
+     [
+      6090,
+      3661
+     ],
+     [
+      6174,
+      3218
+     ]
+    ],
+    "density": "loose",
+    "name": "Mangana",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3822,
+      3606
+     ],
+     [
+      3822,
+      4738
+     ],
+     [
+      3360,
+      4849
+     ],
+     [
+      2856,
+      4959
+     ],
+     [
+      2856,
+      4216
+     ],
+     [
+      3192,
+      3772
+     ],
+     [
+      3612,
+      3495
+     ]
+    ],
+    "density": "dense",
+    "name": "Forum of the Ox",
+    "periods": [
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3066,
+      277
+     ],
+     [
+      3259,
+      499
+     ],
+     [
+      3427,
+      799
+     ],
+     [
+      3570,
+      1109
+     ],
+     [
+      3654,
+      1387
+     ],
+     [
+      3150,
+      1520
+     ],
+     [
+      2814,
+      1520
+     ],
+     [
+      2772,
+      1132
+     ],
+     [
+      2940,
+      777
+     ],
+     [
+      3024,
+      444
+     ]
+    ],
+    "density": "dense",
+    "name": "Petrion, Phanar and Blachernae",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      2241
+     ],
+     [
+      5292,
+      1997
+     ],
+     [
+      5712,
+      2041
+     ],
+     [
+      5964,
+      2241
+     ],
+     [
+      5880,
+      2408
+     ],
+     [
+      5544,
+      2363
+     ]
+    ],
+    "density": "loose",
+    "name": "Pera",
+    "periods": [
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5208,
+      2829
+     ],
+     [
+      5754,
+      2907
+     ],
+     [
+      6048,
+      2973
+     ],
+     [
+      6148,
+      3218
+     ],
+     [
+      6048,
+      3606
+     ],
+     [
+      5964,
+      3828
+     ],
+     [
+      5796,
+      3883
+     ],
+     [
+      5208,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Venetian quarter",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5796,
+      3994
+     ],
+     [
+      6257,
+      4016
+     ],
+     [
+      6383,
+      4272
+     ],
+     [
+      6048,
+      4438
+     ],
+     [
+      5754,
+      4538
+     ],
+     [
+      5460,
+      4671
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      5166,
+      3972
+     ]
+    ],
+    "density": "loose",
+    "name": "Ruins of the palace quarter",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      3794
+     ],
+     [
+      5208,
+      2829
+     ],
+     [
+      5023,
+      2752
+     ],
+     [
+      4704,
+      2574
+     ],
+     [
+      4410,
+      2330
+     ],
+     [
+      4242,
+      2274
+     ],
+     [
+      4200,
+      3107
+     ],
+     [
+      4284,
+      3606
+     ],
+     [
+      4662,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Market quarter",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5166,
+      3972
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      4746,
+      4627
+     ],
+     [
+      4284,
+      4660
+     ],
+     [
+      3864,
+      4738
+     ],
+     [
+      3864,
+      3828
+     ],
+     [
+      4368,
+      3717
+     ],
+     [
+      4830,
+      3794
+     ]
+    ],
+    "density": "loose",
+    "name": "Kontoskalion",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4158,
+      3107
+     ],
+     [
+      4200,
+      2274
+     ],
+     [
+      4032,
+      1997
+     ],
+     [
+      3780,
+      1686
+     ],
+     [
+      3570,
+      1442
+     ],
+     [
+      3192,
+      1553
+     ],
+     [
+      3234,
+      2663
+     ],
+     [
+      3696,
+      3384
+     ],
+     [
+      4074,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "Pantokrator village",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3822,
+      3606
+     ],
+     [
+      3822,
+      4738
+     ],
+     [
+      3360,
+      4849
+     ],
+     [
+      2856,
+      4959
+     ],
+     [
+      2856,
+      4216
+     ],
+     [
+      3192,
+      3772
+     ],
+     [
+      3612,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "Forum of the Ox",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2772,
+      1553
+     ],
+     [
+      3150,
+      1553
+     ],
+     [
+      3150,
+      2663
+     ],
+     [
+      2730,
+      2829
+     ],
+     [
+      2184,
+      2663
+     ],
+     [
+      1722,
+      2197
+     ],
+     [
+      2184,
+      1720
+     ],
+     [
+      2562,
+      1276
+     ]
+    ],
+    "density": "loose",
+    "name": "Fields by the walls",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5048,
+      2041
+     ],
+     [
+      5292,
+      2019
+     ],
+     [
+      5544,
+      2047
+     ],
+     [
+      5796,
+      2147
+     ],
+     [
+      6006,
+      2258
+     ],
+     [
+      5993,
+      2430
+     ],
+     [
+      5796,
+      2397
+     ],
+     [
+      5544,
+      2341
+     ],
+     [
+      5334,
+      2274
+     ],
+     [
+      5174,
+      2213
+     ],
+     [
+      5065,
+      2152
+     ]
+    ],
+    "density": "dense",
+    "name": "Genoese Galata",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5208,
+      2829
+     ],
+     [
+      5754,
+      2907
+     ],
+     [
+      6048,
+      2973
+     ],
+     [
+      6148,
+      3218
+     ],
+     [
+      6048,
+      3606
+     ],
+     [
+      5964,
+      3828
+     ],
+     [
+      5796,
+      3883
+     ],
+     [
+      5208,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Eminönü and Tahtakale",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5796,
+      3994
+     ],
+     [
+      6257,
+      4016
+     ],
+     [
+      6383,
+      4272
+     ],
+     [
+      6048,
+      4438
+     ],
+     [
+      5754,
+      4538
+     ],
+     [
+      5460,
+      4671
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      5166,
+      3972
+     ]
+    ],
+    "density": "dense",
+    "name": "Sultanahmet and Kadırga",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5250,
+      3794
+     ],
+     [
+      5208,
+      2829
+     ],
+     [
+      5023,
+      2752
+     ],
+     [
+      4704,
+      2574
+     ],
+     [
+      4410,
+      2330
+     ],
+     [
+      4242,
+      2274
+     ],
+     [
+      4200,
+      3107
+     ],
+     [
+      4284,
+      3606
+     ],
+     [
+      4662,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Bazaar quarter",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5166,
+      3972
+     ],
+     [
+      5166,
+      4682
+     ],
+     [
+      4746,
+      4627
+     ],
+     [
+      4284,
+      4660
+     ],
+     [
+      3864,
+      4738
+     ],
+     [
+      3864,
+      3828
+     ],
+     [
+      4368,
+      3717
+     ],
+     [
+      4830,
+      3794
+     ]
+    ],
+    "density": "dense",
+    "name": "Kumkapı",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4158,
+      3107
+     ],
+     [
+      4200,
+      2274
+     ],
+     [
+      4032,
+      1997
+     ],
+     [
+      3780,
+      1686
+     ],
+     [
+      3570,
+      1442
+     ],
+     [
+      3192,
+      1553
+     ],
+     [
+      3234,
+      2663
+     ],
+     [
+      3696,
+      3384
+     ],
+     [
+      4074,
+      3495
+     ]
+    ],
+    "density": "dense",
+    "name": "Fatih and Zeyrek",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3822,
+      3606
+     ],
+     [
+      3822,
+      4738
+     ],
+     [
+      3360,
+      4849
+     ],
+     [
+      2856,
+      4959
+     ],
+     [
+      2856,
+      4216
+     ],
+     [
+      3192,
+      3772
+     ],
+     [
+      3612,
+      3495
+     ]
+    ],
+    "density": "dense",
+    "name": "Aksaray",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3066,
+      277
+     ],
+     [
+      3259,
+      499
+     ],
+     [
+      3427,
+      799
+     ],
+     [
+      3570,
+      1109
+     ],
+     [
+      3654,
+      1387
+     ],
+     [
+      3150,
+      1520
+     ],
+     [
+      2814,
+      1520
+     ],
+     [
+      2772,
+      1132
+     ],
+     [
+      2940,
+      777
+     ],
+     [
+      3024,
+      444
+     ]
+    ],
+    "density": "dense",
+    "name": "Fener and Balat",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2772,
+      1553
+     ],
+     [
+      3150,
+      1553
+     ],
+     [
+      3150,
+      2663
+     ],
+     [
+      2730,
+      2829
+     ],
+     [
+      2184,
+      2663
+     ],
+     [
+      1722,
+      2197
+     ],
+     [
+      2184,
+      1720
+     ],
+     [
+      2562,
+      1276
+     ]
+    ],
+    "density": "dense",
+    "name": "Karagümrük",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2142,
+      2663
+     ],
+     [
+      2688,
+      2829
+     ],
+     [
+      3108,
+      2663
+     ],
+     [
+      3612,
+      3384
+     ],
+     [
+      3150,
+      3772
+     ],
+     [
+      2814,
+      4161
+     ],
+     [
+      1932,
+      3994
+     ],
+     [
+      1260,
+      3495
+     ],
+     [
+      1302,
+      2829
+     ]
+    ],
+    "density": "loose",
+    "name": "Lycus bostans",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2814,
+      4161
+     ],
+     [
+      2814,
+      4959
+     ],
+     [
+      2352,
+      5126
+     ],
+     [
+      1890,
+      5303
+     ],
+     [
+      1554,
+      5437
+     ],
+     [
+      1218,
+      5215
+     ],
+     [
+      1008,
+      4826
+     ],
+     [
+      924,
+      4161
+     ],
+     [
+      1848,
+      3994
+     ]
+    ],
+    "density": "loose",
+    "name": "Samatya and Kocamustafapaşa",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5048,
+      2041
+     ],
+     [
+      5292,
+      2019
+     ],
+     [
+      5544,
+      2047
+     ],
+     [
+      5796,
+      2147
+     ],
+     [
+      6006,
+      2258
+     ],
+     [
+      5993,
+      2430
+     ],
+     [
+      5796,
+      2397
+     ],
+     [
+      5544,
+      2341
+     ],
+     [
+      5334,
+      2274
+     ],
+     [
+      5174,
+      2213
+     ],
+     [
+      5065,
+      2152
+     ]
+    ],
+    "density": "dense",
+    "name": "Galata",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5208,
+      1975
+     ],
+     [
+      5124,
+      1553
+     ],
+     [
+      5544,
+      999
+     ],
+     [
+      6215,
+      721
+     ],
+     [
+      6551,
+      888
+     ],
+     [
+      6257,
+      1442
+     ],
+     [
+      5964,
+      1831
+     ],
+     [
+      5628,
+      1975
+     ]
+    ],
+    "density": "loose",
+    "name": "Pera vineyards",
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6006,
+      2164
+     ],
+     [
+      6048,
+      1831
+     ],
+     [
+      6341,
+      1387
+     ],
+     [
+      6635,
+      999
+     ],
+     [
+      6929,
+      1087
+     ],
+     [
+      6677,
+      1498
+     ],
+     [
+      6341,
+      1942
+     ],
+     [
+      6174,
+      2164
+     ]
+    ],
+    "density": "dense",
+    "name": "Tophane",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5124,
+      1775
+     ],
+     [
+      4788,
+      1331
+     ],
+     [
+      4494,
+      777
+     ],
+     [
+      4536,
+      444
+     ],
+     [
+      5040,
+      555
+     ],
+     [
+      5292,
+      1109
+     ],
+     [
+      5334,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Kasımpaşa",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3990,
+      277
+     ],
+     [
+      3738,
+      55
+     ],
+     [
+      4116,
+      0
+     ],
+     [
+      4368,
+      222
+     ]
+    ],
+    "density": "loose",
+    "name": "Hasköy",
+    "periods": [
+     "suleyman-1560"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      3150,
+      1553
+     ],
+     [
+      3066,
+      2663
+     ],
+     [
+      2856,
+      3439
+     ],
+     [
+      2730,
+      4216
+     ],
+     [
+      2520,
+      4937
+     ],
+     [
+      1596,
+      5326
+     ],
+     [
+      1008,
+      3772
+     ],
+     [
+      1764,
+      2108
+     ],
+     [
+      2520,
+      1442
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards beyond the wall",
+    "periods": [
+     "constantine-337"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5208,
+      1975
+     ],
+     [
+      5124,
+      1553
+     ],
+     [
+      5544,
+      999
+     ],
+     [
+      6215,
+      721
+     ],
+     [
+      6551,
+      888
+     ],
+     [
+      6257,
+      1442
+     ],
+     [
+      5964,
+      1831
+     ],
+     [
+      5628,
+      1975
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards of Pera",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      168,
+      999
+     ],
+     [
+      168,
+      1886
+     ],
+     [
+      840,
+      2441
+     ],
+     [
+      1386,
+      1886
+     ],
+     [
+      1764,
+      1331
+     ],
+     [
+      1008,
+      777
+     ]
+    ],
+    "kind": "park",
+    "name": "Philopation",
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1344,
+      2829
+     ],
+     [
+      1764,
+      2441
+     ],
+     [
+      2100,
+      2718
+     ],
+     [
+      2016,
+      3218
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards of the Lycus",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3360,
+      4161
+     ],
+     [
+      3780,
+      4161
+     ],
+     [
+      3780,
+      4604
+     ],
+     [
+      3444,
+      4715
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Vlanga gardens",
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3234,
+      1886
+     ],
+     [
+      3486,
+      1886
+     ],
+     [
+      3486,
+      2064
+     ],
+     [
+      3234,
+      2064
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Çukurbostan",
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6257,
+      2996
+     ],
+     [
+      6568,
+      3129
+     ],
+     [
+      6686,
+      3351
+     ],
+     [
+      6703,
+      3772
+     ],
+     [
+      6551,
+      3883
+     ],
+     [
+      6451,
+      3573
+     ],
+     [
+      6257,
+      3384
+     ]
+    ],
+    "kind": "park",
+    "name": "Palace gardens (Gülhane)",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      168,
+      888
+     ],
+     [
+      336,
+      1775
+     ],
+     [
+      504,
+      2552
+     ],
+     [
+      252,
+      3328
+     ],
+     [
+      168,
+      4216
+     ],
+     [
+      336,
+      4882
+     ],
+     [
+      168,
+      5104
+     ],
+     [
+      84,
+      4327
+     ],
+     [
+      84,
+      2663
+     ],
+     [
+      84,
+      999
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards outside the walls",
+    "periods": [
+     "suleyman-1560"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      3545,
+      4738
+     ],
+     [
+      3486,
+      4327
+     ],
+     [
+      3654,
+      4272
+     ],
+     [
+      3738,
+      4715
+     ]
+    ],
+    "name": "Silted harbour of Theodosius",
+    "periods": [
+     "komnenian-1150"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "augusteion",
+    "name": "Augusteion",
+    "polygon": [
+     [
+      5863,
+      3917
+     ],
+     [
+      6006,
+      3928
+     ],
+     [
+      5980,
+      4061
+     ],
+     [
+      5863,
+      4061
+     ]
+    ],
+    "description": "The ceremonial square between Hagia Sophia, the Senate house and the Chalke gate of the palace, with Justinian's bronze equestrian statue on a column from 543.",
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "id": "venetian-quarter",
+    "name": "Venetian quarter",
+    "polygon": [
+     [
+      5124,
+      2829
+     ],
+     [
+      5560,
+      2896
+     ],
+     [
+      5560,
+      3107
+     ],
+     [
+      5124,
+      3051
+     ]
+    ],
+    "description": "Granted by Alexios I in 1082 for Venetian help against the Normans: quays, warehouses, a bakery, churches and houses between the Gate of the Drungarios and the Perama. Arrested en masse in 1171; restored and kept until 1453.",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "id": "pisan-quarter",
+    "name": "Pisan and Genoese quarters",
+    "polygon": [
+     [
+      5560,
+      2896
+     ],
+     [
+      6048,
+      2973
+     ],
+     [
+      6048,
+      3151
+     ],
+     [
+      5560,
+      3107
+     ]
+    ],
+    "description": "East of the Venetians toward the Neorion and Prosphorion: the Pisan embolos (from 1111) and, after 1155, a Genoese landing stage. Both quarters were sacked in the massacre of the Latins of 1182.",
+    "periods": [
+     "komnenian-1150"
+    ]
+   },
+   {
+    "id": "blachernae-quarter",
+    "name": "Blachernae",
+    "polygon": [
+     [
+      3041,
+      277
+     ],
+     [
+      3360,
+      777
+     ],
+     [
+      3150,
+      1165
+     ],
+     [
+      2730,
+      1132
+     ],
+     [
+      2873,
+      754
+     ]
+    ],
+    "description": "The north-west corner round the church of the Virgin of Blachernae and its holy spring; from Alexios I the main residence of the emperors.",
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "id": "genoese-galata",
+    "name": "Genoese Galata",
+    "polygon": [
+     [
+      5048,
+      2041
+     ],
+     [
+      5292,
+      2019
+     ],
+     [
+      5544,
+      2047
+     ],
+     [
+      5796,
+      2147
+     ],
+     [
+      6006,
+      2258
+     ],
+     [
+      5993,
+      2430
+     ],
+     [
+      5796,
+      2397
+     ],
+     [
+      5544,
+      2341
+     ],
+     [
+      5334,
+      2274
+     ],
+     [
+      5174,
+      2213
+     ],
+     [
+      5065,
+      2152
+     ]
+    ],
+    "description": "Granted to Genoa by Michael VIII in 1267 and walled from 1304: a self-governing colony under a podestà, with its own churches, loggia and arsenal, trading in Black Sea grain, slaves and alum.",
+    "periods": [
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "id": "topkapi-district",
+    "name": "Saray-ı Cedid",
+    "polygon": [
+     [
+      6215,
+      2929
+     ],
+     [
+      6593,
+      3084
+     ],
+     [
+      6736,
+      3328
+     ],
+     [
+      6736,
+      3828
+     ],
+     [
+      6568,
+      4138
+     ],
+     [
+      6257,
+      3994
+     ],
+     [
+      6090,
+      3661
+     ],
+     [
+      6174,
+      3218
+     ]
+    ],
+    "description": "Mehmed II's 'New Palace' on the old acropolis, walled off from the city by the Sur-ı Sultani, with gardens running down to the point.",
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "id": "balat-jewish",
+    "name": "Balat",
+    "polygon": [
+     [
+      3066,
+      277
+     ],
+     [
+      3427,
+      777
+     ],
+     [
+      3276,
+      1109
+     ],
+     [
+      2940,
+      777
+     ]
+    ],
+    "description": "Jewish quarter by the Golden Horn, home to Romaniote Jews and to Sephardim who came after the expulsion from Spain in 1492, with synagogues named after their towns of origin.",
+    "periods": [
+     "suleyman-1560"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "PROPONTIS",
+    "position": [
+     3696,
+     5658
+    ],
+    "size": "lg",
+    "rotation": -8,
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "text": "MARMARA DENİZİ",
+    "position": [
+     3696,
+     5658
+    ],
+    "size": "lg",
+    "rotation": -8,
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "BOSPOROS",
+    "position": [
+     7265,
+     999
+    ],
+    "size": "md",
+    "rotation": -55,
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "text": "BOĞAZİÇİ",
+    "position": [
+     7265,
+     999
+    ],
+    "size": "md",
+    "rotation": -55,
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "KERAS",
+    "position": [
+     4410,
+     1886
+    ],
+    "size": "md",
+    "rotation": -42,
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "text": "HALİÇ",
+    "position": [
+     4410,
+     1886
+    ],
+    "size": "md",
+    "rotation": -42,
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "Sykai",
+    "position": [
+     5460,
+     1886
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "constantine-337",
+     "justinian-562"
+    ]
+   },
+   {
+    "text": "Pera",
+    "position": [
+     5628,
+     1775
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "komnenian-1150"
+    ]
+   },
+   {
+    "text": "Galata",
+    "position": [
+     5418,
+     2197
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "Pera",
+    "position": [
+     5964,
+     1220
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "Blachernai",
+    "position": [
+     2730,
+     832
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "text": "Psamathia",
+    "position": [
+     2058,
+     4937
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "text": "Vlanga",
+    "position": [
+     3864,
+     4327
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "palaiologan-1453",
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "Hebdomon road",
+    "position": [
+     294,
+     5381
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "constantine-337",
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   },
+   {
+    "text": "Kasımpaşa",
+    "position": [
+     4914,
+     1054
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "Tophane",
+    "position": [
+     6425,
+     1720
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "suleyman-1560"
+    ]
+   },
+   {
+    "text": "Philopation",
+    "position": [
+     672,
+     1442
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "justinian-562",
+     "komnenian-1150",
+     "palaiologan-1453"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E7D4AB",
+   "ink": "#6C4A33",
+   "water": "#5F8790",
+   "hill": "#787C59",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   6719,
+   5603
+  ],
+  "cartouche": [
+   126,
+   5969
+  ]
+ },
+ "periods": [
+  {
+   "id": "constantine-337",
+   "label": "Constantine's New Rome",
+   "year": 337,
+   "startYear": 324,
+   "endYear": 361,
+   "summary": "Constantine refounds the Greek town of Byzantion as his capital in 324–330: a new land wall about 3 km west of the old one, an oval forum round his porphyry column, the colonnaded Mese, an enlarged Hippodrome joined to a new palace, a Senate house and baths. Brick and rubble faced with marble taken from older cities; much is built in haste and land inside the wall is still empty.",
+   "population": "perhaps 50,000, growing fast",
+   "feel": "Lime dust and scaffolding, statues carted in from every Greek city, and free bread handed out from the steps since 332.",
+   "style": "antique",
+   "houses": {
+    "title": "Brick houses of the new capital",
+    "text": "Two- and three-storey houses of brick and mortared rubble with timber floors and tiled roofs, shops opening under the colonnades of the main streets. Officials and senators lured from Rome build courtyard mansions; the old town of Byzantion round the acropolis is denser and poorer."
+   },
+   "outskirts": {
+    "title": "Villas and vineyards",
+    "text": "Beyond the new wall: villas, market gardens, vineyards and roadside tombs along the Via Egnatia. Across the Golden Horn the small town of Sykai faces the city."
+   }
+  },
+  {
+   "id": "justinian-562",
+   "label": "Justinian's City",
+   "year": 562,
+   "startYear": 361,
+   "endYear": 1080,
+   "summary": "After the Nika riot burned the centre in 532, Justinian rebuilt it: Hagia Sophia (537, its second dome 562), Hagia Irene, the Basilica Cistern, the bronze-roofed Chalke. The Theodosian land walls of 413 enclose 14 km²; aqueducts and open cisterns feed perhaps half a million people, though the plague of 542 has killed a great many. Brick, marble revetment, lead-covered domes.",
+   "population": "perhaps 400,000–500,000 before the plague of 542",
+   "feel": "No bells yet: wooden semantra clack for prayers, the Blues and Greens chant in the Hippodrome, and the Mese smells of bread, incense and harbour fish.",
+   "style": "antique",
+   "houses": {
+    "title": "Brick and timber houses",
+    "text": "Houses of two to four storeys, brick and stone below, timber above, with balconies jutting over streets; Zeno's building law (about 474) tried to keep streets twelve feet wide and balconies high. Shops at street level, families above, a court with a cistern behind."
+   },
+   "outskirts": {
+    "title": "Between the walls",
+    "text": "Between Constantine's wall and Theodosius' wall: monasteries, three great open cisterns, market gardens, cemeteries and villas. This belt was never fully built over."
+   }
+  },
+  {
+   "id": "komnenian-1150",
+   "label": "Queen of Cities",
+   "year": 1150,
+   "startYear": 1081,
+   "endYear": 1204,
+   "summary": "Under the Komnenian emperors the court moves to Blachernae in the north-west corner, Manuel I adds a new wall and palace hall there, and John II founds the Pantokrator monastery. Italian merchants hold walled quarters on the Golden Horn: Venetians since 1082, then Pisans and Genoese. Silk, relics and gold coin make it the richest city in Christendom, until the crusaders sack it in 1204.",
+   "population": "perhaps 300,000–400,000",
+   "feel": "Semantra and chanting, Venetian and Pisan voices on the quays, and a skyline of lead domes above red tile.",
+   "style": "medieval",
+   "houses": {
+    "title": "Byzantine town houses",
+    "text": "Two- and three-storey houses in bands of brick and stone, the upper storeys of timber jutting over the lanes on beams, tiled roofs, a small court with a well or cistern. Lanes wind between monastery walls; the Italian quarters pack warehouses and houses tight along the quays."
+   },
+   "outskirts": {
+    "title": "Gardens and monastery estates",
+    "text": "Orchards, vegetable plots and vineyards inside the land walls, worked by monasteries and hamlets; across the Horn, Pera with its Jewish silk-workers' quarter and the tower that holds the chain."
+   }
+  },
+  {
+   "id": "palaiologan-1453",
+   "label": "The Last Byzantine City",
+   "year": 1453,
+   "startYear": 1261,
+   "endYear": 1453,
+   "summary": "Retaken from the Latins in 1261, the city never recovers: perhaps 50,000 people live in villages separated by fields inside the walls. The emperors live at Blachernae; the Great Palace is a ruin. Genoese Galata across the Horn is richer than its host. On 29 May 1453 Mehmed II's army breaks through the land walls near the Gate of St Romanus.",
+   "population": "perhaps 40,000–50,000",
+   "feel": "Cockcrow and church bells over orchards, goats among broken colonnades, and the Genoese tower watching from across the water.",
+   "style": "medieval",
+   "houses": {
+    "title": "Houses among ruins",
+    "text": "Small one- and two-storey houses of reused brick and stone built against older ruins and monastery walls, with vegetable plots between them. The Castilian Pero Tafur, here in 1437, found the city thinly settled and its people poor."
+   },
+   "outskirts": {
+    "title": "Villages within the walls",
+    "text": "Orchards, wheat fields and vineyards fill much of the space inside the land walls; clusters of houses round a church or monastery form separate villages."
+   }
+  },
+  {
+   "id": "suleyman-1560",
+   "label": "Ottoman Istanbul",
+   "year": 1560,
+   "startYear": 1454,
+   "endYear": 1566,
+   "summary": "Mehmed II resettled the empty city after 1453 with Muslims, Greeks, Armenians and Jews; under Süleyman it is again the largest city in Europe. Sinan's mosques crown the hills, Topkapı Palace holds the old acropolis, the Bedesten and hans fill the commercial centre, and Galata is a busy port. Timber houses, lead domes, cut stone for mosques.",
+   "population": "perhaps 400,000–500,000",
+   "feel": "The call to prayer from scores of minarets, porters shouting in the bazaar lanes, and the new smell of coffee in Tahtakale.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Ottoman timber houses",
+    "text": "Two-storey houses of timber framing filled with brick or mud and plastered, the upper floor jutting on brackets with latticed windows, tiled roofs. Houses turn inward to a garden court behind a blank wall; whole quarters burn in the frequent fires."
+   },
+   "outskirts": {
+    "title": "Bostans and cemeteries",
+    "text": "Walled market gardens (bostans) in the Lycus valley and in the old open cisterns, cypress-shaded cemeteries outside the gates, and the vineyards of Pera above Galata."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "hagia-sophia",
+   "placeId": "megale-ekklesia",
+   "name": "Hagia Sophia",
+   "category": "religious",
+   "position": [
+    6048,
+    3930
+   ],
+   "rotation": 122,
+   "footprint": [
+    96.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/hagia-sophia.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 96,
+     "depth": 110,
+     "height": 38.400000000000006,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "name": "Megale Ekklesia (the Great Church)",
+     "confidence": "interpretation",
+     "note": "Probably planned under Constantine but dedicated by his son Constantius II in 360: a timber-roofed basilica with galleries. It burned in the riot of 404; Theodosius II's basilica of 415 burned in 532.",
+     "model": {
+      "glb": "models/constantinople/hagia-sophia-basilica.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 96,
+       "depth": 110,
+       "height": 38.400000000000006,
+       "roof": "pitched"
+      }
+     }
+    },
+    "justinian-562": {
+     "note": "Justinian's church of 532–537, its first dome fallen in the earthquake of 558 and the second, 6 m higher, dedicated on 24 December 562. Forty windows ring the foot of a dome 31 m across."
+    },
+    "komnenian-1150": {
+     "note": "The patriarch's cathedral and coronation church, propped by buttresses after earthquakes; the west arch and part of the dome were rebuilt after 989. Pilgrims crowd to its relics and the gold of its mosaics.",
+     "model": {
+      "glb": "models/constantinople/hagia-sophia-1150.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 96,
+       "depth": 110,
+       "height": 38.400000000000006,
+       "roof": "pitched"
+      }
+     }
+    },
+    "palaiologan-1453": {
+     "note": "Shabby and half-used, propped by Andronikos II's great buttresses (1317). Union with Rome was proclaimed here in December 1452; on 29 May 1453 it was full of people praying when the Ottomans broke in.",
+     "model": {
+      "glb": "models/constantinople/hagia-sophia-1150.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 96,
+       "depth": 110,
+       "height": 38.400000000000006,
+       "roof": "pitched"
+      }
+     }
+    },
+    "suleyman-1560": {
+     "name": "Ayasofya Camii",
+     "note": "The imperial mosque since 1453: a mihrab set off-axis toward Mecca, Mehmed II's brick minaret and Bayezid II's stone one. Sinan's two western minarets and new buttresses come in the 1570s.",
+     "model": {
+      "glb": "models/constantinople/hagia-sophia-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 96,
+       "depth": 110,
+       "domes": 3,
+       "minaretHeight": 28.799999999999997
+      }
+     }
+    }
+   },
+   "summary": "Justinian's cathedral of Holy Wisdom (532–537), for nine centuries the largest church in the world: a dome 31 m wide that seemed to its builders to hang from heaven.",
+   "details": [
+    "Built in under six years after the Nika riot by the mathematicians Anthemius of Tralles and Isidore of Miletus. The dome rests on four arches and pendentives over a square of piers, with semi-domes east and west opening the space into a nave 70 m long; Procopius wrote that it seemed 'suspended by a golden chain from heaven'.",
+    "The miniature shows the Justinianic shell: narthex and exonarthex to the west, the galleries, the north and south buttress towers, the tympanum walls with their windows and the ribbed dome with its 40 windows. The atrium in front and the patriarchal buildings are left out; later buttresses and minarets appear in their eras."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hagia-sophia",
+    "procopius-buildings",
+    "paul-silentiary",
+    "mainstone"
+   ],
+   "built": "532–537 (dome rebuilt 558–562)",
+   "function": "Cathedral of the patriarch; from 1453 the imperial mosque",
+   "activity": {
+    "figures": 60,
+    "radius": 200
+   }
+  },
+  {
+   "id": "hagia-irene",
+   "placeId": "hagia-irene",
+   "name": "Hagia Irene",
+   "category": "religious",
+   "position": [
+    6157,
+    3817
+   ],
+   "rotation": 115,
+   "footprint": [
+    36.0,
+    86.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/hagia-irene.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 36,
+     "depth": 86,
+     "height": 14.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "confidence": "interpretation",
+     "note": "The church of Holy Peace, perhaps older than Constantine and enlarged by him; the city's cathedral until the Great Church was dedicated in 360.",
+     "model": {
+      "glb": "models/constantinople/hagia-irene-basilica.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 36,
+       "depth": 86,
+       "height": 14.4,
+       "roof": "pitched"
+      }
+     }
+    },
+    "justinian-562": {
+     "note": "Rebuilt by Justinian after the Nika fire of 532 as a domed basilica with an atrium, next to Hagia Sophia and served by the same clergy."
+    },
+    "komnenian-1150": {
+     "note": "The church as rebuilt after the earthquake of 740: a dome on a high drum over the crossing, a lower elliptical dome to the west; iconoclast emperors left a great mosaic cross in its apse."
+    },
+    "palaiologan-1453": {
+     "note": "Still standing beside the Great Church, with the Sampson hospital nearby in ruins."
+    },
+    "suleyman-1560": {
+     "name": "Aya İrini (Cebehane)",
+     "note": "Never made a mosque: it stands in the outer court of Topkapı Palace and serves as the Janissaries' armoury."
+    }
+   },
+   "summary": "The church of Holy Peace, the second great church of the acropolis, rebuilt by Justinian and again after 740; the only major Byzantine church in the city never turned into a mosque.",
+   "details": [
+    "A domed basilica: a nave with galleries under two domes in a row, the eastern one on a windowed drum, with an apse and an atrium. Most of what stands is the rebuilding after the earthquake of 740; the apse keeps an iconoclast cross in mosaic, a rare survival.",
+    "The miniature follows the surviving plan with the atrium at the west; the brickwork is shown bare, as it is today."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hagia-irene",
+    "krautheimer-ecb",
+    "mathews"
+   ],
+   "built": "532; rebuilt after 740",
+   "function": "Church; from 1453 an armoury",
+   "activity": {
+    "figures": 12,
+    "radius": 80
+   }
+  },
+  {
+   "id": "hippodrome",
+   "placeId": "at-meydani",
+   "name": "Hippodrome",
+   "category": "entertainment",
+   "position": [
+    5628,
+    4249
+   ],
+   "rotation": 32,
+   "footprint": [
+    130.9,
+    450.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/hippodrome.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 450,
+     "height": 52.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "Begun under Septimius Severus about 203 and finished by Constantine, who joined it to his palace by the kathisma and set up the bronze Serpent Column brought from Delphi.",
+     "model": {
+      "glb": "models/constantinople/hippodrome-337.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 450,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "justinian-562": {
+     "note": "Perhaps 100,000 seats; Theodosius I's Egyptian obelisk (390) on the spina; the Blues and Greens run the races and the riots. In January 532 the Nika revolt ended here with some 30,000 dead."
+    },
+    "komnenian-1150": {
+     "note": "Still the stage for races, triumphs and the humiliation of captives; four gilded bronze horses stand over the starting gates, and the walled obelisk was sheathed in bronze plates in the 10th century."
+    },
+    "palaiologan-1453": {
+     "note": "A ruin: the crusaders melted its bronzes in 1204 and the four horses went to Venice. The seats are quarried for stone, but the obelisks and the Serpent Column still stand.",
+     "model": {
+      "glb": "models/constantinople/hippodrome-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 450,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "suleyman-1560": {
+     "name": "At Meydanı",
+     "note": "The 'Horse Square', an open ground for parades, festivals and executions, with İbrahim Pasha's palace on its west side; the Serpent Column still has its three snake heads.",
+     "model": {
+      "glb": "models/constantinople/hippodrome-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 450,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The great racecourse, about 450 m long, beside the palace: the city's political arena, where emperors were acclaimed and mocked and the circus factions fought.",
+   "details": [
+    "The track ran north–south with the starting gates (carceres) at the north and the curved end (sphendone) carried on vaults over the slope to the south. The emperor watched from the kathisma, reached directly from the Great Palace. The spina carried trophies from across the empire: obelisks, the Serpent Column of Plataea, bronze statues.",
+    "The seating is reconstructed from the surviving sphendone and texts; the monuments on the spina are placed as they still stand in Sultanahmet."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hippodrome",
+    "dagron",
+    "procopius-buildings"
+   ],
+   "built": "c. 203; enlarged 324–330",
+   "function": "Racecourse and ceremonial square",
+   "activity": {
+    "figures": 120,
+    "radius": 260
+   }
+  },
+  {
+   "id": "great-palace",
+   "placeId": "mega-palation",
+   "name": "Great Palace (Mega Palation)",
+   "category": "civic",
+   "position": [
+    5933,
+    4300
+   ],
+   "rotation": 32,
+   "footprint": [
+    220.0,
+    200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/great-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 220,
+     "depth": 200,
+     "height": 80.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "variants": {
+    "constantine-337": {
+     "confidence": "interpretation",
+     "note": "Constantine's palace: the Daphne and its halls along the Hippodrome, entered through the Chalke from the Augusteion. Its plan is known only from later texts."
+    },
+    "justinian-562": {
+     "note": "Rebuilt after the Nika fire; the peristyle court with its floor mosaic of hunting and country life is probably of this century."
+    },
+    "komnenian-1150": {
+     "note": "A maze of halls, churches and gardens built up over eight centuries, used for great ceremonies; but the Komnenoi prefer to live at Blachernae."
+    },
+    "palaiologan-1453": {
+     "note": "Ruinous since the Latin occupation; the Palaiologoi live at Blachernae and the terraces fill with gardens and rubble.",
+     "model": {
+      "glb": "models/constantinople/great-palace-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 220,
+       "depth": 200,
+       "height": 80.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "suleyman-1560": {
+     "note": "Gone: its terraces lie under houses, pashas' mansions and gardens below At Meydanı. The mosaics of the peristyle were found only in the 1930s."
+    }
+   },
+   "summary": "The emperors' palace for eight centuries: halls, churches, courts and gardens on terraces stepping down from the Hippodrome to the Marmara.",
+   "details": [
+    "Never a single building but a walled precinct grown by accretion: the Daphne, the Triklinos of the Nineteen Couches, the octagonal Chrysotriklinos throne hall of Justin II, the Pharos church with its relics of the Passion, the Nea Ekklesia of Basil I, a polo ground. The Book of Ceremonies describes its rituals room by room.",
+    "Almost nothing stands above ground, so the miniature is a reconstruction: three terraces with a selection of halls set out after the usual plans. Positions of individual buildings are uncertain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-palace",
+    "mango-art",
+    "krautheimer-ecb"
+   ],
+   "built": "330 onward; enlarged to the 10th century",
+   "function": "Imperial residence and ceremonial palace",
+   "activity": {
+    "figures": 25,
+    "radius": 180
+   }
+  },
+  {
+   "id": "chalke",
+   "placeId": "chalke",
+   "name": "Chalke Gate",
+   "category": "civic",
+   "position": [
+    5892,
+    4077
+   ],
+   "rotation": 210,
+   "footprint": [
+    46.0,
+    35.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/chalke.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 45,
+     "depth": 35,
+     "height": 14.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150"
+   ],
+   "variants": {
+    "constantine-337": {
+     "confidence": "interpretation",
+     "note": "Constantine's ceremonial entrance from the Augusteion into the palace."
+    },
+    "justinian-562": {
+     "note": "Rebuilt after 532 as a domed hall roofed in gilded bronze (hence 'the bronze house'), its vault covered in mosaics of Justinian's victories, as Procopius describes."
+    },
+    "komnenian-1150": {
+     "note": "Over its bronze doors the icon of Christ Chalkites, taken down by the iconoclasts and restored; John Tzimiskes built a church of Christ beside it in the 970s."
+    },
+    "palaiologan-1453": {
+     "note": "Gone, probably ruined during the Latin occupation; its site is open ground south of the Great Church."
+    }
+   },
+   "summary": "The monumental vestibule of the Great Palace on the Augusteion, its roof of gilded bronze tiles, where the icon controversy began.",
+   "details": [
+    "A rectangular hall with a central dome on four arches, bronze doors and an icon of Christ above them. Its removal, in 726 or 730, is the traditional start of iconoclasm.",
+    "Its exact position is uncertain; the miniature places it on the south side of the Augusteion following the usual reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-chalke",
+    "procopius-buildings",
+    "mango-art"
+   ],
+   "built": "4th century; rebuilt after 532",
+   "function": "Palace vestibule",
+   "activity": {
+    "figures": 15,
+    "radius": 60
+   }
+  },
+  {
+   "id": "basilica-cistern",
+   "placeId": "stoa-basilike",
+   "name": "Basilica Cistern",
+   "category": "civic",
+   "position": [
+    5880,
+    3939
+   ],
+   "rotation": -20,
+   "footprint": [
+    65.0,
+    138.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/basilica-cistern.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 65,
+     "depth": 138,
+     "height": 26.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "name": "Basilica (Stoa Basilike)",
+     "confidence": "reconstruction",
+     "note": "The Basilica: a colonnaded court of law courts, schools and bookshops beside the Milion, where the cistern will later be dug.",
+     "model": {
+      "glb": "models/constantinople/stoa-basilica.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 65,
+       "depth": 138,
+       "height": 26.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "justinian-562": {
+     "note": "Built in 532 under the Basilica after the Nika fire: 336 columns in 12 rows of 28 hold brick vaults over some 80,000 m³ of water from the aqueducts."
+    },
+    "komnenian-1150": {
+     "note": "Still feeding the Great Palace and the quarter round the Augusteion."
+    },
+    "palaiologan-1453": {
+     "note": "Probably still holding water, though the Basilica above has gone."
+    },
+    "suleyman-1560": {
+     "name": "Yerebatan Sarayı",
+     "note": "Forgotten by most until Pierre Gilles found it about 1545: people living above lowered buckets through holes in their basements, and some fished in it."
+    }
+   },
+   "summary": "The largest of the city's covered cisterns, 138 × 65 m, built by Justinian under the Basilica to store aqueduct water for the palace.",
+   "details": [
+    "Reused columns of many orders, most 9 m tall, support 336 brick cross-vaults; two Medusa heads serve as column bases in the north-west corner. The water came by the aqueduct of Valens and was drawn up through wells.",
+    "The miniature is a cutaway: the north half keeps its vaults, the south half is opened to show the columns standing in water."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-basilica-cistern",
+    "procopius-buildings",
+    "gilles"
+   ],
+   "built": "532",
+   "function": "Water reservoir",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "forum-of-constantine",
+   "placeId": "forum-of-constantine",
+   "name": "Column and Forum of Constantine",
+   "category": "monument",
+   "position": [
+    5325,
+    3914
+   ],
+   "rotation": 0,
+   "footprint": [
+    140.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/forum-of-constantine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 140,
+     "depth": 120,
+     "height": 48.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "Inaugurated in 330: an oval forum with two-storey colonnades, arches east and west on the Mese, the Senate house on the north; at its centre the porphyry column with Constantine as the sun god."
+    },
+    "justinian-562": {
+     "note": "Crowded with statues brought from Rome, Greece and Asia; a fire in 465 damaged the porticoes."
+    },
+    "komnenian-1150": {
+     "note": "A storm threw down the statue in 1106; Manuel I set a cross on top. The forum is a market, with the bakers' shops nearby.",
+     "model": {
+      "glb": "models/constantinople/forum-of-constantine-1150.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "palaiologan-1453": {
+     "note": "The colonnades are ruined; the column with its cross stands over a half-empty quarter.",
+     "model": {
+      "glb": "models/constantinople/column-of-constantine-1453.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "suleyman-1560": {
+     "name": "Çemberlitaş",
+     "note": "The 'hooped stone', bound with iron bands round its cracked drums, the cross removed; houses and the Atik Ali Pasha mosque crowd round it.",
+     "model": {
+      "glb": "models/constantinople/column-of-constantine.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "Constantine's oval forum on the second hill, with his porphyry column, 37 m high, at its centre; the column still stands.",
+   "details": [
+    "The column was made of seven drums of Egyptian porphyry on a marble pedestal; relics were said to be buried beneath it, including the Palladium of Rome. Its statue of Constantine wore a radiate crown, perhaps reused from an Apollo.",
+    "The forum's oval shape is known from texts; the colonnades and the Senate house are reconstructions. The column follows the surviving monument, whose top was rebuilt in masonry."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-column-constantine",
+    "wiki-forum-constantine",
+    "dagron",
+    "bardill"
+   ],
+   "built": "328–330",
+   "function": "Forum and commemorative column",
+   "activity": {
+    "figures": 50,
+    "radius": 160
+   }
+  },
+  {
+   "id": "forum-of-theodosius",
+   "placeId": "forum-tauri",
+   "name": "Forum of Theodosius",
+   "category": "civic",
+   "position": [
+    4678,
+    3745
+   ],
+   "rotation": 0,
+   "footprint": [
+    150.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/forum-of-theodosius.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 150,
+     "depth": 110,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "A square on the Mese, the Forum Tauri; Theodosius I will rebuild it on the model of Trajan's forum in Rome."
+    },
+    "justinian-562": {
+     "note": "The largest square of the city, with a triumphal arch of columns carved like tree trunks and a column with a spiral relief of Theodosius' victories."
+    },
+    "komnenian-1150": {
+     "note": "The market of the Forum Tauri, with the Basilica of Theodosius on its north side and the Nymphaeum fed by the aqueduct."
+    },
+    "palaiologan-1453": {
+     "note": "Ruinous; the column still stands but the porticoes are gone."
+    },
+    "suleyman-1560": {
+     "note": "Gone: Bayezid II's mosque (1506) and the Old Palace stand here, and drums of the column, carved with marching soldiers, are built into the Bayezid bath."
+    }
+   },
+   "summary": "The great square built by Theodosius I in 393 on the Mese, modelled on Trajan's forum in Rome, with a column carved with his victories.",
+   "details": [
+    "Entered from the west through a triple arch whose columns were carved to look like knotted tree trunks; fragments lie by the road at Beyazıt today. The column carried a spiral frieze of his victories like Trajan's in Rome.",
+    "The forum's plan is uncertain; the miniature is a reconstruction from the surviving arch fragments and the comparison with Trajan's forum."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-forum-theodosius",
+    "mango-developpement",
+    "mueller-wiener"
+   ],
+   "built": "386–393",
+   "function": "Forum and market",
+   "activity": {
+    "figures": 40,
+    "radius": 140
+   }
+  },
+  {
+   "id": "aqueduct-of-valens",
+   "placeId": "aqueduct-of-valens",
+   "name": "Aqueduct of Valens",
+   "category": "civic",
+   "position": [
+    3948,
+    3123
+   ],
+   "rotation": 13,
+   "footprint": [
+    900.0,
+    14.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/aqueduct-of-valens.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 900,
+     "depth": 14,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "Not yet built: the city drinks from the older aqueduct of Hadrian and from wells and cisterns."
+    },
+    "justinian-562": {
+     "note": "Bringing water from the Thracian hills by channels that grew to more than 250 km, the longest water supply of the ancient world, to the Nymphaeum Maximum by the Forum of Theodosius."
+    },
+    "komnenian-1150": {
+     "note": "Andronikos I restored it in the 1180s after centuries of patched repairs."
+    },
+    "palaiologan-1453": {
+     "note": "Still standing, though much of the city's water now comes from cisterns."
+    },
+    "suleyman-1560": {
+     "name": "Bozdoğan Kemeri",
+     "note": "Restored by Sinan for Süleyman, whose new Kırkçeşme water system from the Belgrade forest is being finished in these years."
+    }
+   },
+   "summary": "The aqueduct bridge of 368 across the valley between the fourth and third hills, about 900 m of arches up to 29 m high, still standing.",
+   "details": [
+    "Two tiers of arches of rough-cut stone with brick, where the valley is deepest. It carried the water of Valens' long Thracian channel into the heart of the city, feeding cisterns and fountains.",
+    "The miniature sets the arcade between low hills on a flat ground; heights and the number of arches are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-valens-aqueduct",
+    "mango-developpement"
+   ],
+   "built": "c. 368",
+   "function": "Aqueduct",
+   "activity": {
+    "figures": 10,
+    "radius": 200
+   }
+  },
+  {
+   "id": "theodosian-walls",
+   "placeId": "theodosian-walls",
+   "name": "Theodosian Land Walls",
+   "category": "military",
+   "position": [
+    899,
+    3103
+   ],
+   "rotation": 115,
+   "footprint": [
+    360.0,
+    72.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/theodosian-walls.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 360,
+     "depth": 72,
+     "wallHeight": 14.4,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "Open country: vineyards and tombs along the roads; Constantine's wall lies about 1.5 km to the east."
+    },
+    "justinian-562": {
+     "note": "Built under the prefect Anthemius in 413 and doubled after the earthquake of 447, rebuilt in sixty days according to an inscription; Attila turned away."
+    },
+    "komnenian-1150": {
+     "note": "Kept in repair by the Komnenoi, whose inscriptions mark rebuilt towers; no army has broken through them in seven centuries."
+    },
+    "palaiologan-1453": {
+     "note": "Battered for seven weeks by Ottoman guns, including Orban's great bombard; the defenders plug breaches at night with timber, earth and barrels. On 29 May the Janissaries break in near the Gate of St Romanus.",
+     "model": {
+      "glb": "models/constantinople/theodosian-walls-1453.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 360,
+       "depth": 72,
+       "wallHeight": 14.4,
+       "bastions": 8
+      }
+     }
+    },
+    "suleyman-1560": {
+     "note": "Repaired by Mehmed II but no longer a frontier; cemeteries and gardens spread along the moat outside."
+    }
+   },
+   "summary": "The triple defence of 413–447 across the peninsula from the Marmara to the Golden Horn: a moat, an outer wall and a 12 m inner wall with 96 great towers.",
+   "details": [
+    "A 20 m wide moat with a crenellated breastwork, a terrace, an outer wall with towers set between those of the inner wall, a second terrace, and the inner wall, 5 m thick, of limestone with brick courses. They held against Avars, Arabs, Bulgars and Rus until gunpowder.",
+    "The miniature shows a 360 m stretch with one military gate, between the Gates of Rhegion and St Romanus; the alternating square and polygonal towers follow surviving sections."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-theodosian-walls",
+    "van-millingen",
+    "asutay-effenberger"
+   ],
+   "built": "405–413; outer wall 447",
+   "function": "Land walls",
+   "activity": {
+    "figures": 30,
+    "radius": 200
+   }
+  },
+  {
+   "id": "golden-gate",
+   "placeId": "porta-aurea",
+   "name": "Golden Gate (Porta Aurea)",
+   "category": "military",
+   "position": [
+    1244,
+    5525
+   ],
+   "rotation": 75,
+   "footprint": [
+    190.0,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/golden-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 190,
+     "depth": 170,
+     "wallHeight": 34.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "Not built: the Via Egnatia runs through fields here; the Golden Gate arch dates from the 390s or the 420s."
+    },
+    "justinian-562": {
+     "note": "The ceremonial entrance for triumphs: a triple arch of white marble between two great pylons, its doors plated with gilded bronze, statues of elephants above."
+    },
+    "komnenian-1150": {
+     "note": "Emperors returning from victories still enter here: in 1133 John II walked in behind a silver chariot carrying an icon of the Virgin."
+    },
+    "palaiologan-1453": {
+     "note": "Michael VIII entered here in 1261. John V's fortress round the gate was pulled down in 1391 on the sultan's demand; the arches are walled up."
+    },
+    "suleyman-1560": {
+     "name": "Yedikule Fortress (Yedikule Hisarı)",
+     "note": "Mehmed II added three towers and curtain walls behind the gate in 1458 to make the 'Seven Towers', a treasury and later a state prison.",
+     "model": {
+      "glb": "models/constantinople/yedikule.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 190,
+       "depth": 170,
+       "wallHeight": 34.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The triumphal gate in the land walls by the Marmara, a marble arch set between two pylons, where emperors entered in triumph; from 1458 the core of the Ottoman Yedikule.",
+   "details": [
+    "Probably built as a free-standing triumphal arch under Theodosius I or II and then joined into the land walls; a smaller outer gate with reliefs stood in the outer wall. The gilded doors gave it its name.",
+    "The miniature shows the marble gate in its stretch of wall, with moat and outer gate; for 1560 it adds Mehmed II's pentagonal fortress of seven towers."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-golden-gate",
+    "wiki-yedikule",
+    "van-millingen"
+   ],
+   "built": "c. 390s–420s; Yedikule 1458",
+   "function": "Triumphal gate; Ottoman fortress, treasury and prison",
+   "activity": {
+    "figures": 20,
+    "radius": 150
+   }
+  },
+  {
+   "id": "sea-walls",
+   "placeId": "sea-walls",
+   "name": "Sea Walls (Marmara)",
+   "category": "military",
+   "position": [
+    2940,
+    4917
+   ],
+   "rotation": -14,
+   "footprint": [
+    300.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/sea-walls.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 300,
+     "depth": 40,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "Constantine walled parts of the shore; the continuous sea wall dates from 439."
+    },
+    "justinian-562": {
+     "note": "A single wall with towers along the whole Marmara shore, built under the prefect Cyrus in 439 and repaired after earthquakes."
+    },
+    "komnenian-1150": {
+     "note": "Strengthened by Theophilos in the 830s, whose inscriptions survive, and patched by the Komnenoi; sea gates open onto landing stages."
+    },
+    "palaiologan-1453": {
+     "note": "Thinly manned in 1453: the Ottoman fleet could not land against the currents, and the defenders were moved to the land walls."
+    },
+    "suleyman-1560": {
+     "note": "Kept as a boundary with gates to the fishing quarters of Samatya and Kumkapı; houses lean against its inner face."
+    }
+   },
+   "summary": "The single wall of the sea fronts, 188 towers along the Marmara, rising from the water or from a narrow beach.",
+   "details": [
+    "Lower than the land walls, since the currents of the Marmara made landings difficult; sea gates gave on to harbours and landing stages. Inscriptions of emperors who repaired it, Theophilos above all, survive in many towers.",
+    "The miniature shows a 300 m stretch near Psamathia with six towers, a sea gate and its landing stage."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sea-walls",
+    "van-millingen"
+   ],
+   "built": "439; repaired to 1453",
+   "function": "Sea walls",
+   "activity": {
+    "figures": 15,
+    "radius": 150
+   }
+  },
+  {
+   "id": "holy-apostles",
+   "placeId": "holy-apostles",
+   "name": "Church of the Holy Apostles",
+   "category": "religious",
+   "position": [
+    3503,
+    2729
+   ],
+   "rotation": 151,
+   "footprint": [
+    200.0,
+    200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/holy-apostles.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 200,
+     "depth": 200,
+     "height": 80.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "name": "Mausoleum of Constantine",
+     "confidence": "interpretation",
+     "note": "Constantine's mausoleum, a domed rotunda where he was laid in May 337 among memorials of the twelve apostles; whether he or Constantius II built the church beside it is debated.",
+     "model": {
+      "glb": "models/constantinople/holy-apostles-337.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 200,
+       "depth": 200,
+       "height": 80.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "justinian-562": {
+     "note": "Rebuilt by Justinian (536–550) as a cross with five domes, the model for St Mark's in Venice; emperors are buried in its two mausolea until the 11th century."
+    },
+    "komnenian-1150": {
+     "note": "Nikolaos Mesarites describes its mosaics and the school that met in its porticoes around 1200; the crusaders robbed the imperial tombs in 1204."
+    },
+    "palaiologan-1453": {
+     "note": "In poor repair; after the conquest it was briefly the seat of the patriarch Gennadios (1453–1456)."
+    },
+    "suleyman-1560": {
+     "name": "Fatih Mosque (Fatih Camii)",
+     "note": "Mehmed II pulled down the church and built his mosque complex (1463–1470) with eight medreses, a hospital, soup kitchen and his tomb. Today's mosque is a rebuilding after the earthquake of 1766.",
+     "model": {
+      "glb": "models/constantinople/fatih-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 200,
+       "depth": 200,
+       "domes": 3,
+       "minaretHeight": 60.0
+      }
+     }
+    }
+   },
+   "summary": "The imperial burial church on the fourth hill, from Constantine's mausoleum to Justinian's five-domed cross; replaced in 1463 by Mehmed II's Fatih Mosque.",
+   "details": [
+    "Second only to Hagia Sophia, the Holy Apostles held the tombs of emperors from Constantine to the 11th century and relics of Andrew, Luke and Timothy. Justinian's church was a Greek cross with a dome over each arm and the crossing.",
+    "No trace survives above ground; the church is reconstructed from Mesarites, Procopius and its copies at Venice and Ephesus. The mosque complex follows the 15th-century plan rather than the rebuilt mosque of today."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-holy-apostles",
+    "wiki-fatih-mosque",
+    "mesarites",
+    "procopius-buildings"
+   ],
+   "built": "c. 330s; rebuilt 536–550; mosque 1463–1470",
+   "function": "Imperial church and mausoleum; from 1463 the Fatih mosque complex",
+   "activity": {
+    "figures": 40,
+    "radius": 180
+   }
+  },
+  {
+   "id": "pantokrator",
+   "placeId": "pantokrator",
+   "name": "Pantokrator Monastery",
+   "category": "religious",
+   "position": [
+    4132,
+    2696
+   ],
+   "rotation": 90,
+   "footprint": [
+    75.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/pantokrator.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 75,
+     "depth": 60,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "justinian-562": {
+     "note": "Houses and gardens on the slope of the fourth hill; John II's monastery will be built here in the 1120s."
+    },
+    "komnenian-1150": {
+     "note": "Founded by John II and Empress Irene (1118–1136): three linked churches, the Komnenian family mausoleum, and a hospital of fifty beds with its own doctors."
+    },
+    "palaiologan-1453": {
+     "note": "The Venetians used it as their headquarters during the Latin occupation; restored afterwards, its monks still keep the Komnenian tombs."
+    },
+    "suleyman-1560": {
+     "name": "Zeyrek Kilise Camii",
+     "note": "Converted to a mosque soon after 1453 and named after the scholar Molla Zeyrek, who taught in its medrese.",
+     "model": {
+      "glb": "models/constantinople/pantokrator-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 75,
+       "depth": 60,
+       "domes": 3,
+       "minaretHeight": 22.5
+      }
+     }
+    }
+   },
+   "summary": "John II Komnenos' great monastery on the fourth hill: three churches side by side, a dynastic mausoleum and the best-known hospital of the Middle Ages.",
+   "details": [
+    "The south church (1118–1124) was built by Empress Irene, the north church and the domed chapel of St Michael between them by John II as the family's burial place. The typikon of 1136 describes the hospital: wards for men and women, surgeons, a pharmacy.",
+    "The churches follow the surviving building, now the Zeyrek mosque; the monastic buildings are suggested by a single range of cells."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-pantokrator",
+    "ousterhout",
+    "mathews"
+   ],
+   "built": "1118–1136",
+   "function": "Monastery, imperial mausoleum and hospital",
+   "activity": {
+    "figures": 20,
+    "radius": 90
+   }
+  },
+  {
+   "id": "chora",
+   "placeId": "chora",
+   "name": "Chora Monastery (St Saviour in Chora)",
+   "category": "religious",
+   "position": [
+    2595,
+    1431
+   ],
+   "rotation": 90,
+   "footprint": [
+    45.0,
+    40.0
+   ],
+   "scale": 1.3,
+   "model": {
+    "glb": "models/constantinople/chora.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 45,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "justinian-562": {
+     "note": "An older monastery 'in the country' (chora) stood here outside Constantine's wall; the present church was rebuilt in the 1070s."
+    },
+    "komnenian-1150": {
+     "note": "Rebuilt by Maria Doukaina about 1077–1081 and again by Isaac Komnenos in the 1120s: a domed cross-in-square church near the palace of Blachernae."
+    },
+    "palaiologan-1453": {
+     "note": "Theodore Metochites added the outer narthex and the funerary chapel (1315–1321) with the finest mosaics and frescoes of the age. During the siege the Hodegetria icon was brought here.",
+     "model": {
+      "glb": "models/constantinople/chora-1453.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 45,
+       "depth": 40,
+       "height": 16.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "suleyman-1560": {
+     "name": "Kariye Camii",
+     "note": "Made a mosque about 1511 under Bayezid II; the mosaics are covered by wooden screens and whitewash.",
+     "model": {
+      "glb": "models/constantinople/chora-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 45,
+       "depth": 40,
+       "domes": 3,
+       "minaretHeight": 20
+      }
+     }
+    }
+   },
+   "summary": "A small monastery church near the land walls, famous for the mosaics and frescoes Theodore Metochites gave it in 1315–1321.",
+   "details": [
+    "A cross-domed church with an inner and outer narthex and a funerary chapel (parekklesion) on the south side, whose apse shows the Anastasis, Christ pulling Adam and Eve from their tombs.",
+    "The miniature follows the surviving building, scaled up slightly to be readable; earlier phases are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chora",
+    "ousterhout",
+    "mathews"
+   ],
+   "built": "c. 1077–1081; 1120s; 1315–1321",
+   "function": "Monastery church",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "blachernae",
+   "placeId": "blachernae",
+   "name": "Palace of Blachernae",
+   "category": "civic",
+   "position": [
+    2999,
+    832
+   ],
+   "rotation": 25,
+   "footprint": [
+    150.0,
+    130.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/blachernae.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 150,
+     "depth": 130,
+     "height": 52.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "variants": {
+    "justinian-562": {
+     "note": "A suburban residence near the church of St Mary of Blachernae, which held the Virgin's robe; the palace was a modest lodge for imperial visits."
+    },
+    "komnenian-1150": {
+     "note": "The main residence of Alexios I and his successors; Manuel I built a new hall and wall, and Odo of Deuil (1147) admired its gold and many-coloured marble."
+    },
+    "palaiologan-1453": {
+     "note": "The Palaiologan residence, worn and partly ruined; the palace of the Porphyrogenitus stands in the walls nearby. Travellers in the early 1400s found much of the city round it in ruins."
+    },
+    "suleyman-1560": {
+     "note": "In ruins; the shell of the Palace of the Porphyrogenitus (Tekfur Sarayı) stands roofless in the walls."
+    }
+   },
+   "summary": "The Komnenian imperial palace in the north-west corner of the city, built against the land walls above the Golden Horn.",
+   "details": [
+    "Developed from a 5th-century lodge into the emperors' main residence from Alexios I (1081). Manuel I added a great hall and a new wall; the Palaiologoi lived here to the end. Little survives but the vaults called the Anemas prison and the walls.",
+    "The miniature is a reconstruction: a terrace on arched substructures against the walls, a three-storey hall in banded brick and stone like the Tekfur Sarayı, and a palace church."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-blachernae",
+    "clavijo",
+    "magdalino"
+   ],
+   "built": "5th century; enlarged 1081–1180",
+   "function": "Imperial residence",
+   "activity": {
+    "figures": 25,
+    "radius": 120
+   }
+  },
+  {
+   "id": "kastellion",
+   "placeId": "kastellion",
+   "name": "Kastellion of Galata",
+   "category": "military",
+   "position": [
+    5812,
+    2363
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.0,
+    40.2
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/constantinople/kastellion.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 40,
+     "depth": 40,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "komnenian-1150"
+   ],
+   "variants": {
+    "justinian-562": {
+     "note": "A fort here probably held the end of the chain across the Golden Horn already in the 7th century."
+    },
+    "komnenian-1150": {
+     "note": "The great tower of Galata that anchors the chain; in July 1203 the crusaders stormed it and broke the chain."
+    },
+    "palaiologan-1453": {
+     "note": "Replaced by the walls of Genoese Galata; in 1453 the chain is fixed to a tower of the Genoese sea walls."
+    }
+   },
+   "summary": "The Byzantine tower by the shore of Galata where the great chain across the Golden Horn was made fast; predecessor of the Galata Tower in the defence of the Horn.",
+   "details": [
+    "The chain of iron links on wooden floats stretched across the mouth of the Horn to the Tower of Eugenius below the acropolis. It kept out the Arab fleets in 717–718 and the Ottomans in 1453, but not the Venetians in 1203.",
+    "Its form is unknown; the Yeraltı mosque stands on vaults thought to belong to it. The miniature is an interpretation: a keep in a bailey with the windlass and the first links of the chain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-chain",
+    "wiki-galata",
+    "van-millingen"
+   ],
+   "built": "by the 7th century?",
+   "function": "Fort holding the harbour chain",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "galata-tower",
+   "placeId": "christea-turris",
+   "name": "Galata Tower",
+   "category": "military",
+   "position": [
+    5558,
+    2039
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.0,
+    30.0
+   ],
+   "scale": 1.2,
+   "model": {
+    "glb": "models/constantinople/galata-tower.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 30,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "komnenian-1150": {
+     "note": "Not yet built: Pera is a suburb of vineyards and the Jewish quarter, and the Kastellion by the shore holds the chain."
+    },
+    "palaiologan-1453": {
+     "name": "Christea Turris (Tower of Christ)",
+     "note": "Built by the Genoese in 1348 at the top of their colony's walls, some 60 m high, watching over the Golden Horn and Pera."
+    },
+    "suleyman-1560": {
+     "name": "Galata Kulesi",
+     "note": "Kept by the Ottomans as a lookout and prison; its pointed cap appears in Matrakçı Nasuh's view of Istanbul (about 1537)."
+    }
+   },
+   "summary": "The Genoese 'Tower of Christ' of 1348 at the crown of Galata's walls, a stone cylinder 16 m across, still the landmark of the north shore.",
+   "details": [
+    "Built as the highest point of the colony's landward defences after Genoa enlarged Galata in the 1340s. Its walls are nearly 4 m thick at the base.",
+    "The cap is shown as the conical roof of 16th-century views; the original Genoese top may have been battlemented. Scaled up slightly to be readable."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-galata-tower",
+    "wiki-galata"
+   ],
+   "built": "1348",
+   "function": "Watchtower of Genoese Galata",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "little-hagia-sophia",
+   "placeId": "sergius-bacchus",
+   "name": "Little Hagia Sophia (Sts Sergius and Bacchus)",
+   "category": "religious",
+   "position": [
+    5394,
+    4573
+   ],
+   "rotation": 90,
+   "footprint": [
+    50.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/little-hagia-sophia.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 70,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453",
+    "suleyman-1560"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "The house of Hormisdas, a Persian prince who fled to Constantine, stood near here; Justinian later lived in it as heir to the throne."
+    },
+    "justinian-562": {
+     "note": "Built by Justinian and Theodora about 527–536 beside the Hormisdas palace: an octagon under a melon dome in a square shell, a model for the great church."
+    },
+    "komnenian-1150": {
+     "note": "A monastery church near the Great Palace; its Greek dedicatory inscription to Justinian and Theodora still runs round the entablature."
+    },
+    "palaiologan-1453": {
+     "note": "In a half-empty quarter near the sea walls, its monastery much reduced."
+    },
+    "suleyman-1560": {
+     "name": "Küçük Ayasofya Camii",
+     "note": "Converted about 1500 by the chief eunuch Hüseyin Ağa, who added a minaret, a portico and a medrese round a court.",
+     "model": {
+      "glb": "models/constantinople/little-hagia-sophia-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 50,
+       "depth": 70,
+       "domes": 3,
+       "minaretHeight": 20
+      }
+     }
+    }
+   },
+   "summary": "Justinian's church of Sts Sergius and Bacchus (527–536), an octagon under a pumpkin dome, often seen as a rehearsal for Hagia Sophia.",
+   "details": [
+    "An irregular square shell around an octagonal core with alternating straight and curved niches carries a dome of sixteen segments. It was built as part of the Hormisdas palace complex, where Justinian lived before 527.",
+    "The miniature follows the surviving building; the Byzantine atrium in front is conjectural."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-little-hagia-sophia",
+    "krautheimer-ecb",
+    "mathews"
+   ],
+   "built": "c. 527–536",
+   "function": "Church; from about 1500 a mosque",
+   "activity": {
+    "figures": 12,
+    "radius": 60
+   }
+  },
+  {
+   "id": "topkapi-palace",
+   "placeId": "saray-i-cedid",
+   "name": "Topkapı Palace (Saray-ı Cedid)",
+   "category": "civic",
+   "position": [
+    6375,
+    3517
+   ],
+   "rotation": 40,
+   "footprint": [
+    200.0,
+    360.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/topkapi.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 200,
+     "depth": 360,
+     "height": 80.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "variants": {
+    "palaiologan-1453": {
+     "note": "The old acropolis of Byzantion: ruined churches, the Mangana monastery and orchards running down to the point."
+    },
+    "suleyman-1560": {
+     "note": "Mehmed II's 'New Palace' (1459–1478): the Divan in the second court, the sultan's rooms in the third, and since Süleyman's time the harem growing behind the Divan."
+    }
+   },
+   "summary": "Mehmed II's palace on the old acropolis, a sequence of courts and pavilions running down to the point, the seat of Ottoman government.",
+   "details": [
+    "Not a single palace but a series of courts entered through the Imperial Gate, the Gate of Salutation with its two pointed towers and the Gate of Felicity. The Divan met in the second court beside the Tower of Justice; the vast kitchens line its east side; the third court held the audience chamber, the treasury and the palace school.",
+    "The miniature follows the 16th-century layout with many buildings simplified; the 17th-century kiosks of the fourth court are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-topkapi",
+    "necipoglu-topkapi"
+   ],
+   "built": "1459–1478",
+   "function": "Sultan's palace and seat of government",
+   "activity": {
+    "figures": 50,
+    "radius": 220
+   }
+  },
+  {
+   "id": "suleymaniye",
+   "placeId": "suleymaniye",
+   "name": "Süleymaniye Mosque",
+   "category": "religious",
+   "position": [
+    4694,
+    3094
+   ],
+   "rotation": 151,
+   "footprint": [
+    230.0,
+    250.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/suleymaniye.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 230,
+     "depth": 250,
+     "height": 92.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "variants": {
+    "palaiologan-1453": {
+     "note": "Open ground on the third hill; after 1453 Mehmed II's Old Palace and its gardens will stand here."
+    },
+    "suleyman-1560": {
+     "note": "Finished in 1557 on part of the Old Palace gardens: the mosque, four minarets with ten balconies, medreses, a hospital, a soup kitchen, and the tombs of Hürrem (d. 1558) and later Süleyman."
+    }
+   },
+   "summary": "Sinan's mosque for Süleyman the Magnificent (1550–1557), crowning the third hill above the Golden Horn with a 26.5 m dome and four minarets.",
+   "details": [
+    "A central dome on four piers, buttressed by two semi-domes on the qibla axis and by arcaded tympana with small domes along the sides, after the model of Hagia Sophia but with walls opened by many windows. Its four minarets carry ten balconies, said to mark Süleyman as the tenth sultan.",
+    "The complex is simplified: the medreses are drawn as six courts within the precinct, and the hospital, soup kitchen and caravanserai outside it are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-suleymaniye",
+    "necipoglu-sinan",
+    "goodwin"
+   ],
+   "built": "1550–1557",
+   "function": "Imperial mosque complex",
+   "activity": {
+    "figures": 70,
+    "radius": 220
+   }
+  },
+  {
+   "id": "grand-bazaar",
+   "placeId": "kapali-carsi",
+   "name": "Grand Bazaar (Bedesten)",
+   "category": "commercial",
+   "position": [
+    5040,
+    3700
+   ],
+   "rotation": 10,
+   "footprint": [
+    230.0,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/grand-bazaar.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 230,
+      "depth": 170
+     },
+     "buildings": [
+      {
+       "offset": [
+        -57.5,
+        -42.5
+       ],
+       "width": 69.0,
+       "depth": 51.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        57.5,
+        34.0
+       ],
+       "width": 69.0,
+       "depth": 51.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "variants": {
+    "palaiologan-1453": {
+     "note": "Ruins and garden ground between the Forum of Constantine and the Forum of Theodosius, along the old Mese."
+    },
+    "suleyman-1560": {
+     "name": "Bedesten and Çarşı",
+     "note": "The domed Bedesten of Mehmed II (about 1460) for jewels, arms and fine cloth, a second bedesten, and streets of shops round them, repaired after the fire of 1546."
+    }
+   },
+   "summary": "The covered market grown round Mehmed II's Bedesten, a strongroom of fifteen domes where the most valuable goods of the empire were kept and sold.",
+   "details": [
+    "Mehmed II built the Cevahir Bedesten soon after the conquest to fund the Hagia Sophia foundation; a second bedesten followed, and lanes of shops, hans and workshops grew round them into the Kapalıçarşı.",
+    "The miniature shows the two bedestens among simplified streets of shop ranges; the covered streets are drawn as vaulted rows."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-grand-bazaar",
+    "necipoglu-sinan"
+   ],
+   "built": "c. 1455–1461; extended in the 16th century",
+   "function": "Covered market",
+   "activity": {
+    "figures": 90,
+    "radius": 180
+   }
+  },
+  {
+   "id": "rustem-pasha",
+   "placeId": "rustem-pasha",
+   "name": "Rüstem Pasha Mosque",
+   "category": "religious",
+   "position": [
+    5090,
+    2912
+   ],
+   "rotation": 151,
+   "footprint": [
+    60.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/rustem-pasha.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "variants": {
+    "suleyman-1560": {
+     "note": "Designed by Sinan for Süleyman's grand vizier and built about 1561–1563, finished after Rüstem's death; it rises over vaulted shops whose rents pay for it."
+    }
+   },
+   "summary": "Sinan's small mosque for the grand vizier Rüstem Pasha above the Tahtakale market, raised on a platform of shops and lined with İznik tiles.",
+   "details": [
+    "An octagonal baldachin carries the dome, with four half-domes in the corners; a double portico fronts the prayer hall. Inside and on the portico, İznik tiles of tulips and carnations cover the walls, the richest tile work of the age.",
+    "The miniature follows the surviving building."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-rustem-pasha",
+    "necipoglu-sinan"
+   ],
+   "built": "c. 1561–1563",
+   "function": "Mosque",
+   "activity": {
+    "figures": 30,
+    "radius": 80
+   }
+  },
+  {
+   "id": "boukoleon",
+   "placeId": "boukoleon",
+   "name": "Boukoleon Palace",
+   "category": "civic",
+   "position": [
+    5738,
+    4501
+   ],
+   "rotation": -22,
+   "footprint": [
+    110.0,
+    45.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/constantinople/boukoleon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 45,
+     "height": 18.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "The shore below the palace terraces, with a small harbour."
+    },
+    "justinian-562": {
+     "note": "A seaside wing of the Great Palace with its own harbour, named after a statue of a lion attacking a bull on the quay."
+    },
+    "komnenian-1150": {
+     "note": "Fortified by Nikephoros II in the 960s as a palace within the palace; in 1204 Boniface of Montferrat took it and found it full of noble ladies who had fled there."
+    },
+    "palaiologan-1453": {
+     "note": "Probably in decay; the Latin emperors had lived here, the Palaiologoi did not."
+    },
+    "suleyman-1560": {
+     "note": "A ruin; the facade with its marble window frames survives in the sea wall."
+    }
+   },
+   "summary": "The sea front of the Great Palace on the Marmara, with its own harbour and the three great marble-framed windows that still look out from the sea wall.",
+   "details": [
+    "Built on the sea walls in the 5th century or later and fortified in the 10th, it gave the emperor a private landing from the sea. The surviving facade with marble window frames and corbels for a balcony was damaged by railway works in 1873.",
+    "The miniature is a reconstruction around the surviving facade; the buildings behind are conjectural."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-boukoleon",
+    "mango-art"
+   ],
+   "built": "5th–10th centuries",
+   "function": "Seaside palace and harbour",
+   "activity": {
+    "figures": 15,
+    "radius": 80
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "milion",
+   "name": "Milion",
+   "kind": "monument",
+   "position": [
+    5825,
+    3963
+   ],
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "summary": "The zero mile-stone of the empire: a domed tetrapylon at the start of the Mese from which every road distance was measured.",
+   "details": [
+    "A four-way arch under a dome, modelled on the Golden Milestone in Rome, at the corner of the Augusteion. Statues of Constantine and Helena with a cross stood on it; later emperors added images and relics, and the distances to the cities of the empire were inscribed on it."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-milion",
+    "mango-milion"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Couriers of the imperial post check the inscribed distances before setting off down the Mese; sweepers wash the paving round the arch."
+    },
+    {
+     "hour": 13,
+     "text": "Under the dome scribes sell their services, and a crowd gathers to read a new imperial decree posted on the piers."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps hang in the arches; from here the evening procession of the clergy crosses to the Great Church."
+    }
+   ],
+   "variants": {
+    "palaiologan-1453": {
+     "note": "Battered and partly ruined, but still the reference point of the city's roads."
+    }
+   }
+  },
+  {
+   "id": "mese-colonnade",
+   "name": "Colonnades of the Mese",
+   "kind": "shop",
+   "position": [
+    5586,
+    3917
+   ],
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "summary": "The arcaded shops along the Middle Street between the Milion and the Forum of Constantine: silversmiths, silk merchants, perfumers and money-changers.",
+   "details": [
+    "Two-storey porticoes lined the Mese with shops under their arches. The Book of the Eparch fixed where trades could stand: perfumers near the Milion so their scent reached the palace, money-changers at their tables, silk dealers under strict control of what they could sell to foreigners."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "eparch",
+    "wiki-mese"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Shutters come down off the shop fronts; the perfumers set out jars of myrrh and balsam, and the money-changers count their copper folles."
+    },
+    {
+     "hour": 13,
+     "text": "Shade under the arches, shoppers bargaining for silk in a dozen languages; a guild inspector weighs a merchant's scales."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps in the porticoes, the last customers, and the clatter of shutters as the night watch begins its round."
+    }
+   ],
+   "variants": {
+    "constantine-337": {
+     "note": "New-built: the colonnades are going up as Constantine's city is laid out."
+    },
+    "palaiologan-1453": {
+     "note": "Many shops are empty and the colonnades are patched; Italian merchants now hold most of the trade."
+    }
+   }
+  },
+  {
+   "id": "artopoleia",
+   "name": "Artopoleia (the bakers' quarter)",
+   "kind": "bakery",
+   "position": [
+    5107,
+    3839
+   ],
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150"
+   ],
+   "summary": "The bakers' street on the Mese west of the Forum of Constantine, where the city's bread was baked under the eye of the Eparch.",
+   "details": [
+    "Bakers were the only guild exempt from public service, because the city could not go without bread. The Book of the Eparch set their profit at a fixed share of the cost of grain; bread prices followed the price of wheat at the harbours."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "eparch",
+    "mango-developpement"
+   ],
+   "vignettes": [
+    {
+     "hour": 4,
+     "text": "Ovens have been fired since midnight; boys carry trays of round loaves stamped with the baker's mark out to the colonnade."
+    },
+    {
+     "hour": 12,
+     "text": "A guild officer checks the weight of loaves against the price set this week by the Eparch; short weight means a flogging."
+    },
+    {
+     "hour": 19,
+     "text": "Flour carts come up from the harbour mills; sacks are stacked for the night's baking."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "strategion",
+   "name": "Strategion",
+   "kind": "market",
+   "position": [
+    5838,
+    3328
+   ],
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562"
+   ],
+   "summary": "The old drill square of Byzantion near the harbours of the Golden Horn, rebuilt by Constantine as a forum.",
+   "details": [
+    "Said to be where Alexander the Great's army had camped, the Strategion was the parade ground of the Greek city. Constantine and his successors set up statues there; it stood close to the Prosphorion and Neorion harbours and became a busy place of trade and law courts."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-strategion",
+    "dagron"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Soldiers of the palace guard drill on the old square while porters from the harbour push through with baskets of fish."
+    },
+    {
+     "hour": 13,
+     "text": "A lawyer argues a cargo dispute before a magistrate under a portico; ship captains wait their turn."
+    },
+    {
+     "hour": 19,
+     "text": "Sailors from the grain ships drink at the taverns on the slope down to the water."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "zeuxippus",
+   "name": "Baths of Zeuxippus",
+   "kind": "bath",
+   "position": [
+    5808,
+    4055
+   ],
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562"
+   ],
+   "summary": "The great public baths between the Hippodrome and the Augusteion, filled by Constantine with statues of gods, heroes and poets.",
+   "details": [
+    "Begun under Septimius Severus and finished by Constantine, who brought some eighty bronze statues for its halls. It burned in the Nika riot of 532 and was rebuilt by Justinian; later part of it became the Noumera prison and silk workshops."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-zeuxippus",
+    "malalas"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Stokers feed the furnaces with brushwood; the first bathers, mostly palace officials, arrive before work."
+    },
+    {
+     "hour": 14,
+     "text": "Steam, oil and gossip among the bronze statues of Homer and Hecuba; a masseur slaps a senator's back."
+    },
+    {
+     "hour": 19,
+     "text": "Attendants wipe the marble benches; outside the Hippodrome crowd streams home past the doors."
+    }
+   ],
+   "variants": {
+    "justinian-562": {
+     "note": "Rebuilt after the fire of 532, but its statues are lost."
+    }
+   }
+  },
+  {
+   "id": "prosphorion",
+   "name": "Prosphorion Harbour",
+   "kind": "dock",
+   "position": [
+    6006,
+    3084
+   ],
+   "activePeriods": [
+    "constantine-337",
+    "justinian-562",
+    "komnenian-1150"
+   ],
+   "summary": "The oldest harbour of Byzantion, a sheltered cove on the Golden Horn below the acropolis, used for grain, livestock and timber.",
+   "details": [
+    "Its name means 'the place of provisions'. Cattle and sheep brought across from Asia were landed here for the city's markets; later the Italian quarters grew along this shore and the harbour silted until it was little more than a landing stage."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-prosphorion",
+    "magdalino"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Barges of bleating sheep from Chalcedon nose in; drovers wade out to haul them up the shingle."
+    },
+    {
+     "hour": 12,
+     "text": "Timber merchants measure logs from the Black Sea forests; customs clerks take the kommerkion, a tenth of the value."
+    },
+    {
+     "hour": 20,
+     "text": "Fishermen mend nets by the boats drawn up for the night; lamps glow in the taverns on the shore."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "neorion",
+   "name": "Neorion",
+   "kind": "works",
+   "position": [
+    5678,
+    2973
+   ],
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150"
+   ],
+   "summary": "The dockyard and harbour on the Golden Horn where war galleys were built and laid up.",
+   "details": [
+    "An early harbour of the city used as a naval arsenal: slipways, timber stores and the yards of shipwrights and caulkers. By the 12th century it lay among the Italian quarters and served as a landing place for merchant ships."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-neorion",
+    "magdalino"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Caulkers heat pitch in iron pots; the smell of tar drifts up to the Strategion."
+    },
+    {
+     "hour": 13,
+     "text": "Shipwrights fit the oar ports of a dromon on the slip; a palace official counts the oars delivered."
+    },
+    {
+     "hour": 18,
+     "text": "The gate is shut; watchmen walk the timber yard with lanterns against thieves and fire."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "venetian-embolo",
+   "name": "Venetian quay (Embolo of the Venetians)",
+   "kind": "dock",
+   "position": [
+    5334,
+    2929
+   ],
+   "activePeriods": [
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "summary": "The landing stages and warehouses of the Venetian quarter on the Golden Horn, granted to Venice by Alexios I in 1082.",
+   "details": [
+    "The chrysobull of 1082 gave the Venetians three landing stages, shops, a bakery and churches, and freedom from customs. Some ten thousand Venetians may have lived here before Manuel I had them all arrested in March 1171."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-venetian-quarter",
+    "nicol-venice"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A galley from the Adriatic unloads woollens and timber; Venetian clerks note every bale in their ledgers."
+    },
+    {
+     "hour": 13,
+     "text": "Merchants sit in the shade of the church of St Akindynos discussing the price of Theban silk and pepper from Alexandria."
+    },
+    {
+     "hour": 20,
+     "text": "The quarter's gates are shut; Greek and Latin sailors argue loudly in a tavern by the water."
+    }
+   ],
+   "variants": {
+    "palaiologan-1453": {
+     "note": "Restored after 1261 under a bailo; in 1453 the Venetians man the walls beside the Greeks."
+    }
+   }
+  },
+  {
+   "id": "pera-jewish-quarter",
+   "name": "Jewish quarter of Pera",
+   "kind": "workshop",
+   "position": [
+    5502,
+    2197
+   ],
+   "activePeriods": [
+    "komnenian-1150"
+   ],
+   "summary": "The quarter across the Golden Horn where Benjamin of Tudela found some 2,500 Jews working as silk weavers, merchants and tanners.",
+   "details": [
+    "Benjamin, visiting in the 1160s, counted 2,000 Rabbanite and 500 Karaite Jews in Pera, many of them silk workers and wealthy merchants. They were barred from riding horses, he wrote, and the tanners' waste in the streets brought hatred on the whole community."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "benjamin-tudela",
+    "harris"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Looms clack in the workshops; a dyer lifts purple-red silk from a vat with a wooden pole."
+    },
+    {
+     "hour": 13,
+     "text": "Merchants cross to the city by boat with bolts of silk; a tanner's cart smells to heaven on the shore road."
+    },
+    {
+     "hour": 19,
+     "text": "Candles in the synagogue windows; the ferry brings the last workers home across the Horn."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pantokrator-xenon",
+   "name": "Pantokrator hospital",
+   "kind": "civic",
+   "position": [
+    4065,
+    2735
+   ],
+   "activePeriods": [
+    "komnenian-1150"
+   ],
+   "summary": "The fifty-bed hospital of the Pantokrator monastery, with separate wards, surgeons, women doctors and a pharmacy, as its founding charter of 1136 describes.",
+   "details": [
+    "The typikon lays out five wards (one for surgery, one for eye and stomach complaints, one for women), two doctors per ward working in shifts, a woman physician, an outpatient clinic, baths, and an old people's home. Doctors were paid in money and grain."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "pantokrator-typikon",
+    "miller-hospital"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The chief physician makes his round with the attendants; each patient has a bed with a mattress, a pillow and a woollen blanket."
+    },
+    {
+     "hour": 12,
+     "text": "Outpatients queue at the clinic door; an apothecary grinds herbs for a fever draught."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps burn all night in the wards, as the typikon orders; a monk reads psalms to the dying."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "stoudios",
+   "name": "Stoudios Monastery",
+   "kind": "school",
+   "position": [
+    1663,
+    5259
+   ],
+   "activePeriods": [
+    "justinian-562",
+    "komnenian-1150",
+    "palaiologan-1453"
+   ],
+   "summary": "The great monastery near the Golden Gate, founded about 462, whose scriptorium and rule under Theodore the Studite shaped Byzantine monastic life.",
+   "details": [
+    "The consul Stoudios founded a basilica and monastery here. Under the abbot Theodore (from 798) the community of about a thousand monks copied books in a famous scriptorium, wrote hymns and led the resistance to iconoclasm. Its roofless basilica is the oldest church building left in the city."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-stoudios",
+    "krautheimer-ecb"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The night office ends; monks file from the basilica to the scriptorium, where the light is best at dawn."
+    },
+    {
+     "hour": 13,
+     "text": "A copyist rules lines on parchment for a Gospel book; the rule forbids him to talk while he works."
+    },
+    {
+     "hour": 19,
+     "text": "Vespers, a frugal meal of beans and bread, and the porter bars the gate toward the sea."
+    }
+   ],
+   "variants": {
+    "komnenian-1150": {
+     "note": "Rich and influential; Komnenian emperors are buried or take vows here."
+    },
+    "palaiologan-1453": {
+     "note": "Damaged in the Latin occupation and restored; still a centre of learning in the last decades."
+    }
+   }
+  },
+  {
+   "id": "kontoskalion",
+   "name": "Kontoskalion harbour",
+   "kind": "dock",
+   "position": [
+    5023,
+    4416
+   ],
+   "activePeriods": [
+    "palaiologan-1453"
+   ],
+   "summary": "The fortified harbour on the Marmara that Michael VIII dredged and walled about 1270 for the revived imperial fleet.",
+   "details": [
+    "The old harbour of Julian (or Sophia) was dredged, given a mole and walls, and became the base of the small Palaiologan navy and of the city's fishermen. In the siege of 1453 a few Byzantine ships lay here."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kontoskalion",
+    "harris"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Fishing boats come in with bonito from the Marmara; women wait on the mole with baskets."
+    },
+    {
+     "hour": 12,
+     "text": "Caulkers patch the hull of one of the emperor's few galleys; there is no money for a new one."
+    },
+    {
+     "hour": 19,
+     "text": "The harbour gate is closed with its chain; a sentry on the tower watches the lights of Turkish ships offshore."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "genoese-palazzo",
+   "name": "Palazzo del Comune (Galata)",
+   "kind": "bank",
+   "position": [
+    5460,
+    2175
+   ],
+   "activePeriods": [
+    "palaiologan-1453"
+   ],
+   "summary": "The town hall of the Genoese colony of Pera, seat of the podestà and the counting room of a trade that outstripped Constantinople's own.",
+   "details": [
+    "Built in 1316 on the model of the Palazzo San Giorgio in Genoa, with the colony's coats of arms on its front. Here the podestà governed Galata, notaries drew up contracts for grain, alum, slaves and silk, and customs were collected for Genoa."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-galata-podesta",
+    "harris"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Notaries open their registers; a merchant from Caffa signs a contract for a shipload of Crimean grain."
+    },
+    {
+     "hour": 13,
+     "text": "The colony's council argues in the hall over customs on the Black Sea trade; the podestà's seal is pressed in red wax."
+    },
+    {
+     "hour": 20,
+     "text": "Ledgers locked in iron chests; across the water the emperor's city is dark but for a few lamps."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "hurrem-hamam",
+   "name": "Haseki Hürrem Hamamı",
+   "kind": "bath",
+   "position": [
+    5930,
+    4083
+   ],
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "summary": "Sinan's double bath of 1556 for Hürrem Sultan, between Ayasofya and the old Hippodrome, built on the site of the Baths of Zeuxippus.",
+   "details": [
+    "Two identical baths side by side, the men's and the women's, each with a domed dressing hall, a warm room and a hot room under a dome pierced with glass oculi. The income supported Hürrem's charitable foundations in the city."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hurrem-hamam",
+    "necipoglu-sinan"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The stoker's fire roars under the floor; the first bathers come before the dawn prayer at Ayasofya."
+    },
+    {
+     "hour": 13,
+     "text": "The women's side is full: mothers inspect possible brides for their sons over henna and sherbet."
+    },
+    {
+     "hour": 19,
+     "text": "Attendants fold the towels and wooden clogs; light fades through the star-shaped glass in the domes."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kurkcu-han",
+   "name": "Kürkçü Han",
+   "kind": "inn",
+   "position": [
+    5275,
+    3550
+   ],
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "summary": "The oldest han of Istanbul, built about 1467 by Mahmud Pasha for the furriers, two courts of rooms round a mosque and fountain.",
+   "details": [
+    "Merchants stored goods and slept in the upper rooms while ground-floor rooms served as shops and workshops; pack animals were stabled below. Its rents supported the Mahmud Pasha mosque nearby."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kurkcu-han",
+    "inalcik"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Muleteers from Bursa unload bales of furs in the court; the han-keeper notes each trader's room."
+    },
+    {
+     "hour": 13,
+     "text": "Sable and fox pelts hang from the galleries; a pasha's steward bargains for a lining for his master's robe."
+    },
+    {
+     "hour": 21,
+     "text": "The great door is barred for the night; travellers cook on braziers in their rooms."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tahtakale-coffeehouse",
+   "name": "Coffee house in Tahtakale",
+   "kind": "tavern",
+   "position": [
+    5166,
+    2996
+   ],
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "summary": "Where, according to the historian Peçevi, two men from Aleppo and Damascus opened Istanbul's first coffee houses around 1554–1555.",
+   "details": [
+    "Peçevi writes that Hakam and Şems served coffee on fine carpets to men who came to read, play backgammon and chess and talk poetry; soon judges and teachers came too. Preachers condemned them, and the authorities closed them more than once."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "pecevi",
+    "hattox",
+    "wiki-coffeehouse"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Beans roast in a pan; the smell, still new to the city, draws porters off the street."
+    },
+    {
+     "hour": 14,
+     "text": "On the benches, a poet recites while two scholars play chess and a merchant reads a letter from Cairo."
+    },
+    {
+     "hour": 21,
+     "text": "A storyteller holds the room; outside, a preacher's student mutters that the drink is forbidden."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tophane-foundry",
+   "name": "Tophane, the cannon foundry",
+   "kind": "works",
+   "position": [
+    6048,
+    1831
+   ],
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "summary": "The imperial cannon foundry on the shore beyond Galata, founded by Mehmed II and rebuilt under Süleyman, which gave the quarter its name.",
+   "details": [
+    "Founders cast bronze guns in pits under domed halls, and the finished cannon were shipped to the arsenal and the fleet. Its workers and gunners made Tophane one of the busiest quarters on the north shore."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tophane",
+    "inalcik"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Charcoal smoke over the foundry domes; carts bring copper and tin from the quay."
+    },
+    {
+     "hour": 12,
+     "text": "A casting: the master founder prays, the furnace is tapped, and molten bronze runs into a buried mould."
+    },
+    {
+     "hour": 19,
+     "text": "Gunners test a new piece out over the Bosphorus; the boom rolls back from the Asian shore."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "galata-mevlevihane",
+   "name": "Galata Mevlevihane",
+   "kind": "shrine",
+   "position": [
+    5602,
+    1764
+   ],
+   "activePeriods": [
+    "suleyman-1560"
+   ],
+   "summary": "The lodge of the Mevlevi dervishes above Galata, founded in 1491, where the whirling ceremony was held among the vineyards of Pera.",
+   "details": [
+    "Founded as a dervish lodge on land given by Iskender Pasha, it was the first Mevlevi house in Istanbul. Dervishes lived in cells round a garden and cemetery; on ceremony days they turned to the music of reed flute and drum."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-galata-mevlevihane",
+    "mansel"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A dervish sweeps the garden paths between the tombstones topped with stone turbans."
+    },
+    {
+     "hour": 13,
+     "text": "The reed flute begins; dervishes in white robes turn slowly, one palm raised and one turned down."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps in the cells; from the terrace the minarets of the old city stand against the sunset."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "dedication-330",
+   "title": "Dedication of the New Rome",
+   "periodId": "constantine-337",
+   "date": "11 May 330",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "forum-of-constantine"
+   },
+   "effect": "procession",
+   "text": "Constantine dedicates his city with races in the Hippodrome and a procession to his new forum, where his statue as the sun stands on the porphyry column. Every year on this day, Malalas says, a gilded statue of Constantine holding the city's Fortune was drawn round the Hippodrome by soldiers carrying candles.",
+   "sourceIds": [
+    "malalas",
+    "dagron"
+   ]
+  },
+  {
+   "id": "burial-337",
+   "title": "Constantine laid in his mausoleum",
+   "periodId": "constantine-337",
+   "date": "May 337",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "holy-apostles"
+   },
+   "effect": "procession",
+   "text": "Constantine, baptised on his deathbed near Nicomedia, dies on 22 May. His body is brought to the city in a golden coffin and laid in his mausoleum among memorials of the twelve apostles, as if he were the thirteenth. His son Constantius II conducts the funeral.",
+   "sourceIds": [
+    "wiki-holy-apostles",
+    "dagron"
+   ]
+  },
+  {
+   "id": "nika-532",
+   "title": "Nika riot",
+   "periodId": "justinian-562",
+   "date": "13–18 January 532",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "hippodrome"
+   },
+   "effect": "fire",
+   "text": "The Blues and Greens unite against Justinian, shouting 'Nika!' (conquer). Rioters burn the Chalke, the Great Church and the Baths of Zeuxippus and proclaim a rival emperor. Theodora, says Procopius, refuses to flee: 'royalty is a good burial shroud'. Belisarius and Mundus trap the crowd in the Hippodrome; some 30,000 die.",
+   "sourceIds": [
+    "procopius-wars",
+    "wiki-nika"
+   ]
+  },
+  {
+   "id": "hagia-sophia-537",
+   "title": "Dedication of Hagia Sophia",
+   "periodId": "justinian-562",
+   "date": "27 December 537",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "hagia-sophia"
+   },
+   "effect": "procession",
+   "text": "Less than six years after the fire, Justinian and the patriarch Menas enter the new church in procession. A much later legend has the emperor cry 'Solomon, I have surpassed thee!' The first dome falls in 558; the rebuilt church is dedicated again on 24 December 562.",
+   "sourceIds": [
+    "procopius-buildings",
+    "paul-silentiary",
+    "wiki-hagia-sophia"
+   ]
+  },
+  {
+   "id": "plague-542",
+   "title": "The plague reaches the city",
+   "periodId": "justinian-562",
+   "date": "Spring 542",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     5586,
+     2108
+    ]
+   },
+   "effect": "none",
+   "text": "Bubonic plague arrives on grain ships from Egypt. Procopius claims that 5,000 and then 10,000 died a day; when the graves were full, the roofs were taken off the towers of the walls of Sykai, across the Horn, and the bodies were stacked inside until they filled them.",
+   "sourceIds": [
+    "procopius-wars",
+    "wiki-plague-justinian"
+   ]
+  },
+  {
+   "id": "siege-717",
+   "title": "The great Arab siege",
+   "periodId": "justinian-562",
+   "date": "15 August 717 – 15 August 718",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "theodosian-walls"
+   },
+   "effect": "fire",
+   "text": "Maslama's army digs in before the land walls while a huge fleet tries to blockade the sea. Greek fire burns its supply ships, the chain keeps it out of the Golden Horn, a winter of deep snow and the attacks of the Bulgars starve the besiegers. Of the fleet, the chronicler Theophanes says, only a few ships reached home.",
+   "sourceIds": [
+    "theophanes",
+    "wiki-siege-717"
+   ]
+  },
+  {
+   "id": "chalke-icon-726",
+   "title": "The icon taken down at the Chalke",
+   "periodId": "justinian-562",
+   "date": "726 or 730",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "chalke"
+   },
+   "effect": "crowd",
+   "text": "Leo III orders the icon of Christ over the palace gate removed. According to later iconophile accounts, women pulled away the ladder and killed the officer sent to take it down. The episode became the founding story of iconoclasm, which lasted, with an interval, until 843.",
+   "sourceIds": [
+    "wiki-iconoclasm",
+    "theophanes"
+   ]
+  },
+  {
+   "id": "massacre-latins-1182",
+   "title": "Massacre of the Latins",
+   "periodId": "komnenian-1150",
+   "date": "April 1182",
+   "kind": "riot",
+   "at": {
+    "position": [
+     5880,
+     2996
+    ]
+   },
+   "effect": "fire",
+   "text": "As Andronikos Komnenos marches on the city, a mob turns on the Latins of the Golden Horn quarters, mostly Genoese and Pisans; the Venetians had been expelled in 1171. Thousands are killed, including the papal legate, and survivors are sold to the Turks. The West remembers it in 1204.",
+   "sourceIds": [
+    "wiki-massacre-latins",
+    "choniates"
+   ]
+  },
+  {
+   "id": "sack-1204",
+   "title": "The crusaders sack the city",
+   "periodId": "komnenian-1150",
+   "date": "12–15 April 1204",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "hagia-sophia"
+   },
+   "effect": "fire",
+   "text": "The Fourth Crusade, diverted by Venice, storms the Golden Horn walls. For three days the city is plundered: Niketas Choniates watched soldiers lead mules into Hagia Sophia to carry off its silver, and a prostitute sing on the patriarch's throne. Relics, bronzes and the horses of the Hippodrome go west.",
+   "sourceIds": [
+    "choniates",
+    "villehardouin",
+    "wiki-sack-1204"
+   ]
+  },
+  {
+   "id": "return-1261",
+   "title": "Michael VIII enters on foot",
+   "periodId": "palaiologan-1453",
+   "date": "15 August 1261",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "golden-gate"
+   },
+   "effect": "procession",
+   "text": "Three weeks after a small Nicaean force slipped in and found the Latin garrison away, Michael VIII Palaiologos enters through the Golden Gate on foot, behind the icon of the Virgin Hodegetria, and walks to the Stoudios monastery and on to Hagia Sophia to be crowned again.",
+   "sourceIds": [
+    "wiki-reconquest-1261",
+    "harris"
+   ]
+  },
+  {
+   "id": "galata-tower-1348",
+   "title": "The Genoese raise the Tower of Christ",
+   "periodId": "palaiologan-1453",
+   "date": "1348",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "galata-tower"
+   },
+   "effect": "construction",
+   "text": "Having enlarged their colony against the emperor's wishes, the Genoese crown its new landward walls with a great round tower. In the same year their fleet burns the Byzantine ships in the Horn during a war with John VI Kantakouzenos over Galata's trade.",
+   "sourceIds": [
+    "wiki-galata-tower",
+    "wiki-galata"
+   ]
+  },
+  {
+   "id": "ships-overland-1453",
+   "title": "Ships dragged over the hill",
+   "periodId": "palaiologan-1453",
+   "date": "22 April 1453",
+   "kind": "civic",
+   "at": {
+    "position": [
+     5880,
+     1109
+    ]
+   },
+   "effect": "procession",
+   "text": "Unable to break the chain, Mehmed II has about seventy ships hauled on greased timber rollers over the hill behind Galata and launched into the Golden Horn. The defenders wake to see Turkish galleys inside the harbour, with sails set and drums beating as they slid down.",
+   "sourceIds": [
+    "barbaro",
+    "kritoboulos",
+    "runciman-1453"
+   ]
+  },
+  {
+   "id": "fall-1453",
+   "title": "The fall of Constantinople",
+   "periodId": "palaiologan-1453",
+   "date": "29 May 1453",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "theodosian-walls"
+   },
+   "effect": "fire",
+   "text": "Before dawn the Ottomans attack in three waves. Giustiniani is wounded and carried off; the Janissaries break through near the Gate of St Romanus and Turkish flags appear on the towers. Constantine XI dies fighting, his body never surely identified. By afternoon Mehmed II rides to Hagia Sophia.",
+   "sourceIds": [
+    "barbaro",
+    "kritoboulos",
+    "wiki-fall-1453",
+    "runciman-1453"
+   ]
+  },
+  {
+   "id": "earthquake-1509",
+   "title": "The 'Little Apocalypse'",
+   "periodId": "suleyman-1560",
+   "date": "10 September 1509",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "holy-apostles"
+   },
+   "effect": "none",
+   "text": "A great earthquake throws down over a thousand houses and damages the land walls, mosques and the Fatih complex; a tsunami washes over the sea walls. Bayezid II calls in some 80,000 workers from across the empire to rebuild.",
+   "sourceIds": [
+    "wiki-earthquake-1509",
+    "mansel"
+   ]
+  },
+  {
+   "id": "coffee-1555",
+   "title": "Coffee comes to Istanbul",
+   "periodId": "suleyman-1560",
+   "date": "c. 1554–1555",
+   "kind": "daily",
+   "at": {
+    "spotId": "tahtakale-coffeehouse"
+   },
+   "effect": "crowd",
+   "text": "Hakam of Aleppo and Şems of Damascus open coffee houses in Tahtakale. Within a few years, Peçevi says, men of every rank gather there; preachers protest that the coffee houses empty the mosques, and the authorities close them from time to time without success.",
+   "sourceIds": [
+    "pecevi",
+    "hattox"
+   ]
+  },
+  {
+   "id": "suleymaniye-1557",
+   "title": "The Süleymaniye opens",
+   "periodId": "suleyman-1560",
+   "date": "1557",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "suleymaniye"
+   },
+   "effect": "procession",
+   "text": "After seven years of building, Süleyman inaugurates his mosque. A later story has him hand the key to Sinan as the most worthy to open the door. The first Friday prayer fills the hall under the new dome.",
+   "sourceIds": [
+    "necipoglu-sinan",
+    "wiki-suleymaniye"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "queen-of-cities-1150",
+   "title": "A day in the Queen of Cities",
+   "periodId": "komnenian-1150",
+   "summary": "A Venetian merchant's day in 1150, from the quays of the Golden Horn to the Great Church and the Hippodrome, and up to John II's new monastery.",
+   "steps": [
+    {
+     "spotId": "venetian-embolo",
+     "title": "The Venetian quay",
+     "when": "Dawn",
+     "text": "Your galley ties up at one of the three landing stages granted in 1082. No customs to pay, but every bale is entered in the quarter's ledgers before it goes into the warehouse."
+    },
+    {
+     "spotId": "mese-colonnade",
+     "title": "Under the colonnades",
+     "when": "Morning",
+     "text": "Up the Makros Embolos to the Mese. Silk dealers will sell you only what the Eparch allows foreigners to buy; the perfumers' jars scent the whole street."
+    },
+    {
+     "landmarkId": "forum-of-constantine",
+     "title": "Constantine's forum",
+     "text": "The porphyry column now carries a cross: the old statue fell in a storm in 1106. Bakers' boys run past with trays of bread from the Artopoleia."
+    },
+    {
+     "landmarkId": "hagia-sophia",
+     "title": "The Great Church",
+     "when": "Midday",
+     "text": "Inside, the dome seems to float on light. Pilgrims queue to see the relics; the Latins among them stare, and a Greek priest glares back."
+    },
+    {
+     "landmarkId": "hippodrome",
+     "title": "At the races",
+     "when": "Afternoon",
+     "text": "The emperor in the kathisma, the gilded horses above the gates, the obelisk on its carved base: the Hippodrome is still the city's grandest show."
+    },
+    {
+     "landmarkId": "pantokrator",
+     "title": "The new monastery",
+     "when": "Evening",
+     "text": "On the fourth hill, John II's three churches catch the evening light. Its hospital takes in the sick of any nation; you leave a gift for the doctors."
+    }
+   ],
+   "sourceIds": [
+    "benjamin-tudela",
+    "eparch",
+    "nicol-venice"
+   ]
+  },
+  {
+   "id": "justinian-rebuilds",
+   "title": "Justinian rebuilds the city",
+   "periodId": "justinian-562",
+   "summary": "After the Nika riot burned the centre in 532, Justinian rebuilt it in thirty years: a walk from the Hippodrome to the Holy Apostles.",
+   "steps": [
+    {
+     "landmarkId": "hippodrome",
+     "title": "Where the riot ended",
+     "when": "532",
+     "text": "Here the Blues and Greens chanted 'Nika!', and here Belisarius' troops trapped them. Some 30,000 died; the emperor's throne was saved."
+    },
+    {
+     "landmarkId": "chalke",
+     "title": "The bronze house",
+     "text": "The palace gate burned first. Justinian rebuilt it under a gilded bronze roof, with mosaics of his victories over the Vandals and Goths in its vault."
+    },
+    {
+     "landmarkId": "hagia-sophia",
+     "title": "The Great Church",
+     "when": "537",
+     "text": "Anthemius and Isidore raised a dome 31 m wide on four arches in under six years. When it fell in 558, a higher one replaced it, dedicated in 562."
+    },
+    {
+     "landmarkId": "basilica-cistern",
+     "title": "Water under the Basilica",
+     "text": "Under the burned Basilica, 336 columns were set up in rows to hold a lake for the palace, fed by the aqueduct of Valens."
+    },
+    {
+     "landmarkId": "little-hagia-sophia",
+     "title": "A church by the old house",
+     "text": "Sts Sergius and Bacchus, beside the palace where Justinian lived as heir: an octagon under a pumpkin dome, a trial for the great one."
+    },
+    {
+     "landmarkId": "holy-apostles",
+     "title": "The emperors' church",
+     "when": "550",
+     "text": "On the fourth hill, Constantine's burial church is rebuilt as a cross of five domes, with a new mausoleum where Justinian will lie in 565."
+    }
+   ],
+   "sourceIds": [
+    "procopius-buildings",
+    "procopius-wars"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-constantinople",
+   "title": "Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Constantinople"
+  },
+  {
+   "id": "wiki-walls",
+   "title": "Walls of Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Constantinople"
+  },
+  {
+   "id": "wiki-golden-horn",
+   "title": "Golden Horn",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden_Horn"
+  },
+  {
+   "id": "wiki-harbour-theodosius",
+   "title": "Harbour of Theodosius",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harbour_of_Theodosius"
+  },
+  {
+   "id": "wiki-mese",
+   "title": "Mese (Constantinople)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mese_(Constantinople)"
+  },
+  {
+   "id": "mango-developpement",
+   "title": "Le développement urbain de Constantinople (IVe–VIIe siècles)",
+   "author": "Cyril Mango",
+   "year": 1985
+  },
+  {
+   "id": "mueller-wiener",
+   "title": "Bildlexikon zur Topographie Istanbuls",
+   "author": "Wolfgang Müller-Wiener",
+   "year": 1977
+  },
+  {
+   "id": "janin",
+   "title": "Constantinople byzantine: développement urbain et répertoire topographique",
+   "author": "Raymond Janin",
+   "year": 1964,
+   "note": "2nd edition"
+  },
+  {
+   "id": "magdalino",
+   "title": "Constantinople médiévale: études sur l'évolution des structures urbaines",
+   "author": "Paul Magdalino",
+   "year": 1996
+  },
+  {
+   "id": "van-millingen",
+   "title": "Byzantine Constantinople: The Walls of the City and Adjoining Historical Sites",
+   "author": "Alexander van Millingen",
+   "year": 1899
+  },
+  {
+   "id": "wiki-hagia-sophia",
+   "title": "Hagia Sophia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+  },
+  {
+   "id": "wiki-hagia-irene",
+   "title": "Hagia Irene",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hagia_Irene"
+  },
+  {
+   "id": "wiki-hippodrome",
+   "title": "Hippodrome of Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hippodrome_of_Constantinople"
+  },
+  {
+   "id": "wiki-great-palace",
+   "title": "Great Palace of Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Palace_of_Constantinople"
+  },
+  {
+   "id": "wiki-chalke",
+   "title": "Chalke Gate",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chalke_Gate"
+  },
+  {
+   "id": "wiki-basilica-cistern",
+   "title": "Basilica Cistern",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Basilica_Cistern"
+  },
+  {
+   "id": "wiki-column-constantine",
+   "title": "Column of Constantine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Column_of_Constantine"
+  },
+  {
+   "id": "wiki-forum-constantine",
+   "title": "Forum of Constantine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Forum_of_Constantine"
+  },
+  {
+   "id": "wiki-forum-theodosius",
+   "title": "Forum of Theodosius",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Forum_of_Theodosius"
+  },
+  {
+   "id": "wiki-valens-aqueduct",
+   "title": "Valens Aqueduct",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Valens_Aqueduct"
+  },
+  {
+   "id": "wiki-theodosian-walls",
+   "title": "Walls of Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Constantinople"
+  },
+  {
+   "id": "wiki-golden-gate",
+   "title": "Golden Gate (Constantinople)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden_Gate_(Constantinople)"
+  },
+  {
+   "id": "wiki-yedikule",
+   "title": "Yedikule Fortress",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yedikule_Fortress"
+  },
+  {
+   "id": "wiki-sea-walls",
+   "title": "Sea Walls of Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sea_Walls_of_Constantinople"
+  },
+  {
+   "id": "wiki-holy-apostles",
+   "title": "Church of the Holy Apostles",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Church_of_the_Holy_Apostles"
+  },
+  {
+   "id": "wiki-fatih-mosque",
+   "title": "Fatih Mosque, Istanbul",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fatih_Mosque,_Istanbul"
+  },
+  {
+   "id": "wiki-pantokrator",
+   "title": "Monastery of the Pantocrator",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Monastery_of_the_Pantocrator"
+  },
+  {
+   "id": "wiki-chora",
+   "title": "Chora Church",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chora_Church"
+  },
+  {
+   "id": "wiki-blachernae",
+   "title": "Palace of Blachernae",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Palace_of_Blachernae"
+  },
+  {
+   "id": "wiki-galata-tower",
+   "title": "Galata Tower",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galata_Tower"
+  },
+  {
+   "id": "wiki-chain",
+   "title": "Chain of the Golden Horn",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Golden_Horn"
+  },
+  {
+   "id": "wiki-galata",
+   "title": "Galata",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galata"
+  },
+  {
+   "id": "wiki-little-hagia-sophia",
+   "title": "Little Hagia Sophia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Little_Hagia_Sophia"
+  },
+  {
+   "id": "wiki-topkapi",
+   "title": "Topkapı Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace"
+  },
+  {
+   "id": "wiki-suleymaniye",
+   "title": "Süleymaniye Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque"
+  },
+  {
+   "id": "wiki-grand-bazaar",
+   "title": "Grand Bazaar, Istanbul",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul"
+  },
+  {
+   "id": "wiki-rustem-pasha",
+   "title": "Rüstem Pasha Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/R%C3%BCstem_Pasha_Mosque"
+  },
+  {
+   "id": "wiki-boukoleon",
+   "title": "Boukoleon Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boukoleon_Palace"
+  },
+  {
+   "id": "procopius-buildings",
+   "title": "Procopius, On Buildings (De aedificiis), Book 1",
+   "author": "Procopius",
+   "year": "c. 554–560",
+   "url": "https://en.wikipedia.org/wiki/De_Aedificiis"
+  },
+  {
+   "id": "paul-silentiary",
+   "title": "Paul the Silentiary, Description of Hagia Sophia (Ekphrasis)",
+   "author": "Paul the Silentiary",
+   "year": "563",
+   "url": "https://en.wikipedia.org/wiki/Paul_the_Silentiary"
+  },
+  {
+   "id": "mainstone",
+   "title": "Hagia Sophia: Architecture, Structure and Liturgy of Justinian's Great Church",
+   "author": "Rowland J. Mainstone",
+   "year": 1988
+  },
+  {
+   "id": "mango-art",
+   "title": "The Art of the Byzantine Empire 312–1453: Sources and Documents",
+   "author": "Cyril Mango",
+   "year": 1972
+  },
+  {
+   "id": "krautheimer-ecb",
+   "title": "Early Christian and Byzantine Architecture",
+   "author": "Richard Krautheimer",
+   "year": 1986,
+   "note": "4th edition, with Slobodan Ćurčić"
+  },
+  {
+   "id": "mathews",
+   "title": "The Byzantine Churches of Istanbul: A Photographic Survey",
+   "author": "Thomas F. Mathews",
+   "year": 1976
+  },
+  {
+   "id": "bardill",
+   "title": "Brickstamps of Constantinople",
+   "author": "Jonathan Bardill",
+   "year": 2004
+  },
+  {
+   "id": "dagron",
+   "title": "Naissance d'une capitale: Constantinople et ses institutions de 330 à 451",
+   "author": "Gilbert Dagron",
+   "year": 1974
+  },
+  {
+   "id": "necipoglu-topkapi",
+   "title": "Architecture, Ceremonial, and Power: The Topkapı Palace in the Fifteenth and Sixteenth Centuries",
+   "author": "Gülru Necipoğlu",
+   "year": 1991
+  },
+  {
+   "id": "necipoglu-sinan",
+   "title": "The Age of Sinan: Architectural Culture in the Ottoman Empire",
+   "author": "Gülru Necipoğlu",
+   "year": 2005
+  },
+  {
+   "id": "goodwin",
+   "title": "A History of Ottoman Architecture",
+   "author": "Godfrey Goodwin",
+   "year": 1971
+  },
+  {
+   "id": "gilles",
+   "title": "Pierre Gilles, De topographia Constantinopoleos",
+   "author": "Pierre Gilles",
+   "year": "1561",
+   "url": "https://en.wikipedia.org/wiki/Pierre_Gilles_(naturalist)"
+  },
+  {
+   "id": "clavijo",
+   "title": "Embassy to Tamerlane, 1403–1406",
+   "author": "Ruy González de Clavijo",
+   "year": "1406",
+   "url": "https://en.wikipedia.org/wiki/Ruy_Gonz%C3%A1lez_de_Clavijo"
+  },
+  {
+   "id": "choniates",
+   "title": "O City of Byzantium: Annals of Niketas Choniates",
+   "author": "Niketas Choniates (trans. Harry J. Magoulias)",
+   "year": "c. 1206; trans. 1984",
+   "url": "https://en.wikipedia.org/wiki/Niketas_Choniates"
+  },
+  {
+   "id": "mesarites",
+   "title": "Nikolaos Mesarites, Description of the Church of the Holy Apostles",
+   "author": "Nikolaos Mesarites (ed. Glanville Downey)",
+   "year": "c. 1200; ed. 1957"
+  },
+  {
+   "id": "ousterhout",
+   "title": "Master Builders of Byzantium",
+   "author": "Robert Ousterhout",
+   "year": 1999
+  },
+  {
+   "id": "runciman",
+   "title": "The Fall of Constantinople 1453",
+   "author": "Steven Runciman",
+   "year": 1965
+  },
+  {
+   "id": "asutay-effenberger",
+   "title": "Die Landmauer von Konstantinopel–Istanbul",
+   "author": "Neslihan Asutay-Effenberger",
+   "year": 2007
+  },
+  {
+   "id": "eparch",
+   "title": "The Book of the Eparch (regulations of the guilds of Constantinople)",
+   "author": "attributed to Leo VI",
+   "year": "c. 911–912",
+   "url": "https://en.wikipedia.org/wiki/Book_of_the_Eparch"
+  },
+  {
+   "id": "benjamin-tudela",
+   "title": "The Itinerary of Benjamin of Tudela",
+   "author": "Benjamin of Tudela",
+   "year": "c. 1170",
+   "url": "https://en.wikipedia.org/wiki/Benjamin_of_Tudela"
+  },
+  {
+   "id": "procopius-wars",
+   "title": "Procopius, History of the Wars (Persian War, Books 1–2: the Nika riot and the plague)",
+   "author": "Procopius",
+   "year": "c. 545–553",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_Wars"
+  },
+  {
+   "id": "pantokrator-typikon",
+   "title": "Typikon of the Pantokrator Monastery",
+   "author": "John II Komnenos",
+   "year": "1136",
+   "url": "https://en.wikipedia.org/wiki/Monastery_of_the_Pantocrator"
+  },
+  {
+   "id": "villehardouin",
+   "title": "The Conquest of Constantinople",
+   "author": "Geoffrey of Villehardouin",
+   "year": "c. 1209",
+   "url": "https://en.wikipedia.org/wiki/Geoffrey_of_Villehardouin"
+  },
+  {
+   "id": "clari",
+   "title": "The Conquest of Constantinople",
+   "author": "Robert de Clari",
+   "year": "c. 1216",
+   "url": "https://en.wikipedia.org/wiki/Robert_de_Clari"
+  },
+  {
+   "id": "tafur",
+   "title": "Andanças e viajes (Travels and Adventures 1435–1439)",
+   "author": "Pero Tafur",
+   "year": "c. 1454",
+   "url": "https://en.wikipedia.org/wiki/Pero_Tafur"
+  },
+  {
+   "id": "barbaro",
+   "title": "Diary of the Siege of Constantinople 1453",
+   "author": "Nicolò Barbaro",
+   "year": "1453",
+   "url": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Barbaro"
+  },
+  {
+   "id": "kritoboulos",
+   "title": "History of Mehmed the Conqueror",
+   "author": "Michael Kritoboulos",
+   "year": "c. 1467",
+   "url": "https://en.wikipedia.org/wiki/Michael_Critobulus"
+  },
+  {
+   "id": "theophanes",
+   "title": "Chronicle of Theophanes the Confessor",
+   "author": "Theophanes the Confessor",
+   "year": "c. 815",
+   "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor"
+  },
+  {
+   "id": "malalas",
+   "title": "Chronicle of John Malalas",
+   "author": "John Malalas",
+   "year": "6th century",
+   "url": "https://en.wikipedia.org/wiki/John_Malalas"
+  },
+  {
+   "id": "pecevi",
+   "title": "Tarih-i Peçevi (History)",
+   "author": "İbrahim Peçevi",
+   "year": "c. 1640",
+   "url": "https://en.wikipedia.org/wiki/%C4%B0brahim_Pe%C3%A7evi"
+  },
+  {
+   "id": "dernschwam",
+   "title": "Tagebuch einer Reise nach Konstantinopel und Kleinasien (1553/55)",
+   "author": "Hans Dernschwam",
+   "year": "1553–1555",
+   "url": "https://en.wikipedia.org/wiki/Hans_Dernschwam"
+  },
+  {
+   "id": "busbecq",
+   "title": "Turkish Letters",
+   "author": "Ogier Ghiselin de Busbecq",
+   "year": "1555–1562",
+   "url": "https://en.wikipedia.org/wiki/Ogier_Ghiselin_de_Busbecq"
+  },
+  {
+   "id": "mango-milion",
+   "title": "The Brazen House: A Study of the Vestibule of the Imperial Palace of Constantinople",
+   "author": "Cyril Mango",
+   "year": 1959
+  },
+  {
+   "id": "harris",
+   "title": "Constantinople: Capital of Byzantium",
+   "author": "Jonathan Harris",
+   "year": 2007
+  },
+  {
+   "id": "mansel",
+   "title": "Constantinople: City of the World's Desire, 1453–1924",
+   "author": "Philip Mansel",
+   "year": 1995
+  },
+  {
+   "id": "inalcik",
+   "title": "The Ottoman Empire: The Classical Age 1300–1600",
+   "author": "Halil İnalcık",
+   "year": 1973
+  },
+  {
+   "id": "hattox",
+   "title": "Coffee and Coffeehouses: The Origins of a Social Beverage in the Medieval Near East",
+   "author": "Ralph S. Hattox",
+   "year": 1985
+  },
+  {
+   "id": "miller-hospital",
+   "title": "The Birth of the Hospital in the Byzantine Empire",
+   "author": "Timothy S. Miller",
+   "year": 1985
+  },
+  {
+   "id": "nicol-venice",
+   "title": "Byzantium and Venice: A Study in Diplomatic and Cultural Relations",
+   "author": "Donald M. Nicol",
+   "year": 1988
+  },
+  {
+   "id": "runciman-1453",
+   "title": "The Fall of Constantinople 1453",
+   "author": "Steven Runciman",
+   "year": 1965
+  },
+  {
+   "id": "wiki-milion",
+   "title": "Milion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Milion"
+  },
+  {
+   "id": "wiki-zeuxippus",
+   "title": "Baths of Zeuxippus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baths_of_Zeuxippus"
+  },
+  {
+   "id": "wiki-strategion",
+   "title": "Strategion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Strategion"
+  },
+  {
+   "id": "wiki-prosphorion",
+   "title": "Prosphorion Harbour",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prosphorion_Harbour"
+  },
+  {
+   "id": "wiki-neorion",
+   "title": "Neorion Harbour",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Neorion_Harbour"
+  },
+  {
+   "id": "wiki-venetian-quarter",
+   "title": "Venetian quarter in Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Venetian_quarter_in_Constantinople"
+  },
+  {
+   "id": "wiki-stoudios",
+   "title": "Stoudios Monastery",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stoudios_Monastery"
+  },
+  {
+   "id": "wiki-kontoskalion",
+   "title": "Harbour of Kontoskalion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harbour_of_Kontoskalion"
+  },
+  {
+   "id": "wiki-galata-podesta",
+   "title": "Palazzo del Podestà (Galata)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galata"
+  },
+  {
+   "id": "wiki-hurrem-hamam",
+   "title": "Haseki Hürrem Sultan Hamam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Haseki_H%C3%BCrrem_Sultan_Hamam"
+  },
+  {
+   "id": "wiki-kurkcu-han",
+   "title": "Kürkçü Han",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/K%C3%BCrk%C3%A7%C3%BC_Han"
+  },
+  {
+   "id": "wiki-coffeehouse",
+   "title": "Coffeehouse (history: Ottoman Empire)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coffeehouse"
+  },
+  {
+   "id": "wiki-tophane",
+   "title": "Tophane-i Amire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tophane-i_Amire"
+  },
+  {
+   "id": "wiki-galata-mevlevihane",
+   "title": "Galata Mevlevi House",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galata_Mevlevi_House_Museum"
+  },
+  {
+   "id": "wiki-nika",
+   "title": "Nika riots",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nika_riots"
+  },
+  {
+   "id": "wiki-plague-justinian",
+   "title": "Plague of Justinian",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plague_of_Justinian"
+  },
+  {
+   "id": "wiki-siege-717",
+   "title": "Siege of Constantinople (717–718)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)"
+  },
+  {
+   "id": "wiki-iconoclasm",
+   "title": "Byzantine Iconoclasm",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm"
+  },
+  {
+   "id": "wiki-massacre-latins",
+   "title": "Massacre of the Latins",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Massacre_of_the_Latins"
+  },
+  {
+   "id": "wiki-sack-1204",
+   "title": "Sack of Constantinople (1204)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Constantinople"
+  },
+  {
+   "id": "wiki-reconquest-1261",
+   "title": "Reconquest of Constantinople (1261)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Reconquest_of_Constantinople"
+  },
+  {
+   "id": "wiki-fall-1453",
+   "title": "Fall of Constantinople",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+  },
+  {
+   "id": "wiki-earthquake-1509",
+   "title": "1509 Constantinople earthquake",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1509_Constantinople_earthquake"
+  }
+ ]
+}

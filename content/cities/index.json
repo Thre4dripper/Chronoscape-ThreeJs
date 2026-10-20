@@ -5,6 +5,7 @@
     { "id": "kyoto", "name": "Kyoto", "subtitle": "Heian-kyō, the Capital of Peace and Tranquillity", "status": "playable" },
     { "id": "paris", "name": "Paris", "subtitle": "Lutetia to the Revolution", "status": "playable" },
     { "id": "agra", "name": "Agra", "subtitle": "City of the Taj", "status": "playable" },
-    { "id": "tenochtitlan", "name": "Tenochtitlan", "subtitle": "The City in the Lake", "status": "playable" }
+    { "id": "tenochtitlan", "name": "Tenochtitlan", "subtitle": "The City in the Lake", "status": "playable" },
+    { "id": "constantinople", "name": "Constantinople", "subtitle": "Queen of Cities", "status": "playable" }
   ]
 }
