@@ -104,6 +104,221 @@
   "cy": 0.0,
   "size": 228.86
  },
+ "constantinople/aqueduct-of-valens": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 958.45
+ },
+ "constantinople/basilica-cistern": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 164.99
+ },
+ "constantinople/blachernae": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 223.52
+ },
+ "constantinople/boukoleon": {
+  "cx": 0.0,
+  "cy": 0.15,
+  "size": 161.92
+ },
+ "constantinople/chalke": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 98.93
+ },
+ "constantinople/chora": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 96.51
+ },
+ "constantinople/chora-1453": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 96.51
+ },
+ "constantinople/chora-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 100.88
+ },
+ "constantinople/column-of-constantine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 223.42
+ },
+ "constantinople/column-of-constantine-1453": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 229.36
+ },
+ "constantinople/fatih-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 329.61
+ },
+ "constantinople/forum-of-constantine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 231.43
+ },
+ "constantinople/forum-of-constantine-1150": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 229.36
+ },
+ "constantinople/forum-of-theodosius": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 237.56
+ },
+ "constantinople/galata-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 164.9
+ },
+ "constantinople/golden-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 239.4
+ },
+ "constantinople/grand-bazaar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 288.36
+ },
+ "constantinople/great-palace": {
+  "cx": 0.24,
+  "cy": -0.0,
+  "size": 296.29
+ },
+ "constantinople/great-palace-ruin": {
+  "cx": 0.24,
+  "cy": -0.0,
+  "size": 260.4
+ },
+ "constantinople/hagia-irene": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 155.43
+ },
+ "constantinople/hagia-irene-basilica": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 129.67
+ },
+ "constantinople/hagia-sophia": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 218.58
+ },
+ "constantinople/hagia-sophia-1150": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 218.58
+ },
+ "constantinople/hagia-sophia-basilica": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 166.38
+ },
+ "constantinople/hagia-sophia-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 237.77
+ },
+ "constantinople/hippodrome": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 521.14
+ },
+ "constantinople/hippodrome-337": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 506.6
+ },
+ "constantinople/hippodrome-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 521.14
+ },
+ "constantinople/holy-apostles": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 270.33
+ },
+ "constantinople/holy-apostles-337": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 271.05
+ },
+ "constantinople/kastellion": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "size": 94.1
+ },
+ "constantinople/little-hagia-sophia": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 121.29
+ },
+ "constantinople/little-hagia-sophia-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 138.91
+ },
+ "constantinople/pantokrator": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 138.43
+ },
+ "constantinople/pantokrator-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 145.03
+ },
+ "constantinople/rustem-pasha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 160.63
+ },
+ "constantinople/sea-walls": {
+  "cx": 0.0,
+  "cy": -0.01,
+  "size": 339.5
+ },
+ "constantinople/stoa-basilica": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 182.72
+ },
+ "constantinople/suleymaniye": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 399.84
+ },
+ "constantinople/theodosian-walls": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 407.06
+ },
+ "constantinople/theodosian-walls-1453": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 407.06
+ },
+ "constantinople/topkapi": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 438.92
+ },
+ "constantinople/yedikule": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 269.52
+ },
  "delhi/chandni-chowk": {
   "cx": -35.0,
   "cy": -3.75,
