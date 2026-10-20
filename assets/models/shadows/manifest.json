@@ -469,6 +469,146 @@
   "cy": 6.25,
   "size": 1084.3
  },
+ "edo/asakusa-okura": {
+  "cx": -0.63,
+  "cy": -0.13,
+  "size": 328.89
+ },
+ "edo/benten-do": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 71.15
+ },
+ "edo/echigoya": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "size": 105.41
+ },
+ "edo/edo-castle": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 864.07
+ },
+ "edo/edo-castle-1460": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 858.48
+ },
+ "edo/edo-castle-1610": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 941.32
+ },
+ "edo/edo-castle-1872": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 861.64
+ },
+ "edo/ekoin": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 144.89
+ },
+ "edo/fish-market": {
+  "cx": 0.0,
+  "cy": 1.3,
+  "size": 193.11
+ },
+ "edo/ginza-brick": {
+  "cx": 0.09,
+  "cy": -0.0,
+  "size": 270.78
+ },
+ "edo/hie-shrine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 153.67
+ },
+ "edo/hinomi-yagura": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 38.86
+ },
+ "edo/kaga-akamon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 140.21
+ },
+ "edo/kanda-myojin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 137.26
+ },
+ "edo/kaneiji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 370.23
+ },
+ "edo/kaneiji-1872": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 370.23
+ },
+ "edo/nakamura-za": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 82.76
+ },
+ "edo/nihonbashi": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 72.95
+ },
+ "edo/ryogoku-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 196.75
+ },
+ "edo/sensoji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 485.32
+ },
+ "edo/sensoji-1460": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 460.81
+ },
+ "edo/sensoji-1872": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 485.32
+ },
+ "edo/shimbashi-station": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 150.04
+ },
+ "edo/tomioka-hachiman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 147.26
+ },
+ "edo/tsukiji-honganji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 183.61
+ },
+ "edo/yoshiwara": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 347.39
+ },
+ "edo/yushima-seido": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 116.66
+ },
+ "edo/zojoji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 309.84
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
