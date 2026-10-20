@@ -104,6 +104,141 @@
   "cy": 0.0,
   "size": 228.86
  },
+ "cairo/al-aqmar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 83.39
+ },
+ "cairo/al-azhar-1350": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "size": 181.65
+ },
+ "cairo/al-azhar-1600": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "size": 195.15
+ },
+ "cairo/al-azhar-972": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "size": 154.75
+ },
+ "cairo/al-hakim": {
+  "cx": 0.0,
+  "cy": -0.5,
+  "size": 196.04
+ },
+ "cairo/al-muayyad": {
+  "cx": 1.07,
+  "cy": -0.0,
+  "size": 166.06
+ },
+ "cairo/amr-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 161.34
+ },
+ "cairo/amr-mosque-700": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 152.48
+ },
+ "cairo/aqueduct-intake": {
+  "cx": -0.5,
+  "cy": -0.0,
+  "size": 147.96
+ },
+ "cairo/bab-al-futuh": {
+  "cx": 0.0,
+  "cy": -0.18,
+  "size": 73.85
+ },
+ "cairo/bab-al-nasr": {
+  "cx": 0.0,
+  "cy": -0.18,
+  "size": 75.65
+ },
+ "cairo/bab-zuwayla": {
+  "cx": 0.0,
+  "cy": -0.18,
+  "size": 79.63
+ },
+ "cairo/bab-zuwayla-1600": {
+  "cx": 0.0,
+  "cy": -0.15,
+  "size": 121.39
+ },
+ "cairo/babylon": {
+  "cx": -2.38,
+  "cy": 0.25,
+  "size": 334.18
+ },
+ "cairo/bulaq": {
+  "cx": 0.0,
+  "cy": -2.25,
+  "size": 293.23
+ },
+ "cairo/citadel": {
+  "cx": 1.73,
+  "cy": -0.0,
+  "size": 617.52
+ },
+ "cairo/citadel-1600": {
+  "cx": 1.73,
+  "cy": -0.0,
+  "size": 617.52
+ },
+ "cairo/eastern-palace": {
+  "cx": -1.0,
+  "cy": -0.0,
+  "size": 439.27
+ },
+ "cairo/ibn-tulun": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 246.5
+ },
+ "cairo/khan-el-khalili": {
+  "cx": -2.11,
+  "cy": -0.0,
+  "size": 146.5
+ },
+ "cairo/nilometer": {
+  "cx": -0.75,
+  "cy": -0.0,
+  "size": 51.71
+ },
+ "cairo/qaitbay": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 146.68
+ },
+ "cairo/qalawun": {
+  "cx": 1.39,
+  "cy": 0.17,
+  "size": 217.74
+ },
+ "cairo/sultan-hasan": {
+  "cx": 0.0,
+  "cy": -0.31,
+  "size": 302.55
+ },
+ "cairo/tulunid-palace": {
+  "cx": -0.8,
+  "cy": 1.8,
+  "size": 445.37
+ },
+ "cairo/western-palace": {
+  "cx": 1.8,
+  "cy": -0.0,
+  "size": 263.07
+ },
+ "cairo/wikala-al-ghuri": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "size": 99.33
+ },
  "constantinople/aqueduct-of-valens": {
   "cx": 0.0,
   "cy": -0.0,
