@@ -1341,6 +1341,248 @@
   "w": 160.0,
   "x0px": 59.2
  },
+ "fatehpur-sikri/agra-gate": {
+  "ground": 333.1,
+  "h": 24.37,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   374
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "fatehpur-sikri/ajmeri-gate": {
+  "ground": 308.6,
+  "h": 22.36,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   349
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "fatehpur-sikri/anup-talao": {
+  "ground": 59.0,
+  "h": 2.5,
+  "mpp": 0.08343,
+  "px": [
+   490,
+   88
+  ],
+  "w": 36.0,
+  "x0px": 29.2
+ },
+ "fatehpur-sikri/babur-garden": {
+  "ground": 227.4,
+  "h": 14.66,
+  "mpp": 0.08334,
+  "px": [
+   1097,
+   279
+  ],
+  "w": 82.8,
+  "x0px": 51.7
+ },
+ "fatehpur-sikri/baoli": {
+  "ground": 163.0,
+  "h": 11.66,
+  "mpp": 0.08334,
+  "px": [
+   335,
+   186
+  ],
+  "w": 24.0,
+  "x0px": 23.5
+ },
+ "fatehpur-sikri/birbal-house": {
+  "ground": 235.8,
+  "h": 17.89,
+  "mpp": 0.08339,
+  "px": [
+   283,
+   257
+  ],
+  "w": 20.0,
+  "x0px": 21.6
+ },
+ "fatehpur-sikri/buland-darwaza": {
+  "ground": 694.8,
+  "h": 54.76,
+  "mpp": 0.08341,
+  "px": [
+   628,
+   733
+  ],
+  "w": 46.0,
+  "x0px": 38.3
+ },
+ "fatehpur-sikri/caravanserai": {
+  "ground": 203.2,
+  "h": 16.16,
+  "mpp": 0.11267,
+  "px": [
+   1400,
+   263
+  ],
+  "w": 144.2,
+  "x0px": 60.1
+ },
+ "fatehpur-sikri/diwan-i-am": {
+  "ground": 213.3,
+  "h": 14.32,
+  "mpp": 0.08341,
+  "px": [
+   832,
+   255
+  ],
+  "w": 62.41,
+  "x0px": 41.9
+ },
+ "fatehpur-sikri/diwan-i-khas": {
+  "ground": 226.8,
+  "h": 17.25,
+  "mpp": 0.08352,
+  "px": [
+   242,
+   247
+  ],
+  "w": 16.8,
+  "x0px": 20.4
+ },
+ "fatehpur-sikri/hakims-hammam": {
+  "ground": 118.5,
+  "h": 7.76,
+  "mpp": 0.08351,
+  "px": [
+   399,
+   144
+  ],
+  "w": 29.0,
+  "x0px": 25.9
+ },
+ "fatehpur-sikri/hathi-pol": {
+  "ground": 276.5,
+  "h": 20.88,
+  "mpp": 0.0835,
+  "px": [
+   412,
+   303
+  ],
+  "w": 30.0,
+  "x0px": 26.3
+ },
+ "fatehpur-sikri/hiran-minar": {
+  "ground": 289.4,
+  "h": 22.27,
+  "mpp": 0.08351,
+  "px": [
+   134,
+   312
+  ],
+  "w": 7.39,
+  "x0px": 22.7
+ },
+ "fatehpur-sikri/ibadat-khana": {
+  "ground": 317.3,
+  "h": 23.8,
+  "mpp": 0.08335,
+  "px": [
+   563,
+   349
+  ],
+  "w": 41.6,
+  "x0px": 32.0
+ },
+ "fatehpur-sikri/islam-khan-tomb": {
+  "ground": 197.6,
+  "h": 14.77,
+  "mpp": 0.08342,
+  "px": [
+   257,
+   218
+  ],
+  "w": 18.0,
+  "x0px": 20.6
+ },
+ "fatehpur-sikri/jama-masjid": {
+  "ground": 319.0,
+  "h": 33.1,
+  "mpp": 0.12731,
+  "px": [
+   1400,
+   378
+  ],
+  "w": 163.18,
+  "x0px": 59.1
+ },
+ "fatehpur-sikri/jodh-bai-palace": {
+  "ground": 368.2,
+  "h": 26.73,
+  "mpp": 0.0834,
+  "px": [
+   990,
+   416
+  ],
+  "w": 74.59,
+  "x0px": 47.8
+ },
+ "fatehpur-sikri/khwabgah": {
+  "ground": 261.6,
+  "h": 19.64,
+  "mpp": 0.0835,
+  "px": [
+   412,
+   288
+  ],
+  "w": 30.0,
+  "x0px": 26.3
+ },
+ "fatehpur-sikri/mariam-house": {
+  "ground": 190.7,
+  "h": 14.12,
+  "mpp": 0.08339,
+  "px": [
+   283,
+   212
+  ],
+  "w": 20.0,
+  "x0px": 21.6
+ },
+ "fatehpur-sikri/naubat-khana": {
+  "ground": 276.8,
+  "h": 20.92,
+  "mpp": 0.08346,
+  "px": [
+   407,
+   303
+  ],
+  "w": 29.6,
+  "x0px": 26.2
+ },
+ "fatehpur-sikri/panch-mahal": {
+  "ground": 278.2,
+  "h": 21.17,
+  "mpp": 0.08356,
+  "px": [
+   360,
+   303
+  ],
+  "w": 26.0,
+  "x0px": 24.4
+ },
+ "fatehpur-sikri/salim-chishti-tomb": {
+  "ground": 188.5,
+  "h": 14.04,
+  "mpp": 0.08361,
+  "px": [
+   259,
+   209
+  ],
+  "w": 18.2,
+  "x0px": 20.7
+ },
  "kyoto/chion-in-sanmon": {
   "ground": 390.4,
   "h": 29.26,
