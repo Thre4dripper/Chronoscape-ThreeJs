@@ -404,7 +404,9 @@
           "subtitle": "Heijō-kyō, 750",
           "at": [135.8, 34.69],
           "glyph": "pagoda",
-          "blurb": "A gridded capital on the Chinese model, with the great bronze Buddha of Tōdai-ji."
+          "blurb": "A gridded capital on the Chinese model, with the great bronze Buddha of Tōdai-ji.",
+          "city": "nara",
+          "period": "tempyo-752"
         },
         {
           "title": "Kyoto",

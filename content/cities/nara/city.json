@@ -1,0 +1,5459 @@
+{
+ "id": "nara",
+ "name": "Nara",
+ "subtitle": "Heijō-kyō, the Capital of the Peaceful Citadel",
+ "description": "Nara from the building of Heijō-kyō in 710 to the temple town of the Edo period: the eastern three-quarters of the Chinese-style grid, the Gekyō annex with Kōfuku-ji and Gangō-ji, and Tōdai-ji and the Kasuga shrine under the Wakakusa and Kasuga hills. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "tempyo-752",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#E4D6BC",
+   "#D9C9A6",
+   "#CBB894"
+  ],
+  "roofs": [
+   "#6A6866",
+   "#7C6A56"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3479,
+    2330
+   ],
+   "distance": 42,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7415,
+   6102
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Saho-gawa",
+    "path": [
+     [
+      7415,
+      721
+     ],
+     [
+      6683,
+      910
+     ],
+     [
+      5950,
+      1054
+     ],
+     [
+      5218,
+      1132
+     ],
+     [
+      4486,
+      1331
+     ],
+     [
+      3936,
+      1720
+     ],
+     [
+      3570,
+      2274
+     ],
+     [
+      3158,
+      2996
+     ],
+     [
+      2701,
+      3772
+     ],
+     [
+      2334,
+      4549
+     ],
+     [
+      2014,
+      5326
+     ],
+     [
+      1813,
+      5769
+     ],
+     [
+      1556,
+      6102
+     ]
+    ],
+    "width": 22,
+    "id": "saho",
+    "blurb": "The river of Saho-hime, goddess of spring. It comes down from the Kasuga hills north of Tōdai-ji and crosses the city diagonally to the south-west; the Rajōmon's foundations were found partly under its later bed."
+   },
+   {
+    "name": "Akishino-gawa",
+    "path": [
+     [
+      842,
+      0
+     ],
+     [
+      897,
+      666
+     ],
+     [
+      915,
+      1331
+     ],
+     [
+      989,
+      2108
+     ],
+     [
+      1007,
+      2996
+     ],
+     [
+      1007,
+      3883
+     ],
+     [
+      1007,
+      4771
+     ],
+     [
+      1099,
+      5437
+     ],
+     [
+      1236,
+      6102
+     ]
+    ],
+    "width": 16,
+    "id": "akishino",
+    "blurb": "The stream from the Akishino hills, which ran past Saidai-ji and down the west side of the palace through the Ukyō. In the capital years it was probably straightened as a canal serving the West Market."
+   },
+   {
+    "name": "Sarusawa-ike",
+    "path": [
+     [
+      4943,
+      2641
+     ],
+     [
+      5053,
+      2641
+     ]
+    ],
+    "width": 72,
+    "id": "sarusawa",
+    "blurb": "The pond below Kōfuku-ji, dug in 749 for the rite of releasing living creatures (hōjō-e). In legend a court lady drowned herself in it when the emperor's favour waned.",
+    "periods": [
+     "tempyo-752",
+     "abandoned-900",
+     "edo-1700"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Wakakusa-yama",
+    "center": [
+     6866,
+     1775
+    ],
+    "radius": 420,
+    "label": true,
+    "id": "wakakusa",
+    "blurb": "A grassy hill of three swelling tiers, 342 m high, east of Tōdai-ji. Its grass has been burned off in winter since at least the 18th century; the 'mountain burning' is said to have begun as a way of settling a quarrel over the boundary between Tōdai-ji and Kōfuku-ji."
+   },
+   {
+    "name": "Kasuga-yama and Mikasa",
+    "center": [
+     7186,
+     2829
+    ],
+    "radius": 600,
+    "label": true,
+    "id": "kasugayama",
+    "blurb": "The sacred mountain of the Kasuga shrine, whose god is said to have come down to Mikasa-yama riding a white deer. Hunting and tree-felling on it were banned in 841; its forest has stood ever since."
+   },
+   {
+    "name": "Nara-yama",
+    "center": [
+     4120,
+     111
+    ],
+    "radius": 450,
+    "label": true,
+    "id": "narayama",
+    "blurb": "The low hills along the capital's north, crossed by the Narazaka road to Yamashiro. Tile kilns for the palace and the temples were dug into their slopes."
+   },
+   {
+    "name": "Ichiniwa tumulus",
+    "center": [
+     1218,
+     810
+    ],
+    "radius": 80,
+    "label": false,
+    "id": "ichiniwa",
+    "blurb": "A 5th-century keyhole tomb at the palace's north-west corner, its front half levelled to make room for the palace; the rest is honoured as the tomb of Emperor Heizei."
+   },
+   {
+    "name": "Uwanabe tumulus",
+    "center": [
+     2856,
+     333
+    ],
+    "radius": 130,
+    "label": true,
+    "id": "uwanabe",
+    "blurb": "One of the great keyhole tombs of the Saki group north of the palace, 255 m long, built in the 5th century and already ancient when the capital was laid out."
+   },
+   {
+    "name": "Konabe tumulus",
+    "center": [
+     2399,
+     22
+    ],
+    "radius": 105,
+    "label": false,
+    "id": "konabe",
+    "blurb": "A 204 m keyhole tomb of the Saki group, ringed by its moat."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Suzaku-ōji",
+    "path": [
+     [
+      1712,
+      2086
+     ],
+     [
+      1712,
+      5703
+     ]
+    ],
+    "width": 74,
+    "style": "major",
+    "labelled": true,
+    "id": "suzaku",
+    "blurb": "The central avenue, about 74 m wide and 3.7 km long, from the Suzakumon of the palace to the Rajōmon. Willows lined its ditches, and the earth walls of the wards closed it on both sides: it was a stage for embassies, not a street to live on.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Nijō-ōji",
+    "path": [
+     [
+      0,
+      2064
+     ],
+     [
+      5310,
+      2064
+     ]
+    ],
+    "width": 37,
+    "style": "minor",
+    "labelled": true,
+    "id": "nijo",
+    "blurb": "The cross-avenue along the palace's south wall, running east into the Gekyō toward Tōdai-ji.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Ichijō-minami-ōji",
+    "path": [
+     [
+      0,
+      1487
+     ],
+     [
+      1144,
+      1487
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "ichijo-s-w",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Ichijō-minami-ōji",
+    "path": [
+     [
+      2490,
+      1487
+     ],
+     [
+      5310,
+      1487
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "ichijo-s-e",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Ichijō-kita-ōji",
+    "path": [
+     [
+      0,
+      954
+     ],
+     [
+      1144,
+      954
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "ichijo-n-w",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Ichijō-kita-ōji",
+    "path": [
+     [
+      2252,
+      954
+     ],
+     [
+      5310,
+      954
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "ichijo-n-e",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Sanjō-ōji",
+    "path": [
+     [
+      0,
+      2552
+     ],
+     [
+      5310,
+      2552
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "sanjo",
+    "blurb": "The third avenue, which ran east past Kōfuku-ji's south gate toward the Kasuga plain; it survives as Nara's Sanjō-dōri.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Shijō-ōji",
+    "path": [
+     [
+      0,
+      3084
+     ],
+     [
+      4742,
+      3084
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "shijo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Gojō-ōji",
+    "path": [
+     [
+      0,
+      3617
+     ],
+     [
+      5310,
+      3617
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "gojo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Rokujō-ōji",
+    "path": [
+     [
+      0,
+      4150
+     ],
+     [
+      3808,
+      4150
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "rokujo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Shichijō-ōji",
+    "path": [
+     [
+      0,
+      4682
+     ],
+     [
+      3808,
+      4682
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "shichijo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Hachijō-ōji",
+    "path": [
+     [
+      0,
+      5215
+     ],
+     [
+      3808,
+      5215
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "hachijo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Kujō-ōji",
+    "path": [
+     [
+      0,
+      5725
+     ],
+     [
+      3808,
+      5725
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "kujo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Nishi-ichibō-ōji",
+    "path": [
+     [
+      1163,
+      2064
+     ],
+     [
+      1163,
+      5725
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "nishi-ichibo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Nishi-nibō-ōji",
+    "path": [
+     [
+      513,
+      954
+     ],
+     [
+      513,
+      5725
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "nishi-nibo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Nishi-sanbō-ōji",
+    "path": [
+     [
+      92,
+      954
+     ],
+     [
+      92,
+      5725
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": false,
+    "id": "nishi-sanbo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-ichibō-ōji",
+    "path": [
+     [
+      2234,
+      2064
+     ],
+     [
+      2234,
+      5725
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "higashi-ichibo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-nibō-ōji",
+    "path": [
+     [
+      2756,
+      954
+     ],
+     [
+      2756,
+      5725
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "higashi-nibo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-sanbō-ōji",
+    "path": [
+     [
+      3286,
+      954
+     ],
+     [
+      3286,
+      5725
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "higashi-sanbo",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-Kyōgoku-ōji",
+    "path": [
+     [
+      3808,
+      954
+     ],
+     [
+      3808,
+      5725
+     ]
+    ],
+    "width": 30,
+    "style": "minor",
+    "labelled": true,
+    "id": "kyogoku",
+    "blurb": "The east edge of the main grid, the fourth avenue east of Suzaku. Beyond it the Gekyō climbed toward the hills.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-gobō-ōji",
+    "path": [
+     [
+      4303,
+      954
+     ],
+     [
+      4303,
+      3617
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": false,
+    "id": "gekyo-5",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-rokubō-ōji",
+    "path": [
+     [
+      4742,
+      954
+     ],
+     [
+      4742,
+      3617
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": false,
+    "id": "gekyo-6",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Higashi-shichibō-ōji",
+    "path": [
+     [
+      5310,
+      954
+     ],
+     [
+      5310,
+      3617
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": true,
+    "id": "gekyo-7",
+    "blurb": "The east edge of the Gekyō, outside the west gates of Tōdai-ji.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Shimotsu-michi",
+    "path": [
+     [
+      1712,
+      5803
+     ],
+     [
+      1712,
+      6102
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "shimotsu-michi",
+    "blurb": "The Lower Road, one of three straight roads across the Nara basin; the capital's Suzaku-ōji was laid out on its line.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Nakatsu-michi",
+    "path": [
+     [
+      3808,
+      5725
+     ],
+     [
+      3808,
+      6102
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "nakatsu-michi",
+    "blurb": "The Middle Road south to Asuka, on the line of the Kyōgoku.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Narazaka road",
+    "path": [
+     [
+      5035,
+      954
+     ],
+     [
+      5017,
+      555
+     ],
+     [
+      4989,
+      0
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "narazaka",
+    "blurb": "The road north over the Nara hills to the Kizu river and Yamashiro.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Sanjō road",
+    "path": [
+     [
+      3808,
+      2552
+     ],
+     [
+      5310,
+      2552
+     ],
+     [
+      5767,
+      2574
+     ],
+     [
+      6372,
+      2607
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "sanjo-900",
+    "blurb": "The old Sanjō avenue, the spine of the temple town, running on past Kōfuku-ji to the Kasuga shrine as its approach.",
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Higashi-shichibō road",
+    "path": [
+     [
+      5310,
+      954
+     ],
+     [
+      5310,
+      3617
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "shichibo-900",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "name": "Suzaku track",
+    "path": [
+     [
+      1712,
+      2064
+     ],
+     [
+      1712,
+      5725
+     ],
+     [
+      1712,
+      6102
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "suzaku-900",
+    "blurb": "What was left of the great avenue: a cart track between paddies on the line of the old Shimotsu-michi.",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "name": "Nakatsu-michi",
+    "path": [
+     [
+      3808,
+      954
+     ],
+     [
+      3808,
+      6102
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "nakatsu-900",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "name": "Ichijō road to Saidai-ji",
+    "path": [
+     [
+      5310,
+      1487
+     ],
+     [
+      2472,
+      1487
+     ],
+     [
+      549,
+      1387
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "ichijo-900",
+    "blurb": "The road west from the temple town past Hokke-ji and across the site of the old palace to Saidai-ji.",
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Road to Yakushi-ji",
+    "path": [
+     [
+      1007,
+      1387
+     ],
+     [
+      1099,
+      2552
+     ],
+     [
+      1099,
+      3883
+     ],
+     [
+      1144,
+      4549
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "nishinokyo-900",
+    "blurb": "A track down the west bank of the Akishino to Tōshōdai-ji and Yakushi-ji in their villages of Nishinokyō, 'the west capital'.",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "name": "Narazaka road",
+    "path": [
+     [
+      4760,
+      1664
+     ],
+     [
+      4852,
+      954
+     ],
+     [
+      4989,
+      0
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "narazaka-900",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "name": "Kyō-kaidō",
+    "path": [
+     [
+      4943,
+      0
+     ],
+     [
+      4852,
+      666
+     ],
+     [
+      4760,
+      1109
+     ],
+     [
+      4760,
+      2552
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "kyo-kaido",
+    "blurb": "The Kyoto road, north over Narazaka. Its last stretch through Kitamachi was lined with inns and the shops that sold Nara fans and ink to travellers.",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Kami-kaidō",
+    "path": [
+     [
+      4760,
+      2552
+     ],
+     [
+      4779,
+      3218
+     ],
+     [
+      4815,
+      3883
+     ],
+     [
+      4852,
+      6102
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "kami-kaido",
+    "blurb": "The Upper Road south along the hills toward Tenri, Sakurai and the Ise pilgrimage road: the old Kamitsu-michi.",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Kōriyama road",
+    "path": [
+     [
+      4779,
+      3218
+     ],
+     [
+      3936,
+      3883
+     ],
+     [
+      2563,
+      4993
+     ],
+     [
+      1739,
+      5658
+     ],
+     [
+      1190,
+      6102
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "koriyama-kaido",
+    "blurb": "The road south-west to the castle town of Kōriyama and on to Osaka.",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Tōdai-ji approach",
+    "path": [
+     [
+      5749,
+      2552
+     ],
+     [
+      5749,
+      2297
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "todaiji-approach",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Tegai road",
+    "path": [
+     [
+      4760,
+      1775
+     ],
+     [
+      5566,
+      1775
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "tegai",
+    "blurb": "The road to Tōdai-ji's west gate, the Tegaimon, through the gate town of Tegai.",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Shimomikado",
+    "path": [
+     [
+      3936,
+      2774
+     ],
+     [
+      4760,
+      2774
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "shimomikado",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Naramachi lane",
+    "path": [
+     [
+      3936,
+      3384
+     ],
+     [
+      4779,
+      3384
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "moto-koshi",
+    "periods": [
+     "edo-1700"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Palace wall (Ōgaki)",
+    "path": [
+     [
+      1190,
+      954
+     ],
+     [
+      2206,
+      954
+     ],
+     [
+      2206,
+      1220
+     ],
+     [
+      2453,
+      1220
+     ],
+     [
+      2453,
+      2008
+     ],
+     [
+      1190,
+      2008
+     ]
+    ],
+    "closed": true,
+    "id": "palace-wall",
+    "blurb": "The tiled earth wall, about 5 m high, round the palace: a square of about 1 km with an annex 250 m wide on the east. Probably twelve gates opened in it, three on each side.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Rajō (south wall)",
+    "path": [
+     [
+      1236,
+      5780
+     ],
+     [
+      2197,
+      5780
+     ]
+    ],
+    "closed": false,
+    "id": "rajo",
+    "blurb": "Heijō-kyō had no city wall in the Chinese sense: only a short wall and moat flanked the Rajōmon, for the show of a walled capital.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Wakainukaimon",
+    "position": [
+     1465,
+     2008
+    ],
+    "id": "wakainukaimon",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "name": "Mibumon",
+    "position": [
+     2106,
+     2008
+    ],
+    "id": "mibumon",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Saho-gawa bridge",
+    "path": [
+     [
+      4760,
+      1165
+     ],
+     [
+      4760,
+      1354
+     ]
+    ],
+    "build": "timber",
+    "arches": 3,
+    "id": "saho-bridge",
+    "blurb": "The Kyō-kaidō's bridge over the Saho at the north end of Kitamachi.",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "name": "Sanjō bridge over the Saho",
+    "path": [
+     [
+      3341,
+      2552
+     ],
+     [
+      3497,
+      2552
+     ]
+    ],
+    "build": "timber",
+    "arches": 3,
+    "id": "sanjo-saho",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2490,
+      954
+     ],
+     [
+      3808,
+      954
+     ],
+     [
+      3808,
+      2064
+     ],
+     [
+      2490,
+      2064
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, north wards",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1712,
+      2064
+     ],
+     [
+      3808,
+      2064
+     ],
+     [
+      3808,
+      3617
+     ],
+     [
+      1712,
+      3617
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, Nijō to Gojō",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1712,
+      3617
+     ],
+     [
+      3808,
+      3617
+     ],
+     [
+      3808,
+      5725
+     ],
+     [
+      1712,
+      5725
+     ]
+    ],
+    "density": "loose",
+    "name": "Sakyō, south wards",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      513,
+      2064
+     ],
+     [
+      1712,
+      2064
+     ],
+     [
+      1712,
+      3084
+     ],
+     [
+      513,
+      3084
+     ]
+    ],
+    "density": "dense",
+    "name": "Ukyō, Nijō to Shijō",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      3084
+     ],
+     [
+      1712,
+      3084
+     ],
+     [
+      1712,
+      5725
+     ],
+     [
+      0,
+      5725
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, south and west wards",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      954
+     ],
+     [
+      1144,
+      954
+     ],
+     [
+      1144,
+      2064
+     ],
+     [
+      0,
+      2064
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, north wards",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3808,
+      954
+     ],
+     [
+      5310,
+      954
+     ],
+     [
+      5310,
+      2552
+     ],
+     [
+      3808,
+      2552
+     ]
+    ],
+    "density": "loose",
+    "name": "Gekyō, north",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3808,
+      2552
+     ],
+     [
+      5310,
+      2552
+     ],
+     [
+      5310,
+      3617
+     ],
+     [
+      3808,
+      3617
+     ]
+    ],
+    "density": "dense",
+    "name": "Gekyō, round Kōfuku-ji",
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2490,
+      954
+     ],
+     [
+      3808,
+      954
+     ],
+     [
+      3808,
+      2064
+     ],
+     [
+      2490,
+      2064
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, north wards",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1712,
+      2064
+     ],
+     [
+      3808,
+      2064
+     ],
+     [
+      3808,
+      4150
+     ],
+     [
+      1712,
+      4150
+     ]
+    ],
+    "density": "dense",
+    "name": "Sakyō, Nijō to Rokujō",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1712,
+      4150
+     ],
+     [
+      3808,
+      4150
+     ],
+     [
+      3808,
+      5725
+     ],
+     [
+      1712,
+      5725
+     ]
+    ],
+    "density": "loose",
+    "name": "Sakyō, south wards",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      2064
+     ],
+     [
+      1712,
+      2064
+     ],
+     [
+      1712,
+      3084
+     ],
+     [
+      0,
+      3084
+     ]
+    ],
+    "density": "dense",
+    "name": "Ukyō, Nijō to Shijō",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      3084
+     ],
+     [
+      1712,
+      3084
+     ],
+     [
+      1712,
+      5725
+     ],
+     [
+      0,
+      5725
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, south wards",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      954
+     ],
+     [
+      1144,
+      954
+     ],
+     [
+      1144,
+      2064
+     ],
+     [
+      0,
+      2064
+     ]
+    ],
+    "density": "loose",
+    "name": "Ukyō, north wards",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3808,
+      954
+     ],
+     [
+      5310,
+      954
+     ],
+     [
+      5310,
+      3617
+     ],
+     [
+      3808,
+      3617
+     ]
+    ],
+    "density": "dense",
+    "name": "Gekyō",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5328,
+      1553
+     ],
+     [
+      5584,
+      1553
+     ],
+     [
+      5584,
+      1997
+     ],
+     [
+      5328,
+      1997
+     ]
+    ],
+    "density": "loose",
+    "name": "Tōdai-ji workshops",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4303,
+      1664
+     ],
+     [
+      5310,
+      1664
+     ],
+     [
+      5310,
+      3439
+     ],
+     [
+      4303,
+      3439
+     ]
+    ],
+    "density": "dense",
+    "name": "Nara, the temple town",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5328,
+      1553
+     ],
+     [
+      5584,
+      1553
+     ],
+     [
+      5584,
+      1997
+     ],
+     [
+      5328,
+      1997
+     ]
+    ],
+    "density": "loose",
+    "name": "Tegai, at Tōdai-ji's west gate",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4303,
+      1276
+     ],
+     [
+      5310,
+      1276
+     ],
+     [
+      5310,
+      1664
+     ],
+     [
+      4303,
+      1664
+     ]
+    ],
+    "density": "loose",
+    "name": "Kitamachi",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2563,
+      1054
+     ],
+     [
+      3250,
+      1054
+     ],
+     [
+      3250,
+      1442
+     ],
+     [
+      2563,
+      1442
+     ]
+    ],
+    "density": "loose",
+    "name": "Hokke-ji village",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      92,
+      1498
+     ],
+     [
+      824,
+      1498
+     ],
+     [
+      824,
+      1831
+     ],
+     [
+      92,
+      1831
+     ]
+    ],
+    "density": "loose",
+    "name": "Saidai-ji village",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      183,
+      3439
+     ],
+     [
+      568,
+      3439
+     ],
+     [
+      568,
+      4438
+     ],
+     [
+      183,
+      4438
+     ]
+    ],
+    "density": "loose",
+    "name": "Nishinokyō villages",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2106,
+      3661
+     ],
+     [
+      3021,
+      3661
+     ],
+     [
+      3021,
+      3994
+     ],
+     [
+      2106,
+      3994
+     ]
+    ],
+    "density": "loose",
+    "name": "Daian-ji village",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1877,
+      5270
+     ],
+     [
+      2655,
+      5270
+     ],
+     [
+      2655,
+      5603
+     ],
+     [
+      1877,
+      5603
+     ]
+    ],
+    "density": "loose",
+    "name": "Kujō village",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3936,
+      2607
+     ],
+     [
+      5264,
+      2607
+     ],
+     [
+      5264,
+      3606
+     ],
+     [
+      3936,
+      3606
+     ]
+    ],
+    "density": "dense",
+    "name": "Naramachi",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4303,
+      1109
+     ],
+     [
+      5264,
+      1109
+     ],
+     [
+      5264,
+      2496
+     ],
+     [
+      4303,
+      2496
+     ]
+    ],
+    "density": "dense",
+    "name": "Kitamachi",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3296,
+      2352
+     ],
+     [
+      4303,
+      2352
+     ],
+     [
+      4303,
+      2718
+     ],
+     [
+      3296,
+      2718
+     ]
+    ],
+    "density": "dense",
+    "name": "Sanjō-dōri",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5264,
+      1498
+     ],
+     [
+      5603,
+      1498
+     ],
+     [
+      5603,
+      2197
+     ],
+     [
+      5264,
+      2197
+     ]
+    ],
+    "density": "dense",
+    "name": "Tegai and Zōshi",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5264,
+      2774
+     ],
+     [
+      6134,
+      2774
+     ],
+     [
+      6134,
+      3329
+     ],
+     [
+      5264,
+      3329
+     ]
+    ],
+    "density": "dense",
+    "name": "Takabatake",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2563,
+      1054
+     ],
+     [
+      3250,
+      1054
+     ],
+     [
+      3250,
+      1442
+     ],
+     [
+      2563,
+      1442
+     ]
+    ],
+    "density": "loose",
+    "name": "Hokke-ji village",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      92,
+      1498
+     ],
+     [
+      824,
+      1498
+     ],
+     [
+      824,
+      1886
+     ],
+     [
+      92,
+      1886
+     ]
+    ],
+    "density": "loose",
+    "name": "Saidai-ji village",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      183,
+      3439
+     ],
+     [
+      568,
+      3439
+     ],
+     [
+      568,
+      4438
+     ],
+     [
+      183,
+      4438
+     ]
+    ],
+    "density": "loose",
+    "name": "Nishinokyō village",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2106,
+      3661
+     ],
+     [
+      3021,
+      3661
+     ],
+     [
+      3021,
+      3994
+     ],
+     [
+      2106,
+      3994
+     ]
+    ],
+    "density": "loose",
+    "name": "Daian-ji village",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3479,
+      3661
+     ],
+     [
+      4486,
+      3661
+     ],
+     [
+      4486,
+      4549
+     ],
+     [
+      3479,
+      4549
+     ]
+    ],
+    "density": "loose",
+    "name": "Kizuji villages",
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1877,
+      5270
+     ],
+     [
+      2655,
+      5270
+     ],
+     [
+      2655,
+      5603
+     ],
+     [
+      1877,
+      5603
+     ]
+    ],
+    "density": "loose",
+    "name": "Kujō village",
+    "periods": [
+     "edo-1700"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2252,
+      1609
+     ],
+     [
+      2435,
+      1609
+     ],
+     [
+      2435,
+      1908
+     ],
+     [
+      2252,
+      1908
+     ]
+    ],
+    "kind": "park",
+    "name": "Tōin garden",
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1236,
+      1021
+     ],
+     [
+      2417,
+      1021
+     ],
+     [
+      2417,
+      1953
+     ],
+     [
+      1236,
+      1953
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Paddies on the palace site",
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1785,
+      2219
+     ],
+     [
+      2151,
+      2219
+     ],
+     [
+      2151,
+      5547
+     ],
+     [
+      1785,
+      5547
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the old Sakyō",
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1190,
+      2219
+     ],
+     [
+      1630,
+      2219
+     ],
+     [
+      1630,
+      5547
+     ],
+     [
+      1190,
+      5547
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the old Ukyō",
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5401,
+      2330
+     ],
+     [
+      6408,
+      2330
+     ],
+     [
+      6408,
+      2774
+     ],
+     [
+      5401,
+      2774
+     ]
+    ],
+    "kind": "park",
+    "name": "Kasuga-no meadows",
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "heijo-kyu",
+    "name": "Heijō-kyū (the palace)",
+    "polygon": [
+     [
+      1190,
+      954
+     ],
+     [
+      2206,
+      954
+     ],
+     [
+      2206,
+      1220
+     ],
+     [
+      2453,
+      1220
+     ],
+     [
+      2453,
+      2008
+     ],
+     [
+      1190,
+      2008
+     ]
+    ],
+    "description": "The walled palace: the Daigokuden and the State Halls in two parallel courts, the emperor's residence (Dairi), the eight ministries and their offices, kitchens, stores and the Tōin garden on the east. Perhaps 10,000 officials, guards and servants worked inside.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "id": "sakyo",
+    "name": "Sakyō (Left Capital)",
+    "polygon": [
+     [
+      1712,
+      2064
+     ],
+     [
+      3808,
+      2064
+     ],
+     [
+      3808,
+      5725
+     ],
+     [
+      1712,
+      5725
+     ]
+    ],
+    "description": "The eastern half, 'left' as the emperor looks south: higher ground, the mansions of princes and Fujiwara ministers, Daian-ji and the East Market.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "id": "ukyo",
+    "name": "Ukyō (Right Capital)",
+    "polygon": [
+     [
+      0,
+      2064
+     ],
+     [
+      1712,
+      2064
+     ],
+     [
+      1712,
+      5725
+     ],
+     [
+      0,
+      5725
+     ]
+    ],
+    "description": "The western half, with Yakushi-ji, later Tōshōdai-ji and Saidai-ji, and the West Market. The frame cuts its westernmost wards.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "id": "gekyo",
+    "name": "Gekyō (Outer Capital)",
+    "polygon": [
+     [
+      3808,
+      954
+     ],
+     [
+      5310,
+      954
+     ],
+     [
+      5310,
+      3617
+     ],
+     [
+      3808,
+      3617
+     ]
+    ],
+    "description": "The annex of three bō on the east, an irregular extension up the slope toward the hills, with Kōfuku-ji and Gangō-ji. Unlike Chang'an's grid, Heijō's bulged here, probably to take in the Fujiwara temple.",
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "id": "nanto",
+    "name": "Nanto (the Southern Capital)",
+    "polygon": [
+     [
+      4303,
+      1276
+     ],
+     [
+      6408,
+      1276
+     ],
+     [
+      6408,
+      3439
+     ],
+     [
+      4303,
+      3439
+     ]
+    ],
+    "description": "Nara after the court left: the temple town of the Gekyō, ruled in practice by Kōfuku-ji and its warrior monks, and the precincts of Tōdai-ji and the Kasuga shrine.",
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "id": "naramachi",
+    "name": "Naramachi",
+    "polygon": [
+     [
+      3936,
+      2607
+     ],
+     [
+      5264,
+      2607
+     ],
+     [
+      5264,
+      3606
+     ],
+     [
+      3936,
+      3606
+     ]
+    ],
+    "description": "The merchant town built over the old courts of Gangō-ji, south of Sarusawa pond: sake brewers, ink makers, bleachers of hemp cloth and the shops of the pilgrim trade.",
+    "periods": [
+     "edo-1700"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Saho-gawa",
+    "position": [
+     3067,
+     3439
+    ],
+    "size": "md",
+    "rotation": -55
+   },
+   {
+    "text": "Akishino-gawa",
+    "position": [
+     934,
+     2552
+    ],
+    "size": "sm",
+    "rotation": -88
+   },
+   {
+    "text": "Heijō-kyō",
+    "position": [
+     1739,
+     4993
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "heijo-720"
+    ]
+   },
+   {
+    "text": "Nara",
+    "position": [
+     1739,
+     4993
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "tempyo-752"
+    ]
+   },
+   {
+    "text": "Sakyō",
+    "position": [
+     3296,
+     3994
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "text": "Ukyō",
+    "position": [
+     275,
+     3550
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "text": "Gekyō",
+    "position": [
+     4532,
+     1276
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "text": "Heijō-kyū",
+    "position": [
+     1419,
+     1054
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "heijo-720",
+     "tempyo-752"
+    ]
+   },
+   {
+    "text": "Nanto",
+    "position": [
+     5584,
+     3218
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "abandoned-900"
+    ]
+   },
+   {
+    "text": "Nara",
+    "position": [
+     5676,
+     3218
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "text": "Naramachi",
+    "position": [
+     4303,
+     3495
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "edo-1700"
+    ]
+   },
+   {
+    "text": "Nishinokyō",
+    "position": [
+     366,
+     4660
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "text": "Kasuga-no",
+    "position": [
+     6042,
+     2530
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   },
+   {
+    "text": "Yamato plain",
+    "position": [
+     3021,
+     5437
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "abandoned-900",
+     "edo-1700"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D7B2",
+   "ink": "#5D4535",
+   "water": "#668A8B",
+   "hill": "#74805A",
+   "road": "#8A6D4E"
+  },
+  "compass": [
+   7003,
+   333
+  ],
+  "cartouche": [
+   4852,
+   5936
+  ]
+ },
+ "periods": [
+  {
+   "id": "heijo-720",
+   "label": "Heijō-kyō, the new capital",
+   "year": 720,
+   "startYear": 710,
+   "endYear": 739,
+   "summary": "Empress Genmei moved the court here from Fujiwara-kyō in 710. The grid copies Tang Chang'an: 4.3 by 4.8 km of walled wards, the 74 m Suzaku-ōji, the palace at its head with the First Daigokuden. Yakushi-ji, Daian-ji and Gangō-ji are being moved in from Asuka; the Fujiwara build Kōfuku-ji on the eastern rise.",
+   "population": "perhaps 50,000–100,000 (estimates vary widely)",
+   "feel": "Fresh-sawn cypress and wet plaster, red columns among half-empty wards, oxcarts of roof tiles from the kilns of Nara-yama, and wooden tags clacking in the clerks' hands.",
+   "style": "sinic",
+   "houses": {
+    "title": "Ward lots of the new capital",
+    "text": "Ranks were paid in land: a prince or minister held a whole 120 m block (chō) of halls on earth-fast posts round a gravel court; a lower official a half or a quarter. A commoner's lot was a sixteenth or a thirty-second of a chō: a board-roofed hut, a well and a vegetable patch."
+   },
+   "outskirts": {
+    "title": "Fields inside the grid",
+    "text": "The southern and western wards fill slowly. Many blocks are still paddy and dry fields worked by the families who live on them, behind brushwood fences."
+   }
+  },
+  {
+   "id": "tempyo-752",
+   "label": "Nara of the Great Buddha",
+   "year": 752,
+   "startYear": 740,
+   "endYear": 784,
+   "summary": "The Tenpyō age of Emperor Shōmu. After epidemic, rebellion and five years of wandering capitals (740–745) the court is back, and the state pours its copper and gold into Tōdai-ji: the 15 m bronze Buddha, the largest wooden hall in the world, twin pagodas near 100 m. The city fills to the Kyōgoku and the Gekyō is crowded with monks and craftsmen.",
+   "population": "perhaps 100,000",
+   "feel": "The ring of hammers at the temple workshops, chanting from a dozen great temples, incense and smoke from the foundry, and imported musk and aloeswood in the markets.",
+   "style": "sinic",
+   "houses": {
+    "title": "Ward houses of Tenpyō Nara",
+    "text": "Nobles' compounds take one or more chō behind tiled earth walls; some main halls now have tiled roofs and painted columns, as the court ordered in 724. Officials' and craftsmen's lots are small yards of board-roofed huts, storehouses on stilts and wells lined with timber."
+   },
+   "outskirts": {
+    "title": "The southern wards",
+    "text": "South of Rokujō the grid thins into fields, the two markets, potters' and dyers' yards and the farms that pay their rice tax to the capital."
+   }
+  },
+  {
+   "id": "abandoned-900",
+   "label": "Nanto, the southern capital",
+   "year": 900,
+   "startYear": 785,
+   "endYear": 1180,
+   "summary": "The court left for Nagaoka in 784 and Heian-kyō in 794. Within a generation the palace site was paddy; the avenues became field banks. The great temples stayed with their estates, monks and lawsuits, and Nara, 'the southern capital' (Nanto), shrank to a temple town between Kōfuku-ji, Tōdai-ji and the Kasuga shrine.",
+   "population": "a few thousand to perhaps 10,000",
+   "feel": "Frogs in the paddies over the old palace, temple bells across empty wards, deer on the Kasuga meadows, and the chant of monks on the long road to the Fujiwara shrine.",
+   "style": "japanese",
+   "houses": {
+    "title": "The temple town",
+    "text": "Houses of temple servants, carpenters and tile-makers in board and plaster cluster at the gates of Kōfuku-ji, Tōdai-ji and Gangō-ji, along the old Sanjō avenue. Each belongs to a temple or shrine and pays dues to it."
+   },
+   "outskirts": {
+    "title": "Villages in the old grid",
+    "text": "Farm hamlets with thatched roofs stand among paddies laid out on the old ward lines; the jōri field grid keeps the capital's geometry for a thousand years."
+   }
+  },
+  {
+   "id": "edo-1700",
+   "label": "Edo-period Nara",
+   "year": 1700,
+   "startYear": 1567,
+   "endYear": 1867,
+   "summary": "After the Daibutsuden burned in 1567 the Buddha sat in the open for over a century; the monk Kōkei raised money to recast its head (1692) and rebuild the hall, finished in 1709. Nara is a shogunal town of some 35,000 under a magistrate: pilgrims' inns, sake, Nara-zuke pickles, bleached hemp cloth (Nara-sarashi) and sumi ink.",
+   "population": "about 35,000",
+   "feel": "Deer nosing at pilgrims' rice crackers, the sour steam of breweries, lamp-soot and glue from the ink makers, and the great temple bell of Tōdai-ji at dusk.",
+   "style": "japanese",
+   "houses": {
+    "title": "Machiya of Naramachi",
+    "text": "Narrow two-storey town houses of timber and clay, latticed shop fronts, tiled roofs and a long earth-floored passage to a yard, well and storehouse. Many stand on the old precinct of Gangō-ji, whose courts were built over from the 15th century."
+   },
+   "outskirts": {
+    "title": "Villages of the Yamato plain",
+    "text": "Villages of thatched farmhouses with walled yards, rice and cotton fields on the old jōri grid, and the hamlets that grow up round Yakushi-ji, Tōshōdai-ji and Saidai-ji."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "daigokuden",
+   "placeId": "first-daigokuden",
+   "name": "Heijō Palace: the First Daigokuden",
+   "category": "civic",
+   "position": [
+    1712,
+    1276
+   ],
+   "rotation": 0,
+   "footprint": [
+    181.8,
+    265.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/daigokuden.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 180,
+     "depth": 260,
+     "height": 72.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "New: the Hall of State, nine bays wide, on its high terrace at the head of the palace axis, with the cloistered court where the court lined up for New Year and enthronements."
+    },
+    "tempyo-752": {
+     "name": "Site of the First Daigokuden",
+     "note": "The hall was taken down in 740 and re-erected at Shōmu's new capital of Kuni; the State Halls moved to the east zone. The terrace and cloister stand empty, awaiting the Western Palace of the 760s.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/nara/daigokuden-752.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 180,
+       "depth": 260,
+       "height": 72.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "abandoned-900": {
+     "note": "Gone. The palace site was given back to the fields within a few decades of 784; the terrace survived as a low rise among the paddies, called the 'Daikoku no shiba'."
+    }
+   },
+   "summary": "The Great Hall of State of the new capital: a red-pillared, white-walled hall with a hipped tile roof, raised on a terrace above a gravel court enclosed by a roofed cloister.",
+   "details": [
+    "The First Daigokuden stood on the palace's central axis, nine bays by four, about 44 by 20 m and 27 m high, on a terrace reached by stairs from the court below. Emperors appeared here at New Year and at enthronements; envoys from Silla and the Bohai kingdom were received in the court.",
+    "The miniature follows the full-size reconstruction completed on the site in 2010 for the 1,300th anniversary, which itself rests on post-hole and foundation-stone evidence and on surviving Nara temple halls. The upper court is shown with its cloister, and the lower court, much shortened, with its four assembly halls and the seven banner poles set up for New Year audiences."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heijo-palace",
+    "wiki-daigokuden",
+    "nabunken",
+    "tsuboi-tanaka"
+   ],
+   "built": "c. 708–715",
+   "function": "Hall of State: New Year audiences, enthronements, receptions of envoys",
+   "activity": {
+    "figures": 40,
+    "radius": 160
+   }
+  },
+  {
+   "id": "chodo-in",
+   "placeId": "second-daigokuden",
+   "name": "Second Daigokuden and the Chōdō-in",
+   "category": "civic",
+   "position": [
+    1968,
+    1609
+   ],
+   "rotation": 0,
+   "footprint": [
+    181.8,
+    305.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/chodo-in.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 180,
+     "depth": 300,
+     "height": 72.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "Not yet. In the east zone of the palace stood an earlier group of halls on earth-fast posts, known only from their post holes; the court met here for business while the First Daigokuden served for ceremony."
+    },
+    "tempyo-752": {
+     "note": "New after the court's return in 745: a Daigokuden on a stone podium at the north, and below it the court of twelve assembly halls (chōdō) where officials gathered at dawn."
+    },
+    "abandoned-900": {
+     "note": "Gone. Its tiles and timbers were reused, probably at Nagaoka-kyō; the foundation platforms lie under the paddies."
+    }
+   },
+   "summary": "The working heart of Tenpyō government: the Second Daigokuden and the twelve assembly halls of the Chōdō-in, built in the east zone of the palace after 745.",
+   "details": [
+    "When Shōmu returned to Heijō in 745 the First Daigokuden had gone to Kuni-kyō. A new hall was built over the older east-zone buildings, now with foundation stones and tiled roofs, and the Chōdō-in below it was laid out with twelve long halls round a gravel court, the place of the court's dawn assemblies.",
+    "Excavation has fixed the plan; the elevations are reconstruction, modelled on the First Daigokuden and on the Tōshōdai-ji lecture hall, which is a palace assembly hall moved there in the 760s. The miniature shows the hall, the court and eight of the twelve chōdō."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heijo-palace",
+    "nabunken",
+    "tsuboi-tanaka"
+   ],
+   "built": "745–750s",
+   "function": "Hall of State and assembly halls of the court",
+   "activity": {
+    "figures": 50,
+    "radius": 170
+   }
+  },
+  {
+   "id": "suzakumon",
+   "placeId": "suzakumon",
+   "name": "Suzakumon",
+   "category": "civic",
+   "position": [
+    1712,
+    2008
+   ],
+   "rotation": 0,
+   "footprint": [
+    42.4,
+    20.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/suzakumon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 20,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "The main south gate of the palace, facing 3.7 km down the Suzaku-ōji to the Rajōmon. Envoys were welcomed in front of it, and in spring and autumn the court held song-fences (utagaki) here."
+    },
+    "tempyo-752": {
+     "note": "Still the palace's front door after the court's return in 745; the procession to Tōdai-ji for the eye-opening of 752 left the palace by its gates."
+    },
+    "abandoned-900": {
+     "note": "Gone with the palace; its site lay under paddies until the excavations of the 20th century. A full-size reconstruction opened in 1998."
+    }
+   },
+   "summary": "The two-storey vermilion gate of Heijō Palace at the head of the Suzaku-ōji, about 25 m wide and 22 m high.",
+   "details": [
+    "A five-bay gate with a balconied upper storey under a hip-and-gable roof, set in the palace's tiled earth wall. Here the court greeted foreign envoys, held purifications and watched the song-fences of young men and women of the capital.",
+    "The miniature follows the 1998 reconstruction on the excavated foundations: stone platform, red columns, white walls and grey tiles. Its upper storey and roof form are deduced from other Nara-period gates; the excavation gave only the plan."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-suzakumon",
+    "wiki-heijo-palace",
+    "nabunken"
+   ],
+   "built": "c. 710",
+   "function": "Main south gate of the palace",
+   "activity": {
+    "figures": 25,
+    "radius": 90
+   }
+  },
+  {
+   "id": "suzaku-oji",
+   "placeId": "suzaku-oji",
+   "name": "Suzaku-ōji",
+   "category": "district",
+   "position": [
+    1712,
+    3351
+   ],
+   "rotation": 0,
+   "footprint": [
+    99.0,
+    201.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/suzaku-oji.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 96,
+      "depth": 200
+     },
+     "buildings": [
+      {
+       "offset": [
+        -24.0,
+        -50.0
+       ],
+       "width": 28.799999999999997,
+       "depth": 60.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        24.0,
+        40.0
+       ],
+       "width": 28.799999999999997,
+       "depth": 60.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "The new avenue: some 74 m from ditch to ditch, planted with willows, closed by the earth walls and gates of the wards (bō) on either side."
+    },
+    "tempyo-752": {
+     "note": "Embassies from Silla and Tang processed up it to the palace; in 752 it was also the way of the Indian monk Bodhisena and the Chinese and Korean musicians to court."
+    },
+    "abandoned-900": {
+     "note": "The avenue has become a cart track and field banks; its line survives in the jōri field grid."
+    }
+   },
+   "summary": "The 74 m central avenue of Heijō-kyō, from the Suzakumon to the Rajōmon: a ceremonial way between willows and ward walls rather than a living street.",
+   "details": [
+    "Like Chang'an's Zhuque street, the Suzaku-ōji was built for display: no house opened on it, only the walls of the wards with their gates. Ditches on both sides drained it, and willows and probably locust trees were planted along them by order of the court.",
+    "The miniature shows a 200 m stretch between two cross-avenues: the gravel road, its ditches and willows, and the tiled earth walls of the wards behind. Widths follow excavation; the planting is from the poems and court orders, not from evidence on the ground."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heijo-kyo",
+    "tsuboi-tanaka"
+   ],
+   "built": "710",
+   "function": "Ceremonial avenue",
+   "activity": {
+    "figures": 30,
+    "radius": 200
+   }
+  },
+  {
+   "id": "rajomon",
+   "placeId": "rajomon",
+   "name": "Rajōmon",
+   "category": "military",
+   "position": [
+    1712,
+    5769
+   ],
+   "rotation": 0,
+   "footprint": [
+    42.4,
+    16.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/rajomon.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 40,
+     "depth": 16,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "The city's south gate on the Kujō-ōji, flanked by a short stretch of wall and moat, where travellers and envoys entered the capital."
+    },
+    "tempyo-752": {
+     "note": "Envoys from abroad were greeted here with mounted escorts before riding up the Suzaku-ōji."
+    },
+    "abandoned-900": {
+     "note": "Abandoned with the capital; the gate decayed, and the Saho river later shifted over part of its site."
+    }
+   },
+   "summary": "The great south gate of Heijō-kyō at the foot of the Suzaku-ōji, a two-storey gate about 35 m wide.",
+   "details": [
+    "The Rajōmon (or Raseimon) faced the Shimotsu-michi road and the south of the Nara basin. It was the stage for welcoming embassies and for rites against epidemics at the city's edge. Excavations in the 1970s found its foundations and part of the flanking wall and moat.",
+    "The miniature uses the standard reconstruction of a seven-bay, two-storey gate, larger than the Suzakumon; its exact width and roof are not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-rashomon",
+    "wiki-heijo-kyo",
+    "tsuboi-tanaka"
+   ],
+   "built": "c. 710",
+   "function": "South gate of the capital",
+   "activity": {
+    "figures": 15,
+    "radius": 80
+   }
+  },
+  {
+   "id": "daibutsuden",
+   "placeId": "daibutsuden",
+   "name": "Tōdai-ji Daibutsuden",
+   "category": "temple",
+   "position": [
+    5749,
+    1775
+   ],
+   "rotation": 0,
+   "footprint": [
+    200.8,
+    206.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/daibutsuden.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 200,
+     "depth": 200,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 20.0,
+     "columnHeight": 80.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "Not yet. On the slope of Wakakusa-yama stands only a small mountain temple, Konshō-ji, whose monk Rōben later became Tōdai-ji's first abbot."
+    },
+    "tempyo-752": {
+     "note": "The hall of the Great Buddha, eleven bays and about 86 m wide, finished for the eye-opening in 752; the bronze Buddha inside is some 15 m high, its gilding still unfinished."
+    },
+    "abandoned-900": {
+     "note": "Still the original hall. The Buddha's head fell in the earthquake of 855 and was put back by 861; the court still sends envoys to the temple's great rites."
+    },
+    "edo-1700": {
+     "note": "Burned in 1180 and 1567; for over a century the recast Buddha sat in the open. Kōkei's new hall, only seven bays and 57 m wide but 49 m high, is rising: finished in 1709.",
+     "model": {
+      "glb": "models/nara/daibutsuden-1709.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 200,
+       "depth": 200,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 20.0,
+       "columnHeight": 80.0
+      }
+     }
+    }
+   },
+   "summary": "The Hall of the Great Buddha, built by Emperor Shōmu as the head of all provincial temples: in 752 the largest wooden building in the world, round a 15 m bronze Vairocana.",
+   "details": [
+    "Shōmu's edict of 743 called on the whole country to help make a Buddha 'with one branch of grass or a handful of earth'. Casting took from 747 to 749; the hall, 86 by 50 m and about 47 m high, closed over it by 751. The Taira burned it in 1180; Chōgen rebuilt it by 1195; it burned again in 1567.",
+    "The 752 miniature is a reconstruction from the temple records and the Shigisan engi scrolls: eleven bays, a double roof, a cloistered court with a middle gate. The 1709 hall is the present building, with its cusped karahafu gable over the front; both are simplified, the Buddha is not shown."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino",
+    "coaldrake",
+    "piggott"
+   ],
+   "built": "747–751; rebuilt 1195 and 1691–1709",
+   "function": "Main hall of Tōdai-ji, housing the Great Buddha (Rushana-butsu)",
+   "activity": {
+    "figures": 60,
+    "radius": 220
+   }
+  },
+  {
+   "id": "todaiji-west-pagoda",
+   "placeId": "todaiji-west-pagoda",
+   "name": "Tōdai-ji West Pagoda",
+   "category": "temple",
+   "position": [
+    5456,
+    2086
+   ],
+   "rotation": 0,
+   "footprint": [
+    93.0,
+    93.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/todaiji-pagoda.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 90,
+     "depth": 90,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 9.0,
+     "columnHeight": 36.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "One of the twin seven-storey pagodas south of the Great Buddha hall, each in its own cloistered court; it was rising in the years round the eye-opening."
+    },
+    "abandoned-900": {
+     "note": "Still standing, as it would until lightning set it on fire in 934; it was never rebuilt."
+    },
+    "edo-1700": {
+     "note": "Gone. Only the earthen platform with its foundation stones remains in the trees south-west of the Daibutsuden."
+    }
+   },
+   "summary": "The western of Tōdai-ji's twin seven-storey pagodas, by the usual estimates between 70 and 100 m high: the tallest structures in Japan of their age.",
+   "details": [
+    "Each pagoda stood in a walled court about 100 m square with a gate on each side. Temple records give a height of about 100 m including the bronze finial; many scholars think 70 m more likely. The West Pagoda burned in 934.",
+    "The miniature gives Japanese proportions: low storeys under very wide eaves, a tall bronze sōrin. Height (about 85 m here), colours and the court's layout are reconstruction from the excavated platform and from Yakushi-ji's east pagoda."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino",
+    "parent"
+   ],
+   "built": "c. 750–760s",
+   "function": "Pagoda housing relics",
+   "activity": {
+    "figures": 10,
+    "radius": 80
+   }
+  },
+  {
+   "id": "todaiji-east-pagoda",
+   "placeId": "todaiji-east-pagoda",
+   "name": "Tōdai-ji East Pagoda",
+   "category": "temple",
+   "position": [
+    6042,
+    2086
+   ],
+   "rotation": 0,
+   "footprint": [
+    93.0,
+    93.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/todaiji-pagoda.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 90,
+     "depth": 90,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 9.0,
+     "columnHeight": 36.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Under construction or newly finished; the usual date for its completion is 764. With its twin it framed the approach to the Great Buddha."
+    },
+    "abandoned-900": {
+     "note": "Standing; it would burn in the Taira attack of 1180, be rebuilt in 1227 and burn again, struck by lightning, in 1362."
+    },
+    "edo-1700": {
+     "note": "Gone since 1362: a grassy mound with foundation stones east of the Kagami pond."
+    }
+   },
+   "summary": "The eastern of Tōdai-ji's twin seven-storey pagodas, about 70–100 m high, which outlived its twin by four centuries.",
+   "details": [
+    "The East Pagoda burned with the rest of Tōdai-ji in 1180 and was rebuilt under Chōgen's successors in 1227, only to be destroyed by lightning in 1362. Excavations since 2015 have found its platform, about 27 m square, and the sockets of its pillars.",
+    "The miniature is the same reconstruction as the West Pagoda: seven storeys, red columns and white walls, grey tile, a bronze finial with nine rings."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino",
+    "parent"
+   ],
+   "built": "c. 764; rebuilt 1227",
+   "function": "Pagoda housing relics",
+   "activity": {
+    "figures": 10,
+    "radius": 80
+   }
+  },
+  {
+   "id": "nandaimon",
+   "placeId": "todaiji-nandaimon",
+   "name": "Tōdai-ji Nandaimon",
+   "category": "temple",
+   "position": [
+    5749,
+    2241
+   ],
+   "rotation": 0,
+   "footprint": [
+    41.4,
+    23.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/nandaimon.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 36,
+     "depth": 16,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 1.6,
+     "columnHeight": 6.4
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "The first Great South Gate, a two-storey gate in the Nara style at the foot of the approach to the Buddha hall.",
+     "model": {
+      "glb": "models/nara/nandaimon-752.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 36,
+       "depth": 16,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 1.6,
+       "columnHeight": 6.4
+      }
+     }
+    },
+    "abandoned-900": {
+     "note": "The Nara-period gate still stands; a typhoon will bring it down in 962.",
+     "model": {
+      "glb": "models/nara/nandaimon-752.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 36,
+       "depth": 16,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 1.6,
+       "columnHeight": 6.4
+      }
+     }
+    },
+    "edo-1700": {
+     "note": "Chōgen's gate of 1199 in the 'Great Buddha style': eighteen pillars rising 21 m in one piece, six tiers of brackets plugged into them, and Unkei and Kaikei's 8.4 m guardian kings (1203)."
+    }
+   },
+   "summary": "The great south gate of Tōdai-ji: in its 1199 form, 29 m wide and 25 m high, the largest temple gate in Japan, guarded by the two Niō of Unkei and Kaikei.",
+   "details": [
+    "The monk Chōgen rebuilt Tōdai-ji after 1180 with a style learned from Song China (daibutsuyō): long round pillars running through both storeys, tiers of bracket arms inserted straight into them, no ceilings. The gate survived the 1567 fire and stands today.",
+    "The 752 miniature is a conjectural Nara-style gate of the same width; the 1199 one simplifies the bracket tiers into bands but keeps the gate's tall open frame and double roof."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-todaiji",
+    "coaldrake",
+    "mino"
+   ],
+   "built": "8th century; rebuilt 1199",
+   "function": "Main south gate of Tōdai-ji",
+   "activity": {
+    "figures": 20,
+    "radius": 70
+   }
+  },
+  {
+   "id": "shosoin",
+   "placeId": "shosoin",
+   "name": "Shōsōin",
+   "category": "temple",
+   "position": [
+    5703,
+    1387
+   ],
+   "rotation": 270,
+   "footprint": [
+    60.0,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/shosoin.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 60,
+     "depth": 30,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.0,
+     "columnHeight": 12.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Raised after 756, when Empress Kōmyō gave Shōmu's belongings to the Great Buddha on the 49th day after his death: some 600 objects, from swords and a five-stringed lute to Persian glass."
+    },
+    "abandoned-900": {
+     "note": "Sealed by imperial order; opening a door needs an envoy from the court. In 950 the treasures of another Tōdai-ji storehouse were moved in."
+    },
+    "edo-1700": {
+     "note": "Still sealed; the shoguns had it opened for inspection and repair, and the doors were resealed with the emperor's seal."
+    }
+   },
+   "summary": "The log-built treasure house of Tōdai-ji, 33 m long and 14 m high, raised on forty cypress pillars, which has kept the belongings of an 8th-century emperor for 1,250 years.",
+   "details": [
+    "The Shōsōin is built in azekura style: its north and south rooms are walls of triangular cypress logs laid crosswise, joined at the corners, with a board-walled room between. It stands about 2.7 m off the ground. Its contents include objects from Tang China, Persia and Central Asia that came along the Silk Road.",
+    "The miniature shows the storehouse as it stands, with its hipped tile roof and the low fence round it; the log courses are shown as bands."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shosoin",
+    "mino"
+   ],
+   "built": "c. 756–760",
+   "function": "Imperial treasure house of Tōdai-ji",
+   "activity": {
+    "figures": 6,
+    "radius": 50
+   }
+  },
+  {
+   "id": "hokkedo",
+   "placeId": "hokkedo",
+   "name": "Hokke-dō (Sangatsu-dō)",
+   "category": "temple",
+   "position": [
+    6152,
+    1808
+   ],
+   "rotation": 0,
+   "footprint": [
+    36.7,
+    36.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/hokkedo.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 36,
+     "depth": 36,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.6,
+     "columnHeight": 14.4
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Already standing when work on the Great Buddha began: the hall of the Kenjaku Kannon, built in the 740s, with a separate worship hall in front.",
+     "model": {
+      "glb": "models/nara/hokkedo-752.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 36,
+       "depth": 36,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 3.6,
+       "columnHeight": 14.4
+      }
+     }
+    },
+    "abandoned-900": {
+     "note": "The 'Lotus Hall', where the Lotus Sutra is expounded in the third month, which gives it its other name, Sangatsu-dō.",
+     "model": {
+      "glb": "models/nara/hokkedo-752.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 36,
+       "depth": 36,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 3.6,
+       "columnHeight": 14.4
+      }
+     }
+    },
+    "edo-1700": {
+     "note": "Since 1199 the worship hall has been rebuilt in Kamakura style and joined to the old hall under one roof, its two roof forms meeting at the side."
+    }
+   },
+   "summary": "The oldest building of Tōdai-ji, a Nara-period hall of the 740s on the hillside, home of the dry-lacquer Fukūkenjaku Kannon.",
+   "details": [
+    "Built probably as the main hall of Konshu-ji, the hill temple that grew into Tōdai-ji, it survived both great fires. Its image hall is Tenpyō work; the worship hall was rebuilt and joined to it in 1199 by Chōgen's workshop, so that one building shows two ages.",
+    "The miniature shows the hall with its hipped Nara-period roof behind the gabled-hip worship hall; the 752 version separates them, as the usual reconstruction of the narabidō arrangement does."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino"
+   ],
+   "built": "740s; worship hall 1199",
+   "function": "Hall of Fukūkenjaku Kannon",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "nigatsudo",
+   "placeId": "nigatsudo",
+   "name": "Nigatsu-dō",
+   "category": "temple",
+   "position": [
+    6189,
+    1664
+   ],
+   "rotation": 90,
+   "footprint": [
+    50.1,
+    42.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/nigatsudo.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 50,
+     "depth": 40,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 4.0,
+     "columnHeight": 16.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Founded by the monk Jitchū, who held the first Shuni-e here in 752: two weeks of repentance before the Eleven-Headed Kannon in the second month."
+    },
+    "abandoned-900": {
+     "note": "The rite has been held every year; on the twelfth night water is drawn from the Wakasa well below the hall."
+    },
+    "edo-1700": {
+     "note": "Rebuilt in 1669 after the hall burned in 1667, set alight by the torches of the rite itself. The new hall's stage faces west over the city."
+    }
+   },
+   "summary": "The 'Hall of the Second Month' on the slope above Tōdai-ji, raised on a timber stage, where the Omizutori fire-and-water rite has been held every year since 752.",
+   "details": [
+    "The hall is built half into the hillside, with a deep stage on pillars on its west side. During the Shuni-e, monks run along the gallery swinging great pine torches, showering sparks on the crowd below; on the twelfth night water is drawn from the Wakasa well, said to flow underground from Wakasa province.",
+    "The miniature shows the 1669 hall: a hip-and-gable roof over a deep stage and gallery, the covered stair coming up from the south, the slope modelled as a stepped platform. Earlier halls were probably smaller."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-todaiji",
+    "wiki-omizutori",
+    "mino"
+   ],
+   "built": "752; rebuilt 1669",
+   "function": "Hall of the Eleven-Headed Kannon; seat of the Shuni-e",
+   "activity": {
+    "figures": 20,
+    "radius": 60
+   }
+  },
+  {
+   "id": "kofukuji",
+   "placeId": "kofukuji",
+   "name": "Kōfuku-ji",
+   "category": "temple",
+   "position": [
+    4971,
+    2408
+   ],
+   "rotation": 0,
+   "footprint": [
+    300.0,
+    220.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/kofukuji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 300,
+     "depth": 220,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 22.0,
+     "columnHeight": 88.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "New: Fujiwara no Fuhito moved his clan temple here in 710 and built the Central Golden Hall on the rise above the Gekyō. The Northern Octagonal Hall goes up in 721, after his death.",
+     "model": {
+      "glb": "models/nara/kofukuji-720.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 300,
+       "depth": 220,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 22.0,
+       "columnHeight": 88.0
+      }
+     }
+    },
+    "tempyo-752": {
+     "note": "Grown into a great state temple: the Central, Eastern (726) and Western (734) Golden Halls, the five-storey pagoda given by Empress Kōmyō in 730 and the Northern Octagonal Hall."
+    },
+    "abandoned-900": {
+     "note": "The Southern Octagonal Hall (813) has joined the Northern one. Kōfuku-ji is now the real lord of Nara, with the Kasuga shrine under its control.",
+     "model": {
+      "glb": "models/nara/kofukuji-900.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 300,
+       "depth": 220,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 22.0,
+       "columnHeight": 88.0
+      }
+     }
+    },
+    "edo-1700": {
+     "note": "Rebuilt after the fire of 1180 and others: the five-storey pagoda of 1426, the Eastern Golden Hall of 1415 and the octagonal halls. The great fire of 1717 is still to come.",
+     "model": {
+      "glb": "models/nara/kofukuji-900.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 300,
+       "depth": 220,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 22.0,
+       "columnHeight": 88.0
+      }
+     }
+    }
+   },
+   "summary": "The clan temple of the Fujiwara, the most powerful family of the court, on the rise above Sarusawa pond: golden halls, octagonal halls and a 50 m five-storey pagoda.",
+   "details": [
+    "Founded in 669 at Yamashina, moved to Asuka and then in 710 to Heijō by Fuhito. Its halls were raised by emperors and empresses of Fujiwara blood. After the court left it ruled Yamato with its own warrior monks; the Taira burned it in 1180, and it was rebuilt within decades.",
+    "The miniature shows the core of the precinct: the Central Golden Hall in its cloister, the Eastern Golden Hall with the pagoda before it, the Western Golden Hall and the octagonal halls. Positions follow excavation; the 1426 pagoda stands in for its predecessors."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kofukuji",
+    "coaldrake",
+    "tsuboi-tanaka"
+   ],
+   "built": "710 onward; pagoda 730, rebuilt 1426",
+   "function": "Clan temple of the Fujiwara; head of the Hossō school",
+   "activity": {
+    "figures": 40,
+    "radius": 200
+   }
+  },
+  {
+   "id": "sarusawa",
+   "placeId": "sarusawa-ike",
+   "name": "Sarusawa-ike",
+   "category": "monument",
+   "position": [
+    4998,
+    2641
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    83.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/sarusawa.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 80,
+     "height": 32.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "Not yet: a hollow below the Kōfuku-ji terrace."
+    },
+    "tempyo-752": {
+     "note": "Newly dug (749) for the hōjō-e, the rite of setting captive fish and birds free to earn merit."
+    },
+    "abandoned-900": {
+     "note": "A legend tells of a court lady (uneme) who drowned herself here; the small Uneme shrine on its bank turns its back on the pond."
+    },
+    "edo-1700": {
+     "note": "One of the eight views of Nara: the pagoda of Kōfuku-ji reflected in the water, willows, and pilgrims buying food for the carp."
+    }
+   },
+   "summary": "The pond below Kōfuku-ji, dug in 749 for the release of living creatures, where the five-storey pagoda is mirrored in the water.",
+   "details": [
+    "About 360 m round, it was fed by springs and rainwater and never had an inlet or outlet, the guidebooks say, yet it never overflowed or dried up. The 'Eight Views of Nara' (Nanto hakkei) made the moon over Sarusawa one of them.",
+    "The miniature shows the pond, its stone and earth banks, the willows and the small Uneme shrine."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sarusawa",
+    "yamato-meisho"
+   ],
+   "built": "749",
+   "function": "Pond for the hōjō-e rite",
+   "activity": {
+    "figures": 15,
+    "radius": 80
+   }
+  },
+  {
+   "id": "gangoji",
+   "placeId": "gangoji",
+   "name": "Gangō-ji",
+   "category": "temple",
+   "position": [
+    5017,
+    3084
+   ],
+   "rotation": 0,
+   "footprint": [
+    200.0,
+    200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/gangoji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 200,
+     "depth": 200,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 20.0,
+     "columnHeight": 80.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "Being moved from Asuka (from 718), where as Asuka-dera it had been Japan's first full Buddhist temple; old tiles are brought along and laid again on the new roofs."
+    },
+    "tempyo-752": {
+     "note": "One of the seven great temples of Nara: golden hall, lecture hall, a five-storey pagoda in its own court and the long monks' quarters."
+    },
+    "abandoned-900": {
+     "note": "Declining with the court's favour; its estates shrink and its scholars move to Kōfuku-ji and Tōdai-ji."
+    },
+    "edo-1700": {
+     "note": "Its courts have become the town of Naramachi. What remains: the Gokurakubō, the old monks' quarters turned into a hall, and the five-storey pagoda, which burned in 1859.",
+     "model": {
+      "glb": "models/nara/gangoji-1700.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 200,
+       "depth": 200,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 20.0,
+       "columnHeight": 80.0
+      }
+     }
+    }
+   },
+   "summary": "The successor of Asuka-dera, Japan's first great temple (588), moved to the Gekyō in 718; its precinct later became the merchant town of Naramachi.",
+   "details": [
+    "Gangō-ji brought its name and some of its tiles from Asuka: the roof of the Gokurakubō still has tiles made in the late 6th century, the oldest in use anywhere in Japan. Its pagoda, said to be about 50 m high, stood until 1859.",
+    "The 752 miniature shows the core of the precinct with the pagoda court on the east; the 1700 model the pagoda, the Gokurakubō and the town houses that filled the rest. The early layout is reconstruction from excavation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-gangoji",
+    "tsuboi-tanaka"
+   ],
+   "built": "718 onward",
+   "function": "One of the seven great temples of Nara",
+   "activity": {
+    "figures": 25,
+    "radius": 150
+   }
+  },
+  {
+   "id": "kasuga-taisha",
+   "placeId": "kasuga-taisha",
+   "name": "Kasuga Taisha",
+   "category": "religious",
+   "position": [
+    6500,
+    2641
+   ],
+   "rotation": 0,
+   "footprint": [
+    130.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/kasuga-taisha.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 110,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Not yet a shrine with buildings: Mikasa-yama above is already sacred, and the Fujiwara worship their gods here in the open. The shrine is founded in 768."
+    },
+    "abandoned-900": {
+     "note": "The four gods of the Fujiwara live in four small vermilion sanctuaries behind a roofed corridor; the shrine is rebuilt every twenty years."
+    },
+    "edo-1700": {
+     "note": "Some 2,000 stone lanterns line the approach and a thousand bronze ones hang in the corridors, given by pilgrims and lords and lit on festival nights."
+    }
+   },
+   "summary": "The shrine of the Fujiwara's four gods at the foot of Mikasa-yama, founded in 768: vermilion halls and corridors, and thousands of lanterns.",
+   "details": [
+    "The legend says the god Takemikazuchi came from Kashima riding a white deer, which is why Nara's deer are sacred. The four main halls are small kasuga-zukuri sanctuaries with sweeping gabled roofs facing south in a row; the Wakamiya shrine (1135) and its December festival were added later.",
+    "The miniature shows the inner precinct: the vermilion corridor and its south gate, the four sanctuaries behind their fence, the worship halls and rows of stone lanterns on the approach. The plan is the present one, rebuilt on the old lines."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kasuga",
+    "grapard"
+   ],
+   "built": "768; periodically rebuilt",
+   "function": "Shrine of the Fujiwara clan gods",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "yakushiji",
+   "placeId": "yakushiji",
+   "name": "Yakushi-ji",
+   "category": "temple",
+   "position": [
+    677,
+    4027
+   ],
+   "rotation": 0,
+   "footprint": [
+    190.0,
+    180.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/yakushiji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 190,
+     "depth": 180,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 18.0,
+     "columnHeight": 72.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "Under construction: moved from Fujiwara-kyō from 718, its golden hall rising inside the cloister; the pagodas will follow.",
+     "model": {
+      "glb": "models/nara/yakushiji-720.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 190,
+       "depth": 180,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 18.0,
+       "columnHeight": 72.0
+      }
+     }
+    },
+    "tempyo-752": {
+     "note": "Complete: the golden hall with the bronze Yakushi triad, and twin three-storey pagodas whose skirt roofs make them look six storeys high. The east pagoda dates from 730."
+    },
+    "abandoned-900": {
+     "note": "Still complete, in the half-empty western wards; the court sends envoys to its spring rites."
+    },
+    "edo-1700": {
+     "note": "The golden hall and west pagoda burned in a war of 1528. The east pagoda stands alone beside a modest temporary golden hall.",
+     "model": {
+      "glb": "models/nara/yakushiji-1700.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 190,
+       "depth": 180,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 18.0,
+       "columnHeight": 72.0
+      }
+     }
+    }
+   },
+   "summary": "The temple vowed by Emperor Tenmu in 680 and moved to Heijō: famous for its east pagoda, three storeys with skirt roofs (mokoshi) between, the 'frozen music'.",
+   "details": [
+    "Yakushi-ji was the first temple in Japan to have two pagodas in front of the golden hall. Its east pagoda, 34 m high, survives from 730; the west pagoda and golden hall were rebuilt in 1976–81 on the excavated foundations.",
+    "The miniature shows the cloistered court with the golden hall and the two pagodas, each with alternating large and small roofs; the colours, vermilion with green-glazed details, follow the modern reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-yakushiji",
+    "parent",
+    "coaldrake"
+   ],
+   "built": "718–730",
+   "function": "Temple of the Healing Buddha (Yakushi Nyorai)",
+   "activity": {
+    "figures": 25,
+    "radius": 150
+   }
+  },
+  {
+   "id": "daianji",
+   "placeId": "daianji",
+   "name": "Daian-ji",
+   "category": "temple",
+   "position": [
+    2536,
+    3384
+   ],
+   "rotation": 0,
+   "footprint": [
+    180.0,
+    200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/daianji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 180,
+     "depth": 200,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 18.0,
+     "columnHeight": 72.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "Moved from Fujiwara-kyō in 716 as the 'great state temple'; the monk Dōji, back from Chang'an, will rebuild it on the model of the Ximing-si from 729."
+    },
+    "tempyo-752": {
+     "note": "The great official temple of the capital: golden hall, lecture hall, and two seven-storey pagodas in their own court to the south."
+    },
+    "abandoned-900": {
+     "note": "Still a great temple, one of Nara's seven; its pagodas will later be lost to fire and storm."
+    },
+    "edo-1700": {
+     "note": "A small temple in the fields: a few halls on the site of the old precinct, its pagoda platforms grassed over.",
+     "model": {
+      "glb": "models/nara/daianji-1700.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 180,
+       "depth": 200,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 18.0,
+       "columnHeight": 72.0
+      }
+     }
+    }
+   },
+   "summary": "The 'Temple of Great Peace', the state's own temple, descendant of Kudara-dai-ji and Daikandai-ji, rebuilt in Heijō on a Chang'an model.",
+   "details": [
+    "Daian-ji was the court's official temple and a centre of learning; the Indian monk Bodhisena lived here. Its precinct is said to have covered 15 chō, with the twin pagodas south of the main court. Fires and the move of the capital left it a small temple by the Edo period.",
+    "The miniature shows the main court, with the golden hall in its cloister and the lecture hall behind; the pagoda court is outside the model. The plan is reconstruction from excavation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-daianji",
+    "tsuboi-tanaka"
+   ],
+   "built": "716–740s",
+   "function": "Great state temple",
+   "activity": {
+    "figures": 20,
+    "radius": 150
+   }
+  },
+  {
+   "id": "toshodaiji",
+   "placeId": "toshodaiji",
+   "name": "Tōshōdai-ji Kondō",
+   "category": "temple",
+   "position": [
+    723,
+    3251
+   ],
+   "rotation": 0,
+   "footprint": [
+    150.0,
+    152.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/toshodaiji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 150,
+     "depth": 150,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 15.0,
+     "columnHeight": 60.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Not yet: the estate of Prince Niitabe. In 759 it will be given to the blind Chinese master Ganjin, who arrived in 754, for a temple of the monastic rules."
+    },
+    "abandoned-900": {
+     "note": "The golden hall of the late 8th century, with its open front aisle of eight columns, and behind it a lecture hall that was once a palace assembly hall."
+    },
+    "edo-1700": {
+     "note": "Little changed: the Kondō, Kōdō, ordination platform and drum tower. The Kondō was repaired in the 1690s, when its roof was raised."
+    }
+   },
+   "summary": "The temple of the monk Ganjin (Jianzhen), founded 759: its golden hall, with a deep open front aisle and a sweeping hipped roof, is the finest surviving Nara-period hall.",
+   "details": [
+    "Ganjin set out from Yangzhou six times in twelve years and lost his sight before he reached Japan in 753–754. The Kondō was finished after his death, in the 780s by tree-ring dating; the Kōdō was the Chōshūden of the Heijō palace, moved here in the 760s.",
+    "The miniature shows the Kondō with its seven-bay open porch and ridge-end ornaments (shibi), and the Kōdō behind. The roof is shown lower than today's, which was raised in the 1690s repairs."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-toshodaiji",
+    "coaldrake",
+    "parent"
+   ],
+   "built": "759; Kondō c. 780",
+   "function": "Temple of the Ritsu (vinaya) school",
+   "activity": {
+    "figures": 15,
+    "radius": 110
+   }
+  },
+  {
+   "id": "saidaiji",
+   "placeId": "saidaiji",
+   "name": "Saidai-ji",
+   "category": "temple",
+   "position": [
+    366,
+    1276
+   ],
+   "rotation": 0,
+   "footprint": [
+    180.0,
+    131.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/saidaiji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 180,
+     "depth": 130,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 13.0,
+     "columnHeight": 52.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Not yet: wards and fields. Empress Shōtoku will vow the 'Great Western Temple' in 764 against Fujiwara no Nakamaro's rebellion and found it in 765."
+    },
+    "abandoned-900": {
+     "note": "Half-ruined: storms and fires have taken many of its halls, and it has lost its estates. Two pagodas, planned as octagons, were built square."
+    },
+    "edo-1700": {
+     "note": "Revived in the 13th century by the monk Eison; its 'great tea gathering', with a giant tea bowl, began in 1239. A modest group of halls round the main hall."
+    }
+   },
+   "summary": "The 'Great Western Temple', founded 765 by Empress Shōtoku as the counterpart of Tōdai-ji, and revived in the 13th century by the reformer Eison.",
+   "details": [
+    "At its height Saidai-ji is said to have covered 31 chō with over a hundred buildings. It declined after the capital moved and was refounded by Eison (1201–90), who preached to outcasts and built bridges; the great tea ceremony with its huge bowl is still held.",
+    "The miniature shows the later temple: the main hall, the Shiōdō, the bell tower and the old east pagoda platform. The Nara-period layout was much larger and is only partly known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-saidaiji",
+    "tsuboi-tanaka"
+   ],
+   "built": "765; revived 13th century",
+   "function": "Great state temple; later a Shingon-Ritsu temple",
+   "activity": {
+    "figures": 15,
+    "radius": 120
+   }
+  },
+  {
+   "id": "higashi-ichi",
+   "placeId": "higashi-ichi",
+   "name": "Higashi-ichi (the East Market)",
+   "category": "commercial",
+   "position": [
+    3021,
+    4948
+   ],
+   "rotation": 0,
+   "footprint": [
+    220.0,
+    220.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/nara/market.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 220,
+      "depth": 220
+     },
+     "buildings": [
+      {
+       "offset": [
+        -55.0,
+        -55.0
+       ],
+       "width": 66.0,
+       "depth": 66.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        55.0,
+        44.0
+       ],
+       "width": 66.0,
+       "depth": 66.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "variants": {
+    "heijo-720": {
+     "note": "The official market of the left capital, run by a market office that checked weights and measures and set prices; trade from noon to sunset."
+    },
+    "tempyo-752": {
+     "note": "Busy with the Tōdai-ji works: rice, salt, cloth, iron tools; the coin Wadō kaichin, minted from 708, is used beside rice and cloth."
+    },
+    "abandoned-900": {
+     "note": "Gone with the capital; its block is paddy, crossed by the Saho."
+    }
+   },
+   "summary": "The East Market of Heijō-kyō: a walled block of stalls and storehouses in Sakyō 8-jō 3-bō, beside a canal from the Saho.",
+   "details": [
+    "Each of the two markets filled a whole ward block, about 250 m square, with rows of stalls arranged by goods, storehouses, a market office and a canal landing. Mokkan and records from the Shōsōin show officials buying here for the Tōdai-ji works.",
+    "The miniature shows the walled block with its gates, rows of board-roofed stalls, the market office and the landing; the layout is reconstruction from the Chang'an markets and the codes."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-heijo-kyo",
+    "tsuboi-tanaka",
+    "farris-sacred"
+   ],
+   "built": "710",
+   "function": "Official market",
+   "activity": {
+    "figures": 60,
+    "radius": 150
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "nagaya-mansion",
+   "name": "Mansion of Prince Nagaya",
+   "kind": "house",
+   "position": [
+    2499,
+    2274
+   ],
+   "activePeriods": [
+    "heijo-720"
+   ],
+   "summary": "The four-chō estate of Prince Nagaya, grandson of Emperor Tenmu and head of the government in the 720s, just south-east of the palace. Some 35,000 wooden tags were found in a ditch here in 1986–89.",
+   "details": [
+    "The mokkan show a household of hundreds: stewards, scribes, carpenters, smiths, a keeper of cranes, dog handlers, a doctor, nuns and musicians. Ice was carried in summer from the prince's ice-house in the hills, and his estates sent rice, vegetables and a dairy product called so. Accused of sorcery, Nagaya was forced to kill himself in 729."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nagaya",
+    "wiki-mokkan",
+    "farris-sacred"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The gate opens onto Nijō. A steward checks in carts of rice from the estates, writing each load on a fresh slip of cypress; a boy carries the morning's milk to the kitchen."
+    },
+    {
+     "hour": 13,
+     "text": "In the hot afternoon an ice-carrier arrives from the hills, his load packed in straw and dripping. In the main hall the prince's guests compose Chinese poems over wine."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps in the long halls. In the yard a dog-keeper feeds the hounds their ration of rice, which a clerk has duly recorded on a tag."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shikibu-scribe",
+   "name": "Scribe of the Ministry of Ceremonial",
+   "kind": "civic",
+   "position": [
+    2142,
+    1886
+   ],
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "summary": "An office in the south-east of the palace, where the Shikibushō kept the records of officials' ranks, merit ratings and examinations, on paper and on thousands of wooden tablets (mokkan).",
+   "details": [
+    "Paper was costly, so daily business went on slips of wood: requisitions, passes, labels, practice writing. A scribe shaved off the used surface with his knife and wrote again; the shavings went into pits, where archaeologists find them by the tens of thousands. Officials' yearly ratings were written on tags with holes, threaded and shuffled as men were promoted."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mokkan",
+    "nabunken",
+    "farris-sacred"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Officials must be at their posts by dawn. A clerk grinds ink on his stone, lays out a stack of fresh cypress slips and his little knife, and waits for the drum."
+    },
+    {
+     "hour": 11,
+     "text": "A junior official's merit rating is copied onto a tag and threaded on a cord with hundreds of others. On the back of an old slip someone practises characters from the Analects."
+    },
+    {
+     "hour": 15,
+     "text": "Work ends at midday or soon after for most. The scribe sweeps the curls of wood shaved from his slips into the rubbish pit, where they will lie for 1,200 years."
+    }
+   ],
+   "variants": {
+    "tempyo-752": {
+     "note": "Back at work after the capital's wanderings of 740–745; the ministries are rebuilt in the palace's south-east."
+    }
+   }
+  },
+  {
+   "id": "palace-kitchen",
+   "name": "Kitchens of the Office of the Palace Table",
+   "kind": "works",
+   "position": [
+    1968,
+    1054
+   ],
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "summary": "The Daizenshiki prepared meals for court rites and banquets from tribute sent from every province, each package tagged with its origin: salt, dried bonito, sea bream, abalone, seaweed.",
+   "details": [
+    "Tribute tags (nifuda) found in the palace name the province, district, village and taxpayer: salt from Wakasa, bonito from Suruga and Izu, sea bream from Kii, abalone from Shima. Officials ate rice, fish, vegetables and seaweed in lacquered or earthenware bowls; the palace also had wells, storehouses and stoves. The office's exact site is debated; this marker is approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mokkan",
+    "nabunken",
+    "farris-sacred"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Smoke from the stoves before light. Cooks wash rice at the well; a bundle of dried bonito from Izu, its tag still tied on, is cut into thin flakes."
+    },
+    {
+     "hour": 12,
+     "text": "Trays of rice, salted fish and boiled greens go out to the officials' halls. A clerk checks a barrel of salt against the slip that came with it from Wakasa."
+    },
+    {
+     "hour": 19,
+     "text": "A banquet in the palace tonight. Abalone, sea bream and sake are carried out in procession under torchlight."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tile-kiln",
+   "name": "Tile kilns of Nara-yama",
+   "kind": "works",
+   "position": [
+    1739,
+    333
+   ],
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "summary": "Kilns dug into the hills north of the palace that fired the millions of grey roof tiles for the palace and the temples.",
+   "details": [
+    "A single great hall needed tens of thousands of tiles. Tile-makers pressed clay into wooden moulds, stamped the round eave-end tiles with lotus or arabesque patterns and fired them in kilns cut into the slope. Excavated kilns north of the palace show several types, including kilns with a grate floor. Changes in the eave-tile patterns now help archaeologists date the buildings."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "nabunken",
+    "tsuboi-tanaka"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Clay is trodden in a pit by bare feet. A worker slaps it into a wooden mould on a turning drum to make a cylinder that will be cut into four curved tiles."
+    },
+    {
+     "hour": 13,
+     "text": "Rows of unfired tiles dry in the shade of sheds. A boy presses a lotus stamp into each round eave-end, the pattern of this year's work for the palace."
+    },
+    {
+     "hour": 21,
+     "text": "The kiln has been fired for two days. Men feed pine into the mouth while the smoke turns from white to blue; the glow lights the hillside."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "nishi-ichi",
+   "name": "Nishi-ichi (the West Market)",
+   "kind": "market",
+   "position": [
+    842,
+    4948
+   ],
+   "activePeriods": [
+    "heijo-720",
+    "tempyo-752"
+   ],
+   "summary": "The market of the right capital in Ukyō 8-jō 2-bō, beside the Akishino canal, the twin of the East Market and open from noon to sunset under the eye of a market office.",
+   "details": [
+    "The codes required every stall to show the name of its goods and set three grades of price, checked by the market office every ten days. Shōsōin papers show temple buyers here and in the East Market purchasing cloth, rice, oil and vegetables. Executions were also carried out at the markets, in front of the crowd."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heijo-kyo",
+    "tsuboi-tanaka",
+    "farris-sacred"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Barges are poled up the canal with rice and timber. The market office opens its storehouse of standard weights and measures."
+    },
+    {
+     "hour": 13,
+     "text": "The noon drum. Under board roofs, rows of stalls: hemp cloth, salt in straw bags, iron sickles, dyed silk. A temple steward haggles over lamp oil."
+    },
+    {
+     "hour": 18,
+     "text": "The closing drum at sunset. Traders pack up; the gates are shut and the market guard walks the empty rows."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "daibutsu-foundry",
+   "name": "The Great Buddha foundry",
+   "kind": "workshop",
+   "position": [
+    5511,
+    1797
+   ],
+   "activePeriods": [
+    "tempyo-752"
+   ],
+   "summary": "The workshops of the Office for Building Tōdai-ji, west of the hall, where the Buddha was cast in eight lifts between 747 and 749 under the master Kuninaka no Kimimaro.",
+   "details": [
+    "The Buddha was cast in place round a clay core, ring by ring, from furnaces built on rising earth mounds. Some 500 tonnes of copper came largely from the Naganobori mine in Nagato, far to the west, as excavated slag and lead isotopes confirm; gold from Mutsu, found in 749, was laid on with mercury. Slag, moulds and charcoal have been found west of the hall."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Copper ingots from Nagato are stacked by the furnaces. Bellows-men stand at the foot-bellows; the master checks the clay mould by the light of the sunrise."
+    },
+    {
+     "hour": 12,
+     "text": "A pour: dozens of furnaces on the earth mound are tapped at once, and the bronze runs down channels into the mould with a roar and a stink of sulphur."
+    },
+    {
+     "hour": 19,
+     "text": "The workers, many of them labour conscripts from the provinces, eat rice gruel by the fires. Mercury fumes from the gilding make some of them sick."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shakyosho",
+   "name": "Sutra-copying office",
+   "kind": "school",
+   "position": [
+    5127,
+    1609
+   ],
+   "activePeriods": [
+    "tempyo-752"
+   ],
+   "summary": "The office of the Tōdai-ji works where dozens of copyists, proofreaders and binders copied the Buddhist canon; its paperwork survives in the Shōsōin.",
+   "details": [
+    "Copyists were paid by the sheet, fined for each error and fed rice, vegetables and seaweed. Their petitions survive on the backs of reused papers: for new work clothes, for more food, for sake to cure the chest pains of men who sat bent over desks all day. The office's site is not known; the marker is placed near the temple's west gate."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shosoin",
+    "farris-sacred",
+    "mino"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Forty copyists kneel at low desks, each with a roll of hemp paper ruled in columns of seventeen characters, a brush, an inkstone and a bowl of water."
+    },
+    {
+     "hour": 13,
+     "text": "A proofreader marks a missing character; the copyist will lose part of his pay. A clerk drafts a petition asking that the men be given sake every few days."
+    },
+    {
+     "hour": 18,
+     "text": "The rolls are counted and stacked. The copyists, stiff from kneeling, go to the bath-house the office has been asked to provide."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "oribe",
+   "name": "Weavers of the palace workshops",
+   "kind": "workshop",
+   "position": [
+    2975,
+    2330
+   ],
+   "activePeriods": [
+    "tempyo-752"
+   ],
+   "summary": "The looms of the Weaving Office (Oribe-no-tsukasa), where hereditary weaving households made brocade, twill and gauze for the court and the temples.",
+   "details": [
+    "Ordinary silk came in as tax from the provinces; the patterned cloths of the court, brocade (nishiki) and figured twill (aya), were woven by specialist households under the Weaving Office, many of continental descent. Shōsōin textiles show Persian and Tang designs copied on these looms. The office's site in the capital is not known; the marker is placed in the wards near the palace."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-shosoin",
+    "mino"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A drawloom the height of two men: a boy on top lifts the pattern threads as the weaver below throws the shuttle. A brocade of lions and palm trees grows by a finger a day."
+    },
+    {
+     "hour": 13,
+     "text": "Dyers bring hanks of silk coloured with madder, gromwell and indigo. An official counts the bolts due for the eye-opening ceremony."
+    },
+    {
+     "hour": 18,
+     "text": "The looms are covered against the evening damp. Weavers walk home to their quarter, their hands stained purple."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "hokkeji-bath",
+   "name": "Bath-house of Hokke-ji",
+   "kind": "bath",
+   "position": [
+    2884,
+    1276
+   ],
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "summary": "The steam bath of Hokke-ji, the nunnery Empress Kōmyō founded in 745 on her father Fuhito's estate, where she is said to have vowed to wash a thousand people with her own hands.",
+   "details": [
+    "The legend says the thousandth was a leper whose sores she sucked clean, and who then shone as the Buddha Akshobhya. Temples ran baths as works of merit, for monks and for the poor. Hokke-ji was the head of the provincial nunneries; its present bath-house (karaburo), a steam room heated from a stove below, was rebuilt in 1766."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hokkeji",
+    "piggott"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Nuns light the stove under the steam room. A queue of the sick and the poor waits at the gate with their own small towels."
+    },
+    {
+     "hour": 13,
+     "text": "Steam seeps from the wooden walls. An old nun scrubs a labourer's back with rice-bran and tells him the story of the empress and the leper."
+    },
+    {
+     "hour": 19,
+     "text": "The fire is raked out. In the main hall the nuns chant the Lotus Sutra before the eleven-headed Kannon said to be modelled on Kōmyō."
+    }
+   ],
+   "variants": {
+    "abandoned-900": {
+     "note": "Declining like the other temples of the old palace quarter, though the nuns keep up their rites."
+    },
+    "edo-1700": {
+     "note": "A village nunnery, its main hall rebuilt in 1601 with funds from Toyotomi Hideyori and his mother Yodo-dono."
+    }
+   }
+  },
+  {
+   "id": "wakasa-well",
+   "name": "Wakasa-i, the well of Nigatsu-dō",
+   "kind": "fountain",
+   "position": [
+    6097,
+    1709
+   ],
+   "activePeriods": [
+    "tempyo-752",
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "summary": "The well-house (Akaiya) below Nigatsu-dō, from which the monks draw sacred water at night during the Shuni-e: the 'water-drawing', Omizutori, that gives the rite its popular name.",
+   "details": [
+    "The legend says the god Onyū of Wakasa, too busy fishing to come when Jitchū called the gods, made a spring well up here in apology, and its water comes underground from Wakasa, 90 km away. On the twelfth night monks carry the water up to the hall to the sound of conch shells while the great torches burn on the gallery above."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-omizutori",
+    "mino"
+   ],
+   "vignettes": [
+    {
+     "hour": 2,
+     "text": "The second month, past midnight. Monks in paper robes come down the stair in procession with torches and conch shells to draw the water in a hush."
+    },
+    {
+     "hour": 12,
+     "text": "Out of season the well-house stands shut behind its vermilion fence; a pilgrim bows and drops a coin before the door."
+    },
+    {
+     "hour": 19,
+     "text": "Torch night: monks run along the gallery with flaming pine torches the size of trees, and the crowd below scrambles for the falling embers as charms."
+    }
+   ],
+   "variants": {
+    "abandoned-900": {
+     "note": "The rite goes on every year, even as the capital empties."
+    },
+    "edo-1700": {
+     "note": "The hall burned during the rite in 1667 and was rebuilt in 1669; crowds come from all Yamato for the torch nights."
+    }
+   }
+  },
+  {
+   "id": "palace-paddies",
+   "name": "Rice farmer on the old palace site",
+   "kind": "house",
+   "position": [
+    1739,
+    1387
+   ],
+   "activePeriods": [
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "summary": "The paddies that covered the Heijō palace after the court left: a farming hamlet works fields laid out over the foundations of the Hall of State.",
+   "details": [
+    "Within decades of 784 the palace buildings were taken away for reuse and the site turned to rice. The terraces of the Daigokuden survived as raised plots, and the farmers called the place by old names. In 1852 the scholar Kitaura Sadamasa mapped the palace from these field names, and the site was saved from development by local campaigns in the 20th century."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-heijo-kyo",
+    "tsuboi-tanaka"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Mist over the flooded paddies. A farmer opens a sluice in the field bank, which runs dead straight along the line of a palace wall nobody remembers."
+    },
+    {
+     "hour": 12,
+     "text": "Transplanting: a row of women in a muddy field set seedlings to the beat of a drum; a broken tile turns up under a foot, grey and curved."
+    },
+    {
+     "hour": 19,
+     "text": "Frogs in the evening. On the raised plot where the Hall of State stood, the farmer's children chase fireflies."
+    }
+   ],
+   "variants": {
+    "edo-1700": {
+     "note": "Paddies and cotton fields; the villagers call the raised terrace 'Daikoku no shiba', remembering the Daigokuden only in a garbled name."
+    }
+   }
+  },
+  {
+   "id": "kasuga-deer",
+   "name": "The deer of Kasuga",
+   "kind": "garden",
+   "position": [
+    6134,
+    2463
+   ],
+   "activePeriods": [
+    "abandoned-900",
+    "edo-1700"
+   ],
+   "summary": "The sacred deer of the Kasuga meadows, messengers of the god who came riding a white deer to Mikasa-yama: protected by the shrine and Kōfuku-ji, and fed by pilgrims for centuries.",
+   "details": [
+    "In the Middle Ages killing a deer in Nara could be punished by death, and a well-known legend tells of a boy stoned for it. Under the Tokugawa the town's magistrate kept the protection; antler-cutting began in 1671 to stop the stags injuring people, and rice crackers for the deer were sold to visitors from the Edo period."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nara-deer",
+    "grapard",
+    "yamato-meisho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Deer graze in the mist on the Tobihino meadow among the stone lanterns. The shrine's bell rings from the hillside."
+    },
+    {
+     "hour": 13,
+     "text": "Pilgrims buy cakes to feed the deer; a stag butts a child who is too slow, and a guide shoos it with a fan."
+    },
+    {
+     "hour": 20,
+     "text": "Dusk under the cedars. The deer settle under the trees by the lanterns, and the last travellers hurry back to their inns."
+    }
+   ],
+   "variants": {
+    "edo-1700": {
+     "note": "Fed by pilgrims with rice crackers; the antlers of the stags are cut every autumn since 1671, a spectacle in its own right."
+    }
+   }
+  },
+  {
+   "id": "kobaien",
+   "name": "Kobaien, ink maker",
+   "kind": "workshop",
+   "position": [
+    4504,
+    2940
+   ],
+   "activePeriods": [
+    "edo-1700"
+   ],
+   "summary": "An ink-stick (sumi) workshop founded in 1577, one of the makers who made Nara the home of Japanese ink.",
+   "details": [
+    "Nara ink is said to have begun with the soot of the lamps in Kōfuku-ji's halls. The maker burns rapeseed or sesame oil in rows of clay lamps, scrapes off the soot, kneads it with animal glue and fragrance, presses it into carved wooden moulds and dries the sticks slowly in ash for months. The work is done only in the cold months, when the glue does not spoil."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sumi",
+    "yamato-meisho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "In the soot room hundreds of little lamps burn under clay lids. A worker with a feather brushes the black bloom from each lid into a bowl."
+    },
+    {
+     "hour": 12,
+     "text": "The soot and warm glue are kneaded by hand and foot into a black dough, then pressed into pear-wood moulds carved with dragons and the maker's name."
+    },
+    {
+     "hour": 19,
+     "text": "The new sticks are buried in damp ash and moved each day to drier ash. They will be ready next year, wrapped in paper and sold to scholars and temples."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "nara-sake",
+   "name": "A sake brewer of Naramachi",
+   "kind": "works",
+   "position": [
+    4394,
+    3240
+   ],
+   "activePeriods": [
+    "edo-1700"
+   ],
+   "summary": "A brewery in the town south of Sarusawa: Nara's temples pioneered sake made from polished rice, and the town's brewers also sell Nara-zuke, melons and gourds pickled in sake lees.",
+   "details": [
+    "In the Muromachi period temple sake (sōbōshu) from Nara was the best in Japan; Shōryaku-ji in the hills south-east of the town is credited with the bodaimoto starter and with brewing from polished rice. By 1700 Itami and Ikeda brew more, but 'Nara-zake' keeps its name. Pickling in sake lees is already recorded on Nara-period wooden tags."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shoryakuji",
+    "wiki-narazuke"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Winter brewing season. Brewery hands from the villages stir the starter tanks by lamplight, singing to keep time."
+    },
+    {
+     "hour": 12,
+     "text": "Steam rises from the rice vats. In the shop a maid ladles new sake into a traveller's gourd and wraps a white melon pickled brown in lees."
+    },
+    {
+     "hour": 20,
+     "text": "The master tests the mash with his nose. The storehouse smells of rice, wood and the sharp sweetness of lees."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pilgrim-inn",
+   "name": "A pilgrims' inn on Sanjō-dōri",
+   "kind": "inn",
+   "position": [
+    4211,
+    2496
+   ],
+   "activePeriods": [
+    "edo-1700"
+   ],
+   "summary": "An inn (hatago) on the road from the west into Nara, where pilgrims to the great temples and the Kasuga shrine slept, ate and hired guides.",
+   "details": [
+    "Edo-period Nara lived on visitors: pilgrims on the way to Ise, groups on 'thirty-three temple' circuits, and sightseers with guidebooks like the Yamato meisho zue. Innkeepers sent guides to show guests the Great Buddha, the deer and the treasures of the temples, and sold fans, ink and pickles as souvenirs."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "yamato-meisho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Departing guests settle their bills; the maid hands out rice balls wrapped in bamboo leaf. A guide waits in the doorway with a staff and a bundle of temple maps."
+    },
+    {
+     "hour": 14,
+     "text": "A tired group from Ise arrives; the maid washes their feet in a basin on the step while the clerk writes their names in the register."
+    },
+    {
+     "hour": 21,
+     "text": "Bath, rice, pickles and tofu, a cup of Nara sake. Through the paper screens, someone plays the shamisen at the inn across the street."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "nara-sarashi",
+   "name": "Bleaching fields of Nara-sarashi",
+   "kind": "works",
+   "position": [
+    4303,
+    1220
+   ],
+   "activePeriods": [
+    "edo-1700"
+   ],
+   "summary": "Bleaching grounds by the Saho for Nara-sarashi, a fine ramie cloth woven in Yamato villages and bleached snow-white in Nara, the town's richest trade in the 17th century.",
+   "details": [
+    "Merchants of Nara put out ramie yarn to village weavers, then bleached the cloth by boiling it in lye and laying it out on the grass and in the river for days. The shogunate favoured it for summer formal wear and inspected each bolt; it was stamped with the Nara mark. The trade declined in the 18th century as other provinces copied it."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "yamato-meisho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Long strips of grey ramie are rinsed in the shallow Saho, men knee-deep in the cold water slapping the cloth on boards."
+    },
+    {
+     "hour": 12,
+     "text": "The meadow is striped white: bolts laid out on the grass in the sun, sprinkled from buckets every hour to bleach them further."
+    },
+    {
+     "hour": 18,
+     "text": "The cloth is gathered in before the dew. In the merchant's shop an inspector stamps each bolt that passes; rejected ones are sold cheap."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "move-710",
+   "title": "The court moves to Heijō",
+   "periodId": "heijo-720",
+   "date": "710 (Wadō 3, 3rd month)",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "daigokuden"
+   },
+   "effect": "procession",
+   "text": "Empress Genmei leaves Fujiwara-kyō for the new capital, still half built. A poem in the Man'yōshū has her stop her palanquin on the way and look back toward the old city. The Daigokuden is not yet finished; the court moves into the halls as they are raised.",
+   "sourceIds": [
+    "shoku-nihongi",
+    "manyoshu",
+    "wiki-heijo-kyo"
+   ]
+  },
+  {
+   "id": "kojiki-712",
+   "title": "The Kojiki is presented",
+   "periodId": "heijo-720",
+   "date": "28th day, 1st month, 712",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "daigokuden"
+   },
+   "effect": "none",
+   "text": "Ō no Yasumaro presents to Empress Genmei the Kojiki, 'Records of Ancient Matters', which he took down from the recitation of Hieda no Are: the age of the gods and the descent of the imperial line. The Nihon shoki follows in 720.",
+   "sourceIds": [
+    "kojiki",
+    "shoku-nihongi"
+   ]
+  },
+  {
+   "id": "smallpox-735",
+   "title": "Smallpox kills a third of Japan",
+   "periodId": "heijo-720",
+   "date": "735–737",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     2563,
+     2885
+    ]
+   },
+   "effect": "none",
+   "text": "An epidemic brought from Kyushu, probably by travellers from the continent, kills perhaps a quarter to a third of the population. In 737 it takes all four Fujiwara brothers who ran the government. Shōmu turns to the Buddha: provincial temples are ordered in 741, and the Great Buddha follows.",
+   "sourceIds": [
+    "wiki-smallpox-735",
+    "farris-population"
+   ]
+  },
+  {
+   "id": "edict-743",
+   "title": "Shōmu vows a Great Buddha",
+   "periodId": "tempyo-752",
+   "date": "15th day, 10th month, 743",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "daibutsuden"
+   },
+   "effect": "construction",
+   "text": "At his Shigaraki palace Shōmu issues the edict for a gilt-bronze Vairocana: 'I possess the wealth of the land and its power; with them I will make this image', inviting everyone to help with a blade of grass or a handful of earth. The work moves to Nara in 745.",
+   "sourceIds": [
+    "shoku-nihongi",
+    "wiki-todaiji",
+    "piggott"
+   ]
+  },
+  {
+   "id": "eye-opening-752",
+   "title": "Eye-opening of the Great Buddha",
+   "periodId": "tempyo-752",
+   "date": "9th day, 4th month, 752",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "daibutsuden"
+   },
+   "effect": "crowd",
+   "text": "Before Empress Kōken, the retired Shōmu and Kōmyō, the Indian monk Bodhisena paints in the Buddha's eyes with a huge brush; long cords tied to it are held by the crowd so all can share the merit. Some 10,000 monks attend; Tang, Korean and gigaku dancers perform. The brush and cords are still in the Shōsōin.",
+   "sourceIds": [
+    "shoku-nihongi",
+    "wiki-bodhisena",
+    "mino"
+   ]
+  },
+  {
+   "id": "ganjin-754",
+   "title": "Ganjin ordains the retired emperor",
+   "periodId": "tempyo-752",
+   "date": "4th month, 754",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "daibutsuden"
+   },
+   "effect": "crowd",
+   "text": "The blind Chinese master Ganjin, who reached Japan on his sixth attempt, sets up an ordination platform before the Great Buddha and gives the precepts to Shōmu, Kōmyō, Kōken and some 400 others: for the first time Japan has a properly ordained clergy.",
+   "sourceIds": [
+    "wiki-ganjin",
+    "shoku-nihongi"
+   ]
+  },
+  {
+   "id": "shosoin-756",
+   "title": "Kōmyō gives Shōmu's treasures",
+   "periodId": "tempyo-752",
+   "date": "21st day, 6th month, 756",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "shosoin"
+   },
+   "effect": "none",
+   "text": "On the 49th day after Shōmu's death the widowed Empress Kōmyō dedicates his belongings to the Great Buddha, listing some 600 objects 'that bring back memories of the past and break my heart': the founding gift of the Shōsōin.",
+   "sourceIds": [
+    "wiki-shosoin",
+    "mino"
+   ]
+  },
+  {
+   "id": "kasuga-768",
+   "title": "The Kasuga shrine is founded",
+   "periodId": "tempyo-752",
+   "date": "768",
+   "kind": "ceremony",
+   "at": {
+    "position": [
+     6500,
+     2641
+    ]
+   },
+   "effect": "procession",
+   "text": "The Fujiwara build sanctuaries at the foot of Mikasa-yama for their clan gods, among them Takemikazuchi, said to have come from Kashima on a white deer. The shrine and Kōfuku-ji will grow into a single power over Yamato.",
+   "sourceIds": [
+    "wiki-kasuga",
+    "grapard"
+   ]
+  },
+  {
+   "id": "capital-leaves-784",
+   "title": "The court leaves for Nagaoka",
+   "periodId": "tempyo-752",
+   "date": "11th month, 784",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "chodo-in"
+   },
+   "effect": "procession",
+   "text": "Emperor Kanmu moves the capital to Nagaoka, away from the Nara temples and their meddling monks; halls are taken down and floated down the rivers to be rebuilt. Ten years later the court settles at Heian-kyō, and Heijō turns to fields.",
+   "sourceIds": [
+    "wiki-nagaoka",
+    "shoku-nihongi"
+   ]
+  },
+  {
+   "id": "west-pagoda-934",
+   "title": "Lightning burns the West Pagoda",
+   "periodId": "abandoned-900",
+   "date": "934",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "todaiji-west-pagoda"
+   },
+   "effect": "fire",
+   "text": "Lightning strikes Tōdai-ji's West Pagoda, and the seven-storey tower burns to the ground. With the court gone and its estates shrinking, the temple never rebuilds it.",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino"
+   ]
+  },
+  {
+   "id": "taira-1180",
+   "title": "The Taira burn Nara",
+   "periodId": "abandoned-900",
+   "date": "28th day, 12th month, 1180",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "daibutsuden"
+   },
+   "effect": "fire",
+   "text": "Taira no Shigehira, sent to punish the Nara monks for siding with the Minamoto, sets fires that a night wind spreads through Kōfuku-ji and Tōdai-ji. The Great Buddha's head melts; the Heike monogatari says 1,700 people who had fled to the hall's upper storey died.",
+   "sourceIds": [
+    "heike",
+    "wiki-siege-nara"
+   ]
+  },
+  {
+   "id": "daibutsuden-1567",
+   "title": "The Daibutsuden burns again",
+   "periodId": "edo-1700",
+   "date": "10th day, 10th month, 1567",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "daibutsuden"
+   },
+   "effect": "fire",
+   "text": "In a war between Matsunaga Hisahide and the Miyoshi, whose troops are camped in Tōdai-ji, a night battle sets the temple alight and the Great Buddha hall burns. The damaged Buddha sits in the open under a makeshift roof, later in the rain, for over a century.",
+   "sourceIds": [
+    "wiki-matsunaga",
+    "wiki-todaiji"
+   ]
+  },
+  {
+   "id": "daibutsuden-1709",
+   "title": "The new Daibutsuden is dedicated",
+   "periodId": "edo-1700",
+   "date": "1709 (Hōei 6)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "daibutsuden"
+   },
+   "effect": "crowd",
+   "text": "Kōkei, who begged across Japan from 1684 to recast the Buddha's head (1692) and rebuild the hall, has died in 1705; his successors finish the work with shogunal help. The new hall is a third narrower than the old, for lack of money and of long enough timbers, but still the largest wooden building in Japan.",
+   "sourceIds": [
+    "wiki-todaiji",
+    "mino"
+   ]
+  },
+  {
+   "id": "omizutori-1700",
+   "title": "Torch nights of the Omizutori",
+   "periodId": "edo-1700",
+   "date": "2nd month, every year",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "nigatsudo"
+   },
+   "effect": "crowd",
+   "text": "For two weeks of the second month the monks of the Shuni-e run with burning torches along the gallery of the rebuilt Nigatsu-dō; townspeople and pilgrims crowd the slope below for the sparks, which are believed to ward off illness. The rite has not missed a year since 752.",
+   "sourceIds": [
+    "wiki-omizutori"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "eye-opening-day",
+   "title": "The day the Buddha opened his eyes",
+   "periodId": "tempyo-752",
+   "summary": "Spring 752: follow the court from the palace across the city to Tōdai-ji, where the bronze Buddha, cast over three years from the copper of Nagato, is brought to life before ten thousand monks.",
+   "steps": [
+    {
+     "landmarkId": "suzakumon",
+     "title": "The court sets out",
+     "when": "dawn",
+     "text": "Empress Kōken leaves the palace in procession: guards in red, officials ranked by the colours of their caps, musicians from Tang and Korea in their own costume."
+    },
+    {
+     "landmarkId": "kofukuji",
+     "title": "Past the Fujiwara temple",
+     "when": "morning",
+     "text": "Along Nijō and up into the Gekyō, past the golden halls and pagoda of Kōfuku-ji, whose monks walk out to join the long line of clergy."
+    },
+    {
+     "spotId": "daibutsu-foundry",
+     "title": "The foundry falls silent",
+     "when": "morning",
+     "text": "West of the hall the furnaces are cold for once. The bronze-casters and their conscript labourers line the way, some with mercury burns on their hands from the gilding."
+    },
+    {
+     "landmarkId": "daibutsuden",
+     "title": "The eye-opening",
+     "when": "noon",
+     "text": "The Indian monk Bodhisena lifts a brush as tall as a man and paints in the pupils of the Buddha. Thousands hold the coloured cords tied to it, sharing the merit."
+    },
+    {
+     "landmarkId": "nigatsudo",
+     "title": "A new hall on the hill",
+     "when": "afternoon",
+     "text": "On the slope above, the monk Jitchū has founded the Hall of the Second Month; the repentance rite he began this year will never be missed."
+    },
+    {
+     "landmarkId": "shosoin",
+     "title": "Into the storehouse",
+     "when": "four years later",
+     "text": "After Shōmu's death the brush, the cords and the costumes of the dancers are laid up with his treasures in the Shōsōin, where they still are."
+    }
+   ],
+   "sourceIds": [
+    "shoku-nihongi",
+    "mino",
+    "wiki-bodhisena"
+   ]
+  },
+  {
+   "id": "pilgrim-day",
+   "title": "A pilgrim's day in Nara",
+   "periodId": "edo-1700",
+   "summary": "Around 1700: a party of pilgrims spends a day in Nara with a hired guide, from their inn on Sanjō-dōri to the deer park and the Great Buddha, whose new hall is rising.",
+   "steps": [
+    {
+     "spotId": "pilgrim-inn",
+     "title": "Setting out",
+     "when": "dawn",
+     "text": "The innkeeper's guide gathers the party with a staff and a printed map; they buy ink and fans to take home, to collect on the way back."
+    },
+    {
+     "landmarkId": "kofukuji",
+     "title": "The five-storey pagoda",
+     "when": "morning",
+     "text": "Up the stone steps to Kōfuku-ji. The guide recites the temple's founding by the Fujiwara and points out the octagonal hall of the pilgrims' circuit."
+    },
+    {
+     "landmarkId": "sarusawa",
+     "title": "Sarusawa pond",
+     "when": "morning",
+     "text": "Below, the pagoda stands upside down in the water. The guide tells of the court lady who drowned here for love of an emperor."
+    },
+    {
+     "spotId": "kasuga-deer",
+     "title": "The sacred deer",
+     "when": "midday",
+     "text": "On the meadows deer crowd round for rice crackers. A stag with sawn-off antlers nudges a child; the guide warns that harming a deer was once punished by death."
+    },
+    {
+     "landmarkId": "kasuga-taisha",
+     "title": "The lanterns of Kasuga",
+     "when": "afternoon",
+     "text": "Up the long avenue of stone lanterns under the cedars to the vermilion corridors of the shrine, where bronze lanterns hang in rows."
+    },
+    {
+     "landmarkId": "nandaimon",
+     "title": "The guardian kings",
+     "when": "afternoon",
+     "text": "Through the great south gate of Tōdai-ji, its tiers of brackets overhead, between Unkei's two giant guardians."
+    },
+    {
+     "landmarkId": "daibutsuden",
+     "title": "The Buddha in the scaffolding",
+     "when": "evening",
+     "text": "The new hall is still rising round the Buddha, whose head was recast in 1692. The pilgrims give a coin for the rebuilding and bow to the great dark face."
+    }
+   ],
+   "sourceIds": [
+    "yamato-meisho",
+    "wiki-todaiji",
+    "wiki-nara-deer"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-heijo-kyo",
+   "title": "Heijō-kyō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heij%C5%8D-ky%C5%8D"
+  },
+  {
+   "id": "wiki-nara-history",
+   "title": "History of Nara",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nara,_Nara#History"
+  },
+  {
+   "id": "wiki-saho",
+   "title": "Saho River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Saho_River"
+  },
+  {
+   "id": "wiki-wakakusa",
+   "title": "Mount Wakakusa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mount_Wakakusa"
+  },
+  {
+   "id": "wiki-kasugayama",
+   "title": "Kasugayama Primeval Forest",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kasugayama_Primeval_Forest"
+  },
+  {
+   "id": "wiki-saki-tumuli",
+   "title": "Saki Tumulus Cluster",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Saki_Tumulus_Cluster"
+  },
+  {
+   "id": "farris-sacred",
+   "title": "Sacred Texts and Buried Treasures: Issues in the Historical Archaeology of Ancient Japan",
+   "author": "William Wayne Farris",
+   "year": 1998
+  },
+  {
+   "id": "tsuboi-tanaka",
+   "title": "The Historic City of Nara: An Archaeological Approach",
+   "author": "Tsuboi Kiyotari and Tanaka Migaku",
+   "year": 1991
+  },
+  {
+   "id": "nabunken",
+   "title": "Excavation reports of the Heijō Palace site",
+   "author": "Nara National Research Institute for Cultural Properties (Nabunken)",
+   "url": "https://www.nabunken.go.jp/"
+  },
+  {
+   "id": "cambridge-1",
+   "title": "The Cambridge History of Japan, vol. 1: Ancient Japan",
+   "author": "Delmer M. Brown (ed.)",
+   "year": 1993
+  },
+  {
+   "id": "wiki-heijo-palace",
+   "title": "Heijō Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heij%C5%8D_Palace"
+  },
+  {
+   "id": "wiki-daigokuden",
+   "title": "Daigokuden",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Daigokuden"
+  },
+  {
+   "id": "wiki-suzakumon",
+   "title": "Suzakumon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Suzakumon"
+  },
+  {
+   "id": "wiki-rashomon",
+   "title": "Rashōmon (gate)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rash%C5%8Dmon_(gate)"
+  },
+  {
+   "id": "wiki-todaiji",
+   "title": "Tōdai-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji"
+  },
+  {
+   "id": "wiki-shosoin",
+   "title": "Shōsōin",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sh%C5%8Ds%C5%8Din"
+  },
+  {
+   "id": "wiki-kofukuji",
+   "title": "Kōfuku-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/K%C5%8Dfuku-ji"
+  },
+  {
+   "id": "wiki-sarusawa",
+   "title": "Sarusawa Pond",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sarusawa_Pond"
+  },
+  {
+   "id": "wiki-gangoji",
+   "title": "Gangō-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gang%C5%8D-ji"
+  },
+  {
+   "id": "wiki-kasuga",
+   "title": "Kasuga-taisha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kasuga-taisha"
+  },
+  {
+   "id": "wiki-yakushiji",
+   "title": "Yakushi-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yakushi-ji"
+  },
+  {
+   "id": "wiki-daianji",
+   "title": "Daian-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Daian-ji"
+  },
+  {
+   "id": "wiki-toshodaiji",
+   "title": "Tōshōdai-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/T%C5%8Dsh%C5%8Ddai-ji"
+  },
+  {
+   "id": "wiki-saidaiji",
+   "title": "Saidai-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Saidai-ji"
+  },
+  {
+   "id": "wiki-omizutori",
+   "title": "Omizutori (Shuni-e)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Omizutori"
+  },
+  {
+   "id": "coaldrake",
+   "title": "Architecture and Authority in Japan",
+   "author": "William H. Coaldrake",
+   "year": 1996
+  },
+  {
+   "id": "mino",
+   "title": "The Great Eastern Temple: Treasures of Japanese Buddhist Art from Tōdai-ji",
+   "author": "Yutaka Mino (ed.)",
+   "year": 1986
+  },
+  {
+   "id": "piggott",
+   "title": "The Emergence of Japanese Kingship",
+   "author": "Joan R. Piggott",
+   "year": 1997
+  },
+  {
+   "id": "parent",
+   "title": "The Roof in Japanese Buddhist Architecture",
+   "author": "Mary Neighbour Parent",
+   "year": 1983
+  },
+  {
+   "id": "grapard",
+   "title": "The Protocol of the Gods: A Study of the Kasuga Cult in Japanese History",
+   "author": "Allan G. Grapard",
+   "year": 1992
+  },
+  {
+   "id": "yamato-meisho",
+   "title": "Yamato meisho zue (Illustrated Guide to the Famous Places of Yamato)",
+   "author": "Akisato Ritō",
+   "year": 1791
+  },
+  {
+   "id": "shoku-nihongi",
+   "title": "Shoku Nihongi (Chronicles of Japan, Continued)",
+   "author": "Fujiwara no Tsugutada and others",
+   "year": 797,
+   "url": "https://en.wikipedia.org/wiki/Shoku_Nihongi"
+  },
+  {
+   "id": "kojiki",
+   "title": "Kojiki (Records of Ancient Matters)",
+   "author": "Ō no Yasumaro",
+   "year": 712,
+   "url": "https://en.wikipedia.org/wiki/Kojiki"
+  },
+  {
+   "id": "manyoshu",
+   "title": "Man'yōshū",
+   "author": "Ōtomo no Yakamochi and others (comp.)",
+   "year": "c. 759",
+   "url": "https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB"
+  },
+  {
+   "id": "heike",
+   "title": "The Tale of the Heike (Heike monogatari)",
+   "author": "anonymous",
+   "year": "13th century",
+   "url": "https://en.wikipedia.org/wiki/The_Tale_of_the_Heike"
+  },
+  {
+   "id": "farris-population",
+   "title": "Population, Disease, and Land in Early Japan, 645–900",
+   "author": "William Wayne Farris",
+   "year": 1985
+  },
+  {
+   "id": "wiki-mokkan",
+   "title": "Mokkan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mokkan"
+  },
+  {
+   "id": "wiki-nagaya",
+   "title": "Prince Nagaya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prince_Nagaya"
+  },
+  {
+   "id": "wiki-hokkeji",
+   "title": "Hokke-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hokke-ji"
+  },
+  {
+   "id": "wiki-nara-deer",
+   "title": "Sika deer in Nara Park",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nara_Park"
+  },
+  {
+   "id": "wiki-sumi",
+   "title": "Inkstick",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inkstick"
+  },
+  {
+   "id": "wiki-shoryakuji",
+   "title": "Shōryaku-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sh%C5%8Dryaku-ji"
+  },
+  {
+   "id": "wiki-narazuke",
+   "title": "Narazuke",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Narazuke"
+  },
+  {
+   "id": "wiki-smallpox-735",
+   "title": "735–737 Japanese smallpox epidemic",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/735%E2%80%93737_Japanese_smallpox_epidemic"
+  },
+  {
+   "id": "wiki-bodhisena",
+   "title": "Bodhisena",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bodhisena"
+  },
+  {
+   "id": "wiki-ganjin",
+   "title": "Jianzhen (Ganjin)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jianzhen"
+  },
+  {
+   "id": "wiki-siege-nara",
+   "title": "Siege of Nara (1180)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Nara"
+  },
+  {
+   "id": "wiki-nagaoka",
+   "title": "Nagaoka-kyō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nagaoka-ky%C5%8D"
+  },
+  {
+   "id": "wiki-matsunaga",
+   "title": "Matsunaga Hisahide",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Matsunaga_Hisahide"
+  }
+ ]
+}
