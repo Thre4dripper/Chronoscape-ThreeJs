@@ -1,0 +1,4813 @@
+{
+ "id": "fatehpur-sikri",
+ "name": "Fatehpur Sikri",
+ "subtitle": "Akbar's City of Victory",
+ "description": "Three moments on the red sandstone ridge of Sikri, 37 km west of Agra: the Sufi saint's village beside Babur's garden (1560), Akbar's walled capital with its palaces, great mosque and lake (1585), and the emptied city of Jahangir's day (1610). Positions are projected from real coordinates and the usual site plans; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "akbar-1585",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#C9946E",
+   "#D8B48E",
+   "#BF7F5E",
+   "#DCC3A0",
+   "#CFA27C"
+  ],
+  "roofs": [
+   "#C49A74",
+   "#B98A66"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3051,
+    2334
+   ],
+   "distance": 30,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 120
+ },
+ "map": {
+  "size": [
+   5550,
+   4660
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Lake of Sikri",
+    "path": [
+     [
+      -129,
+      2224
+     ],
+     [
+      301,
+      2042
+     ],
+     [
+      1144,
+      1676
+     ],
+     [
+      1937,
+      1409
+     ],
+     [
+      2631,
+      1176
+     ],
+     [
+      3077,
+      1010
+     ]
+    ],
+    "width": 900,
+    "id": "lake-1560",
+    "blurb": "A natural lake, shallow and seasonal, filled by the monsoon streams off the hills to the west. Babur admired it in 1527 and had a pavilion built by its edge.",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "name": "The great lake",
+    "path": [
+     [
+      -129,
+      2224
+     ],
+     [
+      328,
+      2096
+     ],
+     [
+      1171,
+      1729
+     ],
+     [
+      1964,
+      1462
+     ],
+     [
+      2658,
+      1229
+     ],
+     [
+      3104,
+      1063
+     ],
+     [
+      3500,
+      709
+     ]
+    ],
+    "width": 1400,
+    "id": "lake",
+    "blurb": "Akbar dammed the lake to supply the new city, making a sheet of water perhaps 10 km long and 3 km wide on the city's open side. It watered gardens and the palace, by wheels and channels up the ridge, and served as a pleasure lake and hunting ground. Now dry.",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "name": "The great lake",
+    "path": [
+     [
+      2611,
+      1274
+     ],
+     [
+      2411,
+      574
+     ],
+     [
+      2271,
+      -125
+     ]
+    ],
+    "width": 1000,
+    "id": "lake-arm",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "name": "The lake",
+    "path": [
+     [
+      -129,
+      2224
+     ],
+     [
+      283,
+      2006
+     ],
+     [
+      1126,
+      1641
+     ],
+     [
+      1919,
+      1373
+     ],
+     [
+      2613,
+      1140
+     ],
+     [
+      3059,
+      974
+     ],
+     [
+      3311,
+      875
+     ]
+    ],
+    "width": 1100,
+    "id": "lake-1610",
+    "blurb": "With no one to keep the dam and the channels, the lake shrank back towards its old shallows; how much water stood here in Jahangir's day is not clearly recorded.",
+    "periods": [
+     "abandoned-1610"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Sikri ridge",
+    "center": [
+     2821,
+     2494
+    ],
+    "radius": 340,
+    "label": true,
+    "id": "sikri-ridge",
+    "blurb": "A long ridge of red sandstone, some 3 km long and rising perhaps 30–40 m above the plain, the last outlier of the Vindhyan hills. The city's palaces, mosque and houses were all cut from it."
+   },
+   {
+    "name": "Sikri ridge",
+    "center": [
+     2521,
+     2604
+    ],
+    "radius": 320,
+    "label": false,
+    "id": "ridge-2"
+   },
+   {
+    "name": "Sikri ridge",
+    "center": [
+     2171,
+     2715
+    ],
+    "radius": 290,
+    "label": false,
+    "id": "ridge-3"
+   },
+   {
+    "name": "Sikri ridge",
+    "center": [
+     3111,
+     2354
+    ],
+    "radius": 330,
+    "label": false,
+    "id": "ridge-4"
+   },
+   {
+    "name": "Sikri ridge",
+    "center": [
+     3471,
+     2214
+    ],
+    "radius": 300,
+    "label": false,
+    "id": "ridge-5"
+   },
+   {
+    "name": "Sikri ridge",
+    "center": [
+     3821,
+     2054
+    ],
+    "radius": 260,
+    "label": false,
+    "id": "ridge-6"
+   }
+  ],
+  "roads": [
+   {
+    "name": "Bazaar of the Agra Gate",
+    "path": [
+     [
+      4261,
+      1886
+     ],
+     [
+      3871,
+      2044
+     ],
+     [
+      3501,
+      2214
+     ],
+     [
+      3421,
+      2234
+     ],
+     [
+      3341,
+      2250
+     ]
+    ],
+    "width": 24,
+    "style": "major",
+    "labelled": true,
+    "id": "bazaar",
+    "blurb": "The main street of the city, from the Agra Gate up the ridge to the Naubat Khana and the Diwan-i-Am, lined with shops; Monserrate and Fitch both describe a long, busy bazaar.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road along the ridge",
+    "path": [
+     [
+      3421,
+      2234
+     ],
+     [
+      3331,
+      2334
+     ],
+     [
+      3171,
+      2359
+     ],
+     [
+      3061,
+      2369
+     ],
+     [
+      2951,
+      2384
+     ],
+     [
+      2879,
+      2475
+     ],
+     [
+      2871,
+      2506
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "ridge-road",
+    "blurb": "From the palace gate along the crest past the harem palaces to the Badshahi Darwaza, the emperor's own gate into the Jama Masjid.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Lower town road",
+    "path": [
+     [
+      4162,
+      2607
+     ],
+     [
+      3771,
+      2724
+     ],
+     [
+      3371,
+      2834
+     ],
+     [
+      2971,
+      2914
+     ],
+     [
+      2571,
+      3034
+     ],
+     [
+      2071,
+      3175
+     ],
+     [
+      1486,
+      3350
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": false,
+    "id": "lower-road",
+    "blurb": "Along the foot of the ridge on its south-eastern side, through the lower town of shops and houses below the Buland Darwaza.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road from the Buland Darwaza",
+    "path": [
+     [
+      2803,
+      2625
+     ],
+     [
+      2811,
+      2724
+     ],
+     [
+      2841,
+      2914
+     ],
+     [
+      2911,
+      3175
+     ],
+     [
+      2973,
+      3385
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "darwaza-road",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Ajmeri Gate road",
+    "path": [
+     [
+      990,
+      3106
+     ],
+     [
+      1471,
+      2914
+     ],
+     [
+      1971,
+      2775
+     ],
+     [
+      2371,
+      2654
+     ],
+     [
+      2691,
+      2596
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "ajmer-street",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Lakeside road",
+    "path": [
+     [
+      2971,
+      2146
+     ],
+     [
+      2976,
+      2074
+     ],
+     [
+      2996,
+      2034
+     ],
+     [
+      3191,
+      2034
+     ],
+     [
+      3371,
+      2044
+     ],
+     [
+      3621,
+      1945
+     ],
+     [
+      3905,
+      1442
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "lake-road",
+    "blurb": "Down from the Hathi Pol past the Hiran Minar and the caravanserai, along the lake shore to the Delhi Gate.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road to Agra",
+    "path": [
+     [
+      4261,
+      1886
+     ],
+     [
+      4671,
+      1754
+     ],
+     [
+      5671,
+      1454
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "agra-road",
+    "blurb": "The imperial road to Agra, 37 km east, along which Akbar moved his court and treasury; under him it was marked by kos minars, the Mughal milestones.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road to Mathura and Delhi",
+    "path": [
+     [
+      3905,
+      1442
+     ],
+     [
+      4121,
+      1224
+     ],
+     [
+      4521,
+      774
+     ],
+     [
+      4871,
+      -125
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "mathura-road",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road to Ajmer",
+    "path": [
+     [
+      990,
+      3106
+     ],
+     [
+      571,
+      3274
+     ],
+     [
+      -129,
+      3524
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "ajmer-road",
+    "blurb": "West towards Ajmer and the shrine of Muinuddin Chishti, to which Akbar went on foot in 1570 to give thanks for his son.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road to Gwalior",
+    "path": [
+     [
+      2973,
+      3385
+     ],
+     [
+      2991,
+      3674
+     ],
+     [
+      3021,
+      4724
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "gwalior-road",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road to Bayana",
+    "path": [
+     [
+      2378,
+      3528
+     ],
+     [
+      2271,
+      3874
+     ],
+     [
+      2021,
+      4724
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "bayana-road",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road from the Bir Gate",
+    "path": [
+     [
+      4162,
+      2607
+     ],
+     [
+      4671,
+      2724
+     ],
+     [
+      5621,
+      2924
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "bir-road",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Road from the Chandar Gate",
+    "path": [
+     [
+      3766,
+      2995
+     ],
+     [
+      3971,
+      3374
+     ],
+     [
+      4271,
+      3974
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "chandar-road",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Lal Gate lane",
+    "path": [
+     [
+      4063,
+      1643
+     ],
+     [
+      3971,
+      1715
+     ],
+     [
+      3821,
+      1855
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "lal-road",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "name": "Road to Agra",
+    "path": [
+     [
+      5671,
+      1454
+     ],
+     [
+      4671,
+      1774
+     ],
+     [
+      4071,
+      2054
+     ],
+     [
+      3571,
+      2395
+     ],
+     [
+      3171,
+      2475
+     ],
+     [
+      2891,
+      2574
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "sikri-agra-road",
+    "blurb": "The old road from Agra to Bayana and Rajputana ran past the ridge; Babur's army came this way to Khanwa in 1527.",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "name": "Road to Khanwa and Bayana",
+    "path": [
+     [
+      2691,
+      2604
+     ],
+     [
+      1971,
+      2834
+     ],
+     [
+      971,
+      3155
+     ],
+     [
+      -129,
+      3524
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "sikri-west-road",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "name": "Lane to Babur's garden",
+    "path": [
+     [
+      2671,
+      2584
+     ],
+     [
+      2371,
+      2524
+     ],
+     [
+      2021,
+      2384
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sikri-garden-lane",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "name": "Track to Gwalior",
+    "path": [
+     [
+      2871,
+      2694
+     ],
+     [
+      2921,
+      3175
+     ],
+     [
+      2991,
+      3674
+     ],
+     [
+      3021,
+      4724
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "sikri-south-lane",
+    "periods": [
+     "sikri-1560"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "City wall",
+    "path": [
+     [
+      643,
+      2718
+     ],
+     [
+      990,
+      3106
+     ],
+     [
+      1486,
+      3350
+     ],
+     [
+      1981,
+      3494
+     ],
+     [
+      2378,
+      3528
+     ],
+     [
+      2973,
+      3385
+     ],
+     [
+      3369,
+      3217
+     ],
+     [
+      3766,
+      2995
+     ],
+     [
+      4162,
+      2607
+     ],
+     [
+      4480,
+      2164
+     ],
+     [
+      4261,
+      1886
+     ],
+     [
+      4063,
+      1643
+     ],
+     [
+      3905,
+      1442
+     ],
+     [
+      3815,
+      1332
+     ]
+    ],
+    "closed": false,
+    "id": "city-wall",
+    "blurb": "A rubble wall faced with sandstone, with round bastions and battlements, enclosing the city on three sides; the lake closed the fourth. Its length is given variously, from about 6 km to six or seven miles (some 11 km); this trace follows the usual site plan and is simplified.",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "name": "City wall",
+    "path": [
+     [
+      643,
+      2718
+     ],
+     [
+      990,
+      3106
+     ],
+     [
+      1486,
+      3350
+     ],
+     [
+      1981,
+      3494
+     ],
+     [
+      2378,
+      3528
+     ],
+     [
+      2973,
+      3385
+     ],
+     [
+      3369,
+      3217
+     ],
+     [
+      3766,
+      2995
+     ],
+     [
+      4162,
+      2607
+     ],
+     [
+      4480,
+      2164
+     ],
+     [
+      4261,
+      1886
+     ],
+     [
+      4063,
+      1643
+     ],
+     [
+      3905,
+      1442
+     ],
+     [
+      3815,
+      1332
+     ]
+    ],
+    "closed": false,
+    "id": "city-wall-1610",
+    "blurb": "Still standing, but with the court gone its gates were no longer manned as before.",
+    "periods": [
+     "abandoned-1610"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Chor Gate",
+    "position": [
+     1486,
+     3350
+    ],
+    "id": "chor-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Tehra Gate",
+    "position": [
+     2378,
+     3528
+    ],
+    "id": "tehra-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Gwalior Gate",
+    "position": [
+     2973,
+     3385
+    ],
+    "id": "gwalior-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Chandar Gate",
+    "position": [
+     3766,
+     2995
+    ],
+    "id": "chandar-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Bir (Suraj) Gate",
+    "position": [
+     4162,
+     2607
+    ],
+    "id": "bir-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Lal Gate",
+    "position": [
+     4063,
+     1643
+    ],
+    "id": "lal-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "name": "Delhi Gate",
+    "position": [
+     3905,
+     1442
+    ],
+    "id": "delhi-gate",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   }
+  ],
+  "bridges": [],
+  "aqueducts": [
+   {
+    "name": "Water-lift from the lake to the palace",
+    "path": [
+     [
+      2861,
+      1945
+     ],
+     [
+      2876,
+      2109
+     ],
+     [
+      2901,
+      2165
+     ],
+     [
+      2931,
+      2194
+     ],
+     [
+      2971,
+      2202
+     ],
+     [
+      3021,
+      2229
+     ],
+     [
+      3081,
+      2269
+     ]
+    ],
+    "periods": [
+     "akbar-1585"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      4171,
+      1844
+     ],
+     [
+      3871,
+      1992
+     ],
+     [
+      3571,
+      2149
+     ],
+     [
+      3551,
+      2044
+     ],
+     [
+      3821,
+      1855
+     ],
+     [
+      4051,
+      1674
+     ]
+    ],
+    "density": "dense",
+    "name": "Bazaar, north side",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4231,
+      1945
+     ],
+     [
+      3891,
+      2085
+     ],
+     [
+      3561,
+      2255
+     ],
+     [
+      3601,
+      2384
+     ],
+     [
+      3951,
+      2245
+     ],
+     [
+      4181,
+      2124
+     ]
+    ],
+    "density": "dense",
+    "name": "Bazaar, south side",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3621,
+      2434
+     ],
+     [
+      3991,
+      2294
+     ],
+     [
+      4271,
+      2234
+     ],
+     [
+      4321,
+      2354
+     ],
+     [
+      4101,
+      2574
+     ],
+     [
+      3771,
+      2694
+     ],
+     [
+      3471,
+      2604
+     ]
+    ],
+    "density": "loose",
+    "name": "Nobles' mansions on the ridge",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4101,
+      2664
+     ],
+     [
+      3771,
+      2769
+     ],
+     [
+      3371,
+      2879
+     ],
+     [
+      2971,
+      2959
+     ],
+     [
+      2891,
+      2974
+     ],
+     [
+      2981,
+      3235
+     ],
+     [
+      3071,
+      3289
+     ],
+     [
+      3371,
+      3165
+     ],
+     [
+      3711,
+      2964
+     ],
+     [
+      4071,
+      2694
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower town",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2771,
+      2644
+     ],
+     [
+      2781,
+      2914
+     ],
+     [
+      2571,
+      2994
+     ],
+     [
+      2171,
+      3104
+     ],
+     [
+      2071,
+      2834
+     ],
+     [
+      2371,
+      2694
+     ],
+     [
+      2671,
+      2625
+     ]
+    ],
+    "density": "dense",
+    "name": "Sikri: the stonecutters' quarter",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2701,
+      2414
+     ],
+     [
+      2861,
+      2410
+     ],
+     [
+      2851,
+      2294
+     ],
+     [
+      2751,
+      2234
+     ],
+     [
+      2611,
+      2315
+     ]
+    ],
+    "density": "dense",
+    "name": "Shaikhs' quarter north of the mosque",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2521,
+      3095
+     ],
+     [
+      2071,
+      3224
+     ],
+     [
+      1671,
+      3344
+     ],
+     [
+      1991,
+      3465
+     ],
+     [
+      2371,
+      3489
+     ]
+    ],
+    "density": "loose",
+    "name": "Tehra Gate quarter",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1921,
+      2834
+     ],
+     [
+      1471,
+      2974
+     ],
+     [
+      1121,
+      3124
+     ],
+     [
+      1421,
+      3274
+     ],
+     [
+      1971,
+      3155
+     ]
+    ],
+    "density": "loose",
+    "name": "Ajmeri Gate quarter",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1821,
+      2654
+     ],
+     [
+      2271,
+      2545
+     ],
+     [
+      2611,
+      2545
+     ],
+     [
+      2571,
+      2405
+     ],
+     [
+      2171,
+      2405
+     ],
+     [
+      1871,
+      2485
+     ]
+    ],
+    "density": "loose",
+    "name": "Nobles' gardens by the lake",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2871,
+      2334
+     ],
+     [
+      2933,
+      2334
+     ],
+     [
+      2935,
+      2255
+     ],
+     [
+      2891,
+      2180
+     ],
+     [
+      2841,
+      2194
+     ],
+     [
+      2866,
+      2274
+     ]
+    ],
+    "density": "dense",
+    "name": "Palace servants' quarter",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3321,
+      2170
+     ],
+     [
+      3501,
+      2134
+     ],
+     [
+      3591,
+      2025
+     ],
+     [
+      3401,
+      2064
+     ]
+    ],
+    "density": "loose",
+    "name": "Karkhanas and stables",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2771,
+      2644
+     ],
+     [
+      2781,
+      2914
+     ],
+     [
+      2571,
+      2994
+     ],
+     [
+      2171,
+      3104
+     ],
+     [
+      2071,
+      2834
+     ],
+     [
+      2371,
+      2694
+     ],
+     [
+      2671,
+      2625
+     ]
+    ],
+    "density": "loose",
+    "name": "Sikri: the stonecutters' quarter",
+    "periods": [
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2701,
+      2414
+     ],
+     [
+      2861,
+      2410
+     ],
+     [
+      2851,
+      2294
+     ],
+     [
+      2751,
+      2234
+     ],
+     [
+      2611,
+      2315
+     ]
+    ],
+    "density": "dense",
+    "name": "Shaikhs' quarter north of the mosque",
+    "periods": [
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4231,
+      1945
+     ],
+     [
+      3891,
+      2085
+     ],
+     [
+      3561,
+      2255
+     ],
+     [
+      3601,
+      2384
+     ],
+     [
+      3951,
+      2245
+     ],
+     [
+      4181,
+      2124
+     ]
+    ],
+    "density": "loose",
+    "name": "What is left of the bazaar",
+    "periods": [
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2971,
+      2959
+     ],
+     [
+      2891,
+      2974
+     ],
+     [
+      2981,
+      3235
+     ],
+     [
+      3071,
+      3289
+     ],
+     [
+      3271,
+      3175
+     ],
+     [
+      3271,
+      2924
+     ]
+    ],
+    "density": "loose",
+    "name": "Lower town below the Buland Darwaza",
+    "periods": [
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2671,
+      2614
+     ],
+     [
+      2891,
+      2594
+     ],
+     [
+      2911,
+      2424
+     ],
+     [
+      2721,
+      2395
+     ],
+     [
+      2611,
+      2494
+     ]
+    ],
+    "density": "loose",
+    "name": "Sikri",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2611,
+      2664
+     ],
+     [
+      2791,
+      2664
+     ],
+     [
+      2801,
+      2834
+     ],
+     [
+      2571,
+      2834
+     ]
+    ],
+    "density": "dense",
+    "name": "Stonecutters' hamlet",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3321,
+      2754
+     ],
+     [
+      3551,
+      2715
+     ],
+     [
+      3571,
+      2874
+     ],
+     [
+      3341,
+      2914
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet below the ridge",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1471,
+      2534
+     ],
+     [
+      1721,
+      2475
+     ],
+     [
+      1721,
+      2604
+     ],
+     [
+      1471,
+      2654
+     ]
+    ],
+    "density": "loose",
+    "name": "Herders by the lake",
+    "periods": [
+     "sikri-1560"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2091,
+      2294
+     ],
+     [
+      2091,
+      2214
+     ],
+     [
+      2471,
+      2085
+     ],
+     [
+      2721,
+      2025
+     ],
+     [
+      2721,
+      2144
+     ],
+     [
+      2371,
+      2245
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards by the lake",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2986,
+      2274
+     ],
+     [
+      3051,
+      2274
+     ],
+     [
+      3051,
+      2247
+     ],
+     [
+      2986,
+      2247
+     ]
+    ],
+    "kind": "park",
+    "name": "Garden of the harem",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2701,
+      2064
+     ],
+     [
+      2841,
+      2015
+     ],
+     [
+      2841,
+      1914
+     ],
+     [
+      2691,
+      1945
+     ]
+    ],
+    "kind": "park",
+    "name": "Gardens below the Hiran Minar",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4321,
+      2434
+     ],
+     [
+      4391,
+      2315
+     ],
+     [
+      4351,
+      2214
+     ],
+     [
+      4291,
+      2334
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchard inside the Bir Gate",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4671,
+      1674
+     ],
+     [
+      5471,
+      1415
+     ],
+     [
+      5471,
+      1074
+     ],
+     [
+      4771,
+      1274
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Fields by the Agra road",
+    "periods": [
+     "sikri-1560",
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2471,
+      3775
+     ],
+     [
+      2911,
+      3714
+     ],
+     [
+      2931,
+      4274
+     ],
+     [
+      2571,
+      4274
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Fields south of the walls",
+    "periods": [
+     "sikri-1560",
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3081,
+      3695
+     ],
+     [
+      3471,
+      3625
+     ],
+     [
+      3571,
+      4174
+     ],
+     [
+      3101,
+      4254
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Fields by the Gwalior road",
+    "periods": [
+     "sikri-1560",
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2971,
+      3074
+     ],
+     [
+      3471,
+      2974
+     ],
+     [
+      3671,
+      3374
+     ],
+     [
+      3021,
+      3475
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Fields of Sikri",
+    "periods": [
+     "sikri-1560"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      643,
+      2718
+     ],
+     [
+      1486,
+      2352
+     ],
+     [
+      2279,
+      2086
+     ],
+     [
+      2973,
+      1852
+     ],
+     [
+      3419,
+      1686
+     ],
+     [
+      3815,
+      1332
+     ],
+     [
+      3667,
+      1038
+     ],
+     [
+      3271,
+      1393
+     ],
+     [
+      2825,
+      1559
+     ],
+     [
+      2131,
+      1792
+     ],
+     [
+      1338,
+      2059
+     ],
+     [
+      495,
+      2425
+     ]
+    ],
+    "name": "Lake margin",
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      643,
+      2718
+     ],
+     [
+      1486,
+      2352
+     ],
+     [
+      2279,
+      2086
+     ],
+     [
+      2973,
+      1852
+     ],
+     [
+      3419,
+      1686
+     ],
+     [
+      3815,
+      1332
+     ],
+     [
+      3712,
+      1127
+     ],
+     [
+      3316,
+      1482
+     ],
+     [
+      2870,
+      1648
+     ],
+     [
+      2176,
+      1881
+     ],
+     [
+      1383,
+      2148
+     ],
+     [
+      540,
+      2514
+     ]
+    ],
+    "name": "Drying lake margin",
+    "periods": [
+     "abandoned-1610"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "daulat-khana",
+    "name": "Daulat Khana (the palace)",
+    "polygon": [
+     [
+      2921,
+      2369
+     ],
+     [
+      3341,
+      2369
+     ],
+     [
+      3341,
+      2095
+     ],
+     [
+      2921,
+      2095
+     ]
+    ],
+    "description": "The imperial palace on the crest of the ridge: courts of audience, the emperor's own quarters round the Anup Talao, the harem palaces, offices, treasury and workshops, all of red sandstone and laid out on a strict grid.",
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "id": "sikri",
+    "name": "Sikri",
+    "polygon": [
+     [
+      2551,
+      2694
+     ],
+     [
+      2921,
+      2694
+     ],
+     [
+      2921,
+      2374
+     ],
+     [
+      2551,
+      2374
+     ]
+    ],
+    "description": "The old village on the ridge where Shaikh Salim Chishti lived; under Akbar the quarter of the great mosque, the saint's family and the stonecutters, and afterwards the village again.",
+    "periods": [
+     "sikri-1560",
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "id": "bazaar",
+    "name": "The bazaar",
+    "polygon": [
+     [
+      4251,
+      1814
+     ],
+     [
+      3501,
+      2124
+     ],
+     [
+      3501,
+      2304
+     ],
+     [
+      4251,
+      1994
+     ]
+    ],
+    "description": "The commercial street from the Agra Gate to the palace: cloth, grain and jewel merchants, cookshops, money-changers and the imperial mint nearby.",
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "id": "lower-town",
+    "name": "Lower town",
+    "polygon": [
+     [
+      4121,
+      2654
+     ],
+     [
+      2871,
+      2964
+     ],
+     [
+      2971,
+      3325
+     ],
+     [
+      3711,
+      2974
+     ]
+    ],
+    "description": "Houses of soldiers, clerks and craftsmen on the plain between the ridge and the south wall.",
+    "periods": [
+     "akbar-1585"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Fatehpur",
+    "position": [
+     3621,
+     3034
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "text": "Sikri",
+    "position": [
+     2701,
+     2744
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "sikri-1560"
+    ]
+   },
+   {
+    "text": "Sikri",
+    "position": [
+     2471,
+     2834
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "text": "The Lake",
+    "position": [
+     1671,
+     1374
+    ],
+    "size": "lg",
+    "rotation": -24,
+    "periods": [
+     "akbar-1585"
+    ]
+   },
+   {
+    "text": "The Lake",
+    "position": [
+     1471,
+     1475
+    ],
+    "size": "md",
+    "rotation": -24,
+    "periods": [
+     "sikri-1560",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "text": "Sikri ridge",
+    "position": [
+     2321,
+     2524
+    ],
+    "size": "md",
+    "rotation": -22,
+    "periods": [
+     "sikri-1560",
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   },
+   {
+    "text": "to Agra",
+    "position": [
+     5271,
+     1654
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "sikri-1560",
+     "akbar-1585",
+     "abandoned-1610"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D5AE",
+   "ink": "#6E4532",
+   "water": "#6A8C8A",
+   "hill": "#8C6E52",
+   "road": "#8C6A48"
+  },
+  "compass": [
+   5151,
+   444
+  ],
+  "cartouche": [
+   191,
+   4444
+  ]
+ },
+ "periods": [
+  {
+   "id": "sikri-1560",
+   "label": "The village of Sikri",
+   "year": 1560,
+   "startYear": 1527,
+   "endYear": 1570,
+   "summary": "A village of stonecutters under a ridge of red sandstone by a seasonal lake. Babur beat Rana Sanga at nearby Khanwa in 1527, called the place Shukri, 'thanks', and laid out a garden with a step-well. The Chishti Sufi Shaikh Salim lives on the ridge in a hospice among the quarrymen; in 1568 Akbar, still without a son, comes to ask his prayers.",
+   "population": "a few hundred to a few thousand",
+   "feel": "Chisels ringing on the ridge, buffalo wading in the shallows, the drone of zikr from the saint's hospice at dusk.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Stonecutters' houses of Sikri",
+    "text": "One-room houses of rubble sandstone and mud round a yard, roofed with flat stone slabs laid on stone beams, a platform by the door for working. Waste chips and half-finished brackets and lintels lie in every lane."
+   },
+   "outskirts": {
+    "title": "Quarries and fields",
+    "text": "Quarry cuts in the ridge, millet and wheat fields on the plain, herders' huts and the lake's grassy margin where Babur's garden stands walled."
+   }
+  },
+  {
+   "id": "akbar-1585",
+   "label": "Akbar's city",
+   "year": 1585,
+   "startYear": 1571,
+   "endYear": 1585,
+   "summary": "Akbar's capital from 1571 to 1585, built at speed of the ridge's own red sandstone: a palace of courts and pavilions on the crest, the Jama Masjid round the saint's tomb, the Buland Darwaza, a lake dammed to the north-west and a town of bazaars and nobles' mansions inside walls on three sides. Here Akbar held the Ibadat Khana debates and received the Jesuits.",
+   "population": "perhaps 100,000–200,000 (Ralph Fitch thought it larger than London; estimates vary widely)",
+   "feel": "Kettledrums from the Naubat Khana at the watches of the day, elephants at the Hathi Pol, Persian, Hindi and Portuguese in the same bazaar.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Mansions and bazaar houses of Fatehpur",
+    "text": "Nobles' havelis of dressed red sandstone round one or two courts, with pillared verandahs, stone screens and flat terraces; in the bazaar, rows of shops with rooms above, and behind them rubble-and-mud courtyard houses of soldiers, clerks and craftsmen."
+   },
+   "outskirts": {
+    "title": "Gardens and lakeside",
+    "text": "Walled gardens and orchards along the lake shore, the karkhanas and stables below the palace, herders' villages and fields beyond the walls."
+   }
+  },
+  {
+   "id": "abandoned-1610",
+   "label": "The emptied city",
+   "year": 1610,
+   "startYear": 1586,
+   "endYear": 1640,
+   "summary": "The court left in 1585 for the north-west and never truly came back. The palaces stand, locked and kept by a few servants; the bazaars thin out and the town shrinks back to a village round the mosque and the saint's tomb, where his descendants still live. Jahangir camps here in 1619 to escape plague in Agra.",
+   "population": "a few thousand",
+   "feel": "Pigeons in the empty halls, pilgrims tying threads at the saint's marble screen, goats grazing in the Diwan-i-Am.",
+   "style": "courtyard",
+   "houses": {
+    "title": "The village in the city",
+    "text": "The saint's descendants and the mosque's servants keep the stone houses round the Jama Masjid; elsewhere mansions stand roofless or are lived in by a family in a few rooms, and new mud houses are built of salvaged stone."
+   },
+   "outskirts": {
+    "title": "Ruins and fields",
+    "text": "Empty bazaar streets and garden walls going back to fields; the lake shrinking behind its neglected dam."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "jama-masjid",
+   "placeId": "jami-masjid-fatehpur",
+   "name": "Jama Masjid",
+   "category": "religious",
+   "position": [
+    2785,
+    2504
+   ],
+   "rotation": 0,
+   "footprint": [
+    163.2,
+    143.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/jama-masjid.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 160,
+     "depth": 140,
+     "domes": 3,
+     "minaretHeight": 48.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "The crest where Shaikh Salim Chishti keeps his hospice, his cell and the stonecutters' little mosque; the great mosque will be built round them."
+    },
+    "akbar-1585": {
+     "note": "Finished in 1571–72 by its inscription, the first great building of the city: Akbar sometimes sweeps its floor and in 1579 climbs its pulpit himself."
+    },
+    "abandoned-1610": {
+     "note": "Still the town's Friday mosque, kept by the saint's descendants, its court a cemetery of the Chishti family and a place of pilgrimage."
+    }
+   },
+   "summary": "The congregational mosque of Akbar's city, finished in 1571–72: a vast arcaded court round the saint's tomb, a prayer hall with three domes, and rows of chhatris along the cloister roofs.",
+   "details": [
+    "Among the largest mosques in India, it encloses a court of very roughly 110 by 130 m. Cloisters of cells run round three sides, crowned with small domed kiosks; the prayer hall on the west has a tall central pishtaq and three domed chambers. The emperor entered by the Badshahi Darwaza on the east; the Buland Darwaza opens to the south.",
+    "The miniature shows the court, its cloisters, kiosks and gates, the prayer hall with its pishtaq and three domes. The domes are simplified; the tombs in the court are shown as their own landmarks, and the many family graves are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-jama-masjid-fs",
+    "koch",
+    "rizvi-flynn",
+    "smith-fs"
+   ],
+   "built": "c. 1569–1572",
+   "function": "Congregational (Friday) mosque",
+   "activity": {
+    "figures": 50,
+    "radius": 150
+   }
+  },
+  {
+   "id": "buland-darwaza",
+   "placeId": "buland-darwaza",
+   "name": "Buland Darwaza",
+   "category": "monument",
+   "position": [
+    2803,
+    2596
+   ],
+   "rotation": 0,
+   "footprint": [
+    46.0,
+    44.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/buland-darwaza.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 46,
+     "depth": 44,
+     "height": 17.6,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "The southern lip of the ridge above the village track, a drop of a dozen metres to the plain."
+    },
+    "akbar-1585": {
+     "note": "The great south gate of the mosque, usually dated to 1575 after the conquest of Gujarat; some historians date it to 1601–02 instead.",
+     "confidence": "reconstruction"
+    },
+    "abandoned-1610": {
+     "note": "Its inscription of 1601 records Akbar's conquests in the Deccan and the saying 'the world is a bridge: pass over it, but build no house upon it.'"
+    }
+   },
+   "summary": "The 'lofty gate' of the Jama Masjid, about 54 m from the road below to its crown: a half-octagonal pishtaq of red sandstone inlaid with white marble, reached by a great flight of steps.",
+   "details": [
+    "The gate rises some 40 m above its platform and stands on the edge of the ridge, so that with its steps it towers over the town. Its date is debated: the usual account ties it to the Gujarat victory of 1573, but its inscriptions are of 1601–02 and some scholars think it was built or remodelled then. The Persian verses quote a saying of Jesus.",
+    "The miniature shows the stair and the ridge terrace, the half-octagonal front with its tall arch and marble bands, the arched wings in three tiers, the row of small kiosks on the crest and the larger chhatris on the roof. The steps are fewer and the inscriptions omitted."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-buland-darwaza",
+    "koch",
+    "rizvi-flynn",
+    "brand-lowry"
+   ],
+   "built": "c. 1575 (inscriptions 1601–02)",
+   "function": "Victory gate of the mosque",
+   "activity": {
+    "figures": 30,
+    "radius": 80
+   }
+  },
+  {
+   "id": "salim-chishti-tomb",
+   "placeId": "dargah-salim-chishti",
+   "name": "Tomb of Shaikh Salim Chishti",
+   "category": "religious",
+   "position": [
+    2793,
+    2471
+   ],
+   "rotation": 0,
+   "footprint": [
+    18.2,
+    18.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/salim-chishti-tomb.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 18,
+     "depth": 18,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "The saint is alive, living in his hospice on this spot with his family and disciples."
+    },
+    "akbar-1585": {
+     "note": "Built in 1580–81 over the grave of the saint, who died in 1572; already a pilgrimage for women hoping for a child."
+    },
+    "abandoned-1610": {
+     "note": "With the court gone the tomb is the heart of the town; some of its marble work is said to have been finished under Jahangir, the saint's 'answered prayer'."
+    }
+   },
+   "summary": "The white marble tomb of the Sufi saint whose blessing was believed to have given Akbar his heir: a domed chamber in a verandah of pierced marble screens under a deep eave on serpentine brackets.",
+   "details": [
+    "Shaikh Salim of the Chishti order died in 1572 and was buried in the mosque court. His tomb, finished in 1580–81, is a single domed chamber with a mother-of-pearl canopy over the grave, enclosed by an ambulatory of fine marble jali. Childless women still tie threads to the screens. How much of the marble dates from Akbar's reign and how much from later is debated.",
+    "The miniature shows the low marble plinth, the four screened sides with the south porch, the deep chhajja on its brackets, and the hemispherical dome. Carving and the inlaid floor are simplified to flat panels."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-salim-chishti-tomb",
+    "koch",
+    "asher",
+    "rizvi-flynn"
+   ],
+   "built": "1580–1581",
+   "function": "Tomb and shrine (dargah) of a Sufi saint",
+   "activity": {
+    "figures": 25,
+    "radius": 30
+   }
+  },
+  {
+   "id": "islam-khan-tomb",
+   "placeId": "islam-khan-tomb",
+   "name": "Tomb of Islam Khan",
+   "category": "religious",
+   "position": [
+    2837,
+    2464
+   ],
+   "rotation": 0,
+   "footprint": [
+    18.0,
+    18.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/islam-khan-tomb.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 18,
+     "depth": 18,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abandoned-1610"
+   ],
+   "variants": {
+    "akbar-1585": {
+     "note": "Open paving in the court, east of the saint's tomb, among the graves of the Chishti family."
+    },
+    "abandoned-1610": {
+     "note": "Built after Islam Khan's death in 1613 as governor of Bengal; the date of the building is not exactly known."
+    }
+   },
+   "summary": "The red sandstone tomb of the saint's grandson, Islam Khan, governor of Bengal under Jahangir: a dome ringed by thirty-six little chhatris, in the north of the mosque court.",
+   "details": [
+    "Shaikh Ala-ud-din, titled Islam Khan, was the grandson of Salim Chishti and grew up close to Prince Salim; as governor of Bengal he made Dhaka its capital in 1610 and died in 1613. His tomb stands in an enclosure of family graves. Its dome rests on a square chamber with a screened verandah, the roof edge crowded with small kiosks.",
+    "The miniature shows the plinth, the screened verandah, the domed chamber and the ring of 36 kiosks. The enclosure walls and the surrounding graves are left out, and the date of building is uncertain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-islam-khan",
+    "rizvi-flynn",
+    "asher"
+   ],
+   "built": "after 1613",
+   "function": "Tomb",
+   "activity": {
+    "figures": 6,
+    "radius": 25
+   }
+  },
+  {
+   "id": "diwan-i-am",
+   "placeId": "diwan-i-am",
+   "name": "Diwan-i-Am",
+   "category": "civic",
+   "position": [
+    3296,
+    2259
+   ],
+   "rotation": 0,
+   "footprint": [
+    62.4,
+    112.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/diwan-i-am.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 110,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "Each day Akbar sits in the throne pavilion to hear petitions, review animals and troops, and receive envoys; the nobles stand in order of rank in the court."
+    },
+    "abandoned-1610": {
+     "note": "Empty of courtiers; the court filled the palace again for a few months when Jahangir stayed in 1619."
+    }
+   },
+   "summary": "The hall of public audience: a great court ringed by pillared cloisters, with the emperor's screened throne pavilion in its west side opening into the private palace behind.",
+   "details": [
+    "Here Akbar appeared before his subjects, dispensed justice and held public business. The cloistered court, roughly 110 by 55 m, could hold the whole court in ranks. The throne pavilion, of five bays with stone screens on either side, joined the court to the Daulat Khana behind, so that the emperor could pass from his private quarters straight to the throne.",
+    "The miniature shows the court and its cloisters, the gates, the throne pavilion with its screens and sloping stone roof, and corner kiosks. Proportions follow the usual plans; the cloisters are simplified to a single range of arches."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-diwan-i-am",
+    "wiki-fatehpur-sikri",
+    "koch",
+    "smith-fs"
+   ],
+   "built": "c. 1571–1576",
+   "function": "Hall and court of public audience",
+   "activity": {
+    "figures": 40,
+    "radius": 80
+   }
+  },
+  {
+   "id": "diwan-i-khas",
+   "placeId": "diwan-i-khas",
+   "name": "Diwan-i-Khas",
+   "category": "civic",
+   "position": [
+    3193,
+    2180
+   ],
+   "rotation": 0,
+   "footprint": [
+    16.8,
+    16.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/diwan-i-khas.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 18,
+     "depth": 18,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "A single tall hall round a carved central pillar; who met here, and for what, is still argued. Tradition seats Akbar on the pillar's platform among his scholars."
+    },
+    "abandoned-1610": {
+     "note": "Shut and empty, kept with the rest of the palace by a few caretakers."
+    }
+   },
+   "summary": "The hall of private audience: a square two-storeyed block with four domed corner kiosks, holding inside a single column whose bracketed capital carries a platform joined by four bridges to the gallery.",
+   "details": [
+    "Outside it looks like a two-storey pavilion; inside it is one tall room. The central pillar flowers into a capital of 36 serpentine brackets supporting a round platform, linked to the corners by four narrow walkways. It has been read as Akbar's throne among his counsellors, a treasury or a symbol of world rule; it was once identified with the Ibadat Khana, now generally doubted.",
+    "The miniature shows only the exterior: the plinth, the doors and windows of the two apparent storeys, the balcony eave, the deep roof chhajja on brackets, the parapet and the four domed kiosks. The famous pillar is inside and not modelled."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-diwan-i-khas-fs",
+    "koch",
+    "brand-lowry",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1575",
+   "function": "Hall of private audience (function debated)",
+   "activity": {
+    "figures": 10,
+    "radius": 30
+   }
+  },
+  {
+   "id": "panch-mahal",
+   "placeId": "panch-mahal",
+   "name": "Panch Mahal",
+   "category": "civic",
+   "position": [
+    3113,
+    2257
+   ],
+   "rotation": 0,
+   "footprint": [
+    26.0,
+    18.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/panch-mahal.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 26,
+     "depth": 18,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "The ladies of the harem take the evening air here behind stone screens, looking over the pachisi court, the Anup Talao and the lake."
+    },
+    "abandoned-1610": {
+     "note": "Its screens are still in place; the court below is empty."
+    }
+   },
+   "summary": "A five-storeyed open pavilion stepping up and back, carried on 176 columns (84, 56, 20, 12 and 4 by storey) and crowned with a domed kiosk: a wind tower for the women of the palace.",
+   "details": [
+    "Each storey is smaller than the one below and set back towards one side, so the building rises like a pyramid of columns. The pillars are carved differently from one another, and the open sides were once closed with stone screens so that the women could see without being seen. It caught the breeze off the lake in the hot months.",
+    "The miniature follows the column counts storey by storey and the asymmetrical stepping, with eaves, floor slabs and screened parapets; the top storey is a four-pillared domed kiosk. Column carving and the lost jali screens are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-panch-mahal",
+    "koch",
+    "smith-fs"
+   ],
+   "built": "c. 1570s",
+   "function": "Pleasure and wind pavilion of the harem",
+   "activity": {
+    "figures": 8,
+    "radius": 30
+   }
+  },
+  {
+   "id": "anup-talao",
+   "placeId": "anup-talao",
+   "name": "Anup Talao",
+   "category": "civic",
+   "position": [
+    3171,
+    2274
+   ],
+   "rotation": 0,
+   "footprint": [
+    36.0,
+    36.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/anup-talao.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 36,
+     "depth": 36,
+     "height": 14.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "Tradition puts Tansen singing on the central platform; Abu'l-Fazl tells of a tank (perhaps this one) filled with coins about 1578 and given away."
+    },
+    "abandoned-1610": {
+     "note": "Dry or nearly so, since the water had to be lifted from the lake."
+    }
+   },
+   "summary": "The 'peerless pool' of the emperor's private court: a square tank of red sandstone with a central platform reached by four narrow causeways.",
+   "details": [
+    "The tank, about 29 m square, lies in front of Akbar's private apartments. Its island platform, with a low railing, was a stage for music and conversation, and the water was fed from the lake by a chain of wheels and channels. Abu'l-Fazl describes a tank filled with copper, silver and gold coins that Akbar gave away; whether it was this one, often called the Kapur Talao, is uncertain.",
+    "The miniature shows the paved walk round the water, the railing, the four causeways on piers and the central platform. The steps down into the tank are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-anup-talao",
+    "akbarnama",
+    "koch"
+   ],
+   "built": "c. 1575",
+   "function": "Ornamental tank",
+   "activity": {
+    "figures": 10,
+    "radius": 30
+   }
+  },
+  {
+   "id": "khwabgah",
+   "placeId": "khwabgah",
+   "name": "Khwabgah",
+   "category": "civic",
+   "position": [
+    3177,
+    2317
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.0,
+    22.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/khwabgah.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 22,
+     "height": 8.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "Akbar sleeps in the upper chamber and shows himself at dawn from its window; below are rooms that may have held his library and records."
+    },
+    "abandoned-1610": {
+     "note": "Jahangir stayed in his father's palace for some months in 1619, while plague raged in Agra."
+    }
+   },
+   "summary": "The 'house of dreams': Akbar's private apartment south of the Anup Talao, a two-storey block with the emperor's sleeping chamber on the roof, its walls once painted and inscribed with Persian verse.",
+   "details": [
+    "The ground floor held halls and rooms, perhaps the library and record office (the Daftar Khana lies close by); a stair rises to a small chamber on the roof, surrounded by a verandah, where the emperor slept. Traces of murals and gilded inscriptions survive. From a window here Akbar is thought to have made his morning appearance, the jharokha darshan.",
+    "The miniature shows the arcaded lower block, its eave and parapet, and the rooftop chamber in a pillared verandah crowned by a domed kiosk. The arrangement of the ground-floor rooms is simplified, and the domed crown is a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-khwabgah",
+    "wiki-fatehpur-sikri",
+    "koch",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1571–1575",
+   "function": "The emperor's private apartment",
+   "activity": {
+    "figures": 8,
+    "radius": 30
+   }
+  },
+  {
+   "id": "jodh-bai-palace",
+   "placeId": "mariam-uz-zamani-palace",
+   "name": "Jodh Bai's Palace (Mariam-uz-Zamani's palace)",
+   "category": "civic",
+   "position": [
+    3021,
+    2315
+   ],
+   "rotation": 0,
+   "footprint": [
+    74.6,
+    68.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/jodh-bai-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 72,
+     "depth": 68,
+     "height": 27.200000000000003,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "The largest palace of the harem, home of Akbar's Rajput queen from Amber, mother of Prince Salim, and of her household of women and guards."
+    },
+    "abandoned-1610": {
+     "note": "Locked; Jahangir's household used the harem palaces during the plague year of 1619."
+    }
+   },
+   "summary": "The great harem palace: high plain walls round a court, entered from the east, with domed corner pavilions and north and south pavilions roofed in blue glazed tile.",
+   "details": [
+    "Built round a court of some 50 m, with carved pillars and brackets in the manner of Gujarat and Rajasthan, it is usually associated with Akbar's Rajput wife Harkha Bai (Mariam-uz-Zamani), mother of Jahangir; the name 'Jodh Bai' is a later misattribution. The ridged roofs of turquoise-blue tiles over the north and south ranges and the screened Hawa Mahal on the north are its distinctive features.",
+    "The miniature shows the walled ranges with their inner arcades, the east gate, the blue-tiled pavilions, the domed corner and west pavilions, and the Hawa Mahal screens. Inner rooms, stairs and the garden to the north are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mariam-palace",
+    "koch",
+    "smith-fs"
+   ],
+   "built": "c. 1571–1575",
+   "function": "Palace of the imperial harem",
+   "activity": {
+    "figures": 15,
+    "radius": 60
+   }
+  },
+  {
+   "id": "birbal-house",
+   "placeId": "birbal-house",
+   "name": "Birbal's House",
+   "category": "civic",
+   "position": [
+    2956,
+    2229
+   ],
+   "rotation": 0,
+   "footprint": [
+    20.0,
+    21.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/birbal-house.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 22,
+     "depth": 20,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "A richly carved house on the harem's north-west side, probably for senior queens rather than the witty Raja Birbal of later legend."
+    },
+    "abandoned-1610": {
+     "note": "Empty, its carved stone untouched."
+    }
+   },
+   "summary": "A small two-storeyed palace of exquisitely carved red sandstone, with two domed upper chambers set diagonally and two porches; an inscription dates it to about 1571–72.",
+   "details": [
+    "Tradition gives it to Raja Birbal, Akbar's minister and companion, but its position inside the harem and its inscription suggest it was built for two of Akbar's senior wives, perhaps Ruqaiya Begum and Salima Sultan Begum. Every surface is carved: brackets, eaves, panels of geometric and floral ornament.",
+    "The miniature shows the plinth, the four-roomed ground floor, the two porches with pyramidal stone roofs, and the two upper rooms with fluted domes on octagonal drums. The carving is left out and the terraces simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-birbal-house",
+    "koch",
+    "smith-fs"
+   ],
+   "built": "c. 1571–1572",
+   "function": "Residence in the harem",
+   "activity": {
+    "figures": 6,
+    "radius": 25
+   }
+  },
+  {
+   "id": "mariam-house",
+   "placeId": "sunahra-makan",
+   "name": "Mariam's House (Sunahra Makan)",
+   "category": "civic",
+   "position": [
+    3109,
+    2209
+   ],
+   "rotation": 0,
+   "footprint": [
+    20.0,
+    14.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/mariam-house.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 20,
+     "depth": 14,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "Its walls glint with gilded and painted murals; it was perhaps the house of Akbar's mother, Hamida Banu Begum, called Mariam Makani."
+    },
+    "abandoned-1610": {
+     "note": "Shut; the gilding begins its slow fading."
+    }
+   },
+   "summary": "The 'golden house': a small two-storey pavilion by the palace court, named for the gilded murals that once covered it.",
+   "details": [
+    "Who lived here is uncertain. The name Mariam suggests Akbar's mother, Mariam Makani, or his Rajput wife Mariam-uz-Zamani; a story that it belonged to a Christian wife has no basis. The murals, now faint, showed figures, animals and scenes thought to be drawn from Persian and Indian stories.",
+    "The miniature shows the pillared verandah, the rooms behind it, a gilt band standing for the murals, the upper room and the roof kiosks. The layout is simplified and the kiosks are partly reconstructed."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-fatehpur-sikri",
+    "rizvi-flynn",
+    "smith-fs"
+   ],
+   "built": "c. 1570s",
+   "function": "Residence in the palace",
+   "activity": {
+    "figures": 4,
+    "radius": 20
+   }
+  },
+  {
+   "id": "ibadat-khana",
+   "placeId": "ibadat-khana",
+   "name": "Ibadat Khana (House of Worship)",
+   "category": "religious",
+   "position": [
+    3266,
+    2129
+   ],
+   "rotation": 0,
+   "footprint": [
+    41.6,
+    41.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/ibadat-khana.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "On Thursday nights the lamps are lit for debate: Sunni and Shia scholars, Sufis, Brahmins, Jains, Zoroastrians and, from 1580, Jesuit fathers.",
+     "confidence": "interpretation"
+    },
+    "abandoned-1610": {
+     "note": "Out of use since the debates ended in the early 1580s; where it stood is no longer clear.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The hall built in 1575 for Akbar's Thursday-night debates on religion; its site has never been securely identified, so the building here is a guess from Abu'l-Fazl's description.",
+   "details": [
+    "By Abu'l-Fazl's and Badauni's accounts it was built beside the cell of the Sufi Shaikh Abdullah Niyazi, with four halls (aiwans) in which different groups sat: nobles, Sayyids, scholars and Sufis. At first only Muslims took part; from about 1578 the debates were opened to Hindus, Jains, Zoroastrians and Christians. Excavated foundations and several buildings, including the Diwan-i-Khas, have been proposed for it.",
+    "The miniature imagines four halls round a domed central chamber on a plinth. The position on the map is likewise a guess, in the palace precinct north of the Diwan-i-Am."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ibadat-khana",
+    "akbarnama",
+    "rizvi-flynn"
+   ],
+   "built": "1575",
+   "function": "Hall for religious debate",
+   "activity": {
+    "figures": 20,
+    "radius": 30
+   }
+  },
+  {
+   "id": "hakims-hammam",
+   "placeId": "hakims-hammam",
+   "name": "Hakims' Hammam",
+   "category": "civic",
+   "position": [
+    2971,
+    2444
+   ],
+   "rotation": 0,
+   "footprint": [
+    29.0,
+    21.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/hakims-hammam.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 22,
+     "height": 8.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
+    },
+    "akbar-1585": {
+     "note": "Steam, plaster and the smell of the furnace: the bath of the court physicians, the hakims, whose quarters stood nearby."
+    },
+    "abandoned-1610": {
+     "note": "Cold, its furnace out; the stucco still bright inside the domes."
+    }
+   },
+   "summary": "A Persian-style bath house by the Hakims' quarters below the palace: a low block of chambers roofed with small plastered domes, with a water tank and furnace.",
+   "details": [
+    "Hot, warm and cool rooms in sequence, heated from a furnace and fed from a raised tank, the hammam is one of several in the city and among the best preserved, with fine incised stucco in its domes. Its attribution to the physicians rests on the name of the neighbouring quarters.",
+    "The miniature shows the bath block, its dome cluster over the chambers, the entrance and the tank tower. Its position follows the general area of the Hakims' quarters; the internal plan is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hammam",
+    "wiki-fatehpur-sikri",
+    "smith-fs"
+   ],
+   "built": "c. 1570s",
+   "function": "Bath house",
+   "activity": {
+    "figures": 6,
+    "radius": 25
+   }
+  },
+  {
+   "id": "naubat-khana",
+   "placeId": "naubat-khana",
+   "name": "Naubat Khana",
+   "category": "military",
+   "position": [
+    3501,
+    2214
+   ],
+   "rotation": -113,
+   "footprint": [
+    29.6,
+    13.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/naubat-khana.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 14,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "The ridge slope above the Agra road, scrub and stone."
+    },
+    "akbar-1585": {
+     "note": "Drummers and pipers in the gallery strike up for the emperor's coming and going and mark the watches of the day and night."
+    },
+    "abandoned-1610": {
+     "note": "The drums are gone with the court."
+    }
+   },
+   "summary": "The drum house: a gateway over the bazaar road where it climbs to the palace, with a gallery for the kettledrums and pipes of the imperial band.",
+   "details": [
+    "Mughal palaces announced the emperor's presence with the naubat, the music of kettledrums, trumpets and shawms played at set hours. Here the musicians sat over the arch through which visitors came from the Agra Gate and the bazaar towards the Diwan-i-Am.",
+    "The miniature shows the arched passage with side rooms, the upper gallery and corner kiosks. Its details are simplified from the usual descriptions."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-naubat-khana",
+    "wiki-fatehpur-sikri",
+    "smith-fs"
+   ],
+   "built": "c. 1571–1576",
+   "function": "Gate and drum house",
+   "activity": {
+    "figures": 12,
+    "radius": 40
+   }
+  },
+  {
+   "id": "agra-gate",
+   "placeId": "agra-gate",
+   "name": "Agra Gate",
+   "category": "military",
+   "position": [
+    4261,
+    1886
+   ],
+   "rotation": -130,
+   "footprint": [
+    60.0,
+    18.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/agra-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 60,
+     "depth": 18,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Open fields by the Agra road."
+    },
+    "akbar-1585": {
+     "note": "The city's main gate, on the road from Agra, through which caravans, embassies and the emperor's own processions entered."
+    },
+    "abandoned-1610": {
+     "note": "Still the way in for pilgrims coming from Agra to the saint's tomb."
+    }
+   },
+   "summary": "The principal gate of the city wall, on the north-east side facing Agra: a high arch between round bastions with kiosks above.",
+   "details": [
+    "Of the nine gates of the city wall the Agra Gate was the busiest, opening on the road to Agra 37 km away. From it the bazaar climbed straight up to the Naubat Khana and the palace.",
+    "The miniature shows the gatehouse with its arch, towers and kiosks, two round bastions and stubs of the crenellated wall. The masonry is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-fatehpur-sikri",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1571–1585",
+   "function": "City gate",
+   "activity": {
+    "figures": 15,
+    "radius": 50
+   }
+  },
+  {
+   "id": "ajmeri-gate",
+   "placeId": "ajmeri-gate",
+   "name": "Ajmeri Gate",
+   "category": "military",
+   "position": [
+    990,
+    3106
+   ],
+   "rotation": 37,
+   "footprint": [
+    60.0,
+    22.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/ajmeri-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 60,
+     "depth": 18,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Fields on the track west towards Khanwa and Ajmer."
+    },
+    "akbar-1585": {
+     "note": "The south-western gate, on the road towards Ajmer and the shrine of Muinuddin Chishti, the goal of Akbar's pilgrimages."
+    },
+    "abandoned-1610": {
+     "note": "Little used, in a wall now enclosing fields."
+    }
+   },
+   "summary": "The city gate on the road to Ajmer, at the south-western end of the wall near the lake.",
+   "details": [
+    "The road through this gate led to Ajmer, where Akbar went repeatedly to the shrine of Muinuddin Chishti, the spiritual master of Shaikh Salim's order; in 1570 he walked there on foot in thanks for his son's birth.",
+    "The miniature shows a smaller gatehouse with round bastions and wall stubs; the gate's exact form is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-fatehpur-sikri",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1571–1585",
+   "function": "City gate",
+   "activity": {
+    "figures": 6,
+    "radius": 40
+   }
+  },
+  {
+   "id": "hathi-pol",
+   "placeId": "hathi-pol",
+   "name": "Hathi Pol (Elephant Gate)",
+   "category": "military",
+   "position": [
+    2971,
+    2154
+   ],
+   "rotation": 180,
+   "footprint": [
+    30.0,
+    18.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/hathi-pol.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 16,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "A path down the north face of the ridge to the lake shore."
+    },
+    "akbar-1585": {
+     "note": "The gate from the harem side of the palace down to the lake, the Hiran Minar and the caravanserai; elephants were stabled nearby."
+    },
+    "abandoned-1610": {
+     "note": "Shut, its two stone elephants keeping watch over an empty road."
+    }
+   },
+   "summary": "The north-western gate of the palace, flanked by two life-size stone elephants on brackets whose raised trunks once met over the arch.",
+   "details": [
+    "The gate opens down the north slope of the ridge towards the lake. Its two elephants, carved in stone and set on high brackets either side of the arch, have lost their heads and trunks; the damage is often blamed on later iconoclasts, without firm evidence. Nearby are the Sangin Burj bastion, the step-well and the waterworks that raised lake water to the palace.",
+    "The miniature shows the gate block with its arch, towers with kiosks, stubs of wall and the two elephants, given heads and tusks as they first were."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-fatehpur-sikri",
+    "smith-fs",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1570s",
+   "function": "Palace gate",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "hiran-minar",
+   "placeId": "hiran-minar",
+   "name": "Hiran Minar",
+   "category": "monument",
+   "position": [
+    2991,
+    2004
+   ],
+   "rotation": 0,
+   "footprint": [
+    7.4,
+    7.4
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/hiran-minar.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 8,
+     "depth": 8,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "The grassy edge of the lake below the ridge."
+    },
+    "akbar-1585": {
+     "note": "A tower on the lake shore, perhaps for watching game and sport on the plain, perhaps the starting point of the road's kos minars."
+    },
+    "abandoned-1610": {
+     "note": "Standing alone above the receding water."
+    }
+   },
+   "summary": "A round tower about 21 m high, studded with stone projections shaped like elephant tusks, by the lake below the Hathi Pol; by tradition built over the grave of Akbar's favourite elephant, Hiran.",
+   "details": [
+    "Its octagonal base carries a tapering round shaft bristling with stone projections like tusks, and a small kiosk at the top. Its purpose is uncertain: a memorial to an elephant, a watch tower for hunts and spectacles on the lake shore, a lamp tower, or a milestone. 'Hiran' means deer, which has also fed the hunting story.",
+    "The miniature shows the base, the tusk-studded shaft and the kiosk; it is drawn at twice its size on the map to stay readable. The number and pattern of the tusks are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hiran-minar",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1570s",
+   "function": "Tower (purpose uncertain)",
+   "activity": {
+    "figures": 6,
+    "radius": 30
+   }
+  },
+  {
+   "id": "caravanserai",
+   "placeId": "caravanserai",
+   "name": "Caravanserai",
+   "category": "commercial",
+   "position": [
+    3111,
+    1979
+   ],
+   "rotation": 0,
+   "footprint": [
+    144.2,
+    64.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/caravanserai.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 140,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -35.0,
+        -15.0
+       ],
+       "width": 42.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        35.0,
+        12.0
+       ],
+       "width": 42.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Lake shore and grazing ground."
+    },
+    "akbar-1585": {
+     "note": "Merchants from Gujarat, Persia and Central Asia lodge with their bales and horses round the long court below the palace."
+    },
+    "abandoned-1610": {
+     "note": "Partly empty; travellers on the Agra–Ajmer road still stop here."
+    }
+   },
+   "summary": "A long walled inn for merchants and travellers by the lake shore below the palace, with rows of vaulted cells round a court and gates on the road and the water.",
+   "details": [
+    "The serai stands between the Hiran Minar and the old lake shore, its ranges of cells opening on a long court where animals and goods were kept. It served the traders who supplied the court and the city.",
+    "The miniature shows the court, the ranges of arched cells, the upper rooms on the lake side, gates, corner towers, a well and a small mosque. Its true dimensions are uncertain and the layout is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-caravanserai",
+    "wiki-fatehpur-sikri",
+    "rizvi-flynn"
+   ],
+   "built": "c. 1570s",
+   "function": "Caravanserai (merchants' inn)",
+   "activity": {
+    "figures": 30,
+    "radius": 90
+   }
+  },
+  {
+   "id": "baoli",
+   "placeId": "baoli",
+   "name": "The Baoli by the Hathi Pol",
+   "category": "civic",
+   "position": [
+    2921,
+    2104
+   ],
+   "rotation": 0,
+   "footprint": [
+    24.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/baoli.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 24,
+     "depth": 40,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "A spring line at the foot of the ridge, where the villagers water their cattle."
+    },
+    "akbar-1585": {
+     "note": "Part of the waterworks: bullocks turn Persian wheels to raise water from the well and the lake towards the palace tanks."
+    },
+    "abandoned-1610": {
+     "note": "Still drawn from by the villagers; the wheels up the hill have stopped."
+    }
+   },
+   "summary": "A deep step-well below the Hathi Pol, with flights of steps and galleries down to the water and a well-shaft at the end, part of the system that lifted water to the palace on the ridge.",
+   "details": [
+    "A baoli lets people climb down to groundwater through cool galleries that rise and fall with the season. This one, beside the waterworks on the north slope, also fed the chain of wheels and tanks that carried water from the lake up to the palace pools and baths.",
+    "The miniature shows the rim walls, the long stair down to the water, side galleries, the circular shaft with a wheel and the well-house; real step-wells go deep below ground, so the depth here is suggested only."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-stepwell",
+    "wiki-fatehpur-sikri",
+    "petruccioli"
+   ],
+   "built": "c. 1570s",
+   "function": "Step-well and water supply",
+   "activity": {
+    "figures": 8,
+    "radius": 30
+   }
+  },
+  {
+   "id": "babur-garden",
+   "placeId": "bagh-i-fath",
+   "name": "Babur's garden and step-well",
+   "category": "monument",
+   "position": [
+    1981,
+    2330
+   ],
+   "rotation": 0,
+   "footprint": [
+    82.8,
+    83.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/fatehpur-sikri/babur-garden.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "sikri-1560",
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Some thirty years old: a walled four-part garden with a step-well and a pavilion by the lake, laid out after Babur's victory at Khanwa."
+    },
+    "akbar-1585": {
+     "note": "An old garden among the nobles' gardens on the lake shore, overshadowed by the new city."
+    },
+    "abandoned-1610": {
+     "note": "Neglected, its walls falling and its well silting."
+    }
+   },
+   "summary": "The garden Babur, founder of the Mughal dynasty, laid out at Sikri after his victory at Khanwa in 1527, with a step-well and a pavilion by the lake: the first Mughal mark on the place.",
+   "details": [
+    "In his memoirs Babur describes ordering a garden, a well and a pavilion at Sikri, which he renamed Shukri, 'thanks'. Later sources call it the Garden of Victory. Remains of a step-well and garden near the lake have been identified with it, but the identification and the layout are uncertain.",
+    "The miniature shows a walled charbagh with water channels and trees, a small step-well and an octagonal pavilion. Its plan and position are a reconstruction."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "baburnama",
+    "wiki-babur",
+    "rizvi-flynn"
+   ],
+   "built": "1527–1528",
+   "function": "Garden, step-well and pavilion",
+   "activity": {
+    "figures": 6,
+    "radius": 50
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "khanqah",
+   "name": "Shaikh Salim's hospice (khanqah)",
+   "kind": "shrine",
+   "position": [
+    2701,
+    2395
+   ],
+   "activePeriods": [
+    "sikri-1560",
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "The hospice of the Chishti saint Shaikh Salim on the ridge, where Akbar came to ask for a son and where Prince Salim was born in 1569.",
+   "details": [
+    "Shaikh Salim (c. 1478–1572) had travelled for years in Arabia and settled at Sikri among the stonecutters, keeping a hospice with his family and disciples. The Chishtis fed all comers and sang devotional music. Akbar lodged his pregnant Rajput wife here to be near the saint; the house where she gave birth stood beside the hospice."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-salim-chishti",
+    "akbarnama",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn the disciples sit in rows for the dhikr, the name of God repeated until the words blur into breath; the saint's lamp burns in his cell."
+    },
+    {
+     "hour": 12,
+     "text": "The langar pot steams in the yard: lentils and coarse bread ladled out to stonecutters, travellers and a soldier from the emperor's escort."
+    },
+    {
+     "hour": 19,
+     "text": "A woman who has walked from a village near Bayana waits at the door to ask the shaikh's prayer for a child."
+    }
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "The saint's own hospice, small and crowded; in 1568 Akbar comes here to ask for an heir."
+    },
+    "akbar-1585": {
+     "note": "The saint is dead; his sons and grandsons keep the hospice beside the great mosque, honoured by the emperor."
+    },
+    "abandoned-1610": {
+     "name": "The saint's family house",
+     "note": "The Chishti family remain when the court has gone, keepers of the shrine and the town's leading men."
+    }
+   }
+  },
+  {
+   "id": "stonecutters-mosque",
+   "name": "Stonecutters' Mosque",
+   "kind": "shrine",
+   "position": [
+    2651,
+    2475
+   ],
+   "activePeriods": [
+    "sikri-1560",
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "A small mosque on the ridge said to have been built by the quarrymen of Sikri for Shaikh Salim, before the great mosque; traditionally dated about 1565.",
+   "details": [
+    "A plain prayer hall with curved serpentine brackets under its eaves, the same kind of bracket later used at the saint's tomb. The tradition that the stonecutters built it for him from their own work is old; the date is uncertain. The saint's cell is said to have adjoined it."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "rizvi-flynn",
+    "wiki-fatehpur-sikri"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Quarrymen wash at the stone trough, white dust running off their forearms, before the dawn prayer."
+    },
+    {
+     "hour": 13,
+     "text": "A carver runs his thumb along the serpentine bracket over the door, his father's work, and nods."
+    },
+    {
+     "hour": 18,
+     "text": "The call to prayer from its low roof; below, the chisels stop one by one."
+    }
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "Newly built, or about to be: the village's own gift to the saint."
+    },
+    "akbar-1585": {
+     "note": "Dwarfed by the Jama Masjid next door but still used by the old families."
+    },
+    "abandoned-1610": {
+     "note": "Still in use, as old as anyone in the village can remember."
+    }
+   }
+  },
+  {
+   "id": "stonecutters-yard",
+   "name": "Stonecutters' yard",
+   "kind": "workshop",
+   "position": [
+    2521,
+    2524
+   ],
+   "activePeriods": [
+    "sikri-1560",
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "A quarry and dressing yard on the ridge, where red sandstone was split, squared and carved into pillars, brackets, screens and slabs.",
+   "details": [
+    "The whole city was cut from the ridge it stands on. Masons' marks on the stones show many hands working in gangs. Builders worked in a trabeate way: pillars, beams, brackets and slab roofs, cut to measure in the yard and assembled like timber, which explains how quickly the city rose."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "rizvi-flynn",
+    "koch",
+    "brand-lowry"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Iron wedges tapped into a line of holes; with a dull crack a slab the length of two men comes away from the bed."
+    },
+    {
+     "hour": 12,
+     "text": "Under a reed shade a carver draws a lotus on a bracket in charcoal; his boy chips away the background."
+    },
+    {
+     "hour": 17,
+     "text": "Bullock carts creak off towards the palace site with squared pillars lashed on, red dust hanging over the track."
+    }
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "A village craft, cutting millstones, troughs and building stone for Agra."
+    },
+    "akbar-1585": {
+     "note": "Thousands of masons work here and at other quarries along the ridge for the new capital."
+    },
+    "abandoned-1610": {
+     "note": "A few families still cut stone for the shrine's repairs and for sale to Agra."
+    }
+   }
+  },
+  {
+   "id": "sikri-village",
+   "name": "Village of Sikri",
+   "kind": "house",
+   "position": [
+    2691,
+    2604
+   ],
+   "activePeriods": [
+    "sikri-1560",
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "The houses of the old village on the ridge, of rubble and stone slabs, home to stonecutters, herders and the saint's followers.",
+   "details": [
+    "Sikri was an old settlement before the Mughals; Babur passed it in 1527 and the Sikarwar Rajputs are said to take their name from it. Its people built the way they cut stone, roofing small rooms with slabs on stone beams. The village was swallowed by the city and re-emerged when the court left."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "rizvi-flynn",
+    "baburnama"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke from dung fires; a woman pats cakes of dung on the wall to dry and a buffalo is led down towards the lake."
+    },
+    {
+     "hour": 14,
+     "text": "Children chase a goat between the houses, scattering stone chips; an old man naps on a string bed in the shade."
+    },
+    {
+     "hour": 20,
+     "text": "A lamp in a niche, the smell of millet bread, dogs barking at the jackals down on the shore."
+    }
+   ],
+   "variants": {
+    "sikri-1560": {
+     "note": "A village of a few hundred households at most."
+    },
+    "akbar-1585": {
+     "name": "Sikri quarter",
+     "note": "Absorbed into the capital, its lanes now lead to the great mosque and nobles' houses."
+    },
+    "abandoned-1610": {
+     "note": "A village again, built partly into the shells of larger houses."
+    }
+   }
+  },
+  {
+   "id": "taksal",
+   "name": "The mint (Taksal)",
+   "kind": "works",
+   "position": [
+    3421,
+    2154
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "The imperial mint of Fatehpur, which struck copper, silver and gold coins naming the city, near the palace gate.",
+   "details": [
+    "Coins with the mint name Fathpur are known from Akbar's reign. Abu'l-Fazl's Ain-i-Akbari describes the mint's officers: the superintendent, assayer, weighman, melter and engraver, and the careful testing of metal. The building identified as the mint is a long hall near the Diwan-i-Am; the identification is traditional."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "ain",
+    "wiki-mughal-coinage",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The assayer rubs a silver bar on a black touchstone and compares the streak against his needles; the clerk writes the figure."
+    },
+    {
+     "hour": 12,
+     "text": "Hammers ring on the dies: a boy feeds blanks, a man strikes, and square rupees with the city's name pile up in a basket."
+    },
+    {
+     "hour": 17,
+     "text": "Coins are counted, weighed in bags and sealed under guard for the treasury."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "elephant-stables",
+   "name": "Elephant stables",
+   "kind": "works",
+   "position": [
+    2851,
+    2034
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "Stables and yards for the imperial elephants below the Hathi Pol by the lake, where keepers bathed and fed the emperor's favourites.",
+   "details": [
+    "The Ain-i-Akbari ranks the imperial elephants in classes, each with its keepers and rations, and Akbar was famed for riding the most dangerous himself. Elephants were kept near the lake for water; the exact site of the stables here is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ain",
+    "akbarnama"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mahouts lead the elephants down to the lake and scrub them with half coconut husks while the animals spray themselves and groan."
+    },
+    {
+     "hour": 12,
+     "text": "Sugar cane and great wheels of dough baked with ghee are carried in; a clerk notes each ration against the elephant's name."
+    },
+    {
+     "hour": 21,
+     "text": "Chains clink in the dark; a must elephant rumbles and the keepers keep their distance."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "serai-merchants",
+   "name": "Merchants at the serai gate",
+   "kind": "inn",
+   "position": [
+    3211,
+    1994
+   ],
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "The yard outside the caravanserai where merchants unloaded, haggled with brokers and paid the tolls.",
+   "details": [
+    "Traders came to the court from Gujarat with cloth and goods from the sea, from Kabul and Central Asia with horses and fruit, and from Persia with carpets and books. Brokers and money-changers worked between them and the nobles' stewards."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "ain",
+    "monserrate",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Camels kneel grumbling; a Persian merchant counts his bales while the serai keeper's man chalks a number on each."
+    },
+    {
+     "hour": 13,
+     "text": "Dried apricots from Kabul are tasted, spat and argued over; a broker swears on his son's head."
+    },
+    {
+     "hour": 20,
+     "text": "The gates close; inside, a hookah passes round a fire and someone sings in Pashto."
+    }
+   ],
+   "variants": {
+    "akbar-1585": {
+     "note": "Busy with traders supplying a court of thousands."
+    },
+    "abandoned-1610": {
+     "note": "A stopping place on the road between Agra and Ajmer, half its cells empty."
+    }
+   }
+  },
+  {
+   "id": "carpet-karkhana",
+   "name": "Carpet weavers in the imperial karkhana",
+   "kind": "workshop",
+   "position": [
+    3471,
+    2085
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "An imperial workshop where weavers, some brought from Persia, knotted carpets for the palace.",
+   "details": [
+    "Abu'l-Fazl writes that Akbar had expert weavers settled at Agra, Fatehpur and Lahore, so that Indian carpets came to rival those of Persia. The karkhanas, imperial workshops, also produced textiles, arms and furnishings. The location of the carpet workshop in the city is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ain",
+    "wiki-mughal-carpet"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Three boys sit at the loom calling the colours of the pattern in a sing-song, and the master's knife cuts each knot."
+    },
+    {
+     "hour": 13,
+     "text": "A Persian master corrects the curve of a vine on the cartoon, the drawing pinned behind the warp threads."
+    },
+    {
+     "hour": 18,
+     "text": "The finished length is rolled and carried off to be measured by a clerk of the household."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "jesuit-house",
+   "name": "The Jesuit fathers' lodging",
+   "kind": "church",
+   "position": [
+    3231,
+    2405
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "Rooms near the palace where the first Jesuit mission from Goa lived from 1580, with a chapel where Akbar came to look at their pictures.",
+   "details": [
+    "Rodolfo Acquaviva, Antonio Monserrate and Francisco Henriques arrived in February 1580. They were given lodgings near the palace, made a small chapel, debated in the Ibadat Khana and tutored Prince Murad. Monserrate's commentary is a main source for the city. They hoped to convert Akbar and left disappointed in 1582–83."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "monserrate",
+    "wiki-acquaviva",
+    "brand-lowry"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mass in a whitewashed room; a picture of the Virgin, copied from Rome, hangs over a table with a cloth from Goa."
+    },
+    {
+     "hour": 11,
+     "text": "Monserrate writes his journal: the lake, the stone, the bazaar; a servant from the palace waits with a summons."
+    },
+    {
+     "hour": 21,
+     "text": "Akbar arrives unannounced with a few attendants, takes off his turban before the altar and asks about the picture."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pachisi-court",
+   "name": "The pachisi court",
+   "kind": "monument",
+   "position": [
+    3181,
+    2222
+   ],
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "A great cross-shaped board inlaid in the paving of the palace court, where by tradition Akbar played pachisi with slave girls as the pieces.",
+   "details": [
+    "The board is marked out in the paving between the Anup Talao and the Diwan-i-Khas. The story that living women moved as the pieces at the emperor's call is a tradition, not recorded in contemporary sources. Pachisi itself, played with cowries and pieces on a cross, was a court favourite."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-pachisi",
+    "wiki-fatehpur-sikri"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "Sweepers wash the red paving; the squares of the board show darker where the water lies."
+    },
+    {
+     "hour": 16,
+     "text": "Cowrie shells rattle in a cupped hand; a throw of twenty-five and the court laughs."
+    },
+    {
+     "hour": 21,
+     "text": "Torches round the square, figures in coloured robes standing on the squares, waiting for the next throw."
+    }
+   ],
+   "variants": {
+    "akbar-1585": {
+     "note": "In use in the heart of the palace."
+    },
+    "abandoned-1610": {
+     "note": "The board remains in the empty court, grass between the squares."
+    }
+   }
+  },
+  {
+   "id": "bazaar-street",
+   "name": "The great bazaar",
+   "kind": "market",
+   "position": [
+    3791,
+    2079
+   ],
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "The shop-lined street from the Agra Gate up to the palace, where the city bought its grain, cloth and spices.",
+   "details": [
+    "Ralph Fitch, the English merchant who came in 1585, wrote that Agra and Fatehpur were each much greater than London, with the road between them one continual market. Monserrate describes the bazaars as long and crowded, with goods from every province."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "fitch",
+    "monserrate",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Grain-sellers heap wheat and millet on cloths; a water-carrier with a goatskin sprinkles the dust in front of the jewellers."
+    },
+    {
+     "hour": 13,
+     "text": "A noble's elephant pushes through, bells clanking, and the crowd presses into the shopfronts; a cook fries pakoras on the step."
+    },
+    {
+     "hour": 19,
+     "text": "Oil lamps on the counters, a storyteller with a ring of listeners at the corner by the drum house."
+    }
+   ],
+   "variants": {
+    "akbar-1585": {
+     "note": "At its height, serving a court and army of tens of thousands."
+    },
+    "abandoned-1610": {
+     "note": "Most shops shuttered; a few sell to pilgrims and the villagers."
+    }
+   }
+  },
+  {
+   "id": "water-works",
+   "name": "Waterworks below the Hathi Pol",
+   "kind": "works",
+   "position": [
+    2876,
+    2124
+   ],
+   "activePeriods": [
+    "akbar-1585",
+    "abandoned-1610"
+   ],
+   "summary": "Persian wheels and a chain of tanks and channels that raised water from the lake and the step-well up the ridge to the palace.",
+   "details": [
+    "Water had to climb some 30 m to the palace. Bullocks turned geared wheels with pots on a chain, lifting it in stages to cisterns and aqueducts that fed the Anup Talao, the baths and the gardens. Remains of the system survive near the Hathi Pol; its exact working is reconstructed."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "petruccioli",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A boy taps the bullocks round the well; the wooden gears creak and clay pots tip their water into the trough one after another."
+    },
+    {
+     "hour": 12,
+     "text": "An overseer checks the level in the cistern; the palace wants the tank full for the evening music."
+    },
+    {
+     "hour": 22,
+     "text": "The wheels stop; frogs take over, and a trickle runs on in the dark channel."
+    }
+   ],
+   "variants": {
+    "akbar-1585": {
+     "note": "Working day and night for the palace."
+    },
+    "abandoned-1610": {
+     "note": "The upper wheels stand still; only the well is used by villagers."
+    }
+   }
+  },
+  {
+   "id": "palace-kitchen",
+   "name": "The imperial kitchen",
+   "kind": "bakery",
+   "position": [
+    3076,
+    2304
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "The kitchen beside the harem palaces, where Akbar's meals were cooked, tasted and sealed before they were carried to him.",
+   "details": [
+    "The Ain-i-Akbari describes the kitchen under a master with tasters and clerks: dishes cooked in sealed pots, tasted by the cooks and the master, wrapped in cloth and sealed, then carried in procession. Akbar ate one main meal a day and kept many days without meat. A building near Jodh Bai's palace is traditionally called the kitchen."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "ain",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Rice from Bahraich is picked over grain by grain; a cook pounds cardamom and saffron for the pulao."
+    },
+    {
+     "hour": 12,
+     "text": "The master taster dips a spoon in each dish; the pots are tied in cloth, sealed with wax and lifted on to trays."
+    },
+    {
+     "hour": 17,
+     "text": "The fires are banked; scraps go out to the fakirs at the gate."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "maktab-khana",
+   "name": "The translation bureau (Maktab Khana)",
+   "kind": "school",
+   "position": [
+    3141,
+    2405
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "The studio where scholars turned the Mahabharata into Persian as the Razmnama, and painters illustrated it, from 1582.",
+   "details": [
+    "Akbar ordered translations of Sanskrit works into Persian. For the Mahabharata, Brahmin scholars explained the text, Naqib Khan wrote it in Persian and Badauni, unwillingly, helped; Faizi revised parts. The illustrated imperial copy was finished about 1586–87. Where in the city the work was done is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-razmnama",
+    "badauni",
+    "seyller"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A pandit reads a verse aloud and explains it in Hindavi; Naqib Khan frowns and writes a Persian sentence, crosses it out, writes again."
+    },
+    {
+     "hour": 13,
+     "text": "In the next room a painter grinds lapis for Krishna's skin while another lays gold on a warrior's armour."
+    },
+    {
+     "hour": 18,
+     "text": "Badauni closes his pen-case and mutters to himself about the stories he has been made to write."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "abul-fazl-house",
+   "name": "House of Abu'l-Fazl and Faizi",
+   "kind": "house",
+   "position": [
+    2791,
+    2384
+   ],
+   "activePeriods": [
+    "akbar-1585"
+   ],
+   "summary": "The house north of the mosque traditionally given to the brothers Abu'l-Fazl, Akbar's minister and historian, and Faizi, his poet laureate.",
+   "details": [
+    "The sons of Shaikh Mubarak rose with Akbar's religious and political reforms: Faizi as court poet from 1588 and a translator, Abu'l-Fazl as author of the Akbarnama. A house near the Jama Masjid bears their name; the attribution is traditional."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-abul-fazl",
+    "rizvi-flynn"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Abu'l-Fazl at his desk by lamplight, a pile of reports from the provinces to be fitted into the year's chronicle."
+    },
+    {
+     "hour": 14,
+     "text": "Faizi recites a new ghazal to friends in the courtyard; a servant brings sherbet chilled with saltpetre."
+    },
+    {
+     "hour": 21,
+     "text": "The brothers argue philosophy with a visiting mulla until he leaves, offended, by the side gate."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "khanwa-1527",
+   "title": "Babur's victory and his garden at Sikri",
+   "periodId": "sikri-1560",
+   "date": "March 1527",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "babur-garden"
+   },
+   "effect": "construction",
+   "text": "On 16 March 1527 (some give the 17th) Babur defeated the Rajput confederacy of Rana Sanga at Khanwa, not far from Sikri, with cannon and matchlocks. He renamed the place Shukri, 'thanks', and ordered a garden, a well and a pavilion by the lake. Fifty years later his grandson would build a capital on the ridge above.",
+   "sourceIds": [
+    "baburnama",
+    "wiki-battle-of-khanwa"
+   ]
+  },
+  {
+   "id": "salim-born-1569",
+   "title": "The saint's prophecy and Prince Salim's birth",
+   "periodId": "sikri-1560",
+   "date": "30 August 1569",
+   "kind": "ceremony",
+   "at": {
+    "spotId": "khanqah"
+   },
+   "effect": "crowd",
+   "text": "Akbar, whose children had died in infancy, came to Shaikh Salim in 1568, who foretold three sons. His Rajput wife was brought to Sikri, and on 30 August 1569 a boy was born in the saint's hospice and named Salim after him: the future emperor Jahangir. Akbar soon ordered a city built on the spot.",
+   "sourceIds": [
+    "akbarnama",
+    "wiki-salim-chishti",
+    "wiki-jahangir"
+   ]
+  },
+  {
+   "id": "founding-1571",
+   "title": "Work begins on the new capital",
+   "periodId": "akbar-1585",
+   "date": "1571",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "jama-masjid"
+   },
+   "effect": "construction",
+   "text": "Akbar ordered palaces, a great mosque, houses for nobles and a wall to be built on the ridge; Abu'l-Fazl says the work went on under the emperor's own eye. The mosque's inscription gives 1571–72. By the mid-1570s the court had moved here from Agra, with its treasury, workshops and army.",
+   "sourceIds": [
+    "akbarnama",
+    "rizvi-flynn",
+    "koch"
+   ]
+  },
+  {
+   "id": "gujarat-1573",
+   "title": "The ride to Gujarat; the city of victory",
+   "periodId": "akbar-1585",
+   "date": "August–October 1573",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "agra-gate"
+   },
+   "effect": "procession",
+   "text": "When rebels besieged Ahmedabad, Akbar rode out with a small force and covered several hundred kilometres in about eleven days, won the battle and was back within weeks. The new city came to be called Fatehpur, 'city of victory', and the Buland Darwaza is usually linked to this conquest.",
+   "sourceIds": [
+    "akbarnama",
+    "wiki-fatehpur-sikri",
+    "wiki-buland-darwaza"
+   ]
+  },
+  {
+   "id": "ibadat-khana-1575",
+   "title": "The Ibadat Khana opens",
+   "periodId": "akbar-1585",
+   "date": "1575",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "ibadat-khana"
+   },
+   "effect": "crowd",
+   "text": "Akbar built a House of Worship for debates on Thursday nights. At first Sunni scholars quarrelled so bitterly over precedence and doctrine that Badauni describes shouting and insults before the emperor. From about 1578 Shia, Hindu, Jain, Zoroastrian and Christian speakers were invited. The debates ended in the early 1580s.",
+   "sourceIds": [
+    "badauni",
+    "akbarnama",
+    "wiki-ibadat-khana"
+   ]
+  },
+  {
+   "id": "khutba-1579",
+   "title": "Akbar climbs the pulpit",
+   "periodId": "akbar-1585",
+   "date": "1579",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "jama-masjid"
+   },
+   "effect": "crowd",
+   "text": "In 1579 Akbar himself mounted the pulpit of the Jama Masjid to read the Friday sermon, in verses composed by Faizi. Badauni says he faltered after a few lines and came down, leaving the preacher to finish. The same year the 'mahzar' declared him the arbiter in disputes of religious law.",
+   "sourceIds": [
+    "badauni",
+    "akbarnama",
+    "rizvi-flynn"
+   ]
+  },
+  {
+   "id": "jesuits-1580",
+   "title": "The Jesuits arrive from Goa",
+   "periodId": "akbar-1585",
+   "date": "February 1580",
+   "kind": "ceremony",
+   "at": {
+    "spotId": "jesuit-house"
+   },
+   "effect": "procession",
+   "text": "Rodolfo Acquaviva, Antonio Monserrate and Francisco Henriques reached Fatehpur after a journey from Goa at Akbar's invitation. They presented a magnificent printed Bible in several languages, which Akbar received with honour. They debated with the mullas, were given every courtesy and freedom, but made no convert of the emperor.",
+   "sourceIds": [
+    "monserrate",
+    "wiki-acquaviva",
+    "brand-lowry"
+   ]
+  },
+  {
+   "id": "din-i-ilahi-1582",
+   "title": "The 'divine faith' of Akbar's disciples",
+   "periodId": "akbar-1585",
+   "date": "1582",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "diwan-i-khas"
+   },
+   "effect": "crowd",
+   "text": "Around 1582 Akbar began to admit a circle of courtiers as his personal disciples, bound by vows of loyalty and a few shared practices. Later writers called it Din-i-Ilahi, the divine faith; it was never a mass religion and had perhaps a few dozen members. Where the ceremonies took place is not recorded.",
+   "sourceIds": [
+    "badauni",
+    "wiki-din-i-ilahi"
+   ]
+  },
+  {
+   "id": "dam-1582",
+   "title": "The lake's dam bursts",
+   "periodId": "akbar-1585",
+   "date": "1582",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     3731,
+     1415
+    ]
+   },
+   "effect": "none",
+   "text": "Chroniclers record that in 1582 the dam holding the lake gave way, sending water over the low ground and damaging buildings. How much harm it did, and where the breach was, is not clear; the story is sometimes linked to the city's abandonment three years later, probably wrongly.",
+   "sourceIds": [
+    "akbarnama",
+    "petruccioli",
+    "rizvi-flynn"
+   ]
+  },
+  {
+   "id": "fitch-1585",
+   "title": "Ralph Fitch sees the city",
+   "periodId": "akbar-1585",
+   "date": "1585",
+   "kind": "daily",
+   "at": {
+    "spotId": "bazaar-street"
+   },
+   "effect": "crowd",
+   "text": "The English merchant Ralph Fitch, travelling overland to India, reached Agra and Fatehpur in 1585. He wrote that the two were 'very great cities, either of them much greater than London and very populous', and that the road between them was one continual market of food and goods.",
+   "sourceIds": [
+    "fitch",
+    "wiki-fatehpur-sikri"
+   ]
+  },
+  {
+   "id": "court-leaves-1585",
+   "title": "The court leaves for the north-west",
+   "periodId": "akbar-1585",
+   "date": "August 1585",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "naubat-khana"
+   },
+   "effect": "procession",
+   "text": "With trouble on the north-west frontier after the death of his half-brother Mirza Hakim, Akbar marched for the Punjab with the court and made Lahore his base for thirteen years. Fatehpur was never again the capital. Shortage of water is often blamed, but politics and war probably mattered more.",
+   "sourceIds": [
+    "akbarnama",
+    "rizvi-flynn",
+    "wiki-fatehpur-sikri"
+   ]
+  },
+  {
+   "id": "inscription-1601",
+   "title": "The Deccan inscription on the Buland Darwaza",
+   "periodId": "abandoned-1610",
+   "date": "1601–02",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "buland-darwaza"
+   },
+   "effect": "construction",
+   "text": "After the fall of Asirgarh in the Deccan, Akbar is said to have passed by his old capital, and inscriptions dated 1601–02 were cut on the great gate recording his conquests and the saying attributed to Jesus: 'the world is a bridge, pass over it but build no house upon it.' Some take this as the gate's building date.",
+   "sourceIds": [
+    "wiki-buland-darwaza",
+    "rizvi-flynn"
+   ]
+  },
+  {
+   "id": "islam-khan-1613",
+   "title": "Islam Khan is brought home",
+   "periodId": "abandoned-1610",
+   "date": "after 1613",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "islam-khan-tomb"
+   },
+   "effect": "construction",
+   "text": "Islam Khan, the saint's grandson, governor of Bengal and founder of Mughal Dhaka, died in 1613. He was buried in the family enclosure in the mosque court, and a domed tomb ringed with small chhatris was raised over him.",
+   "sourceIds": [
+    "wiki-islam-khan",
+    "rizvi-flynn"
+   ]
+  },
+  {
+   "id": "jahangir-1619",
+   "title": "Jahangir escapes the plague",
+   "periodId": "abandoned-1610",
+   "date": "1619",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "khwabgah"
+   },
+   "effect": "procession",
+   "text": "With plague in Agra, Jahangir moved his court to Fatehpur for about three months in 1619 and lived in his father's palace. In his memoirs he notes the city of his birth and the saint's shrine. It was the last time an emperor held court here.",
+   "sourceIds": [
+    "tuzuk",
+    "wiki-jahangir"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "thursday-1580",
+   "title": "A Thursday in Akbar's city, 1580",
+   "periodId": "akbar-1585",
+   "summary": "From the Agra Gate to the House of Worship on the day the Jesuits have been asked to speak: the bazaar, the drum house, the audience, the palace court and a night of debate.",
+   "steps": [
+    {
+     "landmarkId": "agra-gate",
+     "title": "The Agra Gate",
+     "text": "Come in from the Agra road with a string of merchants' camels; the guards wave through a royal courier at the gallop.",
+     "when": "morning"
+    },
+    {
+     "spotId": "bazaar-street",
+     "title": "The bazaar",
+     "text": "Climb the long street between grain heaps, cloth shops and cookshops; Persian, Hindi and Turkish in every doorway."
+    },
+    {
+     "landmarkId": "naubat-khana",
+     "title": "The drum house",
+     "text": "Pass under the Naubat Khana as the kettledrums announce the emperor's appearance."
+    },
+    {
+     "landmarkId": "diwan-i-am",
+     "title": "The public audience",
+     "text": "Stand among the ranks in the cloistered court while Akbar hears petitions from the throne pavilion and inspects a line of horses.",
+     "when": "noon"
+    },
+    {
+     "spotId": "pachisi-court",
+     "title": "The palace court",
+     "text": "Glimpse the pachisi board in the private court, the Panch Mahal's screens above it and the Anup Talao glittering beside."
+    },
+    {
+     "landmarkId": "anup-talao",
+     "title": "The Anup Talao",
+     "text": "A singer tunes on the island platform for the evening's music.",
+     "when": "afternoon"
+    },
+    {
+     "landmarkId": "ibadat-khana",
+     "title": "The House of Worship",
+     "text": "Lamps lit for Thursday night: Father Monserrate and a mulla argue while the emperor listens and asks questions until long after midnight.",
+     "when": "night"
+    }
+   ],
+   "sourceIds": [
+    "monserrate",
+    "badauni",
+    "akbarnama"
+   ]
+  },
+  {
+   "id": "sikri-1560-walk",
+   "title": "Sikri before the city",
+   "periodId": "sikri-1560",
+   "summary": "A morning in the village of stonecutters where the saint lived, a decade before the emperor arrived to build.",
+   "steps": [
+    {
+     "spotId": "stonecutters-yard",
+     "title": "The quarry",
+     "text": "Watch a slab split from the ridge with wedges and water, and the carvers at work on a bracket for an Agra mansion.",
+     "when": "morning"
+    },
+    {
+     "spotId": "stonecutters-mosque",
+     "title": "The quarrymen's mosque",
+     "text": "Pray with the stonecutters in the small mosque they made for the saint."
+    },
+    {
+     "spotId": "khanqah",
+     "title": "The saint's hospice",
+     "text": "Eat at Shaikh Salim's common pot among travellers and pilgrims, and hear of the emperor who is said to be coming to ask for a son."
+    },
+    {
+     "landmarkId": "babur-garden",
+     "title": "Babur's garden",
+     "text": "Walk down to the lake shore and Babur's walled garden, its water channels and step-well, already a generation old.",
+     "when": "afternoon"
+    }
+   ],
+   "sourceIds": [
+    "baburnama",
+    "akbarnama",
+    "rizvi-flynn"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "rizvi-flynn",
+   "title": "Fathpur-Sikri",
+   "author": "S. A. A. Rizvi & V. J. A. Flynn",
+   "year": 1975
+  },
+  {
+   "id": "brand-lowry",
+   "title": "Fatehpur-Sikri: A Sourcebook",
+   "author": "Michael Brand & Glenn D. Lowry (eds.)",
+   "year": 1985
+  },
+  {
+   "id": "petruccioli",
+   "title": "Fathpur Sikri: la città del sole e delle acque",
+   "author": "Attilio Petruccioli",
+   "year": 1988
+  },
+  {
+   "id": "smith-fs",
+   "title": "The Moghul Architecture of Fathpur-Sikri",
+   "author": "Edmund W. Smith (Archaeological Survey of India)",
+   "year": "1894–98",
+   "url": "https://archive.org/details/moghularchitect01smit"
+  },
+  {
+   "id": "koch",
+   "title": "Mughal Architecture: An Outline of its History and Development, 1526–1858",
+   "author": "Ebba Koch",
+   "year": 1991
+  },
+  {
+   "id": "wiki-fatehpur-sikri",
+   "title": "Fatehpur Sikri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fatehpur_Sikri"
+  },
+  {
+   "id": "asher",
+   "title": "Architecture of Mughal India (The New Cambridge History of India I.4)",
+   "author": "Catherine B. Asher",
+   "year": 1992
+  },
+  {
+   "id": "akbarnama",
+   "title": "Akbarnama",
+   "author": "Abu'l-Fazl, tr. H. Beveridge",
+   "year": "c. 1596 (tr. 1897–1921)",
+   "url": "https://en.wikipedia.org/wiki/Akbarnama"
+  },
+  {
+   "id": "baburnama",
+   "title": "Baburnama",
+   "author": "Babur, tr. Annette S. Beveridge",
+   "year": "c. 1530 (tr. 1922)",
+   "url": "https://en.wikipedia.org/wiki/Baburnama"
+  },
+  {
+   "id": "monserrate",
+   "title": "The Commentary of Father Monserrate, S.J., on his Journey to the Court of Akbar",
+   "author": "Antonio Monserrate, tr. J. S. Hoyland",
+   "year": "1582 (tr. 1922)"
+  },
+  {
+   "id": "tuzuk",
+   "title": "Tuzuk-i-Jahangiri (Memoirs of Jahangir)",
+   "author": "Jahangir, tr. A. Rogers & H. Beveridge",
+   "year": "c. 1624 (tr. 1909–14)",
+   "url": "https://en.wikipedia.org/wiki/Jahangirnama"
+  },
+  {
+   "id": "wiki-jama-masjid-fs",
+   "title": "Jama Masjid, Fatehpur Sikri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jama_Masjid,_Fatehpur_Sikri"
+  },
+  {
+   "id": "wiki-buland-darwaza",
+   "title": "Buland Darwaza",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buland_Darwaza"
+  },
+  {
+   "id": "wiki-salim-chishti-tomb",
+   "title": "Tomb of Salim Chishti",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tomb_of_Salim_Chishti"
+  },
+  {
+   "id": "wiki-islam-khan",
+   "title": "Islam Khan I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Islam_Khan_I"
+  },
+  {
+   "id": "wiki-diwan-i-khas-fs",
+   "title": "Diwan-i-Khas (Fatehpur Sikri)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Diwan-i-Khas_(Fatehpur_Sikri)"
+  },
+  {
+   "id": "wiki-panch-mahal",
+   "title": "Panch Mahal (Fatehpur Sikri)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Panch_Mahal_(Fatehpur_Sikri)"
+  },
+  {
+   "id": "wiki-anup-talao",
+   "title": "Anup Talao",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anup_Talao"
+  },
+  {
+   "id": "wiki-mariam-palace",
+   "title": "Mariam-uz-Zamani's Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mariam-uz-Zamani%27s_Palace"
+  },
+  {
+   "id": "wiki-birbal-house",
+   "title": "Birbal's House",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Birbal%27s_House"
+  },
+  {
+   "id": "wiki-hiran-minar",
+   "title": "Hiran Minar (Fatehpur Sikri)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hiran_Minar_(Fatehpur_Sikri)"
+  },
+  {
+   "id": "wiki-ibadat-khana",
+   "title": "Ibadat Khana",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ibadat_Khana"
+  },
+  {
+   "id": "wiki-diwan-i-am",
+   "title": "Diwan-i-Am",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Diwan-i-Aam"
+  },
+  {
+   "id": "wiki-naubat-khana",
+   "title": "Naubat Khana",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Naubat_Khana"
+  },
+  {
+   "id": "wiki-babur",
+   "title": "Babur",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Babur"
+  },
+  {
+   "id": "wiki-stepwell",
+   "title": "Stepwell",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stepwell"
+  },
+  {
+   "id": "wiki-caravanserai",
+   "title": "Caravanserai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caravanserai"
+  },
+  {
+   "id": "wiki-hammam",
+   "title": "Hammam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hammam"
+  },
+  {
+   "id": "wiki-khwabgah",
+   "title": "Khwabgah",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fatehpur_Sikri#Khwabgah"
+  },
+  {
+   "id": "ain",
+   "title": "Ain-i-Akbari",
+   "author": "Abu'l-Fazl, tr. H. Blochmann & H. S. Jarrett",
+   "year": "c. 1598 (tr. 1873–94)",
+   "url": "https://en.wikipedia.org/wiki/Ain-i-Akbari"
+  },
+  {
+   "id": "badauni",
+   "title": "Muntakhab-ut-Tawarikh",
+   "author": "Abd al-Qadir Badauni, tr. G. Ranking & W. H. Lowe",
+   "year": "c. 1595 (tr. 1884–98)",
+   "url": "https://en.wikipedia.org/wiki/Muntakhab-ut-Tawarikh"
+  },
+  {
+   "id": "fitch",
+   "title": "The Voyage of Ralph Fitch to the East Indies (in Hakluyt's Principal Navigations)",
+   "author": "Ralph Fitch",
+   "year": 1599,
+   "url": "https://en.wikipedia.org/wiki/Ralph_Fitch"
+  },
+  {
+   "id": "seyller",
+   "title": "Workshop and Patron in Mughal India: The Freer Ramayana and Other Illustrated Manuscripts",
+   "author": "John Seyller",
+   "year": 1999
+  },
+  {
+   "id": "wiki-salim-chishti",
+   "title": "Salim Chishti",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Salim_Chishti"
+  },
+  {
+   "id": "wiki-jahangir",
+   "title": "Jahangir",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jahangir"
+  },
+  {
+   "id": "wiki-battle-of-khanwa",
+   "title": "Battle of Khanwa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Khanwa"
+  },
+  {
+   "id": "wiki-din-i-ilahi",
+   "title": "Din-i Ilahi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Din-i_Ilahi"
+  },
+  {
+   "id": "wiki-acquaviva",
+   "title": "Rodolfo Acquaviva",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rodolfo_Acquaviva"
+  },
+  {
+   "id": "wiki-razmnama",
+   "title": "Razmnama",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Razmnama"
+  },
+  {
+   "id": "wiki-pachisi",
+   "title": "Pachisi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pachisi"
+  },
+  {
+   "id": "wiki-abul-fazl",
+   "title": "Abu'l-Fazl ibn Mubarak",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abu%27l-Fazl_ibn_Mubarak"
+  },
+  {
+   "id": "wiki-mughal-coinage",
+   "title": "Mughal coinage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mughal_coinage"
+  },
+  {
+   "id": "wiki-mughal-carpet",
+   "title": "Mughal carpet",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mughal_carpet"
+  }
+ ]
+}

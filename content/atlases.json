@@ -377,7 +377,9 @@
           "subtitle": "Akbar's city, 1585",
           "at": [77.66, 27.09],
           "glyph": "mughal",
-          "blurb": "Akbar's red sandstone capital on a ridge, with the Buland Darwaza and the court of the Diwan-i-Khas."
+          "blurb": "Akbar's red sandstone capital on a ridge, with the Buland Darwaza and the court of the Diwan-i-Khas.",
+          "city": "fatehpur-sikri",
+          "period": "akbar-1585"
         }
       ]
     },

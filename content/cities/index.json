@@ -8,6 +8,7 @@
     { "id": "tenochtitlan", "name": "Tenochtitlan", "subtitle": "The City in the Lake", "status": "playable" },
     { "id": "constantinople", "name": "Constantinople", "subtitle": "Queen of Cities", "status": "playable" },
     { "id": "cairo", "name": "Cairo", "subtitle": "Misr, Mother of the World", "status": "playable" },
-    { "id": "edo", "name": "Edo", "subtitle": "The Shogun's City", "status": "playable" }
+    { "id": "edo", "name": "Edo", "subtitle": "The Shogun's City", "status": "playable" },
+    { "id": "fatehpur-sikri", "name": "Fatehpur Sikri", "subtitle": "Akbar's City of Victory", "status": "playable" }
   ]
 }
