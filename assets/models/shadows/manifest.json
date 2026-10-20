@@ -864,6 +864,156 @@
   "cy": 1.25,
   "size": 199.99
  },
+ "nara/chodo-in": {
+  "cx": 0.0,
+  "cy": 1.74,
+  "size": 358.32
+ },
+ "nara/daianji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 250.18
+ },
+ "nara/daianji-1700": {
+  "cx": 2.5,
+  "cy": -0.0,
+  "size": 231.32
+ },
+ "nara/daibutsuden": {
+  "cx": 0.0,
+  "cy": 2.72,
+  "size": 309.66
+ },
+ "nara/daibutsuden-1709": {
+  "cx": 0.0,
+  "cy": 2.72,
+  "size": 313.26
+ },
+ "nara/daigokuden": {
+  "cx": 0.0,
+  "cy": 1.74,
+  "size": 325.61
+ },
+ "nara/daigokuden-752": {
+  "cx": 0.0,
+  "cy": 1.74,
+  "size": 310.9
+ },
+ "nara/gangoji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 298.78
+ },
+ "nara/gangoji-1700": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 298.78
+ },
+ "nara/hokkedo": {
+  "cx": -0.37,
+  "cy": -0.19,
+  "size": 70.84
+ },
+ "nara/hokkedo-752": {
+  "cx": -0.37,
+  "cy": -0.19,
+  "size": 70.84
+ },
+ "nara/kasuga-taisha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 166.87
+ },
+ "nara/kofukuji": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "size": 397.53
+ },
+ "nara/kofukuji-720": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "size": 351.96
+ },
+ "nara/kofukuji-900": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "size": 397.53
+ },
+ "nara/market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 249.22
+ },
+ "nara/nandaimon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 101.92
+ },
+ "nara/nandaimon-752": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 96.93
+ },
+ "nara/nigatsudo": {
+  "cx": 0.05,
+  "cy": -0.46,
+  "size": 102.72
+ },
+ "nara/rajomon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 98.04
+ },
+ "nara/saidaiji": {
+  "cx": 0.0,
+  "cy": 0.75,
+  "size": 219.91
+ },
+ "nara/sarusawa": {
+  "cx": 0.0,
+  "cy": 1.57,
+  "size": 134.58
+ },
+ "nara/shosoin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 94.28
+ },
+ "nara/suzaku-oji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 226.23
+ },
+ "nara/suzakumon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 95.07
+ },
+ "nara/todaiji-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 254.63
+ },
+ "nara/toshodaiji": {
+  "cx": 0.0,
+  "cy": 1.0,
+  "size": 200.65
+ },
+ "nara/yakushiji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 261.85
+ },
+ "nara/yakushiji-1700": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 261.85
+ },
+ "nara/yakushiji-720": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 244.08
+ },
  "paris/arena": {
   "cx": 0.0,
   "cy": -0.0,
