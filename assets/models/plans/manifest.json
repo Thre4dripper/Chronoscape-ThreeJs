@@ -1556,6 +1556,276 @@
   "size": 158.6,
   "w": 150.0
  },
+ "nara/chodo-in": {
+  "cx": 0.0,
+  "cy": 1.74,
+  "d": 305.28,
+  "ext": "webp",
+  "px": 952,
+  "size": 317.49,
+  "w": 181.8
+ },
+ "nara/daianji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 180.0
+ },
+ "nara/daianji-1700": {
+  "cx": 2.5,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 185.0
+ },
+ "nara/daibutsuden": {
+  "cx": 0.0,
+  "cy": 2.72,
+  "d": 206.24,
+  "ext": "webp",
+  "px": 643,
+  "size": 214.49,
+  "w": 200.8
+ },
+ "nara/daibutsuden-1709": {
+  "cx": 0.0,
+  "cy": 2.72,
+  "d": 206.24,
+  "ext": "webp",
+  "px": 643,
+  "size": 214.49,
+  "w": 200.8
+ },
+ "nara/daigokuden": {
+  "cx": 0.0,
+  "cy": 1.74,
+  "d": 265.28,
+  "ext": "webp",
+  "px": 828,
+  "size": 275.89,
+  "w": 181.8
+ },
+ "nara/daigokuden-752": {
+  "cx": 0.0,
+  "cy": 1.74,
+  "d": 265.28,
+  "ext": "webp",
+  "px": 828,
+  "size": 275.89,
+  "w": 181.8
+ },
+ "nara/gangoji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "nara/gangoji-1700": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "nara/hokkedo": {
+  "cx": -0.37,
+  "cy": -0.19,
+  "d": 36.39,
+  "ext": "webp",
+  "px": 192,
+  "size": 38.21,
+  "w": 36.74
+ },
+ "nara/hokkedo-752": {
+  "cx": -0.37,
+  "cy": -0.19,
+  "d": 36.39,
+  "ext": "webp",
+  "px": 192,
+  "size": 38.21,
+  "w": 36.74
+ },
+ "nara/kasuga-taisha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "nara/kofukuji": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "d": 220.38,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "nara/kofukuji-720": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "d": 220.38,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "nara/kofukuji-900": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "d": 220.38,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "nara/market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 220.0,
+  "ext": "webp",
+  "px": 686,
+  "size": 228.8,
+  "w": 220.0
+ },
+ "nara/nandaimon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 23.2,
+  "ext": "webp",
+  "px": 192,
+  "size": 43.06,
+  "w": 41.4
+ },
+ "nara/nandaimon-752": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 18.04,
+  "ext": "webp",
+  "px": 192,
+  "size": 37.48,
+  "w": 36.04
+ },
+ "nara/nigatsudo": {
+  "cx": 0.05,
+  "cy": -0.46,
+  "d": 42.08,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.11,
+  "w": 50.11
+ },
+ "nara/rajomon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 16.4,
+  "ext": "webp",
+  "px": 192,
+  "size": 44.1,
+  "w": 42.4
+ },
+ "nara/saidaiji": {
+  "cx": 0.0,
+  "cy": 0.75,
+  "d": 131.5,
+  "ext": "webp",
+  "px": 562,
+  "size": 187.2,
+  "w": 180.0
+ },
+ "nara/sarusawa": {
+  "cx": 0.0,
+  "cy": 1.57,
+  "d": 83.14,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "nara/shosoin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 30.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "nara/suzaku-oji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 201.6,
+  "ext": "webp",
+  "px": 629,
+  "size": 209.66,
+  "w": 99.0
+ },
+ "nara/suzakumon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 20.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 44.1,
+  "w": 42.4
+ },
+ "nara/todaiji-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 93.0,
+  "ext": "webp",
+  "px": 290,
+  "size": 96.72,
+  "w": 93.0
+ },
+ "nara/toshodaiji": {
+  "cx": 0.0,
+  "cy": 1.0,
+  "d": 152.0,
+  "ext": "webp",
+  "px": 474,
+  "size": 158.08,
+  "w": 150.0
+ },
+ "nara/yakushiji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 180.0,
+  "ext": "webp",
+  "px": 593,
+  "size": 197.6,
+  "w": 190.0
+ },
+ "nara/yakushiji-1700": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "d": 180.5,
+  "ext": "webp",
+  "px": 593,
+  "size": 197.6,
+  "w": 190.0
+ },
+ "nara/yakushiji-720": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 180.0,
+  "ext": "webp",
+  "px": 593,
+  "size": 197.6,
+  "w": 190.0
+ },
  "paris/arena": {
   "cx": 0.0,
   "cy": -0.0,
