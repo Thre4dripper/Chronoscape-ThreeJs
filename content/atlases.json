@@ -239,7 +239,9 @@
           "subtitle": "Fatimid city, 1050",
           "at": [31.26, 30.05],
           "glyph": "dome",
-          "blurb": "The walled royal city of the Fatimids, with the mosque of al-Azhar and its gates of Bab Zuwayla and Bab al-Futuh."
+          "blurb": "The walled royal city of the Fatimids, with the mosque of al-Azhar and its gates of Bab Zuwayla and Bab al-Futuh.",
+          "city": "cairo",
+          "period": "fatimid-1050"
         }
       ]
     },

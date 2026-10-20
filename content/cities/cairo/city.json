@@ -1,0 +1,6515 @@
+{
+ "id": "cairo",
+ "name": "Cairo",
+ "subtitle": "Misr, Mother of the World",
+ "description": "Twelve centuries of Cairo between the Nile and the Muqattam hills: from the Arab garrison town of Fustat beside the Roman fortress of Babylon, through Ibn Tulun's al-Qata'i and the Fatimid palace city of al-Qahira, to the Mamluk Citadel and Ottoman Bulaq. The river's east bank moved west over these centuries and is drawn per era. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "fatimid-1050",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.15,
+  "walls": [
+   "#E2D2B2",
+   "#D8C49E",
+   "#EAE0CA",
+   "#CFB78F",
+   "#C9AE84"
+  ],
+  "roofs": [
+   "#CDB993",
+   "#BFA67E"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    4626,
+    3051
+   ],
+   "distance": 42,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7324,
+   7267
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "The Nile (al-Nil)",
+    "path": [
+     [
+      1609,
+      7600
+     ],
+     [
+      1629,
+      6602
+     ],
+     [
+      1648,
+      6357
+     ],
+     [
+      1696,
+      6158
+     ],
+     [
+      1937,
+      5492
+     ],
+     [
+      2130,
+      4826
+     ],
+     [
+      2303,
+      4161
+     ],
+     [
+      2525,
+      3495
+     ],
+     [
+      2727,
+      2829
+     ],
+     [
+      2920,
+      2164
+     ],
+     [
+      3113,
+      1498
+     ],
+     [
+      3306,
+      832
+     ],
+     [
+      3595,
+      -388
+     ]
+    ],
+    "width": 1600,
+    "id": "nile",
+    "blurb": "The Nile rose every summer from July to September; Cairo's year turned on the flood. Its east bank has moved about a kilometre west since 641: Fustat and the Roman fortress once stood on the water's edge, and Bulaq is land the river left behind in the 14th century.",
+    "periods": [
+     "fustat-700",
+     "tulunid-880"
+    ]
+   },
+   {
+    "name": "The Nile (al-Nil)",
+    "path": [
+     [
+      1658,
+      7600
+     ],
+     [
+      1677,
+      6602
+     ],
+     [
+      1696,
+      6357
+     ],
+     [
+      1744,
+      6158
+     ],
+     [
+      1985,
+      5492
+     ],
+     [
+      2140,
+      4826
+     ],
+     [
+      2255,
+      4161
+     ],
+     [
+      2429,
+      3495
+     ],
+     [
+      2602,
+      2829
+     ],
+     [
+      2776,
+      2164
+     ],
+     [
+      2949,
+      1498
+     ],
+     [
+      3132,
+      832
+     ],
+     [
+      3392,
+      -388
+     ]
+    ],
+    "width": 1500,
+    "id": "nile",
+    "blurb": "The Nile rose every summer from July to September; Cairo's year turned on the flood. Its east bank has moved about a kilometre west since 641: Fustat and the Roman fortress once stood on the water's edge, and Bulaq is land the river left behind in the 14th century.",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "name": "The Nile (al-Nil)",
+    "path": [
+     [
+      1759,
+      7600
+     ],
+     [
+      1788,
+      6602
+     ],
+     [
+      1855,
+      6158
+     ],
+     [
+      1932,
+      5492
+     ],
+     [
+      1990,
+      4826
+     ],
+     [
+      2029,
+      4249
+     ],
+     [
+      2106,
+      3495
+     ],
+     [
+      2183,
+      2829
+     ],
+     [
+      2241,
+      2164
+     ],
+     [
+      2202,
+      1498
+     ],
+     [
+      2067,
+      832
+     ],
+     [
+      1932,
+      -388
+     ]
+    ],
+    "width": 1300,
+    "id": "nile",
+    "blurb": "The Nile rose every summer from July to September; Cairo's year turned on the flood. Its east bank has moved about a kilometre west since 641: Fustat and the Roman fortress once stood on the water's edge, and Bulaq is land the river left behind in the 14th century.",
+    "periods": [
+     "mamluk-1350"
+    ]
+   },
+   {
+    "name": "The Nile (al-Nil)",
+    "path": [
+     [
+      1790,
+      7600
+     ],
+     [
+      1809,
+      6602
+     ],
+     [
+      1857,
+      6158
+     ],
+     [
+      1925,
+      5492
+     ],
+     [
+      2002,
+      4826
+     ],
+     [
+      2050,
+      4249
+     ],
+     [
+      2079,
+      3495
+     ],
+     [
+      2098,
+      2829
+     ],
+     [
+      2060,
+      2164
+     ],
+     [
+      1925,
+      1498
+     ],
+     [
+      1828,
+      832
+     ],
+     [
+      1674,
+      -388
+     ]
+    ],
+    "width": 1200,
+    "id": "nile",
+    "blurb": "The Nile rose every summer from July to September; Cairo's year turned on the flood. Its east bank has moved about a kilometre west since 641: Fustat and the Roman fortress once stood on the water's edge, and Bulaq is land the river left behind in the 14th century.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Western arm of the Nile",
+    "path": [
+     [
+      1658,
+      2496
+     ],
+     [
+      1272,
+      1720
+     ],
+     [
+      944,
+      832
+     ],
+     [
+      578,
+      -388
+     ]
+    ],
+    "width": 240,
+    "id": "nile-west",
+    "blurb": "The channel west of the new island of Bulaq (later Gezira), which the river built up from the 14th century.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "al-Khalij (the Canal of Cairo)",
+    "path": [
+     [
+      2920,
+      4493
+     ],
+     [
+      3421,
+      3939
+     ],
+     [
+      3739,
+      3550
+     ],
+     [
+      4048,
+      3162
+     ],
+     [
+      4375,
+      2718
+     ],
+     [
+      4684,
+      2341
+     ],
+     [
+      4877,
+      1831
+     ],
+     [
+      5011,
+      1387
+     ],
+     [
+      5185,
+      987
+     ],
+     [
+      5570,
+      555
+     ],
+     [
+      6245,
+      166
+     ],
+     [
+      6843,
+      -277
+     ]
+    ],
+    "width": 24,
+    "id": "khalij",
+    "blurb": "Khalij Amir al-Mu'minin: an ancient canal to the Red Sea that Amr ibn al-As re-dug in 641–642 to ship Egyptian grain to Medina. Silted beyond Cairo after the 8th century, it still filled each summer when its dam was cut at the Nile's flood, and ran past al-Qahira's west wall.",
+    "periods": [
+     "fustat-700",
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "name": "al-Khalij (the Canal of Cairo)",
+    "path": [
+     [
+      2660,
+      4116
+     ],
+     [
+      3084,
+      4027
+     ],
+     [
+      3421,
+      3939
+     ],
+     [
+      3739,
+      3550
+     ],
+     [
+      4048,
+      3162
+     ],
+     [
+      4375,
+      2718
+     ],
+     [
+      4684,
+      2341
+     ],
+     [
+      4877,
+      1831
+     ],
+     [
+      5011,
+      1387
+     ],
+     [
+      5185,
+      987
+     ],
+     [
+      5570,
+      555
+     ],
+     [
+      6245,
+      166
+     ],
+     [
+      6843,
+      -277
+     ]
+    ],
+    "width": 24,
+    "id": "khalij",
+    "blurb": "The Khalij, now fed from a mouth at Fumm al-Khalig beside the aqueduct's intake. Cut open each August at the Wafa al-Nil festival, it watered the ponds and gardens of the city and stank when it dried. Filled in 1897; Port Said Street follows it.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Birkat al-Fil (Elephant Pond)",
+    "path": [
+     [
+      4279,
+      3118
+     ],
+     [
+      4645,
+      2985
+     ]
+    ],
+    "width": 300,
+    "id": "birkat-al-fil",
+    "blurb": "A pond filled by the Khalij at the flood and dry and green by spring. Mamluk amirs built palaces round it; boats with lanterns crossed it on flood nights.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Birkat al-Azbakiyya",
+    "path": [
+     [
+      4183,
+      1453
+     ],
+     [
+      4414,
+      1254
+     ]
+    ],
+    "width": 280,
+    "id": "birkat-al-azbakiyya",
+    "blurb": "A pond made by the amir Azbak from 1476 round his mosque, ringed by the houses of the Ottoman beys; a lake at flood time, a garden in spring.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "islands": [
+   {
+    "name": "Jazirat al-Rawda (Roda Island)",
+    "polygon": [
+     [
+      2033,
+      6712
+     ],
+     [
+      2178,
+      6513
+     ],
+     [
+      2274,
+      6158
+     ],
+     [
+      2371,
+      5603
+     ],
+     [
+      2448,
+      5048
+     ],
+     [
+      2515,
+      4493
+     ],
+     [
+      2554,
+      3939
+     ],
+     [
+      2506,
+      3495
+     ],
+     [
+      2390,
+      3206
+     ],
+     [
+      2217,
+      3051
+     ],
+     [
+      1985,
+      3251
+     ],
+     [
+      1841,
+      3828
+     ],
+     [
+      1793,
+      4493
+     ],
+     [
+      1802,
+      5159
+     ],
+     [
+      1850,
+      5825
+     ],
+     [
+      1908,
+      6324
+     ],
+     [
+      1956,
+      6602
+     ]
+    ]
+   },
+   {
+    "name": "Jazirat Bulaq (Gezira)",
+    "polygon": [
+     [
+      2043,
+      2552
+     ],
+     [
+      2140,
+      2053
+     ],
+     [
+      2082,
+      1387
+     ],
+     [
+      1927,
+      610
+     ],
+     [
+      1735,
+      -166
+     ],
+     [
+      1060,
+      -166
+     ],
+     [
+      1234,
+      721
+     ],
+     [
+      1475,
+      1498
+     ],
+     [
+      1773,
+      2164
+     ]
+    ],
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "hills": [
+   {
+    "name": "Jabal al-Muqattam",
+    "center": [
+     6794,
+     5603
+    ],
+    "radius": 900,
+    "label": true,
+    "id": "muqattam",
+    "blurb": "The limestone ridge east of the city, quarried for building stone since the pharaohs. Copts tell of the Muqattam moved by prayer in the 10th century; Muslims of the tombs of saints and the Qarafa cemetery at its foot."
+   },
+   {
+    "name": "al-Muqattam (northern spur)",
+    "center": [
+     6987,
+     3606
+    ],
+    "radius": 650,
+    "label": false,
+    "id": "muqattam-north",
+    "blurb": "The ridge continuing north-east behind the Citadel, its cliffs honeycombed with quarries and hermits' caves."
+   },
+   {
+    "name": "The Citadel spur (Qubbat al-Hawa)",
+    "center": [
+     5609,
+     4016
+    ],
+    "radius": 330,
+    "label": true,
+    "id": "citadel-spur",
+    "blurb": "A spur of the Muqattam overlooking the city, where an Abbasid governor built a breezy pavilion, the Qubbat al-Hawa ('Dome of the Wind'), in the 9th century, and Saladin began his Citadel in 1176."
+   },
+   {
+    "name": "Jabal Yashkur",
+    "center": [
+     4385,
+     4072
+    ],
+    "radius": 150,
+    "label": false,
+    "id": "yashkur",
+    "blurb": "The low rock on which Ibn Tulun set his mosque, named after an Arab clan; legend placed Noah's ark here after the Flood."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Road to Babylon and the south",
+    "path": [
+     [
+      3045,
+      6269
+     ],
+     [
+      2833,
+      6602
+     ],
+     [
+      2853,
+      7045
+     ],
+     [
+      2910,
+      7434
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": false,
+    "id": "babylon-road",
+    "blurb": "The old road along the river past the Roman fortress to Upper Egypt and the Birkat al-Habash."
+   },
+   {
+    "name": "Road north to Ayn Shams",
+    "path": [
+     [
+      3315,
+      5958
+     ],
+     [
+      3489,
+      5492
+     ],
+     [
+      3710,
+      4715
+     ],
+     [
+      3932,
+      3939
+     ],
+     [
+      4240,
+      3162
+     ],
+     [
+      4530,
+      2274
+     ],
+     [
+      5011,
+      1054
+     ],
+     [
+      5397,
+      -55
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "fustat-north",
+    "blurb": "The way from Fustat north across the desert edge to Heliopolis (Ayn Shams) and the Delta.",
+    "periods": [
+     "fustat-700"
+    ]
+   },
+   {
+    "name": "The Great Street (al-Shari' al-A'zam)",
+    "path": [
+     [
+      3315,
+      5958
+     ],
+     [
+      3489,
+      5492
+     ],
+     [
+      3710,
+      4715
+     ],
+     [
+      3951,
+      3828
+     ],
+     [
+      4240,
+      3606
+     ],
+     [
+      4626,
+      3439
+     ],
+     [
+      4915,
+      2996
+     ],
+     [
+      5117,
+      2563
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "great-street",
+    "blurb": "The main road between Fustat and the northern towns: through al-Askar and al-Qata'i, and from 969 on to Bab Zuwayla. South of the gate in Mamluk times it was the Qasaba's continuation, lined with markets.",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Avenue of al-Qata'i",
+    "path": [
+     [
+      3739,
+      3550
+     ],
+     [
+      4144,
+      3761
+     ],
+     [
+      4549,
+      3872
+     ],
+     [
+      4780,
+      3905
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "saliba-tulunid",
+    "blurb": "Ibn Tulun's avenue from al-Askar past his mosque to the palace gate and the maydan below the Muqattam. Shari' al-Saliba later follows much the same line.",
+    "periods": [
+     "tulunid-880"
+    ]
+   },
+   {
+    "name": "Shari' al-Saliba",
+    "path": [
+     [
+      3739,
+      3550
+     ],
+     [
+      4144,
+      3761
+     ],
+     [
+      4549,
+      3872
+     ],
+     [
+      4867,
+      3917
+     ],
+     [
+      5146,
+      3961
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "saliba",
+    "blurb": "The street of the Cross (saliba): from the Khalij past the Mosque of Ibn Tulun to the Rumayla square below the Citadel, lined with the domes and sabils of Mamluk amirs.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "al-Qasaba (Bayn al-Qasrayn)",
+    "path": [
+     [
+      5676,
+      1220
+     ],
+     [
+      5609,
+      1365
+     ],
+     [
+      5542,
+      1498
+     ],
+     [
+      5503,
+      1664
+     ],
+     [
+      5484,
+      1831
+     ],
+     [
+      5445,
+      1997
+     ],
+     [
+      5368,
+      2152
+     ],
+     [
+      5301,
+      2297
+     ],
+     [
+      5185,
+      2419
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "qasaba",
+    "blurb": "The spine of al-Qahira from Bab al-Futuh to Bab Zuwayla. Between the two Fatimid palaces it widened into Bayn al-Qasrayn, 'between the two palaces', a parade ground for ten thousand soldiers; under the Mamluks the city's grandest street of madrasas and tombs.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road from Bab al-Futuh",
+    "path": [
+     [
+      5696,
+      1110
+     ],
+     [
+      5782,
+      610
+     ],
+     [
+      5898,
+      -166
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "futuh-road",
+    "blurb": "Out of the 'Gate of Conquests' toward the Delta and Syria, past cemeteries and, later, the suburb of Husayniyya.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road from Bab al-Nasr",
+    "path": [
+     [
+      5879,
+      1076
+     ],
+     [
+      6187,
+      610
+     ],
+     [
+      6698,
+      -166
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "nasr-road",
+    "blurb": "Out of the 'Gate of Victory' along which armies and the pilgrim caravan left for Syria and Mecca.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Street of Bab al-Qantara",
+    "path": [
+     [
+      5532,
+      1487
+     ],
+     [
+      5301,
+      1431
+     ],
+     [
+      5185,
+      1409
+     ],
+     [
+      4722,
+      1276
+     ],
+     [
+      4260,
+      1021
+     ],
+     [
+      4000,
+      721
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "qantara-street",
+    "blurb": "West from the Qasaba through the 'Gate of the Bridge' over the Khalij to al-Maqs, al-Qahira's port on the Nile.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road to Bulaq",
+    "path": [
+     [
+      4260,
+      1021
+     ],
+     [
+      3566,
+      877
+     ],
+     [
+      2843,
+      788
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "bulaq-road",
+    "blurb": "Across the new land left by the river to the port of Bulaq, busy with camels and donkeys carrying grain and goods from the boats.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Darb al-Ahmar",
+    "path": [
+     [
+      5204,
+      2563
+     ],
+     [
+      5301,
+      2829
+     ],
+     [
+      5378,
+      3162
+     ],
+     [
+      5436,
+      3495
+     ],
+     [
+      5397,
+      3650
+     ]
+    ],
+    "width": 9,
+    "style": "major",
+    "labelled": true,
+    "id": "darb-al-ahmar",
+    "blurb": "The 'Red Road' from Bab Zuwayla to the Citadel, built up by Mamluk amirs with mosques, palaces and markets once the sultans moved to the Citadel.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road to the Qarafa",
+    "path": [
+     [
+      3450,
+      5825
+     ],
+     [
+      4144,
+      5603
+     ],
+     [
+      4915,
+      5381
+     ],
+     [
+      5590,
+      5048
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "qarafa-road",
+    "blurb": "Out to the great cemetery of the Qarafa and the Muqattam: Fustat's people walked it on Fridays and feast days to visit their dead and the saints' tombs."
+   },
+   {
+    "name": "Street to the river landing",
+    "path": [
+     [
+      3450,
+      5803
+     ],
+     [
+      3084,
+      5869
+     ],
+     [
+      2776,
+      5891
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "river-street",
+    "blurb": "From the markets north of the Mosque of Amr down to the Nile landing and the bridge of boats to Roda.",
+    "periods": [
+     "fustat-700",
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "name": "Road along the aqueduct",
+    "path": [
+     [
+      2853,
+      4161
+     ],
+     [
+      3469,
+      4249
+     ],
+     [
+      4144,
+      4360
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "fumm-road",
+    "blurb": "From the canal mouth and Old Cairo's river landings to the Citadel, along the arches of the aqueduct.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Walls of al-Qahira",
+    "path": [
+     [
+      5301,
+      1098
+     ],
+     [
+      5696,
+      1176
+     ],
+     [
+      5860,
+      1143
+     ],
+     [
+      6313,
+      1276
+     ],
+     [
+      6264,
+      1720
+     ],
+     [
+      6120,
+      2164
+     ],
+     [
+      5927,
+      2519
+     ],
+     [
+      5493,
+      2519
+     ],
+     [
+      5137,
+      2496
+     ],
+     [
+      4867,
+      2385
+     ],
+     [
+      5060,
+      1720
+     ]
+    ],
+    "closed": true,
+    "id": "qahira-walls",
+    "blurb": "Jawhar's walls of 969 were mud brick; in 1087–1092 the vizier Badr al-Jamali rebuilt them a little wider in stone with the gates of Zuwayla, al-Futuh and al-Nasr. Saladin extended them toward the Citadel and Fustat.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Saladin's wall",
+    "path": [
+     [
+      5927,
+      2519
+     ],
+     [
+      5879,
+      2940
+     ],
+     [
+      5782,
+      3384
+     ],
+     [
+      5667,
+      3695
+     ]
+    ],
+    "closed": false,
+    "id": "ayyubid-wall",
+    "blurb": "Part of the circuit Saladin began in 1176 to join al-Qahira, the Citadel and Fustat in one enclosure. Never finished; this eastern stretch, later buried under rubbish mounds, has been excavated in al-Azhar Park.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Bab al-Qantara",
+    "position": [
+     5185,
+     1409
+    ],
+    "id": "bab-al-qantara",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Bab al-Barqiyya",
+    "position": [
+     6235,
+     1831
+    ],
+    "id": "bab-al-barqiyya",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Bab al-Sha'riyya",
+    "position": [
+     5339,
+     1110
+    ],
+    "id": "bab-al-shariyya",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Bab al-Mahruq",
+    "position": [
+     6052,
+     2308
+    ],
+    "id": "bab-al-mahruq",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Bab al-Khalq",
+    "position": [
+     4886,
+     2374
+    ],
+    "id": "bab-al-khalq",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Bab al-Wazir",
+    "position": [
+     5763,
+     3406
+    ],
+    "id": "bab-al-wazir",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Bridge of boats to Roda",
+    "path": [
+     [
+      2621,
+      6180
+     ],
+     [
+      2197,
+      6180
+     ]
+    ],
+    "build": "timber",
+    "arches": 6,
+    "id": "roda-bridge",
+    "blurb": "A bridge of moored boats joined Fustat to Roda Island, and a second one Roda to Giza: the crossing of the Nile for armies, pilgrims and caravans to the west. Later the crossing was made by ferry.",
+    "periods": [
+     "fustat-700",
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "name": "Bridge of boats to Giza",
+    "path": [
+     [
+      1831,
+      5603
+     ],
+     [
+      1060,
+      5603
+     ]
+    ],
+    "build": "timber",
+    "arches": 8,
+    "id": "giza-bridge",
+    "blurb": "The second half of the boat-bridge, from Roda to Giza on the west bank, taken up when the flood ran high.",
+    "periods": [
+     "fustat-700",
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "name": "Qanatir al-Siba'",
+    "path": [
+     [
+      3691,
+      3506
+     ],
+     [
+      3797,
+      3606
+     ]
+    ],
+    "build": "stone",
+    "arches": 2,
+    "id": "qanatir-al-siba",
+    "blurb": "The 'Bridge of the Lions', built over the Khalij by Sultan Baybars, whose emblem was a lion, near the shrine of Sayyida Zaynab.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "aqueducts": [
+   {
+    "name": "Aqueduct of the Citadel",
+    "path": [
+     [
+      2853,
+      4249
+     ],
+     [
+      3469,
+      4360
+     ],
+     [
+      4144,
+      4493
+     ],
+     [
+      4626,
+      4538
+     ],
+     [
+      5031,
+      4427
+     ],
+     [
+      5301,
+      4272
+     ]
+    ],
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2718,
+      6291
+     ],
+     [
+      2853,
+      5603
+     ],
+     [
+      3450,
+      5603
+     ],
+     [
+      3450,
+      6291
+     ]
+    ],
+    "density": "dense",
+    "name": "Ahl al-Raya",
+    "periods": [
+     "fustat-700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2718,
+      6690
+     ],
+     [
+      2718,
+      6313
+     ],
+     [
+      3469,
+      6313
+     ],
+     [
+      3469,
+      6690
+     ]
+    ],
+    "density": "dense",
+    "name": "Tujib and Lakhm",
+    "periods": [
+     "fustat-700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2486,
+      7267
+     ],
+     [
+      2506,
+      6724
+     ],
+     [
+      3325,
+      6724
+     ],
+     [
+      3325,
+      7267
+     ]
+    ],
+    "density": "dense",
+    "name": "Rashida and Banu Wa'il",
+    "periods": [
+     "fustat-700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2891,
+      5581
+     ],
+     [
+      3045,
+      4882
+     ],
+     [
+      3662,
+      4882
+     ],
+     [
+      3662,
+      5581
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Hamra",
+    "periods": [
+     "fustat-700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3392,
+      7267
+     ],
+     [
+      3518,
+      5603
+     ],
+     [
+      4096,
+      5603
+     ],
+     [
+      4048,
+      7267
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern khitat",
+    "periods": [
+     "fustat-700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2679,
+      6313
+     ],
+     [
+      2833,
+      5581
+     ],
+     [
+      3469,
+      5581
+     ],
+     [
+      3469,
+      6313
+     ]
+    ],
+    "density": "dense",
+    "name": "Ahl al-Raya",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2698,
+      6690
+     ],
+     [
+      2698,
+      6335
+     ],
+     [
+      3469,
+      6335
+     ],
+     [
+      3469,
+      6690
+     ]
+    ],
+    "density": "dense",
+    "name": "Tujib and Lakhm",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2486,
+      7267
+     ],
+     [
+      2506,
+      6724
+     ],
+     [
+      3469,
+      6724
+     ],
+     [
+      3469,
+      7267
+     ]
+    ],
+    "density": "dense",
+    "name": "Rashida and Banu Wa'il",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2833,
+      5559
+     ],
+     [
+      2988,
+      4826
+     ],
+     [
+      3662,
+      4826
+     ],
+     [
+      3518,
+      5559
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Hamra",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3518,
+      7267
+     ],
+     [
+      3518,
+      5880
+     ],
+     [
+      4048,
+      5714
+     ],
+     [
+      4144,
+      7267
+     ]
+    ],
+    "density": "dense",
+    "name": "Suq Wardan and the eastern lanes",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3007,
+      4804
+     ],
+     [
+      3161,
+      4138
+     ],
+     [
+      3855,
+      3939
+     ],
+     [
+      3681,
+      4671
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Askar",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3585,
+      5492
+     ],
+     [
+      3778,
+      4738
+     ],
+     [
+      4240,
+      4738
+     ],
+     [
+      4144,
+      5492
+     ]
+    ],
+    "density": "dense",
+    "name": "Upper Fustat",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3585,
+      5492
+     ],
+     [
+      3778,
+      4738
+     ],
+     [
+      4240,
+      4738
+     ],
+     [
+      4144,
+      5492
+     ]
+    ],
+    "density": "loose",
+    "name": "Upper Fustat",
+    "periods": [
+     "tulunid-880"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4221,
+      7267
+     ],
+     [
+      4144,
+      5714
+     ],
+     [
+      4626,
+      5492
+     ],
+     [
+      4722,
+      7267
+     ]
+    ],
+    "density": "loose",
+    "name": "Toward the Qarafa",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3894,
+      3917
+     ],
+     [
+      4125,
+      3273
+     ],
+     [
+      4722,
+      3273
+     ],
+     [
+      4742,
+      3806
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of al-Qata'i",
+    "periods": [
+     "tulunid-880"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4298,
+      4693
+     ],
+     [
+      4298,
+      4227
+     ],
+     [
+      5011,
+      4227
+     ],
+     [
+      5011,
+      4693
+     ]
+    ],
+    "density": "loose",
+    "name": "Southern wards",
+    "periods": [
+     "tulunid-880"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4260,
+      3206
+     ],
+     [
+      4481,
+      2607
+     ],
+     [
+      4896,
+      2607
+     ],
+     [
+      4819,
+      3206
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern wards",
+    "periods": [
+     "tulunid-880"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3894,
+      3917
+     ],
+     [
+      4125,
+      3273
+     ],
+     [
+      4819,
+      3384
+     ],
+     [
+      5011,
+      3806
+     ]
+    ],
+    "density": "loose",
+    "name": "Ruins of al-Qata'i",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4925,
+      2363
+     ],
+     [
+      5079,
+      1853
+     ],
+     [
+      5358,
+      1831
+     ],
+     [
+      5281,
+      2274
+     ],
+     [
+      5204,
+      2408
+     ]
+    ],
+    "density": "dense",
+    "name": "Harat Zuwayla",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5358,
+      2474
+     ],
+     [
+      5426,
+      2053
+     ],
+     [
+      5879,
+      2030
+     ],
+     [
+      5898,
+      2452
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Batiliyya",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5898,
+      2053
+     ],
+     [
+      5898,
+      1587
+     ],
+     [
+      6216,
+      1587
+     ],
+     [
+      6072,
+      2097
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Barqiyya",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5252,
+      1476
+     ],
+     [
+      5339,
+      1132
+     ],
+     [
+      5513,
+      1209
+     ],
+     [
+      5493,
+      1476
+     ]
+    ],
+    "density": "dense",
+    "name": "Harat Baha' al-Din",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5648,
+      1587
+     ],
+     [
+      5667,
+      1354
+     ],
+     [
+      6245,
+      1298
+     ],
+     [
+      6245,
+      1587
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Utufiyya",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3971,
+      1054
+     ],
+     [
+      4096,
+      333
+     ],
+     [
+      4722,
+      333
+     ],
+     [
+      4703,
+      1054
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Maqs",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4549,
+      2829
+     ],
+     [
+      4703,
+      2430
+     ],
+     [
+      5011,
+      2496
+     ],
+     [
+      4915,
+      2874
+     ]
+    ],
+    "density": "loose",
+    "name": "Gardens between the cities",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2506,
+      7267
+     ],
+     [
+      2525,
+      6712
+     ],
+     [
+      3277,
+      6712
+     ],
+     [
+      3277,
+      7267
+     ]
+    ],
+    "density": "dense",
+    "name": "Misr al-Qadima by the river",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2621,
+      6291
+     ],
+     [
+      2679,
+      5048
+     ],
+     [
+      3200,
+      5048
+     ],
+     [
+      3373,
+      6269
+     ]
+    ],
+    "density": "dense",
+    "name": "Misr al-Qadima by the river",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2698,
+      6690
+     ],
+     [
+      2718,
+      6335
+     ],
+     [
+      3180,
+      6335
+     ],
+     [
+      3180,
+      6690
+     ]
+    ],
+    "density": "loose",
+    "name": "Qasr al-Sham' lanes",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3518,
+      6602
+     ],
+     [
+      3585,
+      5714
+     ],
+     [
+      4000,
+      5714
+     ],
+     [
+      3951,
+      6602
+     ]
+    ],
+    "density": "loose",
+    "name": "Potteries of Fustat",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4925,
+      2363
+     ],
+     [
+      5079,
+      1853
+     ],
+     [
+      5358,
+      1831
+     ],
+     [
+      5281,
+      2274
+     ],
+     [
+      5204,
+      2408
+     ]
+    ],
+    "density": "dense",
+    "name": "Harat Zuwayla",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5358,
+      2474
+     ],
+     [
+      5426,
+      2053
+     ],
+     [
+      5879,
+      2030
+     ],
+     [
+      5898,
+      2452
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Ghuriya and al-Batiliyya",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5879,
+      2030
+     ],
+     [
+      5879,
+      1587
+     ],
+     [
+      6216,
+      1587
+     ],
+     [
+      6072,
+      2097
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Barqiyya",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5551,
+      1875
+     ],
+     [
+      5551,
+      1609
+     ],
+     [
+      5860,
+      1609
+     ],
+     [
+      5860,
+      1875
+     ]
+    ],
+    "density": "dense",
+    "name": "Khan al-Khalili and al-Husayn",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5108,
+      1609
+     ],
+     [
+      5320,
+      1132
+     ],
+     [
+      5513,
+      1209
+     ],
+     [
+      5493,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Harat Baha' al-Din",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5648,
+      1587
+     ],
+     [
+      5667,
+      1354
+     ],
+     [
+      6245,
+      1298
+     ],
+     [
+      6245,
+      1587
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Gamaliyya",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5185,
+      3550
+     ],
+     [
+      5320,
+      2541
+     ],
+     [
+      5879,
+      2541
+     ],
+     [
+      5763,
+      3273
+     ]
+    ],
+    "density": "dense",
+    "name": "Darb al-Ahmar and al-Tabbana",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4665,
+      3539
+     ],
+     [
+      4954,
+      2563
+     ],
+     [
+      5108,
+      2563
+     ],
+     [
+      5108,
+      3539
+     ]
+    ],
+    "density": "dense",
+    "name": "Khayamiyya and Suq al-Silah",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3971,
+      4604
+     ],
+     [
+      3855,
+      3606
+     ],
+     [
+      4819,
+      3650
+     ],
+     [
+      4819,
+      4604
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Saliba and Ibn Tulun",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3431,
+      3917
+     ],
+     [
+      3855,
+      3273
+     ],
+     [
+      4144,
+      3539
+     ],
+     [
+      3855,
+      3939
+     ]
+    ],
+    "density": "dense",
+    "name": "Sayyida Zaynab",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4626,
+      5159
+     ],
+     [
+      4626,
+      4627
+     ],
+     [
+      5204,
+      4493
+     ],
+     [
+      5349,
+      5048
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Khalifa",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4240,
+      2829
+     ],
+     [
+      4665,
+      2430
+     ],
+     [
+      4915,
+      2496
+     ],
+     [
+      4771,
+      2851
+     ]
+    ],
+    "density": "loose",
+    "name": "Round the Birkat al-Fil",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2988,
+      3384
+     ],
+     [
+      3142,
+      2274
+     ],
+     [
+      4144,
+      2274
+     ],
+     [
+      3855,
+      3273
+     ]
+    ],
+    "density": "loose",
+    "name": "Bab al-Luq",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3277,
+      2053
+     ],
+     [
+      3469,
+      1110
+     ],
+     [
+      4144,
+      1110
+     ],
+     [
+      4144,
+      2053
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Maqs",
+    "periods": [
+     "mamluk-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5763,
+      1032
+     ],
+     [
+      5860,
+      166
+     ],
+     [
+      6476,
+      166
+     ],
+     [
+      5994,
+      1032
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Husayniyya",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2939,
+      1220
+     ],
+     [
+      2824,
+      166
+     ],
+     [
+      3325,
+      166
+     ],
+     [
+      3373,
+      1220
+     ]
+    ],
+    "density": "loose",
+    "name": "Bulaq",
+    "periods": [
+     "mamluk-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2602,
+      1387
+     ],
+     [
+      2467,
+      111
+     ],
+     [
+      3180,
+      111
+     ],
+     [
+      3200,
+      1387
+     ]
+    ],
+    "density": "dense",
+    "name": "Bulaq",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3855,
+      1720
+     ],
+     [
+      3951,
+      1054
+     ],
+     [
+      4144,
+      1054
+     ],
+     [
+      4144,
+      1720
+     ]
+    ],
+    "density": "loose",
+    "name": "Azbakiyya",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4433,
+      1110
+     ],
+     [
+      4530,
+      610
+     ],
+     [
+      5108,
+      610
+     ],
+     [
+      5011,
+      1110
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Bahr",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      1927,
+      5603
+     ],
+     [
+      1927,
+      3939
+     ],
+     [
+      2409,
+      3939
+     ],
+     [
+      2313,
+      5603
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Roda orchards"
+   },
+   {
+    "polygon": [
+     [
+      193,
+      7267
+     ],
+     [
+      193,
+      4161
+     ],
+     [
+      771,
+      4161
+     ],
+     [
+      771,
+      7267
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of Giza"
+   },
+   {
+    "polygon": [
+     [
+      5089,
+      1853
+     ],
+     [
+      5204,
+      1498
+     ],
+     [
+      5272,
+      1520
+     ],
+     [
+      5262,
+      1853
+     ]
+    ],
+    "kind": "park",
+    "name": "al-Bustan al-Kafuri",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3855,
+      2385
+     ],
+     [
+      3951,
+      1720
+     ],
+     [
+      4530,
+      1720
+     ],
+     [
+      4433,
+      2385
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of al-Maqs",
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3855,
+      2385
+     ],
+     [
+      4048,
+      1498
+     ],
+     [
+      4626,
+      1498
+     ],
+     [
+      4433,
+      2385
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves",
+    "periods": [
+     "fustat-700",
+     "tulunid-880"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1542,
+      1942
+     ],
+     [
+      1397,
+      832
+     ],
+     [
+      1831,
+      832
+     ],
+     [
+      1976,
+      1942
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of Bulaq island",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "fustat",
+    "name": "Fustat (Misr)",
+    "polygon": [
+     [
+      2467,
+      7267
+     ],
+     [
+      2939,
+      4771
+     ],
+     [
+      4240,
+      4771
+     ],
+     [
+      4240,
+      7267
+     ]
+    ],
+    "description": "The first Arab capital, founded 641 as a camp round the Mosque of Amr; the commercial city of Egypt for five centuries, with glassworks, potteries and tall houses. Burned in 1168 and left to decay; its southern part lived on as Misr al-Qadima."
+   },
+   {
+    "id": "qasr-al-sham",
+    "name": "Qasr al-Sham' (Babylon)",
+    "polygon": [
+     [
+      2467,
+      6735
+     ],
+     [
+      2467,
+      6380
+     ],
+     [
+      2718,
+      6380
+     ],
+     [
+      2718,
+      6735
+     ]
+    ],
+    "description": "The Roman fortress of Babylon, home of Coptic Christians and Jews through every era: churches built into its walls and the Ben Ezra synagogue."
+   },
+   {
+    "id": "al-askar",
+    "name": "al-Askar",
+    "polygon": [
+     [
+      2988,
+      4804
+     ],
+     [
+      3200,
+      3939
+     ],
+     [
+      4048,
+      3939
+     ],
+     [
+      3855,
+      4804
+     ]
+    ],
+    "description": "'The Cantonment': the Abbasid governors' town of 750, with their palace and mosque, absorbed into Fustat by the 10th century.",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "id": "al-qatai",
+    "name": "al-Qata'i",
+    "polygon": [
+     [
+      3855,
+      4715
+     ],
+     [
+      4240,
+      2607
+     ],
+     [
+      5252,
+      2607
+     ],
+     [
+      5252,
+      4715
+     ]
+    ],
+    "description": "Ibn Tulun's royal city of 870, divided into wards (qata'i) for his regiments. The Abbasid army destroyed it in 905; only the mosque survived.",
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "id": "al-qahira",
+    "name": "al-Qahira",
+    "polygon": [
+     [
+      5301,
+      1098
+     ],
+     [
+      5696,
+      1176
+     ],
+     [
+      5860,
+      1143
+     ],
+     [
+      6313,
+      1276
+     ],
+     [
+      6264,
+      1720
+     ],
+     [
+      6120,
+      2164
+     ],
+     [
+      5927,
+      2519
+     ],
+     [
+      5493,
+      2519
+     ],
+     [
+      5137,
+      2496
+     ],
+     [
+      4867,
+      2385
+     ],
+     [
+      5060,
+      1720
+     ]
+    ],
+    "description": "'The Victorious': the Fatimid palace city of 969, closed to commoners at first; under the Mamluks the crowded heart of the whole city, its main street lined with madrasas and markets.",
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "id": "roda",
+    "name": "Jazirat al-Rawda",
+    "polygon": [
+     [
+      2033,
+      6712
+     ],
+     [
+      2371,
+      5603
+     ],
+     [
+      2554,
+      3939
+     ],
+     [
+      2217,
+      3051
+     ],
+     [
+      1793,
+      4493
+     ],
+     [
+      1908,
+      6324
+     ]
+    ],
+    "description": "Roda Island: a Byzantine fort, then the Arab shipyard and the Nilometer; gardens, and in the 1240s the Ayyubid sultan's island citadel for his Bahri Mamluks."
+   },
+   {
+    "id": "qarafa",
+    "name": "al-Qarafa",
+    "polygon": [
+     [
+      4337,
+      6823
+     ],
+     [
+      5011,
+      4715
+     ],
+     [
+      5782,
+      4604
+     ],
+     [
+      5782,
+      6823
+     ]
+    ],
+    "description": "The Southern Cemetery, the City of the Dead under the Muqattam, with tombs of saints and caliphs' families, visited on Fridays and feast days."
+   },
+   {
+    "id": "darb-al-ahmar",
+    "name": "Darb al-Ahmar",
+    "polygon": [
+     [
+      5011,
+      3650
+     ],
+     [
+      5156,
+      2519
+     ],
+     [
+      5879,
+      2519
+     ],
+     [
+      5686,
+      3606
+     ]
+    ],
+    "description": "The quarter between Bab Zuwayla and the Citadel, filled after 1300 with the mosques, palaces and markets of Mamluk amirs.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "id": "husayniyya",
+    "name": "al-Husayniyya",
+    "polygon": [
+     [
+      5686,
+      1076
+     ],
+     [
+      5782,
+      0
+     ],
+     [
+      6553,
+      0
+     ],
+     [
+      6023,
+      1076
+     ]
+    ],
+    "description": "The suburb outside Bab al-Futuh and Bab al-Nasr, settled in the 13th century by soldiers and Mongol refugees; butchers and caravan trades.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "id": "bulaq",
+    "name": "Bulaq",
+    "polygon": [
+     [
+      2506,
+      1387
+     ],
+     [
+      2409,
+      0
+     ],
+     [
+      3325,
+      0
+     ],
+     [
+      3373,
+      1387
+     ]
+    ],
+    "description": "Land the Nile left behind after 1300, Cairo's main river port from the 15th century: wikalas, granaries, boatyards and customs.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "id": "northern-cemetery",
+    "name": "Sahra' al-Mamalik (Northern Cemetery)",
+    "polygon": [
+     [
+      6409,
+      3051
+     ],
+     [
+      6505,
+      1054
+     ],
+     [
+      7324,
+      1054
+     ],
+     [
+      7324,
+      3051
+     ]
+    ],
+    "description": "The desert east of al-Qahira where Mamluk sultans built great funerary complexes from the 14th century, the tomb of Qaitbay among them.",
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "al-Nil",
+    "position": [
+     1667,
+     6934
+    ],
+    "size": "lg",
+    "rotation": -80
+   },
+   {
+    "text": "Bahr al-Nil",
+    "position": [
+     2939,
+     1942
+    ],
+    "size": "lg",
+    "rotation": -70,
+    "periods": [
+     "fustat-700",
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "text": "Bahr al-Nil",
+    "position": [
+     2140,
+     2774
+    ],
+    "size": "md",
+    "rotation": -70,
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "Jazirat al-Rawda",
+    "position": [
+     2149,
+     4826
+    ],
+    "size": "sm",
+    "rotation": -80
+   },
+   {
+    "text": "al-Muqattam",
+    "position": [
+     6650,
+     5603
+    ],
+    "size": "md",
+    "rotation": -60
+   },
+   {
+    "text": "Fustat",
+    "position": [
+     3392,
+     5215
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "fustat-700",
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "text": "Misr al-Qadima",
+    "position": [
+     2939,
+     5603
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "al-Qahira",
+    "position": [
+     5011,
+     2053
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "al-Khalij",
+    "position": [
+     4289,
+     2663
+    ],
+    "size": "sm",
+    "rotation": -45
+   },
+   {
+    "text": "al-Qata'i",
+    "position": [
+     4385,
+     3439
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "tulunid-880"
+    ]
+   },
+   {
+    "text": "al-Askar",
+    "position": [
+     3469,
+     4383
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "tulunid-880",
+     "fatimid-1050"
+    ]
+   },
+   {
+    "text": "al-Qarafa",
+    "position": [
+     5011,
+     6047
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "al-Jiza",
+    "position": [
+     482,
+     5492
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "Bulaq",
+    "position": [
+     3180,
+     444
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "al-Maqs",
+    "position": [
+     4433,
+     610
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "fatimid-1050"
+    ]
+   },
+   {
+    "text": "Birkat al-Fil",
+    "position": [
+     4433,
+     3251
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "fatimid-1050",
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "Azbakiyya",
+    "position": [
+     4298,
+     1587
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "al-Husayniyya",
+    "position": [
+     6120,
+     499
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "Qarafat al-Mamalik",
+    "position": [
+     6891,
+     1720
+    ],
+    "size": "sm",
+    "rotation": -80,
+    "periods": [
+     "mamluk-1350",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D7AE",
+   "ink": "#6B4A30",
+   "water": "#5F8A88",
+   "hill": "#9A8A62",
+   "road": "#8C6A48"
+  },
+  "compass": [
+   7035,
+   444
+  ],
+  "cartouche": [
+   193,
+   6934
+  ]
+ },
+ "periods": [
+  {
+   "id": "fustat-700",
+   "label": "Umayyad Fustat",
+   "year": 700,
+   "startYear": 641,
+   "endYear": 867,
+   "summary": "The Arab army's camp-town of Fustat, laid out in 641–642 by Amr ibn al-As in tribal plots (khitat) round his mosque, beside the Roman fortress of Babylon with its Coptic churches. A garrison and tax capital of mud brick, palm timber and reused stone on the Nile bank; Roda Island has a shipyard and a nilometer, and Amr's re-dug canal carries grain to Arabia.",
+   "population": "perhaps 30,000–40,000",
+   "feel": "Arabic and Coptic in the same lane, camels at the river landing, palm-trunk columns in a crowded mosque, and church bells from inside the Roman walls.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Tribal plots of Fustat",
+    "text": "Each Arab clan settled its own khitta: walled compounds of mud brick and palm beams round yards, a mosque and a cemetery of its own, lanes left between plots. By 700 the plots had filled with two-storey houses of brick on stone footings."
+   },
+   "outskirts": {
+    "title": "Palm groves and monasteries",
+    "text": "Beyond the plots, palm groves, threshing floors and Coptic monasteries ran out toward the desert edge and the tombs of the Qarafa under the Muqattam."
+   }
+  },
+  {
+   "id": "tulunid-880",
+   "label": "Ibn Tulun's al-Qata'i",
+   "year": 880,
+   "startYear": 868,
+   "endYear": 968,
+   "summary": "Ahmad ibn Tulun, Turkish governor turned independent ruler, builds a new royal quarter, al-Qata'i ('the wards'), north-east of Fustat and al-Askar: a palace and polo ground under the Muqattam, a hospital, an aqueduct, and the vast brick mosque on Jabal Yashkur. Fustat keeps the trade, the river and the crowds. The Abbasids raze al-Qata'i in 905, sparing only the mosque.",
+   "population": "perhaps 100,000 in the three towns",
+   "feel": "Drums from the palace maydan, polo ponies on the dust, bricklayers on scaffolds round the great mosque, Fustat's markets roaring by the river.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Brick houses of Fustat and al-Askar",
+    "text": "Courtyard houses of fired and mud brick, two and three storeys, with wind-catchers on the roofs; in Fustat the first tall tenements crowd the lanes near the river. Excavated houses had water channels, latrines and painted plaster."
+   },
+   "outskirts": {
+    "title": "Wards of the soldiers",
+    "text": "Al-Qata'i was laid out in wards for each regiment and group of servants: Sudanese, Greeks, Turks. Loose blocks of barracks, stables and gardens round the palace and its maydan."
+   }
+  },
+  {
+   "id": "fatimid-1050",
+   "label": "Fatimid Cairo",
+   "year": 1050,
+   "startYear": 969,
+   "endYear": 1170,
+   "summary": "Two cities: al-Qahira, the walled palace city founded by the Fatimid caliphs in 969, with its two great palaces, Al-Azhar and the processional street Bayn al-Qasrayn; and Fustat (Misr), the commercial city on the Nile at its richest, as Nasir-i Khusraw saw it in 1047. Brick and timber, stone for mosques and gates, gardens along the canal; Fustat burned in 1168.",
+   "population": "perhaps 200,000–300,000",
+   "feel": "Lamps hung by the thousand in the Mosque of Amr, porters with Nile water, caliphal processions with gold parasols, glass and lustre pottery in the market.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Tall houses of Misr",
+    "text": "Nasir-i Khusraw thought Fustat's houses looked like mountains: brick tenements of five, seven, by his count even fourteen storeys, with roof gardens. In al-Qahira, courtyard houses of officials and soldiers filled the quarters named after the caliph's regiments."
+   },
+   "outskirts": {
+    "title": "Gardens on the canal",
+    "text": "Between the two cities and along the Khalij lay pleasure gardens, orchards, belvederes and the ruins of al-Qata'i; at al-Maqs, al-Qahira's river port, shipyards and warehouses."
+   }
+  },
+  {
+   "id": "mamluk-1350",
+   "label": "Mamluk Cairo",
+   "year": 1350,
+   "startYear": 1171,
+   "endYear": 1516,
+   "summary": "Saladin's Citadel (begun 1176) on its Muqattam spur is the seat of the Mamluk sultans, slave-soldiers who rule Egypt and Syria. Al-Qahira, now the whole city's heart, is packed with stone madrasas, mausoleums and hospitals of the sultans and amirs; the city spreads to the Citadel and across the canal. The Black Death of 1348 has just killed perhaps a third of its people.",
+   "population": "perhaps 400,000 before the plague of 1348, far fewer after",
+   "feel": "Striped stone facades and carved domes, the call to prayer from a hundred minarets, Qur'an reciters at the tombs, funeral biers in the streets of 1348.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Rab' and qa'a",
+    "text": "Ordinary Cairenes rented rooms in the rab', a stone-and-brick tenement of three or four storeys over shops, with duplex flats round a stair. The rich lived in courtyard houses with a lofty qa'a hall, wind-catchers and turned-wood mashrabiya screens."
+   },
+   "outskirts": {
+    "title": "Ruins and new suburbs",
+    "text": "Old Fustat shrank to a river town among rubbish mounds; new suburbs grew at Husayniyya, round the Birkat al-Fil pond with amirs' palaces, and on the new land at Bulaq."
+   }
+  },
+  {
+   "id": "ottoman-1600",
+   "label": "Ottoman Cairo",
+   "year": 1600,
+   "startYear": 1517,
+   "endYear": 1798,
+   "summary": "After Selim I's conquest in 1517 Cairo is a provincial capital of the Ottoman empire, ruled by a pasha in the Citadel and the old Mamluk households. Still the biggest city of the Arab world: Bulaq is the Nile port, caravans and coffee from Yemen fill hundreds of wikalas, and coffee houses are new. Ottoman pencil minarets rise among Mamluk domes.",
+   "population": "perhaps 250,000–300,000",
+   "feel": "Coffee roasting in the Khan, Yemeni bales on Bulaq's quays, janissaries at the Citadel gate, mashrabiyas over every lane.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Mashrabiya houses",
+    "text": "Two- and three-storey houses of stone ground floors and brick or timber upper storeys, the upper floors corbelled out over the lane behind turned-wood mashrabiya screens; a court, a malqaf wind-catcher and a qa'a inside. Tenements (rab') over shops in the markets."
+   },
+   "outskirts": {
+    "title": "Ponds and gardens",
+    "text": "Round the seasonal ponds of Azbakiyya and al-Fil, houses of the beys and gardens flooded each summer; at Bulaq warehouses and boatyards; south, old Fustat's potters among the mounds."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "mosque-of-amr",
+   "placeId": "jami-amr",
+   "name": "Mosque of Amr ibn al-As",
+   "category": "religious",
+   "position": [
+    2824,
+    6147
+   ],
+   "rotation": -55,
+   "footprint": [
+    120.0,
+    112.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/amr-mosque.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 120,
+     "depth": 112,
+     "domes": 3,
+     "minaretHeight": 36.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fustat-700",
+    "tulunid-880",
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fustat-700": {
+     "note": "Rebuilt in 698 by the governor Abd al-Aziz on a site already twice enlarged: a brick court and roofed hall, with the four corner towers Maslama added in 673, Egypt's first minarets.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/cairo/amr-mosque-700.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 120,
+       "depth": 112,
+       "domes": 3,
+       "minaretHeight": 36.0
+      }
+     }
+    },
+    "tulunid-880": {
+     "note": "Doubled in 827 by the governor Abdallah ibn Tahir to roughly today's size: a court framed by arcades of reused marble columns, the hall seven aisles deep. Fustat's Friday mosque and court of justice."
+    },
+    "fatimid-1050": {
+     "note": "The heart of Misr at its richest. Nasir-i Khusraw found it full day and night with teachers, Qur'an readers and strangers, and lit by hundreds of lamps; the Fatimids hung a huge silver chandelier here."
+    },
+    "mamluk-1350": {
+     "note": "Restored after the burning of Fustat in 1168 and again by the amir Salar after the earthquake of 1303, but now standing at the edge of a shrunken town among rubbish mounds."
+    },
+    "ottoman-1600": {
+     "note": "Half-ruined and little used except on the last Friday of Ramadan, when the Ottoman governor and the notables came to pray here for the Nile's rise. Rebuilt by Murad Bey in 1798."
+    }
+   },
+   "summary": "The first mosque in Africa, founded by the conqueror Amr ibn al-As in 641–642 at the centre of the camp-town of Fustat, and rebuilt and enlarged many times since.",
+   "details": [
+    "Amr's first mosque was a shelter of mud brick and palm trunks about 29 by 17 metres, with no minaret and no niche for the prayer direction. It was rebuilt in 673, 698 and 711 and doubled in 827; it was Fustat's congregational mosque, court and meeting place for five hundred years.",
+    "The miniature shows the enlarged 9th-century mosque: a court ringed by arcades on marble columns taken from older buildings, the deep hall on the qibla side and low corner towers. The 641 and 698 buildings are known only from texts, so the early variant is a reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-amr",
+    "creswell-mae",
+    "kubiak-fustat",
+    "nasir-khusraw"
+   ],
+   "built": "641–642; rebuilt 673, 698, 711; enlarged 827",
+   "function": "Congregational mosque",
+   "activity": {
+    "figures": 60,
+    "radius": 200
+   }
+  },
+  {
+   "id": "babylon-fortress",
+   "placeId": "qasr-al-sham",
+   "name": "Babylon Fortress and the Hanging Church",
+   "category": "military",
+   "position": [
+    2612,
+    6557
+   ],
+   "rotation": 0,
+   "footprint": [
+    191.8,
+    267.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/babylon.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 190,
+     "depth": 266,
+     "wallHeight": 38.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fustat-700",
+    "tulunid-880",
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fustat-700": {
+     "name": "Qasr al-Sham' (Babylon)",
+     "note": "Surrendered to Amr in April 641 after a seven-month siege. The Copts kept the fortress: churches stand inside its walls, and the Muslim town grows around it."
+    },
+    "tulunid-880": {
+     "note": "A Christian and Jewish quarter inside Roman walls. The Hanging Church stands on the bastions of the old river gate; the river still laps the western towers."
+    },
+    "fatimid-1050": {
+     "note": "The Coptic patriarch moves from Alexandria to Cairo in the 11th century; the Hanging Church becomes his seat. The Ben Ezra synagogue, rebuilt after al-Hakim's persecutions, stands at the south-east corner."
+    },
+    "mamluk-1350": {
+     "note": "The river has drawn back from the walls. Christians and Jews of Misr al-Qadima still worship in the churches and synagogue within; parts of the Roman wall have been quarried or built over."
+    },
+    "ottoman-1600": {
+     "note": "A walled Christian village in Old Cairo with narrow lanes, its churches restored again and again; the round Roman tower carries the Greek church of St George."
+    }
+   },
+   "summary": "The late Roman fortress at the head of the Delta, built of banded brick and stone with great round towers, whose walls shelter Cairo's oldest churches and the Ben Ezra synagogue.",
+   "details": [
+    "A fort at Babylon is mentioned by Greek and Roman writers; the walls we see were built under Diocletian around 300 CE and enclosed the harbour of a canal to the Red Sea. Amr ibn al-As besieged it from 640 and took it in April 641, opening Egypt to the Arabs.",
+    "The miniature shows the walls with their bands of red brick, the two round towers of the river gate and the Hanging Church raised on the gate's southern bastions, with the basilica of Abu Serga and smaller churches inside. The circuit is simplified; the interior lanes are not drawn."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-babylon-fortress",
+    "wiki-hanging-church",
+    "sheehan-babylon",
+    "butler-churches"
+   ],
+   "built": "c. 300 CE (walls); churches from the 7th–11th centuries",
+   "function": "Roman fortress; Coptic and Jewish quarter",
+   "activity": {
+    "figures": 40,
+    "radius": 160
+   }
+  },
+  {
+   "id": "nilometer",
+   "placeId": "miqyas",
+   "name": "Nilometer of Roda (al-Miqyas)",
+   "category": "civic",
+   "position": [
+    2053,
+    6468
+   ],
+   "rotation": 0,
+   "footprint": [
+    19.5,
+    18.0
+   ],
+   "scale": 2.2,
+   "model": {
+    "glb": "models/cairo/nilometer.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 18,
+     "depth": 18,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fustat-700",
+    "tulunid-880",
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fustat-700": {
+     "note": "An earlier nilometer was built at the tip of Roda by the Umayyad governor Usama ibn Zayd in 715; this miniature shows its Abbasid successor.",
+     "confidence": "interpretation"
+    },
+    "tulunid-880": {
+     "note": "Built in 861 for the caliph al-Mutawakkil and restored by Ibn Tulun in 872–873. A stone-lined well with a graduated marble column, fed from the river by three tunnels."
+    },
+    "fatimid-1050": {
+     "note": "Each summer a crier announced the daily rise; when the water reached sixteen cubits the land tax was due and the caliph rode out to have the canal's dam cut."
+    },
+    "mamluk-1350": {
+     "note": "Still read every day of the flood. The well-house now stands among the gardens and palaces of Roda, where the Ayyubid sultan al-Salih had his island citadel."
+    },
+    "ottoman-1600": {
+     "note": "The sheikh of the Nilometer still announces the Wafa' al-Nil, the flood's 'fulfilment', and the Ottoman pasha attends the cutting of the canal."
+    }
+   },
+   "summary": "The 861 Nilometer at the southern tip of Roda Island, a stone well with a marble column marked in cubits to measure the Nile flood on which Egypt's harvest and taxes depended.",
+   "details": [
+    "The well is about 6 m square and descends in steps below the river level, connected to the Nile by three tunnels at different heights. Its central octagonal column is divided into cubits; Kufic Qur'anic verses about water run round the walls. It was commissioned by the Abbasid caliph al-Mutawakkil in 861.",
+    "The miniature shows the well-house with its stepped shaft and a pointed roof. The original roof is lost; a dome over it was destroyed in 1825 and the conical roof seen today is a 20th-century reconstruction, so the roof here is an interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-nilometer",
+    "creswell-mae",
+    "behrens-abouseif"
+   ],
+   "built": "861; restored 872–873",
+   "function": "Flood gauge",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "ibn-tulun",
+   "placeId": "jami-ibn-tulun",
+   "name": "Mosque of Ibn Tulun",
+   "category": "religious",
+   "position": [
+    4385,
+    4072
+   ],
+   "rotation": -50,
+   "footprint": [
+    163.6,
+    163.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/ibn-tulun.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 162,
+     "depth": 162,
+     "height": 64.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tulunid-880",
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fustat-700": {
+     "note": "Jabal Yashkur, a bare rock north-east of Fustat with a few graves, where Ibn Tulun will build his mosque in 876."
+    },
+    "tulunid-880": {
+     "note": "Finished in 879: the Friday mosque of al-Qata'i, joined to the governor's residence on its qibla side. Its fountain of gilded dome on marble columns burns in 986."
+    },
+    "fatimid-1050": {
+     "note": "Al-Qata'i is gone, razed by the Abbasids in 905; the mosque stands in a half-empty quarter. The Fatimid caliph al-Mustansir adds a mihrab in stucco in 1094."
+    },
+    "mamluk-1350": {
+     "note": "Restored in 1296 by Sultan Lajin, who hid here after the murder of his predecessor: a new domed fountain, the present minaret top and a madrasa. A residential quarter now presses round it."
+    },
+    "ottoman-1600": {
+     "note": "Still the Friday mosque of the Saliba quarter, but neglected; parts of its arcades sheltered weavers and the poor in later centuries."
+    }
+   },
+   "summary": "The vast brick mosque Ahmad ibn Tulun built in 876–879 for his new city, with an arcaded court 92 m square, a domed fountain and a minaret with a spiral stair outside.",
+   "details": [
+    "Built of red brick coated in carved stucco, the mosque is about 122 by 140 m, enclosed by outer courts (ziyadas) that bring it to about 162 m square. Pointed arches on brick piers with corner colonnettes ring the court, five aisles deep on the qibla side; a frieze of sycamore wood carries the Qur'an round the hall.",
+    "The minaret, with its outer stair and bridge to the roof, recalls the spiral minaret of Samarra, Ibn Tulun's home. The present stone tower is usually dated to Lajin's restoration of 1296, as is the domed fountain shown in the court; the original arrangement is uncertain."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ibn-tulun",
+    "creswell-mae",
+    "swelim-tulun",
+    "behrens-abouseif"
+   ],
+   "built": "876–879; restored 1296",
+   "function": "Congregational mosque",
+   "activity": {
+    "figures": 50,
+    "radius": 220
+   }
+  },
+  {
+   "id": "tulunid-palace",
+   "placeId": "qasr-ibn-tulun",
+   "name": "Palace and Maydan of Ibn Tulun",
+   "category": "civic",
+   "position": [
+    5011,
+    3939
+   ],
+   "rotation": -15,
+   "footprint": [
+    381.6,
+    266.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/tulunid-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 380,
+     "depth": 260,
+     "height": 104.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tulunid-880"
+   ],
+   "variants": {
+    "fustat-700": {
+     "note": "Open ground and old cemeteries at the foot of the Muqattam."
+    },
+    "tulunid-880": {
+     "note": "Ibn Tulun's palace with its gardens and menagerie, and the maydan where he and his son Khumarawayh played polo and reviewed troops. Khumarawayh added the Golden Hall."
+    },
+    "fatimid-1050": {
+     "note": "Gone: the Abbasid general Muhammad ibn Sulayman sacked al-Qata'i in 905 and levelled the palace. Ruins and gardens; the Mamluk Rumayla square and Citadel later rise here."
+    }
+   },
+   "summary": "The lost palace of the Tulunids below the Muqattam, with its parade ground, gardens and a golden hall, destroyed by the Abbasids in 905.",
+   "details": [
+    "Al-Maqrizi, quoting earlier writers, describes a palace overlooking a maydan for polo and parades, with gates for the ruler and his army. Khumarawayh (884–896) built a hall whose walls carried gilded wooden statues of himself and his singing girls, and a pool of quicksilver on which he slept on an air cushion.",
+    "Nothing survives above ground and its plan is unknown. The miniature is an interpretation: a walled compound of halls and gardens beside a large open maydan, built of brick like the mosque."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-al-qatai",
+    "maqrizi-khitat",
+    "swelim-tulun"
+   ],
+   "built": "c. 870–896; destroyed 905",
+   "function": "Ruler's palace and parade ground",
+   "activity": {
+    "figures": 40,
+    "radius": 260
+   }
+  },
+  {
+   "id": "al-azhar",
+   "placeId": "jami-al-azhar",
+   "name": "Al-Azhar Mosque",
+   "category": "religious",
+   "position": [
+    5686,
+    2208
+   ],
+   "rotation": -50,
+   "footprint": [
+    100.0,
+    95.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/al-azhar-1350.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 95,
+     "height": 38.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "Sandy ground north of al-Qata'i on the road to Syria. In 969 Jawhar's Fatimid army camps here and lays out al-Qahira round its tents."
+    },
+    "fatimid-1050": {
+     "note": "The Fatimid congregational mosque of the palace city, a court with keel-arched arcades and a hall of five aisles. Teaching began here in 988 with paid scholars of Isma'ili law.",
+     "model": {
+      "glb": "models/cairo/al-azhar-972.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 95,
+       "height": 38.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "mamluk-1350": {
+     "note": "Sunni since Saladin and the first university of the Islamic world in all but name. The madrasas of Taybars (1309) and Aqbugha (1340) flank the entrance; Aqbugha's minaret rises over them."
+    },
+    "ottoman-1600": {
+     "note": "Three minarets now: Aqbugha's, Qaitbay's (1483) and al-Ghuri's twin-headed one (1510). Students from the Maghrib to Java live in its riwaqs, lodgings by nation.",
+     "model": {
+      "glb": "models/cairo/al-azhar-1600.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 95,
+       "height": 38.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Founded in 970 as the Fatimid caliphs' mosque in their new city, Al-Azhar became the most famous school of the Islamic world, enlarged by almost every ruler of Egypt.",
+   "details": [
+    "Jawhar began the mosque in April 970 and it was first used for Friday prayer in June 972. The Fatimid core survives: a court with keel arches, a hall five aisles deep, and the dome before the mihrab, with stucco inscriptions of the 10th century. The caliph al-Hafiz added another dome and arcade in the 1130s.",
+    "The miniature shows the court and prayer hall with the Mamluk madrasas and minarets as they stood in each era. The Fatimid minaret over the entrance is lost; its form is an interpretation. Eighteenth-century additions are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-al-azhar",
+    "creswell-mae",
+    "behrens-abouseif",
+    "bloom-fatimid"
+   ],
+   "built": "970–972; enlarged 1130s, 1309–1340, 1469–1510",
+   "function": "Congregational mosque and school",
+   "activity": {
+    "figures": 70,
+    "radius": 180
+   }
+  },
+  {
+   "id": "eastern-palace",
+   "placeId": "al-qasr-al-kabir",
+   "name": "Great Eastern Palace of the Fatimids",
+   "category": "civic",
+   "position": [
+    5715,
+    1808
+   ],
+   "rotation": 0,
+   "footprint": [
+    266.4,
+    364.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/eastern-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 260,
+     "depth": 360,
+     "height": 104.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050"
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "Sand and scrub on the road north; the palace is begun by Jawhar in 969 the night he lays out al-Qahira."
+    },
+    "fatimid-1050": {
+     "note": "The caliph al-Mustansir's palace: nine gates, the Golden Gate on Bayn al-Qasrayn, audience halls, treasuries, libraries said to hold hundreds of thousands of books, and the caliphs' tomb."
+    },
+    "mamluk-1350": {
+     "note": "Gone. Saladin dispersed the Fatimid family after 1171 and the palace was carved up and built over: the madrasa of al-Salih Ayyub, Baybars's madrasa and later Khan al-Khalili stand on its site."
+    }
+   },
+   "summary": "The vast walled palace of the Fatimid caliphs on the east side of Bayn al-Qasrayn, begun in 969, where the imam-caliph lived secluded among his court, treasures and libraries.",
+   "details": [
+    "Al-Maqrizi, writing from older sources, describes a palace city within the city: some 4,000 rooms by one count, nine gates, a great hall with the caliph's golden throne, the Treasury of Books, and the Saffron Tomb (Turbat al-Za'faran) of the caliphs. Nasir-i Khusraw saw it in 1047 and said it looked like a mountain from outside.",
+    "Almost nothing survives and its plan is reconstructed from texts. The miniature is an interpretation: high brick walls with gate towers, courts, halls and gardens, and a domed tomb, all simplified."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-fatimid-palaces",
+    "maqrizi-khitat",
+    "nasir-khusraw",
+    "sayyid-capitale"
+   ],
+   "built": "969–973; enlarged to the 12th century",
+   "function": "Caliphal palace",
+   "activity": {
+    "figures": 50,
+    "radius": 200
+   }
+  },
+  {
+   "id": "western-palace",
+   "placeId": "al-qasr-al-gharbi",
+   "name": "Western Palace of the Fatimids",
+   "category": "civic",
+   "position": [
+    5358,
+    1664
+   ],
+   "rotation": 0,
+   "footprint": [
+    156.8,
+    203.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/western-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 150,
+     "depth": 200,
+     "height": 60.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "The smaller palace across Bayn al-Qasrayn, begun by the caliph al-Aziz (975–996), facing its great neighbour and backing onto the Kafuri garden. A tunnel was said to join the two."
+    },
+    "mamluk-1350": {
+     "note": "Gone. Its ground was taken for the complex of Sultan Qalawun (1284–1285) and the madrasa of his son al-Nasir Muhammad."
+    }
+   },
+   "summary": "The lesser Fatimid palace on the west side of Bayn al-Qasrayn, overlooking the Kafuri garden, built by the caliph al-Aziz in the late 10th century.",
+   "details": [
+    "Texts describe the Western Palace as a pleasure palace with belvederes over the garden and the canal, used for festivities and by members of the caliph's family. The parade ground between the palaces, Bayn al-Qasrayn, could hold ten thousand soldiers.",
+    "No remains are visible and the plan is unknown. The miniature is an interpretation: a walled block with a gate on the square, halls round courts and a garden pavilion on its western side."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-fatimid-palaces",
+    "maqrizi-khitat",
+    "sayyid-capitale"
+   ],
+   "built": "c. 975–996",
+   "function": "Caliphal palace",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "bab-zuwayla",
+   "placeId": "bab-zuwayla",
+   "name": "Bab Zuwayla",
+   "category": "military",
+   "position": [
+    5137,
+    2496
+   ],
+   "rotation": -8,
+   "footprint": [
+    31.0,
+    26.4
+   ],
+   "scale": 1.3,
+   "model": {
+    "glb": "models/cairo/bab-zuwayla.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 26,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "No gate yet: the road from al-Qata'i runs north across open land."
+    },
+    "fatimid-1050": {
+     "note": "In 1050 this is still Jawhar's mud-brick gate of 969, named after the Zuwayla Berber regiment; the stone gate of the miniature is Badr al-Jamali's of 1092.",
+     "confidence": "reconstruction"
+    },
+    "mamluk-1350": {
+     "note": "The city's southern gate, where caravans from Upper Egypt and the Citadel road meet the Qasaba. Criminals were hanged or nailed on it; drummers played on its platform when the sultan rode out."
+    },
+    "ottoman-1600": {
+     "note": "Since 1420 the twin minarets of al-Mu'ayyad's mosque stand on its towers. On 15 April 1517 the last Mamluk sultan, Tuman Bay, was hanged in its gateway.",
+     "model": {
+      "glb": "models/cairo/bab-zuwayla-1600.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 30,
+       "depth": 26,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The southern gate of al-Qahira, built in stone in 1092 by the vizier Badr al-Jamali, two rounded towers flanking a lofty arch; from 1420 crowned by the minarets of al-Mu'ayyad.",
+   "details": [
+    "Badr al-Jamali, an Armenian general called in to save the Fatimid state, rebuilt the walls and gates in stone in 1087–1092; tradition says three brothers from Edessa were his builders. The towers rise about 20 m and the passage was closed by great wooden doors.",
+    "The miniature shows the two half-round towers, the arched passage and the platform above; the Ottoman variant adds al-Mu'ayyad's minarets with their bulbous tops. The adjoining wall is drawn on the map, not modelled."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-bab-zuwayla",
+    "creswell-mae",
+    "williams-monuments"
+   ],
+   "built": "1092; minarets 1415–1420",
+   "function": "City gate",
+   "activity": {
+    "figures": 30,
+    "radius": 90
+   }
+  },
+  {
+   "id": "bab-al-futuh",
+   "placeId": "bab-al-futuh",
+   "name": "Bab al-Futuh",
+   "category": "military",
+   "position": [
+    5696,
+    1176
+   ],
+   "rotation": 180,
+   "footprint": [
+    29.0,
+    24.4
+   ],
+   "scale": 1.3,
+   "model": {
+    "glb": "models/cairo/bab-al-futuh.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 28,
+     "depth": 24,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Jawhar's brick 'Gate of Conquests' on the road north; Badr al-Jamali's stone gate shown here replaced it in 1087, slightly further out.",
+     "confidence": "reconstruction"
+    },
+    "mamluk-1350": {
+     "note": "The northern gate onto the Husayniyya suburb, where the Qasaba begins; Sultans returning in triumph entered the city here."
+    },
+    "ottoman-1600": {
+     "note": "The gate stands, its towers patched; the minaret of al-Hakim's mosque rises over the wall beside it."
+    }
+   },
+   "summary": "The 'Gate of Conquests' at the north end of the Qasaba, built in 1087 by Badr al-Jamali with two rounded towers and some of the finest Fatimid stonework in Cairo.",
+   "details": [
+    "The towers are solid in their lower half, with a vaulted guardroom above, and the passage has a fine cross vault. Its stone was cut by masons from northern Syria, with carved rams' heads and cushion voussoirs; reused pharaonic blocks appear in the walls.",
+    "The miniature shows the gate's outer (north) face with its two rounded towers and arched passage; the wall is drawn on the map."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-bab-al-futuh",
+    "creswell-mae",
+    "williams-monuments"
+   ],
+   "built": "1087",
+   "function": "City gate",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "bab-al-nasr",
+   "placeId": "bab-al-nasr",
+   "name": "Bab al-Nasr",
+   "category": "military",
+   "position": [
+    5860,
+    1143
+   ],
+   "rotation": 180,
+   "footprint": [
+    29.0,
+    24.4
+   ],
+   "scale": 1.3,
+   "model": {
+    "glb": "models/cairo/bab-al-nasr.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 28,
+     "depth": 24,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Jawhar's 'Gate of Victory' of 969 stood a little to the south; Badr al-Jamali rebuilt it in stone in 1087.",
+     "confidence": "reconstruction"
+    },
+    "mamluk-1350": {
+     "note": "The pilgrim caravan for Mecca left the city through this gate each year; cemeteries lay outside it."
+    },
+    "ottoman-1600": {
+     "note": "Unchanged in form; the walls between the gates had become the backs of houses."
+    }
+   },
+   "summary": "The 'Gate of Victory', built in 1087 by Badr al-Jamali with two square towers carved with shields and swords, beside the Mosque of al-Hakim.",
+   "details": [
+    "Unlike its rounded neighbour, Bab al-Nasr has square towers. Their faces carry carved round shields and swords, and a Kufic inscription runs over the arch with the Shi'i profession of faith and Badr's titles.",
+    "The miniature shows the outer (north) face, its square towers and the passage between them."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-bab-al-nasr",
+    "creswell-mae",
+    "williams-monuments"
+   ],
+   "built": "1087",
+   "function": "City gate",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "al-hakim",
+   "placeId": "jami-al-hakim",
+   "name": "Mosque of al-Hakim",
+   "category": "religious",
+   "position": [
+    5782,
+    1298
+   ],
+   "rotation": -10,
+   "footprint": [
+    110.0,
+    101.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/al-hakim.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 100,
+     "height": 40.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "Open ground north of the road; the mosque is begun in 990, before Badr al-Jamali's walls, outside the first city."
+    },
+    "fatimid-1050": {
+     "note": "Begun by al-Aziz in 990, finished by al-Hakim in 1013: a brick court mosque with stone corner minarets in square casings and a projecting portal. Badr al-Jamali's wall of 1087 will pass beside it."
+    },
+    "mamluk-1350": {
+     "note": "Badly damaged in the earthquake of 1303 and restored by Baybars al-Jashankir, who gave the minarets their incense-burner tops."
+    },
+    "ottoman-1600": {
+     "note": "Little used and decaying, its court a gathering place for the poor and, later, a storeroom and stable."
+    }
+   },
+   "summary": "The second great Fatimid mosque of al-Qahira, finished in 1013 by the caliph al-Hakim, with a monumental stone portal and minarets in massive square casings at the corners.",
+   "details": [
+    "The mosque is about 120 by 113 m, of brick with stone facades, round a large court. Its two minarets were encased in great sloping stone salients a few years after they were built, perhaps to strengthen them. The projecting central portal was new in Cairo.",
+    "The miniature shows the court, the hall with its central transept and dome, the portal and corner minarets. The minaret tops are the Mamluk ones of 1303; the original tops are unknown. The model is slightly smaller than the real mosque."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-al-hakim",
+    "creswell-mae",
+    "bloom-fatimid"
+   ],
+   "built": "990–1013; restored 1303",
+   "function": "Congregational mosque",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "al-aqmar",
+   "placeId": "jami-al-aqmar",
+   "name": "Al-Aqmar Mosque",
+   "category": "religious",
+   "position": [
+    5599,
+    1453
+   ],
+   "rotation": 90,
+   "footprint": [
+    30.6,
+    35.0
+   ],
+   "scale": 1.4,
+   "model": {
+    "glb": "models/cairo/al-aqmar.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 35,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Built in 1125 by the vizier al-Ma'mun al-Bata'ihi, after this map's year, at the north-west corner of the Eastern Palace."
+    },
+    "mamluk-1350": {
+     "note": "A small neighbourhood mosque on the Qasaba, its carved facade among the new Mamluk fronts; restored in 1397 by the amir Yalbugha al-Salimi, who added a minaret."
+    },
+    "ottoman-1600": {
+     "note": "Squeezed between houses and shops; the ground has risen so that one steps down to its door."
+    }
+   },
+   "summary": "The 'moonlit' mosque of 1125, small but famous: the first in Cairo with a carved stone facade, set along the street while the prayer hall inside faces Mecca.",
+   "details": [
+    "Because the Qasaba did not run toward Mecca, the builder made the facade follow the street and turned the interior to the qibla, solving with a wedge-shaped plan a problem every later Cairo builder faced. The facade has a fluted shell hood over the door, muqarnas niches and inscriptions.",
+    "The miniature shows the carved facade with its shell-hooded portal and the small court behind. The minaret is Yalbugha's restoration; part of the facade was lost and rebuilt."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-al-aqmar",
+    "behrens-abouseif",
+    "bloom-fatimid"
+   ],
+   "built": "1125",
+   "function": "Neighbourhood mosque",
+   "activity": {
+    "figures": 10,
+    "radius": 50
+   }
+  },
+  {
+   "id": "citadel",
+   "placeId": "qalat-al-jabal",
+   "name": "Citadel of Saladin and the Mosque of al-Nasir Muhammad",
+   "category": "military",
+   "position": [
+    5570,
+    4016
+   ],
+   "rotation": -35,
+   "footprint": [
+    527.5,
+    410.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/citadel.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 520,
+     "depth": 400,
+     "wallHeight": 80.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "A bare spur of the Muqattam with the old pavilion of Qubbat al-Hawa and a few mosques. Saladin begins the Citadel here in 1176."
+    },
+    "mamluk-1350": {
+     "name": "Qal'at al-Jabal (Citadel of the Mountain)",
+     "note": "Seat of the Mamluk sultans. Al-Nasir Muhammad has rebuilt it: his mosque (1318, rebuilt 1335) with green-tiled minarets, the Striped Palace and the Great Iwan for audiences."
+    },
+    "ottoman-1600": {
+     "note": "Residence of the Ottoman pasha and barracks of the janissaries. Suleyman Pasha's mosque (1528) with its pencil minaret stands in the northern enclosure; the Mamluk palaces decay.",
+     "model": {
+      "glb": "models/cairo/citadel-1600.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 520,
+       "depth": 400,
+       "wallHeight": 80.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The fortress Saladin began in 1176 on a spur of the Muqattam, seat of Egypt's rulers for 700 years, with the Mosque of al-Nasir Muhammad and the Mamluk sultans' palaces.",
+   "details": [
+    "Saladin's emir Qaraqush built walls of stone with round towers and cut Joseph's Well, 87 m deep, through the rock. Al-Kamil moved in in 1207 and added great square towers. Al-Nasir Muhammad (reigned 1293–1341) rebuilt it as a royal city, with water raised from the Nile by an aqueduct.",
+    "The miniature shows the northern (military) and southern (royal) enclosures with their towers, al-Nasir's mosque with its two faience-capped minarets and green dome, the Striped Palace on the cliff and the Great Iwan. Buildings later than 1600, among them Muhammad Ali's mosque, are left out."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-citadel",
+    "wiki-al-nasir-mosque",
+    "rabbat-citadel",
+    "behrens-mamluks"
+   ],
+   "built": "1176–1207; rebuilt 1310s–1330s",
+   "function": "Royal fortress and palace",
+   "activity": {
+    "figures": 80,
+    "radius": 320
+   }
+  },
+  {
+   "id": "qalawun",
+   "placeId": "qalawun-complex",
+   "name": "Complex of Sultan Qalawun",
+   "category": "civic",
+   "position": [
+    5397,
+    1720
+   ],
+   "rotation": 0,
+   "footprint": [
+    103.0,
+    90.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/qalawun.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "The site of the Western Palace of the Fatimids, facing the Great Eastern Palace across Bayn al-Qasrayn."
+    },
+    "mamluk-1350": {
+     "note": "Qalawun's hospital, madrasa and mausoleum of 1284–1285, and next to it his son al-Nasir Muhammad's madrasa with a Gothic portal taken from a church at Acre in 1291."
+    },
+    "ottoman-1600": {
+     "note": "The hospital still treats the sick and the insane under its old endowment; Barquq's madrasa (1386) now stands beside al-Nasir's."
+    }
+   },
+   "summary": "A hospital, a madrasa and the sultan's mausoleum, built for Sultan Qalawun in about thirteen months in 1284–1285 on Bayn al-Qasrayn, the street's grandest facade.",
+   "details": [
+    "The maristan behind the facade treated any patient free, men and women, with wards for fevers, eye diseases and surgery, a pharmacy and lectures on medicine; musicians are said to have played for patients who could not sleep. The mausoleum, with its octagon of columns under a high dome, is among the richest interiors of Cairo.",
+    "The miniature shows the street front with its pointed-arch windows, the square three-storey minaret, the mausoleum dome and the hospital courts behind. The present dome is a 20th-century rebuilding; the hospital plan is simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-qalawun",
+    "behrens-mamluks",
+    "creswell-mae",
+    "maqrizi-khitat"
+   ],
+   "built": "1284–1285",
+   "function": "Hospital, madrasa and mausoleum",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "sultan-hasan",
+   "placeId": "sultan-hasan",
+   "name": "Mosque-Madrasa of Sultan Hasan",
+   "category": "religious",
+   "position": [
+    5060,
+    3695
+   ],
+   "rotation": -45,
+   "footprint": [
+    72.1,
+    151.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/sultan-hasan.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 68,
+     "depth": 150,
+     "height": 27.200000000000003,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Gardens and houses below the Muqattam, near the old Tulunid maydan."
+    },
+    "mamluk-1350": {
+     "note": "Begun in 1356 after the Black Death, on the square below the Citadel, and built until 1363. The miniature shows it finished; a minaret over the portal fell in 1361.",
+     "confidence": "reconstruction"
+    },
+    "ottoman-1600": {
+     "note": "So close to the Citadel that rebels used its roof to fire on the sultan's palace; Barquq had its stair blocked in 1391. Its bronze doors were sold to al-Mu'ayyad's mosque."
+    }
+   },
+   "summary": "The most massive of Mamluk monuments, a mosque and madrasa for the four schools of law begun in 1356 by Sultan Hasan below the Citadel, with a 36 m high facade and the tallest minaret in Cairo.",
+   "details": [
+    "Behind its cliff-like walls a court opens to four vaulted iwans, one for each Sunni school of law, the qibla iwan the largest in Cairo; madrasa rooms of up to six storeys fill the corners. The sultan's domed mausoleum behind the qibla wall faces the Citadel. Sultan Hasan was murdered in 1361 and never buried here.",
+    "The miniature shows the court with its iwans and domed fountain, the great portal, the muqarnas cornice, the mausoleum and its two minarets. The bulbous original dome is lost; its shape follows travellers' drawings. One minaret was rebuilt smaller in 1659, after this atlas's last era."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sultan-hasan",
+    "behrens-mamluks",
+    "creswell-mae",
+    "maqrizi-khitat"
+   ],
+   "built": "1356–1363",
+   "function": "Mosque, madrasa and mausoleum",
+   "activity": {
+    "figures": 40,
+    "radius": 150
+   }
+  },
+  {
+   "id": "khan-el-khalili",
+   "placeId": "khan-al-khalili",
+   "name": "Khan al-Khalili",
+   "category": "commercial",
+   "position": [
+    5590,
+    1953
+   ],
+   "rotation": 0,
+   "footprint": [
+    104.2,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/khan-el-khalili.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 100,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -25.0,
+        -17.5
+       ],
+       "width": 30.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        25.0,
+        14.0
+       ],
+       "width": 30.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Inside the Great Eastern Palace: here was the Saffron Tomb, the burial place of the Fatimid caliphs."
+    },
+    "mamluk-1350": {
+     "note": "Ruins of the palace and the caliphs' tomb. In 1382 the amir Jaharkas al-Khalili will dig out the bones, throw them on the rubbish mounds and build a khan here."
+    },
+    "ottoman-1600": {
+     "note": "Al-Ghuri rebuilt the khan in 1511 with stone gates; under the Ottomans it is the hub of the trade in spices, silks, jewels and coffee, crowded with Turkish and Persian merchants."
+    }
+   },
+   "summary": "The great trading khan founded in 1382 by the amir Jaharkas al-Khalili on the site of the Fatimid caliphs' tombs, rebuilt by al-Ghuri in 1511, and the centre of Cairo's luxury trade.",
+   "details": [
+    "A khan (caravanserai) was a court building with storerooms and shops on the ground floor and lodgings for merchants above. Al-Ghuri's rebuilding replaced the first khan with a set of blocks round courts and lanes, with monumental stone gates; the bazaar grew round it.",
+    "The miniature shows two courts with two storeys of arcaded rooms, shops along the lanes and al-Ghuri's gate. The full layout of the Mamluk khans is uncertain and simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-khan-el-khalili",
+    "raymond-cairo",
+    "maqrizi-khitat"
+   ],
+   "built": "1382; rebuilt 1511",
+   "function": "Khan and bazaar",
+   "activity": {
+    "figures": 60,
+    "radius": 120
+   }
+  },
+  {
+   "id": "aqueduct",
+   "placeId": "fumm-al-khalig",
+   "name": "Aqueduct of the Citadel (Fumm al-Khalig)",
+   "category": "civic",
+   "position": [
+    2795,
+    4249
+   ],
+   "rotation": 0,
+   "footprint": [
+    91.0,
+    45.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/aqueduct-intake.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 45,
+     "height": 18.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Gardens on the Nile bank north of Fustat; the canal's mouth is further east, under water at the flood."
+    },
+    "mamluk-1350": {
+     "note": "Al-Nasir Muhammad's aqueduct of 1311–1340: ox-driven wheels at the river raise water into a channel on arches that runs about 3 km to the Citadel.",
+     "confidence": "reconstruction"
+    },
+    "ottoman-1600": {
+     "note": "Sultan al-Ghuri rebuilt the intake as a great six-sided tower about 1507; oxen on its roof still turn the wheels that lift the Nile into the channel."
+    }
+   },
+   "summary": "The intake tower and aqueduct that carried Nile water up to the Citadel, built by al-Nasir Muhammad in the early 14th century and rebuilt by al-Ghuri about 1507.",
+   "details": [
+    "Water was lifted from the Nile by saqiyas, wooden wheels turned by oxen walking on the tower's roof, and ran east in a channel on hundreds of pointed arches, rising to the Citadel's cisterns. Wheels at intervals along the line lifted it higher.",
+    "The miniature shows al-Ghuri's hexagonal tower with its ramp for the oxen and the first arches of the aqueduct. The 14th-century intake had a similar arrangement but its form is not known exactly; the rest of the line is drawn on the map."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-aqueduct",
+    "rabbat-citadel",
+    "williams-monuments"
+   ],
+   "built": "1311–1340; rebuilt c. 1507",
+   "function": "Water supply",
+   "activity": {
+    "figures": 12,
+    "radius": 80
+   }
+  },
+  {
+   "id": "al-muayyad",
+   "placeId": "jami-al-muayyad",
+   "name": "Mosque of al-Mu'ayyad Shaykh",
+   "category": "religious",
+   "position": [
+    5050,
+    2408
+   ],
+   "rotation": -10,
+   "footprint": [
+    82.2,
+    95.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/al-muayyad.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 80,
+     "depth": 95,
+     "height": 32.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "mamluk-1350": {
+     "note": "The Shama'il prison stands here. Shaykh, imprisoned in it as an amir, vowed to replace it with a mosque if he became sultan; he did, in 1415–1420."
+    },
+    "ottoman-1600": {
+     "note": "Al-Mu'ayyad's great mosque inside Bab Zuwayla, its two minarets set on the gate's towers and its bronze doors bought from Sultan Hasan's mosque."
+    }
+   },
+   "summary": "The last great hypostyle mosque of Cairo, built in 1415–1420 by Sultan al-Mu'ayyad Shaykh on the site of the prison where he had been held, its minarets standing on Bab Zuwayla.",
+   "details": [
+    "The mosque had a large court with arcades, a prayer hall with marble panelling and a painted ceiling, the sultan's domed mausoleum beside the entrance and a madrasa for the four schools of law. Its builder put the two minarets on the towers of the Fatimid gate next door, signing them with his name.",
+    "The miniature shows the court mosque with the domed mausoleum and portal on the street. Only the prayer hall survives intact today; the other three arcades and the court are reconstructed from early descriptions."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-al-muayyad",
+    "behrens-mamluks",
+    "williams-monuments"
+   ],
+   "built": "1415–1420",
+   "function": "Mosque and madrasa",
+   "activity": {
+    "figures": 30,
+    "radius": 110
+   }
+  },
+  {
+   "id": "wikala-al-ghuri",
+   "placeId": "wikala-al-ghuri",
+   "name": "Wikala of al-Ghuri",
+   "category": "commercial",
+   "position": [
+    5474,
+    2152
+   ],
+   "rotation": 0,
+   "footprint": [
+    35.6,
+    46.7
+   ],
+   "scale": 1.3,
+   "model": {
+    "glb": "models/cairo/wikala-al-ghuri.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 35,
+      "depth": 45
+     },
+     "buildings": [
+      {
+       "offset": [
+        -8.75,
+        -11.25
+       ],
+       "width": 10.5,
+       "depth": 13.5,
+       "height": 8
+      },
+      {
+       "offset": [
+        8.75,
+        9.0
+       ],
+       "width": 10.5,
+       "depth": 13.5,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "mamluk-1350": {
+     "note": "Houses and shops near al-Azhar; Sultan al-Ghuri will clear the site for his wikala in 1504."
+    },
+    "ottoman-1600": {
+     "note": "Built in 1504–1505 by the second-to-last Mamluk sultan, still full: goods below, merchants' rooms above and rented flats on the top floors."
+    }
+   },
+   "summary": "A merchants' hostel and warehouse of 1504–1505 near al-Azhar, built by Sultan al-Ghuri: a tall court building with storerooms below and apartments above.",
+   "details": [
+    "A wikala received wholesale goods brought by caravan or boat, stored and taxed them, and housed the merchants. Al-Ghuri's has shops facing the street, storerooms round the court on the ground and first floors, and above them a rab' of rented duplex apartments, five storeys in all.",
+    "The miniature shows the court with its arcades and the stacked windows and mashrabiyas of the upper floors. Ottoman Cairo had hundreds of such buildings; this is one of the few to survive almost whole."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-wikala-ghuri",
+    "raymond-cairo",
+    "williams-monuments"
+   ],
+   "built": "1504–1505",
+   "function": "Wholesale market and hostel",
+   "activity": {
+    "figures": 25,
+    "radius": 70
+   }
+  },
+  {
+   "id": "bulaq-port",
+   "placeId": "bulaq",
+   "name": "Port of Bulaq",
+   "category": "commercial",
+   "position": [
+    2679,
+    777
+   ],
+   "rotation": 0,
+   "footprint": [
+    140.0,
+    224.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/bulaq.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 140,
+      "depth": 220
+     },
+     "buildings": [
+      {
+       "offset": [
+        -35.0,
+        -55.0
+       ],
+       "width": 42.0,
+       "depth": 66.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        35.0,
+        44.0
+       ],
+       "width": 42.0,
+       "depth": 66.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "River: the Nile flows here. The land of Bulaq will rise from the river bed in the 13th and 14th centuries."
+    },
+    "mamluk-1350": {
+     "note": "New land with a few mosques, gardens and boatyards; Sultan Barsbay makes it the city's customs port in the 1420s."
+    },
+    "ottoman-1600": {
+     "note": "Cairo's main port: quays crowded with boats from the Delta and Upper Egypt, wikalas for grain, coffee and timber, and the domed mosque of Sinan Pasha (1571)."
+    }
+   },
+   "summary": "The Nile port of Ottoman Cairo on land the river had left behind, with customs, warehouses, boatyards and the mosque of Sinan Pasha.",
+   "details": [
+    "Goods for Cairo, from Alexandria, Damietta and Upper Egypt, and coffee and spices that had come by the Red Sea, passed through Bulaq's customs and wikalas. Nelly Hanna counts dozens of wikalas here in the Ottoman period. Sinan Pasha, the Ottoman governor, built his domed mosque near the water in 1571.",
+    "The miniature shows a quay with moored boats, warehouse courts and Sinan Pasha's Ottoman-style domed mosque with its arcade. The arrangement of the quays is an interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bulaq",
+    "wiki-sinan-pasha",
+    "hanna-bulaq",
+    "raymond-cairo"
+   ],
+   "built": "from c. 1420; mosque 1571",
+   "function": "River port",
+   "activity": {
+    "figures": 70,
+    "radius": 200
+   }
+  },
+  {
+   "id": "qaitbay",
+   "placeId": "qaitbay-tomb",
+   "name": "Funerary Complex of Sultan Qaitbay",
+   "category": "religious",
+   "position": [
+    7035,
+    2430
+   ],
+   "rotation": -45,
+   "footprint": [
+    60.9,
+    50.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cairo/qaitbay.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "mamluk-1350": {
+     "note": "Desert east of the city, where sultans and amirs have begun to build domed tombs among the Sufi lodges."
+    },
+    "ottoman-1600": {
+     "note": "Qaitbay's complex of 1472–1474 in the Northern Cemetery: the mosque, his carved stone dome, a sabil-kuttab and lodgings, still served by its endowment."
+    }
+   },
+   "summary": "Sultan Qaitbay's mosque and mausoleum in the desert cemetery east of Cairo, built in 1472–1474: the masterpiece of late Mamluk stone carving, with its arabesque dome.",
+   "details": [
+    "The dome is carved all over with a star pattern laid over a second, flowing arabesque: two designs in one stone skin. The minaret, in three tiers of increasing delicacy, is among the most elegant in Cairo. The complex also had a sabil-kuttab, a loggia for the sultan, and rooms for Sufis.",
+    "The miniature shows the mosque block, the carved dome on its high drum, the minaret and the sabil-kuttab. The carving is suggested by the dome's ribbing; the outbuildings are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-qaitbay",
+    "behrens-mamluks",
+    "williams-monuments"
+   ],
+   "built": "1472–1474",
+   "function": "Mosque and mausoleum",
+   "activity": {
+    "figures": 15,
+    "radius": 90
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "canal-landing",
+   "name": "Landing of the Commander of the Faithful's Canal",
+   "kind": "dock",
+   "position": [
+    3123,
+    4405
+   ],
+   "activePeriods": [
+    "fustat-700",
+    "tulunid-880"
+   ],
+   "summary": "The head of the ancient canal to the Red Sea, re-dug by Amr ibn al-As in 641–643 so that boats could carry Egypt's grain to the port of Qulzum and on to Medina.",
+   "details": [
+    "The canal from the Nile to the Gulf of Suez was pharaonic, Persian and Roman before it silted up. On the caliph Umar's order, after a famine in Arabia, Amr cleared it, and grain boats ran to Qulzum for over a century. The caliph al-Mansur had it blocked in the 760s to starve rebels in Medina."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-khalij",
+    "butler-conquest",
+    "kubiak-fustat"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Flat-bottomed boats wait in the canal mouth, low in the water with wheat from Upper Egypt sacked for Medina. A scribe on the bank tallies the sacks for the tax office."
+    },
+    {
+     "hour": 13,
+     "text": "Boatmen pole off into the canal, which smells of mud and reeds; a camel train comes the other way along the towpath with dates from the Arabian side."
+    },
+    {
+     "hour": 19,
+     "text": "Fishermen cast nets where the canal meets the river; the call to prayer from Amr's mosque carries across the water, and someone lights a fire under the palms."
+    }
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "Blocked toward the Red Sea since the 760s, the canal still fills at the flood and waters gardens and fields north of the city."
+    }
+   }
+  },
+  {
+   "id": "governors-diwan",
+   "name": "The governor's diwan",
+   "kind": "civic",
+   "position": [
+    2737,
+    5958
+   ],
+   "activePeriods": [
+    "fustat-700"
+   ],
+   "summary": "The chancery beside the Mosque of Amr where the Arab governors ruled Egypt in Greek, Coptic and Arabic, through Coptic clerks and on papyrus.",
+   "details": [
+    "Hundreds of papyrus letters survive from the governor Qurra ibn Sharik (709–714) to the headman of Aphrodito in Upper Egypt, demanding taxes, labour for the Fustat shipyard and sailors for the fleet. Arabic replaced Greek as the language of the tax registers in 706. The diwan's exact site is not known; its place here is an interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-aphrodito-papyri",
+    "kubiak-fustat",
+    "wiki-fustat"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Coptic clerks in black, reed pens behind their ears, copy the governor's demand for tax in Greek with an Arabic version above it, then roll and seal the papyrus."
+    },
+    {
+     "hour": 12,
+     "text": "A messenger rides in from the Delta with a tax register; village headmen wait in the yard, worried about their quotas of rowers and workmen for the fleet."
+    },
+    {
+     "hour": 18,
+     "text": "Lamps in the diwan as the last letters of the day are sealed with clay. A runner leaves for the river and the boat south."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "roda-shipyard",
+   "name": "Shipyard of Roda (Dar al-Sina'a)",
+   "kind": "dock",
+   "position": [
+    2236,
+    5048
+   ],
+   "activePeriods": [
+    "fustat-700",
+    "tulunid-880"
+   ],
+   "summary": "The war-fleet's shipyard founded on Roda Island in 674, where Coptic carpenters built galleys for the caliphs' navy from imported timber.",
+   "details": [
+    "Egypt had shipwrights but little timber; wood came down the Nile from Upper Egypt or was shipped from Syria. The Aphrodito papyri show villages sending carpenters, caulkers and iron to the shipyard. Ibn Tulun kept a fleet here; later the Fatimids moved their arsenal to al-Maqs and Fustat's shore."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roda",
+    "wiki-aphrodito-papyri",
+    "kubiak-fustat"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Adzes ring on a galley keel propped on timbers; the smell of pitch boiling in a cauldron drifts over the river channel."
+    },
+    {
+     "hour": 12,
+     "text": "Conscript carpenters from a Delta village eat bread and onions in the shade of an upturned hull, talking Coptic."
+    },
+    {
+     "hour": 18,
+     "text": "A finished galley is dragged down a greased slip into the channel, men chanting on the ropes."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "glass-kilns",
+   "name": "Glass and pottery kilns of Fustat",
+   "kind": "workshop",
+   "position": [
+    3739,
+    6380
+   ],
+   "activePeriods": [
+    "tulunid-880",
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "The kilns on Fustat's eastern edge, where potters made the Fatimid lustreware that shone like gold and glassmakers blew vessels, lamps and weights.",
+   "details": [
+    "Excavations at Fustat have uncovered kilns, millions of sherds and the local copies of Chinese porcelain and celadon that potters made to compete with imports. Lustre painting with metallic oxides reached its height under the Fatimids; one potter, Muslim, signed his bowls. Glassmakers produced stamped glass coin weights for the markets."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-fustat-ware",
+    "scanlon-fustat",
+    "wiki-fustat"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke from a dozen kilns lies over the rubbish mounds. A boy carries a basket of broken bowls to the heap; the potter checks the colour of a fired lustre plate in the morning light."
+    },
+    {
+     "hour": 12,
+     "text": "In the glass shop the furnace roars; a glassblower turns a lamp on the pipe while his apprentice stamps hot glass weights with the caliph's name."
+    },
+    {
+     "hour": 18,
+     "text": "Donkeys loaded with crates of bowls packed in straw head for the market by the Mosque of Amr."
+    }
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "Workshops imitating Iraqi lustre and Chinese stoneware, as merchants bring both through Fustat."
+    },
+    "mamluk-1350": {
+     "note": "Fustat is mostly ruin, but potters still work among the mounds, making blue-and-white imitations of Chinese porcelain and the city's water jars."
+    },
+    "ottoman-1600": {
+     "note": "Potters' kilns among the rubbish heaps of old Fustat, making coarse jars and water-coolers for the city."
+    }
+   }
+  },
+  {
+   "id": "suq-al-qanadil",
+   "name": "Suq al-Qanadil (the Lamp Market)",
+   "kind": "market",
+   "position": [
+    3026,
+    6002
+   ],
+   "activePeriods": [
+    "tulunid-880",
+    "fatimid-1050"
+   ],
+   "summary": "The market of the lamps beside the Mosque of Amr, which Nasir-i Khusraw said had no equal anywhere: every rare thing in the world could be bought there.",
+   "details": [
+    "Nasir-i Khusraw in 1047 wrote of tortoiseshell, rock crystal carved by skilled craftsmen, fine pottery and goods from every country, of grocers who wrapped what they sold in paper, and of cheating shopkeepers paraded through the streets on a camel, ringing a bell and confessing their fault."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "nasir-khusraw",
+    "wiki-fustat",
+    "goitein"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Shutters come down off the booths. A crystal carver lays out ewers and chess pieces; the grocer wraps cumin in a twist of paper, a luxury Nasir-i Khusraw noticed."
+    },
+    {
+     "hour": 12,
+     "text": "Noon prayer empties the lanes into the mosque; then the crowd is back, haggling over ivory combs and Yemeni cloth in Arabic, Coptic and Persian."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps hanging from every booth give the market its name; traders count coins in the glow, and porters carry the last goods to the river."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tall-house",
+   "name": "A tall house of Misr",
+   "kind": "house",
+   "position": [
+    3200,
+    5758
+   ],
+   "activePeriods": [
+    "fatimid-1050"
+   ],
+   "summary": "One of the many-storeyed houses that astonished visitors to Fustat: Nasir-i Khusraw said some had seven storeys, some fourteen, with gardens on the roofs.",
+   "details": [
+    "Nasir-i Khusraw heard of a house with a garden on its roof, seven storeys up, where an ox turned a water-wheel and fruit trees grew. Geniza documents show Fustat houses divided into flats and shares, rented to families of every faith. Excavated houses had courts, fountains and drains."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "nasir-khusraw",
+    "goitein",
+    "scanlon-fustat"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The water-carrier climbs seven flights with his goatskin; on the roof a tenant waters basil in pots and looks over a forest of other roofs to the Nile."
+    },
+    {
+     "hour": 14,
+     "text": "Shutters closed against the heat; the stairwell is cool and dim. A Jewish trader on the third floor writes to his partner in Tunisia about flax prices."
+    },
+    {
+     "hour": 21,
+     "text": "On the roof the family sleeps in the night breeze under the stars; from below, a wedding drum, and lamplight in the windows across the lane."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ben-ezra",
+   "name": "Ben Ezra Synagogue and its Geniza",
+   "kind": "shrine",
+   "position": [
+    2621,
+    6712
+   ],
+   "activePeriods": [
+    "tulunid-880",
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "The synagogue of the Palestinian Jews of Fustat, beside the Roman fortress, whose storeroom kept every scrap of writing for nine centuries: the Cairo Geniza.",
+   "details": [
+    "Writing that might contain God's name could not be thrown away, so it went into the geniza room. About 400,000 fragments survived, mostly from the 10th to 13th centuries: letters, contracts, shopping lists, poems and the writings of Maimonides. They are the richest record of daily life in medieval Cairo. Solomon Schechter took most of them to Cambridge in 1896."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ben-ezra",
+    "wiki-geniza",
+    "goitein"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Morning prayer: men in turbans like their Muslim neighbours, prayer shawls over their shoulders, read the Torah in the Palestinian rite."
+    },
+    {
+     "hour": 13,
+     "text": "The beadle climbs a ladder to push a bundle of old letters and a worn prayer book through the hole into the geniza room."
+    },
+    {
+     "hour": 19,
+     "text": "Merchants linger in the court after evening prayer, exchanging news of ships from Aden and Sicily before going home through Qasr al-Sham's lanes."
+    }
+   ],
+   "variants": {
+    "tulunid-880": {
+     "note": "By tradition a church bought by the Jews in 882 when the Coptic patriarch needed money to pay Ibn Tulun."
+    },
+    "fatimid-1050": {
+     "note": "Rebuilt about 1025 after al-Hakim's destruction of churches and synagogues; the geniza is filling with the letters of a busy Mediterranean trade."
+    },
+    "ottoman-1600": {
+     "note": "Still in use and rebuilt more than once; the geniza's millions of words lie forgotten in the dark until the 1890s."
+    }
+   }
+  },
+  {
+   "id": "paper-workshop",
+   "name": "Paper workshop of Fustat",
+   "kind": "workshop",
+   "position": [
+    3132,
+    6934
+   ],
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350"
+   ],
+   "summary": "Papermakers who replaced Egypt's ancient papyrus with paper made from linen rags in the 10th century; Fustat's paper fills the Geniza and the libraries of the caliphs.",
+   "details": [
+    "Paper came to Egypt from Iraq and Syria in the 9th century, and by the 11th papyrus was no longer made. Rags were beaten to pulp, formed on moulds, sized with starch and burnished. Abd al-Latif al-Baghdadi claimed, around 1200, that bedouin sold the linen wrappings of mummies to papermakers; the story may be exaggerated."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "bloom-paper",
+    "wiki-history-of-paper",
+    "abd-al-latif"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Rags soak in vats; workers pound them in stone mortars with wooden hammers, a steady thudding all down the lane."
+    },
+    {
+     "hour": 13,
+     "text": "A worker dips a sieve-mould into the white pulp and turns a sheet onto a board; sheets hang drying in the hot shade like laundry."
+    },
+    {
+     "hour": 18,
+     "text": "A boy polishes finished sheets with a smooth stone; a stationer from the market counts out reams for the scribes of al-Qahira."
+    }
+   ],
+   "variants": {
+    "mamluk-1350": {
+     "note": "Egyptian paper is now thinner and cheaper; Italian paper will begin to compete in the 15th century."
+    }
+   }
+  },
+  {
+   "id": "tulunid-hospital",
+   "name": "Bimaristan of Ibn Tulun",
+   "kind": "civic",
+   "position": [
+    3662,
+    4405
+   ],
+   "activePeriods": [
+    "tulunid-880"
+   ],
+   "summary": "The free hospital Ahmad ibn Tulun founded about 872 in al-Askar, the first such hospital in Egypt, with baths and a pharmacy.",
+   "details": [
+    "Al-Maqrizi says patients left their clothes and money with an attendant on arrival, were dressed in hospital clothes and treated free until they could eat a whole chicken and a loaf; and that soldiers and slaves were not admitted. Ibn Tulun is said to have visited every Friday to inspect the wards and the madmen's cells."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "maqrizi-khitat",
+    "wiki-bimaristan"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "An attendant takes a sick weaver's clothes and purse and writes them in a ledger; he is given a clean gown and a bed in the fever ward."
+    },
+    {
+     "hour": 12,
+     "text": "The physician walks the ward taking pulses; a pharmacist mixes syrup of roses and tamarind in the dispensary."
+    },
+    {
+     "hour": 17,
+     "text": "Friday: the ruler's escort clatters into the yard. Ibn Tulun walks the wards; a madman in the cells throws a pomegranate at him, as one story tells."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "dar-al-ilm",
+   "name": "Dar al-Ilm (House of Knowledge)",
+   "kind": "school",
+   "position": [
+    5455,
+    1520
+   ],
+   "activePeriods": [
+    "fatimid-1050"
+   ],
+   "summary": "The library and academy founded in 1005 by the caliph al-Hakim near the Western Palace, open to all, with paper, ink and pens supplied free.",
+   "details": [
+    "Al-Hakim stocked it with books from the palace libraries on every subject, and paid scholars of law, grammar, astronomy and medicine to teach there; anyone could come to read and copy. It was closed in 1119 for spreading heresy, and its successor did not survive Saladin. Its exact site is not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-dar-al-ilm",
+    "maqrizi-khitat"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A copyist from Fustat spreads his paper on a reading mat; the librarian brings him a volume of Galen from the shelves."
+    },
+    {
+     "hour": 13,
+     "text": "Two scholars argue grammar in the courtyard, a circle of students around them; a servant refills the inkwells from a jar."
+    },
+    {
+     "hour": 17,
+     "text": "The doors close; a young man from Khurasan, who has walked a year to read here, leaves with his copied pages under his arm."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sugar-refinery",
+   "name": "Sugar refinery (matbakh al-sukkar)",
+   "kind": "works",
+   "position": [
+    2988,
+    6579
+   ],
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350"
+   ],
+   "summary": "One of the refineries of Misr where cane from Upper Egypt was boiled into sugar cones for the sultan, the amirs and export; Fustat had dozens of them.",
+   "details": [
+    "Cane was pressed in mills, the juice boiled down in copper cauldrons and poured into clay cones to crystallize, the molasses dripping into jars below. Al-Maqrizi lists many refineries in Misr, some owned by the sultan and the Karimi merchants. Egyptian sugar was sold to Venice and the Levant until the 15th-century crisis."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "maqrizi-khitat",
+    "wiki-sugar",
+    "raymond-cairo"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Cane barges unload at the river steps; oxen turn the press and the sweet sticky smell of cut cane fills the lane."
+    },
+    {
+     "hour": 13,
+     "text": "In the furnace hall men skim foam from boiling cauldrons; the heat is unbearable and the floor is tacky with spilled syrup."
+    },
+    {
+     "hour": 19,
+     "text": "Rows of clay cones drip black molasses into jars. A clerk weighs white loaves of sugar for the sultan's kitchen at the Citadel."
+    }
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "Sugar is a Fatimid luxury: at festivals the caliph's kitchens made trees and animals of sugar."
+    }
+   }
+  },
+  {
+   "id": "moneychangers",
+   "name": "Moneychangers of the Sagha",
+   "kind": "bank",
+   "position": [
+    5474,
+    1808
+   ],
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "The goldsmiths' and moneychangers' market on the Qasaba south of Qalawun's complex, where gold dinars, silver dirhams and copper fulus were weighed and exchanged.",
+   "details": [
+    "Cairo's money was gold and silver coin valued by weight and copper for small change. Moneychangers (sarrafs) tested and weighed coins, changed foreign ducats and lent to merchants. Al-Maqrizi, writing in the 1400s, blamed the flood of copper coin for the ruin of prices in his day."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "maqrizi-khitat",
+    "raymond-cairo"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The sarraf unlocks his iron-bound chest; brass scales, a touchstone and a bag of glass weights go out on his bench."
+    },
+    {
+     "hour": 12,
+     "text": "A Venetian's agent changes ducats for dinars; a water-seller changes a handful of copper for a silver piece and complains of the rate."
+    },
+    {
+     "hour": 18,
+     "text": "Goldsmiths hammer bracelets for a bride's dowry under the lamps; the sarraf counts his day's coins into the chest."
+    }
+   ],
+   "variants": {
+    "ottoman-1600": {
+     "note": "Ottoman paras, Spanish reals and Venetian sequins now pass across the benches."
+    }
+   }
+  },
+  {
+   "id": "hammam-bashtak",
+   "name": "Hammam Bashtak",
+   "kind": "bath",
+   "position": [
+    5031,
+    2851
+   ],
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "A public bath built about 1341 by the amir Bashtak, whose decorated portal opens on the street to the Citadel. Cairo had dozens of baths for men and, at set hours, women.",
+   "details": [
+    "Bathers passed from a domed changing hall with a fountain through warm rooms to a hot room with marble basins, lit by glass bull's-eyes in the domes. The furnace behind was fed with dung and rubbish, its fires also used to cook beans for the morning street-sellers."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hammam",
+    "behrens-mamluks",
+    "lane-egyptians"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The stoker feeds the furnace; at its mouth a ful seller collects his pots of beans that simmered there all night."
+    },
+    {
+     "hour": 11,
+     "text": "A cloth hangs over the door: the women's hours. Inside, steam, gossip, henna and a bride being washed and perfumed by her friends."
+    },
+    {
+     "hour": 19,
+     "text": "Men lie wrapped in towels in the domed hall, drinking sherbet while the masseur works on a merchant's back."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "horse-market",
+   "name": "Horse market of the Rumayla",
+   "kind": "market",
+   "position": [
+    5223,
+    3883
+   ],
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "The square below the Citadel where horses were sold, troops paraded and the sultan's processions formed, between Sultan Hasan's mosque and the Citadel gate.",
+   "details": [
+    "The Rumayla and the Qaramaydan beside it were the Mamluks' parade and polo ground and the city's horse and donkey market. Here the Mahmal procession formed each year, criminals were executed and crowds watched the sultan ride down from the Citadel."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "maqrizi-khitat",
+    "behrens-mamluks",
+    "wiki-citadel"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Bedouin dealers trot Arab mares up and down the square; a Mamluk officer runs his hand down a horse's legs and names a price."
+    },
+    {
+     "hour": 13,
+     "text": "Dust and flies; donkey-boys wait with their animals for hire. Above, the Citadel's walls shimmer in the heat."
+    },
+    {
+     "hour": 17,
+     "text": "Drums from the Citadel: the sultan's escort comes down the ramp and the square clears for the horsemen."
+    }
+   ],
+   "variants": {
+    "ottoman-1600": {
+     "note": "The pasha's janissaries and the Mamluk beys parade here; the horse market still fills the square in the mornings."
+    }
+   }
+  },
+  {
+   "id": "spice-sellers",
+   "name": "Spice sellers of the Attarin",
+   "kind": "shop",
+   "position": [
+    5378,
+    2019
+   ],
+   "activePeriods": [
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "The market of spice dealers and druggists on the Qasaba near the Khan, selling pepper, cinnamon and ginger from India and drugs and perfumes of every kind.",
+   "details": [
+    "Pepper and spices from India passed through Cairo to Alexandria and Venice: the Karimi merchants and later the sultans controlled the trade, and Sultan Barsbay made pepper a state monopoly in the 1420s. After 1500 the Portuguese route round Africa cut into it, but coffee took its place."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "raymond-cairo",
+    "maqrizi-khitat",
+    "wiki-khan-el-khalili"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The druggist sets out baskets of cumin, coriander and dried roses; sacks of pepper stand behind him and the whole lane smells of cloves."
+    },
+    {
+     "hour": 12,
+     "text": "A woman buys henna and kohl; a physician's servant reads off a prescription and the druggist weighs out senna and saffron."
+    },
+    {
+     "hour": 19,
+     "text": "Lamps in the booths; a merchant fresh from Suez shows samples of Indian cinnamon to the dealers."
+    }
+   ],
+   "variants": {
+    "ottoman-1600": {
+     "note": "Ottoman Cairo's spice and coffee dealers are among its richest merchants, with warehouses in the wikalas round the Khan."
+    }
+   }
+  },
+  {
+   "id": "slave-market",
+   "name": "Slave market of the Jallaba",
+   "kind": "market",
+   "position": [
+    5840,
+    2064
+   ],
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "summary": "The market near al-Azhar where enslaved Africans, brought by caravan from Darfur and Sennar, were sold, mostly as domestic servants; a trade that lasted into the 19th century.",
+   "details": [
+    "Caravan merchants (jallaba) brought men, women and children across the desert to Asyut and then to Cairo, where they were sold in a wikala near al-Azhar, as Lane describes it in the 1830s. White slaves from the Caucasus, for the Mamluk households, were sold more privately. Slavery in Egypt was abolished only in the late 19th century."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "walz-slave-trade",
+    "lane-egyptians",
+    "raymond-cairo"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A caravan from Darfur has come in; exhausted captives, many of them girls, sit in the courtyard rooms while the dealers wash and dress them for sale."
+    },
+    {
+     "hour": 12,
+     "text": "Buyers come and go; a broker names prices. A household steward inspects a young woman's teeth and hands as if she were a horse."
+    },
+    {
+     "hour": 18,
+     "text": "Unsold people are locked in for the night; in the court a dealer counts his money and a child cries in a language no one here speaks."
+    }
+   ],
+   "variants": {
+    "mamluk-1350": {
+     "note": "Mamluk recruits, boys from the Black Sea steppes and the Caucasus, are bought by the sultan's merchants and raised in barracks in the Citadel, then freed as soldiers."
+    }
+   }
+  },
+  {
+   "id": "coffee-house",
+   "name": "Coffee house by al-Azhar",
+   "kind": "tavern",
+   "position": [
+    5802,
+    1975
+   ],
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "summary": "One of the new coffee houses of 16th-century Cairo: coffee came from Yemen with Sufis studying at al-Azhar around 1500, and by 1600 there were coffee houses in every quarter.",
+   "details": [
+    "Sufis drank coffee to stay awake for night devotions; laymen took it up, and coffee houses with benches, storytellers and backgammon spread through the city despite jurists who called the drink forbidden. Cairo's merchants grew rich on the trade in beans from Yemen through Suez."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "hattox-coffee",
+    "raymond-cairo",
+    "wiki-coffeehouse"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Students from al-Azhar's riwaqs drink a cup before the first lesson; the owner roasts beans in a pan and the smell fills the alley."
+    },
+    {
+     "hour": 14,
+     "text": "Men on the stone benches play mancala; the water-pipe has not yet arrived, but talk of prices and governors never stops."
+    },
+    {
+     "hour": 21,
+     "text": "A storyteller reaches the battles of Baybars; the audience shouts encouragement, and the boy runs round with tiny cups of coffee."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "khusraw-sabil",
+   "name": "Sabil-Kuttab of Khusraw Pasha",
+   "kind": "fountain",
+   "position": [
+    5542,
+    1642
+   ],
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "summary": "A public drinking fountain with a Qur'an school above, built in 1535 by the Ottoman governor Khusraw Pasha beside the tomb of al-Salih Ayyub on Bayn al-Qasrayn.",
+   "details": [
+    "A sabil-kuttab gave water to passers-by from a cistern filled from the Nile by water-carriers, through bronze grilles at the windows; above it a kuttab taught orphan boys to read the Qur'an. Founders built them as works of charity and as monuments to themselves on the busiest streets."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sabil",
+    "raymond-cairo",
+    "behrens-mamluks"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The water-carrier tips his goatskin into the cistern hatch; a porter drinks from the brass cup chained at the grille."
+    },
+    {
+     "hour": 11,
+     "text": "From the loggia above, boys recite the Qur'an in unison, rocking over their slates, while the shaykh nods with a cane in hand."
+    },
+    {
+     "hour": 17,
+     "text": "Thirsty after the market, women send children to fill jars at the grille; the attendant ladles water into each."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "roda-ferry",
+   "name": "The ferry to Roda and Giza",
+   "kind": "dock",
+   "position": [
+    2804,
+    5403
+   ],
+   "activePeriods": [
+    "fatimid-1050",
+    "mamluk-1350",
+    "ottoman-1600"
+   ],
+   "summary": "The river crossing from Old Cairo to Roda Island and on to Giza and the Pyramids, by bridge of boats in early centuries and by ferry later.",
+   "details": [
+    "Travellers bound for the west bank and the Pyramids crossed here; in the flood the bridge of boats was taken up and ferries ran. Pilgrims and villagers bringing produce to market crossed daily, and on summer nights of the flood the river filled with pleasure boats."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roda",
+    "nasir-khusraw",
+    "leo-africanus"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Village women with baskets of cheese and greens wait on the bank; the ferryman takes copper coins and packs them onto the deck with two donkeys."
+    },
+    {
+     "hour": 12,
+     "text": "The sail fills; on the far bank the Pyramids of Giza stand pale on the desert edge."
+    },
+    {
+     "hour": 21,
+     "text": "Flood season: lantern-lit boats with musicians drift past Roda, and the ferryman shouts to get through them."
+    }
+   ],
+   "variants": {
+    "fatimid-1050": {
+     "note": "The bridge of boats still stands, but ferries run alongside it when the flood is high."
+    }
+   }
+  }
+ ],
+ "events": [
+  {
+   "id": "fall-of-babylon-641",
+   "title": "Amr ibn al-As takes Babylon",
+   "periodId": "fustat-700",
+   "date": "April 641",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "babylon-fortress"
+   },
+   "effect": "crowd",
+   "text": "After a siege of seven months the Byzantine garrison of Babylon surrendered to Amr's army of a few thousand Arabs, who had crossed the Sinai at the end of 639. The fall of the fortress opened the Delta; Alexandria followed in 642. The Arabs camped round its walls, and the camp (fustat) became Egypt's new capital.",
+   "sourceIds": [
+    "butler-conquest",
+    "wiki-babylon-fortress",
+    "wiki-fustat"
+   ]
+  },
+  {
+   "id": "founding-fustat-642",
+   "title": "The first mosque of Fustat",
+   "periodId": "fustat-700",
+   "date": "641–642",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mosque-of-amr"
+   },
+   "effect": "construction",
+   "text": "Amr laid out the tribes' plots round a small mosque of mud brick with palm-trunk columns and a palm-leaf roof. Tradition says eighty Companions of the Prophet stood to fix its prayer direction. The camp, the fustat, became a city of hundreds of thousands, and its mosque was rebuilt, enlarged and loved for a millennium.",
+   "sourceIds": [
+    "wiki-amr",
+    "kubiak-fustat"
+   ]
+  },
+  {
+   "id": "canal-reopened-642",
+   "title": "Grain boats for Medina",
+   "periodId": "fustat-700",
+   "date": "641–643",
+   "kind": "construction",
+   "at": {
+    "spotId": "canal-landing"
+   },
+   "effect": "construction",
+   "text": "The caliph Umar, facing famine in Arabia, ordered Amr to reopen the old canal from the Nile to the Red Sea. Within months Egyptian peasants had cleared it, and grain boats sailed from Fustat to Qulzum, where the cargo was shipped on to the Hijaz. The canal ran for more than a century.",
+   "sourceIds": [
+    "wiki-khalij",
+    "butler-conquest"
+   ]
+  },
+  {
+   "id": "ibn-tulun-mosque-879",
+   "title": "Ibn Tulun's mosque is finished",
+   "periodId": "tulunid-880",
+   "date": "879",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "ibn-tulun"
+   },
+   "effect": "construction",
+   "text": "On Jabal Yashkur the governor's builders completed a mosque big enough for his whole army, in brick so that, Ibn Tulun is said to have explained, fire and flood could not destroy it. Its foundation slab is dated 879. A later story claims its spiral minaret copied a paper strip the ruler twisted absent-mindedly round his finger.",
+   "sourceIds": [
+    "wiki-ibn-tulun",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "sack-of-qatai-905",
+   "title": "The Abbasids raze al-Qata'i",
+   "periodId": "tulunid-880",
+   "date": "January 905",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "tulunid-palace"
+   },
+   "effect": "fire",
+   "text": "An Abbasid army under Muhammad ibn Sulayman ended the Tulunid dynasty, plundered al-Qata'i and burned and pulled down its palaces. Only the great mosque was spared. For decades the ruined quarter was a wasteland of broken walls between Fustat and the Muqattam.",
+   "sourceIds": [
+    "wiki-al-qatai",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "founding-qahira-969",
+   "title": "Jawhar lays out al-Qahira",
+   "periodId": "fatimid-1050",
+   "date": "July 969",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "eastern-palace"
+   },
+   "effect": "construction",
+   "text": "The Fatimid general Jawhar al-Siqilli took Egypt for the caliph al-Mu'izz and, the night his army arrived, marked out a walled city north of Fustat with a palace at its centre. A later legend says astrologers strung bells on ropes to signal the lucky moment, and a raven set them off early, while Mars, al-Qahir, was rising.",
+   "sourceIds": [
+    "wiki-jawhar",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "hakim-vanishes-1021",
+   "title": "The caliph al-Hakim vanishes",
+   "periodId": "fatimid-1050",
+   "date": "February 1021",
+   "kind": "civic",
+   "at": {
+    "position": [
+     6264,
+     5048
+    ]
+   },
+   "effect": "none",
+   "text": "Al-Hakim, the unpredictable caliph who had banned some foods, destroyed churches and founded the House of Knowledge, liked to ride alone at night on the Muqattam. One night he did not return; his donkey and bloodstained clothes were found. He was probably murdered; the Druze believe he went into occultation.",
+   "sourceIds": [
+    "wiki-al-hakim-caliph",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "canal-opening-1047",
+   "title": "The caliph cuts the canal dam",
+   "periodId": "fatimid-1050",
+   "date": "August 1047",
+   "kind": "festival",
+   "at": {
+    "position": [
+     3142,
+     4360
+    ]
+   },
+   "effect": "procession",
+   "text": "Nasir-i Khusraw watched the festival of the flood: when the Nile reached sixteen cubits, the caliph rode from the palace in a procession of thousands, with gilded saddles and a tent of brocade, to the canal mouth. He threw a spear at the earthen dam, workmen broke it, and the water rushed into the Khalij amid cheering crowds and boats.",
+   "sourceIds": [
+    "nasir-khusraw",
+    "wiki-wafa-al-nil"
+   ]
+  },
+  {
+   "id": "burning-of-fustat-1168",
+   "title": "Fustat burns",
+   "periodId": "fatimid-1050",
+   "date": "November 1168",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     3469,
+     5603
+    ]
+   },
+   "effect": "fire",
+   "text": "With the crusader army of King Amalric of Jerusalem approaching, the vizier Shawar ordered Fustat evacuated and set alight so the Franks could not use it. Chroniclers say it burned for fifty-four days, with twenty thousand barrels of naphtha. The city never fully recovered; al-Qahira became Cairo's heart.",
+   "sourceIds": [
+    "wiki-fustat",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "citadel-begun-1176",
+   "title": "Saladin begins the Citadel",
+   "periodId": "mamluk-1350",
+   "date": "1176",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "citadel"
+   },
+   "effect": "construction",
+   "text": "Saladin, who had ended the Fatimid caliphate in 1171, chose the Muqattam spur for a fortress, and his eunuch emir Qaraqush built it with stone from the small pyramids of Giza and with crusader prisoners as labour. Saladin never lived in it; his nephew al-Kamil moved in in 1207.",
+   "sourceIds": [
+    "wiki-citadel",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "qalawun-1285",
+   "title": "Qalawun's hospital in thirteen months",
+   "periodId": "mamluk-1350",
+   "date": "1284–1285",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "qalawun"
+   },
+   "effect": "construction",
+   "text": "Sultan Qalawun, who it is said had been cured as a young amir in Nur al-Din's hospital at Damascus, built his own on the site of the Fatimid Western Palace. Al-Maqrizi says the work was done in about thirteen months, with passers-by, even notables, forced to carry stones. The hospital served Cairo for six hundred years.",
+   "sourceIds": [
+    "wiki-qalawun",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "black-death-1348",
+   "title": "The Great Plague reaches Cairo",
+   "periodId": "mamluk-1350",
+   "date": "autumn 1348",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     5349,
+     1942
+    ]
+   },
+   "effect": "crowd",
+   "text": "The plague came by sea to Alexandria and up the Nile. At its height, in the winter of 1348–1349, chroniclers counted thousands of funerals a day; biers ran short and the dead were carried on planks and doors. Perhaps a third of the city died. Markets stood empty and fields untilled.",
+   "sourceIds": [
+    "dols-black-death",
+    "maqrizi-khitat",
+    "wiki-black-death"
+   ]
+  },
+  {
+   "id": "sultan-hasan-minaret-1361",
+   "title": "A minaret falls at Sultan Hasan's mosque",
+   "periodId": "mamluk-1350",
+   "date": "1361",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "sultan-hasan"
+   },
+   "effect": "crowd",
+   "text": "Sultan Hasan's enormous mosque, paid for partly from the estates of plague victims, was still unfinished when one of the minarets over its portal collapsed, killing about three hundred people. People took it as an omen; weeks later the sultan was murdered by his own Mamluks, and the portal minarets were never rebuilt.",
+   "sourceIds": [
+    "wiki-sultan-hasan",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "ottoman-conquest-1517",
+   "title": "Tuman Bay hanged at Bab Zuwayla",
+   "periodId": "ottoman-1600",
+   "date": "15 April 1517",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "bab-zuwayla"
+   },
+   "effect": "crowd",
+   "text": "Selim I's Ottoman army beat the Mamluks at Raydaniyya, north of Cairo, in January 1517 and took the city after days of street fighting. The last sultan, Tuman Bay, was caught and hanged in the gateway of Bab Zuwayla before the crowd. Egypt became an Ottoman province for three centuries.",
+   "sourceIds": [
+    "wiki-tuman-bay",
+    "wiki-ottoman-mamluk-war",
+    "wiki-bab-zuwayla"
+   ]
+  },
+  {
+   "id": "coffee-quarrel-1530s",
+   "title": "Preachers against coffee",
+   "periodId": "ottoman-1600",
+   "date": "1530s",
+   "kind": "riot",
+   "at": {
+    "spotId": "coffee-house"
+   },
+   "effect": "crowd",
+   "text": "Coffee divided Cairo's scholars: some jurists called it an intoxicant and the coffee house a den of idleness. In the 1530s, after sermons against it, crowds are reported to have attacked coffee houses and their customers. The authorities found no grounds to ban it, and the coffee houses multiplied.",
+   "sourceIds": [
+    "hattox-coffee",
+    "wiki-coffeehouse"
+   ]
+  },
+  {
+   "id": "mahmal-1600",
+   "title": "The Mahmal leaves for Mecca",
+   "periodId": "ottoman-1600",
+   "date": "every year in Shawwal",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "citadel"
+   },
+   "effect": "procession",
+   "text": "Each year the pilgrim caravan formed below the Citadel round the Mahmal, an empty, richly covered litter on a camel, the symbol of the ruler's protection of the pilgrimage, with the new cloth for the Ka'ba. Drummers, soldiers and Sufis with banners led it through the city and out of Bab al-Nasr.",
+   "sourceIds": [
+    "wiki-mahmal",
+    "lane-egyptians"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "nasir-khusraw-1047",
+   "title": "With Nasir-i Khusraw in Cairo",
+   "periodId": "fatimid-1050",
+   "summary": "Walk the two cities with the Persian traveller Nasir-i Khusraw, who arrived in August 1047 and stayed three years, amazed by the caliph's wealth and Misr's markets.",
+   "steps": [
+    {
+     "landmarkId": "eastern-palace",
+     "title": "A palace like a mountain",
+     "when": "August 1047",
+     "text": "From outside the caliph's palace, Nasir wrote, nothing could be seen but walls like a mountain. Thousands of guards, servants and eunuchs lived inside; al-Qahira itself was a city of soldiers and officials, its houses set among gardens."
+    },
+    {
+     "landmarkId": "al-azhar",
+     "title": "The caliph's mosque",
+     "text": "Al-Azhar, eighty years old, is the mosque of the palace city. Isma'ili scholars teach the caliph's doctrine in its arcades; on Fridays in Ramadan the caliph himself comes to preach."
+    },
+    {
+     "landmarkId": "bab-zuwayla",
+     "title": "Out through Bab Zuwayla",
+     "text": "Leave by the south gate, still Jawhar's brick one. Nasir counted the distance between al-Qahira and Misr as under a mile, along a road lined with gardens and the ruins of al-Qata'i."
+    },
+    {
+     "landmarkId": "nilometer",
+     "title": "Reading the flood",
+     "text": "On Roda the Nilometer's keeper announces each day how far the river has risen. When it reaches sixteen cubits the land tax falls due and the caliph rides out to cut the dam of the Khalij."
+    },
+    {
+     "spotId": "suq-al-qanadil",
+     "title": "The Lamp Market",
+     "text": "Beside the Mosque of Amr, Nasir found a market without equal: rock crystal, ivory, tortoiseshell, fine cloth, and grocers who wrapped their goods in paper."
+    },
+    {
+     "landmarkId": "mosque-of-amr",
+     "title": "The mosque of Misr",
+     "text": "The old mosque is the heart of Fustat, crowded day and night with teachers, Qur'an readers and students, and with strangers who sleep there."
+    },
+    {
+     "spotId": "tall-house",
+     "title": "Houses like mountains",
+     "text": "Looking back, Nasir said Misr looked like a mountain from afar: houses of seven and fourteen storeys, one with a garden on its roof where an ox turned a water-wheel."
+    }
+   ],
+   "sourceIds": [
+    "nasir-khusraw",
+    "maqrizi-khitat"
+   ]
+  },
+  {
+   "id": "plague-and-sultan-1350",
+   "title": "The sultan's city after the plague",
+   "periodId": "mamluk-1350",
+   "summary": "Mamluk Cairo in the years after the Black Death of 1348, from the Citadel where a teenage sultan ruled to the hospital and markets of Bayn al-Qasrayn.",
+   "steps": [
+    {
+     "landmarkId": "citadel",
+     "title": "The boy sultan",
+     "when": "1348–1351",
+     "text": "Al-Nasir Hasan came to the throne as a boy of about twelve in 1347; the amirs ruled in his name from the Citadel's halls while the plague raged in the city below. His father's green-tiled mosque stands at the heart of the fortress."
+    },
+    {
+     "spotId": "horse-market",
+     "title": "Down to the Rumayla",
+     "text": "Below the Citadel ramp the horse market fills the square. In the plague months funeral processions crossed it day after day on their way to the cemeteries of the Qarafa."
+    },
+    {
+     "landmarkId": "sultan-hasan",
+     "title": "A mosque from the plague's estates",
+     "when": "1356",
+     "text": "Hasan, now ruling for himself, begins the largest mosque Cairo has ever seen at the foot of the Citadel, paid for in part with the property of those who died without heirs."
+    },
+    {
+     "landmarkId": "ibn-tulun",
+     "title": "The old mosque on the rock",
+     "text": "West along the Saliba, Ibn Tulun's mosque, restored by Sultan Lajin fifty years ago, stands in a crowded quarter of tenements and workshops."
+    },
+    {
+     "landmarkId": "bab-zuwayla",
+     "title": "Into the old city",
+     "text": "Through Bab Zuwayla the road becomes the Qasaba. On its towers the heads of executed rebels are sometimes displayed; beneath them, drummers and the busiest crowds of Cairo."
+    },
+    {
+     "landmarkId": "qalawun",
+     "title": "The hospital of Qalawun",
+     "text": "Qalawun's maristan, sixty years old, takes in the sick of every class. In 1348 its physicians could do nothing against the plague but bleed, purge and pray."
+    },
+    {
+     "spotId": "moneychangers",
+     "title": "Prices after the plague",
+     "text": "In the Sagha, gold and silver are dear and labour scarce; with so many dead, those who survived inherited and wages rose, while the land went untilled."
+    }
+   ],
+   "sourceIds": [
+    "maqrizi-khitat",
+    "dols-black-death",
+    "behrens-mamluks"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "raymond-cairo",
+   "title": "Cairo",
+   "author": "André Raymond",
+   "year": 2000,
+   "note": "trans. Willard Wood; Harvard University Press"
+  },
+  {
+   "id": "abu-lughod",
+   "title": "Cairo: 1001 Years of the City Victorious",
+   "author": "Janet L. Abu-Lughod",
+   "year": 1971
+  },
+  {
+   "id": "behrens-abouseif",
+   "title": "Islamic Architecture in Cairo: An Introduction",
+   "author": "Doris Behrens-Abouseif",
+   "year": 1989
+  },
+  {
+   "id": "maqrizi-khitat",
+   "title": "al-Mawa'iz wa'l-I'tibar fi Dhikr al-Khitat wa'l-Athar (the Khitat)",
+   "author": "al-Maqrizi",
+   "year": "c. 1420s",
+   "url": "https://en.wikipedia.org/wiki/Al-Maqrizi"
+  },
+  {
+   "id": "nasir-khusraw",
+   "title": "Safarnama (Book of Travels)",
+   "author": "Nasir-i Khusraw",
+   "year": "1047–1050 (written c. 1052)",
+   "url": "https://en.wikipedia.org/wiki/Safarnama"
+  },
+  {
+   "id": "kubiak-fustat",
+   "title": "Al-Fustat: Its Foundation and Early Urban Development",
+   "author": "Władysław B. Kubiak",
+   "year": 1987
+  },
+  {
+   "id": "lane-egyptians",
+   "title": "An Account of the Manners and Customs of the Modern Egyptians",
+   "author": "Edward William Lane",
+   "year": 1836,
+   "url": "https://en.wikipedia.org/wiki/Edward_William_Lane"
+  },
+  {
+   "id": "wiki-history-cairo",
+   "title": "History of Cairo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Cairo"
+  },
+  {
+   "id": "wiki-fustat",
+   "title": "Fustat",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fustat"
+  },
+  {
+   "id": "wiki-al-qatai",
+   "title": "Al-Qata'i",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Qata%27i"
+  },
+  {
+   "id": "wiki-al-askar",
+   "title": "Al-Askar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Askar"
+  },
+  {
+   "id": "wiki-khalij",
+   "title": "Canal of Cairo (Khalij)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Khalij_(Cairo)"
+  },
+  {
+   "id": "wiki-roda",
+   "title": "Roda Island",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roda_Island"
+  },
+  {
+   "id": "wiki-mokattam",
+   "title": "Mokattam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mokattam"
+  },
+  {
+   "id": "wiki-walls-of-cairo",
+   "title": "Walls of Cairo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fortifications_of_Cairo"
+  },
+  {
+   "id": "wiki-bulaq",
+   "title": "Bulaq",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boulaq"
+  },
+  {
+   "id": "wiki-azbakiyya",
+   "title": "Ezbekiyya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Azbakeya"
+  },
+  {
+   "id": "wiki-city-of-the-dead",
+   "title": "City of the Dead (Cairo)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/City_of_the_Dead_(Cairo)"
+  },
+  {
+   "id": "creswell-mae",
+   "title": "The Muslim Architecture of Egypt (2 vols)",
+   "author": "K. A. C. Creswell",
+   "year": "1952–1959"
+  },
+  {
+   "id": "behrens-mamluks",
+   "title": "Cairo of the Mamluks: A History of the Architecture and its Culture",
+   "author": "Doris Behrens-Abouseif",
+   "year": 2007
+  },
+  {
+   "id": "williams-monuments",
+   "title": "Islamic Monuments in Cairo: The Practical Guide",
+   "author": "Caroline Williams",
+   "year": 2008,
+   "note": "6th edition"
+  },
+  {
+   "id": "butler-churches",
+   "title": "The Ancient Coptic Churches of Egypt",
+   "author": "Alfred J. Butler",
+   "year": 1884
+  },
+  {
+   "id": "sheehan-babylon",
+   "title": "Babylon of Egypt: The Archaeology of Old Cairo and the Origins of the City",
+   "author": "Peter Sheehan",
+   "year": 2010
+  },
+  {
+   "id": "rabbat-citadel",
+   "title": "The Citadel of Cairo: A New Interpretation of Royal Mamluk Architecture",
+   "author": "Nasser O. Rabbat",
+   "year": 1995
+  },
+  {
+   "id": "bloom-fatimid",
+   "title": "Arts of the City Victorious: Islamic Art and Architecture in Fatimid North Africa and Egypt",
+   "author": "Jonathan M. Bloom",
+   "year": 2007
+  },
+  {
+   "id": "sayyid-capitale",
+   "title": "La capitale de l'Égypte jusqu'à l'époque fatimide: al-Qahira et al-Fustat",
+   "author": "Ayman Fu'ad Sayyid",
+   "year": 1998
+  },
+  {
+   "id": "swelim-tulun",
+   "title": "Ibn Tulun: His Lost City and Great Mosque",
+   "author": "Tarek Swelim",
+   "year": 2015
+  },
+  {
+   "id": "hanna-bulaq",
+   "title": "An Urban History of Bulaq in the Mamluk and Ottoman Periods",
+   "author": "Nelly Hanna",
+   "year": 1983
+  },
+  {
+   "id": "wiki-amr",
+   "title": "Mosque of Amr ibn al-As",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Amr_ibn_al-As_Mosque"
+  },
+  {
+   "id": "wiki-babylon-fortress",
+   "title": "Babylon Fortress",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Babylon_Fortress"
+  },
+  {
+   "id": "wiki-hanging-church",
+   "title": "Hanging Church",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hanging_Church"
+  },
+  {
+   "id": "wiki-nilometer",
+   "title": "Nilometer",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nilometer"
+  },
+  {
+   "id": "wiki-ibn-tulun",
+   "title": "Mosque of Ibn Tulun",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mosque_of_Ibn_Tulun"
+  },
+  {
+   "id": "wiki-al-azhar",
+   "title": "Al-Azhar Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Azhar_Mosque"
+  },
+  {
+   "id": "wiki-fatimid-palaces",
+   "title": "Fatimid Great Palaces",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fatimid_Great_Palaces"
+  },
+  {
+   "id": "wiki-bab-zuwayla",
+   "title": "Bab Zuweila",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bab_Zuwayla"
+  },
+  {
+   "id": "wiki-bab-al-futuh",
+   "title": "Bab al-Futuh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bab_al-Futuh"
+  },
+  {
+   "id": "wiki-bab-al-nasr",
+   "title": "Bab al-Nasr (Cairo)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bab_al-Nasr_(Cairo)"
+  },
+  {
+   "id": "wiki-al-hakim",
+   "title": "Al-Hakim Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Hakim_Mosque"
+  },
+  {
+   "id": "wiki-al-aqmar",
+   "title": "Al-Aqmar Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aqmar_Mosque"
+  },
+  {
+   "id": "wiki-citadel",
+   "title": "Cairo Citadel",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cairo_Citadel"
+  },
+  {
+   "id": "wiki-al-nasir-mosque",
+   "title": "Mosque of al-Nasir Muhammad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Nasir_Muhammad_Mosque"
+  },
+  {
+   "id": "wiki-qalawun",
+   "title": "Complex of Sultan al-Mansur Qalawun",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Qalawun_complex"
+  },
+  {
+   "id": "wiki-sultan-hasan",
+   "title": "Mosque-Madrasa of Sultan Hassan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_Sultan_Hasan"
+  },
+  {
+   "id": "wiki-khan-el-khalili",
+   "title": "Khan el-Khalili",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Khan_el-Khalili"
+  },
+  {
+   "id": "wiki-aqueduct",
+   "title": "Aqueduct of Cairo (Magra al-Uyun)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cairo_Citadel_Aqueduct"
+  },
+  {
+   "id": "wiki-al-muayyad",
+   "title": "Mosque of al-Mu'ayyad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Muayyad_Mosque"
+  },
+  {
+   "id": "wiki-wikala-ghuri",
+   "title": "Wikala of al-Ghuri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wikala_of_al-Ghuri"
+  },
+  {
+   "id": "wiki-sinan-pasha",
+   "title": "Sinan Pasha Mosque (Cairo)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sinan_Pasha_Mosque_(Cairo)"
+  },
+  {
+   "id": "wiki-qaitbay",
+   "title": "Funerary complex of Sultan Qaytbay",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Qaitbay_Mosque"
+  },
+  {
+   "id": "ibn-battuta",
+   "title": "Rihla (Travels), the visit to Cairo",
+   "author": "Ibn Battuta",
+   "year": "1326",
+   "url": "https://en.wikipedia.org/wiki/Rihla"
+  },
+  {
+   "id": "leo-africanus",
+   "title": "Description of Africa, Book 8 (Cairo)",
+   "author": "Leo Africanus (al-Hasan al-Wazzan)",
+   "year": "1526",
+   "url": "https://en.wikipedia.org/wiki/Leo_Africanus"
+  },
+  {
+   "id": "abd-al-latif",
+   "title": "The Eastern Key (Kitab al-Ifada wa'l-I'tibar)",
+   "author": "Abd al-Latif al-Baghdadi",
+   "year": "c. 1204",
+   "url": "https://en.wikipedia.org/wiki/Abd_al-Latif_al-Baghdadi"
+  },
+  {
+   "id": "goitein",
+   "title": "A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza (6 vols)",
+   "author": "S. D. Goitein",
+   "year": "1967–1993"
+  },
+  {
+   "id": "dols-black-death",
+   "title": "The Black Death in the Middle East",
+   "author": "Michael W. Dols",
+   "year": 1977
+  },
+  {
+   "id": "hattox-coffee",
+   "title": "Coffee and Coffeehouses: The Origins of a Social Beverage in the Medieval Near East",
+   "author": "Ralph S. Hattox",
+   "year": 1985
+  },
+  {
+   "id": "butler-conquest",
+   "title": "The Arab Conquest of Egypt and the Last Thirty Years of the Roman Dominion",
+   "author": "Alfred J. Butler",
+   "year": 1902,
+   "url": "https://archive.org/details/arabconquestofeg00butluoft"
+  },
+  {
+   "id": "scanlon-fustat",
+   "title": "Fustat Expedition: Preliminary Reports",
+   "author": "George T. Scanlon",
+   "year": "1965–1986",
+   "note": "Journal of the American Research Center in Egypt"
+  },
+  {
+   "id": "bloom-paper",
+   "title": "Paper Before Print: The History and Impact of Paper in the Islamic World",
+   "author": "Jonathan M. Bloom",
+   "year": 2001
+  },
+  {
+   "id": "ayalon-mamluk",
+   "title": "L'esclavage du Mamelouk",
+   "author": "David Ayalon",
+   "year": 1951
+  },
+  {
+   "id": "walz-slave-trade",
+   "title": "Trade between Egypt and Bilad as-Sudan, 1700–1820",
+   "author": "Terence Walz",
+   "year": 1978
+  },
+  {
+   "id": "wiki-aphrodito-papyri",
+   "title": "Greek Papyri in the British Museum, vol. IV: The Aphrodito Papyri",
+   "author": "H. I. Bell (ed.)",
+   "year": 1910,
+   "note": "the letters of the governor Qurra ibn Sharik, 709–714"
+  },
+  {
+   "id": "wiki-fustat-ware",
+   "title": "Islamic pottery (Fatimid lustreware)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Islamic_pottery"
+  },
+  {
+   "id": "wiki-ben-ezra",
+   "title": "Ben Ezra Synagogue",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ben_Ezra_Synagogue"
+  },
+  {
+   "id": "wiki-geniza",
+   "title": "Cairo Geniza",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cairo_Geniza"
+  },
+  {
+   "id": "wiki-bimaristan",
+   "title": "Bimaristan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bimaristan"
+  },
+  {
+   "id": "wiki-dar-al-ilm",
+   "title": "House of Knowledge (Dar al-Ilm)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/House_of_Knowledge"
+  },
+  {
+   "id": "wiki-history-of-paper",
+   "title": "History of paper",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_paper"
+  },
+  {
+   "id": "wiki-sugar",
+   "title": "History of sugar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_sugar"
+  },
+  {
+   "id": "wiki-hammam",
+   "title": "Hammam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hammam"
+  },
+  {
+   "id": "wiki-mamluk",
+   "title": "Mamluk",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mamluk"
+  },
+  {
+   "id": "wiki-coffeehouse",
+   "title": "Coffeehouse",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coffeehouse"
+  },
+  {
+   "id": "wiki-sabil",
+   "title": "Sabil (fountain)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sabil_(fountain)"
+  },
+  {
+   "id": "wiki-jawhar",
+   "title": "Jawhar (general)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jawhar_(general)"
+  },
+  {
+   "id": "wiki-al-hakim-caliph",
+   "title": "Al-Hakim bi-Amr Allah",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Hakim_bi-Amr_Allah"
+  },
+  {
+   "id": "wiki-wafa-al-nil",
+   "title": "Flooding of the Nile",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Flooding_of_the_Nile"
+  },
+  {
+   "id": "wiki-black-death",
+   "title": "Black Death",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Black_Death"
+  },
+  {
+   "id": "wiki-tuman-bay",
+   "title": "Tuman Bay II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tuman_Bay_II"
+  },
+  {
+   "id": "wiki-ottoman-mamluk-war",
+   "title": "Ottoman–Mamluk War (1516–1517)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%931517)"
+  },
+  {
+   "id": "wiki-mahmal",
+   "title": "Mahmal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mahmal"
+  }
+ ]
+}
