@@ -418,7 +418,9 @@
           "subtitle": "The shogun's city, 1800",
           "at": [139.76, 35.68],
           "glyph": "pagoda",
-          "blurb": "One of the largest cities in the world, around the shogun's castle, with merchant quarters and the Nihonbashi bridge."
+          "blurb": "One of the largest cities in the world, around the shogun's castle, with merchant quarters and the Nihonbashi bridge.",
+          "city": "edo",
+          "period": "bunka-1800"
         }
       ]
     },

@@ -1,0 +1,8705 @@
+{
+ "id": "edo",
+ "name": "Edo",
+ "subtitle": "The Shogun's City",
+ "description": "Edo from Ōta Dōkan's castle of 1457 to early Meiji Tokyo in 1872: the castle and its moats, the low city of canals between them and the bay, the Sumida with Asakusa and Ryōgoku, Ueno, Shiba and the new land of Honjo and Fukagawa. Positions are projected from real coordinates; shorelines follow the usual reconstructions; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "bunka-1800",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#E8E0CC",
+   "#DCD1B8",
+   "#C9B596",
+   "#A68A66",
+   "#8C7356"
+  ],
+  "roofs": [
+   "#6E7073",
+   "#5F6164",
+   "#7C7A72"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3418,
+    4383
+   ],
+   "distance": 42,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7486,
+   7489
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      2866,
+      7977
+     ],
+     [
+      2966,
+      7334
+     ],
+     [
+      3038,
+      7090
+     ],
+     [
+      3508,
+      7056
+     ],
+     [
+      3824,
+      7079
+     ],
+     [
+      4213,
+      6934
+     ],
+     [
+      4484,
+      6735
+     ],
+     [
+      4909,
+      6746
+     ],
+     [
+      5398,
+      6835
+     ],
+     [
+      5904,
+      6768
+     ],
+     [
+      6528,
+      6679
+     ],
+     [
+      7143,
+      6624
+     ],
+     [
+      7938,
+      6613
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1800a",
+    "blurb": "Edo-wan, the shallow bay that fed the city with fish, seaweed and clams and carried its rice, sake and timber. Its mud flats were filled, block by block, to make Tsukiji, Hama-goten and Fukagawa.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3598,
+      7600
+     ],
+     [
+      3906,
+      7689
+     ],
+     [
+      4512,
+      7467
+     ],
+     [
+      5389,
+      7445
+     ],
+     [
+      5985,
+      7356
+     ],
+     [
+      6591,
+      7278
+     ],
+     [
+      7170,
+      7223
+     ],
+     [
+      7947,
+      7212
+     ]
+    ],
+    "width": 800,
+    "id": "bay-1800b",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3598,
+      7933
+     ],
+     [
+      8119,
+      7877
+     ]
+    ],
+    "width": 1400,
+    "id": "bay-1800c",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      2685,
+      7977
+     ],
+     [
+      2803,
+      7234
+     ],
+     [
+      2956,
+      6790
+     ],
+     [
+      3399,
+      6380
+     ],
+     [
+      3978,
+      5836
+     ],
+     [
+      4421,
+      5559
+     ],
+     [
+      4864,
+      5337
+     ],
+     [
+      5099,
+      5292
+     ],
+     [
+      5479,
+      5348
+     ],
+     [
+      6157,
+      5547
+     ],
+     [
+      6835,
+      5625
+     ],
+     [
+      7938,
+      5625
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1610a",
+    "blurb": "Ieyasu's Edo still faced the open bay at Kyōbashi and Hatchōbori; the shore was pushed out year by year with earth from Kanda hill.",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3273,
+      8077
+     ],
+     [
+      3390,
+      7378
+     ],
+     [
+      3472,
+      7123
+     ],
+     [
+      3806,
+      6823
+     ],
+     [
+      4349,
+      6313
+     ],
+     [
+      4719,
+      6080
+     ],
+     [
+      5054,
+      5914
+     ],
+     [
+      5361,
+      5936
+     ],
+     [
+      6039,
+      6136
+     ],
+     [
+      6799,
+      6224
+     ],
+     [
+      7938,
+      6224
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1610b",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3978,
+      7522
+     ],
+     [
+      4213,
+      7256
+     ],
+     [
+      4719,
+      6790
+     ],
+     [
+      5018,
+      6602
+     ],
+     [
+      5235,
+      6524
+     ],
+     [
+      5913,
+      6724
+     ],
+     [
+      6763,
+      6823
+     ],
+     [
+      7938,
+      6823
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1610c",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3598,
+      7600
+     ],
+     [
+      8119,
+      7600
+     ]
+    ],
+    "width": 1400,
+    "id": "bay-1610d",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3454,
+      7023
+     ],
+     [
+      4041,
+      5991
+     ],
+     [
+      4674,
+      5226
+     ],
+     [
+      5217,
+      4416
+     ],
+     [
+      5470,
+      3817
+     ],
+     [
+      6112,
+      4050
+     ],
+     [
+      6799,
+      4294
+     ],
+     [
+      7920,
+      4349
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1460a",
+    "blurb": "In Dōkan's day the bay reached far inland: the Hibiya inlet lapped the foot of the castle bluff, and the shore ran up the east side of the Edo-maejima sandbar to the mouth of the river.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      3969,
+      7323
+     ],
+     [
+      4539,
+      6335
+     ],
+     [
+      5153,
+      5581
+     ],
+     [
+      5750,
+      4704
+     ],
+     [
+      5606,
+      4482
+     ],
+     [
+      5895,
+      4616
+     ],
+     [
+      6681,
+      4882
+     ],
+     [
+      7893,
+      4948
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1460b",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      4493,
+      7622
+     ],
+     [
+      5036,
+      6679
+     ],
+     [
+      5633,
+      5947
+     ],
+     [
+      5705,
+      5181
+     ],
+     [
+      6564,
+      5481
+     ],
+     [
+      7866,
+      5547
+     ]
+    ],
+    "width": 700,
+    "id": "bay-1460c",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      4141,
+      7156
+     ],
+     [
+      8119,
+      7156
+     ]
+    ],
+    "width": 1600,
+    "id": "bay-1460d",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      5407,
+      6158
+     ],
+     [
+      8119,
+      6158
+     ]
+    ],
+    "width": 800,
+    "id": "bay-1460e",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Edo Bay",
+    "path": [
+     [
+      5045,
+      5714
+     ],
+     [
+      8119,
+      5714
+     ]
+    ],
+    "width": 900,
+    "id": "bay-1460f",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Hibiya inlet (Hibiya-irie)",
+    "path": [
+     [
+      2694,
+      7600
+     ],
+     [
+      2676,
+      6546
+     ],
+     [
+      2721,
+      5603
+     ]
+    ],
+    "width": 650,
+    "id": "hibiya-inlet",
+    "blurb": "A shallow arm of the bay running up to the foot of Dōkan's castle, between the bluff and the Edo-maejima sandbar. Ieyasu filled it from the 1590s with earth from Kanda hill; Marunouchi and Hibiya stand on it.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Hibiya inlet (Hibiya-irie)",
+    "path": [
+     [
+      2739,
+      5603
+     ],
+     [
+      2857,
+      4937
+     ],
+     [
+      3038,
+      4294
+     ]
+    ],
+    "width": 300,
+    "id": "hibiya-inlet-head",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Hibiya inlet, being filled",
+    "path": [
+     [
+      2739,
+      6712
+     ],
+     [
+      2586,
+      6158
+     ],
+     [
+      2532,
+      5803
+     ]
+    ],
+    "width": 170,
+    "id": "hibiya-remnant",
+    "blurb": "What was left of the Hibiya inlet while daimyo gangs dumped earth from Kanda hill into it; the mansions of Daimyō-kōji rose on the fill behind them.",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Sumida-gawa",
+    "path": [
+     [
+      6989,
+      -55
+     ],
+     [
+      6672,
+      688
+     ],
+     [
+      6473,
+      1076
+     ],
+     [
+      6220,
+      1531
+     ],
+     [
+      5976,
+      1997
+     ],
+     [
+      5813,
+      2496
+     ],
+     [
+      5678,
+      2829
+     ],
+     [
+      5361,
+      3162
+     ],
+     [
+      5244,
+      3384
+     ],
+     [
+      5334,
+      3584
+     ]
+    ],
+    "width": 190,
+    "id": "sumida-1460",
+    "blurb": "Then the lower course of the Iruma and Ara rivers, wandering through reeds to the bay; Asakusa stood on a sandy bank on its west side.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Sumida-gawa",
+    "path": [
+     [
+      6989,
+      -55
+     ],
+     [
+      6672,
+      688
+     ],
+     [
+      6473,
+      1076
+     ],
+     [
+      6220,
+      1531
+     ],
+     [
+      5976,
+      1997
+     ],
+     [
+      5813,
+      2496
+     ],
+     [
+      5678,
+      2829
+     ],
+     [
+      5361,
+      3162
+     ],
+     [
+      5244,
+      3384
+     ],
+     [
+      5361,
+      3772
+     ],
+     [
+      5515,
+      4050
+     ],
+     [
+      5452,
+      4693
+     ],
+     [
+      5271,
+      5048
+     ],
+     [
+      5090,
+      5359
+     ]
+    ],
+    "width": 170,
+    "id": "sumida-1610",
+    "blurb": "The river, also called Ōkawa, 'the great river', carried barges of rice and timber down to the bay; its east bank was still reed and marsh.",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Sumida-gawa (Ōkawa)",
+    "path": [
+     [
+      6989,
+      -55
+     ],
+     [
+      6672,
+      688
+     ],
+     [
+      6473,
+      1076
+     ],
+     [
+      6220,
+      1531
+     ],
+     [
+      5976,
+      1997
+     ],
+     [
+      5813,
+      2496
+     ],
+     [
+      5678,
+      2829
+     ],
+     [
+      5361,
+      3162
+     ],
+     [
+      5244,
+      3384
+     ],
+     [
+      5361,
+      3772
+     ],
+     [
+      5515,
+      4050
+     ],
+     [
+      5452,
+      4693
+     ],
+     [
+      5271,
+      5048
+     ],
+     [
+      5090,
+      5359
+     ],
+     [
+      4819,
+      5769
+     ],
+     [
+      4575,
+      6158
+     ],
+     [
+      4457,
+      6657
+     ]
+    ],
+    "width": 170,
+    "id": "sumida",
+    "blurb": "Edo's great river, crossed by five bridges by 1800. Rice barges, sake boats from Osaka, lumber rafts and pleasure boats crowded it; its banks held the shogun's granaries, the Ryōgoku fairground and the fireworks of summer.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sumida-gawa, east channel",
+    "path": [
+     [
+      5153,
+      5337
+     ],
+     [
+      5298,
+      5769
+     ],
+     [
+      5352,
+      6158
+     ],
+     [
+      5389,
+      6602
+     ]
+    ],
+    "width": 80,
+    "id": "sumida-east",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Hirakawa",
+    "path": [
+     [
+      1248,
+      2219
+     ],
+     [
+      1790,
+      2496
+     ],
+     [
+      2197,
+      2829
+     ],
+     [
+      2423,
+      3273
+     ],
+     [
+      2739,
+      3661
+     ],
+     [
+      2966,
+      4050
+     ],
+     [
+      3038,
+      4272
+     ]
+    ],
+    "width": 30,
+    "id": "hirakawa-1460",
+    "blurb": "The little river that ran under the castle's north side into the head of the Hibiya inlet. Ieyasu diverted it east through Nihonbashi.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Hirakawa",
+    "path": [
+     [
+      1248,
+      2219
+     ],
+     [
+      1790,
+      2496
+     ],
+     [
+      2197,
+      2829
+     ],
+     [
+      2396,
+      3218
+     ]
+    ],
+    "width": 30,
+    "id": "hirakawa-1610",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Nihonbashi-gawa",
+    "path": [
+     [
+      2396,
+      3218
+     ],
+     [
+      2604,
+      3384
+     ],
+     [
+      2893,
+      3606
+     ],
+     [
+      3237,
+      3828
+     ],
+     [
+      3571,
+      4050
+     ],
+     [
+      3716,
+      4138
+     ],
+     [
+      3897,
+      4349
+     ],
+     [
+      4023,
+      4493
+     ],
+     [
+      4213,
+      4560
+     ],
+     [
+      4430,
+      4738
+     ],
+     [
+      4665,
+      4915
+     ],
+     [
+      4955,
+      5026
+     ],
+     [
+      5226,
+      5048
+     ]
+    ],
+    "width": 40,
+    "id": "nihonbashi-gawa",
+    "blurb": "The canal-river through the heart of the merchant city, dug from the old course of the Hirakawa. Fish, vegetables, rice and timber came up it by boat to the quays of Nihonbashi.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Nihonbashi-gawa",
+    "path": [
+     [
+      2107,
+      2485
+     ],
+     [
+      2260,
+      2829
+     ],
+     [
+      2396,
+      3218
+     ]
+    ],
+    "width": 36,
+    "id": "nihonbashi-upper",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Kanda-gawa",
+    "path": [
+     [
+      1338,
+      2496
+     ],
+     [
+      2061,
+      2474
+     ],
+     [
+      2694,
+      2585
+     ],
+     [
+      3146,
+      2740
+     ],
+     [
+      3508,
+      2796
+     ],
+     [
+      3824,
+      2885
+     ],
+     [
+      4186,
+      2973
+     ],
+     [
+      4593,
+      3051
+     ],
+     [
+      4909,
+      3096
+     ],
+     [
+      5117,
+      3206
+     ],
+     [
+      5271,
+      3251
+     ]
+    ],
+    "width": 36,
+    "id": "kanda-gawa",
+    "blurb": "Cut through Kanda hill from 1620 to carry the Hirakawa straight to the Sumida, making a deep green gorge at Ochanomizu and the northern moat of the city.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sotobori (outer moat)",
+    "path": [
+     [
+      1338,
+      2496
+     ],
+     [
+      1067,
+      2774
+     ],
+     [
+      750,
+      3273
+     ],
+     [
+      542,
+      3661
+     ],
+     [
+      163,
+      4050
+     ],
+     [
+      0,
+      4249
+     ],
+     [
+      -108,
+      4715
+     ],
+     [
+      434,
+      5215
+     ],
+     [
+      570,
+      5248
+     ]
+    ],
+    "width": 50,
+    "id": "sotobori",
+    "blurb": "The outer moat, finished in 1636 by the daimyo of eastern Japan, closed the castle's spiral of moats: from Iidabashi round Yotsuya, Akasaka and Toranomon to Tokiwabashi, with gates (mitsuke) at every crossing.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Tameike and the southern moat",
+    "path": [
+     [
+      570,
+      5248
+     ],
+     [
+      615,
+      5514
+     ],
+     [
+      814,
+      5736
+     ],
+     [
+      1112,
+      5847
+     ],
+     [
+      1519,
+      5991
+     ],
+     [
+      1745,
+      6047
+     ],
+     [
+      2333,
+      5991
+     ],
+     [
+      2649,
+      5914
+     ],
+     [
+      2920,
+      5736
+     ]
+    ],
+    "width": 60,
+    "id": "tameike",
+    "blurb": "Tameike, 'the reservoir', was a dammed pond in the valley below Hie shrine that served as both water supply and moat.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sotobori (outer moat)",
+    "path": [
+     [
+      3716,
+      4138
+     ],
+     [
+      3644,
+      4383
+     ],
+     [
+      3553,
+      4771
+     ],
+     [
+      3345,
+      5215
+     ],
+     [
+      2920,
+      5736
+     ]
+    ],
+    "width": 40,
+    "id": "sotobori-east",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shiodome-gawa",
+    "path": [
+     [
+      2649,
+      5914
+     ],
+     [
+      2676,
+      6158
+     ],
+     [
+      2694,
+      6302
+     ],
+     [
+      2857,
+      6413
+     ],
+     [
+      3056,
+      6546
+     ],
+     [
+      3237,
+      6712
+     ]
+    ],
+    "width": 30,
+    "id": "shiodome",
+    "blurb": "'Tide-stop' canal: the south end of the outer moat, running out to the bay past the Hama-goten.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Kyōbashi-gawa and Hatchōbori",
+    "path": [
+     [
+      3345,
+      5215
+     ],
+     [
+      3644,
+      5303
+     ],
+     [
+      4005,
+      5381
+     ],
+     [
+      4367,
+      5470
+     ],
+     [
+      4638,
+      5625
+     ],
+     [
+      4792,
+      5769
+     ]
+    ],
+    "width": 30,
+    "id": "kyobashi-gawa",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sanjikkenbori",
+    "path": [
+     [
+      4005,
+      5381
+     ],
+     [
+      3598,
+      5825
+     ],
+     [
+      3192,
+      6213
+     ],
+     [
+      2920,
+      6413
+     ]
+    ],
+    "width": 22,
+    "id": "sanjikkenbori",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shinkawa",
+    "path": [
+     [
+      5063,
+      5270
+     ],
+     [
+      4864,
+      5204
+     ],
+     [
+      4611,
+      5115
+     ]
+    ],
+    "width": 20,
+    "id": "shinkawa",
+    "blurb": "Dug in 1660 by the merchant Kawamura Zuiken across Reiganjima; its banks were lined with the storehouses of the sake wholesalers.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Kamejima-gawa",
+    "path": [
+     [
+      4701,
+      4937
+     ],
+     [
+      4611,
+      5115
+     ],
+     [
+      4575,
+      5381
+     ],
+     [
+      4638,
+      5625
+     ]
+    ],
+    "width": 22,
+    "id": "kamejima",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Onagi-gawa",
+    "path": [
+     [
+      5479,
+      4538
+     ],
+     [
+      6311,
+      4493
+     ],
+     [
+      7576,
+      4427
+     ]
+    ],
+    "width": 40,
+    "id": "onagi",
+    "blurb": "A canal dug in the 1590s to bring salt from Gyōtoku to Edo; later the main water route east to the Tone river and the provinces.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Tatekawa",
+    "path": [
+     [
+      5407,
+      3739
+     ],
+     [
+      6311,
+      3695
+     ],
+     [
+      7576,
+      3628
+     ]
+    ],
+    "width": 36,
+    "id": "tatekawa",
+    "blurb": "Dug from 1659 to drain Honjo and open it to boats, when the new suburb was laid out after the Meireki fire.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ōyokogawa",
+    "path": [
+     [
+      7170,
+      1387
+     ],
+     [
+      7106,
+      3628
+     ],
+     [
+      7052,
+      4427
+     ],
+     [
+      6989,
+      5825
+     ]
+    ],
+    "width": 30,
+    "id": "oyokogawa",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sanya-bori",
+    "path": [
+     [
+      6718,
+      699
+     ],
+     [
+      6401,
+      333
+     ],
+     [
+      6175,
+      -55
+     ]
+    ],
+    "width": 16,
+    "id": "sanyabori",
+    "blurb": "The canal from the Sumida toward the Yoshiwara: pleasure-seekers came up the river by fast boat and walked the last stretch along the dike.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Uchibori (inner moats)",
+    "path": [
+     [
+      2604,
+      3495
+     ],
+     [
+      2857,
+      3828
+     ],
+     [
+      2857,
+      4249
+     ],
+     [
+      2830,
+      4549
+     ],
+     [
+      2803,
+      4937
+     ],
+     [
+      2649,
+      5326
+     ],
+     [
+      2287,
+      5381
+     ],
+     [
+      1971,
+      5215
+     ],
+     [
+      1564,
+      4937
+     ],
+     [
+      1338,
+      4549
+     ],
+     [
+      1293,
+      4249
+     ],
+     [
+      1383,
+      3883
+     ],
+     [
+      1609,
+      3550
+     ],
+     [
+      1835,
+      3273
+     ],
+     [
+      2152,
+      3329
+     ],
+     [
+      2378,
+      3439
+     ],
+     [
+      2604,
+      3495
+     ]
+    ],
+    "width": 45,
+    "id": "uchibori",
+    "blurb": "The inner moats round the castle's baileys, each with its own name: Hirakawa, Ōte, Kikyō, Wadakura, Babasaki, Hibiya, Sakurada, Hanzō, Chidorigafuchi and Ushigafuchi. Their stone walls stand to this day.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Inui and Hasuike moats",
+    "path": [
+     [
+      2061,
+      3439
+     ],
+     [
+      1853,
+      3772
+     ],
+     [
+      1826,
+      4161
+     ],
+     [
+      1926,
+      4460
+     ],
+     [
+      2333,
+      4516
+     ],
+     [
+      2649,
+      4493
+     ],
+     [
+      2821,
+      4538
+     ]
+    ],
+    "width": 34,
+    "id": "inui-hasuike",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Hirakawa-bori",
+    "path": [
+     [
+      2061,
+      3439
+     ],
+     [
+      2333,
+      3584
+     ],
+     [
+      2694,
+      3606
+     ]
+    ],
+    "width": 30,
+    "id": "hirakawa-bori",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shinobazu-no-ike",
+    "path": [
+     [
+      3508,
+      1098
+     ],
+     [
+      3544,
+      1542
+     ]
+    ],
+    "width": 360,
+    "id": "shinobazu",
+    "blurb": "A marshy lake left by an old arm of the bay. Tenkai saw Lake Biwa in it and set a Benten temple on its island; lotus filled it in summer, and teahouses lined its shore."
+   }
+  ],
+  "islands": [
+   {
+    "name": "Tsukudajima and Ishikawajima",
+    "polygon": [
+     [
+      4936,
+      5658
+     ],
+     [
+      5153,
+      5658
+     ],
+     [
+      5226,
+      6047
+     ],
+     [
+      5063,
+      6380
+     ],
+     [
+      4774,
+      6402
+     ],
+     [
+      4719,
+      6158
+     ],
+     [
+      4846,
+      5880
+     ]
+    ],
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Hama-goten",
+    "polygon": [
+     [
+      2730,
+      6868
+     ],
+     [
+      3309,
+      6868
+     ],
+     [
+      3508,
+      7112
+     ],
+     [
+      3418,
+      7467
+     ],
+     [
+      3056,
+      7656
+     ],
+     [
+      2694,
+      7534
+     ]
+    ],
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Benten-jima",
+    "polygon": [
+     [
+      3472,
+      1342
+     ],
+     [
+      3598,
+      1331
+     ],
+     [
+      3635,
+      1431
+     ],
+     [
+      3571,
+      1498
+     ],
+     [
+      3472,
+      1476
+     ]
+    ]
+   }
+  ],
+  "hills": [
+   {
+    "name": "Ueno (Shinobugaoka)",
+    "center": [
+     4186,
+     743
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "ueno",
+    "blurb": "The wooded tip of the Musashino plateau above Shinobazu pond, given to Kan'ei-ji in 1625 and famous for its cherries."
+   },
+   {
+    "name": "Hongō and Yushima",
+    "center": [
+     2966,
+     1664
+    ],
+    "radius": 500,
+    "label": true,
+    "id": "hongo",
+    "blurb": "Plateau of mansions and temples above the low city; Kaga's huge estate filled much of it."
+   },
+   {
+    "name": "Kanda-yama",
+    "center": [
+     2920,
+     2885
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "kanda-yama",
+    "blurb": "The hill whose earth filled the Hibiya inlet and the shore of Nihonbashi from the 1590s; what was left became Surugadai.",
+    "periods": [
+     "dokan-1460",
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Surugadai",
+    "center": [
+     2694,
+     2940
+    ],
+    "radius": 220,
+    "label": false,
+    "id": "surugadai",
+    "blurb": "The cut-down stump of Kanda hill, settled by bannermen from Suruga after 1616.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Kōjimachi plateau",
+    "center": [
+     886,
+     4050
+    ],
+    "radius": 500,
+    "label": true,
+    "id": "kojimachi",
+    "blurb": "The high ground west of the castle, where the shogun's guards and bannermen lived."
+   },
+   {
+    "name": "Atagoyama",
+    "center": [
+     1673,
+     6624
+    ],
+    "radius": 110,
+    "label": true,
+    "id": "atago",
+    "blurb": "A steep 26 m hill with a shrine reached by 86 stone steps; the best view over the bay."
+   },
+   {
+    "name": "Hoshigaoka",
+    "center": [
+     841,
+     5492
+    ],
+    "radius": 120,
+    "label": false,
+    "id": "hie-hill"
+   }
+  ],
+  "roads": [
+   {
+    "name": "Tōkaidō",
+    "path": [
+     [
+      4005,
+      4538
+     ],
+     [
+      3852,
+      4937
+     ],
+     [
+      3644,
+      5303
+     ],
+     [
+      3137,
+      5858
+     ],
+     [
+      2694,
+      6302
+     ],
+     [
+      2495,
+      6712
+     ],
+     [
+      2351,
+      7156
+     ],
+     [
+      2242,
+      7711
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "tokaido",
+    "blurb": "The Eastern Sea Road to Kyoto, 53 stations long. From Nihonbashi it ran down Ginza and Shiba to Shinagawa; daimyo processions, couriers, pilgrims and pack-horses filled it.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Nakasendō",
+    "path": [
+     [
+      4050,
+      4449
+     ],
+     [
+      3933,
+      4205
+     ],
+     [
+      3716,
+      3628
+     ],
+     [
+      3616,
+      3218
+     ],
+     [
+      3707,
+      2896
+     ],
+     [
+      3743,
+      2607
+     ],
+     [
+      3598,
+      2274
+     ],
+     [
+      3056,
+      1964
+     ],
+     [
+      2694,
+      1720
+     ],
+     [
+      2559,
+      832
+     ],
+     [
+      2197,
+      -55
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "nakasendo",
+    "blurb": "The mountain road to Kyoto, leaving Nihonbashi north through Kanda and up onto the Hongō plateau.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ōshū and Nikkō kaidō",
+    "path": [
+     [
+      3933,
+      4205
+     ],
+     [
+      4457,
+      3883
+     ],
+     [
+      4756,
+      3550
+     ],
+     [
+      4891,
+      3096
+     ],
+     [
+      5361,
+      2718
+     ],
+     [
+      5479,
+      2385
+     ],
+     [
+      5786,
+      1997
+     ],
+     [
+      5931,
+      1609
+     ],
+     [
+      5967,
+      1542
+     ],
+     [
+      6130,
+      1498
+     ],
+     [
+      6220,
+      1054
+     ],
+     [
+      6383,
+      610
+     ],
+     [
+      6690,
+      -55
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "oshu-kaido",
+    "blurb": "The road north to Nikkō and the far north, through Asakusa-mitsuke, past the shogun's granaries at Kuramae and the gate of Sensō-ji to Senju.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Kōshū kaidō",
+    "path": [
+     [
+      1248,
+      4294
+     ],
+     [
+      705,
+      4249
+     ],
+     [
+      -63,
+      4249
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "koshu-kaido",
+    "blurb": "The road west to Kōfu, from the castle's Hanzō gate through Kōjimachi to Yotsuya.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ōte to Tokiwabashi",
+    "path": [
+     [
+      2920,
+      4238
+     ],
+     [
+      3282,
+      4205
+     ],
+     [
+      3671,
+      4150
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "ote",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ryōgoku Hirokōji",
+    "path": [
+     [
+      4548,
+      3828
+     ],
+     [
+      4909,
+      3517
+     ],
+     [
+      5144,
+      3384
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "ryogoku-hirokoji",
+    "blurb": "A firebreak plaza at the west foot of Ryōgoku Bridge that became Edo's fairground: show booths, archery stalls, teahouses, food stands and storytellers.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Road to Kameido",
+    "path": [
+     [
+      5343,
+      3384
+     ],
+     [
+      5542,
+      3373
+     ],
+     [
+      6311,
+      3351
+     ],
+     [
+      7531,
+      3317
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "honjo-road",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Eitai-bashi road",
+    "path": [
+     [
+      4412,
+      5048
+     ],
+     [
+      4774,
+      5248
+     ],
+     [
+      4955,
+      5348
+     ],
+     [
+      5298,
+      5414
+     ],
+     [
+      5678,
+      5658
+     ],
+     [
+      6130,
+      5803
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "eitai-road",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Onari-michi (Ueno Hirokōji)",
+    "path": [
+     [
+      3743,
+      2896
+     ],
+     [
+      3852,
+      2274
+     ],
+     [
+      3933,
+      1609
+     ],
+     [
+      3960,
+      1098
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": false,
+    "id": "ueno-hirokoji",
+    "blurb": "The shogun's road from Sujikai gate to Kan'ei-ji, widened into a firebreak below Ueno hill.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shitaya to Asakusa",
+    "path": [
+     [
+      4005,
+      1553
+     ],
+     [
+      4955,
+      1553
+     ],
+     [
+      5904,
+      1564
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "asakusa-dori",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Nihon-zutsumi",
+    "path": [
+     [
+      6564,
+      688
+     ],
+     [
+      6085,
+      189
+     ],
+     [
+      5841,
+      -55
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "nihon-zutsumi",
+    "blurb": "The dike across the paddies to the Yoshiwara, walked at night by men in deep straw hats.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Old road to Kamakura",
+    "path": [
+     [
+      2179,
+      7711
+     ],
+     [
+      2134,
+      6047
+     ],
+     [
+      2333,
+      4937
+     ],
+     [
+      2513,
+      4438
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "kamakura-road",
+    "blurb": "The old road along the bay from Shinagawa to the castle and on to Asakusa and the north.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Road to Asakusa",
+    "path": [
+     [
+      2803,
+      3772
+     ],
+     [
+      3418,
+      3439
+     ],
+     [
+      4322,
+      2829
+     ],
+     [
+      5407,
+      2164
+     ],
+     [
+      5904,
+      1564
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "asakusa-road-1460",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "name": "Asakusa road",
+    "path": [
+     [
+      4891,
+      3096
+     ],
+     [
+      5361,
+      2718
+     ],
+     [
+      5786,
+      1997
+     ],
+     [
+      5931,
+      1564
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "asakusa-road-1610",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "name": "Railway to Yokohama",
+    "path": [
+     [
+      2821,
+      6690
+     ],
+     [
+      2640,
+      7156
+     ],
+     [
+      2513,
+      7767
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "railway",
+    "blurb": "Japan's first railway, 29 km to Yokohama, built with British engineers and opened in October 1872; south of Shiba it ran on an embankment in the sea.",
+    "periods": [
+     "meiji-1872"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [
+   {
+    "name": "Ōte-mon",
+    "position": [
+     2857,
+     4249
+    ],
+    "id": "otemon",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sakurada-mon",
+    "position": [
+     2107,
+     5292
+    ],
+    "id": "sakuradamon",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Hanzō-mon",
+    "position": [
+     1302,
+     4283
+    ],
+    "id": "hanzomon",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Tayasu-mon",
+    "position": [
+     1862,
+     3295
+    ],
+    "id": "tayasumon",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Wadakura-mon",
+    "position": [
+     2812,
+     4660
+    ],
+    "id": "wadakuramon",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Tokiwabashi-mon",
+    "position": [
+     3716,
+     4138
+    ],
+    "id": "tokiwabashi",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sukiyabashi-mon",
+    "position": [
+     2920,
+     5736
+    ],
+    "id": "sukiyabashi",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sujikai-mitsuke",
+    "position": [
+     3707,
+     2951
+    ],
+    "id": "sujikai",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Asakusa-mitsuke",
+    "position": [
+     4891,
+     3140
+    ],
+    "id": "asakusa-mitsuke",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ushigome-mitsuke",
+    "position": [
+     1266,
+     2585
+    ],
+    "id": "ushigome",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ichigaya-mitsuke",
+    "position": [
+     561,
+     3639
+    ],
+    "id": "ichigaya",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Akasaka-mitsuke",
+    "position": [
+     597,
+     5248
+    ],
+    "id": "akasaka",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Tora-no-mon",
+    "position": [
+     1727,
+     6036
+    ],
+    "id": "toranomon",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Nihonbashi",
+    "path": [
+     [
+      4005,
+      4527
+     ],
+     [
+      4041,
+      4449
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "nihonbashi-b",
+    "blurb": "The 'bridge of Japan', the zero point from which every highway's distances were measured.",
+    "landmarkId": "nihonbashi",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Edobashi",
+    "path": [
+     [
+      4195,
+      4616
+     ],
+     [
+      4240,
+      4516
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "edobashi",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Tokiwabashi",
+    "path": [
+     [
+      3689,
+      4194
+     ],
+     [
+      3743,
+      4094
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "tokiwabashi-b",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Kyōbashi",
+    "path": [
+     [
+      3626,
+      5348
+     ],
+     [
+      3662,
+      5259
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "kyobashi",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shimbashi",
+    "path": [
+     [
+      2676,
+      6346
+     ],
+     [
+      2712,
+      6258
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "shimbashi-b",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Ryōgoku-bashi",
+    "path": [
+     [
+      5144,
+      3384
+     ],
+     [
+      5343,
+      3384
+     ]
+    ],
+    "build": "timber",
+    "arches": 8,
+    "id": "ryogoku-b",
+    "blurb": "'The bridge of two provinces', Musashi and Shimōsa.",
+    "landmarkId": "ryogoku-bridge",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shin-Ōhashi",
+    "path": [
+     [
+      5389,
+      4072
+     ],
+     [
+      5642,
+      4027
+     ]
+    ],
+    "build": "timber",
+    "arches": 8,
+    "id": "shin-ohashi",
+    "blurb": "Built in 1693; Hiroshige painted it in a summer downpour.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Eitai-bashi",
+    "path": [
+     [
+      4955,
+      5337
+     ],
+     [
+      5298,
+      5414
+     ]
+    ],
+    "build": "timber",
+    "arches": 9,
+    "id": "eitaibashi",
+    "blurb": "Built in 1698. In 1807 it collapsed under the festival crowds going to Tomioka Hachiman and hundreds drowned.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Azuma-bashi",
+    "path": [
+     [
+      6103,
+      1531
+     ],
+     [
+      6320,
+      1520
+     ]
+    ],
+    "build": "timber",
+    "arches": 8,
+    "id": "azumabashi",
+    "blurb": "The bridge at Asakusa, built in 1774.",
+    "periods": [
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Sujikai-bashi",
+    "path": [
+     [
+      3707,
+      2940
+     ],
+     [
+      3716,
+      2818
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "sujikai-b",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Asakusa-bashi",
+    "path": [
+     [
+      4891,
+      3151
+     ],
+     [
+      4909,
+      3040
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "asakusabashi",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "name": "Shōhei-bashi",
+    "path": [
+     [
+      3418,
+      2829
+     ],
+     [
+      3427,
+      2718
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "shoheibashi",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   }
+  ],
+  "aqueducts": [
+   {
+    "name": "Kanda aqueduct bridge (Suidōbashi)",
+    "path": [
+     [
+      2007,
+      2374
+     ],
+     [
+      2034,
+      2574
+     ]
+    ],
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2785,
+      3439
+     ],
+     [
+      3237,
+      3295
+     ],
+     [
+      3508,
+      3628
+     ],
+     [
+      3146,
+      3850
+     ]
+    ],
+    "density": "loose",
+    "name": "Hirakawa village",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3146,
+      3994
+     ],
+     [
+      3644,
+      3883
+     ],
+     [
+      3734,
+      4249
+     ],
+     [
+      3309,
+      4383
+     ]
+    ],
+    "density": "loose",
+    "name": "Shibasaki village",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3761,
+      4549
+     ],
+     [
+      4231,
+      4516
+     ],
+     [
+      4213,
+      4937
+     ],
+     [
+      3797,
+      4959
+     ]
+    ],
+    "density": "loose",
+    "name": "Edo-maejima hamlet",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5542,
+      943
+     ],
+     [
+      5904,
+      888
+     ],
+     [
+      5877,
+      2053
+     ],
+     [
+      5542,
+      2030
+     ]
+    ],
+    "density": "loose",
+    "name": "Asakusa village",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1971,
+      6712
+     ],
+     [
+      2242,
+      6712
+     ],
+     [
+      2260,
+      7434
+     ],
+     [
+      1971,
+      7434
+     ]
+    ],
+    "density": "loose",
+    "name": "Shiba fishing village",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3508,
+      3073
+     ],
+     [
+      3960,
+      3051
+     ],
+     [
+      4005,
+      3439
+     ],
+     [
+      3598,
+      3495
+     ]
+    ],
+    "density": "loose",
+    "name": "Kanda village",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3192,
+      3029
+     ],
+     [
+      3779,
+      3051
+     ],
+     [
+      4412,
+      3107
+     ],
+     [
+      4846,
+      3218
+     ],
+     [
+      4593,
+      3772
+     ],
+     [
+      4005,
+      4050
+     ],
+     [
+      3598,
+      3939
+     ],
+     [
+      3192,
+      3772
+     ]
+    ],
+    "density": "dense",
+    "name": "Kanda",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2197,
+      2630
+     ],
+     [
+      3101,
+      2785
+     ],
+     [
+      3146,
+      3739
+     ],
+     [
+      2694,
+      3661
+     ],
+     [
+      2468,
+      3329
+     ],
+     [
+      2260,
+      2885
+     ]
+    ],
+    "density": "loose",
+    "name": "Surugadai",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3707,
+      4249
+     ],
+     [
+      4005,
+      4549
+     ],
+     [
+      4367,
+      4771
+     ],
+     [
+      4638,
+      4993
+     ],
+     [
+      4502,
+      5381
+     ],
+     [
+      3598,
+      5381
+     ],
+     [
+      3418,
+      5159
+     ],
+     [
+      3598,
+      4604
+     ]
+    ],
+    "density": "dense",
+    "name": "Nihonbashi and Kyōbashi",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3797,
+      3994
+     ],
+     [
+      4502,
+      3828
+     ],
+     [
+      4936,
+      3295
+     ],
+     [
+      5099,
+      3495
+     ],
+     [
+      5298,
+      3939
+     ],
+     [
+      5316,
+      4493
+     ],
+     [
+      5045,
+      4937
+     ],
+     [
+      4412,
+      4604
+     ],
+     [
+      4050,
+      4383
+     ],
+     [
+      3852,
+      4249
+     ]
+    ],
+    "density": "dense",
+    "name": "Honchō, Ōdenmachō and Bakurochō",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4683,
+      5026
+     ],
+     [
+      5099,
+      5093
+     ],
+     [
+      5000,
+      5381
+     ],
+     [
+      4729,
+      5736
+     ],
+     [
+      4412,
+      5658
+     ],
+     [
+      4502,
+      5403
+     ]
+    ],
+    "density": "dense",
+    "name": "Reiganjima and Hatchōbori",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3418,
+      5248
+     ],
+     [
+      4186,
+      5359
+     ],
+     [
+      4412,
+      5769
+     ],
+     [
+      3870,
+      6158
+     ],
+     [
+      3237,
+      6402
+     ],
+     [
+      2785,
+      6357
+     ],
+     [
+      2694,
+      6047
+     ],
+     [
+      2966,
+      5714
+     ]
+    ],
+    "density": "dense",
+    "name": "Ginza and Kobikichō",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3418,
+      5248
+     ],
+     [
+      4005,
+      5403
+     ],
+     [
+      3761,
+      5803
+     ],
+     [
+      3237,
+      6158
+     ],
+     [
+      2803,
+      6357
+     ],
+     [
+      2694,
+      6047
+     ],
+     [
+      2966,
+      5714
+     ]
+    ],
+    "density": "dense",
+    "name": "Ginza, the new shore",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4457,
+      5803
+     ],
+     [
+      4430,
+      6158
+     ],
+     [
+      4340,
+      6402
+     ],
+     [
+      4069,
+      6646
+     ],
+     [
+      3761,
+      6712
+     ],
+     [
+      3526,
+      6690
+     ],
+     [
+      3282,
+      6491
+     ],
+     [
+      3824,
+      6180
+     ]
+    ],
+    "density": "loose",
+    "name": "Tsukiji",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2586,
+      6402
+     ],
+     [
+      2649,
+      6879
+     ],
+     [
+      2604,
+      7434
+     ],
+     [
+      2107,
+      7434
+     ],
+     [
+      1926,
+      7045
+     ],
+     [
+      2107,
+      6657
+     ],
+     [
+      2333,
+      6402
+     ]
+    ],
+    "density": "dense",
+    "name": "Shiba",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4955,
+      5736
+     ],
+     [
+      5117,
+      5714
+     ],
+     [
+      5190,
+      6025
+     ],
+     [
+      5027,
+      6313
+     ],
+     [
+      4819,
+      6302
+     ],
+     [
+      4792,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Tsukudajima",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2966,
+      4050
+     ],
+     [
+      3327,
+      4138
+     ],
+     [
+      3553,
+      4294
+     ],
+     [
+      3472,
+      4826
+     ],
+     [
+      3237,
+      5270
+     ],
+     [
+      2947,
+      5514
+     ],
+     [
+      2803,
+      5270
+     ],
+     [
+      2920,
+      4493
+     ]
+    ],
+    "density": "loose",
+    "name": "Daimyō-kōji",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1835,
+      5514
+     ],
+     [
+      2604,
+      5547
+     ],
+     [
+      2803,
+      5625
+     ],
+     [
+      2694,
+      5803
+     ],
+     [
+      2333,
+      5869
+     ],
+     [
+      1835,
+      5914
+     ]
+    ],
+    "density": "loose",
+    "name": "Hibiya mansions",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1971,
+      4582
+     ],
+     [
+      2649,
+      4627
+     ],
+     [
+      2676,
+      5048
+     ],
+     [
+      2107,
+      5137
+     ]
+    ],
+    "density": "loose",
+    "name": "Nishinomaru",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1835,
+      3362
+     ],
+     [
+      2197,
+      3406
+     ],
+     [
+      2315,
+      3550
+     ],
+     [
+      1899,
+      3695
+     ]
+    ],
+    "density": "loose",
+    "name": "Kitanomaru",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1112,
+      4993
+     ],
+     [
+      1772,
+      5270
+     ],
+     [
+      1790,
+      5492
+     ],
+     [
+      1519,
+      5803
+     ],
+     [
+      1067,
+      5658
+     ]
+    ],
+    "density": "loose",
+    "name": "Kasumigaseki and Sakurada",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      253,
+      3439
+     ],
+     [
+      1248,
+      3406
+     ],
+     [
+      1248,
+      4161
+     ],
+     [
+      72,
+      4205
+     ]
+    ],
+    "density": "loose",
+    "name": "Kōjimachi and Banchō",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      570,
+      4360
+     ],
+     [
+      1230,
+      4349
+     ],
+     [
+      1501,
+      4882
+     ],
+     [
+      1248,
+      5248
+     ],
+     [
+      750,
+      5215
+     ],
+     [
+      389,
+      4826
+     ]
+    ],
+    "density": "loose",
+    "name": "Nagatachō and Akasaka",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      27,
+      5381
+     ],
+     [
+      452,
+      5326
+     ],
+     [
+      750,
+      5769
+     ],
+     [
+      27,
+      5991
+     ]
+    ],
+    "density": "dense",
+    "name": "Akasaka town",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1157,
+      6102
+     ],
+     [
+      2242,
+      6158
+     ],
+     [
+      2197,
+      6491
+     ],
+     [
+      2016,
+      6712
+     ],
+     [
+      1881,
+      7156
+     ],
+     [
+      1248,
+      7201
+     ]
+    ],
+    "density": "loose",
+    "name": "Atago and Toranomon",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      72,
+      6102
+     ],
+     [
+      1067,
+      6158
+     ],
+     [
+      1157,
+      7156
+     ],
+     [
+      72,
+      7323
+     ]
+    ],
+    "density": "loose",
+    "name": "Azabu and Akasaka mansions",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      27,
+      3439
+     ],
+     [
+      27,
+      1831
+     ],
+     [
+      1139,
+      1831
+     ],
+     [
+      1248,
+      2330
+     ],
+     [
+      931,
+      2774
+     ],
+     [
+      615,
+      3251
+     ]
+    ],
+    "density": "loose",
+    "name": "Ichigaya and Ushigome",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1248,
+      1720
+     ],
+     [
+      1157,
+      55
+     ],
+     [
+      2016,
+      55
+     ],
+     [
+      2152,
+      1720
+     ]
+    ],
+    "density": "loose",
+    "name": "Koishikawa",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2333,
+      2330
+     ],
+     [
+      2197,
+      55
+     ],
+     [
+      3508,
+      55
+     ],
+     [
+      3598,
+      1220
+     ],
+     [
+      3644,
+      2164
+     ],
+     [
+      3237,
+      2408
+     ]
+    ],
+    "density": "loose",
+    "name": "Hongō and Yushima",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4005,
+      1698
+     ],
+     [
+      4502,
+      1664
+     ],
+     [
+      4484,
+      2607
+     ],
+     [
+      4005,
+      2774
+     ],
+     [
+      3598,
+      2607
+     ],
+     [
+      3644,
+      2053
+     ]
+    ],
+    "density": "dense",
+    "name": "Shitaya",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4548,
+      1631
+     ],
+     [
+      5407,
+      1631
+     ],
+     [
+      5361,
+      2330
+     ],
+     [
+      4955,
+      2829
+     ],
+     [
+      4548,
+      2829
+     ]
+    ],
+    "density": "loose",
+    "name": "Shin-Teramachi (temple town)",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5452,
+      1587
+     ],
+     [
+      5877,
+      1564
+     ],
+     [
+      5768,
+      2053
+     ],
+     [
+      5515,
+      2408
+     ],
+     [
+      5226,
+      2385
+     ],
+     [
+      5226,
+      1942
+     ]
+    ],
+    "density": "dense",
+    "name": "Kuramae and Komagata",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5407,
+      1476
+     ],
+     [
+      5407,
+      721
+     ],
+     [
+      6401,
+      632
+     ],
+     [
+      6293,
+      1054
+     ],
+     [
+      6175,
+      1442
+     ]
+    ],
+    "density": "dense",
+    "name": "Asakusa",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5407,
+      1476
+     ],
+     [
+      5407,
+      721
+     ],
+     [
+      6401,
+      632
+     ],
+     [
+      6293,
+      1054
+     ],
+     [
+      6175,
+      1442
+     ]
+    ],
+    "density": "loose",
+    "name": "Asakusa temple town",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5452,
+      1587
+     ],
+     [
+      5877,
+      1564
+     ],
+     [
+      5542,
+      2385
+     ],
+     [
+      5226,
+      2330
+     ]
+    ],
+    "density": "loose",
+    "name": "Asakusa village",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6419,
+      1609
+     ],
+     [
+      6148,
+      2274
+     ],
+     [
+      5967,
+      2774
+     ],
+     [
+      5633,
+      3140
+     ],
+     [
+      5587,
+      3661
+     ],
+     [
+      6220,
+      3661
+     ],
+     [
+      6582,
+      2718
+     ],
+     [
+      6853,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Honjo riverside",
+    "periods": [
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6419,
+      1609
+     ],
+     [
+      6148,
+      2274
+     ],
+     [
+      5967,
+      2774
+     ],
+     [
+      5633,
+      3140
+     ],
+     [
+      5587,
+      3661
+     ],
+     [
+      6220,
+      3661
+     ],
+     [
+      6582,
+      2718
+     ],
+     [
+      6853,
+      1609
+     ]
+    ],
+    "density": "loose",
+    "name": "Honjo riverside",
+    "periods": [
+     "meireki-1657"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6898,
+      1609
+     ],
+     [
+      6266,
+      3661
+     ],
+     [
+      7468,
+      3661
+     ],
+     [
+      7468,
+      1609
+     ]
+    ],
+    "density": "loose",
+    "name": "Honjo mansions",
+    "periods": [
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5542,
+      3828
+     ],
+     [
+      6492,
+      3850
+     ],
+     [
+      6401,
+      5048
+     ],
+     [
+      5949,
+      5359
+     ],
+     [
+      5542,
+      5547
+     ],
+     [
+      5452,
+      5215
+     ]
+    ],
+    "density": "dense",
+    "name": "Fukagawa",
+    "periods": [
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5542,
+      3828
+     ],
+     [
+      6492,
+      3850
+     ],
+     [
+      6401,
+      5048
+     ],
+     [
+      5949,
+      5359
+     ],
+     [
+      5542,
+      5547
+     ],
+     [
+      5452,
+      5215
+     ]
+    ],
+    "density": "loose",
+    "name": "Fukagawa",
+    "periods": [
+     "meireki-1657"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5542,
+      3883
+     ],
+     [
+      6220,
+      3883
+     ],
+     [
+      6175,
+      4937
+     ],
+     [
+      5587,
+      4993
+     ]
+    ],
+    "density": "loose",
+    "name": "Fukagawa village",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5452,
+      5603
+     ],
+     [
+      6763,
+      5581
+     ],
+     [
+      6763,
+      6158
+     ],
+     [
+      5949,
+      6313
+     ],
+     [
+      5425,
+      6180
+     ]
+    ],
+    "density": "dense",
+    "name": "Monzen-nakachō",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6537,
+      3883
+     ],
+     [
+      7468,
+      3883
+     ],
+     [
+      7468,
+      5381
+     ],
+     [
+      6492,
+      5359
+     ]
+    ],
+    "density": "loose",
+    "name": "Fukagawa east",
+    "periods": [
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6835,
+      5547
+     ],
+     [
+      7468,
+      5492
+     ],
+     [
+      7468,
+      6158
+     ],
+     [
+      6835,
+      6180
+     ]
+    ],
+    "density": "loose",
+    "name": "Kiba lumber yards",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4005,
+      5991
+     ],
+     [
+      4412,
+      6047
+     ],
+     [
+      4430,
+      6324
+     ],
+     [
+      4096,
+      6380
+     ]
+    ],
+    "density": "loose",
+    "name": "Tokyo foreign settlement (Tsukiji)",
+    "periods": [
+     "meiji-1872"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      1447,
+      3772
+     ],
+     [
+      1790,
+      3772
+     ],
+     [
+      1790,
+      4249
+     ],
+     [
+      1835,
+      4549
+     ],
+     [
+      1447,
+      4516
+     ]
+    ],
+    "kind": "park",
+    "name": "Fukiage garden",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2767,
+      6912
+     ],
+     [
+      3273,
+      6912
+     ],
+     [
+      3454,
+      7134
+     ],
+     [
+      3381,
+      7400
+     ],
+     [
+      3056,
+      7578
+     ],
+     [
+      2739,
+      7489
+     ]
+    ],
+    "kind": "park",
+    "name": "Hama-goten",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1501,
+      1886
+     ],
+     [
+      2061,
+      1853
+     ],
+     [
+      2107,
+      2274
+     ],
+     [
+      1519,
+      2297
+     ]
+    ],
+    "kind": "park",
+    "name": "Koishikawa Kōrakuen",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2857,
+      1220
+     ],
+     [
+      3282,
+      1165
+     ],
+     [
+      3309,
+      1609
+     ],
+     [
+      2875,
+      1631
+     ]
+    ],
+    "kind": "park",
+    "name": "Kaga mansion garden (Ikutoku-en)",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3598,
+      166
+     ],
+     [
+      4412,
+      144
+     ],
+     [
+      4502,
+      777
+     ],
+     [
+      4141,
+      1276
+     ],
+     [
+      3779,
+      1220
+     ],
+     [
+      3644,
+      777
+     ]
+    ],
+    "kind": "park",
+    "name": "Ueno hill",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1447,
+      7023
+     ],
+     [
+      1971,
+      7023
+     ],
+     [
+      2016,
+      7467
+     ],
+     [
+      1447,
+      7467
+     ]
+    ],
+    "kind": "park",
+    "name": "Zōjō-ji grounds",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5768,
+      888
+     ],
+     [
+      6175,
+      888
+     ],
+     [
+      6175,
+      1498
+     ],
+     [
+      5786,
+      1498
+     ]
+    ],
+    "kind": "park",
+    "name": "Sensō-ji grounds",
+    "periods": [
+     "dokan-1460",
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      344,
+      3495
+     ],
+     [
+      1067,
+      3473
+     ],
+     [
+      1067,
+      4050
+     ],
+     [
+      344,
+      4072
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mulberry and tea fields",
+    "periods": [
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1293,
+      166
+     ],
+     [
+      1926,
+      166
+     ],
+     [
+      1926,
+      832
+     ],
+     [
+      1293,
+      832
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mulberry and tea fields",
+    "periods": [
+     "meiji-1872"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1338,
+      3495
+     ],
+     [
+      1881,
+      3495
+     ],
+     [
+      1881,
+      4604
+     ],
+     [
+      1429,
+      4715
+     ]
+    ],
+    "kind": "park",
+    "name": "Woods of the castle bluff",
+    "periods": [
+     "dokan-1460"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      7215,
+      0
+     ],
+     [
+      7486,
+      0
+     ],
+     [
+      7486,
+      3883
+     ],
+     [
+      5904,
+      3550
+     ],
+     [
+      5994,
+      2996
+     ],
+     [
+      6266,
+      2053
+     ],
+     [
+      6763,
+      1165
+     ],
+     [
+      6989,
+      499
+     ]
+    ],
+    "name": "Reed marshes of Honjo",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      7215,
+      0
+     ],
+     [
+      7486,
+      0
+     ],
+     [
+      7486,
+      3828
+     ],
+     [
+      6266,
+      3828
+     ],
+     [
+      5904,
+      3273
+     ],
+     [
+      6266,
+      2053
+     ],
+     [
+      6763,
+      1165
+     ],
+     [
+      6989,
+      499
+     ]
+    ],
+    "name": "Reed marshes of Honjo",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6311,
+      4660
+     ],
+     [
+      7486,
+      4660
+     ],
+     [
+      7486,
+      5048
+     ],
+     [
+      6311,
+      5104
+     ]
+    ],
+    "name": "Fukagawa reed flats",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      7079,
+      0
+     ],
+     [
+      7486,
+      0
+     ],
+     [
+      7486,
+      1553
+     ],
+     [
+      7079,
+      1553
+     ]
+    ],
+    "name": "Honjo marsh (being drained)",
+    "periods": [
+     "meireki-1657"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2423,
+      6657
+     ],
+     [
+      2378,
+      5825
+     ],
+     [
+      2694,
+      5603
+     ],
+     [
+      2857,
+      5991
+     ],
+     [
+      2893,
+      6546
+     ]
+    ],
+    "name": "Hibiya fill",
+    "periods": [
+     "ieyasu-1610"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5045,
+      55
+     ],
+     [
+      6220,
+      55
+     ],
+     [
+      6220,
+      666
+     ],
+     [
+      5045,
+      721
+     ]
+    ],
+    "name": "Asakusa paddies (Asakusa tanbo)",
+    "periods": [
+     "dokan-1460",
+     "ieyasu-1610"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "d-edo-1460",
+    "name": "Edo village",
+    "polygon": [
+     [
+      2694,
+      3273
+     ],
+     [
+      3779,
+      3218
+     ],
+     [
+      3870,
+      4493
+     ],
+     [
+      3056,
+      4493
+     ]
+    ],
+    "description": "'Edo' probably means 'mouth of the inlet'. The Edo family had a fortified house here from the 12th century; Dōkan's castle made the place a small market town and port at the head of the bay.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "id": "d-edomaejima",
+    "name": "Edo-maejima",
+    "polygon": [
+     [
+      3237,
+      4383
+     ],
+     [
+      4683,
+      4272
+     ],
+     [
+      3779,
+      6047
+     ],
+     [
+      3237,
+      6712
+     ]
+    ],
+    "description": "A low sandbar of fishing hamlets east of the Hibiya inlet. The Tokugawa merchant city of Nihonbashi, Kyōbashi and Ginza was built on it and on the shallows beside it.",
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "id": "d-nihonbashi",
+    "name": "Nihonbashi",
+    "polygon": [
+     [
+      3707,
+      3883
+     ],
+     [
+      4593,
+      3772
+     ],
+     [
+      5045,
+      4937
+     ],
+     [
+      3779,
+      5048
+     ]
+    ],
+    "description": "The merchants' heart of Edo: fish and rice markets, the great dry-goods stores of Surugachō, wholesalers' warehouses along the canals, and the bridge from which all roads were measured.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-kanda",
+    "name": "Kanda",
+    "polygon": [
+     [
+      3192,
+      2996
+     ],
+     [
+      4774,
+      3107
+     ],
+     [
+      4502,
+      3828
+     ],
+     [
+      3237,
+      3883
+     ]
+    ],
+    "description": "Artisans' quarter: streets named for dyers, smiths, carpenters and tatami makers, the vegetable market, and the Kanda Myōjin festival every other year.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-daimyokoji",
+    "name": "Daimyō-kōji",
+    "polygon": [
+     [
+      2920,
+      4050
+     ],
+     [
+      3553,
+      4294
+     ],
+     [
+      2966,
+      5492
+     ],
+     [
+      2803,
+      5270
+     ]
+    ],
+    "description": "'Daimyo lane', between the inner and outer moats: the great lords' upper mansions, with gate-houses in black lacquer and the residences of the shogun's chief officials.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800"
+    ]
+   },
+   {
+    "id": "d-marunouchi",
+    "name": "Marunouchi",
+    "polygon": [
+     [
+      2920,
+      4050
+     ],
+     [
+      3553,
+      4294
+     ],
+     [
+      2966,
+      5492
+     ],
+     [
+      2803,
+      5270
+     ]
+    ],
+    "description": "The emptied daimyo mansions inside the moat now hold ministries, the army's barracks and parade grounds; the land will be sold to Mitsubishi in 1890.",
+    "periods": [
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-ginza",
+    "name": "Kyōbashi and Ginza",
+    "polygon": [
+     [
+      3418,
+      5248
+     ],
+     [
+      4186,
+      5381
+     ],
+     [
+      3870,
+      6158
+     ],
+     [
+      2785,
+      6380
+     ]
+    ],
+    "description": "Named after the silver mint (gin-za) moved here in 1612. Along the Tōkaidō: craftsmen, lacquerers and shops; behind it Kobikichō, the sawyers' town, with its own kabuki theatre.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-asakusa",
+    "name": "Asakusa",
+    "polygon": [
+     [
+      5407,
+      721
+     ],
+     [
+      6401,
+      610
+     ],
+     [
+      6085,
+      1609
+     ],
+     [
+      5407,
+      1553
+     ]
+    ],
+    "description": "The temple town of Sensō-ji, Edo's oldest place of pilgrimage. Under the Tokugawa it was the city's playground: shops, archery booths and teahouses round the temple, and after 1842 the kabuki theatres at Saruwaka-chō.",
+    "periods": [
+     "dokan-1460",
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-ueno",
+    "name": "Ueno",
+    "polygon": [
+     [
+      3598,
+      166
+     ],
+     [
+      4412,
+      144
+     ],
+     [
+      4141,
+      1276
+     ],
+     [
+      3598,
+      1220
+     ]
+    ],
+    "description": "The hill of Kan'ei-ji, the shogunal temple guarding the castle's unlucky north-east, with the Tōshōgū and cherries that drew crowds every spring.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-honjo",
+    "name": "Honjo",
+    "polygon": [
+     [
+      6311,
+      1609
+     ],
+     [
+      7468,
+      1609
+     ],
+     [
+      7468,
+      3772
+     ],
+     [
+      5587,
+      3661
+     ]
+    ],
+    "description": "Laid out over the marshes east of the Sumida after 1657, reached by Ryōgoku Bridge: lesser daimyo and bannermen, Ekōin and the sumo booths, timber and charcoal yards along the canals.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-fukagawa",
+    "name": "Fukagawa",
+    "polygon": [
+     [
+      5542,
+      3828
+     ],
+     [
+      7468,
+      3850
+     ],
+     [
+      7468,
+      6269
+     ],
+     [
+      5407,
+      6180
+     ]
+    ],
+    "description": "Reclaimed land of canals and timber yards round Tomioka Hachiman: the lumber merchants' Kiba, warehouses, and unlicensed geisha famous for their haori jackets.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-shiba",
+    "name": "Shiba",
+    "polygon": [
+     [
+      1881,
+      6380
+     ],
+     [
+      2649,
+      6402
+     ],
+     [
+      2649,
+      7434
+     ],
+     [
+      1881,
+      7434
+     ]
+    ],
+    "description": "Temple and harbour town along the Tōkaidō where it reaches the bay, round Zōjō-ji, the Tokugawa family temple.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-yamanote",
+    "name": "Yamanote",
+    "polygon": [
+     [
+      27,
+      1831
+     ],
+     [
+      1248,
+      1831
+     ],
+     [
+      1248,
+      5159
+     ],
+     [
+      27,
+      5159
+     ]
+    ],
+    "description": "The 'hand of the hills': the plateau west and north of the castle, cut by green valleys, given over to daimyo mansions and samurai housing.",
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "id": "d-tsukiji",
+    "name": "Tsukiji",
+    "polygon": [
+     [
+      4457,
+      5803
+     ],
+     [
+      4069,
+      6646
+     ],
+     [
+      3526,
+      6690
+     ],
+     [
+      3824,
+      6180
+     ]
+    ],
+    "description": "'Built land', reclaimed from the bay after the 1657 fire for the rebuilt Hongan-ji and daimyo mansions; from 1868 the foreign settlement and its mission schools.",
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "EDO-WAN",
+    "position": [
+     6672,
+     7023
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "EDO-WAN",
+    "position": [
+     6401,
+     6047
+    ],
+    "size": "lg",
+    "rotation": -15,
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "text": "Sumida-gawa",
+    "position": [
+     5967,
+     2385
+    ],
+    "size": "md",
+    "rotation": -62
+   },
+   {
+    "text": "Hibiya-irie",
+    "position": [
+     2694,
+     6158
+    ],
+    "size": "sm",
+    "rotation": -88,
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "text": "Kanda-gawa",
+    "position": [
+     4005,
+     2918
+    ],
+    "size": "sm",
+    "rotation": -10,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Nihonbashi-gawa",
+    "position": [
+     4575,
+     4804
+    ],
+    "size": "sm",
+    "rotation": -35,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Shinobazu",
+    "position": [
+     3345,
+     1165
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "EDO-JŌ",
+    "position": [
+     2197,
+     4804
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800"
+    ]
+   },
+   {
+    "text": "KYŪJŌ (Imperial Palace)",
+    "position": [
+     2197,
+     4804
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Edo-jō",
+    "position": [
+     2107,
+     3495
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "text": "UENO",
+    "position": [
+     4141,
+     444
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "ASAKUSA",
+    "position": [
+     5452,
+     721
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "KANDA",
+    "position": [
+     3418,
+     3273
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "NIHONBASHI",
+    "position": [
+     4005,
+     4937
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "HONJO",
+    "position": [
+     6944,
+     2607
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "FUKAGAWA",
+    "position": [
+     6853,
+     4937
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "SHIBA",
+    "position": [
+     2197,
+     6879
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "YAMANOTE",
+    "position": [
+     524,
+     3162
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "GINZA",
+    "position": [
+     3372,
+     6047
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "TSUKIJI",
+    "position": [
+     4005,
+     6269
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Tsukudajima",
+    "position": [
+     5407,
+     6025
+    ],
+    "size": "sm",
+    "rotation": -60,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Hama-goten",
+    "position": [
+     3056,
+     7212
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Hongō",
+    "position": [
+     3056,
+     832
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ieyasu-1610",
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Koishikawa",
+    "position": [
+     1519,
+     1054
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "meireki-1657",
+     "bunka-1800",
+     "meiji-1872"
+    ]
+   },
+   {
+    "text": "Shibasaki",
+    "position": [
+     3508,
+     4050
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "text": "Edo-maejima",
+    "position": [
+     3508,
+     5381
+    ],
+    "size": "sm",
+    "rotation": -50,
+    "periods": [
+     "dokan-1460"
+    ]
+   },
+   {
+    "text": "TOKYO",
+    "position": [
+     886,
+     2164
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "meiji-1872"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E7D6AE",
+   "ink": "#5E4632",
+   "water": "#62868C",
+   "hill": "#7A7F5C",
+   "road": "#8A6B4B"
+  },
+  "compass": [
+   7079,
+   666
+  ],
+  "cartouche": [
+   5244,
+   7245
+  ]
+ },
+ "periods": [
+  {
+   "id": "dokan-1460",
+   "label": "Dōkan's Edo",
+   "year": 1460,
+   "startYear": 1457,
+   "endYear": 1589,
+   "summary": "In 1457 Ōta Dōkan, steward of the Ōgigayatsu Uesugi, built a castle where the Musashino plateau ends in a bluff above the Hibiya inlet. Below it lay fishing and salt-making hamlets and a small port where boats from the bay landed rice, salt and tea; Sensō-ji drew pilgrims to Asakusa. Everything was built of timber, earth and thatch.",
+   "population": "a few thousand at most (no count survives)",
+   "feel": "Gulls over the mud flats at low tide, smoke from the salt kettles, and the castle's thatched halls on the bluff above the reeds.",
+   "style": "japanese",
+   "houses": {
+    "title": "Fishing hamlets of Edo and Shibasaki",
+    "text": "One-room houses of posts and boards under thatch or bark, with earth floors, a raised plank platform and a sunken hearth. Nets dry on poles, boats are pulled up on the shore, and salt is boiled down in iron pans on the beach."
+   },
+   "outskirts": {
+    "title": "Paddies and reed beds",
+    "text": "Rice in the valleys, barley and millet on the plateau, reed beds and tidal flats along the inlet, and thatched farmhouses under oak and bamboo."
+   }
+  },
+  {
+   "id": "ieyasu-1610",
+   "label": "Early Tokugawa Edo",
+   "year": 1610,
+   "startYear": 1590,
+   "endYear": 1656,
+   "summary": "Tokugawa Ieyasu arrived in 1590 and, shogun from 1603, made the daimyo of all Japan build his castle. Kanda hill was cut down to fill the Hibiya inlet and the shore, canals were dug for boats bringing stone and timber, and Nihonbashi (1603) became the starting point of the highways. A white five-storey keep rose in 1607 and was rebuilt in 1623 and 1638.",
+   "population": "perhaps 150,000 around 1610 (estimates vary widely)",
+   "feel": "Hammers and the chants of stone-haulers everywhere, raw timber and wet plaster, carts of earth rumbling from Kanda hill down to the shore.",
+   "style": "japanese",
+   "houses": {
+    "title": "Machiya of the new merchant town",
+    "text": "Blocks laid out on a grid of 60-ken (about 110 m) squares from Nihonbashi: narrow-fronted timber shops of one storey or a low upper floor, board or shingle roofs weighted with stones, open to the street, with a shared well and privy behind."
+   },
+   "outskirts": {
+    "title": "Daimyo mansions and farm villages",
+    "text": "Daimyo build walled mansions with gilded, carved gates near the castle; beyond them, thatched farm villages, paddies and woods."
+   }
+  },
+  {
+   "id": "meireki-1657",
+   "label": "After the Meireki Fire",
+   "year": 1657,
+   "startYear": 1657,
+   "endYear": 1715,
+   "summary": "In March 1657 the Great Fire of Meireki burned for three days, destroyed most of the city and the castle keep and, by the usual figure, killed over 100,000 people. Rebuilding remade Edo: firebreaks and embankments, temples and mansions moved out of the centre, the Yoshiwara moved beyond Asakusa, and Ryōgoku Bridge opened new land east of the Sumida. The keep was never rebuilt.",
+   "population": "perhaps 400,000 before the fire, nearing a million by 1715 (estimates)",
+   "feel": "Charred ground and new raw timber, fire bells on the lookout towers, and wide empty firebreaks where crowds and showmen gather.",
+   "style": "japanese",
+   "houses": {
+    "title": "Rebuilt machiya and nagaya",
+    "text": "Shops rebuilt in timber under board or shingle roofs (tiles were restricted for townhouses until 1720), plastered storehouses behind; through gates in the shop rows, back-alley nagaya of single rooms along a lane with a shared well, privy and rubbish pit."
+   },
+   "outskirts": {
+    "title": "Mansions and temple towns",
+    "text": "Daimyo villas and resettled temples on the edges, and new streets laid out over the paddies and marshes of Honjo and Fukagawa."
+   }
+  },
+  {
+   "id": "bunka-1800",
+   "label": "The Shogun's City",
+   "year": 1800,
+   "startYear": 1716,
+   "endYear": 1867,
+   "summary": "Around 1800 Edo held about a million people, perhaps the largest city in the world. Half were samurai and their households, in the mansions of some 260 daimyo obliged to live here every other year. Townspeople crowd the low city of canals by the bay: the fish market at Nihonbashi, kabuki at Sakai-chō, the Yoshiwara, fireworks over the Sumida, and fire every winter.",
+   "population": "about 1,000,000",
+   "feel": "Hawkers' cries in the alleys at dawn, sardine-oil lamps, sake and soy on the river barges; at dusk the boats rowing up to the Yoshiwara and fireworks booming at Ryōgoku.",
+   "style": "japanese",
+   "houses": {
+    "title": "Machiya and back-alley nagaya",
+    "text": "On the street, two-storey shops with tiled roofs, plastered fronts and indigo curtains, fireproof storehouses behind. Through a gate, the nagaya: rooms about 2.7 by 3.6 m with an earth-floored kitchen, rented by artisans and peddlers who share a well, privy and rubbish pit."
+   },
+   "outskirts": {
+    "title": "Samurai yashiki",
+    "text": "The high city is mansion land: daimyo compounds behind long gate-houses where retainers lodge, gardens with ponds and hills, and lesser samurai in fenced houses with vegetable plots."
+   }
+  },
+  {
+   "id": "meiji-1872",
+   "label": "Early Meiji Tokyo",
+   "year": 1872,
+   "startYear": 1868,
+   "endYear": 1885,
+   "summary": "Edo became Tokyo, the 'eastern capital', in 1868, and the emperor moved into the castle. With the daimyo gone home, much of the city stood empty and some mansion land was planted with mulberry and tea. After the Ginza fire of 1872 the government began a street of brick houses on Western lines, and in October the first railway ran from Shimbashi to Yokohama.",
+   "population": "perhaps 600,000 to 800,000, well below Edo's peak",
+   "feel": "Rickshaws (new since about 1870) rattling down the Tōkaidō, men in Western hats over kimono, bricklayers in Ginza and the whistle of the Yokohama train.",
+   "style": "japanese",
+   "houses": {
+    "title": "Machiya, and Ginza brick",
+    "text": "Most townspeople still live in timber machiya and nagaya as under the shoguns. In burned Ginza two-storey brick terraces with colonnaded fronts, designed by Thomas Waters, are going up; many Japanese find them damp and are slow to move in."
+   },
+   "outskirts": {
+    "title": "Empty mansions",
+    "text": "The daimyo and their retainers have left. Many yashiki stand empty or become ministries, barracks and schools; in 1869 the city began planting mulberry and tea on abandoned samurai land."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "edo-castle",
+   "placeId": "edo-jo",
+   "name": "Edo Castle (Edo-jō)",
+   "category": "military",
+   "position": [
+    2333,
+    4050
+   ],
+   "rotation": 0,
+   "footprint": [
+    800.0,
+    700.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/edo-castle.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 800,
+     "depth": 700,
+     "wallHeight": 140.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "dokan-1460",
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "name": "Edo Castle of Ōta Dōkan",
+     "confidence": "interpretation",
+     "note": "Dōkan's castle of 1457: three enclosures of earth banks, dry moats and palisades on the bluff, thatched halls, and a lookout pavilion, the Seishōken, from which visiting poets saw Fuji and the bay.",
+     "model": {
+      "glb": "models/edo/edo-castle-1460.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 800,
+       "depth": 700,
+       "wallHeight": 140.0,
+       "bastions": 8
+      }
+     }
+    },
+    "ieyasu-1610": {
+     "confidence": "reconstruction",
+     "note": "Rebuilt by the daimyo from 1603. The white keep finished in 1607 towers over the Honmaru; it was rebuilt in 1623 and again in 1638, each time grander. The outer moats are still being dug.",
+     "model": {
+      "glb": "models/edo/edo-castle-1610.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 800,
+       "depth": 700,
+       "wallHeight": 140.0,
+       "bastions": 8
+      }
+     }
+    },
+    "meireki-1657": {
+     "note": "The fire of 1657 burned the keep and the Honmaru palace. A new granite base for the keep was built in 1659, but the keep itself was never rebuilt; the palace was."
+    },
+    "bunka-1800": {
+     "note": "The shogun's palace fills the Honmaru: audience halls in front, where daimyo came on fixed days, and the Ōoku women's quarters behind. The empty keep base stands to the north."
+    },
+    "meiji-1872": {
+     "name": "Imperial Palace (the former Edo Castle)",
+     "note": "Handed over in 1868; the emperor lives in the Nishinomaru palace to the south-west. The Honmaru palace burned in 1863 and was never rebuilt: its baileys stand empty behind the walls.",
+     "model": {
+      "glb": "models/edo/edo-castle-1872.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 800,
+       "depth": 700,
+       "wallHeight": 140.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The shogun's castle, the largest in Japan: baileys of curving stone walls and moats spiralling out from the Honmaru, where from 1607 to 1657 stood the tallest keep ever built in Japan.",
+   "details": [
+    "Ōta Dōkan built the first castle in 1457 on a bluff above the Hibiya inlet. Tokugawa Ieyasu took it over in 1590 and from 1603 made the daimyo rebuild it on a gigantic scale. Keeps were raised in 1607, 1623 and 1638; the last, finished under Iemitsu, rose five storeys, about 45 m, on a stone base some 14 m high. It burned in the Meireki fire of 1657.",
+    "A new base was built in 1659, but the regent Hoshina Masayuki argued the money was better spent on the city, and no keep rose again; the three-storey Fujimi-yagura served in its place. The miniature shows the Honmaru, Ninomaru and Sannomaru with walls, turrets, palace roofs and the Ōte gate; the western baileys are drawn on the map."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-edo-castle",
+    "wiki-ota-dokan",
+    "coaldrake",
+    "naito"
+   ],
+   "built": "1457; rebuilt 1590–1636",
+   "function": "Shogun's castle; from 1868 the imperial palace",
+   "activity": {
+    "figures": 60,
+    "radius": 420
+   }
+  },
+  {
+   "id": "nihonbashi",
+   "placeId": "nihonbashi",
+   "name": "Nihonbashi",
+   "category": "civic",
+   "position": [
+    4023,
+    4493
+   ],
+   "rotation": 30,
+   "footprint": [
+    11.0,
+    54.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/edo/nihonbashi.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 10,
+     "depth": 54,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "No bridge yet: creeks and fishermen's huts on the Edo-maejima sandbar, where Ieyasu's men will dig a canal from the Hirakawa."
+    },
+    "ieyasu-1610": {
+     "note": "New, built in 1603 over the canal dug from the Hirakawa; in 1604 it was made the point from which the highways' distances were measured."
+    },
+    "meireki-1657": {
+     "note": "Burned in the 1657 fire and rebuilt, as it would be again and again."
+    },
+    "bunka-1800": {
+     "note": "The busiest place in Edo: the fish market on the north bank at dawn, warehouses downstream, notice boards at the south end, and daimyo processions setting out on the Tōkaidō."
+    },
+    "meiji-1872": {
+     "note": "Still the old arched timber bridge, now crossed by rickshaws. A flatter Western-style timber bridge replaced it in 1873, and the stone bridge in 1911."
+    }
+   },
+   "summary": "The timber bridge over the Nihonbashi river, built in 1603, from which the distances of all five highways were measured; the fish market on one bank, warehouses along the other.",
+   "details": [
+    "Built the year Ieyasu became shogun and rebuilt after fire many times, in its later form it was about 28 ken (51 m) long and 4 ken (7–8 m) wide, arched high for the boats, its railing posts capped with bronze giboshi. At the south end stood the shogunate's notice boards and the place where criminals were exposed to view.",
+    "The miniature shows the arched deck on rows of piles with its giboshi posts, enlarged to read on the map. Hiroshige's Tōkaidō series opens here, with fish sellers and a daimyo procession at dawn. The stone bridge of 1911 still stands, under an expressway."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nihonbashi",
+    "naito",
+    "hiroshige"
+   ],
+   "built": "1603; rebuilt many times",
+   "function": "Bridge; starting point of the five highways",
+   "activity": {
+    "figures": 40,
+    "radius": 160
+   }
+  },
+  {
+   "id": "sensoji",
+   "placeId": "sensoji",
+   "name": "Sensō-ji (Asakusa Kannon)",
+   "category": "temple",
+   "position": [
+    6003,
+    1276
+   ],
+   "rotation": 0,
+   "footprint": [
+    160.0,
+    420.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/sensoji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 160,
+     "depth": 420,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 16.0,
+     "columnHeight": 64.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "dokan-1460",
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "confidence": "interpretation",
+     "note": "A modest Kannon hall and gate among fishing and farming houses, already a place of pilgrimage; Minamoto no Yoritomo had prayed here in 1180.",
+     "model": {
+      "glb": "models/edo/sensoji-1460.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 160,
+       "depth": 420,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 16.0,
+       "columnHeight": 64.0
+      }
+     }
+    },
+    "ieyasu-1610": {
+     "note": "Ieyasu made Sensō-ji a prayer temple of the shogunate. Its halls burned in 1631 and 1642 and were rebuilt by Iemitsu, the pagoda in 1648 and the main hall in 1649."
+    },
+    "meireki-1657": {
+     "note": "The new hall and pagoda escaped the 1657 fire. The shop stalls along the approach are growing into the Nakamise."
+    },
+    "bunka-1800": {
+     "note": "Edo's busiest temple: the Nakamise rows of toy, sweet and souvenir shops, archery booths and teahouses, and behind the hall the Okuyama with jugglers, acrobats and peep shows."
+    },
+    "meiji-1872": {
+     "note": "The Kaminarimon burned in 1865 and has not been rebuilt; only its footing remains. In 1873 the precinct becomes Asakusa Park.",
+     "model": {
+      "glb": "models/edo/sensoji-1872.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 160,
+       "depth": 420,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 16.0,
+       "columnHeight": 64.0
+      }
+     }
+    }
+   },
+   "summary": "Edo's oldest temple, founded by tradition in 628 when fishermen netted a Kannon statue from the river: a great main hall, a five-storey pagoda, the Niōmon and the Kaminarimon gate.",
+   "details": [
+    "By the temple's tradition two fishermen brothers drew a small gilt Kannon from the Sumida in 628. Ieyasu made it a prayer temple of the shogunate; the main hall (1649) and pagoda (1648) rebuilt under Iemitsu stood until the air raid of March 1945. The Kaminarimon, with its wind and thunder gods and great lantern, burned in 1865 and was not rebuilt until 1960.",
+    "The miniature shows the precinct of the Edo period: the Kaminarimon, the Nakamise shop rows, the two-storey Niōmon, the pagoda east of the approach and the main hall. The dense booths, sub-temples and Asakusa shrine round it are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sensoji",
+    "wiki-kaminarimon",
+    "meisho-zue"
+   ],
+   "built": "628 (by tradition); main hall 1649",
+   "function": "Buddhist temple of Kannon",
+   "activity": {
+    "figures": 70,
+    "radius": 260
+   }
+  },
+  {
+   "id": "kaneiji",
+   "placeId": "kaneiji",
+   "name": "Kan'ei-ji, Ueno",
+   "category": "temple",
+   "position": [
+    3915,
+    910
+   ],
+   "rotation": 0,
+   "footprint": [
+    300.0,
+    160.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/kaneiji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 300,
+     "depth": 160,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 16.0,
+     "columnHeight": 64.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "Ueno is a wooded hill above the Shinobazu marsh, with a few shrines and farm villages below."
+    },
+    "ieyasu-1610": {
+     "note": "Founded in 1625 on the hill where the Tōdō family's mansion stood; the Tōshōgū shrine to Ieyasu followed in 1627 and its five-storey pagoda in 1639."
+    },
+    "meireki-1657": {
+     "note": "Growing through this era: shogun Ietsuna is buried here in 1680 and the huge Konpon Chūdō is finished in 1698."
+    },
+    "bunka-1800": {
+     "note": "At its height, with dozens of sub-temples on the hill. In spring the cherries draw crowds, but drinking and music are forbidden on the shogun's sacred ground."
+    },
+    "meiji-1872": {
+     "note": "Burned in the Battle of Ueno on 4 July 1868, the shogun's loyalists' last stand. Only the pagoda, the Tōshōgū and a few gates survived; in 1873 the hill becomes a park.",
+     "model": {
+      "glb": "models/edo/kaneiji-1872.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 300,
+       "depth": 160,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 16.0,
+       "columnHeight": 64.0
+      }
+     }
+    }
+   },
+   "summary": "The Tokugawa family temple on Ueno hill, founded in 1625 by the monk Tenkai to guard the castle's unlucky north-east, as Enryaku-ji on Mount Hiei guarded Kyoto; six shoguns are buried here.",
+   "details": [
+    "Tenkai named it after the Kan'ei era, as Enryaku-ji was named for its own, and called the hill Tōeizan, 'the Mount Hiei of the east'. Its abbot was an imperial prince. The great Konpon Chūdō of 1698 stood where the fountain in Ueno Park is now. In 1868 the Shōgitai held the hill for the shogun and the Battle of Ueno burned most of the temple.",
+    "The miniature shows the Chūdō and, drawn closer to it than it really stands, the Tōshōgū's five-storey pagoda of 1639, which survived. The cherry groves, the Kiyomizu hall and the sub-temples are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kaneiji",
+    "wiki-battle-ueno",
+    "seidensticker"
+   ],
+   "built": "1625; Konpon Chūdō 1698",
+   "function": "Tendai temple; Tokugawa family temple",
+   "activity": {
+    "figures": 40,
+    "radius": 260
+   }
+  },
+  {
+   "id": "zojoji",
+   "placeId": "zojoji",
+   "name": "Zōjō-ji",
+   "category": "temple",
+   "position": [
+    1736,
+    7345
+   ],
+   "rotation": 270,
+   "footprint": [
+    160.0,
+    240.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/zojoji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 160,
+     "depth": 240,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 16.0,
+     "columnHeight": 64.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "Zōjō-ji is still a small temple elsewhere; this ground is woods above the fishing village of Shiba."
+    },
+    "ieyasu-1610": {
+     "note": "Moved here in 1598 on Ieyasu's orders, beside the Tōkaidō at the city's southern approach. The vermilion Sanmon goes up in 1622, and Hidetada is buried here in 1632."
+    },
+    "meireki-1657": {
+     "note": "A great seminary of the Jōdo sect, with dozens of halls and lodgings for student monks round the shoguns' mausolea."
+    },
+    "bunka-1800": {
+     "note": "Shiba's great temple, crowded at New Year; the gilded mausolea of the shoguns stand beside the main hall."
+    },
+    "meiji-1872": {
+     "note": "Stripped of shogunal support. In 1873 the main hall is taken for the Daikyōin, the government's Shinto teaching institute, and it burns soon after."
+    }
+   },
+   "summary": "Head temple of the Jōdo sect in eastern Japan and, with Kan'ei-ji, the Tokugawa family temple, where six shoguns lie; its vermilion Sanmon of 1622 still stands.",
+   "details": [
+    "Ieyasu chose Zōjō-ji as his family temple in 1590 and moved it to Shiba in 1598. It became a vast seminary with over a hundred halls and thousands of student monks. The two-storey Sangedatsumon, the 'gate of deliverance from the three passions', built in 1622, survived every fire and the 1945 bombing.",
+    "The miniature shows the gate and the main hall behind it on the temple's east–west axis, with a pagoda. The shoguns' mausolea, which stood beside the hall until 1945, are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-zojoji",
+    "naito"
+   ],
+   "built": "here from 1598; Sanmon 1622",
+   "function": "Pure Land temple; Tokugawa family temple",
+   "activity": {
+    "figures": 35,
+    "radius": 220
+   }
+  },
+  {
+   "id": "kanda-myojin",
+   "placeId": "kanda-myojin",
+   "name": "Kanda Myōjin",
+   "category": "religious",
+   "position": [
+    3418,
+    2496
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/kanda-myojin.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "The shrine stands at Shibasaki below the castle, beside the mound of Taira no Masakado; this hill is woods."
+    },
+    "ieyasu-1610": {
+     "note": "Moved from Shibasaki to Kanda-dai in 1603, and to this hilltop facing the castle in 1616."
+    },
+    "meireki-1657": {
+     "note": "Burned in 1657 and rebuilt; its festival floats parade into the castle for the shogun in alternate years."
+    },
+    "bunka-1800": {
+     "note": "The guardian of the low city: in festival years dozens of floats and dancers fill Kanda and pass through the castle gates."
+    },
+    "meiji-1872": {
+     "note": "In 1874 Masakado, a rebel against the throne, is demoted to a side shrine, and the festival loses its procession into the palace."
+    }
+   },
+   "summary": "The guardian shrine of Edo's low city, honouring the god Ōnamuchi and the rebel warrior Taira no Masakado; its festival was one of the two whose floats entered the castle.",
+   "details": [
+    "Founded by tradition in 730 near what became Masakado's grave at Shibasaki, the shrine was moved to Kanda-dai in 1603 and to this hilltop in 1616. Its Kanda Matsuri and the Sannō festival of Hie shrine, held in alternate years, were the 'festivals of the realm': their floats entered the castle for the shogun to watch.",
+    "The miniature shows the vermilion gongen-style hall, its gate and the torii. The halls were burned and rebuilt several times; the present concrete hall dates from 1934."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kanda-shrine",
+    "wiki-kanda-matsuri",
+    "meisho-zue"
+   ],
+   "built": "on this hill from 1616",
+   "function": "Shinto shrine; guardian of Kanda and Nihonbashi",
+   "activity": {
+    "figures": 25,
+    "radius": 150
+   }
+  },
+  {
+   "id": "yushima-seido",
+   "placeId": "yushima-seido",
+   "name": "Yushima Seidō",
+   "category": "religious",
+   "position": [
+    3291,
+    2641
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.0,
+    70.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/yushima-seido.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 80,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Not yet: the Hayashi family's Confucius shrine stands at their school in Ueno from 1632."
+    },
+    "meireki-1657": {
+     "note": "Built in 1690 by shogun Tsunayoshi, a devoted student of Confucius, who moved the Hayashi shrine here and lectured in it himself."
+    },
+    "bunka-1800": {
+     "note": "Since 1797 the shogunate's own academy, the Shōheikō; rebuilt in 1799 with the black-lacquered halls shown here."
+    },
+    "meiji-1872": {
+     "note": "The halls house the Ministry of Education's first public exhibition (March 1872), the seed of the Tokyo National Museum, and a library."
+    }
+   },
+   "summary": "The Confucian temple built by shogun Tsunayoshi in 1690 above the Kanda river, which became the shogunate's own academy, the Shōheikō, in 1797.",
+   "details": [
+    "The Hayashi family of Confucian scholars kept a shrine to Confucius at their school in Ueno; Tsunayoshi moved it here in 1690 as a state temple and named the slope Shōheizaka after Confucius's birthplace. After the Kansei reforms made Zhu Xi's teaching orthodox, it became the shogunate's academy in 1797, rebuilt in 1799 with black-lacquered halls.",
+    "The miniature shows the Taiseiden on its stone terrace inside its walls. The present halls are a concrete rebuilding of 1935 on the same plan."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-yushima-seido",
+    "naito"
+   ],
+   "built": "1690; rebuilt 1799",
+   "function": "Confucian temple and shogunal academy",
+   "activity": {
+    "figures": 15,
+    "radius": 110
+   }
+  },
+  {
+   "id": "ryogoku-bridge",
+   "placeId": "ryogoku-bridge",
+   "name": "Ryōgoku Bridge",
+   "category": "civic",
+   "position": [
+    5244,
+    3384
+   ],
+   "rotation": 0,
+   "footprint": [
+    176.0,
+    9.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/ryogoku-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 176,
+     "depth": 10,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "No bridge downstream of Senju: the shogunate keeps the Sumida unbridged as the city's eastern moat."
+    },
+    "meireki-1657": {
+     "note": "New, one of the first works after the fire, built in 1659 or 1661; Honjo across it is just being laid out."
+    },
+    "bunka-1800": {
+     "note": "The city's fairground: show booths and food stalls at both ends, and in summer the river below packed with pleasure boats for the fireworks."
+    },
+    "meiji-1872": {
+     "note": "Still the timber bridge; it will be rebuilt in iron in 1904."
+    }
+   },
+   "summary": "The long timber bridge built after the Meireki fire, when crowds trapped against the river died for want of one; it opened Honjo and gave Edo its fairground and its fireworks.",
+   "details": [
+    "In the 1657 fire there was no bridge downstream of Senju, and thousands fleeing the flames burned or drowned on the west bank. The shogunate built this one, about 94 ken (171 m) long, in 1659 or 1661 (the sources differ), and kept firebreak plazas at both ends, which filled with show booths, food stalls and teahouses.",
+    "From 1733 the summer river opening was marked with fireworks paid for by the boat-houses and restaurants, the start of a tradition that continues as the Sumidagawa fireworks. The miniature shows the timber deck on its many rows of piles."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ryogoku-bridge",
+    "wiki-sumida-fireworks",
+    "hiroshige"
+   ],
+   "built": "1659 or 1661",
+   "function": "Bridge across the Sumida",
+   "activity": {
+    "figures": 45,
+    "radius": 200
+   }
+  },
+  {
+   "id": "ekoin",
+   "placeId": "ekoin",
+   "name": "Ekōin",
+   "category": "temple",
+   "position": [
+    5624,
+    3473
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.0,
+    90.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/ekoin.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 100,
+     "depth": 90,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 9.0,
+     "columnHeight": 36.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Reeds and marsh on the far bank of the Sumida."
+    },
+    "meireki-1657": {
+     "note": "New in 1657, built over the mass grave of the fire's unclaimed dead, carried across the river by boat."
+    },
+    "bunka-1800": {
+     "note": "Sumo tournaments in the yard, and kaichō, showings of famous Buddhas brought from temples all over Japan, which drew huge crowds across the bridge."
+    },
+    "meiji-1872": {
+     "note": "The spring and autumn sumo tournaments are still held in the temple yard."
+    }
+   },
+   "summary": "Founded in 1657 over a mass grave for the unclaimed dead of the Meireki fire, a temple for all souls; from 1833 its yard was the home of sumo's twice-yearly tournaments.",
+   "details": [
+    "The shogunate had the bodies of the fire's victims, over 100,000 by the usual count, carried across the river and buried in a great mound; Ekōin was built over it to pray for them without distinction of sect. Later it took in the dead of floods, earthquakes and fires, and of animals too.",
+    "Kanjin sumo, fund-raising tournaments, were held here from 1768 and regularly from 1833 until a permanent hall was built next door in 1909. The miniature shows the hall, the mound and a roofed ring in the yard."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ekoin",
+    "wiki-meireki-fire",
+    "nishiyama"
+   ],
+   "built": "1657",
+   "function": "Buddhist temple for the nameless dead",
+   "activity": {
+    "figures": 30,
+    "radius": 140
+   }
+  },
+  {
+   "id": "fish-market",
+   "placeId": "fish-market",
+   "name": "Nihonbashi fish market (Uogashi)",
+   "category": "commercial",
+   "position": [
+    4177,
+    4460
+   ],
+   "rotation": 25,
+   "footprint": [
+    170.0,
+    36.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/fish-market.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 170,
+      "depth": 34
+     },
+     "buildings": [
+      {
+       "offset": [
+        -42.5,
+        -8.5
+       ],
+       "width": 51.0,
+       "depth": 10.2,
+       "height": 8
+      },
+      {
+       "offset": [
+        42.5,
+        6.800000000000001
+       ],
+       "width": 51.0,
+       "depth": 10.2,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "The shore of the Edo-maejima sandbar: fishermen's huts and boats drawn up on the sand."
+    },
+    "ieyasu-1610": {
+     "note": "Beginning: fishermen brought from Tsukuda near Osaka supply the shogun's kitchens and sell their surplus on this bank."
+    },
+    "meireki-1657": {
+     "note": "Rebuilt after the fire; the wholesalers' guild now controls the trade, and the shogun's kitchens take their pick first."
+    },
+    "bunka-1800": {
+     "note": "Before dawn the boats unload bonito, sea bream and shellfish under torchlight; by mid-morning peddlers with baskets on poles are carrying it all over the city."
+    },
+    "meiji-1872": {
+     "note": "Unchanged by the new government; the market stays here until the 1923 earthquake."
+    }
+   },
+   "summary": "Edo's fish market on the quays of the Nihonbashi river, begun by fishermen from Tsukuda near Osaka who supplied the shogun's kitchens and sold the rest here; it moved to Tsukiji only in 1923.",
+   "details": [
+    "Ieyasu brought fishermen from Tsukuda village near Osaka and gave them fishing rights in the bay and the island later named Tsukudajima. Their surplus was sold on the north bank east of Nihonbashi, and the market grew into rows of wholesalers' sheds where boats unloaded before dawn. A saying counted it among the three places where a thousand ryō changed hands every day.",
+    "The miniature shows open sheds along the quay, with tubs and boats. The market burned repeatedly and was rebuilt in place; after the 1923 earthquake it moved to Tsukiji."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tsukiji-market",
+    "naito",
+    "nishiyama"
+   ],
+   "built": "early 1600s",
+   "function": "Wholesale fish market",
+   "activity": {
+    "figures": 50,
+    "radius": 140
+   }
+  },
+  {
+   "id": "echigoya",
+   "placeId": "echigoya",
+   "name": "Echigoya (Mitsui) dry-goods store",
+   "category": "commercial",
+   "position": [
+    4032,
+    4194
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    60.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/echigoya.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 70,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -17.5,
+        -15.0
+       ],
+       "width": 21.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        17.5,
+        12.0
+       ],
+       "width": 21.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Surugachō is a street of merchants' houses; the Mitsui family are still brewers and pawnbrokers in Matsusaka."
+    },
+    "meireki-1657": {
+     "note": "Mitsui Takatoshi opens a small shop in Honchō in 1673 and moves here to Surugachō in 1683, adding a money exchange."
+    },
+    "bunka-1800": {
+     "note": "Hundreds of clerks; customers sit on the raised floor while bolts of silk and cotton are brought from the storehouses."
+    },
+    "meiji-1872": {
+     "note": "Still trading; its money exchange will become the Mitsui Bank in 1876, the store Mitsukoshi in 1904."
+    }
+   },
+   "summary": "Mitsui Takatoshi's dry-goods store in Surugachō, which sold for cash at fixed prices to anyone who walked in, cut cloth to any length, and grew into the Mitsui house and the Mitsukoshi department store.",
+   "details": [
+    "Takatoshi opened in Honchō in 1673 and moved to Surugachō in 1683. Rivals sold on credit by calling on rich clients with samples; Echigoya's motto was 'cash, and no haggling' (genkin kakene nashi), and it would sell a remnant as small as a sleeve. On rainy days it lent customers umbrellas printed with its mark.",
+    "The miniature shows a two-storey shop of black plaster under a deep tiled roof, with indigo curtains and storehouses behind. Hiroshige drew its buildings on both sides of Surugachō with Fuji at the end of the street."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mitsukoshi",
+    "wiki-mitsui-takatoshi",
+    "hiroshige"
+   ],
+   "built": "1673; here from 1683",
+   "function": "Kimono-cloth store and money exchange",
+   "activity": {
+    "figures": 30,
+    "radius": 110
+   }
+  },
+  {
+   "id": "nakamura-za",
+   "placeId": "nakamura-za",
+   "name": "Nakamura-za",
+   "category": "entertainment",
+   "position": [
+    4756,
+    4183
+   ],
+   "rotation": 0,
+   "footprint": [
+    26.0,
+    42.0
+   ],
+   "scale": 1.4,
+   "model": {
+    "glb": "models/edo/nakamura-za.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 26,
+     "depth": 42,
+     "height": 10.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Not yet: Saruwaka Kanzaburō opens his theatre in 1624 near Kyōbashi, and it moves twice before settling at Sakai-chō in 1651."
+    },
+    "meireki-1657": {
+     "note": "Rebuilt after the fire beside the puppet theatres of Sakai-chō and Fukiya-chō; the great actor Ichikawa Danjūrō I creates the bravura aragoto style in these years."
+    },
+    "bunka-1800": {
+     "note": "With the Ichimura-za and Morita-za one of the three licensed theatres; the drum on the yagura sounds at dawn and plays run until dusk."
+    },
+    "meiji-1872": {
+     "note": "Gone since 1842, when the Tenpō reforms moved all the theatres to Saruwaka-chō beyond Sensō-ji; Sakai-chō is a street of ordinary shops."
+    }
+   },
+   "summary": "The oldest of Edo's licensed kabuki theatres, founded in 1624 by Saruwaka Kanzaburō, at Sakai-chō from 1651 until the Tenpō reforms drove all the theatres out to Asakusa in 1842.",
+   "details": [
+    "Each licensed theatre was marked by the drum tower (yagura) over its entrance, from which a drum announced the day's programme at dawn. Plays ran from morning to dusk; teahouses outside booked the boxes and served meals between acts, and the district round it, with the puppet theatres, was another place where a thousand ryō changed hands a day.",
+    "The miniature, enlarged to read, shows the theatre with its yagura and billboards. Inside, the hanamichi walkway ran through the audience to the stage. At Saruwaka-chō the Nakamura-za played on until it burned in 1893."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-nakamura-za",
+    "wiki-kabuki",
+    "nishiyama"
+   ],
+   "built": "1624; at Sakai-chō from 1651",
+   "function": "Kabuki theatre",
+   "activity": {
+    "figures": 35,
+    "radius": 100
+   }
+  },
+  {
+   "id": "yoshiwara",
+   "placeId": "yoshiwara",
+   "name": "Shin-Yoshiwara",
+   "category": "entertainment",
+   "position": [
+    5768,
+    277
+   ],
+   "rotation": 135,
+   "footprint": [
+    220.0,
+    320.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/yoshiwara.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 220,
+     "depth": 320,
+     "height": 88.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Paddies. The licensed quarter, Moto-Yoshiwara, is laid out near Nihonbashi from 1617."
+    },
+    "meireki-1657": {
+     "note": "Opened in the autumn of 1657 after the old quarter burned; in return for the remote site, night trade is now allowed."
+    },
+    "bunka-1800": {
+     "note": "Its golden age in prints and fiction: oiran processions down Naka-no-chō, cherry trees planted along it each spring and taken away after. It burned in 1855 and was rebuilt."
+    },
+    "meiji-1872": {
+     "note": "In October 1872 an edict nominally freed the women from their contracts; most returned under new ones."
+    }
+   },
+   "summary": "The walled licensed quarter, moved in 1657 from near Nihonbashi to the paddies north of Asakusa: one gate, a moat, and some thousands of women bound by debt.",
+   "details": [
+    "The first Yoshiwara was licensed in 1617 near today's Ningyōchō. The new quarter, about 2 by 3 chō (some 220 by 330 m), was ringed by a ditch, the Ohaguro-dobu, with a single gate, the Ōmon. Courtesans sat on display behind lattices; the highest-ranking oiran paraded down Naka-no-chō to meet clients at the teahouses.",
+    "It was the setting of countless prints and novels, but the women were sold into service, mostly as children, and many died young. The miniature shows the moat, the gate, Naka-no-chō with its cherries and the rows of houses."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-yoshiwara",
+    "seidensticker",
+    "nishiyama"
+   ],
+   "built": "1657",
+   "function": "Licensed pleasure quarter",
+   "activity": {
+    "figures": 50,
+    "radius": 200
+   }
+  },
+  {
+   "id": "kaga-yashiki",
+   "placeId": "kaga-yashiki",
+   "name": "Kaga mansion and the Akamon",
+   "category": "civic",
+   "position": [
+    2749,
+    1409
+   ],
+   "rotation": 90,
+   "footprint": [
+    110.0,
+    24.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/kaga-akamon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 24,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Granted to the Maeda of Kaga around 1617 as a secondary residence; their main mansion is still near the castle."
+    },
+    "meireki-1657": {
+     "note": "After their mansion by the castle burned in 1657, the Maeda make Hongō their main residence (from 1682)."
+    },
+    "bunka-1800": {
+     "note": "The vermilion gate shown here was built in 1827; around 1800 the entrance was a gate in the long two-storey barracks of the retainers."
+    },
+    "meiji-1872": {
+     "note": "The Maeda have gone home to Kanazawa; the estate is taken for government use and in 1877 given to the new University of Tokyo."
+    }
+   },
+   "summary": "The Hongō mansion of the Maeda, the richest daimyo house, rated at over a million koku of rice; its vermilion gate was built in 1827 to receive a shogun's daughter as bride.",
+   "details": [
+    "Daimyo had to keep their families in Edo and live here every other year. The Maeda estate covered some 34 hectares, with halls, barracks for thousands of retainers and the Ikutoku-en garden round a pond. A daimyo who married a shogun's daughter built a red-lacquered gate for her; the Akamon was raised in 1827 for Yōhime, daughter of Ienari.",
+    "The miniature shows the gate with the long two-storey barracks (nagaya) of the retainers on either side. Since 1877 the estate has been the campus of the University of Tokyo; the gate still stands."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-akamon",
+    "wiki-kaga-domain",
+    "wiki-sankin"
+   ],
+   "built": "mansion from about 1617; gate 1827",
+   "function": "Upper mansion of the Maeda lords of Kaga",
+   "activity": {
+    "figures": 15,
+    "radius": 140
+   }
+  },
+  {
+   "id": "tsukiji-honganji",
+   "placeId": "tsukiji-honganji",
+   "name": "Tsukiji Hongan-ji",
+   "category": "temple",
+   "position": [
+    3797,
+    6435
+   ],
+   "rotation": 90,
+   "footprint": [
+    110.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/tsukiji-honganji.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 110,
+     "depth": 90,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 9.0,
+     "columnHeight": 36.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Open sea. The sect's Edo temple, founded in 1617, stands near Hamachō."
+    },
+    "meireki-1657": {
+     "note": "The temple burned in 1657; the shogunate gave the sect a site in the sea instead, and the congregation filled it in to build here."
+    },
+    "bunka-1800": {
+     "note": "Its immense tiled roof is a landmark from the bay, rising over the daimyo mansions of Tsukiji."
+    },
+    "meiji-1872": {
+     "note": "Untouched by the 1872 fire; the foreign settlement and its mission schools grow up next door."
+    }
+   },
+   "summary": "The Edo branch of Kyoto's Nishi Hongan-ji, rebuilt after the 1657 fire on land its own followers reclaimed from the bay, the 'built land', Tsukiji, that gave the district its name.",
+   "details": [
+    "The first temple of 1617 stood near Hamachō. When it burned in 1657 the shogunate offered a site in the shallows, and members of the congregation filled it in. The great main hall with its huge tiled roof was rebuilt after fires and stood until the 1923 earthquake.",
+    "The miniature shows the Edo-period hall, its gate and sub-temples; the hall's exact form is uncertain. The present stone hall in an Indian style dates from 1934."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tsukiji-honganji",
+    "wiki-tsukiji"
+   ],
+   "built": "1617; here after 1657",
+   "function": "Jōdo Shinshū temple",
+   "activity": {
+    "figures": 20,
+    "radius": 140
+   }
+  },
+  {
+   "id": "hie-shrine",
+   "placeId": "hie-shrine",
+   "name": "Hie Shrine (Sannō)",
+   "category": "religious",
+   "position": [
+    886,
+    5492
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    100.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/hie-shrine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 100,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "Dōkan brings the god Sannō from Kawagoe into his castle in 1478; this hill is woods above the valley."
+    },
+    "ieyasu-1610": {
+     "note": "The shrine has been moved out of the castle grounds to Kōjimachi; this hill is still woods."
+    },
+    "meireki-1657": {
+     "note": "Rebuilt here on Hoshigaoka in 1659 after the fire, looking down on the castle it protects."
+    },
+    "bunka-1800": {
+     "note": "In festival years its Sannō Matsuri floats enter the castle for the shogun; the shrine's monkeys, messengers of the god, are carved everywhere."
+    },
+    "meiji-1872": {
+     "note": "Now a shrine of the imperial capital; the festival goes on without a shogun to watch it."
+    }
+   },
+   "summary": "The shrine of Sannō, protector of Edo Castle, rebuilt on this hill after the 1657 fire; its festival, alternating with Kanda's, paraded floats through the castle.",
+   "details": [
+    "Ōta Dōkan brought the god from Kawagoe into his castle in 1478. The Tokugawa made him their guardian, moved the shrine out of the castle, and after the 1657 fire rebuilt it here in 1659. Its Sannō Matsuri and the Kanda festival, in alternate years, were the two 'festivals of the realm' whose floats entered the castle.",
+    "The miniature shows the stone terrace and stair, the Sannō torii with its gabled top and the vermilion hall. The halls burned in 1945 and were rebuilt in 1958."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hie-shrine",
+    "wiki-sanno-matsuri"
+   ],
+   "built": "here from 1659",
+   "function": "Shinto shrine, guardian of the castle",
+   "activity": {
+    "figures": 20,
+    "radius": 130
+   }
+  },
+  {
+   "id": "fire-lookout",
+   "placeId": "fire-lookout",
+   "name": "Fire lookout tower (hinomi-yagura)",
+   "category": "civic",
+   "position": [
+    4005,
+    3384
+   ],
+   "rotation": 0,
+   "footprint": [
+    8.0,
+    8.0
+   ],
+   "scale": 2.5,
+   "model": {
+    "glb": "models/edo/hinomi-yagura.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 8,
+     "depth": 8,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "No organised fire watch yet: fires are fought by daimyo brigades for the castle and by neighbours with buckets."
+    },
+    "meireki-1657": {
+     "note": "The shogunate creates the jōbikeshi, bannermen's fire brigades with lookout towers and drums, in 1658, the year after the great fire."
+    },
+    "bunka-1800": {
+     "note": "Since 1720 every ward has its townsmen's brigade, one of the 47 'iroha' companies, with a ladder or tower and bell; their standard-bearers stand on burning roofs."
+    },
+    "meiji-1872": {
+     "note": "The brigades are reorganised under the new government but still fight fire as before, by pulling houses down round it."
+    }
+   },
+   "summary": "One of the timber watchtowers from which Edo kept watch over its roofs, ringing a hanging bell faster the nearer the fire; fires were so frequent they were called the 'flowers of Edo'.",
+   "details": [
+    "After the Meireki fire the shogunate founded the jōbikeshi in 1658, whose stations had tall lookouts with a drum; from 1720 the town wards had their own brigades with ladders or towers and an alarm bell (hanshō), struck slowly for a distant fire and in a continuous din, surihan, for a near one.",
+    "This tower in Kanda stands for the many; its exact site is illustrative. The miniature, enlarged to read, shows the braced legs, ladder, roofed platform and bell."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hikeshi",
+    "mcclain"
+   ],
+   "built": "from 1658",
+   "function": "Fire watch and alarm bell",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "shimbashi-station",
+   "placeId": "shimbashi-station",
+   "name": "Shimbashi Station",
+   "category": "civic",
+   "position": [
+    2857,
+    6624
+   ],
+   "rotation": 180,
+   "footprint": [
+    110.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/shimbashi-station.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meiji-1872"
+   ],
+   "variants": {
+    "bunka-1800": {
+     "note": "Here stand the mansions of the Date lords of Sendai and the Wakisaka of Tatsuno, beside the Shiodome canal."
+    },
+    "meiji-1872": {
+     "note": "Opened on 14 October 1872 by the emperor; nine trains a day each way to Yokohama, 53 minutes."
+    }
+   },
+   "summary": "Tokyo terminus of Japan's first railway, opened on 14 October 1872: a two-storey stone-faced building by the American architect R. P. Bridgens, on the ground of former daimyo mansions at Shiodome.",
+   "details": [
+    "The line to Yokohama, 29 km, was built with a British loan and British engineers under Edmund Morel. The emperor opened it on 14 October 1872, riding to Yokohama and back; trains took 53 minutes. The station served as Tokyo's main terminus until Tokyo Station opened in 1914.",
+    "The miniature shows the building with its two wings, the platform canopy and a train. Excavated, its foundations were found under the Shiodome redevelopment, and the building was rebuilt as a replica in 2003."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shimbashi-station",
+    "wiki-shiodome",
+    "wiki-rail-japan"
+   ],
+   "built": "1872",
+   "function": "Railway terminus",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "ginza-brick",
+   "placeId": "ginza-brick",
+   "name": "Ginza brick town (Ginza Renga-gai)",
+   "category": "district",
+   "position": [
+    3327,
+    5658
+   ],
+   "rotation": 42,
+   "footprint": [
+    60.3,
+    241.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/ginza-brick.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 60,
+      "depth": 240
+     },
+     "buildings": [
+      {
+       "offset": [
+        -15.0,
+        -60.0
+       ],
+       "width": 18.0,
+       "depth": 72.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        15.0,
+        48.0
+       ],
+       "width": 18.0,
+       "depth": 72.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meiji-1872"
+   ],
+   "variants": {
+    "bunka-1800": {
+     "note": "Ginza: two-storey shops along the Tōkaidō, named for the silver mint; lacquerers and craftsmen behind."
+    },
+    "meiji-1872": {
+     "note": "Begun in 1872 after the fire of April: most of the street is still building sites, scaffolding and stacks of brick.",
+     "confidence": "reconstruction"
+    }
+   },
+   "summary": "After the fire of 1872 burned Ginza, the government rebuilt it as a model Western town: a wide avenue with brick pavements and trees, lined with two-storey brick terraces with colonnades, designed by Thomas Waters.",
+   "details": [
+    "Thomas James Waters, an Irish engineer who had built the Osaka mint, planned the scheme; work began in 1872 and the main street was finished by 1877, about 27 m wide with pavements. Gas lamps came in 1874. At first shopkeepers shunned the damp, costly houses, but by the 1880s Ginza was Tokyo's showcase of newspapers, Western goods and fashion.",
+    "The miniature shows a stretch of the avenue with its terraces, colonnades and roadside trees, and unfinished blocks at one end. Almost nothing of it survived the 1923 earthquake."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ginza",
+    "seidensticker"
+   ],
+   "built": "1872–1877",
+   "function": "Model Western street",
+   "activity": {
+    "figures": 30,
+    "radius": 160
+   }
+  },
+  {
+   "id": "benten-do",
+   "placeId": "benten-do",
+   "name": "Benten-dō, Shinobazu pond",
+   "category": "religious",
+   "position": [
+    3535,
+    1409
+   ],
+   "rotation": 0,
+   "footprint": [
+    38.0,
+    39.5
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/edo/benten-do.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "Shinobazu is a reedy lake with no island hall."
+    },
+    "ieyasu-1610": {
+     "note": "Built by Tenkai on an island raised in the pond, probably in the 1620s or early 1630s, after Kan'ei-ji was founded."
+    },
+    "meireki-1657": {
+     "note": "A stone causeway now joins the island to the east shore (from 1672, by most accounts)."
+    },
+    "bunka-1800": {
+     "note": "Lotus fills the pond in summer; teahouses on the shore rent rooms by the hour."
+    },
+    "meiji-1872": {
+     "note": "Still Kan'ei-ji's Benten hall, though the temple above has burned."
+    }
+   },
+   "summary": "A hall of the goddess Benzaiten on an island in Shinobazu pond, made by Tenkai to echo the Benten shrine on Chikubushima in Lake Biwa, as Ueno echoed Mount Hiei.",
+   "details": [
+    "Tenkai had the island built up in the pond and set the hall on it; at first it was reached by boat, later by a causeway from the east shore. Lotus covered the pond in summer, and the teahouses round it were known for discreet meetings.",
+    "The miniature, enlarged to read, shows a small octagonal hall like the present one; the form of the Edo hall is uncertain. The hall burned in 1945 and was rebuilt in 1958."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-shinobazu",
+    "meisho-zue"
+   ],
+   "built": "about 1625–1635",
+   "function": "Buddhist hall of Benzaiten",
+   "activity": {
+    "figures": 10,
+    "radius": 90
+   }
+  },
+  {
+   "id": "tomioka-hachiman",
+   "placeId": "tomioka-hachiman",
+   "name": "Tomioka Hachiman-gū",
+   "category": "religious",
+   "position": [
+    6266,
+    5847
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/tomioka-hachiman.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "note": "Shallows. The shrine will be founded in 1627 on a sandbank called Eitaijima, reclaimed round it."
+    },
+    "meireki-1657": {
+     "note": "Kanjin sumo is held here from 1684, the start of professional sumo as the Sumo Association reckons it."
+    },
+    "bunka-1800": {
+     "note": "Fukagawa's centre: its August festival, the teahouses of Monzen-nakachō and the Fukagawa geisha. In 1807 festival crowds brought down the Eitai bridge."
+    },
+    "meiji-1872": {
+     "note": "The shrine and its festival carry on; the old teahouse quarter is quieter without the samurai."
+    }
+   },
+   "summary": "Edo's largest Hachiman shrine, founded in 1627 on reclaimed land at Fukagawa; its festival, its teahouse quarter and, from 1684, fund-raising sumo made it the heart of Fukagawa.",
+   "details": [
+    "A monk founded it in 1627 on the sandbank called Eitaijima, and the shogunate encouraged the reclamation round it. Kanjin sumo began here in 1684, which the Sumo Association counts as the start of professional sumo; a monument to the yokozuna stands in the grounds. In 1807 the crowds going to its festival brought down the Eitai bridge and hundreds drowned.",
+    "The miniature shows the main hall, gate and torii. The shrine was rebuilt after the fires of 1923 and 1945."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tomioka",
+    "meisho-zue"
+   ],
+   "built": "1627",
+   "function": "Shinto shrine of Hachiman",
+   "activity": {
+    "figures": 25,
+    "radius": 150
+   }
+  },
+  {
+   "id": "asakusa-okura",
+   "placeId": "asakusa-okura",
+   "name": "Asakusa rice granaries (Okura)",
+   "category": "commercial",
+   "position": [
+    5606,
+    2607
+   ],
+   "rotation": 0,
+   "footprint": [
+    101.2,
+    300.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/edo/asakusa-okura.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 100,
+      "depth": 300
+     },
+     "buildings": [
+      {
+       "offset": [
+        -25.0,
+        -75.0
+       ],
+       "width": 30.0,
+       "depth": 90.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        25.0,
+        60.0
+       ],
+       "width": 30.0,
+       "depth": 90.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "A reedy bank of the river below Asakusa."
+    },
+    "ieyasu-1610": {
+     "note": "Built in 1620 on land filled out into the river; the first storehouses and docks."
+    },
+    "meireki-1657": {
+     "note": "Spared by the 1657 fire, which stopped short of them, as the story goes; the brokers' shops line the road in front."
+    },
+    "bunka-1800": {
+     "note": "Pay days, three times a year, fill Kuramae with bannermen and the brokers (fudasashi) who sell their rice and lend against next year's."
+    },
+    "meiji-1872": {
+     "note": "Still the government's granaries; the bannermen they paid are gone."
+    }
+   },
+   "summary": "The shogun's rice granaries on the Sumida at Kuramae: rows of storehouses and eight comb-like docks where barges unloaded the tax rice that paid the bannermen's stipends.",
+   "details": [
+    "Built in 1620 on land reclaimed from the river, the granaries held rice from the shogun's own lands. Bannermen and lesser retainers drew their stipends here three times a year through brokers called fudasashi, who collected and sold the rice and lent money against future stipends, becoming some of Edo's richest men.",
+    "The miniature shows rows of storehouses and the eight docks (kubiki-bori) cut into the bank, as on Edo maps; the number of buildings is simplified. The district's name, Kuramae, means 'in front of the storehouses'."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-fudasashi",
+    "wiki-asakusa",
+    "naito"
+   ],
+   "built": "1620",
+   "function": "Shogunate rice storehouses",
+   "activity": {
+    "figures": 30,
+    "radius": 180
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "kubizuka",
+   "name": "Masakado's mound (Kubizuka)",
+   "kind": "shrine",
+   "position": [
+    2993,
+    4216
+   ],
+   "activePeriods": [
+    "dokan-1460",
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "The grave mound said to hold the head of Taira no Masakado, who rose against Kyoto in 939–940: feared, appeased and never moved, it still sits among the office towers of Ōtemachi.",
+   "details": [
+    "Masakado proclaimed himself 'new emperor' of the east and was killed in 940; legend says his severed head flew home from Kyoto and fell here. Plagues were blamed on his spirit until he was enshrined at Kanda Myōjin in 1309. Later attempts to move the mound were followed, people said, by deaths."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-masakado",
+    "wiki-kanda-shrine"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the inlet. A fisherman's wife sets a cup of water and a sprig of sakaki on the stone, as her mother did, so the angry warrior will spare the boats."
+    },
+    {
+     "hour": 13,
+     "text": "A priest from Kanda Myōjin chants before the mound while a servant sweeps the path; the household is careful never to offend the spirit."
+    },
+    {
+     "hour": 20,
+     "text": "Lanterns flicker by the mound. Servants hurry past without looking: anyone who disturbs it falls ill, they say."
+    }
+   ],
+   "variants": {
+    "dokan-1460": {
+     "note": "A mound and a small shrine at Shibasaki village by the inlet; Kanda Myōjin stands beside it until 1603."
+    },
+    "bunka-1800": {
+     "note": "Inside the grounds of a daimyo's mansion in Daimyō-kōji, kept with care."
+    },
+    "meiji-1872": {
+     "note": "Inside government land after the mansion is confiscated."
+    }
+   }
+  },
+  {
+   "id": "edo-minato",
+   "name": "Edo landing (Edo-minato)",
+   "kind": "dock",
+   "position": [
+    3282,
+    4138
+   ],
+   "activePeriods": [
+    "dokan-1460"
+   ],
+   "summary": "The small port at the head of the Hibiya inlet where boats from round the bay landed rice, salt, tea and timber for Dōkan's castle and the market below it.",
+   "details": [
+    "Zen monks who visited Dōkan in the 1470s and 1480s wrote of a busy harbour below the castle, with boats from the provinces round the bay and from as far as Ise, and a market selling their cargoes. The exact place of the landing is not known; it was probably near the mouth of the Hirakawa, as drawn here."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ota-dokan",
+    "naito"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Low tide: boats lie on the mud, and porters wade out with bales of rice on their backs, shouting to the castle's storekeepers."
+    },
+    {
+     "hour": 13,
+     "text": "A boat from Ise ties up with tea jars and lacquerware; villagers crowd the little market under the bluff with dried fish and salt to trade."
+    },
+    {
+     "hour": 20,
+     "text": "The salt-boilers' fires glow along the shore, the castle's lights burn on the bluff, and frogs call in the reed beds."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sento",
+   "name": "Bathhouse at Zeni-game bridge (sentō)",
+   "kind": "bath",
+   "position": [
+    3490,
+    4138
+   ],
+   "activePeriods": [
+    "ieyasu-1610",
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "Where, a contemporary wrote, Ise Yoichi opened Edo's first public bath in 1591; by 1800 the city had several hundred, where every neighbourhood washed, gossiped and heard the news.",
+   "details": [
+    "Miura Jōshin's Keichō kenmonshū says Ise Yoichi opened a steam bath by Zeni-game bridge in the summer of 1591, for one copper coin. Later baths had a hot tub behind a low 'pomegranate entrance' that kept in the steam, and an upstairs room for tea and go. Shikitei Sanba's comic Ukiyoburo (1809–13) is set in one."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sento",
+    "sanba",
+    "nishiyama"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The bath-keeper stokes the boiler with scrap timber bought from carpenters. First in are fish porters and night-soil men, then carpenters on their way to work."
+    },
+    {
+     "hour": 13,
+     "text": "Through the steam, under the low entrance, a plasterer complains about his landlord while an old man recites the same joke he told yesterday."
+    },
+    {
+     "hour": 19,
+     "text": "Upstairs men play go and trade rumours from the castle. The fire goes out early: no bathhouse may burn late in a city of wood."
+    }
+   ],
+   "variants": {
+    "ieyasu-1610": {
+     "name": "Ise Yoichi's bathhouse",
+     "note": "Edo's first public bath, opened in 1591: a steam room for one copper coin, in a town of labourers far from home."
+    },
+    "meireki-1657": {
+     "note": "In 1657 the shogunate bans the bath-girls (yuna) who scrubbed backs and sold more; many are sent to the new Yoshiwara."
+    },
+    "bunka-1800": {
+     "note": "One of several hundred. Mixed bathing, banned in 1791, goes on in many neighbourhoods anyway."
+    },
+    "meiji-1872": {
+     "note": "The new government, anxious about foreign opinion, orders men and women to bathe apart."
+    }
+   }
+  },
+  {
+   "id": "nagaya-well",
+   "name": "Back-alley nagaya and well, Kanda",
+   "kind": "house",
+   "position": [
+    3915,
+    3695
+   ],
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "An ura-nagaya, the one-storey row of single-room tenements behind the shops where most townspeople lived: a lane, a shared well fed by the Kanda aqueduct, a privy and a rubbish bin.",
+   "details": [
+    "Each household rented a room of about 2.7 by 3.6 m with an earth-floored kitchen by the door. The 'well' was a shaft into the wooden mains of the Kanda aqueduct, cleaned by all the tenants together every seventh day of the seventh month. The landlord's agent lived by the gate and sold the privy's contents to farmers."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-nagaya",
+    "naito",
+    "mcclain"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The alley gate opens. Women queue at the well with buckets and rice pots; a nattō seller and a clam boy cry their wares down the lane; a carpenter ties on his sandals."
+    },
+    {
+     "hour": 13,
+     "text": "The lane is quiet: the men out working, a widow sewing piecework by her open door, children chasing a cat round the rubbish bin."
+    },
+    {
+     "hour": 21,
+     "text": "Sardine-oil lamps behind paper doors, a quarrel heard through the thin walls, and the gatekeeper's wooden clappers as the alley gate is shut at about ten."
+    }
+   ],
+   "variants": {
+    "meireki-1657": {
+     "note": "Tenements going up again on the burned ground, laid out on blocks rearranged after the fire."
+    },
+    "bunka-1800": {
+     "note": "By now more than half the townspeople live in rows like this."
+    },
+    "meiji-1872": {
+     "note": "Unchanged: the alley tenements outlive the shoguns by decades."
+    }
+   }
+  },
+  {
+   "id": "soba-stall",
+   "name": "Night soba stall at Ryōgoku",
+   "kind": "shop",
+   "position": [
+    4909,
+    3495
+   ],
+   "activePeriods": [
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "A portable stall selling buckwheat noodles in hot broth, carried on a pole and set down on the firebreak at the foot of Ryōgoku Bridge: Edo's fast food.",
+   "details": [
+    "Soba, sushi, tempura and eel were all sold from stalls in Edo, a city of single men and day labourers. 'Nihachi' soba, sixteen mon a bowl, was the standard by 1800. Night sellers carried a stove, broth pot and bowls on a shoulder pole, and the hirokōji, busy until late, was their best pitch."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-soba",
+    "nishiyama"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Last customers: boatmen off the river, a night watchman, a gambler who lost. The seller packs his stove onto the pole and walks home to sleep."
+    },
+    {
+     "hour": 13,
+     "text": "The plaza belongs to the show booths now; the soba man sleeps in his tenement while his wife cuts tomorrow's noodles."
+    },
+    {
+     "hour": 21,
+     "text": "Under a paper lantern he sets down his stall: a bowl of hot soba for sixteen mon, a pinch of grated radish, steam rising into the cold air."
+    }
+   ],
+   "variants": {
+    "meiji-1872": {
+     "note": "The same bowls and broth; prices are now reckoned in sen and rin of the new yen of 1871."
+    }
+   }
+  },
+  {
+   "id": "misemono",
+   "name": "Show booths at Mukō-Ryōgoku",
+   "kind": "market",
+   "position": [
+    5515,
+    3306
+   ],
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "The fairground at the east end of Ryōgoku Bridge: tents of acrobats and freaks, giant figures made of baskets or shells, archery stalls with pretty attendants, and teahouses.",
+   "details": [
+    "Booths on the firebreaks had to be temporary, of reed screens and poles that could be pulled down if fire came. Showmen exhibited a pair of camels in 1824, life-size figures of courtesans and actors made of basketwork or chrysanthemums, and acrobats on bamboo poles. Prints and diaries record crowds every day of the year."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "nishiyama",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Reed screens are tied back to their poles and banners unrolled; a stall-keeper rakes the sand and feeds a caged peacock."
+    },
+    {
+     "hour": 13,
+     "text": "Drums and barkers: 'Come in, come in!' Behind the screens a juggler spins plates, a giant made of baskets towers over the crowd, and a 'mermaid' sits pickled in a jar."
+    },
+    {
+     "hour": 19,
+     "text": "The booths close and the teahouses on the bank light up; boats crowd below the bridge, waiting for the fireworks."
+    }
+   ],
+   "variants": {
+    "meireki-1657": {
+     "note": "Just beginning: the firebreak at the new bridge draws the first storytellers and stalls."
+    }
+   }
+  },
+  {
+   "id": "yose",
+   "name": "Yose storytellers' hall, Shitaya",
+   "kind": "tavern",
+   "position": [
+    4367,
+    1631
+   ],
+   "activePeriods": [
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "A small hall where, from 1798, audiences paid at the door to hear rakugo storytellers, ballad chanters and conjurors; Sanshōtei Karaku's at Shitaya is counted as the first.",
+   "details": [
+    "Rakugo, the comic tale told by one kneeling performer with a fan and a cloth, grew from the storytellers of the 17th century. Karaku's hall near Shitaya Inari is counted as the first regular yose; by 1841 there were over two hundred, until the Tenpō reforms cut them to fifteen. Audiences ate, smoked and heckled."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-rakugo",
+    "nishiyama"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Shut. A poster for tonight's storyteller is pasted by the door, and the doorkeeper sleeps in the back room."
+    },
+    {
+     "hour": 14,
+     "text": "An apprentice beats the drum to call the afternoon crowd; tea and roasted beans for a few coppers."
+    },
+    {
+     "hour": 20,
+     "text": "Sixty people on the mats. The master kneels, opens his fan, and begins the tale of a man who pawned his wife's last kimono; the room roars."
+    }
+   ],
+   "variants": {
+    "meiji-1872": {
+     "note": "The halls are booming again; Sanyūtei Enchō fills them with his ghost stories."
+    }
+   }
+  },
+  {
+   "id": "tsutaya",
+   "name": "Kōshodō, Tsutaya Jūzaburō's shop",
+   "kind": "shop",
+   "position": [
+    4430,
+    3905
+   ],
+   "activePeriods": [
+    "bunka-1800"
+   ],
+   "summary": "The publisher and bookshop of Tsutaya Jūzaburō, who launched Utamaro's beauties, Sharaku's actor prints and the comic fiction of Santō Kyōden; he moved here from the Yoshiwara gate in 1783.",
+   "details": [
+    "Tsutaya began with guidebooks to the Yoshiwara sold at its gate, then published picture books, comic novels, poetry and prints. In 1791, under the Kansei reforms, Kyōden was manacled for fifty days and Tsutaya fined half his fortune for books judged immoral. He died in 1797; in 1800 his successor runs the shop."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tsutaya",
+    "wiki-ukiyo-e"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Apprentices take down the shutters; bundles of new prints arrive from the printers, still smelling of ink and rice paste."
+    },
+    {
+     "hour": 13,
+     "text": "A samurai up from the provinces buys a Yoshiwara guide and three Utamaro beauties to take home; a writer argues with the clerk about his fee."
+    },
+    {
+     "hour": 20,
+     "text": "Lamplight in the back room: the master and a comic poet plan the New Year picture book over sake."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "eijudo",
+   "name": "Eijudō, print publisher (Nishimuraya Yohachi)",
+   "kind": "shop",
+   "position": [
+    4611,
+    3584
+   ],
+   "activePeriods": [
+    "bunka-1800"
+   ],
+   "summary": "The shop in Bakurochō of Nishimuraya Yohachi, one of the great ukiyo-e publishers, which around 1831 would issue Hokusai's Thirty-six Views of Mount Fuji, the Great Wave among them.",
+   "details": [
+    "A print was a team effort run by the publisher: the artist drew the design, a carver cut cherry-wood blocks, one per colour, and a printer rubbed the sheets by hand. A popular print cost about as much as a bowl of noodles, and the shopfront, hung with new sheets, showed the latest actors, beauties and views."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-eijudo",
+    "wiki-ukiyo-e"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "In the workshop behind, carvers sharpen their knives and a printer dampens the first sheets of a new actor print."
+    },
+    {
+     "hour": 13,
+     "text": "New prints hang in the shopfront like washing. A crowd studies the latest kabuki star while a clerk wraps a set of views for a country visitor."
+    },
+    {
+     "hour": 20,
+     "text": "The publisher totals the day's sales and decides how many of the new design to print tomorrow: a thousand, if it sells."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "machi-bikeshi",
+   "name": "Town fire brigade station, Nihonbashi",
+   "kind": "civic",
+   "position": [
+    4069,
+    4771
+   ],
+   "activePeriods": [
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "The station of one of the townsmen's fire brigades (machi-bikeshi), founded in 1720: hooks, ladders and the brigade's standard (matoi), and men who were the heroes of the neighbourhood.",
+   "details": [
+    "The city magistrate Ōoka Tadasuke organised the townsmen's brigades into 47 companies named after the syllables of the iroha poem. Most firemen were scaffolders (tobi); with little water they fought fire by tearing down houses in its path while the standard-bearer marked the line from a roof. Tattooed and proud, they brawled with rival brigades and with sumo wrestlers."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hikeshi",
+    "mcclain"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Men in short coats with the company's crest drill in the street, one balancing on top of a ladder held upright by the rest."
+    },
+    {
+     "hour": 13,
+     "text": "Quiet: hooks and buckets hang on the wall; the firemen are out at their day jobs on scaffolds round the city."
+    },
+    {
+     "hour": 22,
+     "text": "The watchtower bell: fire in Kanda! The men run out with ladders and hooks, the matoi's paper streamers whirling over their heads."
+    }
+   ],
+   "variants": {
+    "meiji-1872": {
+     "note": "The brigades are taken over by the city, renamed, and fight fire as before."
+    }
+   }
+  },
+  {
+   "id": "shinkawa",
+   "name": "Sake wholesalers of Shinkawa",
+   "kind": "dock",
+   "position": [
+    4864,
+    5204
+   ],
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "The canal-side storehouses where sake from Nada and Itami, brought from the Osaka region by fast barrel-ships, was landed and sold to Edo's shops.",
+   "details": [
+    "Edo preferred 'down-come' sake (kudari-zake) from the west to local brews; by the early 1800s hundreds of thousands of barrels arrived every year by sea, and the ships raced each autumn to land the new sake first. Shinkawa, dug in 1660, became the wholesalers' street, its banks walled with storehouses."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sake",
+    "naito"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Lighters come in from the big ships anchored off the river mouth, piled with straw-wrapped barrels; porters roll them up planks into the storehouses."
+    },
+    {
+     "hour": 13,
+     "text": "Buyers from the city's shops taste from little cups and haggle by brand; a clerk chalks prices on a board."
+    },
+    {
+     "hour": 20,
+     "text": "Storehouse doors shut and sealed with plaster against fire; a watchman knocks his clappers along the dark quay."
+    }
+   ],
+   "variants": {
+    "meireki-1657": {
+     "note": "The canal is dug in 1660 by Kawamura Zuiken; the first storehouses go up along it."
+    }
+   }
+  },
+  {
+   "id": "ueno-teahouse",
+   "name": "Teahouses by Shinobazu pond",
+   "kind": "tavern",
+   "position": [
+    3797,
+    1664
+   ],
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "Teahouses on the shore of Shinobazu pond below Ueno hill, for lotus viewing, rice dumplings and lotus-root dishes, with upstairs rooms rented for meetings that needed discretion.",
+   "details": [
+    "Visitors came from Kan'ei-ji and Ueno Hirokōji to watch the lotus open at dawn in summer, which, people said, it did with a soft pop. Some teahouses round the pond were deai-chaya, where couples met in private, and the shogunate cracked down on them from time to time."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-shinobazu",
+    "meisho-zue"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Summer dawn: early visitors sit on the veranda waiting for the lotus to open; one swears he heard it pop."
+    },
+    {
+     "hour": 13,
+     "text": "Pilgrims back from Kan'ei-ji eat dumplings and drink green tea, looking across the water at the Benten hall on its island."
+    },
+    {
+     "hour": 19,
+     "text": "Lanterns along the shore. A couple slips upstairs; the maid pretends not to notice."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "yanagibashi",
+   "name": "Boat-houses at Yanagibashi (funayado)",
+   "kind": "dock",
+   "position": [
+    5063,
+    3184
+   ],
+   "activePeriods": [
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "Boat-houses at the mouth of the Kanda river that hired out fast boar's-tusk boats (chokibune) up the Sumida to the Yoshiwara, and roofed pleasure boats for parties and fireworks.",
+   "details": [
+    "A chokibune, long and narrow and sculled by one man, could carry a customer from Yanagibashi to Sanya-bori near the Yoshiwara in a few pipes' time; it was dear, and rocked so much that riding one with ease marked a man about town. Yanagibashi itself became a geisha district in the 19th century."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "nishiyama",
+    "seidensticker"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Boatmen bail out last night's boats and hang the cushions to dry; one sleeps under a straw mat on the landing."
+    },
+    {
+     "hour": 13,
+     "text": "The boat-house mistress books a roofed boat for a merchants' party at the fireworks, with a cook and two geisha."
+    },
+    {
+     "hour": 18,
+     "text": "Lanterns lit at the landing. A young dandy jumps into a tusk boat, 'To Sanya-bori, and fast!', and is gone upriver."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "terakoya",
+   "name": "Writing school (terakoya), Hatchōbori",
+   "kind": "school",
+   "position": [
+    4412,
+    5292
+   ],
+   "activePeriods": [
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "A neighbourhood school where a teacher, often a samurai, priest or widow, taught children reading, writing and the abacus at low desks in the teacher's own house.",
+   "details": [
+    "Edo had hundreds of such schools by 1800. Children of shopkeepers and artisans came from about six for a few years, copying model letters and primers (ōraimono) and practising sums. Reading was widespread in Edo by the standards of its time. The Education Order of 1872 began replacing the terakoya with state schools."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-terakoya",
+    "nishiyama"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Children arrive with ink stones and copybooks; the teacher's wife sets out the low desks in rows on the mats."
+    },
+    {
+     "hour": 12,
+     "text": "Back from lunch, the older boys copy the merchant's primer while the slow ones practise the abacus, beads clicking."
+    },
+    {
+     "hour": 15,
+     "text": "Lessons end. A boy who spattered ink is kept back to rewrite his page; the rest run off to the canal."
+    }
+   ],
+   "variants": {
+    "meiji-1872": {
+     "note": "The Education Order of 1872 creates state primary schools; this schoolroom will close or become one."
+    }
+   }
+  },
+  {
+   "id": "kira-mansion",
+   "name": "Kira Yoshinaka's mansion, Honjo",
+   "kind": "house",
+   "position": [
+    5841,
+    3517
+   ],
+   "activePeriods": [
+    "meireki-1657"
+   ],
+   "summary": "The Honjo mansion of Kira Yoshinaka, the shogunate's retired master of ceremonies, stormed before dawn in early 1703 by forty-seven former retainers of Lord Asano of Akō.",
+   "details": [
+    "In 1701 Asano Naganori drew his sword on Kira in the castle and was ordered to kill himself that day; his domain was confiscated. Kira moved to this mansion later that year. Led by Ōishi Kuranosuke, the rōnin broke in, killed Kira and carried his head to Asano's grave. A small park keeps part of the site."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-47-ronin",
+    "wiki-kira",
+    "smith-chushingura"
+   ],
+   "vignettes": [
+    {
+     "hour": 4,
+     "text": "The 14th day of the 12th month, before dawn: men in matching black coats come over the walls at front and back, shouting that they are Asano's retainers."
+    },
+    {
+     "hour": 7,
+     "text": "Kira is found hiding in a storeroom and killed. The rōnin wrap his head in cloth and march out in good order, neighbours watching through their shutters."
+    },
+    {
+     "hour": 13,
+     "text": "Officials of the city magistrate inspect the wrecked rooms while a crowd gathers in the street to hear what happened."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kanda-aqueduct",
+   "name": "Kanda aqueduct bridge (Suidōbashi)",
+   "kind": "works",
+   "position": [
+    2034,
+    2452
+   ],
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "The wooden flume that carried the Kanda aqueduct over the Kanda river into the city, feeding the mains that supplied wells all over the low city.",
+   "details": [
+    "Edo's water came from Inokashira pond by the Kanda aqueduct, built in the early 17th century, and from the Tama river by the Tamagawa aqueduct of 1654. It ran by gravity through stone conduits and wooden pipes to wells in every block. Hiroshige painted this flume with carp streamers and Fuji; Suidōbashi means 'aqueduct bridge'."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kanda-river",
+    "hiroshige",
+    "jinnai"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Water whispers through the timber trough over the river; a boatman below holds up a ladle to catch the drips."
+    },
+    {
+     "hour": 13,
+     "text": "Carpenters of the waterworks office replace a rotten plank while a crowd watches from the bridge."
+    },
+    {
+     "hour": 18,
+     "text": "In early summer carp streamers fly from the samurai houses on Surugadai, and Fuji shows pale in the west."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ishikawajima-yoseba",
+   "name": "Ishikawajima workhouse (ninsoku yoseba)",
+   "kind": "prison",
+   "position": [
+    5045,
+    5803
+   ],
+   "activePeriods": [
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "A workhouse set up in 1790 by the police chief Hasegawa Heizō on Ishikawajima, where vagrants and petty criminals were housed and taught trades: an experiment in reform rather than punishment.",
+   "details": [
+    "Under the Kansei reforms, Edo's homeless and unregistered men were rounded up and sent here to learn carpentry, papermaking, oil pressing and other trades. They were paid, and part of their wages was kept for their release. In the Meiji era it became a prison; beside it stood the shipyard founded on the island in 1853."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ishikawajima",
+    "mcclain"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A bell. The inmates in their spotted uniforms line up for rice and soup in the yard."
+    },
+    {
+     "hour": 13,
+     "text": "In the workshops: the smell of pressed oil, the thump of rice-polishing, men planing boards under a guard's eye."
+    },
+    {
+     "hour": 18,
+     "text": "A boat ferries finished baskets and paper to the city; a man whose term is over walks to the landing with his saved wages."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tsukiji-hotel",
+   "name": "Tsukiji Hotel (Hoterukan)",
+   "kind": "inn",
+   "position": [
+    3707,
+    6624
+   ],
+   "activePeriods": [
+    "meiji-1872"
+   ],
+   "summary": "Japan's first Western-style hotel, built in 1868 for foreigners at the new Tsukiji settlement: verandas, a lookout tower with a weathervane, walls of tile and plaster. It burned in the Ginza fire of 1872.",
+   "details": [
+    "Designed by R. P. Bridgens and built by the carpenter Shimizu Kisuke II, it mixed Western rooms and verandas with Japanese tiled roofs and namako walls. Few foreigners came, since most stayed in Yokohama, but Japanese sightseers flocked to it and print artists drew it again and again. Its exact site is approximate here."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tsukiji",
+    "seidensticker"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Japanese sightseers stand outside sketching the tower; a porter in a Western cap sweeps the steps."
+    },
+    {
+     "hour": 13,
+     "text": "A French merchant takes lunch of beef and bread in the dining room, looking out over the bay."
+    },
+    {
+     "hour": 21,
+     "text": "Oil lamps on the empty veranda; the sea wind rattles the weathervane on the tower."
+    }
+   ],
+   "variants": {
+    "meiji-1872": {
+     "note": "Burned in the Ginza fire on the 26th day of the 2nd month, 1872, four years after it opened."
+    }
+   }
+  },
+  {
+   "id": "kanda-market",
+   "name": "Kanda vegetable market",
+   "kind": "market",
+   "position": [
+    3824,
+    3218
+   ],
+   "activePeriods": [
+    "meireki-1657",
+    "bunka-1800",
+    "meiji-1872"
+   ],
+   "summary": "Edo's chief vegetable market, at Sudachō in Kanda, which supplied the shogun's kitchens first and the city after: radishes, eggplants and greens from the farm villages round Edo.",
+   "details": [
+    "The market began in the early 1600s and by the late 17th century had settled round Sudachō beside the road from Sujikai gate. Farmers and wholesalers brought produce by cart and boat before dawn. Its duty to deliver to the castle at fixed low prices was a burden its members complained of for two centuries."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "naito",
+    "mcclain"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Torches and carts: farmers from Nerima unload long white radishes, barrows jam the street, and wholesalers' men bid in a shouted code."
+    },
+    {
+     "hour": 12,
+     "text": "Market over: peddlers carry the greens through the lanes in baskets on poles, crying 'Nasu! Daikon!'"
+    },
+    {
+     "hour": 18,
+     "text": "Sweepers clear the trampled leaves; a castle official checks the list of deliveries owed tomorrow."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kanda-hill",
+   "name": "Levelling of Kanda hill",
+   "kind": "works",
+   "position": [
+    3056,
+    2962
+   ],
+   "activePeriods": [
+    "ieyasu-1610"
+   ],
+   "summary": "From the 1590s, and above all from 1603, gangs levied from the daimyo dug away Kanda hill and carried its earth south to fill the Hibiya inlet and the shallows of the new merchant town.",
+   "details": [
+    "The works of 1603 were ordered by the new shogun, with labour assessed on each daimyo by his income. The fill made much of the land of Nihonbashi, Kyōbashi and Ginza. In 1620 a cut through what was left of the hill carried the Hirakawa straight to the Sumida: the Kanda river."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "naito",
+    "jinnai"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Drums sound and gangs from a daimyo's domain, each under its lord's banner, start digging; baskets of earth pass hand to hand down the slope."
+    },
+    {
+     "hour": 13,
+     "text": "Porters and carts stream south toward the shore; overseers tally the loads, and a rival lord's gang sings to keep the pace."
+    },
+    {
+     "hour": 18,
+     "text": "The raw cut glows in the sunset; carpenters put up huts for the labourers on the new level ground."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "dokan-castle-1457",
+   "title": "Ōta Dōkan builds Edo Castle",
+   "periodId": "dokan-1460",
+   "date": "1457",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "edo-castle"
+   },
+   "effect": "construction",
+   "text": "Ōta Dōkan, steward of the Ōgigayatsu Uesugi in their wars with the Koga kubō, fortified the bluff where the Edo family's house had stood. Visiting monks praised the view from his tower over the bay to Fuji. In 1486 his lord, fearing his power, had him murdered in his bath.",
+   "sourceIds": [
+    "wiki-ota-dokan",
+    "wiki-edo-castle"
+   ]
+  },
+  {
+   "id": "hojo-1524",
+   "title": "The Hōjō take Edo",
+   "periodId": "dokan-1460",
+   "date": "1524",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "edo-castle"
+   },
+   "effect": "crowd",
+   "text": "Hōjō Ujitsuna of Odawara drove the Uesugi out of Edo in 1524. For sixty-six years the castle was a Hōjō outpost held by their deputies, the Tōyama, until Toyotomi Hideyoshi destroyed the Hōjō in 1590 and gave their lands to Tokugawa Ieyasu.",
+   "sourceIds": [
+    "wiki-hojo",
+    "wiki-edo-castle"
+   ]
+  },
+  {
+   "id": "ieyasu-1590",
+   "title": "Tokugawa Ieyasu enters Edo",
+   "periodId": "ieyasu-1610",
+   "date": "1st day, 8th month, 1590",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "edo-castle"
+   },
+   "effect": "procession",
+   "text": "Given the Hōjō lands by Hideyoshi, Ieyasu entered his new castle on the first day of the eighth month, a date the shogunate later kept as a holiday. He found, tradition says, a run-down fort with board roofs; his first work was the Dōsanbori canal to bring in building materials by boat.",
+   "sourceIds": [
+    "wiki-ieyasu",
+    "naito"
+   ]
+  },
+  {
+   "id": "nihonbashi-1603",
+   "title": "Nihonbashi is built",
+   "periodId": "ieyasu-1610",
+   "date": "1603",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "nihonbashi"
+   },
+   "effect": "construction",
+   "text": "The year Ieyasu became shogun, the daimyo were set to levelling Kanda hill and filling the shore to lay out a merchant town, and a bridge was thrown over the new canal at its heart. In 1604 it became the point from which the five highways were measured, with a milestone mound every ri (3.9 km).",
+   "sourceIds": [
+    "wiki-nihonbashi",
+    "naito"
+   ]
+  },
+  {
+   "id": "kanei-keep-1638",
+   "title": "The greatest keep is finished",
+   "periodId": "ieyasu-1610",
+   "date": "1638",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "edo-castle"
+   },
+   "effect": "construction",
+   "text": "Iemitsu, the third shogun, rebuilt the keep for the third time: five storeys about 45 m tall on a 14 m stone base, the tallest castle tower ever raised in Japan, its walls in the usual reconstruction faced with blackened copper. It stood for only nineteen years.",
+   "sourceIds": [
+    "wiki-edo-castle",
+    "coaldrake"
+   ]
+  },
+  {
+   "id": "meireki-fire-1657",
+   "title": "The Great Fire of Meireki",
+   "periodId": "meireki-1657",
+   "date": "2–4 March 1657 (18th–20th day, 1st month)",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "edo-castle"
+   },
+   "effect": "fire",
+   "text": "After a long winter drought a fire broke out at a temple in Hongō, and a north-west gale drove it across the city; new fires next day reached the castle and burned the keep. By the usual count over 100,000 died, many trapped against the Sumida. Legend blamed a cursed long-sleeved kimono burned at the temple.",
+   "sourceIds": [
+    "wiki-meireki-fire",
+    "mcclain"
+   ]
+  },
+  {
+   "id": "new-yoshiwara-1657",
+   "title": "The Yoshiwara moves to the paddies",
+   "periodId": "meireki-1657",
+   "date": "8th month, 1657",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "yoshiwara"
+   },
+   "effect": "crowd",
+   "text": "The move had been ordered in 1656; after the fire the brothel keepers took their houses and women to the new site beyond Asakusa, with a larger plot and leave to trade at night by way of compensation. Clients now came by boat up the Sumida and walked the last stretch along the Nihon-zutsumi dike.",
+   "sourceIds": [
+    "wiki-yoshiwara",
+    "seidensticker"
+   ]
+  },
+  {
+   "id": "ryogoku-1660",
+   "title": "Ryōgoku Bridge opens",
+   "periodId": "meireki-1657",
+   "date": "1659 or 1661",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "ryogoku-bridge"
+   },
+   "effect": "construction",
+   "text": "Thousands had died against the river in 1657 for want of a bridge. The shogunate now spanned the Sumida with a timber bridge about 171 m long and laid out Honjo on the far bank; the firebreak plazas at its ends soon filled with stalls and shows.",
+   "sourceIds": [
+    "wiki-ryogoku-bridge",
+    "wiki-meireki-fire"
+   ]
+  },
+  {
+   "id": "echigoya-1683",
+   "title": "Cash, and no haggling",
+   "periodId": "meireki-1657",
+   "date": "1683",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "echigoya"
+   },
+   "effect": "crowd",
+   "text": "Mitsui Takatoshi moved his dry-goods store to Surugachō and added a money exchange. Selling for cash at marked prices, cutting cloth to any length and serving anyone who came in, against the custom of credit sales to grand clients, Echigoya drew such crowds that rival merchants tried to have it driven out.",
+   "sourceIds": [
+    "wiki-mitsui-takatoshi",
+    "wiki-mitsukoshi"
+   ]
+  },
+  {
+   "id": "ronin-1703",
+   "title": "The forty-seven rōnin strike",
+   "periodId": "meireki-1657",
+   "date": "30 January 1703 (14th day, 12th month, Genroku 15)",
+   "kind": "riot",
+   "at": {
+    "spotId": "kira-mansion"
+   },
+   "effect": "crowd",
+   "text": "Before dawn the former retainers of Asano of Akō stormed Kira Yoshinaka's mansion in Honjo, killed him, and walked across Edo to lay his head on their lord's grave at Sengaku-ji. The shogunate debated for weeks, then ordered them to kill themselves. Retold endlessly, above all in the puppet play and kabuki Chūshingura.",
+   "sourceIds": [
+    "wiki-47-ronin",
+    "smith-chushingura"
+   ]
+  },
+  {
+   "id": "fireworks-1733",
+   "title": "Fireworks over the Sumida",
+   "periodId": "bunka-1800",
+   "date": "28th day, 5th month, 1733",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "ryogoku-bridge"
+   },
+   "effect": "crowd",
+   "text": "After famine and epidemic in 1732, the story goes, shogun Yoshimune ordered prayers for the dead at the river's summer opening, with fireworks. Whatever its origin, the opening night at Ryōgoku became Edo's great summer festival, paid for by boat-houses and restaurants; from 1808 crowds cheered the rival makers Kagiya and Tamaya.",
+   "sourceIds": [
+    "wiki-sumida-fireworks",
+    "hiroshige"
+   ]
+  },
+  {
+   "id": "black-ships-1854",
+   "title": "Black ships in the bay",
+   "periodId": "bunka-1800",
+   "date": "spring 1854",
+   "kind": "civic",
+   "at": {
+    "position": [
+     5678,
+     7045
+    ]
+   },
+   "effect": "none",
+   "text": "Commodore Perry's squadron returned in February 1854 for the shogunate's answer and anchored off Kanagawa, south of this map, where the treaty opening Japan was signed in March. Before leaving, the expedition's narrative says, its steamers came up the bay within sight of Edo. The shogunate had hurried to build gun batteries on islands off Shinagawa.",
+   "sourceIds": [
+    "wiki-perry",
+    "seidensticker"
+   ]
+  },
+  {
+   "id": "ansei-quake-1855",
+   "title": "The Ansei Edo earthquake",
+   "periodId": "bunka-1800",
+   "date": "11 November 1855 (2nd day, 10th month, Ansei 2)",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "yoshiwara"
+   },
+   "effect": "fire",
+   "text": "A strong earthquake struck at night under the city or the bay. Houses on the reclaimed low ground collapsed and dozens of fires broke out; perhaps seven to ten thousand died. In the Yoshiwara, with its single gate, hundreds died in the flames. Prints of a giant catfish, blamed for the quake, sold by the thousand.",
+   "sourceIds": [
+    "wiki-ansei-quake",
+    "seidensticker"
+   ]
+  },
+  {
+   "id": "castle-surrender-1868",
+   "title": "Edo Castle surrendered without a fight",
+   "periodId": "meiji-1872",
+   "date": "3 May 1868 (11th day, 4th month, Keiō 4)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "edo-castle"
+   },
+   "effect": "procession",
+   "text": "With the imperial army at the gates, Katsu Kaishū for the shogunate and Saigō Takamori for the new government agreed that the castle would be handed over, sparing a city of a million a battle. The last shogun withdrew to Mito; Edo was renamed Tokyo, and in November the young emperor arrived to make the castle his palace.",
+   "sourceIds": [
+    "wiki-fall-of-edo",
+    "seidensticker"
+   ]
+  },
+  {
+   "id": "ginza-fire-1872",
+   "title": "The Ginza fire",
+   "periodId": "meiji-1872",
+   "date": "26th day, 2nd month, 1872 (3 April by the Western calendar)",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "ginza-brick"
+   },
+   "effect": "fire",
+   "text": "A fire that started near the Wadakura gate was driven by a strong wind across Ginza and Tsukiji, burning thousands of houses and the Tsukiji Hotel. The governor, Yuri Kimimasa, with the government's backing, seized the chance to rebuild Ginza in brick as a fireproof showcase of 'civilisation and enlightenment'.",
+   "sourceIds": [
+    "wiki-ginza",
+    "seidensticker"
+   ]
+  },
+  {
+   "id": "first-train-1872",
+   "title": "The first train to Yokohama",
+   "periodId": "meiji-1872",
+   "date": "14 October 1872 (12th day, 9th month, Meiji 5)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "shimbashi-station"
+   },
+   "effect": "crowd",
+   "text": "The emperor, in court dress, opened the line, riding with his ministers to Yokohama and back while warships in the bay fired salutes. Crowds packed the embankments to see the locomotive. Regular trains, nine a day each way, began the next morning.",
+   "sourceIds": [
+    "wiki-shimbashi-station",
+    "wiki-rail-japan"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "ronin-walk-1703",
+   "title": "The Rōnin's Walk to Sengaku-ji",
+   "periodId": "meireki-1657",
+   "summary": "Follow Ōishi Kuranosuke's men on the morning of 30 January 1703, from Kira's wrecked mansion across Edo toward their lord's grave, as the chronicles and the rōnin's own letters tell it.",
+   "steps": [
+    {
+     "spotId": "kira-mansion",
+     "title": "The night attack",
+     "when": "before dawn",
+     "text": "The forty-seven, in black coats like firemen's, broke in at the front and back gates. After some two hours they found Kira hiding in a storeroom and killed him. None of them, the accounts say, was killed; several were wounded."
+    },
+    {
+     "landmarkId": "ekoin",
+     "title": "Turned away at Ekōin",
+     "when": "dawn",
+     "text": "They went first to Ekōin, a few streets away, to rest, but the monks kept the gate shut. They waited by the east end of Ryōgoku Bridge and then, rather than cross into the heart of the city, turned south along the east bank."
+    },
+    {
+     "landmarkId": "tsukiji-honganji",
+     "title": "Past their lord's lost mansion",
+     "when": "morning",
+     "text": "Crossing the Sumida by the Eitai bridge, they marched through Teppōzu, past the Hongan-ji at Tsukiji and the mansion that had been Lord Asano's until it was confiscated less than two years before."
+    },
+    {
+     "landmarkId": "zojoji",
+     "title": "Down the Tōkaidō through Shiba",
+     "when": "mid-morning",
+     "text": "Crowds gathered as word spread. They marched down the Tōkaidō past Zōjō-ji with Kira's head wrapped in cloth, to Sengaku-ji beyond the map's southern edge, laid it at Asano's grave and waited for the shogun's judgement. In March 1703 they were ordered to commit seppuku."
+    }
+   ],
+   "sourceIds": [
+    "wiki-47-ronin",
+    "smith-chushingura",
+    "mitford"
+   ]
+  },
+  {
+   "id": "day-in-edo-1800",
+   "title": "A Day in the Shogun's City",
+   "periodId": "bunka-1800",
+   "summary": "From the fish market at dawn to the Yoshiwara at night: one day in Edo around 1800, as the guidebooks, prints and comic novels of the time show it.",
+   "steps": [
+    {
+     "landmarkId": "fish-market",
+     "title": "Dawn at the fish market",
+     "when": "5 am",
+     "text": "Torches on the quay, boats unloading bonito and bream, wholesalers shouting prices. Peddlers fill their tubs and trot off with them on shoulder poles; by breakfast the fish is in every alley of the city."
+    },
+    {
+     "landmarkId": "nihonbashi",
+     "title": "The bridge of Japan",
+     "when": "7 am",
+     "text": "On the arched bridge, porters, priests and a daimyo procession setting out for Kyoto. To the west the castle walls, beyond them Fuji, as every print shows. At the south end, people read the shogun's latest edicts on the notice boards."
+    },
+    {
+     "landmarkId": "echigoya",
+     "title": "Shopping in Surugachō",
+     "when": "10 am",
+     "text": "At Echigoya clerks call out to customers kneeling on the raised floor; bolts of silk and cotton come from the storehouses. You pay cash at the marked price, no haggling, and are lent an umbrella with the shop's mark if it rains."
+    },
+    {
+     "landmarkId": "nakamura-za",
+     "title": "A day at the kabuki",
+     "when": "noon",
+     "text": "The drum on the yagura has been sounding since dawn. Inside, an actor of the Ichikawa line strikes a pose on the hanamichi and the crowd shouts his house name; a teahouse sends in boxed lunches between acts."
+    },
+    {
+     "spotId": "yanagibashi",
+     "title": "A boat up the river",
+     "when": "dusk",
+     "text": "At Yanagibashi you hire a tusk boat. It shoots out under Ryōgoku Bridge, past the fireworks barges and up the darkening Sumida, the boatman sculling hard, to the landing at Sanya-bori."
+    },
+    {
+     "landmarkId": "yoshiwara",
+     "title": "Through the Ōmon",
+     "when": "night",
+     "text": "Along the dike in a deep straw hat, through the great gate, up Naka-no-chō under the lanterns, where an oiran walks in high clogs with her attendants. Behind the lattices, the women for sale, most of them bound by debts they will not pay off."
+    }
+   ],
+   "sourceIds": [
+    "meisho-zue",
+    "hiroshige",
+    "nishiyama"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-edo",
+   "title": "Edo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edo"
+  },
+  {
+   "id": "wiki-sumida",
+   "title": "Sumida River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sumida_River"
+  },
+  {
+   "id": "naito",
+   "title": "Edo, the City that Became Tokyo: An Illustrated History",
+   "author": "Naitō Akira, illustrated by Hozumi Kazuo (Kodansha International, 2003)"
+  },
+  {
+   "id": "seidensticker",
+   "title": "Low City, High City: Tokyo from Edo to the Earthquake",
+   "author": "Edward Seidensticker (Knopf, 1983)"
+  },
+  {
+   "id": "jinnai",
+   "title": "Tokyo: A Spatial Anthropology",
+   "author": "Jinnai Hidenobu (University of California Press, 1995)"
+  },
+  {
+   "id": "mcclain",
+   "title": "Edo and Paris: Urban Life and the State in the Early Modern Era",
+   "author": "James L. McClain, John M. Merriman and Ugawa Kaoru, eds. (Cornell, 1994)"
+  },
+  {
+   "id": "nishiyama",
+   "title": "Edo Culture: Daily Life and Diversions in Urban Japan, 1600–1868",
+   "author": "Nishiyama Matsunosuke, trans. Gerald Groemer (University of Hawai'i Press, 1997)"
+  },
+  {
+   "id": "meisho-zue",
+   "title": "Edo meisho zue (Illustrated guide to the famous places of Edo)",
+   "author": "Saitō Gesshin, illustrated by Hasegawa Settan (1834–36)"
+  },
+  {
+   "id": "wiki-edo-castle",
+   "title": "Edo Castle",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edo_Castle"
+  },
+  {
+   "id": "wiki-ota-dokan",
+   "title": "Ōta Dōkan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C5%8Cta_D%C5%8Dkan"
+  },
+  {
+   "id": "wiki-nihonbashi",
+   "title": "Nihonbashi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nihonbashi"
+  },
+  {
+   "id": "wiki-sensoji",
+   "title": "Sensō-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sens%C5%8D-ji"
+  },
+  {
+   "id": "wiki-kaminarimon",
+   "title": "Kaminarimon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaminarimon"
+  },
+  {
+   "id": "wiki-kaneiji",
+   "title": "Kan'ei-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kan%27ei-ji"
+  },
+  {
+   "id": "wiki-battle-ueno",
+   "title": "Battle of Ueno",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Ueno"
+  },
+  {
+   "id": "wiki-zojoji",
+   "title": "Zōjō-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Z%C5%8Dj%C5%8D-ji"
+  },
+  {
+   "id": "wiki-kanda-shrine",
+   "title": "Kanda Shrine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kanda_Shrine"
+  },
+  {
+   "id": "wiki-kanda-matsuri",
+   "title": "Kanda Matsuri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kanda_Matsuri"
+  },
+  {
+   "id": "wiki-yushima-seido",
+   "title": "Yushima Seidō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yushima_Seid%C5%8D"
+  },
+  {
+   "id": "wiki-ryogoku-bridge",
+   "title": "Ryōgoku Bridge",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ry%C5%8Dgoku_Bridge"
+  },
+  {
+   "id": "wiki-sumida-fireworks",
+   "title": "Sumidagawa Fireworks Festival",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sumidagawa_Fireworks_Festival"
+  },
+  {
+   "id": "wiki-ekoin",
+   "title": "Ekō-in",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ek%C5%8D-in"
+  },
+  {
+   "id": "wiki-meireki-fire",
+   "title": "Great fire of Meireki",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_fire_of_Meireki"
+  },
+  {
+   "id": "wiki-tsukiji-market",
+   "title": "Tsukiji fish market",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tsukiji_fish_market"
+  },
+  {
+   "id": "wiki-mitsukoshi",
+   "title": "Mitsukoshi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mitsukoshi"
+  },
+  {
+   "id": "wiki-mitsui-takatoshi",
+   "title": "Mitsui Takatoshi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mitsui_Takatoshi"
+  },
+  {
+   "id": "wiki-nakamura-za",
+   "title": "Nakamura-za",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nakamura-za"
+  },
+  {
+   "id": "wiki-kabuki",
+   "title": "Kabuki",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kabuki"
+  },
+  {
+   "id": "wiki-yoshiwara",
+   "title": "Yoshiwara",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yoshiwara"
+  },
+  {
+   "id": "wiki-akamon",
+   "title": "Akamon (Tokyo)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Akamon_(Tokyo)"
+  },
+  {
+   "id": "wiki-kaga-domain",
+   "title": "Kaga Domain",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaga_Domain"
+  },
+  {
+   "id": "wiki-sankin",
+   "title": "Sankin-kōtai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sankin-k%C5%8Dtai"
+  },
+  {
+   "id": "wiki-tsukiji-honganji",
+   "title": "Tsukiji Hongan-ji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tsukiji_Hongan-ji"
+  },
+  {
+   "id": "wiki-tsukiji",
+   "title": "Tsukiji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tsukiji"
+  },
+  {
+   "id": "wiki-hie-shrine",
+   "title": "Hie Shrine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hie_Shrine"
+  },
+  {
+   "id": "wiki-sanno-matsuri",
+   "title": "Sannō Matsuri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sann%C5%8D_Matsuri"
+  },
+  {
+   "id": "wiki-hikeshi",
+   "title": "Hikeshi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hikeshi"
+  },
+  {
+   "id": "wiki-shimbashi-station",
+   "title": "Shimbashi Station",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shimbashi_Station"
+  },
+  {
+   "id": "wiki-shiodome",
+   "title": "Shiodome",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shiodome"
+  },
+  {
+   "id": "wiki-rail-japan",
+   "title": "Rail transport in Japan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rail_transport_in_Japan"
+  },
+  {
+   "id": "wiki-ginza",
+   "title": "Ginza",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ginza"
+  },
+  {
+   "id": "wiki-shinobazu",
+   "title": "Shinobazu Pond",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shinobazu_Pond"
+  },
+  {
+   "id": "wiki-tomioka",
+   "title": "Tomioka Hachiman Shrine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tomioka_Hachiman_Shrine"
+  },
+  {
+   "id": "wiki-fudasashi",
+   "title": "Fudasashi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fudasashi"
+  },
+  {
+   "id": "wiki-asakusa",
+   "title": "Asakusa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Asakusa"
+  },
+  {
+   "id": "coaldrake",
+   "title": "Architecture and Authority in Japan",
+   "author": "William H. Coaldrake (Routledge, 1996)"
+  },
+  {
+   "id": "hiroshige",
+   "title": "One Hundred Famous Views of Edo (1856–59) and The Fifty-three Stations of the Tōkaidō (1833–34)",
+   "author": "Utagawa Hiroshige",
+   "url": "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo"
+  },
+  {
+   "id": "wiki-masakado",
+   "title": "Taira no Masakado",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taira_no_Masakado"
+  },
+  {
+   "id": "wiki-sento",
+   "title": "Sentō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sent%C5%8D"
+  },
+  {
+   "id": "wiki-nagaya",
+   "title": "Nagaya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nagaya"
+  },
+  {
+   "id": "wiki-soba",
+   "title": "Soba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Soba"
+  },
+  {
+   "id": "wiki-rakugo",
+   "title": "Rakugo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rakugo"
+  },
+  {
+   "id": "wiki-tsutaya",
+   "title": "Tsutaya Jūzaburō",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tsutaya_J%C5%ABzabur%C5%8D"
+  },
+  {
+   "id": "wiki-eijudo",
+   "title": "Nishimuraya Yohachi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nishimuraya_Yohachi"
+  },
+  {
+   "id": "wiki-ukiyo-e",
+   "title": "Ukiyo-e",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ukiyo-e"
+  },
+  {
+   "id": "wiki-sake",
+   "title": "Sake",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sake"
+  },
+  {
+   "id": "wiki-terakoya",
+   "title": "Terakoya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Terakoya"
+  },
+  {
+   "id": "wiki-47-ronin",
+   "title": "Forty-seven rōnin",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Forty-seven_r%C5%8Dnin"
+  },
+  {
+   "id": "wiki-kira",
+   "title": "Kira Yoshinaka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kira_Yoshinaka"
+  },
+  {
+   "id": "wiki-kanda-river",
+   "title": "Kanda River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kanda_River"
+  },
+  {
+   "id": "wiki-ishikawajima",
+   "title": "Ishikawajima",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ishikawajima"
+  },
+  {
+   "id": "wiki-hojo",
+   "title": "Late Hōjō clan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Late_H%C5%8Dj%C5%8D_clan"
+  },
+  {
+   "id": "wiki-ieyasu",
+   "title": "Tokugawa Ieyasu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu"
+  },
+  {
+   "id": "wiki-perry",
+   "title": "Perry Expedition",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Perry_Expedition"
+  },
+  {
+   "id": "wiki-ansei-quake",
+   "title": "1855 Edo earthquake",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1855_Edo_earthquake"
+  },
+  {
+   "id": "wiki-fall-of-edo",
+   "title": "Fall of Edo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fall_of_Edo"
+  },
+  {
+   "id": "sanba",
+   "title": "Ukiyoburo (The Bathhouse of the Floating World)",
+   "author": "Shikitei Sanba (1809–13)"
+  },
+  {
+   "id": "smith-chushingura",
+   "title": "The Capacity of Chūshingura",
+   "author": "Henry D. Smith II, Monumenta Nipponica 58:1 (2003)"
+  },
+  {
+   "id": "mitford",
+   "title": "Tales of Old Japan",
+   "author": "A. B. Mitford (1871)"
+  }
+ ]
+}
