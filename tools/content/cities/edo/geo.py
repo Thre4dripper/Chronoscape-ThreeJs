@@ -1,0 +1,400 @@
+"""Edo / Tokyo: city, frame, eras and the map's geography (lat, lon; metres)."""
+
+CITY = dict(
+    name="Edo",
+    subtitle="The Shogun's City",
+    description="Edo from Ōta Dōkan's castle of 1457 to early Meiji Tokyo in 1872: the castle and its moats, the low city of canals between them and the bay, the Sumida with Asakusa and Ryōgoku, Ueno, Shiba and the new land of Honjo and Fukagawa. Positions are projected from real coordinates; shorelines follow the usual reconstructions; the drawing is an illustration, not a survey.",
+    defaultPeriodId="bunka-1800",
+    world=dict(scale=0.01, heightScale=1.0, walls=["#E8E0CC", "#DCD1B8", "#C9B596", "#A68A66", "#8C7356"], roofs=["#6E7073", "#5F6164", "#7C7A72"]),
+    camera=dict(target=(35.6850, 139.7680), distance=42),
+)
+
+# 7.49 km east-west by 7.49 km north-south: Yoshiwara at the top edge, Zōjō-ji at the bottom.
+FRAME = ((35.7245, 139.7302), (35.6570, 139.8130))
+
+PALETTE = dict(parchment="#E7D6AE", ink="#5E4632", water="#62868C", hill="#7A7F5C", road="#8A6B4B")
+COMPASS = (35.7185, 139.8085)
+CARTOUCHE = (35.6592, 139.7882)
+
+ALL = ["dokan-1460", "ieyasu-1610", "meireki-1657", "bunka-1800", "meiji-1872"]
+TOKUGAWA = ["ieyasu-1610", "meireki-1657", "bunka-1800", "meiji-1872"]
+LATER = ["meireki-1657", "bunka-1800", "meiji-1872"]
+LATE = ["bunka-1800", "meiji-1872"]
+
+PERIODS = [
+    dict(id="dokan-1460", label="Dōkan's Edo", year=1460, startYear=1457, endYear=1589,
+         summary="In 1457 Ōta Dōkan, steward of the Ōgigayatsu Uesugi, built a castle where the Musashino plateau ends in a bluff above the Hibiya inlet. Below it lay fishing and salt-making hamlets and a small port where boats from the bay landed rice, salt and tea; Sensō-ji drew pilgrims to Asakusa. Everything was built of timber, earth and thatch.",
+         population="a few thousand at most (no count survives)",
+         feel="Gulls over the mud flats at low tide, smoke from the salt kettles, and the castle's thatched halls on the bluff above the reeds.",
+         style="japanese",
+         houses=dict(title="Fishing hamlets of Edo and Shibasaki", text="One-room houses of posts and boards under thatch or bark, with earth floors, a raised plank platform and a sunken hearth. Nets dry on poles, boats are pulled up on the shore, and salt is boiled down in iron pans on the beach."),
+         outskirts=dict(title="Paddies and reed beds", text="Rice in the valleys, barley and millet on the plateau, reed beds and tidal flats along the inlet, and thatched farmhouses under oak and bamboo.")),
+    dict(id="ieyasu-1610", label="Early Tokugawa Edo", year=1610, startYear=1590, endYear=1656,
+         summary="Tokugawa Ieyasu arrived in 1590 and, shogun from 1603, made the daimyo of all Japan build his castle. Kanda hill was cut down to fill the Hibiya inlet and the shore, canals were dug for boats bringing stone and timber, and Nihonbashi (1603) became the starting point of the highways. A white five-storey keep rose in 1607 and was rebuilt in 1623 and 1638.",
+         population="perhaps 150,000 around 1610 (estimates vary widely)",
+         feel="Hammers and the chants of stone-haulers everywhere, raw timber and wet plaster, carts of earth rumbling from Kanda hill down to the shore.",
+         style="japanese",
+         houses=dict(title="Machiya of the new merchant town", text="Blocks laid out on a grid of 60-ken (about 110 m) squares from Nihonbashi: narrow-fronted timber shops of one storey or a low upper floor, board or shingle roofs weighted with stones, open to the street, with a shared well and privy behind."),
+         outskirts=dict(title="Daimyo mansions and farm villages", text="Daimyo build walled mansions with gilded, carved gates near the castle; beyond them, thatched farm villages, paddies and woods.")),
+    dict(id="meireki-1657", label="After the Meireki Fire", year=1657, startYear=1657, endYear=1715,
+         summary="In March 1657 the Great Fire of Meireki burned for three days, destroyed most of the city and the castle keep and, by the usual figure, killed over 100,000 people. Rebuilding remade Edo: firebreaks and embankments, temples and mansions moved out of the centre, the Yoshiwara moved beyond Asakusa, and Ryōgoku Bridge opened new land east of the Sumida. The keep was never rebuilt.",
+         population="perhaps 400,000 before the fire, nearing a million by 1715 (estimates)",
+         feel="Charred ground and new raw timber, fire bells on the lookout towers, and wide empty firebreaks where crowds and showmen gather.",
+         style="japanese",
+         houses=dict(title="Rebuilt machiya and nagaya", text="Shops rebuilt in timber under board or shingle roofs (tiles were restricted for townhouses until 1720), plastered storehouses behind; through gates in the shop rows, back-alley nagaya of single rooms along a lane with a shared well, privy and rubbish pit."),
+         outskirts=dict(title="Mansions and temple towns", text="Daimyo villas and resettled temples on the edges, and new streets laid out over the paddies and marshes of Honjo and Fukagawa.")),
+    dict(id="bunka-1800", label="The Shogun's City", year=1800, startYear=1716, endYear=1867,
+         summary="Around 1800 Edo held about a million people, perhaps the largest city in the world. Half were samurai and their households, in the mansions of some 260 daimyo obliged to live here every other year. Townspeople crowd the low city of canals by the bay: the fish market at Nihonbashi, kabuki at Sakai-chō, the Yoshiwara, fireworks over the Sumida, and fire every winter.",
+         population="about 1,000,000",
+         feel="Hawkers' cries in the alleys at dawn, sardine-oil lamps, sake and soy on the river barges; at dusk the boats rowing up to the Yoshiwara and fireworks booming at Ryōgoku.",
+         style="japanese",
+         houses=dict(title="Machiya and back-alley nagaya", text="On the street, two-storey shops with tiled roofs, plastered fronts and indigo curtains, fireproof storehouses behind. Through a gate, the nagaya: rooms about 2.7 by 3.6 m with an earth-floored kitchen, rented by artisans and peddlers who share a well, privy and rubbish pit."),
+         outskirts=dict(title="Samurai yashiki", text="The high city is mansion land: daimyo compounds behind long gate-houses where retainers lodge, gardens with ponds and hills, and lesser samurai in fenced houses with vegetable plots.")),
+    dict(id="meiji-1872", label="Early Meiji Tokyo", year=1872, startYear=1868, endYear=1885,
+         summary="Edo became Tokyo, the 'eastern capital', in 1868, and the emperor moved into the castle. With the daimyo gone home, much of the city stood empty and some mansion land was planted with mulberry and tea. After the Ginza fire of 1872 the government began a street of brick houses on Western lines, and in October the first railway ran from Shimbashi to Yokohama.",
+         population="perhaps 600,000 to 800,000, well below Edo's peak",
+         feel="Rickshaws (new since about 1870) rattling down the Tōkaidō, men in Western hats over kimono, bricklayers in Ginza and the whistle of the Yokohama train.",
+         style="japanese",
+         houses=dict(title="Machiya, and Ginza brick", text="Most townspeople still live in timber machiya and nagaya as under the shoguns. In burned Ginza two-storey brick terraces with colonnaded fronts, designed by Thomas Waters, are going up; many Japanese find them damp and are slow to move in."),
+         outskirts=dict(title="Empty mansions", text="The daimyo and their retainers have left. Many yashiki stand empty or become ministries, barracks and schools; in 1869 the city began planting mulberry and tea on abandoned samurai land.")),
+]
+
+# ---------------------------------------------------------------- water
+
+SUMIDA_UPPER = [(35.7250, 139.8075), (35.7183, 139.8040), (35.7148, 139.8018), (35.7107, 139.7990), (35.7065, 139.7963),
+                (35.7020, 139.7945), (35.6990, 139.7930), (35.6960, 139.7895), (35.6940, 139.7882)]
+SUMIDA_LOWER = [(35.6940, 139.7882), (35.6905, 139.7895), (35.6880, 139.7912), (35.6822, 139.7905), (35.6790, 139.7885),
+                (35.6762, 139.7865), (35.6725, 139.7835), (35.6690, 139.7808), (35.6645, 139.7795)]
+
+WATER = [
+    # Edo Bay: wide bands following each era's shore (the land the Tokugawa reclaimed moves the shore seaward)
+    dict(id="bay-1800a", name="Edo Bay", width=700, periods=LATER, blurb="Edo-wan, the shallow bay that fed the city with fish, seaweed and clams and carried its rice, sake and timber. Its mud flats were filled, block by block, to make Tsukiji, Hama-goten and Fukagawa.",
+         path=[(35.6526, 139.7619), (35.6584, 139.7630), (35.6606, 139.7638), (35.6609, 139.7690), (35.6607, 139.7725), (35.6620, 139.7768), (35.6638, 139.7798), (35.6637, 139.7845), (35.6629, 139.7899), (35.6635, 139.7955), (35.6643, 139.8024), (35.6648, 139.8092), (35.6649, 139.8180)]),
+    dict(id="bay-1800b", name="Edo Bay", width=800, periods=LATER,
+         path=[(35.6560, 139.7700), (35.6552, 139.7734), (35.6572, 139.7801), (35.6574, 139.7898), (35.6582, 139.7964), (35.6589, 139.8031), (35.6594, 139.8095), (35.6595, 139.8181)]),
+    dict(id="bay-1800c", name="Edo Bay", width=1400, periods=LATER,
+         path=[(35.6530, 139.7700), (35.6535, 139.8200)]),
+    dict(id="bay-1610a", name="Edo Bay", width=700, periods=["ieyasu-1610"], blurb="Ieyasu's Edo still faced the open bay at Kyōbashi and Hatchōbori; the shore was pushed out year by year with earth from Kanda hill.",
+         path=[(35.6526, 139.7599), (35.6593, 139.7612), (35.6633, 139.7629), (35.6670, 139.7678), (35.6719, 139.7742), (35.6744, 139.7791), (35.6764, 139.7840), (35.6768, 139.7866), (35.6763, 139.7908), (35.6745, 139.7983), (35.6738, 139.8058), (35.6738, 139.8180)]),
+    dict(id="bay-1610b", name="Edo Bay", width=700, periods=["ieyasu-1610"],
+         path=[(35.6517, 139.7664), (35.6580, 139.7677), (35.6603, 139.7686), (35.6630, 139.7723), (35.6676, 139.7783), (35.6697, 139.7824), (35.6712, 139.7861), (35.6710, 139.7895), (35.6692, 139.7970), (35.6684, 139.8054), (35.6684, 139.8180)]),
+    dict(id="bay-1610c", name="Edo Bay", width=700, periods=["ieyasu-1610"],
+         path=[(35.6567, 139.7742), (35.6591, 139.7768), (35.6633, 139.7824), (35.6650, 139.7857), (35.6657, 139.7881), (35.6639, 139.7956), (35.6630, 139.8050), (35.6630, 139.8180)]),
+    dict(id="bay-1610d", name="Edo Bay", width=1400, periods=["ieyasu-1610"],
+         path=[(35.6560, 139.7700), (35.6560, 139.8200)]),
+    dict(id="bay-1460a", name="Edo Bay", width=700, periods=["dokan-1460"], blurb="In Dōkan's day the bay reached far inland: the Hibiya inlet lapped the foot of the castle bluff, and the shore ran up the east side of the Edo-maejima sandbar to the mouth of the river.",
+         path=[(35.6612, 139.7684), (35.6705, 139.7749), (35.6774, 139.7819), (35.6847, 139.7879), (35.6901, 139.7907), (35.6880, 139.7978), (35.6858, 139.8054), (35.6853, 139.8178)]),
+    dict(id="bay-1460b", name="Edo Bay", width=700, periods=["dokan-1460"],
+         path=[(35.6585, 139.7741), (35.6674, 139.7804), (35.6742, 139.7872), (35.6821, 139.7938), (35.6841, 139.7922), (35.6829, 139.7954), (35.6805, 139.8041), (35.6799, 139.8175)]),
+    dict(id="bay-1460c", name="Edo Bay", width=700, periods=["dokan-1460"],
+         path=[(35.6558, 139.7799), (35.6643, 139.7859), (35.6709, 139.7925), (35.6778, 139.7933), (35.6751, 139.8028), (35.6745, 139.8172)]),
+    dict(id="bay-1460d", name="Edo Bay", width=1600, periods=["dokan-1460"],
+         path=[(35.6600, 139.7760), (35.6600, 139.8200)]),
+    dict(id="bay-1460e", name="Edo Bay", width=800, periods=["dokan-1460"],
+         path=[(35.6690, 139.7900), (35.6690, 139.8200)]),
+    dict(id="bay-1460f", name="Edo Bay", width=900, periods=["dokan-1460"],
+         path=[(35.6730, 139.7860), (35.6730, 139.8200)]),
+    dict(id="hibiya-inlet", name="Hibiya inlet (Hibiya-irie)", width=650, periods=["dokan-1460"], blurb="A shallow arm of the bay running up to the foot of Dōkan's castle, between the bluff and the Edo-maejima sandbar. Ieyasu filled it from the 1590s with earth from Kanda hill; Marunouchi and Hibiya stand on it.",
+         path=[(35.6560, 139.7600), (35.6655, 139.7598), (35.6740, 139.7603)]),
+    dict(id="hibiya-inlet-head", name="Hibiya inlet (Hibiya-irie)", width=300, periods=["dokan-1460"],
+         path=[(35.6740, 139.7605), (35.6800, 139.7618), (35.6858, 139.7638)]),
+    dict(id="hibiya-remnant", name="Hibiya inlet, being filled", width=170, periods=["ieyasu-1610"], blurb="What was left of the Hibiya inlet while daimyo gangs dumped earth from Kanda hill into it; the mansions of Daimyō-kōji rose on the fill behind them.",
+         path=[(35.6640, 139.7605), (35.6690, 139.7588), (35.6722, 139.7582)]),
+    dict(id="sumida-1460", name="Sumida-gawa", width=190, periods=["dokan-1460"], blurb="Then the lower course of the Iruma and Ara rivers, wandering through reeds to the bay; Asakusa stood on a sandy bank on its west side.",
+         path=SUMIDA_UPPER + [(35.6922, 139.7892)]),
+    dict(id="sumida-1610", name="Sumida-gawa", width=170, periods=["ieyasu-1610"], blurb="The river, also called Ōkawa, 'the great river', carried barges of rice and timber down to the bay; its east bank was still reed and marsh.",
+         path=SUMIDA_UPPER + SUMIDA_LOWER[1:6]),
+    dict(id="sumida", name="Sumida-gawa (Ōkawa)", width=170, periods=LATER, blurb="Edo's great river, crossed by five bridges by 1800. Rice barges, sake boats from Osaka, lumber rafts and pleasure boats crowded it; its banks held the shogun's granaries, the Ryōgoku fairground and the fireworks of summer.",
+         path=SUMIDA_UPPER + SUMIDA_LOWER[1:]),
+    dict(id="sumida-east", name="Sumida-gawa, east channel", width=80, periods=LATER,
+         path=[(35.6764, 139.7872), (35.6725, 139.7888), (35.6690, 139.7894), (35.6650, 139.7898)]),
+    dict(id="hirakawa-1460", name="Hirakawa", width=30, periods=["dokan-1460"], blurb="The little river that ran under the castle's north side into the head of the Hibiya inlet. Ieyasu diverted it east through Nihonbashi.",
+         path=[(35.7045, 139.7440), (35.7020, 139.7500), (35.6990, 139.7545), (35.6950, 139.7570), (35.6915, 139.7605), (35.6880, 139.7630), (35.6860, 139.7638)]),
+    dict(id="hirakawa-1610", name="Hirakawa", width=30, periods=["ieyasu-1610"],
+         path=[(35.7045, 139.7440), (35.7020, 139.7500), (35.6990, 139.7545), (35.6955, 139.7567)]),
+    dict(id="nihonbashi-gawa", name="Nihonbashi-gawa", width=40, periods=TOKUGAWA, blurb="The canal-river through the heart of the merchant city, dug from the old course of the Hirakawa. Fish, vegetables, rice and timber came up it by boat to the quays of Nihonbashi.",
+         path=[(35.6955, 139.7567), (35.6940, 139.7590), (35.6920, 139.7622), (35.6900, 139.7660), (35.6880, 139.7697), (35.6872, 139.7713), (35.6853, 139.7733), (35.6840, 139.7747), (35.6834, 139.7768), (35.6818, 139.7792), (35.6802, 139.7818), (35.6792, 139.7850), (35.6790, 139.7880)]),
+    dict(id="nihonbashi-upper", name="Nihonbashi-gawa", width=36, periods=LATER,
+         path=[(35.7021, 139.7535), (35.6990, 139.7552), (35.6955, 139.7567)]),
+    dict(id="kanda-gawa", name="Kanda-gawa", width=36, periods=LATER, blurb="Cut through Kanda hill from 1620 to carry the Hirakawa straight to the Sumida, making a deep green gorge at Ochanomizu and the northern moat of the city.",
+         path=[(35.7020, 139.7450), (35.7022, 139.7530), (35.7012, 139.7600), (35.6998, 139.7650), (35.6993, 139.7690), (35.6985, 139.7725), (35.6977, 139.7765), (35.6970, 139.7810), (35.6966, 139.7845), (35.6956, 139.7868), (35.6952, 139.7885)]),
+    dict(id="sotobori", name="Sotobori (outer moat)", width=50, periods=LATER, blurb="The outer moat, finished in 1636 by the daimyo of eastern Japan, closed the castle's spiral of moats: from Iidabashi round Yotsuya, Akasaka and Toranomon to Tokiwabashi, with gates (mitsuke) at every crossing.",
+         path=[(35.7020, 139.7450), (35.6995, 139.7420), (35.6950, 139.7385), (35.6915, 139.7362), (35.6880, 139.7320), (35.6862, 139.7302), (35.6820, 139.7290), (35.6775, 139.7350), (35.6772, 139.7365)]),
+    dict(id="tameike", name="Tameike and the southern moat", width=60, periods=LATER, blurb="Tameike, 'the reservoir', was a dammed pond in the valley below Hie shrine that served as both water supply and moat.",
+         path=[(35.6772, 139.7365), (35.6748, 139.7370), (35.6728, 139.7392), (35.6718, 139.7425), (35.6705, 139.7470), (35.6700, 139.7495), (35.6705, 139.7560), (35.6712, 139.7595), (35.6728, 139.7625)]),
+    dict(id="sotobori-east", name="Sotobori (outer moat)", width=40, periods=TOKUGAWA,
+         path=[(35.6872, 139.7713), (35.6850, 139.7705), (35.6815, 139.7695), (35.6775, 139.7672), (35.6728, 139.7625)]),
+    dict(id="shiodome", name="Shiodome-gawa", width=30, periods=TOKUGAWA, blurb="'Tide-stop' canal: the south end of the outer moat, running out to the bay past the Hama-goten.",
+         path=[(35.6712, 139.7595), (35.6690, 139.7598), (35.6677, 139.7600), (35.6667, 139.7618), (35.6655, 139.7640), (35.6640, 139.7660)]),
+    dict(id="kyobashi-gawa", name="Kyōbashi-gawa and Hatchōbori", width=30, periods=TOKUGAWA,
+         path=[(35.6775, 139.7672), (35.6767, 139.7705), (35.6760, 139.7745), (35.6752, 139.7785), (35.6738, 139.7815), (35.6725, 139.7832)]),
+    dict(id="sanjikkenbori", name="Sanjikkenbori", width=22, periods=LATER,
+         path=[(35.6760, 139.7745), (35.6720, 139.7700), (35.6685, 139.7655), (35.6667, 139.7625)]),
+    dict(id="shinkawa", name="Shinkawa", width=20, periods=LATER, blurb="Dug in 1660 by the merchant Kawamura Zuiken across Reiganjima; its banks were lined with the storehouses of the sake wholesalers.",
+         path=[(35.6770, 139.7862), (35.6776, 139.7840), (35.6784, 139.7812)]),
+    dict(id="kamejima", name="Kamejima-gawa", width=22, periods=LATER,
+         path=[(35.6800, 139.7822), (35.6784, 139.7812), (35.6760, 139.7808), (35.6738, 139.7815)]),
+    dict(id="onagi", name="Onagi-gawa", width=40, periods=TOKUGAWA, blurb="A canal dug in the 1590s to bring salt from Gyōtoku to Edo; later the main water route east to the Tone river and the provinces.",
+         path=[(35.6836, 139.7908), (35.6840, 139.8000), (35.6846, 139.8140)]),
+    dict(id="tatekawa", name="Tatekawa", width=36, periods=LATER, blurb="Dug from 1659 to drain Honjo and open it to boats, when the new suburb was laid out after the Meireki fire.",
+         path=[(35.6908, 139.7900), (35.6912, 139.8000), (35.6918, 139.8140)]),
+    dict(id="oyokogawa", name="Ōyokogawa", width=30, periods=LATER,
+         path=[(35.7120, 139.8095), (35.6918, 139.8088), (35.6846, 139.8082), (35.6720, 139.8075)]),
+    dict(id="sanyabori", name="Sanya-bori", width=16, periods=LATER, blurb="The canal from the Sumida toward the Yoshiwara: pleasure-seekers came up the river by fast boat and walked the last stretch along the dike.",
+         path=[(35.7182, 139.8045), (35.7215, 139.8010), (35.7250, 139.7985)]),
+    # the castle's inner moats
+    dict(id="uchibori", name="Uchibori (inner moats)", width=45, periods=TOKUGAWA, blurb="The inner moats round the castle's baileys, each with its own name: Hirakawa, Ōte, Kikyō, Wadakura, Babasaki, Hibiya, Sakurada, Hanzō, Chidorigafuchi and Ushigafuchi. Their stone walls stand to this day.",
+         path=[(35.6930, 139.7590), (35.6900, 139.7618), (35.6862, 139.7618), (35.6835, 139.7615), (35.6800, 139.7612), (35.6765, 139.7595), (35.6760, 139.7555), (35.6775, 139.7520), (35.6800, 139.7475), (35.6835, 139.7450),
+               (35.6862, 139.7445), (35.6895, 139.7455), (35.6925, 139.7480), (35.6950, 139.7505), (35.6945, 139.7540), (35.6935, 139.7565), (35.6930, 139.7590)]),
+    dict(id="inui-hasuike", name="Inui and Hasuike moats", width=34, periods=TOKUGAWA,
+         path=[(35.6935, 139.7530), (35.6905, 139.7507), (35.6870, 139.7504), (35.6843, 139.7515), (35.6838, 139.7560), (35.6840, 139.7595), (35.6836, 139.7614)]),
+    dict(id="hirakawa-bori", name="Hirakawa-bori", width=30, periods=TOKUGAWA,
+         path=[(35.6935, 139.7530), (35.6922, 139.7560), (35.6920, 139.7600)]),
+    dict(id="shinobazu", name="Shinobazu-no-ike", width=360, blurb="A marshy lake left by an old arm of the bay. Tenkai saw Lake Biwa in it and set a Benten temple on its island; lotus filled it in summer, and teahouses lined its shore.",
+         path=[(35.7146, 139.7690), (35.7106, 139.7694)]),
+]
+
+ISLANDS = [
+    dict(name="Tsukudajima and Ishikawajima", periods=LATER,
+         polygon=[(35.6735, 139.7848), (35.6735, 139.7872), (35.6700, 139.7880), (35.6670, 139.7862), (35.6668, 139.7830), (35.6690, 139.7824), (35.6715, 139.7838)]),
+    dict(name="Hama-goten", periods=LATER,
+         polygon=[(35.6626, 139.7604), (35.6626, 139.7668), (35.6604, 139.7690), (35.6572, 139.7680), (35.6555, 139.7640), (35.6566, 139.7600)]),
+    dict(name="Benten-jima",
+         polygon=[(35.7124, 139.7686), (35.7125, 139.7700), (35.7116, 139.7704), (35.7110, 139.7697), (35.7112, 139.7686)]),
+]
+
+HILLS = [
+    dict(id="ueno", name="Ueno (Shinobugaoka)", center=(35.7178, 139.7765), radius=380, blurb="The wooded tip of the Musashino plateau above Shinobazu pond, given to Kan'ei-ji in 1625 and famous for its cherries."),
+    dict(id="hongo", name="Hongō and Yushima", center=(35.7095, 139.7630), radius=500, blurb="Plateau of mansions and temples above the low city; Kaga's huge estate filled much of it."),
+    dict(id="kanda-yama", name="Kanda-yama", center=(35.6985, 139.7625), radius=380, periods=["dokan-1460", "ieyasu-1610"], blurb="The hill whose earth filled the Hibiya inlet and the shore of Nihonbashi from the 1590s; what was left became Surugadai."),
+    dict(id="surugadai", name="Surugadai", center=(35.6980, 139.7600), radius=220, label=False, periods=LATER, blurb="The cut-down stump of Kanda hill, settled by bannermen from Suruga after 1616."),
+    dict(id="kojimachi", name="Kōjimachi plateau", center=(35.6880, 139.7400), radius=500, blurb="The high ground west of the castle, where the shogun's guards and bannermen lived."),
+    dict(id="atago", name="Atagoyama", center=(35.6648, 139.7487), radius=110, blurb="A steep 26 m hill with a shrine reached by 86 stone steps; the best view over the bay."),
+    dict(id="hie-hill", name="Hoshigaoka", center=(35.6750, 139.7395), radius=120, label=False),
+]
+
+# ---------------------------------------------------------------- roads
+
+ROADS = [
+    dict(id="tokaido", name="Tōkaidō", width=18, style="major", labelled=True, periods=TOKUGAWA, blurb="The Eastern Sea Road to Kyoto, 53 stations long. From Nihonbashi it ran down Ginza and Shiba to Shinagawa; daimyo processions, couriers, pilgrims and pack-horses filled it.",
+         path=[(35.6836, 139.7745), (35.6800, 139.7728), (35.6767, 139.7705), (35.6717, 139.7649), (35.6677, 139.7600), (35.6640, 139.7578), (35.6600, 139.7562), (35.6550, 139.7550)]),
+    dict(id="nakasendo", name="Nakasendō", width=14, style="major", labelled=True, periods=TOKUGAWA, blurb="The mountain road to Kyoto, leaving Nihonbashi north through Kanda and up onto the Hongō plateau.",
+         path=[(35.6844, 139.7750), (35.6866, 139.7737), (35.6918, 139.7713), (35.6955, 139.7702), (35.6984, 139.7712), (35.7010, 139.7716), (35.7040, 139.7700), (35.7068, 139.7640), (35.7090, 139.7600), (35.7170, 139.7585), (35.7250, 139.7545)]),
+    dict(id="oshu-kaido", name="Ōshū and Nikkō kaidō", width=14, style="major", labelled=True, periods=TOKUGAWA, blurb="The road north to Nikkō and the far north, through Asakusa-mitsuke, past the shogun's granaries at Kuramae and the gate of Sensō-ji to Senju.",
+         path=[(35.6866, 139.7737), (35.6895, 139.7795), (35.6925, 139.7828), (35.6966, 139.7843), (35.7000, 139.7895), (35.7030, 139.7908), (35.7065, 139.7942), (35.7100, 139.7958), (35.7106, 139.7962), (35.7110, 139.7980), (35.7150, 139.7990), (35.7190, 139.8008), (35.7250, 139.8042)]),
+    dict(id="koshu-kaido", name="Kōshū kaidō", width=12, style="major", labelled=True, periods=TOKUGAWA, blurb="The road west to Kōfu, from the castle's Hanzō gate through Kōjimachi to Yotsuya.",
+         path=[(35.6858, 139.7440), (35.6862, 139.7380), (35.6862, 139.7295)]),
+    dict(id="ote", name="Ōte to Tokiwabashi", width=12, style="minor", periods=TOKUGAWA,
+         path=[(35.6863, 139.7625), (35.6866, 139.7665), (35.6871, 139.7708)]),
+    dict(id="ryogoku-hirokoji", name="Ryōgoku Hirokōji", width=16, style="major", labelled=True, periods=LATER, blurb="A firebreak plaza at the west foot of Ryōgoku Bridge that became Edo's fairground: show booths, archery stalls, teahouses, food stands and storytellers.",
+         path=[(35.6900, 139.7805), (35.6928, 139.7845), (35.6940, 139.7871)]),
+    dict(id="honjo-road", name="Road to Kameido", width=10, style="minor", periods=LATER,
+         path=[(35.6940, 139.7893), (35.6941, 139.7915), (35.6943, 139.8000), (35.6946, 139.8135)]),
+    dict(id="eitai-road", name="Eitai-bashi road", width=10, style="minor", periods=LATER,
+         path=[(35.6790, 139.7790), (35.6772, 139.7830), (35.6763, 139.7850), (35.6757, 139.7888), (35.6735, 139.7930), (35.6722, 139.7980)]),
+    dict(id="ueno-hirokoji", name="Onari-michi (Ueno Hirokōji)", width=14, style="major", periods=TOKUGAWA, blurb="The shogun's road from Sujikai gate to Kan'ei-ji, widened into a firebreak below Ueno hill.",
+         path=[(35.6984, 139.7716), (35.7040, 139.7728), (35.7100, 139.7737), (35.7146, 139.7740)]),
+    dict(id="asakusa-dori", name="Shitaya to Asakusa", width=10, style="minor", periods=LATER,
+         path=[(35.7105, 139.7745), (35.7105, 139.7850), (35.7104, 139.7955)]),
+    dict(id="nihon-zutsumi", name="Nihon-zutsumi", width=8, style="minor", labelled=True, periods=LATER, blurb="The dike across the paddies to the Yoshiwara, walked at night by men in deep straw hats.",
+         path=[(35.7183, 139.8028), (35.7228, 139.7975), (35.7250, 139.7948)]),
+    dict(id="kamakura-road", name="Old road to Kamakura", width=8, style="minor", periods=["dokan-1460"], blurb="The old road along the bay from Shinagawa to the castle and on to Asakusa and the north.",
+         path=[(35.6550, 139.7543), (35.6700, 139.7538), (35.6800, 139.7560), (35.6845, 139.7580)]),
+    dict(id="asakusa-road-1460", name="Road to Asakusa", width=8, style="minor", periods=["dokan-1460"],
+         path=[(35.6905, 139.7612), (35.6935, 139.7680), (35.6990, 139.7780), (35.7050, 139.7900), (35.7104, 139.7955)]),
+    dict(id="asakusa-road-1610", name="Asakusa road", width=10, style="minor", periods=["ieyasu-1610"],
+         path=[(35.6966, 139.7843), (35.7000, 139.7895), (35.7065, 139.7942), (35.7104, 139.7958)]),
+    dict(id="railway", name="Railway to Yokohama", width=8, style="minor", labelled=True, periods=["meiji-1872"], blurb="Japan's first railway, 29 km to Yokohama, built with British engineers and opened in October 1872; south of Shiba it ran on an embankment in the sea.",
+         path=[(35.6642, 139.7614), (35.6600, 139.7594), (35.6545, 139.7580)]),
+]
+
+# The castle's stone walls are part of its miniature; Edo had no city wall.
+WALLS = []
+
+GATES = [
+    dict(id="otemon", name="Ōte-mon", position=(35.6862, 139.7618), periods=TOKUGAWA),
+    dict(id="sakuradamon", name="Sakurada-mon", position=(35.6768, 139.7535), periods=TOKUGAWA),
+    dict(id="hanzomon", name="Hanzō-mon", position=(35.6859, 139.7446), periods=TOKUGAWA),
+    dict(id="tayasumon", name="Tayasu-mon", position=(35.6948, 139.7508), periods=TOKUGAWA),
+    dict(id="wadakuramon", name="Wadakura-mon", position=(35.6825, 139.7613), periods=TOKUGAWA),
+    dict(id="tokiwabashi", name="Tokiwabashi-mon", position=(35.6872, 139.7713), periods=TOKUGAWA),
+    dict(id="sukiyabashi", name="Sukiyabashi-mon", position=(35.6728, 139.7625), periods=LATER),
+    dict(id="sujikai", name="Sujikai-mitsuke", position=(35.6979, 139.7712), periods=LATER),
+    dict(id="asakusa-mitsuke", name="Asakusa-mitsuke", position=(35.6962, 139.7843), periods=LATER),
+    dict(id="ushigome", name="Ushigome-mitsuke", position=(35.7012, 139.7442), periods=LATER),
+    dict(id="ichigaya", name="Ichigaya-mitsuke", position=(35.6917, 139.7364), periods=LATER),
+    dict(id="akasaka", name="Akasaka-mitsuke", position=(35.6772, 139.7368), periods=LATER),
+    dict(id="toranomon", name="Tora-no-mon", position=(35.6701, 139.7493), periods=LATER),
+]
+
+BRIDGES = [
+    dict(id="nihonbashi-b", name="Nihonbashi", path=[(35.6837, 139.7745), (35.6844, 139.7749)], build="timber", arches=1, landmarkId="nihonbashi", periods=TOKUGAWA,
+         blurb="The 'bridge of Japan', the zero point from which every highway's distances were measured."),
+    dict(id="edobashi", name="Edobashi", path=[(35.6829, 139.7766), (35.6838, 139.7771)], build="timber", arches=1, periods=TOKUGAWA),
+    dict(id="tokiwabashi-b", name="Tokiwabashi", path=[(35.6867, 139.7710), (35.6876, 139.7716)], build="timber", arches=1, periods=TOKUGAWA),
+    dict(id="kyobashi", name="Kyōbashi", path=[(35.6763, 139.7703), (35.6771, 139.7707)], build="timber", arches=1, periods=TOKUGAWA),
+    dict(id="shimbashi-b", name="Shimbashi", path=[(35.6673, 139.7598), (35.6681, 139.7602)], build="timber", arches=1, periods=TOKUGAWA),
+    dict(id="ryogoku-b", name="Ryōgoku-bashi", path=[(35.6940, 139.7871), (35.6940, 139.7893)], build="timber", arches=8, landmarkId="ryogoku-bridge", periods=LATER,
+         blurb="'The bridge of two provinces', Musashi and Shimōsa."),
+    dict(id="shin-ohashi", name="Shin-Ōhashi", path=[(35.6878, 139.7898), (35.6882, 139.7926)], build="timber", arches=8, periods=LATER, blurb="Built in 1693; Hiroshige painted it in a summer downpour."),
+    dict(id="eitaibashi", name="Eitai-bashi", path=[(35.6764, 139.7850), (35.6757, 139.7888)], build="timber", arches=9, periods=LATER, blurb="Built in 1698. In 1807 it collapsed under the festival crowds going to Tomioka Hachiman and hundreds drowned."),
+    dict(id="azumabashi", name="Azuma-bashi", path=[(35.7107, 139.7977), (35.7108, 139.8001)], build="timber", arches=8, periods=LATE, blurb="The bridge at Asakusa, built in 1774."),
+    dict(id="sujikai-b", name="Sujikai-bashi", path=[(35.6980, 139.7712), (35.6991, 139.7713)], build="timber", arches=1, periods=LATER),
+    dict(id="asakusabashi", name="Asakusa-bashi", path=[(35.6961, 139.7843), (35.6971, 139.7845)], build="timber", arches=1, periods=LATER),
+    dict(id="shoheibashi", name="Shōhei-bashi", path=[(35.6990, 139.7680), (35.7000, 139.7681)], build="timber", arches=1, periods=LATER),
+]
+
+AQUEDUCTS = [
+    dict(name="Kanda aqueduct bridge (Suidōbashi)", path=[(35.7031, 139.7524), (35.7013, 139.7527)], periods=LATER),
+]
+
+# ---------------------------------------------------------------- built-up areas
+
+BLOCKS = [
+    # Dōkan's hamlets
+    dict(name="Hirakawa village", density="loose", periods=["dokan-1460"], polygon=[(35.6935, 139.7610), (35.6948, 139.7660), (35.6918, 139.7690), (35.6898, 139.7650)]),
+    dict(name="Shibasaki village", density="loose", periods=["dokan-1460"], polygon=[(35.6885, 139.7650), (35.6895, 139.7705), (35.6862, 139.7715), (35.6850, 139.7668)]),
+    dict(name="Edo-maejima hamlet", density="loose", periods=["dokan-1460"], polygon=[(35.6835, 139.7718), (35.6838, 139.7770), (35.6800, 139.7768), (35.6798, 139.7722)]),
+    dict(name="Asakusa village", density="loose", periods=["dokan-1460"], polygon=[(35.7160, 139.7915), (35.7165, 139.7955), (35.7060, 139.7952), (35.7062, 139.7915)]),
+    dict(name="Shiba fishing village", density="loose", periods=["dokan-1460"], polygon=[(35.6640, 139.7520), (35.6640, 139.7550), (35.6575, 139.7552), (35.6575, 139.7520)]),
+    dict(name="Kanda village", density="loose", periods=["dokan-1460"], polygon=[(35.6968, 139.7690), (35.6970, 139.7740), (35.6935, 139.7745), (35.6930, 139.7700)]),
+
+    # the low city (shitamachi)
+    dict(name="Kanda", density="dense", periods=TOKUGAWA, polygon=[(35.6972, 139.7655), (35.6970, 139.7720), (35.6965, 139.7790), (35.6955, 139.7838), (35.6905, 139.7810), (35.6880, 139.7745), (35.6890, 139.7700), (35.6905, 139.7655)]),
+    dict(name="Surugadai", density="loose", periods=LATER, polygon=[(35.7008, 139.7545), (35.6994, 139.7645), (35.6908, 139.7650), (35.6915, 139.7600), (35.6945, 139.7575), (35.6985, 139.7552)]),
+    dict(name="Nihonbashi and Kyōbashi", density="dense", periods=TOKUGAWA, polygon=[(35.6862, 139.7712), (35.6835, 139.7745), (35.6815, 139.7785), (35.6795, 139.7815), (35.6760, 139.7800), (35.6760, 139.7700), (35.6780, 139.7680), (35.6830, 139.7700)]),
+    dict(name="Honchō, Ōdenmachō and Bakurochō", density="dense", periods=TOKUGAWA, polygon=[(35.6885, 139.7722), (35.6900, 139.7800), (35.6948, 139.7848), (35.6930, 139.7866), (35.6890, 139.7888), (35.6840, 139.7890), (35.6800, 139.7860), (35.6830, 139.7790), (35.6850, 139.7750), (35.6862, 139.7728)]),
+    dict(name="Reiganjima and Hatchōbori", density="dense", periods=LATER, polygon=[(35.6792, 139.7820), (35.6786, 139.7866), (35.6760, 139.7855), (35.6728, 139.7825), (35.6735, 139.7790), (35.6758, 139.7800)]),
+    dict(name="Ginza and Kobikichō", density="dense", periods=LATER, polygon=[(35.6772, 139.7680), (35.6762, 139.7765), (35.6725, 139.7790), (35.6690, 139.7730), (35.6668, 139.7660), (35.6672, 139.7610), (35.6700, 139.7600), (35.6730, 139.7630)]),
+    dict(name="Ginza, the new shore", density="dense", periods=["ieyasu-1610"], polygon=[(35.6772, 139.7680), (35.6758, 139.7745), (35.6722, 139.7718), (35.6690, 139.7660), (35.6672, 139.7612), (35.6700, 139.7600), (35.6730, 139.7630)]),
+    dict(name="Tsukiji", density="loose", periods=LATER, polygon=[(35.6722, 139.7795), (35.6690, 139.7792), (35.6668, 139.7782), (35.6646, 139.7752), (35.6640, 139.7718), (35.6642, 139.7692), (35.6660, 139.7665), (35.6688, 139.7725)]),
+    dict(name="Shiba", density="dense", periods=TOKUGAWA, polygon=[(35.6668, 139.7588), (35.6625, 139.7595), (35.6575, 139.7590), (35.6575, 139.7535), (35.6610, 139.7515), (35.6645, 139.7535), (35.6668, 139.7560)]),
+    dict(name="Tsukudajima", density="dense", periods=LATER, polygon=[(35.6728, 139.7850), (35.6730, 139.7868), (35.6702, 139.7876), (35.6676, 139.7858), (35.6677, 139.7835), (35.6695, 139.7832)]),
+
+    # mansions round the castle
+    dict(name="Daimyō-kōji", density="loose", periods=TOKUGAWA, polygon=[(35.6880, 139.7630), (35.6872, 139.7670), (35.6858, 139.7695), (35.6810, 139.7686), (35.6770, 139.7660), (35.6748, 139.7628), (35.6770, 139.7612), (35.6840, 139.7625)]),
+    dict(name="Hibiya mansions", density="loose", periods=TOKUGAWA, polygon=[(35.6748, 139.7505), (35.6745, 139.7590), (35.6738, 139.7612), (35.6722, 139.7600), (35.6716, 139.7560), (35.6712, 139.7505)]),
+    dict(name="Nishinomaru", density="loose", periods=TOKUGAWA, polygon=[(35.6832, 139.7520), (35.6828, 139.7595), (35.6790, 139.7598), (35.6782, 139.7535)]),
+    dict(name="Kitanomaru", density="loose", periods=TOKUGAWA, polygon=[(35.6942, 139.7505), (35.6938, 139.7545), (35.6925, 139.7558), (35.6912, 139.7512)]),
+    dict(name="Kasumigaseki and Sakurada", density="loose", periods=TOKUGAWA, polygon=[(35.6795, 139.7425), (35.6770, 139.7498), (35.6750, 139.7500), (35.6722, 139.7470), (35.6735, 139.7420)]),
+    dict(name="Kōjimachi and Banchō", density="loose", periods=TOKUGAWA, polygon=[(35.6935, 139.7330), (35.6938, 139.7440), (35.6870, 139.7440), (35.6866, 139.7310)]),
+    dict(name="Nagatachō and Akasaka", density="loose", periods=TOKUGAWA, polygon=[(35.6852, 139.7365), (35.6853, 139.7438), (35.6805, 139.7468), (35.6772, 139.7440), (35.6775, 139.7385), (35.6810, 139.7345)]),
+    dict(name="Akasaka town", density="dense", periods=LATER, polygon=[(35.6760, 139.7305), (35.6765, 139.7352), (35.6725, 139.7385), (35.6705, 139.7305)]),
+    dict(name="Atago and Toranomon", density="loose", periods=TOKUGAWA, polygon=[(35.6695, 139.7430), (35.6690, 139.7550), (35.6660, 139.7545), (35.6640, 139.7525), (35.6600, 139.7510), (35.6596, 139.7440)]),
+    dict(name="Azabu and Akasaka mansions", density="loose", periods=LATER, polygon=[(35.6695, 139.7310), (35.6690, 139.7420), (35.6600, 139.7430), (35.6585, 139.7310)]),
+    dict(name="Ichigaya and Ushigome", density="loose", periods=LATER, polygon=[(35.6935, 139.7305), (35.7080, 139.7305), (35.7080, 139.7428), (35.7035, 139.7440), (35.6995, 139.7405), (35.6952, 139.7370)]),
+    dict(name="Koishikawa", density="loose", periods=LATER, polygon=[(35.7090, 139.7440), (35.7240, 139.7430), (35.7240, 139.7525), (35.7090, 139.7540)]),
+    dict(name="Hongō and Yushima", density="loose", periods=LATER, polygon=[(35.7035, 139.7560), (35.7240, 139.7545), (35.7240, 139.7690), (35.7135, 139.7700), (35.7050, 139.7705), (35.7028, 139.7660)]),
+
+    # north and east
+    dict(name="Shitaya", density="dense", periods=LATER, polygon=[(35.7092, 139.7745), (35.7095, 139.7800), (35.7010, 139.7798), (35.6995, 139.7745), (35.7010, 139.7700), (35.7060, 139.7705)]),
+    dict(name="Shin-Teramachi (temple town)", density="loose", periods=LATER, polygon=[(35.7098, 139.7805), (35.7098, 139.7900), (35.7035, 139.7895), (35.6990, 139.7850), (35.6990, 139.7805)]),
+    dict(name="Kuramae and Komagata", density="dense", periods=LATER, polygon=[(35.7102, 139.7905), (35.7104, 139.7952), (35.7060, 139.7940), (35.7028, 139.7912), (35.7030, 139.7880), (35.7070, 139.7880)]),
+    dict(name="Asakusa", density="dense", periods=LATER, polygon=[(35.7112, 139.7900), (35.7180, 139.7900), (35.7188, 139.8010), (35.7150, 139.7998), (35.7115, 139.7985)]),
+    dict(name="Asakusa temple town", density="loose", periods=["ieyasu-1610"], polygon=[(35.7112, 139.7900), (35.7180, 139.7900), (35.7188, 139.8010), (35.7150, 139.7998), (35.7115, 139.7985)]),
+    dict(name="Asakusa village", density="loose", periods=["ieyasu-1610"], polygon=[(35.7102, 139.7905), (35.7104, 139.7952), (35.7030, 139.7915), (35.7035, 139.7880)]),
+    dict(name="Honjo riverside", density="dense", periods=LATE, polygon=[(35.7100, 139.8012), (35.7040, 139.7982), (35.6995, 139.7962), (35.6962, 139.7925), (35.6915, 139.7920), (35.6915, 139.7990), (35.7000, 139.8030), (35.7100, 139.8060)]),
+    dict(name="Honjo riverside", density="loose", periods=["meireki-1657"], polygon=[(35.7100, 139.8012), (35.7040, 139.7982), (35.6995, 139.7962), (35.6962, 139.7925), (35.6915, 139.7920), (35.6915, 139.7990), (35.7000, 139.8030), (35.7100, 139.8060)]),
+    dict(name="Honjo mansions", density="loose", periods=LATE, polygon=[(35.7100, 139.8065), (35.6915, 139.7995), (35.6915, 139.8128), (35.7100, 139.8128)]),
+    dict(name="Fukagawa", density="dense", periods=LATE, polygon=[(35.6900, 139.7915), (35.6898, 139.8020), (35.6790, 139.8010), (35.6762, 139.7960), (35.6745, 139.7915), (35.6775, 139.7905)]),
+    dict(name="Fukagawa", density="loose", periods=["meireki-1657"], polygon=[(35.6900, 139.7915), (35.6898, 139.8020), (35.6790, 139.8010), (35.6762, 139.7960), (35.6745, 139.7915), (35.6775, 139.7905)]),
+    dict(name="Fukagawa village", density="loose", periods=["ieyasu-1610"], polygon=[(35.6895, 139.7915), (35.6895, 139.7990), (35.6800, 139.7985), (35.6795, 139.7920)]),
+    dict(name="Monzen-nakachō", density="dense", periods=LATER, polygon=[(35.6740, 139.7905), (35.6742, 139.8050), (35.6690, 139.8050), (35.6676, 139.7960), (35.6688, 139.7902)]),
+    dict(name="Fukagawa east", density="loose", periods=LATE, polygon=[(35.6895, 139.8025), (35.6895, 139.8128), (35.6760, 139.8128), (35.6762, 139.8020)]),
+    dict(name="Kiba lumber yards", density="loose", periods=LATER, polygon=[(35.6745, 139.8058), (35.6750, 139.8128), (35.6690, 139.8128), (35.6688, 139.8058)]),
+    dict(name="Tokyo foreign settlement (Tsukiji)", density="loose", periods=["meiji-1872"], polygon=[(35.6705, 139.7745), (35.6700, 139.7790), (35.6675, 139.7792), (35.6670, 139.7755)]),
+]
+
+GARDENS = [
+    dict(name="Fukiage garden", kind="park", periods=LATER, polygon=[(35.6905, 139.7462), (35.6905, 139.7500), (35.6862, 139.7500), (35.6835, 139.7505), (35.6838, 139.7462)]),
+    dict(name="Hama-goten", kind="park", periods=LATER, polygon=[(35.6622, 139.7608), (35.6622, 139.7664), (35.6602, 139.7684), (35.6578, 139.7676), (35.6562, 139.7640), (35.6570, 139.7605)]),
+    dict(name="Koishikawa Kōrakuen", kind="park", periods=TOKUGAWA, polygon=[(35.7075, 139.7468), (35.7078, 139.7530), (35.7040, 139.7535), (35.7038, 139.7470)]),
+    dict(name="Kaga mansion garden (Ikutoku-en)", kind="park", periods=LATER, polygon=[(35.7135, 139.7618), (35.7140, 139.7665), (35.7100, 139.7668), (35.7098, 139.7620)]),
+    dict(name="Ueno hill", kind="park", periods=TOKUGAWA, polygon=[(35.7230, 139.7700), (35.7232, 139.7790), (35.7175, 139.7800), (35.7130, 139.7760), (35.7135, 139.7720), (35.7175, 139.7705)]),
+    dict(name="Zōjō-ji grounds", kind="park", periods=TOKUGAWA, polygon=[(35.6612, 139.7462), (35.6612, 139.7520), (35.6572, 139.7525), (35.6572, 139.7462)]),
+    dict(name="Sensō-ji grounds", kind="park", periods=ALL, polygon=[(35.7165, 139.7940), (35.7165, 139.7985), (35.7110, 139.7985), (35.7110, 139.7942)]),
+    dict(name="Mulberry and tea fields", kind="orchard", periods=["meiji-1872"], polygon=[(35.6930, 139.7340), (35.6932, 139.7420), (35.6880, 139.7420), (35.6878, 139.7340)]),
+    dict(name="Mulberry and tea fields", kind="orchard", periods=["meiji-1872"], polygon=[(35.7230, 139.7445), (35.7230, 139.7515), (35.7170, 139.7515), (35.7170, 139.7445)]),
+    dict(name="Woods of the castle bluff", kind="park", periods=["dokan-1460"], polygon=[(35.6930, 139.7450), (35.6930, 139.7510), (35.6830, 139.7510), (35.6820, 139.7460)]),
+]
+
+MARSH = [
+    dict(name="Reed marshes of Honjo", periods=["dokan-1460"], polygon=[(35.7245, 139.8100), (35.7245, 139.8130), (35.6895, 139.8130), (35.6925, 139.7955), (35.6975, 139.7965), (35.7060, 139.7995), (35.7140, 139.8050), (35.7200, 139.8075)]),
+    dict(name="Reed marshes of Honjo", periods=["ieyasu-1610"], polygon=[(35.7245, 139.8100), (35.7245, 139.8130), (35.6900, 139.8130), (35.6900, 139.7995), (35.6950, 139.7955), (35.7060, 139.7995), (35.7140, 139.8050), (35.7200, 139.8075)]),
+    dict(name="Fukagawa reed flats", periods=["ieyasu-1610"], polygon=[(35.6825, 139.8000), (35.6825, 139.8130), (35.6790, 139.8130), (35.6785, 139.8000)]),
+    dict(name="Honjo marsh (being drained)", periods=["meireki-1657"], polygon=[(35.7245, 139.8085), (35.7245, 139.8130), (35.7105, 139.8130), (35.7105, 139.8085)]),
+    dict(name="Hibiya fill", periods=["ieyasu-1610"], polygon=[(35.6645, 139.7570), (35.6720, 139.7565), (35.6740, 139.7600), (35.6705, 139.7618), (35.6655, 139.7622)]),
+    dict(name="Asakusa paddies (Asakusa tanbo)", periods=["dokan-1460", "ieyasu-1610"], polygon=[(35.7240, 139.7860), (35.7240, 139.7990), (35.7185, 139.7990), (35.7180, 139.7860)]),
+]
+
+DISTRICTS = [
+    dict(id="d-edo-1460", name="Edo village", periods=["dokan-1460"], description="'Edo' probably means 'mouth of the inlet'. The Edo family had a fortified house here from the 12th century; Dōkan's castle made the place a small market town and port at the head of the bay.",
+         polygon=[(35.6950, 139.7600), (35.6955, 139.7720), (35.6840, 139.7730), (35.6840, 139.7640)]),
+    dict(id="d-edomaejima", name="Edo-maejima", periods=["dokan-1460"], description="A low sandbar of fishing hamlets east of the Hibiya inlet. The Tokugawa merchant city of Nihonbashi, Kyōbashi and Ginza was built on it and on the shallows beside it.",
+         polygon=[(35.6850, 139.7660), (35.6860, 139.7820), (35.6700, 139.7720), (35.6640, 139.7660)]),
+    dict(id="d-nihonbashi", name="Nihonbashi", periods=TOKUGAWA, description="The merchants' heart of Edo: fish and rice markets, the great dry-goods stores of Surugachō, wholesalers' warehouses along the canals, and the bridge from which all roads were measured.",
+         polygon=[(35.6895, 139.7712), (35.6905, 139.7810), (35.6800, 139.7860), (35.6790, 139.7720)]),
+    dict(id="d-kanda", name="Kanda", periods=TOKUGAWA, description="Artisans' quarter: streets named for dyers, smiths, carpenters and tatami makers, the vegetable market, and the Kanda Myōjin festival every other year.",
+         polygon=[(35.6975, 139.7655), (35.6965, 139.7830), (35.6900, 139.7800), (35.6895, 139.7660)]),
+    dict(id="d-daimyokoji", name="Daimyō-kōji", periods=["ieyasu-1610", "meireki-1657", "bunka-1800"], description="'Daimyo lane', between the inner and outer moats: the great lords' upper mansions, with gate-houses in black lacquer and the residences of the shogun's chief officials.",
+         polygon=[(35.6880, 139.7625), (35.6858, 139.7695), (35.6750, 139.7630), (35.6770, 139.7612)]),
+    dict(id="d-marunouchi", name="Marunouchi", periods=["meiji-1872"], description="The emptied daimyo mansions inside the moat now hold ministries, the army's barracks and parade grounds; the land will be sold to Mitsubishi in 1890.",
+         polygon=[(35.6880, 139.7625), (35.6858, 139.7695), (35.6750, 139.7630), (35.6770, 139.7612)]),
+    dict(id="d-ginza", name="Kyōbashi and Ginza", periods=TOKUGAWA, description="Named after the silver mint (gin-za) moved here in 1612. Along the Tōkaidō: craftsmen, lacquerers and shops; behind it Kobikichō, the sawyers' town, with its own kabuki theatre.",
+         polygon=[(35.6772, 139.7680), (35.6760, 139.7765), (35.6690, 139.7730), (35.6670, 139.7610)]),
+    dict(id="d-asakusa", name="Asakusa", periods=ALL, description="The temple town of Sensō-ji, Edo's oldest place of pilgrimage. Under the Tokugawa it was the city's playground: shops, archery booths and teahouses round the temple, and after 1842 the kabuki theatres at Saruwaka-chō.",
+         polygon=[(35.7180, 139.7900), (35.7190, 139.8010), (35.7100, 139.7975), (35.7105, 139.7900)]),
+    dict(id="d-ueno", name="Ueno", periods=TOKUGAWA, description="The hill of Kan'ei-ji, the shogunal temple guarding the castle's unlucky north-east, with the Tōshōgū and cherries that drew crowds every spring.",
+         polygon=[(35.7230, 139.7700), (35.7232, 139.7790), (35.7130, 139.7760), (35.7135, 139.7700)]),
+    dict(id="d-honjo", name="Honjo", periods=LATER, description="Laid out over the marshes east of the Sumida after 1657, reached by Ryōgoku Bridge: lesser daimyo and bannermen, Ekōin and the sumo booths, timber and charcoal yards along the canals.",
+         polygon=[(35.7100, 139.8000), (35.7100, 139.8128), (35.6905, 139.8128), (35.6915, 139.7920)]),
+    dict(id="d-fukagawa", name="Fukagawa", periods=LATER, description="Reclaimed land of canals and timber yards round Tomioka Hachiman: the lumber merchants' Kiba, warehouses, and unlicensed geisha famous for their haori jackets.",
+         polygon=[(35.6900, 139.7915), (35.6898, 139.8128), (35.6680, 139.8128), (35.6688, 139.7900)]),
+    dict(id="d-shiba", name="Shiba", periods=TOKUGAWA, description="Temple and harbour town along the Tōkaidō where it reaches the bay, round Zōjō-ji, the Tokugawa family temple.",
+         polygon=[(35.6670, 139.7510), (35.6668, 139.7595), (35.6575, 139.7595), (35.6575, 139.7510)]),
+    dict(id="d-yamanote", name="Yamanote", periods=TOKUGAWA, description="The 'hand of the hills': the plateau west and north of the castle, cut by green valleys, given over to daimyo mansions and samurai housing.",
+         polygon=[(35.7080, 139.7305), (35.7080, 139.7440), (35.6780, 139.7440), (35.6780, 139.7305)]),
+    dict(id="d-tsukiji", name="Tsukiji", periods=LATER, description="'Built land', reclaimed from the bay after the 1657 fire for the rebuilt Hongan-ji and daimyo mansions; from 1868 the foreign settlement and its mission schools.",
+         polygon=[(35.6722, 139.7795), (35.6646, 139.7752), (35.6642, 139.7692), (35.6688, 139.7725)]),
+]
+
+LABELS = [
+    dict(text="EDO-WAN", position=(35.6612, 139.8040), size="lg", rotation=0, periods=TOKUGAWA),
+    dict(text="EDO-WAN", position=(35.6700, 139.8010), size="lg", rotation=-15, periods=["dokan-1460"]),
+    dict(text="Sumida-gawa", position=(35.7030, 139.7962), size="md", rotation=-62),
+    dict(text="Hibiya-irie", position=(35.6690, 139.7600), size="sm", rotation=-88, periods=["dokan-1460"]),
+    dict(text="Kanda-gawa", position=(35.6982, 139.7745), size="sm", rotation=-10, periods=LATER),
+    dict(text="Nihonbashi-gawa", position=(35.6812, 139.7808), size="sm", rotation=-35, periods=TOKUGAWA),
+    dict(text="Shinobazu", position=(35.7140, 139.7672), size="sm", rotation=0),
+    dict(text="EDO-JŌ", position=(35.6812, 139.7545), size="lg", rotation=0, periods=TOKUGAWA[:-1]),
+    dict(text="KYŪJŌ (Imperial Palace)", position=(35.6812, 139.7545), size="md", rotation=0, periods=["meiji-1872"]),
+    dict(text="Edo-jō", position=(35.6930, 139.7535), size="md", rotation=0, periods=["dokan-1460"]),
+    dict(text="UENO", position=(35.7205, 139.7760), size="md", rotation=0, periods=TOKUGAWA),
+    dict(text="ASAKUSA", position=(35.7180, 139.7905), size="md", rotation=0),
+    dict(text="KANDA", position=(35.6950, 139.7680), size="md", rotation=0, periods=TOKUGAWA),
+    dict(text="NIHONBASHI", position=(35.6800, 139.7745), size="md", rotation=0, periods=TOKUGAWA),
+    dict(text="HONJO", position=(35.7010, 139.8070), size="md", rotation=0, periods=LATER),
+    dict(text="FUKAGAWA", position=(35.6800, 139.8060), size="md", rotation=0, periods=LATER),
+    dict(text="SHIBA", position=(35.6625, 139.7545), size="md", rotation=0),
+    dict(text="YAMANOTE", position=(35.6960, 139.7360), size="md", rotation=0, periods=TOKUGAWA),
+    dict(text="GINZA", position=(35.6700, 139.7675), size="sm", rotation=0, periods=TOKUGAWA),
+    dict(text="TSUKIJI", position=(35.6680, 139.7745), size="sm", rotation=0, periods=LATER),
+    dict(text="Tsukudajima", position=(35.6702, 139.7900), size="sm", rotation=-60, periods=LATER),
+    dict(text="Hama-goten", position=(35.6595, 139.7640), size="sm", rotation=0, periods=LATER),
+    dict(text="Hongō", position=(35.7170, 139.7640), size="sm", rotation=0, periods=TOKUGAWA),
+    dict(text="Koishikawa", position=(35.7150, 139.7470), size="sm", rotation=0, periods=LATER),
+    dict(text="Shibasaki", position=(35.6880, 139.7690), size="sm", rotation=0, periods=["dokan-1460"]),
+    dict(text="Edo-maejima", position=(35.6760, 139.7690), size="sm", rotation=-50, periods=["dokan-1460"]),
+    dict(text="TOKYO", position=(35.7050, 139.7400), size="lg", rotation=0, periods=["meiji-1872"]),
+]
+
+SOURCES = [
+    dict(id="wiki-edo", title="Edo", author="Wikipedia", url="https://en.wikipedia.org/wiki/Edo"),
+    dict(id="wiki-sumida", title="Sumida River", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sumida_River"),
+    dict(id="naito", title="Edo, the City that Became Tokyo: An Illustrated History", author="Naitō Akira, illustrated by Hozumi Kazuo (Kodansha International, 2003)"),
+    dict(id="seidensticker", title="Low City, High City: Tokyo from Edo to the Earthquake", author="Edward Seidensticker (Knopf, 1983)"),
+    dict(id="jinnai", title="Tokyo: A Spatial Anthropology", author="Jinnai Hidenobu (University of California Press, 1995)"),
+    dict(id="mcclain", title="Edo and Paris: Urban Life and the State in the Early Modern Era", author="James L. McClain, John M. Merriman and Ugawa Kaoru, eds. (Cornell, 1994)"),
+    dict(id="nishiyama", title="Edo Culture: Daily Life and Diversions in Urban Japan, 1600–1868", author="Nishiyama Matsunosuke, trans. Gerald Groemer (University of Hawai'i Press, 1997)"),
+    dict(id="meisho-zue", title="Edo meisho zue (Illustrated guide to the famous places of Edo)", author="Saitō Gesshin, illustrated by Hasegawa Settan (1834–36)"),
+]
