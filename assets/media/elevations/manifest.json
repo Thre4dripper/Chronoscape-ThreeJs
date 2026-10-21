@@ -230,6 +230,435 @@
   "w": 155.27,
   "x0px": 59.5
  },
+ "athens/altar-twelve": {
+  "ground": 43.5,
+  "h": 1.92,
+  "mpp": 0.08366,
+  "px": [
+   153,
+   64
+  ],
+  "w": 10.0,
+  "x0px": 16.7
+ },
+ "athens/bouleuterion": {
+  "ground": 192.6,
+  "h": 12.6,
+  "mpp": 0.08339,
+  "px": [
+   827,
+   234
+  ],
+  "w": 62.0,
+  "x0px": 41.7
+ },
+ "athens/bouleuterion-430": {
+  "ground": 175.1,
+  "h": 11.2,
+  "mpp": 0.08341,
+  "px": [
+   806,
+   216
+  ],
+  "w": 60.4,
+  "x0px": 41.0
+ },
+ "athens/building-f": {
+  "ground": 124.2,
+  "h": 6.96,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   165
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "athens/dipylon": {
+  "ground": 214.8,
+  "h": 13.3,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   270
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "athens/dipylon-430": {
+  "ground": 214.8,
+  "h": 13.3,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   270
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "athens/erechtheion": {
+  "ground": 270.0,
+  "h": 20.3,
+  "mpp": 0.08352,
+  "px": [
+   423,
+   297
+  ],
+  "w": 30.86,
+  "x0px": 26.8
+ },
+ "athens/fethiye": {
+  "ground": 383.7,
+  "h": 29.8,
+  "mpp": 0.08337,
+  "px": [
+   340,
+   410
+  ],
+  "w": 24.0,
+  "x0px": 26.1
+ },
+ "athens/hadrians-arch": {
+  "ground": 263.4,
+  "h": 20.2,
+  "mpp": 0.08356,
+  "px": [
+   212,
+   285
+  ],
+  "w": 14.1,
+  "x0px": 21.6
+ },
+ "athens/hadrians-library": {
+  "ground": 296.7,
+  "h": 20.46,
+  "mpp": 0.08339,
+  "px": [
+   1086,
+   348
+  ],
+  "w": 82.0,
+  "x0px": 51.3
+ },
+ "athens/hadrians-library-ruin": {
+  "ground": 242.9,
+  "h": 15.99,
+  "mpp": 0.08339,
+  "px": [
+   1086,
+   294
+  ],
+  "w": 82.0,
+  "x0px": 51.3
+ },
+ "athens/hephaisteion": {
+  "ground": 186.5,
+  "h": 13.58,
+  "mpp": 0.08337,
+  "px": [
+   340,
+   210
+  ],
+  "w": 24.39,
+  "x0px": 23.7
+ },
+ "athens/hephaisteion-church": {
+  "ground": 196.4,
+  "h": 14.4,
+  "mpp": 0.08337,
+  "px": [
+   340,
+   220
+  ],
+  "w": 24.39,
+  "x0px": 23.7
+ },
+ "athens/lysicrates": {
+  "ground": 170.9,
+  "h": 12.8,
+  "mpp": 0.08372,
+  "px": [
+   103,
+   189
+  ],
+  "w": 5.6,
+  "x0px": 18.1
+ },
+ "athens/nike": {
+  "ground": 208.2,
+  "h": 15.75,
+  "mpp": 0.08357,
+  "px": [
+   229,
+   228
+  ],
+  "w": 15.87,
+  "x0px": 19.6
+ },
+ "athens/odeon-herodes": {
+  "ground": 398.7,
+  "h": 28.7,
+  "mpp": 0.08335,
+  "px": [
+   1172,
+   453
+  ],
+  "w": 88.6,
+  "x0px": 54.5
+ },
+ "athens/odeon-pericles": {
+  "ground": 344.6,
+  "h": 25.2,
+  "mpp": 0.08338,
+  "px": [
+   853,
+   387
+  ],
+  "w": 64.0,
+  "x0px": 42.7
+ },
+ "athens/old-temple": {
+  "ground": 308.6,
+  "h": 23.6,
+  "mpp": 0.08335,
+  "px": [
+   396,
+   334
+  ],
+  "w": 28.71,
+  "x0px": 25.8
+ },
+ "athens/old-temple-ruin": {
+  "ground": 242.6,
+  "h": 18.1,
+  "mpp": 0.08335,
+  "px": [
+   396,
+   268
+  ],
+  "w": 28.71,
+  "x0px": 25.8
+ },
+ "athens/olympieion": {
+  "ground": 406.2,
+  "h": 30.64,
+  "mpp": 0.08342,
+  "px": [
+   749,
+   445
+  ],
+  "w": 56.0,
+  "x0px": 38.8
+ },
+ "athens/olympieion-antiochus": {
+  "ground": 290.1,
+  "h": 20.95,
+  "mpp": 0.08342,
+  "px": [
+   749,
+   329
+  ],
+  "w": 56.0,
+  "x0px": 38.8
+ },
+ "athens/olympieion-platform": {
+  "ground": 120.5,
+  "h": 6.84,
+  "mpp": 0.08342,
+  "px": [
+   749,
+   159
+  ],
+  "w": 56.0,
+  "x0px": 38.8
+ },
+ "athens/olympieion-ruin": {
+  "ground": 298.3,
+  "h": 21.65,
+  "mpp": 0.08342,
+  "px": [
+   749,
+   337
+  ],
+  "w": 56.0,
+  "x0px": 38.8
+ },
+ "athens/parthenon": {
+  "ground": 381.9,
+  "h": 29.26,
+  "mpp": 0.0834,
+  "px": [
+   542,
+   413
+  ],
+  "w": 40.0,
+  "x0px": 31.2
+ },
+ "athens/parthenon-mosque": {
+  "ground": 537.8,
+  "h": 42.17,
+  "mpp": 0.08341,
+  "px": [
+   544,
+   570
+  ],
+  "w": 40.0,
+  "x0px": 32.2
+ },
+ "athens/pnyx": {
+  "ground": 170.0,
+  "h": 9.6,
+  "mpp": 0.08888,
+  "px": [
+   1400,
+   232
+  ],
+  "w": 113.36,
+  "x0px": 62.3
+ },
+ "athens/pnyx-430": {
+  "ground": 167.4,
+  "h": 9.0,
+  "mpp": 0.0858,
+  "px": [
+   1400,
+   230
+  ],
+  "w": 109.37,
+  "x0px": 62.6
+ },
+ "athens/promachos": {
+  "ground": 301.9,
+  "h": 23.25,
+  "mpp": 0.08342,
+  "px": [
+   211,
+   325
+  ],
+  "w": 13.77,
+  "x0px": 23.0
+ },
+ "athens/propylaia": {
+  "ground": 325.3,
+  "h": 23.73,
+  "mpp": 0.08341,
+  "px": [
+   805,
+   366
+  ],
+  "w": 60.32,
+  "x0px": 40.9
+ },
+ "athens/propylaia-1680": {
+  "ground": 451.0,
+  "h": 34.2,
+  "mpp": 0.08341,
+  "px": [
+   805,
+   492
+  ],
+  "w": 60.32,
+  "x0px": 40.9
+ },
+ "athens/roman-agora": {
+  "ground": 230.4,
+  "h": 14.91,
+  "mpp": 0.08337,
+  "px": [
+   1094,
+   282
+  ],
+  "w": 82.6,
+  "x0px": 51.6
+ },
+ "athens/stadium": {
+  "ground": 235.0,
+  "h": 15.0,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   290
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "athens/stadium-lycurgan": {
+  "ground": 221.1,
+  "h": 13.86,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   276
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "athens/stoa-attalos": {
+  "ground": 232.7,
+  "h": 16.05,
+  "mpp": 0.09361,
+  "px": [
+   1400,
+   294
+  ],
+  "w": 119.5,
+  "x0px": 61.7
+ },
+ "athens/stoa-poikile": {
+  "ground": 170.1,
+  "h": 11.52,
+  "mpp": 0.08338,
+  "px": [
+   568,
+   202
+  ],
+  "w": 42.0,
+  "x0px": 32.1
+ },
+ "athens/theatre-dionysus": {
+  "ground": 480.7,
+  "h": 36.1,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   543
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "athens/theatre-dionysus-430": {
+  "ground": 480.7,
+  "h": 36.1,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   543
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "athens/theatre-dionysus-roman": {
+  "ground": 480.7,
+  "h": 36.1,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   543
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "athens/tower-of-winds": {
+  "ground": 204.6,
+  "h": 15.45,
+  "mpp": 0.08342,
+  "px": [
+   206,
+   224
+  ],
+  "w": 14.0,
+  "x0px": 19.1
+ },
  "cairo/al-aqmar": {
   "ground": 295.3,
   "h": 22.44,
