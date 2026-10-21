@@ -1,0 +1,6281 @@
+{
+ "id": "alexandria",
+ "name": "Alexandria",
+ "subtitle": "Alexandria by Egypt",
+ "description": "Alexandria from Alexander's foundation (331 BCE) to the Ottoman port town of about 1600: the strip of land between the Mediterranean and Lake Mareotis, Pharos island and the Heptastadion with the Great Harbour and the Eunostos, the Royal Quarter on Cape Lochias, the Canopic Way and the Serapeum hill in Rhakotis. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "ptolemaic-200",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#E4D7BC",
+   "#D9C7A2",
+   "#EADFC8",
+   "#CDB792",
+   "#DCCBA8"
+  ],
+  "roofs": [
+   "#C9B28C",
+   "#B9A27A"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3523,
+    2441
+   ],
+   "distance": 40,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 140
+ },
+ "map": {
+  "size": [
+   6951,
+   6213
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "The Sea",
+    "path": [
+     [
+      -476,
+      -777
+     ],
+     [
+      2000,
+      -999
+     ],
+     [
+      7713,
+      -1220
+     ]
+    ],
+    "width": 3280,
+    "id": "open-sea"
+   },
+   {
+    "name": "The Sea",
+    "path": [
+     [
+      -921,
+      1491
+     ],
+     [
+      -505,
+      1317
+     ],
+     [
+      -103,
+      1092
+     ],
+     [
+      373,
+      803
+     ],
+     [
+      853,
+      535
+     ],
+     [
+      1244,
+      303
+     ],
+     [
+      1523,
+      116
+     ],
+     [
+      1731,
+      -42
+     ],
+     [
+      2087,
+      -291
+     ],
+     [
+      3024,
+      -485
+     ],
+     [
+      4107,
+      -485
+     ],
+     [
+      5113,
+      -119
+     ],
+     [
+      5592,
+      112
+     ],
+     [
+      5535,
+      33
+     ],
+     [
+      5092,
+      61
+     ],
+     [
+      5399,
+      -54
+     ],
+     [
+      5978,
+      -278
+     ],
+     [
+      6657,
+      -523
+     ],
+     [
+      7420,
+      -723
+     ]
+    ],
+    "width": 1100,
+    "id": "sea",
+    "blurb": "The Mediterranean. The coast of Egypt is low and featureless and the approach to Alexandria is strewn with reefs: hence the lighthouse, seen far out to sea."
+   },
+   {
+    "name": "The Sea",
+    "path": [
+     [
+      -476,
+      1997
+     ],
+     [
+      95,
+      1609
+     ]
+    ],
+    "width": 1180,
+    "id": "sea-west"
+   },
+   {
+    "name": "The Sea",
+    "path": [
+     [
+      4273,
+      767
+     ],
+     [
+      4588,
+      462
+     ],
+     [
+      5094,
+      705
+     ],
+     [
+      5167,
+      808
+     ],
+     [
+      5249,
+      802
+     ],
+     [
+      5667,
+      647
+     ],
+     [
+      6240,
+      424
+     ],
+     [
+      6880,
+      194
+     ],
+     [
+      7611,
+      1
+     ]
+    ],
+    "width": 840,
+    "id": "east-coast",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Waters of Pharos",
+    "path": [
+     [
+      -797,
+      2422
+     ],
+     [
+      275,
+      1740
+     ],
+     [
+      751,
+      1451
+     ],
+     [
+      1228,
+      1185
+     ],
+     [
+      1644,
+      938
+     ],
+     [
+      1958,
+      728
+     ],
+     [
+      2173,
+      565
+     ],
+     [
+      2580,
+      281
+     ],
+     [
+      3082,
+      720
+     ],
+     [
+      3041,
+      1195
+     ],
+     [
+      2922,
+      1527
+     ],
+     [
+      2766,
+      1867
+     ],
+     [
+      2557,
+      2243
+     ],
+     [
+      2110,
+      2382
+     ],
+     [
+      1719,
+      2484
+     ],
+     [
+      1242,
+      2606
+     ],
+     [
+      772,
+      2727
+     ],
+     [
+      274,
+      2871
+     ],
+     [
+      -797,
+      2422
+     ]
+    ],
+    "width": 840,
+    "id": "pharos-waters",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Eunostos",
+    "path": [
+     [
+      -980,
+      4668
+     ],
+     [
+      -164,
+      4404
+     ],
+     [
+      275,
+      4147
+     ],
+     [
+      839,
+      3819
+     ],
+     [
+      1405,
+      3457
+     ],
+     [
+      1887,
+      3153
+     ],
+     [
+      2341,
+      2889
+     ],
+     [
+      2650,
+      2632
+     ],
+     [
+      2747,
+      2553
+     ]
+    ],
+    "width": 840,
+    "id": "eunostos-shore",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Eunostos (Harbour of Good Return)",
+    "path": [
+     [
+      -476,
+      3273
+     ],
+     [
+      286,
+      3162
+     ],
+     [
+      1143,
+      2940
+     ],
+     [
+      1809,
+      2718
+     ]
+    ],
+    "width": 1360,
+    "id": "eunostos",
+    "blurb": "The western harbour, west of the Heptastadion, open to the sea between Pharos and the mainland. Inside it lay the Kibotos ('the Box'), a dug basin joined by canal to Lake Mareotis; the grain ships for Rome loaded here.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Eunostos",
+    "path": [
+     [
+      1809,
+      2718
+     ],
+     [
+      2381,
+      2496
+     ]
+    ],
+    "width": 1240,
+    "id": "eunostos-in",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Great Harbour",
+    "path": [
+     [
+      2799,
+      2516
+     ],
+     [
+      2975,
+      2414
+     ],
+     [
+      3261,
+      2215
+     ],
+     [
+      3552,
+      2045
+     ],
+     [
+      3756,
+      1913
+     ],
+     [
+      3931,
+      1716
+     ],
+     [
+      4048,
+      1475
+     ],
+     [
+      4114,
+      1189
+     ],
+     [
+      4186,
+      851
+     ],
+     [
+      4387,
+      656
+     ]
+    ],
+    "width": 840,
+    "id": "great-harbour-shore",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Great Harbour (Megas Limen)",
+    "path": [
+     [
+      3095,
+      2164
+     ],
+     [
+      3333,
+      1775
+     ],
+     [
+      3666,
+      1442
+     ],
+     [
+      3809,
+      888
+     ]
+    ],
+    "width": 1130,
+    "id": "great-harbour",
+    "blurb": "The eastern harbour, between the Heptastadion, Pharos and Cape Lochias, entered by a narrow channel past the lighthouse rock. Its south shore held the royal docks, the Poseidion, the Timonium, the Emporion and the warehouses.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Harbour mouth",
+    "path": [
+     [
+      3809,
+      888
+     ],
+     [
+      3666,
+      388
+     ]
+    ],
+    "width": 1580,
+    "id": "harbour-mouth",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "The Sea",
+    "path": [
+     [
+      -980,
+      4668
+     ],
+     [
+      -164,
+      4404
+     ],
+     [
+      275,
+      4147
+     ],
+     [
+      839,
+      3819
+     ],
+     [
+      1405,
+      3457
+     ],
+     [
+      1887,
+      3153
+     ],
+     [
+      2277,
+      2926
+     ],
+     [
+      2174,
+      3105
+     ],
+     [
+      1892,
+      2798
+     ],
+     [
+      1694,
+      2494
+     ],
+     [
+      1677,
+      2495
+     ],
+     [
+      1242,
+      2606
+     ],
+     [
+      772,
+      2727
+     ],
+     [
+      274,
+      2871
+     ],
+     [
+      -797,
+      2422
+     ],
+     [
+      275,
+      1740
+     ],
+     [
+      751,
+      1451
+     ],
+     [
+      1228,
+      1185
+     ],
+     [
+      1644,
+      938
+     ],
+     [
+      1958,
+      728
+     ],
+     [
+      2173,
+      565
+     ],
+     [
+      2580,
+      281
+     ],
+     [
+      3082,
+      720
+     ],
+     [
+      3045,
+      1148
+     ],
+     [
+      3018,
+      1408
+     ],
+     [
+      3108,
+      1453
+     ],
+     [
+      3434,
+      1834
+     ],
+     [
+      3704,
+      2096
+     ],
+     [
+      3523,
+      1927
+     ],
+     [
+      3441,
+      2116
+     ],
+     [
+      3756,
+      1913
+     ],
+     [
+      3931,
+      1716
+     ],
+     [
+      4048,
+      1475
+     ],
+     [
+      4114,
+      1189
+     ],
+     [
+      4186,
+      851
+     ],
+     [
+      4588,
+      462
+     ],
+     [
+      5094,
+      705
+     ],
+     [
+      5167,
+      808
+     ],
+     [
+      5249,
+      802
+     ],
+     [
+      5667,
+      647
+     ],
+     [
+      6240,
+      424
+     ],
+     [
+      6880,
+      194
+     ],
+     [
+      7611,
+      1
+     ]
+    ],
+    "width": 840,
+    "id": "coast-1600",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Old Port (Western Harbour)",
+    "path": [
+     [
+      -476,
+      3273
+     ],
+     [
+      286,
+      3162
+     ],
+     [
+      1047,
+      2996
+     ],
+     [
+      1619,
+      2829
+     ]
+    ],
+    "width": 1350,
+    "id": "western-harbour",
+    "blurb": "The old Eunostos. Under the Mamluks and Ottomans it was reserved to Muslim ships; Christian merchantmen had to use the shallower, rockier New Port.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "New Port (Eastern Harbour)",
+    "path": [
+     [
+      3666,
+      1609
+     ],
+     [
+      3761,
+      1331
+     ],
+     [
+      3809,
+      888
+     ]
+    ],
+    "width": 1400,
+    "id": "new-port",
+    "blurb": "The ancient Great Harbour, half silted, where Venetian, French and English ships anchored under the guns of Qaitbay's fort.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Lake Mareotis",
+    "path": [
+     [
+      -857,
+      6657
+     ],
+     [
+      3904,
+      6435
+     ],
+     [
+      7713,
+      5991
+     ]
+    ],
+    "width": 2810,
+    "id": "mareotis",
+    "blurb": "A large shallow lake south of the city, fed by Nile canals. Strabo thought its harbour busier than the sea harbours: Egyptian grain, papyrus and the Mareotic wine of its shores came in here."
+   },
+   {
+    "name": "Lake Mareotis",
+    "path": [
+     [
+      -845,
+      5570
+     ],
+     [
+      1066,
+      5492
+     ],
+     [
+      2502,
+      5380
+     ],
+     [
+      3460,
+      5291
+     ],
+     [
+      4415,
+      5180
+     ],
+     [
+      5375,
+      5068
+     ],
+     [
+      6328,
+      4902
+     ],
+     [
+      7748,
+      4736
+     ]
+    ],
+    "width": 620,
+    "id": "mareotis-shore"
+   },
+   {
+    "name": "Royal harbour",
+    "path": [
+     [
+      4114,
+      1775
+     ],
+     [
+      4285,
+      1243
+     ]
+    ],
+    "width": 300,
+    "id": "royal-harbour",
+    "blurb": "A closed harbour for the kings' own ships on the west side of Cape Lochias, with the island of Antirhodos and its small palace off it.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Lake harbour",
+    "path": [
+     [
+      4809,
+      5159
+     ],
+     [
+      4714,
+      4527
+     ]
+    ],
+    "width": 260,
+    "id": "lake-harbour",
+    "blurb": "The quays on Lake Mareotis where the Nile boats unloaded.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Canal of Schedia",
+    "path": [
+     [
+      7713,
+      3661
+     ],
+     [
+      6285,
+      3994
+     ],
+     [
+      5047,
+      4327
+     ],
+     [
+      4714,
+      4527
+     ],
+     [
+      3904,
+      4627
+     ],
+     [
+      3238,
+      4593
+     ],
+     [
+      2666,
+      4383
+     ],
+     [
+      2190,
+      4050
+     ],
+     [
+      2000,
+      3717
+     ]
+    ],
+    "width": 34,
+    "id": "canal",
+    "blurb": "The canal from the Canopic branch of the Nile at Schedia, bringing fresh water and river boats along the south of the city to the Kibotos in the western harbour. It filled the city's cisterns at every flood; Muhammad Ali's Mahmudiya canal (1820) follows much of its line."
+   },
+   {
+    "name": "Kibotos",
+    "path": [
+     [
+      1924,
+      3772
+     ],
+     [
+      2095,
+      3495
+     ]
+    ],
+    "width": 170,
+    "id": "kibotos",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   }
+  ],
+  "islands": [
+   {
+    "name": "Pharos",
+    "polygon": [
+     [
+      0,
+      2352
+     ],
+     [
+      476,
+      2086
+     ],
+     [
+      952,
+      1797
+     ],
+     [
+      1428,
+      1531
+     ],
+     [
+      1857,
+      1276
+     ],
+     [
+      2190,
+      1054
+     ],
+     [
+      2409,
+      888
+     ],
+     [
+      2552,
+      788
+     ],
+     [
+      2666,
+      888
+     ],
+     [
+      2647,
+      1110
+     ],
+     [
+      2552,
+      1376
+     ],
+     [
+      2409,
+      1686
+     ],
+     [
+      2285,
+      1908
+     ],
+     [
+      2000,
+      1997
+     ],
+     [
+      1619,
+      2097
+     ],
+     [
+      1143,
+      2219
+     ],
+     [
+      667,
+      2341
+     ],
+     [
+      286,
+      2452
+     ]
+    ],
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Antirhodos",
+    "polygon": [
+     [
+      3980,
+      1642
+     ],
+     [
+      4019,
+      1531
+     ],
+     [
+      4133,
+      1509
+     ],
+     [
+      4152,
+      1620
+     ],
+     [
+      4057,
+      1686
+     ]
+    ],
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Pharos and the neck",
+    "polygon": [
+     [
+      2666,
+      3051
+     ],
+     [
+      2209,
+      2552
+     ],
+     [
+      1905,
+      2086
+     ],
+     [
+      1619,
+      2097
+     ],
+     [
+      1143,
+      2219
+     ],
+     [
+      667,
+      2341
+     ],
+     [
+      286,
+      2452
+     ],
+     [
+      0,
+      2352
+     ],
+     [
+      476,
+      2086
+     ],
+     [
+      952,
+      1797
+     ],
+     [
+      1428,
+      1531
+     ],
+     [
+      1857,
+      1276
+     ],
+     [
+      2190,
+      1054
+     ],
+     [
+      2409,
+      888
+     ],
+     [
+      2552,
+      788
+     ],
+     [
+      2666,
+      888
+     ],
+     [
+      2647,
+      1110
+     ],
+     [
+      2590,
+      1642
+     ],
+     [
+      2857,
+      1775
+     ],
+     [
+      3142,
+      2108
+     ],
+     [
+      3428,
+      2385
+     ],
+     [
+      3666,
+      2607
+     ],
+     [
+      3190,
+      2752
+     ]
+    ],
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "hills": [
+   {
+    "name": "Serapeum hill",
+    "center": [
+     3688,
+     4367
+    ],
+    "radius": 230,
+    "label": false,
+    "id": "serapeum-hill",
+    "blurb": "The rocky hill of Rhakotis, the highest natural ground of the city, crowned by the Serapeum."
+   },
+   {
+    "name": "Kom el-Dikka",
+    "center": [
+     4304,
+     3051
+    ],
+    "radius": 200,
+    "label": true,
+    "id": "kom-el-dikka-mound",
+    "blurb": "'Mound of rubble': medieval and later dumps over the Roman theatre and baths, used as a lookout by the French in 1798 and only cleared from 1960.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Kom el-Nadura",
+    "center": [
+     3254,
+     2857
+    ],
+    "radius": 120,
+    "label": true,
+    "id": "kom-el-nadura",
+    "blurb": "'Lookout mound', a ruin heap by the Old Port from which ships were sighted.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "roads": [
+   {
+    "name": "Canopic Way (Plateia)",
+    "path": [
+     [
+      2230,
+      3540
+     ],
+     [
+      3104,
+      3170
+     ],
+     [
+      3933,
+      2818
+     ],
+     [
+      5037,
+      2349
+     ],
+     [
+      6418,
+      1763
+     ]
+    ],
+    "width": 30,
+    "style": "major",
+    "labelled": true,
+    "id": "canopic-way",
+    "blurb": "The main east-west avenue, about 30 m wide and lined with colonnades from the Gate of the Sun to the Gate of the Moon (Achilles Tatius). Its line is followed today by Horreya Road.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Road to Eleusis and Canopus",
+    "path": [
+     [
+      6418,
+      1763
+     ],
+     [
+      6832,
+      1588
+     ],
+     [
+      7139,
+      1414
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": false,
+    "id": "canopus-road",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street of the Sema",
+    "path": [
+     [
+      4648,
+      4502
+     ],
+     [
+      3933,
+      2818
+     ],
+     [
+      3755,
+      2400
+     ]
+    ],
+    "width": 24,
+    "style": "major",
+    "labelled": true,
+    "id": "soma-street",
+    "blurb": "The main north-south street from the Great Harbour past the Sema to the lake harbour, crossing the Canopic Way at the heart of the city (the line of Nabi Daniel Street).",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street of the Serapeum",
+    "path": [
+     [
+      3150,
+      3150
+     ],
+     [
+      3653,
+      4333
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": true,
+    "id": "serapeum-street",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street of Rhakotis",
+    "path": [
+     [
+      2498,
+      3275
+     ],
+     [
+      3001,
+      4462
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "rhakotis-street",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street of Lochias",
+    "path": [
+     [
+      5597,
+      3796
+     ],
+     [
+      4992,
+      2369
+     ],
+     [
+      4617,
+      1486
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": true,
+    "id": "lochias-street",
+    "blurb": "Into the Royal Quarter and out toward the palaces on Cape Lochias.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street of the Delta",
+    "path": [
+     [
+      6379,
+      3464
+     ],
+     [
+      5774,
+      2037
+     ],
+     [
+      5422,
+      1208
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "delta-street",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Harbour street",
+    "path": [
+     [
+      3547,
+      2677
+     ],
+     [
+      4882,
+      2111
+     ],
+     [
+      6216,
+      1544
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "harbour-street",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street L2",
+    "path": [
+     [
+      2629,
+      3969
+     ],
+     [
+      6633,
+      2270
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "l-south",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Street L3",
+    "path": [
+     [
+      3012,
+      4360
+     ],
+     [
+      6832,
+      2739
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "l-south2",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Road to the Necropolis",
+    "path": [
+     [
+      2230,
+      3540
+     ],
+     [
+      1977,
+      3713
+     ],
+     [
+      1598,
+      3972
+     ],
+     [
+      1012,
+      4384
+     ],
+     [
+      286,
+      4975
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "necropolis-road",
+    "blurb": "West from the Gate of the Moon past the Kibotos to the necropolis, 'the city of the dead', with its gardens and embalming houses.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Pharos road",
+    "path": [
+     [
+      2285,
+      1908
+     ],
+     [
+      2381,
+      1609
+     ],
+     [
+      2438,
+      1331
+     ],
+     [
+      2457,
+      1021
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "pharos-road",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Pharos village street",
+    "path": [
+     [
+      2285,
+      1908
+     ],
+     [
+      1714,
+      1997
+     ],
+     [
+      1047,
+      2130
+     ],
+     [
+      476,
+      2274
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "pharos-village-road",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Main street of the neck",
+    "path": [
+     [
+      3238,
+      2607
+     ],
+     [
+      2809,
+      2330
+     ],
+     [
+      2428,
+      1997
+     ],
+     [
+      2428,
+      1609
+     ],
+     [
+      2476,
+      1054
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "neck-street",
+    "blurb": "From the Sea Gate of the walled city across the neck to the Ras el-Tin end and Qaitbay's fort: the town's bazaars, khans and mosques line it.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road to Bab Rashid",
+    "path": [
+     [
+      3171,
+      2816
+     ],
+     [
+      3434,
+      2921
+     ],
+     [
+      3933,
+      2818
+     ],
+     [
+      4685,
+      2542
+     ],
+     [
+      5335,
+      2332
+     ],
+     [
+      6016,
+      2097
+     ],
+     [
+      7213,
+      1589
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "rosetta-road",
+    "blurb": "Across the empty walled city along the old Canopic Way to the Rosetta Gate and the road to Rashid on the Nile.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road to Bab Sidra",
+    "path": [
+     [
+      3434,
+      2921
+     ],
+     [
+      3483,
+      3552
+     ],
+     [
+      3514,
+      4083
+     ],
+     [
+      3527,
+      4294
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "sidra-road",
+    "blurb": "South past the Attarine mosque to the gate by Pompey's Pillar and the canal.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Road to the Old Port",
+    "path": [
+     [
+      3238,
+      2607
+     ],
+     [
+      2952,
+      2863
+     ],
+     [
+      2714,
+      2996
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "old-port-road",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "City walls",
+    "path": [
+     [
+      6387,
+      793
+     ],
+     [
+      6184,
+      1210
+     ],
+     [
+      6418,
+      1763
+     ],
+     [
+      7024,
+      3190
+     ],
+     [
+      4538,
+      4245
+     ],
+     [
+      3959,
+      4415
+     ],
+     [
+      3453,
+      4630
+     ],
+     [
+      2642,
+      4126
+     ],
+     [
+      2230,
+      3540
+     ],
+     [
+      2067,
+      3490
+     ]
+    ],
+    "closed": false,
+    "id": "ancient-walls",
+    "blurb": "The Hellenistic walls on the land side, about 15 km round with the sea fronts. Their trace is known only in part (Mahmoud el-Falaki's survey of 1866); this line is the usual reconstruction, with the Gates of the Sun and the Moon at the two ends of the Canopic Way.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Arab walls",
+    "path": [
+     [
+      4671,
+      1331
+     ],
+     [
+      5335,
+      2332
+     ],
+     [
+      5520,
+      3231
+     ],
+     [
+      3784,
+      4131
+     ],
+     [
+      3080,
+      4136
+     ],
+     [
+      2768,
+      3529
+     ],
+     [
+      2773,
+      3028
+     ]
+    ],
+    "closed": false,
+    "id": "arab-walls",
+    "blurb": "The walls of the medieval city, built under the Tulunids in the 9th century and rebuilt by the Mamluks, enclosing a much smaller area than the ancient walls. By 1600 they guard mostly ruins and gardens; the living town lies outside on the neck.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Gate of the Moon",
+    "position": [
+     2230,
+     3540
+    ],
+    "id": "moon-gate",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Gate of the Sun",
+    "position": [
+     6418,
+     1763
+    ],
+    "id": "sun-gate",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "name": "Bab al-Bahr (Sea Gate)",
+    "position": [
+     3238,
+     2607
+    ],
+    "id": "bab-al-bahr",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "name": "Bab Sidra",
+    "position": [
+     3428,
+     4189
+    ],
+    "id": "bab-sidra",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Heptastadion",
+    "path": [
+     [
+      3000,
+      2863
+     ],
+     [
+      2266,
+      1908
+     ]
+    ],
+    "build": "stone",
+    "arches": 2,
+    "id": "heptastadion-b",
+    "blurb": "The 'seven-stade' causeway, about 1.2 km long, joining Pharos to the mainland and dividing the two harbours, with two bridged openings for ships to pass between them.",
+    "landmarkId": "heptastadion",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2239,
+      3510
+     ],
+     [
+      3113,
+      3139
+     ],
+     [
+      3033,
+      2950
+     ],
+     [
+      2678,
+      3188
+     ],
+     [
+      2213,
+      3451
+     ]
+    ],
+    "density": "dense",
+    "name": "Rhakotis",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2778,
+      3884
+     ],
+     [
+      3339,
+      3646
+     ],
+     [
+      3141,
+      3181
+     ],
+     [
+      2581,
+      3419
+     ]
+    ],
+    "density": "dense",
+    "name": "Rhakotis",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2593,
+      3962
+     ],
+     [
+      2741,
+      3900
+     ],
+     [
+      2543,
+      3435
+     ],
+     [
+      2396,
+      3497
+     ]
+    ],
+    "density": "dense",
+    "name": "Rhakotis",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2977,
+      4354
+     ],
+     [
+      3539,
+      4115
+     ],
+     [
+      3355,
+      3682
+     ],
+     [
+      2793,
+      3921
+     ]
+    ],
+    "density": "loose",
+    "name": "Rhakotis",
+    "periods": [
+     "ptolemy-280"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2977,
+      4354
+     ],
+     [
+      3539,
+      4115
+     ],
+     [
+      3355,
+      3682
+     ],
+     [
+      2793,
+      3921
+     ]
+    ],
+    "density": "dense",
+    "name": "Rhakotis",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3437,
+      4593
+     ],
+     [
+      3630,
+      4511
+     ],
+     [
+      3489,
+      4179
+     ],
+     [
+      3296,
+      4262
+     ]
+    ],
+    "density": "loose",
+    "name": "Below the Serapeum",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3168,
+      3115
+     ],
+     [
+      3896,
+      2807
+     ],
+     [
+      3805,
+      2595
+     ],
+     [
+      3373,
+      2779
+     ],
+     [
+      3077,
+      2899
+     ]
+    ],
+    "density": "dense",
+    "name": "Harbour quarter",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3538,
+      2655
+     ],
+     [
+      3786,
+      2550
+     ],
+     [
+      3757,
+      2480
+     ],
+     [
+      3516,
+      2604
+     ]
+    ],
+    "density": "dense",
+    "name": "By the Poseidion",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3951,
+      2784
+     ],
+     [
+      4954,
+      2358
+     ],
+     [
+      4864,
+      2146
+     ],
+     [
+      3860,
+      2572
+     ]
+    ],
+    "density": "dense",
+    "name": "Brucheion",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3951,
+      2784
+     ],
+     [
+      4954,
+      2358
+     ],
+     [
+      4864,
+      2146
+     ],
+     [
+      3860,
+      2572
+     ]
+    ],
+    "density": "loose",
+    "name": "Brucheion ruins",
+    "periods": [
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4025,
+      2448
+     ],
+     [
+      4845,
+      2100
+     ],
+     [
+      4651,
+      1644
+     ],
+     [
+      4464,
+      1767
+     ],
+     [
+      4313,
+      2049
+     ],
+     [
+      3960,
+      2296
+     ]
+    ],
+    "density": "loose",
+    "name": "Brucheion",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5009,
+      2334
+     ],
+     [
+      5736,
+      2026
+     ],
+     [
+      5647,
+      1814
+     ],
+     [
+      4919,
+      2122
+     ]
+    ],
+    "density": "loose",
+    "name": "Delta",
+    "periods": [
+     "ptolemy-280"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5009,
+      2334
+     ],
+     [
+      5736,
+      2026
+     ],
+     [
+      5647,
+      1814
+     ],
+     [
+      4919,
+      2122
+     ]
+    ],
+    "density": "dense",
+    "name": "Delta (Jewish quarter)",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5009,
+      2334
+     ],
+     [
+      5736,
+      2026
+     ],
+     [
+      5647,
+      1814
+     ],
+     [
+      4919,
+      2122
+     ]
+    ],
+    "density": "loose",
+    "name": "Delta",
+    "periods": [
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4900,
+      2076
+     ],
+     [
+      5627,
+      1767
+     ],
+     [
+      5426,
+      1294
+     ],
+     [
+      5036,
+      1372
+     ],
+     [
+      4667,
+      1529
+     ]
+    ],
+    "density": "dense",
+    "name": "Delta (Jewish quarter)",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4900,
+      2076
+     ],
+     [
+      5627,
+      1767
+     ],
+     [
+      5426,
+      1294
+     ],
+     [
+      5036,
+      1372
+     ],
+     [
+      4667,
+      1529
+     ]
+    ],
+    "density": "loose",
+    "name": "Delta",
+    "periods": [
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5792,
+      2002
+     ],
+     [
+      6390,
+      1749
+     ],
+     [
+      6300,
+      1537
+     ],
+     [
+      5702,
+      1791
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern quarter",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5682,
+      1744
+     ],
+     [
+      6280,
+      1490
+     ],
+     [
+      6095,
+      1053
+     ],
+     [
+      5489,
+      1288
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern quarter",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3376,
+      3630
+     ],
+     [
+      4121,
+      3314
+     ],
+     [
+      3924,
+      2849
+     ],
+     [
+      3179,
+      3165
+     ]
+    ],
+    "density": "dense",
+    "name": "City centre",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4158,
+      3299
+     ],
+     [
+      5180,
+      2865
+     ],
+     [
+      4983,
+      2400
+     ],
+     [
+      3961,
+      2834
+     ]
+    ],
+    "density": "dense",
+    "name": "City centre",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5216,
+      2849
+     ],
+     [
+      5962,
+      2532
+     ],
+     [
+      5765,
+      2068
+     ],
+     [
+      5019,
+      2384
+     ]
+    ],
+    "density": "loose",
+    "name": "Beta",
+    "periods": [
+     "ptolemy-280"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5216,
+      2849
+     ],
+     [
+      5962,
+      2532
+     ],
+     [
+      5765,
+      2068
+     ],
+     [
+      5019,
+      2384
+     ]
+    ],
+    "density": "dense",
+    "name": "Beta",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5999,
+      2516
+     ],
+     [
+      6607,
+      2259
+     ],
+     [
+      6410,
+      1794
+     ],
+     [
+      5802,
+      2051
+     ]
+    ],
+    "density": "dense",
+    "name": "Gamma",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3575,
+      4100
+     ],
+     [
+      4320,
+      3783
+     ],
+     [
+      4138,
+      3351
+     ],
+     [
+      3392,
+      3667
+     ]
+    ],
+    "density": "loose",
+    "name": "Neapolis",
+    "periods": [
+     "ptolemy-280"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3575,
+      4100
+     ],
+     [
+      4320,
+      3783
+     ],
+     [
+      4138,
+      3351
+     ],
+     [
+      3392,
+      3667
+     ]
+    ],
+    "density": "dense",
+    "name": "Neapolis",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4358,
+      3768
+     ],
+     [
+      5379,
+      3334
+     ],
+     [
+      5195,
+      2901
+     ],
+     [
+      4174,
+      3335
+     ]
+    ],
+    "density": "dense",
+    "name": "Neapolis",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5416,
+      3319
+     ],
+     [
+      6162,
+      3002
+     ],
+     [
+      5978,
+      2570
+     ],
+     [
+      5233,
+      2886
+     ]
+    ],
+    "density": "dense",
+    "name": "Epsilon",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6198,
+      2987
+     ],
+     [
+      6806,
+      2728
+     ],
+     [
+      6623,
+      2296
+     ],
+     [
+      6015,
+      2554
+     ]
+    ],
+    "density": "loose",
+    "name": "Epsilon",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3833,
+      4425
+     ],
+     [
+      4477,
+      4152
+     ],
+     [
+      4337,
+      3820
+     ],
+     [
+      3692,
+      4094
+     ]
+    ],
+    "density": "dense",
+    "name": "South quarter",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4549,
+      4218
+     ],
+     [
+      5571,
+      3785
+     ],
+     [
+      5395,
+      3371
+     ],
+     [
+      4373,
+      3804
+     ]
+    ],
+    "density": "loose",
+    "name": "South quarter",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5608,
+      3769
+     ],
+     [
+      6353,
+      3453
+     ],
+     [
+      6177,
+      3039
+     ],
+     [
+      5432,
+      3355
+     ]
+    ],
+    "density": "loose",
+    "name": "South quarter",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6390,
+      3437
+     ],
+     [
+      6997,
+      3180
+     ],
+     [
+      6822,
+      2765
+     ],
+     [
+      6214,
+      3023
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east quarter",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      571,
+      2241
+     ],
+     [
+      686,
+      1942
+     ],
+     [
+      1190,
+      1686
+     ],
+     [
+      1638,
+      1465
+     ],
+     [
+      1905,
+      1531
+     ],
+     [
+      1905,
+      1864
+     ],
+     [
+      1476,
+      2019
+     ],
+     [
+      1047,
+      2152
+     ]
+    ],
+    "density": "loose",
+    "name": "Pharos village",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4010,
+      4535
+     ],
+     [
+      6967,
+      3312
+     ],
+     [
+      7061,
+      3533
+     ],
+     [
+      6240,
+      3903
+     ],
+     [
+      4896,
+      4322
+     ],
+     [
+      4114,
+      4523
+     ]
+    ],
+    "density": "loose",
+    "name": "Lake quays",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3000,
+      2885
+     ],
+     [
+      2476,
+      2496
+     ],
+     [
+      2114,
+      2075
+     ],
+     [
+      2381,
+      1886
+     ],
+     [
+      2590,
+      1753
+     ],
+     [
+      2952,
+      2053
+     ],
+     [
+      3285,
+      2385
+     ],
+     [
+      3380,
+      2607
+     ]
+    ],
+    "density": "dense",
+    "name": "The neck town (Turkish town)",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1809,
+      1664
+     ],
+     [
+      2000,
+      1331
+     ],
+     [
+      2285,
+      1087
+     ],
+     [
+      2476,
+      1165
+     ],
+     [
+      2476,
+      1498
+     ],
+     [
+      2285,
+      1753
+     ]
+    ],
+    "density": "loose",
+    "name": "Ras el-Tin end",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3077,
+      3616
+     ],
+     [
+      3574,
+      3405
+     ],
+     [
+      3347,
+      2871
+     ],
+     [
+      2850,
+      3082
+     ]
+    ],
+    "density": "loose",
+    "name": "Attarine",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3714,
+      3020
+     ],
+     [
+      4321,
+      2762
+     ],
+     [
+      4204,
+      2485
+     ],
+     [
+      3597,
+      2744
+     ]
+    ],
+    "density": "loose",
+    "name": "Coptic and Greek quarter",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      4644,
+      1473
+     ],
+     [
+      4643,
+      1625
+     ],
+     [
+      4947,
+      1497
+     ],
+     [
+      4994,
+      1325
+     ]
+    ],
+    "kind": "park",
+    "name": "Royal gardens",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      476,
+      4715
+     ],
+     [
+      857,
+      4438
+     ],
+     [
+      1238,
+      4161
+     ],
+     [
+      1714,
+      4216
+     ],
+     [
+      1905,
+      4549
+     ],
+     [
+      1428,
+      4882
+     ],
+     [
+      857,
+      4993
+     ],
+     [
+      476,
+      4937
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of the necropolis",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3400,
+      4891
+     ],
+     [
+      3953,
+      4657
+     ],
+     [
+      4050,
+      4886
+     ],
+     [
+      3479,
+      5075
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards by the lake",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6399,
+      3434
+     ],
+     [
+      6997,
+      3180
+     ],
+     [
+      6822,
+      2765
+     ],
+     [
+      6223,
+      3019
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Monastery gardens",
+    "periods": [
+     "late-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3311,
+      4168
+     ],
+     [
+      5474,
+      3250
+     ],
+     [
+      5259,
+      2744
+     ],
+     [
+      3096,
+      3662
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm gardens in the walls",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4503,
+      3010
+     ],
+     [
+      5239,
+      2698
+     ],
+     [
+      4849,
+      1777
+     ],
+     [
+      4113,
+      2090
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm gardens in the walls",
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4010,
+      4535
+     ],
+     [
+      6047,
+      3702
+     ],
+     [
+      6140,
+      3923
+     ],
+     [
+      4896,
+      4322
+     ],
+     [
+      4114,
+      4523
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens by the canal",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      6298,
+      4041
+     ],
+     [
+      7705,
+      3770
+     ],
+     [
+      7802,
+      4000
+     ],
+     [
+      6415,
+      4317
+     ]
+    ],
+    "name": "Lake shallows",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400",
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "brucheion",
+    "name": "Brucheion (Royal Quarter)",
+    "polygon": [
+     [
+      3951,
+      2784
+     ],
+     [
+      4981,
+      2345
+     ],
+     [
+      4617,
+      1486
+     ],
+     [
+      4313,
+      2049
+     ],
+     [
+      3777,
+      2373
+     ]
+    ],
+    "description": "The royal quarter, a quarter or even a third of the city by Strabo's account: palaces, the Museum and Library, gardens, the Sema and the royal harbour. Ruined in the fighting of 272 under Aurelian and never rebuilt.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "id": "rhakotis",
+    "name": "Rhakotis",
+    "polygon": [
+     [
+      2239,
+      3510
+     ],
+     [
+      3113,
+      3139
+     ],
+     [
+      3701,
+      4525
+     ],
+     [
+      3453,
+      4630
+     ],
+     [
+      2642,
+      4126
+     ]
+    ],
+    "description": "The Egyptian village that was here before Alexander, and afterwards the native quarter of the city round the Serapis sanctuary on its hill.",
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "id": "delta",
+    "name": "Delta",
+    "polygon": [
+     [
+      5009,
+      2334
+     ],
+     [
+      5736,
+      2026
+     ],
+     [
+      5426,
+      1294
+     ],
+     [
+      5036,
+      1372
+     ],
+     [
+      4667,
+      1529
+     ]
+    ],
+    "description": "One of the city's five lettered districts, east of the palaces, where most of Alexandria's Jews lived (Philo, Josephus). Two of the five districts were called 'Jewish' in Philo's day.",
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "id": "neck-town",
+    "name": "Turkish town",
+    "polygon": [
+     [
+      3000,
+      2885
+     ],
+     [
+      2476,
+      2496
+     ],
+     [
+      2114,
+      2075
+     ],
+     [
+      2381,
+      1886
+     ],
+     [
+      2590,
+      1753
+     ],
+     [
+      2952,
+      2053
+     ],
+     [
+      3285,
+      2385
+     ],
+     [
+      3380,
+      2607
+     ]
+    ],
+    "description": "The living town of the 16th–18th centuries, built on the silt that had buried the Heptastadion, with its khans, mosques, the European consuls' fondachi and the customs house.",
+    "periods": [
+     "ottoman-1600"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "THALASSA",
+    "position": [
+     3809,
+     333
+    ],
+    "size": "lg",
+    "rotation": -5,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200"
+    ]
+   },
+   {
+    "text": "MARE NOSTRUM",
+    "position": [
+     3809,
+     333
+    ],
+    "size": "lg",
+    "rotation": -5,
+    "periods": [
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "BAHR AL-RUM",
+    "position": [
+     3809,
+     333
+    ],
+    "size": "lg",
+    "rotation": -5,
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "LIMNE MAREOTIS",
+    "position": [
+     3714,
+     5880
+    ],
+    "size": "lg",
+    "rotation": -2,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200"
+    ]
+   },
+   {
+    "text": "LACUS MAREOTIS",
+    "position": [
+     3714,
+     5880
+    ],
+    "size": "lg",
+    "rotation": -2,
+    "periods": [
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "BUHAYRAT MARYUT",
+    "position": [
+     3714,
+     5880
+    ],
+    "size": "lg",
+    "rotation": -2,
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "Megas Limen",
+    "position": [
+     3523,
+     1498
+    ],
+    "size": "md",
+    "rotation": -10,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "Eunostos",
+    "position": [
+     857,
+     3162
+    ],
+    "size": "md",
+    "rotation": -20,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "Old Port",
+    "position": [
+     857,
+     3162
+    ],
+    "size": "md",
+    "rotation": -20,
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "New Port",
+    "position": [
+     3666,
+     1498
+    ],
+    "size": "md",
+    "rotation": -10,
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "Pharos",
+    "position": [
+     1047,
+     1775
+    ],
+    "size": "md",
+    "rotation": -30,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "Ras el-Tin",
+    "position": [
+     857,
+     1942
+    ],
+    "size": "sm",
+    "rotation": -30,
+    "periods": [
+     "ottoman-1600"
+    ]
+   },
+   {
+    "text": "Rhakotis",
+    "position": [
+     2853,
+     3603
+    ],
+    "size": "md",
+    "rotation": -23,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "Brucheion",
+    "position": [
+     4413,
+     2158
+    ],
+    "size": "md",
+    "rotation": -23,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Delta",
+    "position": [
+     5211,
+     1733
+    ],
+    "size": "sm",
+    "rotation": -23,
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Lochias",
+    "position": [
+     4647,
+     1087
+    ],
+    "size": "sm",
+    "rotation": -70,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "Necropolis",
+    "position": [
+     952,
+     4272
+    ],
+    "size": "sm",
+    "rotation": -25,
+    "periods": [
+     "ptolemy-280",
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   },
+   {
+    "text": "Eleusis",
+    "position": [
+     7153,
+     1832
+    ],
+    "size": "sm",
+    "rotation": -23,
+    "periods": [
+     "ptolemaic-200",
+     "roman-150ce",
+     "late-400"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D6AE",
+   "ink": "#6A4A32",
+   "water": "#5B8A93",
+   "hill": "#7E7C58",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   6475,
+   333
+  ],
+  "cartouche": [
+   143,
+   6124
+  ]
+ },
+ "periods": [
+  {
+   "id": "ptolemy-280",
+   "label": "The Young Capital",
+   "year": -280,
+   "startYear": -331,
+   "endYear": -247,
+   "summary": "Founded by Alexander in 331 BCE on a limestone ridge between the sea and Lake Mareotis and laid out on a grid by his architect Deinocrates. Ptolemy I made it the capital of his kingdom; under Ptolemy II the Pharos lighthouse is finished, the Heptastadion ties Pharos island to the shore, and the Museum and its Library gather scholars. Limestone, mud brick and stucco.",
+   "population": "perhaps 100,000 or more, growing fast",
+   "feel": "Masons' hammers on the Pharos rock, Macedonian, Greek and Egyptian voices in the new streets, and the smell of lime kilns.",
+   "style": "antique",
+   "houses": {
+    "title": "Houses of the new grid",
+    "text": "Houses of mud brick and limestone rubble round small courts, rendered with lime stucco and with flat roofs, filling the blocks of Deinocrates' grid. Greek settlers live near the palaces; Egyptians stay in the old village of Rhakotis by the Serapis shrine."
+   },
+   "outskirts": {
+    "title": "Lots still empty",
+    "text": "Many blocks are still open ground or gardens; to the west the dead are buried in rock-cut tombs, and along the lake shore stand reed huts, kilns and vineyards."
+   }
+  },
+  {
+   "id": "ptolemaic-200",
+   "label": "Ptolemaic Capital",
+   "year": -200,
+   "startYear": -246,
+   "endYear": -31,
+   "summary": "The largest Greek city in the world and its intellectual capital: Eratosthenes, Aristophanes of Byzantium and the Library's copyists, the Serapeum of Ptolemy III on the Rhakotis hill, the palaces covering a quarter of the city, and the Sema where Alexander lies. Grain, papyrus, linen and glass go out; incense, ivory and spices come in through the lake harbour.",
+   "population": "perhaps 300,000 free inhabitants by 60 BCE (Diodorus), plus slaves",
+   "feel": "Bright stucco and colonnades, sailors' shouts in a dozen languages, and the lighthouse fire low on the night horizon.",
+   "style": "antique",
+   "houses": {
+    "title": "Stuccoed courtyard houses",
+    "text": "Two- and three-storey houses of limestone and mud brick with stuccoed fronts, flat roofs used as terraces, and cisterns below filled from the canal each flood season. Shops open on the colonnaded main streets; the Jews live mainly in the Delta quarter by the palaces."
+   },
+   "outskirts": {
+    "title": "Gardens and the necropolis",
+    "text": "West of the walls the necropolis, with gardens, embalming workshops and rock-cut tombs (Strabo); along the lake, vineyards of Mareotic wine and landing stages."
+   }
+  },
+  {
+   "id": "roman-150ce",
+   "label": "Roman Alexandria",
+   "year": 150,
+   "startYear": -30,
+   "endYear": 296,
+   "summary": "After Cleopatra's death (30 BCE) the city is ruled by a Roman prefect and ships Egypt's grain to Rome. Augustus finishes the Caesareum and sets two obelisks before it; the Library and Museum continue under imperial patronage. The Jewish community is broken in the revolt of 115–117, and Aurelian wrecks the Brucheion in 272.",
+   "population": "perhaps 400,000–500,000; the second city of the empire",
+   "feel": "Grain dust on the quays of the Eunostos, chariot-race factions shouting in the streets, and the smoke of glass furnaces.",
+   "style": "antique",
+   "houses": {
+    "title": "Apartment houses and courtyard homes",
+    "text": "Dense blocks of two- to four-storey houses of limestone and fired brick round light wells, shops and workshops below, some rich houses with mosaic floors like the 'Villa of the Birds' at Kom el-Dikka."
+   },
+   "outskirts": {
+    "title": "Suburbs and tombs",
+    "text": "Eleusis and Nicopolis to the east with the legion's camp, the necropolis to the west where the catacombs of Kom el-Shoqafa are dug, and market gardens and vineyards along the lake."
+   }
+  },
+  {
+   "id": "late-400",
+   "label": "Christian Alexandria",
+   "year": 400,
+   "startYear": 297,
+   "endYear": 642,
+   "summary": "The see of the patriarch, Christian rival of Rome and Constantinople. The Serapeum is pulled down in 391 and churches rise on old temples; the Brucheion lies in ruin, the tsunami of 365 has wrecked the harbour fronts, and the city's grain now sails to Constantinople. Hypatia teaches mathematics and philosophy until her murder in 415.",
+   "population": "perhaps 200,000",
+   "feel": "Church bells are still rare: wooden semantra, monks' psalms in Coptic and Greek, street fights between factions, and teachers lecturing in the halls of Kom el-Dikka.",
+   "style": "antique",
+   "houses": {
+    "title": "Houses and workshops of late antiquity",
+    "text": "Older houses subdivided and rebuilt with reused stone; workshops for glass, bone and metal fill former courtyards, as excavated at Kom el-Dikka. Churches, hospices and monasteries take over whole blocks."
+   },
+   "outskirts": {
+    "title": "Ruins and monasteries",
+    "text": "The Brucheion is a field of ruins and gardens; outside the walls lie monasteries, martyrs' shrines and the old necropolis."
+   }
+  },
+  {
+   "id": "ottoman-1600",
+   "label": "Iskandariya under the Ottomans",
+   "year": 1600,
+   "startYear": 1477,
+   "endYear": 1798,
+   "summary": "A shrunken port. The silted Heptastadion has become a broad neck of land where the town of a few thousand now stands, between the Old Port (west, for Muslim ships) and the New Port (east, for Christian ships). Qaitbay's fort of 1477 holds the Pharos site; inside the medieval walls lie ruin mounds, cisterns, palm gardens, Pompey's Pillar and one standing Needle.",
+   "population": "perhaps 5,000–15,000; the French counted about 8,000 in 1798",
+   "feel": "The call to prayer over rubble fields, European factors haggling over pepper and coffee, and dust blowing from the ruin mounds.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of the neck town",
+    "text": "Houses of two or three storeys built of stone taken from the ancient ruins, with flat roofs, wooden mashrabiya windows and inner courts, packed in narrow lanes between the two harbours."
+   },
+   "outskirts": {
+    "title": "The empty walled city",
+    "text": "Inside the old Arab walls: palm groves, gardens watered from the canal cisterns, ruin mounds like Kom el-Dikka, a few mosques and churches, and the Coptic and Greek quarters."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "pharos",
+   "placeId": "pharos-point",
+   "name": "Pharos Lighthouse",
+   "category": "monument",
+   "position": [
+    2533,
+    888
+   ],
+   "rotation": 0,
+   "footprint": [
+    128.0,
+    128.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/pharos.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 130,
+     "height": 52.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "Just finished, about 280 BCE, under Ptolemy II: the white tower rises from its walled court on the rock at the east end of Pharos island, the dedication of Sostratus of Cnidus cut on its face."
+    },
+    "ptolemaic-200": {
+     "note": "Some 100 m high: a square shaft, an octagon, a round lantern and a statue at the top. A fire probably burned in the lantern at night, though how it was lit and reflected is not known."
+    },
+    "roman-150ce": {
+     "note": "Copied on Alexandrian coins of the 2nd century and in lighthouses from Ostia to Dover; Josephus says its light was seen 300 stadia out to sea."
+    },
+    "late-400": {
+     "note": "Still standing and still in use. Its upper storeys will be damaged by earthquakes from the 8th century on, repaired by the Arabs with a small mosque on top, and brought down in 1303 and 1323."
+    },
+    "ottoman-1600": {
+     "name": "Fort of Qaitbay",
+     "confidence": "documented",
+     "note": "Sultan Qaitbay built this fort in 1477–1479 on the lighthouse's foundations, partly from its fallen blocks: a square keep with corner towers and a small mosque, inside a curtain wall on the rock.",
+     "model": {
+      "glb": "models/alexandria/qaitbay.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 130,
+       "height": 52.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "The lighthouse on the eastern point of Pharos island, finished about 280 BCE, perhaps 100 m tall: one of the Seven Wonders, and the word for 'lighthouse' in Greek, Latin and the Romance languages.",
+   "details": [
+    "Designed by Sostratus of Cnidus (or paid for by him) and begun under Ptolemy I, it was finished under Ptolemy II. Ancient and Arab descriptions (above all Ibn al-Shaykh, 12th century) give three tiers: a tall square shaft with windows, an octagon, and a cylindrical lantern under a statue, probably of Zeus Soter or Poseidon.",
+    "The miniature follows Thiersch's reconstruction (1909), heights hedged: a square shaft of about 55 m on a terrace, an octagon of about 30 m, a round lantern and statue. Tritons at the corners and the walled court are drawn from coins and Arab accounts."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-pharos",
+    "thiersch",
+    "clayton-price",
+    "empereur",
+    "wiki-qaitbay"
+   ],
+   "built": "c. 297–280 BCE",
+   "function": "Lighthouse and harbour mark",
+   "activity": {
+    "figures": 14,
+    "radius": 90
+   }
+  },
+  {
+   "id": "heptastadion",
+   "placeId": "heptastadion",
+   "name": "Heptastadion",
+   "category": "civic",
+   "position": [
+    2633,
+    2385
+   ],
+   "rotation": -37.5,
+   "footprint": [
+    30.4,
+    1200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/heptastadion.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 26,
+     "depth": 1200,
+     "height": 10.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "A new causeway of 'seven stades' (about 1.2 km) from the city to Pharos island, splitting the bay into two harbours. Who built it, Ptolemy I or II, is not recorded."
+    },
+    "ptolemaic-200": {
+     "note": "Carries the road and probably a water channel to Pharos; two bridged gaps let ships pass between the harbours."
+    },
+    "roman-150ce": {
+     "note": "In 48 BCE Caesar fought for its bridges and was driven into the sea, swimming to safety with his papers held above the water."
+    },
+    "late-400": {
+     "note": "Sand already piling up along both sides; the openings are silting."
+    },
+    "ottoman-1600": {
+     "note": "Gone under a broad neck of silt hundreds of metres wide, on which the Ottoman town now stands."
+    }
+   },
+   "summary": "The causeway 'seven stades' long that joined Pharos island to the city and divided the Great Harbour from the Eunostos.",
+   "details": [
+    "Strabo describes a mole of seven stades with two bridged passages. Cores and sediment studies (Goiran 2005) show that it trapped sand on both flanks; by the Middle Ages it had become the isthmus on which the modern districts of Mansheya, Gomrok and Anfushi stand.",
+    "Its exact line is reconstructed from the geology and the ancient street grid; the miniature shows a stone causeway with a paved road and two arched bridges."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-heptastadion",
+    "strabo-17",
+    "fraser"
+   ],
+   "built": "early 3rd century BCE",
+   "function": "Causeway and harbour mole",
+   "activity": {
+    "figures": 16,
+    "radius": 400
+   }
+  },
+  {
+   "id": "royal-palaces",
+   "placeId": "lochias",
+   "name": "Royal palaces on Lochias",
+   "category": "civic",
+   "position": [
+    4680,
+    1252
+   ],
+   "rotation": -23,
+   "footprint": [
+    260.0,
+    302.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/royal-palaces.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 260,
+     "depth": 300,
+     "height": 104.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "Ptolemy I and II build their residence on the cape of Lochias at the east of the Great Harbour, with its own closed harbour."
+    },
+    "ptolemaic-200": {
+     "note": "Each king added a palace of his own, says Strabo, so that the royal buildings covered a quarter or a third of the city, with gardens, halls and colonnades down to the water."
+    },
+    "roman-150ce": {
+     "note": "The Ptolemies are gone; the Roman prefect governs from part of the old palace. In 30 BCE Cleopatra died here or in her mausoleum nearby."
+    },
+    "late-400": {
+     "note": "Ruined in the fighting of 272 under Aurelian, when the whole Brucheion was laid waste. Now broken walls, columns and gardens.",
+     "model": {
+      "glb": "models/alexandria/royal-palaces-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 260,
+       "depth": 300,
+       "height": 104.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The palaces of the Ptolemies on Cape Lochias, the eastern horn of the Great Harbour, where Cleopatra received Caesar and Antony.",
+   "details": [
+    "Nothing stands above ground; much of the cape has sunk and lies under the sea, where Franck Goddio's surveys since 1996 have found pavements, columns and sphinxes. The layout is unknown.",
+    "The miniature is an interpretation: a terraced peristyle palace with a columned audience hall and pavilions on the cape, Macedonian in plan, with Egyptian sphinxes on the quays."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-brucheion",
+    "strabo-17",
+    "goddio",
+    "mckenzie"
+   ],
+   "built": "from c. 300 BCE",
+   "function": "Royal residence",
+   "activity": {
+    "figures": 24,
+    "radius": 180
+   }
+  },
+  {
+   "id": "museum-library",
+   "placeId": "mouseion",
+   "name": "Museum and Library",
+   "category": "civic",
+   "position": [
+    4466,
+    2027
+   ],
+   "rotation": 157,
+   "footprint": [
+    170.0,
+    130.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/museum.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 170,
+     "depth": 130,
+     "height": 52.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "Founded under Ptolemy I, probably on the advice of Demetrius of Phalerum, and enlarged by Ptolemy II: a shrine of the Muses with salaried scholars and a growing collection of scrolls."
+    },
+    "ptolemaic-200": {
+     "note": "At its height: Eratosthenes is librarian, Aristophanes of Byzantium edits Homer. Ancient figures of 400,000 to 700,000 scrolls are guesses."
+    },
+    "roman-150ce": {
+     "note": "Caesar's fire of 48 BCE burned books, probably in warehouses by the harbour; the Museum lives on under the emperors, who appoint its members. Claudius adds a new wing."
+    },
+    "late-400": {
+     "note": "Gone: the Museum is last heard of in the fighting of 272, when the Brucheion was destroyed. Learning goes on in the Serapeum, until 391, and in private schools."
+    }
+   },
+   "summary": "The Mouseion, a college of scholars under royal patronage, and the great Library attached to it: the centre of Greek learning for three centuries.",
+   "details": [
+    "Strabo describes the Museum as part of the palaces, with a covered walk, an exedra with seats and a great hall where the scholars dined together. The Library had no building of its own that he mentions; its stores may have been in the Museum and in warehouses.",
+    "The miniature is a reconstruction: a peristyle court with a covered walk, an exedra, a dining hall and book rooms with niches for scroll cases. Its site within the Brucheion is unknown."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-musaeum",
+    "wiki-library",
+    "strabo-17",
+    "fraser"
+   ],
+   "built": "c. 290–270 BCE",
+   "function": "Research institution and library",
+   "activity": {
+    "figures": 20,
+    "radius": 120
+   }
+  },
+  {
+   "id": "sema",
+   "placeId": "soma",
+   "name": "The Sema (Tomb of Alexander)",
+   "category": "monument",
+   "position": [
+    3718,
+    2746
+   ],
+   "rotation": -23,
+   "footprint": [
+    110.0,
+    113.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/sema.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 110,
+     "height": 44.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "Ptolemy I seized Alexander's body in 321 BCE and buried it at Memphis; it was brought here by Ptolemy I or II (the sources differ). Its first tomb in the city is unknown."
+    },
+    "ptolemaic-200": {
+     "note": "Ptolemy IV (221–204 BCE) built a common mausoleum, the Sema, for Alexander and the Ptolemies, inside a walled precinct."
+    },
+    "roman-150ce": {
+     "note": "Augustus came in 30 BCE and laid a crown on the body; Septimius Severus had the tomb closed about 200 CE. Caracalla was the last emperor recorded to visit it, in 215."
+    },
+    "late-400": {
+     "note": "Lost. About 400 John Chrysostom asks where Alexander's tomb is: no one knows. The search, under the Nabi Daniel mosque and elsewhere, has never ended."
+    }
+   },
+   "summary": "The mausoleum of Alexander the Great and the Ptolemies, near the crossing of the city's two main streets: its site has never been found.",
+   "details": [
+    "Strabo places the Sema inside the royal quarter; the usual guess puts it near the crossing of the Canopic Way and the Street of the Sema, by the Nabi Daniel mosque. The body lay in a gold coffin until Ptolemy X melted it down and replaced it with glass or alabaster.",
+    "The miniature is an interpretation: a walled precinct with a stepped tumulus under a pyramidal roof on a Doric drum, suggested by Macedonian tombs and late descriptions. Nothing of it is known for certain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sema",
+    "strabo-17",
+    "fraser",
+    "mckenzie"
+   ],
+   "built": "c. 215 BCE (Ptolemy IV's mausoleum)",
+   "function": "Royal tomb",
+   "activity": {
+    "figures": 12,
+    "radius": 90
+   }
+  },
+  {
+   "id": "serapeum",
+   "placeId": "serapeum",
+   "name": "Serapeum",
+   "category": "temple",
+   "position": [
+    3715,
+    4405
+   ],
+   "rotation": 157,
+   "footprint": [
+    160.0,
+    114.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/serapeum.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 160,
+     "depth": 100,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 10.0,
+     "columnHeight": 40.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "On the Rhakotis hill a small sanctuary of Sarapis, the new Greco-Egyptian god whose cult Ptolemy I promoted, stands near the Egyptian village."
+    },
+    "ptolemaic-200": {
+     "note": "Ptolemy III (246–222 BCE) builds the great temple on a platform surrounded by colonnades, with foundation plaques naming his architect Parmeniscus; a 'daughter library' is housed in the porticoes."
+    },
+    "roman-150ce": {
+     "note": "Rebuilt on a larger scale in the 2nd century CE after a fire of 181, as a Corinthian temple on a podium, still with its library in the colonnades, approached by a long stair."
+    },
+    "late-400": {
+     "name": "Serapeum ruins and martyrium",
+     "note": "Stormed by Christians led by the patriarch Theophilus in 391 and pulled down; the cult statue was hacked apart and burned. A church and martyrium of St John the Baptist rise in the ruins.",
+     "model": {
+      "glb": "models/alexandria/serapeum-ruin.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 160,
+       "depth": 100,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 10.0,
+       "columnHeight": 40.0
+      }
+     }
+    },
+    "ottoman-1600": {
+     "note": "A ruin mound around Pompey's Pillar; the platform's underground galleries survive."
+    }
+   },
+   "summary": "The great temple of Sarapis on the hill of Rhakotis, with a library in its colonnades: the most splendid shrine of the city until its destruction in 391.",
+   "details": [
+    "The precinct, about 185 by 77 m in its Ptolemaic form, was entered by a stair of a hundred steps (Rufinus). Under it ran galleries cut in the rock, perhaps for the library or the mysteries of the cult. The cult statue by Bryaxis (or another) showed Sarapis enthroned with Cerberus.",
+    "The miniature follows McKenzie's reconstruction of the Roman phase: a Corinthian temple on a podium in a colonnaded court on a raised platform, with a monumental stair and the stoas that held the library."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-serapeum",
+    "mckenzie",
+    "rufinus",
+    "empereur"
+   ],
+   "built": "c. 240 BCE; rebuilt 2nd century CE",
+   "function": "Temple of Sarapis and library",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "pompeys-pillar",
+   "placeId": "pillar",
+   "name": "Pompey's Pillar",
+   "category": "monument",
+   "position": [
+    3533,
+    4371
+   ],
+   "rotation": 0,
+   "footprint": [
+    20.0,
+    20.0
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/alexandria/pompeys-pillar.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 20,
+     "depth": 20,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "late-400",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "Not yet raised: the colonnades of the Serapeum stand here."
+    },
+    "late-400": {
+     "note": "Erected about 298 CE for Diocletian after he put down a revolt and besieged the city; the inscription names the prefect Postumus. It survived the Serapeum's destruction around it."
+    },
+    "ottoman-1600": {
+     "note": "Standing alone on a ruin mound outside the Arab walls, a mark for ships; Europeans believed it was Pompey's tomb, hence the name. Arabs called it 'Amud al-Sawari, the column of the horsemen."
+    }
+   },
+   "summary": "A red Aswan granite column about 27 m high with its base and capital, raised for Diocletian about 298 CE: the largest ancient monolithic column standing outside Rome and Constantinople.",
+   "details": [
+    "The shaft is a single block about 20.5 m long and 2.7 m across at the base, with a Corinthian capital. A statue of Diocletian probably stood on top. The name comes from the medieval belief that Pompey's head was buried here.",
+    "Shown scaled up to be readable, on its stepped base among the Serapeum's fallen blocks."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-pompeys-pillar",
+    "mckenzie"
+   ],
+   "built": "c. 298 CE",
+   "function": "Honorific column",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "caesareum",
+   "placeId": "caesareum",
+   "name": "Caesareum",
+   "category": "temple",
+   "position": [
+    3884,
+    2448
+   ],
+   "rotation": 157,
+   "footprint": [
+    150.0,
+    111.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/caesareum.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 150,
+     "depth": 110,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 11.0,
+     "columnHeight": 44.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce",
+    "late-400",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "ptolemaic-200": {
+     "note": "Harbour front by the Emporion. Cleopatra will begin a temple here for Antony (or Caesar), around 40 BCE."
+    },
+    "roman-150ce": {
+     "note": "Finished by Augustus as a temple of the imperial cult (the Sebasteion) facing the Great Harbour, with porticoes, libraries and gardens. Two obelisks of Thutmose III from Heliopolis stand before it from 13/12 BCE."
+    },
+    "late-400": {
+     "name": "Caesareum church (Kaisarion)",
+     "note": "Made the patriarch's cathedral in the 4th century. In March 415 a Christian mob dragged Hypatia here and killed her.",
+     "model": {
+      "glb": "models/alexandria/caesareum-church.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 150,
+       "depth": 110,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 11.0,
+       "columnHeight": 44.0
+      }
+     }
+    },
+    "ottoman-1600": {
+     "name": "Cleopatra's Needles",
+     "note": "Of the temple nothing is left but the two obelisks by the shore: one standing, one fallen in the sand. They will go to London (1877) and New York (1880).",
+     "model": {
+      "glb": "models/alexandria/needles.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 150,
+       "depth": 110,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 11.0,
+       "columnHeight": 44.0
+      }
+     }
+    }
+   },
+   "summary": "The temple of the deified Caesar and Augustus on the Great Harbour, fronted by the two obelisks later called Cleopatra's Needles; later the city's cathedral.",
+   "details": [
+    "Philo describes it as unmatched: porticoes, libraries, groves, gateways and open courts. The obelisks, raised by Thutmose III at Heliopolis about 1450 BCE, were set on bronze crabs before it in 13/12 BCE.",
+    "The miniature is a reconstruction: a Corinthian temple in a colonnaded precinct facing the harbour, with the two obelisks before the gate. The Ottoman version shows the obelisks only."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-caesareum",
+    "wiki-needles",
+    "mckenzie",
+    "haas"
+   ],
+   "built": "c. 40 BCE – 12 BCE",
+   "function": "Imperial cult temple, then church",
+   "activity": {
+    "figures": 24,
+    "radius": 110
+   }
+  },
+  {
+   "id": "timonium",
+   "placeId": "poseidion",
+   "name": "Timonium and the Poseidion mole",
+   "category": "civic",
+   "position": [
+    3971,
+    2064
+   ],
+   "rotation": -23,
+   "footprint": [
+    66.0,
+    340.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/timonium.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 340,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce"
+   ],
+   "variants": {
+    "ptolemaic-200": {
+     "note": "The Poseidion, a temple of Poseidon on a point of the harbour shore. The long mole has not yet been built out from it."
+    },
+    "roman-150ce": {
+     "note": "After Actium (31 BCE) Antony built a retreat at the end of the mole and called it the Timonium after Timon of Athens, the misanthrope, meaning to live there alone."
+    },
+    "late-400": {
+     "note": "Broken by subsidence and the tsunami of 365; its remains now lie about 5 m under water, surveyed by Goddio's team."
+    }
+   },
+   "summary": "A long mole running from the Poseidion into the Great Harbour, with Antony's 'Timonium' at its end, where he withdrew after Actium.",
+   "details": [
+    "Strabo names the Poseidion, the mole running from it into the harbour and Antony's royal dwelling at its tip. Underwater surveys since 1996 have found a mole of this kind in the eastern harbour.",
+    "The miniature shows a stone mole with a quay, a small Doric temple at the root and a peristyle pavilion at the tip; the buildings are an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-antirhodos",
+    "strabo-17",
+    "goddio"
+   ],
+   "built": "c. 30 BCE (Timonium)",
+   "function": "Harbour mole and retreat",
+   "activity": {
+    "figures": 10,
+    "radius": 120
+   }
+  },
+  {
+   "id": "gymnasium",
+   "placeId": "gymnasium",
+   "name": "Gymnasium",
+   "category": "entertainment",
+   "position": [
+    4583,
+    2814
+   ],
+   "rotation": -23,
+   "footprint": [
+    220.6,
+    190.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/gymnasium.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 220,
+     "depth": 190,
+     "height": 76.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "Open ground by the Canopic Way. A gymnasium was among the first needs of a Greek city; its date here is not recorded."
+    },
+    "ptolemaic-200": {
+     "note": "Where the sons of citizens train as ephebes and the Greek elite meets. Membership is the badge of citizenship."
+    },
+    "roman-150ce": {
+     "note": "Still the heart of Greek civic life; Alexandrian envoys to the emperors were often gymnasiarchs."
+    },
+    "late-400": {
+     "note": "Its site is lost; the old gymnasium culture has faded and its stone is reused."
+    }
+   },
+   "summary": "'The most beautiful building' of the city in Strabo's words, with porticoes more than a stade long, on the Canopic Way in the middle of the city.",
+   "details": [
+    "The gymnasium was the centre of Greek citizen life: athletic training, the education of ephebes, lectures and civic meetings. Strabo gives its porticoes as more than a stade (185 m) long.",
+    "The miniature is a reconstruction on a standard Hellenistic plan: a large colonnaded court with a running track (xystos), a palaestra with rooms round it and a bath block."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-gymnasium",
+    "strabo-17",
+    "fraser"
+   ],
+   "built": "3rd century BCE",
+   "function": "Gymnasium and civic centre",
+   "activity": {
+    "figures": 40,
+    "radius": 150
+   }
+  },
+  {
+   "id": "paneion",
+   "placeId": "paneion",
+   "name": "Paneion",
+   "category": "monument",
+   "position": [
+    4540,
+    3429
+   ],
+   "rotation": 0,
+   "footprint": [
+    136.0,
+    143.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/paneion.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 140,
+     "depth": 140,
+     "height": 56.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "variants": {
+    "ptolemaic-200": {
+     "note": "A man-made hill shaped like a pine cone, with a spiral road to the top, from which you can see the whole city (Strabo)."
+    },
+    "roman-150ce": {
+     "note": "A park and lookout in the middle of the city, sacred to Pan."
+    },
+    "late-400": {
+     "note": "Its site is unknown; some place it at Kom el-Dikka, others near the Gymnasium."
+    }
+   },
+   "summary": "An artificial hill sacred to Pan, cone-shaped, with a spiral path to a lookout over the whole city.",
+   "details": [
+    "Strabo is the only good source: 'a height made by hand, shaped like a pine cone, like a rocky hill, with a spiral road up'. Its location is disputed.",
+    "The miniature shows a terraced cone with a winding ramp and a small round shrine on the summit, among trees. Position and size are guesses."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "strabo-17",
+    "wiki-alexandria"
+   ],
+   "built": "3rd century BCE (?)",
+   "function": "Sanctuary of Pan and lookout",
+   "activity": {
+    "figures": 10,
+    "radius": 90
+   }
+  },
+  {
+   "id": "kom-el-dikka",
+   "placeId": "kom-el-dikka",
+   "name": "Theatre of Kom el-Dikka",
+   "category": "entertainment",
+   "position": [
+    4304,
+    3051
+   ],
+   "rotation": -23,
+   "footprint": [
+    90.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/kom-el-dikka.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "late-400"
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "Houses of the rich with mosaic floors, among them the 'Villa of the Birds', occupy the site."
+    },
+    "late-400": {
+     "note": "A small marble theatre or odeon of the 4th century, with a horseshoe of thirteen rows of seats, beside public baths and a row of lecture halls, the only excavated late antique university."
+    },
+    "ottoman-1600": {
+     "note": "Buried under the rubbish mound of Kom el-Dikka, not found until 1960."
+    }
+   },
+   "summary": "A small theatre of white marble seats, the only one of Alexandria's ancient theatres to be found, with baths and lecture halls beside it.",
+   "details": [
+    "Excavated by the Polish mission from 1960. The horseshoe of seats was probably built in the 4th century and roofed later, perhaps with a dome; the twenty or so lecture halls along the portico date mostly from the 5th–6th centuries, so the scene in 400 is an anticipation.",
+    "The miniature shows the horseshoe cavea with its columned gallery, the stage building, and a strip of the portico and lecture halls."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kom-el-dikka",
+    "majcherek"
+   ],
+   "built": "4th century CE",
+   "function": "Theatre (odeon) and lecture halls",
+   "activity": {
+    "figures": 26,
+    "radius": 90
+   }
+  },
+  {
+   "id": "gate-of-the-sun",
+   "placeId": "gate-of-the-sun",
+   "name": "Gate of the Sun",
+   "category": "military",
+   "position": [
+    6418,
+    1763
+   ],
+   "rotation": 67,
+   "footprint": [
+    60.8,
+    24.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/city-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 60,
+     "depth": 24,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "The eastern gate of the new city's wall, where the road leaves for Eleusis and Canopus."
+    },
+    "roman-150ce": {
+     "note": "The novelist Achilles Tatius enters by this gate and looks straight down the colonnaded Canopic Way to the Gate of the Moon."
+    },
+    "late-400": {
+     "note": "Still the eastern gate; the Arabs under Amr ibn al-As will enter by the road beyond it in 642."
+    },
+    "ottoman-1600": {
+     "note": "Gone: the medieval walls run much further west, and their eastern gate is Bab Rashid."
+    }
+   },
+   "summary": "The eastern gate of the ancient city at the head of the Canopic Way, named in the 2nd century CE as the Gate of the Sun.",
+   "details": [
+    "Achilles Tatius (Leucippe and Clitophon 5.1) names the Gates of the Sun and the Moon as 'the guardians of the city'. The names may be his own; their positions are known only from the line of the Canopic Way.",
+    "The miniature is a generic Hellenistic city gate: two round towers with a vaulted passage between them."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-canopic-way",
+    "achilles-tatius"
+   ],
+   "built": "3rd century BCE (?)",
+   "function": "City gate",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "gate-of-the-moon",
+   "placeId": "gate-of-the-moon",
+   "name": "Gate of the Moon",
+   "category": "military",
+   "position": [
+    2230,
+    3540
+   ],
+   "rotation": 67,
+   "footprint": [
+    60.8,
+    24.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/city-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 60,
+     "depth": 24,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400"
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "The western gate, toward the Kibotos basin and the necropolis."
+    },
+    "roman-150ce": {
+     "note": "Funeral processions leave by this gate for the necropolis and its gardens."
+    },
+    "late-400": {
+     "note": "The gate of the Gabbari road, past monasteries and martyrs' shrines."
+    },
+    "ottoman-1600": {
+     "note": "Gone: open ground and old tombs west of the Arab walls."
+    }
+   },
+   "summary": "The western gate of the ancient city at the foot of the Canopic Way, named in the 2nd century CE as the Gate of the Moon.",
+   "details": [
+    "Known only from Achilles Tatius and the line of the Canopic Way; the exact place is a reconstruction.",
+    "Same generic Hellenistic gate as the Gate of the Sun."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-canopic-way",
+    "achilles-tatius"
+   ],
+   "built": "3rd century BCE (?)",
+   "function": "City gate",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "kom-el-shoqafa",
+   "placeId": "kom-el-shoqafa",
+   "name": "Catacombs of Kom el-Shoqafa",
+   "category": "religious",
+   "position": [
+    3238,
+    4837
+   ],
+   "rotation": -23,
+   "footprint": [
+    50.0,
+    50.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/alexandria/kom-el-shoqafa.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce",
+    "late-400"
+   ],
+   "variants": {
+    "ptolemaic-200": {
+     "note": "Rock-cut tombs of the necropolis; the great catacomb has not yet been dug."
+    },
+    "roman-150ce": {
+     "note": "Dug in the 1st–2nd century CE: a spiral stair down a round shaft to three levels of tombs, with a funeral banquet hall and a shrine carved with Anubis in a Roman legionary's armour."
+    },
+    "late-400": {
+     "note": "Still in use by families of the necropolis, perhaps until the 4th century."
+    },
+    "ottoman-1600": {
+     "note": "Forgotten under the ground; found in 1900, the story goes, when a donkey fell into the shaft."
+    }
+   },
+   "summary": "A family tomb grown into a catacomb, three levels deep in the rock, where Egyptian gods wear Roman dress: the shaft head and the small funerary hall above ground.",
+   "details": [
+    "The tomb is reached by a spiral staircase round a light shaft, down which bodies were lowered on ropes. The main tomb chamber mixes pharaonic and Greco-Roman motifs. A triclinium for funeral meals opens off the rotunda.",
+    "The miniature shows what stood above ground (the round shaft with its parapet and a small kiosk over the stair) and is scaled up to be readable."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-shoqafa",
+    "empereur"
+   ],
+   "built": "1st–2nd century CE",
+   "function": "Catacomb",
+   "activity": {
+    "figures": 6,
+    "radius": 50
+   }
+  },
+  {
+   "id": "st-mark",
+   "placeId": "boukolou",
+   "name": "Martyrium of St Mark at Boukolou",
+   "category": "religious",
+   "position": [
+    5776,
+    1275
+   ],
+   "rotation": -23,
+   "footprint": [
+    64.0,
+    36.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/st-mark.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 64,
+     "depth": 36,
+     "height": 14.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "late-400"
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "By tradition Mark the Evangelist was martyred in Alexandria in 68 CE and buried at Boukolou ('the cattle pastures') by the sea."
+    },
+    "late-400": {
+     "note": "A martyr's church over St Mark's tomb, where every new patriarch is enthroned. Arius was a priest of the Baucalis church in about 318."
+    },
+    "ottoman-1600": {
+     "note": "The relics were taken to Venice in 828; the Coptic church of St Mark now stands in the town, far from this site."
+    }
+   },
+   "summary": "The shrine of Mark the Evangelist, traditional founder of the church of Alexandria, at Boukolou in the east of the city.",
+   "details": [
+    "Boukolou (Baucalis) lay by the sea in the eastern part of the city; its exact place is unknown. Two Venetian merchants smuggled Mark's body out in 828, hidden under pork to deter the Muslim customs officers.",
+    "The miniature is a small basilica with an apse and a porch, an interpretation of a 4th-century martyr church."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-st-mark",
+    "haas"
+   ],
+   "built": "4th century (?)",
+   "function": "Martyr church",
+   "activity": {
+    "figures": 14,
+    "radius": 70
+   }
+  },
+  {
+   "id": "attarine",
+   "placeId": "st-athanasius",
+   "name": "Church of St Athanasius",
+   "category": "religious",
+   "position": [
+    3495,
+    2917
+   ],
+   "rotation": -23,
+   "footprint": [
+    62.9,
+    56.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/st-athanasius.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 56,
+     "height": 22.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "late-400",
+    "ottoman-1600"
+   ],
+   "variants": {
+    "late-400": {
+     "note": "A church built by the patriarch Athanasius about 370, on the Canopic Way in the west of the city."
+    },
+    "ottoman-1600": {
+     "name": "Attarine Mosque",
+     "note": "Converted into a mosque after the Arab conquest and rebuilt in 1084; in its court stood the sarcophagus of Nectanebo II, taken by the French in 1798 and now in the British Museum.",
+     "model": {
+      "glb": "models/alexandria/attarine.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 56,
+       "height": 22.400000000000002,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A church of Athanasius' time that became the Western or 'Thousand Columns' mosque, now the Attarine Mosque in the perfume-sellers' quarter.",
+   "details": [
+    "The identification with the church of St Athanasius is the usual one. European travellers spoke of a 'mosque of a thousand columns' in the old city; whether they meant this one is not certain.",
+    "Both miniatures are interpretations: a basilica with an atrium for 400, and for 1600 a hypostyle mosque with a court, a minaret and the sarcophagus in a little kiosk."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-attarine",
+    "haas"
+   ],
+   "built": "c. 370; mosque 7th century, rebuilt 1084",
+   "function": "Church, then mosque",
+   "activity": {
+    "figures": 16,
+    "radius": 70
+   }
+  },
+  {
+   "id": "al-mursi",
+   "placeId": "al-mursi",
+   "name": "Mosque of Abu al-Abbas al-Mursi",
+   "category": "religious",
+   "position": [
+    2209,
+    1797
+   ],
+   "rotation": -20,
+   "footprint": [
+    40.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/al-mursi.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 50,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "ottoman-1600": {
+     "note": "Fishermen and sailors visit the saint's tomb before going to sea; his feast fills the neck town with crowds."
+    }
+   },
+   "summary": "The tomb mosque of the Andalusian Sufi master Abu al-Abbas al-Mursi (died 1287), patron saint of the neck town and its sailors.",
+   "details": [
+    "A domed tomb was built over his grave about 1307 and the mosque was enlarged several times; the present building dates from 1943. Its form in 1600 is not known in detail.",
+    "The miniature shows a modest Mamluk-style tomb mosque: a court, a prayer hall, a ribbed stone dome over the tomb and a minaret."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mursi",
+    "behrens-abouseif"
+   ],
+   "built": "c. 1307, enlarged later",
+   "function": "Tomb mosque",
+   "activity": {
+    "figures": 20,
+    "radius": 60
+   }
+  },
+  {
+   "id": "bab-rashid",
+   "placeId": "bab-rashid",
+   "name": "Bab Rashid (Rosetta Gate)",
+   "category": "military",
+   "position": [
+    5335,
+    2332
+   ],
+   "rotation": 67,
+   "footprint": [
+    44.8,
+    26.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/alexandria/bab-rashid.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 44,
+     "depth": 26,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "variants": {
+    "ottoman-1600": {
+     "note": "The eastern gate of the Arab walls, on the road to Rashid (Rosetta) and Cairo; travellers from the Nile entered here and crossed a mile of ruins to reach the town."
+    }
+   },
+   "summary": "The eastern gate of the medieval walls of Alexandria, on the road to Rosetta.",
+   "details": [
+    "The Tulunid walls of the 9th century were rebuilt by the Mamluks with towers and gates; Bab Rashid stood near the modern Shallalat gardens, where a stretch of wall survives.",
+    "The miniature shows a Mamluk-style gate between two square towers with a pointed arch and crenellations."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-alexandria",
+    "behrens-abouseif"
+   ],
+   "built": "9th century; rebuilt under the Mamluks",
+   "function": "City gate",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "harbour-customs",
+   "name": "Customs house of the Great Harbour",
+   "kind": "dock",
+   "position": [
+    3599,
+    2542
+   ],
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "summary": "Where ships' cargoes were cleared and taxed, and where, Galen says, every book found aboard was taken to be copied for the Library.",
+   "details": [
+    "Galen tells that Ptolemy III ordered all books on ships putting in at Alexandria to be seized and copied; the owners got the copies, the Library kept the originals, labelled 'from the ships'. Ptolemy is also said to have kept the Athenian master copies of the tragedians, forfeiting a deposit of 15 talents."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "galen-hippocrates",
+    "fraser"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A Rhodian merchantman ties up. Before a single amphora comes off, a clerk climbs aboard and asks the captain one question: any books?"
+    },
+    {
+     "hour": 12,
+     "text": "Scrolls in a basket go off to the Library under escort. A ship's doctor protests over his Hippocrates; he is promised a fresh copy within the month."
+    },
+    {
+     "hour": 19,
+     "text": "Ledgers closed, the duty on Syrian wine counted in bronze. The tax farmers dice on the steps while the lighthouse fire is lit across the water."
+    }
+   ],
+   "variants": {
+    "ptolemy-280": {
+     "note": "The harbour dues are already a royal monopoly; the rule about books is said to come later, under Ptolemy III."
+    },
+    "roman-150ce": {
+     "note": "Roman customs officials now; a quarter of the value is charged on eastern goods coming through the Red Sea trade."
+    }
+   }
+  },
+  {
+   "id": "copyists",
+   "name": "Copyists of the Library",
+   "kind": "school",
+   "position": [
+    4664,
+    2084
+   ],
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "summary": "Scribes copying and checking texts for the Library, the work behind the first critical editions of Homer.",
+   "details": [
+    "Zenodotus, Aristophanes of Byzantium and Aristarchus compared manuscripts of Homer and marked doubtful lines with an obelos in the margin. Callimachus drew up the Pinakes, a catalogue of Greek literature in 120 books. Scrolls were of papyrus, about 6–10 m long; a long work filled many."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "fraser",
+    "galen-hippocrates"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Reed pens cut, ink ground from soot and gum. A boy unrolls three copies of the Iliad side by side on the long table."
+    },
+    {
+     "hour": 13,
+     "text": "A grammarian strikes a line with an obelos and argues with a colleague for an hour about one word in Book 9."
+    },
+    {
+     "hour": 18,
+     "text": "New rolls get their tags: title, author, number of lines, and the note 'from the ships'."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "eratosthenes-sundial",
+   "name": "Eratosthenes' sundial",
+   "kind": "monument",
+   "position": [
+    4418,
+    1863
+   ],
+   "activePeriods": [
+    "ptolemaic-200"
+   ],
+   "summary": "A bowl sundial (scaphe) in the Museum's grounds, of the kind Eratosthenes used to measure the size of the earth.",
+   "details": [
+    "As Cleomedes tells it: at noon on the summer solstice the sun shone straight down a well at Syene, while at Alexandria a gnomon cast a shadow of one fiftieth of a circle. Taking Syene to be 5,000 stades south, Eratosthenes made the earth 250,000 stades round, close to the true figure. The setting in the Museum garden is assumed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "cleomedes",
+    "wiki-eratosthenes"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A slave sweeps the bronze bowl clean of sand. The gnomon's shadow lies long across the engraved lines."
+    },
+    {
+     "hour": 12,
+     "text": "Midsummer noon: the shadow shrinks to its shortest. Eratosthenes reads it off: a fiftieth of a circle. At Syene, he knows, there is no shadow at all."
+    },
+    {
+     "hour": 17,
+     "text": "Students argue over the distance to Syene. The royal surveyors who pace the Nile say 5,000 stades; he will use their figure."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "papyrus-shop",
+   "name": "Papyrus seller",
+   "kind": "shop",
+   "position": [
+    3623,
+    3112
+   ],
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "summary": "A shop selling papyrus rolls by grade, from fine 'Augustan' writing paper to coarse wrapping paper.",
+   "details": [
+    "Papyrus was a royal monopoly under the Ptolemies and Egypt's best-known export. Pliny lists the grades, named after emperors and places, and describes how strips of pith were laid crosswise, pressed, dried and glued into rolls of about twenty sheets."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "pliny-nh",
+    "fraser"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Bundles of rolls from the Delta come up the canal. The shopkeeper taps each sheet and holds it to the light to check the joins."
+    },
+    {
+     "hour": 13,
+     "text": "A school teacher buys cheap palimpsest stock; a lawyer's clerk pays three times as much for 'hieratic', the first grade."
+    },
+    {
+     "hour": 19,
+     "text": "The shutters come down. Offcuts go to the fishmonger next door for wrapping."
+    }
+   ],
+   "variants": {
+    "ptolemaic-200": {
+     "note": "Papyrus is a royal monopoly: prices are fixed and the king's agents watch the trade."
+    },
+    "roman-150ce": {
+     "note": "Papyrus goes all over the empire; Pliny names the best grade 'Augustan'."
+    }
+   }
+  },
+  {
+   "id": "glassworks",
+   "name": "Glassworks of Rhakotis",
+   "kind": "workshop",
+   "position": [
+    3101,
+    3931
+   ],
+   "activePeriods": [
+    "roman-150ce",
+    "late-400"
+   ],
+   "summary": "Furnaces making blown and cut glass, one of Alexandria's famous exports.",
+   "details": [
+    "Alexandria was known for luxury glass: cut, engraved and mosaic vessels. Strabo heard that a special earth near the city made fine glass possible. Excavations at Kom el-Dikka found late antique glass workshops with furnaces and cullet heaps."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "strabo-17",
+    "wiki-roman-glass",
+    "majcherek"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The furnace is fed with reed and dung before dawn. Sacks of sand and natron from the Wadi Natrun stand by the door."
+    },
+    {
+     "hour": 11,
+     "text": "A blower turns a glowing gather on the pipe and puffs it into a mould; a boy runs the cups to the annealing oven."
+    },
+    {
+     "hour": 20,
+     "text": "Crates packed in straw for the grain ships. Broken pieces go back into the pot tomorrow."
+    }
+   ],
+   "variants": {
+    "late-400": {
+     "note": "Workshops for glass now fill courtyards of old houses, as excavated at Kom el-Dikka."
+    }
+   }
+  },
+  {
+   "id": "great-synagogue",
+   "name": "The great synagogue (Diplostoon)",
+   "kind": "shrine",
+   "position": [
+    5222,
+    1761
+   ],
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "summary": "The huge double-colonnaded synagogue of Alexandria's Jews, described in the Talmud as so big that flags were waved to tell the congregation when to say Amen.",
+   "details": [
+    "The Talmud (Sukkah 51b) says that 'he who has not seen the double colonnade of Alexandria has never seen the glory of Israel', with 71 golden chairs for the elders and the craftsmen seated by guild. It was probably destroyed in the revolt of 115–117. Its location is unknown; it is placed here in the Delta quarter."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "talmud-sukkah",
+    "philo-flaccum"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Goldsmiths sit with goldsmiths, weavers with weavers, so a stranger can find his trade and work."
+    },
+    {
+     "hour": 10,
+     "text": "The reader's voice is lost in the colonnades. An attendant on the platform waves a scarf: ten thousand voices answer Amen."
+    },
+    {
+     "hour": 18,
+     "text": "Scholars stay behind to read the Greek Torah, the translation made, they say, on Pharos island."
+    }
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "In 38 CE Greek mobs forced statues of Caligula into the synagogues (Philo). The great synagogue probably perished in the revolt of 115–117."
+    }
+   }
+  },
+  {
+   "id": "grain-fleet",
+   "name": "Grain fleet quay",
+   "kind": "dock",
+   "position": [
+    2523,
+    3273
+   ],
+   "activePeriods": [
+    "roman-150ce",
+    "late-400"
+   ],
+   "summary": "Quays on the Eunostos where the great grain ships loaded Egypt's wheat for Rome, and later for Constantinople.",
+   "details": [
+    "Egypt fed Rome for about four months of the year. Lucian describes one Alexandrian grain ship, the Isis, about 55 m long, carrying perhaps 1,200 tons. The fleet sailed in spring, and its first sight off Puteoli was a public event (Seneca). After 330 the grain went to Constantinople."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "lucian-ship",
+    "casson-ships",
+    "rickman"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Barges from the Kibotos come alongside, heaped with wheat under matting. Measurers call out each modius as it is poured."
+    },
+    {
+     "hour": 13,
+     "text": "Porters run up the gangplanks with sacks. The ship's owner argues with the prefect's man about the rate per thousand modii."
+    },
+    {
+     "hour": 21,
+     "text": "A sacrifice to Isis Pharia for a safe voyage. The fleet sails at dawn if the wind holds north."
+    }
+   ],
+   "variants": {
+    "late-400": {
+     "note": "The fleet now sails for Constantinople, where the grain feeds the free bread of the new capital."
+    }
+   }
+  },
+  {
+   "id": "lighthouse-keepers",
+   "name": "Lighthouse keepers' yard",
+   "kind": "works",
+   "position": [
+    2438,
+    1087
+   ],
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce",
+    "late-400"
+   ],
+   "summary": "Store yard and lodgings at the foot of the Pharos where fuel was hauled up for the light.",
+   "details": [
+    "How the light worked is not known. Arab writers describe a ramp inside the tower wide enough for pack animals; fuel (wood or dung) may have been carried up this way. Roman coins show the tower and ancient writers mention a fire seen at night; a mirror is a medieval legend."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "strabo-17",
+    "fraser"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The night watch comes down sooty and stiff. Ash is raked out of the brazier at the top and carried down in baskets."
+    },
+    {
+     "hour": 12,
+     "text": "Donkeys climb the ramp inside the tower in a slow line, loaded with brushwood brought over the Heptastadion."
+    },
+    {
+     "hour": 19,
+     "text": "Sunset: the keepers climb with oil lamps. Out at sea a captain sees the first glow and changes course for the channel."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "lake-port",
+   "name": "Lake port wine quays",
+   "kind": "dock",
+   "position": [
+    4952,
+    4660
+   ],
+   "activePeriods": [
+    "ptolemaic-200",
+    "roman-150ce"
+   ],
+   "summary": "Quays on Lake Mareotis where Nile boats unloaded grain and papyrus and the white wine of the lake shore came in.",
+   "details": [
+    "Strabo found the lake harbour richer than the sea harbour, since more goods came down the Nile than across the sea. Mareotic wine was praised by Horace and Virgil; excavations on the lake shore found wine presses and amphora kilns."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "strabo-17"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Lateen-sailed river boats nose in through the reeds. The air smells of mud and pitch."
+    },
+    {
+     "hour": 12,
+     "text": "Amphorae of Mareotic white are carried off in pairs on poles. A taster dips a cup and nods."
+    },
+    {
+     "hour": 18,
+     "text": "Fishermen land mullet from the lake. Frogs start up as the boats tie up for the night."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "frankincense",
+   "name": "Frankincense workshop",
+   "kind": "workshop",
+   "position": [
+    4173,
+    2564
+   ],
+   "activePeriods": [
+    "roman-150ce"
+   ],
+   "summary": "Where incense from Arabia was sorted and processed under guard; the workers were searched before they left.",
+   "details": [
+    "Pliny writes that in the Alexandrian incense works 'no amount of vigilance is enough': the workers' aprons were sealed, they wore masks or nets on their heads, and they were stripped before being let out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "pliny-nh"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Overseers seal each worker's loincloth with a lead seal. The resin lumps glow amber on the sorting tables."
+    },
+    {
+     "hour": 12,
+     "text": "Dust of frankincense hangs in the air; the sorters sneeze behind their net masks."
+    },
+    {
+     "hour": 18,
+     "text": "Every worker is stripped at the door before going home. A guard finds a tear of resin in a sandal."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "lecture-halls",
+   "name": "Lecture halls of Kom el-Dikka",
+   "kind": "school",
+   "position": [
+    4398,
+    2968
+   ],
+   "activePeriods": [
+    "late-400"
+   ],
+   "summary": "Rows of small horseshoe-shaped halls with stepped benches and a teacher's chair, the only excavated lecture rooms of late antiquity.",
+   "details": [
+    "About twenty auditoria have been found along the portico by the theatre, mostly of the 5th–6th centuries, used for teaching rhetoric, philosophy and medicine. Their form in 400 is an anticipation; teachers like Hypatia lectured in the city then, though not necessarily here."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "majcherek",
+    "haas"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Students crowd the benches with wax tablets on their knees. The teacher's chair stands on a raised step."
+    },
+    {
+     "hour": 12,
+     "text": "A lecture on Plato breaks off for a fight outside: Christian and pagan students throwing stones in the portico."
+    },
+    {
+     "hour": 17,
+     "text": "Bath-goers from next door drift past. A medical student copies Galen by lamplight."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pharos-yard",
+   "name": "Stoneyard of the lighthouse",
+   "kind": "works",
+   "position": [
+    2209,
+    1309
+   ],
+   "activePeriods": [
+    "ptolemy-280"
+   ],
+   "summary": "Masons' yard on Pharos where blocks for the lighthouse were cut and hoisted.",
+   "details": [
+    "The tower was built of limestone with granite in places; blocks of Aswan granite weighing up to 75 tons lie today on the seabed off Qaitbay. How the work was organised is unknown; this yard is an illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "fraser"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Barges bring limestone across the harbour. Oxen strain at the sledges up from the beach."
+    },
+    {
+     "hour": 12,
+     "text": "Masons chalk Sostratus' dedication on a block: 'to the Saviour Gods, for the safety of sailors'."
+    },
+    {
+     "hour": 18,
+     "text": "Treadwheel cranes stop turning. Fishermen sell the workers sea bream from their boats."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "rhakotis-house",
+   "name": "Egyptian house in Rhakotis",
+   "kind": "house",
+   "position": [
+    2883,
+    3546
+   ],
+   "activePeriods": [
+    "ptolemy-280",
+    "ptolemaic-200"
+   ],
+   "summary": "A mud-brick house of an Egyptian family in the old village round the Serapis shrine.",
+   "details": [
+    "Rhakotis was the Egyptian settlement before Alexander and remained the native quarter. Egyptians, who were not citizens, kept their own law and temples, and served the new city as boatmen, priests, embalmers and labourers."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "strabo-17",
+    "fraser"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Bread baking in a clay oven on the roof. The grandmother prays to Isis at a niche by the door."
+    },
+    {
+     "hour": 13,
+     "text": "The men are away loading barges; the women weave linen in the shade of the court."
+    },
+    {
+     "hour": 20,
+     "text": "Neighbours sit out on the roofs. From the hill comes the chanting of the Serapis priests."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "cisterns",
+   "name": "Cisterns of the old city",
+   "kind": "fountain",
+   "position": [
+    3742,
+    3138
+   ],
+   "activePeriods": [
+    "late-400",
+    "ottoman-1600"
+   ],
+   "summary": "Underground cisterns, filled once a year from the canal at the Nile flood, that kept the city in drinking water.",
+   "details": [
+    "Alexandria had no springs; its water came by canal from the Nile and was stored in hundreds of cisterns of reused columns and vaults. Travellers of the 16th–18th centuries counted them among the wonders of the ruined city; the French found over 300 in 1798."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "description-egypte",
+    "sandys"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Water-carriers lower leather buckets through the shaft. Old columns, one upside down, hold up the vaults below."
+    },
+    {
+     "hour": 13,
+     "text": "A water-seller fills his goatskin and sets off for the town, ringing a brass cup."
+    },
+    {
+     "hour": 19,
+     "text": "Pigeons settle in the shaft. Someone has dropped a lamp; it floats on the black water."
+    }
+   ],
+   "variants": {
+    "late-400": {
+     "note": "Fed from the canal at the flood and drawn up by wheels; the cisterns serve houses, baths and churches."
+    },
+    "ottoman-1600": {
+     "note": "With the town moved onto the neck, water is carried out from the cisterns inside the walls on camels and donkeys."
+    }
+   }
+  },
+  {
+   "id": "coffee-house",
+   "name": "Coffee house on the neck",
+   "kind": "tavern",
+   "position": [
+    2742,
+    2219
+   ],
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "summary": "A coffee house in the bazaar of the neck town, where sailors, porters and merchants sat over the new drink from Yemen.",
+   "details": [
+    "Coffee came to Egypt from Yemen in the early 16th century and coffee houses spread despite periodic bans. Alexandria was the port through which Egyptian coffee went on to Istanbul and Europe."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "hattox-l",
+    "sandys"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The coffee-maker roasts beans on an iron plate; the smoke drifts out over the harbour."
+    },
+    {
+     "hour": 13,
+     "text": "Ships' captains sit on the mastaba benches, haggling over freight to Istanbul, cups balanced on their knees."
+    },
+    {
+     "hour": 21,
+     "text": "A storyteller reaches the best part of the tale of Baybars; he stops, and the audience pays to hear the rest tomorrow."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "venetian-fondaco",
+   "name": "Venetian fondaco",
+   "kind": "inn",
+   "position": [
+    3123,
+    2419
+   ],
+   "activePeriods": [
+    "ottoman-1600"
+   ],
+   "summary": "The walled warehouse and lodgings of the Venetian merchants and their consul, locked from outside every night.",
+   "details": [
+    "European merchants in Mamluk and Ottoman Alexandria lived in fondachi: courtyard buildings with storerooms below and rooms above, run by their nation's consul. Their gates were locked at night and on Fridays. Venice, France and others traded here for spices, cotton, flax and coffee. Its exact site is not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-fondaco",
+    "sandys"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The gate is unlocked from outside. Bales of pepper, already weighed by the customs, are stacked under the arcade."
+    },
+    {
+     "hour": 12,
+     "text": "The consul argues with the customs farmer over a new duty. A galley from Venice is due in the New Port."
+    },
+    {
+     "hour": 20,
+     "text": "The doorkeeper locks the gate. Inside, the factors eat Venetian salami and write letters home."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-331",
+   "title": "Alexander lays out the city",
+   "periodId": "ptolemy-280",
+   "date": "early 331 BCE",
+   "kind": "ceremony",
+   "at": {
+    "position": [
+     3933,
+     2818
+    ]
+   },
+   "effect": "construction",
+   "text": "On his way to the oracle of Siwa, Alexander chose the strip between the sea and the lake and marked out the plan himself. Short of chalk, his men used barley meal; birds flew down and ate it, and the seers said the city would feed many peoples (Arrian, Plutarch).",
+   "sourceIds": [
+    "arrian",
+    "fraser"
+   ]
+  },
+  {
+   "id": "grand-procession",
+   "title": "The Grand Procession of Ptolemy II",
+   "periodId": "ptolemy-280",
+   "date": "c. 275 BCE (date disputed)",
+   "kind": "procession",
+   "at": {
+    "position": [
+     5037,
+     2349
+    ]
+   },
+   "effect": "procession",
+   "text": "For the Ptolemaia festival a procession wound through the city from dawn to dusk: a 4 m statue of Dionysus, 2,000 bulls with gilded horns, elephants, camels, a 55 m gold phallus and a float with a wine-press trodden by satyrs. Kallixeinos' account survives in Athenaeus.",
+   "sourceIds": [
+    "athenaeus"
+   ]
+  },
+  {
+   "id": "pharos-finished",
+   "title": "The lighthouse is finished",
+   "periodId": "ptolemy-280",
+   "date": "c. 280 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "pharos"
+   },
+   "effect": "construction",
+   "text": "After some fifteen years of work the tower stood complete, dedicated by Sostratus of Cnidus 'to the Saviour Gods, on behalf of those who sail'. It cost 800 talents, Pliny says, and would stand for over 1,500 years.",
+   "sourceIds": [
+    "strabo-17",
+    "pliny-nh"
+   ]
+  },
+  {
+   "id": "septuagint",
+   "title": "The Torah is translated into Greek",
+   "periodId": "ptolemy-280",
+   "date": "traditionally under Ptolemy II (283–246 BCE)",
+   "kind": "civic",
+   "at": {
+    "position": [
+     1047,
+     1942
+    ]
+   },
+   "effect": "none",
+   "text": "The Letter of Aristeas says 72 Jewish elders came from Jerusalem and translated the Law on Pharos island in 72 days, for the king's Library. The story is legend, but the Greek Torah was made in Alexandria in the 3rd century BCE, and Alexandria's Jews held a yearly festival on Pharos to celebrate it.",
+   "sourceIds": [
+    "aristeas",
+    "wiki-septuagint",
+    "philo-flaccum"
+   ]
+  },
+  {
+   "id": "eratosthenes-240",
+   "title": "Eratosthenes measures the earth",
+   "periodId": "ptolemaic-200",
+   "date": "c. 240 BCE",
+   "kind": "daily",
+   "at": {
+    "spotId": "eratosthenes-sundial"
+   },
+   "effect": "none",
+   "text": "The royal librarian compared the noon shadow at Alexandria on midsummer's day with the sunlit well at Syene and made the earth 250,000 stades round, roughly 40,000 km if his stade was about 160 m. Cleomedes preserves the method; the exact numbers are debated.",
+   "sourceIds": [
+    "cleomedes",
+    "wiki-eratosthenes"
+   ]
+  },
+  {
+   "id": "caesars-fire",
+   "title": "Caesar burns the fleet",
+   "periodId": "ptolemaic-200",
+   "date": "48 BCE",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     4175,
+     2107
+    ]
+   },
+   "effect": "fire",
+   "text": "Besieged in the palace quarter, Caesar set fire to the ships in the harbour; the fire spread to the docks and warehouses. Later writers say books burned, 40,000 scrolls by one count, probably stored near the harbour rather than in the Library itself.",
+   "sourceIds": [
+    "caesar-civil-war",
+    "wiki-siege-alexandria"
+   ]
+  },
+  {
+   "id": "octavian-sema",
+   "title": "Octavian visits Alexander",
+   "periodId": "roman-150ce",
+   "date": "August 30 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "sema"
+   },
+   "effect": "crowd",
+   "text": "After Cleopatra's death Octavian had Alexander's body brought out, laid a gold crown on it and scattered flowers; touching the face, he broke off a piece of the nose (Dio). Asked if he would see the Ptolemies too, he said he had come to see a king, not corpses.",
+   "sourceIds": [
+    "dio"
+   ]
+  },
+  {
+   "id": "obelisks-raised",
+   "title": "The obelisks set up at the Caesareum",
+   "periodId": "roman-150ce",
+   "date": "13/12 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "caesareum"
+   },
+   "effect": "construction",
+   "text": "Two granite obelisks of Thutmose III, carted from Heliopolis, were raised before the temple of the deified emperor on four bronze crabs, one of which, inscribed with the prefect's name, is now in New York.",
+   "sourceIds": [
+    "wiki-needles"
+   ]
+  },
+  {
+   "id": "revolt-115",
+   "title": "The Jewish revolt and its end",
+   "periodId": "roman-150ce",
+   "date": "115–117 CE",
+   "kind": "riot",
+   "at": {
+    "spotId": "great-synagogue"
+   },
+   "effect": "fire",
+   "text": "A rising of the Jews of Cyrenaica, Egypt and Cyprus under Trajan ended in massacre. In Alexandria the Jewish community, once a third of the city or more, was broken, and the great synagogue was probably destroyed.",
+   "sourceIds": [
+    "wiki-kitos",
+    "talmud-sukkah"
+   ]
+  },
+  {
+   "id": "aurelian-272",
+   "title": "Aurelian destroys the Brucheion",
+   "periodId": "roman-150ce",
+   "date": "272 CE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "royal-palaces"
+   },
+   "effect": "fire",
+   "text": "Retaking the city from the forces of Palmyra and local rebels, Aurelian's troops fought through the royal quarter and left it, Ammianus says, a desert. The palaces and probably the Museum were never rebuilt.",
+   "sourceIds": [
+    "ammianus",
+    "haas"
+   ]
+  },
+  {
+   "id": "tsunami-365",
+   "title": "The great wave",
+   "periodId": "late-400",
+   "date": "21 July 365",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     3400,
+     2587
+    ]
+   },
+   "effect": "none",
+   "text": "After an earthquake off Crete the sea drew back, leaving ships stranded and fish flapping in the mud; then a wave threw ships onto the roofs of Alexandria. The day was remembered yearly as 'the day of horror' (Ammianus).",
+   "sourceIds": [
+    "ammianus",
+    "wiki-365-quake"
+   ]
+  },
+  {
+   "id": "serapeum-391",
+   "title": "The Serapeum falls",
+   "periodId": "late-400",
+   "date": "391 or 392",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "serapeum"
+   },
+   "effect": "crowd",
+   "text": "Pagans barricaded in the temple after street fights; when the emperor's letter ordered the cults ended, a soldier took an axe to the statue of Sarapis. The crowd waited for the sky to fall; when nothing happened, the statue was dragged off in pieces and burned.",
+   "sourceIds": [
+    "rufinus",
+    "haas"
+   ]
+  },
+  {
+   "id": "hypatia-415",
+   "title": "The murder of Hypatia",
+   "periodId": "late-400",
+   "date": "March 415",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "caesareum"
+   },
+   "effect": "crowd",
+   "text": "Hypatia, mathematician and the city's most famous philosopher, was seen as the adviser of the prefect Orestes in his feud with the patriarch Cyril. A mob led by a reader named Peter pulled her from her carriage, dragged her into the Caesareum church and killed her with potsherds.",
+   "sourceIds": [
+    "socrates-he",
+    "wiki-hypatia"
+   ]
+  },
+  {
+   "id": "arab-conquest",
+   "title": "The Arabs enter Alexandria",
+   "periodId": "late-400",
+   "date": "September 642",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "gate-of-the-sun"
+   },
+   "effect": "procession",
+   "text": "By the treaty of November 641 the Byzantine garrison left by sea, and Amr ibn al-As's army marched in eleven months later. Amr is said to have written to the caliph that he had taken a city of 4,000 palaces and 4,000 baths. The capital moved to Fustat on the Nile.",
+   "sourceIds": [
+    "john-nikiu",
+    "wiki-muslim-conquest-egypt"
+   ]
+  },
+  {
+   "id": "qaitbay-1477",
+   "title": "Qaitbay's fort rises on the Pharos rock",
+   "periodId": "ottoman-1600",
+   "date": "1477–1479",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "pharos"
+   },
+   "effect": "construction",
+   "text": "The lighthouse had been brought down by the earthquakes of 1303 and 1323. Fearing Ottoman attack, Sultan Qaitbay came to the site himself and had a fortress built on its foundations, reusing its fallen stone.",
+   "sourceIds": [
+    "wiki-qaitbay",
+    "sandys"
+   ]
+  },
+  {
+   "id": "french-1798",
+   "title": "Bonaparte storms Alexandria",
+   "periodId": "ottoman-1600",
+   "date": "2 July 1798",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "pompeys-pillar"
+   },
+   "effect": "crowd",
+   "text": "The French army landed at night west of the city and attacked the old walls at dawn. Kléber was wounded at the gates; after a few hours' fighting the town surrendered. Bonaparte's scholars began to measure the ruins for the Description de l'Égypte.",
+   "sourceIds": [
+    "wiki-french-egypt",
+    "description-egypte"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "day-at-the-museum",
+   "title": "A day at the Museum",
+   "periodId": "ptolemaic-200",
+   "summary": "A young scholar from Rhodes arrives in 200 BCE, has his books taken at the harbour, and spends his first day among the copyists, the royal tombs and the gods of Alexandria.",
+   "steps": [
+    {
+     "spotId": "harbour-customs",
+     "title": "Books from the ships",
+     "when": "Dawn",
+     "text": "Your ship docks in the Great Harbour. Customs men take your scrolls of Hippocrates 'to be copied'. You will get copies back; the Library keeps the originals."
+    },
+    {
+     "landmarkId": "pharos",
+     "title": "The lighthouse",
+     "when": "Morning",
+     "text": "Across the water the white tower stands three storeys high on its rock, the statue on top catching the sun. You saw its glow from the sea last night."
+    },
+    {
+     "spotId": "copyists",
+     "title": "Among the copyists",
+     "text": "In the Museum the scribes collate three Iliads. Aristophanes himself is librarian; a colleague whispers that the king pays his salary and feeds him for nothing."
+    },
+    {
+     "landmarkId": "museum-library",
+     "title": "The dining hall of the Muses",
+     "when": "Midday",
+     "text": "The members eat together in the great hall. A poet mocks them as 'fatted birds in the Muses' birdcage'; they laugh and go on arguing."
+    },
+    {
+     "spotId": "eratosthenes-sundial",
+     "title": "The shadow and the earth",
+     "when": "Afternoon",
+     "text": "An old member shows you the bronze bowl in the garden and the old librarian's sum: a fiftieth of a circle, 250,000 stades round the earth."
+    },
+    {
+     "landmarkId": "sema",
+     "title": "The tomb of Alexander",
+     "text": "Along the Canopic Way to the Sema. Through a grille you see the gold coffin where the founder of the city lies among the Ptolemies."
+    },
+    {
+     "landmarkId": "serapeum",
+     "title": "The hill of Sarapis",
+     "when": "Evening",
+     "text": "You climb the hundred steps to the Serapeum. In the colonnades, more books: the daughter library, open to anyone who can read."
+    }
+   ],
+   "sourceIds": [
+    "strabo-17",
+    "galen-hippocrates",
+    "cleomedes"
+   ]
+  },
+  {
+   "id": "end-of-the-old-gods",
+   "title": "The end of the old gods",
+   "periodId": "late-400",
+   "summary": "Alexandria around 400: a walk from the ruins of the Serapeum to the cathedral where Hypatia would die, through a city of churches, lecture halls and street fights.",
+   "steps": [
+    {
+     "landmarkId": "serapeum",
+     "title": "Where Sarapis stood",
+     "when": "391",
+     "text": "The great temple is rubble. Monks have built a martyr's shrine in the ruins; workmen pick out the marble for lime."
+    },
+    {
+     "landmarkId": "pompeys-pillar",
+     "title": "Diocletian's column",
+     "text": "Only the red granite column, raised a century ago for a persecuting emperor, still stands on the hill. No one has dared to pull it down."
+    },
+    {
+     "spotId": "lecture-halls",
+     "title": "Hypatia's world",
+     "when": "Morning",
+     "text": "Teachers still lecture on Plato and Euclid to Christian and pagan students alike. Hypatia, daughter of the mathematician Theon, is the most famous of them."
+    },
+    {
+     "landmarkId": "caesareum",
+     "title": "The Caesareum church",
+     "when": "Midday",
+     "text": "The emperors' temple is now the patriarch's cathedral, the obelisks still before its gate. Here, in 415, a mob will kill Hypatia."
+    },
+    {
+     "landmarkId": "st-mark",
+     "title": "The evangelist's tomb",
+     "when": "Afternoon",
+     "text": "East by the sea, at Boukolou, the shrine of St Mark, where each new patriarch is enthroned over the tomb of the founder of the Alexandrian church."
+    },
+    {
+     "landmarkId": "pharos",
+     "title": "The light still burns",
+     "when": "Night",
+     "text": "Back at the harbour the lighthouse fire is lit, as it has been for nearly seven centuries. Grain ships for Constantinople wait for a north wind."
+    }
+   ],
+   "sourceIds": [
+    "rufinus",
+    "socrates-he",
+    "haas"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-alexandria",
+   "title": "Alexandria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexandria"
+  },
+  {
+   "id": "wiki-ancient-alexandria",
+   "title": "History of Alexandria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Alexandria"
+  },
+  {
+   "id": "wiki-mareotis",
+   "title": "Lake Mariout",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lake_Mariout"
+  },
+  {
+   "id": "strabo-17",
+   "title": "Geography, Book 17 (description of Alexandria, 17.1.6–10)",
+   "author": "Strabo",
+   "year": "c. 20 CE",
+   "url": "https://en.wikipedia.org/wiki/Geographica"
+  },
+  {
+   "id": "fraser",
+   "title": "Ptolemaic Alexandria",
+   "author": "P. M. Fraser",
+   "year": 1972
+  },
+  {
+   "id": "mckenzie",
+   "title": "The Architecture of Alexandria and Egypt, c. 300 BC to AD 700",
+   "author": "Judith McKenzie",
+   "year": 2007
+  },
+  {
+   "id": "haas",
+   "title": "Alexandria in Late Antiquity: Topography and Social Conflict",
+   "author": "Christopher Haas",
+   "year": 1997
+  },
+  {
+   "id": "goiran",
+   "title": "Palaeoenvironmental reconstruction of the ancient harbors of Alexandria (Heptastadion)",
+   "author": "J.-P. Goiran et al.",
+   "year": 2005
+  },
+  {
+   "id": "el-falaki",
+   "title": "Mémoire sur l'antique Alexandrie",
+   "author": "Mahmoud Bey el-Falaki",
+   "year": 1872
+  },
+  {
+   "id": "wiki-pharos",
+   "title": "Lighthouse of Alexandria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"
+  },
+  {
+   "id": "wiki-qaitbay",
+   "title": "Citadel of Qaitbay",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Citadel_of_Qaitbay"
+  },
+  {
+   "id": "wiki-heptastadion",
+   "title": "Heptastadion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heptastadion"
+  },
+  {
+   "id": "wiki-brucheion",
+   "title": "Brucheion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brucheion"
+  },
+  {
+   "id": "wiki-library",
+   "title": "Library of Alexandria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+  },
+  {
+   "id": "wiki-musaeum",
+   "title": "Musaeum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Musaeum"
+  },
+  {
+   "id": "wiki-sema",
+   "title": "Tomb of Alexander the Great",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tomb_of_Alexander_the_Great"
+  },
+  {
+   "id": "wiki-serapeum",
+   "title": "Serapeum of Alexandria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Serapeum_of_Alexandria"
+  },
+  {
+   "id": "wiki-pompeys-pillar",
+   "title": "Pompey's Pillar (column)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pompey%27s_Pillar_(column)"
+  },
+  {
+   "id": "wiki-caesareum",
+   "title": "Caesareum of Alexandria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caesareum_of_Alexandria"
+  },
+  {
+   "id": "wiki-needles",
+   "title": "Cleopatra's Needle",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cleopatra%27s_Needle"
+  },
+  {
+   "id": "wiki-antirhodos",
+   "title": "Antirhodos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Antirhodos"
+  },
+  {
+   "id": "wiki-gymnasium",
+   "title": "Gymnasium (ancient Greece)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"
+  },
+  {
+   "id": "wiki-kom-el-dikka",
+   "title": "Kom El Deka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kom_El_Deka"
+  },
+  {
+   "id": "wiki-canopic-way",
+   "title": "Canopic Way",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Canopic_Way"
+  },
+  {
+   "id": "wiki-shoqafa",
+   "title": "Catacombs of Kom El Shoqafa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa"
+  },
+  {
+   "id": "wiki-st-mark",
+   "title": "Saint Mark's Coptic Orthodox Cathedral (Alexandria)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Saint_Mark%27s_Coptic_Orthodox_Cathedral_(Alexandria)"
+  },
+  {
+   "id": "wiki-attarine",
+   "title": "Attarine Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Attarine_Mosque"
+  },
+  {
+   "id": "wiki-mursi",
+   "title": "Abu al-Abbas al-Mursi Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abu_al-Abbas_al-Mursi_Mosque"
+  },
+  {
+   "id": "empereur",
+   "title": "Alexandria Rediscovered",
+   "author": "Jean-Yves Empereur",
+   "year": 1998
+  },
+  {
+   "id": "thiersch",
+   "title": "Pharos: Antike, Islam und Occident",
+   "author": "Hermann Thiersch",
+   "year": 1909
+  },
+  {
+   "id": "clayton-price",
+   "title": "The Seven Wonders of the Ancient World",
+   "author": "Peter Clayton and Martin Price (eds.)",
+   "year": 1988
+  },
+  {
+   "id": "rufinus",
+   "title": "Ecclesiastical History 11.22–30 (the destruction of the Serapeum)",
+   "author": "Rufinus of Aquileia",
+   "year": "c. 402",
+   "url": "https://en.wikipedia.org/wiki/Tyrannius_Rufinus"
+  },
+  {
+   "id": "achilles-tatius",
+   "title": "Leucippe and Clitophon 5.1 (the Gates of the Sun and the Moon)",
+   "author": "Achilles Tatius",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Achilles_Tatius"
+  },
+  {
+   "id": "goddio",
+   "title": "Alexandria: The Submerged Royal Quarters",
+   "author": "Franck Goddio et al.",
+   "year": 1998
+  },
+  {
+   "id": "majcherek",
+   "title": "Kom el-Dikka excavations (Polish Centre of Mediterranean Archaeology reports)",
+   "author": "Grzegorz Majcherek",
+   "year": "1995–2010"
+  },
+  {
+   "id": "behrens-abouseif",
+   "title": "Cairo of the Mamluks: A History of the Architecture and its Culture",
+   "author": "Doris Behrens-Abouseif",
+   "year": 2007
+  },
+  {
+   "id": "galen-hippocrates",
+   "title": "Commentary on Hippocrates' Epidemics III (the books from the ships)",
+   "author": "Galen",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Galen"
+  },
+  {
+   "id": "cleomedes",
+   "title": "On the Circular Motions of the Celestial Bodies 1.7 (Eratosthenes' measurement)",
+   "author": "Cleomedes",
+   "year": "1st–2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Cleomedes"
+  },
+  {
+   "id": "pliny-nh",
+   "title": "Natural History (12.59 on frankincense workers; 13.68–83 on papyrus; 36.190–199 on glass)",
+   "author": "Pliny the Elder",
+   "year": "77 CE",
+   "url": "https://en.wikipedia.org/wiki/Natural_History_(Pliny)"
+  },
+  {
+   "id": "talmud-sukkah",
+   "title": "Babylonian Talmud, Sukkah 51b (the great synagogue of Alexandria)",
+   "author": "Babylonian Talmud",
+   "year": "c. 500 CE",
+   "url": "https://en.wikipedia.org/wiki/Sukkah_(Talmud)"
+  },
+  {
+   "id": "philo-flaccum",
+   "title": "Against Flaccus; Embassy to Gaius",
+   "author": "Philo of Alexandria",
+   "year": "c. 40 CE",
+   "url": "https://en.wikipedia.org/wiki/Philo"
+  },
+  {
+   "id": "athenaeus",
+   "title": "Deipnosophistae 5.196–203 (Kallixeinos on the Grand Procession of Ptolemy II)",
+   "author": "Athenaeus",
+   "year": "c. 200 CE",
+   "url": "https://en.wikipedia.org/wiki/Deipnosophistae"
+  },
+  {
+   "id": "aristeas",
+   "title": "Letter of Aristeas",
+   "author": "Pseudo-Aristeas",
+   "year": "2nd century BCE",
+   "url": "https://en.wikipedia.org/wiki/Letter_of_Aristeas"
+  },
+  {
+   "id": "caesar-civil-war",
+   "title": "The Civil War 3.111–112; Alexandrian War",
+   "author": "Julius Caesar and continuator",
+   "year": "c. 45 BCE",
+   "url": "https://en.wikipedia.org/wiki/Commentarii_de_Bello_Civili"
+  },
+  {
+   "id": "ammianus",
+   "title": "Res Gestae 22.16 and 26.10 (Alexandria; the tsunami of 365)",
+   "author": "Ammianus Marcellinus",
+   "year": "c. 390",
+   "url": "https://en.wikipedia.org/wiki/Ammianus_Marcellinus"
+  },
+  {
+   "id": "socrates-he",
+   "title": "Ecclesiastical History 7.13–15 (Cyril, the Jews and Hypatia)",
+   "author": "Socrates Scholasticus",
+   "year": "c. 440",
+   "url": "https://en.wikipedia.org/wiki/Socrates_of_Constantinople"
+  },
+  {
+   "id": "john-nikiu",
+   "title": "Chronicle (the Arab conquest of Egypt)",
+   "author": "John of Nikiu",
+   "year": "late 7th century",
+   "url": "https://en.wikipedia.org/wiki/John_of_Nikiu"
+  },
+  {
+   "id": "sandys",
+   "title": "A Relation of a Journey begun An. Dom. 1610",
+   "author": "George Sandys",
+   "year": "1615",
+   "url": "https://en.wikipedia.org/wiki/George_Sandys"
+  },
+  {
+   "id": "hattox-l",
+   "title": "Coffee and Coffeehouses: The Origins of a Social Beverage in the Medieval Near East",
+   "author": "Ralph S. Hattox",
+   "year": 1985
+  },
+  {
+   "id": "description-egypte",
+   "title": "Description de l'Égypte, État moderne: Alexandrie",
+   "author": "Commission des sciences et des arts",
+   "year": "1809–1822",
+   "url": "https://en.wikipedia.org/wiki/Description_de_l%27%C3%89gypte"
+  },
+  {
+   "id": "casson-ships",
+   "title": "Ships and Seamanship in the Ancient World",
+   "author": "Lionel Casson",
+   "year": 1971
+  },
+  {
+   "id": "rickman",
+   "title": "The Corn Supply of Ancient Rome",
+   "author": "Geoffrey Rickman",
+   "year": 1980
+  },
+  {
+   "id": "lucian-ship",
+   "title": "The Ship (Navigium)",
+   "author": "Lucian of Samosata",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Lucian"
+  },
+  {
+   "id": "wiki-eratosthenes",
+   "title": "Eratosthenes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eratosthenes"
+  },
+  {
+   "id": "wiki-septuagint",
+   "title": "Septuagint",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Septuagint"
+  },
+  {
+   "id": "wiki-hypatia",
+   "title": "Hypatia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hypatia"
+  },
+  {
+   "id": "wiki-365-quake",
+   "title": "365 Crete earthquake",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/365_Crete_earthquake"
+  },
+  {
+   "id": "wiki-kitos",
+   "title": "Kitos War",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kitos_War"
+  },
+  {
+   "id": "wiki-siege-alexandria",
+   "title": "Siege of Alexandria (47 BC)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Alexandria_(47_BC)"
+  },
+  {
+   "id": "wiki-muslim-conquest-egypt",
+   "title": "Muslim conquest of Egypt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt"
+  },
+  {
+   "id": "wiki-french-egypt",
+   "title": "French campaign in Egypt and Syria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria"
+  },
+  {
+   "id": "wiki-roman-glass",
+   "title": "Roman glass",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roman_glass"
+  },
+  {
+   "id": "wiki-fondaco",
+   "title": "Fondaco",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fondaco"
+  },
+  {
+   "id": "arrian",
+   "title": "Anabasis of Alexander 3.1–2",
+   "author": "Arrian",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Anabasis_of_Alexander"
+  },
+  {
+   "id": "dio",
+   "title": "Roman History 51.16",
+   "author": "Cassius Dio",
+   "year": "c. 230 CE",
+   "url": "https://en.wikipedia.org/wiki/Cassius_Dio"
+  }
+ ]
+}

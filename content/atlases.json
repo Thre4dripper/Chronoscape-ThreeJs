@@ -78,7 +78,9 @@
           "subtitle": "Ptolemaic capital, 200 BCE",
           "at": [29.92, 31.2],
           "glyph": "lighthouse",
-          "blurb": "Alexander's city on the Egyptian coast, with the Pharos lighthouse, the royal quarter and the Museum and Library."
+          "blurb": "Alexander's city on the Egyptian coast, with the Pharos lighthouse, the royal quarter and the Museum and Library.",
+          "city": "alexandria",
+          "period": "ptolemaic-200"
         },
         {
           "title": "Carthage",
