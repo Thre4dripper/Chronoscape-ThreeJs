@@ -295,7 +295,9 @@
           "subtitle": "The lagoon republic, 1400",
           "at": [12.34, 45.44],
           "glyph": "tower",
-          "blurb": "A trading empire on islands: St Mark's, the Doge's Palace, the Arsenal and the Rialto market."
+          "blurb": "A trading empire on islands: St Mark's, the Doge's Palace, the Arsenal and the Rialto market.",
+          "city": "venice",
+          "period": "republic-1400"
         }
       ]
     },

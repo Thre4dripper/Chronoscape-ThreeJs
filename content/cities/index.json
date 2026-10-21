@@ -12,6 +12,7 @@
     { "id": "nara", "name": "Nara", "subtitle": "Heijō-kyō, the Capital of the Peaceful Citadel", "status": "playable" },
     { "id": "cusco", "name": "Cusco", "subtitle": "Qusqu, Navel of the Inca World", "status": "playable" },
     { "id": "athens", "name": "Athens", "subtitle": "City of Athena", "status": "playable" },
-    { "id": "delhi", "name": "Delhi", "subtitle": "City of Cities", "status": "playable" }
+    { "id": "delhi", "name": "Delhi", "subtitle": "City of Cities", "status": "playable" },
+    { "id": "venice", "name": "Venice", "subtitle": "The City in the Lagoon", "status": "playable" }
   ]
 }
