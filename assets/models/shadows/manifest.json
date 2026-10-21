@@ -454,6 +454,126 @@
   "cy": -0.0,
   "size": 269.52
  },
+ "cusco/amarukancha": {
+  "cx": 0.0,
+  "cy": 0.02,
+  "size": 130.18
+ },
+ "cusco/aqllawasi": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "size": 114.18
+ },
+ "cusco/cathedral": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 176.87
+ },
+ "cusco/coricancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 148.51
+ },
+ "cusco/hatun-rumiyoc": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "size": 94.28
+ },
+ "cusco/hatun-rumiyoc-1650": {
+  "cx": 0.0,
+  "cy": 0.31,
+  "size": 98.6
+ },
+ "cusco/hatunkancha": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "size": 112.35
+ },
+ "cusco/haukaypata": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 202.14
+ },
+ "cusco/inticancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 131.95
+ },
+ "cusco/kasana": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 145.53
+ },
+ "cusco/kiswarkancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 145.26
+ },
+ "cusco/kusicancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 90.87
+ },
+ "cusco/la-compania": {
+  "cx": 0.45,
+  "cy": -0.0,
+  "size": 170.17
+ },
+ "cusco/plaza-1650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 209.96
+ },
+ "cusco/pucamarca": {
+  "cx": 0.0,
+  "cy": 0.48,
+  "size": 100.77
+ },
+ "cusco/qenqo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 85.59
+ },
+ "cusco/qollqampata": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 137.79
+ },
+ "cusco/sacsayhuaman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 461.26
+ },
+ "cusco/sacsayhuaman-1470": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 428.14
+ },
+ "cusco/sacsayhuaman-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 421.93
+ },
+ "cusco/san-blas": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 80.33
+ },
+ "cusco/san-francisco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 164.71
+ },
+ "cusco/santa-catalina": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 138.0
+ },
+ "cusco/santo-domingo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 191.1
+ },
  "delhi/chandni-chowk": {
   "cx": -35.0,
   "cy": -3.75,
