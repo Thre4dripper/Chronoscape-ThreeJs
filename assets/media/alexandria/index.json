@@ -1,0 +1,568 @@
+{
+ "pharos": [
+  {
+   "src": "media/alexandria/pharos/2.jpg",
+   "thumb": "media/alexandria/pharos/t2.jpg",
+   "w": 800,
+   "h": 681,
+   "kind": "reconstruction",
+   "caption": "Reconstruction by SciVi 3D studio.",
+   "artist": "SciVi 3D studio",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Leuchtturm_von_Alexandria.png"
+  },
+  {
+   "src": "media/alexandria/pharos/3.jpg",
+   "thumb": "media/alexandria/pharos/t3.jpg",
+   "w": 800,
+   "h": 664,
+   "kind": "artwork",
+   "caption": "Artwork by Philip Galle, 1572.",
+   "artist": "Philip Galle",
+   "date": "1572",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Philip_Galle_-_Lighthouse_of_Alexandria_(Pharos_of_Alexandria)_-_1572.jpg"
+  },
+  {
+   "src": "media/alexandria/pharos/5.jpg",
+   "thumb": "media/alexandria/pharos/t5.jpg",
+   "w": 800,
+   "h": 522,
+   "kind": "artwork",
+   "caption": "Detail from wall relief in Niniveh, showing the evacuation of Tyre in 702 BC. A very early example of a two-tiered galley (bireme). Cropped from Google scan of the Italian version of Layard's book, page 324.",
+   "artist": "Austen Henry Layard",
+   "date": "1855",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Galley_-_Layard_-_Ninive_page_324_detail.png"
+  },
+  {
+   "src": "media/alexandria/pharos/1.jpg",
+   "thumb": "media/alexandria/pharos/t1.jpg",
+   "w": 800,
+   "h": 681,
+   "kind": "painting",
+   "caption": "A drawing of the Pharos of Alexandria by German archaeologist Prof. H. Thiersch (1909).",
+   "artist": "Prof. Hermann Thiersch (1874–1939)",
+   "date": "1909",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Lighthouse_-_Thiersch.png"
+  },
+  {
+   "src": "media/alexandria/pharos/4.jpg",
+   "thumb": "media/alexandria/pharos/t4.jpg",
+   "w": 788,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Mosaic Lighthouse of Alexandria: was found in the Qasr Libya in Libya, which was known by several names including history and Olbia Theodorias, This is a painting that was left over to show the form of lighthouse after…",
+   "artist": "Qasr Libya Museum",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Mosaic_Ancient_Lighthouse_of_Alexandria.jpg"
+  }
+ ],
+ "heptastadion": [],
+ "royal-palaces": [],
+ "museum-library": [
+  {
+   "src": "media/alexandria/museum-library/1.jpg",
+   "thumb": "media/alexandria/museum-library/t1.jpg",
+   "w": 569,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Ptolemy Philadelphus in the Library of Alexandria",
+   "artist": "Vincenzo Camuccini",
+   "date": "1813",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Ptoleme2_Vincenzo_Camuccini_1813.jpg"
+  },
+  {
+   "src": "media/alexandria/museum-library/2.jpg",
+   "thumb": "media/alexandria/museum-library/t2.jpg",
+   "w": 588,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "The original statue on which this figure is based no longer survives, but it inspired numerous Hellenistic and Roman copies that were placed in public and private gardens.",
+   "artist": "Anonymous (Greece)Unknown author",
+   "date": "3rd century BCdate (Hellenistic…",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Greek_-_Leaning_Muse,_Probably_Polyhymnia_-_Walters_2390.jpg"
+  }
+ ],
+ "sema": [
+  {
+   "src": "media/alexandria/sema/1.jpg",
+   "thumb": "media/alexandria/sema/t1.jpg",
+   "w": 800,
+   "h": 614,
+   "kind": "engraving",
+   "caption": "Engraving by Sébastien Bourdon, 1643.",
+   "artist": "Sébastien Bourdon",
+   "date": "1643",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Engraving_by_Fragonard_of_the_painting_of_Augustus_(Octavian)_visiting_Alexander%27s_tomb_in_Alexandria_by_Sebastien_Bourdon_(c._1643,_Louvre).jpg"
+  },
+  {
+   "src": "media/alexandria/sema/2.jpg",
+   "thumb": "media/alexandria/sema/t2.jpg",
+   "w": 800,
+   "h": 313,
+   "kind": "reconstruction",
+   "caption": "Reconstruction by Unknown authorUnknown author, Mid-nineteenth century.",
+   "artist": "Unknown authorUnknown author",
+   "date": "Mid-nineteenth century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Mid-nineteenth_century_reconstruction_of_Alexander%27s_catafalque_based_on_the_description_by_Diodorus.jpg"
+  },
+  {
+   "src": "media/alexandria/sema/3.jpg",
+   "thumb": "media/alexandria/sema/t3.jpg",
+   "w": 800,
+   "h": 490,
+   "kind": "artwork",
+   "caption": "Artwork by Otto Puchstein (1856-1911), 1893.",
+   "artist": "Otto Puchstein (1856-1911)",
+   "date": "1893",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Pauly-Wissowa_I1_1379-Map-Alexandria.png"
+  },
+  {
+   "src": "media/alexandria/sema/4.jpg",
+   "thumb": "media/alexandria/sema/t4.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph by Marie-Lan Nguyen, 2017.",
+   "artist": "Marie-Lan Nguyen",
+   "date": "2017",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Alexander_the_Great_Ny_Carlsberg_Glyptotek_IN574_n1.jpg"
+  }
+ ],
+ "serapeum": [
+  {
+   "src": "media/alexandria/serapeum/1.jpg",
+   "thumb": "media/alexandria/serapeum/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Alexandria - View of ruins of the Serapeum from Pompey's Pillar.",
+   "artist": "Daniel Mayer",
+   "date": "2008-07",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Alexandria_-_Pompey%27s_Pillar_-_view_of_ruins.JPG"
+  },
+  {
+   "src": "media/alexandria/serapeum/2.jpg",
+   "thumb": "media/alexandria/serapeum/t2.jpg",
+   "w": 800,
+   "h": 603,
+   "kind": "photograph",
+   "caption": "Sawary column is one of the most famous monuments in Alexandria. It was built on Tall Bab Sidra between the current Muslim tombs area known as Al-Amud Tombs and Kom Al-Shaqafa Archaeological Plateau.",
+   "artist": "Ali baghdady792",
+   "date": "2014",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%D8%B9%D9%85%D9%88%D8%AF_%D8%A7%D9%84%D8%B3%D9%88%D8%A7%D8%B1%D9%8A_%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9.jpg"
+  }
+ ],
+ "pompeys-pillar": [
+  {
+   "src": "media/alexandria/pompeys-pillar/2.jpg",
+   "thumb": "media/alexandria/pompeys-pillar/t2.jpg",
+   "w": 800,
+   "h": 597,
+   "kind": "artwork",
+   "caption": "Alexandrie [Alexandria]. Vue profils et détails de la grande colonne appelée communément Colonne de Pompée.",
+   "artist": "Impr. impériale",
+   "date": "1809",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Alexandrie_(Alexandria)._Vue_profils_et_d%C3%A9tails_de_la_grande_colonne_appel%C3%A9e_commun%C3%A9ment_Colonne_de_Pomp%C3%A9e_(NYPL_b14212718-1268202).jpg"
+  },
+  {
+   "src": "media/alexandria/pompeys-pillar/3.jpg",
+   "thumb": "media/alexandria/pompeys-pillar/t3.jpg",
+   "w": 800,
+   "h": 331,
+   "kind": "artwork",
+   "caption": "Pompey's Pillar Greek inscription",
+   "artist": "Richard Pococke",
+   "date": "1743",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Pompey%27s_Pillar_Greek_inscription_03.png"
+  },
+  {
+   "src": "media/alexandria/pompeys-pillar/4.jpg",
+   "thumb": "media/alexandria/pompeys-pillar/t4.jpg",
+   "w": 800,
+   "h": 299,
+   "kind": "artwork",
+   "caption": "Pompey's Pillar Greek inscription",
+   "artist": "W.M. Leake",
+   "date": "1803",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Pompey%27s_Pillar_Greek_inscription_02.png"
+  },
+  {
+   "src": "media/alexandria/pompeys-pillar/5.jpg",
+   "thumb": "media/alexandria/pompeys-pillar/t5.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Artwork, 1851.",
+   "artist": "Unknown",
+   "date": "1851",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:SMYTH(1851)_1.222_Pompey%27s_Pillar.jpg"
+  },
+  {
+   "src": "media/alexandria/pompeys-pillar/1.jpg",
+   "thumb": "media/alexandria/pompeys-pillar/t1.jpg",
+   "w": 623,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Siege de la Colonne de Pompée - Science in the pillory. In this scene, Gillray (claiming to base his drawing on intercepted dispatches), lampoons the corp of scientists, artists and architects that travelled to Egypt as…",
+   "artist": "James Gillray",
+   "date": "1799",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Siege_de_la_Colonne_de_Pomp%C3%A9e.jpg"
+  }
+ ],
+ "caesareum": [],
+ "timonium": [
+  {
+   "src": "media/alexandria/timonium/1.jpg",
+   "thumb": "media/alexandria/timonium/t1.jpg",
+   "w": 800,
+   "h": 303,
+   "kind": "plan",
+   "caption": "Richard Pococke. A Description of the East, and some other Countries, London, W. Bowyer, MDCCXLV (1743-1745)",
+   "artist": "Richard Pococke",
+   "date": "1745",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:A_Plan_of_Alexandria_-_Pococke_Richard_-_1743.jpg"
+  },
+  {
+   "src": "media/alexandria/timonium/2.jpg",
+   "thumb": "media/alexandria/timonium/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Statue fragment of Cleopatra VII at the Royal Ontario Museum",
+   "artist": "KevinDInno",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Statue_fragment_of_Cleopatra_VII_-_Royal_Ontario_Museum.jpg"
+  }
+ ],
+ "gymnasium": [
+  {
+   "src": "media/alexandria/gymnasium/1.jpg",
+   "thumb": "media/alexandria/gymnasium/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Greek gymnasium in Sardes from the side",
+   "artist": "Raicem",
+   "date": "2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Greek_gymnasium_in_Sardes_from_the_side.jpg"
+  },
+  {
+   "src": "media/alexandria/gymnasium/2.jpg",
+   "thumb": "media/alexandria/gymnasium/t2.jpg",
+   "w": 430,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "So-called “Atalanta”: statue of a young girl; the palm branch on the trunk is a symbol of victory. Marble, Greek artwork, 1st century BC.",
+   "artist": "Pasiteles",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Atalanta_Vatican_Inv2784.jpg"
+  }
+ ],
+ "paneion": [
+  {
+   "src": "media/alexandria/paneion/1.jpg",
+   "thumb": "media/alexandria/paneion/t1.jpg",
+   "w": 800,
+   "h": 508,
+   "kind": "photograph",
+   "caption": "Map of Iberian Peninsula and current Spanish and Portuguese islands showing classic Ibería and islands according Strabo's Geography (~7BCE)",
+   "artist": "HansenBCN",
+   "date": "2009",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Iberia-Strabon-es.png"
+  },
+  {
+   "src": "media/alexandria/paneion/2.jpg",
+   "thumb": "media/alexandria/paneion/t2.jpg",
+   "w": 800,
+   "h": 393,
+   "kind": "photograph",
+   "caption": "An illustration from the Encyclopaedia Biblica, a 1903 publication which is now in the public domain. Map 1 for article \"Geography\". Map of the world, by Strabo",
+   "artist": "no idea - see source (though, ultimately Strabo)",
+   "date": "1903",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:C%2BB-Geography-Map1-StrabosMap.PNG"
+  }
+ ],
+ "kom-el-dikka": [
+  {
+   "src": "media/alexandria/kom-el-dikka/1.jpg",
+   "thumb": "media/alexandria/kom-el-dikka/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "AWIB-ISAW: Villa of the Birds (I) The colorful mosaic floor that belonged to the main bedroom of this 1st to 2nd century villa at Kom el Dikka.",
+   "artist": "Institute for the Study of the Ancient World from New York, United States of America",
+   "date": "2009",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Villa_of_the_Birds_(I)_(6761960673).jpg"
+  },
+  {
+   "src": "media/alexandria/kom-el-dikka/2.jpg",
+   "thumb": "media/alexandria/kom-el-dikka/t2.jpg",
+   "w": 800,
+   "h": 545,
+   "kind": "photograph",
+   "caption": "This is a photo of a monument in Egypt identified by the ID",
+   "artist": "isawnyu",
+   "date": "2009",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lecture_Halls_at_Kom_el_Dikka_(III).jpg"
+  }
+ ],
+ "gate-of-the-sun": [],
+ "gate-of-the-moon": [],
+ "kom-el-shoqafa": [
+  {
+   "src": "media/alexandria/kom-el-shoqafa/1.jpg",
+   "thumb": "media/alexandria/kom-el-shoqafa/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "This is a photo of a monument in Egypt identified by the ID",
+   "artist": "Bilal Detailz",
+   "date": "2025",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:...Catacombsa.jpg"
+  },
+  {
+   "src": "media/alexandria/kom-el-shoqafa/2.jpg",
+   "thumb": "media/alexandria/kom-el-shoqafa/t2.jpg",
+   "w": 800,
+   "h": 443,
+   "kind": "photograph",
+   "caption": "Persephone tomb in Kom el-Shoqafa, 2nd century CE",
+   "artist": "Painter: 2nd century CE Photographer: undetermined",
+   "date": "2021",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Persephone_tomb_in_Kom_el-Shoqafa,_2nd_century_CE.jpg"
+  }
+ ],
+ "st-mark": [
+  {
+   "src": "media/alexandria/st-mark/1.jpg",
+   "thumb": "media/alexandria/st-mark/t1.jpg",
+   "w": 800,
+   "h": 539,
+   "kind": "photograph",
+   "caption": "This work was uploaded within an activity of Egypt Wikimedians User Group. Feel free to drop your question on the workshop discussion page.",
+   "artist": "Amr F.Nagy",
+   "date": "2025",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:EWUG_visit_to_Alexandria,_April_2025_-_10.jpg"
+  },
+  {
+   "src": "media/alexandria/st-mark/2.jpg",
+   "thumb": "media/alexandria/st-mark/t2.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Façade the Coptic orthodox Cathedral of St. Mark, Alexandria, Egypt",
+   "artist": "Roland Unger",
+   "date": "2010",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:AlexMarkCathedralFront.jpg"
+  }
+ ],
+ "attarine": [
+  {
+   "src": "media/alexandria/attarine/1.jpg",
+   "thumb": "media/alexandria/attarine/t1.jpg",
+   "w": 800,
+   "h": 501,
+   "kind": "painting",
+   "caption": "Painting by please check file name, please check file name.",
+   "artist": "please check file name",
+   "date": "please check file name",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Edward_Daniel_Clarke,_The_courtyard_of_the_Attarine_Mosque_in_1798_after_Vivant_Denon,_from_The_Tomb_of_Alexander,_Cambridge,_1805.jpg"
+  },
+  {
+   "src": "media/alexandria/attarine/2.jpg",
+   "thumb": "media/alexandria/attarine/t2.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "El-Attarin mosque, Alexandria, Egypt",
+   "artist": "Roland Unger",
+   "date": "2005",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:AlexAttarinOutside.jpg"
+  },
+  {
+   "src": "media/alexandria/attarine/3.jpg",
+   "thumb": "media/alexandria/attarine/t3.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "El-Attarin mosque, Alexandria, Egypt",
+   "artist": "Roland Unger",
+   "date": "2005",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:AlexAttarinInside.jpg"
+  }
+ ],
+ "al-mursi": [
+  {
+   "src": "media/alexandria/al-mursi/1.jpg",
+   "thumb": "media/alexandria/al-mursi/t1.jpg",
+   "w": 800,
+   "h": 680,
+   "kind": "reconstruction",
+   "caption": "TitleAlexandrië. Moskee El-Mursi Abul-AbbasSeriesEuroPhot. Art history. 13th century. Architecture. BuildingEuroPhot. Kunstgeschiedenis. 13de eeuw. Architectuur. GebouwExtent1 glasdia ;",
+   "artist": "Unknown authorUnknown author",
+   "date": "Unknown",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Alexandri%C3%AB._Moskee_El-Mursi_Abul-Abbas,_GD013245.jpg"
+  },
+  {
+   "src": "media/alexandria/al-mursi/2.jpg",
+   "thumb": "media/alexandria/al-mursi/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "This is a photo of a monument in Egypt identified by the ID",
+   "artist": "Argenberg",
+   "date": "2007",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2007-05-043.jpg"
+  },
+  {
+   "src": "media/alexandria/al-mursi/3.jpg",
+   "thumb": "media/alexandria/al-mursi/t3.jpg",
+   "w": 604,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "This is a photo of a monument in Egypt identified by the ID",
+   "artist": "A maraqa",
+   "date": "2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Abu_al-Abbas_al-Mursi_Mosque.jpg"
+  }
+ ],
+ "bab-rashid": [
+  {
+   "src": "media/alexandria/bab-rashid/1.jpg",
+   "thumb": "media/alexandria/bab-rashid/t1.jpg",
+   "w": 800,
+   "h": 546,
+   "kind": "engraving",
+   "caption": "Alexandria, July 11, 1882. The British fleet under the command of Admiral Seymour bombarded the city. Featured warships \"Sultan\" and \"Alexandra\".",
+   "artist": "After Eduardo Ximenes",
+   "date": "1882",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Bombardamento_Alessandria_1882.jpg"
+  },
+  {
+   "src": "media/alexandria/bab-rashid/2.jpg",
+   "thumb": "media/alexandria/bab-rashid/t2.jpg",
+   "w": 800,
+   "h": 465,
+   "kind": "engraving",
+   "caption": "Engraving by L F Cassas (1784), 1784.",
+   "artist": "L F Cassas (1784)",
+   "date": "1784",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Canopic_Street_Alexandria_1784_by_LF_Cassa.png"
+  },
+  {
+   "src": "media/alexandria/bab-rashid/4.jpg",
+   "thumb": "media/alexandria/bab-rashid/t4.jpg",
+   "w": 800,
+   "h": 557,
+   "kind": "artwork",
+   "caption": "Louis-François Cassas From: Voyage pittoresque de la Syrie, de la Phoenicie, de la Palaestine et de la Basse Aegypte: ouvrage divisé en trois volumes contenant environ trois cent trente planches",
+   "artist": "Louis-François Cassas",
+   "date": "1799",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Louis-Fran%C3%A7ois_Cassas,_Alexandrie,_nomm%C3%A9e_par_les_Arabes,_Eskanderyeh.jpg"
+  },
+  {
+   "src": "media/alexandria/bab-rashid/3.jpg",
+   "thumb": "media/alexandria/bab-rashid/t3.jpg",
+   "w": 670,
+   "h": 800,
+   "kind": "coin",
+   "caption": "Representation of Ptolemy.Previously published in Les vrais pourtraits et vies des hommes illustres grecz, latins, et payens recueilliz de leurs tableaux livres et medalles antiques, et modernes.",
+   "artist": "Unknown authorUnknown author",
+   "date": "1584",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:PSM_V78_D326_Ptolemy.png"
+  },
+  {
+   "src": "media/alexandria/bab-rashid/5.jpg",
+   "thumb": "media/alexandria/bab-rashid/t5.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "coin",
+   "caption": "The Greco-Roman Museum houses many collections of rare Greek and Roman relics and coins – about 40,000 pieces, from the 3rd century BC to the 7th century AD. The most important being the “Tanafra” statues.",
+   "artist": "Dennis G. Jarvis",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Egypt-14A-048.jpg"
+  }
+ ]
+}
