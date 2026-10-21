@@ -2423,5 +2423,225 @@
   "cx": 0.0,
   "cy": -0.0,
   "size": 76.68
+ },
+ "venice/arsenale": {
+  "cx": -2.1,
+  "cy": -0.55,
+  "size": 654.08
+ },
+ "venice/arsenale-1204": {
+  "cx": -2.34,
+  "cy": 0.25,
+  "size": 642.61
+ },
+ "venice/arsenale-1400": {
+  "cx": -2.34,
+  "cy": 0.25,
+  "size": 644.12
+ },
+ "venice/bucintoro": {
+  "cx": 2.35,
+  "cy": -0.0,
+  "size": 64.62
+ },
+ "venice/bucintoro-1400": {
+  "cx": 2.35,
+  "cy": -0.0,
+  "size": 59.62
+ },
+ "venice/ca-doro": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "size": 90.45
+ },
+ "venice/campanile": {
+  "cx": -0.18,
+  "cy": -0.0,
+  "size": 208.46
+ },
+ "venice/campanile-1204": {
+  "cx": -0.18,
+  "cy": -0.0,
+  "size": 170.22
+ },
+ "venice/columns": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 68.79
+ },
+ "venice/doges-castle": {
+  "cx": -0.07,
+  "cy": 0.34,
+  "size": 140.26
+ },
+ "venice/doges-palace": {
+  "cx": -0.38,
+  "cy": 0.62,
+  "size": 165.85
+ },
+ "venice/doges-palace-1400": {
+  "cx": 0.0,
+  "cy": 0.62,
+  "size": 165.85
+ },
+ "venice/doges-palace-ziani": {
+  "cx": 0.0,
+  "cy": 0.14,
+  "size": 151.19
+ },
+ "venice/fondaco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 108.65
+ },
+ "venice/fondaco-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 100.08
+ },
+ "venice/frari": {
+  "cx": 0.0,
+  "cy": 0.43,
+  "size": 243.24
+ },
+ "venice/ghetto": {
+  "cx": 2.25,
+  "cy": 2.5,
+  "size": 165.6
+ },
+ "venice/marciana": {
+  "cx": 0.0,
+  "cy": 0.35,
+  "size": 131.82
+ },
+ "venice/marciana-1580": {
+  "cx": 0.3,
+  "cy": 0.35,
+  "size": 131.22
+ },
+ "venice/piazza": {
+  "cx": -0.2,
+  "cy": -0.0,
+  "size": 234.74
+ },
+ "venice/piazza-1400": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 230.74
+ },
+ "venice/piazza-1580": {
+  "cx": -0.2,
+  "cy": -0.0,
+  "size": 234.74
+ },
+ "venice/procuratie-nuove": {
+  "cx": 0.0,
+  "cy": 0.38,
+  "size": 180.28
+ },
+ "venice/procuratie-old": {
+  "cx": 0.0,
+  "cy": 0.3,
+  "size": 186.8
+ },
+ "venice/procuratie-vecchie": {
+  "cx": 0.0,
+  "cy": 0.15,
+  "size": 203.96
+ },
+ "venice/redentore": {
+  "cx": 0.0,
+  "cy": -1.4,
+  "size": 163.96
+ },
+ "venice/redentore-1580": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 123.6
+ },
+ "venice/rialto-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 92.76
+ },
+ "venice/rialto-bridge-wood": {
+  "cx": 0.0,
+  "cy": 1.46,
+  "size": 88.44
+ },
+ "venice/rialto-market": {
+  "cx": 0.7,
+  "cy": -0.0,
+  "size": 135.68
+ },
+ "venice/rialto-market-old": {
+  "cx": 2.5,
+  "cy": -0.0,
+  "size": 133.88
+ },
+ "venice/rialto-pontoon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 67.4
+ },
+ "venice/salute": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 206.95
+ },
+ "venice/san-giorgio": {
+  "cx": 0.0,
+  "cy": -2.25,
+  "size": 185.9
+ },
+ "venice/san-giorgio-1580": {
+  "cx": 0.0,
+  "cy": -2.17,
+  "size": 208.46
+ },
+ "venice/san-giorgio-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 194.76
+ },
+ "venice/san-marco": {
+  "cx": 0.0,
+  "cy": 0.32,
+  "size": 167.4
+ },
+ "venice/san-marco-1204": {
+  "cx": 0.0,
+  "cy": 0.32,
+  "size": 149.89
+ },
+ "venice/san-marco-832": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 117.76
+ },
+ "venice/san-pietro": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 159.82
+ },
+ "venice/san-pietro-1580": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 159.82
+ },
+ "venice/san-pietro-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 169.72
+ },
+ "venice/torre-orologio": {
+  "cx": 0.0,
+  "cy": 0.2,
+  "size": 86.7
+ },
+ "venice/zanipolo": {
+  "cx": 0.0,
+  "cy": 0.68,
+  "size": 191.87
  }
 }
