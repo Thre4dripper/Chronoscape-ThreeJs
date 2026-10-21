@@ -11,6 +11,7 @@
     { "id": "edo", "name": "Edo", "subtitle": "The Shogun's City", "status": "playable" },
     { "id": "fatehpur-sikri", "name": "Fatehpur Sikri", "subtitle": "Akbar's City of Victory", "status": "playable" },
     { "id": "nara", "name": "Nara", "subtitle": "Heijō-kyō, the Capital of the Peaceful Citadel", "status": "playable" },
-    { "id": "cusco", "name": "Cusco", "subtitle": "Qusqu, Navel of the Inca World", "status": "playable" }
+    { "id": "cusco", "name": "Cusco", "subtitle": "Qusqu, Navel of the Inca World", "status": "playable" },
+    { "id": "athens", "name": "Athens", "subtitle": "City of Athena", "status": "playable" }
   ]
 }

@@ -69,7 +69,9 @@
           "subtitle": "The city of Pericles, 430 BCE",
           "at": [23.73, 37.98],
           "glyph": "temple",
-          "blurb": "The Parthenon newly finished on the Acropolis, the Agora below, the Long Walls running to the Piraeus."
+          "blurb": "The Parthenon newly finished on the Acropolis, the Agora below, the Long Walls running to the Piraeus.",
+          "city": "athens",
+          "period": "periclean-430"
         },
         {
           "title": "Alexandria",

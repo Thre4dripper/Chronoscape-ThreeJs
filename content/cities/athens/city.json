@@ -1,0 +1,6104 @@
+{
+ "id": "athens",
+ "name": "Athens",
+ "subtitle": "City of Athena",
+ "description": "Athens from the tyranny of Peisistratos to Ottoman Atina on the eve of Morosini's bombardment of 1687: the Acropolis and its slopes, the Areopagus and the Pnyx, the Agora and the Kerameikos inside the Themistoclean wall, the Olympieion and the Ilissos to the south-east, Lykabettos to the north-east and the first stretch of the Long Walls toward Piraeus. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "periclean-430",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#E8DDC6",
+   "#DCCBA8",
+   "#EFE6D2",
+   "#D2BC96",
+   "#E2D2B2"
+  ],
+  "roofs": [
+   "#B4643F",
+   "#A85A3C",
+   "#C27654"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1755,
+    1908
+   ],
+   "distance": 36,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   3949,
+   3883
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Ilissos",
+    "path": [
+     [
+      3949,
+      1465
+     ],
+     [
+      3686,
+      1720
+     ],
+     [
+      3422,
+      1975
+     ],
+     [
+      3159,
+      2152
+     ],
+     [
+      2940,
+      2252
+     ],
+     [
+      2720,
+      2385
+     ],
+     [
+      2501,
+      2530
+     ],
+     [
+      2238,
+      2663
+     ],
+     [
+      1931,
+      2829
+     ],
+     [
+      1623,
+      3051
+     ],
+     [
+      1316,
+      3329
+     ],
+     [
+      1009,
+      3606
+     ],
+     [
+      702,
+      3883
+     ]
+    ],
+    "width": 14,
+    "id": "ilissos",
+    "blurb": "A small river from Hymettos, dry for much of the summer, flowing past the Olympieion and the Kallirrhoe spring toward Phaleron. Plato set the Phaedrus on its bank under a plane tree; sanctuaries, gardens and fulling works lined it. It now runs under the city."
+   },
+   {
+    "name": "Eridanos",
+    "path": [
+     [
+      2984,
+      1110
+     ],
+     [
+      2720,
+      1298
+     ],
+     [
+      2457,
+      1420
+     ],
+     [
+      2194,
+      1476
+     ],
+     [
+      1931,
+      1476
+     ],
+     [
+      1755,
+      1465
+     ],
+     [
+      1536,
+      1442
+     ],
+     [
+      1316,
+      1409
+     ],
+     [
+      1176,
+      1376
+     ],
+     [
+      1009,
+      1331
+     ],
+     [
+      702,
+      1220
+     ],
+     [
+      439,
+      1110
+     ],
+     [
+      88,
+      943
+     ]
+    ],
+    "width": 7,
+    "id": "eridanos",
+    "blurb": "A stream from the slopes of Lykabettos that ran north of the Agora and left the city beside the Sacred Gate. The Athenians channelled and then vaulted it; by Roman times it was largely a covered drain. Its stone channel can still be seen in the Kerameikos."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Akropolis",
+    "center": [
+     1878,
+     2030
+    ],
+    "radius": 190,
+    "label": true,
+    "id": "acropolis",
+    "blurb": "A limestone table about 70 m above the town, 300 m long, with springs and caves in its slopes. A Mycenaean palace stood here; from the 6th century BCE it was Athena's sanctuary, under the Ottomans a fortified village."
+   },
+   {
+    "name": "Areios Pagos",
+    "center": [
+     1615,
+     1942
+    ],
+    "radius": 60,
+    "label": true,
+    "id": "areopagus",
+    "blurb": "The rocky hill of Ares below the Acropolis entrance, where the ancient council of ex-archons sat as a homicide court. Paul is said to have preached here about 50 CE."
+   },
+   {
+    "name": "Pnyx",
+    "center": [
+     1211,
+     2064
+    ],
+    "radius": 150,
+    "label": true,
+    "id": "pnyx-hill",
+    "blurb": "The hill where the citizen assembly met from about 500 BCE: several thousand men on the slope, the speaker on a rock-cut platform."
+   },
+   {
+    "name": "Hill of the Nymphs",
+    "center": [
+     1071,
+     1498
+    ],
+    "radius": 110,
+    "label": true,
+    "id": "nymphs",
+    "blurb": "The northernmost of the western hills, with a sanctuary of the Nymphs; the city wall ran along its crest."
+   },
+   {
+    "name": "Mouseion",
+    "center": [
+     1360,
+     2585
+    ],
+    "radius": 160,
+    "label": true,
+    "id": "mouseion",
+    "blurb": "The hill of the Muses, south-west of the Acropolis, crossed by the city wall; a Macedonian garrison held its fort from 294 BCE. The tomb of Philopappos (114–116 CE) crowns it."
+   },
+   {
+    "name": "Kolonos Agoraios",
+    "center": [
+     1430,
+     1598
+    ],
+    "radius": 55,
+    "label": false,
+    "id": "kolonos",
+    "blurb": "The low rise on the west side of the Agora, the market hill, crowned by the temple of Hephaistos and home to the metalworkers."
+   },
+   {
+    "name": "Lykabettos",
+    "center": [
+     3361,
+     899
+    ],
+    "radius": 320,
+    "label": true,
+    "id": "lykabettos",
+    "blurb": "The steep pine-covered peak north-east of the city, 277 m high, outside the walls. Athenians said Athena dropped it while carrying a mountain to wall the Acropolis."
+   },
+   {
+    "name": "Ardettos",
+    "center": [
+     2940,
+     2663
+    ],
+    "radius": 160,
+    "label": true,
+    "id": "ardettos",
+    "blurb": "The hill beside the Panathenaic Stadium across the Ilissos, where jurors took their oath."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Panathenaic Way (Dromos)",
+    "path": [
+     [
+      1176,
+      1320
+     ],
+     [
+      1299,
+      1420
+     ],
+     [
+      1404,
+      1509
+     ],
+     [
+      1544,
+      1609
+     ],
+     [
+      1641,
+      1709
+     ],
+     [
+      1702,
+      1808
+     ],
+     [
+      1729,
+      1908
+     ],
+     [
+      1702,
+      1986
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "panathenaic-way",
+    "blurb": "The festival road from the Dipylon gate diagonally across the Agora and up to the Acropolis, taken by the Panathenaic procession every summer; a race track in the Agora before the stadium was built.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Road up to the Kastro",
+    "path": [
+     [
+      1694,
+      1553
+     ],
+     [
+      1711,
+      1686
+     ],
+     [
+      1729,
+      1808
+     ],
+     [
+      1738,
+      1908
+     ],
+     [
+      1702,
+      1986
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": false,
+    "id": "kastro-road",
+    "blurb": "The lane from the bazaar up to the single gate of the Acropolis fortress, guarded by the disdar's men.",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "name": "Road to Piraeus (Hamaxitos)",
+    "path": [
+     [
+      1018,
+      1753
+     ],
+     [
+      860,
+      1942
+     ],
+     [
+      658,
+      2164
+     ],
+     [
+      439,
+      2441
+     ],
+     [
+      219,
+      2718
+     ],
+     [
+      44,
+      2996
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "piraeus-road",
+    "blurb": "The cart road from the Piraeus gate to the port, running between the Long Walls in the classical city.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Sacred Way to Eleusis",
+    "path": [
+     [
+      1150,
+      1365
+     ],
+     [
+      965,
+      1287
+     ],
+     [
+      746,
+      1198
+     ],
+     [
+      483,
+      1110
+     ],
+     [
+      219,
+      1021
+     ],
+     [
+      18,
+      954
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "sacred-way",
+    "blurb": "The road from the Sacred Gate to the sanctuary of Demeter at Eleusis, 20 km away, walked every autumn by the initiates of the Mysteries.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Dromos to the Academy",
+    "path": [
+     [
+      1141,
+      1287
+     ],
+     [
+      1009,
+      1110
+     ],
+     [
+      746,
+      832
+     ],
+     [
+      483,
+      555
+     ],
+     [
+      246,
+      277
+     ],
+     [
+      44,
+      22
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "academy-road",
+    "blurb": "A broad road from the Dipylon to the Academy grove, 1.5 km out, lined with the public tombs of Athens' war dead (the demosion sema).",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Road to Acharnai",
+    "path": [
+     [
+      1913,
+      976
+     ],
+     [
+      1895,
+      721
+     ],
+     [
+      1860,
+      444
+     ],
+     [
+      1825,
+      22
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "acharnian-road",
+    "blurb": "The road north through the Acharnian gate toward Acharnai and the passes of Parnes.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Road to the Lyceum",
+    "path": [
+     [
+      2598,
+      1465
+     ],
+     [
+      2852,
+      1531
+     ],
+     [
+      3115,
+      1609
+     ],
+     [
+      3422,
+      1686
+     ],
+     [
+      3686,
+      1720
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "diochares-road",
+    "blurb": "From the Diochares gate east past the gymnasium of the Lyceum toward the Mesogeia plain.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Street of the Tripods",
+    "path": [
+     [
+      1931,
+      1853
+     ],
+     [
+      2062,
+      1886
+     ],
+     [
+      2176,
+      1964
+     ],
+     [
+      2220,
+      2075
+     ],
+     [
+      2176,
+      2152
+     ],
+     [
+      2089,
+      2164
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "tripods-street",
+    "blurb": "The street curving round the east foot of the Acropolis to the theatre, lined with the monuments of victorious choregoi, each carrying the bronze tripod won in the dithyramb contests.",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Road to Phaleron",
+    "path": [
+     [
+      1860,
+      2352
+     ],
+     [
+      1825,
+      2574
+     ],
+     [
+      1755,
+      2885
+     ],
+     [
+      1667,
+      3273
+     ],
+     [
+      1562,
+      3772
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "phaleron-road",
+    "blurb": "The road south to the old harbour bay of Phaleron, along the Phaleric wall in the 5th century.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Road along the Ilissos",
+    "path": [
+     [
+      2387,
+      2197
+     ],
+     [
+      2633,
+      2197
+     ],
+     [
+      2852,
+      2208
+     ],
+     [
+      3028,
+      2230
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "ilissos-road",
+    "blurb": "The way from the Olympieion upstream to the sanctuaries of Agrai and, from the 330s BCE, the stadium.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce",
+     "ottoman-1680"
+    ]
+   },
+   {
+    "name": "Street of Hadrianopolis",
+    "path": [
+     [
+      2413,
+      2186
+     ],
+     [
+      2633,
+      2086
+     ],
+     [
+      2852,
+      1975
+     ],
+     [
+      3071,
+      1864
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": false,
+    "id": "hadrianopolis-street",
+    "blurb": "The main street of Hadrian's new quarter, through the arch inscribed 'This is the city of Hadrian and not of Theseus'.",
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Street to the Roman Market",
+    "path": [
+     [
+      1694,
+      1675
+     ],
+     [
+      1755,
+      1686
+     ],
+     [
+      1825,
+      1709
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "roman-market-street",
+    "blurb": "The colonnaded street from the Agora to the Gate of Athena Archegetis.",
+    "periods": [
+     "roman-150ce",
+     "ottoman-1680"
+    ]
+   },
+   {
+    "name": "Bazaar street (Pazar)",
+    "path": [
+     [
+      1597,
+      1531
+     ],
+     [
+      1799,
+      1531
+     ],
+     [
+      1974,
+      1520
+     ],
+     [
+      2176,
+      1553
+     ],
+     [
+      2352,
+      1620
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "bazaar-street",
+    "blurb": "The covered and open shops of the Ottoman bazaar, running along the north side of Hadrian's Library where the voivode had his seat.",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "name": "Road to Kifisia",
+    "path": [
+     [
+      1974,
+      1520
+     ],
+     [
+      2018,
+      1220
+     ],
+     [
+      2106,
+      777
+     ],
+     [
+      2194,
+      22
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "ottoman-north-road",
+    "blurb": "The track north out of the unwalled town toward the villages of the Kephisos valley.",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "name": "Road to Porto Leone (Piraeus)",
+    "path": [
+     [
+      1448,
+      1498
+     ],
+     [
+      1185,
+      1664
+     ],
+     [
+      878,
+      1942
+     ],
+     [
+      527,
+      2330
+     ],
+     [
+      88,
+      2885
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "ottoman-piraeus-road",
+    "blurb": "The road to the nearly deserted port, called Porto Leone after its marble lion (carried to Venice by Morosini in 1688).",
+    "periods": [
+     "ottoman-1680"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Acropolis circuit wall",
+    "path": [
+     [
+      1759,
+      2014
+     ],
+     [
+      1790,
+      1973
+     ],
+     [
+      1843,
+      1957
+     ],
+     [
+      1900,
+      1960
+     ],
+     [
+      1970,
+      1984
+     ],
+     [
+      2014,
+      2028
+     ],
+     [
+      1992,
+      2075
+     ],
+     [
+      1931,
+      2097
+     ],
+     [
+      1856,
+      2095
+     ],
+     [
+      1790,
+      2075
+     ],
+     [
+      1759,
+      2050
+     ]
+    ],
+    "closed": true,
+    "id": "acropolis-wall",
+    "blurb": "A Mycenaean 'Cyclopean' wall of the 13th century BCE ringed the rock until the Persians wrecked it; Themistocles and Kimon rebuilt the north and south sides as straight terrace walls, re-using column drums from the burned temples in the north wall, where they can still be seen."
+   },
+   {
+    "name": "Themistoclean wall",
+    "path": [
+     [
+      1167,
+      1320
+     ],
+     [
+      1281,
+      1198
+     ],
+     [
+      1448,
+      1076
+     ],
+     [
+      1667,
+      976
+     ],
+     [
+      1913,
+      954
+     ],
+     [
+      2124,
+      1021
+     ],
+     [
+      2352,
+      1154
+     ],
+     [
+      2545,
+      1331
+     ],
+     [
+      2650,
+      1531
+     ],
+     [
+      2650,
+      1775
+     ],
+     [
+      2545,
+      1975
+     ],
+     [
+      2369,
+      2152
+     ],
+     [
+      2194,
+      2330
+     ],
+     [
+      2036,
+      2496
+     ],
+     [
+      1860,
+      2641
+     ],
+     [
+      1650,
+      2707
+     ],
+     [
+      1422,
+      2663
+     ],
+     [
+      1246,
+      2507
+     ],
+     [
+      1123,
+      2308
+     ],
+     [
+      1053,
+      2053
+     ],
+     [
+      1018,
+      1753
+     ],
+     [
+      1053,
+      1531
+     ]
+    ],
+    "closed": true,
+    "id": "themistoclean-wall",
+    "blurb": "Thrown up in haste in 479/8 BCE after the Persians left, using tombstones and anything to hand (Thucydides says the haste still showed): a stone socle with a mud-brick upper wall, about 6.5 km round, with some 15 gates. Rebuilt many times; Sulla breached it in 86 BCE.",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Wall of Hadrianopolis",
+    "path": [
+     [
+      2650,
+      1531
+     ],
+     [
+      2940,
+      1553
+     ],
+     [
+      3159,
+      1720
+     ],
+     [
+      3203,
+      2019
+     ],
+     [
+      3028,
+      2241
+     ],
+     [
+      2764,
+      2330
+     ],
+     [
+      2545,
+      2330
+     ],
+     [
+      2194,
+      2330
+     ]
+    ],
+    "closed": false,
+    "id": "hadrianic-wall",
+    "blurb": "An extension of the circuit round Hadrian's new quarter and the Olympieion, built in the 2nd or 3rd century CE (some date it to Valerian, about 255); its exact line is partly conjectural.",
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "North Long Wall",
+    "path": [
+     [
+      1027,
+      1797
+     ],
+     [
+      790,
+      2053
+     ],
+     [
+      544,
+      2330
+     ],
+     [
+      290,
+      2607
+     ],
+     [
+      44,
+      2885
+     ],
+     [
+      0,
+      3107
+     ]
+    ],
+    "closed": false,
+    "id": "north-long-wall",
+    "blurb": "Built 461–456 BCE, it ran about 6 km to the walls of Piraeus, so that Athens could be supplied by sea even when an enemy held Attica. The Spartans had it pulled down in 404 to the music of flute girls; Conon rebuilt it in 394.",
+    "periods": [
+     "periclean-430"
+    ]
+   },
+   {
+    "name": "Middle (southern) Long Wall",
+    "path": [
+     [
+      1264,
+      2552
+     ],
+     [
+      1053,
+      2752
+     ],
+     [
+      790,
+      2973
+     ],
+     [
+      527,
+      3195
+     ],
+     [
+      281,
+      3417
+     ],
+     [
+      105,
+      3606
+     ]
+    ],
+    "closed": false,
+    "id": "middle-long-wall",
+    "blurb": "Built about 445 BCE on Pericles' proposal, parallel to the north wall and some 180 m from it, making a defended corridor to Piraeus. Refugees from the countryside camped between the walls in 431.",
+    "periods": [
+     "periclean-430"
+    ]
+   },
+   {
+    "name": "Phaleric wall",
+    "path": [
+     [
+      1650,
+      2685
+     ],
+     [
+      1667,
+      2940
+     ],
+     [
+      1694,
+      3273
+     ],
+     [
+      1729,
+      3606
+     ],
+     [
+      1755,
+      3883
+     ]
+    ],
+    "closed": false,
+    "id": "phaleric-wall",
+    "blurb": "The first long wall, of the 450s, to the shore at Phaleron; abandoned once the two Piraeus walls were built and not rebuilt after 404.",
+    "periods": [
+     "periclean-430"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Dipylon",
+    "position": [
+     1176,
+     1320
+    ],
+    "id": "dipylon-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Sacred Gate",
+    "position": [
+     1141,
+     1376
+    ],
+    "id": "sacred-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Piraeus Gate",
+    "position": [
+     1018,
+     1753
+    ],
+    "id": "piraeus-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Melitides Gate",
+    "position": [
+     1141,
+     2330
+    ],
+    "id": "melitides-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Itonian Gate",
+    "position": [
+     2036,
+     2496
+    ],
+    "id": "itonian-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Diochares Gate",
+    "position": [
+     2598,
+     1465
+    ],
+    "id": "diochares-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Acharnian Gate",
+    "position": [
+     1913,
+     965
+    ],
+    "id": "acharnian-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Eriai Gate",
+    "position": [
+     1413,
+     1098
+    ],
+    "id": "eriai-gate",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Kastro gate",
+    "position": [
+     1702,
+     2030
+    ],
+    "id": "beule-gate",
+    "periods": [
+     "ottoman-1680"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Bridge of the Stadium",
+    "path": [
+     [
+      3071,
+      2208
+     ],
+     [
+      3089,
+      2258
+     ]
+    ],
+    "build": "stone",
+    "arches": 3,
+    "id": "stadium-bridge",
+    "blurb": "A three-arched stone bridge over the Ilissos to the stadium, probably built by Herodes Atticus with the marble seats; it stood until 1778.",
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Ford of the Ilissos",
+    "path": [
+     [
+      3071,
+      2208
+     ],
+     [
+      3089,
+      2258
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "stadium-footbridge",
+    "blurb": "A crossing to the new stadium of Lycurgus; a stone bridge is not attested before Roman times.",
+    "periods": [
+     "hellenistic-150"
+    ]
+   }
+  ],
+  "aqueducts": [
+   {
+    "name": "Hadrian's aqueduct (to the reservoir on Lykabettos)",
+    "path": [
+     [
+      3773,
+      22
+     ],
+     [
+      3615,
+      333
+     ],
+     [
+      3493,
+      610
+     ],
+     [
+      3422,
+      777
+     ]
+    ],
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "name": "Peisistratid water pipe",
+    "path": [
+     [
+      2896,
+      2019
+     ],
+     [
+      2589,
+      2130
+     ],
+     [
+      2282,
+      2164
+     ],
+     [
+      2106,
+      2019
+     ],
+     [
+      1887,
+      1886
+     ],
+     [
+      1711,
+      1797
+     ],
+     [
+      1615,
+      1753
+     ]
+    ],
+    "periods": [
+     "archaic-550",
+     "periclean-430"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1755,
+      1531
+     ],
+     [
+      2089,
+      1531
+     ],
+     [
+      2194,
+      1720
+     ],
+     [
+      2150,
+      1886
+     ],
+     [
+      1860,
+      1919
+     ],
+     [
+      1755,
+      1775
+     ]
+    ],
+    "density": "dense",
+    "name": "North slope",
+    "periods": [
+     "archaic-550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1229,
+      1720
+     ],
+     [
+      1430,
+      1720
+     ],
+     [
+      1562,
+      1831
+     ],
+     [
+      1536,
+      1919
+     ],
+     [
+      1360,
+      1908
+     ],
+     [
+      1229,
+      1831
+     ]
+    ],
+    "density": "loose",
+    "name": "Melite",
+    "periods": [
+     "archaic-550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1272,
+      1276
+     ],
+     [
+      1422,
+      1165
+     ],
+     [
+      1667,
+      1198
+     ],
+     [
+      1667,
+      1376
+     ],
+     [
+      1360,
+      1398
+     ]
+    ],
+    "density": "loose",
+    "name": "Kerameikos potters",
+    "periods": [
+     "archaic-550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2124,
+      1908
+     ],
+     [
+      2352,
+      1908
+     ],
+     [
+      2387,
+      2130
+     ],
+     [
+      2194,
+      2219
+     ],
+     [
+      2150,
+      2086
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east slope",
+    "periods": [
+     "archaic-550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1158,
+      2130
+     ],
+     [
+      1404,
+      2197
+     ],
+     [
+      1360,
+      2330
+     ],
+     [
+      1141,
+      2308
+     ]
+    ],
+    "density": "loose",
+    "name": "Koile",
+    "periods": [
+     "archaic-550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1272,
+      1276
+     ],
+     [
+      1422,
+      1143
+     ],
+     [
+      1650,
+      1054
+     ],
+     [
+      1825,
+      1198
+     ],
+     [
+      1799,
+      1387
+     ],
+     [
+      1562,
+      1398
+     ],
+     [
+      1360,
+      1376
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner Kerameikos",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1860,
+      1198
+     ],
+     [
+      1825,
+      1021
+     ],
+     [
+      2106,
+      1021
+     ],
+     [
+      2282,
+      1165
+     ],
+     [
+      2194,
+      1376
+     ],
+     [
+      1887,
+      1398
+     ]
+    ],
+    "density": "dense",
+    "name": "Skambonidai",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1755,
+      1531
+     ],
+     [
+      2106,
+      1498
+     ],
+     [
+      2150,
+      1686
+     ],
+     [
+      2106,
+      1886
+     ],
+     [
+      1860,
+      1919
+     ],
+     [
+      1755,
+      1775
+     ]
+    ],
+    "density": "dense",
+    "name": "Kydathenaion",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1755,
+      1775
+     ],
+     [
+      2106,
+      1797
+     ],
+     [
+      2106,
+      1886
+     ],
+     [
+      1860,
+      1919
+     ]
+    ],
+    "density": "dense",
+    "name": "Kydathenaion",
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2176,
+      1420
+     ],
+     [
+      2457,
+      1354
+     ],
+     [
+      2589,
+      1553
+     ],
+     [
+      2562,
+      1797
+     ],
+     [
+      2194,
+      1864
+     ],
+     [
+      2176,
+      1642
+     ]
+    ],
+    "density": "dense",
+    "name": "Upper Kydathenaion",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2124,
+      1908
+     ],
+     [
+      2352,
+      1908
+     ],
+     [
+      2387,
+      2108
+     ],
+     [
+      2238,
+      2186
+     ],
+     [
+      2159,
+      2064
+     ]
+    ],
+    "density": "dense",
+    "name": "Limnai",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1229,
+      1720
+     ],
+     [
+      1430,
+      1720
+     ],
+     [
+      1562,
+      1831
+     ],
+     [
+      1536,
+      1919
+     ],
+     [
+      1360,
+      1908
+     ],
+     [
+      1229,
+      1831
+     ]
+    ],
+    "density": "dense",
+    "name": "Melite",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1509,
+      2108
+     ],
+     [
+      1860,
+      2152
+     ],
+     [
+      2018,
+      2308
+     ],
+     [
+      1913,
+      2463
+     ],
+     [
+      1597,
+      2419
+     ],
+     [
+      1509,
+      2263
+     ]
+    ],
+    "density": "dense",
+    "name": "Koile and Kollytos",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1158,
+      2130
+     ],
+     [
+      1404,
+      2197
+     ],
+     [
+      1360,
+      2330
+     ],
+     [
+      1158,
+      2308
+     ]
+    ],
+    "density": "loose",
+    "name": "Koile valley",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      878,
+      2164
+     ],
+     [
+      684,
+      2352
+     ],
+     [
+      483,
+      2574
+     ],
+     [
+      632,
+      2718
+     ],
+     [
+      878,
+      2552
+     ],
+     [
+      1071,
+      2352
+     ]
+    ],
+    "density": "loose",
+    "name": "Refugees between the Long Walls",
+    "periods": [
+     "periclean-430"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2764,
+      1498
+     ],
+     [
+      3071,
+      1498
+     ],
+     [
+      3089,
+      1664
+     ],
+     [
+      2791,
+      1686
+     ]
+    ],
+    "density": "loose",
+    "name": "Diomeia",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2562,
+      2574
+     ],
+     [
+      2826,
+      2419
+     ],
+     [
+      2940,
+      2530
+     ],
+     [
+      2685,
+      2707
+     ]
+    ],
+    "density": "loose",
+    "name": "Agrai",
+    "periods": [
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2738,
+      1775
+     ],
+     [
+      3054,
+      1775
+     ],
+     [
+      3142,
+      2019
+     ],
+     [
+      2966,
+      2197
+     ],
+     [
+      2650,
+      2130
+     ],
+     [
+      2615,
+      1953
+     ]
+    ],
+    "density": "loose",
+    "name": "Hadrianopolis",
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1913,
+      1720
+     ],
+     [
+      2194,
+      1753
+     ],
+     [
+      2282,
+      1908
+     ],
+     [
+      2062,
+      1942
+     ],
+     [
+      1799,
+      1908
+     ],
+     [
+      1755,
+      1797
+     ]
+    ],
+    "density": "dense",
+    "name": "Plaka",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1711,
+      1420
+     ],
+     [
+      2150,
+      1387
+     ],
+     [
+      2299,
+      1531
+     ],
+     [
+      2194,
+      1642
+     ],
+     [
+      1799,
+      1598
+     ]
+    ],
+    "density": "dense",
+    "name": "Bazaar quarter",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1448,
+      1331
+     ],
+     [
+      1667,
+      1243
+     ],
+     [
+      1738,
+      1387
+     ],
+     [
+      1562,
+      1465
+     ]
+    ],
+    "density": "loose",
+    "name": "Psyrri",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2299,
+      1465
+     ],
+     [
+      2562,
+      1531
+     ],
+     [
+      2562,
+      1753
+     ],
+     [
+      2299,
+      1797
+     ],
+     [
+      2282,
+      1642
+     ]
+    ],
+    "density": "loose",
+    "name": "Upper town",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1509,
+      1553
+     ],
+     [
+      1711,
+      1575
+     ],
+     [
+      1711,
+      1720
+     ],
+     [
+      1536,
+      1731
+     ]
+    ],
+    "density": "loose",
+    "name": "Vlassarou (over the old Agora)",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1941,
+      1984
+     ],
+     [
+      1996,
+      2003
+     ],
+     [
+      1992,
+      2053
+     ],
+     [
+      1946,
+      2077
+     ]
+    ],
+    "density": "loose",
+    "name": "Garrison village of the kastro",
+    "periods": [
+     "ottoman-1680"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      3247,
+      1997
+     ],
+     [
+      3554,
+      2086
+     ],
+     [
+      3493,
+      2219
+     ],
+     [
+      3203,
+      2164
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of the Ilissos",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3291,
+      1642
+     ],
+     [
+      3615,
+      1642
+     ],
+     [
+      3642,
+      1808
+     ],
+     [
+      3317,
+      1831
+     ]
+    ],
+    "kind": "park",
+    "name": "Grove of the Lyceum",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      614,
+      333
+     ],
+     [
+      1141,
+      166
+     ],
+     [
+      1316,
+      555
+     ],
+     [
+      878,
+      721
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olive groves",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce",
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2457,
+      2885
+     ],
+     [
+      2764,
+      2774
+     ],
+     [
+      2826,
+      3018
+     ],
+     [
+      2545,
+      3107
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards of Agrai",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce",
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      878,
+      1198
+     ],
+     [
+      1071,
+      1110
+     ],
+     [
+      1141,
+      1243
+     ],
+     [
+      965,
+      1331
+     ]
+    ],
+    "kind": "park",
+    "name": "Kerameikos cemetery",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2589,
+      1942
+     ],
+     [
+      2940,
+      1942
+     ],
+     [
+      2984,
+      2164
+     ],
+     [
+      2633,
+      2164
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Ottoman gardens",
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1667,
+      1054
+     ],
+     [
+      2106,
+      999
+     ],
+     [
+      2194,
+      1220
+     ],
+     [
+      1755,
+      1220
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens north of the town",
+    "periods": [
+     "ottoman-1680"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "agora",
+    "name": "Agora",
+    "polygon": [
+     [
+      1404,
+      1520
+     ],
+     [
+      1650,
+      1520
+     ],
+     [
+      1711,
+      1720
+     ],
+     [
+      1562,
+      1775
+     ],
+     [
+      1422,
+      1753
+     ]
+    ],
+    "description": "The civic square of Athens, marked by boundary stones: council house, law courts, magistrates' offices, stoas and shrines round an open space crossed by the Panathenaic Way, where citizens met, shopped and argued.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "id": "kerameikos",
+    "name": "Kerameikos",
+    "polygon": [
+     [
+      878,
+      1110
+     ],
+     [
+      1623,
+      1054
+     ],
+     [
+      1711,
+      1387
+     ],
+     [
+      1053,
+      1442
+     ]
+    ],
+    "description": "The potters' quarter on the Eridanos, split by the city wall: workshops and kilns inside, the great cemetery of Athens outside along the Sacred Way and the road to the Academy.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce",
+     "ottoman-1680"
+    ]
+   },
+   {
+    "id": "melite",
+    "name": "Melite",
+    "polygon": [
+     [
+      1141,
+      1686
+     ],
+     [
+      1448,
+      1720
+     ],
+     [
+      1562,
+      1942
+     ],
+     [
+      1360,
+      2019
+     ],
+     [
+      1141,
+      1886
+     ]
+    ],
+    "description": "A wealthy deme on the hills west of the Agora; Themistocles had a house and a shrine of Artemis Aristoboule here.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "id": "koile",
+    "name": "Koile",
+    "polygon": [
+     [
+      1097,
+      2108
+     ],
+     [
+      1448,
+      2164
+     ],
+     [
+      1404,
+      2385
+     ],
+     [
+      1123,
+      2352
+     ]
+    ],
+    "description": "'The Hollow': the valley between the Pnyx and the Mouseion, along the road to Piraeus, crowded with small houses cut into the rock.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "id": "kydathenaion",
+    "name": "Kydathenaion",
+    "polygon": [
+     [
+      1755,
+      1498
+     ],
+     [
+      2457,
+      1387
+     ],
+     [
+      2589,
+      1797
+     ],
+     [
+      1825,
+      1908
+     ]
+    ],
+    "description": "The 'glorious' deme of the old city north and east of the Acropolis, the home of Aristophanes.",
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "id": "hadrianopolis",
+    "name": "Hadrianopolis",
+    "polygon": [
+     [
+      2633,
+      1720
+     ],
+     [
+      3159,
+      1720
+     ],
+     [
+      3159,
+      2164
+     ],
+     [
+      2589,
+      2219
+     ]
+    ],
+    "description": "Hadrian's new quarter of villas and baths east of his arch, round the finished Olympieion.",
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "id": "plaka",
+    "name": "Plaka",
+    "polygon": [
+     [
+      1755,
+      1720
+     ],
+     [
+      2282,
+      1720
+     ],
+     [
+      2282,
+      1942
+     ],
+     [
+      1755,
+      1942
+     ]
+    ],
+    "description": "The old quarter on the north slope of the Acropolis, Greek-speaking with Albanian newcomers, its lanes stepping up to the kastro gate.",
+    "periods": [
+     "ottoman-1680"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Ilissos",
+    "position": [
+     1860,
+     2885
+    ],
+    "size": "sm",
+    "rotation": 52
+   },
+   {
+    "text": "Eridanos",
+    "position": [
+     614,
+     1265
+    ],
+    "size": "sm",
+    "rotation": -25
+   },
+   {
+    "text": "Akropolis",
+    "position": [
+     1825,
+     2152
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Kastro",
+    "position": [
+     1825,
+     2152
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "text": "Lykabettos",
+    "position": [
+     3361,
+     555
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "Mouseion",
+    "position": [
+     1360,
+     2718
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Athenai",
+    "position": [
+     2457,
+     1220
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Atina",
+    "position": [
+     2457,
+     1220
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ottoman-1680"
+    ]
+   },
+   {
+    "text": "Kerameikos",
+    "position": [
+     1009,
+     1165
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Agora",
+    "position": [
+     1580,
+     1642
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Long Walls to Piraeus",
+    "position": [
+     527,
+     2663
+    ],
+    "size": "sm",
+    "rotation": 47,
+    "periods": [
+     "periclean-430"
+    ]
+   },
+   {
+    "text": "Hadrianopolis",
+    "position": [
+     2940,
+     1908
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Agrai",
+    "position": [
+     2720,
+     2574
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "archaic-550",
+     "periclean-430",
+     "hellenistic-150",
+     "roman-150ce"
+    ]
+   },
+   {
+    "text": "Plaka",
+    "position": [
+     2194,
+     1797
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ottoman-1680"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D8B0",
+   "ink": "#6A4A32",
+   "water": "#5F8A90",
+   "hill": "#7E7F58",
+   "road": "#8C6C4A"
+  },
+  "compass": [
+   3703,
+   311
+  ],
+  "cartouche": [
+   2194,
+   3684
+  ]
+ },
+ "periods": [
+  {
+   "id": "archaic-550",
+   "label": "Peisistratid Athens",
+   "year": -550,
+   "startYear": -600,
+   "endYear": -480,
+   "summary": "Athens under Peisistratos and his sons. The tyrant rules from the Acropolis, where a limestone temple of Athena stands among smaller shrines; the Agora is being cleared of houses and graves to become a public square with its first fountain house and altar. Work begins on a colossal temple of Olympian Zeus by the Ilissos. Mud brick, rubble, timber and terracotta; marble only for sculpture.",
+   "population": "perhaps 20,000–30,000 in the town",
+   "feel": "Potters' wheels and kiln smoke in the Kerameikos, goats on the hill paths, flute music from a festival procession climbing to Athena.",
+   "style": "antique",
+   "houses": {
+    "title": "Houses of archaic Athens",
+    "text": "Small houses of mud brick on rubble socles, two or three rooms round a yard with a well or cistern, flat or lean-to roofs of clay and reed, some with terracotta tiles. Lanes follow the slopes; workshops open onto them."
+   },
+   "outskirts": {
+    "title": "Farms and burial grounds",
+    "text": "Olive and barley plots, threshing floors and farmsteads along the Ilissos; family grave plots with clay vases and stone kouroi along the roads out of town."
+   }
+  },
+  {
+   "id": "periclean-430",
+   "label": "The city of Pericles",
+   "year": -430,
+   "startYear": -479,
+   "endYear": -322,
+   "summary": "The imperial democracy at its height, rebuilt after the Persian sack of 480. The Themistoclean wall rings the town and the Long Walls tie it to Piraeus. On the Acropolis the Parthenon is finished (438) and the Propylaia stands unfinished; the assembly meets on the Pnyx, the council in the Agora. In 430 the countryside has crowded inside the walls, and plague breaks out.",
+   "population": "perhaps 100,000 in the city in 431, swollen by refugees",
+   "feel": "Crowds and dust, the cries of sellers in the Agora, marble chips under the masons' sheds, and in the summer of 430 the smoke of funeral pyres.",
+   "style": "antique",
+   "houses": {
+    "title": "Courtyard houses of Periclean Athens",
+    "text": "Plain houses of mud brick on stone footings, whitewashed or left earth-coloured, turned inward round a small court with an altar, a well and a shaded portico; a men's dining room by the door, women's rooms behind or upstairs. Tiled roofs, few street windows, lanes of beaten earth."
+   },
+   "outskirts": {
+    "title": "Gardens and graves outside the walls",
+    "text": "Market gardens and olive groves along the Ilissos, sanctuaries in the meadows, potters' and tile workshops, and the public cemetery lining the road from the Dipylon to the Academy."
+   }
+  },
+  {
+   "id": "hellenistic-150",
+   "label": "Hellenistic Athens",
+   "year": -150,
+   "startYear": -321,
+   "endYear": -31,
+   "summary": "A university town under the shadow of the Hellenistic kings. Macedonian garrisons come and go; Pergamon and Syria pay for monuments: Attalos II's two-storey stoa closes the Agora on the east, the Middle and South Stoas its south side, and Antiochus IV has resumed the Olympieion. Philosophers teach in the Academy, the Lyceum, the Garden and the Stoa Poikile. Sulla will storm the city in 86 BCE.",
+   "population": "perhaps 50,000–75,000",
+   "feel": "Students from Rome and Syria arguing in the porticoes, the clink of the mint, fish-sellers crying their eels and tunny in the market.",
+   "style": "antique",
+   "houses": {
+    "title": "Peristyle houses and tenements",
+    "text": "Courtyard houses of rubble and mud brick, the richer ones now with a small columned peristyle and mosaic floors, the poorer crowded into rented rooms; tiled roofs, plastered walls painted in panels inside."
+   },
+   "outskirts": {
+    "title": "Gymnasia, gardens and graves",
+    "text": "Shady gymnasium groves, private gardens of the philosophical schools, olive groves and tomb monuments along the roads; the Long Walls are crumbling."
+   }
+  },
+  {
+   "id": "roman-150ce",
+   "label": "Hadrian's Athens",
+   "year": 150,
+   "startYear": -30,
+   "endYear": 267,
+   "summary": "A Roman provincial city loved by its emperors. Augustus' marble market lies east of the old Agora; Hadrian finished the Olympieion in 132, built a library and a new quarter beyond his arch, and the millionaire Herodes Atticus rebuilds the Panathenaic Stadium in marble and gives an odeon on the Acropolis slope. Pausanias walks the streets writing his guidebook.",
+   "population": "perhaps 30,000–40,000",
+   "feel": "Latin and Greek in the streets, tourists with guides, water running in Hadrian's new aqueduct, marble everywhere.",
+   "style": "antique",
+   "houses": {
+    "title": "Houses of Roman Athens",
+    "text": "Peristyle houses with mosaic floors and painted walls for the rich, two-storey houses round small courts for the rest, tiled roofs; shops open onto the colonnaded streets. Baths in every quarter."
+   },
+   "outskirts": {
+    "title": "Villas and suburbs",
+    "text": "Garden villas and baths in Hadrian's new city by the Ilissos, olive groves, tombs and gymnasia along the roads."
+   }
+  },
+  {
+   "id": "ottoman-1680",
+   "label": "Ottoman Atina",
+   "year": 1680,
+   "startYear": 1456,
+   "endYear": 1688,
+   "summary": "A small provincial town under the Ottomans since 1456. The Acropolis is a fortress, the kastro, with a garrison village of about 200 houses; the Parthenon is its mosque and the Erechtheion the commander's harem. Below, the town spreads over the north slope round the bazaar in Hadrian's Library and the Fethiye mosque in the Roman market. There is no town wall. In September 1687 Morosini's Venetians shell the Acropolis.",
+   "population": "perhaps 10,000–12,000, Greek, Turkish and Albanian",
+   "feel": "The call to prayer from the minaret in the Parthenon, church bells forbidden, donkeys in the bazaar, coffee and tobacco smoke under the plane trees.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of Ottoman Athens",
+    "text": "One- and two-storey houses of rubble and reused ancient blocks, whitewashed, with tiled roofs and high walls round courtyards with a well, a vine and fruit trees; wooden balconies above the lanes, the women's rooms behind."
+   },
+   "outskirts": {
+    "title": "Olive groves and gardens",
+    "text": "Walled gardens, vineyards and the great olive grove of the Kephisos plain; chapels and threshing floors among the ruins."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "parthenon",
+   "placeId": "parthenon",
+   "name": "Parthenon",
+   "category": "temple",
+   "position": [
+    1897,
+    2053
+   ],
+   "rotation": 270,
+   "footprint": [
+    40.0,
+    80.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/parthenon.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 40,
+     "depth": 80,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 4.0,
+     "columnHeight": 16.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "Bare rock and smaller shrines. The 'Hekatompedon', a hundred-foot limestone temple of about 570–560, may have stood here or on the site of the Old Temple; scholars disagree. A first marble temple on this spot, the Older Parthenon, was begun only after Marathon (490)."
+    },
+    "periclean-430": {
+     "note": "New: dedicated with Phidias' gold-and-ivory Athena Parthenos at the Panathenaia of 438. The pediment sculptures are still being lifted into place; they are finished in 432."
+    },
+    "hellenistic-150": {
+     "note": "Alexander hung fourteen gilded Persian shields on the east architrave after the Granicus (334); Demetrius Poliorcetes lodged in the back room with his courtesans in 304, to the town's disgust."
+    },
+    "roman-150ce": {
+     "note": "Still Athena's temple. A bronze-letter inscription to Nero (61 CE) has come and gone on the east architrave; Pausanias describes the gold-and-ivory goddess, the snake at her side and Victory in her hand."
+    },
+    "ottoman-1680": {
+     "name": "Parthenon mosque",
+     "confidence": "reconstruction",
+     "note": "A church for nearly a thousand years, a mosque since the 1460s, with a minaret in the south-west corner and the Christian apse still at the east end. The garrison keeps gunpowder on the rock.",
+     "model": {
+      "glb": "models/athens/parthenon-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 40,
+       "depth": 80,
+       "domes": 3,
+       "minaretHeight": 20
+      }
+     }
+    }
+   },
+   "summary": "Athena's great temple, built 447–432 BCE in Pentelic marble: a Doric colonnade of 8 by 17 columns round a cella that held Phidias' gold-and-ivory statue, with the most famous sculptures of antiquity in its pediments, metopes and frieze.",
+   "details": [
+    "Designed by Iktinos and Kallikrates with Phidias in overall charge, on the platform of the Older Parthenon burned by the Persians in 480. The stylobate measures 30.9 by 69.5 m and the columns stand 10.4 m; every line curves slightly. 92 sculpted metopes, a 160 m Ionic frieze of the Panathenaic procession and two crowded pediments decorated it, all once painted.",
+    "The miniature stands on a cut of the Acropolis rock. It shows the peristyle with fluted columns, the triglyph frieze with sculpted metopes, the inner porches and the Ionic frieze, both pediments with their figures and the marble-tiled roof. Paint is reduced to the blue of the triglyphs, mutules and pediment backgrounds."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-parthenon",
+    "wiki-older-parthenon",
+    "hurwit",
+    "korres-parthenon"
+   ],
+   "built": "447–432 BCE",
+   "function": "Temple of Athena Parthenos; later church and mosque",
+   "activity": {
+    "figures": 40,
+    "radius": 90
+   }
+  },
+  {
+   "id": "erechtheion",
+   "placeId": "erechtheion",
+   "name": "Erechtheion",
+   "category": "temple",
+   "position": [
+    1878,
+    1994
+   ],
+   "rotation": 270,
+   "footprint": [
+    30.9,
+    41.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/erechtheion.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 30,
+     "depth": 42,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.0,
+     "columnHeight": 12.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "Not yet begun (421). Athena's sacred olive and the marks of Poseidon's trident are here in open precincts beside the burned Old Temple."
+    },
+    "hellenistic-150": {
+     "note": "Complete since about 406. It houses the ancient olive-wood Athena Polias, the goddess the Panathenaic robe was woven for."
+    },
+    "roman-150ce": {
+     "note": "Repaired after a fire in the 1st century BCE, probably under Augustus; the Romans copied its Caryatids for the Forum of Augustus."
+    },
+    "ottoman-1680": {
+     "note": "The house of the disdar, the garrison commander, with his harem; walls block the porches. Spon and Wheler saw it in 1676."
+    }
+   },
+   "summary": "The Ionic temple of Athena Polias, Poseidon-Erechtheus and the city's oldest cults, built 421–406 BCE on uneven ground, with its famous porch of six maidens (the Caryatids).",
+   "details": [
+    "Its odd plan follows the sacred spots it had to cover: Athena's olive, the salt spring and trident marks of Poseidon, the tomb of Kekrops. The east porch has six Ionic columns, the taller north porch stands three metres lower, and on the south six korai carry the roof of a small porch over Kekrops' tomb. The frieze was grey-black Eleusinian stone with white marble figures pinned on.",
+    "The miniature shows the two-level rock, the east and north porches, the Caryatid porch, the west wall with its engaged columns and the walled court of the Pandroseion with Athena's olive. Interior divisions are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-erechtheion",
+    "hurwit"
+   ],
+   "built": "421–406 BCE",
+   "function": "Temple of Athena Polias and Erechtheus",
+   "activity": {
+    "figures": 20,
+    "radius": 50
+   }
+  },
+  {
+   "id": "propylaia",
+   "placeId": "propylaia",
+   "name": "Propylaia",
+   "category": "monument",
+   "position": [
+    1736,
+    2028
+   ],
+   "rotation": 90,
+   "footprint": [
+    60.3,
+    57.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/propylaia.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 56,
+     "height": 22.400000000000002,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "A broad ramp, built about 566 for the newly organised Great Panathenaia, climbs to a simpler gateway in the Mycenaean wall."
+    },
+    "periclean-430": {
+     "note": "Just stopped: Mnesikles' gate was begun in 437 and abandoned unfinished in 432, its walls still bearing the lifting bosses and its south wing cut short."
+    },
+    "hellenistic-150": {
+     "note": "Little changed; a tall pedestal for a bronze four-horse chariot will soon be set up beside the north wing (the later 'Monument of Agrippa')."
+    },
+    "roman-150ce": {
+     "note": "A grand marble stairway of the 1st century CE has replaced the ramp; Pausanias admired the white marble ceiling and the paintings in the north wing."
+    },
+    "ottoman-1680": {
+     "name": "Propylaia (ruined)",
+     "confidence": "reconstruction",
+     "note": "Palace of the Florentine dukes, then the Turkish commander's quarters and powder store: lightning set off the powder in 1656 and blew out its centre. The tall Frankish tower still stands on the south wing.",
+     "model": {
+      "glb": "models/athens/propylaia-1680.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 56,
+       "height": 22.400000000000002,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "The monumental gateway of the Acropolis, built 437–432 BCE by Mnesikles: a Doric porch front and back on two levels, an Ionic passage between them and two wings, the northern one a picture gallery.",
+   "details": [
+    "The central building has six Doric columns on each front; inside, the processional road climbs between two rows of Ionic columns to a wall pierced by five doors. The north wing (the Pinakotheke) held paintings; the south wing was cut short, probably to spare the sanctuary of Athena Nike, and the war stopped the work in 432.",
+    "The miniature shows the gateway on the western edge of the rock with the ramp below it, both porches with their pediments, the Ionic passage, and the two wings with their small Doric porches facing the ramp."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-propylaea",
+    "hurwit",
+    "pausanias"
+   ],
+   "built": "437–432 BCE (unfinished)",
+   "function": "Entrance gate of the Acropolis",
+   "activity": {
+    "figures": 30,
+    "radius": 60
+   }
+  },
+  {
+   "id": "athena-nike",
+   "placeId": "athena-nike",
+   "name": "Temple of Athena Nike",
+   "category": "temple",
+   "position": [
+    1699,
+    2070
+   ],
+   "rotation": 270,
+   "footprint": [
+    15.9,
+    21.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/nike.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 14,
+     "depth": 20,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 1.5,
+     "columnHeight": 6
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "An old altar and a small shrine of Victory stand on the bastion; a decree of about 449 had already ordered Kallikrates' temple, which was built only from about 427."
+    },
+    "hellenistic-150": {
+     "note": "Complete, with its parapet of winged Victories (about 410) round the bastion edge."
+    },
+    "roman-150ce": {
+     "note": "Pausanias calls it the temple of Wingless Victory: the Athenians, he says, made her without wings so that she could never leave."
+    },
+    "ottoman-1680": {
+     "note": "Standing, but not for long: in 1686, expecting the Venetians, the Turks took it down to make a gun battery. It was rebuilt from its blocks in 1835."
+    }
+   },
+   "summary": "A small Ionic temple of Athena as Victory on the bastion beside the Propylaia, built about 427–424 BCE: four columns at front and back, a sculpted frieze and a marble parapet of Victories.",
+   "details": [
+    "Designed by Kallikrates, it is amphiprostyle: four Ionic columns at each end, none along the sides. The frieze shows gods and battles, including probably Marathon. The parapet round the bastion, carved about 410, showed Victories leading bulls to sacrifice; the 'Sandal-binder' comes from it.",
+    "The miniature shows the stone bastion with its parapet and the temple on top; the bastion is shortened a little."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nike",
+    "hurwit",
+    "pausanias"
+   ],
+   "built": "c. 427–424 BCE",
+   "function": "Temple of Athena Nike",
+   "activity": {
+    "figures": 10,
+    "radius": 30
+   }
+  },
+  {
+   "id": "athena-promachos",
+   "placeId": "athena-promachos",
+   "name": "Athena Promachos",
+   "category": "monument",
+   "position": [
+    1799,
+    2019
+   ],
+   "rotation": 90,
+   "footprint": [
+    13.8,
+    13.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/promachos.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 12,
+     "depth": 12,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "New, set up about 465–455 from the spoils of Marathon according to Pausanias. Athena faces the Propylaia with spear and shield."
+    },
+    "hellenistic-150": {
+     "note": "Still the first thing a visitor saw through the gate."
+    },
+    "roman-150ce": {
+     "note": "Pausanias says sailors rounding Sounion could see the tip of her spear and the crest of her helmet."
+    },
+    "ottoman-1680": {
+     "note": "Gone. The statue was taken to Constantinople in late antiquity and smashed by a mob in 1203; only the cuttings of its base remain on the rock."
+    }
+   },
+   "summary": "Phidias' colossal bronze Athena, about 9 m tall, standing in the open between the Propylaia and the Erechtheion: the 'Athena who fights in the front line'.",
+   "details": [
+    "Paid for, the ancient writers say, from the Marathon spoils and made by the young Phidias, with the shield later chased by Mys after designs of Parrhasios. Its base, about 5.5 m square, survives; the height is an estimate from it.",
+    "The miniature shows the goddess helmeted, spear upright, shield at her side, on a stepped base cut into the rock. The pose follows small copies on Athenian coins; the details are conjectural."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-promachos",
+    "pausanias",
+    "hurwit"
+   ],
+   "built": "c. 465–455 BCE",
+   "function": "Votive statue of Athena",
+   "activity": {
+    "figures": 8,
+    "radius": 25
+   }
+  },
+  {
+   "id": "old-temple",
+   "placeId": "old-temple",
+   "name": "Old Temple of Athena Polias",
+   "category": "temple",
+   "position": [
+    1867,
+    2014
+   ],
+   "rotation": 270,
+   "footprint": [
+    28.7,
+    49.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/old-temple.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 28,
+     "depth": 50,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 2.8000000000000003,
+     "columnHeight": 11.200000000000001
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430"
+   ],
+   "variants": {
+    "archaic-550": {
+     "confidence": "reconstruction",
+     "note": "Athena's main temple. The colonnaded version on these foundations is usually dated about 525–500; an earlier temple, with the 'Bluebeard' pediment, may have stood here in 550."
+    },
+    "periclean-430": {
+     "name": "Old Temple (burned)",
+     "confidence": "interpretation",
+     "note": "Burned by the Persians in 480. Its colonnade lies in ruins, but the western rooms may have been patched up as a treasury and still stand; scholars disagree.",
+     "model": {
+      "glb": "models/athens/old-temple-ruin.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 28,
+       "depth": 50,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 2.8000000000000003,
+       "columnHeight": 11.200000000000001
+      }
+     }
+    },
+    "hellenistic-150": {
+     "note": "Gone; its foundations lie open beside the Erechtheion's Caryatid porch."
+    }
+   },
+   "summary": "The archaic limestone temple of Athena Polias on the north side of the rock, a Doric building of 6 by 12 columns with marble pediments of gods fighting giants, burned by the Persians in 480 BCE.",
+   "details": [
+    "Its foundations, found by Dörpfeld in 1885, measure about 21 by 43 m. The peristyle and the marble Gigantomachy pediment are dated to the last quarter of the 6th century, under Peisistratos' sons or just after their fall. Inside, the olive-wood statue of Athena Polias was kept until the Erechtheion took it over.",
+    "The miniature shows a temple of painted limestone with a terracotta roof, the colour scheme of archaic buildings. The burned variant shows the broken colonnade round a roofed western block; the extent of the repair is uncertain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-old-temple",
+    "hurwit"
+   ],
+   "built": "c. 525–500 BCE",
+   "function": "Temple of Athena Polias",
+   "activity": {
+    "figures": 12,
+    "radius": 40
+   }
+  },
+  {
+   "id": "theatre-dionysus",
+   "placeId": "theatre-dionysus",
+   "name": "Theatre of Dionysus",
+   "category": "entertainment",
+   "position": [
+    2001,
+    2175
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    94.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/theatre-dionysus.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 92,
+     "height": 36.800000000000004,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "A sanctuary of Dionysus Eleuthereus with a small temple. Choral performances for the god were organised under Peisistratos; Thespis is said to have won the first tragic contest about 534."
+    },
+    "periclean-430": {
+     "name": "Theatre of Dionysus (timber)",
+     "confidence": "reconstruction",
+     "note": "Where Aeschylus, Sophocles, Euripides and Aristophanes are staged: spectators sit on wooden benches on the slope, the actors play before a timber stage building. Euripides' Medea is produced here in 431.",
+     "model": {
+      "glb": "models/athens/theatre-dionysus-430.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 92,
+       "height": 36.800000000000004,
+       "roof": "pitched"
+      }
+     }
+    },
+    "hellenistic-150": {
+     "note": "Rebuilt in stone under Lycurgus about 338–326 for some 15,000–17,000: marble thrones in the front row, a stone stage building, and Thrasyllos' choregic monument in the cave above."
+    },
+    "roman-150ce": {
+     "name": "Theatre of Dionysus (Roman)",
+     "note": "Remodelled under Nero: a raised Roman stage, a paved orchestra fenced by a marble barrier for beast fights and gladiators, and the Athenian assembly often meets here.",
+     "model": {
+      "glb": "models/athens/theatre-dionysus-roman.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 92,
+       "height": 36.800000000000004,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ottoman-1680": {
+     "note": "Buried under earth washed down from the rock and the Ottoman outer wall; only the cave chapel of the Panagia Spiliotissa above marks the spot."
+    }
+   },
+   "summary": "The birthplace of tragedy and comedy, on the south slope of the Acropolis: a great fan of seats round a circular orchestra, rebuilt in stone in the 330s BCE.",
+   "details": [
+    "The festivals of Dionysus brought three tragedians and five comic poets into competition each spring. In the 5th century the audience sat on wooden benches on the hillside; Lycurgus rebuilt the cavea in stone with three tiers of seats, 67 marble thrones for priests and officials, and a long stage building backed by a stoa facing the sanctuary.",
+    "The miniature shows the Hellenistic theatre: stepped seats divided into wedges by stairways, the orchestra, the stage building with its colonnaded front, the stoa and temple of Dionysus behind, and the Acropolis cliff above."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-theatre-dionysus",
+    "travlos",
+    "pausanias"
+   ],
+   "built": "6th century BCE; stone theatre c. 338–326 BCE",
+   "function": "Theatre for the festivals of Dionysus",
+   "activity": {
+    "figures": 60,
+    "radius": 110
+   }
+  },
+  {
+   "id": "odeon-pericles",
+   "placeId": "odeon-pericles",
+   "name": "Odeon of Pericles",
+   "category": "entertainment",
+   "position": [
+    2110,
+    2147
+   ],
+   "rotation": 0,
+   "footprint": [
+    64.0,
+    70.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/odeon-pericles.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 64,
+     "depth": 70,
+     "height": 25.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "New, about 435: a forest of columns under one vast roof, said to copy the tent of Xerxes. The musical contests of the Panathenaia are held here."
+    },
+    "hellenistic-150": {
+     "note": "Still standing. In 86 BCE the tyrant Aristion will burn it so that Sulla cannot use its timber."
+    },
+    "roman-150ce": {
+     "note": "Rebuilt after 86 BCE with help from King Ariobarzanes II of Cappadocia."
+    },
+    "ottoman-1680": {
+     "note": "Lost under the slope and later houses; it was found by excavation in the 20th century."
+    }
+   },
+   "summary": "A great square concert hall beside the theatre, built by Pericles about 435 BCE, its pyramidal roof carried on some ninety columns.",
+   "details": [
+    "Measuring about 62 by 69 m, it was the largest roofed building in Athens. Plutarch says its roof sloped to a single peak in imitation of the Persian king's tent, and ancient writers say timbers from Persian ships were used. Comedians joked that Pericles' tall head resembled it.",
+    "The miniature shows the hall with a tiled pyramid roof and a small lantern, and a porch on the south. The exterior is a reconstruction: little survives above the foundations."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-odeon-pericles",
+    "plutarch-pericles",
+    "travlos"
+   ],
+   "built": "c. 445–435 BCE",
+   "function": "Odeon for music contests",
+   "activity": {
+    "figures": 20,
+    "radius": 60
+   }
+  },
+  {
+   "id": "odeon-herodes",
+   "placeId": "odeon-herodes",
+   "name": "Odeon of Herodes Atticus",
+   "category": "entertainment",
+   "position": [
+    1720,
+    2125
+   ],
+   "rotation": 0,
+   "footprint": [
+    88.6,
+    60.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/odeon-herodes.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 88,
+     "depth": 60,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce"
+   ],
+   "variants": {
+    "hellenistic-150": {
+     "note": "A bare slope below the Acropolis gate; the stoa of Eumenes II of Pergamon (2nd century BCE) runs east from here to the theatre."
+    },
+    "roman-150ce": {
+     "note": "Built about 160–174 CE by Herodes Atticus in memory of his wife Regilla, who died in 160; Philostratus says it had a roof of cedar."
+    },
+    "ottoman-1680": {
+     "note": "A roofless ruin built into the outer defences of the kastro; its high arched facade serves as a wall."
+    }
+   },
+   "summary": "A steep Roman theatre for about 5,000 given by Herodes Atticus about 161 CE, with a three-storey arched facade to the south and a cavea cut into the Acropolis slope.",
+   "details": [
+    "Herodes, the richest man in Greece and tutor to Marcus Aurelius, dedicated it to the memory of his wife Regilla. Its semicircular cavea of 32 rows faces a stage building whose outer wall, with three tiers of arched openings, still stands about 28 m high. It burned when the Heruli sacked Athens in 267.",
+    "The miniature shows the cavea without the disputed roof, the paved orchestra, the stage and its decorated back wall, and the arcaded facade."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-odeon-herodes",
+    "travlos"
+   ],
+   "built": "c. 160–174 CE",
+   "function": "Odeon for music",
+   "activity": {
+    "figures": 30,
+    "radius": 70
+   }
+  },
+  {
+   "id": "stoa-poikile",
+   "placeId": "stoa-poikile",
+   "name": "Stoa Poikile (Painted Stoa)",
+   "category": "civic",
+   "position": [
+    1514,
+    1509
+   ],
+   "rotation": 0,
+   "footprint": [
+    42.0,
+    16.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/stoa-poikile.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 42,
+     "depth": 16,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "Houses and graves, being cleared as the Agora takes shape."
+    },
+    "periclean-430": {
+     "note": "The most popular building in the Agora: its paintings of Marathon, Troy and the Amazons by Polygnotos and Mikon draw crowds, and Spartan shields captured at Pylos (425) will be hung here."
+    },
+    "hellenistic-150": {
+     "note": "Zeno of Kition taught here from about 300 BCE; his followers are called Stoics, 'men of the stoa'."
+    },
+    "roman-150ce": {
+     "note": "Pausanias describes the paintings in detail; they were removed about 400 CE."
+    }
+   },
+   "summary": "The 'Painted Stoa' on the north side of the Agora, built about 475–460 BCE: a Doric colonnade facing the square with famous wall paintings inside, where Zeno founded the Stoic school.",
+   "details": [
+    "First called the Stoa of Peisianax after its builder, it was soon named for its great panel paintings of the battles of Oinoe and Marathon, the sack of Troy and the Athenians against the Amazons. Anyone could walk in: jugglers, fishmongers and philosophers used it, and lawsuits were heard here.",
+    "Excavated only in part since 1981; the length shown is an estimate. The miniature shows the Doric front, the inner Ionic row, painted panels on the back wall and a tiled gable roof."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-stoa-poikile",
+    "camp-agora",
+    "pausanias"
+   ],
+   "built": "c. 475–460 BCE",
+   "function": "Public stoa and picture gallery",
+   "activity": {
+    "figures": 30,
+    "radius": 40
+   }
+  },
+  {
+   "id": "stoa-attalos",
+   "placeId": "stoa-attalos",
+   "name": "Stoa of Attalos",
+   "category": "commercial",
+   "position": [
+    1672,
+    1675
+   ],
+   "rotation": 90,
+   "footprint": [
+    119.5,
+    23.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/stoa-attalos.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 116,
+      "depth": 22
+     },
+     "buildings": [
+      {
+       "offset": [
+        -29.0,
+        -5.5
+       ],
+       "width": 34.8,
+       "depth": 6.6,
+       "height": 8
+      },
+      {
+       "offset": [
+        29.0,
+        4.4
+       ],
+       "width": 34.8,
+       "depth": 6.6,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "Shops, a law court and the square peristyle of later years are not yet here; the east side of the Agora is open, with houses and workshops."
+    },
+    "hellenistic-150": {
+     "note": "New or nearly so: the gift of King Attalos II of Pergamon (159–138), who had studied in Athens under Karneades."
+    },
+    "roman-150ce": {
+     "note": "Its terrace has become a viewing stand for the Panathenaic procession."
+    },
+    "ottoman-1680": {
+     "note": "Its back wall survives inside the late Roman fortification and Turkish houses; it was rebuilt in 1953–56 as the Agora museum."
+    }
+   },
+   "summary": "A two-storey marble shopping arcade 115 m long closing the east side of the Agora, the gift of King Attalos II of Pergamon in the mid-2nd century BCE.",
+   "details": [
+    "Doric columns below, Ionic above with an Ionic inner row on both floors; 21 shops on each storey opened off the colonnades, rented out by the city. Its front terrace was a grandstand for the Panathenaic Way. The building burned in 267 and its ruins were built into the post-Herulian wall, which preserved its north end.",
+    "The miniature follows the 1950s reconstruction: two colonnaded storeys with a balustrade, the back wall of shops, a tiled gable roof and the stairs at each end."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-stoa-attalos",
+    "camp-agora"
+   ],
+   "built": "c. 159–138 BCE",
+   "function": "Stoa with shops",
+   "activity": {
+    "figures": 40,
+    "radius": 80
+   }
+  },
+  {
+   "id": "hephaisteion",
+   "placeId": "hephaisteion",
+   "name": "Temple of Hephaistos (Hephaisteion)",
+   "category": "temple",
+   "position": [
+    1444,
+    1600
+   ],
+   "rotation": 270,
+   "footprint": [
+    24.4,
+    43.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/hephaisteion.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 24,
+     "depth": 44,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 2.4000000000000004,
+     "columnHeight": 9.600000000000001
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "The low hill above the Agora, Kolonos Agoraios, with bronze-workers' furnaces and perhaps a small shrine."
+    },
+    "periclean-430": {
+     "note": "Begun about 449; the colonnade and roof are up, but the bronze statues of Hephaistos and Athena by Alkamenes will be set inside only in 421–415."
+    },
+    "hellenistic-150": {
+     "note": "A formal garden of shrubs in rock-cut pots, planted in the 3rd century BCE, surrounds it."
+    },
+    "roman-150ce": {
+     "note": "Pausanias, seeing the statue of Athena with blue eyes beside Hephaistos, explains it by a Libyan legend."
+    },
+    "ottoman-1680": {
+     "name": "Church of Agios Georgios Akamatis",
+     "confidence": "reconstruction",
+     "note": "A church of St George since about the 7th century, with a concrete barrel vault over the cella and an apse in the east porch. Opened once a year under the Turks, travellers were told.",
+     "model": {
+      "glb": "models/athens/hephaisteion-church.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 24,
+       "depth": 44,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 2.4000000000000004,
+       "columnHeight": 9.600000000000001
+      }
+     }
+    }
+   },
+   "summary": "The best-preserved Greek temple anywhere: a Doric marble temple of 6 by 13 columns on the hill above the Agora, begun about 449 BCE for the god of smiths and Athena of the crafts.",
+   "details": [
+    "Built in Pentelic marble with Parian marble sculpture, it is smaller than the Parthenon (13.7 by 31.8 m) and a little older in design. Only the east front metopes (the labours of Herakles) and four at each end of the long sides (Theseus) were carved. Inside, an Ionic frieze runs across the porch to the outer colonnade, an unusual touch.",
+    "The miniature shows the peristyle with its fluted columns, the sculpted east front, the porch friezes and pediments, and the hill with the planted garden of the 3rd century BCE. The church variant has the Byzantine vault in place of the roof."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hephaestus",
+    "camp-agora",
+    "pausanias"
+   ],
+   "built": "c. 449–415 BCE",
+   "function": "Temple of Hephaistos and Athena Ergane; later church",
+   "activity": {
+    "figures": 20,
+    "radius": 50
+   }
+  },
+  {
+   "id": "bouleuterion",
+   "placeId": "bouleuterion",
+   "name": "Bouleuterion and Tholos",
+   "category": "civic",
+   "position": [
+    1474,
+    1664
+   ],
+   "rotation": 270,
+   "footprint": [
+    62.0,
+    36.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/bouleuterion.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 36,
+     "height": 14.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "archaic-550": {
+     "name": "Building F",
+     "confidence": "interpretation",
+     "note": "A large house round a courtyard, built about 550 at the foot of Kolonos Agoraios, perhaps a residence of the tyrant's family, perhaps the first public dining hall. The council houses come later.",
+     "model": {
+      "glb": "models/athens/building-f.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 36,
+       "height": 14.4,
+       "roof": "pitched"
+      }
+     }
+    },
+    "periclean-430": {
+     "name": "Old and New Bouleuterion, Tholos",
+     "note": "The Council of 500 meets in the Old Bouleuterion (about 500); the New is about to be built behind it. In the round Tholos the 50 prytaneis on duty dine at public cost, and a third of them sleep.",
+     "model": {
+      "glb": "models/athens/bouleuterion-430.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 36,
+       "height": 14.4,
+       "roof": "pitched"
+      }
+     }
+    },
+    "hellenistic-150": {
+     "note": "The Old Bouleuterion has been replaced by the Metroon, the shrine of the Mother of the Gods and the state archive, with a long Ionic porch facing the square."
+    },
+    "roman-150ce": {
+     "note": "Pausanias sees here the statue of the Mother of the Gods by Pheidias, or his pupil Agorakritos, and the tholos where the prytaneis sacrifice."
+    }
+   },
+   "summary": "The working heart of the democracy on the west side of the Agora: the council house where the Council of 500 prepared business for the assembly, and the round Tholos where its standing committee ate and slept.",
+   "details": [
+    "Cleisthenes' reforms of 508 created a council of 500, fifty from each tribe; each tribal group served for a tenth of the year as the prytaneis, of whom a third stayed in the Tholos day and night. The Tholos, about 18 m across with a conical roof, also held the official weights and measures. The Metroon of the 2nd century BCE kept the city's written laws and decrees.",
+    "The miniature shows the round Tholos, the council house with its porch, and in the Hellenistic and Roman version the Metroon's colonnade; foundations alone survive, so the elevations are reconstructions."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bouleuterion",
+    "wiki-tholos-athens",
+    "wiki-metroon",
+    "camp-agora"
+   ],
+   "built": "c. 500–140 BCE",
+   "function": "Council house, dining hall of the prytaneis, state archive",
+   "activity": {
+    "figures": 30,
+    "radius": 50
+   }
+  },
+  {
+   "id": "altar-twelve-gods",
+   "placeId": "altar-twelve-gods",
+   "name": "Altar of the Twelve Gods",
+   "category": "religious",
+   "position": [
+    1487,
+    1548
+   ],
+   "rotation": 0,
+   "footprint": [
+    10.0,
+    10.0
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/athens/altar-twelve.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 10,
+     "depth": 10,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "Dedicated in 522/1 by Peisistratos the Younger, the tyrant's grandson, as archon."
+    },
+    "periclean-430": {
+     "note": "The central milestone of Attica: distances were measured from it. The Plataeans took refuge at it in 519, and suppliants still do."
+    },
+    "hellenistic-150": {
+     "note": "Rebuilt with new marble parapets in the late 5th century, still in use."
+    },
+    "roman-150ce": {
+     "note": "Still a refuge for suppliants and the zero point of the roads."
+    }
+   },
+   "summary": "A small square sanctuary at the north end of the Agora with an altar to the twelve Olympians inside a low parapet: a place of asylum and the point from which all road distances from Athens were measured.",
+   "details": [
+    "Herodotus measures the road from Athens to Olympia 'from the altar of the twelve gods'. Its south-west corner was excavated in 1934 under the Athens–Piraeus railway, and more of it in 2011. The miniature shows the parapet of posts and panels round a square court with the altar in the middle."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-altar-twelve",
+    "camp-agora"
+   ],
+   "built": "522/521 BCE; rebuilt late 5th century BCE",
+   "function": "Altar and place of asylum",
+   "activity": {
+    "figures": 8,
+    "radius": 20
+   }
+  },
+  {
+   "id": "pnyx",
+   "placeId": "pnyx",
+   "name": "Pnyx (assembly place)",
+   "category": "civic",
+   "position": [
+    1286,
+    1997
+   ],
+   "rotation": 45,
+   "footprint": [
+    113.4,
+    69.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/pnyx.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 80,
+     "height": 32.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "An empty hillside: under the tyrants and early democracy the assembly met in the Agora. The Pnyx was laid out about 500, after Cleisthenes."
+    },
+    "periclean-430": {
+     "name": "Pnyx (first phase)",
+     "confidence": "reconstruction",
+     "note": "The citizens sit on the bare slope, perhaps 6,000 of them, facing a speaker's platform at the foot of the hill; Pericles speaks here.",
+     "model": {
+      "glb": "models/athens/pnyx-430.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 80,
+       "height": 32.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "hellenistic-150": {
+     "note": "Rebuilt in the 4th century with a great curved retaining wall and a rock-cut bema facing the other way, toward the land. Ordinary assemblies now often meet in the theatre."
+    },
+    "roman-150ce": {
+     "note": "Only special assemblies meet here; a sanctuary of Zeus Hypsistos is cut into the rock behind the bema."
+    }
+   },
+   "summary": "The hill where the Athenian assembly met from about 500 BCE: every citizen could come, vote by show of hands and speak from the bema, a stepped platform of rock.",
+   "details": [
+    "In its first phase the assembly sat on the natural slope; about 400 the auditorium was turned round and banked up behind a retaining wall, and about 340 rebuilt on a grander scale with walls of huge blocks and a bema cut from the living rock. Plutarch says the Thirty turned the bema to face the land, away from the sea that had made Athens a democracy.",
+    "The miniature shows the third phase: the curved wall, the sloping auditorium, the stepped bema against the rock scarp and the unfinished stoa foundations above. The first-phase variant is a reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-pnyx",
+    "camp-archaeology"
+   ],
+   "built": "c. 500, c. 400 and c. 340 BCE",
+   "function": "Meeting place of the citizen assembly",
+   "activity": {
+    "figures": 60,
+    "radius": 80
+   }
+  },
+  {
+   "id": "olympieion",
+   "placeId": "olympieion",
+   "name": "Temple of Olympian Zeus (Olympieion)",
+   "category": "temple",
+   "position": [
+    2462,
+    2291
+   ],
+   "rotation": 270,
+   "footprint": [
+    56.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/olympieion.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 56,
+     "depth": 120,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 5.6000000000000005,
+     "columnHeight": 22.400000000000002
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "archaic-550": {
+     "name": "Olympieion (begun)",
+     "confidence": "reconstruction",
+     "note": "Begun about 520 by Peisistratos' sons, Hippias and Hipparchos, as a vast Doric temple to rival those of Samos and Ephesus; abandoned when the tyranny fell in 510.",
+     "model": {
+      "glb": "models/athens/olympieion-platform.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 56,
+       "depth": 120,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 5.6000000000000005,
+       "columnHeight": 22.400000000000002
+      }
+     }
+    },
+    "periclean-430": {
+     "name": "Olympieion (abandoned)",
+     "confidence": "reconstruction",
+     "note": "An unfinished platform and column drums; the democracy leaves the tyrants' project alone. Some drums go into the Themistoclean wall.",
+     "model": {
+      "glb": "models/athens/olympieion-platform.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 56,
+       "depth": 120,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 5.6000000000000005,
+       "columnHeight": 22.400000000000002
+      }
+     }
+    },
+    "hellenistic-150": {
+     "name": "Olympieion (Antiochus' work)",
+     "confidence": "reconstruction",
+     "note": "Resumed in 174 by Antiochus IV of Syria with the Roman architect Cossutius, now Corinthian; work stopped at the king's death in 164 with the columns up and no roof.",
+     "model": {
+      "glb": "models/athens/olympieion-antiochus.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 56,
+       "depth": 120,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 5.6000000000000005,
+       "columnHeight": 22.400000000000002
+      }
+     }
+    },
+    "roman-150ce": {
+     "note": "Finished by Hadrian and dedicated in 131/132 CE, with a gold-and-ivory Zeus and statues of the emperor given by the cities of Greece."
+    },
+    "ottoman-1680": {
+     "name": "Columns of Hadrian",
+     "confidence": "reconstruction",
+     "note": "About 17 columns still stand, the 'Columns of Hadrian'; the rest were burned for lime or carried off. One more is pulled down in 1759 to build a mosque.",
+     "model": {
+      "glb": "models/athens/olympieion-ruin.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 56,
+       "depth": 120,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 5.6000000000000005,
+       "columnHeight": 22.400000000000002
+      }
+     }
+    }
+   },
+   "summary": "The colossal temple of Zeus by the Ilissos, begun by the tyrants about 520 BCE and finished by Hadrian 650 years later: 104 Corinthian columns 17 m high, the largest temple in Greece.",
+   "details": [
+    "Its stylobate measures about 41 by 108 m: a double row of 20 columns down each side and triple rows of 8 at the ends. Sulla carried off some of Antiochus' columns or capitals to Rome in 86 BCE. Hadrian set up the gold-and-ivory Zeus and his own statue, and the precinct filled with statues of him.",
+    "The miniature shows the finished temple of 132 CE on its stepped platform, with Corinthian columns, the entablature and tiled roof. The variants show the tyrants' platform, Antiochus' roofless colonnade and the Ottoman ruin."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-olympieion",
+    "travlos",
+    "pausanias"
+   ],
+   "built": "c. 520 BCE–132 CE",
+   "function": "Temple of Olympian Zeus",
+   "activity": {
+    "figures": 30,
+    "radius": 100
+   }
+  },
+  {
+   "id": "hadrians-arch",
+   "placeId": "hadrians-arch",
+   "name": "Arch of Hadrian",
+   "category": "monument",
+   "position": [
+    2409,
+    2189
+   ],
+   "rotation": 110,
+   "footprint": [
+    14.1,
+    5.8
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/athens/hadrians-arch.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 14,
+     "depth": 4,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "New, set up about 131/132 for Hadrian's visit. The west face says 'This is Athens, the former city of Theseus', the east 'This is the city of Hadrian and not of Theseus'."
+    },
+    "ottoman-1680": {
+     "note": "Standing alone at the edge of town, known to the Athenians as the Princess's Gate. In 1778 it will become a gate of the Haseki wall."
+    }
+   },
+   "summary": "A marble gateway 18 m high on the road from the old city to Hadrian's new quarter and the Olympieion, built about 131/132 CE.",
+   "details": [
+    "An arch below, an open attic above with Corinthian columns and a central pediment, all in Pentelic marble without mortar. The columns that stood before the piers are lost. The two inscriptions on the architrave mark the boundary between the two cities.",
+    "The miniature shows the arch with the attic aedicule and the lost free-standing columns restored."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hadrians-arch",
+    "travlos"
+   ],
+   "built": "c. 131–132 CE",
+   "function": "Honorary gateway",
+   "activity": {
+    "figures": 12,
+    "radius": 30
+   }
+  },
+  {
+   "id": "lysicrates",
+   "placeId": "lysicrates",
+   "name": "Choregic Monument of Lysicrates",
+   "category": "monument",
+   "position": [
+    2198,
+    2124
+   ],
+   "rotation": 0,
+   "footprint": [
+    5.6,
+    5.6
+   ],
+   "scale": 2.5,
+   "model": {
+    "glb": "models/athens/lysicrates.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 6,
+     "depth": 6,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "The Street of the Tripods is already lined with smaller victory monuments; this one comes in 335/4."
+    },
+    "hellenistic-150": {
+     "note": "Lysicrates' boys' chorus won the dithyramb in 335/4; the bronze tripod still crowns it."
+    },
+    "roman-150ce": {
+     "note": "One of dozens of tripod monuments along the street; most others have lost their bronzes."
+    },
+    "ottoman-1680": {
+     "note": "Bought in 1669 by the French Capuchin friars and enclosed in their monastery garden; the Athenians call it the Lantern of Demosthenes."
+    }
+   },
+   "summary": "A little round marble pavilion on a square base on the Street of the Tripods, set up in 335/334 BCE by the choregos Lysicrates to carry the bronze tripod won by his chorus.",
+   "details": [
+    "Six engaged Corinthian columns, the first known on the outside of a building, carry a frieze of Dionysus turning Tyrrhenian pirates into dolphins and a roof cut from a single block, its acanthus finial once holding the tripod. It survived because the Capuchins built it into their convent; Byron stayed there in 1810–11.",
+    "Shown enlarged for legibility."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-lysicrates",
+    "stuart-revett"
+   ],
+   "built": "335/334 BCE",
+   "function": "Choregic victory monument",
+   "activity": {
+    "figures": 6,
+    "radius": 20
+   }
+  },
+  {
+   "id": "stadium",
+   "placeId": "stadium",
+   "name": "Panathenaic Stadium",
+   "category": "entertainment",
+   "position": [
+    3167,
+    2412
+   ],
+   "rotation": 145,
+   "footprint": [
+    90.0,
+    260.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/stadium.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 260,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "A natural ravine between Ardettos and Agrai; the Panathenaic footraces are still run in the Agora."
+    },
+    "hellenistic-150": {
+     "name": "Stadium of Lycurgus",
+     "note": "Laid out by Lycurgus about 330 in the ravine across the Ilissos, with earth banks for the spectators and stone only for the track and front seats.",
+     "model": {
+      "glb": "models/athens/stadium-lycurgan.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 90,
+       "depth": 260,
+       "height": 36.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "roman-150ce": {
+     "note": "Rebuilt in Pentelic marble by Herodes Atticus in 139–144 CE for some 50,000 spectators; a bridge now crosses the Ilissos to it. Gladiators and beast hunts too."
+    },
+    "ottoman-1680": {
+     "note": "A grassy hollow; the marble has been burned for lime. It was dug out and rebuilt for the Olympic Games of 1896."
+    }
+   },
+   "summary": "The stadium of the Panathenaic Games in a fold of the hills across the Ilissos, laid out about 330 BCE and rebuilt entirely in white marble by Herodes Atticus about 140 CE.",
+   "details": [
+    "The track, about 204 m long, ends in a horseshoe curve (the sphendone); the seats rise on the hillsides. Herodes' marble rebuilding, which Pausanias says nearly exhausted the Pentelic quarries, was his gift to the city; Philostratus says he was buried in it. Double herms marked the turning posts.",
+    "The miniature shows the Roman stadium with its marble seats, track and entrance, and the earlier version with earth banks."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-panathenaic-stadium",
+    "pausanias",
+    "travlos"
+   ],
+   "built": "c. 330 BCE; 139–144 CE",
+   "function": "Stadium for the Panathenaic Games",
+   "activity": {
+    "figures": 50,
+    "radius": 150
+   }
+  },
+  {
+   "id": "roman-agora",
+   "placeId": "roman-agora",
+   "name": "Roman Agora and Gate of Athena Archegetis",
+   "category": "commercial",
+   "position": [
+    1860,
+    1722
+   ],
+   "rotation": 90,
+   "footprint": [
+    82.6,
+    100.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/roman-agora.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 82,
+      "depth": 98
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.5,
+        -24.5
+       ],
+       "width": 24.599999999999998,
+       "depth": 29.4,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.5,
+        19.6
+       ],
+       "width": 24.599999999999998,
+       "depth": 29.4,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce"
+   ],
+   "variants": {
+    "hellenistic-150": {
+     "note": "Shops and houses east of the old Agora; the new market will be paid for by Julius Caesar and Augustus."
+    },
+    "roman-150ce": {
+     "note": "A colonnaded market court entered from the west through the Gate of Athena Archegetis (11/10 BCE); Hadrian's law on the sale of olive oil is cut on the gate."
+    },
+    "ottoman-1680": {
+     "note": "Buried and built over; the gate stands half-sunk among houses, and the Fethiye mosque occupies the north side of the old court."
+    }
+   },
+   "summary": "The marble market built east of the old Agora with funds from Julius Caesar and Augustus: a paved court ringed with Ionic colonnades and shops, entered through a Doric gateway.",
+   "details": [
+    "The court measures about 111 by 98 m. Its western gate, dedicated to Athena Archegetis ('the Leader') in 11/10 BCE, has four Doric columns and a pediment once crowned by a statue of Augustus' grandson Lucius Caesar. Under Hadrian an oil law posted on the gate required growers to sell a third of their crop to the city.",
+    "The miniature shows the gate, the colonnaded court with shops behind and the east propylon. The court is drawn a little shorter than it was."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roman-agora",
+    "travlos"
+   ],
+   "built": "c. 19–11 BCE",
+   "function": "Market",
+   "activity": {
+    "figures": 40,
+    "radius": 70
+   }
+  },
+  {
+   "id": "tower-of-winds",
+   "placeId": "tower-of-winds",
+   "name": "Tower of the Winds",
+   "category": "monument",
+   "position": [
+    1924,
+    1736
+   ],
+   "rotation": 0,
+   "footprint": [
+    14.0,
+    14.5
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/athens/tower-of-winds.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 12,
+     "depth": 12,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "hellenistic-150": {
+     "note": "Probably not yet built: Andronikos of Kyrrhos' clock tower is usually dated about 50 BCE, though some place it in the 2nd century BCE."
+    },
+    "roman-150ce": {
+     "note": "The town clock: sundials on its eight faces, a water clock inside fed from the Acropolis spring, a bronze Triton turning on the roof to show the wind."
+    },
+    "ottoman-1680": {
+     "note": "Half buried, its door used by a dervish lodge in the next century, when Stuart and Revett drew the dervishes whirling inside."
+    }
+   },
+   "summary": "An octagonal marble clock tower beside the Roman market, built by the astronomer Andronikos of Kyrrhos in the 1st century BCE, with the eight winds carved on its faces.",
+   "details": [
+    "12 m high and about 8 m across, it carried sundials on every face, a water clock within and a bronze Triton weathervane on its conical marble roof. Each face shows the wind blowing from that direction: Boreas from the north in a heavy cloak, Zephyros scattering flowers.",
+    "Shown enlarged for legibility, with its two porches and the round water tank on the south."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tower-winds",
+    "stuart-revett"
+   ],
+   "built": "c. 50 BCE (disputed)",
+   "function": "Clock tower and weathervane",
+   "activity": {
+    "figures": 8,
+    "radius": 25
+   }
+  },
+  {
+   "id": "hadrians-library",
+   "placeId": "hadrians-library",
+   "name": "Library of Hadrian",
+   "category": "civic",
+   "position": [
+    1882,
+    1581
+   ],
+   "rotation": 90,
+   "footprint": [
+    82.0,
+    123.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/hadrians-library.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 82,
+     "depth": 122,
+     "height": 32.800000000000004,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150ce",
+    "ottoman-1680"
+   ],
+   "variants": {
+    "hellenistic-150": {
+     "note": "Houses and workshops north of the Acropolis."
+    },
+    "roman-150ce": {
+     "note": "New, about 132–134: Pausanias admires its hundred columns of Phrygian marble, gilded ceilings and alabaster, and its books."
+    },
+    "ottoman-1680": {
+     "name": "Bazaar and voivode's seat",
+     "confidence": "reconstruction",
+     "note": "The west colonnade still stands, but the court holds the church of the Megali Panagia, the voivode's quarters and the shops of the bazaar.",
+     "model": {
+      "glb": "models/athens/hadrians-library-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 82,
+       "depth": 122,
+       "height": 32.800000000000004,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Hadrian's great walled cloister of about 132 CE north of the Acropolis: a garden court with a long pool and a hundred columns, and at the back the book halls and reading rooms.",
+   "details": [
+    "The precinct measures 122 by 82 m. Its west front has a Corinthian porch flanked by projecting rows of green-veined Karystos (cipollino) columns. Damaged by the Heruli in 267 and restored about 410, its court later held a 5th-century church and then the Megali Panagia.",
+    "The miniature shows the west facade and porch, the colonnaded court with its pool, and the library hall on the east side."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hadrians-library",
+    "pausanias",
+    "travlos"
+   ],
+   "built": "c. 132–134 CE",
+   "function": "Library, lecture halls and garden court",
+   "activity": {
+    "figures": 30,
+    "radius": 80
+   }
+  },
+  {
+   "id": "dipylon",
+   "placeId": "dipylon",
+   "name": "Dipylon and Sacred Gate",
+   "category": "military",
+   "position": [
+    1163,
+    1342
+   ],
+   "rotation": 120,
+   "footprint": [
+    90.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/dipylon.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 90,
+     "depth": 60,
+     "wallHeight": 12.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "No wall yet: the road and the Eridanos pass between potters' workshops and the cemetery, with marble kouroi standing on the graves."
+    },
+    "periclean-430": {
+     "name": "Thriasian Gate and Sacred Gate",
+     "note": "Built in 478 with the Themistoclean wall. Here, in the public cemetery outside, Pericles delivers the funeral oration in the winter of 431/0.",
+     "model": {
+      "glb": "models/athens/dipylon-430.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 90,
+       "depth": 60,
+       "wallHeight": 12.0,
+       "bastions": 8
+      }
+     }
+    },
+    "hellenistic-150": {
+     "note": "The Dipylon, rebuilt in the late 4th century, is the largest gate in Greece. Inside stands the Pompeion where the Panathenaic procession was marshalled."
+    },
+    "roman-150ce": {
+     "note": "Sulla broke into the city near here in 86 BCE. The Pompeion was destroyed and a large three-aisled hall has replaced it."
+    },
+    "ottoman-1680": {
+     "note": "Buried under metres of river silt; olive groves and the road to Eleusis."
+    }
+   },
+   "summary": "The two western gates of Athens in the Kerameikos: the Dipylon, a double gate behind a walled court on the road to the Academy, and the Sacred Gate where the Sacred Way and the Eridanos left the city.",
+   "details": [
+    "The wall here is a stone socle with a mud-brick superstructure. Between the gates stood the Pompeion (about 400 BCE), a colonnaded court with dining rooms where the Panathenaic procession gathered. Outside, the Street of Tombs was lined with the family plots and marble reliefs of the 4th century.",
+    "The miniature shows the gate court with its four towers, the Sacred Gate with the stone channel of the Eridanos, the Pompeion and grave monuments outside."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-dipylon",
+    "wiki-kerameikos",
+    "wiki-pompeion",
+    "travlos"
+   ],
+   "built": "478 BCE; rebuilt c. 400–300 BCE",
+   "function": "City gates and festival building",
+   "activity": {
+    "figures": 30,
+    "radius": 80
+   }
+  },
+  {
+   "id": "fethiye-mosque",
+   "placeId": "fethiye-mosque",
+   "name": "Fethiye Mosque",
+   "category": "religious",
+   "position": [
+    1841,
+    1701
+   ],
+   "rotation": 180,
+   "footprint": [
+    24.0,
+    29.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/athens/fethiye.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 24,
+     "depth": 26,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1680"
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "The north colonnade of the Roman market."
+    },
+    "ottoman-1680": {
+     "note": "The 'Mosque of the Conquest', the town's Friday mosque, recently rebuilt (about 1668–70) over a Byzantine church; the Venetians reportedly use it as a church in 1687–88."
+    }
+   },
+   "summary": "The 'Mosque of the Conquest' in the ruins of the Roman market, dedicated to Mehmed II, who took Athens in 1456 and visited it in 1458: a domed prayer hall with a portico of three small domes.",
+   "details": [
+    "The present building dates from about 1668–70, on the foundations of a Byzantine basilica; whether an earlier mosque here commemorated Mehmed's visit is uncertain. After independence it served as a school, barracks, bakery and store; its minaret is gone.",
+    "The miniature shows the square hall under a dome on an octagonal drum, the domed portico and the lost minaret restored."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-fethiye",
+    "spon-wheler"
+   ],
+   "built": "c. 1668–1670",
+   "function": "Friday mosque",
+   "activity": {
+    "figures": 20,
+    "radius": 40
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "potters-workshop",
+   "name": "A potter's workshop",
+   "kind": "workshop",
+   "position": [
+    1369,
+    1331
+   ],
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430",
+    "hellenistic-150"
+   ],
+   "summary": "A family workshop in the Kerameikos by the Eridanos: a wheel, a clay pit, drying racks and a domed kiln, turning out the painted cups, jars and oil flasks that Athens sold across the Mediterranean.",
+   "details": [
+    "The Kerameikos took its name from the potters (kerameis). Workshops were small: a master potter, a painter or two, slaves and apprentices. Black-figure reached its height with Exekias about 540; red-figure, painting the figures in reserve, appeared about 530. Signed vases ('Exekias made me') show pride in the craft."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kerameikos",
+    "wiki-pottery",
+    "camp-archaeology"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The boy kicks the wheel while the master draws up a tall amphora; another lad treads clay in the pit, slapping the lumps to drive out the air."
+    },
+    {
+     "hour": 13,
+     "text": "In the shade a painter dips a fine brush in slip and outlines Achilles and Ajax at their dice game. The finished jars dry in rows along the wall."
+    },
+    {
+     "hour": 21,
+     "text": "The kiln has been fired since noon. The master watches the colour of the flame through the spy-hole, closes the vents to blacken the glaze, and prays to Athena that nothing cracks."
+    }
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "The age of black-figure: Exekias and Lydos are at work, and Attic vases are pushing Corinthian wares out of the Etruscan market."
+    },
+    "periclean-430": {
+     "note": "Red-figure in the high classical style; white-ground oil flasks are in demand for the graves of the plague dead."
+    },
+    "hellenistic-150": {
+     "note": "Figured painting has died out; the shops make plain black-glazed and moulded-relief bowls and lamps."
+    }
+   }
+  },
+  {
+   "id": "symposium-house",
+   "name": "A symposium in a house in Melite",
+   "kind": "house",
+   "position": [
+    1360,
+    1808
+   ],
+   "activePeriods": [
+    "periclean-430"
+   ],
+   "summary": "An evening drinking party in the men's room of a comfortable house: couches round the walls, wine mixed with water in a great krater, songs, riddles, a flute girl and games of kottabos.",
+   "details": [
+    "The andron, near the street door, held seven or eleven couches, two men to a couch, with tables in front. The host or an elected 'king' set the mixture of wine and water. Plato's Symposium is set at the poet Agathon's house in 416, where the guests decide to send the flute girl away and speak in praise of Love."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-symposium",
+    "plato-symposium",
+    "davidson"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Slaves sweep up crushed garlands and wine dregs, rinse the cups at the courtyard well and roll a guest snoring on a couch toward the door."
+    },
+    {
+     "hour": 13,
+     "text": "The cook from the market haggles with the steward over the fish, and the women of the house set out the bread and the small cakes for tonight."
+    },
+    {
+     "hour": 21,
+     "text": "Garlanded men lie two to a couch. The krater is mixed three parts water to one of wine; someone flicks the dregs at a bronze target, crying the name of a beloved."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "fish-market",
+   "name": "Fish stalls in the Agora",
+   "kind": "market",
+   "position": [
+    1606,
+    1698
+   ],
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150"
+   ],
+   "summary": "The fish stalls of the Agora, the most talked-about market in Athens: tunny and mackerel from the Bosporus run, sprats from Phaleron, and costly eels from Lake Kopais.",
+   "details": [
+    "Athenians loved fish above all foods, and comic poets are full of fishmongers: rude, greedy, staring past their customers. Fish was sold by the piece from marble slabs, and prices were a favourite grievance. The exact place of the fish market is not known; the market occupied the open square and its stoas."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "athenaeus",
+    "davidson",
+    "aristophanes"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Baskets come up the road from Phaleron, still wet; a fishmonger lays out sprats and a great slice of tunny and refuses to meet your eye."
+    },
+    {
+     "hour": 13,
+     "text": "An old man argues the price of a Kopaic eel down by an obol; the fishmonger turns away to someone richer."
+    },
+    {
+     "hour": 21,
+     "text": "The slabs are washed down and the leftovers sold cheap to a cook. Cats and dogs nose under the trestles."
+    }
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "War with Sparta in 431 cuts off Boeotian eels: in Aristophanes' Acharnians a Boeotian smuggler arrives with one to a hero's welcome."
+    },
+    "hellenistic-150": {
+     "note": "The Middle Stoa now divides the Agora; the market stalls crowd round it."
+    }
+   }
+  },
+  {
+   "id": "simon-shoemaker",
+   "name": "The shop of Simon the shoemaker",
+   "kind": "shop",
+   "position": [
+    1481,
+    1731
+   ],
+   "activePeriods": [
+    "periclean-430"
+   ],
+   "summary": "A small house and workshop just outside the Agora's south-west boundary stone, where Socrates is said to have sat and talked with the shoemaker Simon and his young friends.",
+   "details": [
+    "Diogenes Laertius records that Socrates came to Simon's workshop and that Simon wrote down their conversations, the first 'Socratic dialogues'. Excavators found a 5th-century house here with bone eyelets and hobnails, and the base of a cup scratched with the name SIMONOS: 'of Simon'."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-simon-shoemaker",
+    "diogenes-laertius",
+    "camp-agora"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Simon cuts soles from an ox hide on his bench by the door; a pot of hobnails and a jar of glue stand beside him."
+    },
+    {
+     "hour": 13,
+     "text": "Barefoot as always, Socrates leans in the doorway, asking a young aristocrat what courage is. The boy's answers keep falling apart; Simon listens and scratches notes."
+    },
+    {
+     "hour": 21,
+     "text": "The bench is cleared, the lamp lit. Simon drinks from his cup with his name on it and recalls the day's talk."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "slave-sale",
+   "name": "The slave sale in the Agora",
+   "kind": "market",
+   "position": [
+    1571,
+    1631
+   ],
+   "activePeriods": [
+    "periclean-430"
+   ],
+   "summary": "Where enslaved people were sold in the Agora, probably at a place called the kyklos ('the circle') on the market days at the new moon. Perhaps a third of the people in Attica were enslaved.",
+   "details": [
+    "Most were foreigners: Thracians, Phrygians, Carians, Syrians, captured in war or bought from traders. The Attic Stelai, listing the property of men condemned in 414, record people sold by auction with their origin and price, usually between about 70 and 300 drachmas, at a time when a skilled worker earned a drachma a day."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-slavery-greece",
+    "wiki-attic-stelai",
+    "aristophanes"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "On new-moon morning the dealers bring their people in from the port, roped together, and stand them on a platform where buyers can look at them."
+    },
+    {
+     "hour": 13,
+     "text": "A buyer checks a Thracian man's teeth and hands and asks if he has run away before; the dealer must declare defects or the sale can be undone."
+    },
+    {
+     "hour": 21,
+     "text": "The unsold are led back to the dealer's house. The purchased walk behind new owners into houses, mines and workshops whose language they do not yet speak."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "enneakrounos",
+   "name": "South-east Fountain House",
+   "kind": "fountain",
+   "position": [
+    1606,
+    1747
+   ],
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430",
+    "hellenistic-150"
+   ],
+   "summary": "A roofed fountain house of the Peisistratids at the south-east corner of the Agora, fed by a terracotta pipeline from the hills: perhaps the famous 'Nine Spouts', the Enneakrounos.",
+   "details": [
+    "Built about 530–520 as part of the tyrants' water works. Pausanias places the Enneakrounos near the Agora, Thucydides by the Ilissos, so the identification is debated. Black-figure water jars of the period show women and slave girls filling their hydriai under lion-head spouts in just such a building."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-enneakrounos",
+    "camp-agora",
+    "thucydides",
+    "pausanias"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A queue of women and slave girls with water jars on padded heads; the first in line holds hers under the bronze lion's mouth and talks over the splash."
+    },
+    {
+     "hour": 13,
+     "text": "A water-carrier fills two jars for a wine shop. Boys drink from cupped hands and are chased off."
+    },
+    {
+     "hour": 21,
+     "text": "The basin overflows quietly into the drain; a lamp burns in the shrine niche, and a couple meets in the shadow of the porch."
+    }
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "New or nearly so: the tyrants' gift of clean water to the people."
+    },
+    "hellenistic-150": {
+     "note": "Still in use, now in the corner beside the Middle and South Stoas."
+    }
+   }
+  },
+  {
+   "id": "barber-shop",
+   "name": "A barber's shop by the Agora",
+   "kind": "shop",
+   "position": [
+    1606,
+    1575
+   ],
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150"
+   ],
+   "summary": "A barber's stool under an awning near the Agora, where men came for a trim, a shave of the upper lip and the latest news, true or false.",
+   "details": [
+    "Lysias has a speaker say that every Athenian has his favourite haunt: a perfumer's, a barber's, a shoemaker's. Plutarch tells how the news of the disaster in Sicily in 413 first reached Athens through a barber in Piraeus, who was put to the wheel as a rumour-monger until the messengers arrived."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "lysias-24",
+    "plutarch-lives"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The barber strops his bronze razor and sets out the mirror, the tweezers and the comb. His first customer wants his beard trimmed to a point."
+    },
+    {
+     "hour": 13,
+     "text": "Six men wait on the bench while a sailor tells of a fleet sighted off Euboea. By evening the story will have three fleets."
+    },
+    {
+     "hour": 21,
+     "text": "The awning is rolled up; the barber sweeps hair into the gutter and counts his obols."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "mint",
+   "name": "The mint",
+   "kind": "works",
+   "position": [
+    1637,
+    1762
+   ],
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "summary": "A walled workshop at the south-east corner of the Agora with furnaces and water basins, identified from coin blanks and slag as a mint striking Athens' bronze coins.",
+   "details": [
+    "Built about 400 BCE, it produced small bronze change; whether the silver 'owls' were also struck here is unknown. From the 160s BCE Athens issued the broad 'New Style' silver tetradrachms with the owl on an amphora, used across the eastern Mediterranean."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "camp-agora",
+    "wiki-tetradrachm"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Slaves stoke the furnaces and lay out trays of bronze blanks. A magistrate breaks the seal on the strongroom."
+    },
+    {
+     "hour": 13,
+     "text": "Hammer blows ring out: a blank is set on the anvil die, the punch die above, and one stroke stamps Athena's head and the owl."
+    },
+    {
+     "hour": 21,
+     "text": "The day's coins are counted by weight into sealed jars; the fires are banked and the guards change."
+    }
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "Athens still strikes its own bronze coins under Rome, with Athena, the owl and views of the Acropolis."
+    }
+   }
+  },
+  {
+   "id": "lyceum",
+   "name": "The Lyceum gymnasium",
+   "kind": "school",
+   "position": [
+    3440,
+    1731
+   ],
+   "activePeriods": [
+    "periclean-430",
+    "hellenistic-150"
+   ],
+   "summary": "The gymnasium in the grove of Apollo Lykeios outside the eastern gates: a training ground for young men and cavalry, a haunt of Socrates, and from 335 BCE Aristotle's school.",
+   "details": [
+    "Plato's Euthydemus opens with Socrates in the Lyceum's changing room. Aristotle taught walking in its covered walks, so his followers were called Peripatetics; Theophrastus kept the school and its library going after him. Sulla cut down its trees for siege engines in 86. Its remains were found in 1996."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-lyceum",
+    "diogenes-laertius"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Young men oil themselves and practise the javelin under the plane trees; a trainer shouts at a boy who threw short."
+    },
+    {
+     "hour": 13,
+     "text": "In the shade of the walks a master and his pupils argue as they pace up and down."
+    },
+    {
+     "hour": 21,
+     "text": "The palaestra is empty; a slave scrapes the sand smooth and rakes away the day's footprints."
+    }
+   ],
+   "variants": {
+    "periclean-430": {
+     "note": "A gymnasium and drill ground for the hoplites; Socrates comes to talk to the young men."
+    },
+    "hellenistic-150": {
+     "note": "The Peripatetic school, past its great days, still teaches here; Rome's young nobles come to study."
+    }
+   }
+  },
+  {
+   "id": "bronze-foundry",
+   "name": "A bronze-caster's pit",
+   "kind": "workshop",
+   "position": [
+    1404,
+    1642
+   ],
+   "activePeriods": [
+    "periclean-430"
+   ],
+   "summary": "A bronze foundry on the slope of Kolonos Agoraios below the temple of Hephaistos, where statues were cast in pits dug in the ground.",
+   "details": [
+    "The hill was the metalworkers' quarter; excavators found casting pits and fragments of clay moulds near the temple. The Berlin Foundry Cup, painted about 490–480, shows the whole process: the furnace with its bellows, men hammering, and a bronze warrior being finished."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-foundry-cup",
+    "camp-agora"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The mould, clay round a wax figure, is baked in its pit until the wax runs out. Charcoal sacks are stacked against the wall."
+    },
+    {
+     "hour": 13,
+     "text": "The pour: a boy works the bellows, the master tips the crucible, and bronze runs glowing into the funnel while everyone stands back."
+    },
+    {
+     "hour": 21,
+     "text": "The pit is cooling. Tomorrow they break the mould and see whether the god has come out whole."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "zeno-school",
+   "name": "Philosophers in the Painted Stoa",
+   "kind": "school",
+   "position": [
+    1537,
+    1496
+   ],
+   "activePeriods": [
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "summary": "The Stoic school that met in the public colonnade of the Stoa Poikile, open to anyone who cared to listen, since Zeno of Kition began teaching here about 300 BCE.",
+   "details": [
+    "Zeno, a merchant from Cyprus shipwrecked at Piraeus, was said to have found philosophy in a bookshop. The Stoics taught that virtue alone is good and that the wise man lives by nature and reason. In 155 the head of the school, Diogenes of Babylon, went to Rome on an embassy with the heads of the Academy and the Lyceum."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-stoicism",
+    "diogenes-laertius"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Before the market fills, a teacher walks the colonnade with a few students, under the painted battle of Marathon."
+    },
+    {
+     "hour": 13,
+     "text": "A crowd gathers to hear a dispute on fate and free will; a fishmonger heckles, and the philosopher answers him patiently."
+    },
+    {
+     "hour": 21,
+     "text": "Lamps in the stoa; two Roman students copy out their notes on wax tablets and argue in bad Greek."
+    }
+   ],
+   "variants": {
+    "roman-150ce": {
+     "note": "Marcus Aurelius will endow chairs of philosophy for all four schools at Athens in 176."
+    }
+   }
+  },
+  {
+   "id": "olympieion-baths",
+   "name": "Baths by the Olympieion",
+   "kind": "bath",
+   "position": [
+    2483,
+    2208
+   ],
+   "activePeriods": [
+    "roman-150ce"
+   ],
+   "summary": "A public bath of Hadrian's time north of the Olympieion, with hot and cold rooms, a furnace and mosaic floors, serving the new quarter of Hadrianopolis.",
+   "details": [
+    "Roman Athens had baths in every quarter; this one, excavated in the Olympieion precinct, was built in the 2nd century CE and repaired in late antiquity. Bathers moved from the changing room through the warm and hot rooms, heated by hypocausts, to the cold plunge."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-olympieion",
+    "camp-archaeology"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Stokers feed olive prunings into the furnace; steam rises from the hot room vents before dawn."
+    },
+    {
+     "hour": 13,
+     "text": "Bathers sit in the warm room scraping off oil with bronze strigils, while a masseur slaps a senator's back."
+    },
+    {
+     "hour": 21,
+     "text": "Closed. The floors are sluiced, lost hairpins and coins swept out of the drains."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "oil-law",
+   "name": "Hadrian's oil law at the market gate",
+   "kind": "civic",
+   "position": [
+    1815,
+    1722
+   ],
+   "activePeriods": [
+    "roman-150ce"
+   ],
+   "summary": "An inscription cut on the Gate of Athena Archegetis setting out Hadrian's law on olive oil: growers had to sell a share of their oil to the city at a fixed price.",
+   "details": [
+    "Under the law, growers were to sell a third of their crop to the city (an eighth for some estates), declared before officials; oil for export needed a permit, and informers were rewarded. The text, still on the gate, shows how carefully Rome managed the food and fuel of a free city."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roman-agora",
+    "camp-archaeology"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A farmer from Acharnai waits at the gate with his donkey and four jars, to have his declaration recorded."
+    },
+    {
+     "hour": 13,
+     "text": "Two merchants argue under the inscription; one reads the clause about export permits aloud, slowly."
+    },
+    {
+     "hour": 21,
+     "text": "The gate is shut and the market court empty, the oil weighers' scales hung up for the night."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "bazaar",
+   "name": "The bazaar of Atina",
+   "kind": "market",
+   "position": [
+    1860,
+    1514
+   ],
+   "activePeriods": [
+    "ottoman-1680"
+   ],
+   "summary": "The town's market street on the north side of Hadrian's Library, with shops of grocers, tanners, smiths and tailors under awnings, and the voivode's offices behind.",
+   "details": [
+    "Ottoman Athens exported olive oil, honey from Hymettos, wax and silk; Venetian and French merchants bought it through the consuls. The bazaar grew up round the ruins of the Library, whose court held the governor's quarters and the church of the Megali Panagia."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ottoman-athens",
+    "spon-wheler"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Shutters come down to make counters; a baker sets out rings of bread, and a donkey train of oil jars squeezes past."
+    },
+    {
+     "hour": 13,
+     "text": "A French consul's servant bargains for Hymettos honey; a crier announces the voivode's new tax in Turkish and then in Greek."
+    },
+    {
+     "hour": 21,
+     "text": "Shops shuttered; a night watchman with a lantern and a stick walks past the ancient columns."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "coffee-house",
+   "name": "A coffee house under the plane tree",
+   "kind": "tavern",
+   "position": [
+    1808,
+    1453
+   ],
+   "activePeriods": [
+    "ottoman-1680"
+   ],
+   "summary": "A coffee house near the bazaar where Turkish and Greek men sat on benches with coffee and tobacco, heard news and played backgammon.",
+   "details": [
+    "Coffee houses spread through Ottoman towns from the later 16th century; by the 1670s every town of any size had them. No individual Athenian coffee house of 1680 is known by name: this one stands for the type."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ottoman-athens",
+    "evliya"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The keeper roasts beans in a pan over charcoal; the smell drifts into the lane where the first customers squat by the door."
+    },
+    {
+     "hour": 13,
+     "text": "Men on low stools under the plane tree, small cups and long pipes, a backgammon board rattling. A soldier from the kastro has news of Venetian ships."
+    },
+    {
+     "hour": 21,
+     "text": "A storyteller holds the room. The keeper banks the coals and pours the last cups."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kapnikarea",
+   "name": "Panagia Kapnikarea",
+   "kind": "church",
+   "position": [
+    1996,
+    1531
+   ],
+   "activePeriods": [
+    "ottoman-1680"
+   ],
+   "summary": "A small cross-in-square Byzantine church of about 1050 in the middle of the town, still in Orthodox use under the Turks.",
+   "details": [
+    "Built of stone framed with brick in the cloisonné manner, with a dome on a tall drum. Under Ottoman rule churches could be repaired but not enlarged, and bells were not rung; the Orthodox parishes of Athens remained the centre of Greek life."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kapnikarea",
+    "wiki-ottoman-athens"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The priest unlocks the door; old women light candles before the icons in the dim gold of the dome."
+    },
+    {
+     "hour": 13,
+     "text": "Bazaar traffic flows round the little church. A child is carried in for baptism."
+    },
+    {
+     "hour": 21,
+     "text": "Vespers chanted quietly; the wooden semantron, struck instead of a bell, calls the last stragglers."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "street-of-tombs",
+   "name": "The Street of Tombs",
+   "kind": "monument",
+   "position": [
+    1062,
+    1365
+   ],
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430",
+    "hellenistic-150",
+    "roman-150ce"
+   ],
+   "summary": "The road out of the Sacred Gate lined with family grave plots and marble monuments: the knight Dexileos, the seated Hegeso, a great bull for Dionysios of Kollytos.",
+   "details": [
+    "Athenians buried their dead outside the walls along the roads, and the Kerameikos was the city's chief cemetery from the Bronze Age to late antiquity. The finest monuments date from the decades after 430; a law of about 317 BCE ended lavish tombs."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kerameikos",
+    "camp-archaeology"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A family arrives with ribbons, oil flasks and honey cakes for a grave; the mother washes the marble relief of her son."
+    },
+    {
+     "hour": 13,
+     "text": "Travellers on the Sacred Way read the epitaphs as they pass: 'Here lies Dexileos, son of Lysanias, of Thorikos'."
+    },
+    {
+     "hour": 21,
+     "text": "Lamps flicker on a few graves. Dogs; frogs in the Eridanos; the gate shut behind."
+    }
+   ],
+   "variants": {
+    "archaic-550": {
+     "note": "Grand archaic graves: mounds, painted vases and marble kouroi and stelai of the aristocratic families."
+    },
+    "periclean-430": {
+     "note": "In the plague summer the graves fill fast; Thucydides says people threw their dead on other men's pyres."
+    },
+    "roman-150ce": {
+     "note": "Old monuments half buried by the river's silt; Roman tombs and sarcophagi stand among them."
+    }
+   }
+  },
+  {
+   "id": "leokoreion",
+   "name": "The Leokoreion",
+   "kind": "shrine",
+   "position": [
+    1464,
+    1498
+   ],
+   "activePeriods": [
+    "archaic-550",
+    "periclean-430"
+   ],
+   "summary": "A shrine of the daughters of Leos, who by legend were sacrificed to save the city from famine; the tyrannicides struck Hipparchos 'near the Leokoreion' in 514 BCE.",
+   "details": [
+    "Thucydides names the place but not its form. Excavators have proposed a small walled enclosure at the north-west corner of the Agora, with offerings of the late 5th century, as the shrine; the identification is uncertain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-leokoreion",
+    "thucydides",
+    "camp-agora"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A woman leaves a small cup and a loom weight inside the low wall and whispers a prayer for her daughter."
+    },
+    {
+     "hour": 13,
+     "text": "The procession route runs past: men point out where Harmodios and Aristogeiton struck."
+    },
+    {
+     "hour": 21,
+     "text": "A shrine lamp in the dusk, and the crowd from the Kerameikos taverns going home past it."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "peisistratos-561",
+   "title": "Peisistratos seizes the Acropolis",
+   "periodId": "archaic-550",
+   "date": "561 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "old-temple"
+   },
+   "effect": "crowd",
+   "text": "Peisistratos drove into the Agora with his mules and himself wounded, claiming enemies had attacked him, and the assembly voted him a bodyguard of club-bearers. With them he took the Acropolis. Twice exiled, he came back for good in 546 and ruled until his death in 528, mildly by most accounts, building, holding festivals and lending money to farmers.",
+   "sourceIds": [
+    "herodotus",
+    "ath-pol",
+    "wiki-peisistratos"
+   ]
+  },
+  {
+   "id": "tyrannicides-514",
+   "title": "Harmodios and Aristogeiton kill Hipparchos",
+   "periodId": "archaic-550",
+   "date": "Panathenaia, summer 514 BCE",
+   "kind": "riot",
+   "at": {
+    "spotId": "leokoreion"
+   },
+   "effect": "crowd",
+   "text": "During the Panathenaic procession two lovers, angered by an insult to Harmodios' sister, stabbed the tyrant's brother Hipparchos near the Leokoreion. Harmodios was killed on the spot, Aristogeiton tortured to death; Hippias ruled four more harsh years. Later Athenians made the pair heroes of freedom, with bronze statues in the Agora, though Thucydides insists the motive was personal.",
+   "sourceIds": [
+    "thucydides",
+    "herodotus",
+    "wiki-tyrannicides"
+   ]
+  },
+  {
+   "id": "cleisthenes-508",
+   "title": "Cleisthenes gives power to the demos",
+   "periodId": "archaic-550",
+   "date": "508/507 BCE",
+   "kind": "civic",
+   "at": {
+    "position": [
+     1536,
+     1642
+    ]
+   },
+   "effect": "crowd",
+   "text": "After the tyrants' fall Cleisthenes the Alkmeonid 'took the people into partnership'. He reorganised the citizens into ten new tribes mixing coast, plain and hills, founded on the demes, and created a council of 500 chosen by lot. When the Spartan king Kleomenes tried to undo it, the people besieged him on the Acropolis until he left. Democracy began here.",
+   "sourceIds": [
+    "herodotus",
+    "ath-pol",
+    "wiki-cleisthenes"
+   ]
+  },
+  {
+   "id": "persian-sack-480",
+   "title": "The Persians burn the Acropolis",
+   "periodId": "archaic-550",
+   "date": "September 480 BCE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "old-temple"
+   },
+   "effect": "fire",
+   "text": "The Athenians had abandoned the city for Salamis, leaving a few defenders behind wooden barricades on the Acropolis. Xerxes' men climbed the steep north side by the shrine of Aglauros, killed the defenders and burned the temples, the unfinished Parthenon and the statues. The Athenians later buried the broken korai on the rock, where they were found in the 1880s.",
+   "sourceIds": [
+    "herodotus",
+    "wiki-destruction-480",
+    "hurwit"
+   ]
+  },
+  {
+   "id": "ostracism-themistocles",
+   "title": "Themistocles ostracised",
+   "periodId": "periclean-430",
+   "date": "c. 471 BCE",
+   "kind": "civic",
+   "at": {
+    "position": [
+     1553,
+     1653
+    ]
+   },
+   "effect": "crowd",
+   "text": "Once a year the assembly could vote to exile one man for ten years without trial. Citizens scratched a name on a potsherd in a fenced area of the Agora; with 6,000 votes cast, the man named most often had to leave. The victor of Salamis was sent away about 471. A well on the north slope held 190 sherds with his name, written by a few hands: ballots prepared for distribution.",
+   "sourceIds": [
+    "plutarch-lives",
+    "wiki-ostracism",
+    "camp-agora"
+   ]
+  },
+  {
+   "id": "parthenon-438",
+   "title": "Athena Parthenos dedicated",
+   "periodId": "periclean-430",
+   "date": "Panathenaia, summer 438 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "parthenon"
+   },
+   "effect": "procession",
+   "text": "At the Great Panathenaia of 438 Phidias' statue of Athena Parthenos was dedicated in the new temple: nearly 12 m of gold and ivory over a wooden core, the gold, weighed at some forty talents, removable in an emergency. Phidias was soon accused of stealing ivory and left Athens. The pediment sculptures went up over the next six years.",
+   "sourceIds": [
+    "plutarch-lives",
+    "wiki-parthenon",
+    "hurwit"
+   ]
+  },
+  {
+   "id": "funeral-oration-431",
+   "title": "Pericles' funeral oration",
+   "periodId": "periclean-430",
+   "date": "winter 431/430 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "dipylon"
+   },
+   "effect": "crowd",
+   "text": "After the first year of war the bones of the dead were carried in cypress coffins, one for each tribe, to the public cemetery outside the Dipylon. Pericles spoke from a high platform: 'We are a model to others rather than imitators', 'the whole earth is the tomb of famous men'. Thucydides wrote the speech as he remembered or reimagined it.",
+   "sourceIds": [
+    "thucydides",
+    "wiki-funeral-oration"
+   ]
+  },
+  {
+   "id": "plague-430",
+   "title": "Plague in the crowded city",
+   "periodId": "periclean-430",
+   "date": "summer 430 BCE",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     2018,
+     1553
+    ]
+   },
+   "effect": "fire",
+   "text": "With the country people packed inside the walls, a disease arrived from the east through Piraeus: fever, thirst, sores, delirium. Thucydides caught it and survived; he describes the dying lying in the temples and round the fountains, and funeral customs abandoned. Perhaps a quarter of the population died over three years, Pericles among them in 429.",
+   "sourceIds": [
+    "thucydides",
+    "wiki-plague"
+   ]
+  },
+  {
+   "id": "socrates-399",
+   "title": "The trial and death of Socrates",
+   "periodId": "periclean-430",
+   "date": "spring 399 BCE",
+   "kind": "civic",
+   "at": {
+    "position": [
+     1470,
+     1770
+    ]
+   },
+   "effect": "none",
+   "text": "Accused of not recognising the city's gods, introducing new ones and corrupting the young, the 70-year-old Socrates faced a jury of 501 citizens and was convicted by about sixty votes. Proposing as his 'penalty' free meals in the Prytaneion did not help. A month later he drank hemlock in the state prison, perhaps the building found just south-west of the Agora.",
+   "sourceIds": [
+    "plato-apology",
+    "wiki-trial-socrates",
+    "camp-agora"
+   ]
+  },
+  {
+   "id": "demetrius-304",
+   "title": "Demetrius moves into the Parthenon",
+   "periodId": "hellenistic-150",
+   "date": "304 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "parthenon"
+   },
+   "effect": "procession",
+   "text": "Hailed as a saviour god for driving out Cassander's garrison, the Macedonian prince Demetrius Poliorcetes was lodged by the flattering Athenians in the back room of the Parthenon, as 'younger brother' of Athena. Plutarch says he turned it into a brothel. A few years later the Athenians sang a hymn to him as a present god, unlike the others, who were far away or deaf.",
+   "sourceIds": [
+    "plutarch-lives",
+    "wiki-demetrius"
+   ]
+  },
+  {
+   "id": "stoa-attalos-built",
+   "title": "A king's gift: the Stoa of Attalos",
+   "periodId": "hellenistic-150",
+   "date": "c. 150 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "stoa-attalos"
+   },
+   "effect": "construction",
+   "text": "Attalos II of Pergamon, who had studied in Athens as a young man, paid for a two-storey marble stoa along the east side of the Agora, 115 m long with 42 shops. Its dedication was carved on the architrave. Hellenistic kings competed to adorn Athens, still the cultural capital of the Greek world though its power was gone.",
+   "sourceIds": [
+    "wiki-stoa-attalos",
+    "camp-agora"
+   ]
+  },
+  {
+   "id": "sulla-86",
+   "title": "Sulla storms Athens",
+   "periodId": "hellenistic-150",
+   "date": "1 March 86 BCE",
+   "kind": "riot",
+   "at": {
+    "position": [
+     1062,
+     1498
+    ]
+   },
+   "effect": "fire",
+   "text": "Athens had sided with Mithridates against Rome. After a winter siege, with the people eating boiled leather, Sulla's legions broke through the wall between the Piraeus and Sacred Gates at midnight. Plutarch says the blood in the Agora flooded the Kerameikos and ran out through the Dipylon. Sulla spared the city 'for the sake of the dead' but cut down the groves of the Academy and the Lyceum.",
+   "sourceIds": [
+    "plutarch-lives",
+    "wiki-siege-86"
+   ]
+  },
+  {
+   "id": "olympieion-132",
+   "title": "Hadrian dedicates the Olympieion",
+   "periodId": "roman-150ce",
+   "date": "131/132 CE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "olympieion"
+   },
+   "effect": "procession",
+   "text": "Six and a half centuries after the tyrants began it, the emperor dedicated the temple of Olympian Zeus during his third stay in Athens; the sophist Polemon gave the speech. Hadrian, honoured as Olympios, founded the Panhellenion, a league of Greek cities with its seat in Athens. Statues of him, one from each city, filled the precinct.",
+   "sourceIds": [
+    "pausanias",
+    "wiki-olympieion"
+   ]
+  },
+  {
+   "id": "herodes-odeon-161",
+   "title": "Herodes Atticus builds an odeon for Regilla",
+   "periodId": "roman-150ce",
+   "date": "c. 161 CE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "odeon-herodes"
+   },
+   "effect": "construction",
+   "text": "When his wife Regilla died in 160, in pregnancy, her brother accused Herodes of having her killed by a freedman; he was acquitted in Rome. Herodes mourned extravagantly, darkening his house, and built this odeon in her memory, roofed, Philostratus says, with cedar. Pausanias, who saw it finished, regretted that his chapter on Athens was already written.",
+   "sourceIds": [
+    "philostratus",
+    "pausanias",
+    "wiki-herodes"
+   ]
+  },
+  {
+   "id": "evliya-1667",
+   "title": "Evliya Çelebi admires the Parthenon mosque",
+   "periodId": "ottoman-1680",
+   "date": "1667",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "parthenon"
+   },
+   "effect": "none",
+   "text": "The Ottoman traveller Evliya Çelebi spent weeks in Athens and wrote that no mosque in the world was like the one on the citadel: its columns, its marble, its carvings of men and beasts. He wrote at length on its columns and carved figures, and on the town below with its gardens, fountains and churches.",
+   "sourceIds": [
+    "evliya",
+    "wiki-ottoman-athens"
+   ]
+  },
+  {
+   "id": "morosini-1687",
+   "title": "Morosini's shell hits the Parthenon",
+   "periodId": "ottoman-1680",
+   "date": "26 September 1687",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "parthenon"
+   },
+   "effect": "fire",
+   "text": "Besieging the Acropolis, the Venetian army of Francesco Morosini bombarded it for days. The Turks had stored their powder in the Parthenon and sheltered women and children there. At about seven in the evening a mortar shell fell through the roof. The explosion blew out the middle of the temple, killed some 300 people and burned for two days. The garrison surrendered three days later.",
+   "sourceIds": [
+    "wiki-siege-1687",
+    "hurwit"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "day-430",
+   "title": "A day in the city of Pericles",
+   "periodId": "periclean-430",
+   "summary": "Spring 430 BCE, the second year of the war: walk from the potters' quarter through the Agora to the assembly and up to the new Parthenon, before the plague breaks out.",
+   "steps": [
+    {
+     "spotId": "potters-workshop",
+     "title": "Dawn in the Kerameikos",
+     "when": "Dawn",
+     "text": "You start where the clay is: the kilns smoking by the Eridanos, a painter outlining heroes on a cup bound for Etruria. Beyond the wall the refugees from the countryside are camped in the cemetery."
+    },
+    {
+     "landmarkId": "stoa-poikile",
+     "title": "Under the painted battles",
+     "when": "Early morning",
+     "text": "In the Painted Stoa the old men point out Miltiades at Marathon and argue about the war. Sellers set up between the columns; the Agora fills."
+    },
+    {
+     "spotId": "simon-shoemaker",
+     "title": "At Simon's door",
+     "when": "Mid-morning",
+     "text": "By the boundary stone a crowd of young men at the shoemaker's door: Socrates is asking someone what justice is, and the answer is not going well."
+    },
+    {
+     "spotId": "enneakrounos",
+     "title": "Water for the household",
+     "when": "Late morning",
+     "text": "At the fountain house the women queue with their jars and trade the news from Piraeus: ships from Egypt, and a fever in the harbour town."
+    },
+    {
+     "landmarkId": "pnyx",
+     "title": "Assembly day",
+     "when": "Noon",
+     "text": "On the Pnyx thousands of citizens sit on the bare rock. The herald asks 'Who wishes to speak?' Pericles argues for patience behind the walls; many in the crowd have lost their farms."
+    },
+    {
+     "landmarkId": "propylaia",
+     "title": "Through the unfinished gate",
+     "when": "Afternoon",
+     "text": "You climb the ramp past the Nike bastion into Mnesikles' gateway, its walls still rough with lifting bosses: the money went to the war."
+    },
+    {
+     "landmarkId": "parthenon",
+     "title": "The goddess in gold",
+     "when": "Evening",
+     "text": "The east doors stand open to the setting sun, and inside, gleaming in the dark, Athena Parthenos holds Victory in her hand. Below, the city's lamps come on."
+    }
+   ],
+   "sourceIds": [
+    "thucydides",
+    "aristophanes",
+    "camp-agora",
+    "plato-apology"
+   ]
+  },
+  {
+   "id": "pausanias-150",
+   "title": "With Pausanias through Roman Athens",
+   "periodId": "roman-150ce",
+   "summary": "Follow the guidebook writer Pausanias, about 155 CE, from the Dipylon through the Agora and the new Roman quarters to the Acropolis, as he describes them in Book 1 of his Description of Greece.",
+   "steps": [
+    {
+     "landmarkId": "dipylon",
+     "title": "In by the Kerameikos",
+     "text": "Pausanias enters from the Kerameikos, noting the tombs along the road and the building where the processions are made ready."
+    },
+    {
+     "landmarkId": "stoa-poikile",
+     "title": "The Painted Stoa",
+     "text": "He lists the paintings one by one: the Athenians against the Spartans at Oinoe, Theseus fighting the Amazons, the Greeks after the fall of Troy, and Marathon, with the Persians fleeing into the marsh."
+    },
+    {
+     "landmarkId": "hephaisteion",
+     "title": "Above the market",
+     "text": "On the hill he finds Hephaistos with a blue-eyed Athena beside him, and is told a Libyan story to explain her eyes."
+    },
+    {
+     "landmarkId": "roman-agora",
+     "title": "The new market",
+     "text": "Through the Doric gate to the marble court of the Romans' market, where the oil law is posted and a bronze Triton turns on the clock tower."
+    },
+    {
+     "landmarkId": "olympieion",
+     "title": "The emperor's Zeus",
+     "text": "At the Olympieion, finished in his own lifetime, he admires the gold-and-ivory Zeus and counts the statues of Hadrian: the Athenians' colossus stands behind the temple."
+    },
+    {
+     "landmarkId": "theatre-dionysus",
+     "title": "The theatre",
+     "text": "In the theatre he notes the statues of the tragic and comic poets and, in the cave above, the tripod of Thrasyllos."
+    },
+    {
+     "landmarkId": "parthenon",
+     "title": "The Parthenos",
+     "text": "Up the marble stair and through the Propylaia, past Wingless Victory, to the temple. He describes the pediments and the goddess, ivory and gold, with Medusa on her breast."
+    }
+   ],
+   "sourceIds": [
+    "pausanias",
+    "camp-archaeology"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-history-athens",
+   "title": "History of Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Athens"
+  },
+  {
+   "id": "wiki-acropolis",
+   "title": "Acropolis of Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens"
+  },
+  {
+   "id": "wiki-walls-athens",
+   "title": "Walls of Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Athens"
+  },
+  {
+   "id": "wiki-long-walls",
+   "title": "Long Walls",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long_Walls"
+  },
+  {
+   "id": "wiki-ilissos",
+   "title": "Ilisos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ilisos"
+  },
+  {
+   "id": "wiki-eridanos",
+   "title": "Eridanos (Athens)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eridanos_(Athens)"
+  },
+  {
+   "id": "wiki-areopagus",
+   "title": "Areopagus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Areopagus"
+  },
+  {
+   "id": "wiki-lycabettus",
+   "title": "Mount Lycabettus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mount_Lycabettus"
+  },
+  {
+   "id": "wiki-philopappos",
+   "title": "Philopappos Hill",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Philopappos_Hill"
+  },
+  {
+   "id": "wiki-ottoman-athens",
+   "title": "Ottoman Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ottoman_Athens"
+  },
+  {
+   "id": "wiki-demoi",
+   "title": "List of demoi of Attica",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_demoi_of_Attica"
+  },
+  {
+   "id": "travlos",
+   "title": "Pictorial Dictionary of Ancient Athens",
+   "author": "John Travlos",
+   "year": 1971
+  },
+  {
+   "id": "camp-archaeology",
+   "title": "The Archaeology of Athens",
+   "author": "John M. Camp",
+   "year": 2001
+  },
+  {
+   "id": "hurwit",
+   "title": "The Athenian Acropolis: History, Mythology, and Archaeology from the Neolithic Era to the Present",
+   "author": "Jeffrey M. Hurwit",
+   "year": 1999
+  },
+  {
+   "id": "thucydides",
+   "title": "History of the Peloponnesian War",
+   "author": "Thucydides",
+   "year": "c. 400 BCE",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_Peloponnesian_War"
+  },
+  {
+   "id": "pausanias",
+   "title": "Description of Greece, Book 1 (Attica)",
+   "author": "Pausanias",
+   "year": "c. 150–160 CE",
+   "url": "https://en.wikipedia.org/wiki/Pausanias_(geographer)"
+  },
+  {
+   "id": "wiki-parthenon",
+   "title": "Parthenon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Parthenon"
+  },
+  {
+   "id": "wiki-erechtheion",
+   "title": "Erechtheion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Erechtheion"
+  },
+  {
+   "id": "wiki-propylaea",
+   "title": "Propylaea (Acropolis of Athens)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Propylaea"
+  },
+  {
+   "id": "wiki-nike",
+   "title": "Temple of Athena Nike",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Athena_Nike"
+  },
+  {
+   "id": "wiki-promachos",
+   "title": "Athena Promachos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Athena_Promachos"
+  },
+  {
+   "id": "wiki-old-temple",
+   "title": "Old Temple of Athena",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_Temple_of_Athena"
+  },
+  {
+   "id": "wiki-older-parthenon",
+   "title": "Older Parthenon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Older_Parthenon"
+  },
+  {
+   "id": "wiki-theatre-dionysus",
+   "title": "Theatre of Dionysus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Theatre_of_Dionysus"
+  },
+  {
+   "id": "wiki-odeon-pericles",
+   "title": "Odeon of Pericles",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Odeon_of_Pericles"
+  },
+  {
+   "id": "wiki-odeon-herodes",
+   "title": "Odeon of Herodes Atticus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Odeon_of_Herodes_Atticus"
+  },
+  {
+   "id": "wiki-stoa-poikile",
+   "title": "Stoa Poikile",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stoa_Poikile"
+  },
+  {
+   "id": "wiki-stoa-attalos",
+   "title": "Stoa of Attalos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stoa_of_Attalos"
+  },
+  {
+   "id": "wiki-hephaestus",
+   "title": "Temple of Hephaestus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Hephaestus"
+  },
+  {
+   "id": "wiki-bouleuterion",
+   "title": "Bouleuterion (Athens)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bouleuterion"
+  },
+  {
+   "id": "wiki-tholos-athens",
+   "title": "Tholos of Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tholos_of_Athens"
+  },
+  {
+   "id": "wiki-metroon",
+   "title": "Metroon (Athens)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Metroon"
+  },
+  {
+   "id": "wiki-pnyx",
+   "title": "Pnyx",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pnyx"
+  },
+  {
+   "id": "wiki-olympieion",
+   "title": "Temple of Olympian Zeus, Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens"
+  },
+  {
+   "id": "wiki-hadrians-arch",
+   "title": "Arch of Hadrian (Athens)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Arch_of_Hadrian_(Athens)"
+  },
+  {
+   "id": "wiki-hadrians-library",
+   "title": "Hadrian's Library",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hadrian%27s_Library"
+  },
+  {
+   "id": "wiki-tower-winds",
+   "title": "Tower of the Winds",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tower_of_the_Winds"
+  },
+  {
+   "id": "wiki-roman-agora",
+   "title": "Roman Agora (Athens)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roman_Agora_(Athens)"
+  },
+  {
+   "id": "wiki-dipylon",
+   "title": "Dipylon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dipylon"
+  },
+  {
+   "id": "wiki-kerameikos",
+   "title": "Kerameikos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kerameikos"
+  },
+  {
+   "id": "wiki-pompeion",
+   "title": "Pompeion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pompeion"
+  },
+  {
+   "id": "wiki-panathenaic-stadium",
+   "title": "Panathenaic Stadium",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Panathenaic_Stadium"
+  },
+  {
+   "id": "wiki-fethiye",
+   "title": "Fethiye Mosque, Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fethiye_Mosque,_Athens"
+  },
+  {
+   "id": "wiki-lysicrates",
+   "title": "Choragic Monument of Lysicrates",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Choragic_Monument_of_Lysicrates"
+  },
+  {
+   "id": "wiki-altar-twelve",
+   "title": "Altar of the Twelve Gods",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Altar_of_the_Twelve_Gods"
+  },
+  {
+   "id": "camp-agora",
+   "title": "The Athenian Agora: Excavations in the Heart of Classical Athens",
+   "author": "John M. Camp",
+   "year": 1986
+  },
+  {
+   "id": "korres-parthenon",
+   "title": "From Pentelicon to the Parthenon",
+   "author": "Manolis Korres",
+   "year": 1995
+  },
+  {
+   "id": "plutarch-pericles",
+   "title": "Life of Pericles",
+   "author": "Plutarch",
+   "year": "c. 100 CE",
+   "url": "https://en.wikipedia.org/wiki/Parallel_Lives"
+  },
+  {
+   "id": "spon-wheler",
+   "title": "Voyage d'Italie, de Dalmatie, de Grèce et du Levant / A Journey into Greece",
+   "author": "Jacob Spon and George Wheler",
+   "year": "1678–1682"
+  },
+  {
+   "id": "stuart-revett",
+   "title": "The Antiquities of Athens",
+   "author": "James Stuart and Nicholas Revett",
+   "year": "1762–1816",
+   "url": "https://en.wikipedia.org/wiki/The_Antiquities_of_Athens"
+  },
+  {
+   "id": "herodotus",
+   "title": "Histories",
+   "author": "Herodotus",
+   "year": "c. 430 BCE",
+   "url": "https://en.wikipedia.org/wiki/Histories_(Herodotus)"
+  },
+  {
+   "id": "ath-pol",
+   "title": "The Constitution of the Athenians (Athenaion Politeia)",
+   "author": "Aristotle or his school",
+   "year": "c. 330 BCE",
+   "url": "https://en.wikipedia.org/wiki/Constitution_of_the_Athenians_(Aristotle)"
+  },
+  {
+   "id": "aristophanes",
+   "title": "Knights, Wasps, Clouds and other comedies",
+   "author": "Aristophanes",
+   "year": "425–388 BCE",
+   "url": "https://en.wikipedia.org/wiki/Aristophanes"
+  },
+  {
+   "id": "plato-apology",
+   "title": "Apology and Phaedo",
+   "author": "Plato",
+   "year": "c. 390–360 BCE",
+   "url": "https://en.wikipedia.org/wiki/Apology_(Plato)"
+  },
+  {
+   "id": "plato-symposium",
+   "title": "Symposium",
+   "author": "Plato",
+   "year": "c. 385–370 BCE",
+   "url": "https://en.wikipedia.org/wiki/Symposium_(Plato)"
+  },
+  {
+   "id": "lysias-24",
+   "title": "Speech 24, On the Refusal of a Pension to the Invalid",
+   "author": "Lysias",
+   "year": "c. 400 BCE",
+   "url": "https://en.wikipedia.org/wiki/Lysias"
+  },
+  {
+   "id": "diogenes-laertius",
+   "title": "Lives of the Eminent Philosophers",
+   "author": "Diogenes Laertius",
+   "year": "3rd century CE",
+   "url": "https://en.wikipedia.org/wiki/Lives_and_Opinions_of_Eminent_Philosophers"
+  },
+  {
+   "id": "athenaeus",
+   "title": "Deipnosophistae (The Learned Banqueters), Book 6",
+   "author": "Athenaeus",
+   "year": "c. 200 CE",
+   "url": "https://en.wikipedia.org/wiki/Deipnosophistae"
+  },
+  {
+   "id": "plutarch-lives",
+   "title": "Parallel Lives: Pericles, Themistocles, Sulla, Demetrius",
+   "author": "Plutarch",
+   "year": "c. 100 CE",
+   "url": "https://en.wikipedia.org/wiki/Parallel_Lives"
+  },
+  {
+   "id": "philostratus",
+   "title": "Lives of the Sophists (Herodes Atticus)",
+   "author": "Philostratus",
+   "year": "c. 230 CE",
+   "url": "https://en.wikipedia.org/wiki/Lives_of_the_Sophists"
+  },
+  {
+   "id": "evliya",
+   "title": "Seyahatname (Book of Travels), volume 8",
+   "author": "Evliya Çelebi",
+   "year": "c. 1670",
+   "url": "https://en.wikipedia.org/wiki/Evliya_%C3%87elebi"
+  },
+  {
+   "id": "davidson",
+   "title": "Courtesans and Fishcakes: The Consuming Passions of Classical Athens",
+   "author": "James Davidson",
+   "year": 1997
+  },
+  {
+   "id": "wiki-simon-shoemaker",
+   "title": "Simon the Shoemaker",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Simon_the_Shoemaker"
+  },
+  {
+   "id": "wiki-enneakrounos",
+   "title": "Enneacrunus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Enneacrunus"
+  },
+  {
+   "id": "wiki-symposium",
+   "title": "Symposium",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Symposium"
+  },
+  {
+   "id": "wiki-slavery-greece",
+   "title": "Slavery in ancient Greece",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slavery_in_ancient_Greece"
+  },
+  {
+   "id": "wiki-attic-stelai",
+   "title": "Attic Stelai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Attic_Stelai"
+  },
+  {
+   "id": "wiki-pottery",
+   "title": "Pottery of ancient Greece",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pottery_of_ancient_Greece"
+  },
+  {
+   "id": "wiki-foundry-cup",
+   "title": "Berlin Foundry Cup",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Foundry_Cup"
+  },
+  {
+   "id": "wiki-tetradrachm",
+   "title": "Tetradrachm",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tetradrachm"
+  },
+  {
+   "id": "wiki-lyceum",
+   "title": "Lyceum (classical)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lyceum_(classical)"
+  },
+  {
+   "id": "wiki-stoicism",
+   "title": "Stoicism",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stoicism"
+  },
+  {
+   "id": "wiki-kapnikarea",
+   "title": "Church of Panagia Kapnikarea",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Church_of_Panagia_Kapnikarea"
+  },
+  {
+   "id": "wiki-leokoreion",
+   "title": "Leokoreion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Leokoreion"
+  },
+  {
+   "id": "wiki-peisistratos",
+   "title": "Peisistratos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Peisistratos"
+  },
+  {
+   "id": "wiki-tyrannicides",
+   "title": "Harmodius and Aristogeiton",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harmodius_and_Aristogeiton"
+  },
+  {
+   "id": "wiki-cleisthenes",
+   "title": "Cleisthenes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cleisthenes"
+  },
+  {
+   "id": "wiki-destruction-480",
+   "title": "Achaemenid destruction of Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Achaemenid_destruction_of_Athens"
+  },
+  {
+   "id": "wiki-ostracism",
+   "title": "Ostracism",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ostracism"
+  },
+  {
+   "id": "wiki-funeral-oration",
+   "title": "Pericles' Funeral Oration",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pericles%27_Funeral_Oration"
+  },
+  {
+   "id": "wiki-plague",
+   "title": "Plague of Athens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plague_of_Athens"
+  },
+  {
+   "id": "wiki-trial-socrates",
+   "title": "Trial of Socrates",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Trial_of_Socrates"
+  },
+  {
+   "id": "wiki-demetrius",
+   "title": "Demetrius I of Macedon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demetrius_I_of_Macedon"
+  },
+  {
+   "id": "wiki-siege-86",
+   "title": "Siege of Athens and Piraeus (87–86 BC)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Athens_and_Piraeus_(87%E2%80%9386_BC)"
+  },
+  {
+   "id": "wiki-herodes",
+   "title": "Herodes Atticus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Herodes_Atticus"
+  },
+  {
+   "id": "wiki-siege-1687",
+   "title": "Siege of the Acropolis (1687)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_the_Acropolis_(1687)"
+  }
+ ]
+}
