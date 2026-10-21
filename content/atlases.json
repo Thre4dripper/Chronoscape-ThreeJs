@@ -357,13 +357,13 @@
       "area": [[64, 23], [72, 16], [80, 18], [90, 22], [92, 26], [84, 30], [74, 35], [66, 32]],
       "maps": [
         {
-          "city": "delhi",
-          "period": "shahjahan-1660",
           "title": "Delhi",
           "subtitle": "Shahjahanabad, 1660",
           "at": [77.24, 28.65],
           "glyph": "mughal",
-          "blurb": "Shah Jahan's new capital: the Red Fort on the Yamuna, the Jama Masjid and the bazaar of Chandni Chowk."
+          "blurb": "Shah Jahan's new capital: the Red Fort on the Yamuna, the Jama Masjid and the bazaar of Chandni Chowk.",
+          "city": "delhi",
+          "period": "shahjahan-1660"
         },
         {
           "title": "Agra",

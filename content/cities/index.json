@@ -1,7 +1,6 @@
 {
   "cities": [
     { "id": "rome", "name": "Rome", "subtitle": "Ancient World", "status": "playable" },
-    { "id": "delhi", "name": "Delhi", "subtitle": "Shahjahanabad", "status": "test" },
     { "id": "kyoto", "name": "Kyoto", "subtitle": "Heian-kyō, the Capital of Peace and Tranquillity", "status": "playable" },
     { "id": "paris", "name": "Paris", "subtitle": "Lutetia to the Revolution", "status": "playable" },
     { "id": "agra", "name": "Agra", "subtitle": "City of the Taj", "status": "playable" },
@@ -12,6 +11,7 @@
     { "id": "fatehpur-sikri", "name": "Fatehpur Sikri", "subtitle": "Akbar's City of Victory", "status": "playable" },
     { "id": "nara", "name": "Nara", "subtitle": "Heijō-kyō, the Capital of the Peaceful Citadel", "status": "playable" },
     { "id": "cusco", "name": "Cusco", "subtitle": "Qusqu, Navel of the Inca World", "status": "playable" },
-    { "id": "athens", "name": "Athens", "subtitle": "City of Athena", "status": "playable" }
+    { "id": "athens", "name": "Athens", "subtitle": "City of Athena", "status": "playable" },
+    { "id": "delhi", "name": "Delhi", "subtitle": "City of Cities", "status": "playable" }
   ]
 }
