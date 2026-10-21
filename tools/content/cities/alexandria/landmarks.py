@@ -1,0 +1,327 @@
+# Alexandria: monuments. Positions (lat, lon); footprints in metres (w east-west, d north-south before rotation).
+# Buildings on the ancient street grid are turned with it (rotation -23 or 157).
+import math
+
+EARLY = ["ptolemy-280"]
+PTOL = ["ptolemy-280", "ptolemaic-200"]
+CLASSIC = ["ptolemaic-200", "roman-150ce"]
+ANTIQUE = ["ptolemy-280", "ptolemaic-200", "roman-150ce", "late-400"]
+LATER_ANT = ["ptolemaic-200", "roman-150ce", "late-400"]
+ROMAN = ["roman-150ce", "late-400"]
+LATE = ["late-400"]
+OTT = ["ottoman-1600"]
+
+P0 = (31.1966, 29.9003)
+KX, KY = 111320.0 * math.cos(math.radians(31.194)), 110950.0
+
+
+def UV(u, v):
+    """(lat, lon) of a point u m along the Canopic Way (east-north-east) and v m across it, as in geo.py."""
+    e = 0.9205 * u - 0.3907 * v
+    n = 0.3907 * u + 0.9205 * v
+    return (round(P0[0] + n / KY, 5), round(P0[1] + e / KX, 5))
+
+
+SOURCES = [
+    dict(id="wiki-pharos", title="Lighthouse of Alexandria", author="Wikipedia", url="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria"),
+    dict(id="wiki-qaitbay", title="Citadel of Qaitbay", author="Wikipedia", url="https://en.wikipedia.org/wiki/Citadel_of_Qaitbay"),
+    dict(id="wiki-heptastadion", title="Heptastadion", author="Wikipedia", url="https://en.wikipedia.org/wiki/Heptastadion"),
+    dict(id="wiki-brucheion", title="Brucheion", author="Wikipedia", url="https://en.wikipedia.org/wiki/Brucheion"),
+    dict(id="wiki-library", title="Library of Alexandria", author="Wikipedia", url="https://en.wikipedia.org/wiki/Library_of_Alexandria"),
+    dict(id="wiki-musaeum", title="Musaeum", author="Wikipedia", url="https://en.wikipedia.org/wiki/Musaeum"),
+    dict(id="wiki-sema", title="Tomb of Alexander the Great", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tomb_of_Alexander_the_Great"),
+    dict(id="wiki-serapeum", title="Serapeum of Alexandria", author="Wikipedia", url="https://en.wikipedia.org/wiki/Serapeum_of_Alexandria"),
+    dict(id="wiki-pompeys-pillar", title="Pompey's Pillar (column)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Pompey%27s_Pillar_(column)"),
+    dict(id="wiki-caesareum", title="Caesareum of Alexandria", author="Wikipedia", url="https://en.wikipedia.org/wiki/Caesareum_of_Alexandria"),
+    dict(id="wiki-needles", title="Cleopatra's Needle", author="Wikipedia", url="https://en.wikipedia.org/wiki/Cleopatra%27s_Needle"),
+    dict(id="wiki-antirhodos", title="Antirhodos", author="Wikipedia", url="https://en.wikipedia.org/wiki/Antirhodos"),
+    dict(id="wiki-gymnasium", title="Gymnasium (ancient Greece)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"),
+    dict(id="wiki-kom-el-dikka", title="Kom El Deka", author="Wikipedia", url="https://en.wikipedia.org/wiki/Kom_El_Deka"),
+    dict(id="wiki-canopic-way", title="Canopic Way", author="Wikipedia", url="https://en.wikipedia.org/wiki/Canopic_Way"),
+    dict(id="wiki-shoqafa", title="Catacombs of Kom El Shoqafa", author="Wikipedia", url="https://en.wikipedia.org/wiki/Catacombs_of_Kom_El_Shoqafa"),
+    dict(id="wiki-st-mark", title="Saint Mark's Coptic Orthodox Cathedral (Alexandria)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Saint_Mark%27s_Coptic_Orthodox_Cathedral_(Alexandria)"),
+    dict(id="wiki-attarine", title="Attarine Mosque", author="Wikipedia", url="https://en.wikipedia.org/wiki/Attarine_Mosque"),
+    dict(id="wiki-mursi", title="Abu al-Abbas al-Mursi Mosque", author="Wikipedia", url="https://en.wikipedia.org/wiki/Abu_al-Abbas_al-Mursi_Mosque"),
+    dict(id="empereur", title="Alexandria Rediscovered", author="Jean-Yves Empereur", year=1998),
+    dict(id="thiersch", title="Pharos: Antike, Islam und Occident", author="Hermann Thiersch", year=1909),
+    dict(id="clayton-price", title="The Seven Wonders of the Ancient World", author="Peter Clayton and Martin Price (eds.)", year=1988),
+    dict(id="rufinus", title="Ecclesiastical History 11.22–30 (the destruction of the Serapeum)", author="Rufinus of Aquileia", year="c. 402", url="https://en.wikipedia.org/wiki/Tyrannius_Rufinus"),
+    dict(id="achilles-tatius", title="Leucippe and Clitophon 5.1 (the Gates of the Sun and the Moon)", author="Achilles Tatius", year="2nd century CE", url="https://en.wikipedia.org/wiki/Achilles_Tatius"),
+    dict(id="goddio", title="Alexandria: The Submerged Royal Quarters", author="Franck Goddio et al.", year=1998),
+    dict(id="majcherek", title="Kom el-Dikka excavations (Polish Centre of Mediterranean Archaeology reports)", author="Grzegorz Majcherek", year="1995–2010"),
+    dict(id="behrens-abouseif", title="Cairo of the Mamluks: A History of the Architecture and its Culture", author="Doris Behrens-Abouseif", year=2007),
+]
+
+LANDMARKS = [
+    dict(id="pharos", placeId="pharos-point", name="Pharos Lighthouse", category="monument",
+         latlon=(31.2140, 29.8856), rotation=0, footprint=(130, 130), scale=1.0, model="alexandria/pharos",
+         activePeriods=["ptolemy-280", "ptolemaic-200", "roman-150ce", "late-400", "ottoman-1600"],
+         variants={
+             "ptolemy-280": dict(note="Just finished, about 280 BCE, under Ptolemy II: the white tower rises from its walled court on the rock at the east end of Pharos island, the dedication of Sostratus of Cnidus cut on its face."),
+             "ptolemaic-200": dict(note="Some 100 m high: a square shaft, an octagon, a round lantern and a statue at the top. A fire probably burned in the lantern at night, though how it was lit and reflected is not known."),
+             "roman-150ce": dict(note="Copied on Alexandrian coins of the 2nd century and in lighthouses from Ostia to Dover; Josephus says its light was seen 300 stadia out to sea."),
+             "late-400": dict(note="Still standing and still in use. Its upper storeys will be damaged by earthquakes from the 8th century on, repaired by the Arabs with a small mosque on top, and brought down in 1303 and 1323."),
+             "ottoman-1600": dict(model="alexandria/qaitbay", name="Fort of Qaitbay", confidence="documented",
+                                  note="Sultan Qaitbay built this fort in 1477–1479 on the lighthouse's foundations, partly from its fallen blocks: a square keep with corner towers and a small mosque, inside a curtain wall on the rock."),
+         },
+         summary="The lighthouse on the eastern point of Pharos island, finished about 280 BCE, perhaps 100 m tall: one of the Seven Wonders, and the word for 'lighthouse' in Greek, Latin and the Romance languages.",
+         details=["Designed by Sostratus of Cnidus (or paid for by him) and begun under Ptolemy I, it was finished under Ptolemy II. Ancient and Arab descriptions (above all Ibn al-Shaykh, 12th century) give three tiers: a tall square shaft with windows, an octagon, and a cylindrical lantern under a statue, probably of Zeus Soter or Poseidon.",
+                  "The miniature follows Thiersch's reconstruction (1909), heights hedged: a square shaft of about 55 m on a terrace, an octagon of about 30 m, a round lantern and statue. Tritons at the corners and the walled court are drawn from coins and Arab accounts."],
+         built="c. 297–280 BCE", function="Lighthouse and harbour mark", confidence="reconstruction",
+         sourceIds=["wiki-pharos", "thiersch", "clayton-price", "empereur", "wiki-qaitbay"], activity=dict(figures=14, radius=90)),
+
+    dict(id="heptastadion", name="Heptastadion", category="civic",
+         latlon=(31.20050, 29.88665), rotation=-37.5, footprint=(26, 1200), scale=1.0, model="alexandria/heptastadion",
+         activePeriods=ANTIQUE,
+         variants={
+             "ptolemy-280": dict(note="A new causeway of 'seven stades' (about 1.2 km) from the city to Pharos island, splitting the bay into two harbours. Who built it, Ptolemy I or II, is not recorded."),
+             "ptolemaic-200": dict(note="Carries the road and probably a water channel to Pharos; two bridged gaps let ships pass between the harbours."),
+             "roman-150ce": dict(note="In 48 BCE Caesar fought for its bridges and was driven into the sea, swimming to safety with his papers held above the water."),
+             "late-400": dict(note="Sand already piling up along both sides; the openings are silting."),
+             "ottoman-1600": dict(note="Gone under a broad neck of silt hundreds of metres wide, on which the Ottoman town now stands."),
+         },
+         summary="The causeway 'seven stades' long that joined Pharos island to the city and divided the Great Harbour from the Eunostos.",
+         details=["Strabo describes a mole of seven stades with two bridged passages. Cores and sediment studies (Goiran 2005) show that it trapped sand on both flanks; by the Middle Ages it had become the isthmus on which the modern districts of Mansheya, Gomrok and Anfushi stand.",
+                  "Its exact line is reconstructed from the geology and the ancient street grid; the miniature shows a stone causeway with a paved road and two arched bridges."],
+         built="early 3rd century BCE", function="Causeway and harbour mole", confidence="reconstruction",
+         sourceIds=["wiki-heptastadion", "strabo-17", "fraser"], activity=dict(figures=16, radius=400)),
+
+    dict(id="royal-palaces", placeId="lochias", name="Royal palaces on Lochias", category="civic",
+         latlon=UV(1300, 1150), rotation=-23, footprint=(260, 300), scale=1.0, model="alexandria/royal-palaces",
+         activePeriods=ANTIQUE,
+         variants={
+             "ptolemy-280": dict(note="Ptolemy I and II build their residence on the cape of Lochias at the east of the Great Harbour, with its own closed harbour."),
+             "ptolemaic-200": dict(note="Each king added a palace of his own, says Strabo, so that the royal buildings covered a quarter or a third of the city, with gardens, halls and colonnades down to the water."),
+             "roman-150ce": dict(note="The Ptolemies are gone; the Roman prefect governs from part of the old palace. In 30 BCE Cleopatra died here or in her mausoleum nearby."),
+             "late-400": dict(model="alexandria/royal-palaces-ruin", note="Ruined in the fighting of 272 under Aurelian, when the whole Brucheion was laid waste. Now broken walls, columns and gardens."),
+         },
+         summary="The palaces of the Ptolemies on Cape Lochias, the eastern horn of the Great Harbour, where Cleopatra received Caesar and Antony.",
+         details=["Nothing stands above ground; much of the cape has sunk and lies under the sea, where Franck Goddio's surveys since 1996 have found pavements, columns and sphinxes. The layout is unknown.",
+                  "The miniature is an interpretation: a terraced peristyle palace with a columned audience hall and pavilions on the cape, Macedonian in plan, with Egyptian sphinxes on the quays."],
+         built="from c. 300 BCE", function="Royal residence", confidence="interpretation",
+         sourceIds=["wiki-brucheion", "strabo-17", "goddio", "mckenzie"], activity=dict(figures=24, radius=180)),
+
+    dict(id="museum-library", placeId="mouseion", name="Museum and Library", category="civic",
+         latlon=UV(800, 520), rotation=157, footprint=(170, 130), scale=1.0, model="alexandria/museum",
+         activePeriods=["ptolemy-280", "ptolemaic-200", "roman-150ce"],
+         variants={
+             "ptolemy-280": dict(note="Founded under Ptolemy I, probably on the advice of Demetrius of Phalerum, and enlarged by Ptolemy II: a shrine of the Muses with salaried scholars and a growing collection of scrolls."),
+             "ptolemaic-200": dict(note="At its height: Eratosthenes is librarian, Aristophanes of Byzantium edits Homer. Ancient figures of 400,000 to 700,000 scrolls are guesses."),
+             "roman-150ce": dict(note="Caesar's fire of 48 BCE burned books, probably in warehouses by the harbour; the Museum lives on under the emperors, who appoint its members. Claudius adds a new wing."),
+             "late-400": dict(note="Gone: the Museum is last heard of in the fighting of 272, when the Brucheion was destroyed. Learning goes on in the Serapeum, until 391, and in private schools."),
+         },
+         summary="The Mouseion, a college of scholars under royal patronage, and the great Library attached to it: the centre of Greek learning for three centuries.",
+         details=["Strabo describes the Museum as part of the palaces, with a covered walk, an exedra with seats and a great hall where the scholars dined together. The Library had no building of its own that he mentions; its stores may have been in the Museum and in warehouses.",
+                  "The miniature is a reconstruction: a peristyle court with a covered walk, an exedra, a dining hall and book rooms with niches for scroll cases. Its site within the Brucheion is unknown."],
+         built="c. 290–270 BCE", function="Research institution and library", confidence="interpretation",
+         sourceIds=["wiki-musaeum", "wiki-library", "strabo-17", "fraser"], activity=dict(figures=20, radius=120)),
+
+    dict(id="sema", placeId="soma", name="The Sema (Tomb of Alexander)", category="monument",
+         latlon=UV(-170, 150), rotation=-23, footprint=(110, 110), scale=1.0, model="alexandria/sema",
+         activePeriods=["ptolemy-280", "ptolemaic-200", "roman-150ce"],
+         variants={
+             "ptolemy-280": dict(note="Ptolemy I seized Alexander's body in 321 BCE and buried it at Memphis; it was brought here by Ptolemy I or II (the sources differ). Its first tomb in the city is unknown."),
+             "ptolemaic-200": dict(note="Ptolemy IV (221–204 BCE) built a common mausoleum, the Sema, for Alexander and the Ptolemies, inside a walled precinct."),
+             "roman-150ce": dict(note="Augustus came in 30 BCE and laid a crown on the body; Septimius Severus had the tomb closed about 200 CE. Caracalla was the last emperor recorded to visit it, in 215."),
+             "late-400": dict(note="Lost. About 400 John Chrysostom asks where Alexander's tomb is: no one knows. The search, under the Nabi Daniel mosque and elsewhere, has never ended."),
+         },
+         summary="The mausoleum of Alexander the Great and the Ptolemies, near the crossing of the city's two main streets: its site has never been found.",
+         details=["Strabo places the Sema inside the royal quarter; the usual guess puts it near the crossing of the Canopic Way and the Street of the Sema, by the Nabi Daniel mosque. The body lay in a gold coffin until Ptolemy X melted it down and replaced it with glass or alabaster.",
+                  "The miniature is an interpretation: a walled precinct with a stepped tumulus under a pyramidal roof on a Doric drum, suggested by Macedonian tombs and late descriptions. Nothing of it is known for certain."],
+         built="c. 215 BCE (Ptolemy IV's mausoleum)", function="Royal tomb", confidence="interpretation",
+         sourceIds=["wiki-sema", "strabo-17", "fraser", "mckenzie"], activity=dict(figures=12, radius=90)),
+
+    dict(id="serapeum", placeId="serapeum", name="Serapeum", category="temple",
+         latlon=UV(-821, -1375), rotation=157, footprint=(160, 100), scale=1.0, model="alexandria/serapeum",
+         activePeriods=LATER_ANT,
+         variants={
+             "ptolemy-280": dict(note="On the Rhakotis hill a small sanctuary of Sarapis, the new Greco-Egyptian god whose cult Ptolemy I promoted, stands near the Egyptian village."),
+             "ptolemaic-200": dict(note="Ptolemy III (246–222 BCE) builds the great temple on a platform surrounded by colonnades, with foundation plaques naming his architect Parmeniscus; a 'daughter library' is housed in the porticoes."),
+             "roman-150ce": dict(note="Rebuilt on a larger scale in the 2nd century CE after a fire of 181, as a Corinthian temple on a podium, still with its library in the colonnades, approached by a long stair."),
+             "late-400": dict(model="alexandria/serapeum-ruin", name="Serapeum ruins and martyrium", note="Stormed by Christians led by the patriarch Theophilus in 391 and pulled down; the cult statue was hacked apart and burned. A church and martyrium of St John the Baptist rise in the ruins."),
+             "ottoman-1600": dict(note="A ruin mound around Pompey's Pillar; the platform's underground galleries survive."),
+         },
+         summary="The great temple of Sarapis on the hill of Rhakotis, with a library in its colonnades: the most splendid shrine of the city until its destruction in 391.",
+         details=["The precinct, about 185 by 77 m in its Ptolemaic form, was entered by a stair of a hundred steps (Rufinus). Under it ran galleries cut in the rock, perhaps for the library or the mysteries of the cult. The cult statue by Bryaxis (or another) showed Sarapis enthroned with Cerberus.",
+                  "The miniature follows McKenzie's reconstruction of the Roman phase: a Corinthian temple on a podium in a colonnaded court on a raised platform, with a monumental stair and the stoas that held the library."],
+         built="c. 240 BCE; rebuilt 2nd century CE", function="Temple of Sarapis and library", confidence="reconstruction",
+         sourceIds=["wiki-serapeum", "mckenzie", "rufinus", "empereur"], activity=dict(figures=30, radius=150)),
+
+    dict(id="pompeys-pillar", placeId="pillar", name="Pompey's Pillar", category="monument",
+         latlon=UV(-975, -1274), rotation=0, footprint=(20, 20), scale=2.0, model="alexandria/pompeys-pillar",
+         activePeriods=["late-400", "ottoman-1600"],
+         variants={
+             "roman-150ce": dict(note="Not yet raised: the colonnades of the Serapeum stand here."),
+             "late-400": dict(note="Erected about 298 CE for Diocletian after he put down a revolt and besieged the city; the inscription names the prefect Postumus. It survived the Serapeum's destruction around it."),
+             "ottoman-1600": dict(note="Standing alone on a ruin mound outside the Arab walls, a mark for ships; Europeans believed it was Pompey's tomb, hence the name. Arabs called it 'Amud al-Sawari, the column of the horsemen."),
+         },
+         summary="A red Aswan granite column about 27 m high with its base and capital, raised for Diocletian about 298 CE: the largest ancient monolithic column standing outside Rome and Constantinople.",
+         details=["The shaft is a single block about 20.5 m long and 2.7 m across at the base, with a Corinthian capital. A statue of Diocletian probably stood on top. The name comes from the medieval belief that Pompey's head was buried here.",
+                  "Shown scaled up to be readable, on its stepped base among the Serapeum's fallen blocks."],
+         built="c. 298 CE", function="Honorific column", confidence="documented",
+         sourceIds=["wiki-pompeys-pillar", "mckenzie"], activity=dict(figures=8, radius=50)),
+
+    dict(id="caesareum", placeId="caesareum", name="Caesareum", category="temple",
+         latlon=UV(100, 360), rotation=157, footprint=(150, 110), scale=1.0, model="alexandria/caesareum",
+         activePeriods=["roman-150ce", "late-400", "ottoman-1600"],
+         variants={
+             "ptolemaic-200": dict(note="Harbour front by the Emporion. Cleopatra will begin a temple here for Antony (or Caesar), around 40 BCE."),
+             "roman-150ce": dict(note="Finished by Augustus as a temple of the imperial cult (the Sebasteion) facing the Great Harbour, with porticoes, libraries and gardens. Two obelisks of Thutmose III from Heliopolis stand before it from 13/12 BCE."),
+             "late-400": dict(model="alexandria/caesareum-church", name="Caesareum church (Kaisarion)", note="Made the patriarch's cathedral in the 4th century. In March 415 a Christian mob dragged Hypatia here and killed her."),
+             "ottoman-1600": dict(model="alexandria/needles", name="Cleopatra's Needles", note="Of the temple nothing is left but the two obelisks by the shore: one standing, one fallen in the sand. They will go to London (1877) and New York (1880)."),
+         },
+         summary="The temple of the deified Caesar and Augustus on the Great Harbour, fronted by the two obelisks later called Cleopatra's Needles; later the city's cathedral.",
+         details=["Philo describes it as unmatched: porticoes, libraries, groves, gateways and open courts. The obelisks, raised by Thutmose III at Heliopolis about 1450 BCE, were set on bronze crabs before it in 13/12 BCE.",
+                  "The miniature is a reconstruction: a Corinthian temple in a colonnaded precinct facing the harbour, with the two obelisks before the gate. The Ottoman version shows the obelisks only."],
+         built="c. 40 BCE – 12 BCE", function="Imperial cult temple, then church", confidence="reconstruction",
+         sourceIds=["wiki-caesareum", "wiki-needles", "mckenzie", "haas"], activity=dict(figures=24, radius=110)),
+
+    dict(id="timonium", placeId="poseidion", name="Timonium and the Poseidion mole", category="civic",
+         latlon=UV(330, 680), rotation=-23, footprint=(70, 340), scale=1.0, model="alexandria/timonium",
+         activePeriods=["roman-150ce"],
+         variants={
+             "ptolemaic-200": dict(note="The Poseidion, a temple of Poseidon on a point of the harbour shore. The long mole has not yet been built out from it."),
+             "roman-150ce": dict(note="After Actium (31 BCE) Antony built a retreat at the end of the mole and called it the Timonium after Timon of Athens, the misanthrope, meaning to live there alone."),
+             "late-400": dict(note="Broken by subsidence and the tsunami of 365; its remains now lie about 5 m under water, surveyed by Goddio's team."),
+         },
+         summary="A long mole running from the Poseidion into the Great Harbour, with Antony's 'Timonium' at its end, where he withdrew after Actium.",
+         details=["Strabo names the Poseidion, the mole running from it into the harbour and Antony's royal dwelling at its tip. Underwater surveys since 1996 have found a mole of this kind in the eastern harbour.",
+                  "The miniature shows a stone mole with a quay, a small Doric temple at the root and a peristyle pavilion at the tip; the buildings are an interpretation."],
+         built="c. 30 BCE (Timonium)", function="Harbour mole and retreat", confidence="interpretation",
+         sourceIds=["wiki-antirhodos", "strabo-17", "goddio"], activity=dict(figures=10, radius=120)),
+
+    dict(id="gymnasium", name="Gymnasium", category="entertainment",
+         latlon=UV(600, -250), rotation=-23, footprint=(220, 190), scale=1.0, model="alexandria/gymnasium",
+         activePeriods=CLASSIC,
+         variants={
+             "ptolemy-280": dict(note="Open ground by the Canopic Way. A gymnasium was among the first needs of a Greek city; its date here is not recorded."),
+             "ptolemaic-200": dict(note="Where the sons of citizens train as ephebes and the Greek elite meets. Membership is the badge of citizenship."),
+             "roman-150ce": dict(note="Still the heart of Greek civic life; Alexandrian envoys to the emperors were often gymnasiarchs."),
+             "late-400": dict(note="Its site is lost; the old gymnasium culture has faded and its stone is reused."),
+         },
+         summary="'The most beautiful building' of the city in Strabo's words, with porticoes more than a stade long, on the Canopic Way in the middle of the city.",
+         details=["The gymnasium was the centre of Greek citizen life: athletic training, the education of ephebes, lectures and civic meetings. Strabo gives its porticoes as more than a stade (185 m) long.",
+                  "The miniature is a reconstruction on a standard Hellenistic plan: a large colonnaded court with a running track (xystos), a palaestra with rooms round it and a bath block."],
+         built="3rd century BCE", function="Gymnasium and civic centre", confidence="interpretation",
+         sourceIds=["wiki-gymnasium", "strabo-17", "fraser"], activity=dict(figures=40, radius=150)),
+
+    dict(id="paneion", name="Paneion", category="monument",
+         latlon=UV(320, -800), rotation=0, footprint=(140, 140), scale=1.0, model="alexandria/paneion",
+         activePeriods=CLASSIC,
+         variants={
+             "ptolemaic-200": dict(note="A man-made hill shaped like a pine cone, with a spiral road to the top, from which you can see the whole city (Strabo)."),
+             "roman-150ce": dict(note="A park and lookout in the middle of the city, sacred to Pan."),
+             "late-400": dict(note="Its site is unknown; some place it at Kom el-Dikka, others near the Gymnasium."),
+         },
+         summary="An artificial hill sacred to Pan, cone-shaped, with a spiral path to a lookout over the whole city.",
+         details=["Strabo is the only good source: 'a height made by hand, shaped like a pine cone, like a rocky hill, with a spiral road up'. Its location is disputed.",
+                  "The miniature shows a terraced cone with a winding ramp and a small round shrine on the summit, among trees. Position and size are guesses."],
+         built="3rd century BCE (?)", function="Sanctuary of Pan and lookout", confidence="interpretation",
+         sourceIds=["strabo-17", "wiki-alexandria"], activity=dict(figures=10, radius=90)),
+
+    dict(id="kom-el-dikka", name="Theatre of Kom el-Dikka", category="entertainment",
+         latlon=UV(251, -360), rotation=-23, footprint=(90, 90), scale=1.0, model="alexandria/kom-el-dikka",
+         activePeriods=LATE,
+         variants={
+             "roman-150ce": dict(note="Houses of the rich with mosaic floors, among them the 'Villa of the Birds', occupy the site."),
+             "late-400": dict(note="A small marble theatre or odeon of the 4th century, with a horseshoe of thirteen rows of seats, beside public baths and a row of lecture halls, the only excavated late antique university."),
+             "ottoman-1600": dict(note="Buried under the rubbish mound of Kom el-Dikka, not found until 1960."),
+         },
+         summary="A small theatre of white marble seats, the only one of Alexandria's ancient theatres to be found, with baths and lecture halls beside it.",
+         details=["Excavated by the Polish mission from 1960. The horseshoe of seats was probably built in the 4th century and roofed later, perhaps with a dome; the twenty or so lecture halls along the portico date mostly from the 5th–6th centuries, so the scene in 400 is an anticipation.",
+                  "The miniature shows the horseshoe cavea with its columned gallery, the stage building, and a strip of the portico and lecture halls."],
+         built="4th century CE", function="Theatre (odeon) and lecture halls", confidence="documented",
+         sourceIds=["wiki-kom-el-dikka", "majcherek"], activity=dict(figures=26, radius=90)),
+
+    dict(id="gate-of-the-sun", name="Gate of the Sun", category="military",
+         latlon=UV(2700, 0), rotation=67, footprint=(60, 24), scale=1.0, model="alexandria/city-gate",
+         activePeriods=ANTIQUE,
+         variants={
+             "ptolemy-280": dict(note="The eastern gate of the new city's wall, where the road leaves for Eleusis and Canopus."),
+             "roman-150ce": dict(note="The novelist Achilles Tatius enters by this gate and looks straight down the colonnaded Canopic Way to the Gate of the Moon."),
+             "late-400": dict(note="Still the eastern gate; the Arabs under Amr ibn al-As will enter by the road beyond it in 642."),
+             "ottoman-1600": dict(note="Gone: the medieval walls run much further west, and their eastern gate is Bab Rashid."),
+         },
+         summary="The eastern gate of the ancient city at the head of the Canopic Way, named in the 2nd century CE as the Gate of the Sun.",
+         details=["Achilles Tatius (Leucippe and Clitophon 5.1) names the Gates of the Sun and the Moon as 'the guardians of the city'. The names may be his own; their positions are known only from the line of the Canopic Way.",
+                  "The miniature is a generic Hellenistic city gate: two round towers with a vaulted passage between them."],
+         built="3rd century BCE (?)", function="City gate", confidence="interpretation",
+         sourceIds=["wiki-canopic-way", "achilles-tatius"], activity=dict(figures=10, radius=60)),
+
+    dict(id="gate-of-the-moon", name="Gate of the Moon", category="military",
+         latlon=UV(-1850, 0), rotation=67, footprint=(60, 24), scale=1.0, model="alexandria/city-gate",
+         activePeriods=ANTIQUE,
+         variants={
+             "ptolemy-280": dict(note="The western gate, toward the Kibotos basin and the necropolis."),
+             "roman-150ce": dict(note="Funeral processions leave by this gate for the necropolis and its gardens."),
+             "late-400": dict(note="The gate of the Gabbari road, past monasteries and martyrs' shrines."),
+             "ottoman-1600": dict(note="Gone: open ground and old tombs west of the Arab walls."),
+         },
+         summary="The western gate of the ancient city at the foot of the Canopic Way, named in the 2nd century CE as the Gate of the Moon.",
+         details=["Known only from Achilles Tatius and the line of the Canopic Way; the exact place is a reconstruction.",
+                  "Same generic Hellenistic gate as the Gate of the Sun."],
+         built="3rd century BCE (?)", function="City gate", confidence="interpretation",
+         sourceIds=["wiki-canopic-way", "achilles-tatius"], activity=dict(figures=8, radius=60)),
+
+    dict(id="kom-el-shoqafa", name="Catacombs of Kom el-Shoqafa", category="religious",
+         latlon=UV(-1429, -1587), rotation=-23, footprint=(50, 50), scale=1.5, model="alexandria/kom-el-shoqafa",
+         activePeriods=ROMAN,
+         variants={
+             "ptolemaic-200": dict(note="Rock-cut tombs of the necropolis; the great catacomb has not yet been dug."),
+             "roman-150ce": dict(note="Dug in the 1st–2nd century CE: a spiral stair down a round shaft to three levels of tombs, with a funeral banquet hall and a shrine carved with Anubis in a Roman legionary's armour."),
+             "late-400": dict(note="Still in use by families of the necropolis, perhaps until the 4th century."),
+             "ottoman-1600": dict(note="Forgotten under the ground; found in 1900, the story goes, when a donkey fell into the shaft."),
+         },
+         summary="A family tomb grown into a catacomb, three levels deep in the rock, where Egyptian gods wear Roman dress: the shaft head and the small funerary hall above ground.",
+         details=["The tomb is reached by a spiral staircase round a light shaft, down which bodies were lowered on ropes. The main tomb chamber mixes pharaonic and Greco-Roman motifs. A triclinium for funeral meals opens off the rotunda.",
+                  "The miniature shows what stood above ground (the round shaft with its parapet and a small kiosk over the stair) and is scaled up to be readable."],
+         built="1st–2nd century CE", function="Catacomb", confidence="reconstruction",
+         sourceIds=["wiki-shoqafa", "empereur"], activity=dict(figures=6, radius=50)),
+
+    dict(id="st-mark", placeId="boukolou", name="Martyrium of St Mark at Boukolou", category="religious",
+         latlon=UV(2300, 700), rotation=-23, footprint=(64, 36), scale=1.0, model="alexandria/st-mark",
+         activePeriods=LATE,
+         variants={
+             "roman-150ce": dict(note="By tradition Mark the Evangelist was martyred in Alexandria in 68 CE and buried at Boukolou ('the cattle pastures') by the sea."),
+             "late-400": dict(note="A martyr's church over St Mark's tomb, where every new patriarch is enthroned. Arius was a priest of the Baucalis church in about 318."),
+             "ottoman-1600": dict(note="The relics were taken to Venice in 828; the Coptic church of St Mark now stands in the town, far from this site."),
+         },
+         summary="The shrine of Mark the Evangelist, traditional founder of the church of Alexandria, at Boukolou in the east of the city.",
+         details=["Boukolou (Baucalis) lay by the sea in the eastern part of the city; its exact place is unknown. Two Venetian merchants smuggled Mark's body out in 828, hidden under pork to deter the Muslim customs officers.",
+                  "The miniature is a small basilica with an apse and a porch, an interpretation of a 4th-century martyr church."],
+         built="4th century (?)", function="Martyr church", confidence="interpretation",
+         sourceIds=["wiki-st-mark", "haas"], activity=dict(figures=14, radius=70)),
+
+    dict(id="attarine", placeId="st-athanasius", name="Church of St Athanasius", category="religious",
+         latlon=UV(-442, 80), rotation=-23, footprint=(60, 56), scale=1.0, model="alexandria/st-athanasius",
+         activePeriods=["late-400", "ottoman-1600"],
+         variants={
+             "late-400": dict(note="A church built by the patriarch Athanasius about 370, on the Canopic Way in the west of the city."),
+             "ottoman-1600": dict(model="alexandria/attarine", name="Attarine Mosque", note="Converted into a mosque after the Arab conquest and rebuilt in 1084; in its court stood the sarcophagus of Nectanebo II, taken by the French in 1798 and now in the British Museum."),
+         },
+         summary="A church of Athanasius' time that became the Western or 'Thousand Columns' mosque, now the Attarine Mosque in the perfume-sellers' quarter.",
+         details=["The identification with the church of St Athanasius is the usual one. European travellers spoke of a 'mosque of a thousand columns' in the old city; whether they meant this one is not certain.",
+                  "Both miniatures are interpretations: a basilica with an atrium for 400, and for 1600 a hypostyle mosque with a court, a minaret and the sarcophagus in a little kiosk."],
+         built="c. 370; mosque 7th century, rebuilt 1084", function="Church, then mosque", confidence="interpretation",
+         sourceIds=["wiki-attarine", "haas"], activity=dict(figures=16, radius=70)),
+
+    dict(id="al-mursi", name="Mosque of Abu al-Abbas al-Mursi", category="religious",
+         latlon=(31.2058, 29.8822), rotation=-20, footprint=(40, 50), scale=1.0, model="alexandria/al-mursi",
+         activePeriods=OTT,
+         summary="The tomb mosque of the Andalusian Sufi master Abu al-Abbas al-Mursi (died 1287), patron saint of the neck town and its sailors.",
+         details=["A domed tomb was built over his grave about 1307 and the mosque was enlarged several times; the present building dates from 1943. Its form in 1600 is not known in detail.",
+                  "The miniature shows a modest Mamluk-style tomb mosque: a court, a prayer hall, a ribbed stone dome over the tomb and a minaret."],
+         variants={"ottoman-1600": dict(note="Fishermen and sailors visit the saint's tomb before going to sea; his feast fills the neck town with crowds.")},
+         built="c. 1307, enlarged later", function="Tomb mosque", confidence="interpretation",
+         sourceIds=["wiki-mursi", "behrens-abouseif"], activity=dict(figures=20, radius=60)),
+
+    dict(id="bab-rashid", name="Bab Rashid (Rosetta Gate)", category="military",
+         latlon=UV(1480, -100), rotation=67, footprint=(44, 26), scale=1.0, model="alexandria/bab-rashid",
+         activePeriods=OTT,
+         variants={"ottoman-1600": dict(note="The eastern gate of the Arab walls, on the road to Rashid (Rosetta) and Cairo; travellers from the Nile entered here and crossed a mile of ruins to reach the town.")},
+         summary="The eastern gate of the medieval walls of Alexandria, on the road to Rosetta.",
+         details=["The Tulunid walls of the 9th century were rebuilt by the Mamluks with towers and gates; Bab Rashid stood near the modern Shallalat gardens, where a stretch of wall survives.",
+                  "The miniature shows a Mamluk-style gate between two square towers with a pointed arch and crenellations."],
+         built="9th century; rebuilt under the Mamluks", function="City gate", confidence="reconstruction",
+         sourceIds=["wiki-alexandria", "behrens-abouseif"], activity=dict(figures=8, radius=50)),
+]
