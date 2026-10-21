@@ -188,6 +188,222 @@
   "size": 178.88,
   "w": 155.27
  },
+ "alexandria/al-mursi": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 40.0
+ },
+ "alexandria/attarine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 56.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "alexandria/bab-rashid": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 26.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.59,
+  "w": 44.8
+ },
+ "alexandria/caesareum": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "d": 111.1,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 150.0
+ },
+ "alexandria/caesareum-church": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "d": 111.1,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 150.0
+ },
+ "alexandria/city-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 24.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 63.23,
+  "w": 60.8
+ },
+ "alexandria/gymnasium": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "d": 190.1,
+  "ext": "webp",
+  "px": 688,
+  "size": 229.42,
+  "w": 220.6
+ },
+ "alexandria/heptastadion": {
+  "cx": -2.18,
+  "cy": -0.0,
+  "d": 1200.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 1248.0,
+  "w": 30.35
+ },
+ "alexandria/kom-el-dikka": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "alexandria/kom-el-shoqafa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
+ "alexandria/museum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 170.0
+ },
+ "alexandria/needles": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 150.0
+ },
+ "alexandria/paneion": {
+  "cx": 0.0,
+  "cy": 3.76,
+  "d": 143.53,
+  "ext": "webp",
+  "px": 448,
+  "size": 149.27,
+  "w": 136.0
+ },
+ "alexandria/pharos": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "d": 128.2,
+  "ext": "webp",
+  "px": 400,
+  "size": 133.33,
+  "w": 128.0
+ },
+ "alexandria/pompeys-pillar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 20.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 20.8,
+  "w": 20.0
+ },
+ "alexandria/qaitbay": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 128.0,
+  "ext": "webp",
+  "px": 399,
+  "size": 133.12,
+  "w": 128.0
+ },
+ "alexandria/royal-palaces": {
+  "cx": 0.0,
+  "cy": -1.24,
+  "d": 302.48,
+  "ext": "webp",
+  "px": 944,
+  "size": 314.58,
+  "w": 260.0
+ },
+ "alexandria/royal-palaces-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 260.0
+ },
+ "alexandria/sema": {
+  "cx": 0.0,
+  "cy": 1.77,
+  "d": 113.54,
+  "ext": "webp",
+  "px": 354,
+  "size": 118.08,
+  "w": 110.0
+ },
+ "alexandria/serapeum": {
+  "cx": 0.0,
+  "cy": 7.35,
+  "d": 114.7,
+  "ext": "webp",
+  "px": 499,
+  "size": 166.4,
+  "w": 160.0
+ },
+ "alexandria/serapeum-ruin": {
+  "cx": 0.0,
+  "cy": 7.35,
+  "d": 114.7,
+  "ext": "webp",
+  "px": 499,
+  "size": 166.4,
+  "w": 160.0
+ },
+ "alexandria/st-athanasius": {
+  "cx": 1.47,
+  "cy": -0.0,
+  "d": 56.0,
+  "ext": "webp",
+  "px": 196,
+  "size": 65.45,
+  "w": 62.94
+ },
+ "alexandria/st-mark": {
+  "cx": 0.0,
+  "cy": -0.1,
+  "d": 36.2,
+  "ext": "webp",
+  "px": 200,
+  "size": 66.56,
+  "w": 64.0
+ },
+ "alexandria/timonium": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 340.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 353.6,
+  "w": 66.0
+ },
  "athens/altar-twelve": {
   "cx": 0.0,
   "cy": -0.0,
