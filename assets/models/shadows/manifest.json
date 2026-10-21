@@ -104,6 +104,126 @@
   "cy": 0.0,
   "size": 228.86
  },
+ "alexandria/al-mursi": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 105.05
+ },
+ "alexandria/attarine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 122.05
+ },
+ "alexandria/bab-rashid": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 81.58
+ },
+ "alexandria/caesareum": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "size": 210.54
+ },
+ "alexandria/caesareum-church": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "size": 205.84
+ },
+ "alexandria/city-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 99.94
+ },
+ "alexandria/gymnasium": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "size": 256.14
+ },
+ "alexandria/heptastadion": {
+  "cx": -2.18,
+  "cy": -0.0,
+  "size": 1225.59
+ },
+ "alexandria/kom-el-dikka": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 119.96
+ },
+ "alexandria/kom-el-shoqafa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 69.88
+ },
+ "alexandria/museum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 223.2
+ },
+ "alexandria/needles": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 204.76
+ },
+ "alexandria/paneion": {
+  "cx": 0.0,
+  "cy": 3.76,
+  "size": 221.76
+ },
+ "alexandria/pharos": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "size": 347.7
+ },
+ "alexandria/pompeys-pillar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 77.68
+ },
+ "alexandria/qaitbay": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 194.35
+ },
+ "alexandria/royal-palaces": {
+  "cx": 0.0,
+  "cy": -1.24,
+  "size": 360.57
+ },
+ "alexandria/royal-palaces-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 329.06
+ },
+ "alexandria/sema": {
+  "cx": 0.0,
+  "cy": 1.77,
+  "size": 181.5
+ },
+ "alexandria/serapeum": {
+  "cx": 0.0,
+  "cy": 7.35,
+  "size": 226.95
+ },
+ "alexandria/serapeum-ruin": {
+  "cx": 0.0,
+  "cy": 7.35,
+  "size": 205.8
+ },
+ "alexandria/st-athanasius": {
+  "cx": 1.47,
+  "cy": -0.0,
+  "size": 104.03
+ },
+ "alexandria/st-mark": {
+  "cx": 0.0,
+  "cy": -0.1,
+  "size": 102.19
+ },
+ "alexandria/timonium": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 381.48
+ },
  "athens/altar-twelve": {
   "cx": 0.0,
   "cy": -0.0,
