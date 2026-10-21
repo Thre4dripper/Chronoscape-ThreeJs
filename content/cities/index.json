@@ -10,6 +10,7 @@
     { "id": "cairo", "name": "Cairo", "subtitle": "Misr, Mother of the World", "status": "playable" },
     { "id": "edo", "name": "Edo", "subtitle": "The Shogun's City", "status": "playable" },
     { "id": "fatehpur-sikri", "name": "Fatehpur Sikri", "subtitle": "Akbar's City of Victory", "status": "playable" },
-    { "id": "nara", "name": "Nara", "subtitle": "Heijō-kyō, the Capital of the Peaceful Citadel", "status": "playable" }
+    { "id": "nara", "name": "Nara", "subtitle": "Heijō-kyō, the Capital of the Peaceful Citadel", "status": "playable" },
+    { "id": "cusco", "name": "Cusco", "subtitle": "Qusqu, Navel of the Inca World", "status": "playable" }
   ]
 }

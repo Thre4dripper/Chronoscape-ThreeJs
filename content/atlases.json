@@ -504,7 +504,9 @@
           "subtitle": "Navel of the Inca world, 1530",
           "at": [-71.97, -13.53],
           "glyph": "enclosure",
-          "blurb": "The Inca capital of fitted stone walls, the Coricancha temple and roads leading to every corner of the empire."
+          "blurb": "The Inca capital of fitted stone walls, the Coricancha temple and roads leading to every corner of the empire.",
+          "city": "cusco",
+          "period": "huayna-1530"
         }
       ]
     }

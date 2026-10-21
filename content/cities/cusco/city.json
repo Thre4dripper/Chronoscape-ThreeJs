@@ -1,0 +1,5316 @@
+{
+ "id": "cusco",
+ "name": "Cusco",
+ "subtitle": "Qusqu, Navel of the Inca World",
+ "description": "Cusco from the small Killke-period town of the early Incas to the Spanish city rebuilt after the earthquake of 1650: the core between the canalised Saphy and Tullumayo, Sacsayhuamán on the hill above, and the four roads leaving for the four quarters of Tawantinsuyu. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "huayna-1530",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#B9AE98",
+   "#AFA38B",
+   "#C4B9A2"
+  ],
+  "roofs": [
+   "#A8925C",
+   "#9C8854"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2544,
+    1997
+   ],
+   "distance": 34,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   5412,
+   4438
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Saphy (Huatanay)",
+    "path": [
+     [
+      2035,
+      0
+     ],
+     [
+      1840,
+      666
+     ],
+     [
+      1710,
+      1220
+     ],
+     [
+      1840,
+      1609
+     ],
+     [
+      2100,
+      1886
+     ],
+     [
+      2363,
+      2010
+     ],
+     [
+      2467,
+      2119
+     ],
+     [
+      2572,
+      2227
+     ],
+     [
+      2676,
+      2333
+     ],
+     [
+      2782,
+      2440
+     ],
+     [
+      2890,
+      2544
+     ],
+     [
+      3085,
+      2685
+     ]
+    ],
+    "width": 10,
+    "id": "saphy",
+    "blurb": "The 'root' stream, coming down past Sacsayhuamán and through the city between the two plazas. Pachacuti had it walled into a stone channel with stone-paved bed, crossed by slab bridges; in the colonial city it became a smelly open sewer and was later vaulted over under the Avenida El Sol.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Saphy stream",
+    "path": [
+     [
+      2035,
+      0
+     ],
+     [
+      1840,
+      666
+     ],
+     [
+      1710,
+      1220
+     ],
+     [
+      1840,
+      1609
+     ],
+     [
+      2100,
+      1886
+     ],
+     [
+      2363,
+      2010
+     ],
+     [
+      2467,
+      2119
+     ],
+     [
+      2572,
+      2227
+     ],
+     [
+      2676,
+      2333
+     ],
+     [
+      2782,
+      2440
+     ],
+     [
+      2890,
+      2544
+     ],
+     [
+      3085,
+      2685
+     ]
+    ],
+    "width": 18,
+    "id": "saphy-killke",
+    "blurb": "Still a wandering mountain stream, spreading into marsh on the flat ground where the great plaza would later be laid out.",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "name": "Tullumayo",
+    "path": [
+     [
+      3593,
+      0
+     ],
+     [
+      3442,
+      777
+     ],
+     [
+      3290,
+      1331
+     ],
+     [
+      3193,
+      1775
+     ],
+     [
+      3171,
+      2274
+     ],
+     [
+      3085,
+      2685
+     ]
+    ],
+    "width": 9,
+    "id": "tullumayo",
+    "blurb": "The 'bone river' on the east side of the core, also walled into a stone channel. The puma-shaped plan of the usual reading sets the city's body between it and the Saphy.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Tullumayo stream",
+    "path": [
+     [
+      3593,
+      0
+     ],
+     [
+      3442,
+      777
+     ],
+     [
+      3290,
+      1331
+     ],
+     [
+      3193,
+      1775
+     ],
+     [
+      3171,
+      2274
+     ],
+     [
+      3085,
+      2685
+     ]
+    ],
+    "width": 14,
+    "id": "tullumayo-killke",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "name": "Huatanay",
+    "path": [
+     [
+      3085,
+      2685
+     ],
+     [
+      3550,
+      3018
+     ],
+     [
+      4200,
+      3439
+     ],
+     [
+      4817,
+      3828
+     ],
+     [
+      5412,
+      4105
+     ]
+    ],
+    "width": 16,
+    "id": "huatanay",
+    "blurb": "Below the meeting of the two streams at Pumachupan the river runs south-east down the valley toward Lake Muina and the Vilcanota. Its banks were terraced and irrigated maize land."
+   },
+   {
+    "name": "Chunchulmayo",
+    "path": [
+     [
+      649,
+      3550
+     ],
+     [
+      1515,
+      3439
+     ],
+     [
+      2381,
+      3273
+     ],
+     [
+      3139,
+      3129
+     ],
+     [
+      3788,
+      3173
+     ]
+    ],
+    "width": 8,
+    "id": "chunchulmayo",
+    "blurb": "A stream draining the slopes of Puquín south-west of the city, joining the Huatanay below the city."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Sacsayhuamán hill",
+    "center": [
+     2186,
+     1243
+    ],
+    "radius": 260,
+    "label": false,
+    "id": "sacsayhuaman-hill",
+    "blurb": "The steep hill north of the city, the puma's head in the usual reading of the plan. Its summit carries the towers of Sacsayhuamán; its gentler north side, the zigzag walls."
+   },
+   {
+    "name": "Suchuna (Rodadero)",
+    "center": [
+     2327,
+     888
+    ],
+    "radius": 200,
+    "label": true,
+    "id": "suchuna",
+    "blurb": "The polished rock dome across the esplanade from Sacsayhuamán's walls, cut with terraces and a carved 'throne of the Inca' facing the ramparts."
+   },
+   {
+    "name": "Picchu",
+    "center": [
+     920,
+     1720
+    ],
+    "radius": 360,
+    "label": true,
+    "id": "picchu",
+    "blurb": "The hill west of the city over which the Chinchaysuyu road climbed. From its top, observers watched the sun set behind pillars on the horizon to fix the time of planting."
+   },
+   {
+    "name": "Puquín",
+    "center": [
+     1245,
+     3195
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "puquin",
+    "blurb": "A hill south-west of Cusco, sacred to the Inca with a shrine where the Cuntisuyu road left the valley; its slopes are cut with terraces."
+   },
+   {
+    "name": "Qenqo hill",
+    "center": [
+     3085,
+     1054
+    ],
+    "radius": 220,
+    "label": false,
+    "id": "socorro",
+    "blurb": "Limestone outcrops north-east of the city, carved into shrines of which Qenqo is the largest."
+   },
+   {
+    "name": "Mantoqalla",
+    "center": [
+     4275,
+     388
+    ],
+    "radius": 330,
+    "label": true,
+    "id": "mantoqalla",
+    "blurb": "The hill over which the Antisuyu road climbed toward Pisac and the forests of the east."
+   },
+   {
+    "name": "Toward Huanacauri",
+    "center": [
+     3951,
+     4305
+    ],
+    "radius": 420,
+    "label": true,
+    "id": "huanacauri",
+    "blurb": "The ridge south of the valley rising toward Huanacauri, the mountain where, in the founding legend, one of the Ayar brothers turned to stone; it was one of the most sacred shrines of the Inca, some 9 km south-east of the city."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Road to Chinchaysuyu",
+    "path": [
+     [
+      2417,
+      2041
+     ],
+     [
+      2339,
+      1964
+     ],
+     [
+      2143,
+      1842
+     ],
+     [
+      2035,
+      1786
+     ],
+     [
+      1894,
+      1709
+     ],
+     [
+      1645,
+      1664
+     ],
+     [
+      1245,
+      1498
+     ],
+     [
+      649,
+      1165
+     ],
+     [
+      0,
+      666
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "chinchaysuyu",
+    "blurb": "The road of the north-western quarter, the largest, climbing over Carmenca toward Xaquixaguana, Vilcashuamán, Cajamarca and Quito, 2,000 km away. Chaskis covered it in relays.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Road to Antisuyu",
+    "path": [
+     [
+      2619,
+      2073
+     ],
+     [
+      2823,
+      1897
+     ],
+     [
+      2921,
+      1820
+     ],
+     [
+      3085,
+      1686
+     ],
+     [
+      3139,
+      1664
+     ],
+     [
+      3280,
+      1620
+     ],
+     [
+      3572,
+      1442
+     ],
+     [
+      4113,
+      999
+     ],
+     [
+      4762,
+      444
+     ],
+     [
+      5249,
+      22
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "antisuyu",
+    "blurb": "The road of the north-eastern quarter, up past Toqokachi and over the hills to Pisac, Paucartambo and the forests of the Amazon slope, source of coca, feathers and hardwoods.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Road to Collasuyu",
+    "path": [
+     [
+      2536,
+      2177
+     ],
+     [
+      2684,
+      2326
+     ],
+     [
+      2804,
+      2445
+     ],
+     [
+      2900,
+      2534
+     ],
+     [
+      3038,
+      2622
+     ],
+     [
+      3074,
+      2644
+     ],
+     [
+      3119,
+      2668
+     ],
+     [
+      3572,
+      2863
+     ],
+     [
+      4221,
+      3195
+     ],
+     [
+      4871,
+      3606
+     ],
+     [
+      5412,
+      3905
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "collasuyu",
+    "blurb": "The road of the south-eastern quarter, down the Huatanay valley and on to Lake Titicaca, Potosí's future mountain and Chile. Huayna Capac's armies and the llama trains of the Altiplano came in along it.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Road to Cuntisuyu",
+    "path": [
+     [
+      2455,
+      2088
+     ],
+     [
+      2433,
+      2109
+     ],
+     [
+      2143,
+      2330
+     ],
+     [
+      1948,
+      2607
+     ],
+     [
+      1678,
+      3107
+     ],
+     [
+      1245,
+      3772
+     ],
+     [
+      758,
+      4416
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "cuntisuyu",
+    "blurb": "The road of the south-western quarter, the smallest, leaving Kusipata past Puquín toward Arequipa and the Pacific coast.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Street of Hatun Rumiyoc",
+    "path": [
+     [
+      2619,
+      2073
+     ],
+     [
+      2823,
+      1897
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "hatun-rumiyoc-st",
+    "blurb": "A narrow street walled on both sides with the finest fitted masonry in the city, the palace of Inca Roca on one side.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Intikijllu (street of the sun)",
+    "path": [
+     [
+      2598,
+      2116
+     ],
+     [
+      2876,
+      2389
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "loreto-st",
+    "blurb": "A walled lane between Amarukancha and the Aqllawasi leading from Haukaypata toward the Coricancha; Calle Loreto today. Its Inca walls still stand.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Street of the Aqllawasi",
+    "path": [
+     [
+      2610,
+      2245
+     ],
+     [
+      2868,
+      1986
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "arequipa-st",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Street of Pucamarca",
+    "path": [
+     [
+      2747,
+      2382
+     ],
+     [
+      3007,
+      2124
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "maruri-st",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Way up to Sacsayhuamán",
+    "path": [
+     [
+      2502,
+      1956
+     ],
+     [
+      2381,
+      1775
+     ],
+     [
+      2381,
+      1553
+     ],
+     [
+      2295,
+      1398
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "sacsayhuaman-way",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Path to Qenqo",
+    "path": [
+     [
+      2295,
+      1398
+     ],
+     [
+      2598,
+      1276
+     ],
+     [
+      2944,
+      1165
+     ],
+     [
+      3106,
+      1143
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "qenqo-way",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "name": "Track to the north",
+    "path": [
+     [
+      2706,
+      2162
+     ],
+     [
+      2706,
+      1965
+     ],
+     [
+      2381,
+      1775
+     ],
+     [
+      2186,
+      1331
+     ],
+     [
+      1840,
+      666
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "killke-track-n",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "name": "Track down the valley",
+    "path": [
+     [
+      2809,
+      2441
+     ],
+     [
+      2900,
+      2534
+     ],
+     [
+      3038,
+      2622
+     ],
+     [
+      3119,
+      2668
+     ],
+     [
+      3572,
+      2863
+     ],
+     [
+      4221,
+      3195
+     ],
+     [
+      4871,
+      3606
+     ],
+     [
+      5412,
+      3905
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "killke-track-se",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "name": "Track to Carmenca",
+    "path": [
+     [
+      2706,
+      2162
+     ],
+     [
+      2423,
+      2036
+     ],
+     [
+      2143,
+      1842
+     ],
+     [
+      1894,
+      1709
+     ],
+     [
+      1645,
+      1664
+     ],
+     [
+      1245,
+      1498
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "killke-track-w",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "name": "Camino Real to Lima",
+    "path": [
+     [
+      2417,
+      2041
+     ],
+     [
+      2339,
+      1964
+     ],
+     [
+      2143,
+      1842
+     ],
+     [
+      2035,
+      1786
+     ],
+     [
+      1894,
+      1709
+     ],
+     [
+      1645,
+      1664
+     ],
+     [
+      1245,
+      1498
+     ],
+     [
+      649,
+      1165
+     ],
+     [
+      0,
+      666
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "camino-lima",
+    "blurb": "The old Chinchaysuyu road, now the royal road to Lima, leaving past the parish church of Santa Ana on Carmenca hill and its arch.",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Camino Real to Potosí",
+    "path": [
+     [
+      2536,
+      2177
+     ],
+     [
+      2684,
+      2326
+     ],
+     [
+      2804,
+      2445
+     ],
+     [
+      2900,
+      2534
+     ],
+     [
+      3038,
+      2622
+     ],
+     [
+      3074,
+      2644
+     ],
+     [
+      3119,
+      2668
+     ],
+     [
+      3572,
+      2863
+     ],
+     [
+      4221,
+      3195
+     ],
+     [
+      4871,
+      3606
+     ],
+     [
+      5412,
+      3905
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "camino-potosi",
+    "blurb": "The old Collasuyu road, now the route of the mule trains to Potosí's silver mines and of Cusco's cloth, sugar and coca to the Altiplano.",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Road to Arequipa",
+    "path": [
+     [
+      2455,
+      2088
+     ],
+     [
+      2433,
+      2109
+     ],
+     [
+      2143,
+      2330
+     ],
+     [
+      1948,
+      2607
+     ],
+     [
+      1678,
+      3107
+     ],
+     [
+      1245,
+      3772
+     ],
+     [
+      758,
+      4416
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "camino-arequipa",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Road to Paucartambo",
+    "path": [
+     [
+      2619,
+      2073
+     ],
+     [
+      2823,
+      1897
+     ],
+     [
+      2921,
+      1820
+     ],
+     [
+      3085,
+      1686
+     ],
+     [
+      3139,
+      1664
+     ],
+     [
+      3280,
+      1620
+     ],
+     [
+      3572,
+      1442
+     ],
+     [
+      4113,
+      999
+     ],
+     [
+      4762,
+      444
+     ],
+     [
+      5249,
+      22
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "camino-paucartambo",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Calle del Triunfo and Hatun Rumiyoc",
+    "path": [
+     [
+      2619,
+      2073
+     ],
+     [
+      2823,
+      1897
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": true,
+    "id": "calle-triunfo",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Calle Loreto",
+    "path": [
+     [
+      2598,
+      2116
+     ],
+     [
+      2876,
+      2389
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": true,
+    "id": "calle-loreto",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Calle Arequipa",
+    "path": [
+     [
+      2610,
+      2245
+     ],
+     [
+      2868,
+      1986
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "calle-arequipa",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Calle Maruri",
+    "path": [
+     [
+      2747,
+      2382
+     ],
+     [
+      3007,
+      2124
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "calle-maruri",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Calle Mantas",
+    "path": [
+     [
+      2399,
+      2075
+     ],
+     [
+      2274,
+      2141
+     ],
+     [
+      2133,
+      2212
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "calle-mantas",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Cuesta de San Cristóbal",
+    "path": [
+     [
+      2502,
+      1956
+     ],
+     [
+      2381,
+      1775
+     ],
+     [
+      2381,
+      1553
+     ],
+     [
+      2295,
+      1398
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "cuesta-san-cristobal",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Calle Plateros and Saphy",
+    "path": [
+     [
+      2363,
+      1968
+     ],
+     [
+      2282,
+      1879
+     ],
+     [
+      2190,
+      1802
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "calle-plateros",
+    "periods": [
+     "colonial-1650"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [
+   {
+    "name": "Bridge between the plazas",
+    "path": [
+     [
+      2454,
+      2089
+     ],
+     [
+      2435,
+      2108
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "kusipata-bridge",
+    "blurb": "Flat slabs laid across the stone-walled Saphy joined Haukaypata and Kusipata; on great feast days the two plazas, and the river between them, were one crowd.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Carmenca bridge",
+    "path": [
+     [
+      2035,
+      1786
+     ],
+     [
+      1894,
+      1709
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "carmenca-bridge",
+    "blurb": "Where the Chinchaysuyu road crossed the Saphy on its way up Carmenca hill.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Pumachupan bridge",
+    "path": [
+     [
+      3074,
+      2644
+     ],
+     [
+      3119,
+      2668
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "pumachupan-bridge",
+    "blurb": "At the puma's tail, just above the meeting of the two rivers, the Collasuyu road crossed the Tullumayo.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Toqokachi bridge",
+    "path": [
+     [
+      3139,
+      1664
+     ],
+     [
+      3280,
+      1620
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "toqokachi-bridge",
+    "blurb": "The Antisuyu road's crossing of the Tullumayo below the hill of Toqokachi, later the parish of San Blas.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "name": "Stepping stones",
+    "path": [
+     [
+      2035,
+      1786
+     ],
+     [
+      1894,
+      1709
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "killke-ford",
+    "periods": [
+     "killke-1300"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2600,
+      2198
+     ],
+     [
+      2826,
+      2424
+     ],
+     [
+      2939,
+      2311
+     ],
+     [
+      2712,
+      2085
+     ]
+    ],
+    "density": "dense",
+    "name": "Early Inca compounds",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2628,
+      1986
+     ],
+     [
+      2790,
+      2148
+     ],
+     [
+      2910,
+      2028
+     ],
+     [
+      2748,
+      1866
+     ]
+    ],
+    "density": "loose",
+    "name": "Upper compounds",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2826,
+      2439
+     ],
+     [
+      2939,
+      2552
+     ],
+     [
+      3038,
+      2453
+     ],
+     [
+      2925,
+      2340
+     ]
+    ],
+    "density": "dense",
+    "name": "Compounds by the Inticancha",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1515,
+      1531
+     ],
+     [
+      1840,
+      1442
+     ],
+     [
+      1818,
+      1664
+     ],
+     [
+      1515,
+      1775
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet of Carmenca",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2760,
+      1886
+     ],
+     [
+      2922,
+      1720
+     ],
+     [
+      2760,
+      1609
+     ],
+     [
+      2598,
+      1775
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet of Toqokachi",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1840,
+      2441
+     ],
+     [
+      2165,
+      2385
+     ],
+     [
+      2219,
+      2663
+     ],
+     [
+      1894,
+      2752
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet of Cayaocache",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2814,
+      2885
+     ],
+     [
+      3247,
+      2829
+     ],
+     [
+      3301,
+      3051
+     ],
+     [
+      2868,
+      3129
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet of Coripata",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2505,
+      1954
+     ],
+     [
+      2615,
+      2063
+     ],
+     [
+      2809,
+      1870
+     ],
+     [
+      2698,
+      1760
+     ]
+    ],
+    "density": "dense",
+    "name": "Hanan Qusqu",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2262,
+      1872
+     ],
+     [
+      2421,
+      2030
+     ],
+     [
+      2539,
+      1912
+     ],
+     [
+      2380,
+      1753
+     ]
+    ],
+    "density": "dense",
+    "name": "Kancha of the north-west",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2377,
+      1742
+     ],
+     [
+      2544,
+      1908
+     ],
+     [
+      2667,
+      1784
+     ],
+     [
+      2500,
+      1618
+     ]
+    ],
+    "density": "dense",
+    "name": "Kancha below Qollqampata",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2598,
+      2108
+     ],
+     [
+      2807,
+      2317
+     ],
+     [
+      3024,
+      2099
+     ],
+     [
+      2815,
+      1891
+     ]
+    ],
+    "density": "dense",
+    "name": "Kancha east of the Aqllawasi",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2540,
+      2172
+     ],
+     [
+      2816,
+      2449
+     ],
+     [
+      2870,
+      2394
+     ],
+     [
+      2594,
+      2118
+     ]
+    ],
+    "density": "dense",
+    "name": "Hurin Qusqu",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2813,
+      2324
+     ],
+     [
+      2989,
+      2501
+     ],
+     [
+      3186,
+      2304
+     ],
+     [
+      3010,
+      2127
+     ]
+    ],
+    "density": "dense",
+    "name": "Kancha toward the Tullumayo",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2817,
+      2446
+     ],
+     [
+      2973,
+      2603
+     ],
+     [
+      3030,
+      2546
+     ],
+     [
+      2874,
+      2390
+     ]
+    ],
+    "density": "dense",
+    "name": "Kancha round the Coricancha",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2728,
+      1886
+     ],
+     [
+      2944,
+      1686
+     ],
+     [
+      2792,
+      1531
+     ],
+     [
+      2511,
+      1575
+     ],
+     [
+      2489,
+      1753
+     ]
+    ],
+    "density": "loose",
+    "name": "Toqokachi",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1353,
+      1575
+     ],
+     [
+      1753,
+      1487
+     ],
+     [
+      1818,
+      1642
+     ],
+     [
+      1710,
+      1797
+     ],
+     [
+      1353,
+      1831
+     ]
+    ],
+    "density": "loose",
+    "name": "Carmenca",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1732,
+      2496
+     ],
+     [
+      2056,
+      2385
+     ],
+     [
+      2186,
+      2685
+     ],
+     [
+      1862,
+      2885
+     ]
+    ],
+    "density": "loose",
+    "name": "Cayaocache",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2288,
+      2212
+     ],
+     [
+      2458,
+      2382
+     ],
+     [
+      2572,
+      2269
+     ],
+     [
+      2402,
+      2099
+     ]
+    ],
+    "density": "loose",
+    "name": "Quarter beyond Kusipata",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2706,
+      2940
+     ],
+     [
+      3269,
+      2840
+     ],
+     [
+      3377,
+      3084
+     ],
+     [
+      2814,
+      3195
+     ]
+    ],
+    "density": "loose",
+    "name": "Coripata",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3225,
+      2108
+     ],
+     [
+      3464,
+      1886
+     ],
+     [
+      3572,
+      2130
+     ],
+     [
+      3334,
+      2385
+     ]
+    ],
+    "density": "loose",
+    "name": "Munaysenqa",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3301,
+      2496
+     ],
+     [
+      3572,
+      2385
+     ],
+     [
+      3572,
+      2718
+     ],
+     [
+      3334,
+      2752
+     ]
+    ],
+    "density": "loose",
+    "name": "Pumamarka",
+    "periods": [
+     "huayna-1530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2505,
+      1954
+     ],
+     [
+      2615,
+      2063
+     ],
+     [
+      2809,
+      1870
+     ],
+     [
+      2698,
+      1760
+     ]
+    ],
+    "density": "dense",
+    "name": "Traza north of the plaza",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2262,
+      1872
+     ],
+     [
+      2421,
+      2030
+     ],
+     [
+      2539,
+      1912
+     ],
+     [
+      2380,
+      1753
+     ]
+    ],
+    "density": "dense",
+    "name": "Traza west of the plaza",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2377,
+      1742
+     ],
+     [
+      2544,
+      1908
+     ],
+     [
+      2667,
+      1784
+     ],
+     [
+      2500,
+      1618
+     ]
+    ],
+    "density": "dense",
+    "name": "San Cristóbal",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2598,
+      2108
+     ],
+     [
+      2807,
+      2317
+     ],
+     [
+      3024,
+      2099
+     ],
+     [
+      2815,
+      1891
+     ]
+    ],
+    "density": "dense",
+    "name": "Santa Catalina and San Agustín",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2540,
+      2172
+     ],
+     [
+      2816,
+      2449
+     ],
+     [
+      2870,
+      2394
+     ],
+     [
+      2594,
+      2118
+     ]
+    ],
+    "density": "dense",
+    "name": "Calle Mantas and the university",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2813,
+      2324
+     ],
+     [
+      2989,
+      2501
+     ],
+     [
+      3186,
+      2304
+     ],
+     [
+      3010,
+      2127
+     ]
+    ],
+    "density": "dense",
+    "name": "Toward the Tullumayo",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2817,
+      2446
+     ],
+     [
+      2973,
+      2603
+     ],
+     [
+      3030,
+      2546
+     ],
+     [
+      2874,
+      2390
+     ]
+    ],
+    "density": "dense",
+    "name": "Santo Domingo quarter",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2296,
+      2205
+     ],
+     [
+      2402,
+      2311
+     ],
+     [
+      2514,
+      2198
+     ],
+     [
+      2408,
+      2091
+     ]
+    ],
+    "density": "dense",
+    "name": "Regocijo and the cabildo",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2317,
+      2397
+     ],
+     [
+      2437,
+      2516
+     ],
+     [
+      2636,
+      2318
+     ],
+     [
+      2514,
+      2198
+     ]
+    ],
+    "density": "dense",
+    "name": "San Francisco and Santa Clara",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1928,
+      2205
+     ],
+     [
+      2105,
+      2382
+     ],
+     [
+      2218,
+      2269
+     ],
+     [
+      2041,
+      2091
+     ]
+    ],
+    "density": "dense",
+    "name": "Behind San Francisco",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2119,
+      2127
+     ],
+     [
+      2239,
+      2248
+     ],
+     [
+      2388,
+      2099
+     ],
+     [
+      2268,
+      1979
+     ]
+    ],
+    "density": "dense",
+    "name": "Below the Saphy",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2728,
+      1886
+     ],
+     [
+      3009,
+      1686
+     ],
+     [
+      2901,
+      1487
+     ],
+     [
+      2511,
+      1531
+     ],
+     [
+      2468,
+      1753
+     ]
+    ],
+    "density": "loose",
+    "name": "San Blas",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1353,
+      1575
+     ],
+     [
+      1753,
+      1487
+     ],
+     [
+      1818,
+      1642
+     ],
+     [
+      1710,
+      1797
+     ],
+     [
+      1353,
+      1831
+     ]
+    ],
+    "density": "loose",
+    "name": "Santa Ana",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1515,
+      2718
+     ],
+     [
+      1894,
+      2552
+     ],
+     [
+      2035,
+      2829
+     ],
+     [
+      1678,
+      2996
+     ]
+    ],
+    "density": "loose",
+    "name": "Belén",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1840,
+      2496
+     ],
+     [
+      2002,
+      2419
+     ],
+     [
+      2078,
+      2574
+     ],
+     [
+      1927,
+      2641
+     ]
+    ],
+    "density": "loose",
+    "name": "Hospital de Naturales",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3572,
+      2940
+     ],
+     [
+      3896,
+      2840
+     ],
+     [
+      4059,
+      3129
+     ],
+     [
+      3680,
+      3218
+     ]
+    ],
+    "density": "loose",
+    "name": "San Sebastián road",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3225,
+      2108
+     ],
+     [
+      3464,
+      1886
+     ],
+     [
+      3572,
+      2130
+     ],
+     [
+      3334,
+      2385
+     ]
+    ],
+    "density": "loose",
+    "name": "Beyond the Tullumayo",
+    "periods": [
+     "colonial-1650"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2381,
+      1465
+     ],
+     [
+      2598,
+      1387
+     ],
+     [
+      2684,
+      1553
+     ],
+     [
+      2489,
+      1664
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Terraces below Sacsayhuamán",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1299,
+      1387
+     ],
+     [
+      1569,
+      1276
+     ],
+     [
+      1710,
+      1442
+     ],
+     [
+      1407,
+      1531
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Terraces of Carmenca",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3247,
+      3107
+     ],
+     [
+      3896,
+      3329
+     ],
+     [
+      3842,
+      3550
+     ],
+     [
+      3193,
+      3329
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Maize terraces of the Huatanay",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      974,
+      2996
+     ],
+     [
+      1353,
+      2885
+     ],
+     [
+      1461,
+      3129
+     ],
+     [
+      1082,
+      3240
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Terraces of Puquín",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      2374,
+      2014
+     ],
+     [
+      2558,
+      2198
+     ],
+     [
+      2656,
+      2099
+     ],
+     [
+      2472,
+      1915
+     ]
+    ],
+    "name": "Marsh of the valley floor",
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2946,
+      2544
+     ],
+     [
+      3060,
+      2630
+     ],
+     [
+      3172,
+      2544
+     ],
+     [
+      3060,
+      2460
+     ]
+    ],
+    "name": "Wet ground at Pumachupan",
+    "periods": [
+     "killke-1300"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "hanan",
+    "name": "Hanan Qusqu (Upper Cusco)",
+    "polygon": [
+     [
+      2235,
+      1855
+     ],
+     [
+      2533,
+      2152
+     ],
+     [
+      2868,
+      1816
+     ],
+     [
+      2572,
+      1519
+     ]
+    ],
+    "description": "The upper half of the city, toward Sacsayhuamán. Its lineages, the panaca of the later Incas from Inca Roca on, ranked above those of Hurin; the usual account makes the division a dual organisation found all over the Andes.",
+    "periods": [
+     "killke-1300",
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "id": "hurin",
+    "name": "Hurin Qusqu (Lower Cusco)",
+    "polygon": [
+     [
+      2514,
+      2170
+     ],
+     [
+      3045,
+      2701
+     ],
+     [
+      3314,
+      2431
+     ],
+     [
+      2784,
+      1901
+     ]
+    ],
+    "description": "The lower half of the city, toward the Coricancha and Pumachupan, home of the panaca of the first Incas, from Manco Capac to Capac Yupanqui, the usual king-list says.",
+    "periods": [
+     "killke-1300",
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "id": "kusipata",
+    "name": "Kusipata",
+    "polygon": [
+     [
+      2196,
+      2106
+     ],
+     [
+      2380,
+      2290
+     ],
+     [
+      2497,
+      2174
+     ],
+     [
+      2313,
+      1989
+     ]
+    ],
+    "description": "'Terrace of joy', the half of the great plaza across the Saphy from Haukaypata. Its earth, the chroniclers say, was carried away and replaced with earth from every province of the empire.",
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "id": "san-blas",
+    "name": "Parish of San Blas",
+    "polygon": [
+     [
+      2706,
+      1908
+     ],
+     [
+      3052,
+      1664
+     ],
+     [
+      2922,
+      1442
+     ],
+     [
+      2489,
+      1498
+     ],
+     [
+      2435,
+      1775
+     ]
+    ],
+    "description": "The old Toqokachi on the slope north-east of the plaza, one of the parishes for the native people founded in the 1560s; later the quarter of the woodcarvers and painters.",
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "id": "santa-ana",
+    "name": "Parish of Santa Ana",
+    "polygon": [
+     [
+      1299,
+      1553
+     ],
+     [
+      1818,
+      1442
+     ],
+     [
+      1894,
+      1664
+     ],
+     [
+      1710,
+      1864
+     ],
+     [
+      1299,
+      1864
+     ]
+    ],
+    "description": "Carmenca, on the Lima road, where the parish church's paintings show the Corpus Christi processions of the 1670s.",
+    "periods": [
+     "colonial-1650"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Saphy",
+    "position": [
+     1667,
+     1420
+    ],
+    "size": "sm",
+    "rotation": -75
+   },
+   {
+    "text": "Tullumayo",
+    "position": [
+     3269,
+     1997
+    ],
+    "size": "sm",
+    "rotation": -88
+   },
+   {
+    "text": "Huatanay",
+    "position": [
+     4351,
+     3439
+    ],
+    "size": "md",
+    "rotation": -32
+   },
+   {
+    "text": "Pumachupan (the puma's tail)",
+    "position": [
+     2944,
+     2796
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530",
+     "colonial-1650"
+    ]
+   },
+   {
+    "text": "Haukaypata",
+    "position": [
+     2536,
+     2049
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Kusipata",
+    "position": [
+     2349,
+     2138
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Plaza de Armas",
+    "position": [
+     2536,
+     2049
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "text": "Regocijo",
+    "position": [
+     2370,
+     2159
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "text": "Hanan Qusqu",
+    "position": [
+     2522,
+     1781
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "killke-1300",
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Hurin Qusqu",
+    "position": [
+     2932,
+     2248
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "killke-1300",
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Qusqu",
+    "position": [
+     2762,
+     2248
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "killke-1300"
+    ]
+   },
+   {
+    "text": "Cuzco",
+    "position": [
+     2848,
+     2162
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "text": "Chinchaysuyu",
+    "position": [
+     487,
+     888
+    ],
+    "size": "md",
+    "rotation": -48,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Antisuyu",
+    "position": [
+     4384,
+     555
+    ],
+    "size": "md",
+    "rotation": 45,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Collasuyu",
+    "position": [
+     4654,
+     3550
+    ],
+    "size": "md",
+    "rotation": -35,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Cuntisuyu",
+    "position": [
+     920,
+     3883
+    ],
+    "size": "md",
+    "rotation": 50,
+    "periods": [
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Carmenca",
+    "position": [
+     1537,
+     1886
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "killke-1300",
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "Santa Ana",
+    "position": [
+     1537,
+     1886
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "text": "Toqokachi",
+    "position": [
+     2652,
+     1575
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "killke-1300",
+     "pachacuti-1470",
+     "huayna-1530"
+    ]
+   },
+   {
+    "text": "San Blas",
+    "position": [
+     2652,
+     1575
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "colonial-1650"
+    ]
+   },
+   {
+    "text": "Belén",
+    "position": [
+     1515,
+     2940
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "colonial-1650"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E6D4AC",
+   "ink": "#634634",
+   "water": "#5F8688",
+   "hill": "#7A7A58",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   4871,
+   444
+  ],
+  "cartouche": [
+   108,
+   4349
+  ]
+ },
+ "periods": [
+  {
+   "id": "killke-1300",
+   "label": "Killke-period Qusqu",
+   "year": 1300,
+   "startYear": 1100,
+   "endYear": 1437,
+   "summary": "Before the empire, Cusco is one small polity among several in the valley. The Inca lineages live in fieldstone compounds on the tongue of land between the Saphy and Tullumayo streams, with the early Inticancha, the sun's enclosure, at its lower end. The valley floor is wet; villages of other groups sit on the slopes. Killke pottery, with its black and red geometric designs, marks the period.",
+   "population": "a few thousand at most (archaeological guess)",
+   "feel": "Smoke from dung fires, the gurgle of the unchannelled streams, dogs barking from compound to compound, and frogs in the reed beds where the great plaza will be.",
+   "style": "andean",
+   "houses": {
+    "title": "Fieldstone compounds of the early Incas",
+    "text": "A few rooms of rough fieldstone set in mud, under steep ichu-grass thatch, round a small walled yard with a grinding stone and a hearth. Guinea pigs run along the walls; maize dries on the roof."
+   },
+   "outskirts": {
+    "title": "Hamlets of the valley",
+    "text": "Clusters of round and square houses of other groups, the Alcabizas, Sañu and Ayarmaca among them, beside potato and maize plots on the slopes above the marsh."
+   }
+  },
+  {
+   "id": "pachacuti-1470",
+   "label": "Pachacuti's rebuilding",
+   "year": 1470,
+   "startYear": 1438,
+   "endYear": 1492,
+   "summary": "After beating the Chanka (traditionally in 1438), Pachacuti Inca Yupanqui rebuilt Cusco as an imperial capital. The Saphy and Tullumayo were walled into stone channels, the marsh drained into a great plaza, and the city laid out in blocks of kancha in fitted ashlar. The Coricancha was rebuilt and sheathed in gold; Sacsayhuamán was begun with labour drafted from the provinces.",
+   "population": "perhaps 20,000–40,000 in the core and the valley (estimates vary widely)",
+   "feel": "Ringing of stone hammers from dawn, the rumble of blocks dragged on ramps by gangs singing work songs, dust over the half-built walls, and the drums of a victory feast in the plaza.",
+   "style": "andean",
+   "houses": {
+    "title": "New kancha of fitted stone",
+    "text": "Rectangular walled compounds, each with three to eight one-room houses round a court, built for the royal lineages and the lords of the conquered provinces. The best are of fitted andesite with trapezoidal doors; others of fieldstone and clay, plastered and painted."
+   },
+   "outskirts": {
+    "title": "Terraces and resettled villages",
+    "text": "Pachacuti moved the valley's old inhabitants out to make room. Their villages now sit beyond the rivers among new terraces of maize, and new suburbs house the people sent from the provinces."
+   }
+  },
+  {
+   "id": "huayna-1530",
+   "label": "Navel of the Inca world",
+   "year": 1530,
+   "startYear": 1493,
+   "endYear": 1533,
+   "summary": "The capital of Tawantinsuyu at its height under Huayna Capac and in the civil war after his death. Royal compounds of fitted stone line the streets, each dead Inca kept in his palace by his lineage. The double plaza of Haukaypata and Kusipata, with its ushnu, can hold the whole city; Sacsayhuamán's three zigzag walls and towers stand above, and four roads leave for the four quarters.",
+   "population": "perhaps 100,000 or more in the valley (Spanish estimates; very uncertain)",
+   "feel": "Gold glinting on the Coricancha's band at noon, conch trumpets and drums in the plaza, the sour smell of chicha from every house, and lines of llamas jingling in from the roads.",
+   "style": "andean",
+   "houses": {
+    "title": "Royal and noble kancha",
+    "text": "Compounds of fitted stone with battered walls, trapezoidal doors and niches, single rooms round a court under steep ichu thatch tied down with rope. A lineage lived, cooked, brewed and stored together inside; only one or two doors gave onto the narrow street with its stone gutter."
+   },
+   "outskirts": {
+    "title": "Suburbs of the provinces",
+    "text": "Around the core lived the lords of the conquered peoples, each group in its own quarter in its own dress and headgear, among terraces, storehouses and the houses of servants, potters and stonemasons."
+   }
+  },
+  {
+   "id": "colonial-1650",
+   "label": "Spanish Cusco after the earthquake",
+   "year": 1650,
+   "startYear": 1534,
+   "endYear": 1720,
+   "summary": "Spanish Cusco stands on Inca foundations: Santo Domingo on the Coricancha, La Compañía on Amarukancha, Santa Catalina in the Aqllawasi, the cathedral on Kiswarkancha. Mansions with carved balconies and tile roofs rise on Inca walls, and Haukaypata is cut down into the Plaza de Armas. The earthquake of 31 March 1650 throws much of it down; the city is rebuilt in baroque over the next fifty years.",
+   "population": "perhaps 20,000–30,000",
+   "feel": "Church bells answering each other across the tile roofs, Quechua and Spanish shouted together in the market, incense and candle smoke, and chicha jars hanging from poles over tavern doors.",
+   "style": "early-modern",
+   "houses": {
+    "title": "Casonas on Inca walls",
+    "text": "Two-storey houses round arcaded patios, built of adobe and reused stone on the lower courses of Inca walls, with carved wooden balconies over the street and roofs of red tile. Shops and chicherías open in the ground-floor rooms."
+   },
+   "outskirts": {
+    "title": "Indian parishes",
+    "text": "Around the centre lie the parishes of the native people, San Blas, Santa Ana, Belén, San Cristóbal and the Hospital de Naturales, each with its church and plaza: adobe houses with tile or thatch, gardens and workshops of potters, weavers and painters."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "coricancha",
+   "placeId": "coricancha",
+   "name": "Coricancha (Qurikancha)",
+   "category": "temple",
+   "position": [
+    2900,
+    2441
+   ],
+   "rotation": 45,
+   "footprint": [
+    90.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/coricancha.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 90,
+     "depth": 110,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 9.0,
+     "columnHeight": 36.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "killke-1300",
+    "pachacuti-1470",
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "variants": {
+    "killke-1300": {
+     "name": "Inticancha",
+     "confidence": "interpretation",
+     "note": "The early Inticancha, 'enclosure of the sun': a walled yard with a few thatched shrine-houses of fieldstone at the lower end of the town, where the founding legend has Manco Capac settle.",
+     "model": {
+      "glb": "models/cusco/inticancha.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 90,
+       "depth": 110,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 9.0,
+       "columnHeight": 36.0
+      }
+     }
+    },
+    "pachacuti-1470": {
+     "note": "Rebuilt by Pachacuti in fitted andesite: shrines of the sun, moon, stars, thunder and rainbow round a court, the curved wall above the garden, and a band of gold sheet along the walls."
+    },
+    "huayna-1530": {
+     "note": "The richest shrine of the empire. Gold plates on the walls, the sun's image within, the mummies of past rulers brought out on feast days, and a garden of life-size maize, llamas and herders in gold and silver."
+    },
+    "colonial-1650": {
+     "name": "Santo Domingo on the Coricancha",
+     "note": "Given to the Dominicans in 1534. Their church and cloister rise on the Inca walls; the curved wall still carries the apse. The 1650 earthquake brought down the church, rebuilt with a baroque tower.",
+     "model": {
+      "glb": "models/cusco/santo-domingo.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 90,
+       "depth": 110,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 9.0,
+       "columnHeight": 36.0
+      }
+     }
+    }
+   },
+   "summary": "The temple of the sun at the puma's tail, where the Inca kept the image of Inti, the rulers' mummies and a garden made of gold, and where the Dominicans later built Santo Domingo on the Inca walls.",
+   "details": [
+    "Pachacuti rebuilt the old Inticancha as the empire's chief shrine: chambers of the sun, moon, stars, thunder and rainbow round a court, of andesite blocks fitted without mortar. Chroniclers describe a band of gold plate along the walls and a garden of gold and silver plants and animals. Early in 1533 the Spaniards stripped some 700 gold plates for Atahualpa's ransom.",
+    "The miniature shows the compound of fitted, slightly irregular ashlar with trapezoidal doors and niches, the gilt band under steep ichu-thatch roofs, the curved wall at the west corner, and the terraced garden falling toward the Saphy. Roof forms and the band's height are reconstruction; the plan follows the surviving walls."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-coricancha",
+    "gasparini-margolies",
+    "bauer-cusco",
+    "garcilaso",
+    "cieza"
+   ],
+   "built": "before 1400; rebuilt c. 1440s–1460s",
+   "function": "Temple of the sun and the state cult",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "sacsayhuaman",
+   "placeId": "sacsayhuaman",
+   "name": "Sacsayhuamán",
+   "category": "military",
+   "position": [
+    2186,
+    1198
+   ],
+   "rotation": 180,
+   "footprint": [
+    380.0,
+    240.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/sacsayhuaman.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 380,
+     "depth": 240,
+     "wallHeight": 48.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "variants": {
+    "killke-1300": {
+     "note": "A bare hill above the town, the puma's head of the later plan; terraces and small shrines only."
+    },
+    "pachacuti-1470": {
+     "note": "Begun under Pachacuti, the chronicles say, with thousands of workers drafted from the provinces in turns: the first zigzag terrace rising, ramps of earth for hauling, the hilltop being levelled for the towers.",
+     "model": {
+      "glb": "models/cusco/sacsayhuaman-1470.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 380,
+       "depth": 240,
+       "wallHeight": 48.0,
+       "bastions": 8
+      }
+     }
+    },
+    "huayna-1530": {
+     "note": "Finished or nearly so: three tiers of zigzag walls of giant fitted blocks facing the esplanade, and on the summit the round tower Muyuqmarka, the towers Sallaqmarka and Paucarmarka, storerooms and water tanks."
+    },
+    "colonial-1650": {
+     "name": "Sacsayhuamán (quarried)",
+     "note": "Scene of the fighting in 1536. Afterwards the Spaniards quarried the upper walls and towers for the cathedral and their houses; by 1650 only the zigzag terraces, too big to move, and the tower foundations remain.",
+     "model": {
+      "glb": "models/cusco/sacsayhuaman-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 380,
+       "depth": 240,
+       "wallHeight": 48.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The fortress-temple on the hill above Cusco: three terraces of zigzag walls built of the largest stones the Inca ever moved, crowned by towers, a sun shrine and storehouses.",
+   "details": [
+    "The three walls run about 400 m in sawtooth lines facing the esplanade of Chuquipampa. The largest limestone blocks of the lowest wall weigh over 100 tonnes and are fitted without mortar. Garcilaso, who played in the ruins as a boy, describes the round tower Muyuqmarka, the towers Sallaqmarka and Paucarmarka, and a maze of rooms. Whether it was mainly fortress, temple or storehouse is still argued.",
+    "The miniature shows the three zigzag walls with their trapezoidal gateways, the hilltop with Muyuqmarka (three concentric round walls under a conical roof), the two rectangular towers and the esplanade. The tower superstructures are reconstruction from Garcilaso and the excavated foundations."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sacsayhuaman",
+    "garcilaso",
+    "hemming-ranney",
+    "protzen"
+   ],
+   "built": "c. 1440s–1520s",
+   "function": "Temple, fortress and storehouse of the sun's city",
+   "activity": {
+    "figures": 60,
+    "radius": 260
+   }
+  },
+  {
+   "id": "haukaypata",
+   "placeId": "haukaypata",
+   "name": "Haukaypata and the Ushnu",
+   "category": "civic",
+   "position": [
+    2522,
+    2064
+   ],
+   "rotation": 45,
+   "footprint": [
+    181.0,
+    125.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/haukaypata.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 180,
+     "depth": 124,
+     "height": 49.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "variants": {
+    "killke-1300": {
+     "note": "Wet ground where the streams spread out; the legends say Pachacuti had the marsh drained and filled to make the plaza."
+    },
+    "pachacuti-1470": {
+     "note": "The new plaza, paved and spread with sand, said to be brought from the coast. The ushnu stands in it: a stepped stone platform from which the Inca presided, with a basin draining offerings of chicha into the earth."
+    },
+    "huayna-1530": {
+     "note": "The ceremonial heart of the empire. With Kusipata across the Saphy it holds the whole city for the great feasts, when the mummies of the past Incas are set out in rows to drink with the living."
+    },
+    "colonial-1650": {
+     "name": "Plaza de Armas",
+     "note": "Cut down by the Spaniards, who built houses with arcades (portales) over its edges. A fountain stands in the middle; markets, bullfights, executions and the Corpus Christi procession all happen here.",
+     "model": {
+      "glb": "models/cusco/plaza-1650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 180,
+       "depth": 124,
+       "height": 49.6,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "'Terrace of weeping' or of the feasts (the meaning is argued), the great plaza of Inca Cusco: a sanded square with the ushnu, the stepped platform of the Inca, at its heart.",
+   "details": [
+    "Haukaypata and Kusipata together made one of the largest open spaces of the Americas. The ushnu, described by early Spaniards as a stone with a gold-covered seat and a basin, was where libations of chicha were poured to the sun. The sand that covered the plaza was, some sources say, brought from the Pacific and mixed with gold and silver offerings.",
+    "The miniature shows the plaza paved and sanded within its kerbs, the ushnu as a stepped platform with a basin and a seat on top, a drainage channel and a few stone benches. The form of the ushnu is reconstruction, based on the better-preserved ushnus of Vilcashuamán and Huánuco Pampa."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-plaza-armas",
+    "wiki-ushnu",
+    "bauer-cusco",
+    "hyslop"
+   ],
+   "built": "c. 1440s",
+   "function": "Ceremonial plaza; seat of the Inca at the great feasts",
+   "activity": {
+    "figures": 120,
+    "radius": 150
+   }
+  },
+  {
+   "id": "kiswarkancha",
+   "placeId": "cathedral-site",
+   "name": "Kiswarkancha (palace of Viracocha)",
+   "category": "civic",
+   "position": [
+    2592,
+    1979
+   ],
+   "rotation": 45,
+   "footprint": [
+    100.0,
+    85.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/kiswarkancha.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 85,
+     "height": 34.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "variants": {
+    "killke-1300": {
+     "note": "Compounds of the Hanan lineages on the slope above the marsh."
+    },
+    "pachacuti-1470": {
+     "note": "The compound of Viracocha Inca's lineage, rebuilt in the new style, with a great hall facing the plaza. Next to it the round tower of Suntur Wasi."
+    },
+    "huayna-1530": {
+     "note": "Viracocha's mummy is kept here by his panaca, the lineage of his descendants, with his servants, fields and herds. The round Suntur Wasi stands at the corner, its thatch rising like a cone over the plaza."
+    },
+    "colonial-1650": {
+     "note": "Gone. The cathedral stands on its site; the Spaniards' first church, El Triunfo, was built where Suntur Wasi stood."
+    }
+   },
+   "summary": "The palace compound attributed to Viracocha Inca, Pachacuti's father, on the north-east side of Haukaypata, where the cathedral now stands.",
+   "details": [
+    "Garcilaso, writing in Spain from memory, gives Kiswarkancha to Viracocha. Like other royal compounds it was a walled block of fitted stone with a great hall (kallanka) opening onto the plaza and courts of rooms behind. Next to it stood Suntur Wasi, a round tower or hall with a tall conical roof, which the Spaniards used as a fortress in 1536.",
+    "The miniature shows a kancha with its great hall and twin doorways toward the plaza, rooms round two courts, and the round Suntur Wasi at the south corner. The plan is interpretation: little of the compound survives under the cathedral."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-cathedral",
+    "wiki-viracocha",
+    "garcilaso",
+    "gasparini-margolies"
+   ],
+   "built": "c. 1440s (on an older compound)",
+   "function": "Palace of the lineage (panaca) of Viracocha Inca",
+   "activity": {
+    "figures": 25,
+    "radius": 90
+   }
+  },
+  {
+   "id": "cathedral",
+   "placeId": "cathedral-site",
+   "name": "Cathedral of Cusco",
+   "category": "religious",
+   "position": [
+    2592,
+    1979
+   ],
+   "rotation": 45,
+   "footprint": [
+    100.0,
+    85.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/cathedral.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 85,
+     "height": 34.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "variants": {
+    "huayna-1530": {
+     "note": "Here stood Kiswarkancha, the palace of Viracocha Inca, and the round Suntur Wasi beside it."
+    },
+    "colonial-1650": {
+     "note": "Begun in 1559 with stone hauled from Sacsayhuamán and nearly finished when the earthquake of 1650 struck; completed in 1654. El Triunfo, the first church, stands at its side."
+    }
+   },
+   "summary": "The Renaissance cathedral of the Assumption on the site of Kiswarkancha, built of red andesite largely taken from Sacsayhuamán, flanked by the chapel of El Triunfo.",
+   "details": [
+    "Work began in 1559 to plans adapted from those of Lima's cathedral; it went on for nearly a century and was completed in 1654. Its broad stone facade has two squat bell towers; inside are carved choir stalls and hundreds of paintings of the Cusco school, including a Last Supper with a guinea pig on the plate. The bell María Angola was cast in 1659.",
+    "The miniature shows the facade with its portals and two towers, the nave and aisles under vaults, El Triunfo at the south-east side with its small dome, and a lower chapel on the other side. El Triunfo's present building and the chapel of Jesús María are later (1730s); the smaller chapels here stand for their predecessors."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-cathedral",
+    "kubler",
+    "dean-cusco"
+   ],
+   "built": "1559–1654",
+   "function": "Cathedral of the diocese of Cusco",
+   "activity": {
+    "figures": 40,
+    "radius": 100
+   }
+  },
+  {
+   "id": "kasana",
+   "placeId": "kasana",
+   "name": "Kasana (palace of Pachacuti)",
+   "category": "civic",
+   "position": [
+    2430,
+    1957
+   ],
+   "rotation": -45,
+   "footprint": [
+    100.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/kasana.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "New: the palace of the ruler himself on the north-west side of the plaza, with a great hall for feasts in the rainy season."
+    },
+    "huayna-1530": {
+     "note": "Held for Pachacuti's mummy by his lineage, Hatun Ayllu, which still keeps his wealth, servants and estates."
+    },
+    "colonial-1650": {
+     "note": "Gone. Francisco Pizarro took the site for his own houses; the arcades of the Portal de Panes line the plaza where its hall once opened."
+    }
+   },
+   "summary": "The palace on the north-west side of Haukaypata that Garcilaso assigns to Pachacuti, with a great hall big enough, he says, for festivities on rainy days.",
+   "details": [
+    "Garcilaso describes Kasana's great halls (galpones) as the largest in the city, used for feasts when it rained, with roofs of thatch so steep and thick that they burned for days when Manco's men set fire to them in 1536. The compound's front wall of fitted stone survived into the colonial city.",
+    "The miniature shows the great hall with a row of doorways onto the plaza and a tall hipped thatched roof, and a compound of rooms and courts behind. The attribution to Pachacuti follows Garcilaso; other chroniclers place his palace elsewhere."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-pachacuti",
+    "garcilaso",
+    "gasparini-margolies"
+   ],
+   "built": "c. 1440s–1460s",
+   "function": "Royal palace",
+   "activity": {
+    "figures": 30,
+    "radius": 100
+   }
+  },
+  {
+   "id": "amarukancha",
+   "placeId": "amarukancha",
+   "name": "Amarukancha (palace of Huayna Capac)",
+   "category": "civic",
+   "position": [
+    2604,
+    2179
+   ],
+   "rotation": 135,
+   "footprint": [
+    72.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/amarukancha.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 72,
+     "depth": 90,
+     "height": 28.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "huayna-1530"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "Kancha of the Hurin lineages on the plaza's south-east side; Huayna Capac would rebuild the block as his own palace."
+    },
+    "huayna-1530": {
+     "note": "'Enclosure of the serpents', Huayna Capac's palace on the south-east side of the plaza, with a great hall onto the plaza and serpents carved by its gate; after his death in about 1527 his mummy is brought here."
+    },
+    "colonial-1650": {
+     "note": "Gone. Hernando Pizarro took it; from 1571 the Jesuits built La Compañía on it. Inca walls still line the lane beside it."
+    }
+   },
+   "summary": "The palace of Huayna Capac, 'enclosure of the serpents', on the south-east side of Haukaypata between the plaza and the Aqllawasi.",
+   "details": [
+    "Garcilaso says it took its name from carved serpents at the gateway and that the Jesuits built their church here. The lane on its north-east side, Calle Loreto, keeps its Inca walls on both sides. Huayna Capac spent most of his reign on campaign in the north; the palace was run by his household and, after his death, by his lineage.",
+    "The miniature shows the walled compound with a great hall facing the plaza, serpent reliefs by the gate, rooms round courts and steep thatch. Plan and hall are interpretation from the colonial blocks and Garcilaso."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-huayna-capac",
+    "wiki-compania",
+    "garcilaso",
+    "gasparini-margolies"
+   ],
+   "built": "c. 1500–1525",
+   "function": "Royal palace",
+   "activity": {
+    "figures": 25,
+    "radius": 90
+   }
+  },
+  {
+   "id": "la-compania",
+   "placeId": "amarukancha",
+   "name": "La Compañía de Jesús",
+   "category": "religious",
+   "position": [
+    2601,
+    2176
+   ],
+   "rotation": 135,
+   "footprint": [
+    44.9,
+    75.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/la-compania.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 44,
+     "depth": 75,
+     "height": 17.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "variants": {
+    "huayna-1530": {
+     "note": "Here stood Amarukancha, the palace of Huayna Capac."
+    },
+    "colonial-1650": {
+     "note": "The first Jesuit church, begun in 1576, was thrown down by the earthquake of 1650. Its baroque successor rose from 1651 and was finished in 1668."
+    }
+   },
+   "summary": "The Jesuit church on the plaza, built on Amarukancha: a richly carved baroque facade between two tall bell towers, with a dome over the crossing, finished in 1668.",
+   "details": [
+    "The Jesuits came to Cusco in 1571 and took Huayna Capac's palace. Their church fell in the 1650 earthquake; the rebuilding (1651–1668) gave Cusco its most extravagant facade, a carved retable in stone, and a dispute with the bishop, who complained to Rome that it outshone the cathedral.",
+    "The miniature shows the church in its finished state of 1668: towers with open belfries and small domes, the carved centre of the facade, the nave under its vault and the dome on a drum. In 1650 itself the site was rubble and scaffolding."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-compania",
+    "kubler"
+   ],
+   "built": "1576; rebuilt 1651–1668",
+   "function": "Jesuit church and college",
+   "activity": {
+    "figures": 25,
+    "radius": 80
+   }
+  },
+  {
+   "id": "aqllawasi",
+   "placeId": "aqllawasi",
+   "name": "Aqllawasi (House of the Chosen Women)",
+   "category": "religious",
+   "position": [
+    2664,
+    2120
+   ],
+   "rotation": 45,
+   "footprint": [
+    90.0,
+    76.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/aqllawasi.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 76,
+     "height": 30.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "Founded in the rebuilding: a closed compound of the finest walls, with only one gate, for the women chosen to serve the sun and the Inca."
+    },
+    "huayna-1530": {
+     "note": "Hundreds of aqllakuna live inside, brewing chicha and weaving cumbi cloth under the mamakuna; no man but the Inca may enter."
+    },
+    "colonial-1650": {
+     "name": "Convent of Santa Catalina",
+     "note": "The Dominican nuns of Santa Catalina have occupied the block since the early 1600s, their church and cloisters raised on the Inca walls; the church was rebuilt after 1650.",
+     "model": {
+      "glb": "models/cusco/santa-catalina.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 90,
+       "depth": 76,
+       "height": 30.400000000000002,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The walled house of the aqllakuna, women chosen from the provinces to brew, weave and serve the sun and the Inca; later the convent of Santa Catalina.",
+   "details": [
+    "The aqllakuna were selected as girls and taught by older women, the mamakuna. They made the finest cloth (cumbi) and the chicha for the state feasts; some were given by the Inca as wives to lords and soldiers. The compound's walls, with a single gateway on the Calle Loreto side, are among the best preserved in Cusco.",
+    "The miniature shows a closed enclosure with one gate, long halls of looms and brewing rooms round courts, under steep thatch. The interior plan is interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-acllahuasi",
+    "wiki-aclla",
+    "garcilaso",
+    "cobo"
+   ],
+   "built": "c. 1440s–1460s",
+   "function": "House of the chosen women",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "hatunkancha",
+   "placeId": "hatunkancha",
+   "name": "Hatunkancha",
+   "category": "district",
+   "position": [
+    2737,
+    2188
+   ],
+   "rotation": 45,
+   "footprint": [
+    90.0,
+    80.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/hatunkancha.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 90,
+      "depth": 80
+     },
+     "buildings": [
+      {
+       "offset": [
+        -22.5,
+        -20.0
+       ],
+       "width": 27.0,
+       "depth": 24.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        22.5,
+        16.0
+       ],
+       "width": 27.0,
+       "depth": 24.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "The 'great enclosure', one of the first blocks of the new city: a high wall with a single gate round several kancha of rooms and courts."
+    },
+    "huayna-1530": {
+     "note": "Lived in by a royal lineage, the usual account says that of Pachacuti's line; in 1536 the Spaniards held out in it during Manco's siege."
+    },
+    "colonial-1650": {
+     "note": "Cut up into Spanish house lots; Inca wall courses survive along the streets under colonial houses."
+    }
+   },
+   "summary": "The 'great enclosure' east of the plaza: a walled block of several compounds with a single gate, held by the Spaniards during the siege of 1536.",
+   "details": [
+    "Hatunkancha was a kancha of kanchas, an outer wall round a group of house compounds. Its owner is argued: some chroniclers link it with Pachacuti, others with Tupac Inca. Its walls along the streets east of the Aqllawasi still stand to two or three metres.",
+    "The miniature shows the outer wall with one gate and four inner compounds of rooms under thatch. The inner layout is interpretation, modelled on excavated kancha at Ollantaytambo."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kancha",
+    "hemming",
+    "gasparini-margolies"
+   ],
+   "built": "c. 1440s–1460s",
+   "function": "Walled block of royal compounds",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "pucamarca",
+   "placeId": "pucamarca",
+   "name": "Pucamarca",
+   "category": "civic",
+   "position": [
+    2737,
+    2314
+   ],
+   "rotation": 45,
+   "footprint": [
+    70.0,
+    57.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/pucamarca.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 56,
+     "height": 22.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "A compound of the new city between the plaza and the Coricancha."
+    },
+    "huayna-1530": {
+     "note": "Usually given to the lineage of Tupac Inca Yupanqui, with a shrine of its own; red-plastered walls are one guess at the name, 'red house'."
+    },
+    "colonial-1650": {
+     "note": "Gone into Spanish houses; Inca walls survive at the corner of the streets now called Maruri and San Agustín."
+    }
+   },
+   "summary": "A royal compound south-east of the plaza, 'red house', usually assigned to the lineage of Tupac Inca Yupanqui; its walls still line Calle Maruri.",
+   "details": [
+    "The chroniclers mention Pucamarca among the palaces and shrines of the city; the ceque list of Cobo names shrines inside it. Its assignment to Tupac Inca's lineage is the usual modern reading, not certain.",
+    "The miniature shows a kancha of fitted stone with a central court, a shrine-house raised at the back and reddish plaster on the inner walls, which is a guess at the name."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kancha",
+    "wiki-tupac-inca",
+    "cobo",
+    "bauer-cusco"
+   ],
+   "built": "c. 1460s–1490s",
+   "function": "Royal compound and shrine",
+   "activity": {
+    "figures": 15,
+    "radius": 70
+   }
+  },
+  {
+   "id": "kusicancha",
+   "placeId": "kusicancha",
+   "name": "Kusicancha",
+   "category": "civic",
+   "position": [
+    2818,
+    2389
+   ],
+   "rotation": 45,
+   "footprint": [
+    70.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/kusicancha.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 60,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "variants": {
+    "killke-1300": {
+     "note": "Compounds near the Inticancha at the lower end of the town."
+    },
+    "pachacuti-1470": {
+     "note": "Rebuilt as the compound of Pachacuti's own birthplace beside the Coricancha, according to tradition."
+    },
+    "huayna-1530": {
+     "note": "Several small kancha of fitted stone with narrow lanes between them, lived in by priests and servants of the sun, one reading of the excavations suggests."
+    },
+    "colonial-1650": {
+     "note": "Built over by colonial houses and later barracks; excavated in the 1990s, its kancha walls now stand open."
+    }
+   },
+   "summary": "A group of kancha just north-west of the Coricancha, said to be where Pachacuti was born; excavated, it is the clearest picture of an Inca city block.",
+   "details": [
+    "Excavations revealed several rectangular compounds, each of four buildings round a court, separated by narrow lanes, with walls of fitted andesite in the lower courses and fieldstone above. Tradition makes it Pachacuti's birthplace.",
+    "The miniature shows three kancha of the excavated type with their lanes and doorways. Upper walls and roofs are reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kancha",
+    "wiki-pachacuti",
+    "bauer-cusco"
+   ],
+   "built": "c. 1440s–1460s",
+   "function": "Residential compounds",
+   "activity": {
+    "figures": 15,
+    "radius": 60
+   }
+  },
+  {
+   "id": "hatun-rumiyoc",
+   "placeId": "hatun-rumiyoc",
+   "name": "Hatun Rumiyoc (palace of Inca Roca)",
+   "category": "civic",
+   "position": [
+    2762,
+    1894
+   ],
+   "rotation": -45,
+   "footprint": [
+    70.0,
+    70.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/hatun-rumiyoc.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "variants": {
+    "killke-1300": {
+     "note": "The compound of Inca Roca's lineage, in the usual account, stood here; its famous masonry belongs to the later rebuilding."
+    },
+    "pachacuti-1470": {
+     "note": "Rebuilt for the lineage of Inca Roca, with the long street wall of polygonal green diorite."
+    },
+    "huayna-1530": {
+     "note": "Inca Roca's mummy is kept here. The street wall, with its twelve-angled stone, is the showpiece of Inca masonry."
+    },
+    "colonial-1650": {
+     "name": "Archbishop's palace on Hatun Rumiyoc",
+     "note": "A Spanish mansion, later the archbishop's palace, rises on the Inca walls with a carved balcony over the street; the twelve-angled stone stays in place.",
+     "model": {
+      "glb": "models/cusco/hatun-rumiyoc-1650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 70,
+       "depth": 70,
+       "height": 28.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The palace attributed to Inca Roca, whose street wall of interlocking polygonal blocks holds the famous twelve-angled stone.",
+   "details": [
+    "The wall along Hatun Rumiyoc street is built of large polygonal blocks of green diorite, each cut to lock into its neighbours; one has twelve angles. Above the Inca courses, the colonial house of the Marquis of Buenavista, later the archbishop's palace, was built.",
+    "The miniature shows the compound behind its battered street wall of irregular polygonal blocks, a trapezoidal gateway, and rooms round a court under thatch; the colonial variant adds an upper storey with a balcony and tile roof."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hatun-rumiyoc",
+    "wiki-twelve-angled",
+    "wiki-inca-roca",
+    "protzen"
+   ],
+   "built": "c. 1440s–1490s",
+   "function": "Royal palace",
+   "activity": {
+    "figures": 15,
+    "radius": 60
+   }
+  },
+  {
+   "id": "qenqo",
+   "placeId": "qenqo",
+   "name": "Qenqo",
+   "category": "temple",
+   "position": [
+    3182,
+    1109
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/qenqo.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 60,
+     "depth": 50,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 5.0,
+     "columnHeight": 20.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "A limestone outcrop carved into a shrine (huaca): a zigzag channel on top, a cave with an altar inside, and a standing stone in a walled semicircle."
+    },
+    "huayna-1530": {
+     "note": "One of the hundreds of huacas on the ceque lines round Cusco, where chicha or the blood of sacrifices ran down the zigzag channel."
+    },
+    "colonial-1650": {
+     "note": "Its standing stone defaced and its walls robbed by the 'extirpators of idolatry'; the carved rock remains."
+    }
+   },
+   "summary": "'The zigzag', a limestone outcrop above Cusco carved into a shrine with a cave altar, channels for libations, and a standing stone in a semicircle of niches.",
+   "details": [
+    "Qenqo is one of the largest of the carved rock huacas round Cusco. A zigzag channel cut on top led offerings of chicha or blood; inside, a cave holds a carved altar, perhaps for mummies or sacrifices. In front, a semicircle of walls with niches faces an upright stone, now mutilated.",
+    "The miniature shows the rock with its channel and steps, the cave mouth, and the semicircle round the standing stone. The upright stone is restored to a possible original shape."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-qenqo",
+    "wiki-huaca",
+    "hemming-ranney"
+   ],
+   "built": "c. 1450s–1500s",
+   "function": "Shrine (huaca)",
+   "activity": {
+    "figures": 10,
+    "radius": 50
+   }
+  },
+  {
+   "id": "qollqampata",
+   "placeId": "qollqampata",
+   "name": "Qollqampata (terraces and storehouses)",
+   "category": "commercial",
+   "position": [
+    2143,
+    1609
+   ],
+   "rotation": -45,
+   "footprint": [
+    100.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/qollqampata.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 100,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -25.0,
+        -17.5
+       ],
+       "width": 30.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        25.0,
+        14.0
+       ],
+       "width": 30.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "Terraces built on the slope below Sacsayhuamán with rows of storehouses (qollqa) on top, filled with maize, chuño, cloth and weapons."
+    },
+    "huayna-1530": {
+     "note": "Its qollqa full; each is tallied on the keepers' khipu. Garcilaso calls it the old palace of Manco Capac."
+    },
+    "colonial-1650": {
+     "note": "Gone. Paullu Inca, the Spaniards' ally, built his palace here, and the church of San Cristóbal (1560) stands on the terrace; the storehouses are long empty."
+    }
+   },
+   "summary": "Terraces on the slope below Sacsayhuamán, topped by rows of storehouses (qollqa): the 'terrace of the storehouses' that fed and clothed the capital.",
+   "details": [
+    "The Inca state stored the produce of its lands, and cloth, weapons and tools, in thousands of qollqa round its cities, often in rows on dry, airy hillsides. The keepers recorded the contents on khipu. The Spaniards found Cusco's storehouses still full in 1533.",
+    "The miniature shows three terraces of fitted stone with stairs, rows of round and rectangular qollqa under thatch on the upper terraces, and maize on the lower. The number and shapes are reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-colcampata",
+    "wiki-qullqa",
+    "garcilaso"
+   ],
+   "built": "c. 1450s–1500s",
+   "function": "State storehouses and terraced fields",
+   "activity": {
+    "figures": 15,
+    "radius": 80
+   }
+  },
+  {
+   "id": "san-francisco",
+   "placeId": "san-francisco",
+   "name": "San Francisco",
+   "category": "religious",
+   "position": [
+    2056,
+    2219
+   ],
+   "rotation": -90,
+   "footprint": [
+    70.0,
+    80.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cusco/san-francisco.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 80,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "variants": {
+    "huayna-1530": {
+     "note": "Fields and compounds at the edge of Kusipata."
+    },
+    "colonial-1650": {
+     "note": "The Franciscans' church and convent on its own plaza west of the centre, rebuilt in the 1640s–50s with a heavy square tower; its cloister holds a vast painted genealogy of the order."
+    }
+   },
+   "summary": "The church and convent of the Franciscans on their plaza west of the Plaza de Armas, plain and massive outside, with a cloister of paintings inside.",
+   "details": [
+    "The Franciscans settled in Cusco in the 1530s and moved to this site in the 1540s. The present church was built in the mid-17th century, around the earthquake of 1650, in a severe Renaissance style with one tower. Its convent became famous for its large canvases by Cusco painters.",
+    "The miniature shows the church with its single tower and portal, the nave, and the two-storey arcaded cloister. Dates of the rebuilding are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-history-cusco",
+    "kubler"
+   ],
+   "built": "1540s; rebuilt c. 1645–1652",
+   "function": "Franciscan church and convent",
+   "activity": {
+    "figures": 20,
+    "radius": 70
+   }
+  },
+  {
+   "id": "san-blas",
+   "placeId": "san-blas",
+   "name": "San Blas",
+   "category": "religious",
+   "position": [
+    2847,
+    1786
+   ],
+   "rotation": 45,
+   "footprint": [
+    24.0,
+    44.0
+   ],
+   "scale": 1.2,
+   "model": {
+    "glb": "models/cusco/san-blas.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 24,
+     "depth": 44,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "variants": {
+    "huayna-1530": {
+     "note": "Toqokachi, a quarter of houses and shrines on the slope above the Antisuyu road."
+    },
+    "colonial-1650": {
+     "note": "The parish church of the Indians of Toqokachi: a plain adobe nave on Inca foundations with a little bell gable. Its famous carved cedar pulpit came later in the century."
+    }
+   },
+   "summary": "The small adobe parish church of San Blas, one of the oldest in Cusco, on the slope of Toqokachi where painters and carvers of the Cusco school lived.",
+   "details": [
+    "Founded in the 1560s as a parish for the native people of Toqokachi, San Blas is a single nave of adobe on a stone base, with a tile roof and a bell gable. The carved pulpit, attributed to the native sculptor Juan Tomás Tuyru Túpac, is usually dated to the later 17th century.",
+    "The miniature shows the whitewashed nave, the stone plinth, the bell gable and the little atrium before it. Dates are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-cusco-school",
+    "kubler"
+   ],
+   "built": "1560s",
+   "function": "Parish church",
+   "activity": {
+    "figures": 12,
+    "radius": 50
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "killke-potter",
+   "name": "A Killke potter's yard",
+   "kind": "workshop",
+   "position": [
+    2833,
+    2219
+   ],
+   "activePeriods": [
+    "killke-1300",
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "summary": "A household of potters making the cream-slipped jars and bowls painted in black and red geometric bands that archaeologists call Killke ware, later the imperial Inca style.",
+   "details": [
+    "Killke pottery, named after a site near Sacsayhuamán, is found all over the Cusco valley from about 1000 to 1400. Pots were built from coils, smoothed, slipped, painted with mineral colours and fired in open bonfires covered with dung. Its shapes and designs grew into the polished Inca style, with its pointed-based aryballos for chicha."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-killke",
+    "bauer-cusco"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A woman kneads clay with crushed stone on a hide; her daughter rolls coils for a jar as tall as her knee."
+    },
+    {
+     "hour": 13,
+     "text": "Bowls dry in the sun along the wall. With a llama-hair brush the potter paints black diamonds between red bands."
+    },
+    {
+     "hour": 19,
+     "text": "The firing: pots stacked on the ground under dung cakes and straw, glowing orange in the dusk while the family watches for cracks."
+    }
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "name": "A potter of the new city",
+     "note": "Now making the state's polished aryballos jars for chicha, in the strict imperial designs, and pots for the feasts in the plaza."
+    },
+    "huayna-1530": {
+     "name": "Potters of the city",
+     "note": "Potters work for the state as their labour service, turning out thousands of jars for the storehouses and feasts."
+    }
+   }
+  },
+  {
+   "id": "killke-farmstead",
+   "name": "A farmstead at Coripata",
+   "kind": "house",
+   "position": [
+    3052,
+    2973
+   ],
+   "activePeriods": [
+    "killke-1300"
+   ],
+   "summary": "A family's round and square stone houses by the meeting of the streams, with potato and maize plots, a guinea-pig run and a corral for a few llamas.",
+   "details": [
+    "Before the Inca state, the valley was farmed by families grouped into ayllus that worked land in common and helped one another at planting and harvest. Houses were small, of fieldstone and mud with thatch; most life happened outdoors in the yard."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "bauer-cusco",
+    "wiki-killke"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Frost on the thatch. The father leads two llamas out to graze the wet grass by the stream; smoke leaks through the roof."
+    },
+    {
+     "hour": 12,
+     "text": "The whole ayllu breaks the ground with foot ploughs, men turning the sod in a line, women following to break the clods, singing."
+    },
+    {
+     "hour": 18,
+     "text": "Potatoes boiling in a clay pot, guinea pigs squeaking under the bench, and the family huddled round the fire in alpaca blankets."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "stonemasons-yard",
+   "name": "The stonemasons' yard below Sacsayhuamán",
+   "kind": "works",
+   "position": [
+    2468,
+    1465
+   ],
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "summary": "Where gangs of labourers from the provinces dragged blocks down to the masons, who pounded them into shape with hammerstones and fitted them by trial and error.",
+   "details": [
+    "Experiments by Jean-Pierre Protzen showed how: blocks were shaped by pounding with harder river cobbles, lowered onto the course below, lifted again, the contact marks pounded down until the joint closed. Andesite came from quarries such as Rumiqolqa, 35 km away; limestone for Sacsayhuamán from the hill itself."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-rumicolca",
+    "cieza",
+    "garcilaso"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A gang of a hundred men from Collasuyu leans into ropes of twisted grass, dragging a block on a ramp of gravel to a chant."
+    },
+    {
+     "hour": 12,
+     "text": "Tock, tock, tock: masons pounding a face with fist-sized hammerstones, stone dust on their eyelashes, a supervisor checking the fit with a plumb bob."
+    },
+    {
+     "hour": 17,
+     "text": "The day's stint counted on a khipu. The drafted workers walk back to their camp for maize beer and stew, paid by the state."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pururauca",
+   "name": "A pururauca stone",
+   "kind": "shrine",
+   "position": [
+    2296,
+    2120
+   ],
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "summary": "One of the stones that, the Incas said, rose up as warriors to help young Pachacuti beat the Chanka, then turned back to stone; they were set up round the city and worshipped.",
+   "details": [
+    "Cobo's list of the shrines on the ceque lines of Cusco names many pururaucas among its more than 300 huacas: stones, springs, hills and buildings, each tended by a lineage and given offerings in turn. This one stood in Kusipata."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "cobo",
+    "wiki-huaca",
+    "betanzos"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "An old man of the lineage that keeps the stone pours a little chicha on it and burns coca leaves, murmuring."
+    },
+    {
+     "hour": 13,
+     "text": "Soldiers leaving for the north stop to touch the stone and ask it to fight for them as it fought for Pachacuti."
+    },
+    {
+     "hour": 20,
+     "text": "Dark in the plaza. The stone wears a small tunic of cloth, renewed each year, and a shell necklace."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "chaski-post",
+   "name": "The chaski post on the Chinchaysuyu road",
+   "kind": "civic",
+   "position": [
+    2324,
+    1929
+   ],
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "summary": "Huts where relay runners (chaskis) waited in pairs for messages and khipu coming in from the north, ready to sprint them the last stretch to the Inca.",
+   "details": [
+    "Chasqui stations stood every few kilometres along the roads. A runner shouted his message to the next as they ran side by side and handed over any khipu; by relay, news from Quito reached Cusco in about a week, chroniclers say, and fresh fish from the coast in two days."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chasqui",
+    "cieza",
+    "garcilaso"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A conch shell sounds from the hill: a runner coming. The waiting chaski ties his sandals and jogs out to meet him on the road."
+    },
+    {
+     "hour": 12,
+     "text": "Two young men in white-feathered headbands rest in the shade of the hut, chewing coca, listening for the next conch."
+    },
+    {
+     "hour": 21,
+     "text": "A message runs even at night: torches on the road, a runner gasping out words to his relief, who repeats them back before setting off."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "qollqa-keeper",
+   "name": "The keeper of the storehouses",
+   "kind": "civic",
+   "position": [
+    2295,
+    1498
+   ],
+   "activePeriods": [
+    "huayna-1530"
+   ],
+   "summary": "A khipukamayuq at the qollqa of Qollqampata, recording on knotted cords every load of maize, chuño, cloth and weapons that goes in or out.",
+   "details": [
+    "Khipu, cords of cotton or camelid fibre with knots in a decimal system, were the state's accounts: census, tribute, storage, labour. The keepers read them aloud to Spanish officials after the conquest. The storehouses round Cusco held, Cieza says, so much that it seemed impossible it could all be used."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-quipu",
+    "murra",
+    "cieza"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Porters arrive with sacks of freeze-dried chuño from the puna. The keeper ties a knot for every ten, his fingers running along the cords."
+    },
+    {
+     "hour": 13,
+     "text": "An official from the palace comes for cloth for soldiers' tunics. Cords are checked, a tally is retied, a storehouse door unsealed."
+    },
+    {
+     "hour": 18,
+     "text": "The keeper rolls up his khipu bundles and hangs them from a peg; below, the city's thatch glows in the last sun."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "aqha-brewer",
+   "name": "A chicha brewer's yard",
+   "kind": "tavern",
+   "position": [
+    2664,
+    2261
+   ],
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "summary": "A household brewing aqha, maize beer, by the jarful: maize sprouted, ground, boiled and fermented in great pointed jars sunk in the floor.",
+   "details": [
+    "Chicha was the drink of every feast and work party and the glue of Inca hospitality: the state 'paid' labour with food and beer. Women brewed it; one method, Garcilaso says, used maize chewed to start the ferment. A house brewing for a feast hung out a tuft of straw."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chicha",
+    "garcilaso",
+    "d-altroy"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Sprouted maize spread to dry on cloths on the roof. Women grind it on a rocking stone with a steady rasp."
+    },
+    {
+     "hour": 14,
+     "text": "Steam from a big pot of mash; the brewer skims it and ladles it into a pointed jar to ferment with yesterday's dregs."
+    },
+    {
+     "hour": 20,
+     "text": "A work party back from the terraces drinks from paired cups, pouring the first drops on the ground for Pachamama."
+    }
+   ],
+   "variants": {
+    "pachacuti-1470": {
+     "note": "Brewing for the gangs building the new city, who are fed and given chicha by the state each day of their labour."
+    }
+   }
+  },
+  {
+   "id": "mamakuna-weavers",
+   "name": "The mamakuna's looms",
+   "kind": "workshop",
+   "position": [
+    2703,
+    2095
+   ],
+   "activePeriods": [
+    "pachacuti-1470",
+    "huayna-1530"
+   ],
+   "summary": "Behind the Aqllawasi's walls, chosen women weave cumbi, the finest tapestry cloth of the empire, on upright looms under the eye of the senior women, the mamakuna.",
+   "details": [
+    "Cumbi was tapestry woven with up to a hundred or more threads to the centimetre, of fine alpaca and vicuña wool dyed red, yellow, blue and black, in the square designs called tocapu. The Inca gave it to lords and soldiers and burned it as an offering; to receive it was a great honour."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-cumbi",
+    "wiki-aclla",
+    "cobo"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A girl spins vicuña wool with a drop spindle as she walks; an older woman checks the evenness of her thread with a frown."
+    },
+    {
+     "hour": 13,
+     "text": "Two women sit at an upright loom, beating in a weft of red and gold so tightly that the cloth looks like painted wood."
+    },
+    {
+     "hour": 19,
+     "text": "A finished tunic, its squares of tocapu in black and white, is folded and handed to a steward for the Inca's gift store."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "mallqui-house",
+   "name": "Where the mummies are fed",
+   "kind": "shrine",
+   "position": [
+    2476,
+    1912
+   ],
+   "activePeriods": [
+    "huayna-1530"
+   ],
+   "summary": "A hall of a royal lineage where a dead Inca sits as a mummy (mallqui) on his seat, dressed, fed and consulted by his attendants as if alive.",
+   "details": [
+    "The dead rulers kept their palaces, servants and lands; their lineages (panaca) spoke for them. Mummies visited one another, sat in the plaza at feasts and took part in councils. The Spaniards found them in 1533; in 1559 the magistrate Polo de Ondegardo had several taken and sent to Lima, where they disappeared."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-inca-mummies",
+    "wiki-panaca",
+    "betanzos",
+    "sancho"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "An attendant waves a fly whisk over the seated mummy while a woman sets a plate of food and a cup of chicha before it."
+    },
+    {
+     "hour": 14,
+     "text": "The mummy is carried out on a litter to visit another dead king's palace; their attendants drink and talk on their behalf."
+    },
+    {
+     "hour": 20,
+     "text": "The food set out at noon is burned in a brazier, the mummy's share sent up in smoke, and the hall shut for the night."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "llama-caravan",
+   "name": "A llama train coming in",
+   "kind": "market",
+   "position": [
+    3658,
+    2929
+   ],
+   "activePeriods": [
+    "huayna-1530",
+    "colonial-1650"
+   ],
+   "summary": "Llamas with red tassels in their ears coming up the Collasuyu road from the Altiplano, each carrying about 30 kg of wool, chuño or dried meat.",
+   "details": [
+    "Llamas were the empire's only pack animals, led in trains of dozens or hundreds by drivers who sang and whistled to them. A loaded llama walks some 20 km a day. Their wool, meat and dung (for fuel) were as important as their carrying."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-llama",
+    "murra",
+    "cieza"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A train of a hundred llamas, their bells and tassels swaying, stops at the Pumachupan bridge to be counted in."
+    },
+    {
+     "hour": 13,
+     "text": "Drivers unload sacks of chuño and bundles of wool for the storehouses; a llama lies down and refuses to budge."
+    },
+    {
+     "hour": 18,
+     "text": "The animals graze on the river bank. The drivers chew coca and spin wool round their fire while the city's lights come on."
+    }
+   ],
+   "variants": {
+    "colonial-1650": {
+     "name": "The mule and llama trains",
+     "note": "Llamas still carry coca and chuño, but the trains to Potosí are now mainly mules, and the drivers pay Spanish tolls at the city's edge."
+    }
+   }
+  },
+  {
+   "id": "chicheria",
+   "name": "A chichería",
+   "kind": "tavern",
+   "position": [
+    2338,
+    1894
+   ],
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "summary": "A ground-floor room of a colonial house, run by an Andean woman, selling chicha by the jar, marked by a pole with a red flag or a tuft of flowers over the door.",
+   "details": [
+    "Chicha survived the conquest as the city's everyday drink; the cabildo licensed and taxed the chicherías and the church thundered against drunkenness at feasts. Most were kept by native women, in rooms opening onto the street from the courtyard houses of the centre."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chicha",
+    "kubler"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "The brewer stirs a vat of mash in the back room; porters waiting for loads drink a morning cup standing at the door."
+    },
+    {
+     "hour": 15,
+     "text": "Market women, muleteers and a soldier share benches and a big jar; someone plays a charango; the talk is in Quechua."
+    },
+    {
+     "hour": 21,
+     "text": "The flag is taken in at curfew. A friar on his way back to the convent shakes his head at a man asleep by the wall."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "convent-bakery",
+   "name": "The nuns' bakery at Santa Clara",
+   "kind": "bakery",
+   "position": [
+    1970,
+    2385
+   ],
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "summary": "Behind a revolving hatch in a convent wall, nuns and their servants sell bread, biscuits and sweets of sugar and egg yolk to support the house.",
+   "details": [
+    "Cusco's convents of nuns, Santa Clara (1550s) and Santa Catalina (early 1600s), took daughters of Spanish and mestizo families with dowries, and many native servants. Selling sweets and bread through the torno, the turning hatch, was a common convent income. The site of this bakery is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "kubler",
+    "wiki-history-cusco"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Servants stoke the domed oven with brushwood carried in from the hills; the first wheat loaves come out before Mass."
+    },
+    {
+     "hour": 11,
+     "text": "A boy knocks at the torno; it turns, and a parcel of almond biscuits appears in exchange for his coins. No face is seen."
+    },
+    {
+     "hour": 17,
+     "text": "Sugar boils in copper pans for the Corpus Christi sweets: candied figs and yolk-and-sugar balls rolled by a novice."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "cusco-painter",
+   "name": "A Cusco-school painter's workshop",
+   "kind": "workshop",
+   "position": [
+    2771,
+    1720
+   ],
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "summary": "An Andean master and his apprentices painting saints and Virgins in oil for churches across the viceroyalty, with gold brocade stamped over the robes.",
+   "details": [
+    "From the mid-17th century native and mestizo painters in Cusco, Diego Quispe Tito among them, developed their own style from European prints: flat brocade patterns in gold leaf, Andean birds and plants in the landscapes. Workshops in San Blas sent paintings by the mule load to Lima, Potosí and Chile."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-cusco-school",
+    "wiki-quispe-tito",
+    "dean-cusco"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "An apprentice grinds red earth and linseed oil on a stone slab. Flemish engravings hang on the wall as models."
+    },
+    {
+     "hour": 13,
+     "text": "The master paints the Virgin's face; a boy presses gold leaf into the stamped brocade of her mantle with a brush."
+    },
+    {
+     "hour": 18,
+     "text": "A dozen identical archangels with muskets lean against the wall, drying, ordered by a church in Potosí."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "casa-almirante",
+   "name": "Casa del Almirante",
+   "kind": "house",
+   "position": [
+    2544,
+    1886
+   ],
+   "activePeriods": [
+    "colonial-1650"
+   ],
+   "summary": "A Spanish mansion on Inca walls above the plaza: a stone portal with a coat of arms, a carved corner column, a balcony and a patio with arcades.",
+   "details": [
+    "The house said to have been built in the 17th century for Admiral Francisco Aldrete Maldonado is one of the grandest casonas of Cusco, its lower walls Inca masonry. It was damaged in the 1650 earthquake and repaired. Houses like it were the homes of the encomenderos and the cabildo families."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "kubler",
+    "wiki-history-cusco"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Servants sweep the patio; a muleteer leads in a string of mules with firewood and sugar from the family's hacienda."
+    },
+    {
+     "hour": 13,
+     "text": "Dinner upstairs: the family eats off silver from Potosí while musicians play in the gallery; the portal stands open on the street."
+    },
+    {
+     "hour": 21,
+     "text": "A lantern in the corner window above the steep street. The great gate is barred; a carriage cannot climb here, so visitors come on foot."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-legend",
+   "title": "Manco Capac founds Cusco",
+   "periodId": "killke-1300",
+   "date": "legendary, perhaps 12th–13th century",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "coricancha"
+   },
+   "effect": "procession",
+   "text": "In the Inca story, Manco Capac and Mama Ocllo came from Lake Titicaca with a golden staff and settled where it sank into the ground; or, in another version, the four Ayar brothers came out of a cave at Pacaritambo. Manco Capac's first house was said to be the Inticancha, later the Coricancha.",
+   "sourceIds": [
+    "garcilaso",
+    "betanzos",
+    "bauer-cusco"
+   ]
+  },
+  {
+   "id": "chanka-1438",
+   "title": "Pachacuti defeats the Chanka",
+   "periodId": "pachacuti-1470",
+   "date": "c. 1438 (traditional date)",
+   "kind": "riot",
+   "at": {
+    "position": [
+     1645,
+     1664
+    ]
+   },
+   "effect": "crowd",
+   "text": "When the Chanka marched on Cusco, Viracocha Inca and his heir fled. His younger son Cusi Yupanqui stayed and fought; the stones of the fields, the story goes, rose as warriors (pururaucas) to help him. Victorious, he took the name Pachacuti, 'turner of the world', and began an empire.",
+   "sourceIds": [
+    "wiki-chanka",
+    "wiki-pachacuti",
+    "betanzos"
+   ]
+  },
+  {
+   "id": "rebuilding",
+   "title": "Pachacuti lays out the new city",
+   "periodId": "pachacuti-1470",
+   "date": "c. 1440s–1460s",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "haukaypata"
+   },
+   "effect": "construction",
+   "text": "Pachacuti, Betanzos writes, drew the new Cusco and had it modelled in clay. The valley's people were moved out, the streams walled into channels, the marsh drained to make the plaza, and the core rebuilt in blocks of stone compounds for the royal lineages, with labour sent in turns from every conquered province.",
+   "sourceIds": [
+    "betanzos",
+    "wiki-pachacuti",
+    "bauer-cusco"
+   ]
+  },
+  {
+   "id": "coricancha-gold",
+   "title": "The Coricancha clad in gold",
+   "periodId": "pachacuti-1470",
+   "date": "c. 1450s",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "coricancha"
+   },
+   "effect": "construction",
+   "text": "The rebuilt temple of the sun was finished in fitted stone and given its band of gold plate, its image of the sun and its garden of precious-metal plants. The cut stone was so fine, Cieza says, that he saw nothing like it in Spain.",
+   "sourceIds": [
+    "cieza",
+    "wiki-coricancha"
+   ]
+  },
+  {
+   "id": "sacsayhuaman-begun",
+   "title": "Work begins on Sacsayhuamán",
+   "periodId": "pachacuti-1470",
+   "date": "after c. 1460",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "sacsayhuaman"
+   },
+   "effect": "construction",
+   "text": "Pachacuti ordered the great house of the sun on the hill, the chronicles say; 20,000 men from the provinces worked on it in turns, Cieza reports, quarrying, hauling and fitting. It took the reigns of three Incas and was still being finished when the Spaniards came.",
+   "sourceIds": [
+    "cieza",
+    "garcilaso",
+    "wiki-sacsayhuaman"
+   ]
+  },
+  {
+   "id": "inti-raymi",
+   "title": "Inti Raymi, the feast of the sun",
+   "periodId": "huayna-1530",
+   "date": "June solstice, each year",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "haukaypata"
+   },
+   "effect": "crowd",
+   "text": "At the June solstice the whole city gathered before dawn in Haukaypata. The Inca, barefoot, raised two gold cups to the rising sun and poured chicha into the ushnu's basin; llamas were sacrificed, a new fire lit with a mirror, and the mummies sat in rows. Feasting went on for days.",
+   "sourceIds": [
+    "wiki-inti-raymi",
+    "garcilaso"
+   ]
+  },
+  {
+   "id": "huayna-death",
+   "title": "Huayna Capac's body comes home",
+   "periodId": "huayna-1530",
+   "date": "c. 1527–1528",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "amarukancha"
+   },
+   "effect": "procession",
+   "text": "Huayna Capac died in the north, at Quito or Tumebamba, probably of smallpox that had spread ahead of the Spaniards; his heir died too. His mummy was carried back to Cusco in a long procession. The succession was disputed between Huáscar in Cusco and Atahualpa with the northern armies: civil war followed.",
+   "sourceIds": [
+    "wiki-huayna-capac",
+    "wiki-civil-war",
+    "cieza"
+   ]
+  },
+  {
+   "id": "quizquiz-1532",
+   "title": "Atahualpa's generals take Cusco",
+   "periodId": "huayna-1530",
+   "date": "1532",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "haukaypata"
+   },
+   "effect": "crowd",
+   "text": "After capturing Huáscar, Atahualpa's generals Quizquiz and Chalcuchímac entered Cusco. They killed Huáscar's wives, children and many of his lineage, and destroyed the mummy of Tupac Inca Yupanqui, whose panaca had backed Huáscar. Atahualpa, meanwhile, was already the Spaniards' prisoner at Cajamarca.",
+   "sourceIds": [
+    "wiki-quizquiz",
+    "wiki-chalcuchimac",
+    "wiki-civil-war"
+   ]
+  },
+  {
+   "id": "gold-stripped-1533",
+   "title": "The temple of the sun stripped",
+   "periodId": "huayna-1530",
+   "date": "early 1533",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "coricancha"
+   },
+   "effect": "none",
+   "text": "Three Spaniards sent from Cajamarca to collect Atahualpa's ransom pried the gold plates off the Coricancha's walls with copper crowbars, some 700 of them, and sent them north on porters' backs to be melted down.",
+   "sourceIds": [
+    "wiki-coricancha",
+    "hemming"
+   ]
+  },
+  {
+   "id": "pizarro-1533",
+   "title": "Pizarro enters Cusco",
+   "periodId": "huayna-1530",
+   "date": "15 November 1533",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "haukaypata"
+   },
+   "effect": "procession",
+   "text": "Francisco Pizarro and about 150 Spaniards, with the young Manco Inca as their ally, rode into Haukaypata. Sancho, the secretary, wrote that the city was so beautiful it would be remarkable even in Spain. In March 1534 Pizarro refounded it as a Spanish city and handed out its palaces as house lots.",
+   "sourceIds": [
+    "sancho",
+    "hemming"
+   ]
+  },
+  {
+   "id": "siege-1536",
+   "title": "Manco Inca sets Cusco on fire",
+   "periodId": "colonial-1650",
+   "date": "May 1536",
+   "kind": "riot",
+   "at": {
+    "position": [
+     2572,
+     2014
+    ]
+   },
+   "effect": "fire",
+   "text": "Manco Inca, who had broken with the Spaniards, besieged Cusco with a huge army. His slingers hurled red-hot stones onto the thatched roofs and most of the city burned. The Spaniards held out in Suntur Wasi and Hatunkancha; Spanish legend says the Virgin put out the fire on their refuge.",
+   "sourceIds": [
+    "wiki-siege",
+    "wiki-manco",
+    "hemming"
+   ]
+  },
+  {
+   "id": "sacsayhuaman-1536",
+   "title": "The Spaniards storm Sacsayhuamán",
+   "periodId": "colonial-1650",
+   "date": "May 1536",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "sacsayhuaman"
+   },
+   "effect": "crowd",
+   "text": "To break the siege the Spaniards attacked the fortress at night. Juan Pizarro was hit on the head by a stone and died; the towers fell after days of fighting. A noble defender, Garcilaso and others tell, fought on alone and leapt from the top of a tower rather than surrender.",
+   "sourceIds": [
+    "wiki-juan-pizarro",
+    "wiki-siege",
+    "garcilaso"
+   ]
+  },
+  {
+   "id": "earthquake-1650",
+   "title": "The great earthquake",
+   "periodId": "colonial-1650",
+   "date": "31 March 1650",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "cathedral"
+   },
+   "effect": "crowd",
+   "text": "An earthquake threw down most of the churches and many houses of Cusco: La Compañía, Santo Domingo, San Francisco. Inca walls stood where Spanish ones fell. Bishop and city vowed processions to the Christ of the Earthquakes (Señor de los Temblores) in the cathedral, still carried round the plaza every Holy Monday.",
+   "sourceIds": [
+    "wiki-earthquakes-peru",
+    "kubler",
+    "wiki-cathedral"
+   ]
+  },
+  {
+   "id": "corpus-christi",
+   "title": "Corpus Christi in the plaza",
+   "periodId": "colonial-1650",
+   "date": "June, each year (painted c. 1675–1680)",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "cathedral"
+   },
+   "effect": "procession",
+   "text": "Near the old date of Inti Raymi the parishes carried their saints round the plaza to the cathedral, led by Inca nobles in royal dress with sun pectorals. A series of paintings made for Santa Ana around 1675–1680 shows the whole procession, the city's two worlds on parade.",
+   "sourceIds": [
+    "dean-cusco",
+    "wiki-cusco-school"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "navel-1530",
+   "title": "A day at the navel of the world",
+   "periodId": "huayna-1530",
+   "summary": "Follow a runner's message from the Chinchaysuyu road into the city on the eve of Inti Raymi, past the plaza, the palaces of the dead kings and the house of the chosen women to the temple of the sun.",
+   "steps": [
+    {
+     "spotId": "chaski-post",
+     "title": "News from the north",
+     "text": "At dawn a chaski comes down Carmenca with a khipu from the armies in Quito. His relief takes it at a run across the Saphy bridge.",
+     "when": "dawn"
+    },
+    {
+     "landmarkId": "haukaypata",
+     "title": "Haukaypata",
+     "text": "The plaza is being swept and sanded for the feast. Workmen fix the gold seat on the ushnu; lords from the four suyus camp at its edges in their own dress."
+    },
+    {
+     "spotId": "mallqui-house",
+     "title": "The dead kings",
+     "text": "The message is read before the living Inca's governors, and before the mummies: in Cusco the dead kings still have a say."
+    },
+    {
+     "spotId": "aqha-brewer",
+     "title": "Jars of chicha",
+     "text": "Every household in Hurin Qusqu is brewing. The streets smell of mash; porters carry jars toward the plaza on tumplines."
+    },
+    {
+     "landmarkId": "aqllawasi",
+     "title": "The chosen women",
+     "text": "Through the single gate of the Aqllawasi go bales of new cumbi tunics for the Inca to give away at the feast."
+    },
+    {
+     "landmarkId": "coricancha",
+     "title": "The temple of the sun",
+     "text": "Last stop: the Coricancha's gold band burning in the afternoon light, priests readying the sun's image to be carried out at dawn.",
+     "when": "afternoon"
+    }
+   ],
+   "sourceIds": [
+    "garcilaso",
+    "cieza",
+    "betanzos"
+   ]
+  },
+  {
+   "id": "rebuilding-1650",
+   "title": "After the earthquake",
+   "periodId": "colonial-1650",
+   "summary": "Walk through Cusco in the months after 31 March 1650, from the half-finished cathedral to the ruined Jesuit church, the Dominicans on the Coricancha, the Inca walls that stood, and the painters who would fill the new churches.",
+   "steps": [
+    {
+     "landmarkId": "cathedral",
+     "title": "The cathedral",
+     "text": "Cracks in the vaults, but the great church stands. Crowds pray before the dark Christ that will be called Lord of the Earthquakes.",
+     "when": "April 1650"
+    },
+    {
+     "landmarkId": "la-compania",
+     "title": "La Compañía in ruins",
+     "text": "The Jesuits' church is a heap of stone; they are already planning a bigger one, with a facade to outshine the cathedral's."
+    },
+    {
+     "landmarkId": "coricancha",
+     "title": "Santo Domingo",
+     "text": "The Dominicans' church fell, but the Inca walls beneath it, the curved wall too, stand without a crack."
+    },
+    {
+     "landmarkId": "hatun-rumiyoc",
+     "title": "The twelve-angled stone",
+     "text": "In the street of Hatun Rumiyoc the Inca wall is intact, while the Spanish storey above it has lost its balcony."
+    },
+    {
+     "spotId": "cusco-painter",
+     "title": "San Blas",
+     "text": "Up in San Blas the painters will be busy for fifty years: every rebuilt church needs altarpieces, saints and Virgins in gold brocade."
+    }
+   ],
+   "sourceIds": [
+    "kubler",
+    "dean-cusco"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-cusco",
+   "title": "Cusco",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cuzco"
+  },
+  {
+   "id": "wiki-history-cusco",
+   "title": "History of Cusco",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Cusco"
+  },
+  {
+   "id": "wiki-killke",
+   "title": "Killke culture",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Killke_culture"
+  },
+  {
+   "id": "wiki-inca-road",
+   "title": "Inca road system",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inca_road_system"
+  },
+  {
+   "id": "wiki-tawantinsuyu",
+   "title": "Inca Empire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inca_Empire"
+  },
+  {
+   "id": "wiki-ceque",
+   "title": "Ceque system",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ceque_system"
+  },
+  {
+   "id": "hyslop",
+   "title": "Inka Settlement Planning",
+   "author": "John Hyslop",
+   "year": 1990
+  },
+  {
+   "id": "gasparini-margolies",
+   "title": "Inca Architecture",
+   "author": "Graziano Gasparini and Luise Margolies",
+   "year": 1980
+  },
+  {
+   "id": "bauer-cusco",
+   "title": "Ancient Cuzco: Heartland of the Inca",
+   "author": "Brian S. Bauer",
+   "year": 2004
+  },
+  {
+   "id": "dean-cusco",
+   "title": "Inka Bodies and the Body of Christ: Corpus Christi in Colonial Cuzco, Peru",
+   "author": "Carolyn Dean",
+   "year": 1999
+  },
+  {
+   "id": "garcilaso",
+   "title": "Comentarios reales de los Incas",
+   "author": "Inca Garcilaso de la Vega",
+   "year": 1609,
+   "url": "https://en.wikipedia.org/wiki/Inca_Garcilaso_de_la_Vega"
+  },
+  {
+   "id": "wiki-coricancha",
+   "title": "Coricancha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coricancha"
+  },
+  {
+   "id": "wiki-sacsayhuaman",
+   "title": "Sacsayhuamán",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sacsayhuam%C3%A1n"
+  },
+  {
+   "id": "wiki-plaza-armas",
+   "title": "Plaza de Armas (Cusco)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plaza_de_Armas_(Cusco)"
+  },
+  {
+   "id": "wiki-ushnu",
+   "title": "Ushnu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ushnu"
+  },
+  {
+   "id": "wiki-cathedral",
+   "title": "Cusco Cathedral",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cusco_Cathedral"
+  },
+  {
+   "id": "wiki-kancha",
+   "title": "Kancha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kancha"
+  },
+  {
+   "id": "wiki-compania",
+   "title": "Iglesia de la Compañía de Jesús, Cusco",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Iglesia_de_la_Compa%C3%B1%C3%ADa_de_Jes%C3%BAs,_Cusco"
+  },
+  {
+   "id": "wiki-acllahuasi",
+   "title": "Acllahuasi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Acllahuasi"
+  },
+  {
+   "id": "wiki-aclla",
+   "title": "Aclla",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aclla"
+  },
+  {
+   "id": "wiki-hatun-rumiyoc",
+   "title": "Hatun Rumiyoc",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hatun_Rumiyoc"
+  },
+  {
+   "id": "wiki-twelve-angled",
+   "title": "Twelve-angled stone",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Twelve-angled_stone"
+  },
+  {
+   "id": "wiki-qenqo",
+   "title": "Qenqo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Qenqo"
+  },
+  {
+   "id": "wiki-colcampata",
+   "title": "Colcampata",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colcampata"
+  },
+  {
+   "id": "wiki-qullqa",
+   "title": "Qullqa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Qullqa"
+  },
+  {
+   "id": "wiki-pachacuti",
+   "title": "Pachacuti",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pachacuti"
+  },
+  {
+   "id": "wiki-huayna-capac",
+   "title": "Huayna Capac",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Huayna_Capac"
+  },
+  {
+   "id": "wiki-viracocha",
+   "title": "Viracocha Inca",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Viracocha_Inca"
+  },
+  {
+   "id": "wiki-inca-roca",
+   "title": "Inca Roca",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inca_Roca"
+  },
+  {
+   "id": "wiki-tupac-inca",
+   "title": "Tupac Inca Yupanqui",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tupac_Inca_Yupanqui"
+  },
+  {
+   "id": "wiki-cusco-school",
+   "title": "Cusco School",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cusco_School"
+  },
+  {
+   "id": "wiki-huaca",
+   "title": "Huaca",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Huaca"
+  },
+  {
+   "id": "protzen",
+   "title": "Inca Architecture and Construction at Ollantaytambo",
+   "author": "Jean-Pierre Protzen",
+   "year": 1993
+  },
+  {
+   "id": "hemming",
+   "title": "The Conquest of the Incas",
+   "author": "John Hemming",
+   "year": 1970
+  },
+  {
+   "id": "hemming-ranney",
+   "title": "Monuments of the Incas",
+   "author": "John Hemming and Edward Ranney",
+   "year": 1982
+  },
+  {
+   "id": "cieza",
+   "title": "Crónica del Perú, part 1 and 2",
+   "author": "Pedro Cieza de León",
+   "year": "1553",
+   "url": "https://en.wikipedia.org/wiki/Pedro_Cieza_de_Le%C3%B3n"
+  },
+  {
+   "id": "cobo",
+   "title": "Historia del Nuevo Mundo (Inca Religion and Customs)",
+   "author": "Bernabé Cobo",
+   "year": 1653,
+   "url": "https://en.wikipedia.org/wiki/Bernab%C3%A9_Cobo"
+  },
+  {
+   "id": "kubler",
+   "title": "Cuzco: Reconstruction of the Town and Restoration of its Monuments (UNESCO)",
+   "author": "George Kubler",
+   "year": 1952
+  },
+  {
+   "id": "betanzos",
+   "title": "Suma y narración de los Incas",
+   "author": "Juan de Betanzos",
+   "year": 1551,
+   "url": "https://en.wikipedia.org/wiki/Juan_de_Betanzos"
+  },
+  {
+   "id": "sancho",
+   "title": "An Account of the Conquest of Peru",
+   "author": "Pedro Sancho de la Hoz",
+   "year": 1534
+  },
+  {
+   "id": "murra",
+   "title": "The Economic Organization of the Inka State",
+   "author": "John V. Murra",
+   "year": 1980
+  },
+  {
+   "id": "d-altroy",
+   "title": "The Incas",
+   "author": "Terence N. D'Altroy",
+   "year": 2002
+  },
+  {
+   "id": "wiki-chicha",
+   "title": "Chicha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicha"
+  },
+  {
+   "id": "wiki-quipu",
+   "title": "Quipu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Quipu"
+  },
+  {
+   "id": "wiki-chasqui",
+   "title": "Chasqui",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chasqui"
+  },
+  {
+   "id": "wiki-cumbi",
+   "title": "Cumbi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cumbi"
+  },
+  {
+   "id": "wiki-inca-mummies",
+   "title": "Inca mummies",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inca_mummies"
+  },
+  {
+   "id": "wiki-panaca",
+   "title": "Panaca",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Panaca"
+  },
+  {
+   "id": "wiki-llama",
+   "title": "Llama",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Llama"
+  },
+  {
+   "id": "wiki-rumicolca",
+   "title": "Rumicolca",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rumicolca"
+  },
+  {
+   "id": "wiki-quispe-tito",
+   "title": "Diego Quispe Tito",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Diego_Quispe_Tito"
+  },
+  {
+   "id": "wiki-inti-raymi",
+   "title": "Inti Raymi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inti_Raymi"
+  },
+  {
+   "id": "wiki-chanka",
+   "title": "Chanka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chanka"
+  },
+  {
+   "id": "wiki-civil-war",
+   "title": "Inca Civil War",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inca_Civil_War"
+  },
+  {
+   "id": "wiki-quizquiz",
+   "title": "Quizquiz",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Quizquiz"
+  },
+  {
+   "id": "wiki-chalcuchimac",
+   "title": "Chalcuchimac",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chalcuchimac"
+  },
+  {
+   "id": "wiki-siege",
+   "title": "Siege of Cusco",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Cusco"
+  },
+  {
+   "id": "wiki-manco",
+   "title": "Manco Inca Yupanqui",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Manco_Inca_Yupanqui"
+  },
+  {
+   "id": "wiki-juan-pizarro",
+   "title": "Juan Pizarro",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Juan_Pizarro"
+  },
+  {
+   "id": "wiki-earthquakes-peru",
+   "title": "List of earthquakes in Peru",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_earthquakes_in_Peru"
+  }
+ ]
+}
