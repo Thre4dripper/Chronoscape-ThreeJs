@@ -1,0 +1,566 @@
+{
+ "coricancha": [
+  {
+   "src": "media/cusco/coricancha/1.jpg",
+   "thumb": "media/cusco/coricancha/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Model of old Qoricancha",
+   "artist": "John Seb Barber",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Model_of_old_Qoricancha.jpg"
+  },
+  {
+   "src": "media/cusco/coricancha/2.jpg",
+   "thumb": "media/cusco/coricancha/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Model of modern Qoricancha",
+   "artist": "John Seb Barber",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Model_of_modern_Qoricancha.jpg"
+  },
+  {
+   "src": "media/cusco/coricancha/3.jpg",
+   "thumb": "media/cusco/coricancha/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "reconstruction",
+   "caption": "A digital recreation of the Sun Temple (Coricancha) of Cusco, with gold ornaments, before European arrival. Xauxa image (File:Cusco_Coricancha_Inti-Huasi_main_view.jpg) was used as a model.",
+   "artist": "Martín Rodríguez Pontes",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Coricancha_during_Incaic_Period_(digital_reconstruction)..jpg"
+  },
+  {
+   "src": "media/cusco/coricancha/4.jpg",
+   "thumb": "media/cusco/coricancha/t4.jpg",
+   "w": 800,
+   "h": 539,
+   "kind": "photograph",
+   "caption": "Photograph by Diego Delso, 2015.",
+   "artist": "Diego Delso",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Coricancha,_Cusco,_Per%C3%BA,_2015-07-31,_DD_68.JPG"
+  },
+  {
+   "src": "media/cusco/coricancha/5.jpg",
+   "thumb": "media/cusco/coricancha/t5.jpg",
+   "w": 800,
+   "h": 450,
+   "kind": "photograph",
+   "caption": "Coricancha museum marker graphically explaining the Inca astronomical system",
+   "artist": "Pi3.124",
+   "date": "2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Coricancha_museum_marker_graphically_explaining_the_Inca_astronomical_system.jpg"
+  }
+ ],
+ "sacsayhuaman": [
+  {
+   "src": "media/cusco/sacsayhuaman/2.jpg",
+   "thumb": "media/cusco/sacsayhuaman/t2.jpg",
+   "w": 800,
+   "h": 442,
+   "kind": "artwork",
+   "caption": "North view of the remains of the Inca's fort, Sacsahuaman. Cuzco Subject: Sacsahuamam (Peru), Fortification--Peru Geographic Subject: Peru--Sacsahuamam Tag: Coasts",
+   "artist": "William Lewis Herndon",
+   "date": "1854",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:FMIB_49785_North_view_of_the_remains_of_the_Inca%27s_fort,_Sacsahuaman_Cuzco.jpeg"
+  },
+  {
+   "src": "media/cusco/sacsayhuaman/3.jpg",
+   "thumb": "media/cusco/sacsayhuaman/t3.jpg",
+   "w": 800,
+   "h": 471,
+   "kind": "artwork",
+   "caption": "Artwork, 1877.",
+   "artist": "Unknown",
+   "date": "1877",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n_in_1877_by_Ephraim_George_Squier.jpg"
+  },
+  {
+   "src": "media/cusco/sacsayhuaman/4.jpg",
+   "thumb": "media/cusco/sacsayhuaman/t4.jpg",
+   "w": 800,
+   "h": 471,
+   "kind": "artwork",
+   "caption": "Artwork, 1877.",
+   "artist": "Unknown",
+   "date": "1877",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n_2_in_1877_by_Ephraim_George_Squier.jpg"
+  },
+  {
+   "src": "media/cusco/sacsayhuaman/1.jpg",
+   "thumb": "media/cusco/sacsayhuaman/t1.jpg",
+   "w": 800,
+   "h": 439,
+   "kind": "photograph",
+   "caption": "Photograph by Diego Delso, 2015.",
+   "artist": "Diego Delso",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n,_Cusco,_Per%C3%BA,_2015-07-31,_DD_27.JPG"
+  },
+  {
+   "src": "media/cusco/sacsayhuaman/5.jpg",
+   "thumb": "media/cusco/sacsayhuaman/t5.jpg",
+   "w": 800,
+   "h": 184,
+   "kind": "photograph",
+   "caption": "View of Saksaywaman, a citadel on the northern outskirts of the city of en:Cusco, historic capital of the Inca Empire, today Peru.",
+   "artist": "Diego Delso",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n,_Cusco,_Per%C3%BA,_2015-07-31,_DD_28-30_PAN.JPG"
+  }
+ ],
+ "haukaypata": [
+  {
+   "src": "media/cusco/haukaypata/1.jpg",
+   "thumb": "media/cusco/haukaypata/t1.jpg",
+   "w": 800,
+   "h": 415,
+   "kind": "photograph",
+   "caption": "Plaza principal de la Ciudad de Cusco",
+   "artist": "FrederickCusco",
+   "date": "2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Cusco.jpg"
+  },
+  {
+   "src": "media/cusco/haukaypata/2.jpg",
+   "thumb": "media/cusco/haukaypata/t2.jpg",
+   "w": 800,
+   "h": 399,
+   "kind": "photograph",
+   "caption": "Photograph by Pedro Szekely from Los Angeles, USA, 2007.",
+   "artist": "Pedro Szekely from Los Angeles, USA",
+   "date": "2007",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cusco_(35012987295).jpg"
+  }
+ ],
+ "kiswarkancha": [
+  {
+   "src": "media/cusco/kiswarkancha/1.jpg",
+   "thumb": "media/cusco/kiswarkancha/t1.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "This is a photo of a monument in Peru, identified by ID",
+   "artist": "PoolPs",
+   "date": "2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_ciudad_del_Cusco.jpg"
+  },
+  {
+   "src": "media/cusco/kiswarkancha/2.jpg",
+   "thumb": "media/cusco/kiswarkancha/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "Cathedral of Santo Domingo at night in Cusco, Peru.",
+   "artist": "Martin Lang",
+   "date": "2013",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cusco_Peru_Night_City_Cathedral.jpg"
+  }
+ ],
+ "cathedral": [
+  {
+   "src": "media/cusco/cathedral/1.jpg",
+   "thumb": "media/cusco/cathedral/t1.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "This is a photo of a monument in Peru, identified by ID",
+   "artist": "PoolPs",
+   "date": "2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_ciudad_del_Cusco.jpg"
+  },
+  {
+   "src": "media/cusco/cathedral/2.jpg",
+   "thumb": "media/cusco/cathedral/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "Cathedral of Santo Domingo at night in Cusco, Peru.",
+   "artist": "Martin Lang",
+   "date": "2013",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cusco_Peru_Night_City_Cathedral.jpg"
+  }
+ ],
+ "kasana": [
+  {
+   "src": "media/cusco/kasana/1.jpg",
+   "thumb": "media/cusco/kasana/t1.jpg",
+   "w": 733,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Artwork, between 1750 and 1800.",
+   "artist": "Unknown",
+   "date": "between 1750 and 1800",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Pachacuti,_Tenth_Inca,_1_of_14_Portraits_of_Inca_Kings_(cropped).jpg"
+  },
+  {
+   "src": "media/cusco/kasana/2.jpg",
+   "thumb": "media/cusco/kasana/t2.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Pachacutic means \"earth shaker.\" He transformed the Inka state and made Cusco the center of an extensive empire.",
+   "artist": "Felipe Huaman Puma de Ayala",
+   "date": "circa 1615",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Pachacutic,_9th_Shapa_Inka_(1438%E2%80%931471),_1615.jpg"
+  },
+  {
+   "src": "media/cusco/kasana/4.jpg",
+   "thumb": "media/cusco/kasana/t4.jpg",
+   "w": 595,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Ninth Inca: Pachacútec, painting from Cusco by an unknown artist (17th century)",
+   "artist": "Cuzco School",
+   "date": "17th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:PachacutecIXinca.jpg"
+  },
+  {
+   "src": "media/cusco/kasana/3.jpg",
+   "thumb": "media/cusco/kasana/t3.jpg",
+   "w": 800,
+   "h": 536,
+   "kind": "photograph",
+   "caption": "Photograph by V. Lee, 2006.",
+   "artist": "V. Lee",
+   "date": "2006",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pachacuti%27s_palace,_Vitcos.jpg"
+  },
+  {
+   "src": "media/cusco/kasana/5.jpg",
+   "thumb": "media/cusco/kasana/t5.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Incan Palace of the Kusikancha in Cusco.",
+   "artist": "Mx._Granger",
+   "date": "10 December 2017 (according to Exif…",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Palacio_Inka_del_Kusikancha.jpg"
+  }
+ ],
+ "amarukancha": [
+  {
+   "src": "media/cusco/amarukancha/1.jpg",
+   "thumb": "media/cusco/amarukancha/t1.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Huayna Cápac, inca. Primer escultura de un inca.",
+   "artist": "Fernando Mancero Coloma",
+   "date": "2014",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Huayna_C%C3%A1pac_en_el_Monumento_a_Olmedo.JPG"
+  },
+  {
+   "src": "media/cusco/amarukancha/2.jpg",
+   "thumb": "media/cusco/amarukancha/t2.jpg",
+   "w": 800,
+   "h": 599,
+   "kind": "photograph",
+   "caption": "View of Pumpu from the storehouses of Shongoymarca. The Inca city of Pumpu is connected by a river to the Chinchaycocha lagoon.",
+   "artist": "Yuraq-yaku1",
+   "date": "2019",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pumpu,_an_Inca_site.png"
+  }
+ ],
+ "la-compania": [
+  {
+   "src": "media/cusco/la-compania/2.jpg",
+   "thumb": "media/cusco/la-compania/t2.jpg",
+   "w": 800,
+   "h": 576,
+   "kind": "artwork",
+   "caption": "Artwork by Photographer: Villroy R. Richardson, photo located in the New York Public Library., 1868.",
+   "artist": "Photographer: Villroy R. Richardson, photo located in the New York Public Library.",
+   "date": "1868",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Church_of_la_Compa%C3%B1%C3%ADa_de_Jes%C3%BAs,_1868,_Cusco,_Peru_(cropped).jpg"
+  },
+  {
+   "src": "media/cusco/la-compania/1.jpg",
+   "thumb": "media/cusco/la-compania/t1.jpg",
+   "w": 800,
+   "h": 716,
+   "kind": "photograph",
+   "caption": "Society of Jesus church, Plaza de Armas, Cusco, Peru",
+   "artist": "Diego Delso",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Compa%C3%B1%C3%ADa_de_Jes%C3%BAs,_Plaza_de_Armas,_Cusco,_Per%C3%BA,_2015-07-31,_DD_51.JPG"
+  },
+  {
+   "src": "media/cusco/la-compania/4.jpg",
+   "thumb": "media/cusco/la-compania/t4.jpg",
+   "w": 800,
+   "h": 450,
+   "kind": "photograph",
+   "caption": "Photograph by WIlde Vögel fliegen, 2024.",
+   "artist": "WIlde Vögel fliegen",
+   "date": "2024",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Peru_24%27_Cusco_Main_Square.jpg"
+  }
+ ],
+ "aqllawasi": [
+  {
+   "src": "media/cusco/aqllawasi/1.jpg",
+   "thumb": "media/cusco/aqllawasi/t1.jpg",
+   "w": 800,
+   "h": 778,
+   "kind": "artwork",
+   "caption": "Portrait of Lloque Yupanqui in the frontispiece to the fifth Decade of Historia general de los hechos de los castellanos en las Islas y Tierra Firme del mar Océano que llaman Indias Occidentales by Antonio de Herrera",
+   "artist": "Antonio de Herrera (1549-1626)",
+   "date": "circa 1610",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Lloque.JPG"
+  }
+ ],
+ "hatunkancha": [],
+ "pucamarca": [],
+ "kusicancha": [],
+ "hatun-rumiyoc": [
+  {
+   "src": "media/cusco/hatun-rumiyoc/1.jpg",
+   "thumb": "media/cusco/hatun-rumiyoc/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "An Inca wall along Hatunrumiyoc in Cuzco, Peru.",
+   "artist": "David Stanley from Nanaimo, Canada",
+   "date": "2012",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hatunrumiyoc_(7640968366).jpg"
+  },
+  {
+   "src": "media/cusco/hatun-rumiyoc/2.jpg",
+   "thumb": "media/cusco/hatun-rumiyoc/t2.jpg",
+   "w": 499,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph, 1st–3rd century.",
+   "artist": "Unknown",
+   "date": "1st–3rd century",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Bottle,_Prisoner_MET_vs67_167_32.jpg"
+  }
+ ],
+ "qenqo": [
+  {
+   "src": "media/cusco/qenqo/1.jpg",
+   "thumb": "media/cusco/qenqo/t1.jpg",
+   "w": 800,
+   "h": 530,
+   "kind": "photograph",
+   "caption": "Q'enqo in Cusco, Peru",
+   "artist": "Esmée Winnubst",
+   "date": "2017",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:10.24_Cusco_Q%27enqo-18.jpg"
+  },
+  {
+   "src": "media/cusco/qenqo/2.jpg",
+   "thumb": "media/cusco/qenqo/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Leon petrosyan, 2006.",
+   "artist": "Leon petrosyan",
+   "date": "2006",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Qenko-5.jpg"
+  }
+ ],
+ "qollqampata": [
+  {
+   "src": "media/cusco/qollqampata/1.jpg",
+   "thumb": "media/cusco/qollqampata/t1.jpg",
+   "w": 800,
+   "h": 461,
+   "kind": "photograph",
+   "caption": "Muro lateral del Palacio de Colcampata, Parroquia de San Cristóbal (Cuzco)",
+   "artist": "HAZapata",
+   "date": "2004",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Colcampata.jpg"
+  },
+  {
+   "src": "media/cusco/qollqampata/2.jpg",
+   "thumb": "media/cusco/qollqampata/t2.jpg",
+   "w": 499,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph, 1st–3rd century.",
+   "artist": "Unknown",
+   "date": "1st–3rd century",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Bottle,_Prisoner_MET_vs67_167_32.jpg"
+  }
+ ],
+ "san-francisco": [
+  {
+   "src": "media/cusco/san-francisco/1.jpg",
+   "thumb": "media/cusco/san-francisco/t1.jpg",
+   "w": 800,
+   "h": 601,
+   "kind": "artwork",
+   "caption": "Map of Cusco by Sebastian Munster (1574)",
+   "artist": "Sebastian Münster",
+   "date": "1574",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Map_of_Cusco_by_Sebastian_Munster_(1574).jpg"
+  },
+  {
+   "src": "media/cusco/san-francisco/3.jpg",
+   "thumb": "media/cusco/san-francisco/t3.jpg",
+   "w": 800,
+   "h": 516,
+   "kind": "artwork",
+   "caption": "Aerial view of Cusco that includes the city, agricultural landscape and the mountain range. At the bottom it is possible to see that it says CUZCO.",
+   "artist": "Courret Hermanos",
+   "date": "1897",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Vista_panor%C3%A1mica_de_la_ciudad_de_Cuzco_(circa_1897)_(cropped).jpg"
+  },
+  {
+   "src": "media/cusco/san-francisco/5.jpg",
+   "thumb": "media/cusco/san-francisco/t5.jpg",
+   "w": 728,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Almagro takes over Cuzco.",
+   "artist": "Francisco López de Gómara",
+   "date": "1554",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Almagro_en_el_Cuzco.jpg"
+  },
+  {
+   "src": "media/cusco/san-francisco/2.jpg",
+   "thumb": "media/cusco/san-francisco/t2.jpg",
+   "w": 800,
+   "h": 641,
+   "kind": "painting",
+   "caption": "Painting by AnonymousUnknown author, 17th century.",
+   "artist": "AnonymousUnknown author",
+   "date": "17th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:17th_century_painting_of_the_city_of_Cusco_before_the_1650_Earthquake.jpg"
+  }
+ ],
+ "san-blas": [
+  {
+   "src": "media/cusco/san-blas/1.jpg",
+   "thumb": "media/cusco/san-blas/t1.jpg",
+   "w": 800,
+   "h": 666,
+   "kind": "artwork",
+   "caption": "Artwork by Unknown authorUnknown author, ca. 1770–80.",
+   "artist": "Unknown authorUnknown author",
+   "date": "ca. 1770–80",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Valvanera_MET_DP-17034-002.jpg"
+  },
+  {
+   "src": "media/cusco/san-blas/3.jpg",
+   "thumb": "media/cusco/san-blas/t3.jpg",
+   "w": 593,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Artwork by Unknown authorUnknown author, ca. 1770–75.",
+   "artist": "Unknown authorUnknown author",
+   "date": "ca. 1770–75",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Christ_Carrying_the_Cross,_called_%22The_Lord_of_the_Fall%22_MET_DP-18755-007.jpg"
+  },
+  {
+   "src": "media/cusco/san-blas/4.jpg",
+   "thumb": "media/cusco/san-blas/t4.jpg",
+   "w": 567,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Artwork by Cuzco School / Unidentified painter, from 1740 until 1770.",
+   "artist": "Cuzco School / Unidentified painter",
+   "date": "from 1740 until 1770",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Cuzque%C3%B1a2.jpg"
+  },
+  {
+   "src": "media/cusco/san-blas/2.jpg",
+   "thumb": "media/cusco/san-blas/t2.jpg",
+   "w": 646,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Religious painting, likely from the Cusco School, 18th century, representing the holy family with Maria, Jesus and Joseph surrounded by angles, adorating shepherds and cattle.",
+   "artist": "Veejohn",
+   "date": "",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Adoration_of_the_shepherds._Anonymous,_18th_century,_Cuzco_School._oil_on_canvas,_31_x_25_cm.tif"
+  }
+ ]
+}
