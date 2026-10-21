@@ -818,6 +818,222 @@
   "size": 198.22,
   "w": 190.6
  },
+ "cusco/amarukancha": {
+  "cx": 0.0,
+  "cy": 0.02,
+  "d": 90.05,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.65,
+  "w": 72.0
+ },
+ "cusco/aqllawasi": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "d": 76.15,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "cusco/cathedral": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 85.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cusco/coricancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 90.0
+ },
+ "cusco/hatun-rumiyoc": {
+  "cx": 0.0,
+  "cy": 0.05,
+  "d": 70.1,
+  "ext": "webp",
+  "px": 219,
+  "size": 72.9,
+  "w": 70.0
+ },
+ "cusco/hatun-rumiyoc-1650": {
+  "cx": 0.0,
+  "cy": 0.31,
+  "d": 70.62,
+  "ext": "webp",
+  "px": 220,
+  "size": 73.44,
+  "w": 70.0
+ },
+ "cusco/hatunkancha": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "d": 80.15,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "cusco/haukaypata": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 125.0,
+  "ext": "webp",
+  "px": 565,
+  "size": 188.24,
+  "w": 181.0
+ },
+ "cusco/inticancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 90.0
+ },
+ "cusco/kasana": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cusco/kiswarkancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 85.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cusco/kusicancha": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "cusco/la-compania": {
+  "cx": 0.45,
+  "cy": -0.0,
+  "d": 75.0,
+  "ext": "webp",
+  "px": 234,
+  "size": 78.0,
+  "w": 44.9
+ },
+ "cusco/plaza-1650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 124.0,
+  "ext": "webp",
+  "px": 562,
+  "size": 187.2,
+  "w": 180.0
+ },
+ "cusco/pucamarca": {
+  "cx": 0.0,
+  "cy": 0.48,
+  "d": 56.95,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "cusco/qenqo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "cusco/qollqampata": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "cusco/sacsayhuaman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 395.2,
+  "w": 380.0
+ },
+ "cusco/sacsayhuaman-1470": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 395.2,
+  "w": 380.0
+ },
+ "cusco/sacsayhuaman-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 395.2,
+  "w": 380.0
+ },
+ "cusco/san-blas": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 45.76,
+  "w": 24.0
+ },
+ "cusco/san-francisco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 80.0,
+  "ext": "webp",
+  "px": 250,
+  "size": 83.2,
+  "w": 70.0
+ },
+ "cusco/santa-catalina": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 76.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "cusco/santo-domingo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 90.0
+ },
  "delhi/chandni-chowk": {
   "cx": -35.0,
   "cy": -3.75,
