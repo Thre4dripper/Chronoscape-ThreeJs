@@ -2654,6 +2654,176 @@
   "cy": -0.0,
   "size": 76.68
  },
+ "teotihuacan/atetelco": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 85.2
+ },
+ "teotihuacan/avenue-of-the-dead": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 476.84
+ },
+ "teotihuacan/avenue-of-the-dead-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 477.38
+ },
+ "teotihuacan/avenue-of-the-dead-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 467.47
+ },
+ "teotihuacan/ciudadela": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 458.65
+ },
+ "teotihuacan/ciudadela-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 454.38
+ },
+ "teotihuacan/ciudadela-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 448.9
+ },
+ "teotihuacan/great-compound": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 417.18
+ },
+ "teotihuacan/merchants-barrio": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 164.02
+ },
+ "teotihuacan/moon-plaza": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 249.72
+ },
+ "teotihuacan/moon-plaza-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 249.89
+ },
+ "teotihuacan/moon-plaza-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 241.25
+ },
+ "teotihuacan/oaxaca-barrio": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 141.2
+ },
+ "teotihuacan/palace-of-quetzalpapalotl": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 94.26
+ },
+ "teotihuacan/palace-of-quetzalpapalotl-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 88.76
+ },
+ "teotihuacan/plaza-of-the-columns": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 277.22
+ },
+ "teotihuacan/plaza-of-the-columns-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 265.22
+ },
+ "teotihuacan/pyramid-of-the-moon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 266.5
+ },
+ "teotihuacan/pyramid-of-the-moon-100": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 206.62
+ },
+ "teotihuacan/pyramid-of-the-moon-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 241.57
+ },
+ "teotihuacan/pyramid-of-the-moon-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 254.79
+ },
+ "teotihuacan/pyramid-of-the-sun": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 442.19
+ },
+ "teotihuacan/pyramid-of-the-sun-100": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 377.18
+ },
+ "teotihuacan/pyramid-of-the-sun-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 415.99
+ },
+ "teotihuacan/pyramid-of-the-sun-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 426.8
+ },
+ "teotihuacan/san-juan-crossing": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 151.29
+ },
+ "teotihuacan/temple-of-the-feathered-serpent": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 163.73
+ },
+ "teotihuacan/temple-of-the-feathered-serpent-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 142.19
+ },
+ "teotihuacan/temple-of-the-feathered-serpent-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 146.94
+ },
+ "teotihuacan/temple-of-the-feathered-serpent-adosada": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 148.54
+ },
+ "teotihuacan/tepantitla": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 76.73
+ },
+ "teotihuacan/tetitla": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 85.2
+ },
+ "teotihuacan/xalla": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 159.57
+ },
+ "teotihuacan/xalla-650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 153.71
+ },
  "venice/arsenale": {
   "cx": -2.1,
   "cy": -0.55,
