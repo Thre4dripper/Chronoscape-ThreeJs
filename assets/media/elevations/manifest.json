@@ -1495,6 +1495,270 @@
   "w": 35.6,
   "x0px": 29.1
  },
+ "changan/bell-tower": {
+  "ground": 467.5,
+  "h": 36.57,
+  "mpp": 0.08348,
+  "px": [
+   495,
+   497
+  ],
+  "w": 36.4,
+  "x0px": 29.5
+ },
+ "changan/chengtianmen": {
+  "ground": 332.1,
+  "h": 30.22,
+  "mpp": 0.11099,
+  "px": [
+   1400,
+   392
+  ],
+  "w": 142.02,
+  "x0px": 60.2
+ },
+ "changan/danfengmen": {
+  "ground": 267.8,
+  "h": 29.72,
+  "mpp": 0.14173,
+  "px": [
+   1400,
+   326
+  ],
+  "w": 181.87,
+  "x0px": 58.4
+ },
+ "changan/daqin-880": {
+  "ground": 179.5,
+  "h": 10.1,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   242
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "changan/daqin-monastery": {
+  "ground": 247.7,
+  "h": 16.0,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   310
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "changan/daxingshan-si": {
+  "ground": 278.4,
+  "h": 51.88,
+  "mpp": 0.23286,
+  "px": [
+   1400,
+   334
+  ],
+  "w": 300.0,
+  "x0px": 55.8
+ },
+ "changan/drum-tower": {
+  "ground": 466.3,
+  "h": 35.75,
+  "mpp": 0.08339,
+  "px": [
+   713,
+   504
+  ],
+  "w": 53.2,
+  "x0px": 37.5
+ },
+ "changan/east-market": {
+  "ground": 73.1,
+  "h": 14.45,
+  "mpp": 0.71346,
+  "px": [
+   1400,
+   126
+  ],
+  "w": 923.0,
+  "x0px": 53.1
+ },
+ "changan/great-mosque": {
+  "ground": 291.2,
+  "h": 21.28,
+  "mpp": 0.08333,
+  "px": [
+   672,
+   327
+  ],
+  "w": 50.0,
+  "x0px": 36.0
+ },
+ "changan/greater-goose": {
+  "ground": 482.2,
+  "h": 66.1,
+  "mpp": 0.15571,
+  "px": [
+   1400,
+   540
+  ],
+  "w": 200.0,
+  "x0px": 57.8
+ },
+ "changan/greater-goose-1400": {
+  "ground": 482.2,
+  "h": 66.1,
+  "mpp": 0.15571,
+  "px": [
+   1400,
+   540
+  ],
+  "w": 200.0,
+  "x0px": 57.8
+ },
+ "changan/greater-goose-652": {
+  "ground": 455.3,
+  "h": 61.9,
+  "mpp": 0.15571,
+  "px": [
+   1400,
+   513
+  ],
+  "w": 200.0,
+  "x0px": 57.8
+ },
+ "changan/guozijian": {
+  "ground": 151.6,
+  "h": 19.25,
+  "mpp": 0.202,
+  "px": [
+   1400,
+   208
+  ],
+  "w": 260.0,
+  "x0px": 56.4
+ },
+ "changan/hanyuan-hall": {
+  "ground": 235.5,
+  "h": 44.72,
+  "mpp": 0.24829,
+  "px": [
+   1400,
+   291
+  ],
+  "w": 320.0,
+  "x0px": 55.6
+ },
+ "changan/hanyuan-hall-ruin": {
+  "ground": 118.8,
+  "h": 15.8,
+  "mpp": 0.24829,
+  "px": [
+   1400,
+   174
+  ],
+  "w": 320.0,
+  "x0px": 55.6
+ },
+ "changan/lesser-goose": {
+  "ground": 610.5,
+  "h": 47.28,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   673
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "changan/ming-south-gate": {
+  "ground": 453.4,
+  "h": 39.96,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   514
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "changan/qin-palace": {
+  "ground": 120.0,
+  "h": 25.53,
+  "mpp": 0.38714,
+  "px": [
+   1400,
+   174
+  ],
+  "w": 500.0,
+  "x0px": 54.2
+ },
+ "changan/taiji-palace": {
+  "ground": 193.1,
+  "h": 38.57,
+  "mpp": 0.27914,
+  "px": [
+   1400,
+   248
+  ],
+  "w": 360.0,
+  "x0px": 55.2
+ },
+ "changan/west-market": {
+  "ground": 73.1,
+  "h": 14.45,
+  "mpp": 0.71346,
+  "px": [
+   1400,
+   126
+  ],
+  "w": 923.0,
+  "x0px": 53.1
+ },
+ "changan/ximing-si": {
+  "ground": 279.0,
+  "h": 37.99,
+  "mpp": 0.17114,
+  "px": [
+   1400,
+   336
+  ],
+  "w": 220.0,
+  "x0px": 57.3
+ },
+ "changan/xingqing-palace": {
+  "ground": 119.7,
+  "h": 31.82,
+  "mpp": 0.47971,
+  "px": [
+   1400,
+   173
+  ],
+  "w": 620.0,
+  "x0px": 53.8
+ },
+ "changan/xuandu-guan": {
+  "ground": 172.6,
+  "h": 21.69,
+  "mpp": 0.18657,
+  "px": [
+   1400,
+   229
+  ],
+  "w": 240.0,
+  "x0px": 56.8
+ },
+ "changan/zhuquemen": {
+  "ground": 344.2,
+  "h": 24.05,
+  "mpp": 0.08339,
+  "px": [
+   1212,
+   400
+  ],
+  "w": 91.72,
+  "x0px": 56.0
+ },
  "constantinople/aqueduct-of-valens": {
   "ground": 93.1,
   "h": 28.0,
