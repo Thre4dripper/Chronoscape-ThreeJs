@@ -2399,6 +2399,116 @@
   "cy": -0.19,
   "size": 109.14
  },
+ "samarkand/afrasiyab-citadel": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 257.34
+ },
+ "samarkand/afrasiyab-citadel-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 235.74
+ },
+ "samarkand/afrasiyab-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 165.41
+ },
+ "samarkand/ak-saray": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 62.55
+ },
+ "samarkand/ambassadors-hall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 67.08
+ },
+ "samarkand/bagh-i-dilkusha": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "size": 264.5
+ },
+ "samarkand/bibi-khanym": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 301.98
+ },
+ "samarkand/bibi-khanym-1650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 263.79
+ },
+ "samarkand/chorsu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 81.6
+ },
+ "samarkand/gur-e-amir": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 185.38
+ },
+ "samarkand/hazrat-khizr": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 83.57
+ },
+ "samarkand/kok-saray": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 334.28
+ },
+ "samarkand/observatory": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 145.46
+ },
+ "samarkand/observatory-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 85.7
+ },
+ "samarkand/registan-1404": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 240.86
+ },
+ "samarkand/registan-1440": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 285.23
+ },
+ "samarkand/registan-1650": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 283.68
+ },
+ "samarkand/rukhabad": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 75.08
+ },
+ "samarkand/shah-i-zinda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 340.17
+ },
+ "samarkand/shah-i-zinda-1404": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 340.17
+ },
+ "samarkand/siab-bazaar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 105.0
+ },
+ "samarkand/sogdian-temple": {
+  "cx": 0.0,
+  "cy": 1.15,
+  "size": 133.3
+ },
  "tenochtitlan/aqueduct": {
   "cx": 0.0,
   "cy": -0.0,
