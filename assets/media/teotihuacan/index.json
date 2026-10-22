@@ -1,0 +1,233 @@
+{
+ "pyramid-of-the-moon": [
+  {
+   "src": "media/teotihuacan/pyramid-of-the-moon/1.jpg",
+   "thumb": "media/teotihuacan/pyramid-of-the-moon/t1.jpg",
+   "w": 800,
+   "h": 460,
+   "kind": "photograph",
+   "caption": "Pirámide de la Luna, Teotihuacán, México",
+   "artist": "Gorgo",
+   "date": "29 July 2006",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Piramide_de_la_Luna_072006.jpg"
+  },
+  {
+   "src": "media/teotihuacan/pyramid-of-the-moon/2.jpg",
+   "thumb": "media/teotihuacan/pyramid-of-the-moon/t2.jpg",
+   "w": 800,
+   "h": 215,
+   "kind": "photograph",
+   "caption": "Panoramic view of the Pyramid of the Moon, Teotihuacan archaeological site, Mexico",
+   "artist": "Mariordo (Mario Roberto Duran Ortiz)",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Panorama_Moon_Pyramid_Teotihuacan_05_2015_MEX_3358.JPG"
+  }
+ ],
+ "moon-plaza": [
+  {
+   "src": "media/teotihuacan/moon-plaza/1.jpg",
+   "thumb": "media/teotihuacan/moon-plaza/t1.jpg",
+   "w": 800,
+   "h": 460,
+   "kind": "photograph",
+   "caption": "Pirámide de la Luna, Teotihuacán, México",
+   "artist": "Gorgo",
+   "date": "29 July 2006",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Piramide_de_la_Luna_072006.jpg"
+  },
+  {
+   "src": "media/teotihuacan/moon-plaza/2.jpg",
+   "thumb": "media/teotihuacan/moon-plaza/t2.jpg",
+   "w": 800,
+   "h": 215,
+   "kind": "photograph",
+   "caption": "Panoramic view of the Pyramid of the Moon, Teotihuacan archaeological site, Mexico",
+   "artist": "Mariordo (Mario Roberto Duran Ortiz)",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Panorama_Moon_Pyramid_Teotihuacan_05_2015_MEX_3358.JPG"
+  }
+ ],
+ "palace-of-quetzalpapalotl": [
+  {
+   "src": "media/teotihuacan/palace-of-quetzalpapalotl/1.jpg",
+   "thumb": "media/teotihuacan/palace-of-quetzalpapalotl/t1.jpg",
+   "w": 800,
+   "h": 451,
+   "kind": "photograph",
+   "caption": "Photograph by Ovedc, 2015.",
+   "artist": "Ovedc",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ovedc_Teotihuacan_12.jpg"
+  },
+  {
+   "src": "media/teotihuacan/palace-of-quetzalpapalotl/2.jpg",
+   "thumb": "media/teotihuacan/palace-of-quetzalpapalotl/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "View of courtyard at Palace of Quetzalpapalotl at Teotihuacan",
+   "artist": "Peachseltzer",
+   "date": "2023",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_courtyard_at_Palace_of_Quetzalpapalotl.jpg"
+  }
+ ],
+ "plaza-of-the-columns": [],
+ "pyramid-of-the-sun": [
+  {
+   "src": "media/teotihuacan/pyramid-of-the-sun/1.jpg",
+   "thumb": "media/teotihuacan/pyramid-of-the-sun/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Museo del sitio, Teotihuacán. Reconstruction of the Pyramid of the Sun.",
+   "artist": "Wolfgang Sauber",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Teotihuac%C3%A1n_-_Modell_Sonnenpyramide.jpg"
+  },
+  {
+   "src": "media/teotihuacan/pyramid-of-the-sun/2.jpg",
+   "thumb": "media/teotihuacan/pyramid-of-the-sun/t2.jpg",
+   "w": 800,
+   "h": 450,
+   "kind": "photograph",
+   "caption": "Archäologische Bauten in der Ruinenstadt Teotihuacán",
+   "artist": "Burkhard Mücke",
+   "date": "2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pir%C3%A1mide_del_Sol.jpg"
+  },
+  {
+   "src": "media/teotihuacan/pyramid-of-the-sun/3.jpg",
+   "thumb": "media/teotihuacan/pyramid-of-the-sun/t3.jpg",
+   "w": 800,
+   "h": 418,
+   "kind": "photograph",
+   "caption": "Panoramic view of the pyramid of the Sun, Teotihuacan, Mexico.",
+   "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sun_Pyramid_05_2015_Teotihuacan_3304.JPG"
+  }
+ ],
+ "xalla": [],
+ "tepantitla": [
+  {
+   "src": "media/teotihuacan/tepantitla/1.jpg",
+   "thumb": "media/teotihuacan/tepantitla/t1.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Mural which was believed to represent the Tlalocan, before the Great Goddess hypothesis. Tepantitla palace, Teotihuacan",
+   "artist": "Escocia1",
+   "date": "2011",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tlalocan.jpg"
+  }
+ ],
+ "tetitla": [],
+ "atetelco": [],
+ "avenue-of-the-dead": [],
+ "san-juan-crossing": [],
+ "ciudadela": [
+  {
+   "src": "media/teotihuacan/ciudadela/1.jpg",
+   "thumb": "media/teotihuacan/ciudadela/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Museo del sitio, Teotihuacán. Reconstruction of La Ciudadela",
+   "artist": "Wolfgang Sauber",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Teotihuac%C3%A1n_-_Modell_Ciudadela.jpg"
+  },
+  {
+   "src": "media/teotihuacan/ciudadela/2.jpg",
+   "thumb": "media/teotihuacan/ciudadela/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "Mexico photographed by Wojciech Kocot",
+   "artist": "Wojciech Kocot",
+   "date": "25 March 2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:ASb146-Teotihuacan-Templo_Del_Quetzalcoatl.jpg"
+  },
+  {
+   "src": "media/teotihuacan/ciudadela/3.jpg",
+   "thumb": "media/teotihuacan/ciudadela/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "La Ciudadela, Teotihuacán, Mexico",
+   "artist": "Diego Delso",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Teotihuac%C3%A1n,_M%C3%A9xico,_2013-10-13,_DD_85.JPG"
+  }
+ ],
+ "temple-of-the-feathered-serpent": [
+  {
+   "src": "media/teotihuacan/temple-of-the-feathered-serpent/1.jpg",
+   "thumb": "media/teotihuacan/temple-of-the-feathered-serpent/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Museo del sitio, Teotihuacán. Reconstruction of La Ciudadela",
+   "artist": "Wolfgang Sauber",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Teotihuac%C3%A1n_-_Modell_Ciudadela.jpg"
+  },
+  {
+   "src": "media/teotihuacan/temple-of-the-feathered-serpent/2.jpg",
+   "thumb": "media/teotihuacan/temple-of-the-feathered-serpent/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "Mexico photographed by Wojciech Kocot",
+   "artist": "Wojciech Kocot",
+   "date": "25 March 2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:ASb146-Teotihuacan-Templo_Del_Quetzalcoatl.jpg"
+  },
+  {
+   "src": "media/teotihuacan/temple-of-the-feathered-serpent/3.jpg",
+   "thumb": "media/teotihuacan/temple-of-the-feathered-serpent/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "La Ciudadela, Teotihuacán, Mexico",
+   "artist": "Diego Delso",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Teotihuac%C3%A1n,_M%C3%A9xico,_2013-10-13,_DD_85.JPG"
+  }
+ ],
+ "great-compound": [],
+ "oaxaca-barrio": [],
+ "merchants-barrio": []
+}
