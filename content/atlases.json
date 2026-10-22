@@ -238,7 +238,9 @@
           "subtitle": "Umayyad capital, 950",
           "at": [-4.78, 37.88],
           "glyph": "dome",
-          "blurb": "The largest city of western Europe in its day, with its Great Mosque and the palace-city of Madinat al-Zahra."
+          "blurb": "The largest city of western Europe in its day, with its Great Mosque and the palace-city of Madinat al-Zahra.",
+          "city": "cordoba",
+          "period": "caliphal-950"
         },
         {
           "title": "Cairo",

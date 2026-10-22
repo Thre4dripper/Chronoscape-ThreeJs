@@ -1,0 +1,6915 @@
+{
+ "id": "cordoba",
+ "name": "Córdoba",
+ "subtitle": "Corduba, Qurtuba",
+ "description": "Seventeen centuries of Córdoba on the north bank of the Guadalquivir: the Roman capital of Baetica, the Umayyad emirs' and caliphs' Qurtuba with its Great Mosque, the Castilian city of parishes after 1236, and the Renaissance cathedral rising inside the mosque. Madinat al-Zahra, the caliphs' palace city, lies 7 km west, beyond the frame. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "caliphal-950",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#EFE7D6",
+   "#E6D8BC",
+   "#F3EEE2",
+   "#DCC9A6",
+   "#E9DDC5"
+  ],
+  "roofs": [
+   "#B9774F",
+   "#C9A27C"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2197,
+    1720
+   ],
+   "distance": 38,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   4393,
+   3329
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Guadalquivir",
+    "path": [
+     [
+      5175,
+      2851
+     ],
+     [
+      5017,
+      3073
+     ],
+     [
+      4894,
+      3173
+     ],
+     [
+      4701,
+      3262
+     ],
+     [
+      4446,
+      3351
+     ],
+     [
+      4182,
+      3384
+     ],
+     [
+      3840,
+      3362
+     ],
+     [
+      3515,
+      3262
+     ],
+     [
+      3321,
+      3162
+     ]
+    ],
+    "width": 80,
+    "id": "guadalquivir-upper",
+    "blurb": "The Guadalquivir (Latin Baetis, Arabic al-Wadi al-Kabir, 'the great river') was navigable for river boats up to Córdoba in Roman times, carrying Baetica's oil to Hispalis and the sea. Its weirs drove a chain of mills and water-wheels; reedy islets, the sotos, lie below the Roman bridge."
+   },
+   {
+    "name": "Guadalquivir",
+    "path": [
+     [
+      3321,
+      3162
+     ],
+     [
+      3198,
+      3062
+     ],
+     [
+      3102,
+      2973
+     ],
+     [
+      3023,
+      2840
+     ],
+     [
+      2961,
+      2718
+     ],
+     [
+      2935,
+      2552
+     ],
+     [
+      2943,
+      2463
+     ],
+     [
+      2987,
+      2241
+     ],
+     [
+      2996,
+      2030
+     ],
+     [
+      2970,
+      1897
+     ]
+    ],
+    "width": 110,
+    "id": "guadalquivir-loop",
+    "blurb": "The Guadalquivir (Latin Baetis, Arabic al-Wadi al-Kabir, 'the great river') was navigable for river boats up to Córdoba in Roman times, carrying Baetica's oil to Hispalis and the sea. Its weirs drove a chain of mills and water-wheels; reedy islets, the sotos, lie below the Roman bridge."
+   },
+   {
+    "name": "Guadalquivir",
+    "path": [
+     [
+      2970,
+      1897
+     ],
+     [
+      2864,
+      1797
+     ],
+     [
+      2803,
+      1775
+     ],
+     [
+      2697,
+      1775
+     ],
+     [
+      2645,
+      1797
+     ],
+     [
+      2478,
+      1919
+     ],
+     [
+      2355,
+      2041
+     ]
+    ],
+    "width": 85,
+    "id": "guadalquivir-bend",
+    "blurb": "The Guadalquivir (Latin Baetis, Arabic al-Wadi al-Kabir, 'the great river') was navigable for river boats up to Córdoba in Roman times, carrying Baetica's oil to Hispalis and the sea. Its weirs drove a chain of mills and water-wheels; reedy islets, the sotos, lie below the Roman bridge."
+   },
+   {
+    "name": "Guadalquivir: the sotos of the Albolafia",
+    "path": [
+     [
+      2355,
+      2041
+     ],
+     [
+      2293,
+      2097
+     ],
+     [
+      2249,
+      2197
+     ],
+     [
+      2135,
+      2319
+     ],
+     [
+      2082,
+      2463
+     ]
+    ],
+    "width": 210,
+    "id": "guadalquivir-sotos",
+    "blurb": "Below the Roman bridge the river spreads over islets (sotos) of reeds, tamarisk and poplars between mill weirs: the Albolafia, Pápalo, Enmedio and San Antonio mills stood here. The weirs are probably Islamic in origin."
+   },
+   {
+    "name": "Guadalquivir",
+    "path": [
+     [
+      2082,
+      2463
+     ],
+     [
+      2030,
+      2574
+     ],
+     [
+      1924,
+      2663
+     ],
+     [
+      1854,
+      2763
+     ],
+     [
+      1801,
+      2907
+     ],
+     [
+      1661,
+      3173
+     ],
+     [
+      1274,
+      3806
+     ]
+    ],
+    "width": 130,
+    "id": "guadalquivir-lower",
+    "blurb": "The Guadalquivir (Latin Baetis, Arabic al-Wadi al-Kabir, 'the great river') was navigable for river boats up to Córdoba in Roman times, carrying Baetica's oil to Hispalis and the sea. Its weirs drove a chain of mills and water-wheels; reedy islets, the sotos, lie below the Roman bridge."
+   }
+  ],
+  "islands": [
+   {
+    "name": "Soto de la Albolafia",
+    "polygon": [
+     [
+      2320,
+      2252
+     ],
+     [
+      2214,
+      2286
+     ],
+     [
+      2126,
+      2374
+     ],
+     [
+      2082,
+      2463
+     ],
+     [
+      2161,
+      2441
+     ],
+     [
+      2249,
+      2374
+     ],
+     [
+      2337,
+      2308
+     ]
+    ]
+   },
+   {
+    "name": "Islet of the San Rafael mills",
+    "polygon": [
+     [
+      1942,
+      2630
+     ],
+     [
+      1863,
+      2641
+     ],
+     [
+      1854,
+      2707
+     ],
+     [
+      1924,
+      2718
+     ]
+    ]
+   },
+   {
+    "name": "Soto of the Alegría mill",
+    "polygon": [
+     [
+      1907,
+      2807
+     ],
+     [
+      1828,
+      2851
+     ],
+     [
+      1740,
+      2962
+     ],
+     [
+      1810,
+      2940
+     ],
+     [
+      1880,
+      2874
+     ]
+    ]
+   }
+  ],
+  "hills": [
+   {
+    "name": "Foothills of the Sierra Morena",
+    "center": [
+     308,
+     133
+    ],
+    "radius": 340,
+    "label": true,
+    "id": "sierra",
+    "blurb": "The Sierra Morena rises a few kilometres north of the city: the source of its building stone, firewood and spring water, carried down by Roman and caliphal aqueducts. Madinat al-Zahra was built on its lower slopes, 7 km west."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Cardo maximus",
+    "path": [
+     [
+      2161,
+      788
+     ],
+     [
+      2153,
+      1043
+     ],
+     [
+      2144,
+      1276
+     ],
+     [
+      2170,
+      1553
+     ],
+     [
+      2197,
+      1775
+     ],
+     [
+      2205,
+      1953
+     ],
+     [
+      2197,
+      2030
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "cardo",
+    "blurb": "The colony's main north–south street, from the north gate past the colonial forum down to the bridge gate. Colonnaded in places; its line survives roughly in today's streets of Cruz Conde and the Tendillas.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Decumanus maximus",
+    "path": [
+     [
+      2487,
+      1243
+     ],
+     [
+      2284,
+      1254
+     ],
+     [
+      2144,
+      1276
+     ],
+     [
+      1915,
+      1320
+     ],
+     [
+      1705,
+      1365
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "decumanus",
+    "blurb": "The east–west street from the east gate, where the Via Augusta came in beside the provincial temple, across the cardo to the west gate.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Via Augusta (to Castulo and Rome)",
+    "path": [
+     [
+      2487,
+      1243
+     ],
+     [
+      2812,
+      1209
+     ],
+     [
+      3251,
+      1232
+     ],
+     [
+      3866,
+      1187
+     ],
+     [
+      4393,
+      1132
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "via-augusta-east",
+    "blurb": "Augustus' road from the Pyrenees down the Baetis valley, marked with milestones; it entered Corduba from the east and left over the bridge for Astigi and Gades.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Via Augusta (to Astigi and Gades)",
+    "path": [
+     [
+      2381,
+      2230
+     ],
+     [
+      2355,
+      2496
+     ],
+     [
+      2284,
+      2829
+     ],
+     [
+      2179,
+      3329
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "via-augusta-south",
+    "blurb": "South of the bridge the Via Augusta struck off across the plain toward Astigi (Écija), Hispalis and Gades.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Road west to Hispalis",
+    "path": [
+     [
+      1705,
+      1365
+     ],
+     [
+      1230,
+      1309
+     ],
+     [
+      703,
+      1220
+     ],
+     [
+      0,
+      1109
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "hispalis-road",
+    "blurb": "The road down the north bank of the Baetis toward Hispalis (Seville), lined outside the gate with tombs.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Road north to Emerita",
+    "path": [
+     [
+      2161,
+      788
+     ],
+     [
+      2109,
+      499
+     ],
+     [
+      2056,
+      0
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "emerita-road",
+    "blurb": "Over the Sierra Morena to Emerita Augusta (Mérida), capital of Lusitania, and to the mines of the sierra.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Main street of the medina",
+    "path": [
+     [
+      2161,
+      788
+     ],
+     [
+      2153,
+      1043
+     ],
+     [
+      2144,
+      1276
+     ],
+     [
+      2170,
+      1553
+     ],
+     [
+      2197,
+      1753
+     ],
+     [
+      2188,
+      1775
+     ],
+     [
+      2267,
+      1931
+     ],
+     [
+      2241,
+      1997
+     ],
+     [
+      2197,
+      2030
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "medina-street",
+    "blurb": "The old cardo, now a market street running from the north gate past the Great Mosque's east side to the Bridge Gate. Shops of the cloth, perfume and book trades crowded the lanes beside the mosque.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Street of the western gate",
+    "path": [
+     [
+      2487,
+      1243
+     ],
+     [
+      2284,
+      1254
+     ],
+     [
+      2144,
+      1276
+     ],
+     [
+      1915,
+      1320
+     ],
+     [
+      1705,
+      1365
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "gallegos-street",
+    "blurb": "The old decumanus, cutting across the medina from the east gate to the western gate (later the Puerta de Gallegos).",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "al-Rasif (the riverside causeway)",
+    "path": [
+     [
+      2056,
+      2097
+     ],
+     [
+      2135,
+      2053
+     ],
+     [
+      2232,
+      2008
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2416,
+      1886
+     ],
+     [
+      2495,
+      1808
+     ],
+     [
+      2618,
+      1731
+     ],
+     [
+      2741,
+      1675
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "rasif",
+    "blurb": "The raised esplanade along the river in front of the Alcázar and the mosque, built up against the floods; parades, executions and public ceremonies took place here, before the palace gates.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "name": "La Ribera",
+    "path": [
+     [
+      2056,
+      2097
+     ],
+     [
+      2135,
+      2053
+     ],
+     [
+      2232,
+      2008
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2416,
+      1886
+     ],
+     [
+      2495,
+      1808
+     ],
+     [
+      2618,
+      1731
+     ],
+     [
+      2741,
+      1675
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "ribera",
+    "blurb": "The riverside road along the walls from the Alcázar past the Puerta del Puente to the Axerquía, with the mills below and the Potro's tanners and dyers at its east end.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road to Madinat al-Zahra",
+    "path": [
+     [
+      1705,
+      1365
+     ],
+     [
+      1230,
+      1309
+     ],
+     [
+      703,
+      1220
+     ],
+     [
+      0,
+      1109
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "zahra-road",
+    "blurb": "The road through the western suburbs to the caliph's palace city, 7 km west at the foot of the sierra; envoys, officials and supplies went along it daily.",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "name": "Road west",
+    "path": [
+     [
+      1705,
+      1365
+     ],
+     [
+      1230,
+      1309
+     ],
+     [
+      703,
+      1220
+     ],
+     [
+      0,
+      1109
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "west-road",
+    "blurb": "The old road west along the north bank toward Almodóvar and Seville.",
+    "periods": [
+     "abd-al-rahman-800",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road north to the sierra",
+    "path": [
+     [
+      2161,
+      788
+     ],
+     [
+      2109,
+      499
+     ],
+     [
+      2056,
+      0
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "north-road",
+    "blurb": "North to the sierra, its springs and quarries, and in the emirs' time to the munya of al-Rusafa, Abd al-Rahman I's country palace about 3 km north of the city.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road east (to Toledo and Jaén)",
+    "path": [
+     [
+      2487,
+      1243
+     ],
+     [
+      2812,
+      1209
+     ],
+     [
+      3251,
+      1232
+     ],
+     [
+      3866,
+      1187
+     ],
+     [
+      4393,
+      1132
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "east-road",
+    "blurb": "The main road east up the valley toward Jaén, Toledo and, after 1236, Castile; in the walled Axerquía it ran through the Puerta Nueva.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road south (to Écija and Seville)",
+    "path": [
+     [
+      2381,
+      2230
+     ],
+     [
+      2355,
+      2496
+     ],
+     [
+      2284,
+      2829
+     ],
+     [
+      2179,
+      3329
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "south-road",
+    "blurb": "Over the Roman bridge and past the bridgehead toward Écija, Seville and, for the caliphs' armies, the frontier.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Calle de la Feria",
+    "path": [
+     [
+      2469,
+      843
+     ],
+     [
+      2513,
+      1054
+     ],
+     [
+      2530,
+      1243
+     ],
+     [
+      2513,
+      1442
+     ],
+     [
+      2478,
+      1620
+     ],
+     [
+      2487,
+      1797
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "feria",
+    "blurb": "The street along the old wall between the Villa and the Axerquía, where the city's fairs were held; today Calle San Fernando.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Street of the Potro",
+    "path": [
+     [
+      2478,
+      1620
+     ],
+     [
+      2592,
+      1642
+     ],
+     [
+      2812,
+      1631
+     ],
+     [
+      3031,
+      1531
+     ],
+     [
+      3207,
+      1465
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "potro-street",
+    "blurb": "From the Feria past the Plaza del Potro, with its inn and its colt fountain (1577), east through the Axerquía to the Puerta de Baeza.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Street of Santa Marina",
+    "path": [
+     [
+      2460,
+      499
+     ],
+     [
+      2530,
+      688
+     ],
+     [
+      2592,
+      888
+     ],
+     [
+      2618,
+      1109
+     ],
+     [
+      2812,
+      1209
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "santa-marina-street",
+    "blurb": "From the Puerta del Colodro south through the parish of Santa Marina, a quarter of nobles and later of bullfighters, toward San Pablo.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Calle de los Judíos",
+    "path": [
+     [
+      1775,
+      1720
+     ],
+     [
+      1819,
+      1797
+     ],
+     [
+      1933,
+      1842
+     ],
+     [
+      2021,
+      1842
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": true,
+    "id": "judios-street",
+    "blurb": "The street of the Jewish quarter from the Puerta de Almodóvar toward the cathedral, with the synagogue of 1315 on it.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road to Almodóvar",
+    "path": [
+     [
+      1713,
+      1709
+     ],
+     [
+      1230,
+      1664
+     ],
+     [
+      527,
+      1609
+     ],
+     [
+      0,
+      1575
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "almodovar-road",
+    "blurb": "West from the Almodóvar gate toward the castle of Almodóvar del Río and Seville.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road from the Puerta de Sevilla",
+    "path": [
+     [
+      1582,
+      2286
+     ],
+     [
+      1054,
+      2330
+     ],
+     [
+      351,
+      2419
+     ],
+     [
+      0,
+      2463
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "sevilla-road",
+    "blurb": "Out of the Alcázar Viejo along the river toward Seville, past orchards and the river mills.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Road to Andújar",
+    "path": [
+     [
+      3269,
+      754
+     ],
+     [
+      3866,
+      632
+     ],
+     [
+      4393,
+      533
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "andujar-road",
+    "blurb": "North-east out of the Axerquía toward Andújar, Toledo and Castile.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Walls of Colonia Patricia",
+    "path": [
+     [
+      2443,
+      1886
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2241,
+      2008
+     ],
+     [
+      2188,
+      2030
+     ],
+     [
+      2109,
+      2075
+     ],
+     [
+      2056,
+      2108
+     ],
+     [
+      1995,
+      2186
+     ],
+     [
+      1942,
+      2141
+     ],
+     [
+      1810,
+      2130
+     ],
+     [
+      1845,
+      1975
+     ],
+     [
+      1801,
+      1842
+     ],
+     [
+      1748,
+      1709
+     ],
+     [
+      1731,
+      1642
+     ],
+     [
+      1705,
+      1365
+     ],
+     [
+      1713,
+      1109
+     ],
+     [
+      1748,
+      932
+     ],
+     [
+      1977,
+      821
+     ],
+     [
+      2161,
+      788
+     ],
+     [
+      2328,
+      799
+     ],
+     [
+      2425,
+      832
+     ],
+     [
+      2487,
+      1054
+     ],
+     [
+      2495,
+      1243
+     ],
+     [
+      2478,
+      1442
+     ],
+     [
+      2443,
+      1620
+     ],
+     [
+      2434,
+      1775
+     ]
+    ],
+    "closed": true,
+    "id": "roman-walls",
+    "blurb": "The Republican town's wall enclosed the higher northern part; under Augustus the circuit was pushed south to the river, giving about 78 hectares. Stone curtains with towers and ditch; stretches survive along Calle Cairuán and the Ronda de los Tejares.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Walls of the medina",
+    "path": [
+     [
+      2443,
+      1886
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2241,
+      2008
+     ],
+     [
+      2188,
+      2030
+     ],
+     [
+      2109,
+      2075
+     ],
+     [
+      2056,
+      2108
+     ],
+     [
+      1995,
+      2186
+     ],
+     [
+      1942,
+      2141
+     ],
+     [
+      1810,
+      2130
+     ],
+     [
+      1845,
+      1975
+     ],
+     [
+      1801,
+      1842
+     ],
+     [
+      1748,
+      1709
+     ],
+     [
+      1731,
+      1642
+     ],
+     [
+      1705,
+      1365
+     ],
+     [
+      1713,
+      1109
+     ],
+     [
+      1748,
+      932
+     ],
+     [
+      1977,
+      821
+     ],
+     [
+      2161,
+      788
+     ],
+     [
+      2328,
+      799
+     ],
+     [
+      2425,
+      832
+     ],
+     [
+      2487,
+      1054
+     ],
+     [
+      2495,
+      1243
+     ],
+     [
+      2478,
+      1442
+     ],
+     [
+      2443,
+      1620
+     ],
+     [
+      2434,
+      1775
+     ]
+    ],
+    "closed": true,
+    "id": "medina-walls",
+    "blurb": "The Umayyads kept and repaired the Roman circuit; Abd al-Rahman I rebuilt it in 766 and the walls were repaired again after the floods and wars. Its seven gates are named by the geographer al-Idrisi; the Bridge Gate (Bab al-Qantara) faced the river.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "name": "Walls of the Villa",
+    "path": [
+     [
+      2443,
+      1886
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2241,
+      2008
+     ],
+     [
+      2188,
+      2030
+     ],
+     [
+      2109,
+      2075
+     ],
+     [
+      2056,
+      2108
+     ],
+     [
+      1995,
+      2186
+     ],
+     [
+      1942,
+      2141
+     ],
+     [
+      1810,
+      2130
+     ],
+     [
+      1845,
+      1975
+     ],
+     [
+      1801,
+      1842
+     ],
+     [
+      1748,
+      1709
+     ],
+     [
+      1731,
+      1642
+     ],
+     [
+      1705,
+      1365
+     ],
+     [
+      1713,
+      1109
+     ],
+     [
+      1748,
+      932
+     ],
+     [
+      1977,
+      821
+     ],
+     [
+      2161,
+      788
+     ],
+     [
+      2328,
+      799
+     ],
+     [
+      2425,
+      832
+     ],
+     [
+      2487,
+      1054
+     ],
+     [
+      2495,
+      1243
+     ],
+     [
+      2478,
+      1442
+     ],
+     [
+      2443,
+      1620
+     ],
+     [
+      2434,
+      1775
+     ]
+    ],
+    "closed": true,
+    "id": "villa-walls",
+    "blurb": "After 1236 the old medina became 'la Villa', walled off from the Axerquía; the wall along Calle San Fernando divided the two until the 19th century, pierced by the Portillo in the 14th century.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Walls of the Axerquía",
+    "path": [
+     [
+      2425,
+      832
+     ],
+     [
+      2372,
+      610
+     ],
+     [
+      2346,
+      499
+     ],
+     [
+      2487,
+      499
+     ],
+     [
+      2812,
+      444
+     ],
+     [
+      2961,
+      377
+     ],
+     [
+      3023,
+      322
+     ],
+     [
+      3330,
+      499
+     ],
+     [
+      3269,
+      754
+     ],
+     [
+      3251,
+      1232
+     ],
+     [
+      3233,
+      1465
+     ],
+     [
+      3014,
+      1686
+     ],
+     [
+      2847,
+      1709
+     ],
+     [
+      2706,
+      1720
+     ],
+     [
+      2566,
+      1775
+     ],
+     [
+      2443,
+      1886
+     ]
+    ],
+    "closed": false,
+    "id": "axerquia-walls",
+    "blurb": "The eastern suburb (al-Sharqiyya, 'the eastern') was walled probably in the 11th or 12th century, after the Fitna; the Castilians kept and repaired the circuit and added the Malmuerta tower (1404–1408) at its north-west corner.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Walls of the Alcázar Viejo",
+    "path": [
+     [
+      1810,
+      2130
+     ],
+     [
+      1608,
+      2097
+     ],
+     [
+      1608,
+      2274
+     ],
+     [
+      1617,
+      2397
+     ],
+     [
+      1713,
+      2474
+     ],
+     [
+      1854,
+      2441
+     ],
+     [
+      1942,
+      2330
+     ],
+     [
+      2030,
+      2219
+     ]
+    ],
+    "closed": false,
+    "id": "alcazar-viejo-walls",
+    "blurb": "Alfonso XI walled the quarter west of the new Alcázar, the Alcázar Viejo (San Basilio), in the 14th century, with the Puerta de Sevilla and the Huerta del Alcázar inside.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "North gate",
+    "position": [
+     2161,
+     788
+    ],
+    "id": "roman-north-gate",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "East gate (Via Augusta)",
+    "position": [
+     2495,
+     1243
+    ],
+    "id": "roman-east-gate",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "West gate",
+    "position": [
+     1705,
+     1365
+    ],
+    "id": "roman-west-gate",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "name": "Puerta de Osario",
+    "position": [
+     2161,
+     788
+    ],
+    "id": "puerta-osario",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Puerta de Gallegos",
+    "position": [
+     1705,
+     1365
+    ],
+    "id": "puerta-gallegos",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "East gate of the medina",
+    "position": [
+     2495,
+     1243
+    ],
+    "id": "east-gate-medina",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "name": "Puerta del Rincón",
+    "position": [
+     2425,
+     832
+    ],
+    "id": "puerta-rincon",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Arco del Portillo",
+    "position": [
+     2443,
+     1620
+    ],
+    "id": "portillo",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Puerta del Colodro",
+    "position": [
+     2487,
+     499
+    ],
+    "id": "puerta-colodro",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Puerta de Plasencia",
+    "position": [
+     3269,
+     754
+    ],
+    "id": "puerta-plasencia",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Puerta Nueva",
+    "position": [
+     3251,
+     1232
+    ],
+    "id": "puerta-nueva",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Puerta de Baeza",
+    "position": [
+     3233,
+     1465
+    ],
+    "id": "puerta-baeza",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "name": "Puerta de Martos",
+    "position": [
+     3014,
+     1686
+    ],
+    "id": "puerta-martos",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Roman bridge",
+    "path": [
+     [
+      2197,
+      2045
+     ],
+     [
+      2380,
+      2229
+     ]
+    ],
+    "build": "stone",
+    "arches": 12,
+    "id": "roman-bridge",
+    "blurb": "The bridge over the Baetis, built probably under Augustus for the Via Augusta and rebuilt again and again: by the governor al-Samh in 720 and many times since. Some 250 metres long on sixteen arches; until the 20th century Córdoba's only bridge.",
+    "landmarkId": "roman-bridge"
+   }
+  ],
+  "aqueducts": [
+   {
+    "name": "Aqua Augusta (Aqua Vetus)",
+    "path": [
+     [
+      703,
+      55
+     ],
+     [
+      1186,
+      388
+     ],
+     [
+      1564,
+      688
+     ],
+     [
+      1775,
+      888
+     ]
+    ],
+    "periods": [
+     "roman-150"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1784,
+      965
+     ],
+     [
+      1995,
+      854
+     ],
+     [
+      2118,
+      821
+     ],
+     [
+      2118,
+      1232
+     ],
+     [
+      1757,
+      1232
+     ],
+     [
+      1748,
+      1109
+     ]
+    ],
+    "density": "dense",
+    "name": "Northern insulae",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      821
+     ],
+     [
+      2320,
+      821
+     ],
+     [
+      2407,
+      865
+     ],
+     [
+      2460,
+      1065
+     ],
+     [
+      2460,
+      1220
+     ],
+     [
+      2188,
+      1232
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae by the forum",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1740,
+      1298
+     ],
+     [
+      2118,
+      1298
+     ],
+     [
+      2118,
+      1742
+     ],
+     [
+      2038,
+      1808
+     ],
+     [
+      2003,
+      1897
+     ],
+     [
+      1880,
+      1931
+     ],
+     [
+      1828,
+      1820
+     ],
+     [
+      1757,
+      1664
+     ]
+    ],
+    "density": "dense",
+    "name": "Southern insulae",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      1298
+     ],
+     [
+      2451,
+      1298
+     ],
+     [
+      2416,
+      1609
+     ],
+     [
+      2407,
+      1775
+     ],
+     [
+      2390,
+      1864
+     ],
+     [
+      2302,
+      1919
+     ],
+     [
+      2223,
+      1742
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae by the theatre",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2065,
+      1775
+     ],
+     [
+      2179,
+      1775
+     ],
+     [
+      2284,
+      1919
+     ],
+     [
+      2179,
+      1997
+     ],
+     [
+      2082,
+      2053
+     ],
+     [
+      1986,
+      1986
+     ],
+     [
+      1995,
+      1886
+     ]
+    ],
+    "density": "dense",
+    "name": "Riverside quarter",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      777
+     ],
+     [
+      966,
+      777
+     ],
+     [
+      966,
+      1775
+     ],
+     [
+      1529,
+      1831
+     ],
+     [
+      1617,
+      1354
+     ]
+    ],
+    "density": "loose",
+    "name": "Suburbium of the west gate",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2548,
+      1109
+     ],
+     [
+      2829,
+      1109
+     ],
+     [
+      2829,
+      1575
+     ],
+     [
+      2715,
+      1675
+     ],
+     [
+      2548,
+      1731
+     ],
+     [
+      2513,
+      1609
+     ]
+    ],
+    "density": "loose",
+    "name": "Suburbium of the Via Augusta",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1582,
+      133
+     ],
+     [
+      2091,
+      133
+     ],
+     [
+      2197,
+      621
+     ],
+     [
+      1977,
+      743
+     ],
+     [
+      1652,
+      877
+     ],
+     [
+      1546,
+      710
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern suburbium",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1784,
+      965
+     ],
+     [
+      1995,
+      854
+     ],
+     [
+      2118,
+      821
+     ],
+     [
+      2118,
+      1232
+     ],
+     [
+      1757,
+      1232
+     ],
+     [
+      1748,
+      1109
+     ]
+    ],
+    "density": "dense",
+    "name": "Medina: northern quarters",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      821
+     ],
+     [
+      2320,
+      821
+     ],
+     [
+      2407,
+      865
+     ],
+     [
+      2460,
+      1065
+     ],
+     [
+      2460,
+      1220
+     ],
+     [
+      2188,
+      1232
+     ]
+    ],
+    "density": "dense",
+    "name": "Medina: quarter of the old forum",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1740,
+      1298
+     ],
+     [
+      2118,
+      1298
+     ],
+     [
+      2118,
+      1742
+     ],
+     [
+      2038,
+      1808
+     ],
+     [
+      2003,
+      1897
+     ],
+     [
+      1880,
+      1931
+     ],
+     [
+      1828,
+      1820
+     ],
+     [
+      1757,
+      1664
+     ]
+    ],
+    "density": "dense",
+    "name": "Medina: western quarters",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      1298
+     ],
+     [
+      2451,
+      1298
+     ],
+     [
+      2416,
+      1609
+     ],
+     [
+      2407,
+      1775
+     ],
+     [
+      2390,
+      1864
+     ],
+     [
+      2302,
+      1919
+     ],
+     [
+      2223,
+      1742
+     ]
+    ],
+    "density": "dense",
+    "name": "Medina: markets east of the mosque",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2460,
+      2397
+     ],
+     [
+      2337,
+      2463
+     ],
+     [
+      2197,
+      2641
+     ],
+     [
+      2109,
+      2829
+     ],
+     [
+      2197,
+      2996
+     ],
+     [
+      2460,
+      2940
+     ],
+     [
+      2592,
+      2607
+     ],
+     [
+      2530,
+      2408
+     ]
+    ],
+    "density": "dense",
+    "name": "Shaqunda",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2548,
+      1109
+     ],
+     [
+      2829,
+      1109
+     ],
+     [
+      2829,
+      1575
+     ],
+     [
+      2715,
+      1675
+     ],
+     [
+      2548,
+      1731
+     ],
+     [
+      2513,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern suburbs",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2399,
+      610
+     ],
+     [
+      2618,
+      533
+     ],
+     [
+      2829,
+      477
+     ],
+     [
+      2829,
+      1043
+     ],
+     [
+      2530,
+      1043
+     ],
+     [
+      2487,
+      843
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern suburbs",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2882,
+      1109
+     ],
+     [
+      3172,
+      1109
+     ],
+     [
+      3163,
+      1431
+     ],
+     [
+      2996,
+      1631
+     ],
+     [
+      2882,
+      1631
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern suburbs",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      777
+     ],
+     [
+      966,
+      777
+     ],
+     [
+      966,
+      1775
+     ],
+     [
+      1529,
+      1831
+     ],
+     [
+      1617,
+      1354
+     ]
+    ],
+    "density": "loose",
+    "name": "Western suburbs",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1582,
+      133
+     ],
+     [
+      2091,
+      133
+     ],
+     [
+      2197,
+      621
+     ],
+     [
+      1977,
+      743
+     ],
+     [
+      1652,
+      877
+     ],
+     [
+      1546,
+      710
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern suburbs",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2399,
+      610
+     ],
+     [
+      2618,
+      533
+     ],
+     [
+      2829,
+      477
+     ],
+     [
+      2829,
+      1043
+     ],
+     [
+      2530,
+      1043
+     ],
+     [
+      2487,
+      843
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Sharqiyya (eastern suburbs)",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2882,
+      466
+     ],
+     [
+      2979,
+      399
+     ],
+     [
+      3216,
+      521
+     ],
+     [
+      3198,
+      1043
+     ],
+     [
+      2882,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Sharqiyya (eastern suburbs)",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2548,
+      1109
+     ],
+     [
+      2829,
+      1109
+     ],
+     [
+      2829,
+      1575
+     ],
+     [
+      2715,
+      1675
+     ],
+     [
+      2548,
+      1731
+     ],
+     [
+      2513,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Sharqiyya (eastern suburbs)",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2882,
+      1109
+     ],
+     [
+      3172,
+      1109
+     ],
+     [
+      3163,
+      1431
+     ],
+     [
+      2996,
+      1631
+     ],
+     [
+      2882,
+      1631
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Sharqiyya (eastern suburbs)",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3339,
+      444
+     ],
+     [
+      3954,
+      777
+     ],
+     [
+      3778,
+      1498
+     ],
+     [
+      3295,
+      1620
+     ],
+     [
+      3304,
+      1220
+     ]
+    ],
+    "density": "loose",
+    "name": "Suburbs beyond the east",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      777
+     ],
+     [
+      966,
+      777
+     ],
+     [
+      966,
+      1775
+     ],
+     [
+      1529,
+      1831
+     ],
+     [
+      1617,
+      1354
+     ]
+    ],
+    "density": "dense",
+    "name": "Western arrabales",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      914,
+      777
+     ],
+     [
+      439,
+      777
+     ],
+     [
+      439,
+      1720
+     ],
+     [
+      914,
+      1775
+     ]
+    ],
+    "density": "dense",
+    "name": "Western arrabales",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      387,
+      499
+     ],
+     [
+      35,
+      499
+     ],
+     [
+      35,
+      1886
+     ],
+     [
+      387,
+      1886
+     ]
+    ],
+    "density": "loose",
+    "name": "Arrabales toward Madinat al-Zahra",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      1897
+     ],
+     [
+      439,
+      1897
+     ],
+     [
+      439,
+      2352
+     ],
+     [
+      1476,
+      2419
+     ],
+     [
+      1564,
+      2241
+     ]
+    ],
+    "density": "loose",
+    "name": "Arrabales by the river",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1582,
+      133
+     ],
+     [
+      2091,
+      133
+     ],
+     [
+      2197,
+      621
+     ],
+     [
+      1977,
+      743
+     ],
+     [
+      1652,
+      877
+     ],
+     [
+      1546,
+      710
+     ]
+    ],
+    "density": "dense",
+    "name": "Northern arrabales",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2267,
+      89
+     ],
+     [
+      3031,
+      89
+     ],
+     [
+      3110,
+      288
+     ],
+     [
+      2618,
+      433
+     ],
+     [
+      2302,
+      499
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern arrabales",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1784,
+      965
+     ],
+     [
+      1995,
+      854
+     ],
+     [
+      2118,
+      821
+     ],
+     [
+      2118,
+      1232
+     ],
+     [
+      1757,
+      1232
+     ],
+     [
+      1748,
+      1109
+     ]
+    ],
+    "density": "dense",
+    "name": "Villa: San Miguel and San Nicolás",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      821
+     ],
+     [
+      2320,
+      821
+     ],
+     [
+      2407,
+      865
+     ],
+     [
+      2460,
+      1065
+     ],
+     [
+      2460,
+      1220
+     ],
+     [
+      2188,
+      1232
+     ]
+    ],
+    "density": "dense",
+    "name": "Villa: Santa María and the Ayuntamiento",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1740,
+      1298
+     ],
+     [
+      2118,
+      1298
+     ],
+     [
+      2118,
+      1742
+     ],
+     [
+      2038,
+      1808
+     ],
+     [
+      2003,
+      1897
+     ],
+     [
+      1880,
+      1931
+     ],
+     [
+      1828,
+      1820
+     ],
+     [
+      1757,
+      1664
+     ]
+    ],
+    "density": "dense",
+    "name": "Villa: San Juan and Omnium Sanctorum",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      1298
+     ],
+     [
+      2451,
+      1298
+     ],
+     [
+      2416,
+      1609
+     ],
+     [
+      2407,
+      1775
+     ],
+     [
+      2390,
+      1864
+     ],
+     [
+      2302,
+      1919
+     ],
+     [
+      2223,
+      1742
+     ]
+    ],
+    "density": "dense",
+    "name": "Villa: around the cathedral",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1775,
+      1709
+     ],
+     [
+      1933,
+      1709
+     ],
+     [
+      2012,
+      1808
+     ],
+     [
+      1995,
+      1919
+     ],
+     [
+      1880,
+      1953
+     ],
+     [
+      1819,
+      1842
+     ]
+    ],
+    "density": "dense",
+    "name": "Judería",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1766,
+      2097
+     ],
+     [
+      1625,
+      2097
+     ],
+     [
+      1625,
+      2252
+     ],
+     [
+      1696,
+      2308
+     ],
+     [
+      1766,
+      2197
+     ]
+    ],
+    "density": "dense",
+    "name": "Alcázar Viejo (San Basilio)",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2399,
+      610
+     ],
+     [
+      2618,
+      533
+     ],
+     [
+      2829,
+      477
+     ],
+     [
+      2829,
+      1043
+     ],
+     [
+      2530,
+      1043
+     ],
+     [
+      2487,
+      843
+     ]
+    ],
+    "density": "dense",
+    "name": "Axerquía: Santa Marina",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2882,
+      466
+     ],
+     [
+      2979,
+      399
+     ],
+     [
+      3216,
+      521
+     ],
+     [
+      3198,
+      1043
+     ],
+     [
+      2882,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "Axerquía: San Lorenzo",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2548,
+      1109
+     ],
+     [
+      2829,
+      1109
+     ],
+     [
+      2829,
+      1575
+     ],
+     [
+      2715,
+      1675
+     ],
+     [
+      2548,
+      1731
+     ],
+     [
+      2513,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Axerquía: San Pedro and the Potro",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2882,
+      1109
+     ],
+     [
+      3172,
+      1109
+     ],
+     [
+      3163,
+      1431
+     ],
+     [
+      2996,
+      1631
+     ],
+     [
+      2882,
+      1631
+     ]
+    ],
+    "density": "dense",
+    "name": "Axerquía: Santiago and San Andrés",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2460,
+      2397
+     ],
+     [
+      2337,
+      2463
+     ],
+     [
+      2197,
+      2641
+     ],
+     [
+      2109,
+      2829
+     ],
+     [
+      2197,
+      2996
+     ],
+     [
+      2460,
+      2940
+     ],
+     [
+      2592,
+      2607
+     ],
+     [
+      2530,
+      2408
+     ]
+    ],
+    "density": "loose",
+    "name": "Campo de la Verdad",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      777
+     ],
+     [
+      966,
+      777
+     ],
+     [
+      966,
+      1775
+     ],
+     [
+      1529,
+      1831
+     ],
+     [
+      1617,
+      1354
+     ]
+    ],
+    "density": "loose",
+    "name": "Huertas and convents outside the walls",
+    "periods": [
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1582,
+      133
+     ],
+     [
+      2091,
+      133
+     ],
+     [
+      2197,
+      621
+     ],
+     [
+      1977,
+      743
+     ],
+     [
+      1652,
+      877
+     ],
+     [
+      1546,
+      710
+     ]
+    ],
+    "density": "loose",
+    "name": "Campo de la Merced",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      3163,
+      1831
+     ],
+     [
+      4217,
+      1775
+     ],
+     [
+      4217,
+      2885
+     ],
+     [
+      3427,
+      3051
+     ],
+     [
+      3181,
+      2663
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Huertas east of the city"
+   },
+   {
+    "polygon": [
+     [
+      2566,
+      3018
+     ],
+     [
+      3031,
+      3018
+     ],
+     [
+      2943,
+      3284
+     ],
+     [
+      2460,
+      3284
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olive groves of the campiña"
+   },
+   {
+    "polygon": [
+     [
+      914,
+      777
+     ],
+     [
+      439,
+      777
+     ],
+     [
+      439,
+      1720
+     ],
+     [
+      914,
+      1775
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olive groves",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1476,
+      2419
+     ],
+     [
+      439,
+      2463
+     ],
+     [
+      439,
+      2829
+     ],
+     [
+      1362,
+      2752
+     ]
+    ],
+    "kind": "park",
+    "name": "Munyas by the river",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      914,
+      777
+     ],
+     [
+      439,
+      777
+     ],
+     [
+      439,
+      1720
+     ],
+     [
+      914,
+      1775
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Huertas of the old arrabales",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      387,
+      499
+     ],
+     [
+      35,
+      499
+     ],
+     [
+      35,
+      1886
+     ],
+     [
+      387,
+      1886
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Huertas of the old arrabales",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      777
+     ],
+     [
+      966,
+      777
+     ],
+     [
+      966,
+      1775
+     ],
+     [
+      1529,
+      1831
+     ],
+     [
+      1617,
+      1354
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Huertas of the old arrabales",
+    "periods": [
+     "castilian-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1942,
+      2230
+     ],
+     [
+      1757,
+      2330
+     ],
+     [
+      1828,
+      2419
+     ],
+     [
+      1933,
+      2385
+     ],
+     [
+      1995,
+      2308
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Huerta del Alcázar",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1529,
+      1897
+     ],
+     [
+      439,
+      1897
+     ],
+     [
+      439,
+      2352
+     ],
+     [
+      1476,
+      2419
+     ],
+     [
+      1564,
+      2241
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mulberry and olive gardens",
+    "periods": [
+     "abd-al-rahman-800",
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "corduba",
+    "name": "Colonia Patricia Corduba",
+    "polygon": [
+     [
+      2443,
+      1886
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2241,
+      2008
+     ],
+     [
+      2188,
+      2030
+     ],
+     [
+      2109,
+      2075
+     ],
+     [
+      2056,
+      2108
+     ],
+     [
+      1995,
+      2186
+     ],
+     [
+      1942,
+      2141
+     ],
+     [
+      1810,
+      2130
+     ],
+     [
+      1845,
+      1975
+     ],
+     [
+      1801,
+      1842
+     ],
+     [
+      1748,
+      1709
+     ],
+     [
+      1731,
+      1642
+     ],
+     [
+      1705,
+      1365
+     ],
+     [
+      1713,
+      1109
+     ],
+     [
+      1748,
+      932
+     ],
+     [
+      1977,
+      821
+     ],
+     [
+      2161,
+      788
+     ],
+     [
+      2328,
+      799
+     ],
+     [
+      2425,
+      832
+     ],
+     [
+      2487,
+      1054
+     ],
+     [
+      2495,
+      1243
+     ],
+     [
+      2478,
+      1442
+     ],
+     [
+      2443,
+      1620
+     ],
+     [
+      2434,
+      1775
+     ]
+    ],
+    "description": "The walled Roman colony, capital of Baetica: a grid of insulae with the colonial forum at its centre, the provincial temple by the east gate and the theatre on the slope above the river.",
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "id": "medina",
+    "name": "al-Madina",
+    "polygon": [
+     [
+      2443,
+      1886
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2241,
+      2008
+     ],
+     [
+      2188,
+      2030
+     ],
+     [
+      2109,
+      2075
+     ],
+     [
+      2056,
+      2108
+     ],
+     [
+      1995,
+      2186
+     ],
+     [
+      1942,
+      2141
+     ],
+     [
+      1810,
+      2130
+     ],
+     [
+      1845,
+      1975
+     ],
+     [
+      1801,
+      1842
+     ],
+     [
+      1748,
+      1709
+     ],
+     [
+      1731,
+      1642
+     ],
+     [
+      1705,
+      1365
+     ],
+     [
+      1713,
+      1109
+     ],
+     [
+      1748,
+      932
+     ],
+     [
+      1977,
+      821
+     ],
+     [
+      2161,
+      788
+     ],
+     [
+      2328,
+      799
+     ],
+     [
+      2425,
+      832
+     ],
+     [
+      2487,
+      1054
+     ],
+     [
+      2495,
+      1243
+     ],
+     [
+      2478,
+      1442
+     ],
+     [
+      2443,
+      1620
+     ],
+     [
+      2434,
+      1775
+     ]
+    ],
+    "description": "The walled inner city of Qurtuba, inside the Roman circuit: the Great Mosque and the Alcázar by the river, the markets (suq) round them, and dense lanes of patio houses.",
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "id": "villa",
+    "name": "La Villa",
+    "polygon": [
+     [
+      2443,
+      1886
+     ],
+     [
+      2337,
+      1953
+     ],
+     [
+      2241,
+      2008
+     ],
+     [
+      2188,
+      2030
+     ],
+     [
+      2109,
+      2075
+     ],
+     [
+      2056,
+      2108
+     ],
+     [
+      1995,
+      2186
+     ],
+     [
+      1942,
+      2141
+     ],
+     [
+      1810,
+      2130
+     ],
+     [
+      1845,
+      1975
+     ],
+     [
+      1801,
+      1842
+     ],
+     [
+      1748,
+      1709
+     ],
+     [
+      1731,
+      1642
+     ],
+     [
+      1705,
+      1365
+     ],
+     [
+      1713,
+      1109
+     ],
+     [
+      1748,
+      932
+     ],
+     [
+      1977,
+      821
+     ],
+     [
+      2161,
+      788
+     ],
+     [
+      2328,
+      799
+     ],
+     [
+      2425,
+      832
+     ],
+     [
+      2487,
+      1054
+     ],
+     [
+      2495,
+      1243
+     ],
+     [
+      2478,
+      1442
+     ],
+     [
+      2443,
+      1620
+     ],
+     [
+      2434,
+      1775
+     ]
+    ],
+    "description": "The old medina after 1236: the cathedral-mosque, the Alcázar, the Judería and the seven parishes of the upper town, home of the cathedral chapter, the nobles and the city council.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "id": "axerquia",
+    "name": "La Axerquía",
+    "polygon": [
+     [
+      2425,
+      832
+     ],
+     [
+      2372,
+      610
+     ],
+     [
+      2346,
+      499
+     ],
+     [
+      2487,
+      499
+     ],
+     [
+      2812,
+      444
+     ],
+     [
+      2961,
+      377
+     ],
+     [
+      3023,
+      322
+     ],
+     [
+      3330,
+      499
+     ],
+     [
+      3269,
+      754
+     ],
+     [
+      3251,
+      1232
+     ],
+     [
+      3233,
+      1465
+     ],
+     [
+      3014,
+      1686
+     ],
+     [
+      2847,
+      1709
+     ],
+     [
+      2706,
+      1720
+     ],
+     [
+      2566,
+      1775
+     ],
+     [
+      2443,
+      1886
+     ]
+    ],
+    "description": "From Arabic al-Sharqiyya, 'the eastern': the walled lower town of craftsmen and traders, with seven parishes, the Corredera and the Potro, tanners, dyers and potters near the river.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "id": "sharqiyya",
+    "name": "al-Sharqiyya",
+    "polygon": [
+     [
+      2425,
+      832
+     ],
+     [
+      2372,
+      610
+     ],
+     [
+      2346,
+      499
+     ],
+     [
+      2487,
+      499
+     ],
+     [
+      2812,
+      444
+     ],
+     [
+      2961,
+      377
+     ],
+     [
+      3023,
+      322
+     ],
+     [
+      3330,
+      499
+     ],
+     [
+      3269,
+      754
+     ],
+     [
+      3251,
+      1232
+     ],
+     [
+      3233,
+      1465
+     ],
+     [
+      3014,
+      1686
+     ],
+     [
+      2847,
+      1709
+     ],
+     [
+      2706,
+      1720
+     ],
+     [
+      2566,
+      1775
+     ],
+     [
+      2443,
+      1886
+     ]
+    ],
+    "description": "The eastern suburbs of the caliphal city, crowded with craftsmen and markets; walled only later, after the Fitna.",
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "id": "shaqunda",
+    "name": "Shaqunda",
+    "polygon": [
+     [
+      2460,
+      2397
+     ],
+     [
+      2337,
+      2463
+     ],
+     [
+      2197,
+      2641
+     ],
+     [
+      2109,
+      2829
+     ],
+     [
+      2197,
+      2996
+     ],
+     [
+      2460,
+      2940
+     ],
+     [
+      2592,
+      2607
+     ],
+     [
+      2530,
+      2408
+     ]
+    ],
+    "description": "The suburb of Secunda on the south bank at the bridgehead, crowded with artisans and scholars. After its revolt in 818 al-Hakam I razed it and forbade anyone to build there again.",
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "id": "juderia",
+    "name": "Judería",
+    "polygon": [
+     [
+      1775,
+      1709
+     ],
+     [
+      1933,
+      1709
+     ],
+     [
+      2012,
+      1808
+     ],
+     [
+      1995,
+      1919
+     ],
+     [
+      1880,
+      1953
+     ],
+     [
+      1819,
+      1842
+     ]
+    ],
+    "description": "The Jewish quarter between the Almodóvar gate and the cathedral, with the synagogue of 1315. The Jews of Córdoba were attacked in 1391 and expelled from Castile in 1492.",
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "id": "western-arrabales",
+    "name": "Western arrabales",
+    "polygon": [
+     [
+      1529,
+      499
+     ],
+     [
+      35,
+      499
+     ],
+     [
+      35,
+      2352
+     ],
+     [
+      1476,
+      2419
+     ],
+     [
+      1617,
+      1354
+     ]
+    ],
+    "description": "The planned suburbs of the 10th century along the road to Madinat al-Zahra: excavations since the 1990s have found street after street of patio houses, mosques, baths and cemeteries. Destroyed or abandoned in the Fitna of 1009–1013.",
+    "periods": [
+     "caliphal-950"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Baetis",
+    "position": [
+     1713,
+     2829
+    ],
+    "size": "lg",
+    "rotation": -40,
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "text": "al-Wadi al-Kabir",
+    "position": [
+     1713,
+     2829
+    ],
+    "size": "lg",
+    "rotation": -40,
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "text": "Guadalquivir",
+    "position": [
+     1713,
+     2829
+    ],
+    "size": "lg",
+    "rotation": -40,
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "text": "Corduba",
+    "position": [
+     1915,
+     1043
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "text": "Qurtuba",
+    "position": [
+     1915,
+     1043
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "abd-al-rahman-800",
+     "caliphal-950"
+    ]
+   },
+   {
+    "text": "La Villa",
+    "position": [
+     1915,
+     1043
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "text": "La Axerquía",
+    "position": [
+     2943,
+     943
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "text": "al-Sharqiyya",
+    "position": [
+     2943,
+     943
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "text": "Western arrabales",
+    "position": [
+     659,
+     1087
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "text": "Madinat al-Zahra, 7 km →",
+    "position": [
+     264,
+     832
+    ],
+    "size": "sm",
+    "rotation": -5,
+    "periods": [
+     "caliphal-950"
+    ]
+   },
+   {
+    "text": "Shaqunda",
+    "position": [
+     2328,
+     2685
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "abd-al-rahman-800"
+    ]
+   },
+   {
+    "text": "Campo de la Verdad",
+    "position": [
+     2355,
+     2752
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "text": "Judería",
+    "position": [
+     1915,
+     1786
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "text": "San Basilio",
+    "position": [
+     1555,
+     2186
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "castilian-1300",
+     "habsburg-1600"
+    ]
+   },
+   {
+    "text": "Sierra Morena",
+    "position": [
+     571,
+     111
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "to Hispalis",
+    "position": [
+     220,
+     1132
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "roman-150"
+    ]
+   },
+   {
+    "text": "Sotos de la Albolafia",
+    "position": [
+     2003,
+     2385
+    ],
+    "size": "sm",
+    "rotation": -35
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D5AC",
+   "ink": "#6E4B33",
+   "water": "#668C88",
+   "hill": "#8A8460",
+   "road": "#8B6B4A"
+  },
+  "compass": [
+   4086,
+   277
+  ],
+  "cartouche": [
+   70,
+   3240
+  ]
+ },
+ "periods": [
+  {
+   "id": "roman-150",
+   "label": "Colonia Patricia",
+   "year": 150,
+   "startYear": -169,
+   "endYear": 710,
+   "summary": "Corduba, founded by Marcus Claudius Marcellus in the 160s or 150s BCE and refounded as Colonia Patricia under Augustus, is the capital of the province of Baetica. A walled grid of about 78 hectares runs from the Baetis bridge up the slope: a colonial forum, a marble temple by the east gate, a great theatre. The range runs on through the Visigoths to 711.",
+   "population": "perhaps 30,000–50,000",
+   "feel": "Carts of olive oil rolling to the river quays, Latin and Punic in the forum, marble from the quarries being dressed for the temple, the smell of garum and woodsmoke.",
+   "style": "antique",
+   "houses": {
+    "title": "Domus and insulae of Patricia",
+    "text": "Single-storey houses of the well-off round atria and peristyles with mosaic floors, as excavated under the modern centre; tabernae open to the streets; rubble and brick walls under tiled roofs, the grid laid out in blocks between the cardo and decumanus."
+   },
+   "outskirts": {
+    "title": "Tombs and villas",
+    "text": "Along the roads out of the gates, tombs and mausolea like the round one by the west gate; beyond them farms and villas among olive groves and the clay pits of the potters."
+   }
+  },
+  {
+   "id": "abd-al-rahman-800",
+   "label": "Qurtuba of the emirs",
+   "year": 800,
+   "startYear": 711,
+   "endYear": 928,
+   "summary": "Taken by the Arabs in 711, Córdoba becomes the capital of al-Andalus. In 756 Abd al-Rahman I, a Umayyad prince escaped from the Abbasid massacre in Syria, makes himself emir here; he rebuilds the governors' palace (the old Visigothic one) by the river and in 786 begins the Great Mosque. The Roman walls still enclose the medina; suburbs grow outside, on the south bank too.",
+   "population": "perhaps 50,000–100,000",
+   "feel": "The call to prayer from a new minaret, Syrian and Berber soldiers in the market, Latin-speaking Christians at their churches, water-wheels creaking on the river.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Courtyard houses of the medina",
+    "text": "Houses of rammed earth, rubble and brick turned inward round a patio with a well and a cistern, the street walls blank but for a bent entrance; flat or low-pitched tiled roofs. Many reuse Roman stone; the Roman grid starts to break into lanes and dead ends."
+   },
+   "outskirts": {
+    "title": "Suburbs and munyas",
+    "text": "Outside the walls, new suburbs (arrabales) of craftsmen and soldiers, cemeteries, and the munyas, country estates with orchards and water-wheels, like the emir's own Rusafa north of the city."
+   }
+  },
+  {
+   "id": "caliphal-950",
+   "label": "Umayyad capital",
+   "year": 950,
+   "startYear": 929,
+   "endYear": 1235,
+   "summary": "In 929 Abd al-Rahman III proclaims himself caliph. Córdoba, with a medina and some twenty suburbs, is the largest city of western Europe; the caliph builds Madinat al-Zahra 7 km west and a new minaret, and al-Hakam II extends the mosque and gathers a great library. The range runs on through the Fitna (1009–1013), taifas, Almoravids and Almohads to 1235.",
+   "population": "perhaps 100,000–250,000 (estimates vary widely)",
+   "feel": "Paper and parchment in the booksellers' lanes, Greek and Latin envoys riding to Madinat al-Zahra, the smell of tanned leather and orange blossom, hundreds of mosques and baths.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Patio houses of Qurtuba",
+    "text": "Excavated houses of the western suburbs are each built round a patio, with a hall, a latrine and a well, the walls of stone or rammed earth plastered white or red-painted at the base; lanes of the same houses in the medina, two storeys at most."
+   },
+   "outskirts": {
+    "title": "The western arrabales",
+    "text": "Planned suburbs stretch west along the road to Madinat al-Zahra: streets of patio houses, mosques, baths and workshops, with munyas and gardens along the river. Abandoned after the Fitna of 1009–1013 and left as ruins and fields."
+   }
+  },
+  {
+   "id": "castilian-1300",
+   "label": "Castilian Córdoba",
+   "year": 1300,
+   "startYear": 1236,
+   "endYear": 1491,
+   "summary": "Ferdinand III of Castile takes Córdoba on 29 June 1236. The mosque is consecrated as the cathedral; the city is divided into fourteen parishes, whose new Gothic churches (the 'Fernandine' churches) rise in the Villa and the walled Axerquía. Alfonso XI builds the new Alcázar from 1328; the Jewish quarter by the Almodóvar gate gets its synagogue in 1315. The city has lost most of its people since the caliphate.",
+   "population": "perhaps 20,000–30,000",
+   "feel": "Church bells where the call to prayer was, Castilian, Arabic and Hebrew in the same street, knights of the frontier with Granada, leather and wool on market days at the Corredera.",
+   "style": "medieval",
+   "houses": {
+    "title": "Patio houses of the Villa",
+    "text": "The Castilian settlers moved into the Andalusi houses and kept their plan: a bent entrance, rooms round a patio with a well, cistern and flowerpots. New houses keep it too, with tiled roofs, a first floor gallery and a coat of whitewash."
+   },
+   "outskirts": {
+    "title": "Huertas and the river",
+    "text": "Beyond the walls, market gardens and orchards on the old suburbs' ruins, water mills along the river weirs, and the small suburb of the Campo de la Verdad at the bridgehead."
+   }
+  },
+  {
+   "id": "habsburg-1600",
+   "label": "Renaissance Córdoba",
+   "year": 1600,
+   "startYear": 1492,
+   "endYear": 1750,
+   "summary": "A provincial Habsburg city of nobles, convents and the Inquisition, which has its seat in the Alcázar from 1482. In 1523 the chapter begins a Renaissance cathedral nave in the middle of the mosque; it is still being vaulted in 1600 (finished 1607). Hernán Ruiz III rebuilds the Puerta del Puente (1572) and encases the minaret in a bell tower. Cervantes knows the inn at the Plaza del Potro.",
+   "population": "perhaps 40,000–50,000",
+   "feel": "Masons' hammers inside the mosque, horse dealers at the Potro, processions of the brotherhoods in Holy Week, the bells of forty convents.",
+   "style": "early-modern",
+   "houses": {
+    "title": "Houses round patios",
+    "text": "Two-storey whitewashed houses with tiled roofs, stone portals carved with the owners' arms, and the patio, now often arcaded on marble columns, with a fountain, flowers and a well; the noble houses have several patios in a row."
+   },
+   "outskirts": {
+    "title": "Convents and orchards",
+    "text": "Outside the walls, convent gardens, orchards and the potters', tanners' and dyers' sheds near the river; the western suburbs of the caliphs lie buried under fields."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "mezquita",
+   "placeId": "great-mosque",
+   "name": "Great Mosque of Córdoba (Mezquita)",
+   "category": "religious",
+   "position": [
+    2153,
+    1886
+   ],
+   "rotation": -29,
+   "footprint": [
+    131.6,
+    179.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/mezquita.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 178,
+     "height": 52.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abd-al-rahman-800",
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "roman-150": {
+     "name": "Site of the Great Mosque",
+     "note": "A built-up quarter of the colony between the forum and the river. The Visigothic church of St Vincent later stood here, by the usual account."
+    },
+    "abd-al-rahman-800": {
+     "name": "Great Mosque of Abd al-Rahman I",
+     "note": "The first mosque of 786: eleven aisles twelve bays deep on reused Roman and Visigothic columns, a walled court, and Hisham I's small minaret (c. 793). Only the north-west corner of today's building.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/cordoba/mezquita-786.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 178,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "caliphal-950": {
+     "note": "Abd al-Rahman II has extended the hall south (833–848); Abd al-Rahman III widens the court and raises a great minaret (951–952). Al-Hakam II's extension and mihrab follow in 961–976, Almanzor's eastern aisles in 987."
+    },
+    "castilian-1300": {
+     "name": "Cathedral of St Mary (the Mezquita)",
+     "note": "Consecrated as the cathedral on 29 June 1236. The whole mosque, with Almanzor's eight eastern aisles, stands intact; chapels are fitted between the columns and bells hang in the minaret.",
+     "model": {
+      "glb": "models/cordoba/mezquita-1300.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 178,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "habsburg-1600": {
+     "name": "Mosque–Cathedral of Córdoba",
+     "note": "The Renaissance cathedral (1523–1607) rises from the middle of the hall, still being vaulted; Hernán Ruiz III is encasing the minaret in a bell tower (from 1593).",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/cordoba/mezquita-1600.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 178,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The congregational mosque of Umayyad Córdoba, begun in 786 and enlarged four times into a forest of more than 800 columns; a cathedral since 1236, with a Renaissance nave built into its heart.",
+   "details": [
+    "Abd al-Rahman I began it in 785–786 on the site of the church of St Vincent. Its aisles run toward a qibla wall facing south rather than toward Mecca. Columns taken from older buildings carry two tiers of arches, horseshoe below and round above, of alternating red brick and white stone. Abd al-Rahman II, al-Hakam II and Almanzor enlarged it to about 23,000 square metres.",
+    "The miniature shows the hall as rows of tiled gable roofs, one per aisle, with a cut-away bay revealing the double arches; the Court of Oranges with its trees and fountains; and the minaret. Details of the early minarets and the trees in the Umayyad court are reconstructions. Charles V is reported to have regretted the cathedral built inside it."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mezquita",
+    "nieto-mezquita",
+    "ewert-mezquita",
+    "dodds-al-andalus",
+    "ecker-caliphs"
+   ],
+   "built": "785–786; enlarged 833–848, 951–952, 961–976, 987–988; cathedral from 1236, Renaissance nave 1523–1607",
+   "function": "Congregational mosque; cathedral from 1236",
+   "activity": {
+    "figures": 80,
+    "radius": 220
+   }
+  },
+  {
+   "id": "roman-bridge",
+   "placeId": "roman-bridge",
+   "name": "Roman bridge (Puente Romano)",
+   "category": "civic",
+   "position": [
+    2289,
+    2137
+   ],
+   "rotation": -45,
+   "footprint": [
+    16.0,
+    262.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/roman-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 12,
+     "depth": 262,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150",
+    "abd-al-rahman-800",
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "roman-150": {
+     "name": "Pons Baetis",
+     "note": "The Via Augusta's crossing of the Baetis: sixteen arches of stone, the only bridge over the river for many miles. Barges unload oil jars at the quays below."
+    },
+    "abd-al-rahman-800": {
+     "name": "al-Qantara (the Bridge)",
+     "note": "Rebuilt in 720 by the governor al-Samh with stone from the city walls, by the chroniclers' account. The Bridge Gate and the emir's palace look down on it."
+    },
+    "caliphal-950": {
+     "name": "al-Qantara (the Bridge)",
+     "note": "The city's only crossing: armies left over it for the frontier, and the mills of the sotos turned below it. Geographers praised it as unequalled in al-Andalus."
+    },
+    "castilian-1300": {
+     "note": "Ferdinand III's troops crossed it in 1236. Repaired many times after floods; Henry II's rebuilt Calahorra (1369) guards its southern end."
+    },
+    "habsburg-1600": {
+     "note": "Still Córdoba's only bridge. Hernán Ruiz III's new Puerta del Puente (1572) frames its northern end; the statue of St Raphael on its parapet is later (1651)."
+    }
+   },
+   "summary": "The bridge of the Via Augusta over the Guadalquivir, some 250 metres on sixteen arches, rebuilt in 720 and repaired ever since; until 1953 Córdoba's only bridge.",
+   "details": [
+    "The bridge was probably built in the time of Augustus, perhaps earlier, to carry the Via Augusta. In 720 the governor al-Samh ibn Malik rebuilt it; it was repaired after floods by Umayyads, Almohads and Castilians, so little Roman masonry may remain. Its arches are of different shapes and dates; the pointed ones are medieval.",
+    "The miniature shows sixteen arches with pointed cutwaters on the upstream side and a paved roadway between parapets. It is built north–south and turned to its real diagonal across the river. The exact Roman arch spans are not known."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roman-bridge",
+    "ventura-corduba"
+   ],
+   "built": "1st century BCE (probably Augustan); rebuilt 720 and many times since",
+   "function": "Bridge of the Via Augusta",
+   "activity": {
+    "figures": 30,
+    "radius": 160
+   }
+  },
+  {
+   "id": "puerta-del-puente",
+   "placeId": "bridge-gate",
+   "name": "Puerta del Puente (Bab al-Qantara)",
+   "category": "military",
+   "position": [
+    2179,
+    2019
+   ],
+   "rotation": -45,
+   "footprint": [
+    30.0,
+    14.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/puerta-del-puente.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 14,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150",
+    "abd-al-rahman-800",
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "roman-150": {
+     "name": "Bridge gate of the colony",
+     "note": "The colony's south gate at the head of the bridge, where the Via Augusta entered the walls.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/cordoba/puerta-del-puente-roman.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 30,
+       "depth": 14,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "abd-al-rahman-800": {
+     "name": "Bab al-Qantara",
+     "note": "The Bridge Gate (also called Bab al-Wadi, the River Gate) of the medina, between the Alcázar and the mosque, opening on al-Rasif."
+    },
+    "caliphal-950": {
+     "name": "Bab al-Qantara",
+     "note": "The ceremonial gate of the caliphal city: embassies coming from the south entered here between the Alcázar and the Great Mosque."
+    },
+    "castilian-1300": {
+     "name": "Puerta del Puente",
+     "note": "The Villa's river gate, a fortified medieval gate with towers, where tolls on goods crossing the bridge were collected."
+    },
+    "habsburg-1600": {
+     "note": "Rebuilt by Hernán Ruiz III from 1572, after Philip II's visit of 1570, as a Doric triumphal arch facing the bridge; the work was left unfinished for years.",
+     "model": {
+      "glb": "models/cordoba/puerta-del-puente-1600.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 30,
+       "depth": 14,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The gate at the north end of the Roman bridge: the colony's south gate, the Umayyads' Bab al-Qantara, and from 1572 a Renaissance triumphal arch.",
+   "details": [
+    "A gate has stood at the bridgehead since Roman times. In Umayyad Córdoba Bab al-Qantara opened between the Alcázar and the Great Mosque onto the riverside esplanade, al-Rasif. In 1572 the city commissioned Hernán Ruiz III to replace the medieval gate with a classical arch in honour of Philip II.",
+    "The miniatures show a towered medieval gate, a simple Roman arch, and the 16th-century Doric arch with paired columns and a pediment. The Roman and Islamic gates are reconstructions from the usual type."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-puerta-del-puente",
+    "escobar-camacho"
+   ],
+   "built": "Roman; medieval gate; rebuilt 1572 onward",
+   "function": "City gate at the bridgehead",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "calahorra",
+   "placeId": "calahorra",
+   "name": "Torre de la Calahorra",
+   "category": "military",
+   "position": [
+    2407,
+    2261
+   ],
+   "rotation": -45,
+   "footprint": [
+    34.0,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/calahorra.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 34,
+     "depth": 30,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "caliphal-950": {
+     "note": "Not yet built. An Islamic gate-tower, probably Almohad (12th century), later guarded the southern bridgehead, late in this era's range."
+    },
+    "castilian-1300": {
+     "note": "The Islamic gate-tower at the bridge's south end. In 1369 Henry II rebuilt and enlarged it against his brother Peter I, giving it its present three-part form."
+    },
+    "habsburg-1600": {
+     "note": "Henry II's tower: two square towers joined by a round one, with a passage through for the road south. Later a prison and a girls' school."
+    }
+   },
+   "summary": "The fortified gate-tower at the south end of the Roman bridge, of Islamic origin and rebuilt by Henry II of Castile in 1369 as three linked towers.",
+   "details": [
+    "An Islamic tower guarded the southern bridgehead, probably from the Almohad period. Henry II of Trastámara, fighting his half-brother Peter I for the throne, had it rebuilt in 1369: two rectangular towers joined by a cylindrical one, giving a cross-shaped plan, with an arched passage through which the road ran. It has been a museum since 1987.",
+    "The miniature shows the 1369 form with its crenellations and gate passage. The earlier Islamic tower is not modelled."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-calahorra",
+    "escobar-camacho"
+   ],
+   "built": "12th century (probably); rebuilt 1369",
+   "function": "Bridgehead gate-tower",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "albolafia",
+   "placeId": "albolafia",
+   "name": "Albolafia water-wheel",
+   "category": "civic",
+   "position": [
+    2109,
+    2130
+   ],
+   "rotation": -35,
+   "footprint": [
+    30.0,
+    18.4
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/cordoba/albolafia.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 20,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abd-al-rahman-800",
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "abd-al-rahman-800": {
+     "note": "A mill on the weir below the Alcázar; tradition credits Abd al-Rahman II (822–852) with a great wheel lifting river water to the palace gardens, after this era's year.",
+     "confidence": "interpretation"
+    },
+    "caliphal-950": {
+     "note": "The great wheel (na'ura) turns in the current and pours water into an aqueduct on arches running up to the Alcázar's gardens."
+    },
+    "castilian-1300": {
+     "note": "Still turning for the Christian Alcázar. Its Arabic name is often derived from Abu l-Afiya, a later owner or keeper; the derivation is uncertain."
+    },
+    "habsburg-1600": {
+     "note": "The wheel is gone: by a well-known story Queen Isabella had it dismantled in 1492 because its creaking kept her awake. The mill house still grinds.",
+     "model": {
+      "glb": "models/cordoba/albolafia-1600.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 30,
+       "depth": 20,
+       "height": 8,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A mill on the river weir below the Alcázar with a great water-wheel that raised water to the palace gardens; Córdoba's best-known noria.",
+   "details": [
+    "The Guadalquivir at Córdoba was crossed by weirs (azudas) feeding a chain of mills, several of Islamic origin. The Albolafia's wheel, perhaps 15 m across, lifted river water into an aqueduct to the Alcázar. The wheel was dismantled in the late 15th century; the present one is a reconstruction of 1994.",
+    "The miniature shows the stone mill house on the weir, the wheel with its buckets and the first arches of the aqueduct. Its size and date are uncertain; the attribution to Abd al-Rahman II is a tradition."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-albolafia",
+    "torres-balbas"
+   ],
+   "built": "9th–10th century (by tradition); wheel rebuilt 1994",
+   "function": "Water mill and water-wheel",
+   "activity": {
+    "figures": 6,
+    "radius": 50
+   }
+  },
+  {
+   "id": "umayyad-alcazar",
+   "placeId": "umayyad-alcazar",
+   "name": "Alcázar of the Umayyads (Qasr al-Khilafa)",
+   "category": "civic",
+   "position": [
+    2030,
+    1995
+   ],
+   "rotation": -29,
+   "footprint": [
+    162.4,
+    142.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/umayyad-alcazar.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 160,
+     "depth": 140,
+     "height": 56.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abd-al-rahman-800",
+    "caliphal-950"
+   ],
+   "variants": {
+    "roman-150": {
+     "name": "Site of the Alcázar",
+     "note": "Houses and public buildings of the colony's southern quarter. A late Roman building here may have become the Visigothic governors' palace.",
+     "confidence": "interpretation"
+    },
+    "abd-al-rahman-800": {
+     "name": "Alcázar of the emirs",
+     "note": "The old Visigothic palace, rebuilt by Abd al-Rahman I as his residence: halls round courts, gardens, and the Bab al-Sudda facing the river.",
+     "confidence": "reconstruction"
+    },
+    "caliphal-950": {
+     "note": "Seat of the caliph until the court moves to Madinat al-Zahra in the 940s; a covered passage (sabat) leads to the mosque's maqsura. The Caliphal Baths stand beside it."
+    },
+    "castilian-1300": {
+     "name": "Site of the old Alcázar",
+     "note": "Divided after 1236: the bishop's palace takes the eastern part, Alfonso XI's new Alcázar (1328) the south-west; the rest becomes houses and stables."
+    }
+   },
+   "summary": "The palace of the emirs and caliphs between the Great Mosque and the river, rebuilt from the Visigothic governors' palace; the bishop's palace and the Christian Alcázar stand on parts of it.",
+   "details": [
+    "Arab sources describe a walled complex of courts, halls, gardens and baths, with gates on the riverside esplanade, chief among them the Bab al-Sudda, where the ruler appeared and justice was done. The emir Abd Allah (888–912) built the covered passage to the mosque. Abd al-Rahman III moved his court to Madinat al-Zahra, but the Alcázar remained in use.",
+    "Little is excavated; the miniature is an interpretation: a crenellated enclosure with a gate on the river side, halls round two courts and a garden with a pool. Its true plan and extent are not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-alcazar-andalusi",
+    "acien-vallejo",
+    "torres-balbas"
+   ],
+   "built": "Visigothic palace rebuilt from the 750s; enlarged in the 9th and 10th centuries",
+   "function": "Palace of the emirs and caliphs",
+   "activity": {
+    "figures": 40,
+    "radius": 180
+   }
+  },
+  {
+   "id": "alcazar-reyes",
+   "placeId": "alcazar-reyes-cristianos",
+   "name": "Alcázar of the Christian Kings",
+   "category": "military",
+   "position": [
+    1986,
+    2152
+   ],
+   "rotation": -32,
+   "footprint": [
+    70.0,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/alcazar-reyes.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 70,
+     "depth": 64,
+     "wallHeight": 12.8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "caliphal-950": {
+     "note": "Part of the Umayyad Alcázar's grounds, between the palace halls and the river wall."
+    },
+    "castilian-1300": {
+     "note": "Alfonso XI begins the new fortress-palace on part of the old Alcázar in 1328, after this era's year; until then the kings use the old Islamic buildings."
+    },
+    "habsburg-1600": {
+     "note": "Ferdinand and Isabella's base during the Granada war (1482–1492), where they received Columbus in 1486; since 1482 the seat of the Inquisition, with its prison in the towers."
+    }
+   },
+   "summary": "Alfonso XI's fortress-palace of 1328 on the river wall, with four corner towers; residence of the Catholic Monarchs and for three centuries the seat of the Inquisition.",
+   "details": [
+    "Built from 1328 on part of the Umayyad Alcázar, the castle is a near-square of walls with the Tower of Homage, the Lions' Tower, the round Tower of the Inquisition and the lost Dove Tower at the corners. Inside are Mudéjar courts and baths. The Inquisition held it from 1482 to 1821. The gardens in their present form are 20th century.",
+    "The miniature shows the walls and four towers round a court with a pool, and the river front. The internal ranges are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-alcazar-reyes",
+    "escobar-camacho"
+   ],
+   "built": "1328 onward",
+   "function": "Royal fortress-palace; seat of the Inquisition from 1482",
+   "activity": {
+    "figures": 25,
+    "radius": 120
+   }
+  },
+  {
+   "id": "caliphal-baths",
+   "placeId": "caliphal-baths",
+   "name": "Caliphal Baths (Baños del Alcázar Califal)",
+   "category": "civic",
+   "position": [
+    1908,
+    2010
+   ],
+   "rotation": -29,
+   "footprint": [
+    36.0,
+    26.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/caliphal-baths.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 36,
+     "depth": 26,
+     "height": 10.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "caliphal-950",
+    "castilian-1300"
+   ],
+   "variants": {
+    "abd-al-rahman-800": {
+     "note": "Not yet built: the palace baths here are usually dated to the 10th century."
+    },
+    "caliphal-950": {
+     "note": "The palace baths of the Umayyad Alcázar, probably built under al-Hakam II (961–976): cold, warm and hot rooms under vaults lit by star-shaped skylights."
+    },
+    "castilian-1300": {
+     "note": "Altered by the Almohads in the 12th century and still standing within the Christian Alcázar's grounds, though later abandoned and buried."
+    },
+    "habsburg-1600": {
+     "note": "Buried under houses and gardens; found again in 1903 and excavated from the 1960s."
+    }
+   },
+   "summary": "The baths of the Umayyad Alcázar, of the 10th century: a changing hall and cold, warm and hot rooms under vaults pierced with star-shaped skylights.",
+   "details": [
+    "The baths are usually dated to the reign of al-Hakam II and were enlarged in the Almohad period. Visitors passed from the changing room (bayt al-maslaj) through the cold and warm rooms to the hot room over the hypocaust and furnace. Horseshoe arches on reused columns divide the halls.",
+    "The miniature shows the row of vaulted rooms with their star-pierced roofs, the furnace and a small court. Details of the upper parts are reconstructed from comparable baths."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-caliphal-baths",
+    "torres-balbas"
+   ],
+   "built": "10th century (probably 961–976); altered 12th century",
+   "function": "Palace bath (hammam)",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "roman-temple",
+   "placeId": "roman-temple",
+   "name": "Roman temple (Calle Claudio Marcelo)",
+   "category": "temple",
+   "position": [
+    2390,
+    1243
+   ],
+   "rotation": -90,
+   "footprint": [
+    36.3,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/roman-temple.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 36,
+     "depth": 64,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.6,
+     "columnHeight": 14.4
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150"
+   ],
+   "variants": {
+    "roman-150": {
+     "note": "A marble temple of the imperial cult on a high podium, in a porticoed square with fountains, facing east over the Via Augusta toward the circus."
+    },
+    "abd-al-rahman-800": {
+     "name": "Ruins of the Roman temple",
+     "note": "Long fallen; its marble columns and capitals are being carried off for reuse, some perhaps in the new mosque.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A Corinthian marble temple of the late 1st century CE on the colony's east edge, probably of the imperial cult; found in the 1950s and partly re-erected.",
+   "details": [
+    "The temple was begun around the middle of the 1st century CE, perhaps under Claudius, and finished under the Flavians. About 32 by 16 metres, of white marble, it stood on a podium reached by a stair on the east, with six columns across the front. It was the centre of a large terraced precinct overlooking the circus.",
+    "The miniature shows the temple, its stair and altar, and the porticoes of the precinct. The precinct's layout is simplified; only foundations and some columns survive."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roman-temple",
+    "ventura-corduba"
+   ],
+   "built": "c. 40s–90s CE",
+   "function": "Temple of the imperial cult",
+   "activity": {
+    "figures": 20,
+    "radius": 100
+   }
+  },
+  {
+   "id": "roman-theatre",
+   "placeId": "roman-theatre",
+   "name": "Roman theatre",
+   "category": "entertainment",
+   "position": [
+    2267,
+    1553
+   ],
+   "rotation": 0,
+   "footprint": [
+    124.0,
+    73.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/roman-theatre.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 124,
+     "depth": 72,
+     "height": 28.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150"
+   ],
+   "variants": {
+    "roman-150": {
+     "note": "One of the largest theatres of Hispania, its cavea built against the slope; plays, mimes and imperial ceremonies for perhaps 10,000 or more."
+    },
+    "abd-al-rahman-800": {
+     "name": "Site of the Roman theatre",
+     "note": "Ruined and quarried for centuries; houses and lanes now cover the cavea, whose curve the street plan still follows.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "An Augustan theatre some 124 metres across built into the slope above the river, among the largest in the Roman west; found in 2000 under the archaeological museum.",
+   "details": [
+    "Built in the early 1st century CE and enlarged later, the theatre had a semicircular cavea of three tiers on vaulted substructures and the hillside, and a stage building richly decorated with marble. It was abandoned in the late Roman period and its stone taken away. Excavations from 2000 under the Museo Arqueológico revealed it.",
+    "The miniature shows the cavea, the orchestra and a two-storey scaenae frons. Its exact orientation and the height of the stage building are reconstructions."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-roman-theatre",
+    "ventura-corduba"
+   ],
+   "built": "early 1st century CE",
+   "function": "Theatre",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "roman-forum",
+   "placeId": "colonial-forum",
+   "name": "Colonial forum",
+   "category": "civic",
+   "position": [
+    2038,
+    1132
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    100.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/roman-forum.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 100,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150"
+   ],
+   "variants": {
+    "roman-150": {
+     "note": "The colony's civic heart: a paved square with porticoes, statues of the emperors and local notables, a temple at its head and the basilica and curia alongside."
+    },
+    "abd-al-rahman-800": {
+     "name": "Site of the forum",
+     "note": "Built over long ago; the square near here is still a crossing of the main streets, as the Tendillas is today.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The forum of the colony at the crossing of the main streets: a porticoed square with a temple, the basilica and the curia, partly excavated under Calle Cruz Conde.",
+   "details": [
+    "Excavations near the Tendillas and Calle Cruz Conde found the colonial forum, laid out under Augustus with a temple, porticoes and statues on inscribed bases. A second square, the 'forum adiectum', was added beside it with a temple of its own.",
+    "The miniature shows a paved square ringed by porticoes, a temple on a podium at the north end and a basilica on one side. The arrangement follows the usual Roman type; much is unexcavated."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-colonial-forum",
+    "ventura-corduba"
+   ],
+   "built": "late 1st century BCE – 1st century CE",
+   "function": "Forum",
+   "activity": {
+    "figures": 60,
+    "radius": 120
+   }
+  },
+  {
+   "id": "roman-mausoleum",
+   "placeId": "roman-mausoleum",
+   "name": "Round mausoleum",
+   "category": "monument",
+   "position": [
+    1674,
+    1212
+   ],
+   "rotation": 0,
+   "footprint": [
+    16.0,
+    16.0
+   ],
+   "scale": 2.5,
+   "model": {
+    "glb": "models/cordoba/roman-mausoleum.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 16,
+     "depth": 16,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-150"
+   ],
+   "variants": {
+    "roman-150": {
+     "note": "A drum-shaped family tomb of ashlar on the road outside the west gate, one of many lining the roads out of the colony."
+    },
+    "abd-al-rahman-800": {
+     "name": "Buried mausoleum",
+     "note": "Long buried under earth and rubbish outside the walls; found again in 1993.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A cylindrical stone tomb of the 1st century CE outside the colony's west gate, found in 1993 and rebuilt in the gardens of the Paseo de la Victoria.",
+   "details": [
+    "Wealthy families of Corduba built monumental tombs along the roads out of the gates. This one, a circular drum of ashlar about 12 metres across on a stepped base, probably carried a conical roof or a statue. It was found during building works in 1993 and reconstructed.",
+    "The miniature shows the drum, its moulded cornice and a conical roof; the roof is conjectural."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-roman-mausoleum",
+    "ventura-corduba"
+   ],
+   "built": "1st century CE",
+   "function": "Funerary monument",
+   "activity": {
+    "figures": 4,
+    "radius": 40
+   }
+  },
+  {
+   "id": "puerta-almodovar",
+   "placeId": "puerta-almodovar",
+   "name": "Puerta de Almodóvar",
+   "category": "military",
+   "position": [
+    1751,
+    1704
+   ],
+   "rotation": 70,
+   "footprint": [
+    60.0,
+    20.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/puerta-almodovar.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 60,
+     "depth": 20,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abd-al-rahman-800",
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "roman-150": {
+     "name": "West wall of the colony",
+     "note": "A plain stretch of the Roman wall; the gate here is probably of Islamic origin.",
+     "confidence": "interpretation"
+    },
+    "abd-al-rahman-800": {
+     "note": "A gate in the west wall of the medina, near the quarter later known as the Jews'; Arabic sources may call it Bab al-Yahud, though identifications vary.",
+     "confidence": "reconstruction"
+    },
+    "caliphal-950": {
+     "note": "Through it ran the road to the western suburbs and the munyas along the river."
+    },
+    "castilian-1300": {
+     "note": "The gate of the Judería, rebuilt in the 14th century with two square towers and a pointed arch; the road to Almodóvar del Río left here."
+    },
+    "habsburg-1600": {
+     "note": "The western gate of the Villa, its towers and the moat-side wall along the Huerta del Rey still complete."
+    }
+   },
+   "summary": "The western gate of the old city, of Islamic origin and rebuilt in the 14th century between two square towers, beside the best-kept stretch of the walls.",
+   "details": [
+    "The gate stands in the west wall, which here follows the Roman line rebuilt by the Umayyads and the Castilians. Its present form, a pointed arch between two square crenellated towers, is 14th century, restored in the 19th and 20th. The Jewish quarter lay just inside.",
+    "The miniature shows the gate and about 60 metres of crenellated wall with towers. The Islamic gate's form is not known."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-almodovar-gate",
+    "escobar-camacho"
+   ],
+   "built": "Islamic origin; rebuilt 14th century",
+   "function": "City gate",
+   "activity": {
+    "figures": 12,
+    "radius": 70
+   }
+  },
+  {
+   "id": "puerta-sevilla",
+   "placeId": "puerta-sevilla",
+   "name": "Puerta de Sevilla",
+   "category": "military",
+   "position": [
+    1610,
+    2278
+   ],
+   "rotation": 70,
+   "footprint": [
+    36.0,
+    16.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/puerta-sevilla.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 36,
+     "depth": 16,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "caliphal-950": {
+     "note": "Not yet built: suburbs and munyas lay outside the medina here; the walled Alcázar Viejo is 14th century."
+    },
+    "castilian-1300": {
+     "note": "The gate of the Alcázar Viejo, the walled quarter Alfonso XI built for the castle's garrison in the 14th century, after this era's year."
+    },
+    "habsburg-1600": {
+     "note": "The road to Seville and the river mills leaves through it; San Basilio's horsemen and gardeners live inside."
+    }
+   },
+   "summary": "The gate of the Alcázar Viejo (San Basilio) on the road to Seville: two horseshoe-like arches beside a tower, of the 14th century.",
+   "details": [
+    "When Alfonso XI walled the quarter west of his new Alcázar, the Puerta de Sevilla became its western gate. It has a double arch, one round-headed and one horseshoe-shaped, beside a square tower. It was restored in the 1950s.",
+    "The miniature shows the gate, its tower and a short stretch of wall. The upper parts are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-puerta-sevilla",
+    "escobar-camacho"
+   ],
+   "built": "14th century",
+   "function": "Quarter gate",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "malmuerta",
+   "placeId": "malmuerta",
+   "name": "Torre de la Malmuerta",
+   "category": "military",
+   "position": [
+    2315,
+    476
+   ],
+   "rotation": -15,
+   "footprint": [
+    18.0,
+    34.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/malmuerta.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 18,
+     "depth": 34,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "habsburg-1600"
+   ],
+   "variants": {
+    "castilian-1300": {
+     "note": "Not yet built: the octagonal tower was raised in 1404–1408, late in this era's range, at the corner of the Axerquía wall."
+    },
+    "habsburg-1600": {
+     "note": "The detached tower, joined to the wall by an arch, guards the north-west corner of the Axerquía beside the Puerta del Colodro."
+    }
+   },
+   "summary": "An octagonal 'albarrana' tower of 1404–1408, standing free of the Axerquía wall and joined to it by an arch; its name, 'wrongly killed', comes from a legend.",
+   "details": [
+    "Built in 1404–1408 under Henry III, the tower projects from the wall as an albarrana tower, a forward strongpoint reached across an arch. A legend says a nobleman who killed his innocent wife built it as penance; hence 'mal muerta'. In the 18th century it served as an astronomical observatory.",
+    "The miniature shows the octagonal tower, its arch and a stretch of wall. The battlements are restored."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-malmuerta",
+    "escobar-camacho"
+   ],
+   "built": "1404–1408",
+   "function": "Albarrana tower of the city wall",
+   "activity": {
+    "figures": 4,
+    "radius": 40
+   }
+  },
+  {
+   "id": "synagogue",
+   "placeId": "synagogue",
+   "name": "Synagogue of Córdoba",
+   "category": "religious",
+   "position": [
+    1816,
+    1806
+   ],
+   "rotation": -29,
+   "footprint": [
+    20.3,
+    26.1
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/cordoba/synagogue.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 20,
+     "depth": 26,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "castilian-1300": {
+     "note": "Built in 1315 by Isaac Moheb, as its Hebrew inscription records: a small square prayer hall with a women's gallery, its walls covered in carved plaster, entered from a court."
+    },
+    "habsburg-1600": {
+     "name": "Hermitage of St Crispin",
+     "note": "After the expulsion of 1492 a hospital for rabies victims, then from 1588 the chapel of the shoemakers' guild of St Crispin."
+    }
+   },
+   "summary": "A small synagogue of 1315 in the Judería, its prayer hall covered in Mudéjar plaster with Hebrew inscriptions; one of three medieval synagogues left in Spain.",
+   "details": [
+    "The prayer hall is only about 7 by 6.5 metres. Its walls carry carved plaster panels of plant and geometric patterns and Hebrew inscriptions from the Psalms, in the Mudéjar style of Castile. A gallery for women sits over the entrance, reached from the vestibule off a small court.",
+    "The miniature shows the hall, its gallery and the entrance court with neighbouring houses. Its roof and outer walls are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-synagogue",
+    "escobar-camacho"
+   ],
+   "built": "1315",
+   "function": "Synagogue; later hospital and guild chapel",
+   "activity": {
+    "figures": 8,
+    "radius": 40
+   }
+  },
+  {
+   "id": "san-pablo",
+   "placeId": "san-pablo",
+   "name": "San Pablo (Dominican convent church)",
+   "category": "religious",
+   "position": [
+    2521,
+    1172
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    34.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/san-pablo.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 34,
+     "height": 13.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "caliphal-950": {
+     "note": "A quarter of the eastern suburbs; tradition places an Almohad palace here later."
+    },
+    "castilian-1300": {
+     "note": "Founded by Ferdinand III in 1241 for the Dominicans: a Gothic nave and aisles with a Mudéjar timber roof, still being completed."
+    },
+    "habsburg-1600": {
+     "note": "A wealthy convent with cloisters and family chapels, the burial place of the city's nobility."
+    }
+   },
+   "summary": "The church of the Dominican convent founded by Ferdinand III in 1241: a Gothic basilica of the late 13th century with Mudéjar timber ceilings.",
+   "details": [
+    "San Pablo is one of the churches built after the conquest, transitional between Romanesque and Gothic, with three aisles, pointed arches, rib-vaulted apses and Mudéjar coffered ceilings. The convent grew around it with cloisters; its Baroque street portal is 18th century.",
+    "The miniature shows the nave and aisles, the polygonal apses and a bell tower. Convent buildings are left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-san-pablo",
+    "escobar-camacho"
+   ],
+   "built": "1241 onward (mostly late 13th – 14th century)",
+   "function": "Convent church",
+   "activity": {
+    "figures": 15,
+    "radius": 70
+   }
+  },
+  {
+   "id": "san-lorenzo",
+   "placeId": "san-lorenzo",
+   "name": "San Lorenzo (Fernandine church)",
+   "category": "religious",
+   "position": [
+    3086,
+    825
+   ],
+   "rotation": 0,
+   "footprint": [
+    44.0,
+    26.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/cordoba/san-lorenzo.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 44,
+     "depth": 26,
+     "height": 10.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "caliphal-950": {
+     "note": "A quarter of the eastern suburbs; a mosque may have stood here, as at several of the Fernandine churches."
+    },
+    "castilian-1300": {
+     "note": "One of the 'Fernandine' parish churches of the Axerquía: a stout Gothic church with a great rose window over a three-arched porch, and a plain square tower."
+    },
+    "habsburg-1600": {
+     "note": "Hernán Ruiz II has crowned the tower with a Renaissance belfry (1555).",
+     "model": {
+      "glb": "models/cordoba/san-lorenzo-1600.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 44,
+       "depth": 26,
+       "height": 10.4,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A Gothic parish church of the late 13th or early 14th century in the Axerquía, famous for its west front: a porch of three arches under a great rose window.",
+   "details": [
+    "The 'Fernandine' churches are the parish churches founded after Ferdinand III's conquest of 1236 and built over the following century, sturdy Gothic buildings with Mudéjar details. San Lorenzo has three aisles ending in apses; its rose window is the finest in Córdoba. The tower may rise on an older minaret's base.",
+    "The miniature shows the church with its west porch and rose, and the tower, plain in 1300 and crowned with the 1555 belfry in 1600."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-san-lorenzo",
+    "escobar-camacho"
+   ],
+   "built": "late 13th – early 14th century; tower top 1555",
+   "function": "Parish church",
+   "activity": {
+    "figures": 12,
+    "radius": 60
+   }
+  },
+  {
+   "id": "minaret-san-juan",
+   "placeId": "alminar-san-juan",
+   "name": "Minaret of San Juan",
+   "category": "religious",
+   "position": [
+    1986,
+    1469
+   ],
+   "rotation": -29,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "scale": 3.0,
+   "model": {
+    "glb": "models/cordoba/minaret-san-juan.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 6,
+     "depth": 6,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "variants": {
+    "abd-al-rahman-800": {
+     "note": "Not yet built: the neighbourhood mosque's minaret here is usually dated to the early 10th century."
+    },
+    "caliphal-950": {
+     "note": "The minaret of one of Córdoba's hundreds of neighbourhood mosques: a square stone tower with twin horseshoe-arched windows near the top."
+    },
+    "castilian-1300": {
+     "note": "The mosque became the parish church of San Juan; its minaret, with a belfry added, became the bell tower."
+    },
+    "habsburg-1600": {
+     "note": "Bell tower of the church of San Juan, near the house of the Jesuits."
+    }
+   },
+   "summary": "A small square minaret of the early 10th century, the best-preserved minaret of Córdoba's neighbourhood mosques; later the bell tower of San Juan.",
+   "details": [
+    "The tower, of ashlar, is about 3.5 metres square. Near the top each face has a twin window of two horseshoe arches on a central column, framed by a rectangular alfiz. Its date is debated: the early 10th century is usual, but some argue for the 11th.",
+    "The miniature shows the tower with its paired windows and a small crowning chamber; the upper parts are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-alminar-san-juan",
+    "torres-balbas"
+   ],
+   "built": "early 10th century (debated)",
+   "function": "Minaret; later bell tower",
+   "activity": {
+    "figures": 4,
+    "radius": 30
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "oil-quay",
+   "name": "Oil quay on the Baetis",
+   "kind": "dock",
+   "position": [
+    2372,
+    1931
+   ],
+   "activePeriods": [
+    "roman-150"
+   ],
+   "summary": "River landing below the walls where Baetican olive oil, in globular Dressel 20 amphorae, was loaded on barges for Hispalis and on to Rome.",
+   "details": [
+    "Baetica shipped oil to Rome on a vast scale: Monte Testaccio in Rome is a hill of broken Baetican amphorae, many stamped by estates along the Baetis and its tributary the Genil. Strabo says river boats went up to Corduba. The quay's exact place is not known; here it is put below the bridge gate."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ventura-corduba"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Ox carts creak down from the gate with amphorae roped in rows. A clerk with a wax tablet checks the painted labels: weight, estate, the name of the shipper."
+    },
+    {
+     "hour": 13,
+     "text": "Barges sit low in the brown water. Porters swing the round jars down a plank two by two; a boatman curses a cracked one weeping oil onto the deck."
+    },
+    {
+     "hour": 19,
+     "text": "Frogs in the reeds of the islets. The bargemen eat bread and olives on the bank and talk about the price of oil in Hispalis."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "cardo-popina",
+   "name": "A popina on the cardo",
+   "kind": "tavern",
+   "position": [
+    2197,
+    1442
+   ],
+   "activePeriods": [
+    "roman-150"
+   ],
+   "summary": "A cookshop and wine bar opening on the colony's main street, the kind of place where the town's craftsmen, slaves and travellers ate.",
+   "details": [
+    "Excavations under central Córdoba have found the shops (tabernae) that lined the main streets. A popina served hot food and wine from jars set in a masonry counter; its exact location here is invented to stand for many."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "ventura-corduba"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The counter is wiped and the jars uncovered. Bread and a cup of warm wine for a mason on his way to the temple works."
+    },
+    {
+     "hour": 13,
+     "text": "Chickpea stew and sausages; dice clatter in the back room. Two veterans argue about Caesar, who burned this town two centuries ago."
+    },
+    {
+     "hour": 21,
+     "text": "Oil lamps smoke in the niches. The landlord rolls the shutters down while a slave carries a drunken customer home by the arm."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shaqunda-suq",
+   "name": "Market of Shaqunda",
+   "kind": "market",
+   "position": [
+    2284,
+    2641
+   ],
+   "activePeriods": [
+    "abd-al-rahman-800"
+   ],
+   "summary": "The market of the crowded suburb on the south bank at the bridgehead, home of craftsmen, traders and many of the religious scholars who led the revolt of 818.",
+   "details": [
+    "Shaqunda (Latin Secunda) grew outside the bridge into a large suburb. Its people, angered by taxes and al-Hakam I's soldiers, rose in 818; after crushing them the emir razed the suburb and forbade building there. Its houses have been excavated in the Campo de la Verdad."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-revuelta-arrabal",
+    "acien-vallejo",
+    "kennedy-muslim-spain"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Butchers hang carcasses under the awnings; farmers drive donkeys in from the campiña with barley and beans. A scholar walks to the mosque to teach before work."
+    },
+    {
+     "hour": 13,
+     "text": "Sandal-makers, smiths and cloth sellers shout over each other. Somebody grumbles about the new tax and the emir's foreign guards across the river."
+    },
+    {
+     "hour": 20,
+     "text": "Lamplight in the lanes; across the bridge the palace walls are dark. Young men gather by the mosque door and talk too loudly."
+    }
+   ],
+   "variants": {
+    "caliphal-950": {
+     "note": "Razed in 818 and never rebuilt: the bridgehead is fields, a cemetery and the open-air prayer ground."
+    },
+    "castilian-1300": {
+     "name": "Campo de la Verdad",
+     "note": "A small suburb at the bridgehead again, under the Calahorra."
+    }
+   }
+  },
+  {
+   "id": "silk-workshop",
+   "name": "Silk weavers and the tiraz",
+   "kind": "workshop",
+   "position": [
+    2232,
+    1398
+   ],
+   "activePeriods": [
+    "abd-al-rahman-800",
+    "caliphal-950"
+   ],
+   "summary": "Looms weaving silk and the tiraz, bands of cloth with inscriptions in the ruler's name, made in a palace workshop and in private shops of the medina.",
+   "details": [
+    "Córdoba was a centre of silk weaving from the 9th century; Abd al-Rahman II is credited with a palace tiraz workshop, and caliphal robes of honour bore embroidered inscriptions naming the caliph. Mulberry trees for the silkworms grew in the countryside. The workshop's location is not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tiraz",
+    "kennedy-muslim-spain"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Shuttles start clacking behind a closed door. A master checks the warp of red silk; a boy winds yellow thread from a basket of cocoons."
+    },
+    {
+     "hour": 13,
+     "text": "An official from the palace inspects a length of tiraz band. The Arabic letters woven in gold must name the ruler exactly, and the date."
+    },
+    {
+     "hour": 19,
+     "text": "The looms are covered against dust. The weavers wash their hands at the street fountain and go to the evening prayer."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "water-seller",
+   "name": "Water-carrier at the Bridge Gate",
+   "kind": "fountain",
+   "position": [
+    2302,
+    1919
+   ],
+   "activePeriods": [
+    "abd-al-rahman-800",
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "summary": "Water-carriers filled their skins and jars at the river and the wells by the Bridge Gate and sold water through the lanes, within earshot of the mill wheels.",
+   "details": [
+    "Most houses had a well or cistern, but drinking water was also bought from carriers, as in every Islamic and Spanish city into modern times. The great wheels of the river mills, the Albolafia among them, could be heard from the gate."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-water-wheel",
+    "wiki-albolafia"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the river; the wheel below the Alcázar groans as it turns. A carrier ties two dripping skins on his donkey and starts up the lane."
+    },
+    {
+     "hour": 14,
+     "text": "'Water, cold water!' A brass cup on a chain, a coin from a sweating porter. The carrier's donkey drinks from the trough by the gate."
+    },
+    {
+     "hour": 20,
+     "text": "The last load of the day goes to a bathhouse. The gate's doors are pushed shut behind him and the bar dropped."
+    }
+   ],
+   "variants": {
+    "habsburg-1600": {
+     "name": "Aguador at the Puerta del Puente",
+     "note": "Water-sellers with clay jugs still work the gate; the Albolafia's wheel has gone, the other mills still grind."
+    }
+   }
+  },
+  {
+   "id": "hakam-library",
+   "name": "Library of al-Hakam II",
+   "kind": "school",
+   "position": [
+    1942,
+    1853
+   ],
+   "activePeriods": [
+    "caliphal-950"
+   ],
+   "summary": "The caliphal library in the Alcázar, gathered by al-Hakam II, whose agents bought books from Cairo to Baghdad; later writers put it at 400,000 volumes, surely an exaggeration.",
+   "details": [
+    "According to later sources its catalogue alone filled 44 notebooks. Copyists, binders and translators worked for the caliph; scholars came from all over the Islamic world. After al-Hakam's death Almanzor had books of philosophy and astronomy burned to please the jurists, and the rest was sold off or lost in the Fitna."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-al-hakam-ii",
+    "maqqari",
+    "menocal-ornament"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Copyists sit cross-legged with boards on their knees. One copies a Greek book of medicine, already in Arabic; the caliph wants his own copy."
+    },
+    {
+     "hour": 13,
+     "text": "A bookseller's agent unpacks a crate from Baghdad. The librarian checks each title against his list and notes the price paid."
+    },
+    {
+     "hour": 19,
+     "text": "The caliph himself, they say, has annotated the margins of many books: name of the author, his tribe, the year of his death."
+    }
+   ],
+   "variants": {
+    "castilian-1300": {
+     "note": "Long dispersed; a few manuscripts once owned by al-Hakam survive in libraries in Morocco and elsewhere."
+    }
+   }
+  },
+  {
+   "id": "booksellers",
+   "name": "Booksellers by the Great Mosque",
+   "kind": "shop",
+   "position": [
+    2258,
+    1808
+   ],
+   "activePeriods": [
+    "caliphal-950"
+   ],
+   "summary": "The book market in the lanes east of the Great Mosque, where copies, paper and parchment were sold and rare books auctioned to collectors.",
+   "details": [
+    "Córdoba was famous for book-collecting. Al-Maqqari tells of a man who kept bidding for a book at auction, only to be outbid by a rich man who wanted it because it would fill a gap on his shelf. Many women worked as copyists, by some later accounts."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "maqqari",
+    "menocal-ornament"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Shutters up along the lane. A bookseller lays out Qur'ans, grammar books and a volume of poetry on a mat; paper is cheaper than parchment now."
+    },
+    {
+     "hour": 12,
+     "text": "An auction: the crier holds up a fine copy and calls the bids. A student drops out at twenty dinars; an official keeps bidding without looking at the book."
+    },
+    {
+     "hour": 18,
+     "text": "The mosque's lamps are lit next door. A copyist delivers a finished commission and argues about payment for the extra gold."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "neighbourhood-hammam",
+   "name": "A neighbourhood hammam",
+   "kind": "bath",
+   "position": [
+    2258,
+    1709
+   ],
+   "activePeriods": [
+    "caliphal-950",
+    "castilian-1300"
+   ],
+   "summary": "One of the many public baths of the caliphal city, with cold, warm and hot rooms under star-pierced vaults; men in the mornings and women in the afternoons.",
+   "details": [
+    "Later writers credited Córdoba with hundreds of baths, a figure no one can check. Several bath buildings survive in the old city, such as the baths of Santa María near the mosque. After 1236 the Castilians used them too, though the Church grew hostile to baths."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hammam",
+    "wiki-caliphal-baths",
+    "escobar-camacho"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The furnace boy has been stoking since before dawn. Men come in from the cold lane, leave their sandals and step into the steam."
+    },
+    {
+     "hour": 14,
+     "text": "Women's hours: a towel hung across the door. Laughter, henna, a bride's party with musicians and sweets."
+    },
+    {
+     "hour": 20,
+     "text": "The bath-keeper counts coins by a lamp. The floor is washed down; ash from the furnace goes out to the garden plots."
+    }
+   ],
+   "variants": {
+    "castilian-1300": {
+     "note": "Still open under Castilian rule, with separate days for Christians, Jews and Muslims, as town ordinances in Castile prescribed."
+    }
+   }
+  },
+  {
+   "id": "zahrawi-house",
+   "name": "House of al-Zahrawi, physician",
+   "kind": "house",
+   "position": [
+    1186,
+    1309
+   ],
+   "activePeriods": [
+    "caliphal-950"
+   ],
+   "summary": "Abu al-Qasim al-Zahrawi (c. 936–1013), court physician and author of the Kitab al-Tasrif, whose illustrated surgery taught Europe for five centuries; he lived in the suburbs toward Madinat al-Zahra.",
+   "details": [
+    "Al-Zahrawi's thirty-volume encyclopedia ends with a book of surgery describing about 200 instruments he drew himself: scalpels, hooks, forceps, cautery irons. His name points to Madinat al-Zahra; where he lived in Córdoba is not known, so his house here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-al-zahrawi",
+    "menocal-ornament"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Patients wait on a bench in the patio: a boy with a broken arm, a woman with a cough. The doctor washes his hands and asks about their food and sleep."
+    },
+    {
+     "hour": 13,
+     "text": "He sketches a new hook for extracting a dead foetus in the margin of his book, then tests the iron in the brazier."
+    },
+    {
+     "hour": 21,
+     "text": "A rider from Madinat al-Zahra at the door: a fever in the palace. The doctor takes his bag of instruments and his mule."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "maimonides-house",
+   "name": "Birthplace of Maimonides",
+   "kind": "house",
+   "position": [
+    1880,
+    1775
+   ],
+   "activePeriods": [
+    "caliphal-950"
+   ],
+   "summary": "Moses ben Maimon was born in Córdoba in 1138, the son of a judge of the Jewish community, late in this era's range; tradition places his home near the Almodóvar gate.",
+   "details": [
+    "Maimonides grew up under the Almoravids; when the Almohads took Córdoba in 1148 and forbade Judaism and Christianity, his family left, wandering through al-Andalus and Fez before settling in Egypt. There he wrote the Mishneh Torah and the Guide for the Perplexed. The exact house is unknown."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-maimonides",
+    "menocal-ornament"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A boy reads aloud from the Torah with his father, the dayyan Maimon, by a window over the patio. Arabic voices from the lane."
+    },
+    {
+     "hour": 13,
+     "text": "Lessons in astronomy and Arabic grammar; the father shows how to compute the new moon for the calendar."
+    },
+    {
+     "hour": 20,
+     "text": "Neighbours talk in low voices about the Almohads in Morocco and what will happen if they cross the strait."
+    }
+   ],
+   "variants": {
+    "castilian-1300": {
+     "note": "Remembered rather than marked; the Jewish quarter of the 14th century, with its new synagogue, lies around here."
+    },
+    "habsburg-1600": {
+     "note": "No Jews have lived in Córdoba since the expulsion of 1492; Maimonides' fame lives on among scholars in Latin."
+    }
+   }
+  },
+  {
+   "id": "averroes-court",
+   "name": "Court of the qadi Averroes",
+   "kind": "civic",
+   "position": [
+    2021,
+    1808
+   ],
+   "activePeriods": [
+    "caliphal-950"
+   ],
+   "summary": "Ibn Rushd (Averroes, 1126–1198), philosopher and physician, sat as qadi (judge) of Córdoba from about 1171 and chief qadi from 1182, near the Great Mosque, late in this era's range.",
+   "details": [
+    "Born into a family of Córdoban judges, Averroes wrote commentaries on Aristotle that made him 'the Commentator' to Latin scholars. He served the Almohad caliphs as judge and physician, fell from favour in 1195, was briefly exiled and died in Marrakesh. The court's location by the mosque is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-averroes",
+    "kennedy-muslim-spain"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Litigants wait in the shade: a dispute over a water channel, an inheritance, a broken contract for olive oil. The qadi listens and asks for witnesses."
+    },
+    {
+     "hour": 13,
+     "text": "Between cases, the judge dictates a passage on Aristotle's Physics to a scribe, then turns back to a widow's claim."
+    },
+    {
+     "hour": 19,
+     "text": "Lamps in the qadi's house. He writes on medicine late into the night; tomorrow the caliph's envoy expects his report."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "potters",
+   "name": "Potters' kilns (Ollerías)",
+   "kind": "works",
+   "position": [
+    2653,
+    311
+   ],
+   "activePeriods": [
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "summary": "Potters' workshops and kilns outside the north-east of the city, where caliphal Córdoba made its glazed tableware, green and brown on white, and later Castilian potters worked on.",
+   "details": [
+    "Excavations in the suburbs have found kilns and wasters of 'verde y manganeso' ware, painted in copper green and manganese purple on a white tin glaze, made for the caliphal court and the city. The street of the Ollerías ('potteries') north of the Axerquía keeps the name of later potters."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-lustreware",
+    "acien-vallejo",
+    "escobar-camacho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke from the kiln that fired all night. A potter opens it carefully; bowls with green and purple birds come out still warm."
+    },
+    {
+     "hour": 13,
+     "text": "Clay trodden in a pit, wheels spinning under the awning. A girl paints the word al-mulk, 'sovereignty', round a dish rim in manganese."
+    },
+    {
+     "hour": 19,
+     "text": "Waste sherds thrown on the heap by the road. A buyer from the palace kitchens haggles over a hundred plates."
+    }
+   ],
+   "variants": {
+    "castilian-1300": {
+     "note": "Mudéjar and Christian potters make plain glazed wares and roof tiles here."
+    },
+    "habsburg-1600": {
+     "name": "Ollerías",
+     "note": "Tile-makers and potters of the street of the Ollerías, outside the Puerta del Colodro."
+    }
+   }
+  },
+  {
+   "id": "leather-workshop",
+   "name": "Leather workers: cordobán and guadamecí",
+   "kind": "workshop",
+   "position": [
+    2636,
+    1686
+   ],
+   "activePeriods": [
+    "caliphal-950",
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "summary": "Tanneries and workshops by the river turning goatskins into cordobán, the soft leather that gave 'cordwainer' its name, and into guadamecí, embossed, painted and gilded wall hangings.",
+   "details": [
+    "Córdoba's goat leather was famous from the caliphate onward; English 'cordwainer' and French 'cordonnier' come from it. Guadamecí, named after Ghadames in Libya, was tooled and coloured with silver and gold leaf; the guild of guadamecileros flourished in the 15th and 16th centuries."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-cordovan-leather",
+    "wiki-guadamecil",
+    "escobar-camacho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The stink of the lime pits by the river. Apprentices scrape hair from soaking goatskins and stretch them on frames to dry."
+    },
+    {
+     "hour": 13,
+     "text": "In the workshop a master presses a hot iron into a damp hide; a pattern of vines and birds appears. Silver leaf waits in a box."
+    },
+    {
+     "hour": 20,
+     "text": "A finished panel, gilded and painted red and green, is rolled for a merchant from Genoa. The tanners wash at the river."
+    }
+   ],
+   "variants": {
+    "caliphal-950": {
+     "name": "Tanners of al-Sharqiyya",
+     "note": "Tanners and leather-workers of the eastern suburbs; cordobán leather is already exported across the Mediterranean."
+    },
+    "habsburg-1600": {
+     "note": "The guadamecí trade is at its height and beginning to decline; panels go to churches and palaces across Spain and the Indies."
+    }
+   }
+  },
+  {
+   "id": "santa-clara",
+   "name": "Convent of Santa Clara",
+   "kind": "church",
+   "position": [
+    2100,
+    1709
+   ],
+   "activePeriods": [
+    "castilian-1300",
+    "habsburg-1600"
+   ],
+   "summary": "A convent of Poor Clare nuns set up in the 13th century in a former mosque, whose prayer hall and minaret were kept inside the convent church.",
+   "details": [
+    "After the conquest many mosques became churches or convents. Santa Clara, founded in the 1260s by tradition, occupied a 10th-century mosque; its minaret survives as the convent's tower and parts of the prayer hall have been found in the church. The nuns lived enclosed, their convent walls blank to the street."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-santa-clara",
+    "escobar-camacho"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A bell in the old minaret rings for lauds. Behind the grille the nuns sing; the street outside is still dark."
+    },
+    {
+     "hour": 12,
+     "text": "At the turn (torno) a woman leaves a basket of eggs for the nuns and takes away a tray of sweets they have baked."
+    },
+    {
+     "hour": 19,
+     "text": "Compline. The door is locked; a servant carries the keys to the abbess, as every night for three hundred years."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "posada-del-potro",
+   "name": "Posada del Potro",
+   "kind": "inn",
+   "position": [
+    2553,
+    1670
+   ],
+   "activePeriods": [
+    "habsburg-1600"
+   ],
+   "summary": "The inn on the Plaza del Potro, a square of horse dealers, rogues and travellers; Cervantes, who knew Córdoba, names the Potro in Don Quixote among the haunts of thieves.",
+   "details": [
+    "The Potro took its name from the colt on its fountain (1577) and its trade in horses. The inn, recorded from the 15th century, is a typical corral inn: rooms on two storeys round a cobbled yard where carts and animals stood. In Don Quixote the innkeeper boasts of his youth in the Potro of Córdoba."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-posada-potro",
+    "wiki-plaza-potro",
+    "cervantes-quixote"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mule drivers harness their teams in the yard. A traveller pays for straw and a bed he shared with fleas, and asks the way to Seville."
+    },
+    {
+     "hour": 13,
+     "text": "In the square a gypsy horse dealer trots a grey up and down. A constable watches two young men who have no visible trade."
+    },
+    {
+     "hour": 22,
+     "text": "Wine and a guitar in the yard. The innkeeper tells, again, how he learned the world in the Potro of Córdoba."
+    }
+   ],
+   "variants": {
+    "castilian-1300": {
+     "name": "The Potro square",
+     "note": "A riverside square of the Axerquía; inns here are recorded only from the 15th century."
+    }
+   }
+  },
+  {
+   "id": "caballerizas",
+   "name": "Royal Stables (Caballerizas Reales)",
+   "kind": "works",
+   "position": [
+    1828,
+    2019
+   ],
+   "activePeriods": [
+    "habsburg-1600"
+   ],
+   "summary": "The royal stud founded by Philip II in 1570 beside the Alcázar to breed the ideal Spanish horse, the ancestor of the Andalusian (Pura Raza Española).",
+   "details": [
+    "Philip II ordered the stables built in 1570 on land of the Alcázar and charged his master of horse with selecting mares and stallions from the Guadalquivir valley. The long vaulted stable hall still stands. Horses bred here went to the king's stables and the courts of Europe."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-royal-stables",
+    "wiki-andalusian-horse"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Grooms lead the stallions out to water at the river. Steam rises from their backs in the cool morning."
+    },
+    {
+     "hour": 12,
+     "text": "The king's master of horse inspects a two-year-old: high step, arched neck, grey coat. He makes a note for Madrid."
+    },
+    {
+     "hour": 19,
+     "text": "Hay forked down from the loft; a farrier's hammer rings late. Riders practise the jineta style in the yard."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-corduba",
+   "title": "Marcellus founds Corduba",
+   "periodId": "roman-150",
+   "date": "c. 169–152 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "roman-forum"
+   },
+   "effect": "construction",
+   "text": "The Roman general Marcus Claudius Marcellus settled Romans and chosen natives at Corduba, beside an older Iberian town on the river, in the 160s or 150s BCE; the exact year is disputed. Strabo calls it the first colony the Romans sent to these parts. Augustus refounded it as Colonia Patricia and made it the capital of Baetica.",
+   "sourceIds": [
+    "wiki-marcellus",
+    "ventura-corduba"
+   ]
+  },
+  {
+   "id": "caesar-45bce",
+   "title": "Caesar takes Corduba",
+   "periodId": "roman-150",
+   "date": "45 BCE",
+   "kind": "riot",
+   "at": {
+    "position": [
+     2021,
+     1265
+    ]
+   },
+   "effect": "fire",
+   "text": "Corduba sided with Pompey's sons in the civil war. After his victory at Munda in March 45 BCE, Caesar stormed the town; the Bellum Hispaniense says 22,000 people were killed. The city recovered under Augustus, rebuilt with marble temples and a theatre.",
+   "sourceIds": [
+    "wiki-munda",
+    "bellum-hispaniense"
+   ]
+  },
+  {
+   "id": "seneca-born",
+   "title": "Seneca is born in Corduba",
+   "periodId": "roman-150",
+   "date": "c. 4 BCE – 1 CE",
+   "kind": "daily",
+   "at": {
+    "position": [
+     2003,
+     1387
+    ]
+   },
+   "effect": "none",
+   "text": "Lucius Annaeus Seneca, Stoic philosopher, tutor and minister of Nero, was born in Corduba into a wealthy equestrian family; his father Seneca the Elder was a writer on rhetoric and his nephew the poet Lucan was also born here. The family moved to Rome while he was a child. Where they lived is not known.",
+   "sourceIds": [
+    "wiki-seneca"
+   ]
+  },
+  {
+   "id": "conquest-711",
+   "title": "Mughith takes Córdoba",
+   "periodId": "abd-al-rahman-800",
+   "date": "October 711",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "puerta-del-puente"
+   },
+   "effect": "crowd",
+   "text": "After Tariq's victory over King Roderic, a detachment under Mughith al-Rumi rode on Córdoba. By the chroniclers' story a shepherd showed them a breach in the wall near the Bridge Gate on a night of rain and hail; the governor and his men held out in the church of St Acisclus for three months before they were taken.",
+   "sourceIds": [
+    "wiki-conquest-711",
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "abd-al-rahman-756",
+   "title": "Abd al-Rahman I becomes emir",
+   "periodId": "abd-al-rahman-800",
+   "date": "May 756",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "umayyad-alcazar"
+   },
+   "effect": "procession",
+   "text": "The last prince of the Umayyad family, escaped from the Abbasid massacre of 750 and five years of flight through North Africa, landed in al-Andalus in 755, defeated the governor Yusuf outside Córdoba and was proclaimed emir. He made the old governors' palace his own and planted a palm brought from Syria.",
+   "sourceIds": [
+    "wiki-abd-al-rahman-i",
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "mosque-begun-786",
+   "title": "The Great Mosque is begun",
+   "periodId": "abd-al-rahman-800",
+   "date": "785–786",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mezquita"
+   },
+   "effect": "construction",
+   "text": "Abd al-Rahman I bought (by tradition) the church of St Vincent, which Muslims and Christians had shared, and built a mosque in about a year: eleven aisles of reused columns under double arches of red brick and white stone. His son Hisham I added the first minaret.",
+   "sourceIds": [
+    "wiki-mezquita",
+    "nieto-mezquita"
+   ]
+  },
+  {
+   "id": "revolt-arrabal-818",
+   "title": "The Revolt of the Suburb",
+   "periodId": "abd-al-rahman-800",
+   "date": "March 818",
+   "kind": "riot",
+   "at": {
+    "spotId": "shaqunda-suq"
+   },
+   "effect": "fire",
+   "text": "The people of Shaqunda, led by religious scholars and angered by taxes and the emir's foreign guard, marched on the Alcázar. Al-Hakam I's cavalry broke them; the suburb was burned, its leaders crucified and thousands of families exiled to Fez and Alexandria. The site was left empty for good.",
+   "sourceIds": [
+    "wiki-revuelta-arrabal",
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "caliphate-929",
+   "title": "Abd al-Rahman III takes the title of caliph",
+   "periodId": "caliphal-950",
+   "date": "January 929",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mezquita"
+   },
+   "effect": "crowd",
+   "text": "Answering the Fatimids, who had proclaimed a caliphate in North Africa, the emir ordered that he be named Commander of the Faithful in the Friday sermon throughout al-Andalus. Córdoba became the capital of a caliphate, minting gold dinars and receiving embassies from Byzantium and the German emperor.",
+   "sourceIds": [
+    "wiki-abd-al-rahman-iii",
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "madinat-al-zahra-936",
+   "title": "Madinat al-Zahra is begun",
+   "periodId": "caliphal-950",
+   "date": "936 or 940",
+   "kind": "construction",
+   "at": {
+    "position": [
+     88,
+     1109
+    ]
+   },
+   "effect": "construction",
+   "text": "Seven kilometres west, on the foot of the sierra, the caliph began a palace city named for al-Zahra, 'the radiant'; the court moved there in the 940s. Chroniclers counted thousands of columns and workmen; the road west past the suburbs carried stone, officials and envoys every day. It was sacked in the Fitna after 1010.",
+   "sourceIds": [
+    "wiki-madinat-al-zahra",
+    "acien-vallejo"
+   ]
+  },
+  {
+   "id": "mihrab-mosaics",
+   "title": "Mosaics for al-Hakam's mihrab",
+   "periodId": "caliphal-950",
+   "date": "961–971",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mezquita"
+   },
+   "effect": "construction",
+   "text": "Al-Hakam II extended the mosque south by twelve bays and built a new mihrab and maqsura under ribbed domes. He asked the Byzantine emperor for a mosaicist; one came with tesserae of glass and gold and trained local craftsmen, who covered the mihrab's front with gold-ground inscriptions and vines.",
+   "sourceIds": [
+    "wiki-al-hakam-ii",
+    "wiki-mezquita",
+    "nieto-mezquita"
+   ]
+  },
+  {
+   "id": "fitna-sack-1013",
+   "title": "Berber troops sack Córdoba",
+   "periodId": "caliphal-950",
+   "date": "1009–1013",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "umayyad-alcazar"
+   },
+   "effect": "fire",
+   "text": "In 1009 a coup against Almanzor's son began the Fitna, a civil war of rival caliphs. Berber troops besieged the city, sacked Madinat al-Zahra and in May 1013 stormed Córdoba itself; the western suburbs were looted and abandoned. Ibn Hazm mourned his family's ruined house. The caliphate was abolished in 1031.",
+   "sourceIds": [
+    "wiki-fitna",
+    "ibn-hazm",
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "conquest-1236",
+   "title": "Ferdinand III takes Córdoba",
+   "periodId": "castilian-1300",
+   "date": "29 June 1236",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mezquita"
+   },
+   "effect": "procession",
+   "text": "After a siege that began with a surprise attack on the Axerquía in January, the city surrendered and its Muslims left. On the feast of Saints Peter and Paul a cross was raised on the minaret and the mosque was consecrated as the cathedral; by tradition the bells Almanzor had taken from Santiago were carried back by Muslim captives.",
+   "sourceIds": [
+    "wiki-siege-1236",
+    "nieto-mezquita"
+   ]
+  },
+  {
+   "id": "synagogue-1315",
+   "title": "Isaac Moheb's synagogue",
+   "periodId": "castilian-1300",
+   "date": "1315",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "synagogue"
+   },
+   "effect": "construction",
+   "text": "A Hebrew inscription records that Isaac Moheb, son of Ephraim, built the synagogue in the year 5075 (1315), 'a lesser sanctuary'. Its plaster decoration was carved by Mudéjar craftsmen. Seventy-six years later, in 1391, mobs attacked the Judería of Córdoba as of Seville.",
+   "sourceIds": [
+    "wiki-synagogue",
+    "escobar-camacho"
+   ]
+  },
+  {
+   "id": "cathedral-nave-1523",
+   "title": "A cathedral inside the mosque",
+   "periodId": "habsburg-1600",
+   "date": "1523; 1526",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mezquita"
+   },
+   "effect": "construction",
+   "text": "Bishop Alonso Manrique began a Renaissance crossing and choir in the middle of the mosque in 1523, over the city council's protests; Hernán Ruiz I and his successors built it until 1607. Charles V, who had allowed it, is reported to have said on seeing it in 1526 that they had destroyed something unique to build something ordinary.",
+   "sourceIds": [
+    "wiki-mezquita",
+    "nieto-mezquita"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "caliphal-day",
+   "title": "A day in the caliph's city",
+   "periodId": "caliphal-950",
+   "summary": "Cross the river into Qurtuba at its height around 960: from the Bridge Gate to the Great Mosque, the booksellers and the caliph's library, then back to the river where the great wheel turns.",
+   "steps": [
+    {
+     "landmarkId": "roman-bridge",
+     "title": "Over the bridge",
+     "text": "Come in from the south over the old bridge. Mule trains with oil and grain, a troop of horsemen from the frontier, a Christian envoy with his escort: everyone uses the one crossing."
+    },
+    {
+     "landmarkId": "puerta-del-puente",
+     "title": "Bab al-Qantara",
+     "text": "The Bridge Gate opens on al-Rasif, the esplanade along the river. To the left the Alcázar's walls; to the right the mosque's long flank with its buttresses."
+    },
+    {
+     "landmarkId": "mezquita",
+     "title": "The forest of columns",
+     "when": "c. 960",
+     "text": "Wash at a fountain in the court, among the trees, and step into the hall: aisle after aisle of red and white arches on hundreds of columns. At the far end, workmen are cutting through the qibla wall for al-Hakam's extension."
+    },
+    {
+     "spotId": "booksellers",
+     "title": "The booksellers' lane",
+     "text": "Out of the east doors into the book market. Paper, parchment, copies of everything; an auction draws a crowd of scholars and showy collectors."
+    },
+    {
+     "spotId": "hakam-library",
+     "title": "The caliph's books",
+     "text": "In the Alcázar, copyists and binders work for the caliph's library, which later writers swore held 400,000 volumes. The prince al-Hakam reads in it when the court is not at Madinat al-Zahra."
+    },
+    {
+     "landmarkId": "caliphal-baths",
+     "title": "The palace baths",
+     "text": "Beside the palace, the baths: a warm room, then the hot room under its star-pierced vault. Courtiers trade news of the palace city out west."
+    },
+    {
+     "landmarkId": "albolafia",
+     "title": "The great wheel",
+     "text": "End at the river: the Albolafia's wheel scoops up water and pours it into the aqueduct for the palace gardens, creaking all day and all night."
+    }
+   ],
+   "sourceIds": [
+    "maqqari",
+    "ibn-hayyan",
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "cervantes-cordoba",
+   "title": "Rogues and masons: Córdoba around 1600",
+   "periodId": "habsburg-1600",
+   "summary": "Walk Córdoba in Cervantes' lifetime, from the horse dealers of the Potro to the cathedral being vaulted inside the mosque and the Inquisition's castle by the river.",
+   "steps": [
+    {
+     "spotId": "posada-del-potro",
+     "title": "The Potro",
+     "text": "Start in the square of the colt fountain, among horse dealers, carters and idlers. Cervantes put a Córdoba rogue's apprenticeship in the Potro into Don Quixote."
+    },
+    {
+     "spotId": "leather-workshop",
+     "title": "Gilded leather",
+     "text": "Down by the river the guadamecileros press, paint and gild leather hangings for churches and palaces, and send them as far as Peru."
+    },
+    {
+     "landmarkId": "san-pablo",
+     "title": "San Pablo",
+     "text": "Up in the Axerquía, the Dominicans' great church, where the noble families have their chapels and tombs."
+    },
+    {
+     "landmarkId": "mezquita",
+     "title": "A choir among the arches",
+     "when": "c. 1600",
+     "text": "Inside the old mosque the new cathedral rises through the roof: masons are still vaulting it, and Hernán Ruiz III's bell tower is climbing around the minaret."
+    },
+    {
+     "spotId": "caballerizas",
+     "title": "The king's horses",
+     "text": "Beside the Alcázar, Philip II's stables breed the perfect Spanish horse; grooms lead greys down to the river to drink."
+    },
+    {
+     "landmarkId": "alcazar-reyes",
+     "title": "The Inquisition's castle",
+     "text": "The Catholic Monarchs' old fortress is now the seat of the Holy Office, its towers used as cells. People lower their voices as they pass."
+    },
+    {
+     "landmarkId": "puerta-del-puente",
+     "title": "The new gate",
+     "text": "Leave by the Puerta del Puente, rebuilt as a classical arch after Philip II's visit, and look back from the bridge at the cathedral roof rising out of the mosque."
+    }
+   ],
+   "sourceIds": [
+    "cervantes-quixote",
+    "nieto-mezquita",
+    "escobar-camacho"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-history-cordoba",
+   "title": "History of Córdoba, Spain",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba,_Spain#History"
+  },
+  {
+   "id": "wiki-corduba",
+   "title": "Corduba",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Corduba"
+  },
+  {
+   "id": "wiki-caliphate-cordoba",
+   "title": "Umayyad state of Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Umayyad_state_of_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-guadalquivir",
+   "title": "Guadalquivir",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Guadalquivir"
+  },
+  {
+   "id": "wiki-axerquia",
+   "title": "Axerquía",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Axerqu%C3%ADa"
+  },
+  {
+   "id": "wiki-medina-azahara",
+   "title": "Madinat al-Zahra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Madinat_al-Zahra"
+  },
+  {
+   "id": "kennedy-muslim-spain",
+   "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+   "author": "Hugh Kennedy",
+   "year": 1996
+  },
+  {
+   "id": "menocal-ornament",
+   "title": "The Ornament of the World: How Muslims, Jews and Christians Created a Culture of Tolerance in Medieval Spain",
+   "author": "María Rosa Menocal",
+   "year": 2002
+  },
+  {
+   "id": "levi-provencal",
+   "title": "Histoire de l'Espagne musulmane (3 vols)",
+   "author": "Évariste Lévi-Provençal",
+   "year": "1950–1953"
+  },
+  {
+   "id": "acien-vallejo",
+   "title": "Urbanismo y estado islámico: de Corduba a Qurtuba-Madinat al-Zahra",
+   "author": "Manuel Acién Almansa and Antonio Vallejo Triano",
+   "year": 1998
+  },
+  {
+   "id": "escobar-camacho",
+   "title": "Córdoba en la Baja Edad Media: evolución urbana de la ciudad",
+   "author": "José Manuel Escobar Camacho",
+   "year": 1989
+  },
+  {
+   "id": "ventura-corduba",
+   "title": "Colonia Patricia Corduba: una reflexión arqueológica",
+   "author": "Pilar León (ed.); Ángel Ventura and others",
+   "year": 1996
+  },
+  {
+   "id": "osm",
+   "title": "OpenStreetMap",
+   "author": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "id": "wiki-mezquita",
+   "title": "Mosque–Cathedral of Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-roman-bridge",
+   "title": "Roman bridge of Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roman_bridge_of_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-puerta-del-puente",
+   "title": "Puerta del Puente",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Puerta_del_Puente"
+  },
+  {
+   "id": "wiki-calahorra",
+   "title": "Calahorra Tower",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Calahorra_Tower"
+  },
+  {
+   "id": "wiki-albolafia",
+   "title": "Albolafia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Albolafia"
+  },
+  {
+   "id": "wiki-alcazar-andalusi",
+   "title": "Alcázar andalusí de Córdoba",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Alc%C3%A1zar_andalus%C3%AD_de_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-alcazar-reyes",
+   "title": "Alcázar de los Reyes Cristianos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_los_Reyes_Cristianos"
+  },
+  {
+   "id": "wiki-caliphal-baths",
+   "title": "Caliphal Baths",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caliphal_Baths"
+  },
+  {
+   "id": "wiki-roman-temple",
+   "title": "Roman temple of Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roman_temple_of_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-roman-theatre",
+   "title": "Teatro romano de Córdoba",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Teatro_romano_de_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-colonial-forum",
+   "title": "Foro colonial de Córdoba",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Foro_colonial_de_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-roman-mausoleum",
+   "title": "Mausoleo romano (Córdoba)",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Mausoleo_romano_(C%C3%B3rdoba)"
+  },
+  {
+   "id": "wiki-almodovar-gate",
+   "title": "Gate of Almodóvar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gate_of_Almod%C3%B3var"
+  },
+  {
+   "id": "wiki-puerta-sevilla",
+   "title": "Puerta de Sevilla (Córdoba)",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Puerta_de_Sevilla_(C%C3%B3rdoba)"
+  },
+  {
+   "id": "wiki-malmuerta",
+   "title": "Torre de la Malmuerta",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Torre_de_la_Malmuerta"
+  },
+  {
+   "id": "wiki-synagogue",
+   "title": "Córdoba Synagogue",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba_Synagogue"
+  },
+  {
+   "id": "wiki-san-pablo",
+   "title": "San Pablo, Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/San_Pablo,_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-san-lorenzo",
+   "title": "San Lorenzo, Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/San_Lorenzo,_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-alminar-san-juan",
+   "title": "Alminar de San Juan (Córdoba)",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Alminar_de_San_Juan_(C%C3%B3rdoba)"
+  },
+  {
+   "id": "nieto-mezquita",
+   "title": "La catedral de Córdoba",
+   "author": "Manuel Nieto Cumplido",
+   "year": 1998
+  },
+  {
+   "id": "ewert-mezquita",
+   "title": "Die Moschee von Córdoba (in Madrider Mitteilungen)",
+   "author": "Christian Ewert",
+   "year": "1960s–1990s"
+  },
+  {
+   "id": "dodds-al-andalus",
+   "title": "Al-Andalus: The Art of Islamic Spain",
+   "author": "Jerrilynn D. Dodds (ed.)",
+   "year": 1992,
+   "note": "Metropolitan Museum of Art exhibition catalogue"
+  },
+  {
+   "id": "ecker-caliphs",
+   "title": "Caliphs and Kings: The Art and Influence of Islamic Spain",
+   "author": "Heather Ecker",
+   "year": 2004
+  },
+  {
+   "id": "torres-balbas",
+   "title": "Arte hispanomusulmán hasta la caída del califato de Córdoba (Historia de España, ed. Menéndez Pidal, vol. V)",
+   "author": "Leopoldo Torres Balbás",
+   "year": 1957
+  },
+  {
+   "id": "maqqari",
+   "title": "Nafh al-tib (trans. Pascual de Gayangos as The History of the Mohammedan Dynasties in Spain)",
+   "author": "Ahmad al-Maqqari",
+   "year": "c. 1630; trans. 1840–1843",
+   "url": "https://en.wikipedia.org/wiki/Ahmad_al-Maqqari"
+  },
+  {
+   "id": "ibn-hayyan",
+   "title": "al-Muqtabis (chronicle of the Umayyads of Córdoba)",
+   "author": "Ibn Hayyan",
+   "year": "11th century",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Hayyan"
+  },
+  {
+   "id": "ibn-hazm",
+   "title": "Tawq al-hamama (The Ring of the Dove)",
+   "author": "Ibn Hazm",
+   "year": "c. 1022",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Hazm"
+  },
+  {
+   "id": "bellum-hispaniense",
+   "title": "Bellum Hispaniense (The Spanish War)",
+   "author": "anonymous, in the Caesarian corpus",
+   "year": "c. 40s BCE"
+  },
+  {
+   "id": "cervantes-quixote",
+   "title": "Don Quixote, Part I",
+   "author": "Miguel de Cervantes",
+   "year": 1605,
+   "url": "https://en.wikipedia.org/wiki/Don_Quixote"
+  },
+  {
+   "id": "wiki-seneca",
+   "title": "Seneca the Younger",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+  },
+  {
+   "id": "wiki-marcellus",
+   "title": "Marcus Claudius Marcellus (consul 166 BC)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Marcus_Claudius_Marcellus_(consul_166_BC)"
+  },
+  {
+   "id": "wiki-munda",
+   "title": "Battle of Munda",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Munda"
+  },
+  {
+   "id": "wiki-conquest-711",
+   "title": "Muslim conquest of the Iberian Peninsula",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula"
+  },
+  {
+   "id": "wiki-abd-al-rahman-i",
+   "title": "Abd al-Rahman I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abd_al-Rahman_I"
+  },
+  {
+   "id": "wiki-abd-al-rahman-iii",
+   "title": "Abd al-Rahman III",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abd_al-Rahman_III"
+  },
+  {
+   "id": "wiki-al-hakam-ii",
+   "title": "Al-Hakam II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Hakam_II"
+  },
+  {
+   "id": "wiki-revuelta-arrabal",
+   "title": "Revuelta del Arrabal",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Revuelta_del_Arrabal"
+  },
+  {
+   "id": "wiki-madinat-al-zahra",
+   "title": "Madinat al-Zahra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Madinat_al-Zahra"
+  },
+  {
+   "id": "wiki-fitna",
+   "title": "Fitna of al-Andalus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fitna_of_al-Andalus"
+  },
+  {
+   "id": "wiki-siege-1236",
+   "title": "Siege of Córdoba (1236)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_C%C3%B3rdoba_(1236)"
+  },
+  {
+   "id": "wiki-al-zahrawi",
+   "title": "Al-Zahrawi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Zahrawi"
+  },
+  {
+   "id": "wiki-maimonides",
+   "title": "Maimonides",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maimonides"
+  },
+  {
+   "id": "wiki-averroes",
+   "title": "Averroes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Averroes"
+  },
+  {
+   "id": "wiki-cordovan-leather",
+   "title": "Cordovan leather",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cordovan_leather"
+  },
+  {
+   "id": "wiki-guadamecil",
+   "title": "Guadamecil",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Guadamecil"
+  },
+  {
+   "id": "wiki-tiraz",
+   "title": "Tiraz",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tiraz"
+  },
+  {
+   "id": "wiki-hammam",
+   "title": "Hammam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hammam"
+  },
+  {
+   "id": "wiki-lustreware",
+   "title": "Lustreware",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lustreware"
+  },
+  {
+   "id": "wiki-water-wheel",
+   "title": "Water wheel",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Water_wheel"
+  },
+  {
+   "id": "wiki-santa-clara",
+   "title": "Convento de Santa Clara (Córdoba)",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Convento_de_Santa_Clara_(C%C3%B3rdoba)"
+  },
+  {
+   "id": "wiki-posada-potro",
+   "title": "Posada del Potro (Córdoba)",
+   "author": "Wikipedia (es)",
+   "url": "https://es.wikipedia.org/wiki/Posada_del_Potro_(C%C3%B3rdoba)"
+  },
+  {
+   "id": "wiki-plaza-potro",
+   "title": "Plaza del Potro",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Plaza_del_Potro"
+  },
+  {
+   "id": "wiki-royal-stables",
+   "title": "Royal Stables of Córdoba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Royal_Stables_of_C%C3%B3rdoba"
+  },
+  {
+   "id": "wiki-andalusian-horse",
+   "title": "Andalusian horse",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andalusian_horse"
+  }
+ ]
+}
