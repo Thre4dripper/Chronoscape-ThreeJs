@@ -1385,6 +1385,240 @@
   "size": 198.22,
   "w": 190.6
  },
+ "cordoba/albolafia": {
+  "cx": 0.0,
+  "cy": -0.78,
+  "d": 18.45,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "cordoba/albolafia-1600": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "d": 18.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "cordoba/alcazar-reyes": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "cordoba/calahorra": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 30.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 35.36,
+  "w": 34.0
+ },
+ "cordoba/caliphal-baths": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 26.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 37.44,
+  "w": 36.0
+ },
+ "cordoba/malmuerta": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 34.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 35.36,
+  "w": 18.0
+ },
+ "cordoba/mezquita": {
+  "cx": -0.8,
+  "cy": -0.8,
+  "d": 179.6,
+  "ext": "webp",
+  "px": 560,
+  "size": 186.78,
+  "w": 131.6
+ },
+ "cordoba/mezquita-1300": {
+  "cx": 0.0,
+  "cy": -0.1,
+  "d": 181.0,
+  "ext": "webp",
+  "px": 565,
+  "size": 188.24,
+  "w": 133.2
+ },
+ "cordoba/mezquita-1600": {
+  "cx": 0.0,
+  "cy": -0.4,
+  "d": 181.6,
+  "ext": "webp",
+  "px": 567,
+  "size": 188.86,
+  "w": 133.2
+ },
+ "cordoba/mezquita-786": {
+  "cx": -0.8,
+  "cy": -0.0,
+  "d": 178.0,
+  "ext": "webp",
+  "px": 555,
+  "size": 185.12,
+  "w": 131.6
+ },
+ "cordoba/minaret-san-juan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 6.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.24,
+  "w": 6.0
+ },
+ "cordoba/puerta-almodovar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 20.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "cordoba/puerta-del-puente": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "cordoba/puerta-del-puente-1600": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "cordoba/puerta-del-puente-roman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "cordoba/puerta-sevilla": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 16.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 37.44,
+  "w": 36.0
+ },
+ "cordoba/roman-bridge": {
+  "cx": 0.5,
+  "cy": -0.0,
+  "d": 262.0,
+  "ext": "webp",
+  "px": 817,
+  "size": 272.48,
+  "w": 16.0
+ },
+ "cordoba/roman-forum": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "d": 100.15,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.16,
+  "w": 90.0
+ },
+ "cordoba/roman-mausoleum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 16.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 16.64,
+  "w": 16.0
+ },
+ "cordoba/roman-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 200,
+  "size": 66.56,
+  "w": 36.3
+ },
+ "cordoba/roman-theatre": {
+  "cx": 0.0,
+  "cy": 0.48,
+  "d": 73.35,
+  "ext": "webp",
+  "px": 387,
+  "size": 128.96,
+  "w": 124.0
+ },
+ "cordoba/san-lorenzo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 26.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 45.76,
+  "w": 44.0
+ },
+ "cordoba/san-lorenzo-1600": {
+  "cx": 0.0,
+  "cy": -0.03,
+  "d": 26.05,
+  "ext": "webp",
+  "px": 192,
+  "size": 45.76,
+  "w": 44.0
+ },
+ "cordoba/san-pablo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 34.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "cordoba/synagogue": {
+  "cx": 0.0,
+  "cy": -0.07,
+  "d": 26.15,
+  "ext": "webp",
+  "px": 192,
+  "size": 27.2,
+  "w": 20.3
+ },
+ "cordoba/umayyad-alcazar": {
+  "cx": 0.0,
+  "cy": 0.0,
+  "d": 142.4,
+  "ext": "webp",
+  "px": 507,
+  "size": 168.9,
+  "w": 162.4
+ },
  "cusco/amarukancha": {
   "cx": 0.0,
   "cy": 0.02,
