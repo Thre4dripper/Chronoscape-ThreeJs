@@ -1,0 +1,385 @@
+{
+ "mezquita": [
+  {
+   "src": "media/cordoba/mezquita/1.jpg",
+   "thumb": "media/cordoba/mezquita/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Bóveda construida en tiempos de al-Ḥakam II (ca 960). Constituye el modelo de bóveda de arcos entrecuzados. Pronto la veremos en la maqṣūra de esta mezquita y en la mezquita de Bāb al-Mārdûm.",
+   "artist": "José Luis Filpo Cabana",
+   "date": "",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:B%C3%B3veda_de_la_Capilla_de_Villaviciosa_(Mezquita-Catedral_de_C%C3%B3rdoba).jpg"
+  },
+  {
+   "src": "media/cordoba/mezquita/2.jpg",
+   "thumb": "media/cordoba/mezquita/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "Model of the reconstructed minaret of Abd ar-Rahman III for the Great Mosque of Cordoba (Mezquita), at the Archeological Museum of Cordoba",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cordoba_minaret_model_DSCF7268.jpg"
+  },
+  {
+   "src": "media/cordoba/mezquita/3.jpg",
+   "thumb": "media/cordoba/mezquita/t3.jpg",
+   "w": 800,
+   "h": 563,
+   "kind": "reconstruction",
+   "caption": "Reconstructed mosque ceiling in the southwestern section of the mezquita.",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mezquita_restored_ceiling_DSCF5369.jpg"
+  },
+  {
+   "src": "media/cordoba/mezquita/4.jpg",
+   "thumb": "media/cordoba/mezquita/t4.jpg",
+   "w": 800,
+   "h": 616,
+   "kind": "artwork",
+   "caption": "Note: For documentary purposes the original description has been retained. Factual corrections and alternative descriptions are encouraged separately from the original description.Bild från Johanna Kempes f.",
+   "artist": "Unknown authorUnknown author",
+   "date": "1895",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Bild_fr%C3%A5n_Johanna_Kempes_f._Wallis_resa_genom_Spanien,_Portugal_och_Marocko_18_Mars_-_5_Juni_1895_-_Hallwylska_museet_-_103285.tif"
+  },
+  {
+   "src": "media/cordoba/mezquita/5.jpg",
+   "thumb": "media/cordoba/mezquita/t5.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "photograph",
+   "caption": "The Mezquita of Córdoba seen from the air (Córdoba, Spain)",
+   "artist": "Toni Castillo Quero",
+   "date": "2010",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mezquita_de_C%C3%B3rdoba_desde_el_aire_(C%C3%B3rdoba,_Espa%C3%B1a).jpg"
+  }
+ ],
+ "roman-bridge": [
+  {
+   "src": "media/cordoba/roman-bridge/1.jpg",
+   "thumb": "media/cordoba/roman-bridge/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Rafesmar, 2015.",
+   "artist": "Rafesmar",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Puente_Romano_Cordoba.jpg"
+  }
+ ],
+ "puerta-del-puente": [
+  {
+   "src": "media/cordoba/puerta-del-puente/1.jpg",
+   "thumb": "media/cordoba/puerta-del-puente/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "The Bridge Gateway, Córdoba, Spain.",
+   "artist": "Américo Toledano",
+   "date": "2011",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Puerta_del_Puente,_C%C3%B3rdoba_(Espa%C3%B1a).JPG"
+  }
+ ],
+ "calahorra": [
+  {
+   "src": "media/cordoba/calahorra/1.jpg",
+   "thumb": "media/cordoba/calahorra/t1.jpg",
+   "w": 800,
+   "h": 343,
+   "kind": "photograph",
+   "caption": "Photograph by Wolfgang Manousek from Dormagen, Germany, 2013.",
+   "artist": "Wolfgang Manousek from Dormagen, Germany",
+   "date": "2013",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cordoba,_Spain_(11174784126).jpg"
+  }
+ ],
+ "albolafia": [
+  {
+   "src": "media/cordoba/albolafia/1.jpg",
+   "thumb": "media/cordoba/albolafia/t1.jpg",
+   "w": 800,
+   "h": 612,
+   "kind": "photograph",
+   "caption": "Molino de la Albolafia, also known as Wheel of Albolafia, is a water mill located on the right bank of the Guadalquivir near the Roman bridge.",
+   "artist": "Harvey Barrison from Massapequa, NY, USA",
+   "date": "Taken on 23 October 2015",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_2015_10_23_2593_(25944141760)_(cropped).jpg"
+  },
+  {
+   "src": "media/cordoba/albolafia/2.jpg",
+   "thumb": "media/cordoba/albolafia/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Pfm8, 2016.",
+   "artist": "Pfm8",
+   "date": "2016",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_maravillosa.jpg"
+  }
+ ],
+ "umayyad-alcazar": [],
+ "alcazar-reyes": [
+  {
+   "src": "media/cordoba/alcazar-reyes/1.jpg",
+   "thumb": "media/cordoba/alcazar-reyes/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Ajay Suresh from New York, NY, USA, 2019.",
+   "artist": "Ajay Suresh from New York, NY, USA",
+   "date": "2019",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cordoba-6_(48026780817).jpg"
+  },
+  {
+   "src": "media/cordoba/alcazar-reyes/2.jpg",
+   "thumb": "media/cordoba/alcazar-reyes/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by rheins, Taken on 24 July 2013.",
+   "artist": "rheins",
+   "date": "Taken on 24 July 2013",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:South_Wall_of_C%C3%B3rdoba_Alc%C3%A1zar_-_2013.07_-_panoramio.jpg"
+  }
+ ],
+ "caliphal-baths": [
+  {
+   "src": "media/cordoba/caliphal-baths/1.jpg",
+   "thumb": "media/cordoba/caliphal-baths/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "The Baños califales, a reconstructed hammam (bathhouse) complex in Cordoba. Model showing the plan/reconstruction of the complex.",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Banos_califales_DSCF6935.jpg"
+  },
+  {
+   "src": "media/cordoba/caliphal-baths/2.jpg",
+   "thumb": "media/cordoba/caliphal-baths/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "The Baños califales, a reconstructed hammam (bathhouse) complex in Cordoba. The warm room of the caliphate-era bathhouse of the complex.",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Banos_califales_warm_room_DSCF6873.jpg"
+  },
+  {
+   "src": "media/cordoba/caliphal-baths/3.jpg",
+   "thumb": "media/cordoba/caliphal-baths/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "The Baños califales, a reconstructed hammam (bathhouse) complex in Cordoba. The warm room of the caliphate-era bathhouse of the complex.",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Banos_califales_warm_room_DSCF6877.jpg"
+  },
+  {
+   "src": "media/cordoba/caliphal-baths/4.jpg",
+   "thumb": "media/cordoba/caliphal-baths/t4.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "The Baños califales, a reconstructed hammam (bathhouse) complex in Cordoba. The general entry area; the baths are behind the walls on the right, while to the left there used to be an open area connecting to the gardens…",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Banos_califales_entry_area_DSCF6914.jpg"
+  },
+  {
+   "src": "media/cordoba/caliphal-baths/5.jpg",
+   "thumb": "media/cordoba/caliphal-baths/t5.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "The Baños califales, a reconstructed hammam (bathhouse) complex in Cordoba. The warm room of the Almohad-era bathhouse of the complex.",
+   "artist": "R Prazeres",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Banos_califales_almohad_warm_room_DSCF6945.jpg"
+  }
+ ],
+ "roman-temple": [
+  {
+   "src": "media/cordoba/roman-temple/1.jpg",
+   "thumb": "media/cordoba/roman-temple/t1.jpg",
+   "w": 800,
+   "h": 721,
+   "kind": "reconstruction",
+   "caption": "Model of the reconstruction of the Roman Temple of Córdoba",
+   "artist": "JamesNarmer",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Reconstrucci%C3%B3n_templo_romano_de_C%C3%B3rdoba.jpg"
+  },
+  {
+   "src": "media/cordoba/roman-temple/2.jpg",
+   "thumb": "media/cordoba/roman-temple/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "photograph",
+   "caption": "The Roman temple of Córdoba, Spain.",
+   "artist": "kallerna",
+   "date": "2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Templo_Romano_2.jpg"
+  }
+ ],
+ "roman-theatre": [],
+ "roman-forum": [],
+ "roman-mausoleum": [],
+ "puerta-almodovar": [
+  {
+   "src": "media/cordoba/puerta-almodovar/1.jpg",
+   "thumb": "media/cordoba/puerta-almodovar/t1.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Almodóvar Gate and Roman city walls of Córdoba.",
+   "artist": "GourmetBean",
+   "date": "2024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Stepped_Stream_before_the_Almod%C3%B3var_Gate_and_Roman_city_walls_of_C%C3%B3rdoba.jpg"
+  },
+  {
+   "src": "media/cordoba/puerta-almodovar/2.jpg",
+   "thumb": "media/cordoba/puerta-almodovar/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Almodóvar Gate, part of Roman city walls of Córdoba. Opens into the Jewish Quarter of Córdoba.",
+   "artist": "GourmetBean",
+   "date": "2024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Almod%C3%B3var_Gate.jpg"
+  }
+ ],
+ "puerta-sevilla": [],
+ "malmuerta": [
+  {
+   "src": "media/cordoba/malmuerta/1.jpg",
+   "thumb": "media/cordoba/malmuerta/t1.jpg",
+   "w": 800,
+   "h": 532,
+   "kind": "photograph",
+   "caption": "Photograph.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Torre_malmuerta.jpg"
+  }
+ ],
+ "synagogue": [
+  {
+   "src": "media/cordoba/synagogue/1.jpg",
+   "thumb": "media/cordoba/synagogue/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "West wall of the Synagogue of Córdoba, en Córdoba (Spain). On this wall there is an ogival arch and the inscription that frames it on the top, from right to left, seems to refer to the Song of Songs (4,4): \"I am builded…",
+   "artist": "Américo Toledano",
+   "date": "2008",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:West_wall_of_the_Synagogue_of_C%C3%B3rdoba.JPG"
+  },
+  {
+   "src": "media/cordoba/synagogue/2.jpg",
+   "thumb": "media/cordoba/synagogue/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by José Luiz, 2013.",
+   "artist": "José Luiz",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Synagogue_of_C%C3%B3rdoba_(2).JPG"
+  }
+ ],
+ "san-pablo": [
+  {
+   "src": "media/cordoba/san-pablo/1.jpg",
+   "thumb": "media/cordoba/san-pablo/t1.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Church of Saint Paul in the city of Córdoba (Spain).",
+   "artist": "Lancastermerrin88",
+   "date": "2009",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fachada_principal_de_la_iglesia_de_San_Pablo_de_C%C3%B3rdoba.JPG"
+  }
+ ],
+ "san-lorenzo": [
+  {
+   "src": "media/cordoba/san-lorenzo/1.jpg",
+   "thumb": "media/cordoba/san-lorenzo/t1.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Iglesia de San Lorenzo en Córdoba (España)",
+   "artist": "cruccone",
+   "date": "2009",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Lorenzo_(C%C3%B3rdoba,_Espa%C3%B1a).jpg"
+  },
+  {
+   "src": "media/cordoba/san-lorenzo/2.jpg",
+   "thumb": "media/cordoba/san-lorenzo/t2.jpg",
+   "w": 800,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Córdoba (Andalusia, Spain) - St. Lawrence's church - Rose window",
+   "artist": "Benjamin Smith",
+   "date": "2024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Iglesia_de_San_Lorenzo_-_04.jpg"
+  }
+ ],
+ "minaret-san-juan": []
+}
