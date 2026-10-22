@@ -419,6 +419,131 @@
   "cy": 0.26,
   "size": 50.34
  },
+ "baghdad/bayt-al-hikma": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 143.3
+ },
+ "baghdad/bridge-of-boats": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "size": 453.65
+ },
+ "baghdad/dar-al-khilafa": {
+  "cx": 0.0,
+  "cy": 0.86,
+  "size": 536.59
+ },
+ "baghdad/dar-al-khilafa-830": {
+  "cx": 0.0,
+  "cy": 1.5,
+  "size": 517.07
+ },
+ "baghdad/gilani-1200": {
+  "cx": -0.05,
+  "cy": -0.0,
+  "size": 155.86
+ },
+ "baghdad/gilani-mosque": {
+  "cx": 0.89,
+  "cy": 1.14,
+  "size": 183.99
+ },
+ "baghdad/golden-gate-palace": {
+  "cx": 0.0,
+  "cy": 0.85,
+  "size": 303.15
+ },
+ "baghdad/karkh-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 306.03
+ },
+ "baghdad/kazimayn": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 216.62
+ },
+ "baghdad/kazimayn-1200": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 202.17
+ },
+ "baghdad/kazimayn-800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 159.25
+ },
+ "baghdad/khan-mirjan": {
+  "cx": 0.0,
+  "cy": 1.09,
+  "size": 88.55
+ },
+ "baghdad/khuld-palace": {
+  "cx": 0.0,
+  "cy": 1.5,
+  "size": 372.55
+ },
+ "baghdad/mansur-mosque": {
+  "cx": 0.0,
+  "cy": 0.92,
+  "size": 166.27
+ },
+ "baghdad/mansur-mosque-770": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 127.58
+ },
+ "baghdad/mustansiriya": {
+  "cx": 0.9,
+  "cy": -0.59,
+  "size": 152.59
+ },
+ "baghdad/ottoman-citadel": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "size": 361.76
+ },
+ "baghdad/round-city": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 2505.74
+ },
+ "baghdad/round-city-1200": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 2439.68
+ },
+ "baghdad/rusafa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 364.96
+ },
+ "baghdad/rusafa-1200": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 364.96
+ },
+ "baghdad/shammasiyya-observatory": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 93.38
+ },
+ "baghdad/talisman-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 90.96
+ },
+ "baghdad/wastani-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 92.69
+ },
+ "baghdad/zumurrud-khatun": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 64.62
+ },
  "cairo/al-aqmar": {
   "cx": 0.0,
   "cy": -0.0,
