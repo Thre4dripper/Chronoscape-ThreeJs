@@ -496,7 +496,9 @@
           "subtitle": "City of the gods, 450",
           "at": [-98.84, 19.69],
           "glyph": "steps",
-          "blurb": "A great planned city along the Avenue of the Dead, with the Pyramids of the Sun and the Moon."
+          "blurb": "A great planned city along the Avenue of the Dead, with the Pyramids of the Sun and the Moon.",
+          "city": "teotihuacan",
+          "period": "xolalpan-450"
         },
         {
           "title": "Tenochtitlan",

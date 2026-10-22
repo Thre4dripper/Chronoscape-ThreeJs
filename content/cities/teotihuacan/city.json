@@ -1,0 +1,5452 @@
+{
+ "id": "teotihuacan",
+ "name": "Teotihuacan",
+ "subtitle": "City of the Gods",
+ "description": "The planned city of Teotihuacan in the north-east of the Basin of Mexico, from the first decades of the Pyramid of the Sun to the overgrown mounds the Aztecs visited as the place where the gods were born: the Avenue of the Dead, the pyramids, the Ciudadela and the apartment compounds of the grid. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "xolalpan-450",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#EDE4D0",
+   "#E4D7BC",
+   "#D9C7A6",
+   "#C9A58A"
+  ],
+  "roofs": [
+   "#CDBB98",
+   "#C2AE8A"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2902,
+    1751
+   ],
+   "distance": 42,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   4926,
+   4050
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Río San Juan",
+    "path": [
+     [
+      4993,
+      2519
+     ],
+     [
+      4369,
+      2522
+     ],
+     [
+      3799,
+      2520
+     ],
+     [
+      3435,
+      2523
+     ],
+     [
+      3042,
+      2518
+     ],
+     [
+      2769,
+      2379
+     ],
+     [
+      2445,
+      2352
+     ],
+     [
+      2081,
+      2168
+     ],
+     [
+      1524,
+      2117
+     ],
+     [
+      957,
+      2105
+     ],
+     [
+      341,
+      2079
+     ],
+     [
+      -374,
+      2037
+     ]
+    ],
+    "width": 14,
+    "id": "san-juan-early",
+    "blurb": "A seasonal river running south-west through the valley to Lake Texcoco, dry for half the year and in spate in the summer rains. Here still in its natural bed.",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "name": "Río San Juan",
+    "path": [
+     [
+      4993,
+      2519
+     ],
+     [
+      4369,
+      2522
+     ],
+     [
+      3799,
+      2520
+     ],
+     [
+      3326,
+      2544
+     ],
+     [
+      2892,
+      2424
+     ],
+     [
+      2410,
+      2290
+     ],
+     [
+      1976,
+      2170
+     ],
+     [
+      1524,
+      2117
+     ],
+     [
+      957,
+      2105
+     ],
+     [
+      341,
+      2079
+     ],
+     [
+      -374,
+      2037
+     ]
+    ],
+    "width": 16,
+    "id": "san-juan",
+    "blurb": "The builders of the grid diverted the river into straight channels that follow the city's orientation, so that it crosses the Avenue of the Dead at right angles between the Street of the Dead complex and the Ciudadela. Its canalised bed is still visible.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650",
+     "aztec-1500"
+    ]
+   },
+   {
+    "name": "Río San Lorenzo",
+    "path": [
+     [
+      4488,
+      3594
+     ],
+     [
+      3773,
+      3551
+     ],
+     [
+      3168,
+      3487
+     ],
+     [
+      2590,
+      3327
+     ],
+     [
+      1915,
+      3140
+     ],
+     [
+      1214,
+      3049
+     ],
+     [
+      499,
+      3006
+     ],
+     [
+      -229,
+      3012
+     ]
+    ],
+    "width": 10,
+    "id": "san-lorenzo",
+    "blurb": "A smaller stream crossing the southern part of the city, also bent to the grid in its central course (the usual reading of the survey)."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Cerro Gordo",
+    "center": [
+     3564,
+     33
+    ],
+    "radius": 520,
+    "label": true,
+    "id": "cerro-gordo",
+    "blurb": "The extinct volcano north of the city, about 3,050 m high. Seen down the Avenue of the Dead it rises directly behind the Pyramid of the Moon, whose outline seems to echo it; springs and caves on its slopes were probably sacred."
+   },
+   {
+    "name": "Cerro Colorado",
+    "center": [
+     4507,
+     3550
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "cerro-colorado",
+    "blurb": "Low volcanic hills on the south-east edge of the valley, quarried for the red tezontle and stone of the city's rubble cores (the hill's identification here is approximate)."
+   }
+  ],
+  "roads": [
+   {
+    "name": "The ceremonial way",
+    "path": [
+     [
+      3024,
+      1012
+     ],
+     [
+      2664,
+      2309
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "avenue-early",
+    "blurb": "A processional way probably already ran south from the Moon towards the new Sun pyramid; whether it was paved in this form is not known.",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "name": "Avenue of the Dead",
+    "path": [
+     [
+      3024,
+      1012
+     ],
+     [
+      2798,
+      1826
+     ],
+     [
+      2568,
+      2656
+     ],
+     [
+      2223,
+      3900
+     ]
+    ],
+    "width": 40,
+    "style": "major",
+    "labelled": true,
+    "id": "avenue-of-the-dead",
+    "blurb": "The city's spine, some 40 m wide and more than 4 km long, running from the Moon plaza past the Sun pyramid to the Ciudadela and beyond, 15.5° east of north. North of the river it climbs in a series of sunken plazas closed by cross-walls. Its Nahuatl name, Miccaotli, is Aztec.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Miccaotli",
+    "path": [
+     [
+      3024,
+      1012
+     ],
+     [
+      2798,
+      1826
+     ],
+     [
+      2568,
+      2656
+     ],
+     [
+      2424,
+      3177
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "miccaotli",
+    "blurb": "'Road of the dead': the Aztecs took the mounds lining the old avenue for the tombs of ancient lords. A path runs along it between the fields.",
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "name": "East Avenue",
+    "path": [
+     [
+      2992,
+      2774
+     ],
+     [
+      3628,
+      2950
+     ],
+     [
+      4640,
+      3231
+     ]
+    ],
+    "width": 24,
+    "style": "major",
+    "labelled": true,
+    "id": "east-avenue",
+    "blurb": "Millon's survey traced avenues running east and west from the Ciudadela and the Great Compound, dividing the city into quarters with the Avenue of the Dead. Their existence is debated: they may be lines of compounds rather than streets.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "West Avenue",
+    "path": [
+     [
+      2144,
+      2538
+     ],
+     [
+      1315,
+      2308
+     ],
+     [
+      -419,
+      1827
+     ]
+    ],
+    "width": 24,
+    "style": "major",
+    "labelled": true,
+    "id": "west-avenue",
+    "blurb": "The western arm of the cross: the line ran toward the Oaxaca barrio and the springs. Debated, like the East Avenue.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      2506,
+      447
+     ],
+     [
+      2027,
+      2174
+     ],
+     [
+      2022,
+      2193
+     ],
+     [
+      1664,
+      3485
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-w650",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      3758,
+      795
+     ],
+     [
+      3280,
+      2521
+     ],
+     [
+      3275,
+      2541
+     ],
+     [
+      2917,
+      3833
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-e650",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      1786,
+      611
+     ],
+     [
+      1401,
+      2000
+     ],
+     [
+      1131,
+      2974
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-w1300",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      4265,
+      1403
+     ],
+     [
+      3944,
+      2560
+     ],
+     [
+      3637,
+      3669
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-e1300",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      177,
+      424
+     ],
+     [
+      2952,
+      1194
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cross-450",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      2991,
+      1205
+     ],
+     [
+      4803,
+      1708
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cross-450e",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      3,
+      1051
+     ],
+     [
+      2731,
+      1808
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cross-1100",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Street",
+    "path": [
+     [
+      2865,
+      1845
+     ],
+     [
+      4822,
+      2388
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cross-1100e",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Road to Otumba",
+    "path": [
+     [
+      4822,
+      2388
+     ],
+     [
+      5357,
+      2329
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "road-otumba",
+    "blurb": "Toward the obsidian of Otumba in the hills to the east, the green obsidian came from farther north, near Pachuca.",
+    "periods": [
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "name": "Path to Oztoyahualco",
+    "path": [
+     [
+      2955,
+      1034
+     ],
+     [
+      2474,
+      750
+     ],
+     [
+      1839,
+      418
+     ],
+     [
+      1191,
+      134
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "path-oztoyahualco",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "name": "Path to the springs",
+    "path": [
+     [
+      2607,
+      2293
+     ],
+     [
+      1717,
+      2357
+     ],
+     [
+      839,
+      2529
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "path-springs",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "name": "Road to Acolman and Texcoco",
+    "path": [
+     [
+      2366,
+      3161
+     ],
+     [
+      1524,
+      3052
+     ],
+     [
+      732,
+      2915
+     ],
+     [
+      -285,
+      2840
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "road-acolman",
+    "blurb": "The road from the Aztec-period town south-west along the valley to Acolman and on to Texcoco, the capital of the Acolhua to whom Teotihuacan was subject.",
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "name": "Path to the pyramids",
+    "path": [
+     [
+      828,
+      2942
+     ],
+     [
+      1637,
+      2647
+     ],
+     [
+      2607,
+      2293
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "path-pyramids",
+    "periods": [
+     "aztec-1500"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [
+   {
+    "name": "Crossing of the Río San Juan",
+    "path": [
+     [
+      2659,
+      2328
+     ],
+     [
+      2643,
+      2386
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "san-juan-crossing",
+    "blurb": "Where the canalised river passes under or through the avenue; how the crossing was built is not known.",
+    "landmarkId": "san-juan-crossing",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1687,
+      220
+     ],
+     [
+      2457,
+      434
+     ],
+     [
+      2305,
+      983
+     ],
+     [
+      1534,
+      769
+     ]
+    ],
+    "density": "dense",
+    "name": "Oztoyahualco",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      593,
+      44
+     ],
+     [
+      1055,
+      44
+     ],
+     [
+      1667,
+      214
+     ],
+     [
+      1440,
+      1034
+     ],
+     [
+      399,
+      745
+     ]
+    ],
+    "density": "loose",
+    "name": "Oztoyahualco fields",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2462,
+      715
+     ],
+     [
+      3021,
+      871
+     ],
+     [
+      2936,
+      1179
+     ],
+     [
+      2377,
+      1024
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses round the Moon",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3297,
+      1300
+     ],
+     [
+      3836,
+      1450
+     ],
+     [
+      3665,
+      2067
+     ],
+     [
+      3126,
+      1917
+     ]
+    ],
+    "density": "loose",
+    "name": "Builders' camps",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2091,
+      1007
+     ],
+     [
+      2920,
+      1237
+     ],
+     [
+      2706,
+      2009
+     ],
+     [
+      1877,
+      1779
+     ]
+    ],
+    "density": "loose",
+    "name": "West of the way",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2070,
+      1832
+     ],
+     [
+      3130,
+      2126
+     ],
+     [
+      3055,
+      2396
+     ],
+     [
+      1995,
+      2102
+     ]
+    ],
+    "density": "loose",
+    "name": "By the river",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      933,
+      2192
+     ],
+     [
+      1704,
+      2406
+     ],
+     [
+      1610,
+      2743
+     ],
+     [
+      839,
+      2529
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlets by the springs",
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      44
+     ],
+     [
+      1429,
+      44
+     ],
+     [
+      2521,
+      347
+     ],
+     [
+      2336,
+      1013
+     ],
+     [
+      42,
+      376
+     ]
+    ],
+    "density": "dense",
+    "name": "Oztoyahualco",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2544,
+      354
+     ],
+     [
+      3128,
+      516
+     ],
+     [
+      2944,
+      1181
+     ],
+     [
+      2360,
+      1019
+     ]
+    ],
+    "density": "dense",
+    "name": "Moon quarter, west",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3190,
+      533
+     ],
+     [
+      3774,
+      695
+     ],
+     [
+      3589,
+      1361
+     ],
+     [
+      3005,
+      1198
+     ]
+    ],
+    "density": "dense",
+    "name": "Moon quarter, east",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3797,
+      702
+     ],
+     [
+      4884,
+      1003
+     ],
+     [
+      4884,
+      1720
+     ],
+     [
+      3612,
+      1367
+     ]
+    ],
+    "density": "loose",
+    "name": "North-east",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2354,
+      1039
+     ],
+     [
+      2938,
+      1201
+     ],
+     [
+      2770,
+      1808
+     ],
+     [
+      2186,
+      1646
+     ]
+    ],
+    "density": "dense",
+    "name": "West of the Sun",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3000,
+      1218
+     ],
+     [
+      3584,
+      1380
+     ],
+     [
+      3416,
+      1988
+     ],
+     [
+      2832,
+      1825
+     ]
+    ],
+    "density": "dense",
+    "name": "Sun quarter",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      397
+     ],
+     [
+      2331,
+      1032
+     ],
+     [
+      2163,
+      1640
+     ],
+     [
+      42,
+      1051
+     ]
+    ],
+    "density": "dense",
+    "name": "Western city",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3607,
+      1386
+     ],
+     [
+      4884,
+      1741
+     ],
+     [
+      4884,
+      2395
+     ],
+     [
+      3439,
+      1994
+     ]
+    ],
+    "density": "loose",
+    "name": "Tepantitla quarter",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2181,
+      1665
+     ],
+     [
+      2764,
+      1828
+     ],
+     [
+      2625,
+      2329
+     ],
+     [
+      2042,
+      2167
+     ]
+    ],
+    "density": "dense",
+    "name": "Street of the Dead, west",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2826,
+      1845
+     ],
+     [
+      3410,
+      2007
+     ],
+     [
+      3271,
+      2508
+     ],
+     [
+      2687,
+      2346
+     ]
+    ],
+    "density": "dense",
+    "name": "Street of the Dead, east",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1072
+     ],
+     [
+      2157,
+      1659
+     ],
+     [
+      2018,
+      2161
+     ],
+     [
+      42,
+      1612
+     ]
+    ],
+    "density": "loose",
+    "name": "Tetitla quarter, far west",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3433,
+      2013
+     ],
+     [
+      4884,
+      2416
+     ],
+     [
+      4884,
+      2912
+     ],
+     [
+      4873,
+      2953
+     ],
+     [
+      3294,
+      2515
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern city",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2210
+     ],
+     [
+      2613,
+      2373
+     ],
+     [
+      2541,
+      2633
+     ],
+     [
+      1957,
+      2471
+     ]
+    ],
+    "density": "dense",
+    "name": "River quarter, west",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2675,
+      2390
+     ],
+     [
+      3259,
+      2552
+     ],
+     [
+      3187,
+      2812
+     ],
+     [
+      2603,
+      2650
+     ]
+    ],
+    "density": "dense",
+    "name": "River quarter, east",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1659
+     ],
+     [
+      2006,
+      2204
+     ],
+     [
+      1934,
+      2464
+     ],
+     [
+      42,
+      1939
+     ]
+    ],
+    "density": "loose",
+    "name": "Tlailotlacan",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1949,
+      2500
+     ],
+     [
+      2533,
+      2662
+     ],
+     [
+      2370,
+      3250
+     ],
+     [
+      1786,
+      3088
+     ]
+    ],
+    "density": "loose",
+    "name": "South-west",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2595,
+      2679
+     ],
+     [
+      3179,
+      2841
+     ],
+     [
+      3016,
+      3429
+     ],
+     [
+      2432,
+      3267
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east",
+    "periods": [
+     "miccaotli-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      44
+     ],
+     [
+      1429,
+      44
+     ],
+     [
+      2521,
+      347
+     ],
+     [
+      2336,
+      1013
+     ],
+     [
+      42,
+      376
+     ]
+    ],
+    "density": "dense",
+    "name": "Oztoyahualco",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2544,
+      354
+     ],
+     [
+      3128,
+      516
+     ],
+     [
+      2944,
+      1181
+     ],
+     [
+      2360,
+      1019
+     ]
+    ],
+    "density": "dense",
+    "name": "Moon quarter, west",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3190,
+      533
+     ],
+     [
+      3774,
+      695
+     ],
+     [
+      3589,
+      1361
+     ],
+     [
+      3005,
+      1198
+     ]
+    ],
+    "density": "dense",
+    "name": "Moon quarter, east",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3797,
+      702
+     ],
+     [
+      4884,
+      1003
+     ],
+     [
+      4884,
+      1720
+     ],
+     [
+      3612,
+      1367
+     ]
+    ],
+    "density": "dense",
+    "name": "North-east",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2354,
+      1039
+     ],
+     [
+      2938,
+      1201
+     ],
+     [
+      2770,
+      1808
+     ],
+     [
+      2186,
+      1646
+     ]
+    ],
+    "density": "dense",
+    "name": "West of the Sun",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3000,
+      1218
+     ],
+     [
+      3584,
+      1380
+     ],
+     [
+      3416,
+      1988
+     ],
+     [
+      2832,
+      1825
+     ]
+    ],
+    "density": "dense",
+    "name": "Sun quarter",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      397
+     ],
+     [
+      2331,
+      1032
+     ],
+     [
+      2163,
+      1640
+     ],
+     [
+      42,
+      1051
+     ]
+    ],
+    "density": "dense",
+    "name": "Tetitla and Atetelco",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3607,
+      1386
+     ],
+     [
+      4884,
+      1741
+     ],
+     [
+      4884,
+      2395
+     ],
+     [
+      3439,
+      1994
+     ]
+    ],
+    "density": "dense",
+    "name": "Tepantitla quarter",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2181,
+      1665
+     ],
+     [
+      2764,
+      1828
+     ],
+     [
+      2625,
+      2329
+     ],
+     [
+      2042,
+      2167
+     ]
+    ],
+    "density": "dense",
+    "name": "Street of the Dead, west",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2826,
+      1845
+     ],
+     [
+      3410,
+      2007
+     ],
+     [
+      3271,
+      2508
+     ],
+     [
+      2687,
+      2346
+     ]
+    ],
+    "density": "dense",
+    "name": "Street of the Dead, east",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1072
+     ],
+     [
+      2157,
+      1659
+     ],
+     [
+      2018,
+      2161
+     ],
+     [
+      42,
+      1612
+     ]
+    ],
+    "density": "dense",
+    "name": "Western city",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3433,
+      2013
+     ],
+     [
+      4884,
+      2416
+     ],
+     [
+      4884,
+      2912
+     ],
+     [
+      4873,
+      2953
+     ],
+     [
+      3294,
+      2515
+     ]
+    ],
+    "density": "dense",
+    "name": "Merchants' barrio",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2210
+     ],
+     [
+      2613,
+      2373
+     ],
+     [
+      2541,
+      2633
+     ],
+     [
+      1957,
+      2471
+     ]
+    ],
+    "density": "dense",
+    "name": "River quarter, west",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2675,
+      2390
+     ],
+     [
+      3259,
+      2552
+     ],
+     [
+      3187,
+      2812
+     ],
+     [
+      2603,
+      2650
+     ]
+    ],
+    "density": "dense",
+    "name": "River quarter, east",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1659
+     ],
+     [
+      2006,
+      2204
+     ],
+     [
+      1934,
+      2464
+     ],
+     [
+      42,
+      1939
+     ]
+    ],
+    "density": "dense",
+    "name": "Tlailotlacan",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3282,
+      2558
+     ],
+     [
+      4861,
+      2996
+     ],
+     [
+      4789,
+      3257
+     ],
+     [
+      3210,
+      2819
+     ]
+    ],
+    "density": "loose",
+    "name": "East of the river",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1949,
+      2500
+     ],
+     [
+      2533,
+      2662
+     ],
+     [
+      2370,
+      3250
+     ],
+     [
+      1786,
+      3088
+     ]
+    ],
+    "density": "dense",
+    "name": "La Ventilla",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2595,
+      2679
+     ],
+     [
+      3179,
+      2841
+     ],
+     [
+      3016,
+      3429
+     ],
+     [
+      2432,
+      3267
+     ]
+    ],
+    "density": "dense",
+    "name": "Behind the Ciudadela",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1970
+     ],
+     [
+      1926,
+      2493
+     ],
+     [
+      1763,
+      3082
+     ],
+     [
+      42,
+      2604
+     ]
+    ],
+    "density": "loose",
+    "name": "South-western city",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3202,
+      2848
+     ],
+     [
+      4781,
+      3286
+     ],
+     [
+      4618,
+      3874
+     ],
+     [
+      3039,
+      3436
+     ]
+    ],
+    "density": "loose",
+    "name": "South-eastern city",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1777,
+      3122
+     ],
+     [
+      2361,
+      3284
+     ],
+     [
+      2190,
+      3901
+     ],
+     [
+      1606,
+      3739
+     ]
+    ],
+    "density": "dense",
+    "name": "Tlajinga, west",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2423,
+      3301
+     ],
+     [
+      3007,
+      3463
+     ],
+     [
+      2856,
+      4005
+     ],
+     [
+      2565,
+      4005
+     ],
+     [
+      2252,
+      3918
+     ]
+    ],
+    "density": "loose",
+    "name": "Tlajinga, east",
+    "periods": [
+     "xolalpan-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      44
+     ],
+     [
+      1429,
+      44
+     ],
+     [
+      2521,
+      347
+     ],
+     [
+      2336,
+      1013
+     ],
+     [
+      42,
+      376
+     ]
+    ],
+    "density": "loose",
+    "name": "Oztoyahualco",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2544,
+      354
+     ],
+     [
+      3128,
+      516
+     ],
+     [
+      2944,
+      1181
+     ],
+     [
+      2360,
+      1019
+     ]
+    ],
+    "density": "loose",
+    "name": "Moon quarter",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2354,
+      1039
+     ],
+     [
+      2938,
+      1201
+     ],
+     [
+      2770,
+      1808
+     ],
+     [
+      2186,
+      1646
+     ]
+    ],
+    "density": "loose",
+    "name": "West of the Sun",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      397
+     ],
+     [
+      2331,
+      1032
+     ],
+     [
+      2163,
+      1640
+     ],
+     [
+      42,
+      1051
+     ]
+    ],
+    "density": "dense",
+    "name": "Tetitla and Atetelco",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3607,
+      1386
+     ],
+     [
+      4884,
+      1741
+     ],
+     [
+      4884,
+      2395
+     ],
+     [
+      3439,
+      1994
+     ]
+    ],
+    "density": "loose",
+    "name": "Tepantitla quarter",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1072
+     ],
+     [
+      2157,
+      1659
+     ],
+     [
+      2018,
+      2161
+     ],
+     [
+      42,
+      1612
+     ]
+    ],
+    "density": "dense",
+    "name": "Western city",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3433,
+      2013
+     ],
+     [
+      4884,
+      2416
+     ],
+     [
+      4884,
+      2912
+     ],
+     [
+      4873,
+      2953
+     ],
+     [
+      3294,
+      2515
+     ]
+    ],
+    "density": "loose",
+    "name": "Merchants' barrio",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2210
+     ],
+     [
+      2613,
+      2373
+     ],
+     [
+      2541,
+      2633
+     ],
+     [
+      1957,
+      2471
+     ]
+    ],
+    "density": "loose",
+    "name": "River quarter, west",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      42,
+      1659
+     ],
+     [
+      2006,
+      2204
+     ],
+     [
+      1934,
+      2464
+     ],
+     [
+      42,
+      1939
+     ]
+    ],
+    "density": "loose",
+    "name": "Tlailotlacan",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1949,
+      2500
+     ],
+     [
+      2533,
+      2662
+     ],
+     [
+      2370,
+      3250
+     ],
+     [
+      1786,
+      3088
+     ]
+    ],
+    "density": "loose",
+    "name": "La Ventilla",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2595,
+      2679
+     ],
+     [
+      3179,
+      2841
+     ],
+     [
+      3016,
+      3429
+     ],
+     [
+      2432,
+      3267
+     ]
+    ],
+    "density": "loose",
+    "name": "Behind the Ciudadela",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1777,
+      3122
+     ],
+     [
+      2361,
+      3284
+     ],
+     [
+      2190,
+      3901
+     ],
+     [
+      1606,
+      3739
+     ]
+    ],
+    "density": "loose",
+    "name": "Tlajinga",
+    "periods": [
+     "collapse-650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      553,
+      2813
+     ],
+     [
+      1275,
+      3014
+     ],
+     [
+      1182,
+      3351
+     ],
+     [
+      459,
+      3151
+     ]
+    ],
+    "density": "dense",
+    "name": "Teotihuacan, the Aztec-period town",
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      935,
+      2556
+     ],
+     [
+      1803,
+      2797
+     ],
+     [
+      1717,
+      3105
+     ],
+     [
+      850,
+      2865
+     ]
+    ],
+    "density": "loose",
+    "name": "Edge of the town",
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3368,
+      1341
+     ],
+     [
+      3831,
+      1469
+     ],
+     [
+      3719,
+      1874
+     ],
+     [
+      3256,
+      1746
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet by the Sun pyramid",
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1917,
+      1634
+     ],
+     [
+      2495,
+      1795
+     ],
+     [
+      2375,
+      2229
+     ],
+     [
+      1797,
+      2068
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet west of the avenue",
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3020,
+      2823
+     ],
+     [
+      3521,
+      2962
+     ],
+     [
+      3428,
+      3300
+     ],
+     [
+      2926,
+      3161
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet behind the Ciudadela",
+    "periods": [
+     "aztec-1500"
+    ]
+   }
+  ],
+  "gardens": [],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      42,
+      2360
+     ],
+     [
+      777,
+      2564
+     ],
+     [
+      630,
+      3095
+     ],
+     [
+      42,
+      2931
+     ]
+    ],
+    "name": "Springs of the valley floor"
+   }
+  ],
+  "districts": [
+   {
+    "id": "ceremonial-centre",
+    "name": "Avenue of the Dead",
+    "polygon": [
+     [
+      2597,
+      753
+     ],
+     [
+      3522,
+      1010
+     ],
+     [
+      2967,
+      3016
+     ],
+     [
+      2041,
+      2759
+     ]
+    ],
+    "description": "The ceremonial and political heart: the two great pyramids, some 75 temples on platforms lining the avenue, palaces and the Ciudadela. Few ordinary people lived here.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "id": "oztoyahualco",
+    "name": "Oztoyahualco",
+    "polygon": [
+     [
+      593,
+      44
+     ],
+     [
+      1429,
+      44
+     ],
+     [
+      2503,
+      343
+     ],
+     [
+      2314,
+      1027
+     ],
+     [
+      463,
+      514
+     ]
+    ],
+    "description": "The north-western quarter, among the oldest parts of the city; excavated compounds here (15B:N6W3) show family shrines, kitchens and burials under the floors.",
+    "periods": [
+     "tzacualli-100",
+     "miccaotli-250",
+     "xolalpan-450"
+    ]
+   },
+   {
+    "id": "tlailotlacan",
+    "name": "Tlailotlacan (Oaxaca barrio)",
+    "polygon": [
+     [
+      42,
+      1660
+     ],
+     [
+      143,
+      1297
+     ],
+     [
+      721,
+      1458
+     ],
+     [
+      614,
+      1844
+     ],
+     [
+      42,
+      1685
+     ]
+    ],
+    "description": "A barrio of Zapotec families from the Valley of Oaxaca who kept their own pottery, funerary urns and tombs for some four centuries while living in Teotihuacan-style compounds.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450"
+    ]
+   },
+   {
+    "id": "merchants-barrio",
+    "name": "Merchants' barrio",
+    "polygon": [
+     [
+      4302,
+      1829
+     ],
+     [
+      4784,
+      1962
+     ],
+     [
+      4677,
+      2348
+     ],
+     [
+      4195,
+      2214
+     ]
+    ],
+    "description": "A barrio on the eastern edge with Gulf-coast and Maya pottery and round adobe buildings unlike the rest of the city, probably the home of traders from the lowlands.",
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450"
+    ]
+   },
+   {
+    "id": "tlajinga",
+    "name": "Tlajinga",
+    "polygon": [
+     [
+      1775,
+      3121
+     ],
+     [
+      3009,
+      3464
+     ],
+     [
+      2858,
+      4005
+     ],
+     [
+      2565,
+      4005
+     ],
+     [
+      1604,
+      3739
+     ]
+    ],
+    "description": "The southern end of the city along the avenue, a district of potters and lapidaries in modest compounds.",
+    "periods": [
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "id": "ruins",
+    "name": "The ruins of the old city",
+    "polygon": [
+     [
+      2597,
+      753
+     ],
+     [
+      3522,
+      1010
+     ],
+     [
+      2967,
+      3016
+     ],
+     [
+      2041,
+      2759
+     ]
+    ],
+    "description": "Overgrown mounds along the old avenue, mined for stone and planted with maize; the Aztecs gave the pyramids the names of the Sun and Moon that they still bear.",
+    "periods": [
+     "aztec-1500"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "TEOTIHUACAN",
+    "position": [
+     1623,
+     1760
+    ],
+    "size": "lg",
+    "rotation": -74.5,
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "text": "Teotihuacan",
+    "position": [
+     1888,
+     1366
+    ],
+    "size": "md",
+    "rotation": -74.5,
+    "periods": [
+     "tzacualli-100"
+    ]
+   },
+   {
+    "text": "Teotihuacan (ruins)",
+    "position": [
+     1623,
+     1760
+    ],
+    "size": "md",
+    "rotation": -74.5,
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "text": "Teotihuacan (town)",
+    "position": [
+     818,
+     3354
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "text": "Miccaotli",
+    "position": [
+     2433,
+     2920
+    ],
+    "size": "sm",
+    "rotation": -74.5,
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "text": "Río San Juan",
+    "position": [
+     1120,
+     1890
+    ],
+    "size": "sm",
+    "rotation": -14,
+    "periods": [
+     "tzacualli-100",
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650",
+     "aztec-1500"
+    ]
+   },
+   {
+    "text": "Río San Lorenzo",
+    "position": [
+     3661,
+     3582
+    ],
+    "size": "sm",
+    "rotation": -14,
+    "periods": [
+     "tzacualli-100",
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650",
+     "aztec-1500"
+    ]
+   },
+   {
+    "text": "Tlailotlacan",
+    "position": [
+     445,
+     1329
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450"
+    ]
+   },
+   {
+    "text": "Merchants' barrio",
+    "position": [
+     4557,
+     1847
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "miccaotli-250",
+     "xolalpan-450"
+    ]
+   },
+   {
+    "text": "Oztoyahualco",
+    "position": [
+     1609,
+     125
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "tzacualli-100",
+     "miccaotli-250",
+     "xolalpan-450"
+    ]
+   },
+   {
+    "text": "Tlajinga",
+    "position": [
+     2608,
+     3747
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "text": "to Otumba",
+    "position": [
+     5218,
+     2270
+    ],
+    "size": "sm",
+    "rotation": -60,
+    "periods": [
+     "xolalpan-450",
+     "collapse-650"
+    ]
+   },
+   {
+    "text": "to Acolman",
+    "position": [
+     -132,
+     3039
+    ],
+    "size": "sm",
+    "rotation": -60,
+    "periods": [
+     "aztec-1500"
+    ]
+   },
+   {
+    "text": "springs",
+    "position": [
+     140,
+     2803
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "tzacualli-100",
+     "miccaotli-250",
+     "xolalpan-450",
+     "collapse-650",
+     "aztec-1500"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E6D3AA",
+   "ink": "#6F4D34",
+   "water": "#62878A",
+   "hill": "#7A7A58",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   4559,
+   333
+  ],
+  "cartouche": [
+   3459,
+   3917
+  ]
+ },
+ "periods": [
+  {
+   "id": "tzacualli-100",
+   "label": "The Early City",
+   "year": 100,
+   "startYear": 1,
+   "endYear": 149,
+   "summary": "People from across the Basin of Mexico gather in the Teotihuacan valley, round its springs and the obsidian of the hills. By 100 CE the settlement may already spread over many square kilometres, though thinly. Work has begun on the Pyramid of the Sun over a cave; the Moon pyramid is still a small platform. Houses are of adobe, wattle and thatch.",
+   "population": "perhaps 60,000–80,000 (Millon's estimate; others are lower)",
+   "feel": "Dust from basket-loads of rubble tipped into the rising pyramid, smoke of cooking fires over thatch, the click of obsidian knapping in every yard.",
+   "style": "mesoamerican",
+   "houses": {
+    "title": "Adobe and wattle houses",
+    "text": "Groups of small rooms of adobe or wattle and daub on stone footings, thatched or flat-roofed, round an open yard with hearths and storage pits. The stone apartment compounds of later centuries do not exist yet."
+   },
+   "outskirts": {
+    "title": "Hamlets and fields",
+    "text": "Scattered houses among maize fields on the valley floor, with terraces on the slopes of Cerro Gordo and canals led off the springs to the south-west."
+   }
+  },
+  {
+   "id": "miccaotli-250",
+   "label": "The City Laid Out",
+   "year": 250,
+   "startYear": 150,
+   "endYear": 349,
+   "summary": "The Sun pyramid is finished and the Moon enlarged; in the Ciudadela the Feathered Serpent Pyramid is dedicated over some 200 sacrificial burials. The whole city is set out on one grid turned 15.5° east of north, the rivers straightened to fit it, and from about 225 the people move into walled stone apartment compounds.",
+   "population": "perhaps 80,000–100,000",
+   "feel": "Lime kilns smoking, gangs carrying volcanic stone along the new avenue, drums at dusk from the Ciudadela.",
+   "style": "mesoamerican",
+   "houses": {
+    "title": "The first apartment compounds",
+    "text": "Walled one-storey compounds of stone and rubble faced with lime plaster, 50–60 m a side, with many rooms round several open patios. Each housed some 60 to 100 people, probably related families sharing a craft."
+   },
+   "outskirts": {
+    "title": "Adobe houses and fields",
+    "text": "Older adobe houses not yet rebuilt in stone, with maize, beans and squash on the edge of the grid and irrigated plots by the springs."
+   }
+  },
+  {
+   "id": "xolalpan-450",
+   "label": "City of the Gods",
+   "year": 450,
+   "startYear": 350,
+   "endYear": 549,
+   "summary": "The largest city in the Americas: 100,000 or more people in some 2,000 apartment compounds over about 20 km². Merchants, Zapotec settlers from Oaxaca and families from the Gulf coast live in their own barrios; walls are painted with gods, priests and jaguars; Teotihuacan goods and style reach the Maya cities.",
+   "population": "100,000–125,000 (the usual estimate)",
+   "feel": "Copal smoke from patio altars, the red of painted walls in the sun, porters with loads of obsidian and Thin Orange bowls on the avenue.",
+   "style": "mesoamerican",
+   "houses": {
+    "title": "Apartment compounds",
+    "text": "Large walled one-storey compounds of many rooms round patios, 50–60 m a side, with flat roofs, red-painted walls and a small temple on the main patio. Rich compounds such as Tetitla or Atetelco were painted inside with murals."
+   },
+   "outskirts": {
+    "title": "Edge of the city",
+    "text": "Smaller compounds and adobe houses among fields of maize, beans and amaranth, and on the valley floor the canals and plots watered by the springs."
+   }
+  },
+  {
+   "id": "collapse-650",
+   "label": "After the Fire",
+   "year": 650,
+   "startYear": 550,
+   "endYear": 749,
+   "summary": "Some time between about 550 and 650 the temples and palaces along the Avenue of the Dead were burned, their sculptures smashed and thrown down: a deliberate destruction, most probably an uprising within the city. The centre was not rebuilt. People drifted away; newcomers with Coyotlatelco pottery settled in parts of the ruins.",
+   "population": "perhaps 20,000–40,000 and falling (very uncertain)",
+   "feel": "Blackened walls along the avenue, weeds in the plazas, the smell of old ash after rain.",
+   "style": "mesoamerican",
+   "houses": {
+    "title": "Compounds half abandoned",
+    "text": "Some apartment compounds still lived in, rooms walled off and patios turned into yards; others empty, their roofs fallen. Newcomers built small houses inside the old walls."
+   },
+   "outskirts": {
+    "title": "Farms in the ruins",
+    "text": "Maize plots planted over fallen compounds, and hamlets of the Coyotlatelco newcomers on the valley edges."
+   }
+  },
+  {
+   "id": "aztec-1500",
+   "label": "Where the Gods Were Born",
+   "year": 1500,
+   "startYear": 1350,
+   "endYear": 1521,
+   "summary": "Teotihuacan has been a ruin for eight centuries. The Aztecs believed the gods had gathered here to create the Fifth Sun and that the mounds were the tombs of ancient lords. A small Acolhua town lies to the south-west; pilgrims, priests and, later sources say, the emperor himself come to the pyramids.",
+   "population": "a few thousand in the town and hamlets (archaeological guess)",
+   "feel": "Wind over grassy mounds, maize stalks rattling between the old walls, a thread of copal smoke on the Sun pyramid's top.",
+   "style": "mesoamerican",
+   "houses": {
+    "title": "Village among the ruins",
+    "text": "Small houses of adobe and reused stone round yards with a granary and a sweat bath, built on and between the overgrown compounds, many stones taken from the old walls."
+   },
+   "outskirts": {
+    "title": "Fields among the mounds",
+    "text": "Maize, beans and maguey planted over the buried city; farmers turn up figurines and obsidian with every hoe stroke."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "pyramid-of-the-moon",
+   "placeId": "pyramid-of-the-moon",
+   "name": "Pyramid of the Moon",
+   "category": "temple",
+   "position": [
+    3089,
+    775
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    150.0,
+    160.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/pyramid-of-the-moon.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 150,
+     "depth": 160,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 15.0,
+     "columnHeight": 60.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tzacualli-100",
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "The first buildings: a platform some 23 m square (Building 1), soon enclosed in larger ones. The site at the head of the future avenue is already sacred.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/teotihuacan/pyramid-of-the-moon-100.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 150,
+       "depth": 160,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 15.0,
+       "columnHeight": 60.0
+      }
+     }
+    },
+    "miccaotli-250": {
+     "note": "Building 4, about 89 m a side, is dedicated around 200–250 with sacrificed captives and animals; the pyramid is approaching its final size."
+    },
+    "xolalpan-450": {
+     "note": "The final pyramid (Building 7), some 43 m high, with the talud-tablero platform added in front, closing the north end of the avenue below Cerro Gordo."
+    },
+    "collapse-650": {
+     "note": "The temple on top and the buildings at its foot burned in the destruction of the centre; the pyramid itself stands, its stucco cracking.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/pyramid-of-the-moon-650.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 150,
+       "depth": 160,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 15.0,
+       "columnHeight": 60.0
+      }
+     }
+    },
+    "aztec-1500": {
+     "name": "Metztli Itzacual, the Moon's pyramid",
+     "note": "A grassy hill of rubble. The Aztecs called it the pyramid of the Moon: here, they said, Tecuciztecatl became the moon.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/pyramid-of-the-moon-1500.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 150,
+       "depth": 160,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 15.0,
+       "columnHeight": 60.0
+      }
+     }
+    }
+   },
+   "summary": "The pyramid at the north end of the Avenue of the Dead, raised in seven stages over three centuries and framed by Cerro Gordo behind it; a stage for the city's state rituals.",
+   "details": [
+    "Tunnels dug by Saburo Sugiyama and Rubén Cabrera (1998–2004) found seven nested buildings, from a small platform of about 100 CE to the final pyramid of about 43 m. Each enlargement was dedicated with offerings: sacrificed men, often foreigners, with pumas, wolves, eagles and rattlesnakes buried alive or as offerings, obsidian and greenstone figures.",
+    "The miniature shows the final form: four stepped bodies with the five-tiered talud-tablero adosada platform on the front, a stair up both, and a temple on top. The temple is lost; its form, colours and the flat roof with merlons follow painted and sculpted models of Teotihuacan temples."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-moon",
+    "sugiyama-cabrera-2007",
+    "cowgill-2015",
+    "millon-1973"
+   ],
+   "built": "c. 100–400 CE in seven stages",
+   "function": "Temple platform at the head of the avenue",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "moon-plaza",
+   "placeId": "moon-plaza",
+   "name": "Plaza of the Moon",
+   "category": "religious",
+   "position": [
+    3045,
+    934
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    210.0,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/moon-plaza.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 210,
+     "depth": 170,
+     "height": 68.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Open ground before the early Moon platform, perhaps with a few small shrines; the plaza is laid out with the avenue in the next centuries.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "The plaza takes shape with the enlarged Moon pyramid: a paved square ringed by temple platforms of talud-tablero, an altar platform at its centre."
+    },
+    "xolalpan-450": {
+     "note": "A dozen or so temple platforms frame the plaza, painted red; the central platform and its altar mark the point where the avenue begins."
+    },
+    "collapse-650": {
+     "note": "Burned with the rest of the centre; temples on the platforms gone, stones and sculptures thrown into the plaza.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/moon-plaza-650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 210,
+       "depth": 170,
+       "height": 68.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "aztec-1500": {
+     "note": "A ring of overgrown mounds. Aztec tradition put the gods' great fire here, into which Nanahuatzin leapt to become the Sun.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/moon-plaza-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 210,
+       "depth": 170,
+       "height": 68.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The great square at the foot of the Moon pyramid, closed by temple platforms on three sides, where the Avenue of the Dead begins; the setting for the city's largest gatherings in the north.",
+   "details": [
+    "The plaza measures roughly 140 m across. Its platforms, mostly three-tiered talud-tablero bases for small temples, are grouped in threes on the east and west sides, a 'three-temple' arrangement found across the city. At the centre stands a square platform with an altar, and beside it a smaller structure divided inside into compartments.",
+    "The miniature shows the stuccoed paving, the platforms with stairs facing the plaza, small flat-roofed temples on top and the central altar. Which platforms carried temples, and their colours, are reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-moon",
+    "wiki-teotihuacan",
+    "millon-1973",
+    "cowgill-2015"
+   ],
+   "built": "c. 200–350 CE",
+   "function": "Ceremonial plaza",
+   "activity": {
+    "figures": 70,
+    "radius": 110
+   }
+  },
+  {
+   "id": "palace-of-quetzalpapalotl",
+   "placeId": "quetzalpapalotl",
+   "name": "Palace of Quetzalpapalotl",
+   "category": "civic",
+   "position": [
+    2891,
+    923
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    60.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/palace-of-quetzalpapalotl.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 70,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "miccaotli-250": {
+     "name": "Building of the Feathered Shells",
+     "note": "Not yet built: on this spot stands an earlier temple painted with feathered conch shells and green birds, later buried under the palace's platform.",
+     "confidence": "reconstruction"
+    },
+    "xolalpan-450": {
+     "note": "An elite residence off the south-west corner of the Moon plaza, its patio framed by square pillars carved with quetzal-butterfly birds with inlaid obsidian eyes."
+    },
+    "collapse-650": {
+     "note": "Burned with the ceremonial centre; the roof beams fell into the rooms, where archaeologists found their charcoal.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/palace-of-quetzalpapalotl-650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 70,
+       "height": 24.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "aztec-1500": {
+     "note": "Buried under a low mound; it was dug out and rebuilt only in 1962–64.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A palace of priests or lords beside the Moon plaza, famous for its patio of carved pillars with birds in relief and its red painted walls.",
+   "details": [
+    "The palace was excavated and largely rebuilt by Jorge Acosta in 1962–64. Its pillars show birds, read as quetzals or owls, in profile and frontal view, once with obsidian eyes; red-painted bands and almenas (roof ornaments) with year signs crown the walls. Beneath it lie the Palace of the Jaguars and the older Building of the Feathered Shells.",
+    "The miniature shows the porticoed patio with its carved pillars, rooms on three sides, flat roofs edged with almenas and a stair up from the plaza. The roof ornaments are restored from fragments; the room plan follows Acosta's rebuilding."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-quetzalpapalotl",
+    "wiki-teotihuacan",
+    "berrin-pasztory",
+    "cowgill-2015"
+   ],
+   "built": "c. 450–550 CE (dates vary)",
+   "function": "Elite residence, perhaps of priests",
+   "activity": {
+    "figures": 14,
+    "radius": 40
+   }
+  },
+  {
+   "id": "plaza-of-the-columns",
+   "placeId": "plaza-of-the-columns",
+   "name": "Plaza of the Columns complex",
+   "category": "civic",
+   "position": [
+    2748,
+    1293
+   ],
+   "rotation": -74.5,
+   "footprint": [
+    220.0,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/plaza-of-the-columns.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 220,
+     "depth": 170,
+     "height": 68.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Not yet built; scattered houses on the west side of the early ceremonial way.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "A large plaza west of the avenue enclosed by platforms on three sides, opening east toward the Sun pyramid."
+    },
+    "xolalpan-450": {
+     "note": "Perhaps the seat of the city's rulers: feasting debris, Maya-style murals and Maya pottery found here suggest receptions of foreign envoys around 350–450.",
+     "confidence": "interpretation"
+    },
+    "collapse-650": {
+     "note": "Burned and abandoned with the rest of the avenue.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/plaza-of-the-columns-650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 220,
+       "depth": 170,
+       "height": 68.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "aztec-1500": {
+     "note": "Low mounds under fields, never fully excavated.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A great walled plaza west of the Avenue of the Dead between the Moon and the Sun, still mostly unexcavated, now thought by some to have been a palace of the city's rulers.",
+   "details": [
+    "The complex is a plaza some 120 m across closed by a large platform on the west and long platforms on the north and south, with buildings behind. Excavations led by Saburo Sugiyama since 2015 have found broken Maya-style murals, Maya pottery and the remains of large feasts, buried around 350–450 CE.",
+    "The miniature shows the plaza with a pyramid platform at the back, side platforms with temples, and residential buildings behind them. Almost everything above the ground plan is reconstruction by analogy with the excavated compounds."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "cowgill-2015",
+    "millon-1973"
+   ],
+   "built": "c. 200–350 CE",
+   "function": "Administrative or palace complex (debated)",
+   "activity": {
+    "figures": 30,
+    "radius": 90
+   }
+  },
+  {
+   "id": "pyramid-of-the-sun",
+   "placeId": "pyramid-of-the-sun",
+   "name": "Pyramid of the Sun",
+   "category": "temple",
+   "position": [
+    3077,
+    1494
+   ],
+   "rotation": 105.5,
+   "footprint": [
+    240.0,
+    290.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/pyramid-of-the-sun.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 240,
+     "depth": 290,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 24.0,
+     "columnHeight": 96.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tzacualli-100",
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Under construction: a core of earth, adobe and rubble rising in cells over a cave, with gangs carrying baskets up ramps. Its start is dated variously from about 100 to 170.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/teotihuacan/pyramid-of-the-sun-100.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 240,
+       "depth": 290,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 24.0,
+       "columnHeight": 96.0
+      }
+     }
+    },
+    "miccaotli-250": {
+     "note": "Finished by about 200–250: some 225 m a side and 65 m high, with its stair facing west toward the avenue and the setting sun."
+    },
+    "xolalpan-450": {
+     "note": "The largest building in the city, stuccoed and painted, with a platform (adosada) on its front and a temple on top, inside a vast walled enclosure."
+    },
+    "collapse-650": {
+     "note": "The temple on the summit burned and the stairs and platforms at its foot were wrecked in the destruction of the centre.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/pyramid-of-the-sun-650.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 240,
+       "depth": 290,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 24.0,
+       "columnHeight": 96.0
+      }
+     }
+    },
+    "aztec-1500": {
+     "name": "Tonatiuh Itzacual, the Sun's pyramid",
+     "note": "A huge overgrown hill. Here, the Aztecs said, Nanahuatzin rose as the Sun after the gods' sacrifice; pilgrims climbed it to make offerings.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/pyramid-of-the-sun-1500.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 240,
+       "depth": 290,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 24.0,
+       "columnHeight": 96.0
+      }
+     }
+    }
+   },
+   "summary": "The largest structure of the city and one of the largest in ancient America: a stepped pyramid about 225 m a side and 65 m high, built over a cave and facing the setting sun.",
+   "details": [
+    "Its core of earth, adobe and rubble was faced with stone and lime plaster. A cave-like tunnel found under it in 1971 runs about 100 m to a chamber below the centre. Leopoldo Batres stripped several metres of its outer face in 1905–10 and rebuilt it with five bodies; whether the original had tableros, as he restored, is uncertain.",
+    "The miniature shows the usual reconstruction: five talud-tablero bodies, a stair broken at each terrace, the adosada platform in front and a temple with merlons on the summit. The temple's form, its colours and the exact profile are reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sun",
+    "sugiyama-sun-2013",
+    "batres-1906",
+    "millon-1973",
+    "cowgill-2015"
+   ],
+   "built": "c. 100–250 CE (dates debated)",
+   "function": "Temple platform, perhaps of the storm or fire god",
+   "activity": {
+    "figures": 60,
+    "radius": 160
+   }
+  },
+  {
+   "id": "xalla",
+   "placeId": "xalla",
+   "name": "Xalla",
+   "category": "civic",
+   "position": [
+    3427,
+    1129
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    130.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/xalla.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 120,
+     "height": 48.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "miccaotli-250": {
+     "note": "Earlier buildings stood here; the compound in its known form belongs to the following centuries.",
+     "confidence": "interpretation"
+    },
+    "xolalpan-450": {
+     "note": "A walled complex of four large buildings round a plaza with a small temple at its centre, perhaps a palace of the city's rulers (Manzanilla's hypothesis)."
+    },
+    "collapse-650": {
+     "note": "Burned around 550 with the centre; its sculptures were broken and scattered, which suggests the fire was aimed at the rulers.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/xalla-650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "aztec-1500": {
+     "note": "Buried under low mounds north of the Sun pyramid.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A walled palace compound north of the Sun pyramid, with four large buildings round a central plaza and temple, which Linda Manzanilla has argued was the residence of the city's rulers.",
+   "details": [
+    "Excavated by Manzanilla and Leonardo López Luján from 1997, Xalla covers about 1.5 ha. Its buildings stand on talud-tablero platforms round a plaza; finds include stone sculptures of a lion-like feline, a figure of a god of fire and foreign stone. All were burned and smashed in the 6th century.",
+    "The miniature shows four platforms with long porticoed buildings, the central temple and the enclosing wall. The superstructures are reconstruction."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "manzanilla",
+    "cowgill-2015"
+   ],
+   "built": "c. 350–550 CE",
+   "function": "Palace (probably)",
+   "activity": {
+    "figures": 16,
+    "radius": 60
+   }
+  },
+  {
+   "id": "tepantitla",
+   "placeId": "tepantitla",
+   "name": "Tepantitla",
+   "category": "district",
+   "position": [
+    3525,
+    1301
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    60.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/tepantitla.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 60,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -15.0,
+        -15.0
+       ],
+       "width": 18.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        15.0,
+        12.0
+       ],
+       "width": 18.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "miccaotli-250": {
+     "note": "An apartment compound may already stand here; the painted rooms belong to the later rebuildings.",
+     "confidence": "interpretation"
+    },
+    "xolalpan-450": {
+     "note": "An apartment compound east of the Sun pyramid whose portico walls carry the mural Alfonso Caso called Tlalocan: a goddess above a paradise of water, trees and playing figures."
+    },
+    "collapse-650": {
+     "note": "Still standing, perhaps still lived in; some date its murals as late as 550–650.",
+     "confidence": "interpretation"
+    },
+    "aztec-1500": {
+     "note": "Buried in the fields; excavated in 1942.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "An apartment compound behind the Sun pyramid painted with one of the most famous murals of ancient America: the so-called Tlalocan, with a goddess above and tiny figures playing, swimming and singing below.",
+   "details": [
+    "Caso read the painting as Tlalocan, the rain god's paradise; many now see the central figure as the Great Goddess, with water and seeds flowing from her hands. The lower register shows more than a hundred small figures playing ball with sticks, swimming, chasing butterflies and singing, with speech scrolls.",
+    "The miniature shows a walled compound with flat roofs, rooms round porticoed patios and red mural bands in the main portico. The plan is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tlalocan",
+    "wiki-great-goddess",
+    "berrin-pasztory",
+    "pasztory-1997"
+   ],
+   "built": "c. 450–650 CE (murals; dates debated)",
+   "function": "Apartment compound",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "tetitla",
+   "placeId": "tetitla",
+   "name": "Tetitla",
+   "category": "district",
+   "position": [
+    2416,
+    1409
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    64.0,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/tetitla.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 64,
+      "depth": 64
+     },
+     "buildings": [
+      {
+       "offset": [
+        -16.0,
+        -16.0
+       ],
+       "width": 19.2,
+       "depth": 19.2,
+       "height": 8
+      },
+      {
+       "offset": [
+        16.0,
+        12.8
+       ],
+       "width": 19.2,
+       "depth": 19.2,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "miccaotli-250": {
+     "note": "An earlier compound stood here; the excavated building is mainly of the 4th to 6th centuries.",
+     "confidence": "interpretation"
+    },
+    "xolalpan-450": {
+     "note": "A wealthy compound some 500 m west of the avenue, its rooms painted with goddesses scattering jade and water, jaguars, and some Maya-style glyphs."
+    },
+    "collapse-650": {
+     "note": "Still occupied for a time after the centre burned; rooms were later abandoned and filled with rubble.",
+     "confidence": "interpretation"
+    },
+    "aztec-1500": {
+     "note": "Under the fields; excavated by Laurette Séjourné in 1963–64.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A large apartment compound west of the Avenue of the Dead with more than a hundred mural fragments, among them the 'Jade Goddess' scattering water and treasures.",
+   "details": [
+    "Excavated by Laurette Séjourné in 1963–64, Tetitla has some 120 painted walls: goddesses with outstretched hands dropping jade and streams of water, coyotes and jaguars in headdresses, and a group of paintings with Maya-style figures and glyphs, perhaps made by or for Maya visitors.",
+    "The miniature shows the walled compound with several patios, the porticoes painted red, a small temple on the main patio and the outer wall's sloping base. Room layout is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "wiki-great-goddess",
+    "berrin-pasztory",
+    "pasztory-1997"
+   ],
+   "built": "c. 350–650 CE",
+   "function": "Apartment compound",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "atetelco",
+   "placeId": "atetelco",
+   "name": "Atetelco",
+   "category": "district",
+   "position": [
+    1936,
+    1380
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    64.0,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/atetelco.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 64,
+      "depth": 64
+     },
+     "buildings": [
+      {
+       "offset": [
+        -16.0,
+        -16.0
+       ],
+       "width": 19.2,
+       "depth": 19.2,
+       "height": 8
+      },
+      {
+       "offset": [
+        16.0,
+        12.8
+       ],
+       "width": 19.2,
+       "depth": 19.2,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "miccaotli-250": {
+     "note": "The first part, the White Patio, may date from about 300–400; the rest is later.",
+     "confidence": "interpretation"
+    },
+    "xolalpan-450": {
+     "note": "A compound whose White Patio has three porticoes painted in red with processions of coyotes, jaguars and warriors in feathered costume."
+    },
+    "collapse-650": {
+     "note": "Probably abandoned or dwindling after the burning of the centre.",
+     "confidence": "interpretation"
+    },
+    "aztec-1500": {
+     "note": "Buried in the fields; excavated and restored in the 1940s and 1950s.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "An apartment compound on the western side of the city, known for its White Patio, where porticoes on three sides were painted with netted jaguars and coyotes and armed warriors.",
+   "details": [
+    "The White Patio has a small altar at its centre and a temple platform on each of three sides, its porticoes painted with red-and-white net patterns enclosing coyotes and jaguars, and processions of richly dressed figures with spearthrowers. They are read as images of military orders.",
+    "The miniature shows the walled compound with its three-temple patio, the red mural bands, rooms round other patios, and flat roofs. Details of the rear rooms are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "headrick",
+    "berrin-pasztory"
+   ],
+   "built": "c. 300–550 CE",
+   "function": "Apartment compound",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "avenue-of-the-dead",
+   "placeId": "avenue-of-the-dead",
+   "name": "Avenue of the Dead: the sunken plazas",
+   "category": "monument",
+   "position": [
+    2785,
+    1875
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    130.0,
+    440.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/avenue-of-the-dead.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 440,
+     "height": 52.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "A way probably already ran here between the river and the new Sun pyramid, but the platforms and sunken plazas are not yet built.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "The avenue is paved and closed by cross-walls into a stair of sunken plazas, each lower than the next to the north; temple platforms line both sides."
+    },
+    "xolalpan-450": {
+     "note": "The busiest stretch of the avenue: the Street of the Dead complex, the Superposed Buildings and the Viking group line it, all painted red and white."
+    },
+    "collapse-650": {
+     "note": "Its temples burned, their sculptures smashed and scattered on the paving; heaps of debris block the plazas.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/avenue-of-the-dead-650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 440,
+       "height": 52.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "aztec-1500": {
+     "name": "Miccaotli",
+     "note": "A path between lines of grassy mounds, which the Aztecs took for the tombs of ancient kings.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/avenue-of-the-dead-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 440,
+       "height": 52.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "The stretch of the Avenue of the Dead between the Sun pyramid and the San Juan river, where cross-walls divide the 40 m wide avenue into sunken plazas lined with temple platforms.",
+   "details": [
+    "The avenue rises about 30 m from the Ciudadela to the Moon. North of the river it is crossed by walls with stairs on both sides that divide it into sunken plazas. Along its sides stand the Street of the Dead complex, a group of palaces and temples, the Superposed Buildings and the Viking group, named after the Viking Fund that paid for its excavation, where sheets of mica lay under a floor.",
+    "The miniature shows a section of about 440 m: the paved avenue, four cross-walls with stairs, and talud-tablero platforms with small temples along both sides. The number of platforms is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "millon-1973",
+    "cowgill-2015"
+   ],
+   "built": "c. 200–450 CE",
+   "function": "Processional avenue and temple platforms",
+   "activity": {
+    "figures": 80,
+    "radius": 200
+   }
+  },
+  {
+   "id": "san-juan-crossing",
+   "placeId": "san-juan-crossing",
+   "name": "Crossing of the Río San Juan",
+   "category": "monument",
+   "position": [
+    2651,
+    2357
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    120.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/san-juan-crossing.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "The river still winds through its natural bed here; it will be straightened to the grid.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "The river runs straight across the avenue in a channel at right angles to it, bent from its old course to fit the city's grid."
+    },
+    "xolalpan-450": {
+     "note": "A stone-lined channel crossing the avenue, with platforms on both banks."
+    },
+    "collapse-650": {
+     "note": "Unmaintained; silt and debris from the burned buildings fill the channel.",
+     "confidence": "interpretation"
+    },
+    "aztec-1500": {
+     "note": "The canalised bed survives, its banks overgrown with willows.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The point where the canalised San Juan river crosses the Avenue of the Dead at right angles, evidence that the builders reshaped even the river to fit their grid.",
+   "details": [
+    "Millon's survey showed that the San Juan runs straight and at right angles to the avenue where it crosses the centre of the city, unlike its course upstream and downstream; the river was deliberately canalised. How the avenue crossed it, by a bridge, a ford or a culvert, is not known.",
+    "The miniature shows a stone-lined channel, the avenue's paving stepping down to it, a crossing of stone slabs and platforms on the banks. The crossing itself is a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "millon-1973",
+    "cowgill-2015"
+   ],
+   "built": "c. 200–300 CE",
+   "function": "River channel and crossing",
+   "activity": {
+    "figures": 12,
+    "radius": 50
+   }
+  },
+  {
+   "id": "ciudadela",
+   "placeId": "ciudadela",
+   "name": "The Ciudadela",
+   "category": "civic",
+   "position": [
+    2785,
+    2716
+   ],
+   "rotation": 105.5,
+   "footprint": [
+    400.0,
+    400.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/ciudadela.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 400,
+     "depth": 400,
+     "height": 160.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Not yet built; the ground east of the river is open, with scattered houses.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "Built round 200: a vast square enclosure of platforms carrying fifteen small temple-pyramids, round a plaza with the Feathered Serpent Pyramid at its back."
+    },
+    "xolalpan-450": {
+     "note": "The political centre of the city, with residential compounds beside the Feathered Serpent Pyramid, perhaps the rulers' palaces."
+    },
+    "collapse-650": {
+     "note": "Burned and wrecked with the rest of the centre; the temples on its platforms gone.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/ciudadela-650.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 400,
+       "depth": 400,
+       "height": 160.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "aztec-1500": {
+     "note": "A great square of grassy ridges; the Spanish later called it the Ciudadela, 'citadel', taking it for a fortress.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/ciudadela-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 400,
+       "depth": 400,
+       "height": 160.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A walled enclosure about 400 m square on the east side of the avenue, its platforms topped by fifteen temple-pyramids round a plaza that could hold tens of thousands; the setting of the Feathered Serpent Pyramid.",
+   "details": [
+    "The Ciudadela's broad platforms, about 7 m high, enclose a sunken plaza of some 4.4 ha; Millon estimated that it could hold 100,000 people. Behind the Feathered Serpent Pyramid stood two residential compounds, often taken for the rulers' palaces, though this is debated.",
+    "The miniature shows the enclosing platforms, a broad stair from the avenue, fifteen small talud-tablero pyramids with stairs facing the plaza, and the compounds at the back. The Feathered Serpent Pyramid is a separate model."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-feathered-serpent",
+    "wiki-teotihuacan",
+    "sugiyama-2005",
+    "millon-1973"
+   ],
+   "built": "c. 200–250 CE",
+   "function": "Ceremonial and political enclosure",
+   "activity": {
+    "figures": 50,
+    "radius": 180
+   }
+  },
+  {
+   "id": "temple-of-the-feathered-serpent",
+   "placeId": "feathered-serpent-pyramid",
+   "name": "Temple of the Feathered Serpent",
+   "category": "temple",
+   "position": [
+    2857,
+    2736
+   ],
+   "rotation": 105.5,
+   "footprint": [
+    80.0,
+    100.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/temple-of-the-feathered-serpent.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 80,
+     "depth": 100,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 8.0,
+     "columnHeight": 32.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Not yet built.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "Newly finished: six talud-tablero tiers carved with feathered serpents and headdress heads, painted, with some 200 sacrificed people buried in and around it."
+    },
+    "xolalpan-450": {
+     "note": "Around 350 a plain talud-tablero platform (the adosada) was built against its front, hiding the carved facade, and many sculptures were torn down: a political change, perhaps.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/teotihuacan/temple-of-the-feathered-serpent-adosada.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 80,
+       "depth": 100,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 8.0,
+       "columnHeight": 32.0
+      }
+     }
+    },
+    "collapse-650": {
+     "note": "The temple on the adosada burned with the rest of the centre.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/temple-of-the-feathered-serpent-650.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 80,
+       "depth": 100,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 8.0,
+       "columnHeight": 32.0
+      }
+     }
+    },
+    "aztec-1500": {
+     "note": "A grassy mound in the Ciudadela; its carved front stayed hidden until excavated in 1917–20.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/teotihuacan/temple-of-the-feathered-serpent-1500.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 80,
+       "depth": 100,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 8.0,
+       "columnHeight": 32.0
+      }
+     }
+    }
+   },
+   "summary": "The third-largest pyramid of Teotihuacan, its six tiers covered with the projecting heads of feathered serpents and of a headdress-serpent, dedicated with about 200 human sacrifices.",
+   "details": [
+    "Built about 200–250 CE, it measured about 65 m a side and 20 m high. Its tableros carry undulating feathered serpents in relief with hundreds of tenoned heads: the serpent with its feather collar alternating with a mosaic headdress, read as Cipactli or a war serpent. Sugiyama and others found some 200 sacrificed men and women buried in groups, many dressed as warriors.",
+    "The miniature shows the six tiers with their relief and projecting heads, the stair with serpent-headed balustrades and the temple on top. The colours follow traces of paint; the temple's form is reconstruction. Variant: the plainer adosada platform of c. 350 covering the front."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-feathered-serpent",
+    "sugiyama-2005",
+    "wiki-talud-tablero",
+    "wiki-feathered-serpent-deity"
+   ],
+   "built": "c. 200–250 CE; adosada c. 350",
+   "function": "Temple of the Feathered Serpent",
+   "activity": {
+    "figures": 24,
+    "radius": 60
+   }
+  },
+  {
+   "id": "great-compound",
+   "placeId": "great-compound",
+   "name": "The Great Compound",
+   "category": "commercial",
+   "position": [
+    2342,
+    2593
+   ],
+   "rotation": -74.5,
+   "footprint": [
+    380.0,
+    370.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/great-compound.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 380,
+      "depth": 370
+     },
+     "buildings": [
+      {
+       "offset": [
+        -95.0,
+        -92.5
+       ],
+       "width": 114.0,
+       "depth": 111.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        95.0,
+        74.0
+       ],
+       "width": 114.0,
+       "depth": 111.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Not yet built; open ground west of the way.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "Two great platforms flank a plaza opening onto the avenue, facing the Ciudadela across it."
+    },
+    "xolalpan-450": {
+     "note": "Perhaps the city's great market, as Millon proposed: the largest open space in the city, opposite the political centre.",
+     "confidence": "interpretation"
+    },
+    "collapse-650": {
+     "note": "Abandoned as a public space after the destruction of the centre.",
+     "confidence": "interpretation"
+    },
+    "aztec-1500": {
+     "note": "Ploughed fields with two long low ridges.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The largest complex of the city, across the avenue from the Ciudadela: two huge platforms flanking an open plaza that René Millon thought was the main marketplace.",
+   "details": [
+    "The Great Compound is barely excavated. Its plaza is bigger than the Ciudadela's, and unlike most complexes it has few temples; with the Ciudadela it marks the centre of the cross formed by the Avenue of the Dead and the East and West avenues. A market is a hypothesis: no stalls have been excavated.",
+    "The miniature shows the two platforms with long buildings on top, the plaza with market mats and awnings, and stairs facing the avenue. Everything above the platforms is interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "millon-1973",
+    "cowgill-2015"
+   ],
+   "built": "c. 200–300 CE",
+   "function": "Marketplace or administrative centre (hypothesis)",
+   "activity": {
+    "figures": 90,
+    "radius": 170
+   }
+  },
+  {
+   "id": "oaxaca-barrio",
+   "placeId": "tlailotlacan",
+   "name": "Tlailotlacan, the Oaxaca barrio",
+   "category": "district",
+   "position": [
+    378,
+    1570
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    120.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/oaxaca-barrio.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 120,
+      "depth": 120
+     },
+     "buildings": [
+      {
+       "offset": [
+        -30.0,
+        -30.0
+       ],
+       "width": 36.0,
+       "depth": 36.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        30.0,
+        24.0
+       ],
+       "width": 36.0,
+       "depth": 36.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Fields on the western edge of the settlement; the Zapotec settlers have not yet come.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "Zapotec families from the Valley of Oaxaca settle here around 200–250, in compounds of local style but keeping their pottery and tombs."
+    },
+    "xolalpan-450": {
+     "note": "Some 600 to 1,000 people of Zapotec descent, still burying their dead in stone tombs with Oaxacan urns."
+    },
+    "collapse-650": {
+     "note": "The enclave seems to break up after the collapse of the centre; some families perhaps returned to Oaxaca.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "An enclave of Zapotec families from Oaxaca on the western edge of the city, who lived in Teotihuacan-style compounds but kept their own burial customs for four centuries.",
+   "details": [
+    "Excavations by Michael Spence and Evelyn Rattray found Oaxacan grey pottery made locally, funerary urns, and a stone-lined tomb with a carved jamb in Zapotec style. Bones show that some people were born in Oaxaca or moved back and forth. The barrio lay some 2–3 km west of the avenue.",
+    "The miniature shows a walled compound with its patios, a Zapotec-style tomb entrance in the main patio, a carved stela, and a smaller compound with fields. Layout simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "wiki-zapotec",
+    "spence-1992",
+    "rattray-1987"
+   ],
+   "built": "c. 200 CE",
+   "function": "Residential barrio",
+   "activity": {
+    "figures": 16,
+    "radius": 70
+   }
+  },
+  {
+   "id": "merchants-barrio",
+   "placeId": "merchants-barrio",
+   "name": "The Merchants' barrio",
+   "category": "district",
+   "position": [
+    4490,
+    2088
+   ],
+   "rotation": 15.5,
+   "footprint": [
+    140.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/teotihuacan/merchants-barrio.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 140,
+      "depth": 120
+     },
+     "buildings": [
+      {
+       "offset": [
+        -35.0,
+        -30.0
+       ],
+       "width": 42.0,
+       "depth": 36.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        35.0,
+        24.0
+       ],
+       "width": 42.0,
+       "depth": 36.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "Fields on the eastern edge of the settlement.",
+     "confidence": "interpretation"
+    },
+    "miccaotli-250": {
+     "note": "Families from the Gulf coast and the Maya lowlands settle here, building round adobe houses unlike anything else in the city."
+    },
+    "xolalpan-450": {
+     "note": "A trading quarter on the road east, with Gulf-coast and Maya pottery, round houses and Teotihuacan-style compounds side by side."
+    },
+    "collapse-650": {
+     "note": "Abandoned or nearly so after the collapse of the city's long-distance trade.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A barrio on the eastern edge of the city where Evelyn Rattray found round adobe buildings and pottery from the Gulf coast and the Maya lowlands: probably the home of foreign traders.",
+   "details": [
+    "The round structures, up to 10 m across, are without parallel elsewhere in the city; the pottery includes fine wares from Veracruz and the Maya area. The barrio stood near the routes east toward the Gulf, and its people are thought to have been merchants or their agents.",
+    "The miniature shows round adobe houses with conical thatch beside a rectangular compound, bales and jars of trade goods. The round houses' roofs are a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "rattray-1987",
+    "cowgill-2015"
+   ],
+   "built": "c. 200–550 CE",
+   "function": "Residential barrio of foreign traders",
+   "activity": {
+    "figures": 16,
+    "radius": 70
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "obsidian-workshop",
+   "name": "Obsidian blade workshop",
+   "kind": "workshop",
+   "position": [
+    2551,
+    958
+   ],
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "summary": "A compound where knappers turned cores of green obsidian from the Pachuca hills into long prismatic blades, the city's most famous product, traded across Mesoamerica.",
+   "details": [
+    "Survey found hundreds of places in the city with heavy obsidian debris; some workshops lay near the Moon pyramid and may have worked for the state. Grey obsidian came from Otumba, the prized green from Sierra de las Navajas near Pachuca. How many workshops were full-time is debated: Spence counted many, later studies fewer."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-obsidian",
+    "spence-obsidian",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A porter unloads a net of green cores, each the size of a fist, brought two days' walk from the Pachuca hills. The master checks them against the light for flaws."
+    },
+    {
+     "hour": 12,
+     "text": "Knappers sit cross-legged on mats, pressing blades off the cores with a crutch of antler and wood. Each crack leaves a blade as long as a finger, sharp enough to shave."
+    },
+    {
+     "hour": 18,
+     "text": "The patio glitters with chips. A boy sweeps them into a pit in the floor; tomorrow a buyer from the Gulf coast will take two hundred blades."
+    }
+   ],
+   "variants": {
+    "miccaotli-250": {
+     "note": "Workshops multiply as the city grows; the state may already control the supply of green obsidian."
+    }
+   }
+  },
+  {
+   "id": "tlajinga-potters",
+   "name": "Potters of Tlajinga",
+   "kind": "workshop",
+   "position": [
+    2063,
+    3544
+   ],
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "summary": "A modest compound at the southern end of the avenue where families made San Martín Orange cooking pots and big storage jars, and where bowls of Thin Orange ware, brought from Puebla, were sold on.",
+   "details": [
+    "Excavations at Tlajinga 33 found a compound of craftsmen, first lapidaries, then potters making San Martín Orange ware. The fine, eggshell-thin Thin Orange bowls found all over the city were not made here: they came from the Río Carnero valley in southern Puebla. Burials show hard lives, with high infant mortality."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "widmer-tlajinga",
+    "cowgill-2015",
+    "wiki-teotihuacan"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Women knead orange clay on mats in the patio while a fire of brush and dung is built round yesterday's pots."
+    },
+    {
+     "hour": 13,
+     "text": "A trader opens a bale packed with straw: stacks of Thin Orange bowls from Puebla, so thin they ring when tapped. The potters' own jars are coarse beside them."
+    },
+    {
+     "hour": 19,
+     "text": "The firing pit smokes. Children carry a Tlaloc jar, painted with the rain god's goggled face, to the patio shrine for the coming rains."
+    }
+   ],
+   "variants": {
+    "collapse-650": {
+     "note": "Still working for a dwindling city; the compound's last floors are poorer."
+    }
+   }
+  },
+  {
+   "id": "tetitla-painter",
+   "name": "Mural painter at Tetitla",
+   "kind": "workshop",
+   "position": [
+    2477,
+    1374
+   ],
+   "activePeriods": [
+    "xolalpan-450",
+    "collapse-650"
+   ],
+   "summary": "Painters at work on the walls of the Tetitla compound, laying red, green and blue mineral colours on burnished lime plaster in the tradition that covered the city's walls.",
+   "details": [
+    "Teotihuacan murals were painted on a thin coat of fine lime plaster, often while still damp, in hematite red, malachite green, Maya-blue-like blues and ochres, then burnished. Outlines were drawn first in red. Some walls at Tetitla show Maya-style figures and glyphs, perhaps painted by Maya artists or for Maya residents."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "berrin-pasztory",
+    "wiki-great-goddess",
+    "wiki-teotihuacan"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "An apprentice grinds red hematite on a stone slab, adding water a few drops at a time. The fresh plaster on the portico wall is still cool and damp."
+    },
+    {
+     "hour": 11,
+     "text": "The master draws the goddess's outstretched hands in thin red lines; jade drops and streams of water will fall from them."
+    },
+    {
+     "hour": 17,
+     "text": "The painted wall is rubbed with a smooth pebble until it shines. Tomorrow the green of the feathers, the costliest colour."
+    }
+   ],
+   "variants": {
+    "collapse-650": {
+     "note": "No new murals are known after the burning of the centre; old paintings are covered over or left to fade.",
+     "name": "Faded murals at Tetitla"
+    }
+   }
+  },
+  {
+   "id": "zapotec-tomb",
+   "name": "A Zapotec family's tomb",
+   "kind": "house",
+   "position": [
+    397,
+    1503
+   ],
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "summary": "In the Oaxaca barrio, a household buries a relative in a stone-lined tomb under the patio, in the manner of the Valley of Oaxaca, with a grey ceramic urn of a Zapotec god.",
+   "details": [
+    "Tomb 1 at the barrio's compound TL7 is a small stone chamber entered by a stair, with a jamb carved with Zapotec glyphs. Grey urns, Oaxacan in style but made from local clay, accompanied the dead. Isotopes in the bones suggest that people kept moving between Teotihuacan and Oaxaca for generations."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "spence-1992",
+    "rattray-1987",
+    "wiki-zapotec"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Men lift the slabs of the patio floor over the old tomb. The stair down is cleared of earth; inside lie the bones of grandparents, pushed aside to make room."
+    },
+    {
+     "hour": 14,
+     "text": "The body, wrapped in cloth, is laid in the chamber with a grey urn: a seated figure with a tall headdress, the old god of the family's homeland."
+    },
+    {
+     "hour": 20,
+     "text": "The slabs are back in place. In the kitchen the women cook food from home, and an old man speaks the Zapotec words few children still use."
+    }
+   ],
+   "variants": {
+    "xolalpan-450": {
+     "note": "Four centuries on, the barrio's families still bury their dead the Oaxacan way, though they cook and build like Teotihuacanos."
+    }
+   }
+  },
+  {
+   "id": "maya-residence",
+   "name": "House of Maya visitors",
+   "kind": "house",
+   "position": [
+    2576,
+    1391
+   ],
+   "activePeriods": [
+    "xolalpan-450"
+   ],
+   "summary": "Rooms near the Plaza of the Columns where Maya pottery, Maya-style murals and the remains of feasts suggest that envoys or residents from the Maya lowlands were received and housed.",
+   "details": [
+    "Excavations since 2015 at the Plaza of the Columns found fragments of murals painted in Maya style with Maya glyphs, Maya pottery and the bones and debris of large feasts, deliberately broken and buried about 350–450. Who these Maya were, ambassadors, artists or residents, is unknown; this spot stands for them."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-maya",
+    "wiki-teotihuacan",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "A scribe from the lowlands paints a column of glyphs on a wall: the curling signs of his own language, strange to the Teotihuacanos who watch."
+    },
+    {
+     "hour": 14,
+     "text": "Cacao is beaten to froth in painted cups from the south, and dogs and deer roast for the guests; the hosts' Nahua-speaking interpreters move between them."
+    },
+    {
+     "hour": 20,
+     "text": "The feast is over. Servants break the cups and plates and bury them in a pit, an ending for the occasion."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "lime-plasterers",
+   "name": "Lime and plaster yard",
+   "kind": "works",
+   "position": [
+    3034,
+    2100
+   ],
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "summary": "A yard where lime, carried in from the limestone country to the north, was slaked and mixed with sand to plaster the city's walls and floors, renewed again and again.",
+   "details": [
+    "There is no limestone in the Teotihuacan valley; lime came from the north, most probably from the Tula region of Hidalgo, 50–70 km away. Huge quantities were needed: every floor, wall and pyramid was coated, often many times. Burning lime used vast amounts of firewood and may have helped deforest the hills."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-lime-plaster",
+    "cowgill-2015",
+    "manzanilla"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Porters arrive with lumps of burned lime wrapped in leaves, carried on tumplines from the north. It is handled with care: wet, it burns the skin."
+    },
+    {
+     "hour": 12,
+     "text": "Lime hisses and steams as water is poured over it in a pit. Workers stir the paste with long poles, white to the elbows."
+    },
+    {
+     "hour": 17,
+     "text": "Pots of plaster go out to a compound being refloored; a mason smooths the new floor with a flat stone until it gleams."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "market",
+   "name": "Market in the Great Compound",
+   "kind": "market",
+   "position": [
+    2442,
+    2548
+   ],
+   "activePeriods": [
+    "xolalpan-450"
+   ],
+   "summary": "If Millon was right, the plaza of the Great Compound held the city's main market: food from the valley, obsidian, Thin Orange bowls, cotton from the lowlands, shells, feathers and jade.",
+   "details": [
+    "No market stalls have been excavated, so the market is a hypothesis drawn from the plaza's size, its few temples and its place at the city's crossroads. Teotihuacan had no money as such; cacao beans, cotton cloth and obsidian may have served as measures of value, as they did in later Mesoamerica."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "cowgill-2015",
+    "wiki-teotihuacan"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Mats are unrolled in rows. A woman from Tlajinga sets out cooking pots; beside her a man from the Gulf lays out cotton mantles and bundles of vanilla pods."
+    },
+    {
+     "hour": 12,
+     "text": "The plaza roars. Obsidian blades are traded for maize by the basket; a shell-worker shows rings of spondylus from the Pacific."
+    },
+    {
+     "hour": 17,
+     "text": "Porters load unsold goods. Across the avenue the Ciudadela's platforms catch the evening sun."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "spring-fields",
+   "name": "Fields by the springs",
+   "kind": "garden",
+   "position": [
+    448,
+    2629
+   ],
+   "activePeriods": [
+    "tzacualli-100",
+    "miccaotli-250",
+    "xolalpan-450",
+    "collapse-650",
+    "aztec-1500"
+   ],
+   "summary": "Irrigated plots on the wet valley floor south-west of the city, watered from the springs by canals; some think raised fields like chinampas were made here.",
+   "details": [
+    "Some eighty springs rose near modern San Juan Teotihuacán. Sanders and others argued that canal irrigation from them fed much of the city; whether there were true raised beds (chinampa-like) here in Teotihuacan times is debated. In the 16th century the springs still watered fields of maize, beans and chilli."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "sanders-1979",
+    "wiki-chinampa",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A farmer opens a gap in the canal bank with his digging stick; water slides into the furrows between the maize rows."
+    },
+    {
+     "hour": 12,
+     "text": "His wife weeds between the beans climbing the maize stalks. Herons stalk the canal's edge for frogs."
+    },
+    {
+     "hour": 18,
+     "text": "He walks back toward the city with a load of squash on his back, the Sun pyramid red in the low light far up the valley."
+    }
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "The first canals are dug from the springs; whether early farming here was irrigated is debated."
+    },
+    "collapse-650": {
+     "note": "With fewer people in the city, the fields by the springs keep feeding the farmers who remain."
+    },
+    "aztec-1500": {
+     "note": "The springs water the fields of the Acolhua town of Teotihuacan; it pays tribute in maize to Texcoco."
+    }
+   }
+  },
+  {
+   "id": "censer-workshop",
+   "name": "Censer workshop by the Ciudadela",
+   "kind": "workshop",
+   "position": [
+    2818,
+    2502
+   ],
+   "activePeriods": [
+    "xolalpan-450"
+   ],
+   "summary": "A workshop against the north wall of the Ciudadela that made 'theatre' censers: incense burners with a lid built up like a stage of mould-made plaques round a masked face.",
+   "details": [
+    "Luis Carlos Múnera excavated thousands of moulds and plaques here in the 1980s: flowers, butterflies, shields, feathers and faces, assembled on the lids of censers. Its place by the Ciudadela suggests state control of an important ritual craft; theatre censers are linked with warriors and the dead."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "munera-1985",
+    "berrin-pasztory",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A craftsman presses clay into a mould of a butterfly, eases it out and lays it on a board beside rows of flowers and little shields."
+    },
+    {
+     "hour": 13,
+     "text": "Another assembles a lid: a frame like a temple front, a masked face at its centre, plaques stuck on with slip until it bristles with feathers of clay."
+    },
+    {
+     "hour": 18,
+     "text": "Painted censers, red, yellow and white, are carried across to a priest; tonight copal will smoke through the mask's mouth."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sun-priest",
+   "name": "Priests at the Sun pyramid",
+   "kind": "shrine",
+   "position": [
+    3000,
+    1322
+   ],
+   "activePeriods": [
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "summary": "At the foot of the Sun pyramid's stair, priests burn copal and receive offerings before climbing to the temple on the summit, 65 m above the avenue.",
+   "details": [
+    "Little is known of Teotihuacan's priesthood. Murals show richly dressed figures in procession, scattering seeds or water and carrying incense bags; the 'priests' may have been the city's leaders too. Offerings under the pyramid include obsidian figures, greenstone and the bones of sacrificed animals."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sun",
+    "wiki-copal",
+    "berrin-pasztory"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn a line of priests in feathered headdresses climbs the stair with torches. Smoke of copal drifts from the summit as the sun clears the eastern hills."
+    },
+    {
+     "hour": 12,
+     "text": "At the foot of the stair a priest takes a family's offering, a small greenstone figure and a bundle of quetzal feathers, and adds them to a basket."
+    },
+    {
+     "hour": 19,
+     "text": "Drums from the summit. The setting sun lines up with the pyramid's front, and the stair goes dark before the plaza."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "oztoyahualco-house",
+   "name": "Household at Oztoyahualco",
+   "kind": "house",
+   "position": [
+    1992,
+    616
+   ],
+   "activePeriods": [
+    "tzacualli-100",
+    "miccaotli-250",
+    "xolalpan-450"
+   ],
+   "summary": "An ordinary household in the north-western quarter: rooms of adobe and stone round a patio, a family altar, cooking hearths, and the dead buried under the floors.",
+   "details": [
+    "Linda Manzanilla's excavation of compound 15B:N6W3 at Oztoyahualco found three families sharing a compound, each with kitchen, store and ritual areas, figurines of a household god, and burials under the floors. Chemical traces in the floor plaster showed where food was cooked, eaten and stored."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "manzanilla-1993",
+    "manzanilla",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A woman kneels at the metate grinding nixtamal; the slap of tortillas begins in three kitchens round the patio."
+    },
+    {
+     "hour": 13,
+     "text": "The grandmother places a small clay figurine on the patio altar with a pinch of incense. A turkey scratches in the corner."
+    },
+    {
+     "hour": 20,
+     "text": "Families eat by the hearths. Under the floor of the next room lies an uncle, buried last year with a pot and some obsidian."
+    }
+   ],
+   "variants": {
+    "tzacualli-100": {
+     "note": "In the early city the household lives in adobe and wattle rooms round an open yard; stone compounds come later.",
+     "name": "Early household at Oztoyahualco"
+    }
+   }
+  },
+  {
+   "id": "pyramid-builders",
+   "name": "Builders of the Sun pyramid",
+   "kind": "works",
+   "position": [
+    3218,
+    1735
+   ],
+   "activePeriods": [
+    "tzacualli-100"
+   ],
+   "summary": "Camps and borrow pits of the workers raising the Pyramid of the Sun: thousands of people carrying earth, adobe and stone in baskets up the growing mound.",
+   "details": [
+    "The pyramid's core holds over a million cubic metres of fill, laid in compartments of adobe walls. Tunnels inside found pottery, figurines and offerings, including a ritual deposit at its centre. How the labour was organised, by tribute, by devotion or by pay in food, is unknown."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sun",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Work gangs gather by their foremen. Women grind maize at the camp's edge for the day's tortillas."
+    },
+    {
+     "hour": 11,
+     "text": "Lines of carriers climb the ramps with baskets of earth on tumplines; at the top they tip them into a cell walled with adobe and go down again."
+    },
+    {
+     "hour": 17,
+     "text": "Workers wash in the stream. Someone presses a little clay figure into the fill of the day's cell, an offering for the mountain they are making."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "coyotlatelco-squatters",
+   "name": "Newcomers in a burned compound",
+   "kind": "house",
+   "position": [
+    1904,
+    1682
+   ],
+   "activePeriods": [
+    "collapse-650"
+   ],
+   "summary": "After the fire, a family with the new red-on-buff Coyotlatelco pottery builds a small house inside the walls of an abandoned apartment compound.",
+   "details": [
+    "Coyotlatelco pottery appears in the Basin of Mexico in the 7th century. Whether its makers were newcomers from the north-west or local people with a new style is debated. At Teotihuacan they lived in hamlets and in parts of the old compounds, reusing their stones."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "cowgill-2015",
+    "manzanilla",
+    "wiki-teotihuacan"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A man prises cut stones out of a fallen wall and carries them to his own little house, built in a corner of the empty compound."
+    },
+    {
+     "hour": 13,
+     "text": "His wife cooks in a red-painted pot; under the rubble in the next room lie fragments of a mural nobody can read any more."
+    },
+    {
+     "hour": 18,
+     "text": "From the doorway they see the blackened Sun pyramid. Their children are told that giants built it."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "aztec-pilgrim",
+   "name": "Pilgrims' shrine at the Sun",
+   "kind": "shrine",
+   "position": [
+    2980,
+    1617
+   ],
+   "activePeriods": [
+    "aztec-1500"
+   ],
+   "summary": "Aztec pilgrims and priests climb the overgrown pyramid to make offerings at the place where, they believed, the Fifth Sun was born.",
+   "details": [
+    "Aztec-period offerings and pottery have been found on and around the pyramids. The Aztecs dug into Teotihuacan's ruins, carried off masks and figures and reburied some in the Templo Mayor of Tenochtitlan. Sahagún's informants said the mounds were tombs of lords who became gods."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "sahagun",
+    "wiki-fifth-sun",
+    "wiki-sun"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A pilgrim from Texcoco climbs the grassy slope at dawn, picking his way between fallen stones, with a bundle of copal and a quail for sacrifice."
+    },
+    {
+     "hour": 12,
+     "text": "On the summit a priest from the town burns copal in a censer; below, the line of mounds runs south like a dry riverbed."
+    },
+    {
+     "hour": 17,
+     "text": "Coming down, the pilgrim picks up a small greenstone face in a furrow and wraps it carefully: a relic of the giants."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "aztec-hamlet",
+   "name": "Hamlet among the mounds",
+   "kind": "house",
+   "position": [
+    3483,
+    1601
+   ],
+   "activePeriods": [
+    "aztec-1500"
+   ],
+   "summary": "A few Aztec-period households farming among the ruins east of the Sun pyramid, their houses built of stones from the old compounds.",
+   "details": [
+    "Surveys found Aztec-period pottery scattered over much of the old city, from farmsteads and small hamlets. The main Aztec-period town, subject to Texcoco, lay to the south-west near the springs, where San Juan Teotihuacán is today."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "sanders-1979",
+    "wiki-san-juan",
+    "cowgill-2015"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke rises from a sweat bath built of old cut stones. The father goes out to his maize field, which runs over a buried compound."
+    },
+    {
+     "hour": 13,
+     "text": "His hoe strikes a painted wall under the soil: a red line, a face. He covers it again; old things belong to the old gods."
+    },
+    {
+     "hour": 19,
+     "text": "The family eats beans and tortillas by the hearth. Pulque from their own maguey goes round in a cup."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "sun-cave",
+   "title": "Rites in the cave under the Sun",
+   "periodId": "tzacualli-100",
+   "date": "1st century CE (approximate)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "pyramid-of-the-sun"
+   },
+   "effect": "crowd",
+   "text": "Before the pyramid, there was the cave. A tunnel runs about 100 m into the rock under the pyramid's centre to a chamber shaped like a flower; whether natural or dug, it seems to have been a sacred place, perhaps of emergence or of water, which the pyramid was built to cover. It was found by chance in 1971.",
+   "sourceIds": [
+    "wiki-sun",
+    "cowgill-2015"
+   ]
+  },
+  {
+   "id": "sun-begun",
+   "title": "The Pyramid of the Sun is begun",
+   "periodId": "tzacualli-100",
+   "date": "c. 100 CE (dates debated)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "pyramid-of-the-sun"
+   },
+   "effect": "construction",
+   "text": "Work starts on a pyramid of a size never seen in Mesoamerica: some 225 m a side. Its fill is laid in walled cells of adobe, and offerings are placed inside as it rises. Older views put the work in the 1st century; recent excavations suggest the main construction around 170–250.",
+   "sourceIds": [
+    "wiki-sun",
+    "cowgill-2015"
+   ]
+  },
+  {
+   "id": "moon-building-4",
+   "title": "Moon pyramid enlarged with sacrifices",
+   "periodId": "miccaotli-250",
+   "date": "c. 200–250 CE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "pyramid-of-the-moon"
+   },
+   "effect": "crowd",
+   "text": "The Moon pyramid is rebuilt round its predecessor as Building 4, about 89 m a side. In its fill the builders lay a sacrificed man with his hands tied behind him, with pumas, wolves, eagles and rattlesnakes, some caged alive. Isotopes show many later victims were foreigners.",
+   "sourceIds": [
+    "sugiyama-cabrera-2007",
+    "wiki-moon"
+   ]
+  },
+  {
+   "id": "feathered-serpent-dedication",
+   "title": "The Feathered Serpent Pyramid dedicated",
+   "periodId": "miccaotli-250",
+   "date": "c. 200–250 CE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "temple-of-the-feathered-serpent"
+   },
+   "effect": "crowd",
+   "text": "Some 200 people, mostly young men, are sacrificed and buried in pits in and round the new pyramid, in groups of symbolic numbers, hands tied behind their backs. Many wear necklaces of shell teeth and human jaws, dressed as warriors. It is the largest mass sacrifice known from the city.",
+   "sourceIds": [
+    "sugiyama-2005",
+    "wiki-feathered-serpent"
+   ]
+  },
+  {
+   "id": "grid-laid-out",
+   "title": "The city set on one grid",
+   "periodId": "miccaotli-250",
+   "date": "c. 200–250 CE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "avenue-of-the-dead"
+   },
+   "effect": "construction",
+   "text": "The avenue is paved and closed into sunken plazas, and the whole city is aligned at 15.5° east of north, a direction that may mark sunsets on 13 August and 29 April. Even the San Juan river is straightened to the grid. From about 225 people start rebuilding their homes as walled stone compounds.",
+   "sourceIds": [
+    "wiki-teotihuacan",
+    "cowgill-2015"
+   ]
+  },
+  {
+   "id": "adosada",
+   "title": "The Feathered Serpent's face covered",
+   "periodId": "xolalpan-450",
+   "date": "c. 350 CE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "temple-of-the-feathered-serpent"
+   },
+   "effect": "construction",
+   "text": "A plain stepped platform is built against the front of the Feathered Serpent Pyramid, hiding its carved heads; elsewhere sculptures are torn down and the temple on top destroyed. Many read this as a political upheaval, perhaps a turn from rule by one lord to a more collective government.",
+   "sourceIds": [
+    "sugiyama-2005",
+    "cowgill-2015"
+   ]
+  },
+  {
+   "id": "arrival-of-strangers",
+   "title": "Strangers from the west arrive at Tikal",
+   "periodId": "xolalpan-450",
+   "date": "January 378",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "ciudadela"
+   },
+   "effect": "none",
+   "text": "Maya inscriptions record that Siyaj K'ak' 'arrived' at Tikal, far away in Guatemala, on the day the Tikal king Chak Tok Ich'aak died. A new king, son of 'Spearthrower Owl', perhaps a ruler of Teotihuacan, was installed. Whether this was conquest, alliance or a Maya faction using Teotihuacan's prestige is debated.",
+   "sourceIds": [
+    "wiki-siyaj-kak",
+    "wiki-spearthrower-owl",
+    "stuart-2000",
+    "martin-grube"
+   ]
+  },
+  {
+   "id": "zapotec-burial",
+   "title": "A burial in the Oaxacan manner",
+   "periodId": "xolalpan-450",
+   "date": "5th century CE",
+   "kind": "ceremony",
+   "at": {
+    "spotId": "zapotec-tomb"
+   },
+   "effect": "procession",
+   "text": "A family of the Oaxaca barrio reopens its stone tomb under the patio to lay a relative beside the ancestors, with a grey urn of a Zapotec god. Their compound looks like any in the city; their dead are buried as in Monte Albán.",
+   "sourceIds": [
+    "spence-1992",
+    "wiki-zapotec"
+   ]
+  },
+  {
+   "id": "gulf-caravan",
+   "title": "Traders from the Gulf coast arrive",
+   "periodId": "xolalpan-450",
+   "date": "5th century CE",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "merchants-barrio"
+   },
+   "effect": "procession",
+   "text": "A line of porters comes in from the east with cotton cloth, shells, feathers and fine pottery from Veracruz, to the round houses of the Merchants' barrio. They will go home with obsidian blades and Thin Orange bowls.",
+   "sourceIds": [
+    "rattray-1987",
+    "cowgill-2015"
+   ]
+  },
+  {
+   "id": "burning-of-the-centre",
+   "title": "The centre burned",
+   "periodId": "collapse-650",
+   "date": "c. 550 CE (proposed dates run to 650)",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "avenue-of-the-dead"
+   },
+   "effect": "fire",
+   "text": "Temples and palaces along the Avenue of the Dead are set on fire, their sculptures smashed and scattered; ordinary compounds are mostly spared. The targets suggest an uprising against the city's rulers rather than an invasion, perhaps after years of drought and hardship. The centre was never rebuilt.",
+   "sourceIds": [
+    "cowgill-2015",
+    "manzanilla",
+    "wiki-teotihuacan"
+   ]
+  },
+  {
+   "id": "coyotlatelco",
+   "title": "New people in the ruins",
+   "periodId": "collapse-650",
+   "date": "7th century CE",
+   "kind": "daily",
+   "at": {
+    "spotId": "coyotlatelco-squatters"
+   },
+   "effect": "none",
+   "text": "Households using red-on-buff Coyotlatelco pottery settle in hamlets and in corners of the old compounds. The population falls perhaps to a fifth of its peak; Teotihuacan becomes one town among many in a fragmented valley.",
+   "sourceIds": [
+    "cowgill-2015",
+    "wiki-teotihuacan"
+   ]
+  },
+  {
+   "id": "birth-of-the-fifth-sun",
+   "title": "Where the gods made the Sun",
+   "periodId": "aztec-1500",
+   "date": "told in the 16th century",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "moon-plaza"
+   },
+   "effect": "none",
+   "text": "Sahagún's Nahua informants told how, in darkness, the gods gathered at Teotihuacan. The humble Nanahuatzin leapt into the divine fire and rose as the Sun; the proud Tecuciztecatl followed and became the Moon. The gods then sacrificed themselves to set the Sun moving. The two pyramids were named for them.",
+   "sourceIds": [
+    "sahagun",
+    "wiki-fifth-sun",
+    "wiki-nanahuatzin"
+   ]
+  },
+  {
+   "id": "moctezuma-pilgrimage",
+   "title": "Moctezuma at Teotihuacan",
+   "periodId": "aztec-1500",
+   "date": "early 16th century (tradition)",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "pyramid-of-the-sun"
+   },
+   "effect": "procession",
+   "text": "Later sources say that the Mexica rulers, Moctezuma II among them, went on pilgrimage to Teotihuacan to make sacrifices to the ancient gods. The story cannot be checked, but Aztec offerings of the period are found at the site, and Teotihuacan objects were reburied in Tenochtitlan's Templo Mayor.",
+   "sourceIds": [
+    "wiki-moctezuma-ii",
+    "sahagun",
+    "evans-2004"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "day-in-the-city",
+   "title": "A morning in the City of the Gods",
+   "periodId": "xolalpan-450",
+   "summary": "Down the Avenue of the Dead in 450, from the Moon to the Ciudadela: temples, painted palaces, workshops and the great plaza where the city traded.",
+   "steps": [
+    {
+     "landmarkId": "pyramid-of-the-moon",
+     "title": "Under Cerro Gordo",
+     "text": "Dawn behind the Moon pyramid; the mountain behind it rises like a larger echo. Copal smoke from the summit temple.",
+     "when": "6:00"
+    },
+    {
+     "landmarkId": "moon-plaza",
+     "title": "The plaza of the Moon",
+     "text": "Priests cross the stuccoed plaza between the red platforms. The avenue runs away south, straight as a stretched cord.",
+     "when": "6:30"
+    },
+    {
+     "landmarkId": "palace-of-quetzalpapalotl",
+     "title": "The bird pillars",
+     "text": "In the palace patio, quetzal-butterflies with obsidian eyes stare from the pillars; servants sweep the porticoes.",
+     "when": "7:00"
+    },
+    {
+     "spotId": "obsidian-workshop",
+     "title": "Green glass",
+     "text": "West of the avenue, knappers press blades from green cores, the city's export to half of Mesoamerica.",
+     "when": "8:00"
+    },
+    {
+     "landmarkId": "pyramid-of-the-sun",
+     "title": "The Sun pyramid",
+     "text": "The biggest building in the Americas, 65 m of painted terraces facing the place where the sun sets.",
+     "when": "9:30"
+    },
+    {
+     "spotId": "tetitla-painter",
+     "title": "The painters",
+     "text": "At Tetitla a master draws the goddess's hands in red, jade and water falling from them.",
+     "when": "11:00"
+    },
+    {
+     "landmarkId": "great-compound",
+     "title": "The market",
+     "text": "Opposite the Ciudadela, if Millon was right, the whole valley trades: maize, cotton, shells, feathers and Thin Orange bowls.",
+     "when": "13:00"
+    }
+   ],
+   "sourceIds": [
+    "cowgill-2015",
+    "berrin-pasztory"
+   ]
+  },
+  {
+   "id": "pilgrims-road",
+   "title": "The pilgrim's road, 1500",
+   "periodId": "aztec-1500",
+   "summary": "An Aztec pilgrim walks from the springs up the overgrown Miccaotli to the hills of the Sun and the Moon, where the gods once made the world.",
+   "steps": [
+    {
+     "spotId": "spring-fields",
+     "title": "From the springs",
+     "text": "The pilgrim leaves the town by the springs, where the fields are green even in the dry season.",
+     "when": "5:00"
+    },
+    {
+     "landmarkId": "ciudadela",
+     "title": "A square of hills",
+     "text": "A great square of grassy ridges: a palace of giants, people say.",
+     "when": "6:30"
+    },
+    {
+     "landmarkId": "avenue-of-the-dead",
+     "title": "The road of the dead",
+     "text": "Mounds on both sides, which the Aztecs take for tombs of lords who became gods. Hence Miccaotli, 'road of the dead'.",
+     "when": "7:30"
+    },
+    {
+     "landmarkId": "pyramid-of-the-sun",
+     "title": "Where Nanahuatzin rose",
+     "text": "He climbs the Sun's hill and burns copal on the summit, where the humble god rose as the Sun.",
+     "when": "9:00"
+    },
+    {
+     "landmarkId": "moon-plaza",
+     "title": "The gods' fire",
+     "text": "Between the mounds before the Moon, the gods are said to have kept their fire for four days.",
+     "when": "11:00"
+    },
+    {
+     "landmarkId": "pyramid-of-the-moon",
+     "title": "The Moon's hill",
+     "text": "Under Cerro Gordo, the smaller pyramid of Tecuciztecatl, who hesitated and became the Moon.",
+     "when": "12:00"
+    }
+   ],
+   "sourceIds": [
+    "sahagun",
+    "wiki-fifth-sun"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "millon-1973",
+   "title": "Urbanization at Teotihuacan, Mexico, vol. 1: The Teotihuacan Map",
+   "author": "René Millon, R. Bruce Drewitt and George L. Cowgill",
+   "year": 1973,
+   "note": "the survey map of the whole city on which every later plan is based"
+  },
+  {
+   "id": "cowgill-2015",
+   "title": "Ancient Teotihuacan: Early Urbanism in Central Mexico",
+   "author": "George L. Cowgill",
+   "year": 2015
+  },
+  {
+   "id": "sugiyama-2005",
+   "title": "Human Sacrifice, Militarism, and Rulership: Materialization of State Ideology at the Feathered Serpent Pyramid, Teotihuacan",
+   "author": "Saburo Sugiyama",
+   "year": 2005
+  },
+  {
+   "id": "manzanilla",
+   "title": "Teotihuacan, ciudad excepcional de Mesoamérica",
+   "author": "Linda R. Manzanilla",
+   "year": 2017
+  },
+  {
+   "id": "sanders-1979",
+   "title": "The Basin of Mexico: Ecological Processes in the Evolution of a Civilization",
+   "author": "William T. Sanders, Jeffrey R. Parsons and Robert S. Santley",
+   "year": 1979
+  },
+  {
+   "id": "wiki-teotihuacan",
+   "title": "Teotihuacan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Teotihuacan"
+  },
+  {
+   "id": "wiki-avenue",
+   "title": "Avenue of the Dead",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Avenue_of_the_Dead"
+  },
+  {
+   "id": "wiki-cerro-gordo",
+   "title": "Cerro Gordo (Mexico State)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Teotihuacan#Geography"
+  },
+  {
+   "id": "sugiyama-cabrera-2007",
+   "title": "The Moon Pyramid Project and the Teotihuacan State Polity",
+   "author": "Saburo Sugiyama and Rubén Cabrera Castro",
+   "year": 2007,
+   "note": "Ancient Mesoamerica 18"
+  },
+  {
+   "id": "sugiyama-sun-2013",
+   "title": "Inside the Sun Pyramid at Teotihuacan, Mexico: 2008–2011 Excavations and Preliminary Results",
+   "author": "Nawa Sugiyama, Saburo Sugiyama and Alejandro Sarabia",
+   "year": 2013,
+   "note": "Latin American Antiquity 24"
+  },
+  {
+   "id": "berrin-pasztory",
+   "title": "Teotihuacan: Art from the City of the Gods",
+   "author": "Kathleen Berrin and Esther Pasztory (eds.)",
+   "year": 1993
+  },
+  {
+   "id": "pasztory-1997",
+   "title": "Teotihuacan: An Experiment in Living",
+   "author": "Esther Pasztory",
+   "year": 1997
+  },
+  {
+   "id": "headrick",
+   "title": "The Teotihuacan Trinity: The Sociopolitical Structure of an Ancient Mesoamerican City",
+   "author": "Annabeth Headrick",
+   "year": 2007
+  },
+  {
+   "id": "spence-1992",
+   "title": "Tlailotlacan, a Zapotec Enclave in Teotihuacan",
+   "author": "Michael W. Spence",
+   "year": 1992,
+   "note": "in J. C. Berlo (ed.), Art, Ideology, and the City of Teotihuacan"
+  },
+  {
+   "id": "rattray-1987",
+   "title": "Los barrios foráneos de Teotihuacan",
+   "author": "Evelyn C. Rattray",
+   "year": 1987,
+   "note": "in E. McClung de Tapia and E. C. Rattray (eds.), Teotihuacan: nuevos datos, nuevas síntesis, nuevos problemas"
+  },
+  {
+   "id": "sahagun",
+   "title": "Florentine Codex, Book 7 (the birth of the Sun and Moon at Teotihuacan) and Book 10",
+   "author": "Bernardino de Sahagún",
+   "year": "c. 1577",
+   "url": "https://en.wikipedia.org/wiki/Florentine_Codex"
+  },
+  {
+   "id": "batres-1906",
+   "title": "Teotihuacán, memoria que presenta Leopoldo Batres",
+   "author": "Leopoldo Batres",
+   "year": 1906
+  },
+  {
+   "id": "wiki-sun",
+   "title": "Pyramid of the Sun",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun"
+  },
+  {
+   "id": "wiki-moon",
+   "title": "Pyramid of the Moon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pyramid_of_the_Moon"
+  },
+  {
+   "id": "wiki-feathered-serpent",
+   "title": "Temple of the Feathered Serpent, Teotihuacan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_the_Feathered_Serpent,_Teotihuacan"
+  },
+  {
+   "id": "wiki-quetzalpapalotl",
+   "title": "Quetzalpapalotl",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Quetzalpapalotl"
+  },
+  {
+   "id": "wiki-talud-tablero",
+   "title": "Talud-tablero",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Talud-tablero"
+  },
+  {
+   "id": "wiki-great-goddess",
+   "title": "Great Goddess of Teotihuacan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Goddess_of_Teotihuacan"
+  },
+  {
+   "id": "wiki-tlalocan",
+   "title": "Tlalocan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tlalocan"
+  },
+  {
+   "id": "wiki-zapotec",
+   "title": "Zapotec civilization",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zapotec_civilization"
+  },
+  {
+   "id": "wiki-feathered-serpent-deity",
+   "title": "Feathered Serpent",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Feathered_Serpent"
+  },
+  {
+   "id": "manzanilla-1993",
+   "title": "Anatomía de un conjunto residencial teotihuacano en Oztoyahualco",
+   "author": "Linda R. Manzanilla (ed.)",
+   "year": 1993
+  },
+  {
+   "id": "spence-obsidian",
+   "title": "Obsidian Production and the State in Teotihuacan",
+   "author": "Michael W. Spence",
+   "year": 1981,
+   "note": "American Antiquity 46"
+  },
+  {
+   "id": "widmer-tlajinga",
+   "title": "The Structure of Southeastern Adaptation (Tlajinga 33 excavations)",
+   "author": "Randolph J. Widmer and Rebecca Storey",
+   "year": 1993,
+   "note": "reports on the Tlajinga 33 potters' compound; see also Storey, Life and Death in the Ancient City of Teotihuacan, 1992"
+  },
+  {
+   "id": "munera-1985",
+   "title": "Un taller de cerámica ritual en la Ciudadela, Teotihuacan",
+   "author": "Luis Carlos Múnera Bermúdez",
+   "year": 1985,
+   "note": "thesis, ENAH"
+  },
+  {
+   "id": "martin-grube",
+   "title": "Chronicle of the Maya Kings and Queens",
+   "author": "Simon Martin and Nikolai Grube",
+   "year": 2008,
+   "note": "2nd edition"
+  },
+  {
+   "id": "stuart-2000",
+   "title": "'The Arrival of Strangers': Teotihuacan and Tollan in Classic Maya History",
+   "author": "David Stuart",
+   "year": 2000,
+   "note": "in D. Carrasco et al. (eds.), Mesoamerica's Classic Heritage"
+  },
+  {
+   "id": "evans-2004",
+   "title": "Ancient Mexico and Central America: Archaeology and Culture History",
+   "author": "Susan Toby Evans",
+   "year": 2004
+  },
+  {
+   "id": "wiki-obsidian",
+   "title": "Obsidian use in Mesoamerica",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Obsidian_use_in_Mesoamerica"
+  },
+  {
+   "id": "wiki-siyaj-kak",
+   "title": "Siyaj K'ak'",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siyaj_K%27ak%27"
+  },
+  {
+   "id": "wiki-spearthrower-owl",
+   "title": "Spearthrower Owl",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spearthrower_Owl"
+  },
+  {
+   "id": "wiki-tikal",
+   "title": "Tikal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tikal"
+  },
+  {
+   "id": "wiki-moctezuma-ii",
+   "title": "Moctezuma II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Moctezuma_II"
+  },
+  {
+   "id": "wiki-fifth-sun",
+   "title": "Fifth Sun",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fifth_Sun"
+  },
+  {
+   "id": "wiki-nanahuatzin",
+   "title": "Nanahuatzin",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nanahuatzin"
+  },
+  {
+   "id": "wiki-chinampa",
+   "title": "Chinampa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinampa"
+  },
+  {
+   "id": "wiki-copal",
+   "title": "Copal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Copal"
+  },
+  {
+   "id": "wiki-lime-plaster",
+   "title": "Lime plaster",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lime_plaster"
+  },
+  {
+   "id": "wiki-maya",
+   "title": "Maya civilization",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maya_civilization"
+  },
+  {
+   "id": "wiki-san-juan",
+   "title": "San Juan Teotihuacán",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/San_Juan_Teotihuac%C3%A1n"
+  }
+ ]
+}
