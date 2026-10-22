@@ -755,6 +755,231 @@
   "size": 15.11,
   "w": 14.0
  },
+ "baghdad/bayt-al-hikma": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 71.2,
+  "ext": "webp",
+  "px": 285,
+  "size": 94.85,
+  "w": 91.2
+ },
+ "baghdad/bridge-of-boats": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "d": 41.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 436.8,
+  "w": 420.0
+ },
+ "baghdad/dar-al-khilafa": {
+  "cx": 0.0,
+  "cy": 0.86,
+  "d": 304.27,
+  "ext": "webp",
+  "px": 1024,
+  "size": 468.0,
+  "w": 450.0
+ },
+ "baghdad/dar-al-khilafa-830": {
+  "cx": 0.0,
+  "cy": 1.5,
+  "d": 303.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 468.0,
+  "w": 450.0
+ },
+ "baghdad/gilani-1200": {
+  "cx": -0.05,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 344,
+  "size": 114.5,
+  "w": 110.1
+ },
+ "baghdad/gilani-mosque": {
+  "cx": 0.89,
+  "cy": 1.14,
+  "d": 92.28,
+  "ext": "webp",
+  "px": 349,
+  "size": 116.25,
+  "w": 111.78
+ },
+ "baghdad/golden-gate-palace": {
+  "cx": 0.0,
+  "cy": 0.85,
+  "d": 206.1,
+  "ext": "webp",
+  "px": 643,
+  "size": 214.34,
+  "w": 204.4
+ },
+ "baghdad/karkh-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 180.0,
+  "ext": "webp",
+  "px": 811,
+  "size": 270.4,
+  "w": 260.0
+ },
+ "baghdad/kazimayn": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 122.55,
+  "ext": "webp",
+  "px": 445,
+  "size": 148.25,
+  "w": 142.55
+ },
+ "baghdad/kazimayn-1200": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 122.55,
+  "ext": "webp",
+  "px": 445,
+  "size": 148.25,
+  "w": 142.55
+ },
+ "baghdad/kazimayn-800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 140.0
+ },
+ "baghdad/khan-mirjan": {
+  "cx": 0.0,
+  "cy": 1.09,
+  "d": 34.77,
+  "ext": "webp",
+  "px": 192,
+  "size": 48.46,
+  "w": 46.6
+ },
+ "baghdad/khuld-palace": {
+  "cx": 0.0,
+  "cy": 1.5,
+  "d": 223.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "baghdad/mansur-mosque": {
+  "cx": 0.0,
+  "cy": 0.92,
+  "d": 101.85,
+  "ext": "webp",
+  "px": 318,
+  "size": 105.92,
+  "w": 100.0
+ },
+ "baghdad/mansur-mosque-770": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 100.0
+ },
+ "baghdad/mustansiriya": {
+  "cx": 0.9,
+  "cy": -0.59,
+  "d": 47.18,
+  "ext": "webp",
+  "px": 330,
+  "size": 110.03,
+  "w": 105.8
+ },
+ "baghdad/ottoman-citadel": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "d": 224.63,
+  "ext": "webp",
+  "px": 877,
+  "size": 292.24,
+  "w": 281.0
+ },
+ "baghdad/round-city": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 2400.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 2496.0,
+  "w": 2400.0
+ },
+ "baghdad/round-city-1200": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 2400.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 2496.0,
+  "w": 2400.0
+ },
+ "baghdad/rusafa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 220.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "baghdad/rusafa-1200": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 220.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "baghdad/shammasiyya-observatory": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "baghdad/talisman-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 36.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.59,
+  "w": 44.8
+ },
+ "baghdad/wastani-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.83,
+  "w": 50.8
+ },
+ "baghdad/zumurrud-khatun": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 20.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 20.8,
+  "w": 20.0
+ },
  "cairo/al-aqmar": {
   "cx": 0.0,
   "cy": -0.0,
