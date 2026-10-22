@@ -5125,6 +5125,248 @@
   "w": 70.0,
   "x0px": 45.6
  },
+ "samarkand/afrasiyab-citadel": {
+  "ground": 224.6,
+  "h": 26.3,
+  "mpp": 0.15726,
+  "px": [
+   1400,
+   282
+  ],
+  "w": 202.0,
+  "x0px": 57.7
+ },
+ "samarkand/afrasiyab-citadel-ruin": {
+  "ground": 148.5,
+  "h": 14.3,
+  "mpp": 0.15726,
+  "px": [
+   1400,
+   206
+  ],
+  "w": 202.0,
+  "x0px": 57.7
+ },
+ "samarkand/afrasiyab-mosque": {
+  "ground": 482.3,
+  "h": 35.5,
+  "mpp": 0.0834,
+  "px": [
+   1235,
+   539
+  ],
+  "w": 93.51,
+  "x0px": 56.8
+ },
+ "samarkand/ak-saray": {
+  "ground": 214.4,
+  "h": 15.86,
+  "mpp": 0.08356,
+  "px": [
+   360,
+   239
+  ],
+  "w": 26.0,
+  "x0px": 24.4
+ },
+ "samarkand/ambassadors-hall": {
+  "ground": 158.1,
+  "h": 10.6,
+  "mpp": 0.08339,
+  "px": [
+   542,
+   189
+  ],
+  "w": 40.0,
+  "x0px": 31.2
+ },
+ "samarkand/bagh-i-dilkusha": {
+  "ground": 238.4,
+  "h": 28.77,
+  "mpp": 0.15917,
+  "px": [
+   1400,
+   296
+  ],
+  "w": 204.48,
+  "x0px": 57.7
+ },
+ "samarkand/bibi-khanym": {
+  "ground": 788.2,
+  "h": 66.35,
+  "mpp": 0.09135,
+  "px": [
+   1400,
+   850
+  ],
+  "w": 116.56,
+  "x0px": 62.0
+ },
+ "samarkand/bibi-khanym-1650": {
+  "ground": 562.3,
+  "h": 45.48,
+  "mpp": 0.09086,
+  "px": [
+   1400,
+   624
+  ],
+  "w": 115.93,
+  "x0px": 62.0
+ },
+ "samarkand/chorsu": {
+  "ground": 279.7,
+  "h": 20.89,
+  "mpp": 0.08343,
+  "px": [
+   490,
+   309
+  ],
+  "w": 36.0,
+  "x0px": 29.2
+ },
+ "samarkand/gur-e-amir": {
+  "ground": 553.6,
+  "h": 41.88,
+  "mpp": 0.08339,
+  "px": [
+   1086,
+   605
+  ],
+  "w": 82.0,
+  "x0px": 51.3
+ },
+ "samarkand/hazrat-khizr": {
+  "ground": 268.0,
+  "h": 19.76,
+  "mpp": 0.08339,
+  "px": [
+   542,
+   299
+  ],
+  "w": 40.0,
+  "x0px": 31.2
+ },
+ "samarkand/kok-saray": {
+  "ground": 305.4,
+  "h": 46.82,
+  "mpp": 0.18811,
+  "px": [
+   1400,
+   362
+  ],
+  "w": 242.0,
+  "x0px": 56.8
+ },
+ "samarkand/observatory": {
+  "ground": 519.6,
+  "h": 39.7,
+  "mpp": 0.08337,
+  "px": [
+   879,
+   563
+  ],
+  "w": 66.0,
+  "x0px": 43.7
+ },
+ "samarkand/observatory-ruin": {
+  "ground": 121.5,
+  "h": 6.5,
+  "mpp": 0.08337,
+  "px": [
+   879,
+   165
+  ],
+  "w": 66.0,
+  "x0px": 43.7
+ },
+ "samarkand/registan-1404": {
+  "ground": 192.1,
+  "h": 20.48,
+  "mpp": 0.15263,
+  "px": [
+   1400,
+   250
+  ],
+  "w": 196.0,
+  "x0px": 57.9
+ },
+ "samarkand/registan-1440": {
+  "ground": 353.3,
+  "h": 45.13,
+  "mpp": 0.15263,
+  "px": [
+   1400,
+   411
+  ],
+  "w": 196.0,
+  "x0px": 57.9
+ },
+ "samarkand/registan-1650": {
+  "ground": 347.5,
+  "h": 44.27,
+  "mpp": 0.15263,
+  "px": [
+   1400,
+   405
+  ],
+  "w": 196.0,
+  "x0px": 57.9
+ },
+ "samarkand/rukhabad": {
+  "ground": 297.6,
+  "h": 22.82,
+  "mpp": 0.08356,
+  "px": [
+   360,
+   322
+  ],
+  "w": 26.0,
+  "x0px": 24.4
+ },
+ "samarkand/shah-i-zinda": {
+  "ground": 526.5,
+  "h": 40.1,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   572
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "samarkand/shah-i-zinda-1404": {
+  "ground": 526.5,
+  "h": 40.1,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   572
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "samarkand/siab-bazaar": {
+  "ground": 212.8,
+  "h": 13.89,
+  "mpp": 0.08334,
+  "px": [
+   957,
+   259
+  ],
+  "w": 72.0,
+  "x0px": 46.6
+ },
+ "samarkand/sogdian-temple": {
+  "ground": 260.0,
+  "h": 17.0,
+  "mpp": 0.08337,
+  "px": [
+   1221,
+   316
+  ],
+  "w": 92.4,
+  "x0px": 56.3
+ },
  "tenochtitlan/aqueduct": {
   "ground": 82.9,
   "h": 2.5,
