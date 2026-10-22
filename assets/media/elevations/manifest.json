@@ -5686,6 +5686,380 @@
   "w": 50.0,
   "x0px": 36.0
  },
+ "teotihuacan/atetelco": {
+  "ground": 130.5,
+  "h": 7.34,
+  "mpp": 0.08338,
+  "px": [
+   853,
+   173
+  ],
+  "w": 64.0,
+  "x0px": 42.7
+ },
+ "teotihuacan/avenue-of-the-dead": {
+  "ground": 218.3,
+  "h": 16.02,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   279
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "teotihuacan/avenue-of-the-dead-1500": {
+  "ground": 221.2,
+  "h": 16.32,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   282
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "teotihuacan/avenue-of-the-dead-650": {
+  "ground": 167.2,
+  "h": 10.81,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   228
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "teotihuacan/ciudadela": {
+  "ground": 145.4,
+  "h": 28.14,
+  "mpp": 0.31,
+  "px": [
+   1400,
+   200
+  ],
+  "w": 400.0,
+  "x0px": 54.8
+ },
+ "teotihuacan/ciudadela-1500": {
+  "ground": 137.6,
+  "h": 25.77,
+  "mpp": 0.31,
+  "px": [
+   1400,
+   192
+  ],
+  "w": 400.0,
+  "x0px": 54.8
+ },
+ "teotihuacan/ciudadela-650": {
+  "ground": 127.7,
+  "h": 22.72,
+  "mpp": 0.31,
+  "px": [
+   1400,
+   182
+  ],
+  "w": 400.0,
+  "x0px": 54.8
+ },
+ "teotihuacan/great-compound": {
+  "ground": 110.0,
+  "h": 16.21,
+  "mpp": 0.29457,
+  "px": [
+   1400,
+   165
+  ],
+  "w": 380.0,
+  "x0px": 55.0
+ },
+ "teotihuacan/merchants-barrio": {
+  "ground": 141.2,
+  "h": 8.9,
+  "mpp": 0.10943,
+  "px": [
+   1400,
+   201
+  ],
+  "w": 140.0,
+  "x0px": 60.3
+ },
+ "teotihuacan/moon-plaza": {
+  "ground": 164.9,
+  "h": 17.62,
+  "mpp": 0.16343,
+  "px": [
+   1400,
+   222
+  ],
+  "w": 210.0,
+  "x0px": 57.5
+ },
+ "teotihuacan/moon-plaza-1500": {
+  "ground": 165.7,
+  "h": 17.71,
+  "mpp": 0.16343,
+  "px": [
+   1400,
+   223
+  ],
+  "w": 210.0,
+  "x0px": 57.5
+ },
+ "teotihuacan/moon-plaza-650": {
+  "ground": 136.5,
+  "h": 12.92,
+  "mpp": 0.16343,
+  "px": [
+   1400,
+   194
+  ],
+  "w": 210.0,
+  "x0px": 57.5
+ },
+ "teotihuacan/oaxaca-barrio": {
+  "ground": 139.5,
+  "h": 7.34,
+  "mpp": 0.094,
+  "px": [
+   1400,
+   201
+  ],
+  "w": 120.0,
+  "x0px": 61.7
+ },
+ "teotihuacan/palace-of-quetzalpapalotl": {
+  "ground": 149.2,
+  "h": 9.03,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   190
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "teotihuacan/palace-of-quetzalpapalotl-650": {
+  "ground": 112.4,
+  "h": 5.98,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   153
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "teotihuacan/plaza-of-the-columns": {
+  "ground": 216.9,
+  "h": 27.34,
+  "mpp": 0.17114,
+  "px": [
+   1400,
+   274
+  ],
+  "w": 220.0,
+  "x0px": 57.3
+ },
+ "teotihuacan/plaza-of-the-columns-650": {
+  "ground": 177.9,
+  "h": 20.68,
+  "mpp": 0.17114,
+  "px": [
+   1400,
+   235
+  ],
+  "w": 220.0,
+  "x0px": 57.3
+ },
+ "teotihuacan/pyramid-of-the-moon": {
+  "ground": 526.6,
+  "h": 54.72,
+  "mpp": 0.11714,
+  "px": [
+   1400,
+   586
+  ],
+  "w": 150.0,
+  "x0px": 59.8
+ },
+ "teotihuacan/pyramid-of-the-moon-100": {
+  "ground": 242.6,
+  "h": 21.46,
+  "mpp": 0.11714,
+  "px": [
+   1400,
+   302
+  ],
+  "w": 150.0,
+  "x0px": 59.8
+ },
+ "teotihuacan/pyramid-of-the-moon-1500": {
+  "ground": 408.4,
+  "h": 40.87,
+  "mpp": 0.11714,
+  "px": [
+   1400,
+   468
+  ],
+  "w": 150.0,
+  "x0px": 59.8
+ },
+ "teotihuacan/pyramid-of-the-moon-650": {
+  "ground": 471.3,
+  "h": 48.22,
+  "mpp": 0.11714,
+  "px": [
+   1400,
+   531
+  ],
+  "w": 150.0,
+  "x0px": 59.8
+ },
+ "teotihuacan/pyramid-of-the-sun": {
+  "ground": 485.7,
+  "h": 80.1,
+  "mpp": 0.18657,
+  "px": [
+   1400,
+   542
+  ],
+  "w": 240.0,
+  "x0px": 56.8
+ },
+ "teotihuacan/pyramid-of-the-sun-100": {
+  "ground": 292.4,
+  "h": 43.99,
+  "mpp": 0.18657,
+  "px": [
+   1400,
+   349
+  ],
+  "w": 240.0,
+  "x0px": 56.8
+ },
+ "teotihuacan/pyramid-of-the-sun-1500": {
+  "ground": 407.7,
+  "h": 65.55,
+  "mpp": 0.18657,
+  "px": [
+   1400,
+   464
+  ],
+  "w": 240.0,
+  "x0px": 56.8
+ },
+ "teotihuacan/pyramid-of-the-sun-650": {
+  "ground": 440.3,
+  "h": 71.56,
+  "mpp": 0.18657,
+  "px": [
+   1400,
+   497
+  ],
+  "w": 240.0,
+  "x0px": 56.8
+ },
+ "teotihuacan/san-juan-crossing": {
+  "ground": 199.3,
+  "h": 12.94,
+  "mpp": 0.094,
+  "px": [
+   1400,
+   261
+  ],
+  "w": 120.0,
+  "x0px": 61.7
+ },
+ "teotihuacan/temple-of-the-feathered-serpent": {
+  "ground": 421.6,
+  "h": 30.96,
+  "mpp": 0.0834,
+  "px": [
+   1060,
+   472
+  ],
+  "w": 80.0,
+  "x0px": 50.4
+ },
+ "teotihuacan/temple-of-the-feathered-serpent-1500": {
+  "ground": 277.9,
+  "h": 18.99,
+  "mpp": 0.0834,
+  "px": [
+   1060,
+   328
+  ],
+  "w": 80.0,
+  "x0px": 50.4
+ },
+ "teotihuacan/temple-of-the-feathered-serpent-650": {
+  "ground": 309.7,
+  "h": 21.63,
+  "mpp": 0.0834,
+  "px": [
+   1060,
+   360
+  ],
+  "w": 80.0,
+  "x0px": 50.4
+ },
+ "teotihuacan/temple-of-the-feathered-serpent-adosada": {
+  "ground": 320.5,
+  "h": 22.52,
+  "mpp": 0.0834,
+  "px": [
+   1060,
+   371
+  ],
+  "w": 80.0,
+  "x0px": 50.4
+ },
+ "teotihuacan/tepantitla": {
+  "ground": 98.6,
+  "h": 4.85,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   139
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "teotihuacan/tetitla": {
+  "ground": 130.5,
+  "h": 7.34,
+  "mpp": 0.08338,
+  "px": [
+   853,
+   173
+  ],
+  "w": 64.0,
+  "x0px": 42.7
+ },
+ "teotihuacan/xalla": {
+  "ground": 178.4,
+  "h": 11.98,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   239
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
+ "teotihuacan/xalla-650": {
+  "ground": 146.4,
+  "h": 8.73,
+  "mpp": 0.10171,
+  "px": [
+   1400,
+   207
+  ],
+  "w": 130.0,
+  "x0px": 61.0
+ },
  "venice/arsenale": {
   "ground": 108.4,
   "h": 23.99,
