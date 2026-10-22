@@ -1,0 +1,5901 @@
+{
+ "id": "baghdad",
+ "name": "Baghdad",
+ "subtitle": "Madinat al-Salam, the City of Peace",
+ "description": "Nine centuries of Baghdad on the Tigris: al-Mansur's Round City of 762 and its suburbs of Karkh, Harbiyya and Rusafa, the city of Harun al-Rashid and the House of Wisdom, the walled east city of the late caliphs, and the Ottoman town. The site of the Round City is unknown and is drawn after the usual scholarly reconstruction; the river follows its modern course, which has shifted since. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "harun-800",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#D9C29A",
+   "#CDB48A",
+   "#E2D0AE",
+   "#C8AA80",
+   "#D4BC94"
+  ],
+  "roofs": [
+   "#C8B08A",
+   "#BBA07A"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2464,
+    4493
+   ],
+   "distance": 46,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7485,
+   7489
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Dijla (the Tigris)",
+    "path": [
+     [
+      -344,
+      -366
+     ],
+     [
+      -223,
+      67
+     ],
+     [
+      19,
+      277
+     ],
+     [
+      335,
+      222
+     ],
+     [
+      735,
+      11
+     ],
+     [
+      1162,
+      -255
+     ],
+     [
+      1423,
+      -344
+     ],
+     [
+      1795,
+      -366
+     ],
+     [
+      2092,
+      -178
+     ],
+     [
+      2380,
+      89
+     ],
+     [
+      2529,
+      322
+     ],
+     [
+      2538,
+      632
+     ],
+     [
+      2436,
+      910
+     ],
+     [
+      2222,
+      1232
+     ],
+     [
+      2036,
+      1453
+     ],
+     [
+      1878,
+      1642
+     ],
+     [
+      1664,
+      1931
+     ],
+     [
+      1525,
+      2208
+     ],
+     [
+      1451,
+      2452
+     ],
+     [
+      1432,
+      2774
+     ],
+     [
+      1534,
+      3062
+     ],
+     [
+      1813,
+      3173
+     ],
+     [
+      2129,
+      3084
+     ],
+     [
+      2418,
+      2996
+     ],
+     [
+      2892,
+      2907
+     ],
+     [
+      3161,
+      2885
+     ],
+     [
+      3422,
+      2985
+     ],
+     [
+      3626,
+      3140
+     ],
+     [
+      3664,
+      3462
+     ],
+     [
+      3654,
+      3739
+     ],
+     [
+      3533,
+      4194
+     ],
+     [
+      3506,
+      4505
+     ],
+     [
+      3617,
+      4826
+     ],
+     [
+      3859,
+      4982
+     ],
+     [
+      4156,
+      5015
+     ],
+     [
+      4407,
+      5093
+     ],
+     [
+      4696,
+      5259
+     ],
+     [
+      4882,
+      5459
+     ],
+     [
+      5105,
+      5658
+     ],
+     [
+      5365,
+      5880
+     ],
+     [
+      5598,
+      6058
+     ],
+     [
+      5895,
+      6291
+     ],
+     [
+      6118,
+      6513
+     ],
+     [
+      6435,
+      6846
+     ],
+     [
+      6695,
+      7123
+     ],
+     [
+      6927,
+      7423
+     ],
+     [
+      7123,
+      7689
+     ],
+     [
+      7262,
+      7955
+     ]
+    ],
+    "width": 250,
+    "id": "tigris",
+    "blurb": "Dijla, the Tigris: Baghdad's highway to Basra and the Gulf, and to Mosul and the north. Al-Mansur chose the site, the story goes, because 'here is the Tigris, with nothing between us and China'. It flooded in spring, sometimes disastrously; its bed has moved since the Abbasid centuries, and it is drawn here on its modern course."
+   },
+   {
+    "name": "Nahr al-Sarat",
+    "path": [
+     [
+      0,
+      6546
+     ],
+     [
+      790,
+      6435
+     ],
+     [
+      1534,
+      6380
+     ],
+     [
+      2371,
+      6302
+     ],
+     [
+      2836,
+      6124
+     ],
+     [
+      3134,
+      5858
+     ],
+     [
+      3506,
+      5492
+     ],
+     [
+      3933,
+      5215
+     ],
+     [
+      4231,
+      5059
+     ]
+    ],
+    "width": 18,
+    "id": "sarat",
+    "blurb": "A canal from the Isa canal that ran past the Kufa and Basra gates of the Round City into the Tigris. Al-Mansur built the city where the Euphrates canals come closest to the Tigris; brick bridges crossed the Sarat to Karkh.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "name": "Nahr Isa",
+    "path": [
+     [
+      0,
+      7323
+     ],
+     [
+      1069,
+      7234
+     ],
+     [
+      2092,
+      7123
+     ],
+     [
+      3208,
+      6934
+     ],
+     [
+      4231,
+      6768
+     ],
+     [
+      5161,
+      6635
+     ],
+     [
+      5951,
+      6524
+     ]
+    ],
+    "width": 24,
+    "id": "isa",
+    "blurb": "The great navigable canal from the Euphrates, named after an Abbasid prince, which brought barges of grain from Syria and the Euphrates towns into the Tigris at the south end of Karkh. Mills and markets lined its banks."
+   }
+  ],
+  "islands": [],
+  "hills": [],
+  "roads": [
+   {
+    "name": "Khurasan road (Bab Khurasan to the Bridge)",
+    "path": [
+     [
+      2380,
+      4138
+     ],
+     [
+      2836,
+      3905
+     ],
+     [
+      3301,
+      3717
+     ],
+     [
+      3487,
+      3639
+     ]
+    ],
+    "width": 22,
+    "style": "major",
+    "labelled": true,
+    "id": "khurasan-road",
+    "blurb": "From the Khurasan Gate, the gate of the east and of the caliph's Khurasani army, past the Khuld palace to the main bridge of boats and Bab al-Taq.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Kufa road",
+    "path": [
+     [
+      688,
+      5836
+     ],
+     [
+      465,
+      6213
+     ],
+     [
+      232,
+      6768
+     ],
+     [
+      93,
+      7378
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "kufa-road",
+    "blurb": "Out of the Kufa Gate (south-west) toward Kufa and the pilgrim road to Mecca, over the Sarat and the Isa canals.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Basra road",
+    "path": [
+     [
+      2380,
+      5836
+     ],
+     [
+      2650,
+      6102
+     ],
+     [
+      2929,
+      6546
+     ],
+     [
+      3301,
+      6990
+     ],
+     [
+      3580,
+      7434
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "basra-road",
+    "blurb": "Out of the Basra Gate (south-east) into Karkh and on south to Wasit and Basra.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Road of Bab al-Sham",
+    "path": [
+     [
+      688,
+      4138
+     ],
+     [
+      558,
+      3550
+     ],
+     [
+      651,
+      2663
+     ],
+     [
+      651,
+      1775
+     ],
+     [
+      558,
+      1198
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": true,
+    "id": "sham-road",
+    "blurb": "Out of the Syria Gate (north-west) through the Harbiyya to the cemetery of the Quraysh and the road to Anbar, Raqqa and Syria.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Street of Bab al-Taq",
+    "path": [
+     [
+      3859,
+      3639
+     ],
+     [
+      4231,
+      3384
+     ],
+     [
+      4603,
+      2885
+     ],
+     [
+      5068,
+      2108
+     ],
+     [
+      5254,
+      1775
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "bab-al-taq",
+    "blurb": "From the head of the main bridge under the great arch (taq) of Asma, al-Mahdi's daughter, north-east toward Shammasiyya and the Khurasan road. The busiest street of the east bank.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Street to Rusafa",
+    "path": [
+     [
+      3022,
+      2685
+     ],
+     [
+      3022,
+      2496
+     ],
+     [
+      2836,
+      2330
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "rusafa-street",
+    "blurb": "From the upper bridge to the mosque and palace of Rusafa.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Street of al-Mukharrim",
+    "path": [
+     [
+      3859,
+      3639
+     ],
+     [
+      4231,
+      4105
+     ],
+     [
+      4882,
+      4660
+     ],
+     [
+      5393,
+      5104
+     ],
+     [
+      5812,
+      5547
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": false,
+    "id": "mukharrim-street",
+    "blurb": "South along the east bank from Bab al-Taq through al-Mukharrim to the palaces of the Barmakids, later the caliphs' Dar al-Khilafa.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Road from Bab al-Basra to the river",
+    "path": [
+     [
+      2380,
+      5836
+     ],
+     [
+      3022,
+      5437
+     ],
+     [
+      3301,
+      4882
+     ],
+     [
+      3375,
+      4638
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "harbiyya-street",
+    "blurb": "From the Basra Gate to the lower bridge of boats, through the quarter later called Bab al-Basra.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Street of the Bridge (Suq al-Thulatha)",
+    "path": [
+     [
+      5170,
+      5348
+     ],
+     [
+      5486,
+      5104
+     ],
+     [
+      5812,
+      4715
+     ],
+     [
+      6230,
+      4327
+     ],
+     [
+      6555,
+      4083
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "bridge-street-east",
+    "blurb": "From the bridge of boats past the Tuesday Market (Suq al-Thulatha) and the Mustansiriya to the Zafariyya gate, later Bab al-Wastani.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Street of Bab al-Sultan",
+    "path": [
+     [
+      4742,
+      4216
+     ],
+     [
+      5068,
+      4604
+     ],
+     [
+      5533,
+      4993
+     ],
+     [
+      5951,
+      5326
+     ],
+     [
+      6137,
+      5714
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "sultan-street",
+    "blurb": "The street from the north gate (Bab al-Sultan, later Bab al-Mu'azzam) south through the markets to the gates of the caliph's palace.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Street of Bab al-Halba",
+    "path": [
+     [
+      7318,
+      5204
+     ],
+     [
+      6741,
+      5326
+     ],
+     [
+      6183,
+      5403
+     ],
+     [
+      5951,
+      5437
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "halba-street",
+    "blurb": "From the Gate of the Racecourse (Bab al-Halba, the Talisman Gate) west into the city past the shrine of Abd al-Qadir.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Road of Bab al-Basaliyya",
+    "path": [
+     [
+      7318,
+      6424
+     ],
+     [
+      6927,
+      6213
+     ],
+     [
+      6602,
+      5936
+     ],
+     [
+      6276,
+      5658
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "sharqi-street",
+    "blurb": "From the south-east gate (Bab al-Basaliyya, later Bab al-Sharqi) along the palace walls into the city.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Street of Karkh",
+    "path": [
+     [
+      4919,
+      5692
+     ],
+     [
+      4510,
+      5880
+     ],
+     [
+      4138,
+      5936
+     ],
+     [
+      3580,
+      5936
+     ],
+     [
+      2929,
+      5769
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "karkh-street",
+    "blurb": "From the west end of the bridge through the markets of Karkh.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Road to the Mashhad of the Kazimayn",
+    "path": [
+     [
+      2929,
+      5769
+     ],
+     [
+      2836,
+      5326
+     ],
+     [
+      2883,
+      4660
+     ],
+     [
+      2836,
+      3772
+     ],
+     [
+      1255,
+      3329
+     ],
+     [
+      790,
+      2441
+     ],
+     [
+      651,
+      1553
+     ],
+     [
+      558,
+      1132
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "mashhad-road",
+    "blurb": "The pilgrims' road from Karkh past the mounds of the Round City and through the Harbiyya to the shrine of the two imams.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Road to al-A'zamiyya",
+    "path": [
+     [
+      4742,
+      4216
+     ],
+     [
+      4417,
+      3772
+     ],
+     [
+      4045,
+      3107
+     ],
+     [
+      3394,
+      2441
+     ],
+     [
+      2836,
+      1997
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "azamiyya-road",
+    "blurb": "North out of Bab al-Sultan to the tomb of Abu Hanifa and the old Rusafa, by then a cemetery town.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Walls of Madinat al-Salam",
+    "path": [
+     [
+      2684,
+      4993
+     ],
+     [
+      2670,
+      4813
+     ],
+     [
+      2628,
+      4638
+     ],
+     [
+      2559,
+      4470
+     ],
+     [
+      2464,
+      4317
+     ],
+     [
+      2347,
+      4179
+     ],
+     [
+      2210,
+      4062
+     ],
+     [
+      2056,
+      3968
+     ],
+     [
+      1889,
+      3899
+     ],
+     [
+      1714,
+      3857
+     ],
+     [
+      1534,
+      3842
+     ],
+     [
+      1355,
+      3857
+     ],
+     [
+      1179,
+      3899
+     ],
+     [
+      1013,
+      3968
+     ],
+     [
+      858,
+      4062
+     ],
+     [
+      722,
+      4179
+     ],
+     [
+      604,
+      4317
+     ],
+     [
+      510,
+      4470
+     ],
+     [
+      441,
+      4638
+     ],
+     [
+      399,
+      4813
+     ],
+     [
+      384,
+      4993
+     ],
+     [
+      399,
+      5172
+     ],
+     [
+      441,
+      5348
+     ],
+     [
+      510,
+      5515
+     ],
+     [
+      604,
+      5668
+     ],
+     [
+      722,
+      5806
+     ],
+     [
+      858,
+      5924
+     ],
+     [
+      1013,
+      6018
+     ],
+     [
+      1179,
+      6087
+     ],
+     [
+      1355,
+      6129
+     ],
+     [
+      1534,
+      6143
+     ],
+     [
+      1714,
+      6129
+     ],
+     [
+      1889,
+      6087
+     ],
+     [
+      2056,
+      6018
+     ],
+     [
+      2210,
+      5924
+     ],
+     [
+      2347,
+      5806
+     ],
+     [
+      2464,
+      5668
+     ],
+     [
+      2559,
+      5515
+     ],
+     [
+      2628,
+      5348
+     ],
+     [
+      2670,
+      5172
+     ]
+    ],
+    "closed": true,
+    "id": "round-city-wall",
+    "blurb": "Three circuits in the usual reading of the sources: an outer wall behind a moat, the great main wall of mud brick with towers, and an inner wall round the central plaza. The main wall is said to have been about 30 m high at the gates; numbers in the sources vary.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Walls of the East Side",
+    "path": [
+     [
+      3654,
+      4660
+     ],
+     [
+      4231,
+      4416
+     ],
+     [
+      4742,
+      4216
+     ],
+     [
+      5533,
+      4083
+     ],
+     [
+      6090,
+      4039
+     ],
+     [
+      6611,
+      4061
+     ],
+     [
+      7095,
+      4460
+     ],
+     [
+      7327,
+      4882
+     ],
+     [
+      7383,
+      5204
+     ],
+     [
+      7429,
+      5769
+     ],
+     [
+      7383,
+      6424
+     ],
+     [
+      7160,
+      6857
+     ],
+     [
+      6797,
+      7079
+     ]
+    ],
+    "closed": false,
+    "id": "east-wall",
+    "blurb": "Begun about 1095 under the caliph al-Mustazhir and finished under al-Mustarshid in the 1120s: a semicircle of brick with a moat, from the river at the north to the river at the south, with four gates. Al-Nasir rebuilt its gates about 1221. The Ottomans kept it in repair until the 19th century.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Bab al-Sultan (Bab al-Mu'azzam)",
+    "position": [
+     4742,
+     4216
+    ],
+    "id": "bab-al-sultan",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "Bab al-Basaliyya (Bab al-Sharqi)",
+    "position": [
+     7383,
+     6424
+    ],
+    "id": "bab-al-basaliyya",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "The main bridge of boats (al-Jisr)",
+    "path": [
+     [
+      3468,
+      3639
+     ],
+     [
+      3877,
+      3639
+     ]
+    ],
+    "build": "timber",
+    "arches": 10,
+    "id": "main-bridge",
+    "blurb": "Boats lashed side by side and decked with planks, chained to iron rings on brick piers on each bank, joining the Khurasan road to Bab al-Taq.",
+    "landmarkId": "bridge-of-boats",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Upper bridge of boats",
+    "path": [
+     [
+      3022,
+      3129
+     ],
+     [
+      3022,
+      2663
+     ]
+    ],
+    "build": "timber",
+    "arches": 10,
+    "id": "upper-bridge",
+    "blurb": "A second bridge of boats upriver, toward Rusafa and the Shammasiyya.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Lower bridge of boats",
+    "path": [
+     [
+      3357,
+      4638
+     ],
+     [
+      3766,
+      4638
+     ]
+    ],
+    "build": "timber",
+    "arches": 10,
+    "id": "lower-bridge",
+    "blurb": "The third bridge of boats, from the quarter of Bab al-Basra to al-Mukharrim. Harun's Baghdad had three bridges; after the 9th century usually only one or two were kept.",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "name": "Bridge of boats (al-Jisr)",
+    "path": [
+     [
+      4900,
+      5703
+     ],
+     [
+      5198,
+      5370
+     ]
+    ],
+    "build": "timber",
+    "arches": 12,
+    "id": "late-bridge",
+    "blurb": "By the 12th century one bridge of boats joined Karkh to the Tuesday Market on the east side; Ibn Jubayr crossed it in 1184 among crowds of men and women. The Ottoman bridge stood near the same place, near today's al-Shuhada bridge.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "name": "al-Qantara al-'Atiqa (the Old Bridge)",
+    "path": [
+     [
+      2390,
+      6435
+     ],
+     [
+      2371,
+      6169
+     ]
+    ],
+    "build": "stone",
+    "arches": 2,
+    "id": "old-bridge",
+    "blurb": "The oldest of the brick bridges over the Sarat, by the Basra Gate, said to date from the time of the Persian kings.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "name": "al-Qantara al-Jadida (the New Bridge)",
+    "path": [
+     [
+      3134,
+      5991
+     ],
+     [
+      2975,
+      5736
+     ]
+    ],
+    "build": "stone",
+    "arches": 2,
+    "id": "new-bridge",
+    "blurb": "A brick bridge over the Sarat into Karkh.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      186,
+      3550
+     ],
+     [
+      186,
+      1831
+     ],
+     [
+      1181,
+      1831
+     ],
+     [
+      1181,
+      3550
+     ]
+    ],
+    "density": "loose",
+    "name": "The Harbiyya fiefs",
+    "periods": [
+     "mansur-770"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2650,
+      6990
+     ],
+     [
+      2464,
+      6435
+     ],
+     [
+      3394,
+      6102
+     ],
+     [
+      4324,
+      6102
+     ],
+     [
+      4789,
+      6491
+     ],
+     [
+      4324,
+      6790
+     ]
+    ],
+    "density": "loose",
+    "name": "Karkh",
+    "periods": [
+     "mansur-770"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      93,
+      7045
+     ],
+     [
+      93,
+      6657
+     ],
+     [
+      1255,
+      6546
+     ],
+     [
+      1255,
+      7045
+     ]
+    ],
+    "density": "loose",
+    "name": "Fiefs by the Kufa Gate",
+    "periods": [
+     "mansur-770"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2278,
+      2663
+     ],
+     [
+      2464,
+      1720
+     ],
+     [
+      3487,
+      1664
+     ],
+     [
+      3487,
+      2663
+     ]
+    ],
+    "density": "loose",
+    "name": "Rusafa camp",
+    "periods": [
+     "mansur-770"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4026,
+      4638
+     ],
+     [
+      4063,
+      3883
+     ],
+     [
+      4975,
+      3939
+     ],
+     [
+      5068,
+      4682
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Mukharrim",
+    "periods": [
+     "mansur-770"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      186,
+      3606
+     ],
+     [
+      186,
+      1942
+     ],
+     [
+      1181,
+      1942
+     ],
+     [
+      1181,
+      3606
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Harbiyya",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      186,
+      1831
+     ],
+     [
+      186,
+      1132
+     ],
+     [
+      1181,
+      1132
+     ],
+     [
+      1181,
+      1831
+     ]
+    ],
+    "density": "loose",
+    "name": "By the cemetery of the Quraysh",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2836,
+      6990
+     ],
+     [
+      2631,
+      6302
+     ],
+     [
+      3161,
+      5936
+     ],
+     [
+      3952,
+      5936
+     ],
+     [
+      4696,
+      6102
+     ],
+     [
+      5254,
+      6491
+     ],
+     [
+      4603,
+      6857
+     ]
+    ],
+    "density": "dense",
+    "name": "Karkh",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2836,
+      5603
+     ],
+     [
+      2836,
+      4715
+     ],
+     [
+      3282,
+      4749
+     ],
+     [
+      3394,
+      5215
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Basra",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      93,
+      7045
+     ],
+     [
+      93,
+      6657
+     ],
+     [
+      1255,
+      6546
+     ],
+     [
+      1255,
+      7045
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Kufa",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1348,
+      7045
+     ],
+     [
+      1348,
+      6546
+     ],
+     [
+      2464,
+      6457
+     ],
+     [
+      2557,
+      6968
+     ]
+    ],
+    "density": "loose",
+    "name": "Fiefs of the Isa canal",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2232,
+      2663
+     ],
+     [
+      2464,
+      1720
+     ],
+     [
+      3506,
+      1609
+     ],
+     [
+      3506,
+      2663
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Rusafa",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2929,
+      1498
+     ],
+     [
+      2975,
+      111
+     ],
+     [
+      4231,
+      111
+     ],
+     [
+      4231,
+      1498
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Shammasiyya",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3970,
+      3528
+     ],
+     [
+      3877,
+      2996
+     ],
+     [
+      3598,
+      2574
+     ],
+     [
+      3784,
+      1997
+     ],
+     [
+      4789,
+      1997
+     ],
+     [
+      4789,
+      3528
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Taq",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4026,
+      4638
+     ],
+     [
+      4063,
+      3772
+     ],
+     [
+      5068,
+      3772
+     ],
+     [
+      5068,
+      4682
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Mukharrim",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5765,
+      5681
+     ],
+     [
+      5300,
+      4993
+     ],
+     [
+      6183,
+      4771
+     ],
+     [
+      6555,
+      5747
+     ]
+    ],
+    "density": "loose",
+    "name": "Palaces of the Barmakids",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2743,
+      6990
+     ],
+     [
+      2724,
+      6213
+     ],
+     [
+      3301,
+      5769
+     ],
+     [
+      4138,
+      5570
+     ],
+     [
+      4882,
+      5769
+     ],
+     [
+      5486,
+      6302
+     ],
+     [
+      5068,
+      6790
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Karkh",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2836,
+      5603
+     ],
+     [
+      2836,
+      4715
+     ],
+     [
+      3282,
+      4749
+     ],
+     [
+      3394,
+      5215
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Basra",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      186,
+      3606
+     ],
+     [
+      186,
+      1942
+     ],
+     [
+      1181,
+      1942
+     ],
+     [
+      1181,
+      3606
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Harbiyya",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      186,
+      1753
+     ],
+     [
+      186,
+      1054
+     ],
+     [
+      1181,
+      1054
+     ],
+     [
+      1181,
+      1753
+     ]
+    ],
+    "density": "dense",
+    "name": "Mashhad of the Kazimayn",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      93,
+      7045
+     ],
+     [
+      93,
+      6657
+     ],
+     [
+      1255,
+      6546
+     ],
+     [
+      1255,
+      7045
+     ]
+    ],
+    "density": "loose",
+    "name": "Bab al-Kufa ruins",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4249,
+      4749
+     ],
+     [
+      4324,
+      4438
+     ],
+     [
+      4882,
+      4272
+     ],
+     [
+      5068,
+      4860
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Sultan",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5207,
+      5270
+     ],
+     [
+      5142,
+      4860
+     ],
+     [
+      5793,
+      4793
+     ],
+     [
+      5951,
+      5414
+     ]
+    ],
+    "density": "dense",
+    "name": "Suq al-Thulatha",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5254,
+      4749
+     ],
+     [
+      5068,
+      4161
+     ],
+     [
+      6462,
+      4105
+     ],
+     [
+      6648,
+      4638
+     ]
+    ],
+    "density": "dense",
+    "name": "Darb Zakhi and al-Ma'muniyya",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6044,
+      5381
+     ],
+     [
+      5904,
+      4826
+     ],
+     [
+      6444,
+      4749
+     ],
+     [
+      6481,
+      5326
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Rayyan",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6555,
+      5636
+     ],
+     [
+      6509,
+      4882
+     ],
+     [
+      7225,
+      4860
+     ],
+     [
+      7281,
+      5570
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Azaj",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6648,
+      6435
+     ],
+     [
+      6648,
+      5769
+     ],
+     [
+      7281,
+      5769
+     ],
+     [
+      7281,
+      6369
+     ]
+    ],
+    "density": "loose",
+    "name": "Behind the palace walls",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2278,
+      2441
+     ],
+     [
+      2464,
+      1553
+     ],
+     [
+      3394,
+      1553
+     ],
+     [
+      3394,
+      2441
+     ]
+    ],
+    "density": "loose",
+    "name": "Rusafa and the tomb of Abu Hanifa",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2929,
+      1498
+     ],
+     [
+      2975,
+      111
+     ],
+     [
+      4231,
+      111
+     ],
+     [
+      4231,
+      1498
+     ]
+    ],
+    "density": "loose",
+    "name": "al-Shammasiyya",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4714,
+      4593
+     ],
+     [
+      4807,
+      4305
+     ],
+     [
+      5254,
+      4272
+     ],
+     [
+      5161,
+      4826
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Mu'azzam",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5254,
+      4749
+     ],
+     [
+      5068,
+      4161
+     ],
+     [
+      5997,
+      4127
+     ],
+     [
+      6137,
+      4682
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Haydarkhana",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6602,
+      5903
+     ],
+     [
+      6555,
+      5104
+     ],
+     [
+      7160,
+      5048
+     ],
+     [
+      7206,
+      5858
+     ]
+    ],
+    "density": "dense",
+    "name": "Bab al-Shaykh",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6044,
+      6269
+     ],
+     [
+      5858,
+      5603
+     ],
+     [
+      6462,
+      5492
+     ],
+     [
+      6555,
+      6213
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Saray and the river quarters",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6602,
+      6768
+     ],
+     [
+      6602,
+      5991
+     ],
+     [
+      7253,
+      5991
+     ],
+     [
+      7253,
+      6602
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern quarters",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4063,
+      6235
+     ],
+     [
+      4119,
+      5570
+     ],
+     [
+      4863,
+      5747
+     ],
+     [
+      5347,
+      6269
+     ]
+    ],
+    "density": "dense",
+    "name": "Karkh",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      186,
+      1553
+     ],
+     [
+      186,
+      999
+     ],
+     [
+      1069,
+      999
+     ],
+     [
+      1069,
+      1553
+     ]
+    ],
+    "density": "dense",
+    "name": "al-Kazimiyya",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2278,
+      2219
+     ],
+     [
+      2464,
+      1498
+     ],
+     [
+      3208,
+      1498
+     ],
+     [
+      3208,
+      2219
+     ]
+    ],
+    "density": "loose",
+    "name": "al-A'zamiyya",
+    "periods": [
+     "ottoman-1650"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2836,
+      4549
+     ],
+     [
+      2836,
+      3772
+     ],
+     [
+      3375,
+      3772
+     ],
+     [
+      3375,
+      4549
+     ]
+    ],
+    "kind": "park",
+    "name": "Gardens of the Khuld",
+    "periods": [
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      232,
+      7456
+     ],
+     [
+      232,
+      7301
+     ],
+     [
+      2092,
+      7190
+     ],
+     [
+      2092,
+      7378
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of the Isa canal"
+   },
+   {
+    "polygon": [
+     [
+      139,
+      999
+     ],
+     [
+      139,
+      555
+     ],
+     [
+      976,
+      555
+     ],
+     [
+      976,
+      999
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of Qatrabbul road",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4324,
+      1553
+     ],
+     [
+      4324,
+      55
+     ],
+     [
+      5114,
+      55
+     ],
+     [
+      5114,
+      1553
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the Shammasiyya"
+   },
+   {
+    "polygon": [
+     [
+      4975,
+      3550
+     ],
+     [
+      4975,
+      1997
+     ],
+     [
+      6183,
+      1997
+     ],
+     [
+      6183,
+      3550
+     ]
+    ],
+    "kind": "orchard",
+    "name": "East-bank orchards"
+   },
+   {
+    "polygon": [
+     [
+      2836,
+      4549
+     ],
+     [
+      2836,
+      3772
+     ],
+     [
+      3375,
+      3772
+     ],
+     [
+      3375,
+      4549
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards of the Round City mounds",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6741,
+      4826
+     ],
+     [
+      6760,
+      4272
+     ],
+     [
+      7095,
+      4460
+     ],
+     [
+      7253,
+      4826
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens inside the walls",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3394,
+      7411
+     ],
+     [
+      3394,
+      7101
+     ],
+     [
+      5068,
+      6934
+     ],
+     [
+      5254,
+      7323
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of Karkh"
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "madinat-al-salam",
+    "name": "Madinat al-Salam (the Round City)",
+    "polygon": [
+     [
+      2734,
+      4993
+     ],
+     [
+      2693,
+      4682
+     ],
+     [
+      2573,
+      4393
+     ],
+     [
+      2382,
+      4144
+     ],
+     [
+      2134,
+      3953
+     ],
+     [
+      1845,
+      3833
+     ],
+     [
+      1534,
+      3792
+     ],
+     [
+      1224,
+      3833
+     ],
+     [
+      934,
+      3953
+     ],
+     [
+      686,
+      4144
+     ],
+     [
+      496,
+      4393
+     ],
+     [
+      376,
+      4682
+     ],
+     [
+      335,
+      4993
+     ],
+     [
+      376,
+      5303
+     ],
+     [
+      496,
+      5593
+     ],
+     [
+      686,
+      5842
+     ],
+     [
+      934,
+      6032
+     ],
+     [
+      1224,
+      6152
+     ],
+     [
+      1534,
+      6193
+     ],
+     [
+      1845,
+      6152
+     ],
+     [
+      2134,
+      6032
+     ],
+     [
+      2382,
+      5842
+     ],
+     [
+      2573,
+      5593
+     ],
+     [
+      2693,
+      5303
+     ]
+    ],
+    "description": "Al-Mansur's round city of 762–766: three walls, four gates, a ring of residential streets for his officers and kin, and in the empty centre his palace and mosque. After the siege of 812–813 and the caliphs' move east it slowly decayed.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "id": "madinat-al-mansur",
+    "name": "Madinat al-Mansur (ruins)",
+    "polygon": [
+     [
+      2734,
+      4993
+     ],
+     [
+      2693,
+      4682
+     ],
+     [
+      2573,
+      4393
+     ],
+     [
+      2382,
+      4144
+     ],
+     [
+      2134,
+      3953
+     ],
+     [
+      1845,
+      3833
+     ],
+     [
+      1534,
+      3792
+     ],
+     [
+      1224,
+      3833
+     ],
+     [
+      934,
+      3953
+     ],
+     [
+      686,
+      4144
+     ],
+     [
+      496,
+      4393
+     ],
+     [
+      376,
+      4682
+     ],
+     [
+      335,
+      4993
+     ],
+     [
+      376,
+      5303
+     ],
+     [
+      496,
+      5593
+     ],
+     [
+      686,
+      5842
+     ],
+     [
+      934,
+      6032
+     ],
+     [
+      1224,
+      6152
+     ],
+     [
+      1534,
+      6193
+     ],
+     [
+      1845,
+      6152
+     ],
+     [
+      2134,
+      6032
+     ],
+     [
+      2382,
+      5842
+     ],
+     [
+      2573,
+      5593
+     ],
+     [
+      2693,
+      5303
+     ]
+    ],
+    "description": "By the 12th century the Round City was a quarter among mounds, its walls fallen, still known for al-Mansur's mosque where Friday prayer was held for the west side.",
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "id": "karkh",
+    "name": "al-Karkh",
+    "polygon": [
+     [
+      2464,
+      7045
+     ],
+     [
+      2631,
+      6102
+     ],
+     [
+      3394,
+      5547
+     ],
+     [
+      4324,
+      5492
+     ],
+     [
+      5626,
+      6213
+     ],
+     [
+      4882,
+      7045
+     ]
+    ],
+    "description": "The market suburb south of the Round City, between the Sarat and Isa canals, where al-Mansur moved the markets in 773. In later centuries a largely Shi'i quarter of merchants, often at odds with Sunni Bab al-Basra next door."
+   },
+   {
+    "id": "harbiyya",
+    "name": "al-Harbiyya",
+    "polygon": [
+     [
+      93,
+      3661
+     ],
+     [
+      93,
+      1886
+     ],
+     [
+      1255,
+      1886
+     ],
+     [
+      1255,
+      3661
+     ]
+    ],
+    "description": "The fiefs north of the Syria Gate given to the general Harb ibn Abdallah and the Khurasani soldiers; in the 12th century a walled Hanbali quarter of its own.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "id": "kazimayn",
+    "name": "Maqabir Quraysh (al-Kazimayn)",
+    "polygon": [
+     [
+      93,
+      1831
+     ],
+     [
+      93,
+      388
+     ],
+     [
+      1255,
+      388
+     ],
+     [
+      1255,
+      1831
+     ]
+    ],
+    "description": "The cemetery of the Quraysh, laid out by al-Mansur, where the seventh and ninth imams of the Twelver Shi'a, Musa al-Kazim (d. 799) and Muhammad al-Jawad (d. 835), were buried. The town of the shrine grew round them."
+   },
+   {
+    "id": "rusafa",
+    "name": "al-Rusafa",
+    "polygon": [
+     [
+      2185,
+      2718
+     ],
+     [
+      2371,
+      1498
+     ],
+     [
+      3580,
+      1498
+     ],
+     [
+      3580,
+      2718
+     ]
+    ],
+    "description": "The east-bank camp and palace city built from 768 for al-Mansur's son and heir al-Mahdi, with its own mosque. Later the burial place of caliphs and of Abu Hanifa.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "id": "azamiyya",
+    "name": "al-A'zamiyya",
+    "polygon": [
+     [
+      2185,
+      2718
+     ],
+     [
+      2371,
+      1498
+     ],
+     [
+      3580,
+      1498
+     ],
+     [
+      3580,
+      2718
+     ]
+    ],
+    "description": "The town round the tomb of Abu Hanifa, 'the greatest imam' (al-imam al-a'zam), on the site of old Rusafa. Suleiman the Magnificent rebuilt the tomb and mosque after 1534.",
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "id": "shammasiyya",
+    "name": "al-Shammasiyya",
+    "polygon": [
+     [
+      2836,
+      1498
+     ],
+     [
+      2836,
+      55
+     ],
+     [
+      4324,
+      55
+     ],
+     [
+      4324,
+      1498
+     ]
+    ],
+    "description": "The open ground upriver on the east bank, named after a deacon (shammas) of a Christian monastery there; parade ground, monastery gardens, and the site of al-Ma'mun's observatory of 828."
+   },
+   {
+    "id": "mukharrim",
+    "name": "al-Mukharrim",
+    "polygon": [
+     [
+      3952,
+      4771
+     ],
+     [
+      3998,
+      3661
+     ],
+     [
+      5254,
+      3772
+     ],
+     [
+      5254,
+      4882
+     ]
+    ],
+    "description": "The east-bank quarter between Bab al-Taq and the palaces to the south, settled by soldiers and officials; its southern part became the core of the later walled east city.",
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "id": "east-side",
+    "name": "al-Jānib al-Sharqī (the East Side)",
+    "polygon": [
+     [
+      3654,
+      4660
+     ],
+     [
+      4231,
+      4416
+     ],
+     [
+      4742,
+      4216
+     ],
+     [
+      5533,
+      4083
+     ],
+     [
+      6090,
+      4039
+     ],
+     [
+      6611,
+      4061
+     ],
+     [
+      7095,
+      4460
+     ],
+     [
+      7327,
+      4882
+     ],
+     [
+      7383,
+      5204
+     ],
+     [
+      7429,
+      5769
+     ],
+     [
+      7383,
+      6424
+     ],
+     [
+      7160,
+      6857
+     ],
+     [
+      6797,
+      7079
+     ]
+    ],
+    "description": "The walled east city: the caliph's palace precinct along the river, the Tuesday Market, madrasas and Sufi lodges; from 1534 the Ottoman town with its citadel and governor's palace.",
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Dijla",
+    "position": [
+     1785,
+     1775
+    ],
+    "size": "lg",
+    "rotation": -55
+   },
+   {
+    "text": "Dijla",
+    "position": [
+     6323,
+     6746
+    ],
+    "size": "lg",
+    "rotation": 45
+   },
+   {
+    "text": "Madinat al-Salam",
+    "position": [
+     1720,
+     3528
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "text": "Madinat al-Mansur",
+    "position": [
+     1720,
+     3528
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "text": "al-Karkh",
+    "position": [
+     3719,
+     6790
+    ],
+    "size": "lg",
+    "rotation": 0
+   },
+   {
+    "text": "al-Harbiyya",
+    "position": [
+     679,
+     2663
+    ],
+    "size": "md",
+    "rotation": -90,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "text": "al-Rusafa",
+    "position": [
+     3068,
+     1864
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "text": "al-A'zamiyya",
+    "position": [
+     3068,
+     1864
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "text": "al-Shammasiyya",
+    "position": [
+     3626,
+     666
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "al-Mukharrim",
+    "position": [
+     4603,
+     4216
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "text": "Bab al-Taq",
+    "position": [
+     4324,
+     2885
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "text": "Maqabir Quraysh",
+    "position": [
+     790,
+     1420
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830"
+    ]
+   },
+   {
+    "text": "Mashhad al-Kazimayn",
+    "position": [
+     790,
+     1420
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "abbasid-1200"
+    ]
+   },
+   {
+    "text": "al-Kazimiyya",
+    "position": [
+     790,
+     1420
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ottoman-1650"
+    ]
+   },
+   {
+    "text": "Nahr Isa",
+    "position": [
+     1534,
+     7079
+    ],
+    "size": "sm",
+    "rotation": -5
+   },
+   {
+    "text": "Nahr al-Sarat",
+    "position": [
+     3394,
+     5681
+    ],
+    "size": "sm",
+    "rotation": -45,
+    "periods": [
+     "mansur-770",
+     "harun-800",
+     "mamun-830",
+     "abbasid-1200"
+    ]
+   },
+   {
+    "text": "Baghdad",
+    "position": [
+     6183,
+     4660
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "abbasid-1200",
+     "ottoman-1650"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D6AC",
+   "ink": "#6A4A30",
+   "water": "#5F8A88",
+   "hill": "#9A8A62",
+   "road": "#8C6A48"
+  },
+  "compass": [
+   6974,
+   1997
+  ],
+  "cartouche": [
+   5207,
+   976
+  ]
+ },
+ "periods": [
+  {
+   "id": "mansur-770",
+   "label": "Al-Mansur's Round City",
+   "year": 770,
+   "startYear": 762,
+   "endYear": 785,
+   "summary": "The second Abbasid caliph, al-Mansur, founds Madinat al-Salam in 762 on the west bank of the Tigris where canals from the Euphrates come close: a perfectly round city of sun-dried brick, about 2.4 km across in most reconstructions, with three walls, four gates and his palace and mosque alone in a vast central plaza. Markets crowd the gate arcades until 773, when they are moved out to Karkh.",
+   "population": "unknown; tens of thousands of soldiers, officials and builders at first, growing fast",
+   "feel": "Brickmakers' kilns smoking along the canals, Khurasani soldiers in black, and the Green Dome rising over a city still smelling of wet clay.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Fiefs of the Round City",
+    "text": "Inside the walls, the ring between the main and inner walls was divided by streets into blocks granted to the caliph's officers, kinsmen and freedmen: courtyard houses of mud brick on fired-brick footings, flat roofs of palm trunks and reed mats plastered with clay."
+   },
+   "outskirts": {
+    "title": "The fiefs outside the gates",
+    "text": "Outside each gate the caliph granted land (qati'a) to generals and their regiments: the Harbiyya to the north, Karkh to the south. Loose compounds of brick and reed among palm groves and canals."
+   }
+  },
+  {
+   "id": "harun-800",
+   "label": "Harun al-Rashid's Baghdad",
+   "year": 800,
+   "startYear": 786,
+   "endYear": 811,
+   "summary": "The capital of an empire from the Maghreb to Central Asia under Harun al-Rashid (786–809), and perhaps the largest city in the world. The caliph lives in the Khuld palace by the river; the Barmakid viziers build palaces on the east bank; Rusafa, Shammasiyya and Mukharrim fill the east side, Karkh and Harbiyya the west, joined by bridges of boats. Paper, made here from the 790s, is changing the bureaucracy.",
+   "population": "perhaps 300,000–500,000; medieval and modern estimates run much higher",
+   "feel": "Boats from Basra unloading Indian pepper and Chinese silk, the clatter of the paper mills, muezzins answering one another across the river.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Courtyard houses of Karkh",
+    "text": "Houses of mud brick and fired brick turned inward round a court with a pool or a palm, flat roofs where families slept in summer, a wind-catcher (badhanj) catching the north wind, and a cool cellar (sardab) below for the hottest hours."
+   },
+   "outskirts": {
+    "title": "Palm groves and canals",
+    "text": "Between the quarters lay date palms, orchards and vegetable gardens watered by the canals, brick kilns, the estates of the great families and the tents and huts of newcomers."
+   }
+  },
+  {
+   "id": "mamun-830",
+   "label": "Al-Ma'mun's City of Learning",
+   "year": 830,
+   "startYear": 812,
+   "endYear": 944,
+   "summary": "Baghdad rebuilds after the civil war of 811–813, in which al-Ma'mun's armies besieged his brother al-Amin and wrecked the Round City and Karkh. Al-Ma'mun (813–833, in Baghdad from 819) patronises the translators and scholars of the House of Wisdom and the observatory at Shammasiyya. The caliphs leave for Samarra in 836 and return in 892; the palaces of the caliphate now stand on the east bank.",
+   "population": "perhaps several hundred thousand",
+   "feel": "Scholars arguing over Galen and Ptolemy in Syriac, Greek and Arabic, scaffolding over burnt quarters, the scratch of reed pens on new paper.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Rebuilt houses",
+    "text": "Quarters burnt in the siege were rebuilt in fired brick set in gypsum mortar, two storeys round a court; rich houses had painted stucco, wind-catchers on the roof and a sardab half underground."
+   },
+   "outskirts": {
+    "title": "Gardens and ruins",
+    "text": "Beyond the rebuilt quarters, burnt-out lots, new gardens and the camps of soldiers; on the east bank the estates and palaces of officials along the river."
+   }
+  },
+  {
+   "id": "abbasid-1200",
+   "label": "The Late Caliphate",
+   "year": 1200,
+   "startYear": 945,
+   "endYear": 1258,
+   "summary": "After 945 Buyid and then Seljuk sultans rule Baghdad in the caliph's name; from 1180 al-Nasir revives the caliph's power. The city has shifted to the east bank, walled about 1095–1123 with four gates round the vast Dar al-Khilafa. The Round City is a ruin and a quarter; Karkh, Bab al-Basra and Harbiyya are separate towns. The Mongols sack Baghdad in February 1258.",
+   "population": "perhaps 100,000–200,000 by the 12th century",
+   "feel": "Sufi lodges, madrasa students in black turbans, the caliph's processions through the Bab al-Nubi, and quarters fighting quarters across the river.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of the walled east city",
+    "text": "Brick courtyard houses packed along winding lanes and dead-end alleys behind gates closed at night; fired brick with gypsum plaster, wind-catchers, deep sardabs, and timber screens over the upper windows."
+   },
+   "outskirts": {
+    "title": "Mounds and separate towns",
+    "text": "West of the river, the old quarters had become separate walled towns among ruin mounds, cemeteries and gardens: Karkh, Bab al-Basra, Harbiyya and the shrine town of the Kazimayn."
+   }
+  },
+  {
+   "id": "ottoman-1650",
+   "label": "Ottoman Baghdad",
+   "year": 1650,
+   "startYear": 1534,
+   "endYear": 1749,
+   "summary": "A frontier city fought over by Ottomans and Safavid Persians: taken by Suleiman in 1534, by Shah Abbas in 1623, and retaken for good by Sultan Murad IV in 1638. The walled east town with its citadel and governor's palace, the small west-bank suburb of Karkh and a bridge of boats; the shrines of the Kazimayn, Abu Hanifa and Abd al-Qadir draw pilgrims.",
+   "population": "perhaps 50,000–100,000",
+   "feel": "Janissaries at the citadel gate, coffee in the khans, Persian pilgrims bound for the Kazimayn, and shanashil balconies leaning over the lanes.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Shanashil houses",
+    "text": "Brick courtyard houses of two storeys whose upper rooms project over the lane on timber brackets behind latticed shanashil windows; wind-catchers on the roof, and the family sleeping on the roof or in the sardab in summer."
+   },
+   "outskirts": {
+    "title": "Palm groves and cemeteries",
+    "text": "Inside the old walls whole districts were gardens, cemeteries and ruin mounds; outside, palm groves along the river and the villages of the Kazimayn and al-A'zamiyya."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "round-city",
+   "placeId": "madinat-al-salam",
+   "name": "The Round City (Madinat al-Salam)",
+   "category": "district",
+   "position": [
+    1534,
+    4993
+   ],
+   "rotation": 0,
+   "footprint": [
+    2400.0,
+    2400.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/round-city.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 2400,
+      "depth": 2400
+     },
+     "buildings": [
+      {
+       "offset": [
+        -600.0,
+        -600.0
+       ],
+       "width": 720.0,
+       "depth": 720.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        600.0,
+        480.0
+       ],
+       "width": 720.0,
+       "depth": 720.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "Just finished (762–766) with mud brick fired in kilns along the canals. Shops still crowd the arcaded gate passages; in 773 al-Mansur moves them out to Karkh for safety."
+    },
+    "harun-800": {
+     "note": "Harun lives in the Khuld outside the walls; the ring of fiefs inside is home to officials, Abbasid kin and the caliph's guard. The gates are closed at night."
+    },
+    "mamun-830": {
+     "note": "Battered in the siege of 812–813, when al-Amin held out here against al-Ma'mun's catapults. Repaired, but the caliphs no longer live inside."
+    },
+    "abbasid-1200": {
+     "name": "Madinat al-Mansur (ruins)",
+     "confidence": "interpretation",
+     "note": "The walls mostly fallen, the circuit traced by mounds and lanes; a quarter grown up round al-Mansur's mosque, still the Friday mosque of the west side.",
+     "model": {
+      "glb": "models/baghdad/round-city-1200.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 2400,
+        "depth": 2400
+       },
+       "buildings": [
+        {
+         "offset": [
+          -600.0,
+          -600.0
+         ],
+         "width": 720.0,
+         "depth": 720.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          600.0,
+          480.0
+         ],
+         "width": 720.0,
+         "depth": 720.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    },
+    "ottoman-1650": {
+     "note": "Gone. No trace of the walls survives above ground; its site, somewhere under the gardens between Karkh and the Kazimayn, is no longer known."
+    }
+   },
+   "summary": "Al-Mansur's circular capital of 762–766: three concentric walls with four gates, a ring of residential streets, and his palace and mosque alone in a central plaza. Its exact site under modern Baghdad is unknown.",
+   "details": [
+    "Al-Mansur chose the site in 762; by one account its outline was traced in lines of naphtha-soaked cotton seed and set alight so he could see it. Al-Ya'qubi and al-Khatib describe a moat, an outer wall, a great main wall with towers and an inner wall, with gates to Kufa, Basra, Khurasan and Syria. Estimates of its diameter run from about 2.3 to 2.7 km.",
+    "The miniature follows the usual reconstruction (Herzfeld, Creswell, Lassner): bent entrances through the outer wall, domed audience halls over the main gates, arcaded passages through the residential ring, and an empty plaza. Wall heights, tower counts and the number of streets differ between sources and are simplified here."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-round-city",
+    "le-strange",
+    "lassner-topography",
+    "creswell-ema",
+    "kennedy-baghdad"
+   ],
+   "built": "762–766",
+   "function": "Fortified palace city, seat of the caliphate",
+   "activity": {
+    "figures": 140,
+    "radius": 1000
+   }
+  },
+  {
+   "id": "golden-gate-palace",
+   "placeId": "qasr-bab-al-dhahab",
+   "name": "Palace of the Golden Gate and the Green Dome",
+   "category": "civic",
+   "position": [
+    1534,
+    4993
+   ],
+   "rotation": 45,
+   "footprint": [
+    204.4,
+    206.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/golden-gate-palace.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 200,
+     "depth": 200,
+     "wallHeight": 40.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "The caliph's palace at the exact centre of the city, its Green Dome visible from the outskirts. Only al-Mansur may ride into the plaza; everyone else walks."
+    },
+    "harun-800": {
+     "note": "A palace of state and ceremony; Harun prefers the Khuld by the river, but embassies may still be received under the Green Dome."
+    },
+    "mamun-830": {
+     "note": "Damaged in the siege of 812–813 and little used by the caliphs; al-Mu'tadid will pull part of it down in 893 to enlarge the mosque."
+    },
+    "abbasid-1200": {
+     "note": "The Green Dome fell in a storm on the night of 9 March 941. What was left of the palace walls stood among the mounds until the Mongol sack of 1258."
+    }
+   },
+   "summary": "Al-Mansur's palace at the centre of the Round City, named for its gilded gate and crowned by the Green Dome, about 48 m high, with a horseman on top.",
+   "details": [
+    "The palace is usually read as about 200 m square (400 cubits), the mosque beside it a quarter of its size. At its heart an iwan about 14 m high opened into a square audience hall; above that hall a second chamber carried the Green Dome, said to be 80 cubits (about 48 m) high, crowned by a horseman with a lance who turned, legend said, toward the next danger.",
+    "Nothing survives and no plan was ever drawn. The miniature follows the descriptions: courtyard wings round a central iwan and domed hall, the gilded gate toward the plaza, the green dome on a tall drum. Its colour, the inner courts and the horseman's form are interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-golden-gate",
+    "le-strange",
+    "creswell-ema",
+    "lassner-topography"
+   ],
+   "built": "762–766",
+   "function": "Caliph's palace and audience hall",
+   "activity": {
+    "figures": 40,
+    "radius": 180
+   }
+  },
+  {
+   "id": "mansur-mosque",
+   "placeId": "jami-al-mansur",
+   "name": "Great Mosque of al-Mansur",
+   "category": "religious",
+   "position": [
+    1648,
+    5106
+   ],
+   "rotation": 45,
+   "footprint": [
+    100.0,
+    101.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/mansur-mosque.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 100,
+     "depth": 100,
+     "domes": 3,
+     "minaretHeight": 30.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "Finished about 763: walls of sun-dried brick and a flat roof on wooden columns, some single tree trunks. Built against the palace's south-east side, it was slightly off the true direction of Mecca.",
+     "model": {
+      "glb": "models/baghdad/mansur-mosque-770.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 100,
+       "depth": 100,
+       "domes": 3,
+       "minaretHeight": 30.0
+      }
+     }
+    },
+    "harun-800": {
+     "note": "Harun had it pulled down and rebuilt in fired brick and gypsum mortar in 807–809, the version shown here."
+    },
+    "mamun-830": {
+     "note": "The congregational mosque of the west side. Scholars of hadith teach in its arcades; al-Khatib later lists the great men who prayed here."
+    },
+    "abbasid-1200": {
+     "note": "Enlarged in 893 into part of the old palace; its minaret, burnt in 915, rebuilt. Flooded in 1255 but apparently survived the Mongols; Ibn Battuta saw it in 1327."
+    },
+    "ottoman-1650": {
+     "note": "Vanished at some unknown date after the 14th century; no trace of it survives."
+    }
+   },
+   "summary": "The Friday mosque of the Round City, built beside al-Mansur's palace about 763 and rebuilt in fired brick by Harun al-Rashid in 807–809: an arcaded court and a deep prayer hall under a flat timber roof.",
+   "details": [
+    "The first mosque was about 100 yards square, of sun-dried brick, its flat roof on wooden columns; Harun replaced it in fired brick in 807–809. Al-Mu'tadid added a second court in 893 by taking in part of the palace, opening 17 arches into it. Its minaret burned in 915 and was rebuilt.",
+    "The miniature shows the brick mosque of 809 as an early Abbasid hypostyle: thick buttressed walls, a court ringed by arcades, a prayer hall several aisles deep and a single tower. The minaret's form and the court's proportions are reconstructed from comparisons with Abbasid mosques at Samarra and Raqqa."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mansur-mosque",
+    "creswell-ema",
+    "le-strange"
+   ],
+   "built": "c. 763; rebuilt 807–809; enlarged 893",
+   "function": "Congregational mosque",
+   "activity": {
+    "figures": 60,
+    "radius": 150
+   }
+  },
+  {
+   "id": "khuld-palace",
+   "placeId": "qasr-al-khuld",
+   "name": "The Khuld Palace (Qasr al-Khuld)",
+   "category": "civic",
+   "position": [
+    3068,
+    4216
+   ],
+   "rotation": -90,
+   "footprint": [
+    300.0,
+    223.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/khuld-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 300,
+     "depth": 220,
+     "height": 88.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "harun-800",
+    "mamun-830"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "Meadows on the river bank outside the Khurasan Gate. Al-Mansur will build the Khuld here in 773–775, cooler and less cramped than his palace in the centre."
+    },
+    "harun-800": {
+     "note": "Harun al-Rashid's favourite residence and the true centre of power: the river gate, gardens and the halls where the Barmakid viziers governed until their fall in 803."
+    },
+    "mamun-830": {
+     "note": "Al-Amin's residence, bombarded and burnt in the siege of 812–813. Repaired but seldom used by the later caliphs, who move to the east bank."
+    },
+    "abbasid-1200": {
+     "note": "The Buyid amir Adud al-Dawla built his great hospital, the Bimaristan al-Adudi, on the site in 981–982; by 1200 the palace has long gone."
+    }
+   },
+   "summary": "'The Palace of Eternity', named after the garden of paradise in the Qur'an: built by al-Mansur in 773–775 on the Tigris outside the Khurasan Gate, and Harun al-Rashid's favourite home.",
+   "details": [
+    "Al-Mansur moved here from the city centre, and Harun and al-Amin lived here; it was the stage of the famous court of the Thousand and One Nights, though those stories were written much later. The palace was wrecked in the siege of 812–813, and in 981 the hospital of Adud al-Dawla was built on its site.",
+    "No description of its plan survives. The miniature is an interpretation from Abbasid palaces excavated at Samarra and Ukhaidir: a walled enclosure facing the river with a water gate, a domed audience hall behind an iwan, courtyard wings, and gardens with pools and palms."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-khuld",
+    "le-strange",
+    "kennedy-baghdad"
+   ],
+   "built": "773–775",
+   "function": "Caliph's palace",
+   "activity": {
+    "figures": 50,
+    "radius": 200
+   }
+  },
+  {
+   "id": "rusafa",
+   "placeId": "al-rusafa",
+   "name": "Rusafa: al-Mahdi's mosque and palace",
+   "category": "religious",
+   "position": [
+    2836,
+    2308
+   ],
+   "rotation": 0,
+   "footprint": [
+    300.0,
+    220.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/rusafa.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 300,
+     "depth": 220,
+     "height": 88.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "Under construction from about 768 as a camp and palace for al-Mansur's son and heir al-Mahdi and his Khurasani army, across the river from the Round City."
+    },
+    "harun-800": {
+     "note": "The east bank's Friday mosque and palace. Nearby, the cemetery later named after Harun's mother al-Khayzuran holds the grave of Abu Hanifa (d. 767)."
+    },
+    "mamun-830": {
+     "note": "Al-Ma'mun is said to have stayed at Rusafa on his return in 819 before moving to the riverside palaces. The mosque is one of the city's three Friday mosques."
+    },
+    "abbasid-1200": {
+     "note": "The palace is gone. The mosque still holds Friday prayer, among the tombs of the caliphs (al-Rusafa cemetery) and near the domed tomb of Abu Hanifa.",
+     "model": {
+      "glb": "models/baghdad/rusafa-1200.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 300,
+       "depth": 220,
+       "height": 88.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ottoman-1650": {
+     "name": "Mosque of Abu Hanifa (al-A'zamiyya)",
+     "note": "Old Rusafa is the town of al-A'zamiyya round the tomb of Abu Hanifa, whose dome and mosque Suleiman the Magnificent rebuilt after 1534."
+    }
+   },
+   "summary": "The east-bank palace city built from about 768 for the heir al-Mahdi: a Friday mosque, a palace and the barracks of his army, later the burial ground of caliphs.",
+   "details": [
+    "Al-Mansur gave his son a city of his own across the river, partly to split the army between the two banks. Rusafa had its own Friday mosque and was joined to the west bank by the upper bridge of boats. Its exact plan and site are not known; it lay near today's Abu Hanifa mosque in al-A'zamiyya.",
+    "The miniature is an interpretation: a brick Friday mosque with arcaded court beside a walled palace with a domed hall and garden, and the plain courtyard barracks of the guard. The late variant keeps only the mosque among tombs."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-rusafa",
+    "le-strange",
+    "lassner-topography"
+   ],
+   "built": "c. 768–776",
+   "function": "Palace, congregational mosque and camp",
+   "activity": {
+    "figures": 50,
+    "radius": 200
+   }
+  },
+  {
+   "id": "bridge-of-boats",
+   "placeId": "al-jisr",
+   "name": "The main bridge of boats (al-Jisr)",
+   "category": "civic",
+   "position": [
+    3673,
+    3639
+   ],
+   "rotation": 0,
+   "footprint": [
+    420.0,
+    41.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/bridge-of-boats.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 420,
+     "depth": 30,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "Al-Mansur's bridge from the Khurasan road to the east bank, where al-Mahdi's camp is rising. Built of boats because the Tigris rises several metres in the spring flood."
+    },
+    "harun-800": {
+     "note": "The busiest crossing, one of three bridges of boats. After the fall of the Barmakids in 803 Harun had Ja'far's body cut in pieces and displayed on the bridges."
+    },
+    "mamun-830": {
+     "note": "Cut and burnt during the siege of 812–813 and replaced. The bridges were opened to let boats through and taken up when the spring flood ran high."
+    },
+    "abbasid-1200": {
+     "note": "Gone from here; the city's bridge of boats now crosses further downstream between Karkh and the Tuesday Market."
+    }
+   },
+   "summary": "Boats lashed side by side and planked over, chained to brick piers on each bank: the Abbasid bridges of boats that tied the two halves of Baghdad together and could be opened for river traffic.",
+   "details": [
+    "Baghdad never had a permanent bridge over the Tigris before modern times. Early Abbasid writers count three bridges of boats; their positions moved over the centuries. They were opened to let ships pass, taken up when floods ran high, and cut in sieges, as in 812–813 and 865.",
+    "The miniature shows a line of flat-bottomed boats under a timber deck with handrails, held by chains to masonry abutments with guard houses at each end where tolls were taken. The number of boats and the gatehouses are an interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-pontoon",
+    "le-strange",
+    "lassner-topography"
+   ],
+   "built": "from 762",
+   "function": "Pontoon bridge",
+   "activity": {
+    "figures": 40,
+    "radius": 220
+   }
+  },
+  {
+   "id": "bayt-al-hikma",
+   "placeId": "bayt-al-hikma",
+   "name": "The House of Wisdom (Bayt al-Hikma)",
+   "category": "civic",
+   "position": [
+    5858,
+    5570
+   ],
+   "rotation": 41,
+   "footprint": [
+    91.2,
+    71.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/bayt-al-hikma.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mamun-830"
+   ],
+   "variants": {
+    "harun-800": {
+     "note": "Under Harun, the caliph's library (Khizanat al-Hikma) already gathers books in Persian, Syriac and Greek; where it was kept is not known."
+    },
+    "mamun-830": {
+     "note": "Al-Ma'mun's library and scholars' hall at its height: translators, copyists and astronomers paid by the caliph. Its site is unknown; it is placed here near his palace on the east bank."
+    },
+    "abbasid-1200": {
+     "note": "Its later history is obscure; the great libraries of 1200 are those of the madrasas, the Nizamiyya and soon the Mustansiriya."
+    }
+   },
+   "summary": "The caliphs' library and academy, where under al-Ma'mun scholars translated Greek, Syriac and Persian science and philosophy into Arabic. Nothing is known of its building.",
+   "details": [
+    "The House of Wisdom grew from the palace library of Harun into an institution under al-Ma'mun, with librarians such as Sahl ibn Harun and scholars including al-Khwarizmi and the Banu Musa. Historians now see it less as a university than as a library and translation office within the court; the translation movement itself was paid for by many patrons.",
+    "The building is pure interpretation: a brick courtyard house of the period with a domed reading hall behind an iwan, book rooms round the court, and a garden. The site, near the caliph's east-bank palace, is a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-house-of-wisdom",
+    "gutas",
+    "kennedy-baghdad"
+   ],
+   "built": "late 8th–9th century",
+   "function": "Library and translation academy",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "shammasiyya-observatory",
+   "placeId": "marsad-al-shammasiyya",
+   "name": "Observatory of al-Shammasiyya",
+   "category": "civic",
+   "position": [
+    3394,
+    388
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    50.0
+   ],
+   "scale": 1.6,
+   "model": {
+    "glb": "models/baghdad/shammasiyya-observatory.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mamun-830"
+   ],
+   "variants": {
+    "harun-800": {
+     "note": "Open ground by a Christian monastery on the east bank; al-Ma'mun's astronomers will build here in 828."
+    },
+    "mamun-830": {
+     "note": "Al-Ma'mun's astronomers observe the sun and moon here from 828, checking Ptolemy's tables; a second programme runs at Mount Qasiyun near Damascus in 832–833."
+    },
+    "abbasid-1200": {
+     "note": "Nothing remains; its instruments were moved or lost after al-Ma'mun's death in 833."
+    }
+   },
+   "summary": "The first state-funded observatory in Islam, founded by al-Ma'mun at al-Shammasiyya in 828, where astronomers measured the sun's motion and the obliquity of the ecliptic to correct Ptolemy.",
+   "details": [
+    "Yahya ibn Abi Mansur led the work with Sanad ibn Ali and others; their results went into the 'Verified Tables' (al-Zij al-Mumtahan). Al-Ma'mun also sent teams to measure a degree of latitude in the Syrian desert to find the size of the earth.",
+    "Almost nothing is known of the site. The miniature shows instruments of the period: a large meridian wall carrying a graduated arc, a tall gnomon on a level platform, an armillary sphere, and a domed house for the astronomers. Their size and arrangement are interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-islamic-astronomy",
+    "sayili-observatory",
+    "gutas"
+   ],
+   "built": "828",
+   "function": "Astronomical observatory",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "karkh-market",
+   "placeId": "suq-al-karkh",
+   "name": "The markets of Karkh",
+   "category": "commercial",
+   "position": [
+    4138,
+    6158
+   ],
+   "rotation": -20,
+   "footprint": [
+    260.0,
+    180.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/karkh-market.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 260,
+      "depth": 180
+     },
+     "buildings": [
+      {
+       "offset": [
+        -65.0,
+        -45.0
+       ],
+       "width": 78.0,
+       "depth": 54.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        65.0,
+        36.0
+       ],
+       "width": 78.0,
+       "depth": 54.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "A village and fiefs between the canals. In 773 al-Mansur moves every market out of the Round City to here, the story goes after a Byzantine envoy warned him that markets let spies in."
+    },
+    "harun-800": {
+     "note": "Each trade in its own street, laid out by al-Mansur's officials: butchers at the far end by order, booksellers, cloth merchants, money changers, the market of the cooks."
+    },
+    "mamun-830": {
+     "note": "Burnt in the siege of 812–813 and rebuilt by the merchants. Paper, cloth and goods from Basra and the Euphrates pour in along the canals."
+    },
+    "abbasid-1200": {
+     "note": "Still the richest market of the west side, though burnt in the riots between Shi'i Karkh and Sunni Bab al-Basra more than once."
+    },
+    "ottoman-1650": {
+     "note": "A small bazaar of the west-bank suburb, with dates and grain from the countryside, a khan and coffee sellers by the bridge."
+    }
+   },
+   "summary": "The market suburb of Abbasid Baghdad, where al-Mansur moved the markets in 773: covered streets of shops, one trade to a street, khans for merchants and warehouses on the canals.",
+   "details": [
+    "Al-Ya'qubi describes Karkh's markets as two farsakhs long and a farsakh wide, each trade with its own street and rows of shops and stalls; merchants from Khurasan, India and Egypt traded here. The quarter was also home to many Shi'a and, later, a frequent battlefield of sectarian riots.",
+    "The miniature shows a piece of it: long vaulted market streets of brick with shops opening on both sides, a khan round a courtyard, a small mosque and a canal quay with warehouses. Its layout is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-karkh",
+    "le-strange",
+    "kennedy-baghdad"
+   ],
+   "built": "from 773",
+   "function": "Markets and warehouses",
+   "activity": {
+    "figures": 80,
+    "radius": 220
+   }
+  },
+  {
+   "id": "kazimayn",
+   "placeId": "al-kazimayn",
+   "name": "Shrine of the Kazimayn (the two imams)",
+   "category": "religious",
+   "position": [
+    428,
+    888
+   ],
+   "rotation": 0,
+   "footprint": [
+    142.6,
+    122.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/kazimayn.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 140,
+     "depth": 120,
+     "height": 48.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "The cemetery of the Quraysh, laid out by al-Mansur for his family outside the Syria Gate."
+    },
+    "harun-800": {
+     "note": "Musa al-Kazim, seventh imam of the Twelver Shi'a, died in Harun's prison in 799 and was buried here in a simple walled grave.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/baghdad/kazimayn-800.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "mamun-830": {
+     "note": "His grandson Muhammad al-Jawad, the ninth imam, is buried beside him in 835. Shi'i pilgrims visit the graves.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/baghdad/kazimayn-800.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "abbasid-1200": {
+     "note": "A shrine town (al-Mashhad) with two domes over the tombs, rebuilt after the Buyids, burnt in the riots of 1051 and restored; it will burn again in 1258.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/baghdad/kazimayn-1200.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ottoman-1650": {
+     "note": "Rebuilt from 1508 by Shah Ismail and completed under Ottoman rule: twin domes and minarets over a great court. The domes were covered in gold only at the end of the 18th century."
+    }
+   },
+   "summary": "The shrine of the seventh and ninth Shi'a imams, Musa al-Kazim and Muhammad al-Jawad, buried in the cemetery of the Quraysh north-west of the Round City, which grew into the town of al-Kazimiyya.",
+   "details": [
+    "The shrine has been rebuilt many times: by the Buyids in the 10th century, after riots in 1051, after the Mongols in 1258, and on a new plan begun by the Safavid shah Ismail I in 1508 and finished under the Ottomans. The famous gilded domes and minarets date from the late 18th and 19th centuries.",
+    "The miniatures show three stages: a walled grave in the cemetery, a medieval shrine with two brick domes, and the 17th-century shrine with two tiled domes, four minarets and an arcaded court. The early forms are interpretations; dome colours are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kazimiyya",
+    "le-strange"
+   ],
+   "built": "graves 799 and 835; rebuilt 10th, 11th, 13th and 16th centuries",
+   "function": "Shi'i shrine",
+   "activity": {
+    "figures": 70,
+    "radius": 180
+   }
+  },
+  {
+   "id": "mustansiriya",
+   "placeId": "al-mustansiriyya",
+   "name": "Al-Mustansiriya Madrasa",
+   "category": "religious",
+   "position": [
+    5216,
+    5492
+   ],
+   "rotation": 41,
+   "footprint": [
+    105.8,
+    47.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/mustansiriya.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 104,
+     "depth": 46,
+     "height": 18.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Built by the caliph al-Mustansir and opened in 1233 (begun about 1227), after this era's date: the first madrasa for all four Sunni law schools, with a water clock at its gate (1235)."
+    },
+    "ottoman-1650": {
+     "note": "Damaged in 1258 and restored; teaching lapsed under the Ottomans and closed in 1638. Later used as a caravanserai (Khan al-Muwasilah) and military store."
+    }
+   },
+   "summary": "The great madrasa that the caliph al-Mustansir built on the east bank of the Tigris and opened in 1233, teaching all four Sunni schools of law; one of the few Abbasid buildings standing in Baghdad.",
+   "details": [
+    "A two-storey brick building round a long courtyard, with iwans in the middle of the long sides and corners for each of the four law schools, a library said to have opened with 80,000 volumes, kitchens and a bath. Ibn al-Fuwati describes its water clock of 1235, which marked the hours with balls dropped by birds.",
+    "The miniature shows the long court with two tiers of pointed arches, the iwans, and the carved brick facades with their patterned bands, muqarnas portal and inscription frieze. The roofline and the river side are simplified; much of the present building is restoration."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mustansiriyya",
+    "makdisi-colleges",
+    "herzfeld-sarre",
+    "hillenbrand-ia"
+   ],
+   "built": "c. 1227–1233",
+   "function": "Madrasa (college of law)",
+   "activity": {
+    "figures": 40,
+    "radius": 110
+   }
+  },
+  {
+   "id": "talisman-gate",
+   "placeId": "bab-al-tilsim",
+   "name": "The Talisman Gate (Bab al-Tilsim)",
+   "category": "military",
+   "position": [
+    7383,
+    5204
+   ],
+   "rotation": -90,
+   "footprint": [
+    44.8,
+    36.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/baghdad/talisman-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 44,
+     "depth": 36,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "The gate of the racecourse (Bab al-Halba), rebuilt by the caliph al-Nasir in 1221 with an inscription and the relief that gave it its later name."
+    },
+    "ottoman-1650": {
+     "note": "Murad IV rode into Baghdad through it in December 1638 and had it bricked up behind him so no one else could pass. It stood sealed until blown up by retreating Ottoman troops in 1917."
+    }
+   },
+   "summary": "The north-eastern gate of the walled east city, rebuilt by the caliph al-Nasir in 1221: a massive round brick tower over the gate passage, with an inscription band and a relief of a seated figure grasping two dragons.",
+   "details": [
+    "The gate opened toward the racecourse (halba) laid out in front of it by the Seljuk sultan Malik Shah. Al-Nasir's inscription of 1221 ran round the tower; over the arch, a cross-legged figure held the tongues of two winged dragons, perhaps a talisman against enemies, though its date is debated. Sarre and Herzfeld photographed it before its destruction in 1917.",
+    "The miniature follows those photographs in outline: a cylindrical tower of fired brick with a band of inscription, the gate arch and relief, a bridge over the moat and stretches of the city wall. Details of the parapet are reconstructed."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-gates-baghdad",
+    "herzfeld-sarre"
+   ],
+   "built": "1221 (on an earlier gate of the 1120s)",
+   "function": "City gate",
+   "activity": {
+    "figures": 14,
+    "radius": 80
+   }
+  },
+  {
+   "id": "wastani-gate",
+   "placeId": "bab-al-wastani",
+   "name": "Bab al-Wastani",
+   "category": "military",
+   "position": [
+    6611,
+    4061
+   ],
+   "rotation": -135,
+   "footprint": [
+    50.8,
+    44.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/baghdad/wastani-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 50,
+     "depth": 44,
+     "wallHeight": 8.8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "name": "Bab al-Zafariyya",
+     "note": "The middle gate of the east wall, also called the Khurasan gate: a round brick tower with a domed hall inside, reached across the moat by a bridge."
+    },
+    "ottoman-1650": {
+     "note": "Still one of the gates of the Ottoman town, though the east of the walled area is largely gardens and cemeteries. It survives today, the only one of Baghdad's gates still standing."
+    }
+   },
+   "summary": "The 'middle gate' of the late Abbasid east wall, the only city gate of Baghdad still standing: a round brick tower with a domed chamber, joined by a bridge across the moat to the gate in the wall.",
+   "details": [
+    "The east wall of Baghdad was begun under al-Mustazhir about 1095 and finished under al-Mustarshid; its gates were rebuilt under al-Nasir in the early 13th century, the date usually given for the present tower, which has carved brick decoration and inscriptions. It was restored in the late 20th century.",
+    "The miniature shows the tower with its brick bands, the bridge over the moat, and short lengths of wall on each side. The battlements and the outer bridge gate are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-bab-al-wastani",
+    "wiki-gates-baghdad",
+    "herzfeld-sarre"
+   ],
+   "built": "c. 1221 (on a wall of c. 1095–1123)",
+   "function": "City gate",
+   "activity": {
+    "figures": 12,
+    "radius": 80
+   }
+  },
+  {
+   "id": "dar-al-khilafa",
+   "placeId": "dar-al-khilafa",
+   "name": "Dar al-Khilafa (the Caliph's Palace)",
+   "category": "civic",
+   "position": [
+    6276,
+    6202
+   ],
+   "rotation": 45,
+   "footprint": [
+    450.0,
+    304.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/dar-al-khilafa.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 450,
+     "depth": 300,
+     "height": 120.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "variants": {
+    "harun-800": {
+     "name": "Qasr Ja'far (palace of Ja'far the Barmakid)",
+     "confidence": "interpretation",
+     "note": "The riverside palace of Harun's vizier Ja'far ibn Yahya, seized by the caliph when the Barmakids fell in 803.",
+     "model": {
+      "glb": "models/baghdad/dar-al-khilafa-830.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 450,
+       "depth": 300,
+       "height": 120.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "mamun-830": {
+     "name": "al-Qasr al-Hasani",
+     "confidence": "interpretation",
+     "note": "Al-Ma'mun's residence after 819, then given to his father-in-law al-Hasan ibn Sahl, whose name it took.",
+     "model": {
+      "glb": "models/baghdad/dar-al-khilafa-830.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 450,
+       "depth": 300,
+       "height": 120.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "abbasid-1200": {
+     "note": "The walled palace city of the caliphs, a third of the east side: palaces, gardens, a menagerie, the Caliph's mosque and its own gates; caliph al-Nasir rules from here."
+    },
+    "ottoman-1650": {
+     "note": "Destroyed in 1258. Only the minaret of the Caliph's mosque (rebuilt in 1279, now in Suq al-Ghazl) recalls it; the Ottoman governor's saray stands to the north."
+    }
+   },
+   "summary": "The palace precinct of the Abbasid caliphs on the east bank, grown from a Barmakid palace into a walled city of palaces, gardens and the Caliph's mosque. Destroyed by the Mongols in 1258.",
+   "details": [
+    "Ja'far the Barmakid's palace passed to al-Ma'mun and to al-Hasan ibn Sahl, whose daughter Buran gave it to al-Mu'tadid in 892. He and his successors enlarged it with the Taj and Thurayya palaces and walls of its own. In 917 Byzantine envoys were led through its halls and gardens, including a tree of silver with mechanical birds.",
+    "The miniature compresses a vast precinct into its riverfront: a fortified enclosure with gates, the domed Taj palace on the river, courts and gardens, and the Caliph's mosque with its minaret by the north-west gate. Its layout is an interpretation from texts."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hasani-palace",
+    "wiki-taj-palace",
+    "wiki-khulafa-mosque",
+    "le-strange"
+   ],
+   "built": "late 8th century; enlarged 892–1258",
+   "function": "Caliphal palace precinct",
+   "activity": {
+    "figures": 60,
+    "radius": 260
+   }
+  },
+  {
+   "id": "zumurrud-khatun",
+   "placeId": "turbat-zumurrud-khatun",
+   "name": "Tomb of Zumurrud Khatun",
+   "category": "religious",
+   "position": [
+    3673,
+    6246
+   ],
+   "rotation": 0,
+   "footprint": [
+    20.0,
+    20.0
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/baghdad/zumurrud-khatun.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 20,
+     "depth": 20,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Newly built (about 1200) for Zumurrud Khatun, mother of the caliph al-Nasir, near the tomb of the Sufi Ma'ruf al-Karkhi in the cemetery west of Karkh."
+    },
+    "ottoman-1650": {
+     "note": "Standing in the Sheikh Ma'ruf cemetery, where Baghdadis bury their dead and visit the saint's tomb; local tradition muddles it with the tomb of Sitt Zubayda."
+    }
+   },
+   "summary": "The tomb built about 1200 for Zumurrud Khatun, mother of the caliph al-Nasir: an octagonal brick chamber crowned by a tall cone of stacked muqarnas cells, like a sugar loaf.",
+   "details": [
+    "Zumurrud Khatun died around 1202 after building a mosque and a Sufi lodge; her tomb, beside her mosque, is one of a group of Iraqi 'muqarnas domes' whose outer shells are made of tiers of small niches. Inside, the cone opens as a honeycomb of cells lit by small openings.",
+    "The miniature shows the octagonal drum with its recessed arches and the cone of nine or so stepped tiers of niches, with a low wall round the grave. The tier count and the finial are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-zumurrud",
+    "tabbaa-muqarnas",
+    "herzfeld-sarre"
+   ],
+   "built": "c. 1200",
+   "function": "Mausoleum",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "gilani-mosque",
+   "placeId": "hadhrat-al-qadiriyya",
+   "name": "Shrine of Sheikh Abd al-Qadir al-Gilani",
+   "category": "religious",
+   "position": [
+    6816,
+    5747
+   ],
+   "rotation": 0,
+   "footprint": [
+    111.8,
+    92.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/gilani-mosque.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 110,
+     "depth": 90,
+     "domes": 3,
+     "minaretHeight": 33.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "name": "Madrasa and tomb of Abd al-Qadir",
+     "confidence": "interpretation",
+     "note": "The madrasa at Bab al-Azaj where the Hanbali preacher Abd al-Qadir al-Gilani taught and was buried in 1166; his sons keep the lodge, and crowds come to his tomb.",
+     "model": {
+      "glb": "models/baghdad/gilani-1200.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 90,
+       "height": 36.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ottoman-1650": {
+     "note": "Wrecked when the Safavids took Baghdad in 1508; Suleiman the Magnificent built the great dome over the tomb after 1534. The centre of the Qadiri Sufi order, with pilgrims from India to Africa."
+    }
+   },
+   "summary": "The tomb, mosque and lodge of Abd al-Qadir al-Gilani (1077–1166), preacher and founder of the Qadiriyya, the most widespread Sufi order, at Bab al-Shaykh in the east city.",
+   "details": [
+    "Abd al-Qadir came from Gilan in Persia to study in Baghdad and preached to great crowds at the madrasa of his teacher at Bab al-Azaj, where he was buried. The quarter round it is still called Bab al-Shaykh, the gate of the sheikh. The Ottomans rebuilt the shrine after 1534 and again later.",
+    "The miniatures show the 12th-century madrasa with a modest dome over the tomb, and the Ottoman shrine with Suleiman's large dome, an arcaded court, a prayer hall and a minaret. Details of both are reconstructed; the present buildings are mostly later."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-qadiriyya",
+    "wiki-abdul-qadir"
+   ],
+   "built": "12th century; rebuilt after 1534",
+   "function": "Shrine, mosque and Sufi lodge",
+   "activity": {
+    "figures": 50,
+    "radius": 140
+   }
+  },
+  {
+   "id": "khan-mirjan",
+   "placeId": "khan-mirjan",
+   "name": "Khan Mirjan",
+   "category": "commercial",
+   "position": [
+    5505,
+    5470
+   ],
+   "rotation": 41,
+   "footprint": [
+    46.6,
+    34.8
+   ],
+   "scale": 1.4,
+   "model": {
+    "glb": "models/baghdad/khan-mirjan.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 46,
+      "depth": 32
+     },
+     "buildings": [
+      {
+       "offset": [
+        -11.5,
+        -8.0
+       ],
+       "width": 13.799999999999999,
+       "depth": 9.6,
+       "height": 8
+      },
+      {
+       "offset": [
+        11.5,
+        6.4
+       ],
+       "width": 13.799999999999999,
+       "depth": 9.6,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Houses and shops of the Tuesday Market quarter. The khan will be built here in 1358–1359."
+    },
+    "ottoman-1650": {
+     "note": "Three centuries old and still a merchants' khan: bales of cloth and Persian goods stored in the upper rooms, deals struck under the great arches."
+    }
+   },
+   "summary": "A covered caravanserai built in 1358–1359 by Amin al-Din Mirjan, governor of Baghdad for the Jalayirid sultan, to endow his mosque: two storeys of rooms round a hall roofed by great pointed transverse arches.",
+   "details": [
+    "Unlike most khans, whose courtyards are open, Khan Mirjan's central hall is roofed by a series of massive pointed transverse arches carrying vaults, lit by openings at the top. Its income paid for Mirjan's mosque and madrasa nearby. It was restored in the 1930s and used as a restaurant.",
+    "The miniature shows the brick block with its portal, the raised roof over the central hall with the arches showing as ribs, and the clerestory openings. The exterior is simplified and the dimensions approximate."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-khan-mirjan",
+    "hillenbrand-ia"
+   ],
+   "built": "1358–1359",
+   "function": "Caravanserai",
+   "activity": {
+    "figures": 20,
+    "radius": 60
+   }
+  },
+  {
+   "id": "ottoman-citadel",
+   "placeId": "al-qala",
+   "name": "The Ottoman Citadel (al-Qal'a)",
+   "category": "military",
+   "position": [
+    4547,
+    4782
+   ],
+   "rotation": 0,
+   "footprint": [
+    281.0,
+    224.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/baghdad/ottoman-citadel.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 280,
+     "depth": 220,
+     "wallHeight": 44.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ottoman-1650"
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Riverside palaces and madrasas inside the new wall near Bab al-Sultan; the brick 'Abbasid Palace' still standing nearby may be a madrasa of the 1230s."
+    },
+    "ottoman-1650": {
+     "note": "Garrisoned by janissaries after Murad IV's reconquest of 1638, with its armoury and mosque; the governor's palace (saray) lies downstream by the river."
+    }
+   },
+   "summary": "The citadel at the north-west corner of the walled east city, by the river near Bab al-Mu'azzam: the fortress of Baghdad's Ottoman garrison and the key to the city in its many sieges.",
+   "details": [
+    "Baghdad changed hands between Ottomans and Safavids in 1534, 1623 and 1638; each time the citadel was the last point held. Seventeenth-century European travellers describe a brick castle with round towers by the river, its guns covering the bridge of boats. The site is now the old Ministry of Defence.",
+    "The miniature is an interpretation: a brick enceinte with round towers and a gatehouse, a domed mosque with a pencil minaret, barracks and stores round a parade ground. Its walls and buildings are reconstructed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-bab-al-muadham",
+    "wiki-baghdad-eyalet"
+   ],
+   "built": "16th–17th century on older works",
+   "function": "Citadel and barracks",
+   "activity": {
+    "figures": 40,
+    "radius": 160
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "brick-kilns",
+   "name": "Brick kilns by the Kufa road",
+   "kind": "works",
+   "position": [
+    651,
+    6790
+   ],
+   "activePeriods": [
+    "mansur-770"
+   ],
+   "summary": "Kilns and brick fields where labourers moulded the mud bricks of the Round City, some said to be a cubit square, and fired the harder bricks for footings and gates.",
+   "details": [
+    "Al-Tabari and al-Khatib record that the walls were of sun-dried brick laid in clay, with fired brick for foundations, gates and important rooms; bricks of different sizes were used in different courses. Workers came from Syria, Mosul, Kufa and Wasit, paid by the day. Kilns stood wherever there was clay and water near the canals."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "tabari",
+    "khatib-tarikh",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Men tread wet clay and straw in a pit while boys carry it in baskets to the moulders, who slap it into wooden frames and lift them off, row after row on the flat ground."
+    },
+    {
+     "hour": 13,
+     "text": "Thousands of drying bricks bake in the sun. A clerk with a tally stick counts them by the hundred for the foreman, who argues about breakages."
+    },
+    {
+     "hour": 19,
+     "text": "Smoke from the kilns drifts over the canal; carts and donkeys carry the day's bricks toward the rising wall, a dark ring on the horizon."
+    }
+   ],
+   "variants": {
+    "harun-800": {
+     "note": "The kilns have moved out with the city; the ground here is houses and gardens of the Bab al-Kufa quarter."
+    }
+   }
+  },
+  {
+   "id": "hammam-bab-al-taq",
+   "name": "A bathhouse at Bab al-Taq",
+   "kind": "bath",
+   "position": [
+    4324,
+    3107
+   ],
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830"
+   ],
+   "summary": "One of the many public baths of Abbasid Baghdad: domed brick rooms of graded heat, fed from a well or canal and heated by a furnace burning reeds and dung.",
+   "details": [
+    "Baghdad's baths were proverbial; a 10th-century count put them in the thousands, surely an exaggeration. Men and women bathed at different hours. Bath attendants, masseurs and barbers worked inside; the furnace stoker burned rubbish and dung from the streets. The bath's site here is an illustration."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hammam",
+    "hilal-rusum",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The stoker feeds the furnace before dawn; by the first prayer, steam already drips from the dome's glass bull's-eyes and the first bathers queue with their bundles."
+    },
+    {
+     "hour": 12,
+     "text": "Women's hours: a cloth hangs over the door, and inside, under the domes, gossip about weddings echoes off the wet plaster."
+    },
+    {
+     "hour": 20,
+     "text": "A merchant back from Basra lies on the warm stone of the hot room while a masseur cracks his joints; outside the street smells of smoke and wet towels."
+    }
+   ],
+   "variants": {
+    "mansur-770": {
+     "note": "Newly built for the soldiers settled east of the river, round the camp of al-Mahdi."
+    }
+   }
+  },
+  {
+   "id": "dayr-al-rum",
+   "name": "The Catholicos' monastery in the Shammasiyya",
+   "kind": "church",
+   "position": [
+    4026,
+    1054
+   ],
+   "activePeriods": [
+    "mansur-770",
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "summary": "A monastery of the Church of the East (the 'Nestorians') on the east bank, from about 780 the seat of its Catholicos, who led Christians from Iraq to China.",
+   "details": [
+    "The Catholicos Timothy I (780–823) moved the patriarchate to Baghdad, debated religion with the caliph al-Mahdi, and sent bishops to Central Asia, India and China. Christian doctors and translators served the caliphs. Monasteries outside Baghdad had gardens and taverns where Muslim poets drank wine. Its exact site is uncertain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-church-east",
+    "wilmshurst-church",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The wooden semantron is struck; monks file into a church with a raised platform in the middle of the nave and chant the Syriac psalms."
+    },
+    {
+     "hour": 13,
+     "text": "A courier leaves with a letter from the Catholicos to a bishop in Merv; another waits for one to take to the Christians of China."
+    },
+    {
+     "hour": 19,
+     "text": "In the vineyard below the walls a party of young men from the city drink the monks' wine and recite poems about the deacon's daughter."
+    }
+   ],
+   "variants": {
+    "mansur-770": {
+     "name": "Monastery of the Shammasiyya",
+     "note": "A monastery whose deacon (shammas) gave the area its name; the Catholicos will move here from Seleucia-Ctesiphon after 780."
+    },
+    "abbasid-1200": {
+     "note": "Still the seat of the Catholicos. After the Mongol sack of 1258, Hulegu gives the Catholicos a palace of the caliphs."
+    }
+   }
+  },
+  {
+   "id": "paper-mill",
+   "name": "Paper mill on the Isa canal",
+   "kind": "works",
+   "position": [
+    2483,
+    6968
+   ],
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "summary": "Paper was made in Baghdad from the 790s, a technique brought from Samarkand; mills on the canals beat old linen rags into pulp with water-driven hammers.",
+   "details": [
+    "Tradition credits the Barmakid vizier al-Fadl ibn Yahya with promoting paper in the government offices around 794–795 instead of papyrus and parchment. Baghdad's paper was famous for its large sheets. Rags were soaked, beaten to pulp, then formed on screens, pressed, dried and burnished. The mill's place on the canal is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "bloom-paper",
+    "wiki-history-of-paper"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Water drives the wheel; trip hammers thud into troughs of wet linen rags, and the whole shed shakes. The smell is of sour, fermenting cloth."
+    },
+    {
+     "hour": 13,
+     "text": "A worker dips a screen into the vat and lifts a thin even layer of pulp; another stacks the wet sheets between felts for the press."
+    },
+    {
+     "hour": 18,
+     "text": "Dried sheets are polished with a smooth stone and counted into quires for a stationer from the booksellers' market."
+    }
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Still at work; Baghdadi paper is the standard of the Islamic world, and its large 'Baghdadi' sheet the size for official documents and big Qur'ans."
+    }
+   }
+  },
+  {
+   "id": "suq-al-warraqin",
+   "name": "The booksellers' market (Suq al-Warraqin)",
+   "kind": "market",
+   "position": [
+    3394,
+    6102
+   ],
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "summary": "The market of the warraqin, the stationers who copied, bound and sold books; al-Ya'qubi counted more than a hundred shops here in the 9th century.",
+   "details": [
+    "The warraq sold paper and ink, copied books to order, and kept shops where scholars met to read and argue. Ibn al-Nadim, whose catalogue of every book in Arabic (the Fihrist, 987) is our best guide to Baghdad's literature, was the son of a bookseller. Its position near Karkh follows al-Ya'qubi."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "yaqubi-buldan",
+    "ibn-al-nadim",
+    "bloom-paper"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A copyist sits cross-legged at the shop front, his paper on his knee, copying a book of poetry for a customer who will collect it next week."
+    },
+    {
+     "hour": 14,
+     "text": "In the shade of a shop, two grammarians argue over a line of verse; the owner pretends not to listen and sells them both a copy."
+    },
+    {
+     "hour": 19,
+     "text": "A student who cannot buy rents a book for the night, promising to bring it back by the dawn prayer."
+    }
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "The booksellers now crowd the east side too, at Suq al-Thulatha near the Nizamiyya; the old Karkh market survives in a smaller way."
+    }
+   }
+  },
+  {
+   "id": "glassmaker",
+   "name": "A glassmaker's workshop in Karkh",
+   "kind": "workshop",
+   "position": [
+    3747,
+    6546
+   ],
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "summary": "A furnace where glassblowers made bottles, lamps and cups, some cut or painted with lustre, from sand and plant ash.",
+   "details": [
+    "Abbasid Iraq made glass in quantity: cut and engraved vessels, lamps for mosques, perfume flasks, window panes set in stucco. Glass from Iraq is found from Egypt to China. The furnaces burned day and night; the workshop's place in Karkh is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-islamic-glass",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The master gathers a glowing blob from the furnace on his pipe, blows, turns, and a bottle neck stretches out as his boy rolls it on a stone."
+    },
+    {
+     "hour": 13,
+     "text": "A perfumer's servant waits for a dozen small flasks; on a shelf, mosque lamps cool in a row, each with three loops for its chain."
+    },
+    {
+     "hour": 21,
+     "text": "The furnace still glows; the night man sleeps beside it on a mat, waking to throw on another armful of tamarisk."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "perfumer",
+   "name": "A perfumer in the Suq al-Attarin",
+   "kind": "shop",
+   "position": [
+    4603,
+    6413
+   ],
+   "activePeriods": [
+    "harun-800",
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "summary": "A perfumer's shop of musk, ambergris, rose water and aloeswood: luxuries brought by sea and caravan from Tibet, India and the Indian Ocean to Baghdad's markets.",
+   "details": [
+    "Rose water was distilled in Iraq and Persia; musk came from Central Asia and Tibet, ambergris from the shores of the Indian Ocean, camphor from Southeast Asia. The scholar al-Kindi, working in Baghdad in the 9th century, wrote a book of perfume recipes. The shop is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-perfume",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The perfumer weighs musk pods on a tiny brass balance while a Khurasani merchant swears they are from Tibet and not from cheaper Kashmir."
+    },
+    {
+     "hour": 13,
+     "text": "A lady's servant asks for rose water and a little ambergris; the perfumer burns a chip of aloeswood so she can smell its quality."
+    },
+    {
+     "hour": 19,
+     "text": "The shutters come down; the whole lane still smells of rose and smoke, and a cat sleeps on a warm sack of cloves."
+    }
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Perfumers sell in the markets on both sides of the river, with Baghdad's own rose water among the most prized."
+    }
+   }
+  },
+  {
+   "id": "storyteller",
+   "name": "A storyteller at Bab al-Taq",
+   "kind": "market",
+   "position": [
+    4063,
+    3417
+   ],
+   "activePeriods": [
+    "harun-800",
+    "mamun-830"
+   ],
+   "summary": "A storyteller (qass or hakawati) in the crowd by the head of the bridge, where all Baghdad passed. Later Arabian Nights tales set many stories in Harun's Baghdad.",
+   "details": [
+    "The Thousand and One Nights as we know it was compiled centuries later, mostly in Egypt and Syria, but a Persian collection called 'A Thousand Tales' was known in Baghdad by the 10th century, and Harun, Ja'far the Barmakid and the eunuch Masrur became its heroes. Street preachers and storytellers drew crowds that the authorities sometimes tried to ban."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-nights",
+    "irwin-nights",
+    "ibn-al-nadim"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "A man with a stick and a loud voice gathers porters and boatmen round him and begins the tale of a merchant, a jinni and a date stone."
+    },
+    {
+     "hour": 15,
+     "text": "At the best moment he stops and passes the bowl; only when enough coins clink in it does the jinni lift his sword."
+    },
+    {
+     "hour": 21,
+     "text": "Lamps hang from a stall; the teller lowers his voice for the caliph walking the city in disguise, and the crowd leans in."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "translator",
+   "name": "A translator's room at the House of Wisdom",
+   "kind": "school",
+   "position": [
+    5746,
+    5459
+   ],
+   "activePeriods": [
+    "mamun-830"
+   ],
+   "summary": "Where translators such as Hunayn ibn Ishaq turned Greek medicine and philosophy into Syriac and Arabic, comparing manuscripts gathered from Byzantium and the Near East.",
+   "details": [
+    "Hunayn (809–873), a Christian from al-Hira, translated or revised most of Galen; he described hunting for good Greek manuscripts in Syria, Palestine and Egypt. Translators worked for many patrons: caliphs, the Banu Musa brothers, courtiers and doctors. The room's place, by the House of Wisdom, is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "gutas",
+    "wiki-translation",
+    "wiki-house-of-wisdom"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Three manuscripts of Galen lie open side by side; the translator reads the Greek aloud, compares a corrupt line, and dictates the Syriac to his pupil."
+    },
+    {
+     "hour": 13,
+     "text": "A courtier's messenger arrives with payment and a question: how long until the book on fevers is ready in Arabic?"
+    },
+    {
+     "hour": 20,
+     "text": "By lamplight a copyist makes a fair copy on Baghdad paper; the translator crosses out a word and writes a better one in the margin."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "bimaristan-adudi",
+   "name": "The Adudi hospital (al-Bimaristan al-Adudi)",
+   "kind": "civic",
+   "position": [
+    3134,
+    4105
+   ],
+   "activePeriods": [
+    "abbasid-1200"
+   ],
+   "summary": "The great hospital founded by the Buyid amir Adud al-Dawla in 981–982 on the site of the Khuld palace by the Tigris, with doctors on salary, wards, a pharmacy and teaching.",
+   "details": [
+    "Adud al-Dawla is said to have chosen the site by hanging pieces of meat in different places and picking the one where they rotted slowest. Ibn Jubayr in 1184 described it as a palace-like building by the river, with doctors visiting the patients every Monday and Thursday and food and medicine supplied free."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-adudi",
+    "ibn-jubayr",
+    "wiki-bimaristan"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "River water is carried up in leather buckets to the wards; an orderly washes the stone floors while patients drink their morning syrups."
+    },
+    {
+     "hour": 11,
+     "text": "Monday: the physicians make their rounds with students, reading pulses and urine flasks, and the pharmacist mixes what they order."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps along the river terrace; a night attendant brings a feverish boatman a cooled drink of barley water."
+    }
+   ],
+   "variants": {
+    "mamun-830": {
+     "name": "The Khuld palace",
+     "note": "Here still stands the Khuld palace; the hospital will be built on its site in 981–982."
+    }
+   }
+  },
+  {
+   "id": "nizamiyya",
+   "name": "The Nizamiyya madrasa",
+   "kind": "school",
+   "position": [
+    5068,
+    5104
+   ],
+   "activePeriods": [
+    "abbasid-1200"
+   ],
+   "summary": "The college of Shafi'i law founded in 1065–1067 by the Seljuk vizier Nizam al-Mulk by the Tuesday Market, where al-Ghazali taught in 1091–1095.",
+   "details": [
+    "The Nizamiyya paid its professors and students from endowments and housed them, a model copied across the Islamic world. Al-Ghazali drew hundreds of students before leaving his chair in a crisis of faith. Ibn Jubayr saw it in 1184, the best of some thirty madrasas on the east side. Its exact plan is unknown."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nizamiyya",
+    "makdisi-colleges",
+    "ibn-jubayr"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Students in turbans sit in a ring round the professor's cushion and recite the morning's text of law, each holding his own copy."
+    },
+    {
+     "hour": 13,
+     "text": "In the courtyard two students argue a case of inheritance; a third keeps score of the objections in a notebook."
+    },
+    {
+     "hour": 21,
+     "text": "The rooms above the arcade glow; the endowment pays for the oil, the bread and the students' stipends."
+    }
+   ],
+   "variants": {
+    "ottoman-1650": {
+     "name": "Site of the Nizamiyya",
+     "note": "Gone; its library was merged into the Mustansiriya's in 1393 and the buildings fell into ruin."
+    }
+   }
+  },
+  {
+   "id": "bridge-toll",
+   "name": "Toll house at the bridge of boats",
+   "kind": "civic",
+   "position": [
+    4807,
+    5747
+   ],
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "summary": "Where collectors took a toll from loaded animals and goods crossing the bridge of boats between Karkh and the east city.",
+   "details": [
+    "Ibn Jubayr in 1184 found the bridge crowded day and night, with men and women walking for pleasure. Bridges of boats were maintained by the government and tolled, and they were opened for ships to pass. The Ottoman bridge, near the same spot, was guarded by soldiers and closed at night. The toll house is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "ibn-jubayr",
+    "wiki-pontoon",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A string of donkeys loaded with melons stops at the barrier; the collector counts the loads, takes coins, and waves them onto the swaying planks."
+    },
+    {
+     "hour": 14,
+     "text": "The middle boats are unchained and swung aside to let a grain barge through; a crowd waits at both ends, complaining."
+    },
+    {
+     "hour": 20,
+     "text": "Families walk across in the evening breeze; lamps on the boats sway with the current, and boys dive from the edge."
+    }
+   ],
+   "variants": {
+    "ottoman-1650": {
+     "note": "The Ottoman bridge of boats, guarded by janissaries and closed after dark; the toll goes to the governor."
+    }
+   }
+  },
+  {
+   "id": "menagerie",
+   "name": "The caliph's menagerie",
+   "kind": "garden",
+   "position": [
+    6853,
+    6080
+   ],
+   "activePeriods": [
+    "mamun-830",
+    "abbasid-1200"
+   ],
+   "summary": "The enclosure of wild animals in the caliph's palace precinct: lions, elephants, giraffes and leopards shown to envoys and guests.",
+   "details": [
+    "When the Byzantine envoys came in 917 they were led past a park of wild beasts that came up to sniff them, a hundred lions in chains, and elephants in brocade. Elephants also walked in caliphal processions. The menagerie's place at the edge of the palace grounds is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "hilal-rusum",
+    "le-strange",
+    "wiki-hasani-palace"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Keepers drag carcasses from the slaughterhouse to the lions' pit; the roaring carries over the palace gardens to the river."
+    },
+    {
+     "hour": 11,
+     "text": "An elephant is washed and dressed in a saddle cloth of silk for a procession; the mahout from Sind talks to it in his own language."
+    },
+    {
+     "hour": 17,
+     "text": "A giraffe browses the tops of the palms while a page of the palace, forbidden to be here, feeds it dates."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "caravan-khan",
+   "name": "A caravan khan near Bab al-Zafariyya",
+   "kind": "inn",
+   "position": [
+    6295,
+    4305
+   ],
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "summary": "A brick caravanserai inside the eastern gate where caravans from Persia and Khurasan unloaded, with stables round the courtyard and rooms for merchants above.",
+   "details": [
+    "The Khurasan road left Baghdad by the eastern gates toward Hamadan and Rayy. Khans gave merchants lodging and storage and their animals water; the owner or the endowment took rent. Under the Ottomans, Persian pilgrims to the shrines came this way. The khan's place is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-caravanserai",
+    "le-strange"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Camels kneel in the courtyard groaning while drivers unload bales of Persian silk and sacks of dried fruit."
+    },
+    {
+     "hour": 13,
+     "text": "In an upper room a merchant from Tabriz counts out coins to a Baghdadi broker; below, a farrier shoes a mule."
+    },
+    {
+     "hour": 20,
+     "text": "The gate is barred; drivers cook rice on small fires by the animals and sing songs from the Zagros."
+    }
+   ],
+   "variants": {
+    "ottoman-1650": {
+     "note": "Full of Persian pilgrims on the way to the Kazimayn and Karbala, and of merchants from Tabriz, since peace with the Safavids in 1639."
+    }
+   }
+  },
+  {
+   "id": "coffee-house",
+   "name": "A coffee house by the river",
+   "kind": "tavern",
+   "position": [
+    5068,
+    5270
+   ],
+   "activePeriods": [
+    "ottoman-1650"
+   ],
+   "summary": "One of the coffee houses that spread across the Ottoman cities in the 16th century: benches by the river, water pipes, backgammon and storytellers.",
+   "details": [
+    "Coffee came to Istanbul in the 1550s and soon to every Ottoman city; Baghdad had its coffee houses by the river near the bridge. Murad IV, who retook Baghdad, had banned coffee and tobacco in Istanbul. Coffee houses were where news, gossip and stories passed. This one is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "hattox-coffee",
+    "wiki-coffeehouse"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The boy roasts beans in a long-handled pan; the first customers, boatmen from the bridge, take their tiny cups black and bitter."
+    },
+    {
+     "hour": 15,
+     "text": "A janissary off duty plays backgammon with a cloth merchant; the dice rattle and the water pipes bubble."
+    },
+    {
+     "hour": 21,
+     "text": "A storyteller tells of Antar the hero; the river is black, and lanterns mark the bridge of boats."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shanashil-house",
+   "name": "A merchant's house in al-Haydarkhana",
+   "kind": "house",
+   "position": [
+    5626,
+    4438
+   ],
+   "activePeriods": [
+    "abbasid-1200",
+    "ottoman-1650"
+   ],
+   "summary": "A Baghdadi courtyard house of brick: shanashil latticed oriels over the lane, a wind-catcher, and a cool sardab below ground for the summer afternoons.",
+   "details": [
+    "Baghdad's summers reach 45–50°C. Houses turned inward to a court; the family moved by the day and the season, sleeping on the roof at night and retreating in the afternoon to the sardab, a half-buried cellar cooled by a wind-catcher shaft. The projecting shanashil oriels of carved wood are known from the Ottoman period. The house is illustrative."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sardab",
+    "wiki-windcatcher",
+    "wiki-mashrabiya"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The family wakes on the roof under mosquito nets as the sky goes pale; mattresses are rolled up before the sun is high."
+    },
+    {
+     "hour": 14,
+     "text": "Down in the sardab, where the air from the wind-catcher shaft is cool, the merchant dozes on a carpet while the house above bakes."
+    },
+    {
+     "hour": 19,
+     "text": "Behind the shanashil the women watch the lane; a water seller passes, and the courtyard is sprinkled to cool it for the evening."
+    }
+   ],
+   "variants": {
+    "abbasid-1200": {
+     "note": "Wind-catchers and sardabs already; the upper windows have wooden screens, but the projecting shanashil oriels come later."
+    }
+   }
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-762",
+   "title": "Al-Mansur founds Madinat al-Salam",
+   "periodId": "mansur-770",
+   "date": "30 July 762",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "round-city"
+   },
+   "effect": "construction",
+   "text": "On a day chosen by his astrologers, among them Nawbakht and Masha'allah, al-Mansur laid the first brick of his round city, praying that God would let it flourish. Builders came from across the empire. He named it Madinat al-Salam, the City of Peace; everyone else kept calling it Baghdad, after the village on the site.",
+   "sourceIds": [
+    "tabari",
+    "wiki-round-city",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "markets-to-karkh-773",
+   "title": "The markets move out to Karkh",
+   "periodId": "mansur-770",
+   "date": "773",
+   "kind": "civic",
+   "at": {
+    "position": [
+     3394,
+     6380
+    ]
+   },
+   "effect": "crowd",
+   "text": "Shops had filled the arcades of the four gates. According to al-Tabari, a visiting Byzantine envoy remarked that the markets let enemies into the city and the smell of the stalls into the caliph's palace. Al-Mansur had them moved to Karkh, outside the walls, where his officials laid out streets for each trade.",
+   "sourceIds": [
+    "tabari",
+    "yaqubi-buldan",
+    "wiki-karkh"
+   ]
+  },
+  {
+   "id": "harun-accession-786",
+   "title": "Harun al-Rashid becomes caliph",
+   "periodId": "harun-800",
+   "date": "14 September 786",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "khuld-palace"
+   },
+   "effect": "procession",
+   "text": "On the night his brother al-Hadi died, Harun, about twenty, became caliph; the same night his son al-Ma'mun was born. Yahya the Barmakid, his old tutor, became his vizier. Baghdad's notables came to swear allegiance, and Harun settled in the Khuld, which became the heart of the court.",
+   "sourceIds": [
+    "wiki-harun",
+    "tabari"
+   ]
+  },
+  {
+   "id": "fall-of-barmakids-803",
+   "title": "The fall of the Barmakids",
+   "periodId": "harun-800",
+   "date": "January 803",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "bridge-of-boats"
+   },
+   "effect": "crowd",
+   "text": "Without warning Harun had Ja'far, his closest companion, beheaded, and his father Yahya and brother al-Fadl imprisoned; their wealth was seized. Ja'far's body, cut in pieces, hung on the bridges of Baghdad for a year. Why Harun turned on the family is still debated.",
+   "sourceIds": [
+    "wiki-barmakids",
+    "tabari",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "siege-812",
+   "title": "The siege of Baghdad",
+   "periodId": "mamun-830",
+   "date": "August 812 – September 813",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "round-city"
+   },
+   "effect": "fire",
+   "text": "In the civil war between Harun's sons, al-Ma'mun's general Tahir besieged al-Amin in Baghdad for a year. Catapults on both sides smashed whole quarters; the poor and the 'naked ones' (urat) fought in the streets for al-Amin. He was killed trying to escape by boat, and Baghdad was left battered and half-empty.",
+   "sourceIds": [
+    "wiki-siege-813",
+    "wiki-fourth-fitna",
+    "tabari"
+   ]
+  },
+  {
+   "id": "observatory-828",
+   "title": "Observing the sun at al-Shammasiyya",
+   "periodId": "mamun-830",
+   "date": "828–829",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "shammasiyya-observatory"
+   },
+   "effect": "none",
+   "text": "Al-Ma'mun's astronomers under Yahya ibn Abi Mansur began a year of systematic observation of the sun and moon to correct the Greek and Indian tables. Their results, the Verified Tables, gave a better value for the tilt of the earth's axis and the length of the year.",
+   "sourceIds": [
+    "wiki-islamic-astronomy",
+    "gutas"
+   ]
+  },
+  {
+   "id": "samarra-836",
+   "title": "The caliphs leave for Samarra",
+   "periodId": "mamun-830",
+   "date": "836 (return 892)",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "bridge-of-boats"
+   },
+   "effect": "procession",
+   "text": "Al-Mu'tasim's Turkish guards clashed so often with the people of Baghdad that he left for a new capital at Samarra, 125 km upriver. Baghdad stayed the biggest city and the market of the empire. The caliphs came back for good in 892, under al-Mu'tadid, and settled on the east bank.",
+   "sourceIds": [
+    "wiki-samarra",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "byzantine-embassy-917",
+   "title": "Byzantine envoys at the caliph's palace",
+   "periodId": "mamun-830",
+   "date": "917",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "dar-al-khilafa"
+   },
+   "effect": "procession",
+   "text": "Envoys of the emperor Constantine VII came to make peace with al-Muqtadir. To impress them they were led through room after room: lines of soldiers, a park of wild beasts, a hundred lions, and a tree of silver whose birds sang by machinery. Court writers savoured every detail.",
+   "sourceIds": [
+    "hilal-rusum",
+    "le-strange",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "green-dome-941",
+   "title": "The Green Dome falls",
+   "periodId": "mamun-830",
+   "date": "9 March 941",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "golden-gate-palace"
+   },
+   "effect": "none",
+   "text": "On a night of heavy rain and thunder, the Green Dome over al-Mansur's palace collapsed, perhaps struck by lightning. It had stood for 180 years, a symbol of the dynasty; people took its fall as an omen. Four years later the Buyids took Baghdad.",
+   "sourceIds": [
+    "wiki-golden-gate",
+    "le-strange"
+   ]
+  },
+  {
+   "id": "buyids-945",
+   "title": "The Buyids enter Baghdad",
+   "periodId": "abbasid-1200",
+   "date": "December 945",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "dar-al-khilafa"
+   },
+   "effect": "procession",
+   "text": "Ahmad ibn Buya, a Daylamite soldier from the Caspian mountains, entered Baghdad and took the title Mu'izz al-Dawla. The caliph kept his palace and his name in the Friday prayer but lost his power; within weeks the caliph al-Mustakfi was blinded and deposed. For a century Shi'i amirs ruled in the Sunni caliph's name.",
+   "sourceIds": [
+    "wiki-buyids",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "mustansiriya-1233",
+   "title": "The Mustansiriya opens",
+   "periodId": "abbasid-1200",
+   "date": "April 1233",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mustansiriya"
+   },
+   "effect": "crowd",
+   "text": "The caliph al-Mustansir opened his new madrasa with a ceremony for the judges, scholars and notables of Baghdad. Unlike the Nizamiyya and its rivals it taught all four Sunni schools of law, each with its professor and students, and had a library, kitchens and, from 1235, a water clock at the gate.",
+   "sourceIds": [
+    "wiki-mustansiriyya",
+    "makdisi-colleges"
+   ]
+  },
+  {
+   "id": "mongol-sack-1258",
+   "title": "The Mongols sack Baghdad",
+   "periodId": "abbasid-1200",
+   "date": "10–17 February 1258",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "dar-al-khilafa"
+   },
+   "effect": "fire",
+   "text": "Hulegu's army breached the east wall after a siege of two weeks. The last caliph, al-Musta'sim, surrendered on 10 February and was put to death; the city was plundered and burned for days and tens of thousands were killed. The Abbasid caliphate of Baghdad ended after five centuries.",
+   "sourceIds": [
+    "wiki-siege-1258",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "suleiman-1534",
+   "title": "Suleiman the Magnificent takes Baghdad",
+   "periodId": "ottoman-1650",
+   "date": "winter 1534",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "gilani-mosque"
+   },
+   "effect": "construction",
+   "text": "Suleiman took Baghdad from the Safavids without a fight. He visited the Sunni shrines the Persians had damaged, ordered the tomb of Abu Hanifa and the shrine of Abd al-Qadir al-Gilani rebuilt, and also honoured the Shi'i shrines of the Kazimayn. Baghdad became the seat of an Ottoman province.",
+   "sourceIds": [
+    "wiki-qadiriyya",
+    "le-strange"
+   ]
+  },
+  {
+   "id": "murad-1638",
+   "title": "Murad IV retakes Baghdad",
+   "periodId": "ottoman-1650",
+   "date": "December 1638",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "talisman-gate"
+   },
+   "effect": "procession",
+   "text": "After fifteen years of Safavid rule and a siege of some forty days, Sultan Murad IV took Baghdad back. He rode in through the Talisman Gate and had it bricked up behind him. A massacre of the Persian garrison followed; the peace of Zuhab in 1639 left Baghdad Ottoman until 1917.",
+   "sourceIds": [
+    "wiki-siege-1638",
+    "le-strange"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "harun-day-800",
+   "title": "A day in Harun al-Rashid's Baghdad",
+   "periodId": "harun-800",
+   "summary": "From the bridge of boats to the caliph's riverside palace, the Round City's gates and the markets of Karkh, in the years when Baghdad was the capital of half the known world.",
+   "steps": [
+    {
+     "landmarkId": "bridge-of-boats",
+     "title": "Across the bridge",
+     "when": "early morning",
+     "text": "Walk over from Bab al-Taq on the swaying planks among porters, soldiers and donkeys. Barges from Basra wait for the middle boats to be swung aside."
+    },
+    {
+     "landmarkId": "khuld-palace",
+     "title": "The palace by the river",
+     "text": "The Khuld's water gate is guarded; inside, Harun and his vizier Ja'far the Barmakid govern an empire from Tunisia to Central Asia. Petitioners wait in the shade along the wall."
+    },
+    {
+     "landmarkId": "round-city",
+     "title": "Through the Khurasan Gate",
+     "text": "Pass the outer wall, the open ring and the great gate with its domed hall above. Inside, an arcaded street runs through the ring of officers' houses to the plaza."
+    },
+    {
+     "landmarkId": "golden-gate-palace",
+     "title": "Under the Green Dome",
+     "text": "Across the empty plaza stands al-Mansur's palace, crowned by the Green Dome and its horseman; next to it the mosque Harun is about to rebuild in fired brick."
+    },
+    {
+     "landmarkId": "karkh-market",
+     "title": "The markets of Karkh",
+     "when": "midday",
+     "text": "Out through the Basra Gate and over the Sarat: each trade has its street, butchers at the end. Silk, pepper, Chinese porcelain and paper change hands."
+    },
+    {
+     "spotId": "suq-al-warraqin",
+     "title": "The booksellers",
+     "text": "More than a hundred stationers' shops: copyists at work, scholars arguing, a new kind of writing material, paper, piled in quires."
+    },
+    {
+     "spotId": "storyteller",
+     "title": "Tales at dusk",
+     "when": "evening",
+     "text": "Back by the bridge a storyteller has a crowd. Centuries later his city and his caliph will become the setting of the Thousand and One Nights."
+    }
+   ],
+   "sourceIds": [
+    "yaqubi-buldan",
+    "tabari",
+    "le-strange",
+    "kennedy-baghdad"
+   ]
+  },
+  {
+   "id": "ibn-jubayr-1184",
+   "title": "With Ibn Jubayr in Baghdad, 1184",
+   "periodId": "abbasid-1200",
+   "summary": "The Andalusian pilgrim Ibn Jubayr spent two weeks in Baghdad in 1184 on his way home from Mecca. He admired its learning and its preachers and found its people proud and much of the west side in ruins.",
+   "steps": [
+    {
+     "landmarkId": "mansur-mosque",
+     "title": "The old city",
+     "when": "May 1184",
+     "text": "On the west side Ibn Jubayr found quarters each like a separate town among ruins; al-Mansur's mosque still held the Friday prayer."
+    },
+    {
+     "spotId": "bimaristan-adudi",
+     "title": "The hospital on the river",
+     "text": "He described the Adudi hospital as a great palace on the Tigris, its doctors visiting twice a week and medicine and food free for the sick."
+    },
+    {
+     "spotId": "bridge-toll",
+     "title": "The bridge of boats",
+     "text": "Crossing to the east side, he saw the bridge crowded day and night with people walking and taking the air."
+    },
+    {
+     "spotId": "nizamiyya",
+     "title": "The colleges",
+     "text": "On the east side he counted about thirty madrasas, the Nizamiyya the finest, each richly endowed, every one in a palace of a building."
+    },
+    {
+     "landmarkId": "dar-al-khilafa",
+     "title": "The caliph's palace",
+     "text": "The palaces of the caliph took up a quarter of the east side. He glimpsed the young caliph al-Nasir and heard the preacher Ibn al-Jawzi move a crowd to tears."
+    }
+   ],
+   "sourceIds": [
+    "ibn-jubayr",
+    "le-strange"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "le-strange",
+   "title": "Baghdad during the Abbasid Caliphate, from Contemporary Arabic and Persian Sources",
+   "author": "Guy Le Strange",
+   "year": 1900,
+   "url": "https://archive.org/details/baghdadduringabb00lest"
+  },
+  {
+   "id": "lassner-topography",
+   "title": "The Topography of Baghdad in the Early Middle Ages: Text and Studies",
+   "author": "Jacob Lassner",
+   "year": 1970,
+   "note": "with a translation of al-Khatib al-Baghdadi's topographical introduction"
+  },
+  {
+   "id": "duri-ei2",
+   "title": "Baghdad",
+   "author": "A. A. Duri",
+   "year": 1960,
+   "note": "Encyclopaedia of Islam, 2nd edition, vol. 1"
+  },
+  {
+   "id": "kennedy-baghdad",
+   "title": "When Baghdad Ruled the Muslim World: The Rise and Fall of Islam's Greatest Dynasty",
+   "author": "Hugh Kennedy",
+   "year": 2004
+  },
+  {
+   "id": "yaqubi-buldan",
+   "title": "Kitab al-Buldan (Book of Countries)",
+   "author": "al-Ya'qubi",
+   "year": "c. 891",
+   "url": "https://en.wikipedia.org/wiki/Al-Ya%27qubi"
+  },
+  {
+   "id": "ibn-jubayr",
+   "title": "Rihla (Travels), the visit to Baghdad",
+   "author": "Ibn Jubayr",
+   "year": "1184",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Jubayr"
+  },
+  {
+   "id": "wiki-history-baghdad",
+   "title": "History of Baghdad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Baghdad"
+  },
+  {
+   "id": "wiki-round-city",
+   "title": "Round City of Baghdad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Round_City_of_Baghdad"
+  },
+  {
+   "id": "wiki-karkh",
+   "title": "Karkh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Karkh"
+  },
+  {
+   "id": "wiki-nahr-isa",
+   "title": "Nahr Isa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nahr_Isa"
+  },
+  {
+   "id": "wiki-tigris",
+   "title": "Tigris",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tigris"
+  },
+  {
+   "id": "wiki-gates-baghdad",
+   "title": "Gates of Baghdad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gates_of_Baghdad"
+  },
+  {
+   "id": "wiki-rusafa",
+   "title": "Al-Rusafa, Iraq",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Rusafa,_Iraq"
+  },
+  {
+   "id": "wiki-kadhimiya",
+   "title": "Kadhimiya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kadhimiya"
+  },
+  {
+   "id": "wiki-adhamiyah",
+   "title": "Adhamiyah",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Adhamiyah"
+  },
+  {
+   "id": "wiki-pontoon",
+   "title": "Pontoon bridge",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pontoon_bridge"
+  },
+  {
+   "id": "wiki-baghdad-eyalet",
+   "title": "Baghdad Eyalet",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baghdad_Eyalet"
+  },
+  {
+   "id": "creswell-ema",
+   "title": "Early Muslim Architecture, vol. 2: Early Abbasids, Umayyads of Cordova, Aghlabids, Tulunids and Samanids",
+   "author": "K. A. C. Creswell",
+   "year": 1940
+  },
+  {
+   "id": "herzfeld-sarre",
+   "title": "Archäologische Reise im Euphrat- und Tigris-Gebiet (4 vols)",
+   "author": "Friedrich Sarre and Ernst Herzfeld",
+   "year": "1911–1920"
+  },
+  {
+   "id": "gutas",
+   "title": "Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early Abbasid Society",
+   "author": "Dimitri Gutas",
+   "year": 1998
+  },
+  {
+   "id": "sayili-observatory",
+   "title": "The Observatory in Islam and its Place in the General History of the Observatory",
+   "author": "Aydın Sayılı",
+   "year": 1960
+  },
+  {
+   "id": "tabbaa-muqarnas",
+   "title": "The Muqarnas Dome: Its Origin and Meaning",
+   "author": "Yasser Tabbaa",
+   "year": 1985,
+   "note": "Muqarnas 3"
+  },
+  {
+   "id": "makdisi-colleges",
+   "title": "The Rise of Colleges: Institutions of Learning in Islam and the West",
+   "author": "George Makdisi",
+   "year": 1981
+  },
+  {
+   "id": "hillenbrand-ia",
+   "title": "Islamic Architecture: Form, Function and Meaning",
+   "author": "Robert Hillenbrand",
+   "year": 1994
+  },
+  {
+   "id": "wiki-golden-gate",
+   "title": "Palace of the Golden Gate",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Palace_of_the_Golden_Gate"
+  },
+  {
+   "id": "wiki-mansur-mosque",
+   "title": "Great Mosque of al-Mansur",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_al-Mansur"
+  },
+  {
+   "id": "wiki-khuld",
+   "title": "Khuld Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Khuld_Palace"
+  },
+  {
+   "id": "wiki-house-of-wisdom",
+   "title": "House of Wisdom",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/House_of_Wisdom"
+  },
+  {
+   "id": "wiki-islamic-astronomy",
+   "title": "Astronomy in the medieval Islamic world",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Astronomy_in_the_medieval_Islamic_world"
+  },
+  {
+   "id": "wiki-kazimiyya",
+   "title": "Al-Kazimiyya Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Kazimiyya_Mosque"
+  },
+  {
+   "id": "wiki-mustansiriyya",
+   "title": "Mustansiriyya Madrasa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mustansiriyya_Madrasa"
+  },
+  {
+   "id": "wiki-bab-al-wastani",
+   "title": "Bab al-Wastani",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bab_al-Wastani"
+  },
+  {
+   "id": "wiki-hasani-palace",
+   "title": "Hasani Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hasani_Palace"
+  },
+  {
+   "id": "wiki-taj-palace",
+   "title": "Taj Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taj_Palace"
+  },
+  {
+   "id": "wiki-khulafa-mosque",
+   "title": "Al-Khulafa Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Khulafa_Mosque"
+  },
+  {
+   "id": "wiki-khan-mirjan",
+   "title": "Khan Mirjan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Khan_Mirjan"
+  },
+  {
+   "id": "wiki-zumurrud",
+   "title": "Zumurrud Khatun Mosque and Mausoleum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zumurrud_Khatun_Mosque_and_Mausoleum"
+  },
+  {
+   "id": "wiki-bab-al-muadham",
+   "title": "Bab al-Mu'adham",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bab_al-Mu%27adham"
+  },
+  {
+   "id": "wiki-qadiriyya",
+   "title": "Hadhrat al-Qadiriyya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hadhrat_al-Qadiriyya"
+  },
+  {
+   "id": "wiki-abdul-qadir",
+   "title": "Abdul Qadir Gilani",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abdul_Qadir_Gilani"
+  },
+  {
+   "id": "tabari",
+   "title": "Ta'rikh al-rusul wa'l-muluk (The History of al-Tabari), vols. 28–33",
+   "author": "al-Tabari",
+   "year": "c. 915",
+   "note": "English translation, SUNY Press, 1985–2007",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_Prophets_and_Kings"
+  },
+  {
+   "id": "khatib-tarikh",
+   "title": "Ta'rikh Baghdad (History of Baghdad), topographical introduction",
+   "author": "al-Khatib al-Baghdadi",
+   "year": "c. 1070",
+   "url": "https://en.wikipedia.org/wiki/Al-Khatib_al-Baghdadi"
+  },
+  {
+   "id": "ibn-al-nadim",
+   "title": "Kitab al-Fihrist",
+   "author": "Ibn al-Nadim",
+   "year": "987",
+   "url": "https://en.wikipedia.org/wiki/Ibn_al-Nadim"
+  },
+  {
+   "id": "hilal-rusum",
+   "title": "Rusum Dar al-Khilafah (The Rules and Regulations of the Abbasid Court)",
+   "author": "Hilal al-Sabi'",
+   "year": "c. 1050",
+   "note": "trans. Elie A. Salem, 1977"
+  },
+  {
+   "id": "bloom-paper",
+   "title": "Paper Before Print: The History and Impact of Paper in the Islamic World",
+   "author": "Jonathan M. Bloom",
+   "year": 2001
+  },
+  {
+   "id": "hattox-coffee",
+   "title": "Coffee and Coffeehouses: The Origins of a Social Beverage in the Medieval Near East",
+   "author": "Ralph S. Hattox",
+   "year": 1985
+  },
+  {
+   "id": "irwin-nights",
+   "title": "The Arabian Nights: A Companion",
+   "author": "Robert Irwin",
+   "year": 1994
+  },
+  {
+   "id": "wilmshurst-church",
+   "title": "The Martyred Church: A History of the Church of the East",
+   "author": "David Wilmshurst",
+   "year": 2011
+  },
+  {
+   "id": "wiki-history-of-paper",
+   "title": "History of paper",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_paper"
+  },
+  {
+   "id": "wiki-translation",
+   "title": "Graeco-Arabic translation movement",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Graeco-Arabic_translation_movement"
+  },
+  {
+   "id": "wiki-bimaristan",
+   "title": "Bimaristan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bimaristan"
+  },
+  {
+   "id": "wiki-adudi",
+   "title": "Al-'Adudi Hospital",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-%27Adudi_Hospital"
+  },
+  {
+   "id": "wiki-hammam",
+   "title": "Hammam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hammam"
+  },
+  {
+   "id": "wiki-church-east",
+   "title": "Church of the East",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Church_of_the_East"
+  },
+  {
+   "id": "wiki-nights",
+   "title": "One Thousand and One Nights",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights"
+  },
+  {
+   "id": "wiki-coffeehouse",
+   "title": "Coffeehouse",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coffeehouse"
+  },
+  {
+   "id": "wiki-mashrabiya",
+   "title": "Mashrabiya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mashrabiya"
+  },
+  {
+   "id": "wiki-sardab",
+   "title": "Sardab",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sardab"
+  },
+  {
+   "id": "wiki-windcatcher",
+   "title": "Windcatcher",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Windcatcher"
+  },
+  {
+   "id": "wiki-nizamiyya",
+   "title": "Nizamiyya of Baghdad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nizamiyya_of_Baghdad"
+  },
+  {
+   "id": "wiki-barmakids",
+   "title": "Barmakids",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barmakids"
+  },
+  {
+   "id": "wiki-harun",
+   "title": "Harun al-Rashid",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harun_al-Rashid"
+  },
+  {
+   "id": "wiki-fourth-fitna",
+   "title": "Fourth Fitna",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fourth_Fitna"
+  },
+  {
+   "id": "wiki-siege-813",
+   "title": "Siege of Baghdad (812–813)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(812%E2%80%93813)"
+  },
+  {
+   "id": "wiki-samarra",
+   "title": "Samarra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Samarra"
+  },
+  {
+   "id": "wiki-buyids",
+   "title": "Buyid dynasty",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buyid_dynasty"
+  },
+  {
+   "id": "wiki-siege-1258",
+   "title": "Siege of Baghdad (1258)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad"
+  },
+  {
+   "id": "wiki-siege-1638",
+   "title": "Siege of Baghdad (1638)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1638)"
+  },
+  {
+   "id": "wiki-islamic-glass",
+   "title": "Islamic glass",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Islamic_glass"
+  },
+  {
+   "id": "wiki-perfume",
+   "title": "Perfume (history in the Islamic world)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Perfume"
+  },
+  {
+   "id": "wiki-caravanserai",
+   "title": "Caravanserai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caravanserai"
+  }
+ ]
+}

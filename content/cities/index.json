@@ -17,6 +17,7 @@
     { "id": "alexandria", "name": "Alexandria", "subtitle": "Alexandria by Egypt", "status": "playable" },
     { "id": "samarkand", "name": "Samarkand", "subtitle": "Maracanda, Face of the Earth", "status": "playable" },
     { "id": "teotihuacan", "name": "Teotihuacan", "subtitle": "City of the Gods", "status": "playable" },
-    { "id": "cordoba", "name": "Córdoba", "subtitle": "Corduba, Qurtuba", "status": "playable" }
+    { "id": "cordoba", "name": "Córdoba", "subtitle": "Corduba, Qurtuba", "status": "playable" },
+    { "id": "baghdad", "name": "Baghdad", "subtitle": "Madinat al-Salam, the City of Peace", "status": "playable" }
   ]
 }

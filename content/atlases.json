@@ -231,7 +231,9 @@
           "subtitle": "The Round City, 800",
           "at": [44.36, 33.31],
           "glyph": "dome",
-          "blurb": "Al-Mansur's circular capital on the Tigris, with the caliph's palace and great mosque at its centre."
+          "blurb": "Al-Mansur's circular capital on the Tigris, with the caliph's palace and great mosque at its centre.",
+          "city": "baghdad",
+          "period": "harun-800"
         },
         {
           "title": "Córdoba",
