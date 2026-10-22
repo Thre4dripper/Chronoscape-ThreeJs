@@ -151,7 +151,9 @@
           "subtitle": "Timur's capital, 1400",
           "at": [66.97, 39.65],
           "glyph": "dome",
-          "blurb": "Timur's showpiece city, with the Bibi-Khanym mosque and the Registan square of markets."
+          "blurb": "Timur's showpiece city, with the Bibi-Khanym mosque and the Registan square of markets.",
+          "city": "samarkand",
+          "period": "timur-1404"
         },
         {
           "title": "Merv",
