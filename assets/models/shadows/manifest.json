@@ -679,6 +679,126 @@
   "cy": 0.55,
   "size": 99.33
  },
+ "changan/bell-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 110.22
+ },
+ "changan/chengtianmen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 204.41
+ },
+ "changan/danfengmen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 243.37
+ },
+ "changan/daqin-880": {
+  "cx": 0.0,
+  "cy": 0.88,
+  "size": 157.93
+ },
+ "changan/daqin-monastery": {
+  "cx": 0.0,
+  "cy": 0.88,
+  "size": 168.55
+ },
+ "changan/daxingshan-si": {
+  "cx": 0.0,
+  "cy": 2.6,
+  "size": 406.58
+ },
+ "changan/drum-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 125.54
+ },
+ "changan/east-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 957.01
+ },
+ "changan/great-mosque": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "size": 296.8
+ },
+ "changan/greater-goose": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 366.98
+ },
+ "changan/greater-goose-1400": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 366.98
+ },
+ "changan/greater-goose-652": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 359.43
+ },
+ "changan/guozijian": {
+  "cx": 0.0,
+  "cy": 1.78,
+  "size": 302.65
+ },
+ "changan/hanyuan-hall": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "size": 408.49
+ },
+ "changan/hanyuan-hall-ruin": {
+  "cx": 0.0,
+  "cy": -1.66,
+  "size": 356.44
+ },
+ "changan/lesser-goose": {
+  "cx": 0.0,
+  "cy": 1.46,
+  "size": 206.02
+ },
+ "changan/ming-south-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 219.92
+ },
+ "changan/qin-palace": {
+  "cx": 0.0,
+  "cy": 2.1,
+  "size": 658.15
+ },
+ "changan/taiji-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 517.42
+ },
+ "changan/west-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 957.01
+ },
+ "changan/ximing-si": {
+  "cx": 0.0,
+  "cy": 2.19,
+  "size": 340.76
+ },
+ "changan/xingqing-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 685.27
+ },
+ "changan/xuandu-guan": {
+  "cx": 0.0,
+  "cy": 2.19,
+  "size": 291.42
+ },
+ "changan/zhuquemen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 143.01
+ },
  "constantinople/aqueduct-of-valens": {
   "cx": 0.0,
   "cy": -0.0,
