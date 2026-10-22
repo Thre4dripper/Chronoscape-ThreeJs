@@ -769,6 +769,136 @@
   "cy": -0.0,
   "size": 269.52
  },
+ "cordoba/albolafia": {
+  "cx": 0.0,
+  "cy": -0.78,
+  "size": 59.33
+ },
+ "cordoba/albolafia-1600": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "size": 55.03
+ },
+ "cordoba/alcazar-reyes": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 123.72
+ },
+ "cordoba/calahorra": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 78.47
+ },
+ "cordoba/caliphal-baths": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 61.28
+ },
+ "cordoba/malmuerta": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 85.56
+ },
+ "cordoba/mezquita": {
+  "cx": -0.8,
+  "cy": -0.8,
+  "size": 272.92
+ },
+ "cordoba/mezquita-1300": {
+  "cx": 0.0,
+  "cy": -0.1,
+  "size": 272.52
+ },
+ "cordoba/mezquita-1600": {
+  "cx": 0.0,
+  "cy": -0.4,
+  "size": 290.76
+ },
+ "cordoba/mezquita-786": {
+  "cx": -0.8,
+  "cy": -0.0,
+  "size": 229.74
+ },
+ "cordoba/minaret-san-juan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 43.7
+ },
+ "cordoba/puerta-almodovar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 97.32
+ },
+ "cordoba/puerta-del-puente": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 65.25
+ },
+ "cordoba/puerta-del-puente-1600": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 64.46
+ },
+ "cordoba/puerta-del-puente-roman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 64.64
+ },
+ "cordoba/puerta-sevilla": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 68.82
+ },
+ "cordoba/roman-bridge": {
+  "cx": 0.5,
+  "cy": -0.0,
+  "size": 288.9
+ },
+ "cordoba/roman-forum": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "size": 143.72
+ },
+ "cordoba/roman-mausoleum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 53.34
+ },
+ "cordoba/roman-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 108.96
+ },
+ "cordoba/roman-theatre": {
+  "cx": 0.0,
+  "cy": 0.48,
+  "size": 166.38
+ },
+ "cordoba/san-lorenzo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 93.08
+ },
+ "cordoba/san-lorenzo-1600": {
+  "cx": 0.0,
+  "cy": -0.03,
+  "size": 113.02
+ },
+ "cordoba/san-pablo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 126.6
+ },
+ "cordoba/synagogue": {
+  "cx": 0.0,
+  "cy": -0.07,
+  "size": 59.35
+ },
+ "cordoba/umayyad-alcazar": {
+  "cx": 0.0,
+  "cy": 0.0,
+  "size": 207.66
+ },
  "cusco/amarukancha": {
   "cx": 0.0,
   "cy": 0.02,
