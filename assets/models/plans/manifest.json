@@ -1223,6 +1223,222 @@
   "size": 48.56,
   "w": 35.6
  },
+ "changan/bell-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 36.4,
+  "ext": "webp",
+  "px": 192,
+  "size": 37.86,
+  "w": 36.4
+ },
+ "changan/chengtianmen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 443,
+  "size": 147.7,
+  "w": 142.02
+ },
+ "changan/danfengmen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 567,
+  "size": 189.15,
+  "w": 181.87
+ },
+ "changan/daqin-880": {
+  "cx": 0.0,
+  "cy": 0.88,
+  "d": 131.75,
+  "ext": "webp",
+  "px": 411,
+  "size": 137.02,
+  "w": 110.0
+ },
+ "changan/daqin-monastery": {
+  "cx": 0.0,
+  "cy": 0.88,
+  "d": 131.75,
+  "ext": "webp",
+  "px": 411,
+  "size": 137.02,
+  "w": 110.0
+ },
+ "changan/daxingshan-si": {
+  "cx": 0.0,
+  "cy": 2.6,
+  "d": 305.2,
+  "ext": "webp",
+  "px": 952,
+  "size": 317.41,
+  "w": 300.0
+ },
+ "changan/drum-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 38.9,
+  "ext": "webp",
+  "px": 192,
+  "size": 55.33,
+  "w": 53.2
+ },
+ "changan/east-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 903.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 959.92,
+  "w": 923.0
+ },
+ "changan/great-mosque": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "d": 250.5,
+  "ext": "webp",
+  "px": 782,
+  "size": 260.52,
+  "w": 50.0
+ },
+ "changan/greater-goose": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 200.0
+ },
+ "changan/greater-goose-1400": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 200.0
+ },
+ "changan/greater-goose-652": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 200.0
+ },
+ "changan/guozijian": {
+  "cx": 0.0,
+  "cy": 1.78,
+  "d": 223.56,
+  "ext": "webp",
+  "px": 811,
+  "size": 270.4,
+  "w": 260.0
+ },
+ "changan/hanyuan-hall": {
+  "cx": 0.0,
+  "cy": 0.55,
+  "d": 301.1,
+  "ext": "webp",
+  "px": 998,
+  "size": 332.8,
+  "w": 320.0
+ },
+ "changan/hanyuan-hall-ruin": {
+  "cx": 0.0,
+  "cy": -1.66,
+  "d": 303.33,
+  "ext": "webp",
+  "px": 998,
+  "size": 332.8,
+  "w": 320.0
+ },
+ "changan/lesser-goose": {
+  "cx": 0.0,
+  "cy": 1.46,
+  "d": 112.92,
+  "ext": "webp",
+  "px": 352,
+  "size": 117.44,
+  "w": 110.0
+ },
+ "changan/ming-south-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 140.0,
+  "ext": "webp",
+  "px": 437,
+  "size": 145.6,
+  "w": 130.0
+ },
+ "changan/qin-palace": {
+  "cx": 0.0,
+  "cy": 2.1,
+  "d": 604.2,
+  "ext": "webp",
+  "px": 1024,
+  "size": 628.37,
+  "w": 500.0
+ },
+ "changan/taiji-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 440.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 457.6,
+  "w": 360.0
+ },
+ "changan/west-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 903.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 959.92,
+  "w": 923.0
+ },
+ "changan/ximing-si": {
+  "cx": 0.0,
+  "cy": 2.19,
+  "d": 264.38,
+  "ext": "webp",
+  "px": 825,
+  "size": 274.96,
+  "w": 220.0
+ },
+ "changan/xingqing-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 560.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 644.8,
+  "w": 620.0
+ },
+ "changan/xuandu-guan": {
+  "cx": 0.0,
+  "cy": 2.19,
+  "d": 244.38,
+  "ext": "webp",
+  "px": 762,
+  "size": 254.16,
+  "w": 240.0
+ },
+ "changan/zhuquemen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 34.0,
+  "ext": "webp",
+  "px": 286,
+  "size": 95.39,
+  "w": 91.72
+ },
  "constantinople/aqueduct-of-valens": {
   "cx": 0.0,
   "cy": -0.0,
