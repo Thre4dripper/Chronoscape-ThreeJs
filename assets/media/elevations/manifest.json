@@ -5048,6 +5048,303 @@
   "w": 36.0,
   "x0px": 33.6
  },
+ "persepolis/apadana": {
+  "ground": 517.1,
+  "h": 44.44,
+  "mpp": 0.09741,
+  "px": [
+   1400,
+   578
+  ],
+  "w": 124.42,
+  "x0px": 61.4
+ },
+ "persepolis/apadana-500": {
+  "ground": 445.0,
+  "h": 37.4,
+  "mpp": 0.09741,
+  "px": [
+   1400,
+   506
+  ],
+  "w": 124.42,
+  "x0px": 61.4
+ },
+ "persepolis/apadana-burned": {
+  "ground": 417.7,
+  "h": 34.72,
+  "mpp": 0.09741,
+  "px": [
+   1400,
+   479
+  ],
+  "w": 124.42,
+  "x0px": 61.4
+ },
+ "persepolis/apadana-ruin": {
+  "ground": 416.9,
+  "h": 34.72,
+  "mpp": 0.09759,
+  "px": [
+   1400,
+   478
+  ],
+  "w": 124.65,
+  "x0px": 61.3
+ },
+ "persepolis/garrison": {
+  "ground": 337.8,
+  "h": 25.58,
+  "mpp": 0.08341,
+  "px": [
+   544,
+   369
+  ],
+  "w": 40.16,
+  "x0px": 31.2
+ },
+ "persepolis/garrison-ruin": {
+  "ground": 223.5,
+  "h": 16.0,
+  "mpp": 0.08337,
+  "px": [
+   551,
+   255
+  ],
+  "w": 40.68,
+  "x0px": 31.5
+ },
+ "persepolis/gate-all-nations": {
+  "ground": 404.9,
+  "h": 31.55,
+  "mpp": 0.0835,
+  "px": [
+   373,
+   432
+  ],
+  "w": 26.56,
+  "x0px": 27.4
+ },
+ "persepolis/gate-all-nations-ruin": {
+  "ground": 367.3,
+  "h": 28.52,
+  "mpp": 0.08345,
+  "px": [
+   375,
+   393
+  ],
+  "w": 27.0,
+  "x0px": 25.7
+ },
+ "persepolis/hadish": {
+  "ground": 405.7,
+  "h": 31.17,
+  "mpp": 0.08347,
+  "px": [
+   570,
+   438
+  ],
+  "w": 42.2,
+  "x0px": 32.2
+ },
+ "persepolis/hadish-ruin": {
+  "ground": 315.0,
+  "h": 23.62,
+  "mpp": 0.08347,
+  "px": [
+   570,
+   347
+  ],
+  "w": 42.2,
+  "x0px": 32.2
+ },
+ "persepolis/harem": {
+  "ground": 337.1,
+  "h": 24.88,
+  "mpp": 0.08343,
+  "px": [
+   751,
+   376
+  ],
+  "w": 56.16,
+  "x0px": 38.9
+ },
+ "persepolis/harem-ruin": {
+  "ground": 268.1,
+  "h": 19.12,
+  "mpp": 0.08343,
+  "px": [
+   751,
+   307
+  ],
+  "w": 56.16,
+  "x0px": 38.9
+ },
+ "persepolis/hundred-columns": {
+  "ground": 456.4,
+  "h": 34.1,
+  "mpp": 0.08341,
+  "px": [
+   986,
+   504
+  ],
+  "w": 74.3,
+  "x0px": 47.6
+ },
+ "persepolis/hundred-columns-ruin": {
+  "ground": 307.2,
+  "h": 21.62,
+  "mpp": 0.08337,
+  "px": [
+   996,
+   355
+  ],
+  "w": 75.04,
+  "x0px": 48.0
+ },
+ "persepolis/plain-palace": {
+  "ground": 204.9,
+  "h": 12.08,
+  "mpp": 0.08337,
+  "px": [
+   1322,
+   265
+  ],
+  "w": 100.2,
+  "x0px": 60.1
+ },
+ "persepolis/plain-palace-ruin": {
+  "ground": 153.9,
+  "h": 7.82,
+  "mpp": 0.08336,
+  "px": [
+   1330,
+   214
+  ],
+  "w": 100.8,
+  "x0px": 60.4
+ },
+ "persepolis/royal-tomb": {
+  "ground": 537.5,
+  "h": 42.0,
+  "mpp": 0.08335,
+  "px": [
+   608,
+   571
+  ],
+  "w": 45.07,
+  "x0px": 33.6
+ },
+ "persepolis/tachara": {
+  "ground": 360.5,
+  "h": 27.77,
+  "mpp": 0.08339,
+  "px": [
+   441,
+   388
+  ],
+  "w": 32.2,
+  "x0px": 27.4
+ },
+ "persepolis/tachara-ruin": {
+  "ground": 293.7,
+  "h": 22.22,
+  "mpp": 0.08339,
+  "px": [
+   441,
+   321
+  ],
+  "w": 32.2,
+  "x0px": 27.4
+ },
+ "persepolis/takht": {
+  "ground": 299.8,
+  "h": 25.17,
+  "mpp": 0.10503,
+  "px": [
+   1400,
+   360
+  ],
+  "w": 134.3,
+  "x0px": 60.7
+ },
+ "persepolis/takht-500": {
+  "ground": 254.6,
+  "h": 20.4,
+  "mpp": 0.10503,
+  "px": [
+   1400,
+   315
+  ],
+  "w": 134.3,
+  "x0px": 60.7
+ },
+ "persepolis/takht-ruin": {
+  "ground": 211.6,
+  "h": 16.0,
+  "mpp": 0.1058,
+  "px": [
+   1400,
+   272
+  ],
+  "w": 135.3,
+  "x0px": 60.6
+ },
+ "persepolis/treasury": {
+  "ground": 299.3,
+  "h": 20.9,
+  "mpp": 0.08338,
+  "px": [
+   1022,
+   348
+  ],
+  "w": 77.05,
+  "x0px": 49.0
+ },
+ "persepolis/treasury-ruin": {
+  "ground": 221.8,
+  "h": 14.4,
+  "mpp": 0.0834,
+  "px": [
+   1033,
+   271
+  ],
+  "w": 77.92,
+  "x0px": 49.4
+ },
+ "persepolis/tripylon": {
+  "ground": 363.5,
+  "h": 28.17,
+  "mpp": 0.08335,
+  "px": [
+   365,
+   389
+  ],
+  "w": 26.2,
+  "x0px": 25.3
+ },
+ "persepolis/tripylon-ruin": {
+  "ground": 283.5,
+  "h": 21.62,
+  "mpp": 0.08346,
+  "px": [
+   363,
+   308
+  ],
+  "w": 26.2,
+  "x0px": 24.5
+ },
+ "persepolis/unfinished-gate": {
+  "ground": 318.6,
+  "h": 24.4,
+  "mpp": 0.08351,
+  "px": [
+   414,
+   345
+  ],
+  "w": 30.16,
+  "x0px": 26.4
+ },
  "rome/ara-pacis": {
   "ground": 104.1,
   "h": 7.2,
