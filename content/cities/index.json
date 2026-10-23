@@ -22,6 +22,7 @@
     { "id": "changan", "name": "Chang'an", "subtitle": "Daxing, the Tang Capital, and Ming Xi'an", "status": "playable" },
     { "id": "timbuktu", "name": "Timbuktu", "subtitle": "City of Scholars", "status": "playable" },
     { "id": "babylon", "name": "Babylon", "subtitle": "Bābili, the Gate of the Gods", "status": "playable" },
-    { "id": "persepolis", "name": "Persepolis", "subtitle": "Parsa, Terrace of the Achaemenid Kings", "status": "playable" }
+    { "id": "persepolis", "name": "Persepolis", "subtitle": "Parsa, Terrace of the Achaemenid Kings", "status": "playable" },
+    { "id": "florence", "name": "Florence", "subtitle": "Florentia to the Grand Duchy", "status": "playable" }
   ]
 }

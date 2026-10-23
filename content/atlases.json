@@ -345,7 +345,9 @@
           "subtitle": "The Medici city, 1490",
           "at": [11.26, 43.77],
           "glyph": "cathedral",
-          "blurb": "Brunelleschi's dome over the cathedral, the Medici palace and the workshops of painters and goldsmiths."
+          "blurb": "Brunelleschi's dome over the cathedral, the Medici palace and the workshops of painters and goldsmiths.",
+          "city": "florence",
+          "period": "medici-1490"
         },
         {
           "title": "Lisbon",
