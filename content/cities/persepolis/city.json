@@ -1,0 +1,3741 @@
+{
+ "id": "persepolis",
+ "name": "Persepolis",
+ "subtitle": "Parsa, Terrace of the Achaemenid Kings",
+ "description": "Persepolis from Darius I's new terrace (about 518 BCE) to the Sasanian kings who carved their names in its ruins: the Takht against Kuh-e Rahmat with its palaces and halls, the royal tombs cut in the mountain above, the fortifications, and the lower town, paradises and canals of the Marvdasht plain. Naqsh-e Rustam (6 km) and Istakhr (5 km) lie off the map to the north. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "darius-500",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#CDAA7E",
+   "#C29E74",
+   "#D6BA90",
+   "#B9966C",
+   "#D0B38A"
+  ],
+  "roofs": [
+   "#A98D66",
+   "#B39670"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2630,
+    1952
+   ],
+   "distance": 30,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   4250,
+   3888
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Pulvar (Medus)",
+    "path": [
+     [
+      1300,
+      0
+     ],
+     [
+      1130,
+      210
+     ],
+     [
+      950,
+      410
+     ],
+     [
+      770,
+      580
+     ],
+     [
+      600,
+      711
+     ],
+     [
+      400,
+      831
+     ],
+     [
+      190,
+      921
+     ],
+     [
+      0,
+      971
+     ]
+    ],
+    "width": 30,
+    "id": "pulvar",
+    "blurb": "The river of Pasargadae, which the Greeks called the Medus, comes down past Naqsh-e Rustam and Istakhr and crosses the Marvdasht plain to join the Kur. Its course across the plain has shifted since antiquity; the line here is approximate."
+   },
+   {
+    "name": "Canal of the plain",
+    "path": [
+     [
+      850,
+      490
+     ],
+     [
+      1100,
+      861
+     ],
+     [
+      1350,
+      1211
+     ],
+     [
+      1500,
+      1611
+     ],
+     [
+      1600,
+      2012
+     ],
+     [
+      1700,
+      2412
+     ],
+     [
+      1800,
+      2912
+     ],
+     [
+      1870,
+      3413
+     ],
+     [
+      1900,
+      3888
+     ]
+    ],
+    "width": 6,
+    "id": "royal-canal",
+    "blurb": "Achaemenid engineers dammed the Pulvar and the Kur and led canals across the plain; traces of ancient canals and dams survive. This line stands for that network rather than one surveyed channel."
+   },
+   {
+    "name": "Branch canal of the lower town",
+    "path": [
+     [
+      1500,
+      1611
+     ],
+     [
+      1690,
+      1912
+     ],
+     [
+      1720,
+      2212
+     ],
+     [
+      1770,
+      2532
+     ],
+     [
+      1850,
+      2672
+     ],
+     [
+      2150,
+      2682
+     ],
+     [
+      2300,
+      2632
+     ],
+     [
+      2490,
+      2612
+     ]
+    ],
+    "width": 4,
+    "id": "town-canal",
+    "blurb": "A smaller channel feeding the gardens and houses of the lower town; water was also brought from the mountain by qanats, underground channels dug from a mother well, which surface as open runnels.",
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "name": "Village canal",
+    "path": [
+     [
+      1600,
+      2012
+     ],
+     [
+      1850,
+      2172
+     ],
+     [
+      2100,
+      2332
+     ],
+     [
+      2260,
+      2412
+     ]
+    ],
+    "width": 4,
+    "id": "village-canal",
+    "blurb": "A Sasanian-period channel serving the villages at the foot of the ruins; the plain was intensively irrigated in Sasanian times.",
+    "periods": [
+     "sasanian-250"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Kuh-e Rahmat",
+    "center": [
+     3450,
+     1811
+    ],
+    "radius": 520,
+    "label": true,
+    "id": "kuh-e-rahmat",
+    "blurb": "The 'Mountain of Mercy' (the Achaemenid name is unknown) rises behind the terrace to about 2,500 m. Its limestone was quarried for the terrace, its slope was walled, and the tombs of later kings were cut into its face above the palaces."
+   },
+   {
+    "name": "Kuh-e Rahmat (north spur)",
+    "center": [
+     3370,
+     1011
+    ],
+    "radius": 480,
+    "label": false,
+    "id": "rahmat-north",
+    "blurb": "The northern spur of the mountain, crossed by the fortification walls and the quarry roads."
+   },
+   {
+    "name": "Kuh-e Rahmat (south spur)",
+    "center": [
+     3410,
+     2632
+    ],
+    "radius": 500,
+    "label": false,
+    "id": "rahmat-south",
+    "blurb": "The southern spur. A third, unfinished royal tomb is cut into the rock about 500 m south of the terrace."
+   },
+   {
+    "name": "Kuh-e Rahmat (summit ridge)",
+    "center": [
+     4000,
+     1661
+    ],
+    "radius": 620,
+    "label": false,
+    "id": "rahmat-high",
+    "blurb": "The high ridge of the mountain, bare limestone with scrub and wild almond."
+   },
+   {
+    "name": "Kuh-e Rahmat (south)",
+    "center": [
+     3900,
+     3313
+    ],
+    "radius": 560,
+    "label": false,
+    "id": "rahmat-far-south",
+    "blurb": "The mountain running south-east along the edge of the plain."
+   },
+   {
+    "name": "Kuh-e Rahmat (north)",
+    "center": [
+     3700,
+     260
+    ],
+    "radius": 460,
+    "label": false,
+    "id": "rahmat-far-north",
+    "blurb": "The mountain running north toward the gorge of the Pulvar and Istakhr."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Processional approach to the stair",
+    "path": [
+     [
+      2582,
+      1751
+     ],
+     [
+      2450,
+      1751
+     ],
+     [
+      2290,
+      1751
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "approach",
+    "blurb": "The broad way from the plain to the foot of the double stair, where delegations dismounted and formed up before climbing to the Gate."
+   },
+   {
+    "name": "Royal road to Susa",
+    "path": [
+     [
+      2290,
+      1751
+     ],
+     [
+      1750,
+      1581
+     ],
+     [
+      950,
+      1291
+     ],
+     [
+      0,
+      951
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "susa-road",
+    "blurb": "The road north-west through the Persian Gates to Susa, about 550 km away, with way stations every day's march. The Fortification Tablets record travel rations for couriers and travellers carrying the king's sealed authorisations."
+   },
+   {
+    "name": "Road to Istakhr and Pasargadae",
+    "path": [
+     [
+      2290,
+      1751
+     ],
+     [
+      2250,
+      1261
+     ],
+     [
+      2210,
+      661
+     ],
+     [
+      2170,
+      0
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "pasargadae-road",
+    "blurb": "North past Istakhr and the rock of Naqsh-e Rustam, where Darius and three of his successors are buried, and up the Pulvar valley to Cyrus' capital at Pasargadae, about 45 km away."
+   },
+   {
+    "name": "Main street of the lower town",
+    "path": [
+     [
+      2290,
+      1751
+     ],
+     [
+      2280,
+      2212
+     ],
+     [
+      2190,
+      2812
+     ],
+     [
+      2050,
+      3413
+     ],
+     [
+      1930,
+      3888
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "town-street",
+    "blurb": "The spine of Parsa's lower town, running south along the edge of the paradises toward the southern plain; its line is inferred from the scatter of buildings found on the plain.",
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "name": "Track south across the plain",
+    "path": [
+     [
+      2290,
+      1751
+     ],
+     [
+      2280,
+      2212
+     ],
+     [
+      2190,
+      2812
+     ],
+     [
+      2050,
+      3413
+     ],
+     [
+      1930,
+      3888
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "south-track",
+    "blurb": "The old town street reduced to a farm track between the villages.",
+    "periods": [
+     "sasanian-250"
+    ]
+   },
+   {
+    "name": "Road along the terrace foot",
+    "path": [
+     [
+      2545,
+      1671
+     ],
+     [
+      2545,
+      2177
+     ],
+     [
+      2930,
+      2177
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "terrace-foot",
+    "blurb": "The road under the west and south faces of the terrace. Darius' inscriptions are cut into the south wall, where the first approach to the terrace may have been."
+   },
+   {
+    "name": "Avenue of the paradises",
+    "path": [
+     [
+      2280,
+      2212
+     ],
+     [
+      1750,
+      2242
+     ],
+     [
+      1150,
+      2292
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "garden-avenue",
+    "blurb": "A road between the walled gardens and estates west of the town.",
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "name": "Street of the officials",
+    "path": [
+     [
+      2545,
+      1952
+     ],
+     [
+      2290,
+      1952
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "cross-street",
+    "blurb": "A street through the quarter of officials' houses below the terrace.",
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "name": "Quarry road",
+    "path": [
+     [
+      2810,
+      1671
+     ],
+     [
+      2970,
+      1491
+     ],
+     [
+      3050,
+      1211
+     ],
+     [
+      3080,
+      911
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "quarry-road",
+    "blurb": "The haul road from the limestone quarries on the mountain north of the terrace; blocks were cut close by, sledged and carted down to the building sites.",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "name": "Army road",
+    "path": [
+     [
+      2665,
+      1751
+     ],
+     [
+      2730,
+      1749
+     ],
+     [
+      2797,
+      1747
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "army-road",
+    "blurb": "The modern name for the paved way across the north of the terrace from the Gate of All Nations toward the Hall of a Hundred Columns.",
+    "periods": [
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "name": "Path to the tomb of Artaxerxes II",
+    "path": [
+     [
+      2905,
+      1816
+     ],
+     [
+      2978,
+      1816
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "tomb-path-north",
+    "blurb": "A climb up the mountain slope from the terrace to the rock-cut tomb.",
+    "periods": [
+     "burned-330",
+     "sasanian-250"
+    ]
+   },
+   {
+    "name": "Path to the tomb of Artaxerxes III",
+    "path": [
+     [
+      2905,
+      2032
+     ],
+     [
+      2970,
+      2032
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "tomb-path-south",
+    "blurb": "A climb up the mountain slope from the terrace to the southern rock-cut tomb.",
+    "periods": [
+     "burned-330",
+     "sasanian-250"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Retaining wall of the Takht",
+    "path": [
+     [
+      2600,
+      2140
+     ],
+     [
+      2600,
+      1683
+     ],
+     [
+      2890,
+      1683
+     ],
+     [
+      2900,
+      1706
+     ],
+     [
+      2902,
+      2112
+     ],
+     [
+      2890,
+      2140
+     ]
+    ],
+    "closed": true,
+    "id": "terrace-wall",
+    "blurb": "The terrace face of huge polygonal and squared limestone blocks fitted without mortar and held with iron clamps set in lead, rising 12 to 18 m above the plain; the platform behind is part cut rock, part fill. In Achaemenid times a mud-brick wall with towers crowned its edge."
+   },
+   {
+    "name": "Fortification on Kuh-e Rahmat",
+    "path": [
+     [
+      2890,
+      1683
+     ],
+     [
+      3010,
+      1611
+     ],
+     [
+      3130,
+      1651
+     ],
+     [
+      3180,
+      1831
+     ],
+     [
+      3160,
+      2062
+     ],
+     [
+      3050,
+      2192
+     ],
+     [
+      2890,
+      2140
+     ]
+    ],
+    "closed": false,
+    "id": "mountain-wall",
+    "blurb": "A mud-brick wall on stone footings with towers climbed the mountain behind the terrace, closing the side the terrace face did not protect. The Fortification Tablets were found in its north-east corner, used as fill.",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "name": "Ruined fortification on Kuh-e Rahmat",
+    "path": [
+     [
+      2890,
+      1683
+     ],
+     [
+      3010,
+      1611
+     ],
+     [
+      3130,
+      1651
+     ],
+     [
+      3180,
+      1831
+     ],
+     [
+      3160,
+      2062
+     ],
+     [
+      3050,
+      2192
+     ],
+     [
+      2890,
+      2140
+     ]
+    ],
+    "closed": false,
+    "id": "mountain-wall-ruin",
+    "blurb": "Fallen mud brick and stone footings on the slope, the towers reduced to mounds.",
+    "periods": [
+     "burned-330",
+     "sasanian-250"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Great double stair",
+    "position": [
+     2592,
+     1749
+    ],
+    "id": "great-stair"
+   }
+  ],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2525,
+      1771
+     ],
+     [
+      2310,
+      1771
+     ],
+     [
+      2310,
+      1932
+     ],
+     [
+      2525,
+      1932
+     ]
+    ],
+    "density": "dense",
+    "name": "Officials' houses below the terrace",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2525,
+      1972
+     ],
+     [
+      2305,
+      1972
+     ],
+     [
+      2300,
+      2157
+     ],
+     [
+      2525,
+      2157
+     ]
+    ],
+    "density": "dense",
+    "name": "Workers' quarter (kurtash)",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2570,
+      2202
+     ],
+     [
+      2920,
+      2202
+     ],
+     [
+      2900,
+      2412
+     ],
+     [
+      2570,
+      2392
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses south of the terrace",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2260,
+      1771
+     ],
+     [
+      1800,
+      1621
+     ],
+     [
+      1770,
+      2192
+     ],
+     [
+      2250,
+      2192
+     ]
+    ],
+    "density": "loose",
+    "name": "Western lower town",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2520,
+      1641
+     ],
+     [
+      2310,
+      1641
+     ],
+     [
+      2305,
+      1311
+     ],
+     [
+      2510,
+      1311
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern suburb",
+    "periods": [
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2260,
+      2242
+     ],
+     [
+      1850,
+      2272
+     ],
+     [
+      1850,
+      2612
+     ],
+     [
+      2190,
+      2612
+     ]
+    ],
+    "density": "dense",
+    "name": "Southern lower town",
+    "periods": [
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2525,
+      1771
+     ],
+     [
+      2310,
+      1771
+     ],
+     [
+      2310,
+      1932
+     ],
+     [
+      2525,
+      1932
+     ]
+    ],
+    "density": "loose",
+    "name": "Village in the old officials' quarter",
+    "periods": [
+     "burned-330"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2525,
+      1972
+     ],
+     [
+      2305,
+      1972
+     ],
+     [
+      2300,
+      2157
+     ],
+     [
+      2525,
+      2157
+     ]
+    ],
+    "density": "loose",
+    "name": "Village below the terrace",
+    "periods": [
+     "burned-330"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2250,
+      1792
+     ],
+     [
+      1990,
+      1711
+     ],
+     [
+      1970,
+      2112
+     ],
+     [
+      2240,
+      2162
+     ]
+    ],
+    "density": "loose",
+    "name": "Western village",
+    "periods": [
+     "burned-330"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2520,
+      1972
+     ],
+     [
+      2330,
+      1972
+     ],
+     [
+      2330,
+      2152
+     ],
+     [
+      2520,
+      2152
+     ]
+    ],
+    "density": "loose",
+    "name": "Village below the ruins",
+    "periods": [
+     "sasanian-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2050,
+      2372
+     ],
+     [
+      1750,
+      2372
+     ],
+     [
+      1750,
+      2612
+     ],
+     [
+      2030,
+      2612
+     ]
+    ],
+    "density": "loose",
+    "name": "Village of the canal",
+    "periods": [
+     "sasanian-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1050,
+      2012
+     ],
+     [
+      650,
+      2012
+     ],
+     [
+      650,
+      2232
+     ],
+     [
+      1050,
+      2232
+     ]
+    ],
+    "density": "loose",
+    "name": "Village on the plain",
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330",
+     "sasanian-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2500,
+      1211
+     ],
+     [
+      2310,
+      1211
+     ],
+     [
+      2300,
+      1011
+     ],
+     [
+      2490,
+      1011
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern village",
+    "periods": [
+     "burned-330",
+     "sasanian-250"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2530,
+      2232
+     ],
+     [
+      2305,
+      2232
+     ],
+     [
+      2305,
+      2572
+     ],
+     [
+      2530,
+      2552
+     ]
+    ],
+    "kind": "park",
+    "name": "Royal paradise (pairidaeza)",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2530,
+      2232
+     ],
+     [
+      2305,
+      2232
+     ],
+     [
+      2305,
+      2572
+     ],
+     [
+      2530,
+      2552
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards where the paradise was",
+    "periods": [
+     "burned-330",
+     "sasanian-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2130,
+      1211
+     ],
+     [
+      1750,
+      1151
+     ],
+     [
+      1750,
+      711
+     ],
+     [
+      2130,
+      761
+     ]
+    ],
+    "kind": "park",
+    "name": "Northern paradise",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1500,
+      2362
+     ],
+     [
+      1050,
+      2362
+     ],
+     [
+      1050,
+      2812
+     ],
+     [
+      1500,
+      2812
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards of the plain"
+   },
+   {
+    "polygon": [
+     [
+      1650,
+      1431
+     ],
+     [
+      1450,
+      1351
+     ],
+     [
+      1500,
+      1011
+     ],
+     [
+      1700,
+      1031
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards"
+   },
+   {
+    "polygon": [
+     [
+      750,
+      1411
+     ],
+     [
+      250,
+      1261
+     ],
+     [
+      250,
+      1611
+     ],
+     [
+      700,
+      1711
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards toward the river"
+   },
+   {
+    "polygon": [
+     [
+      2720,
+      2472
+     ],
+     [
+      2500,
+      2632
+     ],
+     [
+      2550,
+      2912
+     ],
+     [
+      2810,
+      2862
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens south of the town",
+    "periods": [
+     "xerxes-460",
+     "burned-330",
+     "sasanian-250"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "takht",
+    "name": "The Takht (terrace)",
+    "polygon": [
+     [
+      2600,
+      2140
+     ],
+     [
+      2600,
+      1683
+     ],
+     [
+      2890,
+      1683
+     ],
+     [
+      2900,
+      1706
+     ],
+     [
+      2902,
+      2112
+     ],
+     [
+      2890,
+      2140
+     ]
+    ],
+    "description": "The royal terrace, about 455 by 300 m and 12 to 18 m above the plain, holding the audience halls, palaces, treasury and barracks. Modern Persians call it Takht-e Jamshid, the Throne of Jamshid; the Greeks called the city Persepolis, the Persians Parsa."
+   },
+   {
+    "id": "lower-town",
+    "name": "Parsa (lower town)",
+    "polygon": [
+     [
+      2540,
+      1611
+     ],
+     [
+      1750,
+      1571
+     ],
+     [
+      1750,
+      2632
+     ],
+     [
+      2540,
+      2632
+     ]
+    ],
+    "description": "The town on the plain: houses of officials, scribes and craftsmen, workshops, storehouses, palaces and paradises. Mostly unexcavated; surveys and soundings show buildings scattered over several square kilometres.",
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "id": "kurtash",
+    "name": "Workers' quarter",
+    "polygon": [
+     [
+      2525,
+      1972
+     ],
+     [
+      2305,
+      1972
+     ],
+     [
+      2300,
+      2157
+     ],
+     [
+      2525,
+      2157
+     ]
+    ],
+    "description": "Where some of the kurtash, the dependent workers of the tablets, may have lived: stonecutters, carpenters, smiths and their families from across the empire. The location is a guess; the tablets do not say where they slept.",
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Pārsa",
+    "position": [
+     2050,
+     1491
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "darius-500",
+     "xerxes-460",
+     "burned-330"
+    ]
+   },
+   {
+    "text": "Ruins of Parsa",
+    "position": [
+     2050,
+     1491
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "sasanian-250"
+    ]
+   },
+   {
+    "text": "Takht",
+    "position": [
+     2730,
+     2117
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Kuh-e Rahmat",
+    "position": [
+     3550,
+     1792
+    ],
+    "size": "lg",
+    "rotation": -80
+   },
+   {
+    "text": "Marvdasht plain",
+    "position": [
+     1050,
+     3112
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "Pulvar",
+    "position": [
+     650,
+     610
+    ],
+    "size": "sm",
+    "rotation": 40
+   },
+   {
+    "text": "to Istakhr (5 km) and Naqsh-e Rustam (6 km)",
+    "position": [
+     2190,
+     90
+    ],
+    "size": "sm",
+    "rotation": -86
+   },
+   {
+    "text": "to Susa",
+    "position": [
+     250,
+     1121
+    ],
+    "size": "sm",
+    "rotation": -20
+   },
+   {
+    "text": "Paradise",
+    "position": [
+     2420,
+     2472
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "darius-500",
+     "xerxes-460"
+    ]
+   },
+   {
+    "text": "Royal tombs",
+    "position": [
+     3080,
+     1912
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "burned-330",
+     "sasanian-250"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D5A8",
+   "ink": "#6C4B32",
+   "water": "#5F8A8C",
+   "hill": "#857C5C",
+   "road": "#8C6A48"
+  },
+  "compass": [
+   3900,
+   260
+  ],
+  "cartouche": [
+   50,
+   3843
+  ]
+ },
+ "periods": [
+  {
+   "id": "darius-500",
+   "label": "Darius' terrace",
+   "year": -500,
+   "startYear": -518,
+   "endYear": -486,
+   "summary": "Parsa under Darius I. Since about 518 BCE gangs of workers have been cutting and filling the rock at the foot of Kuh-e Rahmat into a limestone terrace 12 to 18 m high. By 500 the first treasury and Darius' own palace, the Tachara, stand; the Apadana's columns rise on their platform. Below, a lower town of officials, workshops and gardens spreads over the Marvdasht plain.",
+   "population": "unknown; the ration tablets list thousands of workers in the region",
+   "feel": "Chisels ringing on grey limestone, ox-carts hauling column drums up the ramps, clerks pressing Elamite into wet clay, the sour smell of barley beer at the ration store.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Mud-brick houses of officials and workers",
+    "text": "Rooms of sun-dried mud brick on stone footings round small courts, flat roofs of poplar beams, reeds and packed earth, mud-plastered walls. The tablets list the people who live here by trade and household, with their monthly barley, wine and beer."
+   },
+   "outskirts": {
+    "title": "Paradises and fields of the Marvdasht",
+    "text": "Walled gardens (pairidaeza) of trees and water channels round pavilions, barley fields fed by canals and qanats, vineyards, flocks on the stubble, and the villages of the estates that feed the court."
+   }
+  },
+  {
+   "id": "xerxes-460",
+   "label": "The terrace of Xerxes",
+   "year": -460,
+   "startYear": -485,
+   "endYear": -331,
+   "summary": "The terrace completed by Xerxes (486–465 BCE) and his son Artaxerxes I. Visitors climb the double stair to the Gate of All Nations and its stone bulls; the Apadana is finished, Xerxes' palace and harem stand on the south terrace, and the Hall of a Hundred Columns is rising. Persepolis is a ceremonial and treasury city; the court also lives at Susa, Babylon and Ecbatana.",
+   "population": "unknown; a royal city of perhaps several tens of thousands with its plain",
+   "feel": "Painted cedar ceilings and gold leaf, guards calling in Persian, tribute horses at the foot of the stair, gardeners opening sluices in the paradise.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of the royal city",
+    "text": "Mud-brick courtyard houses of officials, scribes and craftsmen below the terrace, some with columned porches on stone bases and painted plaster; smaller rooms of workers' families in rows, flat roofs used for sleeping in summer."
+   },
+   "outskirts": {
+    "title": "Royal paradises and estates",
+    "text": "Pavilions in walled paradises of plane, cypress and fruit trees, irrigated barley and wheat, vineyards and orchards along the canals, horse pastures and the storehouses of the royal economy."
+   }
+  },
+  {
+   "id": "burned-330",
+   "label": "After the fire",
+   "year": -330,
+   "startYear": -330,
+   "endYear": 223,
+   "summary": "In 330 BCE Alexander emptied the treasury and burned the palaces. The cedar roofs fell; mud-brick walls slumped round the stone door frames and the columns that still stand. Macedonian satraps, then from the 3rd century BCE local dynasts of Persis, rule the plain. The lower town shrinks to villages, and Istakhr, 5 km to the north, becomes the town of the district.",
+   "population": "a few villages",
+   "feel": "Wind through roofless halls, soot on the stone, shepherds watering flocks in the terrace cisterns, kites circling over the fallen bulls.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Village houses below the ruins",
+    "text": "Mud-brick farmhouses round yards with ovens, storerooms and animal pens, flat roofs of beams and earth; the old officials' quarter is half empty, its walls melting back into the soil."
+   },
+   "outskirts": {
+    "title": "Fields of the Marvdasht",
+    "text": "Barley and wheat on the canal-fed plain, orchards where the royal paradises were, threshing floors and flocks; the old royal estates now farmed for new masters."
+   }
+  },
+  {
+   "id": "sasanian-250",
+   "label": "Sasanian Persis",
+   "year": 250,
+   "startYear": 224,
+   "endYear": 651,
+   "summary": "Ardashir I, from a priestly family of Istakhr, has overthrown the Parthians (224 CE). Istakhr, 5 km north, is the dynasty's home city; Persepolis is a revered ruin of ancient kings. Sasanian princes visit it, feast in the roofless Tachara and cut Middle Persian inscriptions on its door frames. Below, villages farm the plain, and at Naqsh-e Rustam the new kings carve their reliefs beneath the Achaemenid tombs.",
+   "population": "villages in the plain; the town is Istakhr",
+   "feel": "Fire-temple smoke from the direction of Istakhr, priests murmuring Avestan prayers, goats grazing among fallen bull capitals.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Sasanian farmhouses",
+    "text": "Mud-brick farmhouses with barrel-vaulted rooms and small domes round a walled yard, an oven, a storeroom of grain jars; walls plastered with mud and straw, some footings of stone taken from the old buildings."
+   },
+   "outskirts": {
+    "title": "Villages and canals",
+    "text": "Irrigated barley, wheat and cotton, orchards and vines along the canals, qanat outlets feeding cisterns, mud-walled villages under the mountain."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "takht",
+   "placeId": "takht",
+   "name": "The Takht and the Great Stair",
+   "category": "monument",
+   "position": [
+    2604,
+    1749
+   ],
+   "rotation": 90,
+   "footprint": [
+    134.3,
+    40.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/takht.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 136,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "The terrace is being built. The double stair is a building site, its lower flights laid, the upper ones a ramp of earth; it may date to late Darius or to Xerxes.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/takht-500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 136,
+       "depth": 40,
+       "height": 16.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "xerxes-460": {
+     "note": "Finished: two mirrored flights of shallow steps climb the west face to the landing before the Gate of All Nations. A mud-brick wall with towers crowns the terrace edge."
+    },
+    "burned-330": {
+     "note": "The stair and the stone face survive the fire; the mud-brick parapet and towers are crumbling.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/takht-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 136,
+       "depth": 40,
+       "height": 16.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "The great stair still leads up into the ruins, worn and half buried at its foot by washed-down earth.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/takht-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 136,
+       "depth": 40,
+       "height": 16.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "The royal terrace of Persepolis, about 455 by 300 m and 12 to 18 m high, cut and built against Kuh-e Rahmat from about 518 BCE, climbed by a double stair of shallow steps.",
+   "details": [
+    "Darius I had the rock levelled and the hollows filled, then faced the platform with huge limestone blocks fitted without mortar and tied with iron clamps; drains cut in the rock carried off the rain. His inscriptions on the south wall ask Ahuramazda to protect the land from the hostile army, from famine and from the Lie. The double stair climbs the west face in two mirrored pairs of flights.",
+    "The steps are only about 10 cm high and very deep, so it is often said a horse could be ridden up them. The miniature shows a stretch of the west face with the stair, the parapet and the mud-brick wall with towers that crowned the edge, and the corner where the fortification turns east along the north side. The height of the wall and its towers is a reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "schmidt-persepolis",
+    "mousavi-persepolis"
+   ],
+   "built": "c. 518–480 BCE",
+   "function": "Royal terrace and its monumental entrance",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "gate-all-nations",
+   "placeId": "gate-all-nations",
+   "name": "Gate of All Nations",
+   "category": "monument",
+   "position": [
+    2652,
+    1751
+   ],
+   "rotation": 90,
+   "footprint": [
+    26.6,
+    30.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/gate-all-nations.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 26,
+     "depth": 30,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Not yet built: the top of the stair, if it exists yet, opens onto a bare forecourt. Xerxes will raise the gate."
+    },
+    "xerxes-460": {
+     "note": "New: a square hall with four tall columns, its west door guarded by two colossal bulls, its east door by two human-headed winged bulls, a third door south toward the Apadana."
+    },
+    "burned-330": {
+     "note": "Roofless after the fire; the mud-brick walls are falling, but the stone bulls and some of the columns stand.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/gate-all-nations-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 26,
+       "depth": 30,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "The bulls still guard an empty doorway. Some of its columns will survive into modern times, and later travellers will carve their names on the bulls.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/gate-all-nations-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 26,
+       "depth": 30,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "Xerxes' entrance hall at the top of the great stair, guarded by colossal stone bulls on the west and human-headed winged bulls on the east.",
+   "details": [
+    "Xerxes' trilingual inscription (Old Persian, Elamite, Babylonian) above the bulls says that by the favour of Ahuramazda he built this 'gate of all lands'. The hall was about 25 m square, with four columns about 16.5 m high, a wooden roof and mud-brick walls; its stone door jambs carried the bulls, which look back to the Assyrian lamassu of Nineveh.",
+    "The miniature shows the hall with its four fluted columns and capitals, the stone doorways with simplified winged bulls on the west and east, and the stepped parapet. The ruin keeps the bulls, two columns and the stumps of the walls. The roof height and parapet are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-gate-all-nations",
+    "wiki-lamassu",
+    "schmidt-persepolis"
+   ],
+   "built": "c. 480 BCE",
+   "function": "Monumental gateway and waiting hall",
+   "activity": {
+    "figures": 16,
+    "radius": 40
+   }
+  },
+  {
+   "id": "apadana",
+   "placeId": "apadana",
+   "name": "Apadana (audience hall)",
+   "category": "civic",
+   "position": [
+    2696,
+    1848
+   ],
+   "rotation": 180,
+   "footprint": [
+    124.4,
+    124.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/apadana.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 124,
+     "depth": 124,
+     "height": 49.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Under construction since about 515: the platform and the gold and silver foundation tablets are in place, the first columns rise among timber cranes and the stair reliefs are being carved.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/apadana-500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 124,
+       "depth": 124,
+       "height": 49.6,
+       "roof": "pitched"
+      }
+     }
+    },
+    "xerxes-460": {
+     "note": "Complete under Xerxes: 72 columns, a cedar roof, painted reliefs on the north and east stairs, and four corner towers."
+    },
+    "burned-330": {
+     "note": "The roof burned and fell in 330; the mud-brick walls are slumping, but most of the stone columns still stand, blackened, among the debris.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/apadana-burned.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 124,
+       "depth": 124,
+       "height": 49.6,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "A field of standing columns over the buried stairs; earthquakes and stone-robbers have brought many down. Thirteen still stand today.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/apadana-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 124,
+       "depth": 124,
+       "height": 49.6,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Darius' and Xerxes' great audience hall: 72 slender fluted columns about 20 m tall with double-bull capitals, on a platform reached by stairs carved with the peoples of the empire bringing gifts.",
+   "details": [
+    "Begun about 515 BCE and finished under Xerxes. The square hall, about 60 m a side, had 36 columns; porticoes of 12 columns opened on the north, east and west, with towers at the corners and storerooms on the south. Under the corners Darius buried stone boxes with gold and silver tablets naming his empire 'from Scythia beyond Sogdiana to Kush, from India to Sardis'.",
+    "The north and east stairs are carved with Persian and Median guards and 23 delegations leading horses, camels and lions and carrying cloth, vessels and gold. The miniature shows the platform, the 72 columns with bell bases and double-bull capitals, the cedar roof and corner towers, and the reliefs as raised bands. Wall height, roof and colours are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-apadana",
+    "wiki-persian-column",
+    "schmidt-persepolis",
+    "roaf-1983"
+   ],
+   "built": "c. 515–480 BCE",
+   "function": "Audience hall of the king",
+   "activity": {
+    "figures": 60,
+    "radius": 90
+   }
+  },
+  {
+   "id": "hundred-columns",
+   "placeId": "hundred-columns",
+   "name": "Hall of a Hundred Columns",
+   "category": "civic",
+   "position": [
+    2812,
+    1835
+   ],
+   "rotation": 180,
+   "footprint": [
+    74.3,
+    93.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/hundred-columns.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 72,
+     "depth": 92,
+     "height": 28.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Open ground at the foot of the mountain. Xerxes will begin the great hall here."
+    },
+    "xerxes-460": {
+     "note": "Begun by Xerxes and being completed by Artaxerxes I: the columns stand, the roof timbers are going up, and the carved stone doorways are finished."
+    },
+    "burned-330": {
+     "note": "Burned so fiercely that its columns cracked and fell; the stone doorways still stand round a field of drums and ash.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/hundred-columns-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 72,
+       "depth": 92,
+       "height": 28.8,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Doorways in a field of column bases. The Middle Persian inscriptions may call the whole ruin 'the Hundred Columns'.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/hundred-columns-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 72,
+       "depth": 92,
+       "height": 28.8,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The largest hall on the terrace, 70 m square with ten rows of ten columns, a porch of sixteen columns between colossal bulls, and eight carved stone doorways.",
+   "details": [
+    "Begun by Xerxes and finished by Artaxerxes I, it is sometimes called the Throne Hall: the reliefs of its doorways show the king enthroned under a canopy, his throne lifted by figures of the subject peoples, and the king as hero stabbing lions and monsters. Its use is unknown; when Alexander came, it may have stored treasure and armour.",
+    "The miniature shows the square hall with its hundred columns, the north porch between two colossal bulls, the stone door frames with Egyptian-style cavetto cornices and the flat cedar roof. The ruin keeps the doorways, the column bases and a few stumps. Column height (about 14 m) and the roof are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "wiki-achaemenid-architecture",
+    "schmidt-persepolis"
+   ],
+   "built": "c. 470–450 BCE",
+   "function": "Reception and throne hall",
+   "activity": {
+    "figures": 40,
+    "radius": 80
+   }
+  },
+  {
+   "id": "unfinished-gate",
+   "placeId": "unfinished-gate",
+   "name": "Unfinished Gate",
+   "category": "monument",
+   "position": [
+    2812,
+    1746
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.2,
+    30.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/unfinished-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 30,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "xerxes-460": {
+     "note": "A walled forecourt north of the Hall of a Hundred Columns; the gate on this spot was begun only in the last decades of the empire."
+    },
+    "burned-330": {
+     "note": "Abandoned when Alexander came: column drums and roughed-out blocks for the bulls lie where the masons left them."
+    },
+    "sasanian-250": {
+     "note": "The unfinished blocks still lie in the court, a lesson in how the stone was worked."
+    }
+   },
+   "summary": "A gatehouse on the court before the Hall of a Hundred Columns, begun late in the Achaemenid period and left unfinished in 330 BCE, with its column drums and rough bull blocks still lying about.",
+   "details": [
+    "It was to repeat the Gate of All Nations: a square hall with four columns and doorways guarded by bulls. Work had reached the walls and door jambs when it stopped; the half-cut stones show how the Persian masons worked, roughing out with a point and finishing with claw chisels and abrasives.",
+    "The miniature shows the column bases with a few drums set up, the jambs and wall footings, rough bull blocks and loose drums on the ground. The date of the start (Artaxerxes III or Darius III) is not certain."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "schmidt-persepolis",
+    "roaf-1983"
+   ],
+   "built": "c. 340–330 BCE (unfinished)",
+   "function": "Gateway, never completed",
+   "activity": {
+    "figures": 8,
+    "radius": 30
+   }
+  },
+  {
+   "id": "tachara",
+   "placeId": "tachara",
+   "name": "Tachara (Palace of Darius)",
+   "category": "civic",
+   "position": [
+    2678,
+    1938
+   ],
+   "rotation": 0,
+   "footprint": [
+    32.2,
+    44.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/tachara.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 32,
+     "depth": 44,
+     "height": 12.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Darius' own palace, newly finished or nearly so, its doorways and windows framed in polished dark stone; Xerxes will complete its decoration."
+    },
+    "xerxes-460": {
+     "note": "Finished, with inscriptions of Darius and Xerxes; it was used for the king's private receptions and banquets, perhaps."
+    },
+    "burned-330": {
+     "note": "The roof and walls are gone; the stone door and window frames stand alone, still polished like mirrors.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/tachara-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 32,
+       "depth": 44,
+       "height": 12.8,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Sasanian princes picnic in the roofless hall; around 311 CE Shapur Sakanshah, governor of Sakastan, has his visit cut on a door jamb in Middle Persian.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/tachara-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 32,
+       "depth": 44,
+       "height": 12.8,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Darius' private palace on the west edge of the terrace, a small hall of twelve columns behind a portico, with stone doors and windows so polished it was later called the Hall of Mirrors.",
+   "details": [
+    "Its Old Persian name taçara appears in Darius' inscription on the building. A south portico of eight columns led through stone doorways into a hall of twelve columns, with small rooms round it; reliefs show servants carrying food and the king walking under a parasol. Artaxerxes III added a western stair.",
+    "The miniature shows the low terrace with its relief-carved stair, the portico, the mud-brick walls with dark stone door and window frames under cavetto cornices, and the flat roof. In the ruin only the stone frames stand, as they do today. The roof and parapet are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tachara",
+    "schmidt-persepolis",
+    "mousavi-persepolis"
+   ],
+   "built": "c. 510–480 BCE",
+   "function": "Palace of Darius I",
+   "activity": {
+    "figures": 16,
+    "radius": 40
+   }
+  },
+  {
+   "id": "tripylon",
+   "placeId": "tripylon",
+   "name": "Tripylon (Council Hall)",
+   "category": "civic",
+   "position": [
+    2774,
+    1922
+   ],
+   "rotation": 180,
+   "footprint": [
+    26.2,
+    26.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/tripylon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 26,
+     "depth": 26,
+     "height": 10.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Open court between the Apadana and the future hall; the small central building may have been begun at the end of Darius' reign."
+    },
+    "xerxes-460": {
+     "note": "A small hall of four columns with three doorways, at the hinge of the terrace between the public halls and the palaces."
+    },
+    "burned-330": {
+     "note": "Burned; the carved door jambs and the north stair survive.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/tripylon-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 26,
+       "depth": 26,
+       "height": 10.4,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Door jambs with the enthroned king stand over the rubble.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/tripylon-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 26,
+       "depth": 26,
+       "height": 10.4,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A small central hall with three doorways (hence 'Tripylon'), perhaps a council chamber, joining the audience halls to the palaces; its stair is carved with Persian and Median nobles.",
+   "details": [
+    "Built late in Darius' reign or under Xerxes and perhaps finished by Artaxerxes I. Its door jambs show the king on a throne carried by the peoples of the empire, the crown prince behind him; the stair (now in the National Museum in Tehran) shows nobles climbing as if to a banquet. Its function, council hall or guard post, is a guess.",
+    "The miniature shows the square hall with four columns, its three doorways, the north stair with relief bands, and the flat roof with a stepped parapet. Dimensions are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-persepolis",
+    "schmidt-persepolis",
+    "roaf-1983"
+   ],
+   "built": "c. 490–460 BCE",
+   "function": "Central hall, perhaps a council chamber",
+   "activity": {
+    "figures": 10,
+    "radius": 30
+   }
+  },
+  {
+   "id": "hadish",
+   "placeId": "hadish",
+   "name": "Hadish (Palace of Xerxes)",
+   "category": "civic",
+   "position": [
+    2720,
+    2004
+   ],
+   "rotation": 180,
+   "footprint": [
+    42.2,
+    58.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/hadish.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 42,
+     "depth": 58,
+     "height": 16.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "The highest part of the rock, still unbuilt. Xerxes will put his palace here."
+    },
+    "xerxes-460": {
+     "note": "Xerxes' palace, twice the size of his father's: a hall of 36 columns behind a north portico, reached by double stairs."
+    },
+    "burned-330": {
+     "note": "The most heavily burned building on the terrace; some ancient writers say the fire was set in Xerxes' palace, in revenge for his burning of Athens.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/hadish-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 42,
+       "depth": 58,
+       "height": 16.8,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Ash-filled ruin with its door frames and column bases.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/hadish-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 42,
+       "depth": 58,
+       "height": 16.8,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Xerxes' palace on the highest level of the terrace, a hall of 36 columns with a north portico, called hadish ('seat, residence') in its inscription.",
+   "details": [
+    "Built about 480 BCE. Its stairs and doorways show servants bringing kids, wineskins and covered dishes, and Xerxes with parasol bearers. Excavators found its floor thick with ash and charred cedar: it burned more fiercely than any other building, perhaps because the fire was set here.",
+    "The miniature shows the raised platform with double stairs, the north portico, the square hall with 36 columns, stone door frames with cavetto cornices and the flat roof. The ruin keeps door frames and bases. Heights are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "wiki-xerxes",
+    "schmidt-persepolis"
+   ],
+   "built": "c. 486–465 BCE",
+   "function": "Palace of Xerxes",
+   "activity": {
+    "figures": 14,
+    "radius": 40
+   }
+  },
+  {
+   "id": "harem",
+   "placeId": "harem",
+   "name": "Harem of Xerxes",
+   "category": "civic",
+   "position": [
+    2782,
+    2007
+   ],
+   "rotation": 180,
+   "footprint": [
+    56.2,
+    90.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/harem.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 56,
+     "depth": 90,
+     "height": 22.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Building ground south of the future Tripylon; the first part of this block may already be going up."
+    },
+    "xerxes-460": {
+     "note": "An L-shaped block of a columned hall and rows of small apartments, perhaps for the women of the court; the name is the excavators' guess."
+    },
+    "burned-330": {
+     "note": "Burned and abandoned; its walls slump into mounds.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/harem-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 56,
+       "depth": 90,
+       "height": 22.400000000000002,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Low mounds and door frames. In the 1930s excavators will rebuild part of it as their house; it is now the site museum.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/harem-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 56,
+       "depth": 90,
+       "height": 22.400000000000002,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "An L-shaped palace block south of the Tripylon, a main hall of twelve columns and rows of small suites, which its excavators called the harem of Xerxes.",
+   "details": [
+    "Built by Xerxes, perhaps begun under Darius. The main hall with a portico opens onto a court; behind it and along the west wing lie some 22 apartments of a small columned room and side chambers. That women lived here is an inference from the plan, not from texts.",
+    "The miniature shows the main hall with its portico and stone door frames, the wing of suites with flat roofs and small courts, and the mud-brick parapet. The layout is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-persepolis",
+    "schmidt-persepolis",
+    "mousavi-persepolis"
+   ],
+   "built": "c. 486–470 BCE",
+   "function": "Palace wing, probably residential",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "treasury",
+   "placeId": "treasury",
+   "name": "Treasury",
+   "category": "commercial",
+   "position": [
+    2854,
+    2040
+   ],
+   "rotation": 0,
+   "footprint": [
+    77.0,
+    131.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/treasury.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 76,
+      "depth": 130
+     },
+     "buildings": [
+      {
+       "offset": [
+        -19.0,
+        -32.5
+       ],
+       "width": 22.8,
+       "depth": 39.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        19.0,
+        26.0
+       ],
+       "width": 22.8,
+       "depth": 39.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "Built in the first years of the terrace and already being enlarged: a mud-brick block of storerooms and columned halls."
+    },
+    "xerxes-460": {
+     "note": "Full of the empire's silver, gifts and booty; its clerks issue silver payments to workers, recorded on the Treasury Tablets until 458."
+    },
+    "burned-330": {
+     "note": "Emptied by Alexander, who carried off the silver on thousands of mules and camels, then burned.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/treasury-ruin.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 76,
+        "depth": 130
+       },
+       "buildings": [
+        {
+         "offset": [
+          -19.0,
+          -32.5
+         ],
+         "width": 22.8,
+         "depth": 39.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          19.0,
+          26.0
+         ],
+         "width": 22.8,
+         "depth": 39.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "A low field of mud-brick mounds against the mountain.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/treasury-ruin.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 76,
+        "depth": 130
+       },
+       "buildings": [
+        {
+         "offset": [
+          -19.0,
+          -32.5
+         ],
+         "width": 22.8,
+         "depth": 39.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          19.0,
+          26.0
+         ],
+         "width": 22.8,
+         "depth": 39.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    }
+   },
+   "summary": "The royal treasury in the south-east corner of the terrace, a mud-brick block of storerooms and halls with forests of painted wooden columns, emptied by Alexander in 330 BCE.",
+   "details": [
+    "Built by Darius and enlarged twice, it measured about 130 by 78 m behind walls up to 3 m thick, with halls of 99 and 100 wooden columns on stone bases, plastered and painted. Here excavators found the two great audience reliefs, stone vessels, weapons and the Elamite Treasury Tablets of 492–458 BCE. Ancient writers say Alexander found 120,000 talents of silver.",
+    "The miniature shows the thick mud-brick walls, the courts and roofed halls with wooden columns, and the plain parapet. The internal plan is simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "wiki-pfa",
+    "schmidt-persepolis",
+    "diodorus-17"
+   ],
+   "built": "c. 510–480 BCE",
+   "function": "Treasury and storehouse",
+   "activity": {
+    "figures": 20,
+    "radius": 60
+   }
+  },
+  {
+   "id": "garrison",
+   "placeId": "garrison",
+   "name": "Garrison quarters",
+   "category": "military",
+   "position": [
+    2878,
+    1781
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.2,
+    120.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/garrison.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 40,
+     "depth": 120,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "xerxes-460",
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "The north-east corner of the terrace, against the fortification; buildings here are only beginning."
+    },
+    "xerxes-460": {
+     "note": "Barracks of mud brick between the Hall of a Hundred Columns and the mountain wall, for the guards of the terrace."
+    },
+    "burned-330": {
+     "note": "Abandoned and burned, the rooms filled with fallen brick.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/garrison-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 40,
+       "depth": 120,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Long mounds by the mountain.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/persepolis/garrison-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 40,
+       "depth": 120,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "Rows of mud-brick rooms in the north-east corner of the terrace, which the excavators took for the barracks of the royal guard.",
+   "details": [
+    "A plain block of corridors and rooms against the fortification wall. Arrowheads and weapons were found here and in the treasury. The guard that the Greeks called the Immortals, 10,000 men, cannot all have lodged on the terrace; most soldiers lived in the plain.",
+    "The miniature shows long ranges of rooms round narrow courts, flat roofs and a towered wall on the mountain side. The plan is simplified and the identification uncertain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-persepolis",
+    "schmidt-persepolis"
+   ],
+   "built": "c. 490–460 BCE",
+   "function": "Guard quarters (probably)",
+   "activity": {
+    "figures": 16,
+    "radius": 50
+   }
+  },
+  {
+   "id": "tomb-artaxerxes-ii",
+   "placeId": "tomb-artaxerxes-ii",
+   "name": "Tomb of Artaxerxes II",
+   "category": "monument",
+   "position": [
+    2995,
+    1816
+   ],
+   "rotation": 90,
+   "footprint": [
+    45.1,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/royal-tomb.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 44,
+     "depth": 30,
+     "height": 12.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "xerxes-460": {
+     "note": "Bare mountain. The kings are still buried at Naqsh-e Rustam, 6 km north; this tomb will be cut about a century later."
+    },
+    "burned-330": {
+     "note": "Cut for Artaxerxes II (died 358 BCE), the first king buried above the terrace; the tomb chambers have been opened and robbed."
+    },
+    "sasanian-250": {
+     "note": "An empty tomb in the cliff, its relief of the king before the fire altar still clear."
+    }
+   },
+   "summary": "A rock-cut royal tomb in the mountain above the Hall of a Hundred Columns, usually attributed to Artaxerxes II, with the cross-shaped façade of the Achaemenid kings' tombs.",
+   "details": [
+    "Like the tombs at Naqsh-e Rustam, the face is a cross: a plain lower arm, a palace front with four engaged columns with double-bull capitals and a central door, and above it two tiers of throne-bearers representing the subject peoples lifting a dais where the king stands before a fire altar under the winged figure of Ahuramazda.",
+    "The miniature shows the cliff with the cut façade, the palace front with columns and dark door, and the relief register above. The attribution to Artaxerxes II rather than another late king is conventional."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "wiki-artaxerxes-ii",
+    "wiki-naqsh-e-rostam",
+    "schmidt-persepolis"
+   ],
+   "built": "c. 358 BCE",
+   "function": "Royal tomb",
+   "activity": {
+    "figures": 4,
+    "radius": 30
+   }
+  },
+  {
+   "id": "tomb-artaxerxes-iii",
+   "placeId": "tomb-artaxerxes-iii",
+   "name": "Tomb of Artaxerxes III",
+   "category": "monument",
+   "position": [
+    2988,
+    2032
+   ],
+   "rotation": 90,
+   "footprint": [
+    45.1,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/royal-tomb.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 44,
+     "depth": 30,
+     "height": 12.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "burned-330",
+    "sasanian-250"
+   ],
+   "variants": {
+    "xerxes-460": {
+     "note": "Bare mountain above the treasury."
+    },
+    "burned-330": {
+     "note": "Cut for Artaxerxes III, poisoned in 338 BCE; eight years later Alexander's army is camped below."
+    },
+    "sasanian-250": {
+     "note": "An empty tomb in the cliff above the ruins."
+    }
+   },
+   "summary": "The southern rock-cut tomb above the terrace, usually attributed to Artaxerxes III (died 338 BCE), with the same cross-shaped palace façade and relief of the king before the fire altar.",
+   "details": [
+    "Its façade copies Darius' tomb at Naqsh-e Rustam: engaged columns with bull capitals framing a door into a vaulted chamber with burial cists cut in the rock. A third, unfinished tomb farther south is sometimes given to Darius III, who died in flight in 330 and was buried, Arrian says, by Alexander's order in the royal tombs.",
+    "The miniature uses the same model as the northern tomb. The attribution is conventional."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-persepolis",
+    "wiki-artaxerxes-iii",
+    "schmidt-persepolis"
+   ],
+   "built": "c. 338 BCE",
+   "function": "Royal tomb",
+   "activity": {
+    "figures": 4,
+    "radius": 30
+   }
+  },
+  {
+   "id": "plain-palace",
+   "placeId": "plain-palace",
+   "name": "Pavilion palace in the paradise",
+   "category": "civic",
+   "position": [
+    2400,
+    2332
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.2,
+    101.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/persepolis/plain-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 100,
+     "height": 40.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460",
+    "burned-330"
+   ],
+   "variants": {
+    "darius-500": {
+     "note": "A columned pavilion in a walled garden of trees and stone water channels below the terrace, of the kind built at Pasargadae."
+    },
+    "xerxes-460": {
+     "note": "Pavilions and porches in the paradise, used by the court and high officials; the tablets speak of paradises (partetaš) in Fars."
+    },
+    "burned-330": {
+     "note": "Probably burned or abandoned with the court; the channels silt up and the trees are cut.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/persepolis/plain-palace-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 100,
+       "height": 40.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sasanian-250": {
+     "note": "Orchards and fields over the buried column bases."
+    }
+   },
+   "summary": "A columned pavilion palace in a walled paradise garden on the plain below the terrace: a reconstruction based on buildings excavated in the lower town and on Cyrus' garden palaces at Pasargadae.",
+   "details": [
+    "Surveys and soundings in the plain have found column bases, stone door frames and mud-brick buildings below and to the south and west of the terrace, some of them palaces. The Persian paradise (pairidaeza, Elamite partetaš) was a walled park of trees and flowers watered by channels, often with a pavilion; the tablets record workers and rations at several in Fars.",
+    "The miniature shows a hall with porticoes on stone bases, stone-lined channels dividing beds of trees, and the garden wall. Its form, size and position are an interpretation, not a plan of one excavated building."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-persian-garden",
+    "wiki-pasargadae",
+    "tilia-1972",
+    "briant"
+   ],
+   "built": "c. 500 BCE",
+   "function": "Garden palace and pavilion",
+   "activity": {
+    "figures": 14,
+    "radius": 60
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "ration-office",
+   "name": "The ration office (Fortification archive)",
+   "kind": "civic",
+   "position": [
+    2870,
+    1696
+   ],
+   "activePeriods": [
+    "darius-500"
+   ],
+   "summary": "Where clerks of the royal economy recorded, on small clay tablets in Elamite, the barley, wine, beer, flour and sheep issued to workers, travellers, priests and the king's horses.",
+   "details": [
+    "The Persepolis Fortification Tablets, some 15,000–20,000 tablets and fragments found in 1933 in the north-east fortification wall, cover 509–493 BCE. They show a man's ration of about 30 quarts of barley a month, women working beside men, often for the same pay, and new mothers given extra, with mothers of sons getting about twice as much as mothers of daughters."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-pfa",
+    "hallock",
+    "henkelman"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A scribe kneads a lump of clay into a pillow shape, ties a string through it and presses a seal: a supplier's seal of a hero holding two lions. The barley queue is already long."
+    },
+    {
+     "hour": 12,
+     "text": "Women from a weaving gang from Lycia collect their monthly barley and wine. A mother of twins argues for the extra she is owed; the clerk checks the list and gives it."
+    },
+    {
+     "hour": 19,
+     "text": "Lamps in the storeroom. Tablets for the year are packed into baskets, labelled and stacked against the wall, where they will lie for 2,400 years."
+    }
+   ],
+   "variants": {
+    "xerxes-460": {
+     "note": "The Fortification tablets of Darius' reign lie stored in the wall; accounts are now kept in other offices, and the treasury pays part of the wages in silver."
+    }
+   }
+  },
+  {
+   "id": "masons-yard",
+   "name": "Stonemasons' yard below the quarries",
+   "kind": "workshop",
+   "position": [
+    2790,
+    1621
+   ],
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460"
+   ],
+   "summary": "A yard at the foot of the mountain where blocks from the quarries above were split, dressed and shaped into column drums, capitals and stair slabs before being dragged up onto the terrace.",
+   "details": [
+    "The grey limestone came from the mountain beside the terrace. Masons split blocks with wedges, roughed them out with points and finished them with toothed chisels and abrasives; masons' marks survive on many stones. Column drums were turned and fluted after being set up, and unfinished pieces on the terrace show every stage."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "roaf-1983",
+    "schmidt-persepolis",
+    "wiki-persepolis"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Wedges driven into a line of holes, then soaked; with a crack the block comes away from the rock. Dust hangs in the cold air."
+    },
+    {
+     "hour": 13,
+     "text": "A capital takes shape: two bulls back to back, their legs folded, the master marking with charcoal where the next cut goes."
+    },
+    {
+     "hour": 18,
+     "text": "Oxen lean into the ropes as a drum on a sledge is hauled up the earth ramp, the men chanting the pull."
+    }
+   ],
+   "variants": {
+    "xerxes-460": {
+     "note": "Busy again for Xerxes' gate and the Hall of a Hundred Columns."
+    },
+    "burned-330": {
+     "note": "Abandoned; half-shaped blocks lie in the weeds."
+    }
+   }
+  },
+  {
+   "id": "yauna-sculptor",
+   "name": "Ionian stone-carvers at the Apadana stair",
+   "kind": "workshop",
+   "position": [
+    2765,
+    1852
+   ],
+   "activePeriods": [
+    "darius-500"
+   ],
+   "summary": "A team of carvers working the reliefs of the Apadana's east stair; among the craftsmen of the empire, the tablets record Ionians (Yauna), and Darius' Susa inscription names Ionian and Lydian stone-cutters.",
+   "details": [
+    "Darius' foundation text at Susa lists the peoples who built his palace: the stone-cutters were Ionians and Sardians, the goldsmiths Medes and Egyptians, the brick-makers Babylonians. At Persepolis the tablets record Ionian workers among many others. How much Greek hands shaped the reliefs' style is debated; the design was Persian, the carving teamwork."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "kent-old-persian",
+    "roaf-1983",
+    "hallock",
+    "wiki-ionians"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Chalk lines on the stair face mark out a delegation: a man leading a bull, two carrying bowls. The Ionian carver begins on the folds of a cloak."
+    },
+    {
+     "hour": 12,
+     "text": "A Persian overseer compares the work with a drawing on a board and orders a hand recut. Bread, onions and beer for the team."
+    },
+    {
+     "hour": 17,
+     "text": "The painters follow the carvers: blue for the tunics, red for the shoes, gold leaf on a crown. Swallows nest in the scaffolding."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tribute-court",
+   "name": "Court of the delegations",
+   "kind": "civic",
+   "position": [
+    2690,
+    1776
+   ],
+   "activePeriods": [
+    "xerxes-460"
+   ],
+   "summary": "The court between the Gate of All Nations and the Apadana where, in the usual reading of the reliefs, the delegations of the empire waited with their gifts to be led before the king.",
+   "details": [
+    "The reliefs show 23 delegations, each led by a Persian or Mede, bringing horses, camels, rams, lions, cloth, vessels and gold. Many writers link the scene to Nowruz, the spring new year; that is a modern interpretation with no ancient text behind it, and the reliefs may show an ideal rather than one festival."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-apadana",
+    "wiki-nowruz",
+    "roaf-1983",
+    "briant"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The court fills: Lydians with bracelets and bowls, Bactrians with a two-humped camel, Indians with axes and a donkey carrying jars of gold dust."
+    },
+    {
+     "hour": 11,
+     "text": "An usher in a Median coat takes an Arachosian envoy by the hand, as on the relief, and leads him to the stair. The rest wait in the sun."
+    },
+    {
+     "hour": 16,
+     "text": "Grooms walk the gift horses back down to the plain; scribes count what was received."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "silver-weighers",
+   "name": "Silver weighers at the treasury door",
+   "kind": "bank",
+   "position": [
+    2854,
+    1968
+   ],
+   "activePeriods": [
+    "xerxes-460"
+   ],
+   "summary": "Treasury officials weighing out silver to pay workers in place of part of their sheep and wine rations, as recorded on the Elamite Treasury Tablets (492–458 BCE).",
+   "details": [
+    "The Treasury Tablets, about 750 texts, are orders to pay groups of workers, among them Egyptian, Ionian and Carian craftsmen, part of their wages in silver at fixed rates: one shekel stood in for a sheep, for example. Silver was weighed, not counted; coins were rare in Persia."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "cameron-treasury",
+    "wiki-pfa",
+    "briant"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A scribe reads the order aloud; the weigher sets a stone weight in one pan and clipped silver pieces in the other until the beam is level."
+    },
+    {
+     "hour": 13,
+     "text": "A foreman of Egyptian carpenters signs for his gang's pay with a seal-ring, and the silver is tied up in a cloth."
+    },
+    {
+     "hour": 18,
+     "text": "Doors sealed with clay and stamped. Guards with spears take their places for the night."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "royal-stables",
+   "name": "Royal horses on the plain",
+   "kind": "works",
+   "position": [
+    2420,
+    1696
+   ],
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460"
+   ],
+   "summary": "Stables and paddocks for horses of the court and of the tribute processions; the tablets issue barley to the king's horses and to riders, but where the stables stood is unknown.",
+   "details": [
+    "Fodder for royal horses, mules and camels takes up many Fortification tablets; Nisaean horses from Media were prized, and horses appear on the Apadana reliefs led by delegations. The position here, near the approach road, is a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "hallock",
+    "wiki-pfa",
+    "briant"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Grooms in felt caps lead tall horses out to water at the canal, breath steaming."
+    },
+    {
+     "hour": 12,
+     "text": "Barley is measured into nosebags; a clerk tallies it against the tablet."
+    },
+    {
+     "hour": 20,
+     "text": "A chariot team is rubbed down after the day; dogs settle in the straw."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "paradise-pavilion",
+   "name": "A pavilion in the northern paradise",
+   "kind": "garden",
+   "position": [
+    1950,
+    961
+   ],
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460"
+   ],
+   "summary": "A small columned pavilion in a walled paradise of trees, stone channels and flower beds, the Persian garden the Greeks borrowed as paradeisos.",
+   "details": [
+    "The Elamite tablets mention paradises (partetaš) in Fars with workers and plantings; Xenophon describes Cyrus the Younger planting trees with his own hands. At Pasargadae stone channels divided the garden into beds before a pavilion. The pavilion here is a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-persian-garden",
+    "henkelman",
+    "briant"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A gardener lifts a wooden sluice and water runs down the stone channel between rows of young plane trees."
+    },
+    {
+     "hour": 14,
+     "text": "In the shade of the pavilion an official and his guests eat pomegranates and listen to a harpist."
+    },
+    {
+     "hour": 19,
+     "text": "Nightingales, the smell of wet earth, a guard dozing at the garden gate."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kurtash-house",
+   "name": "A workers' household (kurtash)",
+   "kind": "house",
+   "position": [
+    2420,
+    2062
+   ],
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460"
+   ],
+   "summary": "Rooms of a family of dependent workers, kurtash in the tablets, who receive monthly rations from the king's stores in return for work on the terrace and in the workshops.",
+   "details": [
+    "Kurtash came from all over the empire: Lycians, Carians, Egyptians, Babylonians, Ionians, Thracians. The tablets list them by groups with their rations, men, women, boys and girls; many were women, weavers and others. Whether they were free, deported or something between is debated."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "hallock",
+    "henkelman",
+    "briant"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Flat bread slapped onto the inside of a clay oven in the yard; the father leaves for the terrace with his chisels in a bag."
+    },
+    {
+     "hour": 13,
+     "text": "The mother weaves at a loom against the wall, the baby sleeping on a reed mat in the shade."
+    },
+    {
+     "hour": 20,
+     "text": "Neighbours from Caria and Babylon share the month's beer on the roof under the stars."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "courier-station",
+   "name": "Way station on the road to Susa",
+   "kind": "inn",
+   "position": [
+    1350,
+    1471
+   ],
+   "activePeriods": [
+    "darius-500",
+    "xerxes-460"
+   ],
+   "summary": "A station on the royal road where couriers and travellers showed a sealed authorisation (halmi) and drew flour, beer or wine for the next stage.",
+   "details": [
+    "Hundreds of travel tablets record parties going to and from Susa, Kandahar, India, Sardis and Egypt, each with a document sealed by the king or a satrap. Herodotus admired the relays of riders that neither snow nor rain nor heat could stop."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "hallock",
+    "wiki-royal-road",
+    "wiki-angarium"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "An express rider hands over a sealed bag to a fresh man on a fresh horse, who is gone before the dust settles."
+    },
+    {
+     "hour": 12,
+     "text": "A party of Indians with a caravan leader shows its document; the clerk issues flour for twenty men and beer for the guide."
+    },
+    {
+     "hour": 21,
+     "text": "Travellers sleep in the courtyard by their animals; somebody sings in a language nobody else here speaks."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "treasury-looters",
+   "name": "Macedonians loading the treasure",
+   "kind": "bank",
+   "position": [
+    2854,
+    2117
+   ],
+   "activePeriods": [
+    "burned-330"
+   ],
+   "summary": "Where Alexander's men carried the silver of the Persian kings out of the treasury and loaded it onto pack animals in the first months of 330 BCE.",
+   "details": [
+    "Diodorus and Curtius give the sum as 120,000 talents; Plutarch says the treasure needed 10,000 pairs of mules and 5,000 camels. Most went toward Susa and Ecbatana. The soldiers were allowed to plunder the town, except the palace."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "diodorus",
+    "plutarch-alexander",
+    "arrian"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Rows of mules wait along the terrace foot; Macedonian clerks count ingots and sacks as they come out."
+    },
+    {
+     "hour": 13,
+     "text": "A soldier slips a silver cup inside his cloak; an officer sees it and decides not to."
+    },
+    {
+     "hour": 19,
+     "text": "Camels groan under their loads; the train for Susa will leave before dawn."
+    }
+   ],
+   "variants": {
+    "sasanian-250": {
+     "note": "Only mounds where the treasury stood."
+    }
+   }
+  },
+  {
+   "id": "sasanian-priest",
+   "name": "A Sasanian priest at the ruins",
+   "kind": "shrine",
+   "position": [
+    2678,
+    1968
+   ],
+   "activePeriods": [
+    "sasanian-250"
+   ],
+   "summary": "A Zoroastrian priest from Istakhr among the ruins of the ancient kings, whom the Sasanians honoured as their forerunners while remembering little of their names.",
+   "details": [
+    "Ardashir I's family were guardians of the fire temple of Anahid at Istakhr, according to al-Tabari. The Sasanians knew Persepolis as a place of the old kings; princes visited it, and inscriptions of the early 4th century record banquets and prayers in the Tachara. The priest here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "tabari",
+    "wiki-istakhr",
+    "wiki-zoroastrianism",
+    "mousavi-persepolis"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The priest, his mouth covered by a cloth so his breath does not touch the fire, tends embers in a portable altar on the Tachara steps."
+    },
+    {
+     "hour": 12,
+     "text": "A prince's party arrives with servants carrying wine and roast meat; a scribe chooses a smooth door jamb for an inscription."
+    },
+    {
+     "hour": 18,
+     "text": "Shadows of the stone doorways stretch across the terrace; the priest recites the evening prayer."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "village-farm",
+   "name": "A farmstead on the canal",
+   "kind": "house",
+   "position": [
+    1900,
+    2492
+   ],
+   "activePeriods": [
+    "burned-330",
+    "sasanian-250"
+   ],
+   "summary": "A farmhouse in the plain below the ruins, one of the villages that went on farming the Marvdasht after the court had gone.",
+   "details": [
+    "Surveys of the plain find many small settlements of the Seleucid, Parthian and Sasanian periods. Barley and wheat, vines, fruit and later cotton were grown with canal and qanat water; Sasanian estates were large and carefully irrigated."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-persepolis",
+    "wiki-istakhr",
+    "briant"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The family's turn of water comes; the son opens the cut in the canal bank and the furrows fill."
+    },
+    {
+     "hour": 13,
+     "text": "Threshing on the hard floor: oxen walking in circles over the barley, chaff blowing toward the mountain."
+    },
+    {
+     "hour": 20,
+     "text": "Bread and curds by the oven; on the mountain the old columns are pale in the moonlight."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "terrace-begun",
+   "title": "Darius begins the terrace",
+   "periodId": "darius-500",
+   "date": "c. 518 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "takht"
+   },
+   "effect": "construction",
+   "text": "A few years after seizing the throne, Darius I chose a site under Kuh-e Rahmat, 45 km from Cyrus' Pasargadae, for a new royal city. Workers cut the rock, filled the hollows and built the retaining wall; an inscription on the south face says that, by Ahuramazda's favour, a fortress was built here where none had stood.",
+   "sourceIds": [
+    "wiki-persepolis",
+    "kent-old-persian",
+    "schmidt-persepolis"
+   ]
+  },
+  {
+   "id": "apadana-foundation",
+   "title": "Gold and silver under the Apadana",
+   "periodId": "darius-500",
+   "date": "c. 515 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "apadana"
+   },
+   "effect": "construction",
+   "text": "In stone boxes under two corners of the new audience hall, Darius laid a gold and a silver tablet each, naming his kingdom from Scythia beyond Sogdiana to Kush, from India to Sardis. Coins of Lydia and Greek cities were placed beneath. Ernst Herzfeld found the boxes in 1933.",
+   "sourceIds": [
+    "wiki-apadana",
+    "kent-old-persian",
+    "schmidt-persepolis"
+   ]
+  },
+  {
+   "id": "fortification-archive",
+   "title": "The first ration tablets",
+   "periodId": "darius-500",
+   "date": "509 BCE",
+   "kind": "civic",
+   "at": {
+    "spotId": "ration-office"
+   },
+   "effect": "none",
+   "text": "In Darius' 13th year the surviving Fortification archive begins: tens of thousands of small tablets, mostly in Elamite, a few in Aramaic, Greek and other languages, recording food issued across Fars for sixteen years. They are the fullest picture of how an ancient empire fed its people.",
+   "sourceIds": [
+    "wiki-pfa",
+    "hallock",
+    "henkelman"
+   ]
+  },
+  {
+   "id": "gate-of-xerxes",
+   "title": "Xerxes raises the Gate of All Nations",
+   "periodId": "xerxes-460",
+   "date": "c. 480 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "gate-all-nations"
+   },
+   "effect": "construction",
+   "text": "At the top of the stair Xerxes built a square gatehouse guarded by colossal bulls and human-headed winged bulls. His inscription says: 'By the favour of Ahuramazda I built this gate of all lands. Much else that is beautiful was built in Parsa, which I built and my father built.'",
+   "sourceIds": [
+    "kent-old-persian",
+    "wiki-xerxes",
+    "schmidt-persepolis"
+   ]
+  },
+  {
+   "id": "treasury-silver",
+   "title": "Wages paid in silver",
+   "periodId": "xerxes-460",
+   "date": "c. 466 BCE",
+   "kind": "daily",
+   "at": {
+    "spotId": "silver-weighers"
+   },
+   "effect": "crowd",
+   "text": "Under Xerxes the treasury increasingly paid workmen part of their wages in weighed silver instead of sheep or wine. The Treasury Tablets, which run to 458 BCE, record payments to gangs of Egyptian, Ionian and other craftsmen working on the terrace.",
+   "sourceIds": [
+    "cameron-treasury",
+    "briant"
+   ]
+  },
+  {
+   "id": "hundred-columns-done",
+   "title": "The Hall of a Hundred Columns finished",
+   "periodId": "xerxes-460",
+   "date": "c. 460–450 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "hundred-columns"
+   },
+   "effect": "construction",
+   "text": "Begun by Xerxes, who was murdered in 465, the largest hall on the terrace was finished by his son Artaxerxes I. Its eight stone doorways show the king enthroned and the king killing monsters; its hundred columns carried a cedar roof about 14 m above the floor.",
+   "sourceIds": [
+    "wiki-persepolis",
+    "schmidt-persepolis"
+   ]
+  },
+  {
+   "id": "delegations",
+   "title": "The delegations climb the stair",
+   "periodId": "xerxes-460",
+   "date": "a spring audience (date uncertain)",
+   "kind": "ceremony",
+   "at": {
+    "spotId": "tribute-court"
+   },
+   "effect": "procession",
+   "text": "Envoys of the subject peoples climb the double stair with their gifts and are led one by one before the king. The reliefs make the scene eternal; the popular link with Nowruz, the new year festival, is a modern interpretation, and no ancient text describes such a ceremony at Persepolis.",
+   "sourceIds": [
+    "wiki-apadana",
+    "wiki-nowruz",
+    "roaf-1983"
+   ]
+  },
+  {
+   "id": "alexander-loots",
+   "title": "Alexander empties the treasury",
+   "periodId": "burned-330",
+   "date": "January 330 BCE",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "treasury"
+   },
+   "effect": "crowd",
+   "text": "Having forced the Persian Gates, Alexander reached Persepolis in midwinter. The treasurer Tiridates handed it over. The army plundered the lower town, and the king's silver, 120,000 talents according to Diodorus, was carried off on mules and camels to Susa and Ecbatana.",
+   "sourceIds": [
+    "diodorus",
+    "plutarch-alexander",
+    "arrian"
+   ]
+  },
+  {
+   "id": "burning",
+   "title": "Alexander burns the palaces",
+   "periodId": "burned-330",
+   "date": "spring 330 BCE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "hadish"
+   },
+   "effect": "fire",
+   "text": "Before leaving, Alexander set fire to the palaces. Arrian says it was a deliberate revenge for Xerxes' burning of Athens; Diodorus, Plutarch and Curtius tell that the Athenian courtesan Thaïs urged it at a drinking party and threw the first torch. The story may be embroidered; the ash layers are real.",
+   "sourceIds": [
+    "arrian",
+    "diodorus",
+    "plutarch-alexander",
+    "wiki-thais"
+   ]
+  },
+  {
+   "id": "peucestas-feast",
+   "title": "Peucestas' great sacrifice",
+   "periodId": "burned-330",
+   "date": "317 BCE",
+   "kind": "festival",
+   "at": {
+    "position": [
+     2130,
+     1872
+    ]
+   },
+   "effect": "crowd",
+   "text": "During the wars of Alexander's successors, Peucestas, satrap of Persis, entertained the whole army of Eumenes at Persepolis, sacrificing to the gods and to Alexander and Philip. Diodorus describes the guests seated in four great circles, one inside the other, the commanders in the middle.",
+   "sourceIds": [
+    "diodorus",
+    "wiki-peucestas"
+   ]
+  },
+  {
+   "id": "shapur-inscription",
+   "title": "A Sasanian prince writes on the Tachara",
+   "periodId": "sasanian-250",
+   "date": "c. 311 CE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "tachara"
+   },
+   "effect": "none",
+   "text": "Shapur Sakanshah, brother of King Shapur II and governor of Sakastan, stopped at Persepolis on a journey, feasted and prayed in the ruined palace, and had a Middle Persian inscription cut on its doorway asking blessings, as it is usually read, for those who built it. A second inscription, of a judge named Seleucus, sits beside it.",
+   "sourceIds": [
+    "wiki-shapur-ii",
+    "mousavi-persepolis",
+    "wiki-persepolis"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "gifts-for-the-king",
+   "title": "Gifts for the king",
+   "periodId": "xerxes-460",
+   "summary": "Follow a delegation up the great stair, through Xerxes' gate and into the audience hall, then behind the scenes to the halls, the palaces and the treasury where gifts and wages are counted.",
+   "steps": [
+    {
+     "landmarkId": "takht",
+     "title": "The double stair",
+     "when": "Morning",
+     "text": "Your delegation dismounts on the plain and climbs the shallow steps, so gentle the horses walk up beside you. The terrace wall towers over the road."
+    },
+    {
+     "landmarkId": "gate-all-nations",
+     "title": "Between the bulls",
+     "when": "Morning",
+     "text": "Stone bulls taller than three men flank the doorway; Xerxes' words above them in three scripts. Inside, benches line the walls for waiting envoys."
+    },
+    {
+     "spotId": "tribute-court",
+     "title": "Waiting in the court",
+     "when": "Late morning",
+     "text": "Lydians, Bactrians, Ethiopians and your own people wait in turn with horses, camels, cloth and gold, each group with a Persian usher."
+    },
+    {
+     "landmarkId": "apadana",
+     "title": "Before the king",
+     "when": "Noon",
+     "text": "Up the carved stair, where you see yourselves in stone, into a forest of columns 20 m tall. At the far end the king sits on his throne under a canopy, the crown prince behind him."
+    },
+    {
+     "landmarkId": "tripylon",
+     "title": "The central hall",
+     "when": "Afternoon",
+     "text": "Officials lead the gifts away through the three-doored hall, past reliefs of nobles climbing to a feast."
+    },
+    {
+     "landmarkId": "hundred-columns",
+     "title": "The great hall rising",
+     "when": "Afternoon",
+     "text": "Next door, Artaxerxes' builders are roofing the Hall of a Hundred Columns; cedar beams swing up on ropes."
+    },
+    {
+     "spotId": "silver-weighers",
+     "title": "Counting the silver",
+     "when": "Evening",
+     "text": "At the treasury your gold is weighed and recorded, while craftsmen queue for their wages in silver."
+    }
+   ],
+   "sourceIds": [
+    "wiki-apadana",
+    "roaf-1983",
+    "cameron-treasury",
+    "schmidt-persepolis"
+   ]
+  },
+  {
+   "id": "building-the-terrace",
+   "title": "Building Darius' terrace",
+   "periodId": "darius-500",
+   "summary": "A working day on the terrace about 500 BCE, from the quarry to the carvers on the Apadana stair, the ration office, a workers' home and a garden pavilion on the plain.",
+   "steps": [
+    {
+     "spotId": "masons-yard",
+     "title": "At the quarry",
+     "when": "Dawn",
+     "text": "Wedges split the grey limestone from the mountain. Drums for the Apadana's columns are hauled down the slope on sledges."
+    },
+    {
+     "landmarkId": "apadana",
+     "title": "Columns among the cranes",
+     "when": "Morning",
+     "text": "On the platform the first columns rise; timber cranes lift a double-bull capital into place, 20 m above the floor."
+    },
+    {
+     "spotId": "yauna-sculptor",
+     "title": "The carvers",
+     "when": "Midday",
+     "text": "On the east stair Ionian and Persian carvers cut the delegations into the stone, and painters follow them with blue and red."
+    },
+    {
+     "landmarkId": "tachara",
+     "title": "The king's palace",
+     "when": "Afternoon",
+     "text": "Darius' own palace is nearly done: polished black stone frames its doorways, and servants carved on its stair carry food to an endless banquet."
+    },
+    {
+     "spotId": "ration-office",
+     "title": "Ration day",
+     "when": "Late afternoon",
+     "text": "The clerks issue the month's barley, wine and beer; each issue becomes a little clay tablet with a seal on it."
+    },
+    {
+     "spotId": "kurtash-house",
+     "title": "Home",
+     "when": "Evening",
+     "text": "In the workers' quarter a Carian family bakes bread and shares beer on the roof."
+    }
+   ],
+   "sourceIds": [
+    "hallock",
+    "roaf-1983",
+    "kent-old-persian",
+    "schmidt-persepolis"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-persepolis",
+   "title": "Persepolis",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Persepolis"
+  },
+  {
+   "id": "wiki-achaemenid-architecture",
+   "title": "Achaemenid architecture",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Achaemenid_architecture"
+  },
+  {
+   "id": "wiki-pfa",
+   "title": "Persepolis Administrative Archives",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Persepolis_Administrative_Archives"
+  },
+  {
+   "id": "wiki-marvdasht",
+   "title": "Marvdasht",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Marvdasht"
+  },
+  {
+   "id": "wiki-istakhr",
+   "title": "Istakhr",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Istakhr"
+  },
+  {
+   "id": "wiki-naqsh-e-rostam",
+   "title": "Naqsh-e Rostam",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Naqsh-e_Rostam"
+  },
+  {
+   "id": "wiki-persian-garden",
+   "title": "Persian gardens",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Persian_gardens"
+  },
+  {
+   "id": "wiki-qanat",
+   "title": "Qanat",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Qanat"
+  },
+  {
+   "id": "wiki-persis",
+   "title": "Persis",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Persis"
+  },
+  {
+   "id": "schmidt-persepolis",
+   "title": "Persepolis I–III",
+   "author": "Erich F. Schmidt",
+   "year": "1953–1970"
+  },
+  {
+   "id": "mousavi-persepolis",
+   "title": "Persepolis: Discovery and Afterlife of a World Wonder",
+   "author": "Ali Mousavi",
+   "year": 2012
+  },
+  {
+   "id": "briant",
+   "title": "From Cyrus to Alexander: A History of the Persian Empire",
+   "author": "Pierre Briant",
+   "year": 2002
+  },
+  {
+   "id": "hallock",
+   "title": "Persepolis Fortification Tablets",
+   "author": "Richard T. Hallock",
+   "year": 1969
+  },
+  {
+   "id": "sumner-1986",
+   "title": "Achaemenid Settlement in the Persepolis Plain",
+   "author": "William M. Sumner",
+   "year": 1986
+  },
+  {
+   "id": "arrian",
+   "title": "Anabasis of Alexander, Book 3",
+   "author": "Arrian",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Anabasis_of_Alexander"
+  },
+  {
+   "id": "wiki-apadana",
+   "title": "Apadana",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Apadana"
+  },
+  {
+   "id": "wiki-gate-all-nations",
+   "title": "Gate of All Nations",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gate_of_All_Nations"
+  },
+  {
+   "id": "wiki-tachara",
+   "title": "Tachara",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tachara"
+  },
+  {
+   "id": "wiki-persian-column",
+   "title": "Persian column",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Persian_column"
+  },
+  {
+   "id": "wiki-lamassu",
+   "title": "Lamassu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lamassu"
+  },
+  {
+   "id": "wiki-artaxerxes-ii",
+   "title": "Artaxerxes II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Artaxerxes_II"
+  },
+  {
+   "id": "wiki-artaxerxes-iii",
+   "title": "Artaxerxes III",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Artaxerxes_III"
+  },
+  {
+   "id": "wiki-pasargadae",
+   "title": "Pasargadae",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pasargadae"
+  },
+  {
+   "id": "wiki-xerxes",
+   "title": "Xerxes I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xerxes_I"
+  },
+  {
+   "id": "wiki-darius",
+   "title": "Darius the Great",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Darius_the_Great"
+  },
+  {
+   "id": "roaf-1983",
+   "title": "Sculptures and Sculptors at Persepolis",
+   "author": "Michael Roaf",
+   "year": 1983
+  },
+  {
+   "id": "tilia-1972",
+   "title": "Studies and Restorations at Persepolis and Other Sites of Fars",
+   "author": "Ann Britt Tilia",
+   "year": "1972–1978"
+  },
+  {
+   "id": "diodorus-17",
+   "title": "Library of History, Book 17",
+   "author": "Diodorus Siculus",
+   "year": "1st century BCE",
+   "url": "https://en.wikipedia.org/wiki/Bibliotheca_historica"
+  },
+  {
+   "id": "wiki-nowruz",
+   "title": "Nowruz",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nowruz"
+  },
+  {
+   "id": "wiki-royal-road",
+   "title": "Royal Road",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Royal_Road"
+  },
+  {
+   "id": "wiki-angarium",
+   "title": "Angarium",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Angarium"
+  },
+  {
+   "id": "wiki-ionians",
+   "title": "Ionians",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ionians"
+  },
+  {
+   "id": "wiki-thais",
+   "title": "Thaïs",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tha%C3%AFs"
+  },
+  {
+   "id": "wiki-alexander",
+   "title": "Alexander the Great",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+  },
+  {
+   "id": "wiki-peucestas",
+   "title": "Peucestas",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Peucestas"
+  },
+  {
+   "id": "wiki-shapur-ii",
+   "title": "Shapur II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shapur_II"
+  },
+  {
+   "id": "wiki-ardashir",
+   "title": "Ardashir I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ardashir_I"
+  },
+  {
+   "id": "wiki-zoroastrianism",
+   "title": "Zoroastrianism",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zoroastrianism"
+  },
+  {
+   "id": "cameron-treasury",
+   "title": "Persepolis Treasury Tablets",
+   "author": "George G. Cameron",
+   "year": 1948
+  },
+  {
+   "id": "henkelman",
+   "title": "The Other Gods Who Are: Studies in Elamite-Iranian Acculturation Based on the Persepolis Fortification Texts",
+   "author": "Wouter F. M. Henkelman",
+   "year": 2008
+  },
+  {
+   "id": "kent-old-persian",
+   "title": "Old Persian: Grammar, Texts, Lexicon",
+   "author": "Roland G. Kent",
+   "year": 1953
+  },
+  {
+   "id": "plutarch-alexander",
+   "title": "Life of Alexander",
+   "author": "Plutarch",
+   "year": "c. 100 CE",
+   "url": "https://en.wikipedia.org/wiki/Parallel_Lives"
+  },
+  {
+   "id": "diodorus",
+   "title": "Library of History, Books 17 and 19",
+   "author": "Diodorus Siculus",
+   "year": "1st century BCE",
+   "url": "https://en.wikipedia.org/wiki/Bibliotheca_historica"
+  },
+  {
+   "id": "tabari",
+   "title": "History of the Prophets and Kings (Sasanian section)",
+   "author": "al-Tabari",
+   "year": "c. 915 CE",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_Prophets_and_Kings"
+  }
+ ]
+}

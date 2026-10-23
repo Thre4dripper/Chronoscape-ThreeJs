@@ -37,7 +37,9 @@
           "subtitle": "Terrace of the Achaemenid kings, 500 BCE",
           "at": [52.89, 29.93],
           "glyph": "temple",
-          "blurb": "Ceremonial capital of Darius and Xerxes, built on a stone terrace at the foot of the Mountain of Mercy."
+          "blurb": "Ceremonial capital of Darius and Xerxes, built on a stone terrace at the foot of the Mountain of Mercy.",
+          "city": "persepolis",
+          "period": "darius-500"
         }
       ]
     },
