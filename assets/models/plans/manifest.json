@@ -755,6 +755,168 @@
   "size": 15.11,
   "w": 14.0
  },
+ "babylon/bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 20.0,
+  "ext": "webp",
+  "px": 562,
+  "size": 187.2,
+  "w": 180.0
+ },
+ "babylon/emah": {
+  "cx": 0.0,
+  "cy": 0.8,
+  "d": 41.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 57.2,
+  "w": 55.0
+ },
+ "babylon/emashdari": {
+  "cx": 0.0,
+  "cy": 0.8,
+  "d": 37.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 41.6,
+  "w": 40.0
+ },
+ "babylon/esagila": {
+  "cx": 0.66,
+  "cy": -0.0,
+  "d": 107.4,
+  "ext": "webp",
+  "px": 634,
+  "size": 211.2,
+  "w": 203.08
+ },
+ "babylon/etemenanki": {
+  "cx": 0.0,
+  "cy": -0.5,
+  "d": 151.0,
+  "ext": "webp",
+  "px": 471,
+  "size": 157.04,
+  "w": 110.0
+ },
+ "babylon/etemenanki-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 150.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 110.0
+ },
+ "babylon/etemenanki-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 150.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 110.0
+ },
+ "babylon/hanging-gardens": {
+  "cx": -0.35,
+  "cy": -0.0,
+  "d": 152.0,
+  "ext": "webp",
+  "px": 474,
+  "size": 158.08,
+  "w": 111.3
+ },
+ "babylon/ishtar-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 52.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 54.08,
+  "w": 50.0
+ },
+ "babylon/nabu-sha-hare": {
+  "cx": 0.0,
+  "cy": 0.8,
+  "d": 41.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
+ "babylon/ninurta-temple": {
+  "cx": 0.0,
+  "cy": 0.8,
+  "d": 51.6,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "babylon/northern-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 121.6,
+  "ext": "webp",
+  "px": 535,
+  "size": 178.46,
+  "w": 171.6
+ },
+ "babylon/outer-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "babylon/persian-pavilion": {
+  "cx": 0.0,
+  "cy": 1.5,
+  "d": 29.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 41.6,
+  "w": 40.0
+ },
+ "babylon/processional-way": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 36.0
+ },
+ "babylon/southern-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 194.4,
+  "ext": "webp",
+  "px": 950,
+  "size": 316.58,
+  "w": 304.4
+ },
+ "babylon/summer-palace": {
+  "cx": 0.0,
+  "cy": -0.74,
+  "d": 181.48,
+  "ext": "webp",
+  "px": 633,
+  "size": 211.08,
+  "w": 202.96
+ },
+ "babylon/theatre": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 237,
+  "size": 79.04,
+  "w": 76.0
+ },
  "baghdad/bayt-al-hikma": {
   "cx": 0.0,
   "cy": -0.0,
