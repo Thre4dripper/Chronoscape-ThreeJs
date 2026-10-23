@@ -3926,6 +3926,413 @@
   "w": 18.2,
   "x0px": 20.7
  },
+ "florence/amphitheatre": {
+  "ground": 255.4,
+  "h": 18.0,
+  "mpp": 0.0929,
+  "px": [
+   1400,
+   317
+  ],
+  "w": 118.58,
+  "x0px": 61.8
+ },
+ "florence/baptistery": {
+  "ground": 506.0,
+  "h": 39.6,
+  "mpp": 0.08337,
+  "px": [
+   472,
+   537
+  ],
+  "w": 34.23,
+  "x0px": 30.7
+ },
+ "florence/bargello": {
+  "ground": 697.6,
+  "h": 55.0,
+  "mpp": 0.08342,
+  "px": [
+   628,
+   736
+  ],
+  "w": 46.0,
+  "x0px": 38.3
+ },
+ "florence/campanile": {
+  "ground": 857.7,
+  "h": 84.2,
+  "mpp": 0.10326,
+  "px": [
+   243,
+   900
+  ],
+  "w": 16.44,
+  "x0px": 41.9
+ },
+ "florence/duomo": {
+  "ground": 860.3,
+  "h": 119.64,
+  "mpp": 0.14578,
+  "px": [
+   724,
+   900
+  ],
+  "w": 94.0,
+  "x0px": 39.6
+ },
+ "florence/forte-belvedere": {
+  "ground": 208.0,
+  "h": 22.2,
+  "mpp": 0.148,
+  "px": [
+   1400,
+   266
+  ],
+  "w": 190.0,
+  "x0px": 58.1
+ },
+ "florence/fortezza-da-basso": {
+  "ground": 119.7,
+  "h": 16.0,
+  "mpp": 0.24829,
+  "px": [
+   1400,
+   175
+  ],
+  "w": 320.0,
+  "x0px": 55.6
+ },
+ "florence/forum": {
+  "ground": 312.1,
+  "h": 21.36,
+  "mpp": 0.08338,
+  "px": [
+   1213,
+   368
+  ],
+  "w": 91.8,
+  "x0px": 56.0
+ },
+ "florence/innocenti": {
+  "ground": 313.2,
+  "h": 22.2,
+  "mpp": 0.08334,
+  "px": [
+   970,
+   360
+  ],
+  "w": 73.0,
+  "x0px": 47.0
+ },
+ "florence/loggia-lanzi": {
+  "ground": 298.2,
+  "h": 22.33,
+  "mpp": 0.08347,
+  "px": [
+   531,
+   329
+  ],
+  "w": 39.19,
+  "x0px": 30.8
+ },
+ "florence/loggia-lanzi-1600": {
+  "ground": 298.2,
+  "h": 22.33,
+  "mpp": 0.08347,
+  "px": [
+   531,
+   329
+  ],
+  "w": 39.19,
+  "x0px": 30.8
+ },
+ "florence/orsanmichele": {
+  "ground": 485.8,
+  "h": 38.0,
+  "mpp": 0.08341,
+  "px": [
+   381,
+   516
+  ],
+  "w": 26.78,
+  "x0px": 30.0
+ },
+ "florence/orsanmichele-loggia": {
+  "ground": 199.9,
+  "h": 14.6,
+  "mpp": 0.08349,
+  "px": [
+   381,
+   225
+  ],
+  "w": 27.6,
+  "x0px": 25.2
+ },
+ "florence/palazzo-medici": {
+  "ground": 403.7,
+  "h": 30.8,
+  "mpp": 0.08338,
+  "px": [
+   625,
+   438
+  ],
+  "w": 46.4,
+  "x0px": 34.3
+ },
+ "florence/palazzo-pitti": {
+  "ground": 539.6,
+  "h": 40.8,
+  "mpp": 0.08339,
+  "px": [
+   1059,
+   590
+  ],
+  "w": 79.92,
+  "x0px": 50.3
+ },
+ "florence/palazzo-pitti-1600": {
+  "ground": 539.6,
+  "h": 40.8,
+  "mpp": 0.08339,
+  "px": [
+   1059,
+   590
+  ],
+  "w": 79.92,
+  "x0px": 50.3
+ },
+ "florence/palazzo-vecchio": {
+  "ground": 858.1,
+  "h": 88.4,
+  "mpp": 0.1083,
+  "px": [
+   565,
+   900
+  ],
+  "w": 52.2,
+  "x0px": 41.5
+ },
+ "florence/palazzo-vecchio-1300": {
+  "ground": 459.3,
+  "h": 35.25,
+  "mpp": 0.08342,
+  "px": [
+   692,
+   496
+  ],
+  "w": 51.6,
+  "x0px": 36.7
+ },
+ "florence/ponte-alle-grazie": {
+  "ground": 199.8,
+  "h": 15.07,
+  "mpp": 0.08344,
+  "px": [
+   222,
+   219
+  ],
+  "w": 15.3,
+  "x0px": 19.3
+ },
+ "florence/ponte-santa-trinita": {
+  "ground": 158.6,
+  "h": 11.64,
+  "mpp": 0.08357,
+  "px": [
+   221,
+   178
+  ],
+  "w": 15.25,
+  "x0px": 19.3
+ },
+ "florence/ponte-santa-trinita-old": {
+  "ground": 211.4,
+  "h": 16.0,
+  "mpp": 0.08346,
+  "px": [
+   209,
+   231
+  ],
+  "w": 14.2,
+  "x0px": 19.4
+ },
+ "florence/ponte-vecchio": {
+  "ground": 368.3,
+  "h": 28.6,
+  "mpp": 0.08347,
+  "px": [
+   389,
+   394
+  ],
+  "w": 28.2,
+  "x0px": 25.6
+ },
+ "florence/ponte-vecchio-1600": {
+  "ground": 368.8,
+  "h": 28.6,
+  "mpp": 0.08349,
+  "px": [
+   399,
+   395
+  ],
+  "w": 28.99,
+  "x0px": 25.9
+ },
+ "florence/ponte-vecchio-old": {
+  "ground": 221.5,
+  "h": 16.81,
+  "mpp": 0.0836,
+  "px": [
+   250,
+   242
+  ],
+  "w": 17.5,
+  "x0px": 20.3
+ },
+ "florence/porta-romana": {
+  "ground": 365.6,
+  "h": 28.33,
+  "mpp": 0.0835,
+  "px": [
+   412,
+   392
+  ],
+  "w": 30.0,
+  "x0px": 26.3
+ },
+ "florence/san-lorenzo": {
+  "ground": 491.4,
+  "h": 37.59,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   532
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "florence/san-lorenzo-1600": {
+  "ground": 491.9,
+  "h": 37.59,
+  "mpp": 0.08338,
+  "px": [
+   805,
+   533
+  ],
+  "w": 60.3,
+  "x0px": 40.9
+ },
+ "florence/san-lorenzo-old": {
+  "ground": 568.3,
+  "h": 44.0,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   609
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "florence/san-miniato": {
+  "ground": 488.6,
+  "h": 37.8,
+  "mpp": 0.08342,
+  "px": [
+   651,
+   524
+  ],
+  "w": 48.43,
+  "x0px": 35.2
+ },
+ "florence/santa-croce": {
+  "ground": 488.2,
+  "h": 36.7,
+  "mpp": 0.08333,
+  "px": [
+   996,
+   536
+  ],
+  "w": 75.0,
+  "x0px": 48.0
+ },
+ "florence/santa-croce-1300": {
+  "ground": 362.2,
+  "h": 26.19,
+  "mpp": 0.08333,
+  "px": [
+   996,
+   410
+  ],
+  "w": 75.0,
+  "x0px": 48.0
+ },
+ "florence/santa-maria-novella": {
+  "ground": 837.3,
+  "h": 66.2,
+  "mpp": 0.08342,
+  "px": [
+   843,
+   881
+  ],
+  "w": 63.0,
+  "x0px": 43.9
+ },
+ "florence/santa-maria-novella-1300": {
+  "ground": 428.1,
+  "h": 32.2,
+  "mpp": 0.08338,
+  "px": [
+   840,
+   470
+  ],
+  "w": 63.0,
+  "x0px": 42.2
+ },
+ "florence/santa-reparata": {
+  "ground": 513.0,
+  "h": 38.0,
+  "mpp": 0.08335,
+  "px": [
+   1242,
+   570
+  ],
+  "w": 94.0,
+  "x0px": 57.1
+ },
+ "florence/santo-spirito": {
+  "ground": 555.0,
+  "h": 42.87,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   596
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "florence/santo-spirito-1600": {
+  "ground": 775.6,
+  "h": 61.2,
+  "mpp": 0.08335,
+  "px": [
+   802,
+   817
+  ],
+  "w": 60.0,
+  "x0px": 41.1
+ },
+ "florence/uffizi": {
+  "ground": 390.8,
+  "h": 28.8,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   436
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
  "kyoto/chion-in-sanmon": {
   "ground": 390.4,
   "h": 29.26,
