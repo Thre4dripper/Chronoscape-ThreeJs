@@ -1784,6 +1784,191 @@
   "cy": 0.3,
   "size": 52.07
  },
+ "florence/amphitheatre": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 158.98
+ },
+ "florence/baptistery": {
+  "cx": 0.12,
+  "cy": -0.0,
+  "size": 113.51
+ },
+ "florence/bargello": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 164.5
+ },
+ "florence/campanile": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 176.0
+ },
+ "florence/duomo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 382.34
+ },
+ "florence/forte-belvedere": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 237.96
+ },
+ "florence/fortezza-da-basso": {
+  "cx": 0.0,
+  "cy": 1.8,
+  "size": 356.8
+ },
+ "florence/forum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 166.45
+ },
+ "florence/innocenti": {
+  "cx": 0.0,
+  "cy": -0.2,
+  "size": 120.96
+ },
+ "florence/loggia-lanzi": {
+  "cx": 0.0,
+  "cy": 0.72,
+  "size": 87.38
+ },
+ "florence/loggia-lanzi-1600": {
+  "cx": 0.0,
+  "cy": 0.72,
+  "size": 87.38
+ },
+ "florence/orsanmichele": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 118.18
+ },
+ "florence/orsanmichele-loggia": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 76.88
+ },
+ "florence/palazzo-medici": {
+  "cx": 0.0,
+  "cy": 0.85,
+  "size": 122.14
+ },
+ "florence/palazzo-pitti": {
+  "cx": 0.0,
+  "cy": 0.83,
+  "size": 193.09
+ },
+ "florence/palazzo-pitti-1600": {
+  "cx": 0.0,
+  "cy": 0.83,
+  "size": 193.09
+ },
+ "florence/palazzo-vecchio": {
+  "cx": -0.1,
+  "cy": 1.12,
+  "size": 231.37
+ },
+ "florence/palazzo-vecchio-1300": {
+  "cx": 0.0,
+  "cy": 2.8,
+  "size": 139.05
+ },
+ "florence/ponte-alle-grazie": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 155.12
+ },
+ "florence/ponte-santa-trinita": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 140.95
+ },
+ "florence/ponte-santa-trinita-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 148.8
+ },
+ "florence/ponte-vecchio": {
+  "cx": 0.01,
+  "cy": 0.4,
+  "size": 168.28
+ },
+ "florence/ponte-vecchio-1600": {
+  "cx": 0.4,
+  "cy": 1.4,
+  "size": 170.28
+ },
+ "florence/ponte-vecchio-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 146.26
+ },
+ "florence/porta-romana": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 88.99
+ },
+ "florence/san-lorenzo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 175.67
+ },
+ "florence/san-lorenzo-1600": {
+  "cx": -0.15,
+  "cy": -0.0,
+  "size": 175.67
+ },
+ "florence/san-lorenzo-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 187.2
+ },
+ "florence/san-miniato": {
+  "cx": 0.22,
+  "cy": 0.5,
+  "size": 152.04
+ },
+ "florence/santa-croce": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 192.06
+ },
+ "florence/santa-croce-1300": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 173.15
+ },
+ "florence/santa-maria-novella": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 227.16
+ },
+ "florence/santa-maria-novella-1300": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 165.95
+ },
+ "florence/santa-reparata": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 235.4
+ },
+ "florence/santo-spirito": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 183.17
+ },
+ "florence/santo-spirito-1600": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 216.16
+ },
+ "florence/uffizi": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 177.84
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
