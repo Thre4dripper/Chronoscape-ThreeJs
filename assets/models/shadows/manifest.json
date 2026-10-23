@@ -3199,6 +3199,86 @@
   "cy": -0.0,
   "size": 153.71
  },
+ "timbuktu/aqit-house": {
+  "cx": 0.0,
+  "cy": 0.18,
+  "size": 50.35
+ },
+ "timbuktu/azalai-ground": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 97.45
+ },
+ "timbuktu/djinguereber": {
+  "cx": 0.16,
+  "cy": 0.02,
+  "size": 125.88
+ },
+ "timbuktu/djinguereber-1340": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "size": 117.45
+ },
+ "timbuktu/djinguereber-1700": {
+  "cx": 0.16,
+  "cy": -0.11,
+  "size": 125.88
+ },
+ "timbuktu/great-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 109.07
+ },
+ "timbuktu/kabara-landing": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 84.98
+ },
+ "timbuktu/kasbah": {
+  "cx": 0.07,
+  "cy": -0.0,
+  "size": 163.18
+ },
+ "timbuktu/madugu": {
+  "cx": 0.0,
+  "cy": 0.09,
+  "size": 85.55
+ },
+ "timbuktu/merchant-house": {
+  "cx": 0.0,
+  "cy": 0.18,
+  "size": 48.35
+ },
+ "timbuktu/saints-cemetery": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 99.02
+ },
+ "timbuktu/sankore": {
+  "cx": 0.0,
+  "cy": -0.04,
+  "size": 94.45
+ },
+ "timbuktu/sankore-1700": {
+  "cx": 0.0,
+  "cy": -0.04,
+  "size": 98.95
+ },
+ "timbuktu/sidi-yahya": {
+  "cx": 0.0,
+  "cy": 0.16,
+  "size": 74.75
+ },
+ "timbuktu/tuareg-camp": {
+  "cx": 0.19,
+  "cy": -0.14,
+  "size": 96.78
+ },
+ "timbuktu/well-of-buktu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 26.61
+ },
  "venice/arsenale": {
   "cx": -2.1,
   "cy": -0.55,
