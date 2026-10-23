@@ -192,7 +192,9 @@
           "subtitle": "Tang capital, 750",
           "at": [108.94, 34.26],
           "glyph": "pagoda",
-          "blurb": "The largest city of its time, a vast walled grid of residential wards with the East and West Markets."
+          "blurb": "The largest city of its time, a vast walled grid of residential wards with the East and West Markets.",
+          "city": "changan",
+          "period": "tang-750"
         },
         {
           "title": "Kaifeng",
