@@ -6885,6 +6885,182 @@
   "w": 130.0,
   "x0px": 61.0
  },
+ "timbuktu/aqit-house": {
+  "ground": 123.9,
+  "h": 8.25,
+  "mpp": 0.08342,
+  "px": [
+   380,
+   149
+  ],
+  "w": 27.5,
+  "x0px": 25.2
+ },
+ "timbuktu/azalai-ground": {
+  "ground": 113.0,
+  "h": 5.25,
+  "mpp": 0.0834,
+  "px": [
+   1060,
+   163
+  ],
+  "w": 80.0,
+  "x0px": 50.4
+ },
+ "timbuktu/djinguereber": {
+  "ground": 288.4,
+  "h": 19.75,
+  "mpp": 0.08341,
+  "px": [
+   1090,
+   340
+  ],
+  "w": 82.33,
+  "x0px": 51.5
+ },
+ "timbuktu/djinguereber-1340": {
+  "ground": 233.9,
+  "h": 15.25,
+  "mpp": 0.08339,
+  "px": [
+   1086,
+   285
+  ],
+  "w": 82.0,
+  "x0px": 51.3
+ },
+ "timbuktu/djinguereber-1700": {
+  "ground": 288.4,
+  "h": 19.75,
+  "mpp": 0.08341,
+  "px": [
+   1090,
+   340
+  ],
+  "w": 82.33,
+  "x0px": 51.5
+ },
+ "timbuktu/great-market": {
+  "ground": 128.9,
+  "h": 6.15,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   184
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "timbuktu/kabara-landing": {
+  "ground": 91.8,
+  "h": 3.88,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   137
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "timbuktu/kasbah": {
+  "ground": 195.4,
+  "h": 13.75,
+  "mpp": 0.10205,
+  "px": [
+   1400,
+   256
+  ],
+  "w": 130.43,
+  "x0px": 60.9
+ },
+ "timbuktu/madugu": {
+  "ground": 157.5,
+  "h": 9.75,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   198
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "timbuktu/merchant-house": {
+  "ground": 122.9,
+  "h": 8.25,
+  "mpp": 0.08345,
+  "px": [
+   354,
+   147
+  ],
+  "w": 25.5,
+  "x0px": 24.2
+ },
+ "timbuktu/saints-cemetery": {
+  "ground": 121.9,
+  "h": 5.98,
+  "mpp": 0.08335,
+  "px": [
+   1064,
+   172
+  ],
+  "w": 80.26,
+  "x0px": 50.5
+ },
+ "timbuktu/sankore": {
+  "ground": 237.1,
+  "h": 16.53,
+  "mpp": 0.08342,
+  "px": [
+   758,
+   276
+  ],
+  "w": 56.7,
+  "x0px": 39.2
+ },
+ "timbuktu/sankore-1700": {
+  "ground": 267.1,
+  "h": 19.03,
+  "mpp": 0.08342,
+  "px": [
+   758,
+   306
+  ],
+  "w": 56.7,
+  "x0px": 39.2
+ },
+ "timbuktu/sidi-yahya": {
+  "ground": 197.0,
+  "h": 13.75,
+  "mpp": 0.08338,
+  "px": [
+   568,
+   229
+  ],
+  "w": 42.0,
+  "x0px": 32.1
+ },
+ "timbuktu/tuareg-camp": {
+  "ground": 106.5,
+  "h": 4.67,
+  "mpp": 0.08338,
+  "px": [
+   1065,
+   157
+  ],
+  "w": 80.37,
+  "x0px": 50.5
+ },
+ "timbuktu/well-of-buktu": {
+  "ground": 61.5,
+  "h": 3.67,
+  "mpp": 0.08358,
+  "px": [
+   179,
+   79
+  ],
+  "w": 12.0,
+  "x0px": 17.7
+ },
  "venice/arsenale": {
   "ground": 108.4,
   "h": 23.99,
