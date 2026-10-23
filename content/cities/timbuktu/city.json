@@ -1,0 +1,4024 @@
+{
+ "id": "timbuktu",
+ "name": "Timbuktu",
+ "subtitle": "City of Scholars",
+ "description": "Seven centuries of Timbuktu on the edge of the Sahara: from a Tuareg camp round a well, through Mansa Musa's Djinguereber mosque, the scholars of Sankore and the Songhai Askias, to the Moroccan pashas. The town lies among dunes, joined to the Niger port of Kabara, 8 km to the south, by a road and a seasonal channel. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "songhai-1450",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#C9A77E",
+   "#BE9C74",
+   "#D2B48C",
+   "#B8946C",
+   "#CFAE84"
+  ],
+  "roofs": [
+   "#BFA07A",
+   "#B5946C"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1897,
+    1686
+   ],
+   "distance": 32,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   3944,
+   3661
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "The channel to Kabara",
+    "path": [
+     [
+      1066,
+      3661
+     ],
+     [
+      1194,
+      3384
+     ],
+     [
+      1322,
+      3107
+     ],
+     [
+      1418,
+      2863
+     ],
+     [
+      1492,
+      2663
+     ]
+    ],
+    "width": 26,
+    "id": "kabara-channel",
+    "blurb": "A seasonal creek from the Niger's flood plain toward the town. Leo Africanus wrote that when the Niger rose its water was brought into Timbuktu through channels; in high-flood months small boats could come up close to the town. Dry for half the year.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550"
+    ]
+   },
+   {
+    "name": "The channel to Kabara",
+    "path": [
+     [
+      1066,
+      3661
+     ],
+     [
+      1194,
+      3384
+     ],
+     [
+      1322,
+      3107
+     ],
+     [
+      1418,
+      2863
+     ],
+     [
+      1492,
+      2663
+     ]
+    ],
+    "width": 16,
+    "id": "kabara-channel",
+    "blurb": "A seasonal creek from the Niger's flood plain toward the town, wet only in the months of high water (December to February) and often silted; after 1600 it was neglected and the sand pushed in.",
+    "periods": [
+     "founding-1100",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "The flood pool south of the town",
+    "path": [
+     [
+      1407,
+      2652
+     ],
+     [
+      1599,
+      2552
+     ]
+    ],
+    "width": 80,
+    "id": "south-pool",
+    "blurb": "A pond left by the flood at the head of the channel, where boats unloaded in good years and the town drew water, washed and watered animals; the place where gardens were dug."
+   },
+   {
+    "name": "Channel into Badjindé",
+    "path": [
+     [
+      1599,
+      2552
+     ],
+     [
+      1855,
+      2441
+     ],
+     [
+      2068,
+      2263
+     ],
+     [
+      2196,
+      2075
+     ]
+    ],
+    "width": 12,
+    "id": "badjinde-channel",
+    "blurb": "A branch of the flood channel reaching the low ground in the middle of the town in good flood years. The quarter of Badjindé is usually said to take its name from the pool it filled; the course drawn here is an interpretation.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450"
+    ]
+   },
+   {
+    "name": "The pool of Badjindé",
+    "path": [
+     [
+      2164,
+      2075
+     ],
+     [
+      2249,
+      1997
+     ]
+    ],
+    "width": 44,
+    "id": "badjinde-pool",
+    "blurb": "Seasonal water in the hollow of Badjindé, the town's low point; later filled and built over as the channel silted.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Dunes of Abaradjou",
+    "center": [
+     853,
+     355
+    ],
+    "radius": 430,
+    "label": true,
+    "id": "north-dunes",
+    "blurb": "Fixed dunes on the Sahara side, where the caravans from Arawan and Taoudenni came down to the town. Sand blows off them into the northern lanes every dry season."
+   },
+   {
+    "name": "North-eastern dunes",
+    "center": [
+     3144,
+     444
+    ],
+    "radius": 480,
+    "label": false,
+    "id": "north-east-dunes",
+    "blurb": "Long dune ridges running east–west, held by thorn trees and grass; herders' camps and wells in the hollows between them."
+   },
+   {
+    "name": "Western dunes",
+    "center": [
+     373,
+     1387
+    ],
+    "radius": 360,
+    "label": true,
+    "id": "west-dunes",
+    "blurb": "Dunes on the road west to Goundam and the lakes; cemeteries lie at their foot, outside the town."
+   },
+   {
+    "name": "Dune of the Kabara road",
+    "center": [
+     480,
+     2441
+    ],
+    "radius": 330,
+    "label": false,
+    "id": "south-west-dune",
+    "blurb": "A sand ridge above the flood plain on the south-west; the old track to the river ran along the higher ground to keep its feet dry in the flood."
+   },
+   {
+    "name": "Eastern dunes",
+    "center": [
+     3464,
+     2219
+    ],
+    "radius": 360,
+    "label": false,
+    "id": "east-dunes",
+    "blurb": "Dunes toward the road east along the river to Bamba and Gao."
+   },
+   {
+    "name": "Sand ridge of the east road",
+    "center": [
+     2984,
+     2907
+    ],
+    "radius": 250,
+    "label": false,
+    "id": "south-east-dune",
+    "blurb": "A low ridge between the flood plain and the town, grazed by goats and crossed by the track to the river villages."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Road to Kabara",
+    "path": [
+     [
+      1599,
+      3661
+     ],
+     [
+      1673,
+      3218
+     ],
+     [
+      1769,
+      2663
+     ],
+     [
+      1855,
+      2219
+     ],
+     [
+      1897,
+      1731
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "kabara-road",
+    "blurb": "The 8 km track to Kabara, Timbuktu's port on the Niger, where boats from Djenné and Gao unloaded grain, gold, kola and slaves. Donkeys and porters carried everything up; Tuareg raiders made the stretch through the dunes notorious.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Track to the river",
+    "path": [
+     [
+      1599,
+      3661
+     ],
+     [
+      1673,
+      3218
+     ],
+     [
+      1769,
+      2663
+     ],
+     [
+      1833,
+      2108
+     ],
+     [
+      1855,
+      1609
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "kabara-track",
+    "blurb": "A herders' track from the well down to the flood plain and the river, where the Tuareg summered with their herds.",
+    "periods": [
+     "founding-1100"
+    ]
+   },
+   {
+    "name": "The street of the market",
+    "path": [
+     [
+      1897,
+      1731
+     ],
+     [
+      1908,
+      1442
+     ],
+     [
+      1919,
+      1087
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "great-street",
+    "blurb": "The town's spine from the market north past the Sidi Yahya quarter to Abaradjou, where the Saharan caravans unloaded: the Kabara road and the caravan road meeting in the middle of town.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Caravan road to Arawan and Taoudenni",
+    "path": [
+     [
+      1919,
+      1087
+     ],
+     [
+      1940,
+      666
+     ],
+     [
+      1972,
+      333
+     ],
+     [
+      2004,
+      0
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "arawan-road",
+    "blurb": "The track north into the Sahara: 250 km to the wells of Arawan, then twenty days more to the salt mines of Taghaza (until about 1585) and Taoudenni. The Azalai, the great salt caravan, came down it in winter.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Track to Arawan",
+    "path": [
+     [
+      1855,
+      1387
+     ],
+     [
+      1919,
+      666
+     ],
+     [
+      2004,
+      0
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "arawan-track",
+    "blurb": "The Tuareg herders' route north to the rainy-season pastures round Arawan.",
+    "periods": [
+     "founding-1100"
+    ]
+   },
+   {
+    "name": "Road west to Goundam",
+    "path": [
+     [
+      1897,
+      1731
+     ],
+     [
+      1599,
+      1731
+     ],
+     [
+      1172,
+      1731
+     ],
+     [
+      853,
+      1864
+     ],
+     [
+      426,
+      2108
+     ],
+     [
+      0,
+      2330
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "goundam-road",
+    "blurb": "West out of the Djinguereber quarter toward Goundam, the lakes and the Massina, skirting the western dunes.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Road east to Bamba and Gao",
+    "path": [
+     [
+      1897,
+      1731
+     ],
+     [
+      2238,
+      1731
+     ],
+     [
+      2558,
+      1753
+     ],
+     [
+      2984,
+      1842
+     ],
+     [
+      3944,
+      2053
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "gao-road",
+    "blurb": "East along the river toward Bamba and Gao, the Songhai capital, 400 km away: the road of the Askias' governors and messengers.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Lane to Sankore",
+    "path": [
+     [
+      1908,
+      1398
+     ],
+     [
+      2046,
+      1376
+     ],
+     [
+      2260,
+      1398
+     ],
+     [
+      2451,
+      1442
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "sankore-lane",
+    "blurb": "The lane from the market street to the Sankore mosque and the scholars' houses of the northern quarter.",
+    "periods": [
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Lane of the Djinguereber",
+    "path": [
+     [
+      1599,
+      1731
+     ],
+     [
+      1599,
+      1864
+     ],
+     [
+      1652,
+      1931
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "djinguereber-lane",
+    "blurb": "The lane from the west road down to the great mosque's north door, crowded on Fridays.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Lane of Badjindé",
+    "path": [
+     [
+      2238,
+      1731
+     ],
+     [
+      2366,
+      1942
+     ],
+     [
+      2430,
+      2164
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "badjinde-lane",
+    "blurb": "Down from the east road into Badjindé and Bella Farandja.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "name": "Lane to the Kasbah",
+    "path": [
+     [
+      1855,
+      2219
+     ],
+     [
+      1599,
+      2241
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "kasbah-lane",
+    "blurb": "From the Kabara road to the gate of the Moroccans' kasbah.",
+    "periods": [
+     "pashalik-1700"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1791,
+      1575
+     ],
+     [
+      1791,
+      1420
+     ],
+     [
+      2025,
+      1420
+     ],
+     [
+      2025,
+      1575
+     ]
+    ],
+    "density": "loose",
+    "name": "Huts round the well",
+    "periods": [
+     "founding-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1919,
+      1720
+     ],
+     [
+      1919,
+      1598
+     ],
+     [
+      2132,
+      1598
+     ],
+     [
+      2132,
+      1720
+     ]
+    ],
+    "density": "loose",
+    "name": "Stores of the herders",
+    "periods": [
+     "founding-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1194,
+      2130
+     ],
+     [
+      1194,
+      1775
+     ],
+     [
+      1833,
+      1775
+     ],
+     [
+      1833,
+      2108
+     ]
+    ],
+    "density": "dense",
+    "name": "Djinguereber",
+    "periods": [
+     "mali-1340"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1950,
+      1931
+     ],
+     [
+      1950,
+      1764
+     ],
+     [
+      2302,
+      1764
+     ],
+     [
+      2302,
+      1931
+     ]
+    ],
+    "density": "dense",
+    "name": "Round the market",
+    "periods": [
+     "mali-1340"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1940,
+      2219
+     ],
+     [
+      1940,
+      1975
+     ],
+     [
+      2132,
+      1975
+     ],
+     [
+      2004,
+      2219
+     ]
+    ],
+    "density": "loose",
+    "name": "Badjindé",
+    "periods": [
+     "mali-1340"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1439,
+      1675
+     ],
+     [
+      1439,
+      1354
+     ],
+     [
+      1855,
+      1354
+     ],
+     [
+      1855,
+      1675
+     ]
+    ],
+    "density": "loose",
+    "name": "Sareikeina",
+    "periods": [
+     "mali-1340"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1961,
+      1675
+     ],
+     [
+      1961,
+      1198
+     ],
+     [
+      2324,
+      1198
+     ],
+     [
+      2324,
+      1675
+     ]
+    ],
+    "density": "loose",
+    "name": "Sankoré",
+    "periods": [
+     "mali-1340"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1130,
+      2175
+     ],
+     [
+      1130,
+      1775
+     ],
+     [
+      1833,
+      1775
+     ],
+     [
+      1833,
+      2152
+     ]
+    ],
+    "density": "dense",
+    "name": "Djinguereber",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1950,
+      1975
+     ],
+     [
+      1950,
+      1764
+     ],
+     [
+      2387,
+      1764
+     ],
+     [
+      2387,
+      1931
+     ]
+    ],
+    "density": "dense",
+    "name": "Badjindé",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1940,
+      2219
+     ],
+     [
+      1940,
+      1975
+     ],
+     [
+      2089,
+      1975
+     ],
+     [
+      1961,
+      2219
+     ]
+    ],
+    "density": "dense",
+    "name": "Badjindé south",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1300,
+      1675
+     ],
+     [
+      1300,
+      1220
+     ],
+     [
+      1855,
+      1220
+     ],
+     [
+      1855,
+      1675
+     ]
+    ],
+    "density": "dense",
+    "name": "Sareikeina",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1961,
+      1675
+     ],
+     [
+      1961,
+      1110
+     ],
+     [
+      2430,
+      1110
+     ],
+     [
+      2430,
+      1675
+     ]
+    ],
+    "density": "dense",
+    "name": "Sankoré",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2132,
+      2330
+     ],
+     [
+      2281,
+      1975
+     ],
+     [
+      2451,
+      1764
+     ],
+     [
+      2665,
+      1764
+     ],
+     [
+      2579,
+      2219
+     ]
+    ],
+    "density": "loose",
+    "name": "Bella Farandja",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1386,
+      1054
+     ],
+     [
+      1386,
+      832
+     ],
+     [
+      1855,
+      832
+     ],
+     [
+      1855,
+      1054
+     ]
+    ],
+    "density": "loose",
+    "name": "Abaradjou",
+    "periods": [
+     "songhai-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1066,
+      2219
+     ],
+     [
+      1066,
+      1775
+     ],
+     [
+      1833,
+      1775
+     ],
+     [
+      1833,
+      2186
+     ]
+    ],
+    "density": "dense",
+    "name": "Djinguereber",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1950,
+      2130
+     ],
+     [
+      1950,
+      1764
+     ],
+     [
+      2409,
+      1764
+     ],
+     [
+      2366,
+      2130
+     ]
+    ],
+    "density": "dense",
+    "name": "Badjindé",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1119,
+      1675
+     ],
+     [
+      1119,
+      1110
+     ],
+     [
+      1855,
+      1110
+     ],
+     [
+      1855,
+      1675
+     ]
+    ],
+    "density": "dense",
+    "name": "Sareikeina",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1961,
+      1675
+     ],
+     [
+      1961,
+      1021
+     ],
+     [
+      2515,
+      1021
+     ],
+     [
+      2515,
+      1675
+     ]
+    ],
+    "density": "dense",
+    "name": "Sankoré",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1940,
+      2374
+     ],
+     [
+      1940,
+      2164
+     ],
+     [
+      2430,
+      2141
+     ],
+     [
+      2473,
+      1764
+     ],
+     [
+      2793,
+      1764
+     ],
+     [
+      2718,
+      2330
+     ]
+    ],
+    "density": "loose",
+    "name": "Bella Farandja",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1172,
+      1032
+     ],
+     [
+      1172,
+      721
+     ],
+     [
+      1855,
+      721
+     ],
+     [
+      1855,
+      1032
+     ]
+    ],
+    "density": "loose",
+    "name": "Abaradjou",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2579,
+      1675
+     ],
+     [
+      2579,
+      1054
+     ],
+     [
+      2856,
+      1110
+     ],
+     [
+      2856,
+      1609
+     ]
+    ],
+    "density": "loose",
+    "name": "Huts beyond Sankoré",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      725,
+      2108
+     ],
+     [
+      853,
+      1797
+     ],
+     [
+      1013,
+      1797
+     ],
+     [
+      1013,
+      2197
+     ]
+    ],
+    "density": "loose",
+    "name": "Western huts",
+    "periods": [
+     "askia-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1108,
+      2186
+     ],
+     [
+      1108,
+      1775
+     ],
+     [
+      1833,
+      1775
+     ],
+     [
+      1833,
+      2164
+     ]
+    ],
+    "density": "dense",
+    "name": "Djinguereber",
+    "periods": [
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1950,
+      2130
+     ],
+     [
+      1950,
+      1764
+     ],
+     [
+      2387,
+      1764
+     ],
+     [
+      2345,
+      2130
+     ]
+    ],
+    "density": "dense",
+    "name": "Badjindé",
+    "periods": [
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1300,
+      1675
+     ],
+     [
+      1300,
+      1198
+     ],
+     [
+      1855,
+      1198
+     ],
+     [
+      1855,
+      1675
+     ]
+    ],
+    "density": "dense",
+    "name": "Sareikeina",
+    "periods": [
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1151,
+      1675
+     ],
+     [
+      1151,
+      1132
+     ],
+     [
+      1268,
+      1132
+     ],
+     [
+      1268,
+      1675
+     ]
+    ],
+    "density": "loose",
+    "name": "Sareikeina, the sanded edge",
+    "periods": [
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1961,
+      1675
+     ],
+     [
+      1961,
+      1087
+     ],
+     [
+      2473,
+      1087
+     ],
+     [
+      2473,
+      1675
+     ]
+    ],
+    "density": "dense",
+    "name": "Sankoré",
+    "periods": [
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2132,
+      2197
+     ],
+     [
+      2409,
+      2141
+     ],
+     [
+      2451,
+      1764
+     ],
+     [
+      2750,
+      1764
+     ],
+     [
+      2665,
+      2241
+     ]
+    ],
+    "density": "loose",
+    "name": "Bella Farandja",
+    "periods": [
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1364,
+      1032
+     ],
+     [
+      1364,
+      799
+     ],
+     [
+      1855,
+      799
+     ],
+     [
+      1855,
+      1032
+     ]
+    ],
+    "density": "loose",
+    "name": "Abaradjou",
+    "periods": [
+     "pashalik-1700"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      1045,
+      2663
+     ],
+     [
+      1087,
+      2463
+     ],
+     [
+      1300,
+      2463
+     ],
+     [
+      1300,
+      2685
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens by the pool",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      213,
+      3129
+     ],
+     [
+      746,
+      3018
+     ],
+     [
+      959,
+      3218
+     ],
+     [
+      853,
+      3495
+     ],
+     [
+      266,
+      3550
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Flood fields (bourgou and rice)",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      21,
+      2973
+     ],
+     [
+      640,
+      2907
+     ],
+     [
+      1172,
+      3018
+     ],
+     [
+      1919,
+      3173
+     ],
+     [
+      2665,
+      3218
+     ],
+     [
+      3304,
+      3329
+     ],
+     [
+      3890,
+      3495
+     ],
+     [
+      3922,
+      3661
+     ],
+     [
+      21,
+      3661
+     ]
+    ],
+    "name": "The flood plain toward Kabara"
+   }
+  ],
+  "districts": [
+   {
+    "id": "djinguereber-quarter",
+    "name": "Djinguereber",
+    "polygon": [
+     [
+      1013,
+      2241
+     ],
+     [
+      1013,
+      1764
+     ],
+     [
+      1833,
+      1764
+     ],
+     [
+      1833,
+      2219
+     ]
+    ],
+    "description": "The south-western quarter round the great mosque, the oldest part of the walled-in town; in Mali's time the seat of the governors, after 1591 the quarter of the Moroccan Arma round their kasbah. Boundaries approximate.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "id": "sareikeina",
+    "name": "Sareikeina",
+    "polygon": [
+     [
+      1066,
+      1686
+     ],
+     [
+      1066,
+      1087
+     ],
+     [
+      1855,
+      1087
+     ],
+     [
+      1855,
+      1686
+     ]
+    ],
+    "description": "The western and central quarter behind the Sidi Yahya mosque, of merchants' and scholars' houses. The names and limits of Timbuktu's quarters shifted over time; this layout follows the usual modern one.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "id": "sankore-quarter",
+    "name": "Sankoré",
+    "polygon": [
+     [
+      1950,
+      1686
+     ],
+     [
+      1950,
+      999
+     ],
+     [
+      2537,
+      999
+     ],
+     [
+      2537,
+      1686
+     ]
+    ],
+    "description": "The northern quarter of the Sankore mosque, home of the great scholarly families (the Aqit among them) and of the Saharan merchants nearest the caravan ground.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "id": "badjinde",
+    "name": "Badjindé",
+    "polygon": [
+     [
+      1940,
+      2164
+     ],
+     [
+      1940,
+      1753
+     ],
+     [
+      2430,
+      1753
+     ],
+     [
+      2387,
+      2141
+     ]
+    ],
+    "description": "The low middle of the town round the market, named, it is usually said, after the pool the flood filled here.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "id": "bella-farandja",
+    "name": "Bella Farandja",
+    "polygon": [
+     [
+      1919,
+      2397
+     ],
+     [
+      1919,
+      2164
+     ],
+     [
+      2430,
+      2141
+     ],
+     [
+      2494,
+      1753
+     ],
+     [
+      2824,
+      1753
+     ],
+     [
+      2739,
+      2352
+     ]
+    ],
+    "description": "The south-eastern edge of straw and mat huts, long associated with the Bella, the servile dependants of the Tuareg, and with newcomers from the river.",
+    "periods": [
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "id": "abaradjou",
+    "name": "Abaradjou",
+    "polygon": [
+     [
+      1172,
+      1043
+     ],
+     [
+      1172,
+      666
+     ],
+     [
+      2558,
+      666
+     ],
+     [
+      2558,
+      1043
+     ]
+    ],
+    "description": "The northern edge where the Saharan caravans arrived: camel grounds, salt stores and the camps of the Tuareg and Arab caravan men.",
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Tin Buktu",
+    "position": [
+     1545,
+     1198
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "founding-1100"
+    ]
+   },
+   {
+    "text": "Tunbuktu",
+    "position": [
+     693,
+     777
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "Sahra",
+    "position": [
+     1386,
+     166
+    ],
+    "size": "lg",
+    "rotation": 0
+   },
+   {
+    "text": "Djinguereber",
+    "position": [
+     1194,
+     2164
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "Sareikeina",
+    "position": [
+     1492,
+     1165
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "Sankoré",
+    "position": [
+     2345,
+     1076
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "Badjindé",
+    "position": [
+     2324,
+     1908
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "Bella Farandja",
+    "position": [
+     2537,
+     2286
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "Abaradjou",
+    "position": [
+     1545,
+     754
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "mali-1340",
+     "songhai-1450",
+     "askia-1550",
+     "pashalik-1700"
+    ]
+   },
+   {
+    "text": "to Kabara and the Niger",
+    "position": [
+     2025,
+     3462
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "to Arawan and Taoudenni",
+    "position": [
+     2292,
+     133
+    ],
+    "size": "sm",
+    "rotation": -80
+   },
+   {
+    "text": "to Gao",
+    "position": [
+     3677,
+     1975
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "to Goundam",
+    "position": [
+     160,
+     2130
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "flood plain",
+    "position": [
+     586,
+     3329
+    ],
+    "size": "sm",
+    "rotation": 0
+   }
+  ],
+  "palette": {
+   "parchment": "#ECD9AE",
+   "ink": "#6E4A2E",
+   "water": "#6A8C86",
+   "hill": "#B79A66",
+   "road": "#8E6B46"
+  },
+  "compass": [
+   3571,
+   333
+  ],
+  "cartouche": [
+   107,
+   3573
+  ]
+ },
+ "periods": [
+  {
+   "id": "founding-1100",
+   "label": "The well of Buktu",
+   "year": 1100,
+   "startYear": 1000,
+   "endYear": 1323,
+   "summary": "According to the 17th-century Ta'rikh al-Sudan, Tuareg herders summered by the Niger and camped here, on the dunes above the flood, round a well kept by an old woman named Buktu: 'Tin Buktu', the place of Buktu. The story is a tradition; archaeology shows older settlement nearby. Leather tents, mat huts and stores of grain and salt.",
+   "population": "a seasonal camp of a few hundred, perhaps",
+   "feel": "Camels grunting at the well at dawn, smoke of thornwood fires, women pounding millet, wind hissing over the dunes.",
+   "style": "sahel",
+   "houses": {
+    "title": "Tents and mat huts by the well",
+    "text": "Tuareg tents of tanned goatskin on wooden poles, and domed huts of mats and straw over bent sticks. Goods left in store while the herders moved north to the rains: grain, salt, hides."
+   },
+   "outskirts": {
+    "title": "Dunes and thorn scrub",
+    "text": "Fixed dunes held by acacia and cram-cram grass, grazing for goats and camels; to the south the plain the Niger floods each winter."
+   }
+  },
+  {
+   "id": "mali-1340",
+   "label": "Timbuktu of Mali",
+   "year": 1340,
+   "startYear": 1324,
+   "endYear": 1432,
+   "summary": "Timbuktu passes to the empire of Mali around Mansa Musa's return from his pilgrimage of 1324–25. Tradition credits the Andalusian poet Abu Ishaq al-Sahili with the Djinguereber mosque and a royal palace, the Madugu. Salt from the Sahara and gold from the south meet here; merchants from Walata move in. Banco houses, mat huts, the market.",
+   "population": "perhaps 10,000 (no figures survive)",
+   "feel": "Caravans unloading salt slabs in the north, the Friday crowd at the new mosque, Mande, Songhay and Berber spoken in one market.",
+   "style": "sahel",
+   "houses": {
+    "title": "Banco houses round yards",
+    "text": "Single-storey houses of banco (sun-dried mud brick) and soft local limestone, flat roofs of palm-rib beams and mats under a layer of earth, a yard behind a plain wall with one door."
+   },
+   "outskirts": {
+    "title": "Huts on the sand",
+    "text": "Round the edges, domed mat huts of the herders and servants, goat pens of thorn branches, wells in the hollows between dunes."
+   }
+  },
+  {
+   "id": "songhai-1450",
+   "label": "City of scholars",
+   "year": 1450,
+   "startYear": 1433,
+   "endYear": 1492,
+   "summary": "Mali's hold has failed: in 1433 the Tuareg chief Akil takes the town and leaves it to its own qadis and the Timbuktu-koi, its governor, until Sonni Ali of Songhai storms it in 1468. Scholars teach at Sankore and in their houses; the Sidi Yahya mosque is built in the 1440s; copyists, booksellers and paper from the north feed the manuscript trade.",
+   "population": "perhaps 25,000 (estimates vary widely)",
+   "feel": "Boys chanting the Qur'an from wooden boards, the scratch of reed pens in a scholar's vestibule, salt and gold weighed in the market.",
+   "style": "sahel",
+   "houses": {
+    "title": "Houses of scholars and merchants",
+    "text": "Banco houses of one and two storeys round courts, the upper rooms reached by a stair from the vestibule where the master taught. Facades plastered smooth, with pilasters, drain spouts and a single wooden door."
+   },
+   "outskirts": {
+    "title": "Bella and herders' huts",
+    "text": "Domed huts of straw mats over bent poles, the homes of the Bella, servile dependants of the Tuareg, and of Fulani and Tuareg herders; pens and wells among the dunes."
+   }
+  },
+  {
+   "id": "askia-1550",
+   "label": "Timbuktu of the Askias",
+   "year": 1550,
+   "startYear": 1493,
+   "endYear": 1590,
+   "summary": "Under the Askia dynasty of Songhai, ruling from Gao, Timbuktu is the empire's city of learning and trade, run by qadis of the Aqit family. Leo Africanus, here around 1510, saw a rich town of scholars and judges where books sold for more than any other goods. Ahmed Baba is born in 1556; the qadi al-Aqib rebuilds the great mosques from 1569.",
+   "population": "perhaps 50,000–80,000 at its height (estimates vary widely)",
+   "feel": "Students from all over West Africa in the mosque courts, gold dust on the scales, the Azalai's camels kneeling in the north, drums on feast days.",
+   "style": "sahel",
+   "houses": {
+    "title": "Two-storey banco houses",
+    "text": "Courtyard houses of banco and limestone, many of two storeys, with carved wooden doors studded with iron; Leo Africanus also saw huts of clay-plastered wattle under thatch, so straw and mud stood side by side."
+   },
+   "outskirts": {
+    "title": "Straw huts on the edges",
+    "text": "Rings of mat-and-straw huts of the Bella, herders and the poor, camel camps of the caravan men in the north, gardens and pools to the south-west."
+   }
+  },
+  {
+   "id": "pashalik-1700",
+   "label": "The Pashalik",
+   "year": 1700,
+   "startYear": 1591,
+   "endYear": 1800,
+   "summary": "After Morocco's army defeated Songhai at Tondibi in 1591, Timbuktu is ruled by pashas chosen by the soldiers (the Arma) from a kasbah in the town. Ahmed Baba is exiled to Marrakesh in 1594. The Arma marry into the town and become a local caste; trade shifts to the Atlantic coast, Tuareg raids worsen, and the town slowly declines.",
+   "population": "perhaps 25,000 (no reliable figures)",
+   "feel": "Arma musketeers at the kasbah gate, Moroccan-style windows over the lanes, sand drifting against empty houses on the edge of town.",
+   "style": "sahel",
+   "houses": {
+    "title": "Carved doors and Moroccan windows",
+    "text": "Two-storey banco houses whose fronts carry the Moroccan touch: carved wooden window frames with grilles on the upper floor and heavy doors decorated with iron studs and plates. Replastered each year after the rains."
+   },
+   "outskirts": {
+    "title": "Drifting sand and Bella huts",
+    "text": "Abandoned houses half-buried by sand on the edges, straw huts of the Bella and herders beyond them; the Tuareg camp close to the town again."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "djinguereber",
+   "placeId": "djinguereber",
+   "name": "Djinguereber mosque",
+   "category": "religious",
+   "position": [
+    1492,
+    2019
+   ],
+   "rotation": -100,
+   "footprint": [
+    82.3,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/djinguereber.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 82,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "Sand and thorn scrub on the south-western edge of the camp, a little above the flood plain. The great mosque would rise here two centuries later."
+    },
+    "mali-1340": {
+     "note": "As first built for Mansa Musa, traditionally by al-Sahili around 1327: a hall of earth pillars facing Mecca, a small court and a tower minaret. Its original form is known only from later texts.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/timbuktu/djinguereber-1340.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 82,
+       "depth": 70,
+       "height": 28.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "songhai-1450": {
+     "note": "Timbuktu's Friday mosque, the 'great mosque' (Songhay jingar-ber), grown with new bays and a larger court; the town's imams were chosen from the scholarly families, not by the Tuareg overlords."
+    },
+    "askia-1550": {
+     "note": "Under the Askias the Friday prayer here gathers thousands. From 1570 the qadi al-Aqib would rebuild and enlarge it, adding the southern part and a wall round the cemetery to the west."
+    },
+    "pashalik-1700": {
+     "note": "Al-Aqib's enlarged mosque, now in the quarter of the Moroccan Arma, replastered every year after the rains; three courts, two minarets and rows of earth pillars.",
+     "model": {
+      "glb": "models/timbuktu/djinguereber-1700.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 82,
+       "depth": 70,
+       "height": 28.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Timbuktu's great Friday mosque, founded after Mansa Musa's pilgrimage of 1324–25 and traditionally the work of the Andalusian poet-architect Abu Ishaq al-Sahili: earth, limestone and palm-wood toron beams.",
+   "details": [
+    "The mosque is built of banco (earth mixed with straw) and alhor, the soft local limestone, with roofs of split palm-trunk beams under earth. Its walls are stiffened by pilasters and studded with toron, palm-wood stakes that serve as permanent scaffolding for the annual replastering. Al-Aqib rebuilt and enlarged it in 1570–83; the plan holds three courts, two minarets and long rows of pillars.",
+    "The miniature shows the prayer hall's low arcades on rows of earth pillars, the conical mihrab buttress on the qibla wall, the tapering minaret bristling with toron, and the courts. Its size, the minaret's place and the 1340 form are simplified or reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-djinguereber",
+    "wiki-al-sahili",
+    "sadi-tarikh",
+    "prussin-hatumere",
+    "unesco-timbuktu"
+   ],
+   "built": "c. 1327; rebuilt and enlarged 1570–83; restored many times",
+   "function": "Friday mosque",
+   "activity": {
+    "figures": 60,
+    "radius": 160
+   }
+  },
+  {
+   "id": "sankore",
+   "placeId": "sankore",
+   "name": "Sankore mosque",
+   "category": "religious",
+   "position": [
+    2174,
+    1309
+   ],
+   "rotation": -100,
+   "footprint": [
+    56.7,
+    50.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/sankore.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 56,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "mali-1340": {
+     "note": "Houses and sand where the Sankore mosque will stand. Its foundation date is unknown: tradition credits a wealthy woman, and some accounts place it as early as Mali's time."
+    },
+    "songhai-1450": {
+     "note": "The mosque of the northern quarter and its scholars, many of them Sanhaja Berbers from the Sahara; students gather round masters in its court and in the houses nearby."
+    },
+    "askia-1550": {
+     "note": "The heart of Timbuktu's learning in the age of the Askias. The 'university of Sankore' was no single institution but a circle of independent teachers, each with his own students and books."
+    },
+    "pashalik-1700": {
+     "note": "As rebuilt by the qadi al-Aqib in 1578–82, who, it is said, laid out the court to the Kaaba's measurements taken on pilgrimage. Many of its scholars were deported to Marrakesh in 1593–94.",
+     "model": {
+      "glb": "models/timbuktu/sankore-1700.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 56,
+       "depth": 50,
+       "height": 20.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The mosque of the northern quarter, centre of Timbuktu's scholars, with its stepped pyramidal minaret bristling with toron beams over a small court.",
+   "details": [
+    "Sankore's beginnings are uncertain: tradition says a rich woman paid for it, perhaps in the 14th or 15th century. The qadi al-Aqib rebuilt it in 1578–82; the story that he laid out the inner court to the dimensions of the Kaaba is told by later writers. Scholars taught law, grammar, theology and astronomy in and around it.",
+    "The miniature shows the stepped, tapering pyramid of the minaret with its toron, the banco hall with rounded buttresses, and the court. Proportions are simplified; the pre-1578 form is a reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sankore",
+    "sadi-tarikh",
+    "saad-timbuktu",
+    "prussin-hatumere"
+   ],
+   "built": "14th or 15th century; rebuilt 1578–82",
+   "function": "Mosque and centre of learning",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "sidi-yahya",
+   "placeId": "sidi-yahya",
+   "name": "Sidi Yahya mosque",
+   "category": "religious",
+   "position": [
+    1769,
+    1609
+   ],
+   "rotation": -100,
+   "footprint": [
+    42.0,
+    36.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/sidi-yahya.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 42,
+     "depth": 36,
+     "height": 14.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "mali-1340": {
+     "note": "Open ground in the middle of the town, between the market and the northern houses. A mosque would be built here in the 1440s."
+    },
+    "songhai-1450": {
+     "note": "New: built in the 1440s, it is said by the sheikh al-Mukhtar Hamallah, for a holy man still to come. The scholar Sidi Yahya al-Tadallisi became its imam and was buried here in 1464."
+    },
+    "askia-1550": {
+     "note": "A place of pilgrimage round Sidi Yahya's tomb as well as a mosque of the middle quarter; restored by the qadi al-Aqib in 1577–78."
+    },
+    "pashalik-1700": {
+     "note": "One of the three great mosques of the town, its saint's tomb visited for blessing; the carved wooden door on its facade was said never to be opened."
+    }
+   },
+   "summary": "The third of Timbuktu's great mosques, in the middle of the town, built in the 1440s and named after the scholar and saint Sidi Yahya al-Tadallisi, its first imam (d. 1464).",
+   "details": [
+    "Tradition says the sheikh al-Mukhtar Hamallah built the mosque and waited for a worthy imam, who came in Sidi Yahya. Sidi Yahya, honoured by the Tuareg ruler Akil and by the town, became one of its saints; his tomb is inside. Al-Aqib restored the mosque in 1577–78.",
+    "The miniature shows a compact banco mosque with a squat minaret over the entrance, buttressed walls with toron and a small court. The details of its 15th-century form are not known."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sidi-yahya",
+    "sadi-tarikh",
+    "saad-timbuktu"
+   ],
+   "built": "1440s; restored 1577–78",
+   "function": "Mosque and saint's tomb",
+   "activity": {
+    "figures": 25,
+    "radius": 80
+   }
+  },
+  {
+   "id": "madugu",
+   "placeId": "madugu",
+   "name": "The Madugu, palace of Mansa Musa",
+   "category": "civic",
+   "position": [
+    1705,
+    1953
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    51.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/madugu.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "Bare ground near the camp; the palace of the Mali kings would be built here, or nearby, in the 1320s."
+    },
+    "mali-1340": {
+     "note": "The royal residence Mansa Musa had built on his way home from Mecca, according to al-Sa'di: the seat of Mali's governor, the farba, and his soldiers.",
+     "confidence": "interpretation"
+    },
+    "songhai-1450": {
+     "note": "After 1433 the Mali governors are gone; the palace stands empty or serves the Tuareg chief's men. Its later fate is unknown.",
+     "confidence": "interpretation"
+    },
+    "askia-1550": {
+     "note": "Leo Africanus, c. 1510, saw a royal palace built by the same Granadan master as the great mosque, probably this one, used by the Askia's officers when the king visited.",
+     "confidence": "interpretation"
+    },
+    "pashalik-1700": {
+     "note": "No trace of the Madugu is recorded under the pashas; houses of the Djinguereber quarter and the Moroccans' kasbah have taken its place."
+    }
+   },
+   "summary": "The royal palace, called the Madugu, that al-Sa'di says Mansa Musa built in Timbuktu. Its site is not known; the position next to the Djinguereber is a guess.",
+   "details": [
+    "Al-Sa'di names the Madugu as the palace of the sultan of Mali in Timbuktu, and Ibn Khaldun tells of the audience hall al-Sahili built for Musa, plastered and decorated (in Mali's capital, not here). Nothing survives; local tradition places the Madugu in the Djinguereber quarter.",
+    "The miniature imagines a walled banco compound: a two-storey audience house with buttresses and toron, a court for guards and horses, and store rooms. All of it is interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "sadi-tarikh",
+    "wiki-mansa-musa",
+    "wiki-al-sahili",
+    "hunwick-songhay"
+   ],
+   "built": "c. 1325–1330 (tradition)",
+   "function": "Royal residence of the Mali governors",
+   "activity": {
+    "figures": 20,
+    "radius": 90
+   }
+  },
+  {
+   "id": "kasbah",
+   "placeId": "qasaba",
+   "name": "Kasbah of the Moroccans",
+   "category": "military",
+   "position": [
+    1439,
+    2308
+   ],
+   "rotation": 0,
+   "footprint": [
+    130.4,
+    110.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/kasbah.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 130,
+     "depth": 110,
+     "wallHeight": 22.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pashalik-1700"
+   ],
+   "variants": {
+    "askia-1550": {
+     "note": "Houses and sand on the southern edge of the Djinguereber quarter. After 1591 the Moroccan army would build its fortress here."
+    },
+    "pashalik-1700": {
+     "note": "The pashas' fortress and the barracks of the Arma, built soon after the conquest of 1591: banco walls with towers, the pasha's house, stores and a mosque. Its exact site and trace are uncertain.",
+     "confidence": "reconstruction"
+    }
+   },
+   "summary": "The fortress (qasaba) built by the Moroccan army after it took Timbuktu in 1591, seat of the pashas and their musketeers, the Arma, for two centuries.",
+   "details": [
+    "Judar Pasha's army crossed the Sahara and defeated Songhai at Tondibi in March 1591. In Timbuktu the Moroccans built a kasbah on the town's southern side, among the houses of the Djinguereber quarter, from which they ruled and collected tribute; the pashas were later chosen by the soldiers themselves.",
+    "The miniature shows a rectangular banco enclosure with square towers and a gate, the pasha's two-storey house, barracks, a small mosque and a parade yard. Its plan is a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-pashalik",
+    "wiki-arma",
+    "sadi-tarikh",
+    "hunwick-songhay"
+   ],
+   "built": "1591–92",
+   "function": "Fortress and seat of the pashas",
+   "activity": {
+    "figures": 30,
+    "radius": 130
+   }
+  },
+  {
+   "id": "great-market",
+   "placeId": "yobu-ber",
+   "name": "The great market",
+   "category": "commercial",
+   "position": [
+    2089,
+    1842
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/great-market.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 90,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -22.5,
+        -17.5
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        22.5,
+        14.0
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "A hollow below the camp where herders traded milk and hides for grain with the river people."
+    },
+    "mali-1340": {
+     "note": "Salt from the Sahara for gold, kola and grain from the south: the market that made Timbuktu, run by merchants from Walata and the Maghreb."
+    },
+    "songhai-1450": {
+     "note": "Stalls of salt, cloth, copper, books and paper; gold dust weighed on small scales; the Timbuktu-koi's men take the market dues."
+    },
+    "askia-1550": {
+     "note": "At its height: Leo Africanus saw shops of craftsmen, merchants and weavers of cotton cloth, cloth from Europe sold here, and gold paid out by weight."
+    },
+    "pashalik-1700": {
+     "note": "Still the meeting place of salt and grain, but poorer: cowrie shells pass beside gold, and the Arma levy dues on every load."
+    }
+   },
+   "summary": "The town's main market (Songhay yobu) in the low middle of the town, where Saharan salt, North African cloth and books met gold, grain and kola from the south.",
+   "details": [
+    "Timbuktu lived by exchange between the camel and the canoe: salt slabs from Taghaza (later Taoudenni) came south, gold, ivory, grain and slaves came up from the Niger. Leo Africanus noted the cotton weavers, the merchants' shops and that the town used gold coin and cowrie shells for small purchases.",
+    "The miniature shows an open square of sand with rows of mat-roofed stalls on poles, banco shops round the edge, stacks of salt slabs and a well. The exact layout is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-timbuktu",
+    "leo-africanus",
+    "saad-timbuktu",
+    "mauny-tableau"
+   ],
+   "built": "from the 13th–14th century",
+   "function": "Market square",
+   "activity": {
+    "figures": 90,
+    "radius": 120
+   }
+  },
+  {
+   "id": "azalai-ground",
+   "placeId": "abaradjou",
+   "name": "Caravan ground of the Azalai",
+   "category": "commercial",
+   "position": [
+    2196,
+    888
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/azalai-ground.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 80,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.0,
+        -15.0
+       ],
+       "width": 24.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.0,
+        12.0
+       ],
+       "width": 24.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "The northern dunes where the herders' camels came down from the Arawan pastures."
+    },
+    "mali-1340": {
+     "note": "Caravans from Walata and Taghaza unload here: salt slabs lashed in pairs on each camel, copper, cloth and horses from the north."
+    },
+    "songhai-1450": {
+     "note": "The great winter caravans arrive from the salt mines of Taghaza, guarded and guided by Massufa and Tuareg caravan men."
+    },
+    "askia-1550": {
+     "note": "In 1557 Moroccan raiders struck Taghaza; the mines would move to Taoudenni by about 1585. Caravans of thousands of camels still kneel here every winter."
+    },
+    "pashalik-1700": {
+     "note": "The Azalai now comes from Taoudenni, about 700 km north, twenty days or more across the desert; the Arma tax every slab."
+    }
+   },
+   "summary": "The ground in Abaradjou, the northern edge of the town, where the salt caravans from the Sahara unloaded: kneeling camels, slabs of rock salt, and the caravan men's camps.",
+   "details": [
+    "Salt was cut in slabs at the desert mines of Taghaza and, from about 1585, Taoudenni, and carried south by caravans; the great winter caravan is known as the Azalai. A camel carried four slabs or so, each of 25–35 kg; in Timbuktu the slabs were sold on or shipped up the Niger to Djenné.",
+    "The miniature shows camels kneeling by stacked salt slabs, the caravan men's tents, a stone well and the walls of salt stores. Caravan sizes and the place of the ground are interpretations."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-azalai",
+    "wiki-taoudenni",
+    "leo-africanus",
+    "mauny-tableau"
+   ],
+   "built": "in use from the 13th century",
+   "function": "Caravan terminus and salt market",
+   "activity": {
+    "figures": 50,
+    "radius": 150
+   }
+  },
+  {
+   "id": "kabara-landing",
+   "placeId": "kabara-landing",
+   "name": "Landing of the Kabara channel",
+   "category": "commercial",
+   "position": [
+    1450,
+    3018
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/kabara-landing.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 70,
+      "depth": 50
+     },
+     "buildings": [
+      {
+       "offset": [
+        -17.5,
+        -12.5
+       ],
+       "width": 21.0,
+       "depth": 15.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        17.5,
+        10.0
+       ],
+       "width": 21.0,
+       "depth": 15.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "Herders water their animals in the seasonal creek; fishermen of the river (the Sorko) come up it in canoes."
+    },
+    "mali-1340": {
+     "note": "In flood months canoes from Kabara come up the channel to this landing; the rest of the year everything goes by donkey along the road."
+    },
+    "songhai-1450": {
+     "note": "Grain from Djenné and the inner delta comes up the channel: Timbuktu grew none of its own and starved when the river failed or the road was cut."
+    },
+    "askia-1550": {
+     "note": "The Askias' boats and the merchants' canoes unload millet, rice, kola and slaves; porters and donkeys carry them up the last two kilometres to the market."
+    },
+    "pashalik-1700": {
+     "note": "The channel is silting and often dry; most goods are landed at Kabara itself and carried up the road, which the Tuareg raid."
+    }
+   },
+   "summary": "The head of the seasonal channel toward Kabara, Timbuktu's port on the Niger 8 km to the south, where canoes unloaded in flood time beside reed huts of boatmen and porters.",
+   "details": [
+    "Timbuktu stood on the desert edge, not the river; its port was Kabara, from where boats sailed to Djenné and Gao. In the months of high water a creek brought canoes close to the town. Leo Africanus described Kabara as a sizeable town of the river trade; the landing near the town is drawn here as an interpretation.",
+    "The miniature shows pirogues drawn up on the sand with their mat shelters, a boatmen's hut camp, sacks and pots of grain, and donkeys waiting for loads. The channel itself is drawn on the map."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kabara",
+    "leo-africanus",
+    "saad-timbuktu"
+   ],
+   "built": "in use from the 14th century",
+   "function": "River landing",
+   "activity": {
+    "figures": 30,
+    "radius": 110
+   }
+  },
+  {
+   "id": "merchant-house",
+   "placeId": "ghadamsi-house",
+   "name": "House of a Ghadames merchant",
+   "category": "commercial",
+   "position": [
+    2260,
+    1598
+   ],
+   "rotation": 0,
+   "footprint": [
+    25.5,
+    22.4
+   ],
+   "scale": 1.4,
+   "model": {
+    "glb": "models/timbuktu/merchant-house.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 24,
+      "depth": 22
+     },
+     "buildings": [
+      {
+       "offset": [
+        -6.0,
+        -5.5
+       ],
+       "width": 7.199999999999999,
+       "depth": 6.6,
+       "height": 8
+      },
+      {
+       "offset": [
+        6.0,
+        4.4
+       ],
+       "width": 7.199999999999999,
+       "depth": 6.6,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "songhai-1450": {
+     "note": "North African merchants are already settling in the Sankoré quarter, with agents in Ghadames, Tuat and Fez."
+    },
+    "askia-1550": {
+     "note": "A merchant of Ghadames trades cloth, paper, beads and copper for gold and slaves, with storerooms on the ground floor round the yard.",
+     "confidence": "interpretation"
+    },
+    "pashalik-1700": {
+     "note": "Under the pashas the front gains a carved window with a wooden grille in the Moroccan manner and an iron-studded door.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A two-storey banco house of the kind built by merchants from Ghadames and the Maghreb who settled in Timbuktu: a yard, storerooms, a carved door and an upper floor of living rooms.",
+   "details": [
+    "Merchants from Ghadames, Tuat, Tlemcen and Fez lived in Timbuktu for generations, linked by letters and credit to the north. Their houses, like the scholars', were of banco and limestone, of one or two storeys round an inner yard, with a vestibule (sifa) at the door.",
+    "The miniature shows a typical house: pilastered facade, drain spouts, a carved and studded door, a grilled upper window and a roof terrace with a parapet. It is a type, not a known house."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ghadames",
+    "saad-timbuktu",
+    "wiki-sudano-sahelian",
+    "prussin-hatumere"
+   ],
+   "built": "16th century (type)",
+   "function": "Merchant's house and storerooms",
+   "activity": {
+    "figures": 8,
+    "radius": 40
+   }
+  },
+  {
+   "id": "aqit-house",
+   "placeId": "aqit-house",
+   "name": "House of the Aqit family (Ahmed Baba)",
+   "category": "civic",
+   "position": [
+    2046,
+    1476
+   ],
+   "rotation": 0,
+   "footprint": [
+    27.5,
+    22.4
+   ],
+   "scale": 1.4,
+   "model": {
+    "glb": "models/timbuktu/aqit-house.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 26,
+     "depth": 22,
+     "height": 8.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "songhai-1450": {
+     "note": "The Aqit, a scholarly family of Sanhaja Berbers, have come to Timbuktu from Masina; their descendants will hold the office of qadi for a century."
+    },
+    "askia-1550": {
+     "note": "A house of the Aqit family, qadis of Timbuktu: the master teaches in the vestibule, books are kept in chests upstairs. Ahmed Baba is born into the family in 1556.",
+     "confidence": "interpretation"
+    },
+    "pashalik-1700": {
+     "note": "The Aqit scholars were arrested by the Moroccans in 1593, their libraries plundered. Ahmed Baba, who said he lost 1,600 books, came home from Marrakesh in 1608.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A scholar's house-library of the Aqit family, the line of qadis to which Ahmed Baba (1556–1627) belonged. The house shown is a type; which house was theirs is uncertain.",
+   "details": [
+    "Timbuktu's learning lived in houses: a master taught in his entrance hall and kept his books in chests and on shelves upstairs. The Aqit held the post of qadi from the 1490s; Ahmed Baba wrote that his library of 1,600 volumes was the smallest of any of his kin. Many such family libraries survived into modern times.",
+    "The miniature shows a two-storey banco house with a buttressed facade, a carved door into the teaching vestibule, a library room above, and the court. Its position near Sankore is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ahmed-baba",
+    "wiki-timbuktu-manuscripts",
+    "saad-timbuktu",
+    "hunwick-songhay"
+   ],
+   "built": "16th century (type)",
+   "function": "Scholar's house and library",
+   "activity": {
+    "figures": 12,
+    "radius": 40
+   }
+  },
+  {
+   "id": "saints-cemetery",
+   "placeId": "sidi-mahmud-cemetery",
+   "name": "Cemetery of Sidi Mahmud",
+   "category": "religious",
+   "position": [
+    906,
+    999
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.3,
+    70.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/saints-cemetery.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 80,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "songhai-1450": {
+     "note": "Graves at the foot of the western dunes, marked with stones and pots; the saints of Timbuktu are already visited for blessing."
+    },
+    "askia-1550": {
+     "note": "The qadi Sidi Mahmud ibn Umar Aqit dies in 1548 and is buried here; his tomb becomes a shrine of the town, one of the 'three hundred and thirty-three saints'."
+    },
+    "pashalik-1700": {
+     "note": "Small domed mausolea of banco over the tombs of saints and scholars, replastered each year; pilgrims leave offerings and ask for rain and protection."
+    }
+   },
+   "summary": "The cemetery on the north-western edge of the town round the tomb of the qadi Sidi Mahmud (d. 1548), with small banco mausolea of the saints for whom Timbuktu was called the city of 333 saints.",
+   "details": [
+    "Timbuktu honours many saints, scholars and holy men, traditionally 333, buried in the mosques and in cemeteries round the town; their mausolea were believed to protect the town. Several, Sidi Mahmud's among them, were destroyed in 2012 and rebuilt by local masons in 2015.",
+    "The miniature shows a low enclosure of banco, small cubic and domed mausolea with corner pinnacles, grave markers and a thorn tree. The number and form of the tombs are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mausoleums",
+    "unesco-timbuktu",
+    "sadi-tarikh"
+   ],
+   "built": "from 1548 (Sidi Mahmud's tomb)",
+   "function": "Cemetery and saints' shrines",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "well-of-buktu",
+   "placeId": "well-of-buktu",
+   "name": "Well of Buktu",
+   "category": "monument",
+   "position": [
+    1663,
+    1487
+   ],
+   "rotation": 0,
+   "footprint": [
+    12.0,
+    12.0
+   ],
+   "scale": 2.5,
+   "model": {
+    "glb": "models/timbuktu/well-of-buktu.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 12,
+     "depth": 12,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "founding-1100",
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "The well round which, the Ta'rikh al-Sudan says, the Tuareg made their camp, leaving an old woman named Buktu to keep their goods: 'Tin Buktu', the place of Buktu."
+    },
+    "mali-1340": {
+     "note": "A well among the houses of the town that has grown round it, still drawn from with leather buckets."
+    },
+    "songhai-1450": {
+     "note": "One of many wells in the hollows of the town; the story of Buktu is already told."
+    },
+    "askia-1550": {
+     "note": "Leo Africanus noted the many wells of sweet water in Timbuktu."
+    },
+    "pashalik-1700": {
+     "note": "An old well in the middle of the town, its story written down by al-Sa'di around 1655."
+    }
+   },
+   "summary": "The well of the town's founding tradition, said to have been kept by an old woman named Buktu for the Tuareg who camped here. The well shown today is a tradition, not a proven site.",
+   "details": [
+    "Al-Sa'di's Ta'rikh al-Sudan tells that the Tuareg camped here in the dry season, around the end of the 5th century of the Hijra (c. 1100), and left a woman called Buktu to guard their goods; the name means 'the place of Buktu'. Other etymologies exist, and archaeology shows earlier settlement in the area.",
+    "The miniature shows a well head of banco and stones, a forked wooden frame for the rope and bucket, a trough for animals, and water jars. Its form is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "sadi-tarikh",
+    "hunwick-songhay",
+    "wiki-history-timbuktu"
+   ],
+   "built": "by c. 1100 (tradition)",
+   "function": "Well",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "tuareg-camp",
+   "placeId": "tuareg-camp",
+   "name": "Tuareg summer camp",
+   "category": "district",
+   "position": [
+    1652,
+    1331
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.4,
+    60.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/timbuktu/tuareg-camp.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 80,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.0,
+        -15.0
+       ],
+       "width": 24.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.0,
+        12.0
+       ],
+       "width": 24.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "founding-1100"
+   ],
+   "variants": {
+    "founding-1100": {
+     "note": "Tents of tanned goatskin, mat huts and thorn pens: the seasonal camp from which, according to tradition, the town grew.",
+     "confidence": "interpretation"
+    },
+    "mali-1340": {
+     "note": "The camp has become a town; Tuareg herders still pitch their tents on the dunes beyond the houses."
+    }
+   },
+   "summary": "The seasonal camp of Tuareg (Imaqsharan) herders above the Niger's flood plain, from which Timbuktu grew according to its own tradition.",
+   "details": [
+    "Tuareg pastoralists moved with their herds between the Niger's banks in the dry season and the Saharan pastures round Arawan in the rains. According to al-Sa'di, they made a camp here to store their goods; traders and settlers followed.",
+    "The miniature shows low goatskin tents on poles, domed mat huts, thorn-branch pens with goats, camels and a cooking fire. It is an interpretation based on later Tuareg camps."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-tuareg",
+    "sadi-tarikh",
+    "wiki-history-timbuktu"
+   ],
+   "built": "c. 1100 (tradition)",
+   "function": "Seasonal camp",
+   "activity": {
+    "figures": 25,
+    "radius": 100
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "herders-store",
+   "name": "The herders' store huts",
+   "kind": "house",
+   "position": [
+    2004,
+    1653
+   ],
+   "activePeriods": [
+    "founding-1100"
+   ],
+   "summary": "Mat huts and pits where, the tradition says, the Tuareg left grain, salt and baggage in the care of the woman Buktu while their herds went north for the rains.",
+   "details": [
+    "Al-Sa'di's story is about a store: the camp was where the nomads kept what they could not carry. Later Timbuktu kept that role, as a warehouse between the desert and the river. The store huts drawn here are an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "sadi-tarikh",
+    "wiki-history-timbuktu"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "An old woman unties the door mat of a store hut and counts the sacks of millet with a stick: each herding family's share is marked with a different knot."
+    },
+    {
+     "hour": 13,
+     "text": "Heat shimmers over the sand. Inside the dark hut it is cool and smells of grain, dust and salt; a lizard runs across the leather bags."
+    },
+    {
+     "hour": 20,
+     "text": "A fire of thornwood by the huts, a pot of millet porridge, and a herder's boy watching for jackals and thieves under the stars."
+    }
+   ],
+   "variants": {
+    "mali-1340": {
+     "note": "The store huts have become a town of banco houses and merchants' warehouses."
+    }
+   }
+  },
+  {
+   "id": "sorko-fishers",
+   "name": "Fishermen on the creek",
+   "kind": "dock",
+   "position": [
+    1236,
+    2752
+   ],
+   "activePeriods": [
+    "founding-1100",
+    "mali-1340"
+   ],
+   "summary": "Sorko fishermen of the Niger, who came up the seasonal creek in dugout canoes to fish, trade dried fish and ferry goods when the flood was high.",
+   "details": [
+    "The Sorko were the Songhay-speaking fishermen and boatmen of the middle Niger; their canoes carried the river trade and, later, the Songhai empire's war fleets. That they used the creeks near Timbuktu is likely but not specifically recorded."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "saad-timbuktu",
+    "wiki-kabara",
+    "hunwick-songhay"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the flooded grass. Two men pole a dugout up the creek with a basket trap in the bow and a heap of silver fish slapping in the bottom."
+    },
+    {
+     "hour": 13,
+     "text": "Split fish dry on racks in the sun; women from the camp bring milk and butter to trade for them, and the flies are everywhere."
+    },
+    {
+     "hour": 19,
+     "text": "The canoes are drawn up on the sand. A fire, the smell of smoked fish, a song about the river's spirits, frogs loud in the reeds."
+    }
+   ],
+   "variants": {
+    "songhai-1450": {
+     "note": "Fishing goes on at the creek; the boatmen now land grain and goods for the town at the Kabara channel landing."
+    }
+   }
+  },
+  {
+   "id": "salt-sellers",
+   "name": "Salt sellers' row",
+   "kind": "market",
+   "position": [
+    2004,
+    1953
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "Where slabs of rock salt from the Sahara mines were sold, broken up and weighed: in the forests to the south, it was said, salt was worth its weight in gold.",
+   "details": [
+    "Each slab, about a metre long and 25–35 kg, was cut at Taghaza or, after about 1585, Taoudenni. Merchants bought them from the caravans and shipped them up the Niger. Leo Africanus said salt was very dear in Timbuktu; Arabic writers said it was traded for gold."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-azalai",
+    "wiki-taghaza",
+    "leo-africanus",
+    "mauny-tableau"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Grey-white slabs are stacked like paving stones, each marked in black with its owner's sign. A trader taps one with a knuckle to hear if it is sound."
+    },
+    {
+     "hour": 13,
+     "text": "A boy chips a slab with an iron blade into fist-sized lumps for the housewives; the dust stings cracked hands and tastes of the desert."
+    },
+    {
+     "hour": 18,
+     "text": "The unsold slabs are carried into a dark store and the door barred. Outside, a caravan man sleeps on his saddle blanket with his knife under his head."
+    }
+   ],
+   "variants": {
+    "pashalik-1700": {
+     "note": "Slabs now come only from Taoudenni, and an Arma tax-collector stands by the stacks."
+    }
+   }
+  },
+  {
+   "id": "gold-weigher",
+   "name": "Gold-dust weigher",
+   "kind": "bank",
+   "position": [
+    2206,
+    1797
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550"
+   ],
+   "summary": "A broker who weighed gold dust on small brass scales against weights of the mithqal, the coin-weight of the trade, for merchants buying salt and cloth.",
+   "details": [
+    "Gold from Bambuk, Bure and the Akan forests came north through Djenné to Timbuktu. Leo Africanus wrote that the town used unstamped gold for large payments and cowrie shells for small ones. Brass scales and weights like these are known from across the region."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "leo-africanus",
+    "wiki-cowrie",
+    "mauny-tableau"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "He unrolls a cloth, sets out a pair of tiny scales and a row of brass weights, and polishes the pans on his sleeve before the first customer comes."
+    },
+    {
+     "hour": 12,
+     "text": "A Dyula trader from the south unknots a cloth bundle; a pinch of dull yellow dust goes onto the pan. The scale settles. Neither man speaks."
+    },
+    {
+     "hour": 17,
+     "text": "Shells counted in fives by a woman buying onions; at the weigher's mat, the gold is wrapped in leather and tied inside his robe."
+    }
+   ],
+   "variants": {
+    "pashalik-1700": {
+     "note": "Less gold reaches Timbuktu now that the trade has turned to the European forts on the coast; cowries rule the small market."
+    }
+   }
+  },
+  {
+   "id": "bookseller",
+   "name": "Bookseller near the market",
+   "kind": "shop",
+   "position": [
+    2025,
+    1653
+   ],
+   "activePeriods": [
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "A dealer in manuscripts and paper. Leo Africanus wrote that books brought from Barbary sold here for more profit than any other merchandise.",
+   "details": [
+    "Paper came by caravan from North Africa and, later, from Italy. Books were bought, borrowed, copied and inherited; scholars sought them on pilgrimage and from passing merchants. Leo's remark about their price is the famous testimony; how literally to take it is debated."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "leo-africanus",
+    "wiki-timbuktu-manuscripts",
+    "jeppie-diagne"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Leather wallets of loose leaves lie on a mat; a student unties one, reads a page of grammar with his lips moving, and asks the price. The dealer laughs."
+    },
+    {
+     "hour": 13,
+     "text": "A merchant from Fez has brought a quire of Italian paper with a watermark of a crown; three scholars argue over who will buy it."
+    },
+    {
+     "hour": 19,
+     "text": "Lamplight. The dealer wraps the best manuscript, a Maliki law book, in cloth and goatskin against the dust and puts it in a chest."
+    }
+   ],
+   "variants": {
+    "pashalik-1700": {
+     "note": "Many libraries were plundered or carried to Marrakesh in 1593–94; the trade recovers slowly, and copying now matters more than imports."
+    }
+   }
+  },
+  {
+   "id": "copyist",
+   "name": "A copyist's room",
+   "kind": "workshop",
+   "position": [
+    2153,
+    1520
+   ],
+   "activePeriods": [
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "A scholar's upstairs room in the Sankoré quarter where manuscripts were copied by hand, with ink of soot and gum, reed pens and leather covers.",
+   "details": [
+    "Copying was how books multiplied: scholars and paid copyists wrote out texts in Saharan and Sudanic scripts, added notes in the margins and bound the leaves in tooled leather wallets. Thousands of such manuscripts survive in Timbuktu's family libraries."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-timbuktu-manuscripts",
+    "jeppie-diagne",
+    "saad-timbuktu"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "By the window, a copyist mixes soot, gum arabic and water in a shell, trims a reed pen with his knife and rules faint lines with a thread frame."
+    },
+    {
+     "hour": 13,
+     "text": "Too hot to write well: he stops and reads the page aloud against the original, word by word, while his apprentice dozes on the mat."
+    },
+    {
+     "hour": 21,
+     "text": "One lamp. He adds a red title, signs the colophon with the date and his name, and blots the page with fine sand."
+    }
+   ],
+   "variants": {
+    "pashalik-1700": {
+     "note": "Around 1655 al-Sa'di finishes the Ta'rikh al-Sudan, the chronicle of Timbuktu and Songhai; copies of it pass from hand to hand."
+    }
+   }
+  },
+  {
+   "id": "koranic-school",
+   "name": "Qur'an school under a tree",
+   "kind": "school",
+   "position": [
+    1386,
+    1842
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "Boys learning the Qur'an by heart from wooden boards in the shade of a tree by the Djinguereber; the first step of any education in Timbuktu.",
+   "details": [
+    "Al-Sa'di and Leo Africanus speak of the town's many teachers; one figure, possibly exaggerated, puts the Qur'an schools of 16th-century Timbuktu at about 150 or 180. Pupils wrote verses on boards with ink, recited them until learned, then washed the boards clean."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "sadi-tarikh",
+    "leo-africanus",
+    "wiki-koranic-school",
+    "saad-timbuktu"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Before the sun, a fire of twigs to see by: twenty boys sway over their boards, chanting different verses at once, and the master hears every mistake."
+    },
+    {
+     "hour": 11,
+     "text": "The boys wash their boards in a basin and the inky water is poured carefully onto the sand, never on a path where it could be trodden."
+    },
+    {
+     "hour": 17,
+     "text": "School is out. The pupils go begging for their supper from door to door, singing, bowls held out, as students did across the Sahel."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "weaver",
+   "name": "Cotton weavers",
+   "kind": "workshop",
+   "position": [
+    1386,
+    1553
+   ],
+   "activePeriods": [
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "Weavers at narrow-strip looms in a yard of Sareikeina, the trade Leo Africanus singled out: many shops of artisans and especially of cotton weavers.",
+   "details": [
+    "West African cloth was woven on narrow treadle looms into long strips a hand's width wide, then sewn edge to edge into robes and blankets. Leo wrote of Timbuktu's many weavers of cotton cloth; Muslim tailors also embroidered fine robes for scholars and merchants."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "leo-africanus",
+    "saad-timbuktu"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A long warp is pegged across the yard to a stone sledge; the weaver's feet work the treadles and the shuttle flies through, clack and clack."
+    },
+    {
+     "hour": 13,
+     "text": "A roll of white strip cloth thick as a man's thigh lies finished by the door; a tailor measures it in cubits for a scholar's robe."
+    },
+    {
+     "hour": 19,
+     "text": "The looms are covered with mats against the evening wind and sand; the weaver's wife spins cotton by the fire with a spindle in a clay bowl."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "leatherworker",
+   "name": "Leatherworker",
+   "kind": "workshop",
+   "position": [
+    1759,
+    1198
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "A worker in goat and camel leather, making saddle bags, sandals, cushions, Qur'an satchels and the wallets that held manuscripts.",
+   "details": [
+    "Leather from the herds of the Sahel was tanned with acacia pods and dyed red, yellow and black; Timbuktu's leatherwork served the caravans and the scholars alike. Many leatherworkers were of Tuareg dependant families. Details of the trade before 1800 are known mainly from later practice."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "saad-timbuktu",
+    "wiki-tuareg"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Skins soak in a pot of acacia-pod water that smells sour; the leatherworker scrapes one on a log with a curved blade."
+    },
+    {
+     "hour": 13,
+     "text": "He stitches a satchel with a thong and an awl, then stamps a pattern of triangles into the red flap with a heated tool."
+    },
+    {
+     "hour": 18,
+     "text": "A caravan man haggles for a new pair of water skins; the leatherworker pours water into one and holds it up to show it does not drip."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "griot",
+   "name": "Griot at a naming feast",
+   "kind": "house",
+   "position": [
+    1194,
+    2075
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "A griot, the hereditary praise-singer and keeper of genealogies, at a naming feast in the Djinguereber quarter, singing the family's ancestors with a lute.",
+   "details": [
+    "Griots (jeli in Mande, geseré in Songhay) sang praises, recited histories and carried messages for kings and families. Ibn Battuta saw a griot's performance at the court of Mali in 1352–53. Their presence at Timbuktu feasts is drawn from later practice."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-griot",
+    "ibn-battuta"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A ram is sacrificed at dawn and the baby's name whispered into its ear; then the griot arrives with his lute slung on his back."
+    },
+    {
+     "hour": 13,
+     "text": "In the yard, women ululate and the griot sings the grandfather's deeds; a guest presses cowries onto his forehead with his palm."
+    },
+    {
+     "hour": 21,
+     "text": "Drums and handclaps in the lanes: Leo Africanus said the people of Timbuktu spent a great part of the night singing and dancing."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "masons",
+   "name": "Masons replastering the mosque",
+   "kind": "works",
+   "position": [
+    1620,
+    2108
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "The masons' guild (bari) and the people of the quarter renewing the Djinguereber's coat of banco after the rains, climbing on the toron beams.",
+   "details": [
+    "Earth walls lose their skin each rainy season. Each year the town's masons, led by their master, and volunteers of the quarter mix fresh banco and plaster the mosques, a duty and a festival. The custom is recorded at Timbuktu and Djenné in recent centuries and is surely older."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "unesco-timbuktu",
+    "wiki-mud-plastering",
+    "prussin-hatumere"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Pits of mud mixed with rice husk and dung have been fermenting for days; boys tread it barefoot while drummers keep time."
+    },
+    {
+     "hour": 11,
+     "text": "Men stand on the toron beams like a living ladder, passing baskets of mud upward; the master mason smooths it on with his palms."
+    },
+    {
+     "hour": 18,
+     "text": "The wall shines dark and wet in the low sun. The master walks round it checking every crack, and the women bring food and water."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "garden-well",
+   "name": "Garden well with a shaduf",
+   "kind": "garden",
+   "position": [
+    1172,
+    2552
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "A well by the flood pool where a counterweighted pole, the shaduf, lifts water for small gardens of onions, tobacco or vegetables and for animals.",
+   "details": [
+    "Leo Africanus says Timbuktu had many wells of sweet water, and that the Niger's flood was led toward the town through channels. Gardens round the pools and the shaduf are known from later centuries; their place here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "leo-africanus",
+    "wiki-shaduf"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The long pole dips, the leather bucket fills, the clay counterweight lifts it; water runs along a little earth channel into beds of onion seedlings."
+    },
+    {
+     "hour": 12,
+     "text": "Goats crowd the trough; a girl beats them back with a stick so the donkeys can drink first, by her father's rule."
+    },
+    {
+     "hour": 18,
+     "text": "The gardener blocks the channel with a handful of mud, shoulders his hoe and walks back up to the town as the frogs start."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "camel-camp",
+   "name": "Tuareg camel camp",
+   "kind": "inn",
+   "position": [
+    1577,
+    577
+   ],
+   "activePeriods": [
+    "mali-1340",
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "A camp on the northern dunes where Tuareg and Arab caravan men rested their camels between journeys, sold milk and hired out animals and guides.",
+   "details": [
+    "The caravans could not cross without the desert peoples: Massufa and later Tuareg and Berabish guides knew the wells and took fees for protection. Their camps stood outside the town's houses; the Tuareg, rulers of Timbuktu in 1433–68, remained its neighbours and often its threat."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tuareg",
+    "lydon-caravans",
+    "ibn-battuta"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Camels hobbled by one foreleg stand up groaning; a boy milks a she-camel into a wooden bowl while the men wrap their veils against the cold."
+    },
+    {
+     "hour": 13,
+     "text": "In a leather tent, a guide draws the route to Arawan in the sand with his finger: wells, dunes, the days between."
+    },
+    {
+     "hour": 20,
+     "text": "Green tea is a later custom; now there is milk and dates. A man plays a one-stringed fiddle, and the women sing to it."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "donkey-drivers",
+   "name": "Donkey drivers of the Kabara road",
+   "kind": "dock",
+   "position": [
+    1801,
+    2419
+   ],
+   "activePeriods": [
+    "songhai-1450",
+    "askia-1550",
+    "pashalik-1700"
+   ],
+   "summary": "The stand where porters and donkey drivers waited at the town edge to carry goods to and from the river port of Kabara, 8 km to the south.",
+   "details": [
+    "Everything from the river came up this road: grain, kola, gold, slaves, timber, pottery. The road ran through the dunes, and the stretch beyond sight of either place was dangerous; Tuareg raiders often robbed it. Under the pashas an Arma post guarded and taxed it."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kabara",
+    "saad-timbuktu",
+    "wiki-pashalik"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before light, thirty donkeys tied head to tail, sacks of millet on their backs, set off downhill toward the river; the drivers carry spears."
+    },
+    {
+     "hour": 13,
+     "text": "Heat. The returning string trudges up through the sand, loads of kola nuts wrapped in leaves, and the drivers' feet burn on the track."
+    },
+    {
+     "hour": 19,
+     "text": "Loads stacked in the yard of a broker's house; the drivers argue about the day's pay over a bowl of rice and fish sauce."
+    }
+   ],
+   "variants": {
+    "pashalik-1700": {
+     "note": "Arma musketeers sit at a post here and take a toll from every load; the road is safer by day than by night."
+    }
+   }
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-c1100",
+   "title": "The Tuareg camp by Buktu's well",
+   "periodId": "founding-1100",
+   "date": "c. 1100 (tradition)",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "well-of-buktu"
+   },
+   "effect": "none",
+   "text": "According to al-Sa'di, writing about 1655, Tuareg herders who summered by the Niger made a camp here at the end of the 5th century of the Hijra and left their goods with an old woman, Buktu. Travellers began to stop, then to settle. Archaeology suggests an older and more complex story, but the town kept the tale.",
+   "sourceIds": [
+    "sadi-tarikh",
+    "hunwick-songhay",
+    "wiki-history-timbuktu"
+   ]
+  },
+  {
+   "id": "mansa-musa-1324",
+   "title": "Mansa Musa's pilgrimage and the great mosque",
+   "periodId": "mali-1340",
+   "date": "1324–1325",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "djinguereber"
+   },
+   "effect": "construction",
+   "text": "Mansa Musa of Mali went to Mecca in 1324 with a huge retinue and so much gold that its price in Cairo fell for years, al-Umari reports. He came back with scholars and the Andalusian poet Abu Ishaq al-Sahili; Timbuktu passed into Mali's hands and, tradition says, al-Sahili built the Djinguereber mosque and the Madugu palace.",
+   "sourceIds": [
+    "al-umari",
+    "sadi-tarikh",
+    "wiki-mansa-musa",
+    "wiki-djinguereber"
+   ]
+  },
+  {
+   "id": "ibn-battuta-1353",
+   "title": "Ibn Battuta passes through",
+   "periodId": "mali-1340",
+   "date": "1353",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "djinguereber"
+   },
+   "effect": "none",
+   "text": "The Moroccan traveller Ibn Battuta came to Timbuktu on his way home from the court of Mali. Most of its people, he noted, were Massufa, veiled Saharan Berbers. He visited the grave of the poet al-Sahili and watched the governor make a man commander of a troop by giving him robes and raising him on a shield. Then he took a boat downriver to Gao.",
+   "sourceIds": [
+    "ibn-battuta",
+    "levtzion-hopkins",
+    "wiki-ibn-battuta"
+   ]
+  },
+  {
+   "id": "tuareg-take-1433",
+   "title": "The Tuareg take the town",
+   "periodId": "songhai-1450",
+   "date": "1433",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "great-market"
+   },
+   "effect": "crowd",
+   "text": "As Mali weakened, the Tuareg chief Akil drove out its governors and took Timbuktu. He ruled from the desert, leaving the town to its qadis and the Timbuktu-koi, its governor, and taking a share of the dues. For thirty-five years scholars prospered under him, though the Tuareg's exactions grew.",
+   "sourceIds": [
+    "sadi-tarikh",
+    "saad-timbuktu",
+    "wiki-history-timbuktu"
+   ]
+  },
+  {
+   "id": "sidi-yahya-1440",
+   "title": "A mosque for a saint",
+   "periodId": "songhai-1450",
+   "date": "1440s",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "sidi-yahya"
+   },
+   "effect": "construction",
+   "text": "The Sidi Yahya mosque goes up in the middle of the town, it is said by the sheikh al-Mukhtar Hamallah, who waited for a holy man worthy to lead it. The scholar Sidi Yahya al-Tadallisi became its imam; honoured by Akil and the townspeople, he died in 1464 and was buried inside.",
+   "sourceIds": [
+    "wiki-sidi-yahya",
+    "sadi-tarikh"
+   ]
+  },
+  {
+   "id": "sonni-ali-1468",
+   "title": "Sonni Ali storms Timbuktu",
+   "periodId": "songhai-1450",
+   "date": "January 1468",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "sankore"
+   },
+   "effect": "fire",
+   "text": "Sonni Ali, the conquering king of Songhai, took Timbuktu as Akil fled. Many scholars of Sankore, the Aqit among them, escaped across the desert to Walata on camels the Tuareg provided. Al-Sa'di, a scholar's chronicler, remembered Sonni Ali as a tyrant who killed and humiliated the learned; the town now belonged to Songhai.",
+   "sourceIds": [
+    "sadi-tarikh",
+    "wiki-sonni-ali",
+    "hunwick-songhay"
+   ]
+  },
+  {
+   "id": "askia-hajj-1496",
+   "title": "Askia Muhammad goes to Mecca",
+   "periodId": "askia-1550",
+   "date": "1496–1498",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "djinguereber"
+   },
+   "effect": "procession",
+   "text": "Askia Muhammad, who had seized Songhai's throne in 1493, made the pilgrimage with a large escort and, it is said, 300,000 gold pieces, and came home with the title of caliph's deputy for the lands of the Sudan. He favoured Timbuktu's scholars, whom Sonni Ali had persecuted, and its qadis ruled the town for him.",
+   "sourceIds": [
+    "sadi-tarikh",
+    "wiki-askia-muhammad",
+    "hunwick-songhay"
+   ]
+  },
+  {
+   "id": "leo-africanus-1510",
+   "title": "Leo Africanus in Timbuktu",
+   "periodId": "askia-1550",
+   "date": "c. 1510–1513",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "great-market"
+   },
+   "effect": "crowd",
+   "text": "Young al-Hasan al-Wazzan of Fez, later called Leo Africanus, came with his uncle on an embassy. He described a rich town of weavers and merchants, many judges, scholars and priests paid by the king, gold paid by weight and cowries for small change, and books from Barbary that sold for more profit than anything else.",
+   "sourceIds": [
+    "leo-africanus",
+    "wiki-leo-africanus"
+   ]
+  },
+  {
+   "id": "al-aqib-1570",
+   "title": "The qadi rebuilds the mosques",
+   "periodId": "askia-1550",
+   "date": "1569–1583",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "djinguereber"
+   },
+   "effect": "construction",
+   "text": "The qadi al-Aqib ibn Mahmud, of the Aqit family, restored or rebuilt all three great mosques: Sidi Yahya in 1577–78, Sankore in 1578–82 and the Djinguereber, which he enlarged southward, adding a wall round the cemetery. Masons, scholars and the townspeople worked together, and the Askia sent support.",
+   "sourceIds": [
+    "sadi-tarikh",
+    "wiki-djinguereber",
+    "wiki-sankore",
+    "saad-timbuktu"
+   ]
+  },
+  {
+   "id": "moroccan-conquest-1591",
+   "title": "The Moroccans take Timbuktu",
+   "periodId": "pashalik-1700",
+   "date": "1591",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "kasbah"
+   },
+   "effect": "crowd",
+   "text": "Sultan Ahmad al-Mansur's army of about 4,000, many armed with muskets, crossed the Sahara under Judar Pasha and routed Songhai at Tondibi in March 1591. Judar entered Timbuktu soon after, and the Moroccans built a kasbah in the town. Songhai's empire collapsed; Timbuktu became the seat of the pashas.",
+   "sourceIds": [
+    "wiki-tondibi",
+    "wiki-pashalik",
+    "sadi-tarikh"
+   ]
+  },
+  {
+   "id": "scholars-exiled-1594",
+   "title": "The scholars sent to Marrakesh",
+   "periodId": "pashalik-1700",
+   "date": "1593–1594",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "sankore"
+   },
+   "effect": "crowd",
+   "text": "Suspecting the scholars of rebellion, Pasha Mahmud summoned them to the Sankore mosque in October 1593 and arrested them; houses were looted and several men killed. Ahmed Baba and others were marched across the desert in chains and reached Marrakesh in 1594. Freed in 1596, he came home only in 1608.",
+   "sourceIds": [
+    "sadi-tarikh",
+    "wiki-ahmed-baba",
+    "hunwick-songhay"
+   ]
+  },
+  {
+   "id": "tarikh-1655",
+   "title": "Al-Sa'di writes the town's history",
+   "periodId": "pashalik-1700",
+   "date": "c. 1655",
+   "kind": "civic",
+   "at": {
+    "spotId": "copyist"
+   },
+   "effect": "none",
+   "text": "Abd al-Rahman al-Sa'di, a Timbuktu scholar and secretary to the pashas, completed the Ta'rikh al-Sudan, a history of Songhai, Timbuktu and its scholars down to his own day. With the related Ta'rikh al-Fattash, it is the main written source for the town's past, the story of Buktu's well included.",
+   "sourceIds": [
+    "wiki-tarikh-al-sudan",
+    "hunwick-songhay"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "leo-africanus-walk",
+   "title": "With Leo Africanus in Timbuktu",
+   "periodId": "askia-1550",
+   "summary": "Walk the Askias' Timbuktu as the young diplomat from Fez saw it around 1510: the river road, the market, the scholars and their books, the night of songs.",
+   "steps": [
+    {
+     "landmarkId": "kabara-landing",
+     "title": "Up from the river",
+     "when": "c. 1510",
+     "text": "Leo came by Kabara, the port on the Niger. In the flood the channel brings canoes close to the town; the rest of the year the loads go up the road on donkeys and heads."
+    },
+    {
+     "spotId": "donkey-drivers",
+     "title": "The road's end",
+     "text": "At the edge of the sand the porters set down their loads. Leo noted that Timbuktu's water came from wells, and that the river's flood was led toward the town through channels."
+    },
+    {
+     "landmarkId": "great-market",
+     "title": "Gold and shells",
+     "text": "In the market Leo saw gold used without any stamp and cowrie shells for small purchases, many artisans' and merchants' shops, and cloth from Europe."
+    },
+    {
+     "spotId": "weaver",
+     "title": "The weavers",
+     "text": "Especially, Leo wrote, there were weavers of cotton cloth: narrow strips clacking off the looms in the yards, to be sewn into robes."
+    },
+    {
+     "spotId": "bookseller",
+     "title": "Books above all",
+     "text": "Manuscripts brought from Barbary, he wrote, sold for more profit than any other merchandise. Scholars, judges and priests were many, paid by the king."
+    },
+    {
+     "landmarkId": "djinguereber",
+     "title": "The great mosque",
+     "text": "Leo described a temple of stone and lime built by a master from Andalusia, the work credited to al-Sahili, and the king's palace beside it."
+    },
+    {
+     "spotId": "griot",
+     "title": "Nights of song",
+     "text": "The people, he said, were of a gentle and cheerful disposition and spent a great part of the night singing and dancing through the streets."
+    }
+   ],
+   "sourceIds": [
+    "leo-africanus",
+    "wiki-leo-africanus",
+    "sadi-tarikh"
+   ]
+  },
+  {
+   "id": "scholars-1450",
+   "title": "A student's day in the city of scholars",
+   "periodId": "songhai-1450",
+   "summary": "Follow a student newly arrived from the Sahel through Timbuktu under the Tuareg chief Akil: from the Qur'an school to the masters of Sankore and the copyists' rooms.",
+   "steps": [
+    {
+     "spotId": "koranic-school",
+     "title": "First, the Qur'an",
+     "text": "Every education begins with the boards: he must know the Qur'an by heart before any master of law will take him. Here boys chant under a tree beside the Djinguereber."
+    },
+    {
+     "landmarkId": "sidi-yahya",
+     "title": "The new mosque",
+     "text": "In the middle of town the mosque of Sidi Yahya has just been built; the saint himself leads the prayer and teaches, honoured even by Akil."
+    },
+    {
+     "landmarkId": "sankore",
+     "title": "The masters of Sankore",
+     "text": "North, in Sankoré, a jurist teaches Khalil's law manual to a circle of students on mats in the court, reading a line and explaining it for an hour."
+    },
+    {
+     "spotId": "copyist",
+     "title": "Making a book of his own",
+     "text": "The student cannot buy books; he borrows his master's and copies them by lamplight, paying for paper with the alms he begs and the errands he runs."
+    },
+    {
+     "spotId": "bookseller",
+     "title": "The price of paper",
+     "text": "Paper comes by caravan from the north and costs dearly; the bookseller near the market sells it by the quire, and sometimes a whole book."
+    },
+    {
+     "landmarkId": "well-of-buktu",
+     "title": "Where it began",
+     "text": "In the evening he draws water at the old well. The townspeople tell him the story: a Tuareg camp, an old woman named Buktu, and a town that grew from her well."
+    }
+   ],
+   "sourceIds": [
+    "saad-timbuktu",
+    "sadi-tarikh",
+    "wiki-timbuktu-manuscripts"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "sadi-tarikh",
+   "title": "Ta'rikh al-Sudan",
+   "author": "Abd al-Rahman al-Sa'di",
+   "year": "c. 1655",
+   "note": "trans. John O. Hunwick, Timbuktu and the Songhay Empire (1999)",
+   "url": "https://en.wikipedia.org/wiki/Tarikh_al-Sudan"
+  },
+  {
+   "id": "hunwick-songhay",
+   "title": "Timbuktu and the Songhay Empire: Al-Sa'di's Ta'rikh al-Sudan down to 1613 and Other Contemporary Documents",
+   "author": "John O. Hunwick",
+   "year": 1999
+  },
+  {
+   "id": "saad-timbuktu",
+   "title": "Social History of Timbuktu: The Role of Muslim Scholars and Notables 1400–1900",
+   "author": "Elias N. Saad",
+   "year": 1983
+  },
+  {
+   "id": "insoll-timbuktu",
+   "title": "Urbanism, Archaeology and Trade: Further Observations on the Gao Region (Mali); the Timbuktu Rescue Project",
+   "author": "Timothy Insoll",
+   "year": "1996–2002",
+   "note": "excavations and survey round Timbuktu"
+  },
+  {
+   "id": "leo-africanus",
+   "title": "Description of Africa, Book 7 (Timbuktu)",
+   "author": "Leo Africanus (al-Hasan al-Wazzan)",
+   "year": "1526, printed 1550",
+   "url": "https://en.wikipedia.org/wiki/Leo_Africanus"
+  },
+  {
+   "id": "unesco-timbuktu",
+   "title": "Timbuktu (World Heritage List no. 119)",
+   "author": "UNESCO World Heritage Centre",
+   "year": 1988,
+   "url": "https://whc.unesco.org/en/list/119/"
+  },
+  {
+   "id": "wiki-timbuktu",
+   "title": "Timbuktu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timbuktu"
+  },
+  {
+   "id": "wiki-history-timbuktu",
+   "title": "History of Timbuktu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Timbuktu"
+  },
+  {
+   "id": "wiki-kabara",
+   "title": "Kabara, Mali",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kabara,_Mali"
+  },
+  {
+   "id": "wiki-niger",
+   "title": "Niger River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Niger_River"
+  },
+  {
+   "id": "wiki-pashalik",
+   "title": "Pashalik of Timbuktu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pashalik_of_Timbuktu"
+  },
+  {
+   "id": "mauny-tableau",
+   "title": "Tableau géographique de l'Ouest africain au Moyen Âge",
+   "author": "Raymond Mauny",
+   "year": 1961
+  },
+  {
+   "id": "prussin-hatumere",
+   "title": "Hatumere: Islamic Design in West Africa",
+   "author": "Labelle Prussin",
+   "year": 1986
+  },
+  {
+   "id": "bourgeois-sahel",
+   "title": "L'architecture des mosquées soudano-sahéliennes",
+   "author": "Jean-Louis Bourgeois",
+   "year": 1987,
+   "note": "also Spectacular Vernacular (1989)"
+  },
+  {
+   "id": "jeppie-diagne",
+   "title": "The Meanings of Timbuktu",
+   "author": "Shamil Jeppie and Souleymane Bachir Diagne (eds.)",
+   "year": 2008
+  },
+  {
+   "id": "wiki-djinguereber",
+   "title": "Djinguereber Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+  },
+  {
+   "id": "wiki-sankore",
+   "title": "Sankore Madrasah",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sankore_Madrasah"
+  },
+  {
+   "id": "wiki-sidi-yahya",
+   "title": "Sidi Yahya Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sidi_Yahya_Mosque"
+  },
+  {
+   "id": "wiki-mansa-musa",
+   "title": "Mansa Musa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+  },
+  {
+   "id": "wiki-al-sahili",
+   "title": "Abu Ishaq Ibrahim al-Sahili",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abu_Ishaq_Ibrahim_al-Sahili"
+  },
+  {
+   "id": "wiki-arma",
+   "title": "Arma people",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Arma_people"
+  },
+  {
+   "id": "wiki-ahmed-baba",
+   "title": "Ahmad Baba al Massufi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ahmad_Baba_al_Massufi"
+  },
+  {
+   "id": "wiki-timbuktu-manuscripts",
+   "title": "Timbuktu manuscripts",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timbuktu_manuscripts"
+  },
+  {
+   "id": "wiki-azalai",
+   "title": "Azalai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Azalai"
+  },
+  {
+   "id": "wiki-taoudenni",
+   "title": "Taoudenni",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taoudenni"
+  },
+  {
+   "id": "wiki-tuareg",
+   "title": "Tuareg people",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tuareg_people"
+  },
+  {
+   "id": "wiki-ghadames",
+   "title": "Ghadames",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ghadames"
+  },
+  {
+   "id": "wiki-sudano-sahelian",
+   "title": "Sudano-Sahelian architecture",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture"
+  },
+  {
+   "id": "wiki-mausoleums",
+   "title": "Destruction of the mausoleums of Timbuktu (the saints' tombs)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Destruction_of_cultural_heritage_by_Islamists_in_Mali"
+  },
+  {
+   "id": "ibn-battuta",
+   "title": "Rihla (Travels), the journey to Mali",
+   "author": "Ibn Battuta",
+   "year": "1353–1354",
+   "note": "in Corpus of Early Arabic Sources for West African History, ed. Levtzion and Hopkins (1981)",
+   "url": "https://en.wikipedia.org/wiki/Rihla"
+  },
+  {
+   "id": "al-umari",
+   "title": "Masalik al-Absar (on Mali and Mansa Musa in Cairo)",
+   "author": "Ibn Fadl Allah al-Umari",
+   "year": "c. 1340",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Fadlallah_al-Umari"
+  },
+  {
+   "id": "levtzion-hopkins",
+   "title": "Corpus of Early Arabic Sources for West African History",
+   "author": "N. Levtzion and J. F. P. Hopkins (eds.)",
+   "year": 1981
+  },
+  {
+   "id": "lydon-caravans",
+   "title": "On Trans-Saharan Trails: Islamic Law, Trade Networks, and Cross-Cultural Exchange in Nineteenth-Century Western Africa",
+   "author": "Ghislaine Lydon",
+   "year": 2009
+  },
+  {
+   "id": "wiki-sonni-ali",
+   "title": "Sonni Ali",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sonni_Ali"
+  },
+  {
+   "id": "wiki-askia-muhammad",
+   "title": "Askia Muhammad I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Askia_Muhammad_I"
+  },
+  {
+   "id": "wiki-leo-africanus",
+   "title": "Leo Africanus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Leo_Africanus"
+  },
+  {
+   "id": "wiki-ibn-battuta",
+   "title": "Ibn Battuta",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+  },
+  {
+   "id": "wiki-tondibi",
+   "title": "Battle of Tondibi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+  },
+  {
+   "id": "wiki-tarikh-al-sudan",
+   "title": "Tarikh al-Sudan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tarikh_al-Sudan"
+  },
+  {
+   "id": "wiki-taghaza",
+   "title": "Taghaza",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taghaza"
+  },
+  {
+   "id": "wiki-griot",
+   "title": "Griot",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Griot"
+  },
+  {
+   "id": "wiki-shaduf",
+   "title": "Shadoof",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shadoof"
+  },
+  {
+   "id": "wiki-mud-plastering",
+   "title": "Great Mosque of Djenné (the annual replastering)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9"
+  },
+  {
+   "id": "wiki-cowrie",
+   "title": "Cowry (as currency)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cowry"
+  },
+  {
+   "id": "wiki-koranic-school",
+   "title": "Kuttab (Qur'anic school)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kuttab"
+  }
+ ]
+}

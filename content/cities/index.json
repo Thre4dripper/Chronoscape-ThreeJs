@@ -19,6 +19,7 @@
     { "id": "teotihuacan", "name": "Teotihuacan", "subtitle": "City of the Gods", "status": "playable" },
     { "id": "cordoba", "name": "Córdoba", "subtitle": "Corduba, Qurtuba", "status": "playable" },
     { "id": "baghdad", "name": "Baghdad", "subtitle": "Madinat al-Salam, the City of Peace", "status": "playable" },
-    { "id": "changan", "name": "Chang'an", "subtitle": "Daxing, the Tang Capital, and Ming Xi'an", "status": "playable" }
+    { "id": "changan", "name": "Chang'an", "subtitle": "Daxing, the Tang Capital, and Ming Xi'an", "status": "playable" },
+    { "id": "timbuktu", "name": "Timbuktu", "subtitle": "City of Scholars", "status": "playable" }
   ]
 }

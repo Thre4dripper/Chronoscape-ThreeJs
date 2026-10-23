@@ -470,7 +470,9 @@
           "subtitle": "City of scholars, 1450",
           "at": [-3.0, 16.77],
           "glyph": "adobe",
-          "blurb": "A Saharan trading town with the mud-brick mosques of Djinguereber and Sankoré and their scholars."
+          "blurb": "A Saharan trading town with the mud-brick mosques of Djinguereber and Sankoré and their scholars.",
+          "city": "timbuktu",
+          "period": "songhai-1450"
         },
         {
           "title": "Great Zimbabwe",
