@@ -1,0 +1,491 @@
+{
+ "taiji-palace": [
+  {
+   "src": "media/changan/taiji-palace/1.jpg",
+   "thumb": "media/changan/taiji-palace/t1.jpg",
+   "w": 542,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph by Yan Li-pen, 7th century.",
+   "artist": "Yan Li-pen",
+   "date": "7th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Sui_Wendi_Tang.jpg"
+  },
+  {
+   "src": "media/changan/taiji-palace/2.jpg",
+   "thumb": "media/changan/taiji-palace/t2.jpg",
+   "w": 800,
+   "h": 451,
+   "kind": "photograph",
+   "caption": "Photograph.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mysorepalace.jpg"
+  }
+ ],
+ "chengtianmen": [],
+ "zhuquemen": [],
+ "danfengmen": [
+  {
+   "src": "media/changan/danfengmen/1.jpg",
+   "thumb": "media/changan/danfengmen/t1.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Danfeng_Gate_01.jpg"
+  },
+  {
+   "src": "media/changan/danfengmen/2.jpg",
+   "thumb": "media/changan/danfengmen/t2.jpg",
+   "w": 800,
+   "h": 450,
+   "kind": "reconstruction",
+   "caption": "Restoration model of Linde Hall",
+   "artist": "(Ride alone for 1,000s of miles.) 千里走单骑",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Model_of_Linde_Hall_2.jpg"
+  },
+  {
+   "src": "media/changan/danfengmen/3.jpg",
+   "thumb": "media/changan/danfengmen/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Palace_Model_02.jpg"
+  },
+  {
+   "src": "media/changan/danfengmen/4.jpg",
+   "thumb": "media/changan/danfengmen/t4.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Palace_Model_01.jpg"
+  },
+  {
+   "src": "media/changan/danfengmen/5.jpg",
+   "thumb": "media/changan/danfengmen/t5.jpg",
+   "w": 800,
+   "h": 514,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg"
+  }
+ ],
+ "hanyuan-hall": [
+  {
+   "src": "media/changan/hanyuan-hall/1.jpg",
+   "thumb": "media/changan/hanyuan-hall/t1.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Danfeng_Gate_01.jpg"
+  },
+  {
+   "src": "media/changan/hanyuan-hall/2.jpg",
+   "thumb": "media/changan/hanyuan-hall/t2.jpg",
+   "w": 800,
+   "h": 450,
+   "kind": "reconstruction",
+   "caption": "Restoration model of Linde Hall",
+   "artist": "(Ride alone for 1,000s of miles.) 千里走单骑",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Model_of_Linde_Hall_2.jpg"
+  },
+  {
+   "src": "media/changan/hanyuan-hall/3.jpg",
+   "thumb": "media/changan/hanyuan-hall/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Palace_Model_02.jpg"
+  },
+  {
+   "src": "media/changan/hanyuan-hall/4.jpg",
+   "thumb": "media/changan/hanyuan-hall/t4.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Palace_Model_01.jpg"
+  },
+  {
+   "src": "media/changan/hanyuan-hall/5.jpg",
+   "thumb": "media/changan/hanyuan-hall/t5.jpg",
+   "w": 800,
+   "h": 514,
+   "kind": "reconstruction",
+   "caption": "The Daming Palace, once the grand imperial palace of the Tang Dynasty, stands as a testament to China's rich history and architectural grandeur.",
+   "artist": "xiquinhosilva",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Daming_Palace_National_Heritage_Park_-_Hanyuan_Hall_01.jpg"
+  }
+ ],
+ "east-market": [],
+ "west-market": [],
+ "xingqing-palace": [],
+ "greater-goose": [
+  {
+   "src": "media/changan/greater-goose/1.jpg",
+   "thumb": "media/changan/greater-goose/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Giant Wild Goose Pagoda at Xi'an",
+   "artist": "Alex Kwok",
+   "date": "2006",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Giant_Wild_Goose_Pagoda.jpg"
+  },
+  {
+   "src": "media/changan/greater-goose/2.jpg",
+   "thumb": "media/changan/greater-goose/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Liuxingy, 2021.",
+   "artist": "Liuxingy",
+   "date": "2021",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%A4%9C%E9%97%B4%E8%A5%BF%E5%AE%89%E5%A4%A7%E9%9B%81%E5%A1%94_01.jpg"
+  }
+ ],
+ "lesser-goose": [
+  {
+   "src": "media/changan/lesser-goose/1.jpg",
+   "thumb": "media/changan/lesser-goose/t1.jpg",
+   "w": 800,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Small Wild Goose Pagoda, built by 709, was adjacent to the Dajianfu Temple in Chang'an, where Buddhist monks from India and elsewhere gathered to translate Sanskrit texts into Chinese",
+   "artist": "Guucancat",
+   "date": "2007",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Xi%27anwildgoosepagoda2.JPG"
+  },
+  {
+   "src": "media/changan/lesser-goose/2.jpg",
+   "thumb": "media/changan/lesser-goose/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by thierrytutin, 2010.",
+   "artist": "thierrytutin",
+   "date": "2010",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2010_CHINE_(4565613103).jpg"
+  }
+ ],
+ "daxingshan-si": [
+  {
+   "src": "media/changan/daxingshan-si/1.jpg",
+   "thumb": "media/changan/daxingshan-si/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by 时雨, 2008.",
+   "artist": "时雨",
+   "date": "2008",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Xingshan_Temple.JPG"
+  },
+  {
+   "src": "media/changan/daxingshan-si/2.jpg",
+   "thumb": "media/changan/daxingshan-si/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by miumiu熊, Taken on 19 February 2012.",
+   "artist": "miumiu熊",
+   "date": "Taken on 19 February 2012",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:DaXingShanSi_temple,XiaoZhai,xi%27an_China_-_panoramio.jpg"
+  }
+ ],
+ "xuandu-guan": [],
+ "ximing-si": [
+  {
+   "src": "media/changan/ximing-si/1.jpg",
+   "thumb": "media/changan/ximing-si/t1.jpg",
+   "w": 800,
+   "h": 532,
+   "kind": "photograph",
+   "caption": "Temple of Heaven - Hall of Prayer for Good Harvests",
+   "artist": "Shujianyang",
+   "date": "2016",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_20160323_01.jpg"
+  },
+  {
+   "src": "media/changan/ximing-si/2.jpg",
+   "thumb": "media/changan/ximing-si/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Ganden_monastery.jpg"
+  }
+ ],
+ "daqin-monastery": [
+  {
+   "src": "media/changan/daqin-monastery/1.jpg",
+   "thumb": "media/changan/daqin-monastery/t1.jpg",
+   "w": 299,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Reproduction of drawing of the text from Nestorian Stele, Xi'an",
+   "artist": "Nestorian monk Jingjing",
+   "date": "Stele engraved in 781 AD",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Nestorian_Stele_(front).JPG"
+  },
+  {
+   "src": "media/changan/daqin-monastery/2.jpg",
+   "thumb": "media/changan/daqin-monastery/t2.jpg",
+   "w": 512,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Adres wydawniczy: Amstelodami : apud Joannem Janssonium a Waesberge et Elizeum Weyerstraet [...], 1667Współtwórcy: Janssonius van Waesberge, Johannes (ok 1616-1681) Nakł,Laech, Willem van der (1614-1674)…",
+   "artist": "Athanasius Kircher",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:China_monumentis_1667_(3755914)_(cropped).jpg"
+  },
+  {
+   "src": "media/changan/daqin-monastery/3.jpg",
+   "thumb": "media/changan/daqin-monastery/t3.jpg",
+   "w": 497,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Adres wydawniczy: Viennae Austriae : typis Matthaei Rictij, [1656]Współtwórcy: Rickhes, Matthäus (?-1661) DrukOpis fizyczny: [36] k., sygn.: [a]1, b-c2, d-e1, f2, A-L2, M2 +1 (tabl.), N2 : il. ; 2°",
+   "artist": "Michał Boym",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Nestorian_Stele_-_Flora_Sinensis_1656_(2950911).jpg"
+  }
+ ],
+ "guozijian": [
+  {
+   "src": "media/changan/guozijian/1.jpg",
+   "thumb": "media/changan/guozijian/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "reconstruction",
+   "caption": "Confucius was born in the year 551 B.C.E., in Qufu, China. He was worshipped posthumously, until he was named \"Supreme God\" in China.",
+   "artist": "Jean-Pierre Dalbéra from Paris, France",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Institut_des_Fils_de_lEtat_(Temple_de_la_litt%C3%A9rature,_Hanoi)_(4356119550).jpg"
+  },
+  {
+   "src": "media/changan/guozijian/2.jpg",
+   "thumb": "media/changan/guozijian/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Pavilion at the Stele Forest in Xi'an.",
+   "artist": "Haldini / Sam Haldane",
+   "date": "2005",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Xi%27anviewpic9.jpg"
+  },
+  {
+   "src": "media/changan/guozijian/3.jpg",
+   "thumb": "media/changan/guozijian/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by zh:user:Reuental1982.",
+   "artist": "zh:user:Reuental1982",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:SixDynastiesJuniper.jpg"
+  }
+ ],
+ "ming-south-gate": [
+  {
+   "src": "media/changan/ming-south-gate/1.jpg",
+   "thumb": "media/changan/ming-south-gate/t1.jpg",
+   "w": 800,
+   "h": 530,
+   "kind": "photograph",
+   "caption": "Photograph by xiquinhosilva, 2012.",
+   "artist": "xiquinhosilva",
+   "date": "2012",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:City_wall_of_Xi%27an_51550-Xian_(27959363326).jpg"
+  },
+  {
+   "src": "media/changan/ming-south-gate/2.jpg",
+   "thumb": "media/changan/ming-south-gate/t2.jpg",
+   "w": 800,
+   "h": 235,
+   "kind": "photograph",
+   "caption": "xi'an china historic city wall 2011 tang dynasty ming dynasty panorama",
+   "artist": "chensiyuan",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:1_xian_city_wall_2011.jpg"
+  }
+ ],
+ "bell-tower": [
+  {
+   "src": "media/changan/bell-tower/1.jpg",
+   "thumb": "media/changan/bell-tower/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by xiquinhosilva, 2024.",
+   "artist": "xiquinhosilva",
+   "date": "2024",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Xi%27an_Bell_Tower_2024.10.jpg"
+  },
+  {
+   "src": "media/changan/bell-tower/2.jpg",
+   "thumb": "media/changan/bell-tower/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Liuxingy, 2024.",
+   "artist": "Liuxingy",
+   "date": "2024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:202403_%E8%A5%BF%E5%AE%89%E9%92%9F%E6%A5%BC%E5%A4%9C%E6%99%AF.jpg"
+  }
+ ],
+ "drum-tower": [
+  {
+   "src": "media/changan/drum-tower/1.jpg",
+   "thumb": "media/changan/drum-tower/t1.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "photograph",
+   "caption": "The Drum Tower of Xi'an",
+   "artist": "Wang Zhongyin",
+   "date": "2010",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Drum_Tower_of_Xi%27an.JPG"
+  },
+  {
+   "src": "media/changan/drum-tower/2.jpg",
+   "thumb": "media/changan/drum-tower/t2.jpg",
+   "w": 800,
+   "h": 532,
+   "kind": "photograph",
+   "caption": "Drums with Traditional Chinese Inscriptions on the outer-facing walkways of the tower.",
+   "artist": "Adi.darkblue",
+   "date": "2025",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Xi%27An_Drums.jpg"
+  }
+ ],
+ "great-mosque": [
+  {
+   "src": "media/changan/great-mosque/1.jpg",
+   "thumb": "media/changan/great-mosque/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Xi'an Great Mosque 12",
+   "artist": "Ronnie Macdonald from Chelmsford, United Kingdom",
+   "date": "2010",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Xian_Great_Mosque_12_(5459243082).jpg"
+  },
+  {
+   "src": "media/changan/great-mosque/2.jpg",
+   "thumb": "media/changan/great-mosque/t2.jpg",
+   "w": 800,
+   "h": 575,
+   "kind": "photograph",
+   "caption": "Great Mosque of Xi'an‎ in China",
+   "artist": "Gerd Eichmann",
+   "date": "2012",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Xian-Grosse_Moschee-22-2012-gje.jpg"
+  }
+ ],
+ "qin-palace": [
+  {
+   "src": "media/changan/qin-palace/1.jpg",
+   "thumb": "media/changan/qin-palace/t1.jpg",
+   "w": 800,
+   "h": 601,
+   "kind": "photograph",
+   "caption": "Photograph by Kcx36, 2023.",
+   "artist": "Kcx36",
+   "date": "2023",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%A7%A6%E7%8E%8B%E5%BA%9C%E5%9F%8E%E5%A2%99%E9%81%97%E5%9D%80_01.jpg"
+  }
+ ]
+}
