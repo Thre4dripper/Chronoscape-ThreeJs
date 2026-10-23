@@ -3806,6 +3806,285 @@
   "size": 158.6,
   "w": 150.0
  },
+ "lisbon/carmo": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "d": 67.0,
+  "ext": "webp",
+  "px": 209,
+  "size": 69.68,
+  "w": 28.0
+ },
+ "lisbon/carmo-ruin": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "d": 67.0,
+  "ext": "webp",
+  "px": 209,
+  "size": 69.68,
+  "w": 28.0
+ },
+ "lisbon/casa-da-india": {
+  "cx": 0.0,
+  "cy": 0.93,
+  "d": 35.85,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "lisbon/casa-dos-bicos": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 26.0,
+  "w": 25.0
+ },
+ "lisbon/casa-dos-bicos-1800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 26.0,
+  "w": 25.0
+ },
+ "lisbon/castelo": {
+  "cx": -0.88,
+  "cy": -0.61,
+  "d": 149.71,
+  "ext": "webp",
+  "px": 725,
+  "size": 241.54,
+  "w": 232.25
+ },
+ "lisbon/castelo-1800": {
+  "cx": -0.88,
+  "cy": -0.61,
+  "d": 149.71,
+  "ext": "webp",
+  "px": 725,
+  "size": 241.54,
+  "w": 232.25
+ },
+ "lisbon/castelo-moorish": {
+  "cx": -0.88,
+  "cy": -0.61,
+  "d": 149.71,
+  "ext": "webp",
+  "px": 725,
+  "size": 241.54,
+  "w": 232.25
+ },
+ "lisbon/castelo-roman": {
+  "cx": -1.0,
+  "cy": -0.73,
+  "d": 149.46,
+  "ext": "webp",
+  "px": 724,
+  "size": 241.28,
+  "w": 232.0
+ },
+ "lisbon/chafariz-del-rei": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 10.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 32.24,
+  "w": 31.0
+ },
+ "lisbon/conceicao-velha": {
+  "cx": -0.2,
+  "cy": -0.0,
+  "d": 24.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 42.02,
+  "w": 40.4
+ },
+ "lisbon/estaus": {
+  "cx": -0.62,
+  "cy": 0.13,
+  "d": 35.26,
+  "ext": "webp",
+  "px": 238,
+  "size": 79.3,
+  "w": 76.25
+ },
+ "lisbon/hospital-todos-os-santos": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 100.0
+ },
+ "lisbon/misericordia": {
+  "cx": -1.1,
+  "cy": -0.0,
+  "d": 24.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 43.89,
+  "w": 42.2
+ },
+ "lisbon/opera-do-tejo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 72.0,
+  "ext": "webp",
+  "px": 225,
+  "size": 74.88,
+  "w": 42.0
+ },
+ "lisbon/paco-ribeira": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 150.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 110.0
+ },
+ "lisbon/paco-ribeira-1750": {
+  "cx": 0.3,
+  "cy": 0.3,
+  "d": 150.6,
+  "ext": "webp",
+  "px": 470,
+  "size": 156.62,
+  "w": 110.6
+ },
+ "lisbon/porta-do-sol": {
+  "cx": 0.0,
+  "cy": -0.15,
+  "d": 16.3,
+  "ext": "webp",
+  "px": 192,
+  "size": 53.56,
+  "w": 51.5
+ },
+ "lisbon/porta-santo-antao": {
+  "cx": 0.0,
+  "cy": -0.15,
+  "d": 16.3,
+  "ext": "webp",
+  "px": 192,
+  "size": 39.0,
+  "w": 37.5
+ },
+ "lisbon/praca-comercio": {
+  "cx": 0.0,
+  "cy": -0.22,
+  "d": 201.75,
+  "ext": "webp",
+  "px": 678,
+  "size": 225.89,
+  "w": 217.2
+ },
+ "lisbon/ribeira-das-naus": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "d": 70.25,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "lisbon/ribeira-das-naus-1800": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "d": 70.25,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "lisbon/roman-theatre": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "lisbon/sao-roque": {
+  "cx": 0.0,
+  "cy": 0.35,
+  "d": 63.3,
+  "ext": "webp",
+  "px": 197,
+  "size": 65.83,
+  "w": 30.1
+ },
+ "lisbon/sao-roque-ermida": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 62.0,
+  "ext": "webp",
+  "px": 193,
+  "size": 64.48,
+  "w": 30.0
+ },
+ "lisbon/sao-vicente": {
+  "cx": 0.15,
+  "cy": 0.4,
+  "d": 90.8,
+  "ext": "webp",
+  "px": 283,
+  "size": 94.43,
+  "w": 60.3
+ },
+ "lisbon/sao-vicente-1800": {
+  "cx": 0.15,
+  "cy": 0.4,
+  "d": 90.8,
+  "ext": "webp",
+  "px": 283,
+  "size": 94.43,
+  "w": 60.3
+ },
+ "lisbon/sao-vicente-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 60.0
+ },
+ "lisbon/se": {
+  "cx": 0.0,
+  "cy": -1.05,
+  "d": 92.1,
+  "ext": "webp",
+  "px": 287,
+  "size": 95.78,
+  "w": 40.6
+ },
+ "lisbon/se-1800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 40.6
+ },
+ "lisbon/se-mosque": {
+  "cx": 0.0,
+  "cy": -0.4,
+  "d": 90.8,
+  "ext": "webp",
+  "px": 283,
+  "size": 94.43,
+  "w": 40.0
+ },
  "nara/chodo-in": {
   "cx": 0.0,
   "cy": 1.74,
