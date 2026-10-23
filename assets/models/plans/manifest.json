@@ -4130,6 +4130,249 @@
   "size": 281.63,
   "w": 36.0
  },
+ "persepolis/apadana": {
+  "cx": -0.06,
+  "cy": 0.06,
+  "d": 124.42,
+  "ext": "webp",
+  "px": 388,
+  "size": 129.39,
+  "w": 124.42
+ },
+ "persepolis/apadana-500": {
+  "cx": -0.06,
+  "cy": 0.06,
+  "d": 124.42,
+  "ext": "webp",
+  "px": 388,
+  "size": 129.39,
+  "w": 124.42
+ },
+ "persepolis/apadana-burned": {
+  "cx": -0.06,
+  "cy": 0.06,
+  "d": 124.42,
+  "ext": "webp",
+  "px": 388,
+  "size": 129.39,
+  "w": 124.42
+ },
+ "persepolis/apadana-ruin": {
+  "cx": -0.17,
+  "cy": 0.17,
+  "d": 124.65,
+  "ext": "webp",
+  "px": 389,
+  "size": 129.64,
+  "w": 124.65
+ },
+ "persepolis/garrison": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.16,
+  "ext": "webp",
+  "px": 375,
+  "size": 124.97,
+  "w": 40.16
+ },
+ "persepolis/garrison-ruin": {
+  "cx": 0.26,
+  "cy": -0.0,
+  "d": 120.4,
+  "ext": "webp",
+  "px": 376,
+  "size": 125.22,
+  "w": 40.68
+ },
+ "persepolis/gate-all-nations": {
+  "cx": 0.2,
+  "cy": -0.0,
+  "d": 30.16,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.37,
+  "w": 26.56
+ },
+ "persepolis/gate-all-nations-ruin": {
+  "cx": 0.04,
+  "cy": -0.0,
+  "d": 30.16,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.37,
+  "w": 27.0
+ },
+ "persepolis/hadish": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "d": 58.36,
+  "ext": "webp",
+  "px": 192,
+  "size": 60.7,
+  "w": 42.2
+ },
+ "persepolis/hadish-ruin": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "d": 58.36,
+  "ext": "webp",
+  "px": 192,
+  "size": 60.7,
+  "w": 42.2
+ },
+ "persepolis/harem": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.16,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.77,
+  "w": 56.16
+ },
+ "persepolis/harem-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.16,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.77,
+  "w": 56.16
+ },
+ "persepolis/hundred-columns": {
+  "cx": 0.0,
+  "cy": -0.27,
+  "d": 93.75,
+  "ext": "webp",
+  "px": 292,
+  "size": 97.5,
+  "w": 74.3
+ },
+ "persepolis/hundred-columns-ruin": {
+  "cx": 0.0,
+  "cy": -0.72,
+  "d": 93.6,
+  "ext": "webp",
+  "px": 292,
+  "size": 97.34,
+  "w": 75.04
+ },
+ "persepolis/plain-palace": {
+  "cx": 0.0,
+  "cy": 0.68,
+  "d": 101.57,
+  "ext": "webp",
+  "px": 317,
+  "size": 105.63,
+  "w": 100.2
+ },
+ "persepolis/plain-palace-ruin": {
+  "cx": 0.0,
+  "cy": 0.37,
+  "d": 101.54,
+  "ext": "webp",
+  "px": 317,
+  "size": 105.6,
+  "w": 100.8
+ },
+ "persepolis/royal-tomb": {
+  "cx": -0.04,
+  "cy": -0.0,
+  "d": 30.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.87,
+  "w": 45.07
+ },
+ "persepolis/tachara": {
+  "cx": 0.0,
+  "cy": -0.14,
+  "d": 44.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.59,
+  "w": 32.2
+ },
+ "persepolis/tachara-ruin": {
+  "cx": 0.0,
+  "cy": -0.14,
+  "d": 44.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 46.59,
+  "w": 32.2
+ },
+ "persepolis/takht": {
+  "cx": 0.85,
+  "cy": 0.05,
+  "d": 40.1,
+  "ext": "webp",
+  "px": 419,
+  "size": 139.67,
+  "w": 134.3
+ },
+ "persepolis/takht-500": {
+  "cx": 0.85,
+  "cy": 0.05,
+  "d": 40.1,
+  "ext": "webp",
+  "px": 419,
+  "size": 139.67,
+  "w": 134.3
+ },
+ "persepolis/takht-ruin": {
+  "cx": 0.35,
+  "cy": -0.5,
+  "d": 41.2,
+  "ext": "webp",
+  "px": 422,
+  "size": 140.71,
+  "w": 135.3
+ },
+ "persepolis/treasury": {
+  "cx": -0.32,
+  "cy": -0.32,
+  "d": 131.05,
+  "ext": "webp",
+  "px": 409,
+  "size": 136.29,
+  "w": 77.05
+ },
+ "persepolis/treasury-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 131.92,
+  "ext": "webp",
+  "px": 412,
+  "size": 137.2,
+  "w": 77.92
+ },
+ "persepolis/tripylon": {
+  "cx": 0.0,
+  "cy": -0.13,
+  "d": 26.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 27.87,
+  "w": 26.2
+ },
+ "persepolis/tripylon-ruin": {
+  "cx": 0.0,
+  "cy": -0.13,
+  "d": 26.8,
+  "ext": "webp",
+  "px": 192,
+  "size": 27.87,
+  "w": 26.2
+ },
+ "persepolis/unfinished-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 30.16,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.37,
+  "w": 30.16
+ },
  "props/african/bakery": {
   "cx": 0.0,
   "cy": -0.01,
