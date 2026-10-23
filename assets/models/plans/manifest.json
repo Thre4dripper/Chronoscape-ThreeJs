@@ -6506,6 +6506,150 @@
   "size": 135.2,
   "w": 130.0
  },
+ "timbuktu/aqit-house": {
+  "cx": 0.0,
+  "cy": 0.18,
+  "d": 22.45,
+  "ext": "webp",
+  "px": 192,
+  "size": 28.6,
+  "w": 27.5
+ },
+ "timbuktu/azalai-ground": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 250,
+  "size": 83.2,
+  "w": 80.0
+ },
+ "timbuktu/djinguereber": {
+  "cx": 0.16,
+  "cy": 0.02,
+  "d": 70.05,
+  "ext": "webp",
+  "px": 257,
+  "size": 85.62,
+  "w": 82.33
+ },
+ "timbuktu/djinguereber-1340": {
+  "cx": 0.0,
+  "cy": 0.1,
+  "d": 70.2,
+  "ext": "webp",
+  "px": 256,
+  "size": 85.28,
+  "w": 82.0
+ },
+ "timbuktu/djinguereber-1700": {
+  "cx": 0.16,
+  "cy": -0.11,
+  "d": 70.31,
+  "ext": "webp",
+  "px": 257,
+  "size": 85.62,
+  "w": 82.33
+ },
+ "timbuktu/great-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "timbuktu/kabara-landing": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "timbuktu/kasbah": {
+  "cx": 0.07,
+  "cy": -0.0,
+  "d": 110.3,
+  "ext": "webp",
+  "px": 407,
+  "size": 135.65,
+  "w": 130.43
+ },
+ "timbuktu/madugu": {
+  "cx": 0.0,
+  "cy": 0.09,
+  "d": 51.48,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "timbuktu/merchant-house": {
+  "cx": 0.0,
+  "cy": 0.18,
+  "d": 22.45,
+  "ext": "webp",
+  "px": 192,
+  "size": 26.52,
+  "w": 25.5
+ },
+ "timbuktu/saints-cemetery": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.21,
+  "ext": "webp",
+  "px": 250,
+  "size": 83.47,
+  "w": 80.26
+ },
+ "timbuktu/sankore": {
+  "cx": 0.0,
+  "cy": -0.04,
+  "d": 50.22,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.96,
+  "w": 56.7
+ },
+ "timbuktu/sankore-1700": {
+  "cx": 0.0,
+  "cy": -0.04,
+  "d": 50.22,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.96,
+  "w": 56.7
+ },
+ "timbuktu/sidi-yahya": {
+  "cx": 0.0,
+  "cy": 0.16,
+  "d": 36.33,
+  "ext": "webp",
+  "px": 192,
+  "size": 43.68,
+  "w": 42.0
+ },
+ "timbuktu/tuareg-camp": {
+  "cx": 0.19,
+  "cy": -0.14,
+  "d": 60.28,
+  "ext": "webp",
+  "px": 251,
+  "size": 83.59,
+  "w": 80.37
+ },
+ "timbuktu/well-of-buktu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 12.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 12.48,
+  "w": 12.0
+ },
  "venice/arsenale": {
   "cx": -2.1,
   "cy": -0.55,
