@@ -28,7 +28,9 @@
           "subtitle": "Nebuchadnezzar's city, 575 BCE",
           "at": [44.42, 32.54],
           "glyph": "ziggurat",
-          "blurb": "A walled city on the Euphrates with the Ishtar Gate, the processional way and the ziggurat Etemenanki."
+          "blurb": "A walled city on the Euphrates with the Ishtar Gate, the processional way and the ziggurat Etemenanki.",
+          "city": "babylon",
+          "period": "nebuchadnezzar-575"
         },
         {
           "title": "Persepolis",

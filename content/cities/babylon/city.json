@@ -1,0 +1,4892 @@
+{
+ "id": "babylon",
+ "name": "Babylon",
+ "subtitle": "Bābili, the Gate of the Gods",
+ "description": "Babylon on the Euphrates from Hammurabi's city (c. 1750 BCE) to the death of Alexander in Nebuchadnezzar's palace (323 BCE): the rectangular inner city astride the river, its double walls and moat, the outer wall reaching north to the Summer Palace. The earliest eras lie under the water table and are barely excavated, so they are drawn as hedged reconstructions. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "nebuchadnezzar-575",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#D9C6A0",
+   "#CDB48A",
+   "#E0D2B4",
+   "#C8AE86",
+   "#D4BE98"
+  ],
+  "roofs": [
+   "#C8B58E",
+   "#BCA57E"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2393,
+    2718
+   ],
+   "distance": 38,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   5255,
+   5159
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Purattu (Euphrates), the Arahtu",
+    "path": [
+     [
+      2609,
+      -111
+     ],
+     [
+      2440,
+      444
+     ],
+     [
+      2224,
+      999
+     ],
+     [
+      2027,
+      1553
+     ],
+     [
+      1886,
+      1997
+     ],
+     [
+      1792,
+      2441
+     ],
+     [
+      1821,
+      2885
+     ],
+     [
+      1877,
+      3295
+     ],
+     [
+      1858,
+      3772
+     ],
+     [
+      1745,
+      4327
+     ],
+     [
+      1595,
+      4882
+     ],
+     [
+      1455,
+      5326
+     ]
+    ],
+    "width": 150,
+    "id": "euphrates",
+    "blurb": "The Euphrates (Akkadian Purattu; the channel at Babylon was called the Arahtu) then ran through the middle of the city, splitting it in two and feeding the moats and canals. Nabopolassar and Nebuchadnezzar lined it with baked-brick quays. It later shifted west of the ruins; its earliest course is unknown."
+   },
+   {
+    "name": "Moat of the eastern city",
+    "path": [
+     [
+      2590,
+      2186
+     ],
+     [
+      3622,
+      2186
+     ],
+     [
+      3622,
+      3961
+     ],
+     [
+      1896,
+      3961
+     ]
+    ],
+    "width": 55,
+    "id": "moat-east",
+    "blurb": "Nabopolassar and Nebuchadnezzar ringed the double inner wall with a moat fed from the Euphrates, its banks faced with baked brick set in bitumen. Its width is estimated at 50–80 metres.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Moat of the western city",
+    "path": [
+     [
+      1745,
+      2186
+     ],
+     [
+      901,
+      2186
+     ],
+     [
+      901,
+      3961
+     ],
+     [
+      1689,
+      3961
+     ]
+    ],
+    "width": 50,
+    "id": "moat-west",
+    "blurb": "The moat continued round the western half of the city; its line here is drawn from the excavated wall trace and is approximate.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Libil-ḫegalla, the eastern canal",
+    "path": [
+     [
+      2065,
+      1498
+     ],
+     [
+      2609,
+      1753
+     ],
+     [
+      2890,
+      2019
+     ],
+     [
+      2919,
+      2330
+     ],
+     [
+      2919,
+      2885
+     ],
+     [
+      2919,
+      3439
+     ],
+     [
+      2919,
+      3961
+     ]
+    ],
+    "width": 24,
+    "id": "libil-hegalla",
+    "blurb": "'May it bring abundance': the canal of the eastern city, which Nabopolassar and Nebuchadnezzar say they re-dug and lined with baked brick. It ran from the Euphrates north of the city through the eastern quarters; its exact course is not known.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Eastern canal (Libil-ḫegalla?)",
+    "path": [
+     [
+      2065,
+      1498
+     ],
+     [
+      2609,
+      1753
+     ],
+     [
+      2890,
+      2019
+     ],
+     [
+      2919,
+      2330
+     ],
+     [
+      2919,
+      2885
+     ],
+     [
+      2919,
+      3439
+     ],
+     [
+      2919,
+      3961
+     ]
+    ],
+    "width": 20,
+    "id": "libil-hegalla",
+    "blurb": "Babylon's eastern canal is named in texts long before Nebuchadnezzar; that it already ran on this line in the second millennium is a guess.",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Moat of the outer wall",
+    "path": [
+     [
+      2496,
+      200
+     ],
+     [
+      2984,
+      200
+     ],
+     [
+      4580,
+      976
+     ],
+     [
+      4373,
+      3806
+     ],
+     [
+      3116,
+      4527
+     ],
+     [
+      1736,
+      4804
+     ]
+    ],
+    "width": 45,
+    "id": "moat-outer",
+    "blurb": "Nebuchadnezzar's outer wall had its own moat, fed from the river at both ends, so that the eastern suburbs could be flooded against an attacker.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Homera (the rubble of Etemenanki)",
+    "center": [
+     3191,
+     2419
+    ],
+    "radius": 80,
+    "label": true,
+    "id": "homera",
+    "blurb": "A mound of broken baked brick in the north-east of the city. Strabo and Arrian say Alexander had the ruined tower's debris cleared; the rubble seems to have been dumped here, and the Greek theatre was later built against it.",
+    "periods": [
+     "alexander-323"
+    ]
+   }
+  ],
+  "roads": [
+   {
+    "name": "Ay-ibur-šabû, the Processional Way",
+    "path": [
+     [
+      2402,
+      943
+     ],
+     [
+      2384,
+      1553
+     ],
+     [
+      2374,
+      2053
+     ],
+     [
+      2365,
+      2263
+     ],
+     [
+      2374,
+      2530
+     ],
+     [
+      2496,
+      2685
+     ],
+     [
+      2506,
+      2829
+     ],
+     [
+      2506,
+      3262
+     ],
+     [
+      2252,
+      3295
+     ],
+     [
+      1980,
+      3295
+     ]
+    ],
+    "width": 20,
+    "style": "major",
+    "labelled": true,
+    "id": "processional-way",
+    "blurb": "'The enemy shall not cross it': the sacred road of Marduk from the Akitu house north of the city through the Ishtar Gate, south past the palace and the ziggurat, then west between Etemenanki and Esagila to the bridge. Nebuchadnezzar raised and paved it.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Street of Adad (to the Adad Gate)",
+    "path": [
+     [
+      1774,
+      3295
+     ],
+     [
+      1408,
+      3295
+     ],
+     [
+      995,
+      3295
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": false,
+    "id": "west-street",
+    "blurb": "From the bridge across the western city to its west gate. Street names are known from the Tintir list; which street ran where is approximate.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Road to Borsippa",
+    "path": [
+     [
+      995,
+      3295
+     ],
+     [
+      657,
+      3772
+     ],
+     [
+      394,
+      4438
+     ],
+     [
+      188,
+      5126
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "borsippa-road",
+    "blurb": "South-west to Borsippa, the city of Nabu, Marduk's son, about 17 km away. At the New Year Nabu's statue came up this road by boat and on foot to visit his father.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Street of Marduk",
+    "path": [
+     [
+      3519,
+      2718
+     ],
+     [
+      2956,
+      2718
+     ],
+     [
+      2534,
+      2718
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "marduk-street",
+    "blurb": "From the Marduk Gate in the east wall into the heart of the city. The eastern quarters were cut by streets running roughly at right angles, as Herodotus noticed.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Street of Zababa",
+    "path": [
+     [
+      3519,
+      3384
+     ],
+     [
+      2956,
+      3384
+     ],
+     [
+      2534,
+      3384
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "zababa-street",
+    "blurb": "From the Zababa Gate toward Esagila; named, like the gate, for the war god of Kish.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Street of the Enlil Gate",
+    "path": [
+     [
+      2675,
+      3861
+     ],
+     [
+      2675,
+      3550
+     ],
+     [
+      2609,
+      3351
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "enlil-street",
+    "blurb": "North from the south gate through Šuanna to Esagila's forecourt.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Street through Merkes",
+    "path": [
+     [
+      2693,
+      2286
+     ],
+     [
+      2693,
+      2685
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "merkes-street",
+    "blurb": "One of the excavated lanes of Merkes, a few metres wide, between blocks of courtyard houses.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Street of Šamaš",
+    "path": [
+     [
+      995,
+      2774
+     ],
+     [
+      1689,
+      2774
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "shamash-street",
+    "blurb": "From the Šamaš Gate east to the river quays of the western city.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Road to Kish",
+    "path": [
+     [
+      3632,
+      2718
+     ],
+     [
+      4035,
+      2607
+     ],
+     [
+      4364,
+      2552
+     ],
+     [
+      5236,
+      2385
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "kish-road",
+    "blurb": "East through the outer wall to Kish, about 15 km away, and on to the Tigris and Elam.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Road to Kutha and Sippar",
+    "path": [
+     [
+      3144,
+      2263
+     ],
+     [
+      3285,
+      1553
+     ],
+     [
+      3519,
+      777
+     ],
+     [
+      3754,
+      22
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "sippar-road",
+    "blurb": "North from the Sin Gate toward Kutha and Sippar, the city of the sun god.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Road to the Summer Palace",
+    "path": [
+     [
+      2402,
+      943
+     ],
+     [
+      2534,
+      688
+     ],
+     [
+      2628,
+      599
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "babil-road",
+    "blurb": "The road along the river to the palace at the northern tip of the outer city.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Road to Dilbat and Nippur",
+    "path": [
+     [
+      2675,
+      3861
+     ],
+     [
+      2740,
+      4438
+     ],
+     [
+      2815,
+      5126
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "south-road",
+    "blurb": "South from the Enlil Gate to Dilbat and on to Nippur, the old holy city of Enlil.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Sacred way to Esagila",
+    "path": [
+     [
+      2365,
+      1775
+     ],
+     [
+      2365,
+      2219
+     ],
+     [
+      2421,
+      2552
+     ],
+     [
+      2477,
+      2885
+     ],
+     [
+      2459,
+      3273
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "early-sacred-way",
+    "blurb": "A processional road to Marduk's temple surely existed before Nebuchadnezzar, but its course and gates are not known; it is drawn on the line of the later Processional Way.",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Road to Kish",
+    "path": [
+     [
+      2534,
+      2885
+     ],
+     [
+      3285,
+      2829
+     ],
+     [
+      4223,
+      2663
+     ],
+     [
+      5236,
+      2385
+     ]
+    ],
+    "width": 9,
+    "style": "major",
+    "labelled": false,
+    "id": "early-kish-road",
+    "blurb": "Kish, an older royal city than Babylon, lay 15 km east.",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Road to Borsippa",
+    "path": [
+     [
+      1595,
+      3295
+     ],
+     [
+      845,
+      3772
+     ],
+     [
+      394,
+      4438
+     ],
+     [
+      188,
+      5126
+     ]
+    ],
+    "width": 9,
+    "style": "major",
+    "labelled": false,
+    "id": "early-borsippa-road",
+    "blurb": "Hammurabi rebuilt Ezida, Nabu's temple at Borsippa; the road left the west bank toward it.",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Road to Sippar",
+    "path": [
+     [
+      2628,
+      2441
+     ],
+     [
+      3097,
+      1553
+     ],
+     [
+      3754,
+      22
+     ]
+    ],
+    "width": 9,
+    "style": "major",
+    "labelled": false,
+    "id": "early-sippar-road",
+    "blurb": "North to Sippar, where the stele of Hammurabi's laws may first have stood in the temple of Šamaš.",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Lane to the landing",
+    "path": [
+     [
+      2459,
+      3107
+     ],
+     [
+      2158,
+      3195
+     ],
+     [
+      1980,
+      3273
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "early-river-lane",
+    "blurb": "From the temple quarter down to the river landing, where a ferry crossed to the west bank.",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Imgur-Enlil and Nemetti-Enlil (eastern city)",
+    "path": [
+     [
+      2027,
+      2263
+     ],
+     [
+      3519,
+      2263
+     ],
+     [
+      3519,
+      3861
+     ],
+     [
+      1971,
+      3861
+     ],
+     [
+      1971,
+      2574
+     ],
+     [
+      2027,
+      2552
+     ]
+    ],
+    "closed": true,
+    "id": "inner-wall-east",
+    "blurb": "The double inner wall: Imgur-Enlil, the main wall about 6.5 m thick, and Nemetti-Enlil, the outer wall about 3.7 m thick, with a military road between and towers every 20 m or so, rebuilt in baked brick by Nabopolassar and Nebuchadnezzar. Gate positions other than the Ishtar Gate are approximate.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Imgur-Enlil and Nemetti-Enlil (western city)",
+    "path": [
+     [
+      1708,
+      2263
+     ],
+     [
+      985,
+      2263
+     ],
+     [
+      985,
+      3861
+     ],
+     [
+      1689,
+      3861
+     ]
+    ],
+    "closed": true,
+    "id": "inner-wall-west",
+    "blurb": "The western half of the double wall, with the Šamaš, Adad and Lugalirra gates in the Tintir list; its line is known from Koldewey's soundings and the mounds.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Outer wall of Nebuchadnezzar",
+    "path": [
+     [
+      2496,
+      277
+     ],
+     [
+      2956,
+      277
+     ],
+     [
+      4486,
+      1054
+     ],
+     [
+      4270,
+      3772
+     ],
+     [
+      3097,
+      4438
+     ],
+     [
+      1802,
+      4715
+     ]
+    ],
+    "closed": false,
+    "id": "outer-wall",
+    "blurb": "A triple rampart of baked and mud brick built by Nebuchadnezzar from the Summer Palace in the north round the east of the city to the river in the south, enclosing the outer city, with a moat. The line drawn is simplified; part lies beyond the map.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Imgur-Enlil (earlier phase, eastern city)",
+    "path": [
+     [
+      2027,
+      2263
+     ],
+     [
+      3519,
+      2263
+     ],
+     [
+      3519,
+      3861
+     ],
+     [
+      1971,
+      3861
+     ],
+     [
+      1971,
+      2574
+     ],
+     [
+      2027,
+      2552
+     ]
+    ],
+    "closed": true,
+    "id": "inner-wall-east",
+    "blurb": "The Tintir list, probably of the 12th century, already names the city's eight gates and quarters, so the inner city's lines may be this old; how much of the wall then stood on this trace is not known.",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Imgur-Enlil (earlier phase, western city)",
+    "path": [
+     [
+      1708,
+      2263
+     ],
+     [
+      985,
+      2263
+     ],
+     [
+      985,
+      3861
+     ],
+     [
+      1689,
+      3861
+     ]
+    ],
+    "closed": true,
+    "id": "inner-wall-west",
+    "blurb": "The western circuit in the Kassite period: a guess on the later line.",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "name": "Wall of Sumu-la-El and Hammurabi (conjectural)",
+    "path": [
+     [
+      2027,
+      2352
+     ],
+     [
+      3097,
+      2352
+     ],
+     [
+      3097,
+      3772
+     ],
+     [
+      1971,
+      3772
+     ],
+     [
+      1971,
+      2574
+     ]
+    ],
+    "closed": true,
+    "id": "old-wall",
+    "blurb": "Year names record that Sumu-la-El (c. 1880–1845) built the 'great wall of Babylon' and that Hammurabi repaired it. Its line is unknown; drawn here as a smaller circuit round the east-bank temple quarter.",
+    "periods": [
+     "hammurabi-1750"
+    ]
+   },
+   {
+    "name": "Wall of the Etemenanki precinct",
+    "path": [
+     [
+      2065,
+      2863
+     ],
+     [
+      2459,
+      2863
+     ],
+     [
+      2459,
+      3240
+     ],
+     [
+      2065,
+      3240
+     ]
+    ],
+    "closed": true,
+    "id": "temenos-wall",
+    "blurb": "The ziggurat stood in a walled court about 400 m square, lined with rooms and store chambers and entered by a dozen gates; it is drawn smaller here.",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Sin Gate",
+    "position": [
+     3144,
+     2263
+    ],
+    "id": "sin-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Marduk Gate",
+    "position": [
+     3519,
+     2718
+    ],
+    "id": "marduk-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Zababa Gate",
+    "position": [
+     3519,
+     3384
+    ],
+    "id": "zababa-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Enlil Gate",
+    "position": [
+     2675,
+     3861
+    ],
+    "id": "enlil-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Uraš Gate",
+    "position": [
+     1333,
+     3861
+    ],
+    "id": "urash-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Šamaš Gate",
+    "position": [
+     985,
+     2774
+    ],
+    "id": "shamash-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Adad Gate",
+    "position": [
+     985,
+     3295
+    ],
+    "id": "adad-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "name": "Lugalirra Gate",
+    "position": [
+     1314,
+     2263
+    ],
+    "id": "lugalirra-gate",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Bridge over the Euphrates",
+    "path": [
+     [
+      1980,
+      3295
+     ],
+     [
+      1774,
+      3295
+     ]
+    ],
+    "build": "stone",
+    "arches": 8,
+    "id": "euphrates-bridge",
+    "blurb": "The bridge joining the two halves of the city, on boat-shaped piers of baked brick and stone; Herodotus says its timber deck was taken up at night against thieves.",
+    "landmarkId": "euphrates-bridge",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2534,
+      2397
+     ],
+     [
+      3059,
+      2397
+     ],
+     [
+      3059,
+      2774
+     ],
+     [
+      2534,
+      2774
+     ]
+    ],
+    "density": "dense",
+    "name": "Old Babylonian quarter (Merkes, deep levels)",
+    "periods": [
+     "hammurabi-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2018,
+      2829
+     ],
+     [
+      3059,
+      2829
+     ],
+     [
+      3059,
+      3218
+     ],
+     [
+      2515,
+      3218
+     ],
+     [
+      2515,
+      3329
+     ],
+     [
+      2018,
+      3329
+     ]
+    ],
+    "density": "dense",
+    "name": "Quarter round Esagila",
+    "periods": [
+     "hammurabi-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2018,
+      3484
+     ],
+     [
+      3059,
+      3484
+     ],
+     [
+      3059,
+      3728
+     ],
+     [
+      2018,
+      3728
+     ]
+    ],
+    "density": "loose",
+    "name": "Southern quarter",
+    "periods": [
+     "hammurabi-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2027,
+      2397
+     ],
+     [
+      2459,
+      2397
+     ],
+     [
+      2459,
+      2774
+     ],
+     [
+      2027,
+      2774
+     ]
+    ],
+    "density": "dense",
+    "name": "North of the temples",
+    "periods": [
+     "hammurabi-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1126,
+      2552
+     ],
+     [
+      1670,
+      2552
+     ],
+     [
+      1670,
+      3550
+     ],
+     [
+      1126,
+      3550
+     ]
+    ],
+    "density": "loose",
+    "name": "West-bank hamlets",
+    "periods": [
+     "hammurabi-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2027,
+      2308
+     ],
+     [
+      2872,
+      2308
+     ],
+     [
+      2872,
+      2685
+     ],
+     [
+      2027,
+      2685
+     ]
+    ],
+    "density": "dense",
+    "name": "Ka-dingirra",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2027,
+      2752
+     ],
+     [
+      2872,
+      2752
+     ],
+     [
+      2872,
+      3329
+     ],
+     [
+      2027,
+      3329
+     ]
+    ],
+    "density": "dense",
+    "name": "Eridu",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2008,
+      3462
+     ],
+     [
+      2872,
+      3462
+     ],
+     [
+      2872,
+      3817
+     ],
+     [
+      2008,
+      3817
+     ]
+    ],
+    "density": "dense",
+    "name": "Šuanna",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2965,
+      2308
+     ],
+     [
+      3472,
+      2308
+     ],
+     [
+      3472,
+      3817
+     ],
+     [
+      2965,
+      3817
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern quarters",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1032,
+      2308
+     ],
+     [
+      1670,
+      2308
+     ],
+     [
+      1670,
+      2752
+     ],
+     [
+      1032,
+      2752
+     ]
+    ],
+    "density": "dense",
+    "name": "Kumar",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1032,
+      2807
+     ],
+     [
+      1670,
+      2807
+     ],
+     [
+      1670,
+      3817
+     ],
+     [
+      1032,
+      3817
+     ]
+    ],
+    "density": "loose",
+    "name": "Tuba",
+    "periods": [
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2562,
+      2308
+     ],
+     [
+      2872,
+      2308
+     ],
+     [
+      2872,
+      2685
+     ],
+     [
+      2562,
+      2685
+     ]
+    ],
+    "density": "dense",
+    "name": "Merkes (Ka-dingirra)",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1999,
+      2585
+     ],
+     [
+      2449,
+      2585
+     ],
+     [
+      2449,
+      2818
+     ],
+     [
+      1999,
+      2818
+     ]
+    ],
+    "density": "dense",
+    "name": "South of the palace",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2965,
+      2308
+     ],
+     [
+      3472,
+      2308
+     ],
+     [
+      3472,
+      2685
+     ],
+     [
+      2965,
+      2685
+     ]
+    ],
+    "density": "dense",
+    "name": "New City (Ālu-eššu)",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2965,
+      2574
+     ],
+     [
+      3472,
+      2574
+     ],
+     [
+      3472,
+      2685
+     ],
+     [
+      2965,
+      2685
+     ]
+    ],
+    "density": "loose",
+    "name": "New City (Ālu-eššu)",
+    "periods": [
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2562,
+      2763
+     ],
+     [
+      2872,
+      2763
+     ],
+     [
+      2872,
+      3340
+     ],
+     [
+      2562,
+      3340
+     ]
+    ],
+    "density": "dense",
+    "name": "Eridu",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2965,
+      2763
+     ],
+     [
+      3472,
+      2763
+     ],
+     [
+      3472,
+      3340
+     ],
+     [
+      2965,
+      3340
+     ]
+    ],
+    "density": "dense",
+    "name": "TE.E",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1999,
+      3484
+     ],
+     [
+      2872,
+      3484
+     ],
+     [
+      2872,
+      3817
+     ],
+     [
+      1999,
+      3817
+     ]
+    ],
+    "density": "dense",
+    "name": "Šuanna",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2965,
+      3428
+     ],
+     [
+      3472,
+      3428
+     ],
+     [
+      3472,
+      3817
+     ],
+     [
+      2965,
+      3817
+     ]
+    ],
+    "density": "dense",
+    "name": "Kullab",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1032,
+      2308
+     ],
+     [
+      1670,
+      2308
+     ],
+     [
+      1670,
+      2729
+     ],
+     [
+      1032,
+      2729
+     ]
+    ],
+    "density": "dense",
+    "name": "Kumar",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1032,
+      2818
+     ],
+     [
+      1670,
+      2818
+     ],
+     [
+      1670,
+      3251
+     ],
+     [
+      1032,
+      3251
+     ]
+    ],
+    "density": "dense",
+    "name": "Tuba",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1032,
+      3340
+     ],
+     [
+      1670,
+      3340
+     ],
+     [
+      1670,
+      3817
+     ],
+     [
+      1032,
+      3817
+     ]
+    ],
+    "density": "dense",
+    "name": "Tuba (south)",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1032,
+      3340
+     ],
+     [
+      1670,
+      3340
+     ],
+     [
+      1670,
+      3817
+     ],
+     [
+      1032,
+      3817
+     ]
+    ],
+    "density": "loose",
+    "name": "Tuba (south)",
+    "periods": [
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3097,
+      888
+     ],
+     [
+      4082,
+      1220
+     ],
+     [
+      4176,
+      2053
+     ],
+     [
+      3191,
+      2053
+     ]
+    ],
+    "density": "loose",
+    "name": "Outer city, north-east",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3773,
+      2352
+     ],
+     [
+      4223,
+      2352
+     ],
+     [
+      4129,
+      3639
+     ],
+     [
+      3773,
+      3639
+     ]
+    ],
+    "density": "loose",
+    "name": "Outer city, east",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2083,
+      4061
+     ],
+     [
+      3660,
+      4061
+     ],
+     [
+      3285,
+      4238
+     ],
+     [
+      2158,
+      4482
+     ]
+    ],
+    "density": "loose",
+    "name": "Outer city, south",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      704,
+      4127
+     ],
+     [
+      1314,
+      4127
+     ],
+     [
+      1314,
+      4604
+     ],
+     [
+      704,
+      4604
+     ]
+    ],
+    "density": "loose",
+    "name": "Villages of the west bank"
+   },
+   {
+    "polygon": [
+     [
+      4617,
+      2053
+     ],
+     [
+      5161,
+      2053
+     ],
+     [
+      5161,
+      2463
+     ],
+     [
+      4617,
+      2463
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlets by the Kish road"
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      141,
+      333
+     ],
+     [
+      1689,
+      333
+     ],
+     [
+      1595,
+      1886
+     ],
+     [
+      141,
+      1886
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of the west bank"
+   },
+   {
+    "polygon": [
+     [
+      141,
+      4127
+     ],
+     [
+      563,
+      4127
+     ],
+     [
+      845,
+      4993
+     ],
+     [
+      141,
+      4993
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves toward Borsippa"
+   },
+   {
+    "polygon": [
+     [
+      2487,
+      1054
+     ],
+     [
+      3003,
+      1054
+     ],
+     [
+      3097,
+      1775
+     ],
+     [
+      2628,
+      1886
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of the outer city",
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2815,
+      888
+     ],
+     [
+      4317,
+      888
+     ],
+     [
+      4317,
+      3661
+     ],
+     [
+      3660,
+      3661
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm gardens east of the city",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2459,
+      444
+     ],
+     [
+      2740,
+      444
+     ],
+     [
+      2740,
+      2108
+     ],
+     [
+      2459,
+      2108
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm gardens north of the city",
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4692,
+      666
+     ],
+     [
+      5208,
+      666
+     ],
+     [
+      5208,
+      1886
+     ],
+     [
+      4739,
+      1886
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields beyond the outer wall"
+   },
+   {
+    "polygon": [
+     [
+      3003,
+      4715
+     ],
+     [
+      4505,
+      4715
+     ],
+     [
+      4505,
+      5048
+     ],
+     [
+      3003,
+      5048
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields to the south"
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      1408,
+      4715
+     ],
+     [
+      1689,
+      4715
+     ],
+     [
+      1595,
+      5048
+     ],
+     [
+      1314,
+      5048
+     ]
+    ],
+    "name": "Reed beds"
+   }
+  ],
+  "districts": [
+   {
+    "id": "ka-dingirra",
+    "name": "Ka-dingirra",
+    "polygon": [
+     [
+      1989,
+      2263
+     ],
+     [
+      2909,
+      2263
+     ],
+     [
+      2909,
+      2685
+     ],
+     [
+      1989,
+      2685
+     ]
+    ],
+    "description": "'Gate of the gods', the quarter by the Ishtar Gate with the Southern Palace and, east of the Processional Way, the houses of Merkes. Quarter names are from the Tintir list; their boundaries are approximate.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "eridu",
+    "name": "Eridu",
+    "polygon": [
+     [
+      1989,
+      2707
+     ],
+     [
+      2909,
+      2707
+     ],
+     [
+      2909,
+      3462
+     ],
+     [
+      1989,
+      3462
+     ]
+    ],
+    "description": "The holy heart of Babylon, named after the ancient southern city of Ea: Esagila, Etemenanki and a cluster of smaller temples.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "shuanna",
+    "name": "Šuanna",
+    "polygon": [
+     [
+      1989,
+      3462
+     ],
+     [
+      2909,
+      3462
+     ],
+     [
+      2909,
+      3861
+     ],
+     [
+      1989,
+      3861
+     ]
+    ],
+    "description": "The southern quarter of the eastern city, an old name sometimes used for Babylon itself; temples of Adad and others stood here.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "new-city",
+    "name": "New City (Ālu-eššu)",
+    "polygon": [
+     [
+      2909,
+      2263
+     ],
+     [
+      3519,
+      2263
+     ],
+     [
+      3519,
+      2718
+     ],
+     [
+      2909,
+      2718
+     ]
+    ],
+    "description": "The north-eastern quarter of the eastern city. In Seleucid times the Greek theatre and later a gymnasium stood at its southern edge on the Homera mound.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "tee",
+    "name": "TE.E",
+    "polygon": [
+     [
+      2909,
+      2718
+     ],
+     [
+      3519,
+      2718
+     ],
+     [
+      3519,
+      3384
+     ],
+     [
+      2909,
+      3384
+     ]
+    ],
+    "description": "A quarter of the eastern city whose name is written only in Sumerian signs; its reading and exact extent are uncertain.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "kullab",
+    "name": "Kullab",
+    "polygon": [
+     [
+      2909,
+      3384
+     ],
+     [
+      3519,
+      3384
+     ],
+     [
+      3519,
+      3861
+     ],
+     [
+      2909,
+      3861
+     ]
+    ],
+    "description": "The south-eastern quarter, with the temple of Ninurta near the Zababa and Enlil gates; named after the quarter of Uruk.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "kumar",
+    "name": "Kumar",
+    "polygon": [
+     [
+      985,
+      2263
+     ],
+     [
+      1708,
+      2263
+     ],
+     [
+      1708,
+      3051
+     ],
+     [
+      985,
+      3051
+     ]
+    ],
+    "description": "The northern quarter of the western city across the river; texts place a temple of Ninurta's wife and dwelling quarters here.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "id": "tuba",
+    "name": "Tuba",
+    "polygon": [
+     [
+      985,
+      3051
+     ],
+     [
+      1708,
+      3051
+     ],
+     [
+      1708,
+      3861
+     ],
+     [
+      985,
+      3861
+     ]
+    ],
+    "description": "The southern quarter of the western city, reached from Esagila by the bridge; little excavated, as the river has since shifted over part of it.",
+    "periods": [
+     "kassite-1300",
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Purattu",
+    "position": [
+     2252,
+     721
+    ],
+    "size": "lg",
+    "rotation": -70
+   },
+   {
+    "text": "Purattu",
+    "position": [
+     1652,
+     4527
+    ],
+    "size": "md",
+    "rotation": -72
+   },
+   {
+    "text": "Bābili",
+    "position": [
+     3895,
+     4127
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "text": "Bābili",
+    "position": [
+     3848,
+     2219
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "hammurabi-1750",
+     "kassite-1300"
+    ]
+   },
+   {
+    "text": "Libil-ḫegalla",
+    "position": [
+     2703,
+     1797
+    ],
+    "size": "sm",
+    "rotation": -35,
+    "periods": [
+     "nebuchadnezzar-575",
+     "achaemenid-450",
+     "alexander-323"
+    ]
+   },
+   {
+    "text": "to Kish",
+    "position": [
+     4927,
+     2308
+    ],
+    "size": "sm",
+    "rotation": -10
+   },
+   {
+    "text": "to Borsippa",
+    "position": [
+     328,
+     4771
+    ],
+    "size": "sm",
+    "rotation": 60
+   },
+   {
+    "text": "to Kutha and Sippar",
+    "position": [
+     3895,
+     311
+    ],
+    "size": "sm",
+    "rotation": -70
+   },
+   {
+    "text": "Homera",
+    "position": [
+     3303,
+     2352
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "alexander-323"
+    ]
+   },
+   {
+    "text": "Palm groves",
+    "position": [
+     845,
+     888
+    ],
+    "size": "sm",
+    "rotation": 0
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D6AA",
+   "ink": "#6A4A2E",
+   "water": "#5E8A8C",
+   "hill": "#A08A60",
+   "road": "#8E6C46"
+  },
+  "compass": [
+   4927,
+   388
+  ],
+  "cartouche": [
+   141,
+   5048
+  ]
+ },
+ "periods": [
+  {
+   "id": "hammurabi-1750",
+   "label": "Hammurabi's Babylon",
+   "year": -1750,
+   "startYear": -1792,
+   "endYear": -1595,
+   "summary": "Babylon of the First Dynasty, a town of the Amorite kings until Hammurabi (1792–1750 BCE) made it the capital of all Mesopotamia. Its streets, the first Esagila of Marduk and its walls lie below today's water table and are almost unexcavated: their size and plan are guessed from Neo-Babylonian layout, a few deep soundings in Merkes and contemporary cities. Mud brick and reed, a little baked brick.",
+   "population": "unknown; perhaps 20,000–50,000",
+   "feel": "Reed mats drying on flat roofs, donkeys at the river landing, the drone of scribes copying Sumerian, beer brewed in every house.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Old Babylonian courtyard houses",
+    "text": "Single-storey houses of sun-dried brick round a small court, entered from crooked lanes, with a reception room, a kitchen and family burials under the floors. This picture comes mostly from contemporary Ur and Sippar; at Babylon only the deepest pits in Merkes reach these levels."
+   },
+   "outskirts": {
+    "title": "Palm groves and canals",
+    "text": "Date-palm gardens with vegetables in their shade, barley fields watered by small canals, threshing floors and reed huts of herders."
+   }
+  },
+  {
+   "id": "kassite-1300",
+   "label": "Kassite Babylon (Karduniash)",
+   "year": -1300,
+   "startYear": -1594,
+   "endYear": -627,
+   "summary": "After the Hittite raid of 1595 the Kassites ruled Babylonia for four centuries and kept Babylon as their capital; the long centuries after them, of Assyrian overlordship and revolt, are folded into this map. The city's quarters, gates and temples were listed in the Tintir text, perhaps compiled in the 12th century; an earlier Etemenanki probably stood by then. Little of Kassite Babylon is excavated beyond houses in Merkes.",
+   "population": "unknown",
+   "feel": "Chariots and horses, a novelty of the Kassites, in the streets; boundary stones carved with gods' symbols; the river traffic of a kingdom at peace.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Kassite houses in Merkes",
+    "text": "Koldewey's deep trenches in Merkes found Kassite-period houses of mud brick on the same lines as later ones: rooms round a court, thick walls, a door to the lane and no windows outside. The picture beyond Merkes is inferred."
+   },
+   "outskirts": {
+    "title": "Fields of Karduniash",
+    "text": "Irrigated barley, sesame and palm gardens along canals, estates granted by kings and recorded on carved boundary stones (kudurru)."
+   }
+  },
+  {
+   "id": "nebuchadnezzar-575",
+   "label": "Nebuchadnezzar's city",
+   "year": -575,
+   "startYear": -626,
+   "endYear": -539,
+   "summary": "Nabopolassar (626–605) and his son Nebuchadnezzar II (605–562), enriched by conquest from Egypt's border to the Gulf, rebuild Babylon in baked brick and bitumen: the double walls and moat, the Ishtar Gate in blue glaze, the Processional Way, the palaces, Etemenanki and Esagila restored, a bridge on stone piers, and an outer wall enclosing the Summer Palace. Perhaps the largest city in the world.",
+   "population": "perhaps 100,000–200,000",
+   "feel": "Kilns smoking outside the walls, bricks stamped with the king's name, glazed lions shining along the Processional Way, Aramaic, Akkadian and Hebrew in the same streets.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of Merkes",
+    "text": "Koldewey's excavated quarter east of the Processional Way: blocks of mud-brick houses round courts, the bigger ones with several courts, walls toothed in shallow steps along irregular lanes, flat roofs of palm beams, mats and earth; doors and drains to the street."
+   },
+   "outskirts": {
+    "title": "The outer city and the palm groves",
+    "text": "Between the inner and outer walls, houses thin out into gardens, kilns and estates; beyond them palm groves line the canals."
+   }
+  },
+  {
+   "id": "achaemenid-450",
+   "label": "Babylon under the Persians",
+   "year": -450,
+   "startYear": -538,
+   "endYear": -332,
+   "summary": "Cyrus took Babylon in 539 without a battle; it became a royal residence of the Persian kings, with a columned pavilion added to the Southern Palace. After the revolts of 484 Xerxes punished the city: some walls were breached and Marduk's cult was curbed (how badly is debated). Herodotus' description, perhaps from c. 450, exaggerates its size but shows it still great and crowded.",
+   "population": "perhaps 100,000 or more",
+   "feel": "Persian guards at the palace gate, temple scribes still keeping their archives in Akkadian, merchants' boats from Armenia unloading wine on the quays.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of three and four storeys?",
+    "text": "Herodotus says Babylon was full of houses of three and four storeys and straight streets running to the river. Excavated houses are mostly of one storey round courts, but some had upper rooms; his account mixes eyewitness and hearsay."
+   },
+   "outskirts": {
+    "title": "Gardens and estates",
+    "text": "Palm groves, fields and the estates of Persian nobles and of business houses like the Murashu of Nippur; canals and kilns between the walls."
+   }
+  },
+  {
+   "id": "alexander-323",
+   "label": "Alexander's Babylon",
+   "year": -323,
+   "startYear": -331,
+   "endYear": -275,
+   "summary": "Alexander entered Babylon in October 331 BCE and planned to make it the capital of his empire. He set men to clear the ruined Etemenanki for rebuilding, a work never finished, and died in Nebuchadnezzar's palace in June 323. Under the Seleucids a Greek theatre rose on the rubble mound of Homera, but the founding of Seleucia on the Tigris drew people away.",
+   "population": "still large; falling after c. 300 BCE",
+   "feel": "Macedonian veterans in the palace courts, Babylonian priests reading omens on the roofs, the dust of brick rubble carted away from the ruined tower.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Old houses, new neighbours",
+    "text": "The same mud-brick courtyard houses of Merkes, repaired and rebuilt on their old lines; Greek soldiers and settlers lodged among Babylonians, and a few houses gained Greek-style peristyle courts later."
+   },
+   "outskirts": {
+    "title": "Fields and the emptying outer city",
+    "text": "Gardens, fields and dwindling hamlets between the walls; palm groves along the canals as before."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "ishtar-gate",
+   "placeId": "ishtar-gate",
+   "name": "Ishtar Gate",
+   "category": "military",
+   "position": [
+    2365,
+    2274
+   ],
+   "rotation": 180,
+   "footprint": [
+    50.0,
+    52.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/ishtar-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 50,
+     "depth": 52,
+     "wallHeight": 10.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "The Tintir list already names an Ishtar Gate, 'Ishtar overthrows her enemies', in the north of the city; what it looked like is not known."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Rebuilt at least three times by Nebuchadnezzar, each time higher as the street was raised; the last phase, in glazed brick, shows mušḫuššu dragons and bulls in alternating rows."
+    },
+    "achaemenid-450": {
+     "note": "Still the city's grand northern entrance. Persian kings and their armies rode through it; the gate seems to have survived the reprisals of 484 that damaged other walls."
+    },
+    "alexander-323": {
+     "note": "Alexander's army entered from the north in October 331, received by the satrap Mazaeus and the people strewing flowers. The gate still stood, its glaze bright."
+    }
+   },
+   "summary": "The northern gate of the inner city, faced with brick glazed deep blue, its walls set with rows of raised dragons of Marduk and bulls of Adad.",
+   "details": [
+    "A double gate through the two inner walls: a smaller outer gate and a taller main gate behind, each a passage between massive towers, crowned with stepped crenellations. Nebuchadnezzar's inscription at the gate says he set wild bulls and fierce dragons in its walls. The smaller front gate was rebuilt in Berlin's Pergamon Museum from Koldewey's fragments.",
+    "The miniature shows the last, glazed phase: blue walls, yellow-and-white beasts in raised bands, cedar-roofed passages shown as dark openings. The height of the main gate (perhaps 25 m or more) is an estimate; its upper parts were not found."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ishtar-gate",
+    "wiki-mushhushshu",
+    "koldewey",
+    "finkel-seymour"
+   ],
+   "built": "c. 575 BCE (final phase)",
+   "function": "City gate on the Processional Way",
+   "activity": {
+    "figures": 40,
+    "radius": 160
+   }
+  },
+  {
+   "id": "processional-way",
+   "placeId": "ay-ibur-shabu",
+   "name": "The Processional Way (Ay-ibur-šabû)",
+   "category": "monument",
+   "position": [
+    2374,
+    2141
+   ],
+   "rotation": 0,
+   "footprint": [
+    36.0,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/processional-way.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 36,
+     "depth": 170,
+     "height": 14.4,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "A processional street to Esagila existed long before, but its earlier walls and paving have not been reached."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Newly raised and paved with limestone and red breccia slabs, each inscribed with the king's name; its walls carry 120 striding lions in glazed brick, sixty a side."
+    },
+    "achaemenid-450": {
+     "note": "The New Year procession goes on under Persian kings, though how regularly after 484 is debated."
+    },
+    "alexander-323": {
+     "note": "The route by which Alexander entered in 331; in 323 his funeral preparations filled the palace beside it."
+    }
+   },
+   "summary": "The sacred street north of the Ishtar Gate, walled with glazed lions of Ishtar, along which Marduk's statue was carried at the New Year festival.",
+   "details": [
+    "North of the gate the street ran about 200 m between high walls faced with blue glazed brick. On each side sixty lions in yellow and white, with red or blue manes, stride toward the gate above a band of rosettes. Beyond lay the Akitu house, whose site is still unknown.",
+    "The miniature shows the walled stretch north of the gate: the paved street 20 m wide, the lion friezes on the inner faces, the projecting towers. The wall height (perhaps 12 m or more) is a reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ishtar-gate",
+    "wiki-lion-of-babylon",
+    "koldewey",
+    "finkel-seymour"
+   ],
+   "built": "c. 600–570 BCE",
+   "function": "Processional street",
+   "activity": {
+    "figures": 60,
+    "radius": 200
+   }
+  },
+  {
+   "id": "southern-palace",
+   "placeId": "sudburg",
+   "name": "Southern Palace of Nebuchadnezzar",
+   "category": "civic",
+   "position": [
+    2196,
+    2441
+   ],
+   "rotation": 0,
+   "footprint": [
+    304.4,
+    194.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/southern-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 304,
+     "depth": 194,
+     "height": 77.60000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Older palaces stood in this north-west corner of the eastern city; Nabopolassar built here before his son replaced everything."
+    },
+    "nebuchadnezzar-575": {
+     "note": "The royal residence and seat of government: five courts in a row from east to west, the throne room on the south of the central court, its façade glazed with lions and palm-columns."
+    },
+    "achaemenid-450": {
+     "note": "A residence of the Persian kings, who wintered in Babylon; a columned pavilion in Persian style is added at its west end."
+    },
+    "alexander-323": {
+     "note": "Alexander lived here in 324–323 and died here on 10 or 11 June 323, aged 32; the Astronomical Diary for that day records simply: 'the king died'."
+    }
+   },
+   "summary": "Nebuchadnezzar's main palace on the north-west of the eastern city: five great courts with halls and offices, and a vast throne room behind a façade of glazed brick.",
+   "details": [
+    "Begun by Nabopolassar and rebuilt by Nebuchadnezzar on a platform against the inner wall, it measured about 300 by 190 m. Each court had its own block of rooms; the third, central court led through three doors into the throne room, about 52 by 17 m, whose courtyard façade was glazed with striding lions, palmette columns and floral bands.",
+    "The miniature shows the five courts with their ranges, the throne room's great doorway and glazed façade, and the towered outer walls. Room plans are simplified; the roofs are drawn flat, though the throne room's roofing is debated."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-babylon",
+    "koldewey",
+    "pedersen-babylon",
+    "wiki-death-of-alexander"
+   ],
+   "built": "c. 610–570 BCE",
+   "function": "Royal palace and seat of government",
+   "activity": {
+    "figures": 50,
+    "radius": 220
+   }
+  },
+  {
+   "id": "hanging-gardens",
+   "placeId": "hanging-gardens",
+   "name": "The Hanging Gardens (an interpretation)",
+   "category": "monument",
+   "position": [
+    1952,
+    2441
+   ],
+   "rotation": 0,
+   "footprint": [
+    111.3,
+    152.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/hanging-gardens.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 150,
+     "height": 44.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "The river and its banks; the great western outwork was built out into the water only under Nebuchadnezzar."
+    },
+    "nebuchadnezzar-575": {
+     "note": "If the gardens existed at Babylon, this is one suggested site: terraces of trees on the massive outwork between the Southern Palace and the river, watered by machines lifting river water."
+    },
+    "achaemenid-450": {
+     "note": "Herodotus, who describes Babylon at length, never mentions hanging gardens; that silence is one reason some doubt they were here at all."
+    },
+    "alexander-323": {
+     "note": "Greek writers of Alexander's time are the first to describe the gardens, as terraces built by a king for a wife homesick for her mountains."
+    }
+   },
+   "summary": "The famous terraced gardens of a Babylonian king, one of the Seven Wonders. Their site is unknown: here they are drawn, as one interpretation, on the western outwork by the river.",
+   "details": [
+    "Berossus, Diodorus, Strabo and Curtius describe stepped terraces carried on vaults, deep soil for great trees, and screws or wheels raising water. No Babylonian text mentions them. Koldewey proposed the Vaulted Building inside the palace; Wiseman the western outwork; Stephanie Dalley argues they were Sennacherib's gardens at Nineveh.",
+    "The miniature is an interpretation, not a reconstruction of evidence: the excavated outwork's massive brick walls with three planted terraces above it, a water-lifting shaft and river stair. Treat everything above the walls as a picture of the Greek descriptions."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hanging-gardens",
+    "dalley-gardens",
+    "wiseman-neb",
+    "koldewey"
+   ],
+   "built": "c. 600–560 BCE, if at all",
+   "function": "Royal garden (traditional)",
+   "activity": {
+    "figures": 10,
+    "radius": 120
+   }
+  },
+  {
+   "id": "persian-pavilion",
+   "placeId": "persian-building",
+   "name": "Persian pavilion",
+   "category": "civic",
+   "position": [
+    2093,
+    2607
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.0,
+    29.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/babylon/persian-pavilion.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 26,
+     "height": 10.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "nebuchadnezzar-575": {
+     "note": "Not yet built: the west end of the Southern Palace looked over the outwork to the river."
+    },
+    "achaemenid-450": {
+     "note": "A small columned hall in Persian style, built for a Persian king (probably Artaxerxes II, c. 400) at the west end of the palace, its walls glazed with figures like those at Susa."
+    },
+    "alexander-323": {
+     "note": "Still part of the palace where Alexander held court in 323."
+    }
+   },
+   "summary": "A columned audience pavilion of the Persian kings at the west end of the Southern Palace, the only Achaemenid building known at Babylon.",
+   "details": [
+    "Koldewey found the foundations of a small hall with column bases of black limestone and glazed bricks with Persian motifs, which he called the 'Perserbau'. It is usually dated to Artaxerxes II, who left an inscription at Babylon; Darius I may have begun it.",
+    "The miniature shows a portico of slender columns in front of a hall on a low terrace, with a glazed frieze. The plan and the column count are reconstructions from the foundations; the site drawn here is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-babylon",
+    "koldewey",
+    "pedersen-babylon"
+   ],
+   "built": "c. 500–400 BCE",
+   "function": "Royal audience pavilion",
+   "activity": {
+    "figures": 8,
+    "radius": 80
+   }
+  },
+  {
+   "id": "northern-palace",
+   "placeId": "hauptburg",
+   "name": "Northern Palace",
+   "category": "civic",
+   "position": [
+    2130,
+    2130
+   ],
+   "rotation": 0,
+   "footprint": [
+    171.6,
+    121.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/northern-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 170,
+     "depth": 120,
+     "height": 48.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Outside the old wall: river bank and gardens."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Built by Nebuchadnezzar outside the inner wall, west of the Processional Way, as a fortified palace and treasury; it later kept a 'museum' of statues and inscriptions collected by the kings."
+    },
+    "achaemenid-450": {
+     "note": "Still a royal building; the old statues kept here may have included the Lion of Babylon, a basalt lion over a fallen man."
+    },
+    "alexander-323": {
+     "note": "Part of the palace complex where Alexander's court lived."
+    }
+   },
+   "summary": "Nebuchadnezzar's second palace just outside the inner walls, a fortified block of courts with massive walls, where older monuments were collected.",
+   "details": [
+    "Nebuchadnezzar built it in the later part of his reign beyond the double wall, on a raised platform, with its own wall and towers on the river side. Inscriptions and statues of earlier rulers, some from Mari and Assyria, were found in it; Koldewey's team called it the palace museum, though how they were displayed is unclear.",
+    "The miniature shows two courts with their ranges of rooms inside towered walls on a platform. The northern parts and the riverside outworks are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-babylon",
+    "koldewey",
+    "pedersen-babylon",
+    "wiki-lion-of-babylon"
+   ],
+   "built": "c. 580–562 BCE",
+   "function": "Palace, fortress and treasury",
+   "activity": {
+    "figures": 20,
+    "radius": 150
+   }
+  },
+  {
+   "id": "summer-palace",
+   "placeId": "babil",
+   "name": "Summer Palace (Babil)",
+   "category": "civic",
+   "position": [
+    2740,
+    499
+   ],
+   "rotation": 0,
+   "footprint": [
+    203.0,
+    181.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/summer-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 200,
+     "depth": 180,
+     "height": 72.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Gardens and fields north of the city; the mound of Babil did not yet exist."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Built late in Nebuchadnezzar's reign at the northern tip of the outer wall on a high platform, perhaps to catch the north wind; Koldewey found ventilation shafts in its structure."
+    },
+    "achaemenid-450": {
+     "note": "Still a royal residence and the outer city's northern bastion."
+    },
+    "alexander-323": {
+     "note": "Later sources say the sick Alexander was carried across the river to a garden palace; whether this one is meant is unknown."
+    }
+   },
+   "summary": "Nebuchadnezzar's palace at the north corner of the outer wall, raised on a great platform of brick; its ruin is the mound of Babil, which kept the city's name.",
+   "details": [
+    "The Babil mound is still over 20 m high. Nebuchadnezzar's inscriptions describe a palace he built on the line of the new outer wall. Its baked-brick platform and shafts were excavated by Koldewey, but erosion and brick-robbing have removed the rooms above.",
+    "The miniature shows a raised platform with buttressed walls, a court with halls around it and corner towers. The upper building is a reconstruction; the name 'Summer Palace' is the excavators'."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-babylon",
+    "koldewey",
+    "wiseman-neb"
+   ],
+   "built": "c. 580–562 BCE",
+   "function": "Royal palace and northern bastion",
+   "activity": {
+    "figures": 12,
+    "radius": 150
+   }
+  },
+  {
+   "id": "etemenanki",
+   "placeId": "etemenanki",
+   "name": "Etemenanki, the ziggurat of Marduk",
+   "category": "temple",
+   "position": [
+    2262,
+    3084
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    151.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/etemenanki.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 110,
+     "depth": 150,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 11.0,
+     "columnHeight": 44.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "hammurabi-1750": {
+     "note": "Whether Hammurabi's Babylon had a ziggurat is unknown; nothing of one this early has been found."
+    },
+    "kassite-1300": {
+     "confidence": "interpretation",
+     "note": "An earlier, smaller tower probably stood here by the late second millennium; Sennacherib damaged it in 689. Its form is unknown and drawn here as a guess.",
+     "model": {
+      "glb": "models/babylon/etemenanki-early.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 110,
+       "depth": 150,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 11.0,
+       "columnHeight": 44.0
+      }
+     }
+    },
+    "nebuchadnezzar-575": {
+     "note": "Completed by Nebuchadnezzar on Nabopolassar's foundations: a tower about 91 m square and, by the Esagila Tablet, as high, in seven stages with a shrine of blue glazed brick on top."
+    },
+    "achaemenid-450": {
+     "note": "Herodotus describes a tower of eight stages with a shrine and a great couch on top, climbed by an outer stair; he may never have seen it himself. Damage after 484 is possible but unproven."
+    },
+    "alexander-323": {
+     "note": "Ruinous by 331. Alexander ordered the rubble cleared to rebuild it; his men carted bricks away for two months, and the work stopped at his death, leaving the core exposed.",
+     "model": {
+      "glb": "models/babylon/etemenanki-ruin.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 110,
+       "depth": 150,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 11.0,
+       "columnHeight": 44.0
+      }
+     }
+    }
+   },
+   "summary": "'House, foundation platform of heaven and earth': the seven-staged temple tower of Marduk in the heart of Babylon, the likely source of the Tower of Babel story.",
+   "details": [
+    "The Esagila Tablet gives its stages: 91.5 m square and 33 m high for the first, then 78 m by 18 m, then four of 6 m each, then a temple 24 by 21 m and 15 m high: about 91 m in all. The mud-brick core had a baked-brick skin 15 m thick. A great stair climbed from the south, flanked by two side stairs.",
+    "The miniature follows the Esagila Tablet and Schmid's reconstruction: stepped stages with buttressed faces, the triple stair and the blue shrine. The ruin variant shows the tower cut down with Alexander's clearance work around it."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-etemenanki",
+    "schmid-ziggurat",
+    "george-house",
+    "herodotus",
+    "arrian"
+   ],
+   "built": "c. 620–575 BCE (final form); earlier phases from the 2nd millennium",
+   "function": "Temple tower of Marduk",
+   "activity": {
+    "figures": 30,
+    "radius": 200
+   }
+  },
+  {
+   "id": "esagila",
+   "placeId": "esagila",
+   "name": "Esagila, temple of Marduk",
+   "category": "temple",
+   "position": [
+    2327,
+    3395
+   ],
+   "rotation": 0,
+   "footprint": [
+    203.1,
+    107.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/esagila.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 203,
+     "depth": 107,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 10.700000000000001,
+     "columnHeight": 42.800000000000004
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hammurabi-1750",
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "hammurabi-1750": {
+     "confidence": "interpretation",
+     "note": "The first Esagila, Marduk's house when Hammurabi made Marduk the chief god of his realm; it lies under the water table and later rebuilding, and its form is unknown."
+    },
+    "kassite-1300": {
+     "note": "Plundered by Tukulti-Ninurta I of Assyria c. 1225 and again by Elam; the Marduk statue's returns from exile became poems and royal boasts."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Rebuilt and lavishly decorated by Nebuchadnezzar: cedar roofs, gold-plated walls in Marduk's shrine, the gold statue and couch Herodotus later describes."
+    },
+    "achaemenid-450": {
+     "note": "Still the city's great temple, with its scribes and astronomers; Xerxes is said to have punished it after 484, though temple business carried on."
+    },
+    "alexander-323": {
+     "note": "Alexander sacrificed to Marduk here in 331 and ordered the temple restored; it kept its priests and astronomers into Parthian times."
+    }
+   },
+   "summary": "Marduk's house, 'House whose top is lofty': the great temple of Babylon's god and its forecourt, the religious centre of Mesopotamia for over a thousand years.",
+   "details": [
+    "The main temple was about 86 by 79 m, built round a court with Marduk's shrine on the west side, gilded within; a larger forecourt to the east, about 116 by 103 m, held store rooms and shrines of other gods. Koldewey reached it by tunnelling 20 m down through the Amran mound.",
+    "The miniature shows the inner temple and forecourt with their buttressed and niched walls, gate towers and stepped crenellations. The upper parts, roofs and interiors are reconstructions; the forecourt's plan is only partly known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-esagila",
+    "george-house",
+    "koldewey",
+    "herodotus"
+   ],
+   "built": "c. 1800 BCE onward; rebuilt c. 600–570 BCE",
+   "function": "Temple of Marduk and Zarpanitu",
+   "activity": {
+    "figures": 50,
+    "radius": 200
+   }
+  },
+  {
+   "id": "emah",
+   "placeId": "e-mah",
+   "name": "E-mah, temple of Ninmah",
+   "category": "temple",
+   "position": [
+    2506,
+    2363
+   ],
+   "rotation": 180,
+   "footprint": [
+    55.0,
+    41.6
+   ],
+   "scale": 1.2,
+   "model": {
+    "glb": "models/babylon/emah.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 55,
+     "depth": 40,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 4.0,
+     "columnHeight": 16.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "An older temple of the mother goddess may have stood here; Assyrian kings claim to have restored temples of Babylon in the 7th century."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Rebuilt by Nebuchadnezzar just inside the Ishtar Gate, a mud-brick temple of the mother goddess with whitewashed walls and towered gate."
+    },
+    "achaemenid-450": {
+     "note": "Still in use; small offerings and figurines were found in its court."
+    },
+    "alexander-323": {
+     "note": "In use, though decaying; the rebuilt temple on the site today was raised by the Iraqi government in the 1980s."
+    }
+   },
+   "summary": "The 'Exalted House' of Ninmah, mother goddess, beside the Ishtar Gate: a typical Babylonian temple of mud brick with a gate tower, a court and a shrine.",
+   "details": [
+    "About 53 by 35 m, entered by one towered gate leading through a vestibule into a court with a well and from there to the sanctuary. Its outer walls were decorated with vertical grooves and toothed buttresses, plastered and whitewashed.",
+    "The miniature shows the whitewashed walls with their grooved buttresses, the gate tower with stepped crenellations, the court and the high sanctuary. Proportions follow the excavated plan."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ninhursag",
+    "wiki-babylon",
+    "koldewey",
+    "george-house"
+   ],
+   "built": "c. 600–570 BCE (rebuilt)",
+   "function": "Temple of Ninmah",
+   "activity": {
+    "figures": 10,
+    "radius": 90
+   }
+  },
+  {
+   "id": "emashdari",
+   "placeId": "e-mashdari",
+   "name": "E-mašdari, temple of Ishtar of Agade",
+   "category": "temple",
+   "position": [
+    2797,
+    2607
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.0,
+    37.6
+   ],
+   "scale": 1.3,
+   "model": {
+    "glb": "models/babylon/emashdari.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 40,
+     "depth": 36,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.6,
+     "columnHeight": 14.4
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Merkes was already a dwelling quarter; whether a temple of Ishtar of Agade stood here this early is unknown."
+    },
+    "nebuchadnezzar-575": {
+     "note": "A neighbourhood temple in the middle of the houses of Merkes, rebuilt under the Neo-Babylonian kings, with its whitewashed façade on the street."
+    },
+    "achaemenid-450": {
+     "note": "Still serving the quarter; houses pressed up against its walls."
+    },
+    "alexander-323": {
+     "note": "Still standing in Merkes."
+    }
+   },
+   "summary": "The 'House of offerings' of Ishtar of Agade, a small temple set among the houses of Merkes, its towered gate opening on a lane.",
+   "details": [
+    "Roughly 35 m across, with a single court and the sanctuary on one side, walls toothed with buttresses and recesses. Clay figurines and offerings were found in it. Its builder is uncertain; inscribed bricks at Babylon show many such temples rebuilt in the 7th and 6th centuries.",
+    "The miniature shows the temple with its grooved gate towers and court. It is the best example of the many small temples the Tintir list says Babylon held, more than forty in all."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-inanna",
+    "koldewey",
+    "george-house"
+   ],
+   "built": "7th–6th century BCE (rebuilt)",
+   "function": "Temple of Ishtar of Agade",
+   "activity": {
+    "figures": 10,
+    "radius": 80
+   }
+  },
+  {
+   "id": "nabu-sha-hare",
+   "placeId": "nabu-sha-hare",
+   "name": "Temple of Nabû ša ḫarê",
+   "category": "temple",
+   "position": [
+    2309,
+    2707
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.0,
+    41.6
+   ],
+   "scale": 1.2,
+   "model": {
+    "glb": "models/babylon/nabu-sha-hare.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 50,
+     "depth": 40,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 4.0,
+     "columnHeight": 16.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "The ground beside the sacred way; what stood here before Nebuchadnezzar's rebuilding is not known."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Rebuilt by Nebuchadnezzar for Nabu, god of scribes, on the Processional Way between the palace and the ziggurat; hundreds of school exercise tablets were found in it."
+    },
+    "achaemenid-450": {
+     "note": "Probably still in use under the Persians; most of the school tablets in its floors date from the 6th century."
+    },
+    "alexander-323": {
+     "note": "Still on the procession route, beside the rubble of Alexander's clearance."
+    }
+   },
+   "summary": "A temple of Nabu, divine scribe and son of Marduk, beside the Processional Way, where schoolboys practised writing on clay.",
+   "details": [
+    "Excavated by the Iraqi State Board of Antiquities in 1979: a temple with a court, a sanctuary and rooms, whose floor fills held school exercises, many copying the same signs and phrases. Its name probably refers to a kind of vessel (ḫarû) used in Nabu's rites.",
+    "The miniature shows a whitewashed mud-brick temple with a towered gate, grooved walls and an inner court."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nabu",
+    "pedersen-babylon",
+    "george-house"
+   ],
+   "built": "c. 600–570 BCE (rebuilt)",
+   "function": "Temple of Nabu; scribal school",
+   "activity": {
+    "figures": 12,
+    "radius": 80
+   }
+  },
+  {
+   "id": "ninurta-temple",
+   "placeId": "e-hursagtilla",
+   "name": "E-ḫursag-tilla, temple of Ninurta",
+   "category": "temple",
+   "position": [
+    3266,
+    3639
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    51.6
+   ],
+   "scale": 1.2,
+   "model": {
+    "glb": "models/babylon/ninurta-temple.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 60,
+     "depth": 50,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 5.0,
+     "columnHeight": 20.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "The Tintir list names a temple of Ninurta in Babylon; its earlier phases here have not been excavated."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Rebuilt by Nabopolassar, a long temple with three entrances on its long side, in the south-east of the eastern city."
+    },
+    "achaemenid-450": {
+     "note": "A neighbourhood temple of the warrior god, still in use."
+    },
+    "alexander-323": {
+     "note": "Still standing; Hellenistic-period houses grew up around it."
+    }
+   },
+   "summary": "The 'House which exterminates the mountain', temple of the warrior god Ninurta, in the south-east of the eastern city.",
+   "details": [
+    "Koldewey excavated it in the Ishin Aswad mound: a broad temple roughly 50 m across with three gates on the south side opening into a court and three shrines, unusual for Babylon. Nabopolassar's foundation cylinders were found in it.",
+    "The miniature shows the court temple with its three towered gates and toothed walls. The heights are estimates."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ninurta",
+    "koldewey",
+    "george-house"
+   ],
+   "built": "c. 620–605 BCE (rebuilt)",
+   "function": "Temple of Ninurta",
+   "activity": {
+    "figures": 10,
+    "radius": 80
+   }
+  },
+  {
+   "id": "euphrates-bridge",
+   "placeId": "euphrates-bridge",
+   "name": "The bridge over the Euphrates",
+   "category": "civic",
+   "position": [
+    1877,
+    3295
+   ],
+   "rotation": 0,
+   "footprint": [
+    180.0,
+    20.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 180,
+     "depth": 20,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "No bridge yet: ferries and boats crossed between the two halves of the city."
+    },
+    "nebuchadnezzar-575": {
+     "note": "Built probably under Nabopolassar or Nebuchadnezzar: one of the earliest known bridges on stone piers, carrying the Processional Way's westward branch."
+    },
+    "achaemenid-450": {
+     "note": "Herodotus attributes it to a queen Nitocris: stones bound with iron and lead, its planks removed every night."
+    },
+    "alexander-323": {
+     "note": "Still in use; the Euphrates would later shift west and leave the piers in dry ground."
+    }
+   },
+   "summary": "A bridge of about 120 m on boat-shaped piers of baked brick and stone, joining the eastern and western cities between Etemenanki and the river quays.",
+   "details": [
+    "Koldewey uncovered the piers in the old riverbed: each about 21 m long and 9 m wide, pointed upstream, built of baked brick in bitumen with limestone courses, standing about 9 m apart. Timber beams spanned the gaps; Herodotus says the deck was taken up at night.",
+    "The miniature shows the boat-shaped piers with cutwaters, the timber deck and railings, and the brick abutments with steps down to the quays."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-babylon",
+    "koldewey",
+    "herodotus"
+   ],
+   "built": "c. 620–570 BCE",
+   "function": "Bridge",
+   "activity": {
+    "figures": 20,
+    "radius": 120
+   }
+  },
+  {
+   "id": "outer-gate",
+   "placeId": "outer-wall-kish-gate",
+   "name": "Outer wall and the gate to Kish",
+   "category": "military",
+   "position": [
+    4364,
+    2552
+   ],
+   "rotation": 270,
+   "footprint": [
+    90.0,
+    44.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/outer-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 90,
+     "depth": 44,
+     "wallHeight": 8.8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Open country of palm groves and fields east of the city; the outer wall came only with Nebuchadnezzar."
+    },
+    "nebuchadnezzar-575": {
+     "note": "A new triple rampart of baked and mud brick with towers, a road along its top and a moat outside; this gate on the road to Kish is a reconstruction of a type."
+    },
+    "achaemenid-450": {
+     "note": "Herodotus says chariots could turn on top of the walls. Parts of the defences were slighted after Xerxes put down the revolts of 484."
+    },
+    "alexander-323": {
+     "note": "The walls still stood, though no longer kept in repair; the outer city between them was emptying."
+    }
+   },
+   "summary": "A stretch of Nebuchadnezzar's outer wall with its towers and a gate on the road east to Kish, behind a broad moat.",
+   "details": [
+    "Nebuchadnezzar enclosed the eastern suburbs with a wall several kilometres long: a mud-brick wall about 7 m thick, a baked-brick wall nearly as thick in front of it with a filled space between, and a baked-brick quay along the moat. Towers projected at intervals. Its gates have not been excavated; their names are not known for certain.",
+    "The miniature shows a 90 m stretch: the two walls with towers and stepped crenellations, a gatehouse on the road, and the moat embankment outside. The gate's form follows the inner-city gates."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-walls-of-babylon",
+    "koldewey",
+    "herodotus"
+   ],
+   "built": "c. 590–570 BCE",
+   "function": "City wall and gate",
+   "activity": {
+    "figures": 12,
+    "radius": 120
+   }
+  },
+  {
+   "id": "greek-theatre",
+   "placeId": "greek-theatre",
+   "name": "Greek theatre",
+   "category": "entertainment",
+   "position": [
+    3285,
+    2663
+   ],
+   "rotation": 0,
+   "footprint": [
+    76.0,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/babylon/theatre.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 76,
+     "depth": 64,
+     "height": 25.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "alexander-323"
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "Houses of the north-eastern quarter; no Greek theatre yet."
+    },
+    "alexander-323": {
+     "note": "Built for the Greeks and Macedonians of the city, perhaps under Alexander or, more likely, the first Seleucids after c. 320–300 BCE, beside the Homera rubble mound; rebuilt in Parthian times."
+    }
+   },
+   "summary": "A Greek theatre of mud brick and baked brick in the north-east of the city, the clearest sign of the Macedonians who settled in Babylon after Alexander.",
+   "details": [
+    "Excavated by the Germans in the Homera area: a semicircular auditorium on a brick-and-earth bank, an orchestra and a stage building, rebuilt more than once into Parthian times; a gymnasium lay nearby. Its first building date is uncertain, between Alexander and the early Seleucids.",
+    "The miniature shows the cavea in rising tiers, the orchestra circle and a simple stage building. Seating rows and the stage front are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-greek-theatre",
+    "wiki-babylon",
+    "pedersen-babylon"
+   ],
+   "built": "c. 320–275 BCE (first phase; uncertain)",
+   "function": "Theatre",
+   "activity": {
+    "figures": 25,
+    "radius": 120
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "edubba",
+   "name": "A scribe's house school (é-dub-ba-a)",
+   "kind": "school",
+   "position": [
+    2740,
+    2552
+   ],
+   "activePeriods": [
+    "hammurabi-1750",
+    "kassite-1300"
+   ],
+   "summary": "A schoolroom in a private house, where a master scribe taught boys to shape clay tablets, press wedges and copy Sumerian proverbs and hymns.",
+   "details": [
+    "Old Babylonian schools are known from houses excavated at Ur and Nippur, with benches, tablet bins and thousands of exercises; Babylon's own levels of this age are under water. Pupils copied sign lists, then model contracts and literature, and were beaten for errors, as the school stories themselves complain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-eduba",
+    "robson-scribes"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The pupil arrives with bread his mother gave him. The 'school father' hands out the day's model tablet; the clay bin smells of wet earth and river mud."
+    },
+    {
+     "hour": 13,
+     "text": "Thirty boys bend over lumps of clay, styluses of reed in hand, copying the same line of a proverb. A monitor checks each tablet and the cane comes down."
+    },
+    {
+     "hour": 19,
+     "text": "Exercises are smoothed flat for tomorrow, or thrown into the bin to be soaked and reused; four thousand years later archaeologists will find them under the floor."
+    }
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Kassite-era scribes copy and standardise the great literary works: Enuma Elish, Marduk's creation epic, may have taken its final form around now."
+    }
+   }
+  },
+  {
+   "id": "alewife-tavern",
+   "name": "The alewife's tavern",
+   "kind": "tavern",
+   "position": [
+    2703,
+    2996
+   ],
+   "activePeriods": [
+    "hammurabi-1750",
+    "kassite-1300"
+   ],
+   "summary": "A beer house kept by a woman, the sabitum, regulated by Hammurabi's laws: fair measures, and a duty to report outlaws who plot in her house.",
+   "details": [
+    "Laws 108–111 of Hammurabi's code deal with the alewife: if she takes silver at a short measure she is thrown into the water; if criminals gather in her house and she does not report them, she is put to death; a priestess who opens a tavern is burned. Beer was paid for in barley, often on credit until harvest."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-code-of-hammurabi",
+    "roth-law",
+    "damerow-beer"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The alewife strains yesterday's mash through a basket. Barley bread soaked in water has fermented in big jars sunk in the floor; she skims and tastes."
+    },
+    {
+     "hour": 14,
+     "text": "Labourers from the canal works drink through long reed straws from a shared jar, to keep back the husks. Payment is scratched on a tally until harvest."
+    },
+    {
+     "hour": 21,
+     "text": "Lamps of sesame oil. Two strangers talk low in the corner; the alewife knows the law and watches them."
+    }
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Still a woman's trade in Kassite times; texts list beer of many kinds, dark, light, sweet and 'first-quality'."
+    }
+   }
+  },
+  {
+   "id": "merkes-house",
+   "name": "A house in Merkes",
+   "kind": "house",
+   "position": [
+    2628,
+    2463
+   ],
+   "activePeriods": [
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "One of the courtyard houses Koldewey excavated east of the Processional Way: rooms round a court, a reception room on the south, a door to a crooked lane.",
+   "details": [
+    "In Merkes the excavators dug down through houses from Parthian times to the Kassite period, each built on the walls of the one before. The richer houses had several courts, brick-paved floors and drains; family dead were buried under floors in jars and coffins. Contracts and letters were found in some rooms."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "koldewey",
+    "pedersen-babylon",
+    "van-de-mieroop"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The slave girl sweeps the court and draws water. Smoke from the bread oven rises past the roof parapet; on the roof, bedding from the hot night is rolled away."
+    },
+    {
+     "hour": 13,
+     "text": "Thick walls and no outside windows keep the rooms cool. The household dozes in the shaded reception room facing north across the court."
+    },
+    {
+     "hour": 20,
+     "text": "Neighbours climb to the roofs for the evening breeze and talk across the lane; below, a watchman's lamp passes."
+    }
+   ],
+   "variants": {
+    "kassite-1300": {
+     "note": "Kassite houses lie deep under Merkes, built on the same lines as later ones."
+    },
+    "nebuchadnezzar-575": {
+     "note": "The quarter is rebuilt as the street level rises with the Processional Way."
+    },
+    "alexander-323": {
+     "note": "Still lived in; a few houses later gain Greek-style columned courts."
+    }
+   }
+  },
+  {
+   "id": "palm-grove",
+   "name": "Date-palm grove on the west bank",
+   "kind": "garden",
+   "position": [
+    1032,
+    1109
+   ],
+   "activePeriods": [
+    "hammurabi-1750",
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "A garden of date palms along an irrigation channel, with vegetables and pulses growing in their shade: the wealth of Babylonia, and its daily food.",
+   "details": [
+    "Dates were Babylonia's staple sweetener, fodder and trade good; palms were pollinated by hand, men climbing with a loop of rope. Herodotus says the palms gave bread, wine and honey. Gardens were rented out for a fixed share of the crop, recorded in contracts by the thousand."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-date-palm",
+    "herodotus",
+    "wunsch-egibi"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A gardener climbs a palm with a rope loop round his waist to tie male flowers among the female ones. Frogs croak in the channel."
+    },
+    {
+     "hour": 13,
+     "text": "Under the palms it is green and cool; onions, beans and cucumbers grow in the shade. A shaduf creaks as a boy lifts water."
+    },
+    {
+     "hour": 19,
+     "text": "Baskets of dates are counted for the landlord's share. Smoke from the city's ovens hangs over the walls to the east."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "coracle-harbour",
+   "name": "Quay of the round boats",
+   "kind": "dock",
+   "position": [
+    1689,
+    2663
+   ],
+   "activePeriods": [
+    "hammurabi-1750",
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "A landing on the Euphrates where round boats of hide or bitumen-coated reed, the quffa, unload jars, stone and fodder from upstream.",
+   "details": [
+    "Herodotus describes round boats of hide on willow frames, coming down from Armenia with wine, each with a live donkey aboard; at Babylon the cargo was sold, the frames too, and the hides went home by donkey. Round reed boats coated with bitumen, the quffa, were used on the Euphrates into the 20th century."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "herodotus",
+    "wiki-coracle"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Round boats spin slowly as they come in, two men paddling. One has a donkey standing among the jars, ears twitching."
+    },
+    {
+     "hour": 12,
+     "text": "Porters carry palm-wine jars and bundles of reed up the quay steps; a scribe tallies the toll on a damp tablet."
+    },
+    {
+     "hour": 19,
+     "text": "Skins are stripped from emptied frames and loaded on the donkeys for the long walk upstream."
+    }
+   ],
+   "variants": {
+    "hammurabi-1750": {
+     "note": "The landing of a smaller city; letters of Hammurabi order boats of barley and timber to Babylon."
+    },
+    "achaemenid-450": {
+     "note": "The scene Herodotus describes: hide boats from Armenia, a donkey in each."
+    }
+   }
+  },
+  {
+   "id": "temple-granary",
+   "name": "Esagila's storehouses",
+   "kind": "works",
+   "position": [
+    2140,
+    3484
+   ],
+   "activePeriods": [
+    "hammurabi-1750",
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "The store rooms of Marduk's temple: barley, dates, sesame oil and wool from temple estates, measured in and paid out as rations to its staff.",
+   "details": [
+    "The temple was a great household: it owned land and herds, employed farmers, bakers, brewers and craftsmen, and fed them from its stores. Neo-Babylonian temple archives record every delivery and ration; Esagila's own archive is mostly lost, but those of Sippar and Uruk show how such stores worked."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "pedersen-babylon",
+    "van-de-mieroop"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Barges from the temple's fields unload barley; the measurer fills a standard vessel again and again while a scribe makes strokes on a tablet."
+    },
+    {
+     "hour": 12,
+     "text": "Brewers and bakers line up for their monthly issue of barley and dates. Seals of clay close the store-room doors behind them."
+    },
+    {
+     "hour": 18,
+     "text": "The doorkeeper seals the last room with a lump of clay pressed with the temple's seal."
+    }
+   ],
+   "variants": {
+    "hammurabi-1750": {
+     "note": "The first Esagila's stores; letters of Hammurabi deal with temple land and its tenants."
+    }
+   }
+  },
+  {
+   "id": "brick-kiln",
+   "name": "Brick kilns of the outer city",
+   "kind": "works",
+   "position": [
+    3848,
+    1553
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450"
+   ],
+   "summary": "Kilns firing millions of bricks for the king's works, each brick stamped with Nebuchadnezzar's name and titles.",
+   "details": [
+    "Nebuchadnezzar's bricks carry stamps such as 'Nebuchadnezzar, king of Babylon, provider for Esagila and Ezida, eldest son of Nabopolassar'. Fired bricks were laid in bitumen from Hit upriver; glazed bricks for the gates were moulded in sections and fired twice. The stamped bricks are still found all over the site."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-brick",
+    "wiki-nebuchadnezzar",
+    "koldewey"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The kiln is opened while it is still cool. Men pass bricks hand to hand, each stamped with the king's name in neat signs."
+    },
+    {
+     "hour": 13,
+     "text": "Moulders press clay mixed with straw into wooden frames and slap the stamp on the wet face. Rows of bricks dry in the sun by the thousand."
+    },
+    {
+     "hour": 20,
+     "text": "The kilns glow; palm fronds and reed are fed into the fire-holes all night, and the smoke drifts over the moat."
+    }
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "Building slows under the Persians; bricks of Nebuchadnezzar are reused, and few kings stamp their own."
+    }
+   }
+  },
+  {
+   "id": "ration-archive",
+   "name": "Store rooms of the palace (Jehoiachin's rations)",
+   "kind": "civic",
+   "position": [
+    2290,
+    2363
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575"
+   ],
+   "summary": "Vaulted store rooms in the north-east corner of the Southern Palace, where tablets listed oil rations for foreign hostages, including Jehoiachin, king of Judah.",
+   "details": [
+    "Koldewey found tablets in the 'Vaulted Building' dated around 592 BCE listing oil issued to craftsmen and captives: Egyptians, Ionians, Lydians, Phoenicians, and 'Ya'u-kinu, king of the land of Yahudu' and his five sons. Koldewey thought the vaults held the Hanging Gardens; they were more likely store rooms."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-jehoiachin-tablets",
+    "koldewey",
+    "finkel-seymour"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A clerk ladles sesame oil from a great jar into the vessels of waiting stewards, reading names from a tablet: Greek carpenters, Egyptian sailors, the king of Judah."
+    },
+    {
+     "hour": 13,
+     "text": "In the vaulted rooms it is dim and cool. Jars of oil and grain stand in rows; the store-keeper checks the seals."
+    },
+    {
+     "hour": 19,
+     "text": "Tablets of the day's issues are stacked on a shelf, to be found by German excavators in 1899–1917."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "exile-household",
+   "name": "A Judean household by the canal",
+   "kind": "house",
+   "position": [
+    2797,
+    1775
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450"
+   ],
+   "summary": "A house of exiles from Judah on the edge of the outer city: 'By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.'",
+   "details": [
+    "Nebuchadnezzar deported Judeans in 597 and 587. Many were settled in villages like Al-Yahudu ('Judahtown') somewhere in Babylonia, whose tablets show them renting land and paying taxes; others lived in Babylon. Psalm 137 is a later poem; this household's site is invented to show their lives."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-captivity",
+    "pearce-wunsch"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The father leaves for the fields he rents from a Babylonian landowner. His sons have Babylonian names as well as Hebrew ones."
+    },
+    {
+     "hour": 13,
+     "text": "In the heat the women weave by the canal; willows trail in the water, where, the psalm says, harps were hung."
+    },
+    {
+     "hour": 20,
+     "text": "Neighbours gather to hear an old man tell of the Temple in Jerusalem, burned when he was a boy."
+    }
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "After Cyrus allowed a return in 538, many Judeans stayed; the Murashu archive of Nippur names Jewish tenants under Artaxerxes."
+    }
+   }
+  },
+  {
+   "id": "egibi-house",
+   "name": "House of the Egibi family",
+   "kind": "bank",
+   "position": [
+    2740,
+    3107
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450"
+   ],
+   "summary": "The house of the Egibi, Babylon's best-known business family, whose archive of over 1,700 tablets covers five generations, from Nebuchadnezzar to Xerxes.",
+   "details": [
+    "The Egibi lent silver, bought and rented land and houses, traded dates and barley, and farmed taxes for the crown. Their contracts, marriage settlements and slave sales were dug up by local people in the 1870s and bought by the British Museum; the house's exact site is unknown and drawn here in Eridu."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wunsch-egibi",
+    "finkel-seymour"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Itti-Marduk-balatu, head of the family, receives a tenant who cannot pay. A scribe drafts a new contract, with witnesses' names at the foot."
+    },
+    {
+     "hour": 14,
+     "text": "Silver is weighed on a balance in small cut pieces, not coins. Dates owed are reckoned in measures and converted at the day's price."
+    },
+    {
+     "hour": 19,
+     "text": "Tablets are sealed in jars by year and stacked in the archive room: the debts and dowries of a family over a century."
+    }
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "The archive ends after Xerxes' reign began, perhaps as the revolts of 484 shook Babylon's old families."
+    }
+   }
+  },
+  {
+   "id": "brewery",
+   "name": "A brewer's house in Šuanna",
+   "kind": "workshop",
+   "position": [
+    2440,
+    3661
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "A brewery making beer of barley and of dates, for temple rations, taverns and households.",
+   "details": [
+    "Neo-Babylonian temples employed prebend-holding brewers who supplied beer for the gods' meals; in the city, beer of dates was as common as barley beer. Jars, vats and drains for brewing have been found in houses; the stages, from malt to mash to beer bread, are described in texts."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "damerow-beer",
+    "pedersen-babylon"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Malted barley dries on mats on the roof; below, the brewer's sons crush dates into a vat and add the starter from yesterday's brew."
+    },
+    {
+     "hour": 13,
+     "text": "The courtyard smells sweet and sour. Jars sealed with clay wait for a temple porter to carry them to Esagila for the god's table."
+    },
+    {
+     "hour": 20,
+     "text": "Neighbours come with jugs. The brewer's wife fills them from a big jar and marks each house's debt."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "arahtu-quay",
+   "name": "Quay wall of the Arahtu",
+   "kind": "dock",
+   "position": [
+    2008,
+    3550
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "The baked-brick quay wall along the river, with steps and sluices where canals left the Euphrates, built by Nabopolassar and Nebuchadnezzar.",
+   "details": [
+    "Nabopolassar's inscriptions say he lined the Arahtu's banks with baked brick and bitumen; Nebuchadnezzar raised and extended the quays. Gates in the walls controlled the water let into the moats and the Libil-ḫegalla canal; their exact form is not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "koldewey",
+    "pedersen-babylon"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The sluice keeper checks the river's height against marks on the quay and opens the gate a hand's breadth; water rushes into the canal."
+    },
+    {
+     "hour": 13,
+     "text": "Women fill jars on the quay steps; boys dive from the bottom step. Boats from Borsippa tie up alongside."
+    },
+    {
+     "hour": 19,
+     "text": "The gate is closed against the night. Across the water, lamps on the western quay come on one by one."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "astronomers",
+   "name": "The astronomers of Esagila",
+   "kind": "school",
+   "position": [
+    2534,
+    3528
+   ],
+   "activePeriods": [
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "Temple scholars who watched the sky every night and wrote the Astronomical Diaries, recording planets, weather, river levels, prices and events.",
+   "details": [
+    "The Diaries run from 652 BCE to the 1st century BCE. Each entry notes the moon and planets, weather, the river's level, the prices of six goods and the news. The diary for 323 BCE records: 'The king died.' The observers worked for Esagila; where on its roofs they watched is not known."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-diaries",
+    "sachs-hunger"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The night watch ends. The observer writes: 'Venus in the east below Gemini; mist; the river rose.' The day's prices will come from the market."
+    },
+    {
+     "hour": 13,
+     "text": "In the temple's tablet house a senior scholar compares last month's diary with the old tables to predict the next eclipse."
+    },
+    {
+     "hour": 21,
+     "text": "On the roof the observer measures the moon's distance from a normal star in fingers, a thumb's width held at arm's length."
+    }
+   ],
+   "variants": {
+    "alexander-323": {
+     "note": "In June 323 the diary records the king's death in the palace, between notes on the weather and prices."
+    }
+   }
+  },
+  {
+   "id": "akitu-house",
+   "name": "The Akitu house (site unknown)",
+   "kind": "shrine",
+   "position": [
+    2459,
+    1054
+   ],
+   "activePeriods": [
+    "kassite-1300",
+    "nebuchadnezzar-575",
+    "achaemenid-450",
+    "alexander-323"
+   ],
+   "summary": "The festival house outside the city where Marduk's statue stayed during the New Year, reached by the Processional Way; its site has not been found.",
+   "details": [
+    "Texts place the bit akiti beyond the Ishtar Gate, perhaps on a canal reached by boat as well as by road. Here, on the eighth to eleventh days of Nisannu, the gods gathered round Marduk to fix the destinies of the year. The spot shown is a guess on the line of the road."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-akitu",
+    "bidmead-akitu",
+    "george-btt"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Gardeners water the festival house's grove; priests air the god's chamber for his visit in the month of Nisannu."
+    },
+    {
+     "hour": 12,
+     "text": "On festival day the procession arrives: drums, the statues of gods on carrying poles, the king walking beside Marduk."
+    },
+    {
+     "hour": 19,
+     "text": "Lamps in the grove; the gods feast, and the priests sing the Enuma Elish, Marduk's victory over Tiamat."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "royal-mint",
+   "name": "Mint of Babylon",
+   "kind": "workshop",
+   "position": [
+    2740,
+    2796
+   ],
+   "activePeriods": [
+    "alexander-323"
+   ],
+   "summary": "A workshop striking silver coins in Babylon: the 'lion staters' of the satrap Mazaeus and, from about 325, Alexander's own tetradrachms.",
+   "details": [
+    "Under Alexander Babylon became one of the empire's main mints, using silver from the Persian treasuries. Coins struck here show Heracles and Zeus, or Baal and a lion. Babylonians had long paid with weighed silver; coins took hold only slowly. The mint's building has not been found."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-alexander",
+    "pedersen-babylon"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Blanks of silver are heated in a charcoal furnace; a moneyer's slave grips them with tongs and lays them on the anvil die."
+    },
+    {
+     "hour": 13,
+     "text": "Thud, thud: the hammer strikes the upper die. A Greek overseer weighs every tenth coin; a Babylonian scribe records the output."
+    },
+    {
+     "hour": 19,
+     "text": "Coins are counted into sealed bags for the army's pay; Alexander's veterans will spend them in the city's taverns."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "code-of-hammurabi",
+   "title": "Hammurabi sets up his laws",
+   "periodId": "hammurabi-1750",
+   "date": "c. 1754 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "esagila"
+   },
+   "effect": "none",
+   "text": "Near the end of his reign Hammurabi had about 282 laws carved on stone stelae under a relief of himself before the sun god Šamaš. The epilogue says a stele stood before his statue 'King of Justice' in Esagila, so that any wronged man could have it read to him. The surviving stele, found at Susa where Elamites had carried it, is in the Louvre.",
+   "sourceIds": [
+    "wiki-code-of-hammurabi",
+    "roth-law",
+    "wiki-hammurabi"
+   ]
+  },
+  {
+   "id": "hittite-sack",
+   "title": "The Hittite raid on Babylon",
+   "periodId": "hammurabi-1750",
+   "date": "c. 1595 BCE (middle chronology)",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "esagila"
+   },
+   "effect": "fire",
+   "text": "The Hittite king Mursili I marched far down the Euphrates from Anatolia, sacked Babylon and went home, ending Hammurabi's dynasty. Later tradition says Marduk's statue was carried off to Hana and brought back by a Kassite king. The date depends on the chronology used; some scholars put it in the 1530s.",
+   "sourceIds": [
+    "wiki-mursili",
+    "wiki-statue-of-marduk",
+    "babylonian-chronicles"
+   ]
+  },
+  {
+   "id": "marduk-returns",
+   "title": "Nebuchadnezzar I brings Marduk home",
+   "periodId": "kassite-1300",
+   "date": "c. 1110 BCE",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "esagila"
+   },
+   "effect": "procession",
+   "text": "The Elamites had taken Marduk's statue from Esagila after the fall of the Kassite dynasty around 1155. Nebuchadnezzar I of Isin defeated Elam and brought the god back in triumph, a homecoming celebrated in poems; Marduk's rise to king of the gods in the Enuma Elish may belong to this time.",
+   "sourceIds": [
+    "wiki-statue-of-marduk",
+    "wiki-kassites"
+   ]
+  },
+  {
+   "id": "sennacherib-689",
+   "title": "Sennacherib destroys Babylon",
+   "periodId": "kassite-1300",
+   "date": "689 BCE",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     2534,
+     2885
+    ]
+   },
+   "effect": "fire",
+   "text": "After years of Babylonian revolt, Sennacherib of Assyria took the city after a long siege, plundered its temples and, his inscription boasts, dug canals through it and flooded it so that its site could not be recognised. His son Esarhaddon began rebuilding; the claim of total destruction is exaggerated.",
+   "sourceIds": [
+    "wiki-sennacherib",
+    "babylonian-chronicles"
+   ]
+  },
+  {
+   "id": "ishtar-gate-built",
+   "title": "The Ishtar Gate in glazed brick",
+   "periodId": "nebuchadnezzar-575",
+   "date": "c. 575 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "ishtar-gate"
+   },
+   "effect": "construction",
+   "text": "Nebuchadnezzar rebuilt the gate a last time, higher, faced with brick glazed blue, with dragons and bulls moulded in relief. Its inscription: 'I placed wild bulls and ferocious dragons in the gateways and thus adorned them with luxurious splendour so that people might gaze on them in wonder.'",
+   "sourceIds": [
+    "wiki-ishtar-gate",
+    "koldewey"
+   ]
+  },
+  {
+   "id": "akitu-festival",
+   "title": "The New Year festival of Marduk",
+   "periodId": "nebuchadnezzar-575",
+   "date": "1–12 Nisannu (March–April), yearly",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "processional-way"
+   },
+   "effect": "procession",
+   "text": "Over twelve days the king was humbled before Marduk, his cheek struck by the high priest (tears were a good omen), Nabu came from Borsippa, and Marduk's statue was carried along the Processional Way to the Akitu house and back. When the king was absent, as Nabonidus was for ten years, the festival could not be held.",
+   "sourceIds": [
+    "wiki-akitu",
+    "bidmead-akitu"
+   ]
+  },
+  {
+   "id": "jehoiachin-rations",
+   "title": "Rations for the king of Judah",
+   "periodId": "nebuchadnezzar-575",
+   "date": "c. 592 BCE",
+   "kind": "daily",
+   "at": {
+    "spotId": "ration-archive"
+   },
+   "effect": "none",
+   "text": "Jehoiachin of Judah, taken to Babylon in 597, appears on palace ration tablets receiving oil for himself and his sons. The Bible says Nebuchadnezzar's successor Amel-Marduk later released him from prison and gave him a seat at the king's table.",
+   "sourceIds": [
+    "wiki-jehoiachin-tablets",
+    "wiki-captivity"
+   ]
+  },
+  {
+   "id": "fall-to-cyrus",
+   "title": "Babylon falls to Cyrus",
+   "periodId": "nebuchadnezzar-575",
+   "date": "12 October 539 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "processional-way"
+   },
+   "effect": "crowd",
+   "text": "After defeating the Babylonian army at Opis, Cyrus' general Gubaru entered Babylon without a battle; Cyrus followed on 29 October and, his cylinder claims, was welcomed as Marduk's choice. Herodotus' story that the Persians diverted the Euphrates and walked in along the riverbed is not in Babylonian sources.",
+   "sourceIds": [
+    "wiki-fall-of-babylon",
+    "wiki-cyrus",
+    "herodotus"
+   ]
+  },
+  {
+   "id": "belshazzar-feast",
+   "title": "Belshazzar's feast (a legend)",
+   "periodId": "nebuchadnezzar-575",
+   "date": "539 BCE (legend)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "southern-palace"
+   },
+   "effect": "none",
+   "text": "The Book of Daniel tells of a feast where Belshazzar drank from the Temple's vessels, and a hand wrote on the wall: 'Mene, mene, tekel, upharsin.' That night the city fell. Belshazzar was real, the son of Nabonidus and regent in Babylon, but the story is a later legend.",
+   "sourceIds": [
+    "wiki-belshazzars-feast",
+    "wiki-belshazzar"
+   ]
+  },
+  {
+   "id": "darius-siege",
+   "title": "Darius besieges rebel Babylon",
+   "periodId": "achaemenid-450",
+   "date": "522–521 BCE",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "outer-gate"
+   },
+   "effect": "crowd",
+   "text": "Twice in two years Babylon rose against Darius I under kings calling themselves Nebuchadnezzar. Darius took the city each time; his Behistun inscription names the rebels. Herodotus tells of a twenty-month siege ended by Zopyrus, who mutilated himself to win the Babylonians' trust and opened the gates: a good story, hard to believe.",
+   "sourceIds": [
+    "herodotus",
+    "pedersen-babylon"
+   ]
+  },
+  {
+   "id": "xerxes-revolt",
+   "title": "Xerxes crushes the revolts",
+   "periodId": "achaemenid-450",
+   "date": "484 BCE (once dated 482)",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "esagila"
+   },
+   "effect": "fire",
+   "text": "Babylon rebelled against Xerxes under Bel-shimanni and Shamash-eriba. The revolt was put down; many old Babylonian families' archives stop abruptly, and Greek writers say Xerxes damaged Esagila and took away Marduk's statue. How much was destroyed is debated; the temple went on working.",
+   "sourceIds": [
+    "wiki-xerxes",
+    "pedersen-babylon"
+   ]
+  },
+  {
+   "id": "herodotus-describes",
+   "title": "Herodotus describes Babylon",
+   "periodId": "achaemenid-450",
+   "date": "c. 450–430 BCE",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "etemenanki"
+   },
+   "effect": "none",
+   "text": "Herodotus describes a square city 22 km on each side, walls wide enough for a four-horse chariot to turn, a hundred bronze gates, and the tower of eight stages with Bel's couch on top. His figures are inflated, and whether he visited Babylon himself is doubted; but his customs and boats ring true.",
+   "sourceIds": [
+    "herodotus",
+    "wiki-herodotus"
+   ]
+  },
+  {
+   "id": "alexander-enters",
+   "title": "Alexander enters Babylon",
+   "periodId": "alexander-323",
+   "date": "October 331 BCE",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "ishtar-gate"
+   },
+   "effect": "procession",
+   "text": "After Gaugamela, the satrap Mazaeus surrendered Babylon. Curtius says the road was strewn with flowers, silver altars burned incense, and the Chaldeans and the cavalry of Babylon came out to meet the king. Alexander sacrificed to Marduk and ordered the temples rebuilt.",
+   "sourceIds": [
+    "arrian",
+    "wiki-alexander"
+   ]
+  },
+  {
+   "id": "ziggurat-cleared",
+   "title": "Clearing the ruined tower",
+   "periodId": "alexander-323",
+   "date": "331–323 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "etemenanki"
+   },
+   "effect": "construction",
+   "text": "Alexander set his army to clear the ruins of Etemenanki for a rebuilding; Strabo says the work needed 10,000 men for two months. Babylonian texts mention clearing the rubble again under his successors. The tower was never rebuilt; the brick was carted to the Homera mound.",
+   "sourceIds": [
+    "wiki-etemenanki",
+    "arrian"
+   ]
+  },
+  {
+   "id": "death-of-alexander",
+   "title": "Alexander dies in Babylon",
+   "periodId": "alexander-323",
+   "date": "10 or 11 June 323 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "southern-palace"
+   },
+   "effect": "crowd",
+   "text": "After a banquet Alexander fell ill with fever and died about ten days later in Nebuchadnezzar's palace, aged 32. His soldiers filed past his bed in silence. Poison, malaria and typhoid have all been suggested. The Astronomical Diary noted only: 'The king died.'",
+   "sourceIds": [
+    "wiki-death-of-alexander",
+    "arrian",
+    "wiki-diaries"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "akitu-575",
+   "title": "The New Year of Marduk",
+   "periodId": "nebuchadnezzar-575",
+   "summary": "Follow the New Year festival of 575 BCE through Nebuchadnezzar's Babylon, from Marduk's temple to the festival house outside the walls, as the ritual tablets describe it.",
+   "steps": [
+    {
+     "landmarkId": "esagila",
+     "title": "The king humbled",
+     "when": "5 Nisannu",
+     "text": "Inside Esagila the high priest takes the king's sceptre and crown, strikes his cheek and pulls his ears. If tears flow, Marduk is pleased. The king swears he has not neglected Babylon."
+    },
+    {
+     "landmarkId": "euphrates-bridge",
+     "title": "Nabu arrives",
+     "when": "6 Nisannu",
+     "text": "Nabu's statue comes from Borsippa by boat and across the bridge to visit his father Marduk, while crowds line the quays of both halves of the city."
+    },
+    {
+     "landmarkId": "etemenanki",
+     "title": "Under the tower",
+     "text": "The procession forms in the precinct of Etemenanki, the seven-staged tower, its blue shrine catching the morning sun ninety metres above."
+    },
+    {
+     "landmarkId": "processional-way",
+     "title": "The Processional Way",
+     "when": "8 Nisannu",
+     "text": "The king 'takes the hand of Bel' and leads Marduk out. Priests, musicians and the statues of many gods follow along the raised road between walls of glazed lions."
+    },
+    {
+     "landmarkId": "ishtar-gate",
+     "title": "Through the Ishtar Gate",
+     "text": "The procession passes under the blue gate with its dragons and bulls and goes out of the inner city to the north."
+    },
+    {
+     "spotId": "akitu-house",
+     "title": "The festival house",
+     "when": "8–11 Nisannu",
+     "text": "At the Akitu house the gods gather to fix the year's destinies. On the eleventh day Marduk returns to Esagila, and the city feasts."
+    }
+   ],
+   "sourceIds": [
+    "bidmead-akitu",
+    "wiki-akitu",
+    "george-btt"
+   ]
+  },
+  {
+   "id": "alexander-323",
+   "title": "Alexander's last year",
+   "periodId": "alexander-323",
+   "summary": "Babylon in 324–323 BCE, as Alexander returns from India to make it his capital and dies in Nebuchadnezzar's palace.",
+   "steps": [
+    {
+     "landmarkId": "ishtar-gate",
+     "title": "A warning ignored",
+     "when": "spring 323",
+     "text": "Chaldean priests meet Alexander outside the city and warn him not to enter Babylon facing west. He tries to go round, finds the ground marshy, and enters anyway."
+    },
+    {
+     "landmarkId": "etemenanki",
+     "title": "The tower half cleared",
+     "text": "The ruins of the great tower are still being carted away; Arrian says Alexander was angry the priests had done so little in his absence."
+    },
+    {
+     "landmarkId": "esagila",
+     "title": "Marduk's temple",
+     "text": "Alexander honours Marduk as he had promised in 331; the temple's priests, scribes and astronomers keep their old routine."
+    },
+    {
+     "landmarkId": "southern-palace",
+     "title": "The last banquet",
+     "when": "late May–June 323",
+     "text": "In Nebuchadnezzar's palace Alexander feasts with his companions, falls ill with fever and, after days of worsening, dies. His soldiers file past him one by one."
+    },
+    {
+     "spotId": "astronomers",
+     "title": "'The king died'",
+     "when": "29 Ayyaru (10/11 June)",
+     "text": "That night on Esagila's roof an observer records the planets, the weather, the price of barley, and one line of news: the king died."
+    }
+   ],
+   "sourceIds": [
+    "arrian",
+    "wiki-death-of-alexander",
+    "sachs-hunger"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "koldewey",
+   "title": "The Excavations at Babylon",
+   "author": "Robert Koldewey",
+   "year": 1914,
+   "note": "trans. Agnes S. Johns of Das wieder erstehende Babylon (1913)",
+   "url": "https://archive.org/details/excavationsatbab00kolduoft"
+  },
+  {
+   "id": "george-btt",
+   "title": "Babylonian Topographical Texts",
+   "author": "A. R. George",
+   "year": 1992,
+   "note": "Orientalia Lovaniensia Analecta 40; the Tintir list of quarters, gates, streets and temples"
+  },
+  {
+   "id": "pedersen-babylon",
+   "title": "Babylon: The Great City",
+   "author": "Olof Pedersén",
+   "year": 2021
+  },
+  {
+   "id": "finkel-seymour",
+   "title": "Babylon: Myth and Reality",
+   "author": "I. L. Finkel and M. J. Seymour (eds.)",
+   "year": 2008,
+   "note": "British Museum exhibition catalogue"
+  },
+  {
+   "id": "van-de-mieroop",
+   "title": "The Ancient Mesopotamian City",
+   "author": "Marc Van De Mieroop",
+   "year": 1997
+  },
+  {
+   "id": "herodotus",
+   "title": "Histories, Book 1 (chapters 178–200, Babylon)",
+   "author": "Herodotus",
+   "year": "c. 430 BCE",
+   "url": "https://en.wikipedia.org/wiki/Histories_(Herodotus)"
+  },
+  {
+   "id": "wiki-babylon",
+   "title": "Babylon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Babylon"
+  },
+  {
+   "id": "wiki-euphrates",
+   "title": "Euphrates",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Euphrates"
+  },
+  {
+   "id": "george-house",
+   "title": "House Most High: The Temples of Ancient Mesopotamia",
+   "author": "A. R. George",
+   "year": 1993
+  },
+  {
+   "id": "wiseman-neb",
+   "title": "Nebuchadrezzar and Babylon (Schweich Lectures 1983)",
+   "author": "D. J. Wiseman",
+   "year": 1985
+  },
+  {
+   "id": "dalley-gardens",
+   "title": "The Mystery of the Hanging Garden of Babylon: An Elusive World Wonder Traced",
+   "author": "Stephanie Dalley",
+   "year": 2013
+  },
+  {
+   "id": "schmid-ziggurat",
+   "title": "Der Tempelturm Etemenanki in Babylon",
+   "author": "Hansjörg Schmid",
+   "year": 1995
+  },
+  {
+   "id": "arrian",
+   "title": "Anabasis of Alexander, Books 3 and 7",
+   "author": "Arrian",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Anabasis_of_Alexander"
+  },
+  {
+   "id": "wiki-ishtar-gate",
+   "title": "Ishtar Gate",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ishtar_Gate"
+  },
+  {
+   "id": "wiki-mushhushshu",
+   "title": "Mušḫuššu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mu%C5%A1%E1%B8%ABu%C5%A1%C5%A1u"
+  },
+  {
+   "id": "wiki-etemenanki",
+   "title": "Etemenanki",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Etemenanki"
+  },
+  {
+   "id": "wiki-esagila",
+   "title": "Esagila",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Esagila"
+  },
+  {
+   "id": "wiki-hanging-gardens",
+   "title": "Hanging Gardens of Babylon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon"
+  },
+  {
+   "id": "wiki-walls-of-babylon",
+   "title": "Walls of Babylon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Babylon"
+  },
+  {
+   "id": "wiki-ninhursag",
+   "title": "Ninhursag (Ninmah)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ninhursag"
+  },
+  {
+   "id": "wiki-inanna",
+   "title": "Inanna (Ishtar)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Inanna"
+  },
+  {
+   "id": "wiki-ninurta",
+   "title": "Ninurta",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ninurta"
+  },
+  {
+   "id": "wiki-nabu",
+   "title": "Nabu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nabu"
+  },
+  {
+   "id": "wiki-greek-theatre",
+   "title": "Theatre of ancient Greece",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Theatre_of_ancient_Greece"
+  },
+  {
+   "id": "wiki-nebuchadnezzar",
+   "title": "Nebuchadnezzar II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nebuchadnezzar_II"
+  },
+  {
+   "id": "wiki-death-of-alexander",
+   "title": "Death of Alexander the Great",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Death_of_Alexander_the_Great"
+  },
+  {
+   "id": "wiki-lion-of-babylon",
+   "title": "Lion of Babylon (statue)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lion_of_Babylon"
+  },
+  {
+   "id": "roth-law",
+   "title": "Law Collections from Mesopotamia and Asia Minor",
+   "author": "Martha T. Roth",
+   "year": 1995
+  },
+  {
+   "id": "robson-scribes",
+   "title": "The Oxford Handbook of Cuneiform Culture",
+   "author": "Karen Radner and Eleanor Robson (eds.)",
+   "year": 2011
+  },
+  {
+   "id": "sachs-hunger",
+   "title": "Astronomical Diaries and Related Texts from Babylonia, vol. 1",
+   "author": "A. J. Sachs and H. Hunger",
+   "year": 1988
+  },
+  {
+   "id": "wunsch-egibi",
+   "title": "Das Egibi-Archiv I: Die Felder und Gärten",
+   "author": "Cornelia Wunsch",
+   "year": 2000
+  },
+  {
+   "id": "pearce-wunsch",
+   "title": "Documents of Judean Exiles and West Semites in Babylonia in the Collection of David Sofer",
+   "author": "Laurie E. Pearce and Cornelia Wunsch",
+   "year": 2014
+  },
+  {
+   "id": "bidmead-akitu",
+   "title": "The Akitu Festival: Religious Continuity and Royal Legitimation in Mesopotamia",
+   "author": "Julye Bidmead",
+   "year": 2002
+  },
+  {
+   "id": "damerow-beer",
+   "title": "Sumerian Beer: The Origins of Brewing Technology in Ancient Mesopotamia",
+   "author": "Peter Damerow",
+   "year": 2012,
+   "note": "Cuneiform Digital Library Journal 2012:2"
+  },
+  {
+   "id": "babylonian-chronicles",
+   "title": "Mesopotamian Chronicles",
+   "author": "Jean-Jacques Glassner",
+   "year": 2004
+  },
+  {
+   "id": "wiki-code-of-hammurabi",
+   "title": "Code of Hammurabi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+  },
+  {
+   "id": "wiki-hammurabi",
+   "title": "Hammurabi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hammurabi"
+  },
+  {
+   "id": "wiki-mursili",
+   "title": "Mursili I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mursili_I"
+  },
+  {
+   "id": "wiki-kassites",
+   "title": "Kassites",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kassites"
+  },
+  {
+   "id": "wiki-statue-of-marduk",
+   "title": "Statue of Marduk",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Statue_of_Marduk"
+  },
+  {
+   "id": "wiki-sennacherib",
+   "title": "Sennacherib",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sennacherib"
+  },
+  {
+   "id": "wiki-eduba",
+   "title": "Eduba",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eduba"
+  },
+  {
+   "id": "wiki-akitu",
+   "title": "Akitu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Akitu"
+  },
+  {
+   "id": "wiki-diaries",
+   "title": "Babylonian astronomical diaries",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Babylonian_astronomical_diaries"
+  },
+  {
+   "id": "wiki-jehoiachin-tablets",
+   "title": "Jehoiachin's Rations Tablets",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jehoiachin%27s_Rations_Tablets"
+  },
+  {
+   "id": "wiki-captivity",
+   "title": "Babylonian captivity",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Babylonian_captivity"
+  },
+  {
+   "id": "wiki-fall-of-babylon",
+   "title": "Fall of Babylon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fall_of_Babylon"
+  },
+  {
+   "id": "wiki-belshazzars-feast",
+   "title": "Belshazzar's feast",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Belshazzar%27s_feast"
+  },
+  {
+   "id": "wiki-belshazzar",
+   "title": "Belshazzar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Belshazzar"
+  },
+  {
+   "id": "wiki-cyrus",
+   "title": "Cyrus the Great",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cyrus_the_Great"
+  },
+  {
+   "id": "wiki-xerxes",
+   "title": "Xerxes I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xerxes_I"
+  },
+  {
+   "id": "wiki-alexander",
+   "title": "Alexander the Great",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+  },
+  {
+   "id": "wiki-date-palm",
+   "title": "Date palm",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Date_palm"
+  },
+  {
+   "id": "wiki-coracle",
+   "title": "Coracle (the Mesopotamian quffa)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coracle"
+  },
+  {
+   "id": "wiki-brick",
+   "title": "Brick (stamped bricks of Mesopotamia)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brick"
+  },
+  {
+   "id": "wiki-herodotus",
+   "title": "Herodotus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Herodotus"
+  }
+ ]
+}
