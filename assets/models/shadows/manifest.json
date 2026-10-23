@@ -2294,6 +2294,141 @@
   "cy": -0.0,
   "size": 359.8
  },
+ "persepolis/apadana": {
+  "cx": -0.06,
+  "cy": 0.06,
+  "size": 212.41
+ },
+ "persepolis/apadana-500": {
+  "cx": -0.06,
+  "cy": 0.06,
+  "size": 199.74
+ },
+ "persepolis/apadana-burned": {
+  "cx": -0.06,
+  "cy": 0.06,
+  "size": 194.91
+ },
+ "persepolis/apadana-ruin": {
+  "cx": -0.17,
+  "cy": 0.17,
+  "size": 195.15
+ },
+ "persepolis/garrison": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 174.2
+ },
+ "persepolis/garrison-ruin": {
+  "cx": 0.26,
+  "cy": -0.0,
+  "size": 157.2
+ },
+ "persepolis/gate-all-nations": {
+  "cx": 0.2,
+  "cy": -0.0,
+  "size": 94.95
+ },
+ "persepolis/gate-all-nations-ruin": {
+  "cx": 0.04,
+  "cy": -0.0,
+  "size": 89.49
+ },
+ "persepolis/hadish": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "size": 122.47
+ },
+ "persepolis/hadish-ruin": {
+  "cx": 0.0,
+  "cy": 0.08,
+  "size": 108.88
+ },
+ "persepolis/harem": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 142.94
+ },
+ "persepolis/harem-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 132.58
+ },
+ "persepolis/hundred-columns": {
+  "cx": 0.0,
+  "cy": -0.27,
+  "size": 163.13
+ },
+ "persepolis/hundred-columns-ruin": {
+  "cx": 0.0,
+  "cy": -0.72,
+  "size": 140.51
+ },
+ "persepolis/plain-palace": {
+  "cx": 0.0,
+  "cy": 0.68,
+  "size": 131.31
+ },
+ "persepolis/plain-palace-ruin": {
+  "cx": 0.0,
+  "cy": 0.37,
+  "size": 123.62
+ },
+ "persepolis/royal-tomb": {
+  "cx": -0.04,
+  "cy": -0.0,
+  "size": 128.67
+ },
+ "persepolis/tachara": {
+  "cx": 0.0,
+  "cy": -0.14,
+  "size": 102.79
+ },
+ "persepolis/tachara-ruin": {
+  "cx": 0.0,
+  "cy": -0.14,
+  "size": 92.8
+ },
+ "persepolis/takht": {
+  "cx": 0.85,
+  "cy": 0.05,
+  "size": 187.61
+ },
+ "persepolis/takht-500": {
+  "cx": 0.85,
+  "cy": 0.05,
+  "size": 179.02
+ },
+ "persepolis/takht-ruin": {
+  "cx": 0.35,
+  "cy": -0.5,
+  "size": 172.1
+ },
+ "persepolis/treasury": {
+  "cx": -0.32,
+  "cy": -0.32,
+  "size": 176.67
+ },
+ "persepolis/treasury-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 165.84
+ },
+ "persepolis/tripylon": {
+  "cx": 0.0,
+  "cy": -0.13,
+  "size": 85.51
+ },
+ "persepolis/tripylon-ruin": {
+  "cx": 0.0,
+  "cy": -0.13,
+  "size": 73.72
+ },
+ "persepolis/unfinished-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 82.08
+ },
  "props/aqueduct-bay": {
   "cx": 0.0,
   "cy": -0.0,
