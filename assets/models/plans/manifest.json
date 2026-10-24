@@ -1385,6 +1385,222 @@
   "size": 48.56,
   "w": 35.6
  },
+ "carthage/amphitheatre": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 95.2,
+  "ext": "webp",
+  "px": 378,
+  "size": 126.05,
+  "w": 121.2
+ },
+ "carthage/amphitheatre-ruin": {
+  "cx": 0.05,
+  "cy": -0.65,
+  "d": 94.45,
+  "ext": "webp",
+  "px": 370,
+  "size": 123.35,
+  "w": 118.61
+ },
+ "carthage/antonine-baths": {
+  "cx": 0.0,
+  "cy": 4.4,
+  "d": 101.2,
+  "ext": "webp",
+  "px": 636,
+  "size": 212.16,
+  "w": 204.0
+ },
+ "carthage/antonine-baths-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 636,
+  "size": 212.16,
+  "w": 204.0
+ },
+ "carthage/byrsa": {
+  "cx": -1.12,
+  "cy": 0.51,
+  "d": 177.14,
+  "ext": "webp",
+  "px": 746,
+  "size": 248.77,
+  "w": 239.2
+ },
+ "carthage/byrsa-forum": {
+  "cx": -0.85,
+  "cy": 2.19,
+  "d": 175.63,
+  "ext": "webp",
+  "px": 727,
+  "size": 242.19,
+  "w": 232.87
+ },
+ "carthage/byrsa-ruins": {
+  "cx": -2.74,
+  "cy": -2.89,
+  "d": 170.56,
+  "ext": "webp",
+  "px": 747,
+  "size": 249.07,
+  "w": 239.49
+ },
+ "carthage/circus": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 92.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 540.8,
+  "w": 520.0
+ },
+ "carthage/commercial-harbour": {
+  "cx": -0.5,
+  "cy": -0.0,
+  "d": 400.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 416.0,
+  "w": 301.0
+ },
+ "carthage/cothon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 331.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 344.24,
+  "w": 331.0
+ },
+ "carthage/cothon-roman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 331.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 344.24,
+  "w": 331.0
+ },
+ "carthage/cothon-silted": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 331.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 344.24,
+  "w": 331.0
+ },
+ "carthage/damous-el-karita": {
+  "cx": -0.15,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 469,
+  "size": 156.31,
+  "w": 150.3
+ },
+ "carthage/hannibal-quarter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 80.0,
+  "ext": "webp",
+  "px": 374,
+  "size": 124.8,
+  "w": 120.0
+ },
+ "carthage/harbour-silted": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 400.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 416.0,
+  "w": 300.0
+ },
+ "carthage/juno-necropolis": {
+  "cx": -0.69,
+  "cy": -0.09,
+  "d": 62.99,
+  "ext": "webp",
+  "px": 256,
+  "size": 85.43,
+  "w": 82.15
+ },
+ "carthage/la-malga": {
+  "cx": -0.5,
+  "cy": 0.6,
+  "d": 106.2,
+  "ext": "webp",
+  "px": 420,
+  "size": 139.88,
+  "w": 134.5
+ },
+ "carthage/la-malga-ruin": {
+  "cx": -0.5,
+  "cy": 0.6,
+  "d": 106.2,
+  "ext": "webp",
+  "px": 420,
+  "size": 139.88,
+  "w": 134.5
+ },
+ "carthage/odeon": {
+  "cx": 0.0,
+  "cy": 1.25,
+  "d": 82.5,
+  "ext": "webp",
+  "px": 306,
+  "size": 101.89,
+  "w": 97.97
+ },
+ "carthage/sea-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 30.0
+ },
+ "carthage/sidi-bou-said": {
+  "cx": 0.23,
+  "cy": 0.52,
+  "d": 70.37,
+  "ext": "webp",
+  "px": 275,
+  "size": 91.61,
+  "w": 88.09
+ },
+ "carthage/theatre": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "d": 74.63,
+  "ext": "webp",
+  "px": 324,
+  "size": 108.16,
+  "w": 104.0
+ },
+ "carthage/tophet": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 70.0
+ },
+ "carthage/villa-aviary": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 45.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
  "changan/bell-tower": {
   "cx": 0.0,
   "cy": -0.0,
