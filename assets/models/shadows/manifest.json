@@ -2114,6 +2114,161 @@
   "cy": 1.25,
   "size": 199.99
  },
+ "lisbon/carmo": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "size": 123.6
+ },
+ "lisbon/carmo-ruin": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "size": 119.28
+ },
+ "lisbon/casa-da-india": {
+  "cx": 0.0,
+  "cy": 0.93,
+  "size": 106.34
+ },
+ "lisbon/casa-dos-bicos": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 68.82
+ },
+ "lisbon/casa-dos-bicos-1800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 54.78
+ },
+ "lisbon/castelo": {
+  "cx": -0.88,
+  "cy": -0.61,
+  "size": 290.83
+ },
+ "lisbon/castelo-1800": {
+  "cx": -0.88,
+  "cy": -0.61,
+  "size": 288.11
+ },
+ "lisbon/castelo-moorish": {
+  "cx": -0.88,
+  "cy": -0.61,
+  "size": 288.68
+ },
+ "lisbon/castelo-roman": {
+  "cx": -1.0,
+  "cy": -0.73,
+  "size": 267.9
+ },
+ "lisbon/chafariz-del-rei": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 55.38
+ },
+ "lisbon/conceicao-velha": {
+  "cx": -0.2,
+  "cy": -0.0,
+  "size": 91.42
+ },
+ "lisbon/estaus": {
+  "cx": -0.62,
+  "cy": 0.13,
+  "size": 131.5
+ },
+ "lisbon/hospital-todos-os-santos": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 164.44
+ },
+ "lisbon/misericordia": {
+  "cx": -1.1,
+  "cy": -0.0,
+  "size": 85.3
+ },
+ "lisbon/opera-do-tejo": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 143.9
+ },
+ "lisbon/paco-ribeira": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 215.6
+ },
+ "lisbon/paco-ribeira-1750": {
+  "cx": 0.3,
+  "cy": 0.3,
+  "size": 250.22
+ },
+ "lisbon/porta-do-sol": {
+  "cx": 0.0,
+  "cy": -0.15,
+  "size": 85.7
+ },
+ "lisbon/porta-santo-antao": {
+  "cx": 0.0,
+  "cy": -0.15,
+  "size": 74.73
+ },
+ "lisbon/praca-comercio": {
+  "cx": 0.0,
+  "cy": -0.22,
+  "size": 281.9
+ },
+ "lisbon/ribeira-das-naus": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "size": 207.7
+ },
+ "lisbon/ribeira-das-naus-1800": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "size": 215.04
+ },
+ "lisbon/roman-theatre": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 105.9
+ },
+ "lisbon/sao-roque": {
+  "cx": 0.0,
+  "cy": 0.35,
+  "size": 120.44
+ },
+ "lisbon/sao-roque-ermida": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 91.6
+ },
+ "lisbon/sao-vicente": {
+  "cx": 0.15,
+  "cy": 0.4,
+  "size": 177.28
+ },
+ "lisbon/sao-vicente-1800": {
+  "cx": 0.15,
+  "cy": 0.4,
+  "size": 177.1
+ },
+ "lisbon/sao-vicente-old": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 145.07
+ },
+ "lisbon/se": {
+  "cx": 0.0,
+  "cy": -1.05,
+  "size": 155.92
+ },
+ "lisbon/se-1800": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 165.14
+ },
+ "lisbon/se-mosque": {
+  "cx": 0.0,
+  "cy": -0.4,
+  "size": 143.62
+ },
  "nara/chodo-in": {
   "cx": 0.0,
   "cy": 1.74,
