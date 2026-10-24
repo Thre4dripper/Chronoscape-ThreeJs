@@ -2089,6 +2089,86 @@
   "cy": -0.0,
   "size": 177.84
  },
+ "great-zimbabwe/commoners-village": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 108.63
+ },
+ "great-zimbabwe/eastern-ruins": {
+  "cx": 0.0,
+  "cy": -0.97,
+  "size": 109.36
+ },
+ "great-zimbabwe/elite-houses": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 83.03
+ },
+ "great-zimbabwe/fields-granaries": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 150.8
+ },
+ "great-zimbabwe/great-enclosure": {
+  "cx": 0.92,
+  "cy": -0.09,
+  "size": 132.69
+ },
+ "great-zimbabwe/great-enclosure-1500": {
+  "cx": 0.92,
+  "cy": -0.09,
+  "size": 132.69
+ },
+ "great-zimbabwe/hill-ascent": {
+  "cx": 0.01,
+  "cy": 0.43,
+  "size": 159.73
+ },
+ "great-zimbabwe/hill-complex": {
+  "cx": -2.94,
+  "cy": -0.3,
+  "size": 339.69
+ },
+ "great-zimbabwe/hill-complex-1100": {
+  "cx": -2.94,
+  "cy": -0.3,
+  "size": 339.69
+ },
+ "great-zimbabwe/hill-complex-1500": {
+  "cx": -2.94,
+  "cy": -0.3,
+  "size": 339.69
+ },
+ "great-zimbabwe/ridge-ruins": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 89.45
+ },
+ "great-zimbabwe/royal-kraal": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 108.41
+ },
+ "great-zimbabwe/smelting-area": {
+  "cx": 0.0,
+  "cy": 0.02,
+  "size": 67.13
+ },
+ "great-zimbabwe/trade-ground": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 92.97
+ },
+ "great-zimbabwe/valley-ruins": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 159.74
+ },
+ "great-zimbabwe/valley-ruins-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 158.43
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
