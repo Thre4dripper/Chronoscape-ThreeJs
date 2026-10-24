@@ -26,6 +26,7 @@
     { "id": "florence", "name": "Florence", "subtitle": "Florentia to the Grand Duchy", "status": "playable" },
     { "id": "lisbon", "name": "Lisbon", "subtitle": "Olisipo, al-Ushbuna, Lisboa", "status": "playable" },
     { "id": "thebes", "name": "Thebes", "subtitle": "Waset, City of Amun", "status": "playable" },
-    { "id": "carthage", "name": "Carthage", "subtitle": "Qart-hadasht, the New City", "status": "playable" }
+    { "id": "carthage", "name": "Carthage", "subtitle": "Qart-hadasht, the New City", "status": "playable" },
+    { "id": "great-zimbabwe", "name": "Great Zimbabwe", "subtitle": "Dzimba dza mabwe, the houses of stone", "status": "playable" }
   ]
 }

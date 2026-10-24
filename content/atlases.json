@@ -491,7 +491,9 @@
           "subtitle": "The stone city, 1350",
           "at": [30.93, -20.27],
           "glyph": "enclosure",
-          "blurb": "Dry-stone enclosures on the Zimbabwe plateau, the centre of a kingdom trading gold to the Indian Ocean coast."
+          "blurb": "Dry-stone enclosures on the Zimbabwe plateau, the centre of a kingdom trading gold to the Indian Ocean coast.",
+          "city": "great-zimbabwe",
+          "period": "zenith-1350"
         }
       ]
     },

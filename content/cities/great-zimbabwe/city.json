@@ -1,0 +1,3204 @@
+{
+ "id": "great-zimbabwe",
+ "name": "Great Zimbabwe",
+ "subtitle": "Dzimba dza mabwe, the houses of stone",
+ "description": "Four centuries of Great Zimbabwe in the granite hills of the southern Zimbabwean plateau: the first walls on the hill, the stone city of the 14th century with its Great Enclosure, Hill Complex and Valley Ruins among thousands of daga houses, and the half-empty court of the 16th century. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "zenith-1350",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#A87E58",
+   "#9C7350",
+   "#B48A62",
+   "#A2795A",
+   "#B08C68"
+  ],
+  "roofs": [
+   "#B39A5E",
+   "#A88E58",
+   "#BFA56A"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1859,
+    1720
+   ],
+   "distance": 26,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   3446,
+   3329
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Stream of the western valley",
+    "path": [
+     [
+      783,
+      0
+     ],
+     [
+      919,
+      666
+     ],
+     [
+      1065,
+      1220
+     ],
+     [
+      1274,
+      1831
+     ],
+     [
+      1692,
+      2219
+     ],
+     [
+      1984,
+      2463
+     ],
+     [
+      2454,
+      2774
+     ],
+     [
+      2924,
+      3107
+     ],
+     [
+      3216,
+      3329
+     ]
+    ],
+    "width": 10,
+    "id": "west-stream",
+    "blurb": "A small stream running down the west side of the Hill and round below the Great Enclosure toward the Mutirikwi, full in the rains (November to March) and a string of pools in the dry season. Its course is drawn approximately."
+   },
+   {
+    "name": "Stream below the eastern ridge",
+    "path": [
+     [
+      2976,
+      0
+     ],
+     [
+      3028,
+      777
+     ],
+     [
+      2924,
+      1331
+     ],
+     [
+      3049,
+      1997
+     ],
+     [
+      3007,
+      2663
+     ],
+     [
+      2945,
+      3107
+     ]
+    ],
+    "width": 8,
+    "id": "east-stream",
+    "blurb": "A seasonal stream along the foot of the eastern ridge, joining the western stream on the way to the Mutirikwi. Springs and seepage pits (dhaka pits) round the site stored the rest of the town's water."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "The Hill (granite kopje)",
+    "center": [
+     1817,
+     1309
+    ],
+    "radius": 300,
+    "label": true,
+    "id": "the-hill",
+    "blurb": "A granite hill rising about 80 m above the valley, its top a jumble of huge rounded boulders, its southern face a sheer cliff. The Hill Complex is built among the boulders on its summit; it was the first part of the site to be settled and walled."
+   },
+   {
+    "name": "Eastern ridge",
+    "center": [
+     2611,
+     1553
+    ],
+    "radius": 220,
+    "label": true,
+    "id": "eastern-ridge",
+    "blurb": "A low granite ridge on the east side of the valley, with stone enclosures (the Eastern Ruins) on its slope and homesteads below."
+   },
+   {
+    "name": "Northern hills",
+    "center": [
+     574,
+     388
+    ],
+    "radius": 300,
+    "label": true,
+    "id": "northern-hills",
+    "blurb": "Wooded granite hills north-west of the site; the paths to the gold-bearing plateau and the inland chiefdoms ran past them."
+   },
+   {
+    "name": "Western kopje",
+    "center": [
+     574,
+     1442
+    ],
+    "radius": 200,
+    "label": false,
+    "id": "western-kopje",
+    "blurb": "A smaller granite dome west of the Hill, among msasa woodland."
+   },
+   {
+    "name": "Southern kopjes",
+    "center": [
+     679,
+     2996
+    ],
+    "radius": 250,
+    "label": true,
+    "id": "southern-kopjes",
+    "blurb": "Bare granite domes and boulder heaps south of the valley; granite exfoliates naturally into slabs, which builders split further with fire and water into the blocks of the walls."
+   },
+   {
+    "name": "South-eastern kopje",
+    "center": [
+     3237,
+     2552
+    ],
+    "radius": 150,
+    "label": false,
+    "id": "south-east-kopje",
+    "blurb": "A granite outcrop above the streams on the way down toward the Mutirikwi valley."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Path toward Sofala and the coast",
+    "path": [
+     [
+      2005,
+      2086
+     ],
+     [
+      2506,
+      2164
+     ],
+     [
+      3028,
+      2441
+     ],
+     [
+      3446,
+      2829
+     ]
+    ],
+    "width": 7,
+    "style": "major",
+    "labelled": true,
+    "id": "coast-path",
+    "blurb": "The way out to the south-east, down toward the Save river and, some 400 km away, the Swahili port of Sofala, where gold and ivory were traded for cloth and beads. Goods probably passed through several hands on the way.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Path to the goldfields of the plateau",
+    "path": [
+     [
+      1514,
+      1598
+     ],
+     [
+      1096,
+      1220
+     ],
+     [
+      647,
+      777
+     ],
+     [
+      0,
+      499
+     ]
+    ],
+    "width": 7,
+    "style": "major",
+    "labelled": true,
+    "id": "plateau-path",
+    "blurb": "The way north-west onto the high plateau, where gold was dug from shallow shafts on the reefs and washed from river sands, and where many smaller zimbabwes of the state stood.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Track to the plateau",
+    "path": [
+     [
+      1514,
+      1598
+     ],
+     [
+      1096,
+      1220
+     ],
+     [
+      647,
+      777
+     ],
+     [
+      0,
+      499
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "plateau-track",
+    "blurb": "A herders' and hunters' track north-west toward the plateau.",
+    "periods": [
+     "early-1100"
+    ]
+   },
+   {
+    "name": "Path through the Valley",
+    "path": [
+     [
+      1713,
+      1598
+     ],
+     [
+      1796,
+      1698
+     ],
+     [
+      1880,
+      1797
+     ],
+     [
+      1942,
+      1908
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "valley-path",
+    "blurb": "The path from the foot of the Hill's Ancient Ascent through the Valley to the north entrance of the Great Enclosure.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Path to the cattle kraal",
+    "path": [
+     [
+      1817,
+      1997
+     ],
+     [
+      1587,
+      2130
+     ],
+     [
+      1462,
+      2241
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "kraal-path",
+    "blurb": "Cattle were driven along it from the kraal to the grazing; cattle were the measure of a man's wealth and the core of the court's power.",
+    "periods": [
+     "early-1100",
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Path to the eastern ridge",
+    "path": [
+     [
+      2109,
+      1753
+     ],
+     [
+      2297,
+      1720
+     ],
+     [
+      2423,
+      1642
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "ridge-path",
+    "blurb": "Up from the Valley to the enclosures on the eastern ridge.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Path to the southern fields",
+    "path": [
+     [
+      1859,
+      2086
+     ],
+     [
+      1650,
+      2385
+     ],
+     [
+      1525,
+      2607
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "fields-path",
+    "blurb": "Down to the fields of sorghum and finger millet south of the town.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Path north round the Hill",
+    "path": [
+     [
+      1963,
+      1132
+     ],
+     [
+      1932,
+      666
+     ],
+     [
+      1880,
+      0
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "north-path",
+    "blurb": "Round the back of the Hill to the northern homesteads and fields.",
+    "periods": [
+     "early-1100",
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "name": "Path to the eastern homesteads",
+    "path": [
+     [
+      2141,
+      2086
+     ],
+     [
+      2350,
+      2219
+     ],
+     [
+      2558,
+      2441
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "east-fields-path",
+    "blurb": "From the Great Enclosure toward the homesteads and fields by the eastern stream.",
+    "periods": [
+     "early-1100",
+     "zenith-1350",
+     "decline-1500"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1410,
+      954
+     ],
+     [
+      2245,
+      954
+     ],
+     [
+      2245,
+      1087
+     ],
+     [
+      1410,
+      1087
+     ]
+    ],
+    "density": "loose",
+    "name": "Homesteads below the Hill, north",
+    "periods": [
+     "early-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1358,
+      1598
+     ],
+     [
+      1880,
+      1598
+     ],
+     [
+      1880,
+      1775
+     ],
+     [
+      1378,
+      1775
+     ]
+    ],
+    "density": "loose",
+    "name": "Homesteads of the valley",
+    "periods": [
+     "early-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2485,
+      1842
+     ],
+     [
+      2799,
+      1842
+     ],
+     [
+      2799,
+      2086
+     ],
+     [
+      2485,
+      2086
+     ]
+    ],
+    "density": "loose",
+    "name": "Homesteads by the eastern stream",
+    "periods": [
+     "early-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1305,
+      1587
+     ],
+     [
+      1880,
+      1587
+     ],
+     [
+      1880,
+      1797
+     ],
+     [
+      1378,
+      1797
+     ]
+    ],
+    "density": "dense",
+    "name": "The Valley, west",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1932,
+      1587
+     ],
+     [
+      2454,
+      1587
+     ],
+     [
+      2454,
+      1753
+     ],
+     [
+      1932,
+      1820
+     ]
+    ],
+    "density": "dense",
+    "name": "The Valley, east",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1650,
+      2086
+     ],
+     [
+      2214,
+      2086
+     ],
+     [
+      2276,
+      2330
+     ],
+     [
+      1901,
+      2330
+     ]
+    ],
+    "density": "dense",
+    "name": "Below the Great Enclosure",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2454,
+      1831
+     ],
+     [
+      2820,
+      1831
+     ],
+     [
+      2820,
+      2164
+     ],
+     [
+      2402,
+      2164
+     ]
+    ],
+    "density": "loose",
+    "name": "The eastern slopes",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1358,
+      932
+     ],
+     [
+      2297,
+      932
+     ],
+     [
+      2297,
+      1087
+     ],
+     [
+      1358,
+      1087
+     ]
+    ],
+    "density": "loose",
+    "name": "Homesteads north of the Hill",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      794,
+      1553
+     ],
+     [
+      1065,
+      1553
+     ],
+     [
+      1170,
+      1997
+     ],
+     [
+      898,
+      1997
+     ]
+    ],
+    "density": "loose",
+    "name": "West of the stream",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2350,
+      2385
+     ],
+     [
+      2715,
+      2385
+     ],
+     [
+      2767,
+      2641
+     ],
+     [
+      2485,
+      2641
+     ]
+    ],
+    "density": "loose",
+    "name": "Toward the streams' meeting",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2350,
+      1165
+     ],
+     [
+      2715,
+      1165
+     ],
+     [
+      2715,
+      1354
+     ],
+     [
+      2350,
+      1354
+     ]
+    ],
+    "density": "loose",
+    "name": "Below the eastern ridge",
+    "periods": [
+     "zenith-1350"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1462,
+      1598
+     ],
+     [
+      2402,
+      1598
+     ],
+     [
+      2402,
+      1753
+     ],
+     [
+      1462,
+      1797
+     ]
+    ],
+    "density": "loose",
+    "name": "The Valley",
+    "periods": [
+     "decline-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1692,
+      2108
+     ],
+     [
+      2141,
+      2108
+     ],
+     [
+      2193,
+      2286
+     ],
+     [
+      1880,
+      2286
+     ]
+    ],
+    "density": "loose",
+    "name": "Below the Great Enclosure",
+    "periods": [
+     "decline-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1566,
+      954
+     ],
+     [
+      2141,
+      954
+     ],
+     [
+      2141,
+      1076
+     ],
+     [
+      1566,
+      1076
+     ]
+    ],
+    "density": "loose",
+    "name": "Homesteads north of the Hill",
+    "periods": [
+     "decline-1500"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      815,
+      2419
+     ],
+     [
+      1201,
+      2419
+     ],
+     [
+      1274,
+      2774
+     ],
+     [
+      888,
+      2774
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Sorghum and finger-millet fields"
+   },
+   {
+    "polygon": [
+     [
+      2715,
+      2552
+     ],
+     [
+      2913,
+      2552
+     ],
+     [
+      2913,
+      2885
+     ],
+     [
+      2736,
+      2885
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields by the eastern stream",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1566,
+      277
+     ],
+     [
+      2109,
+      277
+     ],
+     [
+      2109,
+      555
+     ],
+     [
+      1566,
+      555
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Northern fields"
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "the-hill",
+    "name": "The Hill",
+    "polygon": [
+     [
+      1462,
+      1165
+     ],
+     [
+      2245,
+      1165
+     ],
+     [
+      2245,
+      1498
+     ],
+     [
+      1462,
+      1553
+     ]
+    ],
+    "description": "The granite hill and its summit enclosures, the oldest part of the site: dwelling of the first rulers, then, many think, a place of ritual and the ancestors, where the soapstone birds stood."
+   },
+   {
+    "id": "the-valley",
+    "name": "The Valley",
+    "polygon": [
+     [
+      1305,
+      1587
+     ],
+     [
+      2454,
+      1587
+     ],
+     [
+      2454,
+      1831
+     ],
+     [
+      1305,
+      1831
+     ]
+    ],
+    "description": "The ground between the Hill and the Great Enclosure, filled in the 14th and 15th centuries with smaller stone enclosures (the Valley Ruins) and the daga houses of the court's people. Boundaries approximate.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "id": "great-enclosure-precinct",
+    "name": "Great Enclosure",
+    "polygon": [
+     [
+      1754,
+      1864
+     ],
+     [
+      2109,
+      1864
+     ],
+     [
+      2109,
+      2108
+     ],
+     [
+      1754,
+      2108
+     ]
+    ],
+    "description": "The great walled residence of the king and his household, with the conical tower and the platforms of the court, surrounded by the houses of officials and craftsmen.",
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "id": "outer-town",
+    "name": "The homesteads",
+    "polygon": [
+     [
+      1462,
+      2086
+     ],
+     [
+      2820,
+      2086
+     ],
+     [
+      2820,
+      2663
+     ],
+     [
+      1462,
+      2663
+     ]
+    ],
+    "description": "The outer town where most people lived, in homesteads of daga houses, granaries and cattle pens. Excavation has found houses well beyond the stone walls; how far the town spread is debated.",
+    "periods": [
+     "zenith-1350"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Dzimba dza mabwe",
+    "position": [
+     2454,
+     555
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "text": "The Hill",
+    "position": [
+     1817,
+     1054
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "early-1100"
+    ]
+   },
+   {
+    "text": "The Hill",
+    "position": [
+     1817,
+     1198
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "text": "The Valley",
+    "position": [
+     2454,
+     1709
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "text": "to Sofala and the coast",
+    "position": [
+     3081,
+     2940
+    ],
+    "size": "sm",
+    "rotation": -40,
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "text": "to the goldfields",
+    "position": [
+     261,
+     666
+    ],
+    "size": "sm",
+    "rotation": 40,
+    "periods": [
+     "zenith-1350",
+     "decline-1500"
+    ]
+   },
+   {
+    "text": "toward the Mutirikwi",
+    "position": [
+     2558,
+     3218
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "msasa woodland",
+    "position": [
+     2715,
+     166
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "granite kopjes",
+    "position": [
+     679,
+     2996
+    ],
+    "size": "sm",
+    "rotation": 0
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D6AE",
+   "ink": "#5E4632",
+   "water": "#62878A",
+   "hill": "#8C8A6A",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   3185,
+   277
+  ],
+  "cartouche": [
+   84,
+   3251
+  ]
+ },
+ "periods": [
+  {
+   "id": "early-1100",
+   "label": "The first walls on the hill",
+   "year": 1100,
+   "startYear": 1000,
+   "endYear": 1289,
+   "summary": "Farmers and cattle-keepers, speakers of an early form of Shona (archaeologists' Gumanye phase of the Zimbabwe culture; earlier Gokomere-tradition pottery is also found here), live on and around the granite hill. Daga houses crowd its top; around 1100, it is usually thought, the first rough stone walls go up among the boulders. Cattle, sorghum and a little gold and ivory for trade.",
+   "population": "a few hundred, perhaps a thousand (no reliable estimate)",
+   "feel": "Cattle lowing in the valley at dawn, smoke from the hilltop hearths, the knock of iron hoes in the fields after the first rains.",
+   "style": "kraal",
+   "houses": {
+    "title": "Daga houses on the hill",
+    "text": "Round houses of daga, a mud-and-gravel plaster over a frame of poles, under conical grass thatch, set close together on terraces among the boulders, each family's houses round a swept yard (dare)."
+   },
+   "outskirts": {
+    "title": "Homesteads and cattle pens",
+    "text": "Scattered homesteads of a few round houses, granaries on stilts and a pole-and-thorn pen for cattle and goats, with sorghum and finger-millet fields cleared from the woodland."
+   }
+  },
+  {
+   "id": "zenith-1350",
+   "label": "The stone city",
+   "year": 1350,
+   "startYear": 1290,
+   "endYear": 1449,
+   "summary": "The capital of the Zimbabwe state at its height. The king's court has moved down from the hill to the Great Enclosure, whose outer wall, 11 m high and 250 m long, is laid in courses of dressed granite without mortar. Gold and ivory from the plateau go to the Swahili coast at Sofala and Kilwa; Chinese celadon, Persian faience and glass beads come back.",
+   "population": "perhaps 10,000 (older estimates up to 18,000)",
+   "feel": "Gongs and drums from the Great Enclosure, the clink of masons dressing granite blocks, woodsmoke and cattle dung, the bright clay of new daga houses after the rains.",
+   "style": "kraal",
+   "houses": {
+    "title": "Daga houses in their yards",
+    "text": "Round daga houses with conical thatch, the better ones of solid daga with moulded thresholds, benches and raised floors, grouped round a swept yard (dare) and linked by low daga walls; inside the stone enclosures the houses of the court stand on platforms."
+   },
+   "outskirts": {
+    "title": "Homesteads of the commoners",
+    "text": "Most of the people live outside the stone walls in homesteads of a few huts with granaries and cattle pens, the houses of daga and poles, the fields of sorghum and millet spreading down the valleys."
+   }
+  },
+  {
+   "id": "decline-1500",
+   "label": "The emptying court",
+   "year": 1500,
+   "startYear": 1450,
+   "endYear": 1600,
+   "summary": "Power has moved north to the Mutapa state on the Zambezi and west to Khami, and the trade with it. Great Zimbabwe is largely abandoned by around 1450; its walls still stand, a smaller community lives on in the valley, and Portuguese writers at Sofala hear of a stone 'Symbaoe' kept by a royal officer, with a tower 'more than twelve fathoms high'.",
+   "population": "a few hundred to a few thousand (estimates vary)",
+   "feel": "Wind in the grass on top of the walls, fig roots prising at the stones, a few cattle in the old kraal, the hill shrine still visited.",
+   "style": "kraal",
+   "houses": {
+    "title": "Fewer houses in the valley",
+    "text": "Round daga houses with conical thatch in the Valley and below the Great Enclosure, some built against the old walls; the large platforms of the court lie empty and their houses melt back into mounds of daga."
+   },
+   "outskirts": {
+    "title": "Bush returning",
+    "text": "Old fields going back to msasa woodland and grass, a few homesteads with granaries and cattle pens, paths still worn between the empty stone enclosures."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "great-enclosure",
+   "placeId": "imba-huru",
+   "name": "The Great Enclosure",
+   "category": "civic",
+   "position": [
+    1912,
+    1989
+   ],
+   "rotation": 15,
+   "footprint": [
+    101.3,
+    77.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/great-enclosure.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 80,
+     "height": 32.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Open ground in the valley south of the Hill, with a few daga houses and cattle. The great walls would rise here from the late 13th century."
+    },
+    "zenith-1350": {
+     "note": "The king's walled residence, newly finished: the outer wall 11 m high on the east with its chevron band, the narrow parallel passage, the Conical Tower, and daga houses on platforms inside the inner walls."
+    },
+    "decline-1500": {
+     "note": "The walls stand, but the court has gone. Grass and fig trees take the platforms; Portuguese hearsay of the 1530s–50s tells of a stone 'Symbaoe' still kept by a royal officer.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/great-zimbabwe/great-enclosure-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 80,
+       "height": 32.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The largest single ancient structure in sub-Saharan Africa: an elliptical drystone wall of granite blocks, 11 m high and about 250 m long, round the residence of the kings, with a solid Conical Tower inside. Shona: Imba Huru, 'the great house'.",
+   "details": [
+    "Built in stages during the 13th and 14th centuries, the outer wall is up to 5 m thick at its base and battered inward as it rises, its courses of split granite laid without mortar. On the east, where it is highest, a chevron band runs along its top and a narrow parallel passage, barely a metre wide, runs inside it from the north entrance to the Conical Tower, 9 m high and 5.5 m across.",
+    "The miniature shows the course-laid outer wall with its batter, the three entrances with rounded ends, the chevron band, the parallel passage and the older inner wall, the Conical Tower with its small twin, and daga houses on platforms. The inner plan and the houses are simplified; the wall's orientation is approximate."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz",
+    "huffman-symbols",
+    "unesco-gz",
+    "wiki-dry-stone"
+   ],
+   "built": "late 13th to 14th century",
+   "function": "Royal residence and ritual centre",
+   "activity": {
+    "figures": 50,
+    "radius": 120
+   }
+  },
+  {
+   "id": "hill-complex",
+   "placeId": "hill-complex",
+   "name": "The Hill Complex",
+   "category": "civic",
+   "position": [
+    1817,
+    1370
+   ],
+   "rotation": 0,
+   "footprint": [
+    283.4,
+    116.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/hill-complex.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 280,
+     "depth": 120,
+     "height": 48.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "The first walls: low, roughly coursed stone walls linking the boulders round crowded daga houses on the summit, home of the first rulers. The Western Enclosure takes shape.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/great-zimbabwe/hill-complex-1100.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 280,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "zenith-1350": {
+     "note": "The walls at their fullest, following the boulders along the summit: the Western Enclosure with its turrets and monoliths, and the Eastern Enclosure, where the soapstone birds stood on their columns."
+    },
+    "decline-1500": {
+     "note": "Scrub grows in the empty enclosures, but the hill is still visited as a sacred place; the birds on their columns stayed in the Eastern Enclosure until the 1880s.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/great-zimbabwe/hill-complex-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 280,
+       "depth": 120,
+       "height": 48.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The oldest part of Great Zimbabwe, on the summit of the granite hill: walls built between and over the huge boulders, enclosing the Western Enclosure and the Eastern Enclosure where the soapstone birds stood.",
+   "details": [
+    "People lived on the hill from at least the 11th century, and its first stone walls are usually dated to the 12th–13th. The walls run along the edge of the cliff and wind between the boulders, using them as part of the circuit. The Western Enclosure, the largest, was crowned with small towers and monoliths; the Eastern Enclosure, with a balcony above it, held the platform where six of the eight birds probably stood.",
+    "The miniature shows the boulder-strewn kopje top, the coursed walls and turrets of the Western Enclosure, the narrow passages, the Eastern Enclosure with birds on columns (drawn about twice life size so they can be seen), and the steps of the ascents. The hill is reduced to its summit; the wall plan is simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "wiki-zimbabwe-bird",
+    "garlake-gz",
+    "huffman-symbols",
+    "matenga-birds"
+   ],
+   "built": "12th to 15th century",
+   "function": "Early royal residence, later ritual centre (interpretations differ)",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "valley-ruins",
+   "placeId": "valley-ruins",
+   "name": "The Valley Ruins",
+   "category": "district",
+   "position": [
+    1963,
+    1864
+   ],
+   "rotation": 0,
+   "footprint": [
+    140.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/valley-ruins.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 140,
+      "depth": 50
+     },
+     "buildings": [
+      {
+       "offset": [
+        -35.0,
+        -12.5
+       ],
+       "width": 42.0,
+       "depth": 15.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        35.0,
+        10.0
+       ],
+       "width": 42.0,
+       "depth": 15.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Fields and a few daga houses in the valley between the Hill and the future Great Enclosure."
+    },
+    "zenith-1350": {
+     "note": "New enclosures go up in the valley, each a curving drystone wall round a few daga houses of a family of the court; the stonework of the 14th and 15th centuries."
+    },
+    "decline-1500": {
+     "note": "The last enclosures in use: archaeologists date some of the Lower Valley Ruins into the 15th and 16th centuries, when the community was smaller.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/great-zimbabwe/valley-ruins-1500.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 140,
+        "depth": 50
+       },
+       "buildings": [
+        {
+         "offset": [
+          -35.0,
+          -12.5
+         ],
+         "width": 42.0,
+         "depth": 15.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          35.0,
+          10.0
+         ],
+         "width": 42.0,
+         "depth": 15.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    }
+   },
+   "summary": "A string of smaller stone enclosures in the valley between the Hill and the Great Enclosure (named after early visitors: Renders, Mauch, Philips, Posselt), each round the daga houses of an elite family.",
+   "details": [
+    "The Valley Ruins are the latest stonework at Great Zimbabwe, from the 14th century into the 16th, and are divided into an Upper and a Lower Valley. In 1902 a hoard found in the Renders Ruin held Chinese celadon, Near Eastern glass, iron gongs, copper wire and hoes. One of the soapstone birds is said to come from the Philips Ruins.",
+    "The miniature shows four enclosures with curving coursed walls and rounded entrances, daga houses on platforms inside, and the low walls linking them. Their number, shapes and placing are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz",
+    "chirikure-pikirayi",
+    "pikirayi-zimbabwe-culture"
+   ],
+   "built": "14th to 16th century",
+   "function": "Residences of the court's families",
+   "activity": {
+    "figures": 30,
+    "radius": 110
+   }
+  },
+  {
+   "id": "ridge-ruins",
+   "placeId": "ridge-ruins",
+   "name": "The Ridge Ruins",
+   "category": "district",
+   "position": [
+    1742,
+    1835
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/ridge-ruins.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 70,
+      "depth": 50
+     },
+     "buildings": [
+      {
+       "offset": [
+        -17.5,
+        -12.5
+       ],
+       "width": 21.0,
+       "depth": 15.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        17.5,
+        10.0
+       ],
+       "width": 21.0,
+       "depth": 15.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "A low granite ridge west of the valley, grazing and a homestead or two."
+    },
+    "zenith-1350": {
+     "note": "A small walled enclosure on the low ridge north-west of the Great Enclosure, with daga houses inside, overlooking the path to the Hill."
+    },
+    "decline-1500": {
+     "note": "Probably still lived in by a smaller household; grass and shrubs along the walls.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A small group of stone enclosures on a low ridge between the Hill and the Great Enclosure, one of the many walled households around the royal core.",
+   "details": [
+    "The Ridge Ruins sit on a rise north-west of the Great Enclosure. Like the Valley Ruins they enclose a few daga houses within curving coursed walls, and probably housed a family close to the court. They are little studied and their date is uncertain, most likely 14th–15th century.",
+    "The miniature shows a curving drystone enclosure following the granite of the ridge, a smaller annex, a few daga houses and boulders. It is a reconstruction of the type rather than a survey."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz"
+   ],
+   "built": "14th–15th century (probably)",
+   "function": "Elite residence",
+   "activity": {
+    "figures": 12,
+    "radius": 60
+   }
+  },
+  {
+   "id": "eastern-ruins",
+   "placeId": "eastern-ruins",
+   "name": "The Eastern Ruins",
+   "category": "district",
+   "position": [
+    2527,
+    1575
+   ],
+   "rotation": -10,
+   "footprint": [
+    80.0,
+    56.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/eastern-ruins.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 80,
+      "depth": 55
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.0,
+        -13.75
+       ],
+       "width": 24.0,
+       "depth": 16.5,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.0,
+        11.0
+       ],
+       "width": 24.0,
+       "depth": 16.5,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Bare granite and woodland on the eastern ridge; a lookout over the valley."
+    },
+    "zenith-1350": {
+     "note": "Walled terraces and enclosures built against the boulders of the eastern ridge, with daga houses on the levels."
+    },
+    "decline-1500": {
+     "note": "Partly abandoned; trees root in the terraces.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "Enclosures and terraces on the slope of the ridge east of the valley, built against its granite boulders: one of the outer stone-walled households of the town. The exact grouping drawn here is approximate.",
+   "details": [
+    "Great Zimbabwe's stone walls are not confined to the three famous groups: smaller enclosures and terrace walls stand on the ridges round the valley. Those on the eastern ridge, like the Hill Complex, use boulders as part of their walls and level the slope with retaining walls for house platforms.",
+    "The miniature shows terrace walls stepping up the slope, an enclosure wall linking two boulders, and daga houses on the terraces. Its plan is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz"
+   ],
+   "built": "14th–15th century (probably)",
+   "function": "Residences on the eastern ridge",
+   "activity": {
+    "figures": 12,
+    "radius": 70
+   }
+  },
+  {
+   "id": "hill-ascent",
+   "placeId": "ancient-ascent",
+   "name": "The Ancient Ascent",
+   "category": "monument",
+   "position": [
+    1692,
+    1531
+   ],
+   "rotation": 0,
+   "footprint": [
+    33.4,
+    110.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/hill-ascent.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 110,
+     "height": 12.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "A steep path up the hillside among the boulders, the stone steps not yet built.",
+     "confidence": "interpretation"
+    },
+    "zenith-1350": {
+     "note": "The main way up from the valley: stone steps and a narrow walled passage climbing between boulders to the summit enclosures."
+    },
+    "decline-1500": {
+     "note": "Still climbed to reach the hill's shrine; loose steps and grass."
+    }
+   },
+   "summary": "The main stairway to the Hill Complex: stone steps climbing the south-western side of the hill between walls and boulders, so narrow in places that only one person can pass.",
+   "details": [
+    "Several paths climb the hill, among them the Ancient Ascent, the Terrace Ascent and the River Ascent. The Ancient Ascent climbs the steep side from the valley, its steps set into the slope and its course guarded by walls, so that anyone coming up could be watched from above.",
+    "The miniature shows a rising slope of granite with a flight of stone steps between low walls and boulders, a turn at a small landing and a gate-like gap at the top. Its length is shortened."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz"
+   ],
+   "built": "13th–14th century (steps and walls)",
+   "function": "Stairway to the Hill Complex",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "royal-kraal",
+   "placeId": "royal-kraal",
+   "name": "The cattle kraal",
+   "category": "civic",
+   "position": [
+    1358,
+    2330
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/royal-kraal.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "A thorn-and-pole pen for the community's cattle and goats, near the stream."
+    },
+    "zenith-1350": {
+     "note": "A great pole-and-thorn kraal for the herds that fed the court; most of the king's cattle grazed far away and moved with the seasons."
+    },
+    "decline-1500": {
+     "note": "A smaller pen for the cattle of the remaining households."
+    }
+   },
+   "summary": "A large cattle kraal by the stream west of the Great Enclosure. Cattle were the wealth of Great Zimbabwe's rulers; where the court's kraals stood is not known, and this one is placed by interpretation.",
+   "details": [
+    "Bones from the middens show that the people of Great Zimbabwe ate a great deal of beef, much of it from young animals, which suggests the court controlled large herds and shared out meat. The herds probably moved seasonally between pastures, and cattle were given in marriage payments and tribute.",
+    "The miniature shows a ring of upright poles and thorn branches round a dung-trodden pen, a smaller calf pen, herders' huts, a gate of rails and the long-horned sanga cattle of the region. All of it is interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kraal",
+    "wiki-sanga-cattle",
+    "wiki-kingdom-gz",
+    "pikirayi-zimbabwe-culture"
+   ],
+   "built": "in use from the 11th century",
+   "function": "Cattle kraal",
+   "activity": {
+    "figures": 14,
+    "radius": 90
+   }
+  },
+  {
+   "id": "elite-houses",
+   "placeId": "daga-platforms",
+   "name": "Daga houses of the elite",
+   "category": "district",
+   "position": [
+    1650,
+    1908
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/elite-houses.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 60,
+      "depth": 50
+     },
+     "buildings": [
+      {
+       "offset": [
+        -15.0,
+        -12.5
+       ],
+       "width": 18.0,
+       "depth": 15.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        15.0,
+        10.0
+       ],
+       "width": 18.0,
+       "depth": 15.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Ordinary daga-and-pole huts near the valley path."
+    },
+    "zenith-1350": {
+     "note": "A compound of solid daga houses on stone-revetted platforms, linked by daga walls round a swept yard."
+    },
+    "decline-1500": {
+     "note": "The houses abandoned and collapsed into low mounds of fired daga, as excavators found them.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A household of the elite: large round houses of solid daga, with moulded door frames and benches, raised on stone-revetted platforms and joined by curving daga walls round a yard.",
+   "details": [
+    "Excavations at Great Zimbabwe found the remains of thick daga houses with raised thresholds, moulded pilasters, benches and platforms, some burnt hard by fire. Instead of a pole frame plastered with mud, the walls were built of solid daga, a sign of wealth; curved daga walls linked houses into one household round its yard.",
+    "The miniature shows four round daga houses with conical thatch, two on a low stone platform, a kitchen house and granary, linking walls and a yard. The arrangement follows excavated examples loosely."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "wiki-kingdom-gz",
+    "garlake-gz",
+    "chirikure-pikirayi"
+   ],
+   "built": "13th–15th century",
+   "function": "Elite household",
+   "activity": {
+    "figures": 14,
+    "radius": 60
+   }
+  },
+  {
+   "id": "smelting-area",
+   "placeId": "smelters",
+   "name": "The iron-smelters' ground",
+   "category": "commercial",
+   "position": [
+    2141,
+    2419
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/smelting-area.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 50,
+      "depth": 40
+     },
+     "buildings": [
+      {
+       "offset": [
+        -12.5,
+        -10.0
+       ],
+       "width": 15.0,
+       "depth": 12.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        12.5,
+        8.0
+       ],
+       "width": 15.0,
+       "depth": 12.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "A single furnace and a slag heap at the edge of the settlement, making hoes and spearheads."
+    },
+    "zenith-1350": {
+     "note": "Several furnaces and forges on the edge of town; iron hoes, spears, wire and gongs, and copper and gold worked into wire and beads."
+    },
+    "decline-1500": {
+     "note": "Abandoned furnace bases and slag heaps in the grass.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A metal-working ground on the edge of the town: clay shaft furnaces blown with bellows, slag heaps and charcoal stacks. The place is an interpretation; furnace debris and smithing are well attested at the site.",
+   "details": [
+    "Iron ore was smelted in bloomery furnaces of clay with goatskin bellows driving air through clay pipes (tuyeres). Great Zimbabwe has yielded iron hoes, spearheads, chisels, wire and ceremonial double gongs, and also copper ingots, crucibles and gold wire and beads. Smelting itself may mostly have been done in villages nearer the ores.",
+    "The miniature shows three shaft furnaces with tuyeres and bellows pits, a forge under a thatched shelter, charcoal stacks, a slag heap and a pile of ore. Their form follows furnaces of the region recorded later."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-bloomery",
+    "wiki-great-zimbabwe",
+    "chirikure-pikirayi"
+   ],
+   "built": "from the 11th century",
+   "function": "Smelting and smithing",
+   "activity": {
+    "figures": 12,
+    "radius": 50
+   }
+  },
+  {
+   "id": "trade-ground",
+   "placeId": "trade-ground",
+   "name": "The trade ground",
+   "category": "commercial",
+   "position": [
+    2245,
+    1797
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/trade-ground.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 70,
+      "depth": 50
+     },
+     "buildings": [
+      {
+       "offset": [
+        -17.5,
+        -12.5
+       ],
+       "width": 21.0,
+       "depth": 15.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        17.5,
+        10.0
+       ],
+       "width": 21.0,
+       "depth": 15.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Open grass at the east end of the valley."
+    },
+    "zenith-1350": {
+     "note": "Gold dust, ivory and copper from the interior change hands for cloth, glass beads and glazed wares that came up from the coast."
+    },
+    "decline-1500": {
+     "note": "Empty: the trade now runs through Mutapa on the Zambezi and Khami in the west."
+    }
+   },
+   "summary": "Where, the usual reconstruction suggests, goods were brought together and exchanged: gold, ivory, copper and cattle from the interior, cloth, glass beads and Chinese and Persian ceramics from the coast. No market place has actually been identified.",
+   "details": [
+    "Great Zimbabwe's rulers controlled the flow of gold from the plateau to the Swahili coast, through Sofala and on to Kilwa. Imported goods found at the site include glass beads by the thousand, Chinese celadon of the 13th–14th centuries, Persian faience and Near Eastern glass, and a copper coin of Kilwa; how and where exchange happened is unknown.",
+    "The miniature shows a beaten-earth ground with mats of goods, a shade shelter on poles, tusks and bales, beads and pots, and a small court house. It is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-indian-ocean-trade",
+    "wiki-sofala",
+    "wiki-great-zimbabwe",
+    "pikirayi-zimbabwe-culture"
+   ],
+   "built": "13th–15th century",
+   "function": "Exchange of goods (hedged)",
+   "activity": {
+    "figures": 40,
+    "radius": 80
+   }
+  },
+  {
+   "id": "commoners-village",
+   "placeId": "commoners-homesteads",
+   "name": "Homesteads of the commoners",
+   "category": "district",
+   "position": [
+    2485,
+    2241
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/commoners-village.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 90,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -22.5,
+        -17.5
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        22.5,
+        14.0
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "A farming homestead: a few huts, a granary and a goat pen in the woodland clearing."
+    },
+    "zenith-1350": {
+     "note": "Close-set homesteads of daga-and-pole huts with conical thatch, each round its yard with granaries on stilts and a pen."
+    },
+    "decline-1500": {
+     "note": "Fewer houses; the rest left to fall, their daga floors grassed over."
+    }
+   },
+   "summary": "Where most people of Great Zimbabwe lived: homesteads of round daga-and-pole houses with conical thatch, granaries and pens, outside the stone walls.",
+   "details": [
+    "The daga houses of ordinary people were built of poles plastered with daga and thatched with grass; the family's houses (a cooking house, sleeping houses) stood round a swept yard, the dare, with granaries raised on stilts against rats and damp. Their remains are hard to see today and the size of the town is debated.",
+    "The miniature shows three homesteads with huts, granaries, a goat pen, grinding stones and a fence of poles. Their layout is an interpretation based on later Shona homesteads."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-shona",
+    "wiki-great-zimbabwe",
+    "chirikure-pikirayi"
+   ],
+   "built": "11th–16th century",
+   "function": "Homesteads",
+   "activity": {
+    "figures": 30,
+    "radius": 90
+   }
+  },
+  {
+   "id": "fields-granaries",
+   "placeId": "southern-fields",
+   "name": "Fields and granaries",
+   "category": "district",
+   "position": [
+    1514,
+    2718
+   ],
+   "rotation": 0,
+   "footprint": [
+    132.0,
+    83.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/great-zimbabwe/fields-granaries.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 130,
+      "depth": 80
+     },
+     "buildings": [
+      {
+       "offset": [
+        -32.5,
+        -20.0
+       ],
+       "width": 39.0,
+       "depth": 24.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        32.5,
+        16.0
+       ],
+       "width": 39.0,
+       "depth": 24.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Woodland cleared for the first fields of sorghum and finger millet."
+    },
+    "zenith-1350": {
+     "note": "Ridged fields of sorghum, finger millet and beans, with granaries on stilts and a watchers' platform against birds and baboons."
+    },
+    "decline-1500": {
+     "note": "Fewer fields worked; the rest turning back to grass and msasa saplings."
+    }
+   },
+   "summary": "Fields of sorghum and finger millet south of the town, worked with iron hoes, with granaries on stilts and a raised platform for children scaring birds.",
+   "details": [
+    "The people of Great Zimbabwe grew sorghum, finger millet and pearl millet, cowpeas and groundnuts, and kept cattle, sheep and goats. A large town needed a wide ring of fields; some think exhaustion of soils and woodland helped bring its decline.",
+    "The miniature shows hoed field strips with standing grain, granaries on stilts, a watch platform, a threshing floor and a shelter. The fields' place is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sorghum",
+    "wiki-granary",
+    "wiki-kingdom-gz",
+    "wiki-great-zimbabwe"
+   ],
+   "built": "11th–16th century",
+   "function": "Fields",
+   "activity": {
+    "figures": 16,
+    "radius": 90
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "gold-washer",
+   "name": "A gold-washer from the plateau",
+   "kind": "market",
+   "position": [
+    2141,
+    1764
+   ],
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "summary": "A man come down from the goldfields of the plateau with gold dust, washed from river sand and dug from shallow shafts, to hand over to the court's agents.",
+   "details": [
+    "Gold was mined on the Zimbabwe plateau in narrow shafts and trenches following the reefs, often by whole families in the dry season, and panned from river gravels. Later Portuguese writers describe gold dust carried in quills and small bags. Great Zimbabwe did not run the mines itself but controlled the trade."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kingdom-gz",
+    "wiki-great-zimbabwe",
+    "pikirayi-zimbabwe-culture"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "He unknots a cloth and lays out three feather quills stopped with wax, each heavy with yellow dust. The court's man taps one into his palm and weighs it by eye."
+    },
+    {
+     "hour": 13,
+     "text": "In the shade he tells of the shafts on the plateau, of women washing gravel in wooden bowls at the river, of a whole dry season's work in these quills."
+    },
+    {
+     "hour": 19,
+     "text": "Paid in cloth, beads and a hoe, he eats beef at a kinsman's fire in the valley and listens to the gongs from the Great Enclosure."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ivory-trader",
+   "name": "Ivory from the hunters",
+   "kind": "market",
+   "position": [
+    2412,
+    1864
+   ],
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "summary": "Elephant hunters' tusks brought in for the court, which sent ivory to the coast with the gold; some was carved here into bracelets and ornaments.",
+   "details": [
+    "Ivory was, with gold, the main export from the interior to the Swahili coast and on to India and China. Worked ivory has been found at Great Zimbabwe; one tusk of each elephant killed may have been owed to the ruler, as was later the custom in the region."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-ivory-trade",
+    "wiki-great-zimbabwe",
+    "wiki-indian-ocean-trade"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Two tusks lashed to a pole arrive on the shoulders of four men from the lowveld. They are longer than the men are tall."
+    },
+    {
+     "hour": 12,
+     "text": "A carver cuts a ring from the hollow end of a tusk with an iron saw; white dust gathers on the mat. Bracelets for the court's women."
+    },
+    {
+     "hour": 18,
+     "text": "The tusks are counted into a store hut in the Valley and the door is lashed shut. A boy is left to sleep across the threshold."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "coastal-trader",
+   "name": "Cloth and beads from the coast",
+   "kind": "market",
+   "position": [
+    2276,
+    1709
+   ],
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "summary": "Bales of cotton cloth and strings of glass beads that came up from the Swahili coast, probably through middlemen on the Save river rather than coastal merchants themselves.",
+   "details": [
+    "Glass beads by the thousand, Chinese celadon, Persian faience, Near Eastern glass and a Kilwa coin show the coast's reach. Whether Swahili merchants ever came this far inland is doubtful: goods probably passed from the coast through traders of the lowveld. Imported cloth was highly prized."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-swahili",
+    "wiki-glass-beads",
+    "wiki-sofala",
+    "chirikure-pikirayi"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A bale is unrolled on a mat: blue and white cotton, a length of something finer with a red border. Strings of tiny blue and yellow glass beads hang from a pole."
+    },
+    {
+     "hour": 13,
+     "text": "The trader speaks of boats on the Save, of a town by the sea called Sofala where men pray five times a day. The listeners laugh at the stories."
+    },
+    {
+     "hour": 20,
+     "text": "Beads are counted out by the string for a single tusk. Somewhere far downriver, a ship will carry that ivory toward India."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "potter",
+   "name": "The potter's yard",
+   "kind": "workshop",
+   "position": [
+    1796,
+    2197
+   ],
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "Women potters coiling the town's pots: water jars, beer pots and bowls, burnished with graphite until they shine like metal, some with incised bands of triangles.",
+   "details": [
+    "Pottery is the commonest find at Great Zimbabwe. Pots were built up from coils without a wheel, dried, burnished, often with graphite, and fired in open bonfires. Shapes and decoration change over the centuries and help archaeologists date the site's phases."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz",
+    "chirikure-pikirayi"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "She pinches a coil of clay onto the rim of a growing pot, turning it with her foot on a broken sherd. Her daughter grinds graphite on a flat stone."
+    },
+    {
+     "hour": 13,
+     "text": "A dry pot is rubbed with graphite and a pebble until its black skin gleams; a band of triangles is cut below the neck with a thorn."
+    },
+    {
+     "hour": 18,
+     "text": "Pots stacked under grass and wood go up in a roaring bonfire. They crack and ping as they cool, and the women count the losses."
+    }
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "Pots with comb-stamped and incised bands, of the earlier tradition."
+    },
+    "decline-1500": {
+     "note": "Fewer potters; the old styles continue in the valley's remaining homesteads."
+    }
+   }
+  },
+  {
+   "id": "soapstone-carver",
+   "name": "The soapstone carver",
+   "kind": "workshop",
+   "position": [
+    1932,
+    1698
+   ],
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "summary": "A carver of the soft greenish soapstone (steatite schist) used for bowls, figurines and the famous birds; whether the birds were made in the town is not known.",
+   "details": [
+    "Soapstone can be cut with iron tools. Great Zimbabwe has yielded carved soapstone bowls with animal friezes, figurines and the eight birds on columns, probably bateleur or fish eagles, messengers of the ancestors. The workshop is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-soapstone",
+    "wiki-zimbabwe-bird",
+    "matenga-birds"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Grey-green dust on his forearms: with an iron chisel he rounds the shoulder of a bird, its wings folded, its feet gripping a ring of zigzags."
+    },
+    {
+     "hour": 13,
+     "text": "He sands a bowl's rim with wet sandstone. Around its side a row of cattle walk nose to tail, a baboon among them."
+    },
+    {
+     "hour": 17,
+     "text": "An elder from the Hill comes to look at the bird in silence, and nods. Tomorrow it will be carried up the Ancient Ascent."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "wire-drawer",
+   "name": "Copper and gold wire-drawer",
+   "kind": "workshop",
+   "position": [
+    2068,
+    1731
+   ],
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "summary": "A smith drawing copper and gold into fine wire, wound into bangles, anklets and beads for the court, and beating gold into thin sheet.",
+   "details": [
+    "Copper ingots, crucibles, iron and copper wire, gold beads, bracelets and gold sheet are among the finds at Great Zimbabwe. Wire was drawn through holes in an iron plate and coiled round a core of fibre to make the bangles worn in stacks on arms and legs."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A copper rod, heated and hammered thin, is pulled through a row of holes in an iron plate, each smaller than the last. The wire squeaks."
+    },
+    {
+     "hour": 13,
+     "text": "He coils the wire round a twist of grass to make a bangle, then a dozen more. A woman waits to have them fitted from wrist to elbow."
+    },
+    {
+     "hour": 18,
+     "text": "Gold is weighed out for beads for the king's household. He works it behind a screen, with the court's man watching."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "iron-smith",
+   "name": "The smith's forge",
+   "kind": "workshop",
+   "position": [
+    2276,
+    2352
+   ],
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "A smith with goatskin bellows forging hoes, axes, spearheads and the double iron gongs of chiefs from the blooms of the smelters.",
+   "details": [
+    "Iron hoes were tools, currency and marriage goods; spearheads and ceremonial axes marked rank; clapperless double gongs, struck with a stick, were emblems of chiefship across the region and have been found at Great Zimbabwe."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bloomery",
+    "wiki-hoe",
+    "wiki-gong",
+    "wiki-great-zimbabwe"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A boy pumps the two goatskin bellows, one hand up, one down; the charcoal glows white through the clay nozzle. The smith turns a hoe blade in the fire."
+    },
+    {
+     "hour": 12,
+     "text": "On a granite anvil the hoe takes shape with a stone hammer, then an iron one. Finished hoes lean in a row against the shelter post, as good as money."
+    },
+    {
+     "hour": 19,
+     "text": "He tunes a double gong, beating each bell in turn, and it rings across the yards: a gong for a chief's messenger."
+    }
+   ],
+   "variants": {
+    "decline-1500": {
+     "note": "A smith still works for the remaining households, mostly repairing hoes."
+    }
+   }
+  },
+  {
+   "id": "court-music",
+   "name": "Mbira and gongs at the court",
+   "kind": "civic",
+   "position": [
+    1874,
+    1914
+   ],
+   "activePeriods": [
+    "zenith-1350"
+   ],
+   "summary": "Music before the Great Enclosure's north entrance: gongs, drums and perhaps the mbira, whose iron keys are played at ceremonies for the ancestors. The scene is an interpretation.",
+   "details": [
+    "The double iron gongs found at Great Zimbabwe are known emblems of rulers. The mbira, an instrument of iron keys on a wooden board, is central to Shona ceremonies for the ancestors; iron keys like its own are found in Iron Age sites of the region, but its presence here is not attested."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mbira",
+    "wiki-gong",
+    "berliner-mbira",
+    "huffman-symbols"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "A messenger waits by the north entrance while a gong is struck twice inside the wall. Only then may he pass into the narrow way."
+    },
+    {
+     "hour": 16,
+     "text": "Under a fig tree a man plays an mbira inside a gourd resonator, its bottle-top rattles buzzing. Three women sing an answering line."
+    },
+    {
+     "hour": 21,
+     "text": "Drums and clapping in the dark; firelight on the 11 m wall and the chevron band along its top. The king is not seen."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "spirit-shrine",
+   "name": "The medium's shrine on the hill",
+   "kind": "shrine",
+   "position": [
+    1932,
+    1243
+   ],
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "A place on the hill where spirit mediums (svikiro) spoke for the ancestral spirits of the land, the mhondoro, and for Mwari. That the hill had such a role is inferred from later Shona practice.",
+   "details": [
+    "Many scholars think the Hill Complex became a centre of ritual once the kings lived in the valley, perhaps of rain-making. Shona tradition links mediums, ancestors and the land; how this worked at Great Zimbabwe is a matter of interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-svikiro",
+    "wiki-mhondoro",
+    "wiki-mwari",
+    "wiki-kingdom-gz"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the boulders. A woman brings a pot of millet beer and sets it down at the foot of a rock, clapping softly before she speaks."
+    },
+    {
+     "hour": 14,
+     "text": "In a cleft between boulders, the medium sits in a black cloth. Her voice changes; the visitors kneel and the ancestor's words are repeated aloud."
+    },
+    {
+     "hour": 20,
+     "text": "From the hill you see the fires of the whole valley, and the dark oval of the Great Enclosure. Someone is asking for rain."
+    }
+   ],
+   "variants": {
+    "early-1100": {
+     "note": "The hilltop is where people live; offerings are made at its great boulders.",
+     "name": "Offerings among the boulders"
+    },
+    "decline-1500": {
+     "note": "The court is gone but the hill is still visited and its spirits honoured."
+    }
+   }
+  },
+  {
+   "id": "cattle-herder",
+   "name": "Herd boys and cattle",
+   "kind": "works",
+   "position": [
+    1337,
+    2419
+   ],
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "Boys driving the long-horned sanga cattle out to graze at dawn and back to the kraal at dusk; the court's great herds were moved between seasonal pastures far away.",
+   "details": [
+    "Cattle were wealth, bridewealth and tribute; bones from Great Zimbabwe's middens show much beef was eaten, and young animals were slaughtered for the elite. Herds were moved to winter grazing and away from tsetse fly, a work of boys and young men."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sanga-cattle",
+    "wiki-kraal",
+    "wiki-kingdom-gz"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The rails of the kraal gate slide out one by one; the cattle shoulder through, horns knocking. A boy whistles and swings a stick."
+    },
+    {
+     "hour": 13,
+     "text": "On the grass by the stream the herd lies chewing. The boys make clay oxen with long horns and fight mock battles with them."
+    },
+    {
+     "hour": 18,
+     "text": "Dust gold in the low sun as the herd comes back. A heifer is counted twice; it belongs to the king."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "granary",
+   "name": "Granaries on stilts",
+   "kind": "house",
+   "position": [
+    2632,
+    2130
+   ],
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "Round granaries of daga and woven grass on stone or wooden legs, raised against rats, termites and damp, holding a family's sorghum and millet until the next harvest.",
+   "details": [
+    "Granaries on stilts or on boulders are a lasting feature of Shona homesteads, and daga granary bases are found at Iron Age sites of the region. The grain in them fed the family and brewed the beer that went with every work-party and ceremony."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-granary",
+    "wiki-shona",
+    "wiki-sorghum"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A woman lifts the thatched lid of the granary and reaches in to the shoulder, filling a basket with red sorghum heads."
+    },
+    {
+     "hour": 13,
+     "text": "Under the granary, out of the sun, the chickens doze in the dust. A lizard runs up a stilt to the cool daga."
+    },
+    {
+     "hour": 19,
+     "text": "The lid is tied down with bark string. Over the fire, a pot of sorghum beer has begun to bubble for tomorrow's work-party."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "threshing-floor",
+   "name": "Women threshing sorghum",
+   "kind": "works",
+   "position": [
+    1692,
+    2574
+   ],
+   "activePeriods": [
+    "early-1100",
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "A floor of smoothed daga or bare granite where women beat the harvested sorghum and finger-millet heads with sticks and winnowed the grain in flat baskets.",
+   "details": [
+    "Sorghum and finger millet were the staple grains, eaten as a stiff porridge and brewed into beer. Grinding stones and threshing floors are part of every homestead site; flat granite outcrops made natural floors."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sorghum",
+    "wiki-finger-millet",
+    "wiki-shona"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Sticks rise and fall in rhythm on the granite slab; a song keeps time. The red heads of sorghum shatter and the grain jumps."
+    },
+    {
+     "hour": 12,
+     "text": "A woman lifts a flat basket and lets the grain fall in the wind; the chaff drifts away in a pale cloud."
+    },
+    {
+     "hour": 17,
+     "text": "Grain is carried home in baskets on heads. On the slab, girls grind tomorrow's meal on a lower stone with a smooth upper one."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "spinner",
+   "name": "Spinning cotton",
+   "kind": "workshop",
+   "position": [
+    1483,
+    1686
+   ],
+   "activePeriods": [
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "Women spinning cotton with a spindle weighted by a clay whorl, for the narrow cloth woven here alongside imported cloth.",
+   "details": [
+    "Clay spindle whorls are found in the later layers at Great Zimbabwe, showing that cotton was spun locally, probably from the 14th century. Cloth was valuable; imported cloth was a trade good of the elite."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-spindle-whorl",
+    "wiki-great-zimbabwe",
+    "garlake-gz"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A spindle with a clay whorl twirls down beside her knee, drawing white fibre into thread. The ball of cotton is held in her other hand."
+    },
+    {
+     "hour": 13,
+     "text": "In the shade of the yard the spun thread is wound on a stick. Someone is weaving a narrow strip on a ground loom."
+    },
+    {
+     "hour": 18,
+     "text": "The finished strip is folded and carried to the household head. Two such strips make a wrap."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "dhaka-pit",
+   "name": "Water from the dhaka pit",
+   "kind": "fountain",
+   "position": [
+    1671,
+    2053
+   ],
+   "activePeriods": [
+    "zenith-1350",
+    "decline-1500"
+   ],
+   "summary": "A dhaka pit: a hollow dug for clay (dhaka, daga) that filled with seepage water and became a well and reservoir for the town.",
+   "details": [
+    "Archaeologists have mapped many dhaka pits round Great Zimbabwe, closed depressions dug out for building clay that held water from springs and seepage; together they could store a great deal of water. Their use from the mid-2nd millennium CE is suggested."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "chirikure-pikirayi"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Girls carry clay pots on their heads to the pit and step down the worn path to the water. Frogs plop out of the way."
+    },
+    {
+     "hour": 12,
+     "text": "Builders dig red clay from the far edge for a new house's walls; their pit will one day hold water too."
+    },
+    {
+     "hour": 18,
+     "text": "Cattle drink at the shallow end. A woman scolds a herd boy for letting them churn the water to mud."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "hill-walls-1100",
+   "title": "The first stone walls on the hill",
+   "periodId": "early-1100",
+   "date": "c. 1100 (dates debated)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "hill-complex"
+   },
+   "effect": "construction",
+   "text": "On the granite hill where farmers and herders had long lived, the first stone walls go up between the boulders round the houses of a rising ruling family. The walls are rough and low at first, but the granite splits naturally into slabs. Over two centuries the Hill becomes a walled summit residence.",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "wiki-kingdom-gz",
+    "chirikure-pikirayi"
+   ]
+  },
+  {
+   "id": "mapungubwe-1220",
+   "title": "Mapungubwe rules the gold trade",
+   "periodId": "early-1100",
+   "date": "c. 1220–1290",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "royal-kraal"
+   },
+   "effect": "none",
+   "text": "On the Limpopo, 300 km to the south, the kings of Mapungubwe hold the trade in gold and ivory with the coast, and their court lives on a hilltop above the commoners. Great Zimbabwe, on the margin of this world, keeps cattle, farms, and learns: the hilltop court is a model it will follow.",
+   "sourceIds": [
+    "wiki-mapungubwe",
+    "wiki-kingdom-gz"
+   ]
+  },
+  {
+   "id": "trade-north-1300",
+   "title": "The gold trade turns to Zimbabwe",
+   "periodId": "zenith-1350",
+   "date": "c. 1290–1300",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "trade-ground"
+   },
+   "effect": "crowd",
+   "text": "Mapungubwe declines quickly and the trade routes shift north, with merchants going straight to the gold-producing plateau. Great Zimbabwe, between the goldfields and the route down the Save to Sofala, takes its place, and its rulers grow rich on what passes through their hands.",
+   "sourceIds": [
+    "wiki-kingdom-gz",
+    "wiki-mapungubwe",
+    "pikirayi-zimbabwe-culture"
+   ]
+  },
+  {
+   "id": "great-enclosure-1300",
+   "title": "The Great Enclosure rises",
+   "periodId": "zenith-1350",
+   "date": "c. 1300–1350 (dating debated)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "great-enclosure"
+   },
+   "effect": "construction",
+   "text": "The kings move down from the hill. In the valley their masons build the Great Enclosure in stages: first the inner walls, then the great outer wall of coursed granite blocks without mortar, 11 m high on the east, crowned with a chevron band, and the Conical Tower inside. Granite was split with fire and water.",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "garlake-gz",
+    "huffman-symbols"
+   ]
+  },
+  {
+   "id": "kilwa-coin-1320",
+   "title": "A coin of the sultan of Kilwa",
+   "periodId": "zenith-1350",
+   "date": "1320s (minted)",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "trade-ground"
+   },
+   "effect": "none",
+   "text": "A copper coin struck at Kilwa in the name of the sultan al-Hasan ibn Sulaiman (ruled c. 1310–1333) travelled 1,500 km inland and was found at Great Zimbabwe. Copper coins were small change on the coast, not money here; it probably came as a curiosity among the cloth and beads.",
+   "sourceIds": [
+    "wiki-al-hasan",
+    "wiki-kilwa-sultanate",
+    "wiki-great-zimbabwe"
+   ]
+  },
+  {
+   "id": "ibn-battuta-1331",
+   "title": "Ibn Battuta hears of the gold",
+   "periodId": "zenith-1350",
+   "date": "1331",
+   "kind": "daily",
+   "at": {
+    "spotId": "gold-washer"
+   },
+   "effect": "none",
+   "text": "Far away at Kilwa, the Moroccan traveller Ibn Battuta is told that gold dust comes to Sofala, half a month's journey south, from Yufi in the land of the Limiin, a month's march inland. He never went there; but the gold of the Zimbabwe plateau is what made the sultan of Kilwa rich.",
+   "sourceIds": [
+    "ibn-battuta-rihla",
+    "wiki-ibn-battuta",
+    "wiki-kilwa-sultanate"
+   ]
+  },
+  {
+   "id": "birds-1350",
+   "title": "Birds set on the hill",
+   "periodId": "zenith-1350",
+   "date": "13th–15th century",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "hill-complex"
+   },
+   "effect": "procession",
+   "text": "In the Eastern Enclosure of the Hill Complex, carved soapstone birds, about 40 cm tall, are set on columns a metre high on a stone platform. They are probably bateleur or fish eagles, messengers between the living, the ancestors and Mwari. Nothing like them is known from anywhere else.",
+   "sourceIds": [
+    "wiki-zimbabwe-bird",
+    "matenga-birds",
+    "huffman-symbols"
+   ]
+  },
+  {
+   "id": "celadon-1350",
+   "title": "Celadon on the court's table",
+   "periodId": "zenith-1350",
+   "date": "14th century",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "great-enclosure"
+   },
+   "effect": "none",
+   "text": "Green-glazed Chinese stoneware from the Longquan kilns, Persian faience and Near Eastern glass reach the court by way of the Swahili ports. Sherds of them were found in the enclosures centuries later, proof of a trade that linked this valley with China and the Gulf.",
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "wiki-celadon",
+    "wiki-indian-ocean-trade"
+   ]
+  },
+  {
+   "id": "decline-1450",
+   "title": "The court moves away",
+   "periodId": "decline-1500",
+   "date": "c. 1420–1450",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "great-enclosure"
+   },
+   "effect": "none",
+   "text": "Exhausted soils and woodland, failing trade and quarrels in the royal family empty the city. Tradition says Nyatsimba Mutota led people north 'in search of salt' to found the Mutapa state near the Zambezi; in the west Khami rises. The walls are left to stand with a small community in the valley.",
+   "sourceIds": [
+    "wiki-kingdom-gz",
+    "wiki-mutota",
+    "wiki-mutapa",
+    "wiki-khami"
+   ]
+  },
+  {
+   "id": "de-barros-1552",
+   "title": "De Barros describes 'Symbaoe'",
+   "periodId": "decline-1500",
+   "date": "1552 (from reports of the 1530s)",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "great-enclosure"
+   },
+   "effect": "none",
+   "text": "In his history of the Portuguese in Asia, João de Barros prints what Muslim traders at Sofala had told: a fortress of stones of marvellous size without mortar, a tower over twelve fathoms high, a place the people call Symbaoe, 'court', kept by an officer for the king of Mutapa. Hearsay, but recognisably this place.",
+   "sourceIds": [
+    "de-barros-asia",
+    "theal-records",
+    "wiki-de-barros",
+    "wiki-great-zimbabwe"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "gold-to-the-coast",
+   "title": "Gold for the coast, 1350",
+   "periodId": "zenith-1350",
+   "summary": "Follow a season's gold dust from the plateau through the hands of the court at Great Zimbabwe toward the coast, and the goods that came back.",
+   "steps": [
+    {
+     "spotId": "gold-washer",
+     "title": "Down from the plateau",
+     "text": "Quills of gold dust, a dry season's digging and washing, are handed to the court's agents. The plateau has many small zimbabwes; this is the greatest."
+    },
+    {
+     "landmarkId": "trade-ground",
+     "title": "Gold, ivory, cloth",
+     "text": "On the trade ground gold and tusks are counted against bales of cloth and strings of glass beads. Who sets the rate is the king."
+    },
+    {
+     "spotId": "wire-drawer",
+     "title": "Gold that stays",
+     "text": "Not all of it leaves. Some is drawn into wire and beads for the court, coiled into bangles that will be found in the ground six centuries later."
+    },
+    {
+     "landmarkId": "great-enclosure",
+     "title": "Behind the great wall",
+     "text": "The king receives the tally inside the Great Enclosure. Few see him; the chevron band and the tower speak for him to everyone outside."
+    },
+    {
+     "landmarkId": "hill-complex",
+     "title": "The ancestors are told",
+     "text": "On the hill, before the birds on their columns, offerings thank the ancestors who keep the land, the rains and the trade."
+    },
+    {
+     "spotId": "coastal-trader",
+     "title": "Toward Sofala",
+     "text": "The gold goes down the path toward the Save and the coast, through many hands, to Sofala and Kilwa, where Ibn Battuta heard of it in 1331.",
+     "when": "1331"
+    }
+   ],
+   "sourceIds": [
+    "wiki-kingdom-gz",
+    "wiki-great-zimbabwe",
+    "ibn-battuta-rihla"
+   ]
+  },
+  {
+   "id": "hill-1100",
+   "title": "A day on the hill, c. 1100",
+   "periodId": "early-1100",
+   "summary": "Climb to the crowded hilltop where Great Zimbabwe began, among herders, potters and the first stone walls.",
+   "steps": [
+    {
+     "spotId": "cattle-herder",
+     "title": "Cattle at dawn",
+     "text": "Wealth walks on four legs here. Boys take the community's cattle from the pen by the stream to the grass."
+    },
+    {
+     "landmarkId": "hill-ascent",
+     "title": "Up between the boulders",
+     "text": "A steep path climbs the hill's south-west side; at the top, the granite drops away in a cliff to the valley."
+    },
+    {
+     "landmarkId": "hill-complex",
+     "title": "The first walls",
+     "text": "Daga houses crowd every level spot, and the leading family has begun to wall its houses with split granite, using the great boulders as part of the wall."
+    },
+    {
+     "spotId": "potter",
+     "title": "A pot for beer",
+     "text": "Down in the valley a woman coils a beer pot and stamps a band of patterns round its neck."
+    },
+    {
+     "spotId": "spirit-shrine",
+     "title": "At the boulders",
+     "text": "At dusk offerings are left among the boulders for the ancestors who first came to this hill."
+    }
+   ],
+   "sourceIds": [
+    "wiki-great-zimbabwe",
+    "wiki-kingdom-gz",
+    "chirikure-pikirayi"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "garlake-gz",
+   "title": "Great Zimbabwe",
+   "author": "Peter Garlake",
+   "year": 1973
+  },
+  {
+   "id": "huffman-symbols",
+   "title": "Symbols in Stone: Unravelling the Mystery of Great Zimbabwe",
+   "author": "Thomas N. Huffman",
+   "year": 1987
+  },
+  {
+   "id": "pikirayi-zimbabwe-culture",
+   "title": "The Zimbabwe Culture: Origins and Decline of Southern Zambezian States",
+   "author": "Innocent Pikirayi",
+   "year": 2001
+  },
+  {
+   "id": "chirikure-pikirayi",
+   "title": "Inside and outside the dry stone walls: revisiting the material culture of Great Zimbabwe",
+   "author": "Shadreck Chirikure and Innocent Pikirayi",
+   "year": 2008,
+   "note": "Antiquity 82"
+  },
+  {
+   "id": "chirikure-2017",
+   "title": "New pathways of sociopolitical complexity in southern Africa: Great Zimbabwe's chronology",
+   "author": "Shadreck Chirikure et al.",
+   "year": 2017,
+   "note": "PLoS ONE / African Archaeological Review papers on the site's dating"
+  },
+  {
+   "id": "unesco-gz",
+   "title": "Great Zimbabwe National Monument (World Heritage List no. 364)",
+   "author": "UNESCO World Heritage Centre",
+   "year": 1986,
+   "url": "https://whc.unesco.org/en/list/364/"
+  },
+  {
+   "id": "wiki-great-zimbabwe",
+   "title": "Great Zimbabwe",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+  },
+  {
+   "id": "wiki-kingdom-gz",
+   "title": "Kingdom of Great Zimbabwe",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_Great_Zimbabwe"
+  },
+  {
+   "id": "wiki-mapungubwe",
+   "title": "Kingdom of Mapungubwe",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_Mapungubwe"
+  },
+  {
+   "id": "wiki-mutapa",
+   "title": "Mutapa Empire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mutapa_Empire"
+  },
+  {
+   "id": "wiki-khami",
+   "title": "Khami",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Khami"
+  },
+  {
+   "id": "wiki-lake-mutirikwe",
+   "title": "Lake Mutirikwe",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lake_Mutirikwe"
+  },
+  {
+   "id": "wiki-sofala",
+   "title": "Sofala",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sofala"
+  },
+  {
+   "id": "caton-thompson",
+   "title": "The Zimbabwe Culture: Ruins and Reactions",
+   "author": "Gertrude Caton-Thompson",
+   "year": 1931
+  },
+  {
+   "id": "matenga-birds",
+   "title": "The Soapstone Birds of Great Zimbabwe: Symbols of a Nation",
+   "author": "Edward Matenga",
+   "year": 1998
+  },
+  {
+   "id": "wiki-zimbabwe-bird",
+   "title": "Zimbabwe Bird",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zimbabwe_Bird"
+  },
+  {
+   "id": "wiki-dry-stone",
+   "title": "Dry stone",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dry_stone"
+  },
+  {
+   "id": "wiki-kraal",
+   "title": "Kraal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kraal"
+  },
+  {
+   "id": "wiki-sanga-cattle",
+   "title": "Sanga cattle",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sanga_cattle"
+  },
+  {
+   "id": "wiki-bloomery",
+   "title": "Bloomery",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bloomery"
+  },
+  {
+   "id": "wiki-indian-ocean-trade",
+   "title": "Indian Ocean trade",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indian_Ocean_trade"
+  },
+  {
+   "id": "wiki-shona",
+   "title": "Shona people",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shona_people"
+  },
+  {
+   "id": "wiki-granary",
+   "title": "Granary",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Granary"
+  },
+  {
+   "id": "wiki-sorghum",
+   "title": "Sorghum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sorghum"
+  },
+  {
+   "id": "wiki-mwari",
+   "title": "Mwari",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mwari"
+  },
+  {
+   "id": "ibn-battuta-rihla",
+   "title": "Rihla (Travels): Kilwa and Sofala",
+   "author": "Ibn Battuta",
+   "year": "c. 1355",
+   "note": "trans. H. A. R. Gibb, The Travels of Ibn Battuta, vol. 2",
+   "url": "https://en.wikipedia.org/wiki/Rihla"
+  },
+  {
+   "id": "de-barros-asia",
+   "title": "Décadas da Ásia, Década I, book 10",
+   "author": "João de Barros",
+   "year": 1552,
+   "note": "the account of 'Symbaoe', from reports gathered at Sofala"
+  },
+  {
+   "id": "theal-records",
+   "title": "Records of South-Eastern Africa",
+   "author": "George McCall Theal (ed.)",
+   "year": "1898–1903",
+   "note": "English translations of de Barros and other Portuguese sources"
+  },
+  {
+   "id": "berliner-mbira",
+   "title": "The Soul of Mbira: Music and Traditions of the Shona People of Zimbabwe",
+   "author": "Paul F. Berliner",
+   "year": 1978
+  },
+  {
+   "id": "wiki-kilwa-sultanate",
+   "title": "Kilwa Sultanate",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+  },
+  {
+   "id": "wiki-al-hasan",
+   "title": "Al-Hasan ibn Sulaiman",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Hasan_ibn_Sulaiman"
+  },
+  {
+   "id": "wiki-ibn-battuta",
+   "title": "Ibn Battuta",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+  },
+  {
+   "id": "wiki-de-barros",
+   "title": "João de Barros",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_de_Barros"
+  },
+  {
+   "id": "wiki-mutota",
+   "title": "Nyatsimba Mutota",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nyatsimba_Mutota"
+  },
+  {
+   "id": "wiki-swahili",
+   "title": "Swahili people",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Swahili_people"
+  },
+  {
+   "id": "wiki-ivory-trade",
+   "title": "Ivory trade",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ivory_trade"
+  },
+  {
+   "id": "wiki-celadon",
+   "title": "Celadon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Celadon"
+  },
+  {
+   "id": "wiki-glass-beads",
+   "title": "Glass bead making",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Glass_bead_making"
+  },
+  {
+   "id": "wiki-soapstone",
+   "title": "Soapstone",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Soapstone"
+  },
+  {
+   "id": "wiki-mbira",
+   "title": "Mbira",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mbira"
+  },
+  {
+   "id": "wiki-gong",
+   "title": "Gong",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gong"
+  },
+  {
+   "id": "wiki-hoe",
+   "title": "Hoe",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hoe"
+  },
+  {
+   "id": "wiki-finger-millet",
+   "title": "Finger millet",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Finger_millet"
+  },
+  {
+   "id": "wiki-svikiro",
+   "title": "Svikiro",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Svikiro"
+  },
+  {
+   "id": "wiki-mhondoro",
+   "title": "Mhondoro",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mhondoro"
+  },
+  {
+   "id": "wiki-spindle-whorl",
+   "title": "Spindle whorl",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spindle_whorl"
+  }
+ ]
+}
