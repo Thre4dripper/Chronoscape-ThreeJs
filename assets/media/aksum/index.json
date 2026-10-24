@@ -1,0 +1,152 @@
+{
+ "great-stele": [],
+ "ezana-stele": [],
+ "rome-stele": [
+  {
+   "src": "media/aksum/rome-stele/2.jpg",
+   "thumb": "media/aksum/rome-stele/t2.jpg",
+   "w": 800,
+   "h": 691,
+   "kind": "artwork",
+   "caption": ".'. ( /'r/f,Jf///r- ,/ ._ £3ST jWAZgZÏE",
+   "artist": "Boilly, Jules.; Eyries, J. B. B.",
+   "date": "1839",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Voyage_pittoresque_en_Asie_et_en_Afrique_(12238614873)_(cropped).jpg"
+  },
+  {
+   "src": "media/aksum/rome-stele/3.jpg",
+   "thumb": "media/aksum/rome-stele/t3.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "The Rome Stele (known also as the Aksum Obelisk) in Aksum (Tigray Region, Ethiopia).",
+   "artist": "Ondřej Žváček",
+   "date": "2009",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Rome_Stele.jpg"
+  },
+  {
+   "src": "media/aksum/rome-stele/4.jpg",
+   "thumb": "media/aksum/rome-stele/t4.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Obelisk of Aksum Remains",
+   "artist": "Allamiro",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Obelisk_of_Aksum_Remains5.jpg"
+  }
+ ],
+ "northern-stelae": [],
+ "gudit-stelae": [
+  {
+   "src": "media/aksum/gudit-stelae/1.jpg",
+   "thumb": "media/aksum/gudit-stelae/t1.jpg",
+   "w": 800,
+   "h": 561,
+   "kind": "photograph",
+   "caption": "Abreha and Atsbeha Church, Ethiopia",
+   "artist": "Bernard Gagnon",
+   "date": "2012",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Abreha_and_Atsbeha_Church_02.jpg"
+  }
+ ],
+ "tomb-false-door": [],
+ "dungur": [],
+ "taakha-maryam": [
+  {
+   "src": "media/aksum/taakha-maryam/1.jpg",
+   "thumb": "media/aksum/taakha-maryam/t1.jpg",
+   "w": 800,
+   "h": 693,
+   "kind": "photograph",
+   "caption": "Photograph by Sailko, 2018.",
+   "artist": "Sailko",
+   "date": "2018",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lalibela,_san_giorgio,_esterno_24.jpg"
+  },
+  {
+   "src": "media/aksum/taakha-maryam/2.jpg",
+   "thumb": "media/aksum/taakha-maryam/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Stelae in Main Stelae Field - Axum (Aksum) - Ethiopia - 01",
+   "artist": "Adam Jones from Kelowna, BC, Canada",
+   "date": "2013",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Stelae_in_Main_Stelae_Field_-_Axum_(Aksum)_-_Ethiopia_-_01_(8701101193).jpg"
+  }
+ ],
+ "kaleb-tombs": [
+  {
+   "src": "media/aksum/kaleb-tombs/1.jpg",
+   "thumb": "media/aksum/kaleb-tombs/t1.jpg",
+   "w": 800,
+   "h": 528,
+   "kind": "coin",
+   "caption": "Detail: This is the only chamber in the tomb that contains sarcophagi. See the preceding photo for my analysis of the sarcophagus on the right, which is in pieces.",
+   "artist": "A. Davey from Where I Live Now: Pacific Northwest",
+   "date": "",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Tomb_of_St._Elesbaan_of_Axum_(2836160935).jpg"
+  }
+ ],
+ "mai-shum": [],
+ "mary-of-zion": [
+  {
+   "src": "media/aksum/mary-of-zion/1.jpg",
+   "thumb": "media/aksum/mary-of-zion/t1.jpg",
+   "w": 800,
+   "h": 495,
+   "kind": "photograph",
+   "caption": "New Church of Our Lady Mary of Zion, Axum",
+   "artist": "Sailko",
+   "date": "2018",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aksum,_chiesa_nuova_di_santa_maria_di_zion,_costruita_da_haile_selassie_negli_anni_%2760,_esterno_00,0.jpg"
+  },
+  {
+   "src": "media/aksum/mary-of-zion/2.jpg",
+   "thumb": "media/aksum/mary-of-zion/t2.jpg",
+   "w": 800,
+   "h": 536,
+   "kind": "photograph",
+   "caption": "Building supposedly containing the Ark of the Covenant at Maryam Sion church in Aksum Ethiopia",
+   "artist": "JensiS65",
+   "date": "2010",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Maryam_Sion_in_Axum_Nebenbau_mit_der_Bundeslade_2010.jpg"
+  }
+ ],
+ "coronation-thrones": [],
+ "ezana-stone": [
+  {
+   "src": "media/aksum/ezana-stone/1.jpg",
+   "thumb": "media/aksum/ezana-stone/t1.jpg",
+   "w": 550,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph by Sailko, 2018.",
+   "artist": "Sailko",
+   "date": "2018",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aksum,_iscrizione_di_re_ezana,_in_greco,_sabeo_e_ge%27ez,_330-350_dc_ca._10.jpg"
+  }
+ ],
+ "beta-giyorgis": []
+}
