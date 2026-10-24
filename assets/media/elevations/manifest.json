@@ -230,6 +230,237 @@
   "w": 155.27,
   "x0px": 59.5
  },
+ "aksum/beta-giyorgis": {
+  "ground": 104.9,
+  "h": 4.16,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   160
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "aksum/coronation-thrones": {
+  "ground": 69.8,
+  "h": 3.22,
+  "mpp": 0.08339,
+  "px": [
+   542,
+   101
+  ],
+  "w": 40.0,
+  "x0px": 31.2
+ },
+ "aksum/dungur": {
+  "ground": 207.2,
+  "h": 13.87,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   248
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "aksum/dungur-ruin": {
+  "ground": 118.3,
+  "h": 6.47,
+  "mpp": 0.08342,
+  "px": [
+   805,
+   159
+  ],
+  "w": 60.33,
+  "x0px": 40.9
+ },
+ "aksum/ezana-stele": {
+  "ground": 280.7,
+  "h": 21.6,
+  "mpp": 0.08359,
+  "px": [
+   164,
+   303
+  ],
+  "w": 10.0,
+  "x0px": 22.2
+ },
+ "aksum/ezana-stone": {
+  "ground": 58.4,
+  "h": 3.67,
+  "mpp": 0.08396,
+  "px": [
+   101,
+   73
+  ],
+  "w": 6.0,
+  "x0px": 14.8
+ },
+ "aksum/great-stele": {
+  "ground": 435.7,
+  "h": 34.0,
+  "mpp": 0.08345,
+  "px": [
+   224,
+   464
+  ],
+  "w": 14.0,
+  "x0px": 28.1
+ },
+ "aksum/great-stele-fallen": {
+  "ground": 49.6,
+  "h": 2.6,
+  "mpp": 0.08351,
+  "px": [
+   205,
+   68
+  ],
+  "w": 14.0,
+  "x0px": 18.7
+ },
+ "aksum/gudit-stelae": {
+  "ground": 146.1,
+  "h": 7.6,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   201
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "aksum/kaleb-tombs": {
+  "ground": 87.2,
+  "h": 4.29,
+  "mpp": 0.08333,
+  "px": [
+   672,
+   123
+  ],
+  "w": 50.0,
+  "x0px": 36.0
+ },
+ "aksum/mai-shum": {
+  "ground": 101.6,
+  "h": 5.27,
+  "mpp": 0.08342,
+  "px": [
+   749,
+   140
+  ],
+  "w": 56.0,
+  "x0px": 38.8
+ },
+ "aksum/mary-of-zion": {
+  "ground": 272.1,
+  "h": 18.1,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   327
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "aksum/mary-of-zion-1500": {
+  "ground": 247.0,
+  "h": 16.0,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   302
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "aksum/mary-of-zion-aksumite": {
+  "ground": 217.9,
+  "h": 13.57,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   273
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "aksum/northern-stelae": {
+  "ground": 282.6,
+  "h": 20.02,
+  "mpp": 0.08338,
+  "px": [
+   853,
+   325
+  ],
+  "w": 64.0,
+  "x0px": 42.7
+ },
+ "aksum/northern-stelae-early": {
+  "ground": 96.6,
+  "h": 4.52,
+  "mpp": 0.08338,
+  "px": [
+   853,
+   139
+  ],
+  "w": 64.0,
+  "x0px": 42.7
+ },
+ "aksum/rome-stele": {
+  "ground": 325.7,
+  "h": 25.0,
+  "mpp": 0.0835,
+  "px": [
+   412,
+   352
+  ],
+  "w": 30.0,
+  "x0px": 26.3
+ },
+ "aksum/rome-stele-fallen": {
+  "ground": 54.9,
+  "h": 2.4,
+  "mpp": 0.0835,
+  "px": [
+   412,
+   81
+  ],
+  "w": 30.0,
+  "x0px": 26.3
+ },
+ "aksum/taakha-maryam": {
+  "ground": 213.4,
+  "h": 14.27,
+  "mpp": 0.094,
+  "px": [
+   1400,
+   275
+  ],
+  "w": 120.0,
+  "x0px": 61.7
+ },
+ "aksum/taakha-maryam-ruin": {
+  "ground": 123.5,
+  "h": 5.84,
+  "mpp": 0.094,
+  "px": [
+   1400,
+   185
+  ],
+  "w": 120.0,
+  "x0px": 61.7
+ },
+ "aksum/tomb-false-door": {
+  "ground": 68.6,
+  "h": 3.77,
+  "mpp": 0.08334,
+  "px": [
+   335,
+   92
+  ],
+  "w": 24.0,
+  "x0px": 23.5
+ },
  "alexandria/al-mursi": {
   "ground": 344.7,
   "h": 26.14,
