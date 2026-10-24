@@ -1,0 +1,647 @@
+{
+ "castelo": [
+  {
+   "src": "media/lisbon/castelo/1.jpg",
+   "thumb": "media/lisbon/castelo/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "artwork",
+   "caption": "Lisbona. Olisipo ... vulgo Lisbona Florentissimum Portugalliae Emporiu. [with] Cascale Lusitaniae Opp",
+   "artist": "Georg Braun / Frans Hogenberg",
+   "date": "1572",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbona._Olisipo_..._vulgo_Lisbona_Florentissimum_Portugalliae_Emporiu.jpg"
+  },
+  {
+   "src": "media/lisbon/castelo/3.jpg",
+   "thumb": "media/lisbon/castelo/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "artwork",
+   "caption": "View of Lisbon Castle in an illuminated manuscript",
+   "artist": "António de Holanda",
+   "date": "1505",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Castle-DuarteGalvao3.jpg"
+  },
+  {
+   "src": "media/lisbon/castelo/4.jpg",
+   "thumb": "media/lisbon/castelo/t4.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "West towers of Castelejo (Castelo de São Jorge)",
+   "artist": "Kent Wang",
+   "date": "2026",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:West_towers_of_Castelejo_(Castelo_de_S%C3%A3o_Jorge)_99.jpg"
+  },
+  {
+   "src": "media/lisbon/castelo/5.jpg",
+   "thumb": "media/lisbon/castelo/t5.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Views of Castelejo - Southern barbican and keep from the entrance",
+   "artist": "Kent Wang",
+   "date": "2026",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Views_of_Castelejo_-_Southern_barbican_and_keep_from_the_entrance_95.jpg"
+  },
+  {
+   "src": "media/lisbon/castelo/2.jpg",
+   "thumb": "media/lisbon/castelo/t2.jpg",
+   "w": 690,
+   "h": 800,
+   "kind": "coin",
+   "caption": "This is an accurate version of the coat of arms of Portugal during the period of the constitutional monarchy (1834-1910). It was based on coin and currency bill patterns, seals and stamps.",
+   "artist": "Portugal1908",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Coats_of_arms_of_the_Kingdom_of_Portugal_and_Algarves_(1834_to_1910)_-_Lesser.png"
+  }
+ ],
+ "se": [
+  {
+   "src": "media/lisbon/se/1.jpg",
+   "thumb": "media/lisbon/se/t1.jpg",
+   "w": 800,
+   "h": 566,
+   "kind": "artwork",
+   "caption": "Illustration by Alfredo Roque Gameiro in the book História de Portugal, popular e ilustrada, by Manuel Pinheiro Chagas",
+   "artist": "Roque Gameiro",
+   "date": "1899",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:A_S%C3%A9_de_Lisboa_no_s%C3%A9culo_XVI_-_Hist%C3%B3ria_de_Portugal,_popular_e_ilustrada.png"
+  },
+  {
+   "src": "media/lisbon/se/2.jpg",
+   "thumb": "media/lisbon/se/t2.jpg",
+   "w": 687,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Photograph by Diego Delso, 2022.",
+   "artist": "Diego Delso",
+   "date": "2022",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Catedral,_Lisboa,_Portugal,_2022-07-24,_DD_24.jpg"
+  },
+  {
+   "src": "media/lisbon/se/3.jpg",
+   "thumb": "media/lisbon/se/t3.jpg",
+   "w": 667,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Sé de Lisboa (Cathedral of Lisbon), main facade",
+   "artist": "Alvesgaspar",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_May_2013-1.jpg"
+  }
+ ],
+ "roman-theatre": [
+  {
+   "src": "media/lisbon/roman-theatre/1.jpg",
+   "thumb": "media/lisbon/roman-theatre/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Sítio Arqueológico de Colaride",
+   "artist": "GualdimG",
+   "date": "2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:S%C3%ADtio_Arqueol%C3%B3gico_de_Colaride_03.jpg"
+  },
+  {
+   "src": "media/lisbon/roman-theatre/2.jpg",
+   "thumb": "media/lisbon/roman-theatre/t2.jpg",
+   "w": 800,
+   "h": 536,
+   "kind": "photograph",
+   "caption": "This file was uploaded for Wiki Loves Monuments in Portugal with the unique identifier 69753. English | español | português | português do Brasil | +/− review Done",
+   "artist": "Concierge.2C",
+   "date": "2009",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_-_Ru%C3%ADnas_do_Teatro_Romano.jpg"
+  }
+ ],
+ "porta-do-sol": [
+  {
+   "src": "media/lisbon/porta-do-sol/1.jpg",
+   "thumb": "media/lisbon/porta-do-sol/t1.jpg",
+   "w": 800,
+   "h": 257,
+   "kind": "photograph",
+   "caption": "Intact section of medieval wall of Lisbon. Consists of white-painted tower (right), ochre-colored wall (left center), and ochre tower (left), all on skyline.",
+   "artist": "Osoraku",
+   "date": "2021",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cerca_moura_at_cidadela.jpg"
+  },
+  {
+   "src": "media/lisbon/porta-do-sol/2.jpg",
+   "thumb": "media/lisbon/porta-do-sol/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Cerca Velha de Lisboa - Portas do Sol",
+   "artist": "Lijealso",
+   "date": "2010",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cerca_Velha_-_Portas_do_Sol.JPG"
+  }
+ ],
+ "paco-ribeira": [
+  {
+   "src": "media/lisbon/paco-ribeira/1.jpg",
+   "thumb": "media/lisbon/paco-ribeira/t1.jpg",
+   "w": 800,
+   "h": 565,
+   "kind": "artwork",
+   "caption": "Na pintura são visíveis o Paço da Ribeira, o Convento de São Francisco da Cidade e o cais. Na praça há fidalgos, comerciantes, eclesiásticos e até soldados pois à época ainda decorria a Guerra da Restauração.",
+   "artist": "Dirk Stoop",
+   "date": "before 1686",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Terreiro_do_Pa%C3%A7o_em_1662.jpg"
+  },
+  {
+   "src": "media/lisbon/paco-ribeira/3.jpg",
+   "thumb": "media/lisbon/paco-ribeira/t3.jpg",
+   "w": 800,
+   "h": 481,
+   "kind": "artwork",
+   "caption": "Artwork by Unknown authorUnknown author, 1748.",
+   "artist": "Unknown authorUnknown author",
+   "date": "1748",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Court_function_at_the_Palace_of_Ribeira_in_1748.jpg"
+  },
+  {
+   "src": "media/lisbon/paco-ribeira/5.jpg",
+   "thumb": "media/lisbon/paco-ribeira/t5.jpg",
+   "w": 800,
+   "h": 458,
+   "kind": "artwork",
+   "caption": "Cortejo Real no Terreiro do Paço, 23 de Abril de 1662. A Infanta D. Catarina de Bragança embarca para Inglaterra, onde se irá casar com o Rei Carlos II.",
+   "artist": "Unknown authorUnknown author",
+   "date": "circa 1662",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Cortejo_Real_no_Terreiro_do_Pa%C3%A7o,_23_de_Abril_de_1662.png"
+  },
+  {
+   "src": "media/lisbon/paco-ribeira/2.jpg",
+   "thumb": "media/lisbon/paco-ribeira/t2.jpg",
+   "w": 800,
+   "h": 534,
+   "kind": "painting",
+   "caption": "18th century from the harbour by Guillaume Debrie (2)",
+   "artist": "unknown french",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:French_drawing_of_the_Palace_of_Ribeira.jpg"
+  },
+  {
+   "src": "media/lisbon/paco-ribeira/4.jpg",
+   "thumb": "media/lisbon/paco-ribeira/t4.jpg",
+   "w": 690,
+   "h": 800,
+   "kind": "coin",
+   "caption": "This is an accurate version of the coat of arms of Portugal during the period of the constitutional monarchy (1834-1910). It was based on coin and currency bill patterns, seals and stamps.",
+   "artist": "Portugal1908",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Coats_of_arms_of_the_Kingdom_of_Portugal_and_Algarves_(1834_to_1910)_-_Lesser.png"
+  }
+ ],
+ "praca-comercio": [
+  {
+   "src": "media/lisbon/praca-comercio/1.jpg",
+   "thumb": "media/lisbon/praca-comercio/t1.jpg",
+   "w": 800,
+   "h": 565,
+   "kind": "artwork",
+   "caption": "Na pintura são visíveis o Paço da Ribeira, o Convento de São Francisco da Cidade e o cais. Na praça há fidalgos, comerciantes, eclesiásticos e até soldados pois à época ainda decorria a Guerra da Restauração.",
+   "artist": "Dirk Stoop",
+   "date": "before 1686",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Terreiro_do_Pa%C3%A7o_em_1662.jpg"
+  },
+  {
+   "src": "media/lisbon/praca-comercio/2.jpg",
+   "thumb": "media/lisbon/praca-comercio/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "West wing of Praça do Comércio",
+   "artist": "Kent Wang",
+   "date": "2026",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:West_wing_of_Pra%C3%A7a_do_Com%C3%A9rcio_53.jpg"
+  },
+  {
+   "src": "media/lisbon/praca-comercio/3.jpg",
+   "thumb": "media/lisbon/praca-comercio/t3.jpg",
+   "w": 800,
+   "h": 216,
+   "kind": "photograph",
+   "caption": "The Palace Square in 14 th of may, 1575 by Simão de Miranda",
+   "artist": "Simão de Miranda",
+   "date": "2011",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Terreiro_do_Pa%C3%A7o_no_dia_14_de_Maio_de_1575.jpg"
+  }
+ ],
+ "casa-da-india": [
+  {
+   "src": "media/lisbon/casa-da-india/1.jpg",
+   "thumb": "media/lisbon/casa-da-india/t1.jpg",
+   "w": 800,
+   "h": 579,
+   "kind": "engraving",
+   "caption": "16th-century Engraving of Lisbon, Portugal.",
+   "artist": "Georg Braun and Franz Hogenberg",
+   "date": "circa 1572",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon_in_1572_(cropped).jpg"
+  },
+  {
+   "src": "media/lisbon/casa-da-india/2.jpg",
+   "thumb": "media/lisbon/casa-da-india/t2.jpg",
+   "w": 800,
+   "h": 376,
+   "kind": "artwork",
+   "caption": "The Cantino planisphere, completed by an unknown Portuguese cartographer in 1502, is one of the most precious cartographic documents of all time.",
+   "artist": "anonymous Portuguese (1502)",
+   "date": "1502",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Cantino_planisphere_(1502).jpg"
+  },
+  {
+   "src": "media/lisbon/casa-da-india/3.jpg",
+   "thumb": "media/lisbon/casa-da-india/t3.jpg",
+   "w": 707,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Artwork by Garcia Fernandes, 1537.",
+   "artist": "Garcia Fernandes",
+   "date": "1537",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Fernandes_Holy_Trinity_(detail).jpg"
+  },
+  {
+   "src": "media/lisbon/casa-da-india/4.jpg",
+   "thumb": "media/lisbon/casa-da-india/t4.jpg",
+   "w": 507,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "portrait de João de Barros, in Décadas da Ásia, Lisboa 1777-1778",
+   "artist": "Victor Couto",
+   "date": "1777",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_de_Barros_(cropped).jpg"
+  },
+  {
+   "src": "media/lisbon/casa-da-india/5.jpg",
+   "thumb": "media/lisbon/casa-da-india/t5.jpg",
+   "w": 607,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Portuguese carracks off a rocky coast.",
+   "artist": "Circle of Joachim Patinir",
+   "date": "circa 1540",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Portuguese_Carracks_off_a_Rocky_Coast_(cropped)_(cropped).jpg"
+  }
+ ],
+ "ribeira-das-naus": [],
+ "hospital-todos-os-santos": [
+  {
+   "src": "media/lisbon/hospital-todos-os-santos/1.jpg",
+   "thumb": "media/lisbon/hospital-todos-os-santos/t1.jpg",
+   "w": 800,
+   "h": 662,
+   "kind": "photograph",
+   "caption": "The Rossio Square (facing All Saints' Royal Hospital) and St. George Castle, prior to the 1755 Lisbon earthquake.",
+   "artist": "Unknown authorUnknown author",
+   "date": "First half of the 18th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Rossio_e_Castelo_de_S._Jorge_antes_do_Terramoto_de_1755.png"
+  },
+  {
+   "src": "media/lisbon/hospital-todos-os-santos/2.jpg",
+   "thumb": "media/lisbon/hospital-todos-os-santos/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Sérgio Horta, a partir de orginal de Ornellas e outros.",
+   "artist": "Sérgio Horta, a partir de orginal de Ornellas e outros",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Bandeira_municipal_de_Lisboa.png"
+  }
+ ],
+ "estaus": [
+  {
+   "src": "media/lisbon/estaus/1.jpg",
+   "thumb": "media/lisbon/estaus/t1.jpg",
+   "w": 800,
+   "h": 467,
+   "kind": "painting",
+   "caption": "Drawing of the Inquisition Palace (Estaus Palace) in the Rossio square in Lisbon, Portugal.",
+   "artist": "first half of 19th century",
+   "date": "first half of 19th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_da_Inquisi%C3%A7%C3%A3o_no_Rossio_(cropped).png"
+  }
+ ],
+ "porta-santo-antao": [],
+ "carmo": [
+  {
+   "src": "media/lisbon/carmo/1.jpg",
+   "thumb": "media/lisbon/carmo/t1.jpg",
+   "w": 800,
+   "h": 520,
+   "kind": "artwork",
+   "caption": "Vista do Convento do Carmo na Crónica dos Carmelitas (1745) antes do terramoto de 1755.",
+   "artist": "Guillaume-François-Laurent Debrie",
+   "date": "1745",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Convento_do_Carmo_em_1745.jpg"
+  },
+  {
+   "src": "media/lisbon/carmo/2.jpg",
+   "thumb": "media/lisbon/carmo/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Ruins of the Igreja do Carmo; Lisbon, Portugal",
+   "artist": "Georges Jansoone",
+   "date": "2006",
+   "license": "CC BY 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon09.jpg"
+  },
+  {
+   "src": "media/lisbon/carmo/3.jpg",
+   "thumb": "media/lisbon/carmo/t3.jpg",
+   "w": 684,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Nave of Igreja do Convento do Carmo in Lisbon, Portugal.",
+   "artist": "Velvet",
+   "date": "2016",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbonne_covento_do_carmo_int.jpg"
+  }
+ ],
+ "sao-roque": [
+  {
+   "src": "media/lisbon/sao-roque/4.jpg",
+   "thumb": "media/lisbon/sao-roque/t4.jpg",
+   "w": 520,
+   "h": 800,
+   "kind": "plan",
+   "caption": "Floor plan of the Igreja de São Roque (Church of St. Roque/Roch) in Lisbon, created by Ron B. Thomson",
+   "artist": "Ron B. Thomson",
+   "date": "",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Igreja_de_S%C3%A3o_Roque_Plan.jpg"
+  },
+  {
+   "src": "media/lisbon/sao-roque/3.jpg",
+   "thumb": "media/lisbon/sao-roque/t3.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Exterior of Igreja de São Roque (Lisbon)",
+   "artist": "Uhooep",
+   "date": "2012",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Igreja_de_S%C3%A3o_Roque_(Lisbon).jpg"
+  },
+  {
+   "src": "media/lisbon/sao-roque/5.jpg",
+   "thumb": "media/lisbon/sao-roque/t5.jpg",
+   "w": 664,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Chapel of Our Lady of Piety stitched from two fisheye images",
+   "artist": "Stijndon",
+   "date": "2014",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chapel_of_Our_Lady_of_Piety_Pano.jpg"
+  },
+  {
+   "src": "media/lisbon/sao-roque/1.jpg",
+   "thumb": "media/lisbon/sao-roque/t1.jpg",
+   "w": 345,
+   "h": 800,
+   "kind": "coin",
+   "caption": "Painted ceiling of the Church of St. Roch, in Lisbon. The painted ceiling of the nave is a trompe l'oeil composition so as to give the illusion of a barrel vaulting supported by four large arches.",
+   "artist": "Francisco Venegas & Amaro do Vale",
+   "date": "1588",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Tecto_da_Igreja_de_S%C3%A3o_Roque_(1588)_-_Francisco_Venegas_%26_Amaro_do_Vale.png"
+  },
+  {
+   "src": "media/lisbon/sao-roque/2.jpg",
+   "thumb": "media/lisbon/sao-roque/t2.jpg",
+   "w": 800,
+   "h": 478,
+   "kind": "coin",
+   "caption": "Chão em mosaico da Capela de São João Baptista, na Igreja de São Roque, Lisboa. O painel de mosaico representa uma esfera armilar oval, rodeada de grinaldas de flores, baseado em desenhos de Ignazio Stern, um pintor…",
+   "artist": "Enrico Enuo & Ignazio Stern",
+   "date": "1745",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A3o_em_mosaico_da_Capela_de_S%C3%A3o_Jo%C3%A3o_Baptista.png"
+  }
+ ],
+ "misericordia": [
+  {
+   "src": "media/lisbon/misericordia/2.jpg",
+   "thumb": "media/lisbon/misericordia/t2.jpg",
+   "w": 800,
+   "h": 515,
+   "kind": "artwork",
+   "caption": "Section of Lisbon around the Cathedral, taken from Georg Braun and Frans Hogenberg, Civitates orbis terrarum (Cologne, 1598), vol. 5",
+   "artist": "Braun and Hogenberg",
+   "date": "1598",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon_N._S._de_Conceicao_Velha_(1598).jpg"
+  },
+  {
+   "src": "media/lisbon/misericordia/1.jpg",
+   "thumb": "media/lisbon/misericordia/t1.jpg",
+   "w": 499,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Portal of the Igreja de Nossa Senhora da Conceição Velha. Lisbon, Portugal",
+   "artist": "Alvesgaspar",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_May_2013-5.jpg"
+  },
+  {
+   "src": "media/lisbon/misericordia/3.jpg",
+   "thumb": "media/lisbon/misericordia/t3.jpg",
+   "w": 800,
+   "h": 530,
+   "kind": "photograph",
+   "caption": "Pintura do tecto da Igreja",
+   "artist": "Lrocha",
+   "date": "2011",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Igreja_da_Concei%C3%A7%C3%A3o_Velha3.jpg"
+  }
+ ],
+ "casa-dos-bicos": [
+  {
+   "src": "media/lisbon/casa-dos-bicos/1.jpg",
+   "thumb": "media/lisbon/casa-dos-bicos/t1.jpg",
+   "w": 800,
+   "h": 693,
+   "kind": "photograph",
+   "caption": "Casa dos Bicos. Lisbon, Portugal",
+   "artist": "Alvesgaspar",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_May_2013-12.jpg"
+  },
+  {
+   "src": "media/lisbon/casa-dos-bicos/2.jpg",
+   "thumb": "media/lisbon/casa-dos-bicos/t2.jpg",
+   "w": 800,
+   "h": 756,
+   "kind": "photograph",
+   "caption": "Photograph by Unknoun artist, 2011.",
+   "artist": "Unknoun artist",
+   "date": "2011",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_1730_detail.jpg"
+  }
+ ],
+ "chafariz-del-rei": [
+  {
+   "src": "media/lisbon/chafariz-del-rei/1.jpg",
+   "thumb": "media/lisbon/chafariz-del-rei/t1.jpg",
+   "w": 800,
+   "h": 545,
+   "kind": "artwork",
+   "caption": "The Chafariz d'El-Rey (King's Fountain) in the Alfama District, Lisbon. Netherlandish, ca. 1570-80.",
+   "artist": "anonymous",
+   "date": "circa 1570",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Chafariz_d%E2%80%99El-Rey,_c._1570-80_(Colec%C3%A7%C3%A3o_Berardo).png"
+  }
+ ],
+ "opera-do-tejo": [
+  {
+   "src": "media/lisbon/opera-do-tejo/2.jpg",
+   "thumb": "media/lisbon/opera-do-tejo/t2.jpg",
+   "w": 800,
+   "h": 670,
+   "kind": "plan",
+   "caption": "Section drawing of the Tagus Opera, Ribeira Palace, Lisbon showing the relationship between the floor plan and the cross-section at the central long-way axis.",
+   "artist": "José de Figueiredo",
+   "date": "1933",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%93pera_do_Tejo_(Tagus_Opera),_Lisbon.jpg"
+  },
+  {
+   "src": "media/lisbon/opera-do-tejo/1.jpg",
+   "thumb": "media/lisbon/opera-do-tejo/t1.jpg",
+   "w": 800,
+   "h": 560,
+   "kind": "artwork",
+   "caption": "The stage of the Ópera do Tejo, in Lisbon, on the day of its opening, 31 March 1755. The opera was Perez's Alessandro nell'Indie.",
+   "artist": "Giovanni Berardi",
+   "date": "1755",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Cen%C3%A1rio_para_a_inaugura%C3%A7%C3%A3o_da_%C3%93pera_do_Tejo,_31_de_Mar%C3%A7o_de_1755.png"
+  },
+  {
+   "src": "media/lisbon/opera-do-tejo/3.jpg",
+   "thumb": "media/lisbon/opera-do-tejo/t3.jpg",
+   "w": 800,
+   "h": 558,
+   "kind": "artwork",
+   "caption": "The ruins of the Royal Opera House, in Lisbon, destroyed in the 1755 Lisbon Earthquake.",
+   "artist": "Jacques Philippe Le Bas",
+   "date": "1757",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Ruinas_da_%C3%93pera_do_Tejo_ap%C3%B3s_o_Terramoto_de_1755_-_Jacques_Philippe_Le_Bas,_1757.png"
+  }
+ ],
+ "sao-vicente": [
+  {
+   "src": "media/lisbon/sao-vicente/1.jpg",
+   "thumb": "media/lisbon/sao-vicente/t1.jpg",
+   "w": 800,
+   "h": 447,
+   "kind": "photograph",
+   "caption": "Photograph by Deensel, 2017.",
+   "artist": "Deensel",
+   "date": "2017",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Igreja_e_Mosteiro_de_S%C3%A3o_Vicente_de_Fora.jpg"
+  },
+  {
+   "src": "media/lisbon/sao-vicente/2.jpg",
+   "thumb": "media/lisbon/sao-vicente/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Sacristy of Mosteiro de São Vicente de Fora",
+   "artist": "Kent Wang",
+   "date": "2026",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sacristy_of_Mosteiro_de_S%C3%A3o_Vicente_de_Fora_801.jpg"
+  }
+ ]
+}
