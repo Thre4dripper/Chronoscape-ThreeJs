@@ -769,6 +769,126 @@
   "cy": 0.55,
   "size": 99.33
  },
+ "carthage/amphitheatre": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 173.84
+ },
+ "carthage/amphitheatre-ruin": {
+  "cx": 0.05,
+  "cy": -0.65,
+  "size": 140.08
+ },
+ "carthage/antonine-baths": {
+  "cx": 0.0,
+  "cy": 4.4,
+  "size": 290.48
+ },
+ "carthage/antonine-baths-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 231.32
+ },
+ "carthage/byrsa": {
+  "cx": -1.12,
+  "cy": 0.51,
+  "size": 306.18
+ },
+ "carthage/byrsa-forum": {
+  "cx": -0.85,
+  "cy": 2.19,
+  "size": 309.24
+ },
+ "carthage/byrsa-ruins": {
+  "cx": -2.74,
+  "cy": -2.89,
+  "size": 281.3
+ },
+ "carthage/circus": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 576.2
+ },
+ "carthage/commercial-harbour": {
+  "cx": -0.5,
+  "cy": -0.0,
+  "size": 440.06
+ },
+ "carthage/cothon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 390.12
+ },
+ "carthage/cothon-roman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 372.09
+ },
+ "carthage/cothon-silted": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 360.76
+ },
+ "carthage/damous-el-karita": {
+  "cx": -0.15,
+  "cy": -0.0,
+  "size": 197.0
+ },
+ "carthage/hannibal-quarter": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 153.2
+ },
+ "carthage/harbour-silted": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 424.08
+ },
+ "carthage/juno-necropolis": {
+  "cx": -0.69,
+  "cy": -0.09,
+  "size": 106.59
+ },
+ "carthage/la-malga": {
+  "cx": -0.5,
+  "cy": 0.6,
+  "size": 164.55
+ },
+ "carthage/la-malga-ruin": {
+  "cx": -0.5,
+  "cy": 0.6,
+  "size": 164.55
+ },
+ "carthage/odeon": {
+  "cx": 0.0,
+  "cy": 1.25,
+  "size": 159.97
+ },
+ "carthage/sea-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 278.06
+ },
+ "carthage/sidi-bou-said": {
+  "cx": 0.23,
+  "cy": 0.52,
+  "size": 142.17
+ },
+ "carthage/theatre": {
+  "cx": 0.0,
+  "cy": 0.19,
+  "size": 147.82
+ },
+ "carthage/tophet": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 113.3
+ },
+ "carthage/villa-aviary": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 77.26
+ },
  "changan/bell-tower": {
   "cx": 0.0,
   "cy": -0.0,
