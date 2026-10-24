@@ -104,6 +104,111 @@
   "cy": 0.0,
   "size": 228.86
  },
+ "aksum/beta-giyorgis": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 105.48
+ },
+ "aksum/coronation-thrones": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 53.8
+ },
+ "aksum/dungur": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 92.97
+ },
+ "aksum/dungur-ruin": {
+  "cx": 0.17,
+  "cy": -0.0,
+  "size": 79.98
+ },
+ "aksum/ezana-stele": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 56.88
+ },
+ "aksum/ezana-stone": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 20.61
+ },
+ "aksum/great-stele": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 113.2
+ },
+ "aksum/great-stele-fallen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 56.68
+ },
+ "aksum/gudit-stelae": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 111.69
+ },
+ "aksum/kaleb-tombs": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 65.72
+ },
+ "aksum/mai-shum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 73.48
+ },
+ "aksum/mary-of-zion": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 140.58
+ },
+ "aksum/mary-of-zion-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 136.8
+ },
+ "aksum/mary-of-zion-aksumite": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 132.43
+ },
+ "aksum/northern-stelae": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 114.04
+ },
+ "aksum/northern-stelae-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 86.13
+ },
+ "aksum/rome-stele": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 83.0
+ },
+ "aksum/rome-stele-fallen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 42.32
+ },
+ "aksum/taakha-maryam": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 153.69
+ },
+ "aksum/taakha-maryam-ruin": {
+  "cx": 0.0,
+  "cy": -0.12,
+  "size": 138.51
+ },
+ "aksum/tomb-false-door": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 38.79
+ },
  "alexandria/al-mursi": {
   "cx": 0.0,
   "cy": -0.0,
