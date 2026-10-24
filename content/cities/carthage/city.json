@@ -1,0 +1,7003 @@
+{
+ "id": "carthage",
+ "name": "Carthage",
+ "subtitle": "Qart-hadasht, the New City",
+ "description": "Carthage from the Punic city of the 5th century BCE to the deserted site of about 1600: the peninsula between the Gulf of Tunis and the Lake of Tunis, with the Byrsa hill, the rectangular and circular harbours and the Tophet at Salammbo, the Megara suburb and the cliff of Sidi Bou Said, and Roman Carthage laid out over the ruins. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "punic-150",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#ECE3CF",
+   "#E0D2B4",
+   "#E8DCC2",
+   "#D3C19E",
+   "#F0E9DA"
+  ],
+  "roofs": [
+   "#CDBB96",
+   "#BFAA82"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2156,
+    2885
+   ],
+   "distance": 40,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 140
+ },
+ "map": {
+  "size": [
+   4988,
+   4993
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Gulf of Tunis",
+    "path": [
+     [
+      1054,
+      5901
+     ],
+     [
+      1489,
+      5449
+     ],
+     [
+      1872,
+      4995
+     ],
+     [
+      2205,
+      4591
+     ],
+     [
+      2438,
+      4229
+     ],
+     [
+      2605,
+      3924
+     ],
+     [
+      2744,
+      3598
+     ],
+     [
+      2952,
+      3235
+     ],
+     [
+      3168,
+      2912
+     ],
+     [
+      3382,
+      2592
+     ],
+     [
+      3640,
+      2257
+     ],
+     [
+      3753,
+      1737
+     ],
+     [
+      3657,
+      1421
+     ],
+     [
+      3665,
+      1471
+     ],
+     [
+      4036,
+      1401
+     ],
+     [
+      4513,
+      1217
+     ],
+     [
+      4907,
+      904
+     ],
+     [
+      5097,
+      377
+     ],
+     [
+      4858,
+      -99
+     ],
+     [
+      4486,
+      -413
+     ],
+     [
+      4031,
+      -731
+     ]
+    ],
+    "width": 700,
+    "id": "gulf",
+    "blurb": "The Gulf of Tunis, open to the north-east. Carthage was a harbour city first: its ships traded to Spain, Sardinia, Sicily, Etruria and the Levant, and later Rome's grain fleets sailed from here to Ostia."
+   },
+   {
+    "name": "Gulf of Tunis",
+    "path": [
+     [
+      1398,
+      7071
+     ],
+     [
+      3235,
+      4836
+     ],
+     [
+      4284,
+      3034
+     ],
+     [
+      4398,
+      2654
+     ],
+     [
+      6001,
+      925
+     ],
+     [
+      4842,
+      -1337
+     ],
+     [
+      4104,
+      -2007
+     ]
+    ],
+    "width": 1700,
+    "id": "gulf-open"
+   },
+   {
+    "name": "Gulf of Tunis",
+    "path": [
+     [
+      3058,
+      8438
+     ],
+     [
+      4983,
+      6089
+     ],
+     [
+      6169,
+      4067
+     ],
+     [
+      5982,
+      4107
+     ],
+     [
+      8111,
+      1338
+     ],
+     [
+      6453,
+      -2760
+     ],
+     [
+      5533,
+      -3614
+     ]
+    ],
+    "width": 3000,
+    "id": "gulf-far"
+   },
+   {
+    "name": "Lake of Tunis",
+    "path": [
+     [
+      -537,
+      5384
+     ],
+     [
+      -379,
+      5147
+     ],
+     [
+      -441,
+      5235
+     ],
+     [
+      -569,
+      5035
+     ],
+     [
+      -678,
+      4910
+     ],
+     [
+      -834,
+      4831
+     ],
+     [
+      -1255,
+      4662
+     ]
+    ],
+    "width": 2400,
+    "id": "lake",
+    "blurb": "A shallow lagoon between Carthage and Tunis (Tunes), closed from the gulf by the sand spit the ancients called the Taenia, 'the ribbon', with a narrow mouth at La Goulette. Its fish and shallows fed the city; Scipio's army camped on its shore in 147 BCE."
+   },
+   {
+    "name": "Commercial harbour",
+    "path": [
+     [
+      1881,
+      3836
+     ],
+     [
+      2014,
+      3605
+     ]
+    ],
+    "width": 64,
+    "id": "commercial-harbour-0",
+    "blurb": "The rectangular merchant harbour, about 330 by 250 m here (450 by 350 m in some reconstructions), entered from the sea by a channel some 20 m wide that could be closed with iron chains (Appian). Quays and warehouses lined it; ships passed through it into the closed naval harbour.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Commercial harbour",
+    "path": [
+     [
+      1935,
+      3867
+     ],
+     [
+      2068,
+      3636
+     ]
+    ],
+    "width": 64,
+    "id": "commercial-harbour-1",
+    "blurb": "The rectangular merchant harbour, about 330 by 250 m here (450 by 350 m in some reconstructions), entered from the sea by a channel some 20 m wide that could be closed with iron chains (Appian). Quays and warehouses lined it; ships passed through it into the closed naval harbour.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Commercial harbour",
+    "path": [
+     [
+      1989,
+      3898
+     ],
+     [
+      2122,
+      3667
+     ]
+    ],
+    "width": 64,
+    "id": "commercial-harbour-2",
+    "blurb": "The rectangular merchant harbour, about 330 by 250 m here (450 by 350 m in some reconstructions), entered from the sea by a channel some 20 m wide that could be closed with iron chains (Appian). Quays and warehouses lined it; ships passed through it into the closed naval harbour.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Commercial harbour",
+    "path": [
+     [
+      2042,
+      3929
+     ],
+     [
+      2175,
+      3698
+     ]
+    ],
+    "width": 64,
+    "id": "commercial-harbour-3",
+    "blurb": "The rectangular merchant harbour, about 330 by 250 m here (450 by 350 m in some reconstructions), entered from the sea by a channel some 20 m wide that could be closed with iron chains (Appian). Quays and warehouses lined it; ships passed through it into the closed naval harbour.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Harbour entrance",
+    "path": [
+     [
+      2034,
+      3938
+     ],
+     [
+      2063,
+      4070
+     ],
+     [
+      2135,
+      4204
+     ]
+    ],
+    "width": 40,
+    "id": "harbour-mouth",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Channel to the naval harbour",
+    "path": [
+     [
+      2042,
+      3607
+     ],
+     [
+      2017,
+      3419
+     ]
+    ],
+    "width": 26,
+    "id": "harbour-link",
+    "periods": [
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   },
+   {
+    "name": "Circular naval harbour (Cothon)",
+    "path": [
+     [
+      2116,
+      3317
+     ],
+     [
+      2113,
+      3296
+     ],
+     [
+      2105,
+      3275
+     ],
+     [
+      2091,
+      3258
+     ],
+     [
+      2074,
+      3245
+     ],
+     [
+      2054,
+      3236
+     ],
+     [
+      2032,
+      3233
+     ],
+     [
+      2010,
+      3236
+     ],
+     [
+      1990,
+      3245
+     ],
+     [
+      1972,
+      3258
+     ],
+     [
+      1959,
+      3275
+     ],
+     [
+      1951,
+      3296
+     ],
+     [
+      1948,
+      3317
+     ],
+     [
+      1951,
+      3339
+     ],
+     [
+      1959,
+      3359
+     ],
+     [
+      1972,
+      3377
+     ],
+     [
+      1990,
+      3390
+     ],
+     [
+      2010,
+      3399
+     ],
+     [
+      2032,
+      3401
+     ],
+     [
+      2054,
+      3399
+     ],
+     [
+      2074,
+      3390
+     ],
+     [
+      2091,
+      3377
+     ],
+     [
+      2105,
+      3359
+     ],
+     [
+      2113,
+      3339
+     ],
+     [
+      2116,
+      3317
+     ]
+    ],
+    "width": 64,
+    "id": "cothon",
+    "blurb": "The naval harbour, a round basin about 325 m across with an island in the middle, ringed by ship sheds: Appian counts 220 berths, each fronted by two Ionic columns, with the admiral's tower on the island. Excavation (Hurst) dates it in this form to the 2nd century BCE.",
+    "periods": [
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   },
+   {
+    "name": "Silted lagoon",
+    "path": [
+     [
+      1970,
+      3889
+     ],
+     [
+      2091,
+      3659
+     ]
+    ],
+    "width": 160,
+    "id": "commercial-harbour-1600",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "name": "Silted round lagoon",
+    "path": [
+     [
+      2110,
+      3317
+     ],
+     [
+      2107,
+      3297
+     ],
+     [
+      2099,
+      3278
+     ],
+     [
+      2087,
+      3262
+     ],
+     [
+      2071,
+      3250
+     ],
+     [
+      2052,
+      3242
+     ],
+     [
+      2032,
+      3239
+     ],
+     [
+      2012,
+      3242
+     ],
+     [
+      1993,
+      3250
+     ],
+     [
+      1977,
+      3262
+     ],
+     [
+      1964,
+      3278
+     ],
+     [
+      1956,
+      3297
+     ],
+     [
+      1954,
+      3317
+     ],
+     [
+      1956,
+      3338
+     ],
+     [
+      1964,
+      3356
+     ],
+     [
+      1977,
+      3373
+     ],
+     [
+      1993,
+      3385
+     ],
+     [
+      2012,
+      3393
+     ],
+     [
+      2032,
+      3395
+     ],
+     [
+      2052,
+      3393
+     ],
+     [
+      2071,
+      3385
+     ],
+     [
+      2087,
+      3373
+     ],
+     [
+      2099,
+      3356
+     ],
+     [
+      2107,
+      3338
+     ],
+     [
+      2110,
+      3317
+     ]
+    ],
+    "width": 40,
+    "id": "cothon-1600",
+    "periods": [
+     "ruins-1600"
+    ]
+   }
+  ],
+  "islands": [
+   {
+    "name": "Admiralty island",
+    "polygon": [
+     [
+      2086,
+      3317
+     ],
+     [
+      2083,
+      3301
+     ],
+     [
+      2075,
+      3286
+     ],
+     [
+      2064,
+      3274
+     ],
+     [
+      2048,
+      3266
+     ],
+     [
+      2032,
+      3263
+     ],
+     [
+      2015,
+      3266
+     ],
+     [
+      2000,
+      3274
+     ],
+     [
+      1988,
+      3286
+     ],
+     [
+      1980,
+      3301
+     ],
+     [
+      1978,
+      3317
+     ],
+     [
+      1980,
+      3334
+     ],
+     [
+      1988,
+      3349
+     ],
+     [
+      2000,
+      3361
+     ],
+     [
+      2015,
+      3369
+     ],
+     [
+      2032,
+      3371
+     ],
+     [
+      2048,
+      3369
+     ],
+     [
+      2064,
+      3361
+     ],
+     [
+      2075,
+      3349
+     ],
+     [
+      2083,
+      3334
+     ]
+    ],
+    "periods": [
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   }
+  ],
+  "hills": [
+   {
+    "name": "Byrsa",
+    "center": [
+     1924,
+     2596
+    ],
+    "radius": 260,
+    "label": true,
+    "id": "byrsa-hill",
+    "blurb": "The citadel hill, about 60 m high. Its name was explained by the Greeks with the tale of Dido's ox-hide (byrsa), cut into strips to enclose the land she had bought; the word may come from a Phoenician word for 'fortress'."
+   },
+   {
+    "name": "Juno hill",
+    "center": [
+     2227,
+     2263
+    ],
+    "radius": 150,
+    "label": true,
+    "id": "juno-hill",
+    "blurb": "A low hill north-east of the Byrsa, named by modern excavators after a supposed temple of Juno Caelestis; its slopes held Punic tombs of the 7th–6th centuries BCE."
+   },
+   {
+    "name": "Odeon hill",
+    "center": [
+     2405,
+     1797
+    ],
+    "radius": 150,
+    "label": false,
+    "id": "odeon-hill",
+    "blurb": "The hill of the Roman odeon and theatre; Punic tombs lie beneath."
+   },
+   {
+    "name": "Bordj Djedid",
+    "center": [
+     3189,
+     1886
+    ],
+    "radius": 120,
+    "label": true,
+    "id": "bordj-djedid",
+    "blurb": "The coastal hill north of the Antonine Baths, with the Punic necropolis of Sainte-Monique and, in Roman times, great cisterns feeding the baths."
+   },
+   {
+    "name": "Jebel Manar",
+    "center": [
+     4097,
+     610
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "sidi-bou-said-hill",
+    "blurb": "The cliff at the end of the peninsula, about 130 m high. Its ancient name is uncertain; the Arabs called it Jebel Manar, 'hill of the beacon', for the fire lit there to guide ships."
+   },
+   {
+    "name": "Koudiat Zateur",
+    "center": [
+     1737,
+     1276
+    ],
+    "radius": 140,
+    "label": false,
+    "id": "koudiat-zateur",
+    "blurb": "A low rise in the Megara, with tombs and later villas."
+   }
+  ],
+  "roads": [
+   {
+    "name": "The three streets to the Byrsa",
+    "path": [
+     [
+      2191,
+      3129
+     ],
+     [
+      2102,
+      2951
+     ],
+     [
+      2022,
+      2796
+     ],
+     [
+      1960,
+      2707
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "three-streets",
+    "blurb": "Appian (Punica 128) tells of three streets climbing from the agora to the Byrsa, lined with houses six storeys high, where the Romans fought for six days in 146 BCE, crossing from roof to roof on planks.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street to the Byrsa",
+    "path": [
+     [
+      2191,
+      3129
+     ],
+     [
+      2004,
+      3018
+     ],
+     [
+      1888,
+      2829
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "three-streets-2",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street to the Byrsa",
+    "path": [
+     [
+      2191,
+      3129
+     ],
+     [
+      2191,
+      2885
+     ],
+     [
+      2084,
+      2696
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "three-streets-3",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Sea-wall street",
+    "path": [
+     [
+      2209,
+      3550
+     ],
+     [
+      2360,
+      3218
+     ],
+     [
+      2556,
+      2885
+     ],
+     [
+      2788,
+      2552
+     ],
+     [
+      3029,
+      2219
+     ],
+     [
+      3171,
+      1886
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "sea-street",
+    "blurb": "The street running behind the sea wall through the seaside quarter (the 'Magon quarter' of the German excavators), where houses were rebuilt on the same plots from the 5th century to 146 BCE.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Harbour street",
+    "path": [
+     [
+      1830,
+      3692
+     ],
+     [
+      1765,
+      3424
+     ],
+     [
+      1936,
+      3108
+     ],
+     [
+      2116,
+      3096
+     ],
+     [
+      2191,
+      3130
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "harbour-street",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street of the lower city",
+    "path": [
+     [
+      1912,
+      3209
+     ],
+     [
+      2603,
+      2014
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "punic-street-1",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street of the lower city",
+    "path": [
+     [
+      2243,
+      3238
+     ],
+     [
+      2863,
+      2164
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "punic-street-2",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street to the sea",
+    "path": [
+     [
+      1954,
+      2817
+     ],
+     [
+      2547,
+      3159
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "punic-cross-1",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street to the sea",
+    "path": [
+     [
+      2154,
+      2471
+     ],
+     [
+      2760,
+      2820
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "punic-cross-2",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Street to the sea",
+    "path": [
+     [
+      2314,
+      2193
+     ],
+     [
+      2939,
+      2554
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "punic-cross-3",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Road to Megara",
+    "path": [
+     [
+      2013,
+      2441
+     ],
+     [
+      2031,
+      1997
+     ],
+     [
+      2120,
+      1442
+     ],
+     [
+      2209,
+      888
+     ],
+     [
+      2156,
+      444
+     ],
+     [
+      2049,
+      0
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": true,
+    "id": "megara-road",
+    "blurb": "North out of the city into the garden suburb of Megara, which lay inside the outer walls.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Road to the cape",
+    "path": [
+     [
+      2120,
+      1442
+     ],
+     [
+      2761,
+      1220
+     ],
+     [
+      3385,
+      943
+     ],
+     [
+      3919,
+      666
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "cape-road",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Road to Utica",
+    "path": [
+     [
+      1799,
+      2441
+     ],
+     [
+      1336,
+      2053
+     ],
+     [
+      802,
+      1609
+     ],
+     [
+      267,
+      1109
+     ],
+     [
+      0,
+      777
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "utica-road",
+    "blurb": "North-west across the isthmus to Utica, the older Phoenician city at the mouth of the Medjerda; Roman Carthage's road to Hippo and Numidia.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Road to Tunes",
+    "path": [
+     [
+      1764,
+      2685
+     ],
+     [
+      1158,
+      2552
+     ],
+     [
+      668,
+      2552
+     ],
+     [
+      267,
+      2829
+     ],
+     [
+      0,
+      3218
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "tunes-road",
+    "blurb": "West along the lake shore to Tunes (Tunis), 15 km away, and the interior: the road of the grain and oil of the Medjerda valley.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Road along the Taenia",
+    "path": [
+     [
+      1826,
+      3883
+     ],
+     [
+      1648,
+      4272
+     ],
+     [
+      1336,
+      4715
+     ],
+     [
+      1069,
+      5104
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "taenia-road",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus maximus",
+    "path": [
+     [
+      1067,
+      2074
+     ],
+     [
+      1448,
+      2294
+     ],
+     [
+      1829,
+      2514
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "decumanus-maximus",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus maximus",
+    "path": [
+     [
+      2037,
+      2634
+     ],
+     [
+      2366,
+      2824
+     ],
+     [
+      2658,
+      2992
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": false,
+    "id": "decumanus-maximus-e",
+    "blurb": "The main east-west street of the Roman grid, from the forum on the Byrsa down to the sea; westward it ran on to the amphitheatre.",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Cardo maximus",
+    "path": [
+     [
+      1433,
+      3441
+     ],
+     [
+      1653,
+      3059
+     ],
+     [
+      1878,
+      2669
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "cardo-maximus",
+    "blurb": "The main north-south street, crossing the forum on the Byrsa; south it reached the harbours, north the road to the cape and the villas of the coast.",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Cardo maximus",
+    "path": [
+     [
+      1988,
+      2479
+     ],
+     [
+      2233,
+      2055
+     ],
+     [
+      2633,
+      1361
+     ],
+     [
+      2883,
+      929
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": false,
+    "id": "cardo-maximus-n",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      901,
+      2962
+     ],
+     [
+      2266,
+      3750
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-0",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      1043,
+      2716
+     ],
+     [
+      2379,
+      3487
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-1",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      1185,
+      2470
+     ],
+     [
+      2513,
+      3238
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-2",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      1469,
+      1978
+     ],
+     [
+      2816,
+      2756
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-4",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      1610,
+      1732
+     ],
+     [
+      2974,
+      2520
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-5",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      1753,
+      1487
+     ],
+     [
+      3141,
+      2288
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-6",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Decumanus",
+    "path": [
+     [
+      1895,
+      1240
+     ],
+     [
+      3315,
+      2060
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "decumanus-7",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Cardo",
+    "path": [
+     [
+      955,
+      3141
+     ],
+     [
+      2094,
+      1166
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cardo-0",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Cardo",
+    "path": [
+     [
+      1199,
+      3282
+     ],
+     [
+      2339,
+      1307
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cardo-1",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Cardo",
+    "path": [
+     [
+      1687,
+      3564
+     ],
+     [
+      2827,
+      1589
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cardo-3",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Cardo by the sea",
+    "path": [
+     [
+      2061,
+      3479
+     ],
+     [
+      2721,
+      2337
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "cardo-coast",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "name": "Track from Tunis to La Marsa",
+    "path": [
+     [
+      0,
+      3495
+     ],
+     [
+      802,
+      2885
+     ],
+     [
+      1336,
+      2219
+     ],
+     [
+      1559,
+      1720
+     ],
+     [
+      1826,
+      1109
+     ],
+     [
+      2004,
+      444
+     ],
+     [
+      2049,
+      0
+     ]
+    ],
+    "width": 7,
+    "style": "major",
+    "labelled": true,
+    "id": "track-marsa",
+    "blurb": "The track from Tunis round the lake to La Marsa, where the Hafsid sultans had their summer gardens, passing the hamlet of La Malga.",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "name": "Track to Sidi Bou Said",
+    "path": [
+     [
+      1826,
+      1109
+     ],
+     [
+      2583,
+      1021
+     ],
+     [
+      3385,
+      832
+     ],
+     [
+      3937,
+      610
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "track-sidi",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "name": "Track to the shore",
+    "path": [
+     [
+      1559,
+      1720
+     ],
+     [
+      1871,
+      2219
+     ],
+     [
+      2138,
+      2663
+     ],
+     [
+      1960,
+      3107
+     ],
+     [
+      1737,
+      3550
+     ],
+     [
+      1603,
+      3994
+     ],
+     [
+      1336,
+      4660
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "track-byrsa",
+    "periods": [
+     "ruins-1600"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Land walls across the isthmus",
+    "path": [
+     [
+      178,
+      0
+     ],
+     [
+      89,
+      1220
+     ],
+     [
+      71,
+      2441
+     ],
+     [
+      116,
+      3550
+     ]
+    ],
+    "closed": false,
+    "id": "land-wall",
+    "blurb": "Appian describes a triple line across the isthmus, 30 cubits high, with stalls for 300 elephants and 4,000 horses and barracks for 20,000 foot in its thickness. Its trace has never been found; it is drawn here at the edge of the map, probably too far east.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Sea wall",
+    "path": [
+     [
+      1886,
+      4358
+     ],
+     [
+      2100,
+      4026
+     ],
+     [
+      2248,
+      3752
+     ],
+     [
+      2392,
+      3419
+     ],
+     [
+      2616,
+      3028
+     ],
+     [
+      2840,
+      2693
+     ],
+     [
+      3063,
+      2359
+     ],
+     [
+      3282,
+      2089
+     ],
+     [
+      3357,
+      1742
+     ],
+     [
+      3269,
+      1345
+     ],
+     [
+      3500,
+      1113
+     ],
+     [
+      3925,
+      1022
+     ],
+     [
+      4331,
+      868
+     ]
+    ],
+    "closed": false,
+    "id": "sea-wall",
+    "blurb": "A single wall along the shore. A stretch of it, of large sandstone blocks with towers and a gate, was excavated in the seaside quarter north of the harbours; it was rebuilt and thickened in the 4th–3rd centuries BCE.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Walls of the Byrsa",
+    "path": [
+     [
+      1764,
+      2374
+     ],
+     [
+      2004,
+      2341
+     ],
+     [
+      2156,
+      2463
+     ],
+     [
+      2156,
+      2707
+     ],
+     [
+      2004,
+      2829
+     ],
+     [
+      1782,
+      2807
+     ],
+     [
+      1675,
+      2607
+     ]
+    ],
+    "closed": true,
+    "id": "byrsa-wall",
+    "blurb": "The citadel's own circuit, about two stades round in Orosius' figure, where the last defenders held out in 146 BCE.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "name": "Wall of Theodosius II",
+    "path": [
+     [
+      2087,
+      4106
+     ],
+     [
+      1741,
+      3907
+     ],
+     [
+      1488,
+      3645
+     ],
+     [
+      1173,
+      3290
+     ],
+     [
+      876,
+      3003
+     ],
+     [
+      734,
+      2691
+     ],
+     [
+      917,
+      2334
+     ],
+     [
+      1117,
+      1987
+     ],
+     [
+      1414,
+      1674
+     ],
+     [
+      1789,
+      1544
+     ],
+     [
+      2248,
+      1428
+     ],
+     [
+      2719,
+      1411
+     ],
+     [
+      3163,
+      1344
+     ]
+    ],
+    "closed": false,
+    "id": "theodosian-wall",
+    "blurb": "Built in 425 against the Vandal threat, after the Roman city had stood unwalled for 450 years; restored by Justinian after 533. Its line is known from short stretches only and is drawn here in outline.",
+    "periods": [
+     "vandal-480"
+    ]
+   }
+  ],
+  "gates": [],
+  "bridges": [],
+  "aqueducts": [
+   {
+    "name": "Aqueduct from Zaghouan",
+    "path": [
+     [
+      0,
+      2441
+     ],
+     [
+      534,
+      2274
+     ],
+     [
+      980,
+      2086
+     ],
+     [
+      1390,
+      1908
+     ]
+    ],
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1844,
+      3008
+     ],
+     [
+      1976,
+      3083
+     ],
+     [
+      2082,
+      2900
+     ],
+     [
+      1950,
+      2824
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1958,
+      2810
+     ],
+     [
+      2090,
+      2886
+     ],
+     [
+      2282,
+      2554
+     ],
+     [
+      2150,
+      2478
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2158,
+      2464
+     ],
+     [
+      2290,
+      2540
+     ],
+     [
+      2442,
+      2277
+     ],
+     [
+      2311,
+      2200
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2318,
+      2187
+     ],
+     [
+      2450,
+      2262
+     ],
+     [
+      2596,
+      2010
+     ],
+     [
+      2464,
+      1934
+     ]
+    ],
+    "density": "loose",
+    "name": "Dermech",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2104,
+      2895
+     ],
+     [
+      2350,
+      3037
+     ],
+     [
+      2541,
+      2704
+     ],
+     [
+      2295,
+      2562
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2303,
+      2547
+     ],
+     [
+      2549,
+      2689
+     ],
+     [
+      2702,
+      2426
+     ],
+     [
+      2456,
+      2284
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2464,
+      2271
+     ],
+     [
+      2710,
+      2413
+     ],
+     [
+      2856,
+      2160
+     ],
+     [
+      2610,
+      2018
+     ]
+    ],
+    "density": "loose",
+    "name": "Dermech",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2249,
+      3242
+     ],
+     [
+      2419,
+      3340
+     ],
+     [
+      2525,
+      3157
+     ],
+     [
+      2355,
+      3058
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2363,
+      3044
+     ],
+     [
+      2533,
+      3142
+     ],
+     [
+      2739,
+      2817
+     ],
+     [
+      2556,
+      2712
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2564,
+      2698
+     ],
+     [
+      2748,
+      2804
+     ],
+     [
+      2917,
+      2551
+     ],
+     [
+      2716,
+      2434
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2723,
+      2421
+     ],
+     [
+      2926,
+      2537
+     ],
+     [
+      3094,
+      2298
+     ],
+     [
+      2869,
+      2168
+     ]
+    ],
+    "density": "loose",
+    "name": "Dermech",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1844,
+      3008
+     ],
+     [
+      1976,
+      3083
+     ],
+     [
+      2082,
+      2900
+     ],
+     [
+      1950,
+      2824
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1958,
+      2810
+     ],
+     [
+      2090,
+      2886
+     ],
+     [
+      2282,
+      2554
+     ],
+     [
+      2150,
+      2478
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2158,
+      2464
+     ],
+     [
+      2290,
+      2540
+     ],
+     [
+      2442,
+      2277
+     ],
+     [
+      2311,
+      2200
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2318,
+      2187
+     ],
+     [
+      2450,
+      2262
+     ],
+     [
+      2596,
+      2010
+     ],
+     [
+      2464,
+      1934
+     ]
+    ],
+    "density": "dense",
+    "name": "Dermech",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2104,
+      2895
+     ],
+     [
+      2350,
+      3037
+     ],
+     [
+      2541,
+      2704
+     ],
+     [
+      2295,
+      2562
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2303,
+      2547
+     ],
+     [
+      2549,
+      2689
+     ],
+     [
+      2702,
+      2426
+     ],
+     [
+      2456,
+      2284
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2464,
+      2271
+     ],
+     [
+      2710,
+      2413
+     ],
+     [
+      2856,
+      2160
+     ],
+     [
+      2610,
+      2018
+     ]
+    ],
+    "density": "dense",
+    "name": "Dermech",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2249,
+      3242
+     ],
+     [
+      2419,
+      3340
+     ],
+     [
+      2525,
+      3157
+     ],
+     [
+      2355,
+      3058
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2363,
+      3044
+     ],
+     [
+      2533,
+      3142
+     ],
+     [
+      2739,
+      2817
+     ],
+     [
+      2556,
+      2712
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2564,
+      2698
+     ],
+     [
+      2748,
+      2804
+     ],
+     [
+      2917,
+      2551
+     ],
+     [
+      2716,
+      2434
+     ]
+    ],
+    "density": "dense",
+    "name": "Lower city",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2723,
+      2421
+     ],
+     [
+      2926,
+      2537
+     ],
+     [
+      3094,
+      2298
+     ],
+     [
+      2869,
+      2168
+     ]
+    ],
+    "density": "dense",
+    "name": "Dermech",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1791,
+      3139
+     ],
+     [
+      1906,
+      3205
+     ],
+     [
+      1968,
+      3098
+     ],
+     [
+      1854,
+      3031
+     ]
+    ],
+    "density": "dense",
+    "name": "Agora quarter",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1520,
+      2890
+     ],
+     [
+      1801,
+      3052
+     ],
+     [
+      1986,
+      2732
+     ],
+     [
+      1705,
+      2570
+     ]
+    ],
+    "density": "dense",
+    "name": "Byrsa south slope",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1520,
+      2890
+     ],
+     [
+      1801,
+      3052
+     ],
+     [
+      1986,
+      2732
+     ],
+     [
+      1705,
+      2570
+     ]
+    ],
+    "density": "loose",
+    "name": "Metal-workers on the Byrsa slope",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1547,
+      2582
+     ],
+     [
+      1716,
+      2679
+     ],
+     [
+      1916,
+      2333
+     ],
+     [
+      1747,
+      2236
+     ]
+    ],
+    "density": "loose",
+    "name": "Byrsa west slope",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1855,
+      2408
+     ],
+     [
+      2093,
+      2545
+     ],
+     [
+      2206,
+      2351
+     ],
+     [
+      1968,
+      2213
+     ]
+    ],
+    "density": "dense",
+    "name": "Byrsa north slope",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1855,
+      2408
+     ],
+     [
+      2093,
+      2545
+     ],
+     [
+      2206,
+      2351
+     ],
+     [
+      1968,
+      2213
+     ]
+    ],
+    "density": "loose",
+    "name": "Byrsa north slope",
+    "periods": [
+     "punic-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      3365
+     ],
+     [
+      1667,
+      3575
+     ],
+     [
+      1907,
+      3160
+     ],
+     [
+      1543,
+      2949
+     ]
+    ],
+    "density": "dense",
+    "name": "West of the harbours",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1782,
+      1775
+     ],
+     [
+      1871,
+      1220
+     ],
+     [
+      2494,
+      1109
+     ],
+     [
+      2761,
+      1442
+     ],
+     [
+      2316,
+      1664
+     ]
+    ],
+    "density": "loose",
+    "name": "Megara",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2049,
+      1054
+     ],
+     [
+      1960,
+      333
+     ],
+     [
+      2761,
+      166
+     ],
+     [
+      3207,
+      666
+     ],
+     [
+      2672,
+      976
+     ]
+    ],
+    "density": "loose",
+    "name": "Megara",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      802,
+      1997
+     ],
+     [
+      713,
+      1331
+     ],
+     [
+      1514,
+      1165
+     ],
+     [
+      1603,
+      1775
+     ],
+     [
+      1247,
+      2164
+     ]
+    ],
+    "density": "loose",
+    "name": "Megara",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      356,
+      888
+     ],
+     [
+      356,
+      222
+     ],
+     [
+      1603,
+      111
+     ],
+     [
+      1737,
+      777
+     ],
+     [
+      1069,
+      999
+     ]
+    ],
+    "density": "loose",
+    "name": "Megara",
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1030,
+      3027
+     ],
+     [
+      1260,
+      3160
+     ],
+     [
+      1394,
+      2928
+     ],
+     [
+      1163,
+      2795
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1171,
+      2782
+     ],
+     [
+      1402,
+      2914
+     ],
+     [
+      1536,
+      2682
+     ],
+     [
+      1306,
+      2549
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1314,
+      2535
+     ],
+     [
+      1544,
+      2668
+     ],
+     [
+      1678,
+      2436
+     ],
+     [
+      1447,
+      2303
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1455,
+      2289
+     ],
+     [
+      1686,
+      2422
+     ],
+     [
+      1820,
+      2190
+     ],
+     [
+      1589,
+      2057
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1597,
+      2044
+     ],
+     [
+      1828,
+      2176
+     ],
+     [
+      1961,
+      1944
+     ],
+     [
+      1732,
+      1811
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1274,
+      3168
+     ],
+     [
+      1504,
+      3301
+     ],
+     [
+      1638,
+      3069
+     ],
+     [
+      1407,
+      2936
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1415,
+      2922
+     ],
+     [
+      1646,
+      3056
+     ],
+     [
+      1780,
+      2823
+     ],
+     [
+      1550,
+      2689
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1558,
+      2676
+     ],
+     [
+      1788,
+      2809
+     ],
+     [
+      1922,
+      2577
+     ],
+     [
+      1692,
+      2444
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1700,
+      2430
+     ],
+     [
+      1930,
+      2563
+     ],
+     [
+      2064,
+      2331
+     ],
+     [
+      1834,
+      2198
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1842,
+      2185
+     ],
+     [
+      2072,
+      2317
+     ],
+     [
+      2206,
+      2085
+     ],
+     [
+      1976,
+      1952
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1984,
+      1938
+     ],
+     [
+      2214,
+      2071
+     ],
+     [
+      2348,
+      1840
+     ],
+     [
+      2117,
+      1706
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2125,
+      1692
+     ],
+     [
+      2356,
+      1825
+     ],
+     [
+      2490,
+      1593
+     ],
+     [
+      2260,
+      1460
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1518,
+      3309
+     ],
+     [
+      1749,
+      3442
+     ],
+     [
+      1882,
+      3210
+     ],
+     [
+      1651,
+      3077
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1659,
+      3063
+     ],
+     [
+      1890,
+      3196
+     ],
+     [
+      2024,
+      2963
+     ],
+     [
+      1794,
+      2831
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1802,
+      2817
+     ],
+     [
+      2032,
+      2950
+     ],
+     [
+      2166,
+      2718
+     ],
+     [
+      1936,
+      2585
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1944,
+      2571
+     ],
+     [
+      2174,
+      2704
+     ],
+     [
+      2308,
+      2472
+     ],
+     [
+      2078,
+      2339
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2086,
+      2326
+     ],
+     [
+      2316,
+      2459
+     ],
+     [
+      2450,
+      2226
+     ],
+     [
+      2220,
+      2093
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2228,
+      2079
+     ],
+     [
+      2458,
+      2212
+     ],
+     [
+      2592,
+      1980
+     ],
+     [
+      2362,
+      1847
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2370,
+      1833
+     ],
+     [
+      2600,
+      1966
+     ],
+     [
+      2735,
+      1734
+     ],
+     [
+      2504,
+      1601
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1762,
+      3449
+     ],
+     [
+      1993,
+      3583
+     ],
+     [
+      2126,
+      3351
+     ],
+     [
+      1896,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1904,
+      3204
+     ],
+     [
+      2134,
+      3337
+     ],
+     [
+      2269,
+      3104
+     ],
+     [
+      2038,
+      2972
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2046,
+      2958
+     ],
+     [
+      2277,
+      3091
+     ],
+     [
+      2410,
+      2859
+     ],
+     [
+      2180,
+      2726
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2188,
+      2712
+     ],
+     [
+      2418,
+      2845
+     ],
+     [
+      2552,
+      2613
+     ],
+     [
+      2322,
+      2480
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2330,
+      2466
+     ],
+     [
+      2560,
+      2600
+     ],
+     [
+      2695,
+      2367
+     ],
+     [
+      2464,
+      2235
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2472,
+      2220
+     ],
+     [
+      2703,
+      2353
+     ],
+     [
+      2836,
+      2121
+     ],
+     [
+      2606,
+      1988
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2614,
+      1974
+     ],
+     [
+      2844,
+      2107
+     ],
+     [
+      2979,
+      1875
+     ],
+     [
+      2748,
+      1742
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae of the colony",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2148,
+      3345
+     ],
+     [
+      2347,
+      3459
+     ],
+     [
+      2475,
+      3224
+     ],
+     [
+      2282,
+      3113
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae by the sea",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2290,
+      3099
+     ],
+     [
+      2483,
+      3210
+     ],
+     [
+      2619,
+      2979
+     ],
+     [
+      2425,
+      2867
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae by the sea",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2433,
+      2854
+     ],
+     [
+      2628,
+      2966
+     ],
+     [
+      2776,
+      2743
+     ],
+     [
+      2566,
+      2621
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae by the sea",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2574,
+      2607
+     ],
+     [
+      2785,
+      2729
+     ],
+     [
+      2935,
+      2506
+     ],
+     [
+      2708,
+      2375
+     ]
+    ],
+    "density": "dense",
+    "name": "Insulae by the sea",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1195,
+      3303
+     ],
+     [
+      1670,
+      3577
+     ],
+     [
+      1741,
+      3456
+     ],
+     [
+      1266,
+      3182
+     ]
+    ],
+    "density": "dense",
+    "name": "Harbour quarter",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1047,
+      2709
+     ],
+     [
+      1158,
+      2773
+     ],
+     [
+      1717,
+      1803
+     ],
+     [
+      1607,
+      1739
+     ]
+    ],
+    "density": "loose",
+    "name": "West quarter",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2263,
+      1443
+     ],
+     [
+      2990,
+      1863
+     ],
+     [
+      3128,
+      1624
+     ],
+     [
+      2401,
+      1204
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern villas",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1878,
+      1549
+     ],
+     [
+      2112,
+      1684
+     ],
+     [
+      2252,
+      1441
+     ],
+     [
+      2018,
+      1307
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern villas",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1292,
+      1775
+     ],
+     [
+      1559,
+      1664
+     ],
+     [
+      1692,
+      1797
+     ],
+     [
+      1603,
+      1908
+     ],
+     [
+      1336,
+      1886
+     ]
+    ],
+    "density": "loose",
+    "name": "La Malga",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      490,
+      3329
+     ],
+     [
+      713,
+      3162
+     ],
+     [
+      873,
+      3306
+     ],
+     [
+      668,
+      3462
+     ]
+    ],
+    "density": "loose",
+    "name": "Douar Chott",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3812,
+      721
+     ],
+     [
+      3848,
+      466
+     ],
+     [
+      4142,
+      388
+     ],
+     [
+      4276,
+      577
+     ],
+     [
+      4080,
+      754
+     ]
+    ],
+    "density": "dense",
+    "name": "Sidi Bou Said",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1782,
+      277
+     ],
+     [
+      1737,
+      0
+     ],
+     [
+      2494,
+      0
+     ],
+     [
+      2494,
+      222
+     ]
+    ],
+    "density": "loose",
+    "name": "La Marsa gardens",
+    "periods": [
+     "ruins-1600"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      891,
+      1553
+     ],
+     [
+      891,
+      666
+     ],
+     [
+      1603,
+      444
+     ],
+     [
+      1692,
+      1109
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of Megara",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2761,
+      888
+     ],
+     [
+      2494,
+      444
+     ],
+     [
+      3563,
+      777
+     ],
+     [
+      3385,
+      1054
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vines of Megara",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      178,
+      1775
+     ],
+     [
+      178,
+      888
+     ],
+     [
+      802,
+      999
+     ],
+     [
+      802,
+      1720
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olive groves",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      891,
+      1220
+     ],
+     [
+      891,
+      444
+     ],
+     [
+      1782,
+      222
+     ],
+     [
+      1782,
+      999
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Suburban gardens",
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1018,
+      3039
+     ],
+     [
+      1988,
+      3599
+     ],
+     [
+      2268,
+      3114
+     ],
+     [
+      1298,
+      2554
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Fields over the grid",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1598,
+      2034
+     ],
+     [
+      2516,
+      2564
+     ],
+     [
+      2916,
+      1872
+     ],
+     [
+      1998,
+      1341
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olives over the grid",
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      891,
+      610
+     ],
+     [
+      891,
+      0
+     ],
+     [
+      1692,
+      0
+     ],
+     [
+      1737,
+      444
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of La Marsa",
+    "periods": [
+     "ruins-1600"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      89,
+      4050
+     ],
+     [
+      356,
+      3772
+     ],
+     [
+      713,
+      3994
+     ],
+     [
+      534,
+      4327
+     ]
+    ],
+    "name": "Lake shallows",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1843,
+      3850
+     ],
+     [
+      2051,
+      3970
+     ],
+     [
+      2345,
+      3459
+     ],
+     [
+      2138,
+      3338
+     ]
+    ],
+    "name": "Silted harbours",
+    "periods": [
+     "ruins-1600"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "byrsa",
+    "name": "Byrsa",
+    "polygon": [
+     [
+      1764,
+      2374
+     ],
+     [
+      2004,
+      2341
+     ],
+     [
+      2156,
+      2463
+     ],
+     [
+      2156,
+      2707
+     ],
+     [
+      2004,
+      2829
+     ],
+     [
+      1782,
+      2807
+     ],
+     [
+      1675,
+      2607
+     ]
+    ],
+    "description": "The citadel: the temple of Eshmun on the summit, reached by a stair of sixty steps, and the last refuge of the city in 146 BCE.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "id": "seaside",
+    "name": "Seaside quarter",
+    "polygon": [
+     [
+      1844,
+      3008
+     ],
+     [
+      2485,
+      3377
+     ],
+     [
+      3105,
+      2304
+     ],
+     [
+      2464,
+      1934
+     ]
+    ],
+    "description": "The dense lower city between the Byrsa and the sea wall, with the agora near the harbours, merchants' houses, dye works and potters' kilns.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "id": "megara",
+    "name": "Megara",
+    "polygon": [
+     [
+      356,
+      1886
+     ],
+     [
+      356,
+      0
+     ],
+     [
+      2761,
+      0
+     ],
+     [
+      3563,
+      777
+     ],
+     [
+      2761,
+      1664
+     ]
+    ],
+    "description": "The great suburb inside the outer walls, of gardens and orchards 'full of every kind of fruit' (Diodorus, of Agathocles' soldiers), with villas, water channels and hedges.",
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "id": "ports",
+    "name": "Ports",
+    "polygon": [
+     [
+      1632,
+      3856
+     ],
+     [
+      2083,
+      4115
+     ],
+     [
+      2473,
+      3439
+     ],
+     [
+      2022,
+      3180
+     ]
+    ],
+    "description": "The two harbours at Salammbo, the merchant harbour and the closed naval harbour behind it, and the Tophet on their western side; in Roman times the quays of the grain fleet.",
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "id": "forum",
+    "name": "Forum of the colony",
+    "polygon": [
+     [
+      1757,
+      2600
+     ],
+     [
+      1999,
+      2739
+     ],
+     [
+      2109,
+      2549
+     ],
+     [
+      1867,
+      2409
+     ]
+    ],
+    "description": "The Byrsa summit, cut down and built up into a terrace of about 3 ha under Augustus, carrying the forum, the capitol, the basilica and the proconsul's offices.",
+    "periods": [
+     "roman-200"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "GULF OF TUNIS",
+    "position": [
+     4097,
+     3107
+    ],
+    "size": "lg",
+    "rotation": -60,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "MARE INTERNUM",
+    "position": [
+     4097,
+     3107
+    ],
+    "size": "lg",
+    "rotation": -60,
+    "periods": [
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "text": "LAKE OF TUNIS",
+    "position": [
+     178,
+     4549
+    ],
+    "size": "md",
+    "rotation": -40,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "text": "AL-BUHAYRA",
+    "position": [
+     178,
+     4549
+    ],
+    "size": "md",
+    "rotation": -40,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "Byrsa",
+    "position": [
+     1764,
+     2308
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "Megara",
+    "position": [
+     1336,
+     777
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "punic-400",
+     "punic-150"
+    ]
+   },
+   {
+    "text": "Taenia",
+    "position": [
+     1292,
+     4882
+    ],
+    "size": "sm",
+    "rotation": -50,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "text": "Cothon",
+    "position": [
+     1826,
+     3129
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "punic-150"
+    ]
+   },
+   {
+    "text": "Salammbo",
+    "position": [
+     1648,
+     3994
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "La Malga",
+    "position": [
+     1381,
+     1609
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "Douar Chott",
+    "position": [
+     356,
+     3417
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "Sidi Bou Said",
+    "position": [
+     4008,
+     277
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "La Marsa",
+    "position": [
+     2138,
+     89
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "to Utica",
+    "position": [
+     223,
+     666
+    ],
+    "size": "sm",
+    "rotation": -50,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "text": "to Tunes",
+    "position": [
+     223,
+     2996
+    ],
+    "size": "sm",
+    "rotation": -30,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480"
+    ]
+   },
+   {
+    "text": "to Tunis, 15 km",
+    "position": [
+     445,
+     4216
+    ],
+    "size": "sm",
+    "rotation": -40,
+    "periods": [
+     "ruins-1600"
+    ]
+   },
+   {
+    "text": "to the Sebkha of Ariana",
+    "position": [
+     802,
+     166
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "punic-400",
+     "punic-150",
+     "roman-200",
+     "vandal-480",
+     "ruins-1600"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D7AE",
+   "ink": "#6A4A32",
+   "water": "#5A8A92",
+   "hill": "#7E7C58",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   4454,
+   4438
+  ],
+  "cartouche": [
+   71,
+   4904
+  ]
+ },
+ "periods": [
+  {
+   "id": "punic-400",
+   "label": "Punic Carthage",
+   "year": -400,
+   "startYear": -550,
+   "endYear": -265,
+   "summary": "The Phoenician colony of Tyre, founded by tradition in 814 BCE, is now the head of an empire of trading posts from Sardinia to Spain, ruled by suffetes, a council and the people's assembly. The citadel and temple of Eshmun crown the Byrsa; the city spreads over the plain to the sea wall, with the Tophet and an older harbour at Salammbo. Sandstone, mud brick, white stucco.",
+   "population": "perhaps 100,000–200,000; ancient figures are guesses",
+   "feel": "Phoenician, Libyan and Greek in the streets, purple vats stinking by the shore, and incense and drums at the sanctuaries.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Punic houses",
+    "text": "Houses of two or more storeys round a central court with a cistern beneath, walls of rubble and mud brick on sandstone footings, white stucco, flat roofs, floors of red mortar studded with white stone chips (pavimentum punicum), and a narrow corridor from the street."
+   },
+   "outskirts": {
+    "title": "Megara: gardens and estates",
+    "text": "North of the city, inside the walls, the Megara: market gardens, orchards and vineyards cut by hedges and irrigation channels, with country houses of the rich. Tombs on the hills of Juno and Byrsa's flanks."
+   }
+  },
+  {
+   "id": "punic-150",
+   "label": "The Punic city, 150 BCE",
+   "year": -150,
+   "startYear": -264,
+   "endYear": -146,
+   "summary": "Beaten twice by Rome and stripped of its empire, Carthage is still rich: it paid off its war debt early, and Hannibal as suffete (196) reformed its finances. The circular naval harbour, probably dug in these decades, holds its 220 ship sheds; new houses climb the Byrsa slope. In 149 Rome declares war, and in 146 the city is taken street by street and burned.",
+   "population": "perhaps 150,000–250,000; Strabo's 700,000 is not believed",
+   "feel": "Shipwrights' mallets in the closed harbour, merchants' scales in the agora, and from 149 the thud of Roman rams against the walls.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of the Byrsa slope",
+    "text": "On the Byrsa the 'Hannibal quarter': houses on a regular plan, each with a court, a basin, a bottle-shaped cistern and a stair to an upper floor; rubble and mud-brick walls, white stucco, red mortar floors with white chips. Appian's six-storey houses lined the streets to the citadel."
+   },
+   "outskirts": {
+    "title": "Megara",
+    "text": "Inside the long land walls, the Megara: kitchen gardens and orchards watered by channels, olive and fig trees, villas of the great families, and the tombs of Sainte-Monique on the coast hills."
+   }
+  },
+  {
+   "id": "roman-200",
+   "label": "Colonia Iulia Concordia Carthago",
+   "year": 200,
+   "startYear": -145,
+   "endYear": 395,
+   "summary": "After a century as a cursed ruin, Carthage is refounded by Augustus (29 BCE) as a Roman colony on a grid over the levelled Byrsa. By 200 CE it is the second city of the Latin West and capital of Africa Proconsularis: grain and oil sail to Rome, the Antonine Baths stand on the shore, and the Zaghouan aqueduct fills the cisterns of La Malga.",
+   "population": "perhaps 100,000 or more",
+   "feel": "Latin and Punic in the forum, racing factions shouting in the circus, the smell of garum and oil on the quays, and Christian meetings in private houses.",
+   "style": "antique",
+   "houses": {
+    "title": "Houses of the Roman grid",
+    "text": "Long narrow insulae of 120 by 480 Roman feet, filled with peristyle houses with mosaic floors for the rich, and shops and workshops with flats above for the rest; walls of rubble and reused Punic stone, tiled roofs, cisterns under the courts."
+   },
+   "outskirts": {
+    "title": "Villas and cemeteries",
+    "text": "Suburban villas with mosaics of hunts and estates, market gardens, kilns and the cemeteries of the officials and of the Christians along the roads out of the city."
+   }
+  },
+  {
+   "id": "vandal-480",
+   "label": "Vandal and Byzantine Carthage",
+   "year": 480,
+   "startYear": 396,
+   "endYear": 698,
+   "summary": "The great Christian city of Augustine's councils, walled in 425 under Theodosius II. In 439 the Vandal king Gaiseric takes it and makes it his capital; Arian churches, palace life and the circus go on. Belisarius retakes it for Byzantium in 533, rebuilding walls and churches like Damous el Karita. In 698 the Arab army of Hassan ibn al-Nu'man takes it and abandons it for Tunis.",
+   "population": "perhaps 50,000–100,000, falling",
+   "feel": "Church bells are not yet rung: psalms in the basilicas, Gothic and Latin in the streets, and dust from earthquake and siege repairs.",
+   "style": "antique",
+   "houses": {
+    "title": "Late antique houses",
+    "text": "The Roman insulae subdivided: courts filled with workshops and rooms, porticoes walled up, rich houses with apses and new mosaics for the Vandal and Roman nobility, and burials appearing inside the walls by the 6th century."
+   },
+   "outskirts": {
+    "title": "Monasteries and estates",
+    "text": "Martyrs' basilicas and monasteries outside the wall of 425, villas with gardens and hunting grounds, and fields creeping back into the abandoned edges of the grid."
+   }
+  },
+  {
+   "id": "ruins-1600",
+   "label": "The ruins of Carthage",
+   "year": 1600,
+   "startYear": 699,
+   "endYear": 1880,
+   "summary": "After 698 Tunis, across the lake, becomes the capital and Carthage a quarry: its marble and columns go to the mosques of Tunis and Kairouan and as far as Pisa and Genoa. Louis IX of France dies in his camp here in 1270. By 1600: barley and olives over the grid, the hamlet of La Malga in the cisterns, and Sidi Bou Said on its cliff.",
+   "population": "a few hundred villagers, herdsmen and fishermen",
+   "feel": "Wind in the barley over buried mosaics, the cries of stone-robbers' mules, and the call to prayer from Sidi Bou Said.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Village houses",
+    "text": "Low whitewashed houses of rubble and reused Roman stone round small courts, flat-roofed, with a cistern; at La Malga some families live inside the vaulted Roman cisterns themselves."
+   },
+   "outskirts": {
+    "title": "Fields among the ruins",
+    "text": "Barley fields, olive groves and prickly-pear hedges over the ruin mounds; lime kilns burning marble, and goats on the Byrsa."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "byrsa",
+   "placeId": "byrsa-summit",
+   "name": "Byrsa citadel and temple of Eshmun",
+   "category": "temple",
+   "position": [
+    1933,
+    2574
+   ],
+   "rotation": 30,
+   "footprint": [
+    239.2,
+    177.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/byrsa.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 230,
+     "depth": 170,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 17.0,
+     "columnHeight": 68.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-400",
+    "punic-150",
+    "roman-200",
+    "vandal-480",
+    "ruins-1600"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "The citadel on its hill, walled, with the temple of Eshmun, the god of healing whom the Greeks called Asclepius, on the summit. The slopes below still hold old tombs and metal workshops."
+    },
+    "punic-150": {
+     "note": "Appian's 'richest of temples', reached by a stair of sixty steps. In 146 BCE 900 Roman deserters made their last stand in it and burned it over their own heads."
+    },
+    "roman-200": {
+     "name": "Forum and Capitol on the Byrsa",
+     "confidence": "reconstruction",
+     "note": "Augustus' engineers cut the summit down and walled the slopes to make a terrace of about 3 ha: the forum of the colony, with porticoes, the great judicial basilica and a temple, probably the Capitolium.",
+     "model": {
+      "glb": "models/carthage/byrsa-forum.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 230,
+       "depth": 170,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 17.0,
+       "columnHeight": 68.0
+      }
+     }
+    },
+    "vandal-480": {
+     "name": "Forum and palace on the Byrsa",
+     "confidence": "interpretation",
+     "note": "The proconsul's palace here becomes the palace of the Vandal kings after 439. Belisarius sits down in it in 533 to the dinner cooked for King Gelimer (Procopius).",
+     "model": {
+      "glb": "models/carthage/byrsa-forum.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 230,
+       "depth": 170,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 17.0,
+       "columnHeight": 68.0
+      }
+     }
+    },
+    "ruins-1600": {
+     "name": "The hill of Byrsa",
+     "confidence": "interpretation",
+     "note": "A bare hill of ruins and fallen columns, quarried for Tunis. Tradition places here the death of Louis IX, who died of dysentery in his crusading camp in August 1270.",
+     "model": {
+      "glb": "models/carthage/byrsa-ruins.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 230,
+       "depth": 170,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 17.0,
+       "columnHeight": 68.0
+      }
+     }
+    }
+   },
+   "summary": "The citadel hill at the heart of Carthage, crowned by the temple of Eshmun; after 146 BCE levelled by the Romans for the forum of their colony.",
+   "details": [
+    "The Byrsa held the oldest settlement and later the citadel and the city's richest temple, that of Eshmun. Nothing Punic survives on the summit: in about 29 BCE Augustus' builders shaved off the hilltop and dumped the spoil on the slopes, burying the Punic houses below, to carry a terrace for the forum.",
+    "The Punic miniature is an interpretation: a walled hilltop with the temple on a high podium, an Egyptian-style cavetto cornice as on Punic stelae and naiskoi, and the stair of sixty steps from Appian. The temple's real plan and size are unknown."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-byrsa",
+    "wiki-eshmun",
+    "appian",
+    "lancel",
+    "lancel-byrsa",
+    "wiki-acropolium"
+   ],
+   "built": "citadel from the 8th century BCE; Roman terrace c. 29 BCE",
+   "function": "Citadel and sanctuary; later the forum",
+   "activity": {
+    "figures": 40,
+    "radius": 220
+   }
+  },
+  {
+   "id": "cothon",
+   "placeId": "admiralty-island",
+   "name": "Circular naval harbour (Cothon)",
+   "category": "military",
+   "position": [
+    2032,
+    3317
+   ],
+   "rotation": 30,
+   "footprint": [
+    331.0,
+    331.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/cothon.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 330,
+     "depth": 330,
+     "wallHeight": 66.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-150",
+    "roman-200",
+    "vandal-480",
+    "ruins-1600"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "Not yet dug in this form: its excavator dates the round harbour to the 2nd century BCE, though some put it earlier. Warships were probably drawn up on slipways and beaches nearer the sea."
+    },
+    "punic-150": {
+     "note": "The closed war harbour: ship sheds round the basin and the island, each fronted by two Ionic columns, stores above, and the admiral's tower on the island, hidden behind a double wall."
+    },
+    "roman-200": {
+     "name": "Circular harbour",
+     "confidence": "interpretation",
+     "note": "Rebuilt for trade: a colonnade round the quays and, on the island, a hexagonal court with a temple or monument, perhaps a lighthouse. The grain fleet for Rome berths in both harbours.",
+     "model": {
+      "glb": "models/carthage/cothon-roman.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 330,
+       "depth": 330,
+       "wallHeight": 66.0,
+       "bastions": 8
+      }
+     }
+    },
+    "vandal-480": {
+     "name": "Circular harbour",
+     "confidence": "interpretation",
+     "note": "Still in use but silting; the Vandal fleet, which raided Rome in 455, and later Byzantine ships lie here. Quays patched with reused blocks.",
+     "model": {
+      "glb": "models/carthage/cothon-roman.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 330,
+       "depth": 330,
+       "wallHeight": 66.0,
+       "bastions": 8
+      }
+     }
+    },
+    "ruins-1600": {
+     "name": "The round lagoon",
+     "confidence": "interpretation",
+     "note": "A silted round pool with a low island in the middle, the shape still plain to travellers: 'the Cothon' that 18th- and 19th-century visitors identified with Appian's description.",
+     "model": {
+      "glb": "models/carthage/cothon-silted.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 330,
+       "depth": 330,
+       "wallHeight": 66.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The round naval harbour of the Punic city, about 325 m across, ringed with ship sheds round the basin and its island, where the admiral watched from his tower.",
+   "details": [
+    "Appian (Punica 96) describes 220 berths under porticoes of Ionic columns, with tackle stores above, round the basin and an island, where the admiral's house rose high enough to see out to sea. Henry Hurst's excavations (1970s) found the slipways and dated the harbour in this form to the 2nd century BCE.",
+    "The miniature follows Hurst's reconstruction: about 30 sheds on the island and some 135 round the rim, sloping slipways, a loft above, columns at the water's edge, the tower at the centre and the entrance from the merchant harbour to the south. Appian's 220 and the excavated total do not agree; the count is debated."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-punic-ports",
+    "wiki-cothon",
+    "appian",
+    "hurst",
+    "hurst-ports",
+    "lancel"
+   ],
+   "built": "2nd century BCE (Hurst); some argue earlier",
+   "function": "Naval base for the war fleet",
+   "activity": {
+    "figures": 36,
+    "radius": 200
+   }
+  },
+  {
+   "id": "antonine-baths",
+   "placeId": "thermes-antonin",
+   "name": "Antonine Baths",
+   "category": "civic",
+   "position": [
+    2965,
+    2385
+   ],
+   "rotation": -60,
+   "footprint": [
+    204.0,
+    101.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/antonine-baths.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 200,
+     "depth": 110,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200",
+    "vandal-480",
+    "ruins-1600"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "Before the baths: the seaside quarter of the Punic city, its houses and the sea wall on this shore."
+    },
+    "roman-200": {
+     "note": "The largest baths in Roman Africa, built 145–162 under Antoninus Pius on a basement along the shore: the cold hall at the centre, hot rooms facing the sea, exercise courts at the sides."
+    },
+    "vandal-480": {
+     "note": "Still working, fed from the Bordj Djedid cisterns; the Vandal nobles, Procopius says, spent their days in baths and banquets. Repairs in brick patch the vaults."
+    },
+    "ruins-1600": {
+     "name": "Ruins of the Antonine Baths",
+     "confidence": "documented",
+     "note": "Only the vaulted service basement stands, half buried in sand; the halls above have fallen and their marble has gone to the lime kilns and to Tunis.",
+     "model": {
+      "glb": "models/carthage/antonine-baths-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 200,
+       "depth": 110,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The great imperial baths on the shore of Carthage, built 145–162 CE: a symmetrical complex about 200 m long, among the largest baths of the Roman world.",
+   "details": [
+    "Begun under Hadrian's successor Antoninus Pius and dedicated in 162, the baths stood on a basement of vaulted service rooms at the water's edge. Above, the frigidarium's vaults rested on columns of grey granite with shafts over 12 m long, one of which has been set up again on the site. Water came from cisterns on the Bordj Djedid hill.",
+    "The miniature follows Lézine's reconstruction of the main floor: symmetrical cold halls, pools and hot rooms with domed and vaulted roofs facing the sea, palaestrae with colonnades at each end. The upper parts are a reconstruction; only the basement survives."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-antonine-baths",
+    "lezine",
+    "wiki-roman-carthage",
+    "ennabli"
+   ],
+   "built": "145–162 CE",
+   "function": "Public baths",
+   "activity": {
+    "figures": 40,
+    "radius": 170
+   }
+  },
+  {
+   "id": "commercial-harbour",
+   "placeId": "rectangular-harbour",
+   "name": "Rectangular commercial harbour",
+   "category": "commercial",
+   "position": [
+    2028,
+    3767
+   ],
+   "rotation": 30,
+   "footprint": [
+    301.0,
+    400.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/commercial-harbour.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 300,
+      "depth": 400
+     },
+     "buildings": [
+      {
+       "offset": [
+        -75.0,
+        -100.0
+       ],
+       "width": 90.0,
+       "depth": 120.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        75.0,
+        80.0
+       ],
+       "width": 90.0,
+       "depth": 120.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-400",
+    "punic-150",
+    "roman-200",
+    "vandal-480",
+    "ruins-1600"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "The merchant harbour's long rectangular basin may date in this form only from the 2nd century; in the 4th century a broad channel dug inland here served the ships (Hurst)."
+    },
+    "punic-150": {
+     "note": "Merchant ships at the quays, tackle and goods stacked in the stores; the entrance from the sea, about 20 m wide, closed with iron chains. In 147 BCE Scipio blocked it with a mole."
+    },
+    "roman-200": {
+     "note": "The commercial harbour of the Roman city, with quays and warehouses for the grain and oil shipped to Rome under the annona."
+    },
+    "vandal-480": {
+     "note": "Still in use, though silting; the Vandal and Byzantine fleets and merchant ships share it."
+    },
+    "ruins-1600": {
+     "name": "The long lagoon",
+     "confidence": "interpretation",
+     "note": "A shallow pool in a marsh, choked by sand, with stone from the quays robbed; fishermen pull their boats up on its banks.",
+     "model": {
+      "glb": "models/carthage/harbour-silted.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 300,
+        "depth": 400
+       },
+       "buildings": [
+        {
+         "offset": [
+          -75.0,
+          -100.0
+         ],
+         "width": 90.0,
+         "depth": 120.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          75.0,
+          80.0
+         ],
+         "width": 90.0,
+         "depth": 120.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    }
+   },
+   "summary": "The merchant harbour, a rectangular dug basin with quays, joined to the sea by a channel and to the closed naval harbour behind it.",
+   "details": [
+    "Appian says the two harbours shared one entrance from the sea, 70 feet wide, closed with iron chains, and that a double wall hid the naval harbour from the merchants. The basin, about 450 by 350 m in the usual reconstruction, survives as a lagoon at Salammbo.",
+    "The miniature shows the basin with stone quays, warehouses along the sides, moored merchant ships, and chain towers at the channel to the sea in the south-east. Its exact shape is uncertain; the modern lagoon was reshaped in the 19th century."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-punic-ports",
+    "appian",
+    "hurst-ports",
+    "lancel"
+   ],
+   "built": "probably 2nd century BCE in this form; reused to the 7th century CE",
+   "function": "Merchant harbour",
+   "activity": {
+    "figures": 30,
+    "radius": 220
+   }
+  },
+  {
+   "id": "tophet",
+   "placeId": "tophet-salammbo",
+   "name": "Tophet of Salammbo",
+   "category": "religious",
+   "position": [
+    1759,
+    3756
+   ],
+   "rotation": 30,
+   "footprint": [
+    70.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/tophet.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 90,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "Urns of burnt bones of infants and young animals buried under stone markers and stelae carved with the sign of Tanit, vowed to Baal Hammon and Tanit."
+    },
+    "punic-150": {
+     "note": "Stager estimated that some 20,000 urns were laid here between 400 and 200 BCE; the stelae are mostly thin pointed slabs of limestone carved with the sign of Tanit, a hand or a palm tree."
+    },
+    "roman-200": {
+     "note": "Buried under Roman vaulted buildings; the rite has ended, though Baal Hammon lives on as Saturn, worshipped across Roman Africa."
+    }
+   },
+   "summary": "The open-air sanctuary of Baal Hammon and Tanit, where urns of the cremated bones of infants and young animals were buried under stelae from the 8th century to 146 BCE.",
+   "details": [
+    "Greek and Roman writers and the Bible say the Phoenicians sacrificed children; the Tophet's inscriptions record vows (molk) fulfilled. Whether the infants were sacrificed, or were children who died young and were buried here, is still debated: two osteological studies of the same urns (Schwartz 2010, Smith 2013) reached opposite conclusions.",
+    "The miniature shows the precinct as excavated from 1921 onward: low walls, terraces of stelae and urns at several levels, the pointed and pedimented stelae of the later centuries and a small shrine. Its full size is unknown."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tophet",
+    "wiki-tophet-general",
+    "stager",
+    "schwartz",
+    "smith",
+    "lancel"
+   ],
+   "built": "8th century BCE to 146 BCE",
+   "function": "Sanctuary of Baal Hammon and Tanit",
+   "activity": {
+    "figures": 10,
+    "radius": 70
+   }
+  },
+  {
+   "id": "sea-wall",
+   "placeId": "magon-quarter",
+   "name": "Punic sea wall and sea gate",
+   "category": "military",
+   "position": [
+    2780,
+    2774
+   ],
+   "rotation": 34,
+   "footprint": [
+    30.0,
+    240.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/sea-wall.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 30,
+     "depth": 240,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "Built in the 5th century BCE of big sandstone blocks along the beach, with a monumental sea gate opening onto a street of the seaside quarter."
+    },
+    "punic-150": {
+     "note": "Rebuilt and strengthened with towers; the houses behind are rebuilt on the same plots. In 146 BCE the Romans broke in from the harbour side, not here."
+    },
+    "roman-200": {
+     "note": "Gone: razed in 146 BCE and later built over by the houses and streets of the Roman grid."
+    }
+   },
+   "summary": "A stretch of the Punic city wall along the shore, with towers and a sea gate, excavated in the seaside quarter by the German mission.",
+   "details": [
+    "The German excavations (Rakob, 1970s–1990s) found the sea wall of the 5th century BCE about 25 m from the ancient shore, with a monumental gate, rebuilt in the 4th and 3rd centuries; houses inside were rebuilt again and again along the same streets until 146 BCE.",
+    "The miniature shows about 240 m of wall with rectangular towers on the sea side and a gate with a cavetto cornice. The height of the wall and of the towers is a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "rakob",
+    "wiki-punic-architecture",
+    "lancel",
+    "appian"
+   ],
+   "built": "5th century BCE, rebuilt 4th–3rd century BCE",
+   "function": "City wall",
+   "activity": {
+    "figures": 12,
+    "radius": 140
+   }
+  },
+  {
+   "id": "hannibal-quarter",
+   "placeId": "byrsa-south-slope",
+   "name": "Hannibal quarter",
+   "category": "district",
+   "position": [
+    1834,
+    2807
+   ],
+   "rotation": 30,
+   "footprint": [
+    120.0,
+    80.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/hannibal-quarter.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 120,
+      "depth": 80
+     },
+     "buildings": [
+      {
+       "offset": [
+        -30.0,
+        -20.0
+       ],
+       "width": 36.0,
+       "depth": 24.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        30.0,
+        16.0
+       ],
+       "width": 36.0,
+       "depth": 24.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-150"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "The slope still holds old tombs and, from the 5th century, workshops of metal-workers with their furnaces."
+    },
+    "punic-150": {
+     "note": "New blocks of houses laid out early in the 2nd century, probably in Hannibal's time: courtyards, cisterns, stairs to upper floors and shops on the streets."
+    },
+    "roman-200": {
+     "note": "Buried several metres deep under the earth the Romans pushed off the summit to build their forum terrace, which is why its walls survive to the height of a storey."
+    }
+   },
+   "summary": "The houses on the south slope of the Byrsa built in the early 2nd century BCE, burned in 146 BCE and buried by the Roman terrace: the best-known Punic houses.",
+   "details": [
+    "Excavated by Serge Lancel's French mission from 1974: blocks of houses on a regular plan, divided by straight streets with steps and drains. Houses had a court, a cistern shaped like a bottle, a small bath or basin, mosaic floors of red mortar with white chips, and stairs to an upper floor.",
+    "The miniature shows three blocks of courtyard houses of two storeys with flat roofs, a stepped street and the cistern mouths in the courts. Upper storeys are reconstructed; Appian speaks of six-storey houses near here."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "lancel-byrsa",
+    "lancel",
+    "appian",
+    "wiki-byrsa"
+   ],
+   "built": "early 2nd century BCE",
+   "function": "Houses",
+   "activity": {
+    "figures": 18,
+    "radius": 90
+   }
+  },
+  {
+   "id": "juno-necropolis",
+   "placeId": "juno-hill",
+   "name": "Necropolis of Juno hill",
+   "category": "monument",
+   "position": [
+    2227,
+    2263
+   ],
+   "rotation": 0,
+   "footprint": [
+    82.2,
+    63.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/juno-necropolis.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 80,
+     "depth": 60,
+     "height": 24.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "An old cemetery by now: shaft tombs of the 7th–6th centuries with stone chambers at the bottom; burials have moved to the coast hills of Sainte-Monique."
+    },
+    "punic-150": {
+     "note": "The old tombs lie under the gardens and new houses creeping up the hill."
+    },
+    "roman-200": {
+     "note": "Built over by the Roman city; a temple of Juno Caelestis was once supposed to have stood here, hence the name."
+    }
+   },
+   "summary": "An archaic Punic cemetery on the hill north-east of the Byrsa: shafts cut into the rock with burial chambers of stone slabs at the bottom.",
+   "details": [
+    "Excavated by Father Delattre and others in the 1890s, the necropoleis of Juno, Douimès and the Byrsa slopes held family shaft tombs with grave goods: Egyptian amulets, Greek and Etruscan pottery, razors, masks and lamps.",
+    "The miniature shows the hillside with tomb shafts, slab covers and small stone markers. Above-ground markers of this date are poorly known; they are reconstructed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "delattre",
+    "lancel",
+    "wiki-archaeological-site"
+   ],
+   "built": "7th–6th century BCE",
+   "function": "Cemetery",
+   "activity": {
+    "figures": 6,
+    "radius": 60
+   }
+  },
+  {
+   "id": "amphitheatre",
+   "placeId": "amphitheatre",
+   "name": "Amphitheatre",
+   "category": "entertainment",
+   "position": [
+    1167,
+    2208
+   ],
+   "rotation": 30,
+   "footprint": [
+    121.2,
+    95.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/amphitheatre.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 94,
+     "height": 37.6,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200",
+    "vandal-480",
+    "ruins-1600"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "Open country beyond the city, west of the Byrsa."
+    },
+    "roman-200": {
+     "note": "Built in the 1st century CE and enlarged in the 2nd, with an arena of about 65 by 37 m. Here Perpetua and Felicity died in 203."
+    },
+    "vandal-480": {
+     "note": "Still used for shows; hunts and animal fights outlast the gladiators, banned by Christian emperors."
+    },
+    "ruins-1600": {
+     "name": "Ruins of the amphitheatre",
+     "confidence": "documented",
+     "note": "Al-Bakri in 1068 still saw tiers of arches and carvings of men and animals; by now it is quarried to the lowest storey.",
+     "model": {
+      "glb": "models/carthage/amphitheatre-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 120,
+       "depth": 94,
+       "height": 37.6,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The amphitheatre of Roman Carthage on the western edge of the city, where gladiators fought, beasts were hunted and the Christians Perpetua and Felicity died in 203 CE.",
+   "details": [
+    "An ellipse about 120 by 94 m with seats for perhaps 30,000. The geographer al-Bakri (1068) described its fifty arches to a storey and the figures carved on its walls. Robbed of nearly all its stone later, it survives as the arena with its cellars.",
+    "The miniature restores three storeys of arcades round the cavea, the arena wall and the gates on the long axis, from comparison with other amphitheatres in Africa such as El Jem."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-amphitheatre",
+    "al-bakri",
+    "wiki-roman-carthage"
+   ],
+   "built": "1st–2nd century CE",
+   "function": "Amphitheatre",
+   "activity": {
+    "figures": 30,
+    "radius": 110
+   }
+  },
+  {
+   "id": "theatre",
+   "placeId": "theatre",
+   "name": "Theatre",
+   "category": "entertainment",
+   "position": [
+    2379,
+    2141
+   ],
+   "rotation": 30,
+   "footprint": [
+    104.0,
+    74.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/theatre.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 105,
+     "depth": 75,
+     "height": 30.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "A hillside of the Punic city, with tombs and houses."
+    },
+    "roman-200": {
+     "note": "Built in the 2nd century CE against the hill; here Apuleius gave his speeches to the people of Carthage, packed in the tiers."
+    },
+    "vandal-480": {
+     "note": "Destroyed: Victor of Vita says Gaiseric's men pulled down the theatre and the odeon. Its stone goes to new buildings."
+    }
+   },
+   "summary": "The Roman theatre on the slope of the Odeon hill, of the 2nd century CE, where Apuleius lectured; restored today for the Carthage festival.",
+   "details": [
+    "A cavea about 104 m across set into the hillside, with a stage building richly decorated in coloured marbles. Apuleius in his Florida praises the audience and the building. Heavily robbed, it was excavated in the early 20th century and the seating rebuilt.",
+    "The miniature shows the semicircular cavea, the orchestra and the stage with a columned scaenae frons; the height of the stage front is a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "apuleius-florida",
+    "victor-vita",
+    "wiki-roman-carthage"
+   ],
+   "built": "2nd century CE",
+   "function": "Theatre",
+   "activity": {
+    "figures": 26,
+    "radius": 90
+   }
+  },
+  {
+   "id": "odeon",
+   "placeId": "odeon",
+   "name": "Odeon",
+   "category": "entertainment",
+   "position": [
+    2486,
+    1854
+   ],
+   "rotation": 30,
+   "footprint": [
+    98.0,
+    82.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/odeon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 95,
+     "depth": 80,
+     "height": 32.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "A hill of Punic tombs, later covered by houses."
+    },
+    "roman-200": {
+     "note": "Just built, probably for the Pythian Games of the early 3rd century: a roofed theatre for music and recitals, said to be the largest in Africa."
+    },
+    "vandal-480": {
+     "note": "Pulled down under Gaiseric, says Victor of Vita, with the theatre and the temple of Memory."
+    }
+   },
+   "summary": "The roofed hall for music and recitals on the hill north of the theatre, built in the early 3rd century CE for the Pythian Games.",
+   "details": [
+    "Tertullian mentions the Pythian Games at Carthage; the odeon is thought to have been built for them around 207 CE. Its foundations cut through Punic tombs. Little more than the substructures remains.",
+    "The miniature restores a semicircular auditorium inside a rectangular walled hall with a timber roof, like the odeon of Lyon or Aphrodisias. Its roof form is uncertain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "victor-vita",
+    "wiki-roman-carthage",
+    "ennabli"
+   ],
+   "built": "c. 207 CE",
+   "function": "Concert hall",
+   "activity": {
+    "figures": 14,
+    "radius": 70
+   }
+  },
+  {
+   "id": "circus",
+   "placeId": "circus",
+   "name": "Circus",
+   "category": "entertainment",
+   "position": [
+    1042,
+    2796
+   ],
+   "rotation": 30,
+   "footprint": [
+    520.0,
+    92.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/circus.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 520,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "Fields and gardens on the plain toward the lake."
+    },
+    "roman-200": {
+     "note": "One of the largest circuses outside Rome, over 500 m long. Curse tablets buried here named rival charioteers and horses and begged the demons to break them."
+    },
+    "vandal-480": {
+     "note": "Races go on under the Vandal kings, who loved them; the Byzantine governors keep the Blues and Greens."
+    },
+    "ruins-1600": {
+     "note": "Only a long low bank and a hollow in the fields mark the track."
+    }
+   },
+   "summary": "The chariot-racing circus in the south-west of the Roman city, more than 500 m long: after Rome's Circus Maximus, one of the largest in the empire.",
+   "details": [
+    "Built probably in the 2nd century CE, it had a spina about 300 m long down the middle and seats for perhaps 60,000 or more. Dozens of lead curse tablets against charioteers and horses have been found here.",
+    "The miniature shows the stands round the arena, the starting gates (carceres) at the west end, and the spina with turning posts and an obelisk. Seating and gates follow other African circuses."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-circus",
+    "humphrey",
+    "wiki-roman-carthage"
+   ],
+   "built": "2nd century CE",
+   "function": "Chariot racing",
+   "activity": {
+    "figures": 40,
+    "radius": 260
+   }
+  },
+  {
+   "id": "la-malga",
+   "placeId": "la-malga",
+   "name": "Cisterns of La Malga",
+   "category": "civic",
+   "position": [
+    1505,
+    1853
+   ],
+   "rotation": 30,
+   "footprint": [
+    134.5,
+    106.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/la-malga.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 105,
+     "height": 42.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200",
+    "vandal-480",
+    "ruins-1600"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "Gardens of the Megara; water came from rain cisterns under every house."
+    },
+    "roman-200": {
+     "note": "The aqueduct from the springs of Zaghouan, 132 km away, ends here in fifteen parallel vaulted tanks, each about 100 m long, from which pipes fed the city."
+    },
+    "vandal-480": {
+     "note": "Still filled by the aqueduct; it will be cut during sieges and restored by the Byzantines."
+    },
+    "ruins-1600": {
+     "name": "La Malga",
+     "confidence": "documented",
+     "note": "The hamlet of La Malga: families and their animals live inside the broken vaults, as 19th-century travellers still saw.",
+     "model": {
+      "glb": "models/carthage/la-malga-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 105,
+       "height": 42.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The great reservoir at the end of the Zaghouan aqueduct: fifteen parallel vaulted tanks holding perhaps 50,000 m³ of water for the Roman city.",
+   "details": [
+    "Built with the aqueduct under Hadrian and Antoninus Pius, in the 2nd century CE. The water ran 132 km by channel and arcade from the springs of Zaghouan and Jouggar; here it settled and was distributed. Several tanks still stand, partly roofed.",
+    "The miniature shows the row of barrel-vaulted tanks with a distribution gallery across their heads and the aqueduct arriving on arches from the west."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-la-malga",
+    "wiki-zaghouan",
+    "wiki-roman-carthage"
+   ],
+   "built": "2nd century CE",
+   "function": "Reservoir",
+   "activity": {
+    "figures": 8,
+    "radius": 90
+   }
+  },
+  {
+   "id": "villa-aviary",
+   "placeId": "villas-romaines",
+   "name": "Villa of the Aviary",
+   "category": "district",
+   "position": [
+    2646,
+    1986
+   ],
+   "rotation": 30,
+   "footprint": [
+    50.0,
+    45.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/villa-aviary.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 50,
+      "depth": 45
+     },
+     "buildings": [
+      {
+       "offset": [
+        -12.5,
+        -11.25
+       ],
+       "width": 15.0,
+       "depth": 13.5,
+       "height": 8
+      },
+      {
+       "offset": [
+        12.5,
+        9.0
+       ],
+       "width": 15.0,
+       "depth": 13.5,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "A hillside of Punic tombs and, below, houses of the seaside quarter."
+    },
+    "roman-200": {
+     "note": "A rich town house on the slope above the sea: rooms round a peristyle garden whose mosaic floor shows birds among vine and acanthus scrolls, the 'aviary'."
+    },
+    "vandal-480": {
+     "note": "Still lived in, divided and redecorated; houses like this were taken over by Vandal nobles after 439."
+    },
+    "ruins-1600": {
+     "note": "Buried under olive groves; only the mosaics will come back to light in the 20th century excavations."
+    }
+   },
+   "summary": "A peristyle town house in the park of Roman villas on the Odeon hill, named after its mosaic of birds in a garden.",
+   "details": [
+    "The houses on the slope between the Odeon and the sea were excavated from the 1950s and form today's park of Roman villas. The Villa of the Aviary (Maison de la Volière) had a garden court with columns, a mosaic of birds among foliage round it, and reception rooms opening off it.",
+    "The miniature shows the peristyle and garden, tiled roofs over the rooms and a terrace toward the sea. Room plans are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-archaeological-site",
+    "bullo",
+    "ennabli"
+   ],
+   "built": "2nd–3rd century CE",
+   "function": "Town house",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "damous-el-karita",
+   "placeId": "damous-el-karita",
+   "name": "Basilica of Damous el Karita",
+   "category": "religious",
+   "position": [
+    2592,
+    1620
+   ],
+   "rotation": 30,
+   "footprint": [
+    150.3,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/damous-el-karita.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 150,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "vandal-480"
+   ],
+   "variants": {
+    "roman-200": {
+     "note": "Not yet built: a cemetery outside the city, where Christians will later be buried around their martyrs."
+    },
+    "vandal-480": {
+     "note": "The largest church of Carthage: nine aisles, a semicircular court and an underground rotunda for a martyr's relics; rebuilt and enlarged after the Byzantine reconquest of 533."
+    },
+    "ruins-1600": {
+     "note": "Gone to the lime kilns; a field of column bases and broken capitals, its name, from domus caritatis, 'house of charity', kept by the villagers."
+    }
+   },
+   "summary": "The greatest Christian basilica of Carthage, outside the old city to the north: nine aisles, a semicircular atrium and a rotunda over a martyr's crypt.",
+   "details": [
+    "Built in the later 4th century and remodelled in the 6th, it measured about 65 by 45 m, with columns of reused marble. A great semicircular court opened from it toward an underground rotunda. Which martyrs it honoured is not known for certain.",
+    "The miniature shows the nine-aisled hall with its clerestoried nave, the forecourt, and the domed rotunda beyond the hemicycle. The roofs are reconstructed."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-damous",
+    "ennabli-lb",
+    "victor-vita"
+   ],
+   "built": "later 4th century, rebuilt 6th century",
+   "function": "Church and martyrs' shrine",
+   "activity": {
+    "figures": 20,
+    "radius": 110
+   }
+  },
+  {
+   "id": "sidi-bou-said",
+   "placeId": "jebel-manar",
+   "name": "Sidi Bou Said",
+   "category": "religious",
+   "position": [
+    4053,
+    533
+   ],
+   "rotation": 0,
+   "footprint": [
+    88.1,
+    70.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/carthage/sidi-bou-said.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 70,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ruins-1600"
+   ],
+   "variants": {
+    "vandal-480": {
+     "note": "A bare headland, perhaps with a lookout or beacon over the gulf."
+    },
+    "ruins-1600": {
+     "note": "The white village round the zawiya of Abu Said al-Baji (died 1231), a Sufi teacher who came to the beacon hill to pray and watch for corsairs."
+    }
+   },
+   "summary": "The village on the cliff at the tip of the peninsula, grown up round the shrine of the 13th-century Sufi saint Abu Said al-Baji.",
+   "details": [
+    "The saint, called Sidi Bou Said, settled on Jebel Manar and was buried there in 1231; his zawiya drew pilgrims and the village grew round it. Its houses were built partly with stone from the ruins of Carthage below.",
+    "The miniature shows the domed zawiya and minaret among whitewashed courtyard houses. The blue-and-white look of today dates from the 20th century; here doors and grilles are left dark."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sidi-bou-said"
+   ],
+   "built": "13th century onward",
+   "function": "Shrine and village",
+   "activity": {
+    "figures": 12,
+    "radius": 70
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "purple-dye-works",
+   "name": "Purple-dye works on the Taenia",
+   "kind": "works",
+   "position": [
+    1799,
+    4327
+   ],
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "summary": "Vats of rotting murex snails outside the walls on the sand spit south of the harbours, making the purple that made the Phoenicians' name.",
+   "details": [
+    "Heaps of crushed murex shells have been found at Punic sites along the Tunisian coast, from Kerkouane to Djerba. Each snail gives a drop from a gland; thousands go into one vat of brine, warmed for days in lead or stone tanks. The stink kept dye works away from houses. This site is a reconstruction."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-tyrian-purple",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Boys come up the beach with baskets of spiny murex from the traps. A worker cracks each shell with a stone and flicks the pale gland into a jar."
+    },
+    {
+     "hour": 13,
+     "text": "The vats steam in the sun. Wool skeins go in yellow-green and come out, as the air touches them, red, then deep violet. The smell carries to the harbour."
+    },
+    {
+     "hour": 19,
+     "text": "A merchant from Tyre fingers a skein and names a price in weighed silver. Behind him the shell heap, taller than a man, glows pink in the sunset."
+    }
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "Still at work; Carthaginian purple cloth is sold as far as Rome, whose senators wear a purple stripe."
+    }
+   }
+  },
+  {
+   "id": "stela-carver",
+   "name": "Stela carver by the Tophet",
+   "kind": "workshop",
+   "position": [
+    1692,
+    3861
+   ],
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "summary": "A mason's yard by the sanctuary of Baal Hammon and Tanit, where families order the carved stone that marks their vow.",
+   "details": [
+    "Thousands of Tophet stelae survive: early ones of sandstone shaped as small shrines, later ones thin and pointed in fine limestone, carved with the sign of Tanit, a raised hand, a palm or a ship, and a formula: 'To the Lady Tanit, face of Baal, and to the Lord Baal Hammon, which X vowed...'."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tophet",
+    "wiki-tanit",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Blank slabs lean against the wall, pointed at the top like little pyramids. The carver chalks the sign of Tanit, a triangle with arms and a round head."
+    },
+    {
+     "hour": 12,
+     "text": "A father dictates the vow in a low voice. The carver's apprentice cuts the letters right to left: 'which Bomilcar son of Hanno vowed; he heard his voice'."
+    },
+    {
+     "hour": 18,
+     "text": "The finished stone is carried into the precinct on a cart. The carver washes the dust off his forearms at the well and does not watch."
+    }
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "Most stelae now are of soft sandstone, carved as small shrines with a cavetto cornice, or plain cippi."
+    },
+    "punic-150": {
+     "note": "Most now are thin limestone slabs with pointed tops, finely carved with symbols, some with Greek-style ornament."
+    }
+   }
+  },
+  {
+   "id": "tanit-coins",
+   "name": "Money-changer in the agora",
+   "kind": "bank",
+   "position": [
+    2227,
+    3151
+   ],
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "summary": "A merchant's table near the harbours, weighing and counting the city's gold, silver and bronze coins with the head of Tanit and a horse.",
+   "details": [
+    "Carthage struck coins first in Sicily, from the late 5th century, to pay its mercenaries; at home it minted from about the mid-4th century: gold and electrum staters and bronze with the head of a goddess, usually taken to be Tanit, and a standing horse or a palm tree, the sign of the city."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "jenkins-coins",
+    "wiki-tanit",
+    "hoyos"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Scales out, weights in a leather bag. A Greek captain pours Syracusan silver on the board; the changer reckons its weight against the city's own coin."
+    },
+    {
+     "hour": 13,
+     "text": "A stack of bronzes, the goddess's wreathed head on one side and a horse on the other, counted out in tens for a dyer's wages."
+    },
+    {
+     "hour": 19,
+     "text": "He locks the gold staters in a box under the floor of his house and pays the night guard of the agora in bronze."
+    }
+   ],
+   "variants": {
+    "punic-400": {
+     "note": "Coins are still a novelty: most trade at Carthage runs on silver weighed in the scales; Punic coins struck in Sicily pay the armies there."
+    },
+    "punic-150": {
+     "note": "The silver is debased and much of the gold went to Rome as war indemnity; the changers deal mostly in bronze and Roman denarii."
+    }
+   }
+  },
+  {
+   "id": "shipwright",
+   "name": "Shipwright in the Cothon's sheds",
+   "kind": "dock",
+   "position": [
+    2044,
+    3181
+   ],
+   "activePeriods": [
+    "punic-150"
+   ],
+   "summary": "A berth in the ring of ship sheds round the naval harbour, where warships are built, hauled up and kept dry.",
+   "details": [
+    "Punic ships were built shell-first: planks joined edge to edge with mortise and tenon, then framed. The Marsala wrecks show letters painted on the timbers as fitting marks, a sign of prefabricated parts. The sheds' slipways sloped down into the water so a hull could be pulled up on rollers."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "appian",
+    "hurst",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Forty men on the ropes, a chant, and a quinquereme slides up the wet slipway into the shade of the shed. The columns in front drip."
+    },
+    {
+     "hour": 12,
+     "text": "Adzes ring under the roof. A plank comes from the store above, already marked with a Punic letter: it fits the third strake, port side."
+    },
+    {
+     "hour": 20,
+     "text": "The trumpeter on the admiral's island sounds the evening watch. Lamps go out along the ring; the gates to the merchant harbour are shut."
+    }
+   ],
+   "variants": {
+    "punic-150": {
+     "note": "Under the peace of 201 Carthage may keep only ten warships: the many empty sheds may have been built for a fleet it was not allowed to have."
+    }
+   }
+  },
+  {
+   "id": "dermech-kilns",
+   "name": "Potters' kilns at Dermech",
+   "kind": "workshop",
+   "position": [
+    2690,
+    2152
+   ],
+   "activePeriods": [
+    "punic-400",
+    "punic-150"
+   ],
+   "summary": "Round kilns on the north edge of the city near the shore, firing the plain jars, lamps, masks and figurines of everyday Punic life.",
+   "details": [
+    "Kilns of the 3rd–2nd century BCE have been found in the Dermech area, near the coast north of the Byrsa, with wasters of amphorae, cooking pots and terracotta figurines. Potters worked at the city's edges, where fuel came in and smoke blew away over the sea."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "lancel",
+    "miles"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The kiln was opened at dawn. Lamps, jugs and a dozen grinning clay masks come out still warm, the masks to hang in tombs and houses against evil."
+    },
+    {
+     "hour": 12,
+     "text": "A wheel turns in the yard: amphorae with long narrow bodies for wine and fish, for the ships to Sardinia."
+    },
+    {
+     "hour": 19,
+     "text": "Brushwood is stacked against the firing chamber. Smoke drifts over the sea wall; the potter's wife picks out the cracked pieces for the dump."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "bath-attendants",
+   "name": "Bath attendants of the Antonine Baths",
+   "kind": "bath",
+   "position": [
+    2864,
+    2361
+   ],
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "summary": "The service entrance to the basement of the great baths: stokers, cloakroom slaves, masseurs and the men who keep the furnaces burning day and night.",
+   "details": [
+    "The basement of the Antonine Baths, which survives, held corridors for slaves and fuel and the furnaces (praefurnia) under the hot rooms. Bathers paid a small fee, left clothes with an attendant (capsarius), and moved from cold to warm to hot rooms."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-antonine-baths",
+    "lezine"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Carts of olive wood and pressed olive stones go down the ramp. A stoker rakes the furnace under the caldarium; the floor above will be too hot for bare feet."
+    },
+    {
+     "hour": 13,
+     "text": "A capsarius guards a row of tunics in the niches and watches for thieves. Oiled bodies, the scrape of strigils, shouts echoing off the vaults."
+    },
+    {
+     "hour": 20,
+     "text": "The baths close at dusk. The attendants sweep the mosaic floors and eat bread and olives in the warm corridor below."
+    }
+   ],
+   "variants": {
+    "vandal-480": {
+     "note": "The Vandal lords, Procopius says, bathed every day; the furnaces are kept going, though the bills for fuel grow."
+    }
+   }
+  },
+  {
+   "id": "mosaic-workshop",
+   "name": "Mosaic workshop",
+   "kind": "workshop",
+   "position": [
+    1992,
+    2111
+   ],
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "summary": "A workshop of mosaicists cutting stone and glass cubes and setting the floors of the city's houses, baths and churches.",
+   "details": [
+    "Carthage was a leading centre of African mosaic: hunting scenes, the seasons, estates with their villas, sea creatures, and later Christian and Vandal-period floors. Workshops cut tesserae from local limestones and coloured glass and laid them on a mortar bed, often from pattern books."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "dunbabin",
+    "wiki-roman-carthage"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Apprentices sit on the floor snapping limestone into cubes with a hammer and a hardy. Baskets sorted by colour: cream, ochre, red, grey, black."
+    },
+    {
+     "hour": 12,
+     "text": "The master sketches a leopard in red on fresh mortar for a hunting floor ordered by a villa owner. The leopard is bought from the pattern book; the owner's face is not."
+    },
+    {
+     "hour": 18,
+     "text": "The setters on their knees press the last cubes of a vine scroll into the bed before it dries. Tomorrow the floor will be ground smooth."
+    }
+   ],
+   "variants": {
+    "vandal-480": {
+     "note": "Still busy: Vandal nobles order hunting scenes with themselves on horseback, and the churches order floors with crosses and donors' names."
+    }
+   }
+  },
+  {
+   "id": "annona-warehouse",
+   "name": "Granaries of the annona",
+   "kind": "dock",
+   "position": [
+    1901,
+    3629
+   ],
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "summary": "Warehouses by the harbours where the tax grain of Africa waited for the fleet to Rome.",
+   "details": [
+    "By the 1st century CE Africa sent Rome a large share of its grain; Josephus has Africa feeding the city for eight months a year. The grain was gathered as tax, stored, and shipped from Carthage each sailing season. After 330 much of Egypt's grain went to Constantinople, leaving Africa as Rome's main supplier."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-annona",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Wagons from the Medjerda valley queue at the gate. A clerk tips grain from each sack into the official modius and strikes it level with a rod."
+    },
+    {
+     "hour": 12,
+     "text": "Porters with sacks on their shoulders file up a gangplank into a round-bellied ship bound for Ostia. A scribe tallies each sack on a tablet."
+    },
+    {
+     "hour": 19,
+     "text": "The warehouse doors are sealed with the stamp of the prefect of the annona. Rats and cats are the night shift."
+    }
+   ],
+   "variants": {
+    "vandal-480": {
+     "note": "After 439 the grain stops going to Rome: the Vandal kings keep it, and the loss helps break the western empire."
+    }
+   }
+  },
+  {
+   "id": "augustine-school",
+   "name": "Augustine's school of rhetoric",
+   "kind": "school",
+   "position": [
+    1855,
+    2368
+   ],
+   "activePeriods": [
+    "roman-200"
+   ],
+   "summary": "Rented rooms near the forum where the young Augustine, back from Thagaste, taught public speaking from about 376 to 383.",
+   "details": [
+    "Augustine came to Carthage to study at 17 (371) and returned to teach rhetoric. He complained of the 'wreckers' (eversores) who burst into lectures and wrecked the order of the class, and left for Rome in 383 hoping for better-behaved students. Where he taught is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "augustine-conf",
+    "brown-augustine",
+    "wiki-augustine"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Twenty boys in the benches recite a speech of Cicero. The master, not yet thirty, walks between them correcting the rhythm of the clauses."
+    },
+    {
+     "hour": 12,
+     "text": "A gang of 'wreckers' bursts in laughing, sits on the benches and shouts down the speaker. Augustine, Confessions says, hated it."
+    },
+    {
+     "hour": 18,
+     "text": "After class his friends walk him to the theatre. At home a woman he never names and their son Adeodatus wait for him."
+    }
+   ],
+   "variants": {
+    "roman-200": {
+     "note": "In the 370s: Carthage is a Christian city with temples still standing, and a teacher of rhetoric can rise to a post at the imperial court."
+    }
+   }
+  },
+  {
+   "id": "cyprian-memoria",
+   "name": "Memorial of Cyprian by the sea",
+   "kind": "church",
+   "position": [
+    3153,
+    1376
+   ],
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "summary": "The chapel on the cliff north of the city honouring Cyprian, bishop of Carthage, beheaded in 258; the place where Monica wept as Augustine sailed away.",
+   "details": [
+    "In Confessions 5.8 Augustine tells how he deceived his mother: she spent the night praying in the memorial of Cyprian near the shore while he sailed for Rome in 383. A large basilica stood on the site later, identified with the excavated Basilica of Saint-Cyprien."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "augustine-conf",
+    "wiki-cyprian",
+    "wiki-saint-cyprien"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "A woman kneels alone before the martyr's shrine. Out on the water a ship's sail goes pale with the dawn and grows small toward the north."
+    },
+    {
+     "hour": 12,
+     "text": "Pilgrims bring oil for the lamps and bread for the poor. A deacon reads aloud the acts of Cyprian's trial before the proconsul."
+    },
+    {
+     "hour": 20,
+     "text": "Wind from the sea rattles the shutters. The lamp-keeper fills the lamps and sweeps sand from the steps."
+    }
+   ],
+   "variants": {
+    "roman-200": {
+     "note": "In 200 Cyprian is not yet born; the memorial stands from after his death in 258. Monica's vigil was in 383."
+    },
+    "vandal-480": {
+     "note": "Under the Vandals the shrine's basilica is handed to the Arian clergy (Victor of Vita), until the Byzantines restore it."
+    }
+   }
+  },
+  {
+   "id": "garum-works",
+   "name": "Fish-sauce works",
+   "kind": "works",
+   "position": [
+    2400,
+    3386
+   ],
+   "activePeriods": [
+    "roman-200",
+    "vandal-480"
+   ],
+   "summary": "Salting vats on the shore near the harbours where small fish are layered with salt and left to ferment into garum.",
+   "details": [
+    "Fish-salting tanks lined with waterproof mortar are found all along the coast of Roman Africa, from Nabeul to Lepcis. Mackerel, anchovies and sardines in salt fermented in the sun for weeks; the liquor was drawn off as garum or liquamen, the residue sold as allec."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-garum",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Boats from the night's fishing tip silver heaps onto the stone floor. Women gut the big fish; the small ones go in whole."
+    },
+    {
+     "hour": 13,
+     "text": "Layer of fish, layer of salt, layer of herbs, in vats the size of a room. The stink is the sound of money, says the owner."
+    },
+    {
+     "hour": 19,
+     "text": "A ladle of clear amber sauce from a vat set two months ago is tasted, sniffed, and poured into a stamped amphora for Rome."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "vandal-villa",
+   "name": "A Vandal lord's villa",
+   "kind": "house",
+   "position": [
+    3242,
+    1842
+   ],
+   "activePeriods": [
+    "vandal-480"
+   ],
+   "summary": "A rich house on the Bordj Djedid hill over the sea, taken by a Vandal noble after 439, with mosaic floors showing its owner riding out of his house to hunt.",
+   "details": [
+    "A mosaic of about 500 found at Bordj Djedid, now in the British Museum, shows a horseman in trousers and a tunic, riding before a walled house, the 'Vandal horseman'. Procopius describes the Vandals of Africa living in luxury: baths, banquets, silk robes, theatres and hunting."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "procopius",
+    "merrills-miles",
+    "wiki-vandal-kingdom"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Horses stamping in the courtyard, hounds on the leash. The master rides out in a striped tunic and trousers, a hawk on his wrist."
+    },
+    {
+     "hour": 13,
+     "text": "A Roman steward, a Catholic, reads the estate accounts aloud in Latin. The lord answers in Latin too; at home he speaks Vandalic."
+    },
+    {
+     "hour": 21,
+     "text": "A banquet: dancers, a poet reciting Latin verses in praise of the house's baths, and silver dishes taken in 439 from a senator's family."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "fisherman",
+   "name": "Fisherman on the silted harbour",
+   "kind": "dock",
+   "position": [
+    2093,
+    3417
+   ],
+   "activePeriods": [
+    "ruins-1600"
+   ],
+   "summary": "A fisherman's hut of reused stone on the bank of the old naval harbour, now a shallow round pool with a low island.",
+   "details": [
+    "Travellers from the 17th century on describe the two lagoons at Salammbo, with ruins and fishermen. The ancient quays were robbed for building stone; sand and silt closed the channel. Identifying the round pool with Appian's naval harbour was argued over until Hurst's excavations of the 1970s."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "appian",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "He pushes his flat boat out into the round lagoon. The island in the middle is a hump of rubble with a fig tree."
+    },
+    {
+     "hour": 12,
+     "text": "Mullet in the net, eels in the mud. Under his feet, though he does not know it, are the slipways of a Punic war fleet."
+    },
+    {
+     "hour": 19,
+     "text": "He sells the catch at La Malga and walks home past a broken column used as a step for his door."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "lime-kiln",
+   "name": "Stone-robbers' lime kiln",
+   "kind": "works",
+   "position": [
+    2120,
+    2374
+   ],
+   "activePeriods": [
+    "ruins-1600"
+   ],
+   "summary": "A kiln burning broken marble from the ruins into lime, while the good columns and blocks go by cart and boat to Tunis.",
+   "details": [
+    "For a thousand years Carthage was a quarry. Its columns stand in the Zitouna mosque of Tunis and the Great Mosque of Kairouan, and al-Bakri (1068) says that marble from it went to every land. Statues and inscriptions were burned for lime in kilns built among the ruins."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "al-bakri",
+    "lancel"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Two men lever a carved cornice block onto a mule cart. Whose temple it was, nobody asks. It will be a doorstep in Tunis."
+    },
+    {
+     "hour": 12,
+     "text": "Broken marble goes into the kiln mouth: a hand from a statue, a slab with Latin letters. The lime-burner stokes it with brushwood."
+    },
+    {
+     "hour": 19,
+     "text": "White lime powder in sacks for the builders of Tunis. The kiln glows on the Byrsa hill like a beacon."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "hanno-voyage",
+   "title": "Hanno sails beyond the Pillars",
+   "periodId": "punic-400",
+   "date": "c. 500 BCE (date uncertain)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "commercial-harbour"
+   },
+   "effect": "crowd",
+   "text": "According to the Greek text of his Periplus, Hanno sailed with sixty ships and thousands of settlers to found towns on the Atlantic coast of Africa, and went on as far as a land of 'gorillas', perhaps Sierra Leone or Cameroon. On his return the account was set up in a temple. The date, numbers and route are all disputed.",
+   "sourceIds": [
+    "hanno-periplus",
+    "wiki-hanno"
+   ]
+  },
+  {
+   "id": "himera-480",
+   "title": "News of the defeat at Himera",
+   "periodId": "punic-400",
+   "date": "480 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "crowd",
+   "text": "A Carthaginian army under Hamilcar is destroyed by Gelon of Syracuse at Himera in Sicily, by tradition on the same day as Salamis. Herodotus heard that Hamilcar, sacrificing whole victims all day, threw himself into the fire when he saw the rout. Carthage pays a heavy indemnity and turns for a century to Africa.",
+   "sourceIds": [
+    "herodotus-7",
+    "wiki-himera"
+   ]
+  },
+  {
+   "id": "agathocles-310",
+   "title": "Agathocles lands in Africa",
+   "periodId": "punic-400",
+   "date": "310 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "tophet"
+   },
+   "effect": "crowd",
+   "text": "Agathocles of Syracuse, besieged at home, lands in Africa, burns his ships and marches on Carthage. Diodorus claims the frightened Carthaginians, blaming their neglect of the gods, sacrificed 200 children of noble families and that 300 more were offered. How far to trust him is part of the Tophet debate.",
+   "sourceIds": [
+    "diodorus-20",
+    "wiki-agathocles",
+    "wiki-tophet"
+   ]
+  },
+  {
+   "id": "hannibal-oath",
+   "title": "Hannibal's oath",
+   "periodId": "punic-150",
+   "date": "237 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "procession",
+   "text": "Before leaving for Spain, Hamilcar Barca sacrifices for the army. His son Hannibal, nine years old, begs to come; his father makes him lay his hand on the victim and swear never to be a friend of Rome (Polybius, from Hannibal's own telling). Nineteen years later, in 218, Hannibal marches from Spain to Italy.",
+   "sourceIds": [
+    "polybius",
+    "wiki-second-punic-war"
+   ]
+  },
+  {
+   "id": "fleet-burned",
+   "title": "The fleet burned in sight of the city",
+   "periodId": "punic-150",
+   "date": "201 BCE",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     3207,
+     3218
+    ]
+   },
+   "effect": "fire",
+   "text": "After Zama, Carthage accepts Scipio's peace: it keeps its African lands but gives up its elephants and all but ten warships, and pays 10,000 talents over fifty years. Livy says Scipio had about 500 ships towed out to sea and burned, and the sight struck the citizens like the burning of the city itself.",
+   "sourceIds": [
+    "livy-30",
+    "wiki-second-punic-war"
+   ]
+  },
+  {
+   "id": "cato-figs",
+   "title": "Cato's fig",
+   "periodId": "punic-150",
+   "date": "153–150 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "commercial-harbour"
+   },
+   "effect": "none",
+   "text": "Cato the Elder, sent to arbitrate between Carthage and Numidia, is alarmed by the city's wealth. Back in the Senate he lets fall a fresh fig from Carthage, picked three days before, and ends every speech with his demand that Carthage be destroyed. The famous phrase 'Carthago delenda est' is a later wording.",
+   "sourceIds": [
+    "plutarch-cato",
+    "wiki-delenda"
+   ]
+  },
+  {
+   "id": "fall-146",
+   "title": "The fall of Carthage",
+   "periodId": "punic-150",
+   "date": "spring 146 BCE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "fire",
+   "text": "Scipio Aemilianus storms the harbours, then fights for six days up the three streets to the Byrsa, house by house and roof to roof. 50,000 people surrender and are sold. Hasdrubal yields; his wife curses him and throws herself and her sons into the burning temple of Eshmun. Scipio watches the city burn and weeps, quoting Homer.",
+   "sourceIds": [
+    "appian",
+    "polybius",
+    "wiki-siege-146"
+   ]
+  },
+  {
+   "id": "refoundation-29",
+   "title": "Augustus refounds Carthage",
+   "periodId": "roman-200",
+   "date": "29 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "construction",
+   "text": "After a century as a cursed ruin, and a failed Gracchan colony nearby, Carthage is refounded as Colonia Iulia, planned by Caesar and carried out by Augustus: Appian says 3,000 colonists came from Rome and the rest from the country around. Surveyors lay the grid; the Byrsa summit is cut down for the forum.",
+   "sourceIds": [
+    "appian",
+    "wiki-roman-carthage"
+   ]
+  },
+  {
+   "id": "perpetua-203",
+   "title": "Perpetua and Felicity in the arena",
+   "periodId": "roman-200",
+   "date": "7 March 203 CE",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "amphitheatre"
+   },
+   "effect": "crowd",
+   "text": "At the games for the birthday of the young Caesar Geta, the Christians Perpetua, a noblewoman of 22 nursing a baby, and her slave Felicity, just delivered of a child in prison, are sent into the arena with their companions. Perpetua's own prison diary survives, the earliest writing by a Christian woman.",
+   "sourceIds": [
+    "passio",
+    "wiki-perpetua"
+   ]
+  },
+  {
+   "id": "conference-411",
+   "title": "The Conference of Carthage",
+   "periodId": "vandal-480",
+   "date": "June 411",
+   "kind": "civic",
+   "at": {
+    "position": [
+     2268,
+     2594
+    ]
+   },
+   "effect": "crowd",
+   "text": "On the emperor's orders about 286 Catholic and 280 Donatist bishops meet in the Baths of Gargilius, under the tribune Marcellinus, to settle the schism of the African Church. Augustine speaks for the Catholics; stenographers record every word. Marcellinus rules for the Catholics, and the Donatists are outlawed.",
+   "sourceIds": [
+    "gesta-411",
+    "wiki-donatism",
+    "brown-augustine"
+   ]
+  },
+  {
+   "id": "vandal-capture-439",
+   "title": "Gaiseric takes Carthage",
+   "periodId": "vandal-480",
+   "date": "19 October 439",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "procession",
+   "text": "In time of peace the Vandal king Gaiseric seizes Carthage, the empire's richest city in the West. Its nobles are stripped of their estates, Catholic churches handed to the Arians, and the city becomes the capital of a kingdom whose fleet will sack Rome in 455.",
+   "sourceIds": [
+    "victor-vita",
+    "procopius",
+    "wiki-vandal-kingdom"
+   ]
+  },
+  {
+   "id": "belisarius-533",
+   "title": "Belisarius dines in Gelimer's palace",
+   "periodId": "vandal-480",
+   "date": "15 September 533",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "procession",
+   "text": "Two days after his victory at Ad Decimum, Belisarius marches into Carthage without looting, sits on Gelimer's throne and eats the dinner the Vandal king's cooks had prepared for their master (Procopius, who was there). Africa is Roman again for 160 years.",
+   "sourceIds": [
+    "procopius",
+    "wiki-ad-decimum"
+   ]
+  },
+  {
+   "id": "arab-conquest-698",
+   "title": "Hassan ibn al-Nu'man takes Carthage",
+   "periodId": "vandal-480",
+   "date": "698",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "commercial-harbour"
+   },
+   "effect": "fire",
+   "text": "Taken in 695, retaken by a Byzantine fleet in 697, Carthage falls for good to the Umayyad general Hassan ibn al-Nu'man. Its walls are pulled down and its people scatter; the new governors build their port and arsenal at Tunis across the lake, and the old city becomes a quarry.",
+   "sourceIds": [
+    "wiki-carthage-698",
+    "lancel"
+   ]
+  },
+  {
+   "id": "louis-1270",
+   "title": "Louis IX dies among the ruins",
+   "periodId": "ruins-1600",
+   "date": "25 August 1270",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "byrsa"
+   },
+   "effect": "none",
+   "text": "The French crusade against Tunis lands at Carthage and camps in the ruins in midsummer. Dysentery sweeps the army; King Louis IX dies, by Joinville's account saying 'Jerusalem'. His body is boiled to carry home. Six centuries later the French build a chapel and then a cathedral in his name on the Byrsa.",
+   "sourceIds": [
+    "joinville",
+    "wiki-eighth-crusade"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "last-years",
+   "title": "Carthage before the last war",
+   "periodId": "punic-150",
+   "summary": "A walk from the merchant quays to the citadel in the city's last good years, about 150 BCE, through the places where it would be fought for in 146.",
+   "steps": [
+    {
+     "landmarkId": "commercial-harbour",
+     "title": "The merchant harbour",
+     "text": "Ships from Rhodes, Alexandria and Italy at the quays, stores of tackle, and the chain across the entrance channel. Cato's embassy has just walked these quays counting the warehouses.",
+     "when": "morning"
+    },
+    {
+     "landmarkId": "cothon",
+     "title": "Through the gate to the war harbour",
+     "text": "Past the double wall, the round basin opens: ship sheds under Ionic porticoes all round, and on the island the admiral's tower from which a trumpet orders the day.",
+     "when": "mid-morning"
+    },
+    {
+     "spotId": "tanit-coins",
+     "title": "The agora",
+     "text": "Money-changers, olive oil and wine from the Megara estates, Numidian horses for sale, and arguments about the Numidian king Masinissa, who is eating Carthage's lands piece by piece."
+    },
+    {
+     "landmarkId": "tophet",
+     "title": "The Tophet",
+     "text": "West of the harbours, the old precinct of Baal Hammon and Tanit, stelae thick as a forest. What happened here is still argued over; for the Carthaginians it was a place of vows kept."
+    },
+    {
+     "landmarkId": "hannibal-quarter",
+     "title": "The new houses on the Byrsa",
+     "text": "Up the slope, blocks of new courtyard houses: red floors studded with white chips, cisterns under the courts, stairs to the roofs."
+    },
+    {
+     "landmarkId": "byrsa",
+     "title": "The temple of Eshmun",
+     "text": "Sixty steps to the summit and the city's richest temple. From here you see the whole of it, the harbours, the sea wall and the gardens of Megara: the view Scipio will have, in flames, three years from now.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "appian",
+    "lancel",
+    "hurst"
+   ]
+  },
+  {
+   "id": "augustine-carthage",
+   "title": "Augustine's Carthage",
+   "periodId": "roman-200",
+   "summary": "The city of Augustine's student and teaching years, 371–383, as he remembered it in the Confessions: 'a cauldron of shameful loves seething and sounding all around me'.",
+   "steps": [
+    {
+     "spotId": "augustine-school",
+     "title": "The school of rhetoric",
+     "text": "Augustine, a provincial from Thagaste, studies and then teaches here: Cicero's speeches by heart, the 'wreckers' in the benches, and ambitions of a court career.",
+     "when": "371–383"
+    },
+    {
+     "landmarkId": "theatre",
+     "title": "The theatre",
+     "text": "'Stage plays carried me away, full of images of my miseries': he loved the theatre and the tears it brought, and later blamed himself for it."
+    },
+    {
+     "landmarkId": "circus",
+     "title": "The circus",
+     "text": "His pupil and friend Alypius was mad for the races here, until a passing remark of Augustine's in class shamed him out of it, or so Augustine tells it."
+    },
+    {
+     "landmarkId": "antonine-baths",
+     "title": "The baths by the sea",
+     "text": "The great baths where students and teachers met, bathed and talked; Augustine's circle of friends argued Manichaean doctrine in places like these."
+    },
+    {
+     "spotId": "cyprian-memoria",
+     "title": "Monica's night at Cyprian's shrine",
+     "text": "In 383 he told his mother he was seeing off a friend, left her praying in Cyprian's chapel by the shore, and sailed for Rome in the night.",
+     "when": "383"
+    }
+   ],
+   "sourceIds": [
+    "augustine-conf",
+    "brown-augustine"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-carthage",
+   "title": "Carthage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carthage"
+  },
+  {
+   "id": "wiki-ancient-carthage",
+   "title": "Ancient Carthage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ancient_Carthage"
+  },
+  {
+   "id": "wiki-roman-carthage",
+   "title": "Roman Carthage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roman_Carthage"
+  },
+  {
+   "id": "wiki-archaeological-site",
+   "title": "Archaeological site of Carthage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Archaeological_site_of_Carthage"
+  },
+  {
+   "id": "wiki-lake-tunis",
+   "title": "Lake of Tunis",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lake_of_Tunis"
+  },
+  {
+   "id": "appian",
+   "title": "Roman History, Book 8: The Punic Wars (Punica) 95–135",
+   "author": "Appian",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Appian"
+  },
+  {
+   "id": "lancel",
+   "title": "Carthage: A History",
+   "author": "Serge Lancel",
+   "year": 1995
+  },
+  {
+   "id": "hurst",
+   "title": "The Sanctuary of Tanit at Carthage in the Roman Period; Excavations at Carthage: The British Mission II (the circular harbour)",
+   "author": "Henry Hurst",
+   "year": "1994–1999"
+  },
+  {
+   "id": "miles",
+   "title": "Carthage Must Be Destroyed",
+   "author": "Richard Miles",
+   "year": 2010
+  },
+  {
+   "id": "rakob",
+   "title": "Karthago I–III: Die deutschen Ausgrabungen in Karthago",
+   "author": "Friedrich Rakob (ed.)",
+   "year": "1991–1999"
+  },
+  {
+   "id": "ennabli",
+   "title": "Pour sauver Carthage: exploration et conservation de la cité punique, romaine et byzantine",
+   "author": "Abdelmajid Ennabli (ed.)",
+   "year": 1992
+  },
+  {
+   "id": "wiki-byrsa",
+   "title": "Byrsa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Byrsa"
+  },
+  {
+   "id": "wiki-eshmun",
+   "title": "Eshmun",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eshmun"
+  },
+  {
+   "id": "wiki-punic-ports",
+   "title": "Carthage Punic Ports",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carthage_Punic_Ports"
+  },
+  {
+   "id": "wiki-cothon",
+   "title": "Cothon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cothon"
+  },
+  {
+   "id": "wiki-tophet",
+   "title": "Carthage tophet",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carthage_tophet"
+  },
+  {
+   "id": "wiki-tophet-general",
+   "title": "Tophet",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tophet"
+  },
+  {
+   "id": "wiki-antonine-baths",
+   "title": "Baths of Antoninus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baths_of_Antoninus"
+  },
+  {
+   "id": "wiki-amphitheatre",
+   "title": "Carthage amphitheatre",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carthage_amphitheatre"
+  },
+  {
+   "id": "wiki-circus",
+   "title": "Circus of Carthage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Circus_of_Carthage"
+  },
+  {
+   "id": "wiki-la-malga",
+   "title": "Cisterns of La Malga",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cisterns_of_La_Malga"
+  },
+  {
+   "id": "wiki-zaghouan",
+   "title": "Zaghouan Aqueduct",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zaghouan_Aqueduct"
+  },
+  {
+   "id": "wiki-damous",
+   "title": "Basilica of Damous El Karita",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Basilica_of_Damous_El_Karita"
+  },
+  {
+   "id": "wiki-acropolium",
+   "title": "Acropolium of Carthage",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Acropolium_of_Carthage"
+  },
+  {
+   "id": "wiki-sidi-bou-said",
+   "title": "Sidi Bou Said",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sidi_Bou_Said"
+  },
+  {
+   "id": "wiki-punic-architecture",
+   "title": "Punic architecture",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Punic_architecture"
+  },
+  {
+   "id": "victor-vita",
+   "title": "History of the Vandal Persecution 1.8",
+   "author": "Victor of Vita",
+   "year": "c. 489",
+   "url": "https://en.wikipedia.org/wiki/Victor_of_Vita"
+  },
+  {
+   "id": "al-bakri",
+   "title": "Book of Roads and Kingdoms (description of Carthage)",
+   "author": "al-Bakri",
+   "year": "1068",
+   "url": "https://en.wikipedia.org/wiki/Abu_Abdullah_al-Bakri"
+  },
+  {
+   "id": "apuleius-florida",
+   "title": "Florida 18 and 20 (speeches in the theatre of Carthage)",
+   "author": "Apuleius",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Apuleius"
+  },
+  {
+   "id": "lancel-byrsa",
+   "title": "Byrsa I–II: Mission archéologique française à Carthage",
+   "author": "Serge Lancel (ed.)",
+   "year": "1979–1982"
+  },
+  {
+   "id": "hurst-ports",
+   "title": "Excavations at Carthage 1974–1977: the Punic and Roman harbours (Antiquaries Journal)",
+   "author": "Henry Hurst",
+   "year": "1975–1979"
+  },
+  {
+   "id": "stager",
+   "title": "Child Sacrifice at Carthage: Religious Rite or Population Control? (Biblical Archaeology Review 10.1)",
+   "author": "Lawrence Stager and Samuel Wolff",
+   "year": 1984
+  },
+  {
+   "id": "schwartz",
+   "title": "Skeletal Remains from Punic Carthage Do Not Support Systematic Sacrifice of Infants (PLoS ONE 5)",
+   "author": "Jeffrey Schwartz et al.",
+   "year": 2010
+  },
+  {
+   "id": "smith",
+   "title": "Age estimations attest to infant sacrifice at the Carthage Tophet (Antiquity 87)",
+   "author": "Patricia Smith et al.",
+   "year": 2013
+  },
+  {
+   "id": "humphrey",
+   "title": "Roman Circuses: Arenas for Chariot Racing",
+   "author": "John H. Humphrey",
+   "year": 1986
+  },
+  {
+   "id": "lezine",
+   "title": "Les thermes d'Antonin à Carthage",
+   "author": "Alexandre Lézine",
+   "year": 1969
+  },
+  {
+   "id": "ennabli-lb",
+   "title": "Carthage chrétienne / Les basiliques chrétiennes de Carthage",
+   "author": "Liliane Ennabli",
+   "year": 1997
+  },
+  {
+   "id": "bullo",
+   "title": "Le Damous el-Karita / Roman villas of Carthage (Parc des villas romaines)",
+   "author": "Institut National du Patrimoine (Tunisia)",
+   "year": "various"
+  },
+  {
+   "id": "delattre",
+   "title": "Les tombeaux puniques de Carthage (the necropolis of Juno hill and Douimès)",
+   "author": "Alfred-Louis Delattre",
+   "year": "1890–1905"
+  },
+  {
+   "id": "wiki-tyrian-purple",
+   "title": "Tyrian purple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tyrian_purple"
+  },
+  {
+   "id": "wiki-tanit",
+   "title": "Tanit",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tanit"
+  },
+  {
+   "id": "wiki-garum",
+   "title": "Garum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garum"
+  },
+  {
+   "id": "wiki-annona",
+   "title": "Cura annonae",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cura_annonae"
+  },
+  {
+   "id": "wiki-augustine",
+   "title": "Augustine of Hippo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo"
+  },
+  {
+   "id": "wiki-cyprian",
+   "title": "Cyprian",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cyprian"
+  },
+  {
+   "id": "wiki-saint-cyprien",
+   "title": "Basilica of Saint-Cyprien",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint-Cyprien"
+  },
+  {
+   "id": "wiki-hanno",
+   "title": "Hanno the Navigator",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hanno_the_Navigator"
+  },
+  {
+   "id": "wiki-himera",
+   "title": "Battle of Himera (480 BC)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Himera_(480_BC)"
+  },
+  {
+   "id": "wiki-agathocles",
+   "title": "Agathocles of Syracuse",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Agathocles_of_Syracuse"
+  },
+  {
+   "id": "wiki-second-punic-war",
+   "title": "Second Punic War",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+  },
+  {
+   "id": "wiki-delenda",
+   "title": "Carthago delenda est",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carthago_delenda_est"
+  },
+  {
+   "id": "wiki-siege-146",
+   "title": "Siege of Carthage (Third Punic War)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Carthage_(Third_Punic_War)"
+  },
+  {
+   "id": "wiki-perpetua",
+   "title": "Perpetua and Felicity",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Perpetua_and_Felicity"
+  },
+  {
+   "id": "wiki-donatism",
+   "title": "Donatism",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Donatism"
+  },
+  {
+   "id": "wiki-vandal-kingdom",
+   "title": "Vandal Kingdom",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vandal_Kingdom"
+  },
+  {
+   "id": "wiki-ad-decimum",
+   "title": "Battle of Ad Decimum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Ad_Decimum"
+  },
+  {
+   "id": "wiki-carthage-698",
+   "title": "Battle of Carthage (698)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Carthage_(698)"
+  },
+  {
+   "id": "wiki-eighth-crusade",
+   "title": "Eighth Crusade",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eighth_Crusade"
+  },
+  {
+   "id": "hanno-periplus",
+   "title": "The Periplus of Hanno",
+   "author": "Hanno (Greek version)",
+   "year": "text perhaps 5th–4th century BCE",
+   "url": "https://en.wikipedia.org/wiki/Periplus_of_Hanno"
+  },
+  {
+   "id": "herodotus-7",
+   "title": "Histories 7.165–167 (Hamilcar at Himera)",
+   "author": "Herodotus",
+   "year": "c. 430 BCE",
+   "url": "https://en.wikipedia.org/wiki/Histories_(Herodotus)"
+  },
+  {
+   "id": "diodorus-20",
+   "title": "Library of History 20.3–14 (Agathocles in Africa)",
+   "author": "Diodorus Siculus",
+   "year": "1st century BCE",
+   "url": "https://en.wikipedia.org/wiki/Bibliotheca_historica"
+  },
+  {
+   "id": "polybius",
+   "title": "Histories 3.11 (Hannibal's oath); 38.21–22 (Scipio at Carthage)",
+   "author": "Polybius",
+   "year": "2nd century BCE",
+   "url": "https://en.wikipedia.org/wiki/Histories_(Polybius)"
+  },
+  {
+   "id": "livy-30",
+   "title": "History of Rome 30.43 (the burning of the fleet)",
+   "author": "Livy",
+   "year": "c. 10 BCE",
+   "url": "https://en.wikipedia.org/wiki/Ab_Urbe_Condita_Libri"
+  },
+  {
+   "id": "plutarch-cato",
+   "title": "Life of Cato the Elder 26–27",
+   "author": "Plutarch",
+   "year": "c. 100 CE",
+   "url": "https://en.wikipedia.org/wiki/Parallel_Lives"
+  },
+  {
+   "id": "passio",
+   "title": "The Passion of Perpetua and Felicity",
+   "author": "Perpetua, Saturus and an editor",
+   "year": "early 3rd century",
+   "url": "https://en.wikipedia.org/wiki/Passion_of_Saint_Perpetua,_Saint_Felicitas,_and_their_Companions"
+  },
+  {
+   "id": "augustine-conf",
+   "title": "Confessions 3.1–3, 4.1–2, 5.8, 6.7",
+   "author": "Augustine of Hippo",
+   "year": "c. 397–400",
+   "url": "https://en.wikipedia.org/wiki/Confessions_(Augustine)"
+  },
+  {
+   "id": "gesta-411",
+   "title": "Gesta Collationis Carthaginiensis (Acts of the Conference of 411)",
+   "author": "ed. S. Lancel",
+   "year": "1972–1991"
+  },
+  {
+   "id": "procopius",
+   "title": "History of the Wars 3.5, 3.20–21, 4.6",
+   "author": "Procopius",
+   "year": "c. 550",
+   "url": "https://en.wikipedia.org/wiki/Procopius"
+  },
+  {
+   "id": "joinville",
+   "title": "The Life of Saint Louis",
+   "author": "Jean de Joinville",
+   "year": "1309",
+   "url": "https://en.wikipedia.org/wiki/Jean_de_Joinville"
+  },
+  {
+   "id": "hoyos",
+   "title": "The Carthaginians",
+   "author": "Dexter Hoyos",
+   "year": 2010
+  },
+  {
+   "id": "dunbabin",
+   "title": "The Mosaics of Roman North Africa",
+   "author": "Katherine Dunbabin",
+   "year": 1978
+  },
+  {
+   "id": "brown-augustine",
+   "title": "Augustine of Hippo: A Biography",
+   "author": "Peter Brown",
+   "year": 1967
+  },
+  {
+   "id": "merrills-miles",
+   "title": "The Vandals",
+   "author": "Andrew Merrills and Richard Miles",
+   "year": 2010
+  },
+  {
+   "id": "jenkins-coins",
+   "title": "Coins of Punic Sicily / Carthaginian gold and electrum coins",
+   "author": "G. K. Jenkins and R. B. Lewis",
+   "year": 1963
+  }
+ ]
+}

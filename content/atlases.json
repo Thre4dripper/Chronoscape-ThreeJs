@@ -93,7 +93,9 @@
           "subtitle": "The Punic city, 150 BCE",
           "at": [10.32, 36.85],
           "glyph": "temple",
-          "blurb": "Rome's great rival in its last years: the circular naval harbour, the Byrsa hill and the city walls."
+          "blurb": "Rome's great rival in its last years: the circular naval harbour, the Byrsa hill and the city walls.",
+          "city": "carthage",
+          "period": "punic-150"
         }
       ]
     },
