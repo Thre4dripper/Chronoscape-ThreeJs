@@ -4597,6 +4597,182 @@
   "w": 70.0,
   "x0px": 45.6
  },
+ "great-zimbabwe/commoners-village": {
+  "ground": 125.9,
+  "h": 5.91,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   181
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "great-zimbabwe/eastern-ruins": {
+  "ground": 192.7,
+  "h": 11.87,
+  "mpp": 0.0834,
+  "px": [
+   1060,
+   243
+  ],
+  "w": 80.0,
+  "x0px": 50.4
+ },
+ "great-zimbabwe/elite-houses": {
+  "ground": 140.6,
+  "h": 8.35,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   181
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
+ "great-zimbabwe/fields-granaries": {
+  "ground": 118.6,
+  "h": 6.0,
+  "mpp": 0.10326,
+  "px": [
+   1400,
+   179
+  ],
+  "w": 132.0,
+  "x0px": 60.8
+ },
+ "great-zimbabwe/great-enclosure": {
+  "ground": 216.5,
+  "h": 13.0,
+  "mpp": 0.08338,
+  "px": [
+   1336,
+   277
+  ],
+  "w": 101.29,
+  "x0px": 60.6
+ },
+ "great-zimbabwe/great-enclosure-1500": {
+  "ground": 216.5,
+  "h": 13.0,
+  "mpp": 0.08338,
+  "px": [
+   1336,
+   277
+  ],
+  "w": 101.29,
+  "x0px": 60.6
+ },
+ "great-zimbabwe/hill-ascent": {
+  "ground": 300.0,
+  "h": 22.71,
+  "mpp": 0.08349,
+  "px": [
+   456,
+   328
+  ],
+  "w": 33.4,
+  "x0px": 28.0
+ },
+ "great-zimbabwe/hill-complex": {
+  "ground": 177.4,
+  "h": 26.81,
+  "mpp": 0.22008,
+  "px": [
+   1400,
+   233
+  ],
+  "w": 283.43,
+  "x0px": 56.1
+ },
+ "great-zimbabwe/hill-complex-1100": {
+  "ground": 177.4,
+  "h": 26.81,
+  "mpp": 0.22008,
+  "px": [
+   1400,
+   233
+  ],
+  "w": 283.43,
+  "x0px": 56.1
+ },
+ "great-zimbabwe/hill-complex-1500": {
+  "ground": 177.4,
+  "h": 26.81,
+  "mpp": 0.22008,
+  "px": [
+   1400,
+   233
+  ],
+  "w": 283.43,
+  "x0px": 56.1
+ },
+ "great-zimbabwe/ridge-ruins": {
+  "ground": 121.7,
+  "h": 6.36,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   167
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "great-zimbabwe/royal-kraal": {
+  "ground": 124.2,
+  "h": 5.79,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   179
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "great-zimbabwe/smelting-area": {
+  "ground": 96.4,
+  "h": 5.07,
+  "mpp": 0.08333,
+  "px": [
+   672,
+   132
+  ],
+  "w": 50.0,
+  "x0px": 36.0
+ },
+ "great-zimbabwe/trade-ground": {
+  "ground": 144.9,
+  "h": 8.31,
+  "mpp": 0.08335,
+  "px": [
+   931,
+   190
+  ],
+  "w": 70.0,
+  "x0px": 45.6
+ },
+ "great-zimbabwe/valley-ruins": {
+  "ground": 119.8,
+  "h": 6.52,
+  "mpp": 0.10943,
+  "px": [
+   1400,
+   180
+  ],
+  "w": 140.0,
+  "x0px": 60.3
+ },
+ "great-zimbabwe/valley-ruins-1500": {
+  "ground": 113.0,
+  "h": 5.8,
+  "mpp": 0.10943,
+  "px": [
+   1400,
+   173
+  ],
+  "w": 140.0,
+  "x0px": 60.3
+ },
  "kyoto/chion-in-sanmon": {
   "ground": 390.4,
   "h": 29.26,
