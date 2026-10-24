@@ -1,0 +1,6515 @@
+{
+ "id": "lisbon",
+ "name": "Lisbon",
+ "subtitle": "Olisipo, al-Ushbuna, Lisboa",
+ "description": "Lisbon on the Tagus estuary from Roman Olisipo to the city Pombal rebuilt after the earthquake of 1755: the castle hill with the Alfama below it, the Baixa valley from the Rossio down to the river, the Chiado and Bairro Alto to the west and Graça to the north-east. Belém, where the India fleets sailed from, lies 6 km west, beyond the frame. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "manueline-1550",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#EFE6D2",
+   "#E9D2B4",
+   "#F2EDE2",
+   "#E3C9A0",
+   "#DDE0D8",
+   "#EAD9BE"
+  ],
+  "roofs": [
+   "#B8694A",
+   "#C27E5A",
+   "#A95E43"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1998,
+    1775
+   ],
+   "distance": 38,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   3822,
+   2885
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Tagus (Tejo)",
+    "path": [
+     [
+      -618,
+      3505
+     ],
+     [
+      76,
+      3461
+     ],
+     [
+      462,
+      3436
+     ],
+     [
+      815,
+      3392
+     ],
+     [
+      1094,
+      3371
+     ],
+     [
+      1311,
+      3353
+     ],
+     [
+      1533,
+      3353
+     ],
+     [
+      1712,
+      3362
+     ],
+     [
+      1916,
+      3375
+     ],
+     [
+      2327,
+      3375
+     ],
+     [
+      2753,
+      3230
+     ],
+     [
+      2985,
+      3098
+     ],
+     [
+      3164,
+      3007
+     ],
+     [
+      3429,
+      2853
+     ],
+     [
+      3646,
+      2698
+     ],
+     [
+      3922,
+      2490
+     ],
+     [
+      4301,
+      2167
+     ],
+     [
+      4661,
+      1708
+     ],
+     [
+      4896,
+      1256
+     ],
+     [
+      5077,
+      877
+     ],
+     [
+      5252,
+      519
+     ],
+     [
+      5516,
+      -44
+     ]
+    ],
+    "width": 2400,
+    "id": "tejo",
+    "blurb": "The Tagus (Latin Tagus, Arabic Tājuh, Portuguese Tejo) widens here into an estuary 2–3 km across, opening east into the 'Sea of Straw' (Mar da Palha) and narrowing west to the sea at Belém. Its sheltered water made Lisbon a port for Phoenicians, Romans, Moors and the India fleets."
+   },
+   {
+    "name": "Mar da Palha",
+    "path": [
+     [
+      3040,
+      3772
+     ],
+     [
+      4343,
+      3329
+     ],
+     [
+      5212,
+      2330
+     ]
+    ],
+    "width": 1600,
+    "id": "mar-da-palha",
+    "blurb": "East of the city the estuary opens into a shallow inland sea some 10 km wide, the 'Sea of Straw', perhaps named for the river's flotsam or the colour of its water at sunset."
+   },
+   {
+    "name": "Tagus: the Ribeira",
+    "path": [
+     [
+      1403,
+      2251
+     ],
+     [
+      1572,
+      2230
+     ],
+     [
+      1793,
+      2219
+     ],
+     [
+      1973,
+      2185
+     ],
+     [
+      2152,
+      2150
+     ],
+     [
+      2307,
+      2104
+     ],
+     [
+      2465,
+      2047
+     ],
+     [
+      2627,
+      1990
+     ],
+     [
+      2827,
+      1896
+     ],
+     [
+      2992,
+      1791
+     ],
+     [
+      3221,
+      1623
+     ]
+    ],
+    "width": 200,
+    "id": "ribeira-shore",
+    "blurb": "Before 1755 the shore in front of the palace was a working beach and a row of wooden and stone landings: the Ribeira, where boats unloaded fish, grain, wood and the cargo of the India ships. Pombal's square and quays pushed it out by 50–100 m.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Tagus: the ancient shore",
+    "path": [
+     [
+      -328,
+      2418
+     ],
+     [
+      370,
+      2351
+     ],
+     [
+      900,
+      2283
+     ],
+     [
+      1259,
+      2215
+     ],
+     [
+      1522,
+      2148
+     ],
+     [
+      1708,
+      2109
+     ],
+     [
+      1854,
+      2119
+     ],
+     [
+      2041,
+      2131
+     ],
+     [
+      2230,
+      2119
+     ],
+     [
+      2375,
+      2107
+     ],
+     [
+      2559,
+      2067
+     ],
+     [
+      2761,
+      1989
+     ],
+     [
+      2960,
+      1875
+     ],
+     [
+      3152,
+      1729
+     ],
+     [
+      3355,
+      1540
+     ],
+     [
+      3549,
+      1337
+     ],
+     [
+      3740,
+      1137
+     ]
+    ],
+    "width": 400,
+    "id": "ancient-shore",
+    "blurb": "In Roman and Moorish times the river came up to the foot of the castle hill: the beach of the Baixa lay roughly along today's Rua da Conceição and the Moorish sea wall ran along the Rua dos Bacalhoeiros. Silt and centuries of landfill have since pushed the shore out.",
+    "periods": [
+     "olisipo-50",
+     "moorish-1100"
+    ]
+   },
+   {
+    "name": "Esteiro da Baixa",
+    "path": [
+     [
+      2076,
+      1908
+     ],
+     [
+      2059,
+      1775
+     ],
+     [
+      1998,
+      1620
+     ],
+     [
+      1911,
+      1465
+     ],
+     [
+      1841,
+      1331
+     ],
+     [
+      1755,
+      1132
+     ],
+     [
+      1581,
+      832
+     ],
+     [
+      1390,
+      499
+     ],
+     [
+      1129,
+      -22
+     ]
+    ],
+    "width": 35,
+    "id": "esteiro",
+    "blurb": "A tidal creek ran up the Baixa valley toward the Rossio, fed by the streams of Valverde and Arroios. Its course is the usual reconstruction from boreholes and excavations; the valley floor was marshy until it was drained and built over.",
+    "periods": [
+     "olisipo-50",
+     "moorish-1100"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Castle hill (São Jorge)",
+    "center": [
+     2319,
+     1376
+    ],
+    "radius": 230,
+    "label": true,
+    "id": "castle-hill",
+    "blurb": "The highest point of old Lisbon, about 110 m above the river: the Iron Age settlement, the Roman town's summit, the Moorish alcáçova and the castle of the kings."
+   },
+   {
+    "name": "São Vicente",
+    "center": [
+     2884,
+     1220
+    ],
+    "radius": 190,
+    "label": true,
+    "id": "sao-vicente-hill",
+    "blurb": "The hill east of the castle where Afonso Henriques' German and Flemish crusaders camped in 1147 and where he founded the monastery of São Vicente 'outside the walls'."
+   },
+   {
+    "name": "Graça (Santo André)",
+    "center": [
+     2493,
+     888
+    ],
+    "radius": 250,
+    "label": true,
+    "id": "graca-hill",
+    "blurb": "The hill north-east of the castle, crowned by the Augustinian convent of Graça (from 1271) and the chapel of Senhora do Monte; the Castilians besieged the city from here in 1384."
+   },
+   {
+    "name": "Sant'Ana",
+    "center": [
+     1841,
+     577
+    ],
+    "radius": 250,
+    "label": true,
+    "id": "santana-hill",
+    "blurb": "The hill north of the Rossio between the valleys of Valverde and Arroios, a place of convents and quintas."
+   },
+   {
+    "name": "São Roque",
+    "center": [
+     1233,
+     1309
+    ],
+    "radius": 250,
+    "label": true,
+    "id": "sao-roque-hill",
+    "blurb": "The high ground west of the Baixa where the Bairro Alto was laid out from 1513 and the Jesuits built São Roque."
+   },
+   {
+    "name": "Chagas",
+    "center": [
+     1494,
+     1808
+    ],
+    "radius": 150,
+    "label": true,
+    "id": "chagas-hill",
+    "blurb": "The spur above the Ribeira between the Chiado and the river, named after the church of the Chagas (the Holy Wounds), built for the sailors of the India run."
+   },
+   {
+    "name": "Santa Catarina",
+    "center": [
+     1060,
+     1842
+    ],
+    "radius": 180,
+    "label": true,
+    "id": "santa-catarina-hill",
+    "blurb": "The headland west of the Chiado with a view over the river, long a lookout for ships coming in from the sea."
+   },
+   {
+    "name": "Estrela",
+    "center": [
+     330,
+     1465
+    ],
+    "radius": 280,
+    "label": true,
+    "id": "estrela-hill",
+    "blurb": "The heights of the Estrela and the Lapa west of the old city, open country of quintas until the 18th century."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Street up to the summit",
+    "path": [
+     [
+      2276,
+      1886
+     ],
+     [
+      2276,
+      1775
+     ],
+     [
+      2319,
+      1664
+     ],
+     [
+      2345,
+      1531
+     ],
+     [
+      2337,
+      1431
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "roman-cardo",
+    "blurb": "The main street climbed from the river past the forum, by the usual reconstruction near the later cathedral, to the theatre and the summit. Stretches of Roman paving have been found under the cathedral cloister.",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "name": "Road west along the estuary",
+    "path": [
+     [
+      1868,
+      1864
+     ],
+     [
+      1650,
+      1797
+     ],
+     [
+      1390,
+      1808
+     ],
+     [
+      1042,
+      1864
+     ],
+     [
+      608,
+      1908
+     ],
+     [
+      0,
+      1975
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "roman-west-road",
+    "blurb": "West across the Baixa beach and along the river toward the mouth of the Tagus and the coast; the Antonine Itinerary's road to Emerita left Olisipo by the river crossing upstream.",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "name": "Road north to Scallabis",
+    "path": [
+     [
+      2154,
+      1465
+     ],
+     [
+      2085,
+      1220
+     ],
+     [
+      2067,
+      888
+     ],
+     [
+      2119,
+      499
+     ],
+     [
+      2172,
+      -22
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "roman-north-road",
+    "blurb": "Up the Arroios valley toward Scallabis (Santarém), the seat of the judicial district (conventus) to which Olisipo belonged, and on to Bracara and Emerita.",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "name": "Shore road east",
+    "path": [
+     [
+      2302,
+      1853
+     ],
+     [
+      2519,
+      1808
+     ],
+     [
+      2693,
+      1720
+     ],
+     [
+      2884,
+      1598
+     ],
+     [
+      3084,
+      1420
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "roman-shore-road",
+    "blurb": "Along the shore below the hill to the hot springs and the fish-salting works east of the town.",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "name": "Street of the medina",
+    "path": [
+     [
+      2258,
+      1731
+     ],
+     [
+      2293,
+      1642
+     ],
+     [
+      2337,
+      1531
+     ],
+     [
+      2363,
+      1442
+     ]
+    ],
+    "width": 6,
+    "style": "major",
+    "labelled": true,
+    "id": "medina-street",
+    "blurb": "From the Porta do Ferro up past the main mosque toward the gate of the alcáçova: the spine of the walled town, with the market and the mosque at its lower end.",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "name": "Road west to Shintara (Sintra)",
+    "path": [
+     [
+      2258,
+      1731
+     ],
+     [
+      2041,
+      1709
+     ],
+     [
+      1781,
+      1686
+     ],
+     [
+      1520,
+      1686
+     ],
+     [
+      1216,
+      1642
+     ],
+     [
+      782,
+      1553
+     ],
+     [
+      347,
+      1442
+     ],
+     [
+      -87,
+      1354
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "moorish-west-road",
+    "blurb": "Out of the Porta do Ferro, across the creek and the marshy Baixa, up the far slope and west toward Sintra, the hill fortress that guarded the coast.",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "name": "Road north to Shantarin (Santarém)",
+    "path": [
+     [
+      2145,
+      1465
+     ],
+     [
+      2067,
+      1243
+     ],
+     [
+      2067,
+      943
+     ],
+     [
+      2119,
+      499
+     ],
+     [
+      2172,
+      -22
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "moorish-north-road",
+    "blurb": "From the Porta de Alfofa north up the Arroios valley to Santarém, the next fortress up the Tagus; Afonso Henriques took it by surprise in March 1147, seven months before Lisbon.",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "name": "Lanes of Alfama",
+    "path": [
+     [
+      2632,
+      1764
+     ],
+     [
+      2797,
+      1664
+     ],
+     [
+      2953,
+      1553
+     ],
+     [
+      3110,
+      1398
+     ],
+     [
+      3257,
+      1220
+     ],
+     [
+      3431,
+      976
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": true,
+    "id": "alfama-lane",
+    "blurb": "The winding way from the Porta de Alfama past the hot springs and down to the shore: the Alfama's lanes, stairs and blind alleys keep their Moorish pattern to this day.",
+    "periods": [
+     "moorish-1100",
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua Nova dos Mercadores",
+    "path": [
+     [
+      1859,
+      1853
+     ],
+     [
+      2033,
+      1842
+     ],
+     [
+      2172,
+      1864
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "rua-nova",
+    "blurb": "The 'New Street of the Merchants', paved and arcaded in part, ran across the Baixa parallel to the river: the richest street of the city, with goldsmiths, booksellers, mercers and the shops of foreign merchants. It vanished in 1755.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Streets of the Baixa",
+    "path": [
+     [
+      1954,
+      1886
+     ],
+     [
+      1894,
+      1720
+     ],
+     [
+      1841,
+      1575
+     ],
+     [
+      1807,
+      1453
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": false,
+    "id": "baixa-street",
+    "blurb": "Streets and lanes wound through the Baixa between the river and the Rossio. Their trade names (goldsmiths, harness-makers, gilders, shoemakers, cloth-sellers) were carried over to the streets of the Pombaline grid.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Road to Sintra",
+    "path": [
+     [
+      1537,
+      1709
+     ],
+     [
+      1346,
+      1686
+     ],
+     [
+      1086,
+      1642
+     ],
+     [
+      825,
+      1575
+     ],
+     [
+      521,
+      1498
+     ],
+     [
+      217,
+      1420
+     ],
+     [
+      -87,
+      1354
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "sintra-road",
+    "blurb": "Out of the Porta de Santa Catarina at the Chiado, along the Calçada do Combro and past the Estrela toward Sintra and the royal palace there.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Road up the Valverde",
+    "path": [
+     [
+      1807,
+      1154
+     ],
+     [
+      1694,
+      943
+     ],
+     [
+      1494,
+      666
+     ],
+     [
+      1303,
+      333
+     ],
+     [
+      1147,
+      -22
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "valverde-road",
+    "blurb": "North out of the Porta de Santo Antão up the valley of Valverde, between orchards and quintas; Pombal's Passeio Público was laid out along it in 1764, and the Avenida da Liberdade follows it today.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Road to Arroios and Santarém",
+    "path": [
+     [
+      2015,
+      1087
+     ],
+     [
+      2085,
+      777
+     ],
+     [
+      2154,
+      388
+     ],
+     [
+      2172,
+      -22
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": false,
+    "id": "arroios-road",
+    "blurb": "From the Porta da Mouraria up the Arroios valley, the old road north to Sacavém and Santarém.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Road to Xabregas",
+    "path": [
+     [
+      3127,
+      1465
+     ],
+     [
+      3318,
+      1243
+     ],
+     [
+      3518,
+      976
+     ],
+     [
+      3752,
+      610
+     ],
+     [
+      3909,
+      222
+     ],
+     [
+      4039,
+      -111
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "xabregas-road",
+    "blurb": "Out of the Porta da Cruz along the shore past Santa Apolónia to the convent of Madre de Deus (1509) and the royal palace of Xabregas.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua da Rosa",
+    "path": [
+     [
+      1329,
+      1731
+     ],
+     [
+      1303,
+      1498
+     ],
+     [
+      1233,
+      1220
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": true,
+    "id": "rua-da-rosa",
+    "blurb": "One of the long straight streets of the Bairro Alto, laid out from 1513 on the lands of the Andrade family: the first planned grid in Lisbon.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Road through Graça",
+    "path": [
+     [
+      2450,
+      1021
+     ],
+     [
+      2519,
+      910
+     ],
+     [
+      2606,
+      721
+     ],
+     [
+      2693,
+      333
+     ],
+     [
+      2736,
+      -22
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "graca-road",
+    "blurb": "Out of the Porta de Santo André past the Graça convent and north along the ridge.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua Augusta",
+    "path": [
+     [
+      2033,
+      1931
+     ],
+     [
+      1876,
+      1453
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "rua-augusta",
+    "blurb": "The central street of Pombal's grid, from the Praça do Comércio to the Rossio, assigned to the cloth merchants. The triumphal arch at its end was designed in the 1750s–60s but only finished in 1875.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua Áurea (Rua do Ouro)",
+    "path": [
+     [
+      1928,
+      1931
+     ],
+     [
+      1763,
+      1442
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "rua-aurea",
+    "blurb": "The 'golden street' of the goldsmiths, one of the three long streets of the Pombaline Baixa; the plan of 1758 gave each street its trade.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua da Prata",
+    "path": [
+     [
+      2137,
+      1931
+     ],
+     [
+      1980,
+      1431
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "rua-da-prata",
+    "blurb": "The 'silver street' of the silversmiths, along the east side of the Baixa grid toward the market square on the site of the old hospital.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua do Comércio",
+    "path": [
+     [
+      1850,
+      1875
+     ],
+     [
+      2198,
+      1831
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "rua-do-comercio",
+    "blurb": "A cross street of the grid, one block back from the square.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua da Conceição",
+    "path": [
+     [
+      1815,
+      1764
+     ],
+     [
+      2172,
+      1720
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "rua-da-conceicao",
+    "blurb": "A cross street of the grid, near the line of the old Rua Nova dos Mercadores.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua da Vitória",
+    "path": [
+     [
+      1772,
+      1620
+     ],
+     [
+      2119,
+      1575
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "rua-da-vitoria",
+    "blurb": "A cross street of the grid toward the north end of the Baixa.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Rua do Arsenal",
+    "path": [
+     [
+      1946,
+      2008
+     ],
+     [
+      1737,
+      1986
+     ],
+     [
+      1477,
+      1986
+     ],
+     [
+      1259,
+      2019
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "rua-do-arsenal",
+    "blurb": "The new street west from the Praça do Comércio past the rebuilt Arsenal to the Cais do Sodré, over the ground where the palace, the Casa da Índia and the opera stood.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Walls of al-Ushbuna",
+    "path": [
+     [
+      2258,
+      1220
+     ],
+     [
+      2172,
+      1331
+     ],
+     [
+      2145,
+      1465
+     ],
+     [
+      2206,
+      1609
+     ],
+     [
+      2250,
+      1731
+     ],
+     [
+      2250,
+      1842
+     ],
+     [
+      2293,
+      1886
+     ],
+     [
+      2363,
+      1886
+     ],
+     [
+      2476,
+      1875
+     ],
+     [
+      2562,
+      1786
+     ],
+     [
+      2632,
+      1764
+     ],
+     [
+      2606,
+      1642
+     ],
+     [
+      2588,
+      1542
+     ],
+     [
+      2536,
+      1420
+     ],
+     [
+      2502,
+      1309
+     ],
+     [
+      2415,
+      1220
+     ]
+    ],
+    "closed": true,
+    "id": "medina-walls",
+    "blurb": "The wall of the medina, probably on the line of a late Roman wall, ran from the alcáçova down the slope to the river and back: some 16 hectares with gates on every side. The crusaders of 1147 attacked it with siege towers from the west and the east.",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "name": "Cerca Moura (the old wall)",
+    "path": [
+     [
+      2258,
+      1220
+     ],
+     [
+      2172,
+      1331
+     ],
+     [
+      2145,
+      1465
+     ],
+     [
+      2206,
+      1609
+     ],
+     [
+      2250,
+      1731
+     ],
+     [
+      2250,
+      1842
+     ],
+     [
+      2293,
+      1886
+     ],
+     [
+      2363,
+      1886
+     ],
+     [
+      2476,
+      1875
+     ],
+     [
+      2562,
+      1786
+     ],
+     [
+      2632,
+      1764
+     ],
+     [
+      2606,
+      1642
+     ],
+     [
+      2588,
+      1542
+     ],
+     [
+      2536,
+      1420
+     ],
+     [
+      2502,
+      1309
+     ],
+     [
+      2415,
+      1220
+     ]
+    ],
+    "closed": true,
+    "id": "cerca-moura",
+    "blurb": "After 1147 the old Moorish wall stayed standing inside the growing city, its gates (do Ferro, de Alfofa, do Mar, de Alfama, do Sol) still in use and houses built against it on both sides. Long stretches survive inside later buildings.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Cerca Fernandina",
+    "path": [
+     [
+      1303,
+      1997
+     ],
+     [
+      1425,
+      1908
+     ],
+     [
+      1537,
+      1709
+     ],
+     [
+      1529,
+      1575
+     ],
+     [
+      1546,
+      1442
+     ],
+     [
+      1633,
+      1309
+     ],
+     [
+      1755,
+      1220
+     ],
+     [
+      1841,
+      1165
+     ],
+     [
+      1954,
+      1109
+     ],
+     [
+      2033,
+      1076
+     ],
+     [
+      2172,
+      1021
+     ],
+     [
+      2328,
+      999
+     ],
+     [
+      2450,
+      1021
+     ],
+     [
+      2606,
+      1076
+     ],
+     [
+      2710,
+      1165
+     ],
+     [
+      2736,
+      1265
+     ],
+     [
+      2823,
+      1331
+     ],
+     [
+      2971,
+      1398
+     ],
+     [
+      3162,
+      1465
+     ],
+     [
+      3023,
+      1575
+     ],
+     [
+      2849,
+      1686
+     ],
+     [
+      2693,
+      1786
+     ],
+     [
+      2562,
+      1853
+     ],
+     [
+      2415,
+      1908
+     ],
+     [
+      2215,
+      1953
+     ],
+     [
+      2041,
+      1931
+     ],
+     [
+      1876,
+      1908
+     ],
+     [
+      1772,
+      1897
+     ],
+     [
+      1668,
+      2030
+     ],
+     [
+      1477,
+      2008
+     ]
+    ],
+    "closed": true,
+    "id": "fernandine-wall",
+    "blurb": "King Fernando I walled the whole city in 1373–75, after a Castilian army burned the open suburbs: about 5 km of wall with some 77 towers and more than thirty gates. The riverside stretch is the least certain; by 1550 the palace and quays had broken through it.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Porta do Ferro",
+    "position": [
+     2250,
+     1731
+    ],
+    "id": "porta-do-ferro",
+    "periods": [
+     "moorish-1100",
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta de Alfofa",
+    "position": [
+     2145,
+     1465
+    ],
+    "id": "porta-de-alfofa",
+    "periods": [
+     "moorish-1100",
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta do Mar",
+    "position": [
+     2363,
+     1886
+    ],
+    "id": "porta-do-mar",
+    "periods": [
+     "moorish-1100",
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta de Alfama",
+    "position": [
+     2632,
+     1764
+    ],
+    "id": "porta-de-alfama",
+    "periods": [
+     "moorish-1100",
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta de Santa Catarina",
+    "position": [
+     1537,
+     1709
+    ],
+    "id": "porta-santa-catarina",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta da Mouraria",
+    "position": [
+     2033,
+     1076
+    ],
+    "id": "porta-mouraria",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta de Santo André",
+    "position": [
+     2450,
+     1021
+    ],
+    "id": "porta-santo-andre",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta de São Vicente",
+    "position": [
+     2736,
+     1265
+    ],
+    "id": "porta-sao-vicente",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "name": "Porta da Cruz",
+    "position": [
+     3162,
+     1465
+    ],
+    "id": "porta-da-cruz",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   }
+  ],
+  "bridges": [],
+  "aqueducts": [
+   {
+    "name": "Aqueduto das Águas Livres",
+    "path": [
+     [
+      -869,
+      -444
+     ],
+     [
+      -347,
+      -89
+     ],
+     [
+      0,
+      155
+     ],
+     [
+      295,
+      311
+     ]
+    ],
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "name": "Galeria do Loreto (water gallery)",
+    "path": [
+     [
+      295,
+      311
+     ],
+     [
+      478,
+      533
+     ],
+     [
+      738,
+      832
+     ],
+     [
+      955,
+      1109
+     ],
+     [
+      1147,
+      1387
+     ]
+    ],
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   }
+  ],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2154,
+      1465
+     ],
+     [
+      2293,
+      1453
+     ],
+     [
+      2284,
+      1642
+     ],
+     [
+      2241,
+      1775
+     ],
+     [
+      2232,
+      1864
+     ],
+     [
+      2154,
+      1875
+     ],
+     [
+      2119,
+      1720
+     ],
+     [
+      2111,
+      1575
+     ]
+    ],
+    "density": "dense",
+    "name": "Olisipo: the western slope",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2371,
+      1442
+     ],
+     [
+      2519,
+      1431
+     ],
+     [
+      2606,
+      1542
+     ],
+     [
+      2606,
+      1686
+     ],
+     [
+      2502,
+      1775
+     ],
+     [
+      2380,
+      1820
+     ],
+     [
+      2311,
+      1775
+     ],
+     [
+      2354,
+      1642
+     ]
+    ],
+    "density": "dense",
+    "name": "Olisipo: the theatre quarter",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1868,
+      1886
+     ],
+     [
+      1859,
+      1775
+     ],
+     [
+      2015,
+      1742
+     ],
+     [
+      2111,
+      1831
+     ],
+     [
+      2050,
+      1897
+     ]
+    ],
+    "density": "loose",
+    "name": "Salting works on the beach",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1755,
+      1753
+     ],
+     [
+      1720,
+      1531
+     ],
+     [
+      1494,
+      1487
+     ],
+     [
+      1416,
+      1731
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses on the western slope",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2623,
+      1575
+     ],
+     [
+      2710,
+      1465
+     ],
+     [
+      2901,
+      1487
+     ],
+     [
+      2866,
+      1598
+     ],
+     [
+      2719,
+      1686
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses by the hot springs",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2163,
+      1476
+     ],
+     [
+      2319,
+      1442
+     ],
+     [
+      2302,
+      1553
+     ],
+     [
+      2267,
+      1653
+     ],
+     [
+      2232,
+      1720
+     ],
+     [
+      2198,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Medina: below the alcáçova",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2397,
+      1431
+     ],
+     [
+      2519,
+      1420
+     ],
+     [
+      2571,
+      1542
+     ],
+     [
+      2606,
+      1753
+     ],
+     [
+      2545,
+      1808
+     ],
+     [
+      2467,
+      1864
+     ],
+     [
+      2345,
+      1875
+     ],
+     [
+      2276,
+      1831
+     ],
+     [
+      2284,
+      1731
+     ],
+     [
+      2311,
+      1642
+     ],
+     [
+      2354,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "Medina: round the main mosque",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2658,
+      1709
+     ],
+     [
+      2780,
+      1631
+     ],
+     [
+      2919,
+      1520
+     ],
+     [
+      3040,
+      1376
+     ],
+     [
+      2936,
+      1276
+     ],
+     [
+      2710,
+      1331
+     ],
+     [
+      2606,
+      1465
+     ],
+     [
+      2615,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Alfama",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1781,
+      1875
+     ],
+     [
+      1772,
+      1731
+     ],
+     [
+      2015,
+      1731
+     ],
+     [
+      2024,
+      1808
+     ],
+     [
+      2007,
+      1875
+     ]
+    ],
+    "density": "loose",
+    "name": "Western suburb by the beach",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1746,
+      1642
+     ],
+     [
+      1720,
+      1465
+     ],
+     [
+      1876,
+      1476
+     ],
+     [
+      1980,
+      1631
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses along the creek",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2163,
+      1476
+     ],
+     [
+      2319,
+      1442
+     ],
+     [
+      2302,
+      1553
+     ],
+     [
+      2267,
+      1653
+     ],
+     [
+      2232,
+      1720
+     ],
+     [
+      2198,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Old town under the castle",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2397,
+      1431
+     ],
+     [
+      2519,
+      1420
+     ],
+     [
+      2571,
+      1542
+     ],
+     [
+      2606,
+      1753
+     ],
+     [
+      2545,
+      1808
+     ],
+     [
+      2467,
+      1864
+     ],
+     [
+      2345,
+      1875
+     ],
+     [
+      2276,
+      1831
+     ],
+     [
+      2284,
+      1731
+     ],
+     [
+      2311,
+      1642
+     ],
+     [
+      2354,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "Sé and Santa Maria Madalena",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2658,
+      1709
+     ],
+     [
+      2780,
+      1631
+     ],
+     [
+      2919,
+      1520
+     ],
+     [
+      3040,
+      1376
+     ],
+     [
+      2936,
+      1276
+     ],
+     [
+      2710,
+      1331
+     ],
+     [
+      2606,
+      1465
+     ],
+     [
+      2615,
+      1609
+     ]
+    ],
+    "density": "dense",
+    "name": "Alfama",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3127,
+      1331
+     ],
+     [
+      3197,
+      1220
+     ],
+     [
+      3040,
+      1265
+     ],
+     [
+      3023,
+      1354
+     ]
+    ],
+    "density": "dense",
+    "name": "Alfama: São Miguel and Santo Estêvão",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1746,
+      1820
+     ],
+     [
+      1711,
+      1465
+     ],
+     [
+      1772,
+      1465
+     ],
+     [
+      1815,
+      1587
+     ],
+     [
+      1859,
+      1731
+     ],
+     [
+      1894,
+      1820
+     ]
+    ],
+    "density": "dense",
+    "name": "Baixa: São Nicolau and São Julião",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1980,
+      1820
+     ],
+     [
+      1928,
+      1709
+     ],
+     [
+      1868,
+      1553
+     ],
+     [
+      1841,
+      1465
+     ],
+     [
+      1980,
+      1465
+     ],
+     [
+      2085,
+      1609
+     ],
+     [
+      2145,
+      1764
+     ],
+     [
+      2145,
+      1820
+     ]
+    ],
+    "density": "dense",
+    "name": "Baixa: the Judiaria and the Rua Nova",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2033,
+      1465
+     ],
+     [
+      2050,
+      1376
+     ],
+     [
+      2137,
+      1442
+     ],
+     [
+      2163,
+      1553
+     ],
+     [
+      2172,
+      1686
+     ],
+     [
+      2189,
+      1764
+     ],
+     [
+      2102,
+      1664
+     ]
+    ],
+    "density": "dense",
+    "name": "Madalena",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1572,
+      1775
+     ],
+     [
+      1590,
+      1465
+     ],
+     [
+      1668,
+      1331
+     ],
+     [
+      1711,
+      1442
+     ],
+     [
+      1720,
+      1775
+     ]
+    ],
+    "density": "dense",
+    "name": "Chiado and the Carmo",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1338,
+      1953
+     ],
+     [
+      1390,
+      1775
+     ],
+     [
+      1503,
+      1742
+     ],
+     [
+      1564,
+      1864
+     ],
+     [
+      1477,
+      1953
+     ]
+    ],
+    "density": "dense",
+    "name": "Corpo Santo",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1998,
+      1132
+     ],
+     [
+      2154,
+      1065
+     ],
+     [
+      2258,
+      1109
+     ],
+     [
+      2232,
+      1220
+     ],
+     [
+      2154,
+      1331
+     ],
+     [
+      2033,
+      1309
+     ]
+    ],
+    "density": "dense",
+    "name": "Mouraria",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2345,
+      1043
+     ],
+     [
+      2502,
+      1043
+     ],
+     [
+      2641,
+      1132
+     ],
+     [
+      2606,
+      1232
+     ],
+     [
+      2450,
+      1254
+     ],
+     [
+      2328,
+      1187
+     ]
+    ],
+    "density": "loose",
+    "name": "Graça",
+    "periods": [
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2345,
+      1043
+     ],
+     [
+      2502,
+      1043
+     ],
+     [
+      2641,
+      1132
+     ],
+     [
+      2606,
+      1232
+     ],
+     [
+      2450,
+      1254
+     ],
+     [
+      2328,
+      1187
+     ]
+    ],
+    "density": "dense",
+    "name": "Graça",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2658,
+      1276
+     ],
+     [
+      2745,
+      1265
+     ],
+     [
+      2884,
+      1354
+     ],
+     [
+      2797,
+      1442
+     ],
+     [
+      2658,
+      1387
+     ]
+    ],
+    "density": "loose",
+    "name": "São Vicente",
+    "periods": [
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2658,
+      1276
+     ],
+     [
+      2745,
+      1265
+     ],
+     [
+      2884,
+      1354
+     ],
+     [
+      2797,
+      1442
+     ],
+     [
+      2658,
+      1387
+     ]
+    ],
+    "density": "dense",
+    "name": "São Vicente",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1390,
+      1664
+     ],
+     [
+      1338,
+      1220
+     ],
+     [
+      1520,
+      1220
+     ],
+     [
+      1564,
+      1331
+     ],
+     [
+      1494,
+      1465
+     ],
+     [
+      1477,
+      1642
+     ]
+    ],
+    "density": "dense",
+    "name": "Bairro Alto",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1259,
+      1598
+     ],
+     [
+      1199,
+      1220
+     ],
+     [
+      938,
+      1198
+     ],
+     [
+      938,
+      1542
+     ]
+    ],
+    "density": "loose",
+    "name": "Bairro Alto",
+    "periods": [
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1259,
+      1598
+     ],
+     [
+      1199,
+      1220
+     ],
+     [
+      938,
+      1198
+     ],
+     [
+      938,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "Bairro Alto",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1390,
+      1764
+     ],
+     [
+      1199,
+      1720
+     ],
+     [
+      869,
+      1709
+     ],
+     [
+      869,
+      1953
+     ],
+     [
+      1199,
+      2030
+     ]
+    ],
+    "density": "loose",
+    "name": "Chagas and Santa Catarina",
+    "periods": [
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1390,
+      1764
+     ],
+     [
+      1199,
+      1720
+     ],
+     [
+      869,
+      1709
+     ],
+     [
+      869,
+      1953
+     ],
+     [
+      1199,
+      2030
+     ]
+    ],
+    "density": "dense",
+    "name": "Chagas and Santa Catarina",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      808,
+      1997
+     ],
+     [
+      808,
+      1664
+     ],
+     [
+      365,
+      1553
+     ],
+     [
+      191,
+      1942
+     ],
+     [
+      347,
+      2130
+     ]
+    ],
+    "density": "loose",
+    "name": "Boavista and the Mocambo",
+    "periods": [
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      808,
+      1997
+     ],
+     [
+      808,
+      1664
+     ],
+     [
+      365,
+      1553
+     ],
+     [
+      191,
+      1942
+     ],
+     [
+      347,
+      2130
+     ]
+    ],
+    "density": "dense",
+    "name": "Mocambo (Madragoa)",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      139,
+      1908
+     ],
+     [
+      295,
+      1509
+     ],
+     [
+      0,
+      1476
+     ],
+     [
+      0,
+      2053
+     ]
+    ],
+    "density": "loose",
+    "name": "Lapa",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3058,
+      1198
+     ],
+     [
+      3249,
+      1021
+     ],
+     [
+      3414,
+      854
+     ],
+     [
+      3474,
+      932
+     ],
+     [
+      3283,
+      1176
+     ],
+     [
+      3110,
+      1309
+     ]
+    ],
+    "density": "loose",
+    "name": "Santa Apolónia",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1980,
+      932
+     ],
+     [
+      2067,
+      111
+     ],
+     [
+      1859,
+      55
+     ],
+     [
+      1789,
+      865
+     ]
+    ],
+    "density": "loose",
+    "name": "Anjos",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1876,
+      1043
+     ],
+     [
+      1702,
+      688
+     ],
+     [
+      1859,
+      577
+     ],
+     [
+      1963,
+      910
+     ]
+    ],
+    "density": "loose",
+    "name": "Sant'Ana",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1164,
+      1198
+     ],
+     [
+      1077,
+      888
+     ],
+     [
+      764,
+      821
+     ],
+     [
+      817,
+      1154
+     ]
+    ],
+    "density": "loose",
+    "name": "Rato and the Cotovia",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2389,
+      976
+     ],
+     [
+      2502,
+      710
+     ],
+     [
+      2345,
+      666
+     ],
+     [
+      2258,
+      910
+     ]
+    ],
+    "density": "loose",
+    "name": "Graça: Senhora do Monte",
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2163,
+      1919
+     ],
+     [
+      2007,
+      1431
+     ],
+     [
+      2102,
+      1465
+     ],
+     [
+      2198,
+      1775
+     ],
+     [
+      2215,
+      1908
+     ]
+    ],
+    "density": "dense",
+    "name": "Baixa Pombalina: Rua dos Fanqueiros",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2059,
+      1919
+     ],
+     [
+      1902,
+      1453
+     ],
+     [
+      1954,
+      1442
+     ],
+     [
+      2111,
+      1919
+     ]
+    ],
+    "density": "dense",
+    "name": "Baixa Pombalina: between Augusta and Prata",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1954,
+      1919
+     ],
+     [
+      1789,
+      1453
+     ],
+     [
+      1850,
+      1453
+     ],
+     [
+      2007,
+      1919
+     ]
+    ],
+    "density": "dense",
+    "name": "Baixa Pombalina: between Ouro and Augusta",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1824,
+      1919
+     ],
+     [
+      1676,
+      1465
+     ],
+     [
+      1737,
+      1453
+     ],
+     [
+      1894,
+      1919
+     ]
+    ],
+    "density": "dense",
+    "name": "Baixa Pombalina: west of the Rua do Ouro",
+    "periods": [
+     "pombaline-1800"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2276,
+      1043
+     ],
+     [
+      2415,
+      754
+     ],
+     [
+      2675,
+      821
+     ],
+     [
+      2606,
+      1109
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards of the hill of Santo André",
+    "periods": [
+     "olisipo-50",
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1390,
+      1442
+     ],
+     [
+      1303,
+      1109
+     ],
+     [
+      869,
+      1054
+     ],
+     [
+      869,
+      1498
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olive groves of the western slopes",
+    "periods": [
+     "olisipo-50",
+     "moorish-1100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1581,
+      999
+     ],
+     [
+      1303,
+      499
+     ],
+     [
+      1129,
+      555
+     ],
+     [
+      1477,
+      1054
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of Valverde",
+    "periods": [
+     "moorish-1100",
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      869,
+      666
+     ],
+     [
+      973,
+      89
+     ],
+     [
+      174,
+      89
+     ],
+     [
+      87,
+      533
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Quintas of the Rato and Amoreiras"
+   },
+   {
+    "polygon": [
+     [
+      1737,
+      533
+     ],
+     [
+      1755,
+      111
+     ],
+     [
+      1494,
+      89
+     ],
+     [
+      1520,
+      499
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Quintas of Sant'Ana"
+   },
+   {
+    "polygon": [
+     [
+      2258,
+      610
+     ],
+     [
+      2302,
+      89
+     ],
+     [
+      2606,
+      89
+     ],
+     [
+      2606,
+      555
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Olive groves of Arroios"
+   },
+   {
+    "polygon": [
+     [
+      695,
+      1387
+     ],
+     [
+      651,
+      943
+     ],
+     [
+      87,
+      888
+     ],
+     [
+      43,
+      1331
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards of the Estrela",
+    "periods": [
+     "olisipo-50",
+     "moorish-1100",
+     "manueline-1550"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1720,
+      1109
+     ],
+     [
+      1520,
+      754
+     ],
+     [
+      1459,
+      788
+     ],
+     [
+      1659,
+      1143
+     ]
+    ],
+    "kind": "park",
+    "name": "Passeio Público",
+    "periods": [
+     "pombaline-1800"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      1807,
+      1731
+     ],
+     [
+      1755,
+      1487
+     ],
+     [
+      1755,
+      1309
+     ],
+     [
+      1911,
+      1331
+     ],
+     [
+      2033,
+      1509
+     ],
+     [
+      2085,
+      1686
+     ],
+     [
+      1980,
+      1742
+     ]
+    ],
+    "name": "Marshes of the Baixa",
+    "periods": [
+     "olisipo-50"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "olisipo",
+    "name": "Olisipo",
+    "polygon": [
+     [
+      2215,
+      1220
+     ],
+     [
+      2119,
+      1331
+     ],
+     [
+      2102,
+      1553
+     ],
+     [
+      2154,
+      1875
+     ],
+     [
+      2345,
+      1908
+     ],
+     [
+      2606,
+      1820
+     ],
+     [
+      2632,
+      1553
+     ],
+     [
+      2476,
+      1276
+     ]
+    ],
+    "description": "The Roman town on the south face of the castle hill: the summit, the forum by the usual reconstruction near the later cathedral, the theatre, baths and houses on terraces down to the river.",
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "id": "medina",
+    "name": "al-Madina",
+    "polygon": [
+     [
+      2258,
+      1220
+     ],
+     [
+      2172,
+      1331
+     ],
+     [
+      2145,
+      1465
+     ],
+     [
+      2206,
+      1609
+     ],
+     [
+      2250,
+      1731
+     ],
+     [
+      2250,
+      1842
+     ],
+     [
+      2293,
+      1886
+     ],
+     [
+      2363,
+      1886
+     ],
+     [
+      2476,
+      1875
+     ],
+     [
+      2562,
+      1786
+     ],
+     [
+      2632,
+      1764
+     ],
+     [
+      2606,
+      1642
+     ],
+     [
+      2588,
+      1542
+     ],
+     [
+      2536,
+      1420
+     ],
+     [
+      2502,
+      1309
+     ],
+     [
+      2415,
+      1220
+     ]
+    ],
+    "description": "The walled town of al-Ushbuna between the alcáçova and the river: the main mosque, the market and the houses of the Muslim and Mozarabic Christian population, about 16 hectares.",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "id": "alfama-m",
+    "name": "al-Hamma (Alfama)",
+    "polygon": [
+     [
+      2658,
+      1709
+     ],
+     [
+      2780,
+      1631
+     ],
+     [
+      2919,
+      1520
+     ],
+     [
+      3040,
+      1376
+     ],
+     [
+      2936,
+      1276
+     ],
+     [
+      2710,
+      1331
+     ],
+     [
+      2606,
+      1465
+     ],
+     [
+      2615,
+      1609
+     ]
+    ],
+    "description": "The suburb outside the medina's east gate, named after its hot springs, a quarter of fishermen, craftsmen and baths.",
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "id": "alfama",
+    "name": "Alfama",
+    "polygon": [
+     [
+      2658,
+      1709
+     ],
+     [
+      2780,
+      1631
+     ],
+     [
+      2919,
+      1520
+     ],
+     [
+      3040,
+      1376
+     ],
+     [
+      2936,
+      1276
+     ],
+     [
+      2710,
+      1331
+     ],
+     [
+      2606,
+      1465
+     ],
+     [
+      2615,
+      1609
+     ]
+    ],
+    "description": "The old quarter of fishermen and sailors below the castle on the east, with its Moorish lanes; the Judiaria de Alfama lay here before 1497. It came through the earthquake better than the Baixa, being built on rock.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "id": "mouraria",
+    "name": "Mouraria",
+    "polygon": [
+     [
+      1998,
+      1132
+     ],
+     [
+      2154,
+      1065
+     ],
+     [
+      2258,
+      1109
+     ],
+     [
+      2232,
+      1220
+     ],
+     [
+      2154,
+      1331
+     ],
+     [
+      2033,
+      1309
+     ]
+    ],
+    "description": "The quarter assigned to the Muslims who stayed after 1147, outside the old walls on the north-west slope of the castle hill; in 1497 the Muslims were expelled or forcibly converted and the name remained.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "id": "baixa",
+    "name": "Baixa",
+    "polygon": [
+     [
+      1737,
+      1908
+     ],
+     [
+      1702,
+      1442
+     ],
+     [
+      2154,
+      1431
+     ],
+     [
+      2198,
+      1886
+     ]
+    ],
+    "description": "The low town in the valley between the castle hill and the Chiado: the Rua Nova, the Judiaria Grande (until 1497), the goldsmiths', cloth and harness-makers' streets, crowded on drained marsh.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750"
+    ]
+   },
+   {
+    "id": "baixa-pombalina",
+    "name": "Baixa Pombalina",
+    "polygon": [
+     [
+      1737,
+      1919
+     ],
+     [
+      1676,
+      1442
+     ],
+     [
+      2154,
+      1431
+     ],
+     [
+      2215,
+      1919
+     ]
+    ],
+    "description": "The low town rebuilt after 1755 on a grid of straight streets between the Rossio and the Praça do Comércio, the first large city district in Europe built to an anti-seismic design.",
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "id": "bairro-alto",
+    "name": "Bairro Alto",
+    "polygon": [
+     [
+      1390,
+      1731
+     ],
+     [
+      1338,
+      1198
+     ],
+     [
+      912,
+      1187
+     ],
+     [
+      912,
+      1575
+     ]
+    ],
+    "description": "The 'high quarter', laid out from 1513 as the Vila Nova de Andrade on a grid of long streets; home of sailors, craftsmen, nobles and, after 1553, the Jesuits of São Roque.",
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Tagus",
+    "position": [
+     1564,
+     2774
+    ],
+    "size": "lg",
+    "rotation": -4,
+    "periods": [
+     "olisipo-50",
+     "moorish-1100"
+    ]
+   },
+   {
+    "text": "Rio Tejo",
+    "position": [
+     1564,
+     2774
+    ],
+    "size": "lg",
+    "rotation": -4,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Mar da Palha",
+    "position": [
+     3605,
+     2108
+    ],
+    "size": "md",
+    "rotation": -35
+   },
+   {
+    "text": "Olisipo",
+    "position": [
+     2519,
+     1575
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "olisipo-50"
+    ]
+   },
+   {
+    "text": "al-Ushbuna",
+    "position": [
+     2450,
+     1109
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "moorish-1100"
+    ]
+   },
+   {
+    "text": "Lixboa",
+    "position": [
+     1564,
+     721
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550"
+    ]
+   },
+   {
+    "text": "Lisboa",
+    "position": [
+     1564,
+     721
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Alfama",
+    "position": [
+     2849,
+     1531
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "moorish-1100",
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Mouraria",
+    "position": [
+     2102,
+     1165
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Baixa",
+    "position": [
+     1868,
+     1664
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Bairro Alto",
+    "position": [
+     1129,
+     1387
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Chiado",
+    "position": [
+     1616,
+     1620
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Graça",
+    "position": [
+     2606,
+     943
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Madragoa",
+    "position": [
+     521,
+     1820
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Rossio",
+    "position": [
+     1789,
+     1342
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "← Belém, 6 km",
+    "position": [
+     217,
+     2108
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Estrela",
+    "position": [
+     174,
+     1331
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "to Almada and Cacilhas",
+    "position": [
+     2085,
+     2607
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "manueline-1550",
+     "pre-earthquake-1750",
+     "pombaline-1800"
+    ]
+   },
+   {
+    "text": "Valverde",
+    "position": [
+     1303,
+     610
+    ],
+    "size": "sm",
+    "rotation": 0
+   }
+  ],
+  "palette": {
+   "parchment": "#E7D5AE",
+   "ink": "#6B4A33",
+   "water": "#5F8890",
+   "hill": "#7E805C",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   3344,
+   2441
+  ],
+  "cartouche": [
+   87,
+   2796
+  ]
+ },
+ "periods": [
+  {
+   "id": "olisipo-50",
+   "label": "Felicitas Julia Olisipo",
+   "year": 50,
+   "startYear": -138,
+   "endYear": 713,
+   "summary": "Olisipo, an Iron Age town on the hill above the Tagus, becomes a Roman base after Decimus Junius Brutus' campaign of 138 BCE and a town of Roman citizens, Felicitas Julia, probably under Caesar or Augustus. Houses climb the castle hill, a theatre faces the river below the summit, and fish-salting works line the beach of the Baixa. The range runs on through the Suebi and Visigoths to about 714.",
+   "population": "perhaps 20,000–30,000 (estimates vary widely)",
+   "feel": "Brine and rotting fish from the salting vats on the beach, amphorae of fish sauce stacked on the quay, Latin in the forum and the old Lusitanian tongue in the market.",
+   "style": "antique",
+   "houses": {
+    "title": "Terraced houses of Olisipo",
+    "text": "Houses of rubble and mortar under tiled roofs, packed on terraces cut into the slope between the summit and the river; the richer ones with painted walls and mosaic floors, as found under the cathedral cloister and in the Baixa."
+   },
+   "outskirts": {
+    "title": "Salting works and villas",
+    "text": "Along the beach of the Baixa, fish-salting tanks and potteries; on the slopes beyond, farms, villas and tombs beside the roads west along the estuary and north toward Scallabis (Santarém)."
+   }
+  },
+  {
+   "id": "moorish-1100",
+   "label": "al-Ushbuna",
+   "year": 1100,
+   "startYear": 714,
+   "endYear": 1147,
+   "summary": "Taken by Arab and Berber armies around 714, al-Ushbuna is a frontier port of al-Andalus, ruled from Córdoba, then by the taifa kings of Badajoz and from 1111 by the Almoravids. The alcáçova (citadel) crowns the hill and the walled medina runs down to the river, with the main mosque on the slope and suburbs at Alfama and in the Baixa. Afonso Henriques takes it in October 1147.",
+   "population": "perhaps 15,000–20,000 (estimates vary)",
+   "feel": "The call to prayer over flat roofs, fishing boats drawn up on the beach, steam from the hot springs of Alfama, and lookouts watching the river for Norse and Christian sails.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Courtyard houses of the medina",
+    "text": "Houses of rubble, rammed earth and brick, whitewashed, turned inward round a small patio with a well or cistern; blank walls on the lanes. Excavations inside the castle have found such 11th–12th century houses, with latrines and red-painted plaster."
+   },
+   "outskirts": {
+    "title": "Alfama and the gardens",
+    "text": "Alfama (from al-hamma, 'the hot springs') below the walls to the east; orchards, threshing floors and olive groves on the slopes; the marshy valley of the Baixa with its stream and a scatter of houses."
+   }
+  },
+  {
+   "id": "manueline-1550",
+   "label": "Port of the Indies",
+   "year": 1550,
+   "startYear": 1148,
+   "endYear": 1579,
+   "summary": "Since Vasco da Gama's return in 1499, pepper and spices from India pass through the Casa da Índia beside the king's riverside palace, and ships are built at the Ribeira das Naus next door. Inside King Fernando's wall (1373–75) live about 100,000 people, one in ten of them enslaved. The range runs from the Christian conquest of 1147 to Philip II's takeover in 1580.",
+   "population": "about 100,000 (the count of 1551)",
+   "feel": "Pepper dust and tar on the Ribeira, African, Flemish, Italian and Indian voices in the Rua Nova, the bells of the parish churches and the shipwrights' mallets.",
+   "style": "early-modern",
+   "houses": {
+    "title": "Tall narrow houses",
+    "text": "Narrow fronts of three to five storeys, stone below and timber frame above, shops at street level, upper floors jutting over the older streets; tiled roofs, and glazed tiles (azulejos) on the stairs of the richer houses. In the Alfama the Moorish lanes keep their twists and dead ends."
+   },
+   "outskirts": {
+    "title": "Quintas and the new Bairro Alto",
+    "text": "Beyond the wall, the Bairro Alto rises on a grid laid out from 1513; elsewhere quintas (farmsteads), orchards, olive groves, windmills and convents on the hills, and rope-walks, kilns and boatyards along the shore."
+   }
+  },
+  {
+   "id": "pre-earthquake-1750",
+   "label": "Baroque Lisbon",
+   "year": 1750,
+   "startYear": 1580,
+   "endYear": 1755,
+   "summary": "After sixty years of Spanish kings (1580–1640) and the Restoration, Brazilian gold pays for João V's works: the Patriarchal church in the Paço da Ribeira, the Águas Livres aqueduct (water from 1748), the gilded chapels of São Roque. José I opens the Ópera do Tejo in March 1755. On 1 November 1755 an earthquake, a tsunami and fire destroy the centre.",
+   "population": "perhaps 200,000",
+   "feel": "Processions with gilded floats, sedan chairs in the lanes, the river crowded with the Brazil fleets, water-carriers shouting at every fountain.",
+   "style": "early-modern",
+   "houses": {
+    "title": "Houses on medieval plots",
+    "text": "Four and five storeys of rubble masonry, plastered and painted, on narrow medieval plots; blue-and-white tiled entrances and stairs, iron balconies, tiled roofs. The lanes are still medieval, so narrow that fire jumps across them."
+   },
+   "outskirts": {
+    "title": "Convents and quintas",
+    "text": "Convents with walled gardens and noble quintas on the hills, orchards and olive groves; the new aqueduct arrives at the Amoreiras from its arches across the Alcântara valley, beyond the frame."
+   }
+  },
+  {
+   "id": "pombaline-1800",
+   "label": "Pombaline Lisbon",
+   "year": 1800,
+   "startYear": 1756,
+   "endYear": 1807,
+   "summary": "Pombal's engineers Manuel da Maia, Eugénio dos Santos and Carlos Mardel rebuilt the Baixa from 1758 on a grid of straight streets, with uniform four-storey blocks round a timber cage (gaiola) meant to ride out earthquakes. The Praça do Comércio replaces the palace square; the Carmo stands roofless; the Estrela basilica (1779–1790) rises at the map's western edge. The range ends with the French invasion of 1807.",
+   "population": "perhaps 180,000–200,000",
+   "feel": "Builders' carts and stacks of cut stone in half-finished streets, goldsmiths' and silversmiths' signs on the new shopfronts, coffee and gossip in the Rossio.",
+   "style": "early-modern",
+   "houses": {
+    "title": "Pombaline blocks",
+    "text": "Four storeys of identical fronts with plain stone frames, iron balconies on the first floor and dormers in the roof; behind the plaster a lattice of timber (the gaiola) braces the walls, and fire walls rise above the roofs between the houses."
+   },
+   "outskirts": {
+    "title": "The old quarters",
+    "text": "Outside the Baixa the old quarters were patched rather than replanned: Alfama and Mouraria keep their lanes; quintas, convents and the Passeio Público garden (1764) fill the edges."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "castelo",
+   "placeId": "castelo-sao-jorge",
+   "name": "Castle of São Jorge",
+   "category": "military",
+   "position": [
+    2311,
+    1342
+   ],
+   "rotation": 0,
+   "footprint": [
+    232.2,
+    149.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/castelo.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 230,
+     "depth": 150,
+     "wallHeight": 30.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "olisipo-50",
+    "moorish-1100",
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "olisipo-50": {
+     "name": "Summit of Olisipo",
+     "note": "The Iron Age hill-fort's summit, inside the Roman town: terraced houses, a stone enclosure and perhaps a temple. Its Roman buildings are known only from scattered finds.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/lisbon/castelo-roman.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 230,
+       "depth": 150,
+       "wallHeight": 30.0,
+       "bastions": 8
+      }
+     }
+    },
+    "moorish-1100": {
+     "name": "al-Qasaba (the alcáçova)",
+     "note": "The Moorish citadel: battered walls and square towers round the governor's palace and a small quarter of courtyard houses, excavated in the Praça Nova.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/castelo-moorish.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 230,
+       "depth": 150,
+       "wallHeight": 30.0,
+       "bastions": 8
+      }
+     }
+    },
+    "manueline-1550": {
+     "name": "Castelo and Paço da Alcáçova",
+     "note": "The kings lived in the Alcáçova palace until Manuel I moved to the riverside around 1505. The castle keeps the royal treasury and the archive in the Torre do Tombo."
+    },
+    "pre-earthquake-1750": {
+     "note": "An old fortress, garrisoned and half forgotten; the palace inside has been patched after the earthquake of 1531 and serves as barracks, prison and storehouse."
+    },
+    "pombaline-1800": {
+     "note": "Damaged again in 1755; the palace ranges stand roofless and the castle is a barracks. Houses and sheds crowd against its walls.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/castelo-1800.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 230,
+       "depth": 150,
+       "wallHeight": 30.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The citadel on Lisbon's highest hill: an Iron Age and Roman summit, the Moorish alcáçova, the kings' palace until about 1505, and a barracks after.",
+   "details": [
+    "The walls are mostly Moorish of the 11th century, repaired after the conquest of 1147. The castelejo, an inner fort with some ten square towers, held the keep; the larger alcáçova enclosed the royal palace, where the kings lived and received embassies. Excavations in the Praça Nova have found Iron Age, Moorish and 15th-century layers.",
+    "The miniature shows the hilltop as a stone platform with battered curtain walls, square towers with merlons and the castelejo at its east end; the palace ranges with tiled roofs, a chapel and a courtyard. Positions of the palace buildings are a reconstruction; the walls follow the surviving circuit, simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-castle",
+    "moita-castelo",
+    "oliveira-marques"
+   ],
+   "built": "Iron Age and Roman; walls 11th century, rebuilt after 1147; palace 13th–15th centuries",
+   "function": "Citadel; royal palace until about 1505",
+   "activity": {
+    "figures": 40,
+    "radius": 200
+   }
+  },
+  {
+   "id": "se",
+   "placeId": "se-de-lisboa",
+   "name": "Sé de Lisboa (Cathedral)",
+   "category": "religious",
+   "position": [
+    2319,
+    1797
+   ],
+   "rotation": 90,
+   "footprint": [
+    40.6,
+    92.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/se.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 90,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "moorish-1100",
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "olisipo-50": {
+     "name": "Site of the cathedral",
+     "note": "A Roman street with shops runs under the later cloister; the forum is usually placed near here, on the terrace above the river, though it has not been found."
+    },
+    "moorish-1100": {
+     "name": "Main mosque (presumed)",
+     "note": "The chronicles say the cathedral was built on the site of the main mosque. Here it is drawn as a plain hall of arcades with a court and a square minaret.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/lisbon/se-mosque.glb",
+      "fallback": {
+       "kit": "mosque",
+       "width": 40,
+       "depth": 90,
+       "domes": 3,
+       "minaretHeight": 20
+      }
+     }
+    },
+    "manueline-1550": {
+     "note": "The Romanesque fortress-church of the 12th century, two crenellated towers flanking a rose window; King Afonso IV has added the Gothic ambulatory and cloister (1330s–40s), where he is buried."
+    },
+    "pre-earthquake-1750": {
+     "note": "Unchanged on the outside except for Baroque fittings within. On 1 November 1755, All Saints' Day, it was full for the morning mass when the earthquake struck."
+    },
+    "pombaline-1800": {
+     "note": "The earthquake and fire wrecked the Gothic chancel and the crossing; the east end was rebuilt in a plain Baroque and the towers given new belfries (the medieval look was restored in the 1930s).",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/se-1800.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 40,
+       "depth": 90,
+       "height": 16.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Lisbon's cathedral, begun soon after the conquest of 1147 as a fortress-like Romanesque church with two towers, on the site, by tradition, of the main mosque.",
+   "details": [
+    "The first bishop was Gilbert of Hastings, one of the English crusaders of 1147. The nave and west front date from the later 12th century; the Gothic cloister and ambulatory with its radiating chapels were added in the 14th. Excavations in the cloister have found Roman streets and Moorish houses.",
+    "The miniature shows the west front with its two towers, the rose window and the deep portal; the nave with a gabled roof, transept and crossing tower; and the Gothic ambulatory at the east end. It is built along its axis and turned to face west. The roofs are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-se",
+    "oliveira-marques"
+   ],
+   "built": "c. 1147–1200; Gothic cloister and ambulatory 14th century; east end rebuilt after 1755",
+   "function": "Cathedral",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "roman-theatre",
+   "placeId": "teatro-romano",
+   "name": "Roman theatre of Olisipo",
+   "category": "entertainment",
+   "position": [
+    2406,
+    1653
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/roman-theatre.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "olisipo-50"
+   ],
+   "variants": {
+    "olisipo-50": {
+     "note": "Probably built under Augustus and rebuilt in 57 CE, when Gaius Heius Primus dedicated the new stage to Nero. The cavea rises up the slope with a view over the Tagus."
+    },
+    "moorish-1100": {
+     "name": "Buried theatre",
+     "note": "Long abandoned and quarried for stone; houses of the medina stand on its filled-in cavea."
+    },
+    "pombaline-1800": {
+     "name": "Theatre rediscovered",
+     "note": "Found in 1798 while clearing earthquake rubble; the architect Francesco Fabri drew it, and it was covered over again. Excavation resumed only in 1964."
+    }
+   },
+   "summary": "A Roman theatre cut into the castle hill above the river, for perhaps 4,000 spectators; buried for centuries, found in 1798 and excavated from 1964.",
+   "details": [
+    "The cavea of the theatre was dug into the hillside facing south, with the stage and its decorated front below. An inscription on the stage front records its renovation in 57 CE by the augustalis Gaius Heius Primus in honour of Nero. Rua de São Mamede now runs across the cavea.",
+    "The miniature shows the half-circle of seats in three tiers, the orchestra, the stage and a two-storey stage building with columns. The size and the form of the stage building are a reconstruction based on the excavated foundations and Fabri's drawings of 1798."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-olisipo",
+    "fernandes-teatro"
+   ],
+   "built": "probably Augustan; rebuilt 57 CE",
+   "function": "Theatre",
+   "activity": {
+    "figures": 30,
+    "radius": 90
+   }
+  },
+  {
+   "id": "porta-do-sol",
+   "placeId": "porta-do-sol",
+   "name": "Cerca Moura: Porta do Sol",
+   "category": "military",
+   "position": [
+    2584,
+    1537
+   ],
+   "rotation": -90,
+   "footprint": [
+    51.5,
+    16.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/porta-do-sol.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 50,
+     "depth": 16,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "moorish-1100",
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "variants": {
+    "olisipo-50": {
+     "name": "Line of the late Roman wall",
+     "note": "A wall on this line, built probably in the 3rd or 4th century when the town contracted, is thought to underlie the Moorish one."
+    },
+    "moorish-1100": {
+     "name": "East gate of the medina",
+     "note": "The east gate of the walled medina, opening toward Alfama and the hot springs. Its Arabic name is not recorded; 'Porta do Sol' (gate of the sun) is the later name.",
+     "confidence": "reconstruction"
+    },
+    "manueline-1550": {
+     "note": "An old gate inside the city since the Fernandine wall of the 1370s; houses lean against the towers and the passage is a busy lane between the Sé quarter and Alfama."
+    },
+    "pre-earthquake-1750": {
+     "note": "Much the same: a dark arch between two towers, half hidden by the houses built against the wall."
+    },
+    "pombaline-1800": {
+     "name": "Largo das Portas do Sol",
+     "note": "The gate has gone (when it was pulled down is uncertain); its name survives in the little square with the view over Alfama."
+    }
+   },
+   "summary": "The east gate of the Moorish wall of Lisbon (Cerca Moura), between two towers, where the medina met the suburb of Alfama.",
+   "details": [
+    "The Cerca Moura enclosed about 16 hectares from the castle to the river, probably following a late Roman wall. Its gates included the Porta do Ferro, the Porta de Alfofa, the Porta do Mar, the Porta de Alfama and this one, the Porta do Sol. After 1147 it became an inner wall, and much of it survives inside later houses.",
+    "The miniature shows a stretch of rubble wall with merlons, two square towers and an arched gate between them, with a few houses built against it. The gate's exact form is not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-walls-lisbon",
+    "wiki-cerca-moura"
+   ],
+   "built": "probably 10th–11th century, on a late Roman line",
+   "function": "City gate",
+   "activity": {
+    "figures": 15,
+    "radius": 60
+   }
+  },
+  {
+   "id": "paco-ribeira",
+   "placeId": "paco-da-ribeira",
+   "name": "Paço da Ribeira (Ribeira Palace)",
+   "category": "civic",
+   "position": [
+    1815,
+    2019
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    150.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/paco-ribeira.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 150,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "variants": {
+    "moorish-1100": {
+     "name": "Beach below the city",
+     "note": "Open shore and sand west of the medina; boats are drawn up where the palace will stand."
+    },
+    "manueline-1550": {
+     "note": "Manuel I's palace on the river (from about 1500), a long range with Manueline windows and a riverside loggia facing the Terreiro do Paço, the Casa da Índia below it.",
+     "confidence": "reconstruction"
+    },
+    "pre-earthquake-1750": {
+     "note": "Enlarged by Philip II with Filippo Terzi's Torreão (from 1581), its dome over the river; João V's Patriarchal church fills the west wing. The library holds some 70,000 volumes.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/paco-ribeira-1750.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 150,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "pombaline-1800": {
+     "name": "Site of the Paço da Ribeira",
+     "note": "Destroyed by the earthquake, tsunami and fire of 1755. The west wing of the Praça do Comércio and the Rua do Arsenal cover the site."
+    }
+   },
+   "summary": "The royal palace that Manuel I built on the riverbank about 1500 to watch his ships, enlarged by the Habsburg kings; the seat of the monarchy until 1755.",
+   "details": [
+    "Manuel I moved from the castle to the river so he could watch the India fleets and the Casa da Índia. The palace faced the Terreiro do Paço on the east and the Tagus on the south. Philip II commissioned Filippo Terzi's great square tower on the river (from 1581, finished after Terzi's death). On 1 December 1640 conspirators stormed it to restore Portuguese independence.",
+    "The miniature shows the palace as views and descriptions record it: a long range on the square, a riverside wing with loggias and, in the 1750 version, the square Torreão with its lead dome and the Patriarchal church. The layout is a reconstruction; the real palace was larger and more irregular."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-ribeira-palace",
+    "kubler-plain",
+    "gois-descriptio"
+   ],
+   "built": "c. 1500–1505; Torreão from 1581; enlarged in the 18th century; destroyed 1755",
+   "function": "Royal palace",
+   "activity": {
+    "figures": 60,
+    "radius": 200
+   }
+  },
+  {
+   "id": "praca-comercio",
+   "placeId": "terreiro-do-paco",
+   "name": "Praça do Comércio (Terreiro do Paço)",
+   "category": "civic",
+   "position": [
+    2050,
+    2041
+   ],
+   "rotation": 0,
+   "footprint": [
+    217.2,
+    201.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/praca-comercio.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 215,
+     "depth": 200,
+     "height": 80.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "name": "Terreiro do Paço",
+     "note": "The open 'palace yard' east of the palace, on new land by the river: bullfights, royal festivities and the bustle of the quays."
+    },
+    "pre-earthquake-1750": {
+     "name": "Terreiro do Paço",
+     "note": "The open square before the palace, edged by houses and the customs house; autos-da-fé and bullfights are staged here."
+    },
+    "pombaline-1800": {
+     "note": "Eugénio dos Santos' square: arcaded wings on three sides, towers at the river ends, open to the Tagus, with Machado de Castro's bronze José I (1775) in the middle. The arch is not yet built."
+    }
+   },
+   "summary": "The great riverside square of Pombal's Lisbon, built from 1759 on the site of the palace yard: three arcaded sides, open to the Tagus, with the bronze horseman of King José I.",
+   "details": [
+    "The square, about 175 metres on a side, was designed by Eugénio dos Santos as the 'Praça do Comércio' to house the ministries, the customs and the exchange. Its two riverside towers recall Terzi's tower. Joaquim Machado de Castro's equestrian statue of José I, cast in one piece in 1774, was unveiled on 6 June 1775.",
+    "The miniature shows the arcaded wings with their uniform upper storeys and tiled roofs, the towers at the river ends, the steps of the Cais das Colunas and the statue on its pedestal. The triumphal arch on the north side was finished only in 1875 and is left out."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-praca-comercio",
+    "wiki-estatua-jose",
+    "franca-pombalina"
+   ],
+   "built": "1759–c. 1800 (wings), statue 1775, arch 1875",
+   "function": "Public square; ministries, customs and exchange",
+   "activity": {
+    "figures": 80,
+    "radius": 200
+   }
+  },
+  {
+   "id": "casa-da-india",
+   "placeId": "casa-da-india",
+   "name": "Casa da Índia",
+   "category": "commercial",
+   "position": [
+    1633,
+    2097
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    35.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/casa-da-india.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 60,
+      "depth": 34
+     },
+     "buildings": [
+      {
+       "offset": [
+        -15.0,
+        -8.5
+       ],
+       "width": 18.0,
+       "depth": 10.2,
+       "height": 8
+      },
+      {
+       "offset": [
+        15.0,
+        6.800000000000001
+       ],
+       "width": 18.0,
+       "depth": 10.2,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The crown's trading house for the India run: pepper, cloves, cinnamon and ginger are weighed, taxed and stored here and sold to merchants for Antwerp and Venice."
+    },
+    "pre-earthquake-1750": {
+     "note": "The India trade has shrunk; the house now handles the customs of the Brazil and India fleets. It was destroyed with the palace in 1755."
+    },
+    "pombaline-1800": {
+     "name": "Site of the Casa da Índia",
+     "note": "Gone since 1755; the Rua do Arsenal crosses the site."
+    }
+   },
+   "summary": "The royal trading house that held the crown monopoly of the spice trade from about 1500: Europe's pepper market for most of the 16th century.",
+   "details": [
+    "Founded around 1500–1503, the Casa da Índia ran the fleets to India, received their cargoes and sold pepper and spices on the king's account, alongside the older Casa da Guiné e Mina. It stood by the Paço da Ribeira, according to most accounts in the lower floors of its riverside wing; its records burned in 1755.",
+    "The miniature shows a two-storey stone warehouse with arcaded ground floor and loading doors to the river, a crane on the quay and bales and sacks. It is drawn as a separate building beside the palace; the real arrangement is not known in detail."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-casa-india",
+    "global-city"
+   ],
+   "built": "c. 1500–1510; destroyed 1755",
+   "function": "Crown trading house and warehouses",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "ribeira-das-naus",
+   "placeId": "ribeira-das-naus",
+   "name": "Ribeira das Naus (royal shipyard)",
+   "category": "commercial",
+   "position": [
+    1390,
+    2075
+   ],
+   "rotation": 0,
+   "footprint": [
+    130.0,
+    70.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/ribeira-das-naus.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 130,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -32.5,
+        -17.5
+       ],
+       "width": 39.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        32.5,
+        14.0
+       ],
+       "width": 39.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The royal yard on the beach west of the palace, where the great naus (carracks) of the India run and caravels are built on open slipways, beside sheds, timber stacks and the rope-walk."
+    },
+    "pre-earthquake-1750": {
+     "note": "Still building ships for the Brazil and India fleets, now including frigates and men-of-war."
+    },
+    "pombaline-1800": {
+     "name": "Arsenal Real da Marinha",
+     "note": "Rebuilt after 1755 as the navy arsenal, a long Pombaline building behind the slipways, designed by Eugénio dos Santos.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/ribeira-das-naus-1800.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 130,
+        "depth": 70
+       },
+       "buildings": [
+        {
+         "offset": [
+          -32.5,
+          -17.5
+         ],
+         "width": 39.0,
+         "depth": 21.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          32.5,
+          14.0
+         ],
+         "width": 39.0,
+         "depth": 21.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    }
+   },
+   "summary": "The royal shipyard on the riverbank west of the palace, where the carracks of the India run were built and fitted out; the navy arsenal after 1755.",
+   "details": [
+    "Manuel I moved shipbuilding to the beach beside his new palace. A nau of the India run could carry 400–600 tonnes and several hundred people; the yard built and repaired them and stored masts, cables and guns in the nearby Armazéns. Its slipways lie under the Avenida Ribeira das Naus, where remains of the yard were uncovered during works in the 2010s.",
+    "The miniature shows two inclined slipways running down to the water, a carrack in frame on one and a caravel on the other, sheds and timber stacks. The layout is a reconstruction from 16th-century views."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-ribeira-naus",
+    "wiki-carrack",
+    "global-city"
+   ],
+   "built": "c. 1500; rebuilt as the Arsenal after 1755",
+   "function": "Royal shipyard; navy arsenal",
+   "activity": {
+    "figures": 60,
+    "radius": 160
+   }
+  },
+  {
+   "id": "hospital-todos-os-santos",
+   "placeId": "hospital-todos-os-santos",
+   "name": "Hospital Real de Todos os Santos",
+   "category": "civic",
+   "position": [
+    1928,
+    1354
+   ],
+   "rotation": 90,
+   "footprint": [
+    100.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/hospital-todos-os-santos.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 110,
+     "height": 40.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "variants": {
+    "moorish-1100": {
+     "name": "Gardens of the valley",
+     "note": "Orchards and a stream at the head of the marshy Baixa, outside the walls."
+    },
+    "manueline-1550": {
+     "note": "The great royal hospital founded by João II in 1492, finished about 1504: wards in the arms of a cross round cloisters, and a church with a Manueline portal and a stair onto the Rossio."
+    },
+    "pre-earthquake-1750": {
+     "note": "Rebuilt after a fire in 1601; damaged by another fire in 1750 and ruined by the earthquake of 1755."
+    },
+    "pombaline-1800": {
+     "name": "Praça da Figueira",
+     "note": "The hospital was not rebuilt; its site became the Praça da Figueira market and the east side of the new Rossio."
+    }
+   },
+   "summary": "Lisbon's great royal hospital, founded by João II in 1492 on the east side of the Rossio and run by the Misericórdia from 1564; ruined in 1755.",
+   "details": [
+    "Built 1492–1504, the hospital merged dozens of small medieval hospitals. Its wards were arranged as a cross round four cloisters, with the church at the head facing the Rossio; it took in the sick, foundlings and the mad, and trained surgeons. Remains of its wards have been excavated under the Praça da Figueira.",
+    "The miniature shows the church front with its Manueline portal and a broad stair onto the square, the cross-shaped wards with tiled roofs, and the cloisters. The plan follows the excavated foundations and a 17th-century plan, simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-hospital",
+    "gois-descriptio"
+   ],
+   "built": "1492–c. 1504; ruined 1755",
+   "function": "Royal hospital",
+   "activity": {
+    "figures": 40,
+    "radius": 140
+   }
+  },
+  {
+   "id": "estaus",
+   "placeId": "palacio-dos-estaus",
+   "name": "Palácio dos Estaus",
+   "category": "civic",
+   "position": [
+    1772,
+    1232
+   ],
+   "rotation": 0,
+   "footprint": [
+    76.2,
+    35.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/estaus.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 75,
+     "depth": 35,
+     "height": 14.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The guest palace for foreign ambassadors, built about 1449 at the head of the Rossio; from 1571, by most accounts, the seat of the Inquisition, with its prisons behind."
+    },
+    "pre-earthquake-1750": {
+     "note": "Headquarters of the Inquisition: its tribunal, prison cells and offices; the processions of the autos-da-fé set out from here."
+    },
+    "pombaline-1800": {
+     "note": "Ruined in 1755 and rebuilt in the Pombaline manner for the Inquisition, which kept it until its abolition in 1821. The national theatre replaced it in 1846.",
+     "confidence": "reconstruction"
+    }
+   },
+   "summary": "A palace built around 1449 at the north end of the Rossio to lodge foreign visitors; from the 16th century the seat of the Portuguese Inquisition.",
+   "details": [
+    "The palace was built around 1449, in the time of the regent Pedro, to house embassies, hence 'estaus' (lodgings). The Inquisition, established in Portugal in 1536, made it its headquarters later in the century. Its prisoners were held here, and the great autos-da-fé of the Rossio began at its door.",
+    "The miniature shows a two-storey palace front onto the square with a central portal, a corner tower and a court behind with prison ranges. Its exact appearance is known only from a few views and is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-estaus",
+    "gois-descriptio"
+   ],
+   "built": "c. 1449; rebuilt after 1755",
+   "function": "Guest palace; seat of the Inquisition",
+   "activity": {
+    "figures": 25,
+    "radius": 100
+   }
+  },
+  {
+   "id": "porta-santo-antao",
+   "placeId": "porta-santo-antao",
+   "name": "Cerca Fernandina: Porta de Santo Antão",
+   "category": "military",
+   "position": [
+    1841,
+    1143
+   ],
+   "rotation": 151,
+   "footprint": [
+    37.5,
+    16.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/porta-santo-antao.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 36,
+     "depth": 16,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The north gate of King Fernando's wall, at the head of the Rossio, where the road leaves up the Valverde; a twin-towered gate in a crenellated wall."
+    },
+    "pre-earthquake-1750": {
+     "note": "An old gate in a wall that the city has long outgrown, crowded with houses on both sides."
+    },
+    "pombaline-1800": {
+     "name": "Site of the Porta de Santo Antão",
+     "note": "The gate is gone; a tower of the wall survives inside the Almada palace nearby. The Rua das Portas de Santo Antão keeps the name."
+    }
+   },
+   "summary": "The north gate of the Fernandine wall, built in 1373–75, from which the road left the Rossio for the valley of Valverde.",
+   "details": [
+    "King Fernando I had the city walled in about two years after a Castilian army sacked the undefended suburbs in 1373. The new wall, roughly 5 km long, enclosed the Baixa, the Rossio, Mouraria and Alfama. Its gates were the city's toll points and the starting points of processions.",
+    "The miniature shows a gate between two square towers with merlons, a stretch of wall on either side and the arched passage. The gate's real form is not known; it is drawn after other Fernandine gates and old views."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-porta-santo-antao",
+    "wiki-muralhas-fernandinas",
+    "wiki-walls-lisbon"
+   ],
+   "built": "1373–1375",
+   "function": "City gate",
+   "activity": {
+    "figures": 20,
+    "radius": 70
+   }
+  },
+  {
+   "id": "carmo",
+   "placeId": "convento-do-carmo",
+   "name": "Convento do Carmo",
+   "category": "religious",
+   "position": [
+    1685,
+    1553
+   ],
+   "rotation": 100,
+   "footprint": [
+    28.0,
+    67.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/carmo.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 28,
+     "depth": 66,
+     "height": 11.200000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The Carmelite church founded in 1389 by the constable Nuno Álvares Pereira, hero of Aljubarrota, who died here as a friar in 1431. A tall Gothic nave over the Rossio."
+    },
+    "pre-earthquake-1750": {
+     "note": "The church is crowded with tombs and Baroque altars; the convent has rich libraries."
+    },
+    "pombaline-1800": {
+     "name": "Ruins of the Carmo",
+     "note": "The vaults fell in the earthquake and the fire gutted the convent. A rebuilding under Maria I stopped; the nave's arches stand open to the sky.",
+     "confidence": "documented",
+     "model": {
+      "glb": "models/lisbon/carmo-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 28,
+       "depth": 66,
+       "height": 11.200000000000001,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The Gothic Carmelite church above the Rossio, founded in 1389; its vaults fell in 1755 and its roofless nave has been left as a ruin ever since.",
+   "details": [
+    "Nuno Álvares Pereira founded the convent in thanksgiving for the victory over Castile at Aljubarrota (1385); building lasted until about 1423. It was the largest Gothic church of Lisbon, with a nave and aisles, a polygonal apse and side chapels. In 1755 the vaults collapsed on the congregation.",
+    "The miniature shows the west front with its portal and rose window, the buttressed nave and aisles under tiled roofs, and the five-sided apse; in the ruin version, the pointed arches of the nave standing without vaults or roof."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-carmo"
+   ],
+   "built": "1389–c. 1423; ruined 1755",
+   "function": "Carmelite convent church",
+   "activity": {
+    "figures": 25,
+    "radius": 90
+   }
+  },
+  {
+   "id": "sao-roque",
+   "placeId": "igreja-de-sao-roque",
+   "name": "Igreja de São Roque",
+   "category": "religious",
+   "position": [
+    1445,
+    1381
+   ],
+   "rotation": 90,
+   "footprint": [
+    30.1,
+    63.3
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/sao-roque.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 62,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "name": "Ermida de São Roque",
+     "note": "The plague chapel of St Roch, built after the plague of 1505–06 outside the walls. The Jesuits take it over in 1553 and begin their church soon after.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/sao-roque-ermida.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 30,
+       "depth": 62,
+       "height": 12.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "pre-earthquake-1750": {
+     "note": "The Jesuits' great hall-church, plain outside and gilded within. The chapel of St John the Baptist, made in Rome (1742–1747) and shipped to Lisbon, is being assembled."
+    },
+    "pombaline-1800": {
+     "note": "It came through the earthquake almost undamaged. After the Jesuits' expulsion (1759) it was given in 1768 to the Santa Casa da Misericórdia, which keeps it today."
+    }
+   },
+   "summary": "The Jesuits' first church in Portugal, a wide single-nave hall begun in 1555, with one of the richest Baroque chapels in Europe; it survived 1755 nearly intact.",
+   "details": [
+    "The Jesuits received the chapel of St Roch in 1553 and built a hall-church designed by Afonso Álvares, with later changes by Filippo Terzi; it was finished around 1573–1619. Its chapel of St John the Baptist, of marble, lapis lazuli and gilt bronze, was commissioned by João V in Rome.",
+    "The miniature shows the plain Mannerist façade with its portal and windows, the long nave under a tiled roof with side chapels and the small bell tower. The earlier chapel version is a simple whitewashed hermitage with a porch."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sao-roque",
+    "kubler-plain"
+   ],
+   "built": "1555–c. 1573 (decoration to 1619 and later)",
+   "function": "Jesuit church; Misericórdia church from 1768",
+   "activity": {
+    "figures": 25,
+    "radius": 90
+   }
+  },
+  {
+   "id": "misericordia",
+   "placeId": "misericordia-conceicao-velha",
+   "name": "Igreja da Misericórdia",
+   "category": "religious",
+   "position": [
+    2258,
+    1919
+   ],
+   "rotation": 0,
+   "footprint": [
+    42.2,
+    24.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/misericordia.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 24,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The church of the Santa Casa da Misericórdia, the charity founded by Queen Leonor in 1498; built in the 1530s by the Ribeira, with a Manueline portal on its south side."
+    },
+    "pre-earthquake-1750": {
+     "note": "The Misericórdia's church and offices; foundlings and the poor come to its doors for alms."
+    },
+    "pombaline-1800": {
+     "name": "Igreja da Conceição Velha",
+     "note": "Only the south wall and its portal survived 1755. The rebuilt church was given to the parish of the Conceição, whose own church had been destroyed.",
+     "confidence": "documented",
+     "model": {
+      "glb": "models/lisbon/conceicao-velha.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 40,
+       "depth": 24,
+       "height": 9.600000000000001,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The church of Lisbon's great charity, the Misericórdia, built by the river in the 1530s; its Manueline portal survives as the front of the Conceição Velha church.",
+   "details": [
+    "The Santa Casa da Misericórdia was founded in 1498 to care for prisoners, the sick, orphans and the poor. Its church was built in the early 16th century near the Ribeira Velha. The portal, attributed to João de Castilho's circle, carries the Virgin of Mercy sheltering the king, queen, pope and people under her cloak.",
+    "The miniature shows the nave and chancel under tiled roofs, with the richly carved Manueline portal on the south side, twisted-rope colonnettes and pinnacles; after 1755, a plainer church behind the same portal."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-conceicao-velha",
+    "wiki-manueline"
+   ],
+   "built": "1530s; rebuilt after 1755 as the Conceição Velha",
+   "function": "Church of the Misericórdia; parish church from the 1770s",
+   "activity": {
+    "figures": 20,
+    "radius": 70
+   }
+  },
+  {
+   "id": "casa-dos-bicos",
+   "placeId": "casa-dos-bicos",
+   "name": "Casa dos Bicos",
+   "category": "civic",
+   "position": [
+    2380,
+    1931
+   ],
+   "rotation": 0,
+   "footprint": [
+    25.0,
+    14.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/casa-dos-bicos.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 25,
+     "depth": 14,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "note": "The house of Brás de Albuquerque, son of the viceroy of India, built in 1523 on the old Moorish wall: four storeys, its front studded with stone diamond points."
+    },
+    "pre-earthquake-1750": {
+     "note": "Still the Albuquerque family's house, on the Rua dos Bacalhoeiros, the street of the salt-cod sellers."
+    },
+    "pombaline-1800": {
+     "note": "The earthquake brought down its two upper storeys; it stands two floors high, used as a warehouse. They were rebuilt only in 1981–83.",
+     "confidence": "documented",
+     "model": {
+      "glb": "models/lisbon/casa-dos-bicos-1800.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 25,
+       "depth": 14,
+       "height": 8,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A merchant palace of 1523 whose façade is covered with pointed stone 'beaks' (bicos), built by Brás de Albuquerque on the line of the Moorish wall facing the river.",
+   "details": [
+    "Brás de Albuquerque, son of Afonso de Albuquerque, built the house after travelling in Italy, perhaps inspired by Ferrara's Palazzo dei Diamanti. The diamond-point front faces the Campo das Cebolas and once looked onto the river. Excavations beneath found the Moorish wall and Roman fish-salting tanks.",
+    "The miniature shows the four-storey front studded with pyramidal points, irregular Manueline windows above and doors below, under a tiled roof; and the 1800 version cut down to two storeys."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-casa-bicos"
+   ],
+   "built": "1523; upper floors lost 1755, rebuilt 1981–83",
+   "function": "Noble town house",
+   "activity": {
+    "figures": 10,
+    "radius": 50
+   }
+  },
+  {
+   "id": "chafariz-del-rei",
+   "placeId": "chafariz-del-rei",
+   "name": "Chafariz d'El-Rei",
+   "category": "civic",
+   "position": [
+    2588,
+    1842
+   ],
+   "rotation": 0,
+   "footprint": [
+    31.0,
+    10.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/lisbon/chafariz-del-rei.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 10,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "moorish-1100": {
+     "name": "Springs below the wall",
+     "note": "Springs ran out at the foot of the Alfama slope by the shore; they were probably used long before the fountain was built."
+    },
+    "manueline-1550": {
+     "note": "The king's fountain on the shore below Alfama, with six spouts in an arcaded, crenellated wall; enslaved and free Africans fill jars here for the houses of the city."
+    },
+    "pre-earthquake-1750": {
+     "note": "Still one of the main fountains; Galician water-carriers now outnumber the Africans."
+    },
+    "pombaline-1800": {
+     "note": "Patched after the earthquake; the aqueduct's new fountains are taking its customers. It was rebuilt in its present form in 1864."
+    }
+   },
+   "summary": "The oldest public fountain of Lisbon, probably 13th century, on the shore below Alfama: a long wall of spouts where the city's water-carriers filled their jars.",
+   "details": [
+    "The fountain probably dates from the 13th century and was enlarged in the 15th–16th. A painting of about 1570–1580 shows it as a crenellated wall with spouts by the water, surrounded by a crowd of Africans, Europeans and a black knight of the Order of Santiago. A 16th-century city rule assigned its spouts to different users.",
+    "The miniature shows the arcaded fountain wall with merlons, six bronze spouts over a stone trough and a paved apron. It is scaled up to be readable on the map."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chafariz",
+    "wiki-chafariz-pt",
+    "global-city"
+   ],
+   "built": "13th century; enlarged 15th–16th; rebuilt 1864",
+   "function": "Public fountain",
+   "activity": {
+    "figures": 30,
+    "radius": 60
+   }
+  },
+  {
+   "id": "opera-do-tejo",
+   "placeId": "opera-do-tejo",
+   "name": "Ópera do Tejo",
+   "category": "entertainment",
+   "position": [
+    1624,
+    1931
+   ],
+   "rotation": 0,
+   "footprint": [
+    42.0,
+    72.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/opera-do-tejo.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 42,
+     "depth": 72,
+     "height": 16.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "pre-earthquake-1750"
+   ],
+   "variants": {
+    "manueline-1550": {
+     "name": "Site of the opera house",
+     "note": "Houses and storehouses west of the palace, near the shipyard."
+    },
+    "pre-earthquake-1750": {
+     "name": "Ópera do Tejo (Casa da Ópera)",
+     "note": "Giovanni Carlo Sicinio Bibiena's royal opera house beside the palace, opened on 31 March 1755: tiers of gilded boxes and a stage deep enough for horses."
+    },
+    "pombaline-1800": {
+     "name": "Site of the Ópera do Tejo",
+     "note": "Destroyed seven months after it opened, on 1 November 1755; never rebuilt. The Rua do Arsenal crosses the site."
+    }
+   },
+   "summary": "The royal opera house built for José I beside the palace by Giovanni Carlo Sicinio Bibiena, opened in March 1755 and destroyed seven months later.",
+   "details": [
+    "King José I loved opera. Bibiena, from the Bolognese family of theatre designers, built a horseshoe-shaped house with gilded boxes and machinery for spectacular scenes; it opened with David Perez's Alessandro nell'Indie, with, it was reported, horsemen on stage. The earthquake and fire destroyed it before a full season had passed.",
+    "The miniature shows a long building with a plain front, pilasters and a tiled roof, the higher fly tower over the stage at the back. Its outside is poorly recorded; the form is a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-opera-tejo",
+    "paice-wrath"
+   ],
+   "built": "1752–1755; destroyed 1755",
+   "function": "Royal opera house",
+   "activity": {
+    "figures": 30,
+    "radius": 90
+   }
+  },
+  {
+   "id": "sao-vicente",
+   "placeId": "sao-vicente-de-fora",
+   "name": "São Vicente de Fora",
+   "category": "religious",
+   "position": [
+    2849,
+    1220
+   ],
+   "rotation": 90,
+   "footprint": [
+    60.3,
+    90.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/lisbon/sao-vicente.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 90,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "variants": {
+    "moorish-1100": {
+     "name": "Crusaders' camp",
+     "note": "Outside the walls on this hill the German and Flemish crusaders camped in 1147; Afonso Henriques buried their dead here and vowed a monastery."
+    },
+    "manueline-1550": {
+     "name": "Mosteiro de São Vicente (old church)",
+     "note": "The Augustinian monastery founded in 1147 'outside the walls': a Romanesque church and cloister, much altered. Philip II will rebuild it from 1582.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/sao-vicente-old.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 90,
+       "height": 24.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "pre-earthquake-1750": {
+     "note": "The great Mannerist church built from 1582 to 1629, perhaps to designs by Juan de Herrera and Filippo Terzi: a twin-towered white front and a dome over the crossing."
+    },
+    "pombaline-1800": {
+     "note": "The dome fell in the earthquake, by most accounts, and was not rebuilt; the church otherwise stood, its cloisters later lined with tile panels.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/lisbon/sao-vicente-1800.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 90,
+       "height": 24.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The Augustinian monastery founded by Afonso Henriques in 1147 outside the walls, rebuilt from 1582 by Philip II as a great Mannerist church with twin towers.",
+   "details": [
+    "The first monastery honoured St Vincent, whose relics Afonso Henriques brought to Lisbon in 1173. Philip II of Spain, king of Portugal from 1580, had it rebuilt in a severe Roman style; the design is attributed to Juan de Herrera or Filippo Terzi, and Baltazar Álvares carried it on. The church was consecrated in 1629.",
+    "The miniature shows the white limestone front with two towers and three arched doors, the long nave and transept, and (in 1750) the dome over the crossing, with part of the cloister behind. The old church version is a reconstruction."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sao-vicente",
+    "kubler-plain"
+   ],
+   "built": "1147; rebuilt 1582–1629",
+   "function": "Augustinian monastery",
+   "activity": {
+    "figures": 25,
+    "radius": 100
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "salting-works",
+   "name": "Fish-salting works on the beach",
+   "kind": "works",
+   "position": [
+    1963,
+    1797
+   ],
+   "activePeriods": [
+    "olisipo-50"
+   ],
+   "summary": "Rows of masonry tanks on the beach of the Baixa where fish were salted and fermented into garum and other sauces, shipped in amphorae across the Roman world.",
+   "details": [
+    "Tanks lined with waterproof mortar were found in 1991 under a bank in the Rua dos Correeiros, and others under the Casa dos Bicos and along the old shore; they were in use from about the 1st to the 5th century CE. Amphorae for the sauce were made in kilns across the estuary."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-olisipo",
+    "wiki-garum"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Boats ground on the sand at first light. Slaves carry baskets of sardines and mackerel up to the tanks, where a foreman shovels in coarse salt, layer on layer."
+    },
+    {
+     "hour": 13,
+     "text": "The stink carries up to the forum. Workers stir the brine with long paddles; a boat from the kilns across the river unloads a fresh stack of amphorae."
+    },
+    {
+     "hour": 19,
+     "text": "Boards go over the tanks against the gulls. Sealed and labelled jars wait on the beach for a ship bound for Gades and Ostia."
+    }
+   ],
+   "variants": {
+    "moorish-1100": {
+     "name": "Beach of the Baixa",
+     "note": "The tanks are long buried under sand and silt; fishermen draw their boats up on the beach below the western suburb."
+    }
+   }
+  },
+  {
+   "id": "thermae-cassiorum",
+   "name": "Baths of the Cassii (Thermae Cassiorum)",
+   "kind": "bath",
+   "position": [
+    2206,
+    1731
+   ],
+   "activePeriods": [
+    "olisipo-50"
+   ],
+   "summary": "Public baths on the slope below the summit, known from an inscription found in the Rua das Pedras Negras that records their repair in 336 CE by the governor of Lusitania.",
+   "details": [
+    "The inscription names the baths after the Cassii, perhaps the family who built them. Their exact plan is unknown; walls with hypocausts found nearby may belong to them. The position here is approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-olisipo"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Slaves feed the furnace with olive wood; the hot room's floor is still too hot to stand on barefoot. The attendant sweeps yesterday's oil from the benches."
+    },
+    {
+     "hour": 14,
+     "text": "The busiest hour. Merchants from the fish works scrape themselves with strigils and argue about the price of salt; boys sell honey cakes at the door."
+    },
+    {
+     "hour": 19,
+     "text": "Lamps in the cold room. A town councillor dictates a letter while he soaks, and the attendant counts the day's coins."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "alcacova-house",
+   "name": "A house in the alcáçova",
+   "kind": "house",
+   "position": [
+    2276,
+    1298
+   ],
+   "activePeriods": [
+    "moorish-1100"
+   ],
+   "summary": "One of the courtyard houses excavated in the castle's Praça Nova: 11th–12th century homes of the garrison and officials, with patios, kitchens, latrines and painted walls.",
+   "details": [
+    "Excavations in the Praça Nova from 1996 found a quarter of Islamic houses below the ruins of the later royal palace, over Iron Age levels. Rooms open on small paved patios; fragments of red-painted plaster with geometric patterns survive. The quarter was abandoned after 1147."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-castle",
+    "kennedy-muslim-spain"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A woman lights the clay brazier in the patio and sets bread to bake. On the wall above, the call to prayer rises from the citadel's mosque."
+    },
+    {
+     "hour": 13,
+     "text": "Shade in the patio, the cistern's lid lifted for water. The man of the house, a soldier of the garrison, sleeps through the heat."
+    },
+    {
+     "hour": 21,
+     "text": "Oil lamps in the niches; children asleep on mats. From the walls the watch calls out as a Christian sail is reported downriver."
+    }
+   ],
+   "variants": {
+    "manueline-1550": {
+     "name": "Paço da Alcáçova",
+     "note": "The Moorish houses lie buried under the courtyards of the kings' old palace."
+    }
+   }
+  },
+  {
+   "id": "alfama-springs",
+   "name": "Hot springs of Alfama (the Alcaçarias)",
+   "kind": "bath",
+   "position": [
+    2849,
+    1631
+   ],
+   "activePeriods": [
+    "moorish-1100",
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "Warm mineral springs near the shore below the old wall, used for bathing and washing; they probably gave the quarter its Arabic name, al-hamma.",
+   "details": [
+    "Several warm springs rise near the Largo do Chafariz de Dentro. Bath-houses called the Alcaçarias used them from the Middle Ages into the 20th century; washerwomen and tanners used the water too. The derivation of 'Alfama' from al-hamma is the usual one."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-alfama"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Steam over the basin in the cold morning. Washerwomen kneel at the run-off with their bundles, and a fisherman soaks a stiff shoulder."
+    },
+    {
+     "hour": 12,
+     "text": "The bath-keeper takes coins at the door; the sick come for the warm water, carried down the lanes on a neighbour's back."
+    },
+    {
+     "hour": 20,
+     "text": "The basin is drained and scrubbed. Smells of fried sardines and smoke drift down from the houses on the slope."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pepper-store",
+   "name": "Pepper store of the Casa da Índia",
+   "kind": "works",
+   "position": [
+    1694,
+    2041
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "The king's pepper and spices, unloaded from the India ships, were weighed, taxed and stored here, and sold by the quintal (about 59 kg) to merchants for northern Europe and Italy.",
+   "details": [
+    "The crown kept the pepper trade as a monopoly. Until 1549 it sold much of it through its factory in Antwerp; after that buyers and their agents came to Lisbon. In a good year the fleets brought home tens of thousands of quintais of pepper, besides cloves, cinnamon, ginger, nutmeg and Indian cotton."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-casa-india",
+    "wiki-spice-trade",
+    "global-city"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Porters in a long line carry sacks up from the lighters. A clerk calls the weight at the great scale; another writes it in the book of the ship."
+    },
+    {
+     "hour": 13,
+     "text": "German and Italian factors sniff and bite peppercorns, haggling with the king's officers. Brown dust hangs in the air and everyone sneezes."
+    },
+    {
+     "hour": 19,
+     "text": "The doors are barred and sealed. Guards sit outside on the quay, the warehouse behind them worth more than a city."
+    }
+   ],
+   "variants": {
+    "pre-earthquake-1750": {
+     "note": "Pepper is now a minor trade; Brazilian sugar, tobacco and gold pass through the customs instead."
+    }
+   }
+  },
+  {
+   "id": "armazens",
+   "name": "Armazéns da Guiné e Índia: the chart-makers",
+   "kind": "workshop",
+   "position": [
+    1494,
+    1997
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "The royal stores of the fleets, where ropes, sails and guns were issued, pilots examined, instruments checked and charts copied from the master chart, the Padrão Real.",
+   "details": [
+    "The cosmographer-major (from 1547 the mathematician Pedro Nunes) examined pilots and oversaw charts and instruments. Chart-makers such as Lopo Homem and the Reinel family worked for the crown; pilots were meant to hand their charts back after each voyage, to keep the routes secret."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-pedro-nunes",
+    "wiki-india-armadas",
+    "global-city"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A chart-maker pricks the coastline of Malabar through a master copy onto fresh vellum. His apprentice grinds blue for the sea and gold for the compass roses."
+    },
+    {
+     "hour": 13,
+     "text": "Two pilots for the March fleet stand before the cosmographer, answering questions on the height of the sun at the Cape and the tides of Goa."
+    },
+    {
+     "hour": 18,
+     "text": "An astrolabe comes back dented from India and is set aside for the instrument-maker. The charts are counted and locked away."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "slave-market",
+   "name": "Slave sales by the Pelourinho Velho",
+   "kind": "market",
+   "position": [
+    2119,
+    1886
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "Near the old pillory by the river, people enslaved in Africa were sold by the crown's officials and by private dealers. In 1551 one person in ten in Lisbon was enslaved.",
+   "details": [
+    "From the 1440s Portuguese ships carried captives from West Africa. The Casa dos Escravos, part of the Casa da Guiné, received them, collected the king's dues and sold them. In 1551 Cristóvão Rodrigues de Oliveira counted 9,950 enslaved people in the city.",
+    "Most worked as servants, porters, water-carriers, dockers and street sellers; some bought or were granted their freedom. The place of the sales is given here approximately."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "saunders-slaves",
+    "wiki-slavery-portugal",
+    "wiki-casa-guine",
+    "oliveira-sumario"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "An official checks a list against the people led up from the Casa dos Escravos: baptismal names, guessed ages, the king's tax already paid. Buyers wait under the arcades."
+    },
+    {
+     "hour": 12,
+     "text": "An auctioneer calls the bids. A household buys a girl as a servant; a ropemaker buys two young men. Families are parted with a signature."
+    },
+    {
+     "hour": 18,
+     "text": "The square empties. Freedmen of the Brotherhood of Our Lady of the Rosary collect alms at a church door, some of it to buy members out of slavery."
+    }
+   ],
+   "variants": {
+    "pombaline-1800": {
+     "name": "End of the slave imports",
+     "note": "A law of 1761 forbade bringing enslaved people into mainland Portugal; slavery itself and the Atlantic trade to Brazil went on."
+    }
+   }
+  },
+  {
+   "id": "rua-nova-shops",
+   "name": "Shops of the Rua Nova dos Mercadores",
+   "kind": "shop",
+   "position": [
+    1980,
+    1842
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "The richest street of Renaissance Lisbon: goldsmiths, booksellers and mercers under arcades, selling Chinese porcelain, Indian cottons, Flemish tapestries and African ivories to a crowd from four continents.",
+   "details": [
+    "Two paintings of the street made around 1570–1619, found at Kelmscott Manor in England, show its tall houses over an arcade, shop awnings and a crowd of Europeans and Africans. Visitors described goods from the whole world for sale. The street was destroyed in 1755."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "global-city",
+    "gois-descriptio"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Shutters come down into counters. A porcelain seller sets out blue-and-white bowls from Jingdezhen; next door a goldsmith hangs chains in the window."
+    },
+    {
+     "hour": 13,
+     "text": "Ladies in chopines with servants holding parasols, a Venetian buying coral, an African street seller with a tray of fritters, a monk at the bookshop."
+    },
+    {
+     "hour": 19,
+     "text": "Lamps in the arcade. Merchants settle accounts in four currencies; the last customers bargain for a lacquered box from Japan."
+    }
+   ],
+   "variants": {
+    "pombaline-1800": {
+     "name": "Lost street",
+     "note": "The Rua Nova burned in 1755 and was not rebuilt; the Rua do Comércio and the Rua da Conceição run across its line."
+    }
+   }
+  },
+  {
+   "id": "flemish-house",
+   "name": "A Flemish merchant's house",
+   "kind": "house",
+   "position": [
+    1824,
+    1786
+   ],
+   "activePeriods": [
+    "manueline-1550"
+   ],
+   "summary": "The house and counting-room of a merchant from Antwerp or Bruges, one of the northerners who bought spices and sugar here and sold cloth, copper, grain and tapestries.",
+   "details": [
+    "Merchants from the Low Countries and Germany formed a large community in 16th-century Lisbon, with their own confraternity. Copper and brass from central Europe, wanted for the Africa trade, came in through them, and Flemish painters and tapestries furnished churches and palaces. The house here is typical, not a known address."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "global-city",
+    "oliveira-marques"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The clerk opens the ledgers by the window; a letter from Antwerp, three weeks old, reports the price of pepper on the bourse."
+    },
+    {
+     "hour": 13,
+     "text": "A Portuguese noble's steward inspects a Flemish tapestry of the hunt unrolled across the floor, while the merchant's wife orders dinner in Flemish."
+    },
+    {
+     "hour": 21,
+     "text": "Beer, not wine, at supper. The talk is of a ship overdue from Middelburg and the new Inquisition's interest in foreign books."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "judiaria",
+   "name": "Great Synagogue of the Judiaria (before 1497)",
+   "kind": "shrine",
+   "position": [
+    2085,
+    1786
+   ],
+   "activePeriods": [
+    "manueline-1550"
+   ],
+   "summary": "Until 1497 Lisbon's Jews lived and prayed in the Judiaria Grande in the Baixa, near the Rua Nova. Manuel I's expulsion decree of 1496 and the forced baptisms of 1497 ended it.",
+   "details": [
+    "Lisbon's Jews were physicians, merchants, tax-farmers, craftsmen and printers: Eliezer Toledano printed Hebrew books here from 1489. Thousands of Jews expelled from Spain in 1492 came to Portugal. In 1497, instead of letting them leave, the king had most baptised by force; the synagogue became a church."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-jews-portugal",
+    "soyer-persecution"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Before 1497: men in dark cloaks with the red badge go in to the morning prayer. A boy runs proof sheets from the Hebrew press round the corner."
+    },
+    {
+     "hour": 13,
+     "text": "In the lanes of the Judiaria, a physician's mule waits at a door; a tailor and a silk-weaver work in their shops, closed in the evening by the quarter's gate."
+    },
+    {
+     "hour": 19,
+     "text": "Friday dusk: shutters close, lamps are lit for the Sabbath. In 1497, at Easter, children under fourteen were taken from such houses to be baptised."
+    }
+   ],
+   "variants": {
+    "pre-earthquake-1750": {
+     "name": "Church of the Conceição",
+     "note": "The old synagogue, as the church of Nossa Senhora da Conceição, stands until 1755. Descendants of the converted, the New Christians, live on under the Inquisition's eye."
+    }
+   }
+  },
+  {
+   "id": "auto-da-fe",
+   "name": "Auto-da-fé in the Rossio",
+   "kind": "civic",
+   "position": [
+    1781,
+    1320
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "On the great square in front of its palace, the Inquisition staged public acts of faith: processions of the accused in penitential tunics, sermons, and the reading of sentences from a stand.",
+   "details": [
+    "The Portuguese Inquisition, established in 1536, held its first Lisbon auto-da-fé in 1540. Most of the accused were New Christians charged with secretly keeping Judaism. Those condemned to death were handed to the civil courts and burned at a separate place of execution. Pombal curbed the Inquisition in the 1760s–70s."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-inquisition",
+    "wiki-auto-da-fe",
+    "wiki-rossio"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Carpenters hammer the last boards of the stands. The square fills early; families bring bread and bring the children."
+    },
+    {
+     "hour": 11,
+     "text": "The procession comes out of the Estaus: Dominicans with the green cross, then the accused in yellow tunics, candles in their hands, each between two guards."
+    },
+    {
+     "hour": 18,
+     "text": "The reading of sentences has lasted all day. Most of the accused will go back to prison to do penance; a few are taken away under escort."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ribeira-fish",
+   "name": "Fish market of the Ribeira",
+   "kind": "market",
+   "position": [
+    2180,
+    2008
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750"
+   ],
+   "summary": "The fish market on the shore east of the Terreiro, where boats landed sardines, hake, eels and shellfish, and the fishwives carried them through the city in baskets on their heads.",
+   "details": [
+    "The descriptions of Lisbon from the 1550s count fishmongers and street sellers in their hundreds; many were women, many of them enslaved or free Africans. Sardines were the poor's food; the rich bought sea bream, lampreys and salt cod. The exact place of the market changed over time."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "oliveira-sumario",
+    "global-city"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Lanterns on the water; boats from Cascais and Sesimbra nose onto the beach. Women wade out to take the baskets before the boats are dry."
+    },
+    {
+     "hour": 11,
+     "text": "Scales flash on the slabs. A cook from a noble house argues over a lamprey; gulls dive at the guts thrown into the shallows."
+    },
+    {
+     "hour": 17,
+     "text": "The last sardines go cheap to the poor and the convents. Barefoot fishwives climb the lanes of Alfama crying what is left."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "water-carriers",
+   "name": "Water-carriers at the Chafariz d'El-Rei",
+   "kind": "fountain",
+   "position": [
+    2510,
+    1864
+   ],
+   "activePeriods": [
+    "manueline-1550",
+    "pre-earthquake-1750",
+    "pombaline-1800"
+   ],
+   "summary": "Before the aqueduct (1748) Lisbon had few fountains; water-carriers, in the 16th century many of them enslaved or free Africans, filled jars at the king's fountain and sold water from house to house.",
+   "details": [
+    "A painting of the fountain from about 1570–1580 shows a crowd of Africans and Europeans filling jars, carrying them on their heads and quarrelling at the spouts. In the 18th century men from Galicia in north-west Spain took over much of the trade, with small barrels on their shoulders."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chafariz",
+    "global-city",
+    "saunders-slaves"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A queue already, jars on hips and heads. An enslaved woman fills two for her mistress's kitchen; a boy fills a pitcher for a tavern."
+    },
+    {
+     "hour": 12,
+     "text": "A fight at the spout over whose turn it is; a constable strolls over. Boats bump at the steps behind as sailors fill their casks."
+    },
+    {
+     "hour": 19,
+     "text": "The last jars climb the stairs of Alfama. Women sit on the fountain's step to talk before the light goes."
+    }
+   ],
+   "variants": {
+    "pre-earthquake-1750": {
+     "note": "Galician aguadeiros with small barrels now dominate the trade; the new aqueduct's fountains are opening uphill."
+    },
+    "pombaline-1800": {
+     "note": "The aqueduct's fountains now serve the upper town, but the Chafariz is still crowded; the aguadeiros are licensed and numbered by the city."
+    }
+   }
+  },
+  {
+   "id": "rato-factory",
+   "name": "Real Fábrica de Louça do Rato",
+   "kind": "workshop",
+   "position": [
+    521,
+    632
+   ],
+   "activePeriods": [
+    "pombaline-1800"
+   ],
+   "summary": "The royal faience factory founded under Pombal in 1767 at the Rato, where the aqueduct arrives: tableware and tiles painted in blue, yellow and manganese.",
+   "details": [
+    "Pombal founded royal factories to replace imports. The Rato pottery, run first by the Italian Tomás Brunetto and later by Sebastião de Almeida, made plates, tureens and azulejos; plain patterned tiles from Lisbon workshops lined the stairs and kitchens of the new Pombaline houses."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-rato",
+    "wiki-azulejo",
+    "maxwell-pombal"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The kiln is opened after two days' firing. Boys carry out racks of white-glazed tiles still warm, ready for the painters."
+    },
+    {
+     "hour": 13,
+     "text": "At long tables painters trace a pattern through pricked paper with charcoal, then fill it in cobalt blue. A builder's foreman orders four thousand for a block in the Rua Augusta."
+    },
+    {
+     "hour": 19,
+     "text": "Wood for tomorrow's firing is stacked by the kiln. A painter takes home a cracked tureen, the factory's perk."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "nicola",
+   "name": "Café Nicola",
+   "kind": "tavern",
+   "position": [
+    1711,
+    1376
+   ],
+   "activePeriods": [
+    "pombaline-1800"
+   ],
+   "summary": "A coffee house on the rebuilt Rossio, opened by the usual account in the 1780s by an Italian named Nicola; the poet Bocage was a regular.",
+   "details": [
+    "Coffee houses spread in Lisbon after the rebuilding, places for newspapers, gossip and politics watched by the intendant of police, Pina Manique. Bocage, the satirical poet, held court at the Nicola and was arrested in 1797. The present Art Deco front is of the 20th century."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-nicola"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Clerks from the ministries drink a quick coffee standing; the waiter opens the shutters onto the new square and its rows of identical façades."
+    },
+    {
+     "hour": 15,
+     "text": "A table of poets improvises verses on a theme shouted from the room. Someone reads the Gazeta de Lisboa aloud, with comments."
+    },
+    {
+     "hour": 22,
+     "text": "Last cups and voices lowered: one of the regulars is said to be an informer for Pina Manique. The Rossio is dark except for the café's lamps."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "brutus-138bce",
+   "title": "Brutus fortifies Olisipo",
+   "periodId": "olisipo-50",
+   "date": "138 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "castelo"
+   },
+   "effect": "construction",
+   "text": "Campaigning against the Lusitanians, the consul Decimus Junius Brutus made Olisipo his base on the Tagus and fortified it, Strabo says. The hilltop town became Roman; Pliny later calls it Felicitas Julia, a town of Roman citizens, a status probably granted under Caesar or Augustus.",
+   "sourceIds": [
+    "strabo",
+    "pliny-nh",
+    "wiki-olisipo"
+   ]
+  },
+  {
+   "id": "theatre-57",
+   "title": "The theatre is rebuilt for Nero",
+   "periodId": "olisipo-50",
+   "date": "57 CE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "roman-theatre"
+   },
+   "effect": "construction",
+   "text": "An inscription on the stage front records that Gaius Heius Primus, a priest of the imperial cult, paid for the stage and orchestra in honour of Nero in 57 CE. Rediscovered after the earthquake, in 1798, the inscription is one of the main sources for the theatre.",
+   "sourceIds": [
+    "fernandes-teatro",
+    "wiki-olisipo"
+   ]
+  },
+  {
+   "id": "vikings-844",
+   "title": "Norse raiders in the Tagus",
+   "periodId": "moorish-1100",
+   "date": "August 844",
+   "kind": "riot",
+   "at": {
+    "position": [
+     1998,
+     1942
+    ]
+   },
+   "effect": "fire",
+   "text": "A Norse fleet appeared in the Tagus in August 844 and fought the Muslims of al-Ushbuna for thirteen days, according to the Arab chroniclers, before sailing south to sack Seville. The raid pushed the emirs of Córdoba to build a fleet and coastal defences.",
+   "sourceIds": [
+    "kennedy-muslim-spain"
+   ]
+  },
+  {
+   "id": "conquest-1147",
+   "title": "Afonso Henriques takes Lisbon",
+   "periodId": "moorish-1100",
+   "date": "1 July – 24 October 1147",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "castelo"
+   },
+   "effect": "fire",
+   "text": "Crusaders from England, Flanders and the Rhineland, sailing to the Holy Land, agreed to help Afonso Henriques besiege Lisbon. After four months, siege towers and mines against the walls, the starving city surrendered. The crusaders looted it despite the terms; an English priest, Gilbert of Hastings, became its bishop.",
+   "sourceIds": [
+    "de-expugnatione",
+    "wiki-siege-1147"
+   ]
+  },
+  {
+   "id": "fernandine-wall-1373",
+   "title": "King Fernando walls the city",
+   "periodId": "manueline-1550",
+   "date": "1373–1375",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "porta-santo-antao"
+   },
+   "effect": "construction",
+   "text": "In 1373 Henry II of Castile's army entered the unwalled suburbs and burned much of them. King Fernando I had a new wall built round the whole city in about two years, with some 77 towers; the chronicler Fernão Lopes describes the work.",
+   "sourceIds": [
+    "wiki-walls-lisbon",
+    "oliveira-marques"
+   ]
+  },
+  {
+   "id": "gama-1499",
+   "title": "Vasco da Gama returns from India",
+   "periodId": "manueline-1550",
+   "date": "July–September 1499",
+   "kind": "ceremony",
+   "at": {
+    "position": [
+     1980,
+     2130
+    ]
+   },
+   "effect": "crowd",
+   "text": "Nicolau Coelho's caravel Bérrio came into the Tagus in July 1499 with the news that India had been reached by sea; Vasco da Gama followed weeks later, after burying his brother in the Azores. Fewer than half the crew came home, but the pepper on board paid for the voyage many times over.",
+   "sourceIds": [
+    "wiki-vasco-da-gama",
+    "wiki-india-armadas"
+   ]
+  },
+  {
+   "id": "massacre-1506",
+   "title": "The Lisbon massacre",
+   "periodId": "manueline-1550",
+   "date": "19–21 April 1506",
+   "kind": "riot",
+   "at": {
+    "position": [
+     1876,
+     1265
+    ]
+   },
+   "effect": "crowd",
+   "text": "In plague and drought, a New Christian in the church of São Domingos doubted a 'miracle'. A crowd, urged on by Dominican friars, killed him, then hunted New Christians through the city for three days: estimates run from about 2,000 to 4,000 dead. Manuel I punished the city; two friars were executed.",
+   "sourceIds": [
+    "wiki-lisbon-massacre",
+    "soyer-persecution"
+   ]
+  },
+  {
+   "id": "auto-1540",
+   "title": "The first auto-da-fé in Lisbon",
+   "periodId": "manueline-1550",
+   "date": "20 September 1540",
+   "kind": "ceremony",
+   "at": {
+    "spotId": "auto-da-fe"
+   },
+   "effect": "procession",
+   "text": "Four years after the pope allowed João III to set up the Inquisition, Lisbon saw its first public auto-da-fé. Over the next two centuries the Lisbon tribunal tried thousands of people, most of them New Christians accused of keeping Jewish rites in secret.",
+   "sourceIds": [
+    "wiki-inquisition",
+    "wiki-auto-da-fe"
+   ]
+  },
+  {
+   "id": "restoration-1640",
+   "title": "The Restoration of 1640",
+   "periodId": "pre-earthquake-1750",
+   "date": "1 December 1640",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "paco-ribeira"
+   },
+   "effect": "crowd",
+   "text": "On a Saturday morning some forty noblemen burst into the palace, killed the hated secretary of state Miguel de Vasconcelos and threw his body from a window into the Terreiro, and proclaimed the Duke of Braganza king as João IV, ending sixty years of rule by the kings of Spain.",
+   "sourceIds": [
+    "wiki-restoration-war",
+    "wiki-ribeira-palace"
+   ]
+  },
+  {
+   "id": "aqueduct-1748",
+   "title": "The aqueduct's water arrives",
+   "periodId": "pre-earthquake-1750",
+   "date": "1748",
+   "kind": "construction",
+   "at": {
+    "position": [
+     295,
+     311
+    ]
+   },
+   "effect": "construction",
+   "text": "After seventeen years of work, paid for by a tax on meat, wine and olive oil, the Águas Livres aqueduct brought spring water from the hills north-west of the city over the 35 arches of the Alcântara valley to the Amoreiras. It came through the earthquake undamaged.",
+   "sourceIds": [
+    "wiki-aqueduct"
+   ]
+  },
+  {
+   "id": "opera-1755",
+   "title": "The Ópera do Tejo opens",
+   "periodId": "pre-earthquake-1750",
+   "date": "31 March 1755",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "opera-do-tejo"
+   },
+   "effect": "crowd",
+   "text": "For the queen's birthday the court opened its new opera house beside the palace with David Perez's Alessandro nell'Indie, sung by Italian stars, with, it was reported, a troop of horse on stage. Seven months later the house was rubble and ashes.",
+   "sourceIds": [
+    "wiki-opera-tejo",
+    "paice-wrath"
+   ]
+  },
+  {
+   "id": "earthquake-1755",
+   "title": "Earthquake, tsunami and fire",
+   "periodId": "pre-earthquake-1750",
+   "date": "1 November 1755",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     1928,
+     1720
+    ]
+   },
+   "effect": "fire",
+   "text": "At about 9.40 on All Saints' morning three shocks brought down churches full of worshippers. About forty minutes later the river drew back and then surged over the quays; fires burned for nearly a week. Tens of thousands died. The royal family, at Belém, survived.",
+   "sourceIds": [
+    "wiki-earthquake",
+    "paice-wrath"
+   ]
+  },
+  {
+   "id": "pombal-plan-1758",
+   "title": "The plan for a new Baixa",
+   "periodId": "pombaline-1800",
+   "date": "12 May 1758",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "praca-comercio"
+   },
+   "effect": "construction",
+   "text": "Of the plans prepared under the old engineer Manuel da Maia, the king's minister Carvalho e Melo, later Marquis of Pombal, chose Eugénio dos Santos' and Carlos Mardel's grid. Owners had to build to set façades; by a famous story, troops marched round a model of the timber cage to test it against shaking.",
+   "sourceIds": [
+    "wiki-pombaline",
+    "franca-pombalina",
+    "maxwell-pombal"
+   ]
+  },
+  {
+   "id": "statue-1775",
+   "title": "The statue of José I unveiled",
+   "periodId": "pombaline-1800",
+   "date": "6 June 1775",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "praca-comercio"
+   },
+   "effect": "crowd",
+   "text": "On the king's birthday Machado de Castro's bronze horseman, cast in a single pour by Bartolomeu da Costa in 1774, was unveiled in the new square, with Pombal's portrait medallion on the pedestal. Two years later the king died and Pombal fell; the medallion was removed.",
+   "sourceIds": [
+    "wiki-estatua-jose",
+    "wiki-praca-comercio"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "port-of-the-indies",
+   "title": "The port of the Indies",
+   "periodId": "manueline-1550",
+   "summary": "A day on Lisbon's riverfront around 1550, from the shipyard where carracks are built to the warehouses of pepper, the king's palace, the richest street in Europe and the king's fountain.",
+   "steps": [
+    {
+     "landmarkId": "ribeira-das-naus",
+     "title": "The shipyard",
+     "text": "Start at the Ribeira das Naus. A carrack for next March's fleet stands in frame on the slipway; caulkers boil pitch, and the smell of tar and fresh oak covers the beach."
+    },
+    {
+     "spotId": "armazens",
+     "title": "Charts and pilots",
+     "text": "In the Armazéns next door, pilots are examined before the fleet sails and chart-makers copy the coast of Africa and India from the king's master chart."
+    },
+    {
+     "landmarkId": "casa-da-india",
+     "title": "The Casa da Índia",
+     "text": "The officials of the Casa da Índia check cargo lists and seamen's wages; a returning ship's captain reports what he brought and what he lost."
+    },
+    {
+     "spotId": "pepper-store",
+     "title": "Pepper",
+     "text": "Sacks of pepper go up to the great scales. Agents of German and Italian firms bargain with the king's men; the dust makes everyone sneeze."
+    },
+    {
+     "landmarkId": "paco-ribeira",
+     "title": "The king's windows",
+     "text": "Above it all, João III's palace looks over the river from its loggias. Courtiers cross the Terreiro, where a bullfight is being set up for Sunday."
+    },
+    {
+     "spotId": "rua-nova-shops",
+     "title": "The Rua Nova",
+     "text": "Walk up into the Rua Nova: Chinese porcelain, Indian quilts, Flemish tapestry, a parrot in a cage. The crowd speaks Portuguese, Kimbundu, Flemish, Italian and Castilian."
+    },
+    {
+     "spotId": "water-carriers",
+     "title": "The king's fountain",
+     "text": "End at the Chafariz d'El-Rei below Alfama, where water-carriers queue at the spouts and boats from the India fleet fill their casks."
+    }
+   ],
+   "sourceIds": [
+    "global-city",
+    "gois-descriptio",
+    "oliveira-sumario"
+   ]
+  },
+  {
+   "id": "all-saints-1755",
+   "title": "All Saints' Day, 1755",
+   "periodId": "pre-earthquake-1750",
+   "summary": "The morning of 1 November 1755 across the old centre of Lisbon, from the cathedral to the palace and the new opera house, as the city was shaken, swept by the river and burned.",
+   "steps": [
+    {
+     "landmarkId": "se",
+     "title": "Mass at the Sé",
+     "when": "9.30 a.m.",
+     "text": "A bright, mild holiday morning; the churches are full of candles and worshippers for All Saints. In the cathedral the morning mass is under way."
+    },
+    {
+     "landmarkId": "carmo",
+     "title": "The first shock",
+     "when": "about 9.40 a.m.",
+     "text": "A roar, then three shocks over several minutes. Across the Baixa from the cathedral, the Carmo's Gothic vaults fall on the congregation."
+    },
+    {
+     "landmarkId": "hospital-todos-os-santos",
+     "title": "The hospital burns",
+     "text": "In the Rossio the royal hospital collapses with its patients inside. Fallen candles and kitchen fires begin to burn all over the city."
+    },
+    {
+     "landmarkId": "paco-ribeira",
+     "title": "The river comes in",
+     "when": "about 10.20 a.m.",
+     "text": "Survivors flee to the open Terreiro and the new stone quay. The river draws back, showing its bed, then returns as a wave over the quays. The king and his family are safe at Belém."
+    },
+    {
+     "landmarkId": "opera-do-tejo",
+     "title": "The opera burns",
+     "text": "The fire spreads through the palace, its library and the new opera house, opened seven months before. It will burn for nearly a week."
+    },
+    {
+     "landmarkId": "sao-roque",
+     "title": "São Roque stands",
+     "text": "On the hill above, the Jesuits' church of São Roque survives almost undamaged, with its chapel from Rome. Refugees crowd the Bairro Alto's open spaces."
+    }
+   ],
+   "sourceIds": [
+    "paice-wrath",
+    "wiki-earthquake"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-history-lisbon",
+   "title": "History of Lisbon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Lisbon"
+  },
+  {
+   "id": "wiki-olisipo",
+   "title": "Olisipo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Olisipo"
+  },
+  {
+   "id": "wiki-tagus",
+   "title": "Tagus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tagus"
+  },
+  {
+   "id": "wiki-walls-lisbon",
+   "title": "Walls of Lisbon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Lisbon"
+  },
+  {
+   "id": "wiki-muralhas-fernandinas",
+   "title": "Muralhas fernandinas",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Muralhas_fernandinas"
+  },
+  {
+   "id": "wiki-cerca-moura",
+   "title": "Cerca moura",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Cerca_moura"
+  },
+  {
+   "id": "wiki-alfama",
+   "title": "Alfama",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alfama"
+  },
+  {
+   "id": "wiki-mouraria",
+   "title": "Mouraria",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Mouraria"
+  },
+  {
+   "id": "wiki-bairro-alto",
+   "title": "Bairro Alto",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bairro_Alto"
+  },
+  {
+   "id": "wiki-baixa",
+   "title": "Lisbon Baixa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lisbon_Baixa"
+  },
+  {
+   "id": "wiki-rossio",
+   "title": "Rossio",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rossio"
+  },
+  {
+   "id": "wiki-aqueduct",
+   "title": "Águas Livres Aqueduct",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C3%81guas_Livres_Aqueduct"
+  },
+  {
+   "id": "wiki-passeio-publico",
+   "title": "Passeio Público",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Passeio_P%C3%BAblico"
+  },
+  {
+   "id": "wiki-estrela",
+   "title": "Estrela Basilica",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Estrela_Basilica"
+  },
+  {
+   "id": "wiki-pombaline",
+   "title": "Pombaline style",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pombaline_style"
+  },
+  {
+   "id": "wiki-gaiola",
+   "title": "Gaiola (construction)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gaiola_(construction)"
+  },
+  {
+   "id": "oliveira-marques",
+   "title": "History of Portugal (2 vols)",
+   "author": "A. H. de Oliveira Marques",
+   "year": 1972
+  },
+  {
+   "id": "kennedy-muslim-spain",
+   "title": "Muslim Spain and Portugal: A Political History of al-Andalus",
+   "author": "Hugh Kennedy",
+   "year": 1996
+  },
+  {
+   "id": "gois-descriptio",
+   "title": "Urbis Olisiponis Descriptio (Description of the City of Lisbon)",
+   "author": "Damião de Góis",
+   "year": 1554
+  },
+  {
+   "id": "oliveira-sumario",
+   "title": "Sumário em que brevemente se contêm algumas coisas assim eclesiásticas como seculares que há na cidade de Lisboa",
+   "author": "Cristóvão Rodrigues de Oliveira",
+   "year": "1551–1554"
+  },
+  {
+   "id": "global-city",
+   "title": "The Global City: On the Streets of Renaissance Lisbon",
+   "author": "Annemarie Jordan Gschwend and K. J. P. Lowe (eds.)",
+   "year": 2015
+  },
+  {
+   "id": "franca-pombalina",
+   "title": "Lisboa Pombalina e o Iluminismo",
+   "author": "José-Augusto França",
+   "year": 1965
+  },
+  {
+   "id": "maxwell-pombal",
+   "title": "Pombal: Paradox of the Enlightenment",
+   "author": "Kenneth Maxwell",
+   "year": 1995
+  },
+  {
+   "id": "osm",
+   "title": "OpenStreetMap",
+   "author": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "id": "wiki-castle",
+   "title": "São Jorge Castle",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Jorge_Castle"
+  },
+  {
+   "id": "wiki-se",
+   "title": "Lisbon Cathedral",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lisbon_Cathedral"
+  },
+  {
+   "id": "wiki-ribeira-palace",
+   "title": "Ribeira Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ribeira_Palace"
+  },
+  {
+   "id": "wiki-praca-comercio",
+   "title": "Praça do Comércio",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio"
+  },
+  {
+   "id": "wiki-estatua-jose",
+   "title": "Estátua equestre de D. José I",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Est%C3%A1tua_equestre_de_D._Jos%C3%A9_I"
+  },
+  {
+   "id": "wiki-casa-india",
+   "title": "Casa da Índia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Casa_da_%C3%8Dndia"
+  },
+  {
+   "id": "wiki-ribeira-naus",
+   "title": "Arsenal da Marinha (Lisboa) / Ribeira das Naus",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Arsenal_da_Marinha_(Lisboa)"
+  },
+  {
+   "id": "wiki-carrack",
+   "title": "Carrack",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carrack"
+  },
+  {
+   "id": "wiki-hospital",
+   "title": "Hospital Real de Todos-os-Santos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hospital_Real_de_Todos-os-Santos"
+  },
+  {
+   "id": "wiki-estaus",
+   "title": "Estaus Palace",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Estaus_Palace"
+  },
+  {
+   "id": "wiki-porta-santo-antao",
+   "title": "Porta de Santo Antão",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Porta_de_Santo_Ant%C3%A3o"
+  },
+  {
+   "id": "wiki-carmo",
+   "title": "Carmo Convent",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carmo_Convent"
+  },
+  {
+   "id": "wiki-sao-roque",
+   "title": "Igreja de São Roque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Roque"
+  },
+  {
+   "id": "wiki-conceicao-velha",
+   "title": "Church of Nossa Senhora da Conceição Velha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Church_of_Nossa_Senhora_da_Concei%C3%A7%C3%A3o_Velha"
+  },
+  {
+   "id": "wiki-opera-tejo",
+   "title": "Ópera do Tejo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C3%93pera_do_Tejo"
+  },
+  {
+   "id": "wiki-sao-vicente",
+   "title": "Monastery of São Vicente de Fora",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Monastery_of_S%C3%A3o_Vicente_de_Fora"
+  },
+  {
+   "id": "wiki-chafariz",
+   "title": "Chafariz d'El-Rey",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chafariz_d%27El-Rey"
+  },
+  {
+   "id": "wiki-chafariz-pt",
+   "title": "Chafariz de El-Rei",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Chafariz_de_El-Rei"
+  },
+  {
+   "id": "wiki-casa-bicos",
+   "title": "Casa dos Bicos",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Casa_dos_Bicos"
+  },
+  {
+   "id": "wiki-manueline",
+   "title": "Manueline",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Manueline"
+  },
+  {
+   "id": "wiki-earthquake",
+   "title": "1755 Lisbon earthquake",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+  },
+  {
+   "id": "wiki-siege-1147",
+   "title": "Siege of Lisbon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Lisbon"
+  },
+  {
+   "id": "fernandes-teatro",
+   "title": "Studies and excavation reports on the Roman theatre of Lisbon (Museu de Lisboa – Teatro Romano)",
+   "author": "Lídia Fernandes",
+   "year": "1990s–2010s"
+  },
+  {
+   "id": "moita-castelo",
+   "title": "Castelo de São Jorge: the archaeological excavations of the Praça Nova",
+   "author": "Alexandra Gaspar and Ana Gomes (excavators)",
+   "year": "1996–2010"
+  },
+  {
+   "id": "kubler-plain",
+   "title": "Portuguese Plain Architecture: Between Spices and Diamonds, 1521–1706",
+   "author": "George Kubler",
+   "year": 1972
+  },
+  {
+   "id": "paice-wrath",
+   "title": "Wrath of God: The Great Lisbon Earthquake of 1755",
+   "author": "Edward Paice",
+   "year": 2008
+  },
+  {
+   "id": "strabo",
+   "title": "Geography, book 3",
+   "author": "Strabo",
+   "year": "c. 20 CE",
+   "url": "https://en.wikipedia.org/wiki/Geographica"
+  },
+  {
+   "id": "pliny-nh",
+   "title": "Natural History, book 4",
+   "author": "Pliny the Elder",
+   "year": "77 CE",
+   "url": "https://en.wikipedia.org/wiki/Natural_History_(Pliny)"
+  },
+  {
+   "id": "de-expugnatione",
+   "title": "De expugnatione Lyxbonensi (The Conquest of Lisbon), trans. C. W. David",
+   "author": "an anonymous crusader, perhaps the priest Raol",
+   "year": "1147–48; trans. 1936"
+  },
+  {
+   "id": "wiki-garum",
+   "title": "Garum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garum"
+  },
+  {
+   "id": "wiki-vasco-da-gama",
+   "title": "Vasco da Gama",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+  },
+  {
+   "id": "wiki-india-armadas",
+   "title": "Portuguese India Armadas",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Portuguese_India_Armadas"
+  },
+  {
+   "id": "wiki-spice-trade",
+   "title": "Spice trade",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spice_trade"
+  },
+  {
+   "id": "wiki-casa-guine",
+   "title": "Casa da Guiné",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Casa_da_Guin%C3%A9"
+  },
+  {
+   "id": "wiki-pedro-nunes",
+   "title": "Pedro Nunes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pedro_Nunes"
+  },
+  {
+   "id": "wiki-slavery-portugal",
+   "title": "Slavery in Portugal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Slavery_in_Portugal"
+  },
+  {
+   "id": "wiki-jews-portugal",
+   "title": "History of the Jews in Portugal",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_Portugal"
+  },
+  {
+   "id": "wiki-lisbon-massacre",
+   "title": "Lisbon massacre",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lisbon_massacre"
+  },
+  {
+   "id": "wiki-inquisition",
+   "title": "Portuguese Inquisition",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Portuguese_Inquisition"
+  },
+  {
+   "id": "wiki-auto-da-fe",
+   "title": "Auto-da-fé",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Auto-da-f%C3%A9"
+  },
+  {
+   "id": "wiki-restoration-war",
+   "title": "Portuguese Restoration War",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Portuguese_Restoration_War"
+  },
+  {
+   "id": "wiki-azulejo",
+   "title": "Azulejo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Azulejo"
+  },
+  {
+   "id": "wiki-rato",
+   "title": "Real Fábrica de Louça do Rato",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Real_F%C3%A1brica_de_Lou%C3%A7a_do_Rato"
+  },
+  {
+   "id": "wiki-nicola",
+   "title": "Café Nicola",
+   "author": "Wikipedia (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Caf%C3%A9_Nicola"
+  },
+  {
+   "id": "saunders-slaves",
+   "title": "A Social History of Black Slaves and Freedmen in Portugal, 1441–1555",
+   "author": "A. C. de C. M. Saunders",
+   "year": 1982
+  },
+  {
+   "id": "soyer-persecution",
+   "title": "The Persecution of the Jews and Muslims of Portugal: King Manuel I and the End of Religious Tolerance (1496–7)",
+   "author": "François Soyer",
+   "year": 2007
+  }
+ ]
+}

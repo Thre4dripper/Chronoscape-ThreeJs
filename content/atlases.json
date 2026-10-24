@@ -354,7 +354,9 @@
           "subtitle": "Port of the Indies, 1550",
           "at": [-9.14, 38.71],
           "glyph": "tower",
-          "blurb": "The riverside capital of a sea empire, its palace on the Tagus waterfront and ships leaving for India and Brazil."
+          "blurb": "The riverside capital of a sea empire, its palace on the Tagus waterfront and ships leaving for India and Brazil.",
+          "city": "lisbon",
+          "period": "manueline-1550"
         }
       ]
     },
