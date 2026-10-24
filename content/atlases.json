@@ -21,7 +21,9 @@
           "subtitle": "Temples of Karnak and Luxor, 1250 BCE",
           "at": [32.64, 25.7],
           "glyph": "obelisk",
-          "blurb": "The religious capital of New Kingdom Egypt, its east bank given over to the great temples of Amun."
+          "blurb": "The religious capital of New Kingdom Egypt, its east bank given over to the great temples of Amun.",
+          "city": "thebes",
+          "period": "ramesside-1250"
         },
         {
           "title": "Babylon",

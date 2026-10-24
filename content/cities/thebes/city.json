@@ -1,0 +1,5611 @@
+{
+ "id": "thebes",
+ "name": "Thebes",
+ "subtitle": "Waset, City of Amun",
+ "description": "Two thousand years of Thebes, from the Middle Kingdom capital round the first temple of Amun to the Roman villages among its ruins: Karnak and Luxor on the east bank joined by the processional way, the Nile, and the temples and tombs of the west bank under the Theban mountain. The river's course is drawn as the usual reconstruction. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "ramesside-1250",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 0.9,
+  "walls": [
+   "#D8C4A0",
+   "#CDB48C",
+   "#E2D3B6",
+   "#C4A880",
+   "#D6C09A"
+  ],
+  "roofs": [
+   "#C9B48E",
+   "#BDA47E"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    4664,
+    3495
+   ],
+   "distance": 46,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7372,
+   6213
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "The Nile (Iteru)",
+    "path": [
+     [
+      3360,
+      6324
+     ],
+     [
+      3580,
+      5548
+     ],
+     [
+      3761,
+      5048
+     ],
+     [
+      4042,
+      4549
+     ],
+     [
+      4423,
+      3994
+     ],
+     [
+      4844,
+      3439
+     ],
+     [
+      5366,
+      2774
+     ],
+     [
+      5747,
+      2219
+     ],
+     [
+      6128,
+      1553
+     ],
+     [
+      6469,
+      777
+     ],
+     [
+      6830,
+      -111
+     ]
+    ],
+    "width": 560,
+    "id": "nile",
+    "blurb": "The river (Iteru) rose from July to September and covered the fields of both banks, leaving the towns and temples on their mounds. Coring shows that in pharaonic times the channel ran further east, close to Karnak's quay, and has since drifted west; the course drawn is the usual reconstruction."
+   },
+   {
+    "name": "Canal of Karnak",
+    "path": [
+     [
+      5546,
+      2740
+     ],
+     [
+      5917,
+      2774
+     ]
+    ],
+    "width": 44,
+    "id": "karnak-canal",
+    "blurb": "A canal joined the river to the harbour basin in front of Amun's temple, so that the god's barque, and the ships bringing stone, grain and tribute, could moor at the temple gate. Its line and date are known only in part from excavation and cores.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Birket Habu",
+    "path": [
+     [
+      852,
+      4383
+     ],
+     [
+      1956,
+      4505
+     ],
+     [
+      2959,
+      4593
+     ]
+    ],
+    "width": 380,
+    "id": "birket-habu",
+    "blurb": "A harbour basin over two kilometres long dug for Amenhotep III's palace at Malkata, probably for his jubilee festivals about 1360 BCE; the spoil heaps still ring it. By Ramesses II's time the palace was empty and the basin was silting up.",
+    "periods": [
+     "ramesside-1250"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "The Theban Mountain (Ta Dehent)",
+    "center": [
+     301,
+     1442
+    ],
+    "radius": 380,
+    "label": true,
+    "id": "theban-mountain",
+    "blurb": "The limestone massif of the west bank, crowned to the west by the pyramid-shaped peak of el-Qurn, 'the Peak', sacred to the snake goddess Meretseger, 'she who loves silence'. Its valleys hold the royal tombs; its foothills, thousands of tombs of officials."
+   },
+   {
+    "name": "Cliffs of Deir el-Bahari",
+    "center": [
+     652,
+     943
+    ],
+    "radius": 170,
+    "label": false,
+    "id": "deir-el-bahari-cliffs",
+    "blurb": "The sheer amphitheatre of cliffs, 300 metres high, that frames the temples of Mentuhotep II and Hatshepsut; Hathor, as a cow, was believed to emerge from the mountain here."
+   },
+   {
+    "name": "Ridge between Deir el-Bahari and the Valley of the Kings",
+    "center": [
+     752,
+     555
+    ],
+    "radius": 110,
+    "label": false,
+    "id": "ridge-valley",
+    "blurb": "A narrow limestone ridge: the royal tombs lie only a few hundred metres behind Hatshepsut's temple, reached on foot over the top by the workmen's path."
+   },
+   {
+    "name": "Dra Abu el-Naga",
+    "center": [
+     1555,
+     222
+    ],
+    "radius": 280,
+    "label": true,
+    "id": "dra-abu-el-naga",
+    "blurb": "Foothills at the north end of the necropolis, where the kings of the 17th dynasty were buried under small brick pyramids and New Kingdom officials cut their tomb chapels."
+   },
+   {
+    "name": "Qurnet Murai",
+    "center": [
+     903,
+     2241
+    ],
+    "radius": 170,
+    "label": true,
+    "id": "qurnet-murai",
+    "blurb": "A low hill between Deir el-Medina and the plain, with tombs of New Kingdom officials, among them Amenhotep Huy, viceroy of Kush under Tutankhamun."
+   },
+   {
+    "name": "Hills of the royal valleys",
+    "center": [
+     351,
+     111
+    ],
+    "radius": 200,
+    "label": false,
+    "id": "valley-hills",
+    "blurb": "The desert hills round the Valley of the Kings, cut by flash-flood gullies that sometimes filled the tombs with debris."
+   },
+   {
+    "name": "Desert hills of the south-west",
+    "center": [
+     201,
+     3550
+    ],
+    "radius": 260,
+    "label": false,
+    "id": "southern-hills",
+    "blurb": "Low desert hills behind Medinet Habu and Malkata, with the Valley of the Queens in a wadi to the west."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Processional way of Amun",
+    "path": [
+     [
+      4443,
+      4926
+     ],
+     [
+      4894,
+      4438
+     ],
+     [
+      5356,
+      3939
+     ],
+     [
+      5767,
+      3495
+     ],
+     [
+      6054,
+      3176
+     ]
+    ],
+    "width": 22,
+    "style": "major",
+    "labelled": true,
+    "id": "processional-way",
+    "blurb": "The road between Karnak and Luxor, about two and a half kilometres, along which Amun's barque was carried at the Opet festival. Hatshepsut lined it with six barque shrines where the bearers rested. Its earlier course is known only in part.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250"
+    ]
+   },
+   {
+    "name": "Processional way of Amun",
+    "path": [
+     [
+      4443,
+      4926
+     ],
+     [
+      4894,
+      4438
+     ],
+     [
+      5356,
+      3939
+     ],
+     [
+      5767,
+      3495
+     ],
+     [
+      6054,
+      3176
+     ]
+    ],
+    "width": 22,
+    "style": "major",
+    "labelled": true,
+    "id": "processional-way",
+    "blurb": "The old processional road between the temples. Nectanebo I (380–362 BCE) will rebuild it as a paved avenue lined with some 1,300 sphinxes; in 600 BCE it is still the New Kingdom road, with older sphinxes at both ends.",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "name": "Avenue of Sphinxes",
+    "path": [
+     [
+      4443,
+      4926
+     ],
+     [
+      4894,
+      4438
+     ],
+     [
+      5356,
+      3939
+     ],
+     [
+      5767,
+      3495
+     ],
+     [
+      6054,
+      3176
+     ]
+    ],
+    "width": 24,
+    "style": "major",
+    "labelled": true,
+    "id": "avenue-of-sphinxes",
+    "blurb": "Nectanebo I's paved dromos, lined on both sides with human-headed sphinxes a few metres apart, from Luxor temple to the gate of the Khonsu temple at Karnak, about 2.7 km. Roman Thebans built houses and workshops over parts of it.",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Avenue of rams to Mut",
+    "path": [
+     [
+      6144,
+      3221
+     ],
+     [
+      6000,
+      3518
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": false,
+    "id": "mut-avenue",
+    "blurb": "From Karnak's southern pylons to the gate of Mut's precinct: the road of Amun's visits to his consort. Ram-headed sphinxes, recut by later kings, line it.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Road along the river",
+    "path": [
+     [
+      3781,
+      6213
+     ],
+     [
+      3992,
+      5548
+     ],
+     [
+      4172,
+      5048
+     ],
+     [
+      4453,
+      4549
+     ],
+     [
+      4834,
+      3994
+     ],
+     [
+      5255,
+      3439
+     ],
+     [
+      5777,
+      2774
+     ],
+     [
+      6158,
+      2219
+     ],
+     [
+      6539,
+      1553
+     ],
+     [
+      6880,
+      777
+     ],
+     [
+      7231,
+      0
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "river-road",
+    "blurb": "The bank road of the east side, past the landing places, granaries and markets, from Luxor north to Karnak's quay and on toward Medamud and Koptos."
+   },
+   {
+    "name": "Road to Medamud",
+    "path": [
+     [
+      6496,
+      2608
+     ],
+     [
+      6820,
+      1664
+     ],
+     [
+      7091,
+      777
+     ],
+     [
+      7352,
+      0
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "medamud-road",
+    "blurb": "North from the gate of Montu's precinct toward Medamud, Montu's other temple 8 km away, along a sphinx-lined road near the temple.",
+    "periods": [
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Road of the West",
+    "path": [
+     [
+      5065,
+      2829
+     ],
+     [
+      3962,
+      2774
+     ],
+     [
+      2758,
+      2663
+     ],
+     [
+      1705,
+      2685
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "road-of-the-west",
+    "blurb": "From the west-bank ferry landing across the fields to the desert edge and the temples of the dead. Funerals crossed the river by boat and went on by this road, the mourners wailing behind the sledge."
+   },
+   {
+    "name": "Road along the desert edge",
+    "path": [
+     [
+      2206,
+      943
+     ],
+     [
+      2457,
+      1553
+     ],
+     [
+      1855,
+      1942
+     ],
+     [
+      1705,
+      2385
+     ],
+     [
+      1655,
+      2663
+     ],
+     [
+      1153,
+      2829
+     ],
+     [
+      752,
+      2884
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "desert-edge-road",
+    "blurb": "The road linking the 'Houses of Millions of Years', the kings' mortuary temples, along the edge of the cultivation, patrolled by the police of the necropolis.",
+    "periods": [
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Road of the Valley Festival",
+    "path": [
+     [
+      2175,
+      1264
+     ],
+     [
+      2858,
+      1609
+     ],
+     [
+      3761,
+      1553
+     ],
+     [
+      4965,
+      1498
+     ],
+     [
+      5687,
+      1465
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "valley-festival-road",
+    "blurb": "From the river landing to the valley temple of Deir el-Bahari: the route of Amun's barque at the Beautiful Festival of the Valley, when Thebans visited the tombs of their families.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Road to Mentuhotep's valley temple",
+    "path": [
+     [
+      2127,
+      1362
+     ],
+     [
+      2858,
+      1609
+     ],
+     [
+      3761,
+      1553
+     ],
+     [
+      4965,
+      1498
+     ],
+     [
+      5687,
+      1465
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "valley-festival-road",
+    "blurb": "From the river to the valley temple of Mentuhotep II, the start of the Valley Festival, already celebrated in the Middle Kingdom.",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "name": "Causeway of Hatshepsut",
+    "path": [
+     [
+      1277,
+      824
+     ],
+     [
+      2175,
+      1264
+     ]
+    ],
+    "width": 30,
+    "style": "major",
+    "labelled": false,
+    "id": "hatshepsut-causeway",
+    "blurb": "A walled causeway about a kilometre long from the valley temple to Djeser-djeseru, lined with sandstone sphinxes of the queen, with a barque station halfway.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Causeway of Mentuhotep II",
+    "path": [
+     [
+      1229,
+      923
+     ],
+     [
+      2127,
+      1362
+     ]
+    ],
+    "width": 30,
+    "style": "major",
+    "labelled": false,
+    "id": "mentuhotep-causeway",
+    "blurb": "The open causeway, over a kilometre long, from Mentuhotep II's valley temple up to his terraced tomb-temple, lined by statues of the king.",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "name": "Road to the temple of Seti I",
+    "path": [
+     [
+      3299,
+      1346
+     ],
+     [
+      3811,
+      1531
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "seti-road",
+    "blurb": "From the front of Seti I's temple down to the valley road and the river.",
+    "periods": [
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "name": "Workmen's path to the Valley of the Kings",
+    "path": [
+     [
+      572,
+      1753
+     ],
+     [
+      702,
+      1331
+     ],
+     [
+      762,
+      832
+     ],
+     [
+      572,
+      555
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "workmens-path",
+    "blurb": "The path over the mountain from Deir el-Medina to the royal tombs, about an hour's climb. Workmen spent the week in stone huts at the pass and came home for their days off.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250"
+    ]
+   },
+   {
+    "name": "Path from Deir el-Medina to the plain",
+    "path": [
+     [
+      652,
+      1931
+     ],
+     [
+      1053,
+      2041
+     ],
+     [
+      1334,
+      2130
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "deir-el-medina-path",
+    "blurb": "The workmen's road down to the temples and their storehouses, where they collected grain rations, fish and firewood.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250"
+    ]
+   },
+   {
+    "name": "Road to Malkata",
+    "path": [
+     [
+      752,
+      2884
+     ],
+     [
+      702,
+      3772
+     ],
+     [
+      652,
+      4105
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "malkata-road",
+    "blurb": "From the desert-edge road south to the deserted palace of Amenhotep III.",
+    "periods": [
+     "ramesside-1250"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      6519,
+      3439
+     ],
+     [
+      6920,
+      3439
+     ],
+     [
+      6870,
+      3883
+     ],
+     [
+      6469,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Waset",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6950,
+      2929
+     ],
+     [
+      7071,
+      2641
+     ],
+     [
+      7321,
+      2829
+     ],
+     [
+      7271,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern town",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5847,
+      2607
+     ],
+     [
+      6148,
+      2219
+     ],
+     [
+      6389,
+      2385
+     ],
+     [
+      6218,
+      2641
+     ]
+    ],
+    "density": "loose",
+    "name": "Quay hamlet",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5967,
+      3994
+     ],
+     [
+      6670,
+      3994
+     ],
+     [
+      6569,
+      4416
+     ],
+     [
+      5917,
+      4371
+     ]
+    ],
+    "density": "loose",
+    "name": "Farms south of the town",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4463,
+      5259
+     ],
+     [
+      4593,
+      4948
+     ],
+     [
+      4965,
+      5048
+     ],
+     [
+      4824,
+      5437
+     ]
+    ],
+    "density": "loose",
+    "name": "Village of the southern sanctuary",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2277,
+      1132
+     ],
+     [
+      2417,
+      932
+     ],
+     [
+      2618,
+      1065
+     ],
+     [
+      2457,
+      1265
+     ]
+    ],
+    "density": "loose",
+    "name": "Priests of Mentuhotep's temple",
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5847,
+      2607
+     ],
+     [
+      6148,
+      2219
+     ],
+     [
+      6389,
+      2385
+     ],
+     [
+      6218,
+      2641
+     ]
+    ],
+    "density": "dense",
+    "name": "Quarter of the quay",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6589,
+      2385
+     ],
+     [
+      6690,
+      1997
+     ],
+     [
+      7091,
+      2086
+     ],
+     [
+      6990,
+      2463
+     ]
+    ],
+    "density": "loose",
+    "name": "North of the precinct",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6950,
+      2929
+     ],
+     [
+      7071,
+      2641
+     ],
+     [
+      7321,
+      2829
+     ],
+     [
+      7271,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern town",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6519,
+      3439
+     ],
+     [
+      6920,
+      3439
+     ],
+     [
+      6870,
+      3883
+     ],
+     [
+      6469,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Between the precincts",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5967,
+      3994
+     ],
+     [
+      6670,
+      3994
+     ],
+     [
+      6569,
+      4416
+     ],
+     [
+      5917,
+      4371
+     ]
+    ],
+    "density": "loose",
+    "name": "South of Mut",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5516,
+      3218
+     ],
+     [
+      5847,
+      2863
+     ],
+     [
+      5907,
+      3129
+     ],
+     [
+      5566,
+      3384
+     ]
+    ],
+    "density": "dense",
+    "name": "Riverside",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4483,
+      4549
+     ],
+     [
+      5215,
+      3573
+     ],
+     [
+      5606,
+      3573
+     ],
+     [
+      4764,
+      4549
+     ]
+    ],
+    "density": "loose",
+    "name": "West of the processional way",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4664,
+      4771
+     ],
+     [
+      5466,
+      3905
+     ],
+     [
+      5867,
+      4050
+     ],
+     [
+      5065,
+      4937
+     ]
+    ],
+    "density": "loose",
+    "name": "East of the processional way",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4463,
+      5259
+     ],
+     [
+      4593,
+      4948
+     ],
+     [
+      4965,
+      5048
+     ],
+     [
+      4824,
+      5437
+     ]
+    ],
+    "density": "dense",
+    "name": "Southern Ipet",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4082,
+      5769
+     ],
+     [
+      4262,
+      5348
+     ],
+     [
+      4664,
+      5437
+     ],
+     [
+      4483,
+      5858
+     ]
+    ],
+    "density": "loose",
+    "name": "South of Luxor",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4664,
+      3051
+     ],
+     [
+      4664,
+      2663
+     ],
+     [
+      4944,
+      2663
+     ],
+     [
+      4864,
+      3051
+     ]
+    ],
+    "density": "loose",
+    "name": "West-bank landing",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2277,
+      1132
+     ],
+     [
+      2417,
+      932
+     ],
+     [
+      2618,
+      1065
+     ],
+     [
+      2457,
+      1265
+     ]
+    ],
+    "density": "loose",
+    "name": "Builders of Djeser-djeseru",
+    "periods": [
+     "hatshepsut-1470"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5847,
+      2607
+     ],
+     [
+      6148,
+      2219
+     ],
+     [
+      6389,
+      2385
+     ],
+     [
+      6218,
+      2641
+     ]
+    ],
+    "density": "dense",
+    "name": "Quarter of the quay",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6589,
+      2385
+     ],
+     [
+      6690,
+      1997
+     ],
+     [
+      7091,
+      2086
+     ],
+     [
+      6990,
+      2463
+     ]
+    ],
+    "density": "dense",
+    "name": "North of the precinct",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6950,
+      2929
+     ],
+     [
+      7071,
+      2641
+     ],
+     [
+      7321,
+      2829
+     ],
+     [
+      7271,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern town",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6519,
+      3439
+     ],
+     [
+      6920,
+      3439
+     ],
+     [
+      6870,
+      3883
+     ],
+     [
+      6469,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Between the precincts",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5967,
+      3994
+     ],
+     [
+      6670,
+      3994
+     ],
+     [
+      6569,
+      4416
+     ],
+     [
+      5917,
+      4371
+     ]
+    ],
+    "density": "loose",
+    "name": "South of Mut",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5516,
+      3218
+     ],
+     [
+      5847,
+      2863
+     ],
+     [
+      5907,
+      3129
+     ],
+     [
+      5566,
+      3384
+     ]
+    ],
+    "density": "dense",
+    "name": "Riverside",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4483,
+      4549
+     ],
+     [
+      5215,
+      3573
+     ],
+     [
+      5606,
+      3573
+     ],
+     [
+      4764,
+      4549
+     ]
+    ],
+    "density": "dense",
+    "name": "West of the processional way",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4664,
+      4771
+     ],
+     [
+      5466,
+      3905
+     ],
+     [
+      5867,
+      4050
+     ],
+     [
+      5065,
+      4937
+     ]
+    ],
+    "density": "dense",
+    "name": "East of the processional way",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4463,
+      5259
+     ],
+     [
+      4593,
+      4948
+     ],
+     [
+      4965,
+      5048
+     ],
+     [
+      4824,
+      5437
+     ]
+    ],
+    "density": "dense",
+    "name": "Southern Ipet",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4082,
+      5769
+     ],
+     [
+      4262,
+      5348
+     ],
+     [
+      4664,
+      5437
+     ],
+     [
+      4483,
+      5858
+     ]
+    ],
+    "density": "loose",
+    "name": "South of Luxor",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4313,
+      4860
+     ],
+     [
+      4463,
+      4593
+     ],
+     [
+      4644,
+      4660
+     ],
+     [
+      4543,
+      4860
+     ]
+    ],
+    "density": "dense",
+    "name": "Luxor landing",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4664,
+      3051
+     ],
+     [
+      4664,
+      2663
+     ],
+     [
+      4944,
+      2663
+     ],
+     [
+      4864,
+      3051
+     ]
+    ],
+    "density": "loose",
+    "name": "West-bank landing",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1775,
+      1953
+     ],
+     [
+      1956,
+      1709
+     ],
+     [
+      2216,
+      1864
+     ],
+     [
+      1976,
+      2108
+     ]
+    ],
+    "density": "loose",
+    "name": "Staff of the Ramesseum",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3420,
+      1220
+     ],
+     [
+      3420,
+      1043
+     ],
+     [
+      3761,
+      1043
+     ],
+     [
+      3761,
+      1287
+     ]
+    ],
+    "density": "loose",
+    "name": "Qurna",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      852,
+      3084
+     ],
+     [
+      1153,
+      2996
+     ],
+     [
+      1214,
+      3218
+     ],
+     [
+      913,
+      3329
+     ]
+    ],
+    "density": "loose",
+    "name": "Village by the temple of Amun at Djeme",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2277,
+      1132
+     ],
+     [
+      2417,
+      932
+     ],
+     [
+      2618,
+      1065
+     ],
+     [
+      2457,
+      1265
+     ]
+    ],
+    "density": "loose",
+    "name": "Valley temple village",
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5847,
+      2607
+     ],
+     [
+      6148,
+      2219
+     ],
+     [
+      6389,
+      2385
+     ],
+     [
+      6218,
+      2641
+     ]
+    ],
+    "density": "dense",
+    "name": "Quarter of the quay",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6589,
+      2385
+     ],
+     [
+      6690,
+      1997
+     ],
+     [
+      7091,
+      2086
+     ],
+     [
+      6990,
+      2463
+     ]
+    ],
+    "density": "loose",
+    "name": "North of the precinct",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6950,
+      2929
+     ],
+     [
+      7071,
+      2641
+     ],
+     [
+      7321,
+      2829
+     ],
+     [
+      7271,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern town",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6519,
+      3439
+     ],
+     [
+      6920,
+      3439
+     ],
+     [
+      6870,
+      3883
+     ],
+     [
+      6469,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Between the precincts",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5516,
+      3218
+     ],
+     [
+      5847,
+      2863
+     ],
+     [
+      5907,
+      3129
+     ],
+     [
+      5566,
+      3384
+     ]
+    ],
+    "density": "dense",
+    "name": "Riverside",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4483,
+      4549
+     ],
+     [
+      5215,
+      3573
+     ],
+     [
+      5606,
+      3573
+     ],
+     [
+      4764,
+      4549
+     ]
+    ],
+    "density": "loose",
+    "name": "West of the processional way",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4463,
+      5259
+     ],
+     [
+      4593,
+      4948
+     ],
+     [
+      4965,
+      5048
+     ],
+     [
+      4824,
+      5437
+     ]
+    ],
+    "density": "dense",
+    "name": "Southern Ipet",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4664,
+      3051
+     ],
+     [
+      4664,
+      2663
+     ],
+     [
+      4944,
+      2663
+     ],
+     [
+      4864,
+      3051
+     ]
+    ],
+    "density": "loose",
+    "name": "West-bank landing",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      852,
+      3084
+     ],
+     [
+      1153,
+      2996
+     ],
+     [
+      1214,
+      3218
+     ],
+     [
+      913,
+      3329
+     ]
+    ],
+    "density": "dense",
+    "name": "Djeme",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3420,
+      1220
+     ],
+     [
+      3420,
+      1043
+     ],
+     [
+      3761,
+      1043
+     ],
+     [
+      3761,
+      1287
+     ]
+    ],
+    "density": "loose",
+    "name": "Qurna",
+    "periods": [
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6950,
+      2929
+     ],
+     [
+      7071,
+      2641
+     ],
+     [
+      7321,
+      2829
+     ],
+     [
+      7271,
+      3218
+     ]
+    ],
+    "density": "dense",
+    "name": "Village of Karnak",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6519,
+      3439
+     ],
+     [
+      6920,
+      3439
+     ],
+     [
+      6870,
+      3883
+     ],
+     [
+      6469,
+      3828
+     ]
+    ],
+    "density": "loose",
+    "name": "Village between the precincts",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5847,
+      2607
+     ],
+     [
+      6148,
+      2219
+     ],
+     [
+      6389,
+      2385
+     ],
+     [
+      6218,
+      2641
+     ]
+    ],
+    "density": "loose",
+    "name": "Quay village",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4463,
+      5259
+     ],
+     [
+      4593,
+      4948
+     ],
+     [
+      4965,
+      5048
+     ],
+     [
+      4824,
+      5437
+     ]
+    ],
+    "density": "dense",
+    "name": "Village of Luxor",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4313,
+      4860
+     ],
+     [
+      4463,
+      4593
+     ],
+     [
+      4644,
+      4660
+     ],
+     [
+      4543,
+      4860
+     ]
+    ],
+    "density": "dense",
+    "name": "Luxor landing",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      852,
+      3084
+     ],
+     [
+      1153,
+      2996
+     ],
+     [
+      1214,
+      3218
+     ],
+     [
+      913,
+      3329
+     ]
+    ],
+    "density": "loose",
+    "name": "Outside Djeme",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1805,
+      2463
+     ],
+     [
+      1956,
+      2274
+     ],
+     [
+      2176,
+      2419
+     ],
+     [
+      2006,
+      2607
+     ]
+    ],
+    "density": "loose",
+    "name": "Memnonia",
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4664,
+      3051
+     ],
+     [
+      4664,
+      2663
+     ],
+     [
+      4944,
+      2663
+     ],
+     [
+      4864,
+      3051
+     ]
+    ],
+    "density": "loose",
+    "name": "West-bank landing",
+    "periods": [
+     "roman-200"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      2457,
+      2330
+     ],
+     [
+      2758,
+      1942
+     ],
+     [
+      3460,
+      2164
+     ],
+     [
+      3159,
+      2552
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of the west"
+   },
+   {
+    "polygon": [
+     [
+      3460,
+      3439
+     ],
+     [
+      3761,
+      2996
+     ],
+     [
+      4463,
+      3162
+     ],
+     [
+      4162,
+      3661
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves by the landing"
+   },
+   {
+    "polygon": [
+     [
+      6068,
+      4438
+     ],
+     [
+      6469,
+      4105
+     ],
+     [
+      6970,
+      4327
+     ],
+     [
+      6569,
+      4660
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens of Amun"
+   },
+   {
+    "polygon": [
+     [
+      3761,
+      1997
+     ],
+     [
+      3911,
+      1664
+     ],
+     [
+      4463,
+      1775
+     ],
+     [
+      4313,
+      2086
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyard of the west",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4864,
+      5714
+     ],
+     [
+      5115,
+      5270
+     ],
+     [
+      5566,
+      5437
+     ],
+     [
+      5316,
+      5880
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palms of Luxor"
+   },
+   {
+    "polygon": [
+     [
+      4262,
+      999
+     ],
+     [
+      4463,
+      610
+     ],
+     [
+      5165,
+      777
+     ],
+     [
+      4965,
+      1165
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of Qurna"
+   },
+   {
+    "polygon": [
+     [
+      3260,
+      4105
+     ],
+     [
+      3460,
+      3717
+     ],
+     [
+      4062,
+      3883
+     ],
+     [
+      3861,
+      4238
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palm groves of the southern plain"
+   },
+   {
+    "polygon": [
+     [
+      4262,
+      2330
+     ],
+     [
+      4463,
+      1942
+     ],
+     [
+      5065,
+      2086
+     ],
+     [
+      4864,
+      2441
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards by the river"
+   },
+   {
+    "polygon": [
+     [
+      5767,
+      5714
+     ],
+     [
+      5967,
+      5326
+     ],
+     [
+      6469,
+      5492
+     ],
+     [
+      6268,
+      5880
+     ]
+    ],
+    "kind": "vineyard",
+    "name": "Vineyards of the estate of Amun",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6870,
+      1664
+     ],
+     [
+      7021,
+      1220
+     ],
+     [
+      7321,
+      1331
+     ],
+     [
+      7191,
+      1753
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens north of Karnak"
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      6068,
+      644
+     ],
+     [
+      6308,
+      111
+     ],
+     [
+      6469,
+      200
+     ],
+     [
+      6248,
+      710
+     ]
+    ],
+    "name": "Papyrus thickets"
+   },
+   {
+    "polygon": [
+     [
+      1956,
+      5880
+     ],
+     [
+      2257,
+      5215
+     ],
+     [
+      3059,
+      5414
+     ],
+     [
+      2758,
+      6036
+     ]
+    ],
+    "name": "Flood basin of the south-west"
+   },
+   {
+    "polygon": [
+     [
+      953,
+      4238
+     ],
+     [
+      2858,
+      4371
+     ],
+     [
+      2858,
+      4771
+     ],
+     [
+      953,
+      4638
+     ]
+    ],
+    "name": "Silted Birket Habu",
+    "periods": [
+     "late-period-600",
+     "roman-200"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "ipet-isut",
+    "name": "Ipet-isut (Karnak)",
+    "polygon": [
+     [
+      5917,
+      2496
+     ],
+     [
+      7121,
+      2496
+     ],
+     [
+      7121,
+      3939
+     ],
+     [
+      5717,
+      3939
+     ]
+    ],
+    "description": "'The most select of places': the temple city of Amun-Ra with the precincts of Montu and Mut, its estates, workshops, granaries and priests' houses, and the old town of Waset round it."
+   },
+   {
+    "id": "ipet-resyt",
+    "name": "Ipet-resyt (Luxor)",
+    "polygon": [
+     [
+      4162,
+      4549
+     ],
+     [
+      4764,
+      4549
+     ],
+     [
+      4864,
+      5880
+     ],
+     [
+      3962,
+      5880
+     ]
+    ],
+    "description": "'The southern sanctuary': the temple where Amun of Karnak came each year at the Opet festival, and the quarter round it. In Roman times a legion camp, later the village of Luxor (al-Uqsur, 'the castles').",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "id": "waset",
+    "name": "Waset",
+    "polygon": [
+     [
+      5015,
+      3550
+     ],
+     [
+      5767,
+      3550
+     ],
+     [
+      5165,
+      4882
+     ],
+     [
+      4413,
+      4882
+     ]
+    ],
+    "description": "The town along the processional way between the two temples: houses, markets and workshops of the city of Amun, whose full extent is still unknown under modern Luxor.",
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "id": "west-of-thebes",
+    "name": "The West of Thebes",
+    "polygon": [
+     [
+      251,
+      333
+     ],
+     [
+      2457,
+      333
+     ],
+     [
+      2457,
+      3218
+     ],
+     [
+      251,
+      3218
+     ]
+    ],
+    "description": "The city of the dead: royal tombs in the valleys, officials' tombs in the foothills, the kings' mortuary temples along the desert edge, and the villages of those who built and served them."
+   },
+   {
+    "id": "memnonia",
+    "name": "Memnonia",
+    "polygon": [
+     [
+      451,
+      1664
+     ],
+     [
+      2257,
+      1664
+     ],
+     [
+      2257,
+      3218
+     ],
+     [
+      451,
+      3218
+     ]
+    ],
+    "description": "The Greek name of the west bank, after the 'Memnon' the tourists heard singing; the town of Djeme inside Medinet Habu was its centre.",
+    "periods": [
+     "roman-200"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Iteru",
+    "position": [
+     3911,
+     4327
+    ],
+    "size": "lg",
+    "rotation": -55,
+    "periods": [
+     "middle-kingdom-1950",
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600"
+    ]
+   },
+   {
+    "text": "Nile",
+    "position": [
+     3911,
+     4327
+    ],
+    "size": "lg",
+    "rotation": -55,
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "text": "Waset",
+    "position": [
+     5366,
+     4216
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600"
+    ]
+   },
+   {
+    "text": "Waset",
+    "position": [
+     6720,
+     3684
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "middle-kingdom-1950"
+    ]
+   },
+   {
+    "text": "Diospolis Magna",
+    "position": [
+     5366,
+     4216
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "text": "Ipet-isut",
+    "position": [
+     6870,
+     2419
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "Ipet-resyt",
+    "position": [
+     4463,
+     5437
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "text": "The West",
+    "position": [
+     3059,
+     2330
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "middle-kingdom-1950",
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600"
+    ]
+   },
+   {
+    "text": "Memnonia",
+    "position": [
+     3059,
+     2330
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "roman-200"
+    ]
+   },
+   {
+    "text": "Djeser-djeseru",
+    "position": [
+     1555,
+     1220
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250",
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "text": "Ta Set Maat",
+    "position": [
+     351,
+     1664
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "hatshepsut-1470",
+     "ramesside-1250"
+    ]
+   },
+   {
+    "text": "Djeme",
+    "position": [
+     1053,
+     3273
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "late-period-600",
+     "roman-200"
+    ]
+   },
+   {
+    "text": "Birket Habu",
+    "position": [
+     1956,
+     4826
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ramesside-1250"
+    ]
+   },
+   {
+    "text": "el-Qurn",
+    "position": [
+     100,
+     1664
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "middle-kingdom-1950",
+     "late-period-600",
+     "roman-200"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D6AA",
+   "ink": "#6B4A30",
+   "water": "#5E8A86",
+   "hill": "#A88E62",
+   "road": "#8C6A48"
+  },
+  "compass": [
+   7071,
+   333
+  ],
+  "cartouche": [
+   201,
+   6047
+  ]
+ },
+ "periods": [
+  {
+   "id": "middle-kingdom-1950",
+   "label": "Middle Kingdom Waset",
+   "year": -1950,
+   "startYear": -2055,
+   "endYear": -1550,
+   "summary": "A provincial town of Upper Egypt whose princes, the Mentuhoteps, reunited the country about 2040 BCE. Under the 12th dynasty Senusret I builds the first stone temple of Amun at Karnak and the White Chapel for his jubilee; the court soon moves north, but Thebes keeps its god. Mud-brick town, limestone temples, Mentuhotep's terraced tomb-temple under the western cliffs.",
+   "population": "perhaps 10,000–20,000",
+   "feel": "Mud and dung smoke at dawn, oxen on the threshing floors, a new white limestone shrine gleaming over the brick roofs, and the cliffs of the west turning pink at sunset.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Brick houses of Waset",
+    "text": "Houses of sun-dried Nile mud brick, plastered and whitewashed, a few rooms round a yard with a bread oven and a grain bin; flat roofs of palm logs and reeds where families slept in summer. The town lay on a mound above the flood, round the temple."
+   },
+   "outskirts": {
+    "title": "Farmsteads and threshing floors",
+    "text": "Beyond the town, farmsteads of mud brick among palms and fields of emmer and barley, threshing floors, dovecotes and cattle pens, all on the higher ground the flood did not reach."
+   }
+  },
+  {
+   "id": "hatshepsut-1470",
+   "label": "Hatshepsut's Thebes",
+   "year": -1470,
+   "startYear": -1549,
+   "endYear": -1391,
+   "summary": "The religious capital of an empire. After Ahmose drove out the Hyksos, Theban kings pour the spoils of Nubia and Syria into Amun's temple. Hatshepsut (c. 1479–1458) raises obelisks and the Red Chapel at Karnak, builds the eighth pylon and barque shrines along the road to Luxor, and her terraced temple at Deir el-Bahari. The kings are now buried in the Valley of the Kings.",
+   "population": "perhaps 40,000–60,000",
+   "feel": "Gilded obelisk tips flashing over the town, the drums and sistra of the Opet procession, ships from Punt unloading incense trees, sculptors' chisels ringing on the west bank.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Town houses of Waset",
+    "text": "Two- and three-storey houses of mud brick packed along lanes: a ground floor for storage, weaving and animals, living rooms above, a stair to the roof and its grain silos. Officials' houses have a columned hall, a garden pool and painted walls."
+   },
+   "outskirts": {
+    "title": "Estates of Amun",
+    "text": "Fields, orchards and cattle stations of the temple of Amun, with the farmhouses of its tenants; on the west bank, the camps of quarrymen and the workshops building Hatshepsut's temple."
+   }
+  },
+  {
+   "id": "ramesside-1250",
+   "label": "Thebes of Ramesses II",
+   "year": -1250,
+   "startYear": -1390,
+   "endYear": -1070,
+   "summary": "The Thebes of the 'Temples of Karnak and Luxor': Amenhotep III's colonnades and colossi, and after Akhenaten's heresy the restored cult of Amun, whose temple now owns a vast share of Egypt's land. Ramesses II finishes the Great Hypostyle Hall, adds Luxor's pylon, obelisks and court, and builds the Ramesseum. The kings live in the north; Thebes is the city of the gods and the dead.",
+   "population": "perhaps 50,000–80,000",
+   "feel": "Painted pylons with fluttering pennants on their flagstaffs, incense and roasting meat at the temple gates, ferries crowded with workmen, the clack of looms in the temple workshops.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of the city of Amun",
+    "text": "Narrow mud-brick houses of two or three storeys built wall to wall, whitewashed, with small high windows, wooden doors painted red, and roofs crowded with ovens, grain bins and awnings. Priests and scribes live in larger houses with a columned reception room."
+   },
+   "outskirts": {
+    "title": "Temple estates and villages",
+    "text": "Villages of farmers who work the temple fields, with threshing floors, palm groves and pigeon towers; on the west bank, the settlements of the mortuary temples' staff along the desert edge."
+   }
+  },
+  {
+   "id": "late-period-600",
+   "label": "Thebes of the God's Wives",
+   "year": -600,
+   "startYear": -1069,
+   "endYear": -333,
+   "summary": "After the New Kingdom, Thebes is ruled by the high priests of Amun, then by the God's Wives of Amun: royal princesses, Kushite and then Saite, who govern the city as the god's consorts. Taharqa builds his kiosk at Karnak; the Assyrians sack Thebes in 664 BCE. A smaller city of priests and officials, with tombs for the God's Wives at Medinet Habu.",
+   "population": "perhaps 20,000–40,000",
+   "feel": "Bald-headed priests with their temple tallies, Nubian soldiers at the gates, scorched blocks from the Assyrian sack in the rubble, brick tower-tombs of the officials on the west bank.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Tower houses of the priests",
+    "text": "Tall narrow houses of mud brick on the old town mounds, built over the rubble of earlier ones and rising higher each rebuilding; priests' houses cluster against the temple enclosures, where the God's Wives and their stewards have their own estates."
+   },
+   "outskirts": {
+    "title": "Mounds and fields",
+    "text": "Abandoned quarters of the New Kingdom city turned to rubbish mounds and fields; small hamlets of farmers, and on the west bank the walled town round Medinet Habu."
+   }
+  },
+  {
+   "id": "roman-200",
+   "label": "Roman Diospolis Magna",
+   "year": 200,
+   "startYear": -332,
+   "endYear": 400,
+   "summary": "Greek Diospolis Magna: after the revolts against the Ptolemies and the sack of 88 BCE, 'Great Thebes' is a scatter of villages among its temples, as Strabo saw it in about 25 BCE. Priests still serve Amun at Karnak; tourists come to hear the singing Colossus of Memnon and visit the royal tombs. Around 300 CE the Romans build a legion camp inside Luxor temple.",
+   "population": "a few thousand in several villages",
+   "feel": "Greek and Demotic in the same lane, tourists scratching their names on the colossus at dawn, priests in linen at Karnak's gates, mud-brick villages piled against the temple walls.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Village houses among the temples",
+    "text": "Mud-brick houses of two or three storeys with vaulted rooms and dovecotes on the roofs, built against and even inside the old temples, on the rubble of the pharaonic city; Greek-style columns appear in a few richer houses."
+   },
+   "outskirts": {
+    "title": "Villages of the Memnonia",
+    "text": "On the west bank the villages of the 'Memnonia' and Djeme among the ruined temples; on both banks, fields, palm groves and threshing floors where the old city once stood."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "karnak",
+   "placeId": "ipet-isut",
+   "name": "Karnak: Precinct of Amun-Ra (Ipet-isut)",
+   "category": "temple",
+   "position": [
+    6298,
+    3018
+   ],
+   "rotation": 116,
+   "footprint": [
+    500.0,
+    580.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/karnak.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 500,
+     "depth": 580,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 50.0,
+     "columnHeight": 200.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "name": "Temple of Amun of Senusret I",
+     "confidence": "reconstruction",
+     "note": "Senusret I's limestone temple of Amun, perhaps 40 m square with a portico of pillars, behind a brick enclosure; his White Chapel for the jubilee stands before it. Waset's houses press close.",
+     "model": {
+      "glb": "models/thebes/karnak-1950.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 500,
+       "depth": 580,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 50.0,
+       "columnHeight": 200.0
+      }
+     }
+    },
+    "hatshepsut-1470": {
+     "confidence": "reconstruction",
+     "note": "Thutmose I's fourth and fifth pylons front the old temple; between them Hatshepsut's two obelisks, about 29.5 m, tipped with electrum. Her Red Chapel holds Amun's barque; her eighth pylon opens the road to Mut.",
+     "model": {
+      "glb": "models/thebes/karnak-1470.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 500,
+       "depth": 580,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 50.0,
+       "columnHeight": 200.0
+      }
+     }
+    },
+    "ramesside-1250": {
+     "note": "Horemheb's second pylon is the front; behind it the Great Hypostyle Hall, finished by Seti I and Ramesses II, then Amenhotep III's third pylon, the obelisk courts, Thutmose III's festival hall, the sacred lake and the southern pylons."
+    },
+    "late-period-600": {
+     "confidence": "reconstruction",
+     "note": "Taharqa's kiosk of ten columns stands in the forecourt and the Bubastite kings' portal on its south side. The great brick enclosure and the unfinished first pylon are 30th-dynasty work, shown here as complete by about 350 BCE.",
+     "model": {
+      "glb": "models/thebes/karnak-late.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 500,
+       "depth": 580,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 50.0,
+       "columnHeight": 200.0
+      }
+     }
+    },
+    "roman-200": {
+     "note": "Still a working temple, served by Amun's priests in a shrunken town. Ptolemaic gateways and the temple of Opet stand by the Khonsu temple; a Greek bath house was built by the quay. The first pylon was never finished.",
+     "model": {
+      "glb": "models/thebes/karnak-late.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 500,
+       "depth": 580,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 50.0,
+       "columnHeight": 200.0
+      }
+     }
+    }
+   },
+   "summary": "The largest temple of ancient Egypt: two thousand years of building for Amun-Ra, king of the gods, along two axes of pylons, courts and halls inside a brick enclosure of some 25 hectares.",
+   "details": [
+    "Kings from the Middle Kingdom to the Ptolemies added to Ipet-isut. The main axis runs from the river through six pylons to the barque sanctuary and Thutmose III's festival hall; a second runs south through four pylons toward Mut. The Great Hypostyle Hall has 134 sandstone columns, the central twelve about 21 m tall, under a clerestory.",
+    "The miniature shows the precinct about 1250 BCE: the quay avenue of rams, the second pylon, the hypostyle hall with its raised nave, the obelisks, the inner pylons, the festival hall, the sacred lake and the southern pylons. Wall heights, the brick enclosure and the priests' houses are simplified; colours stand for faded paint."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-karnak",
+    "wiki-hypostyle",
+    "blyth-karnak",
+    "wilkinson-temples",
+    "lacau-chevrier-white",
+    "lacau-chevrier-red"
+   ],
+   "built": "c. 1950 BCE–30 BCE (main phases 1500–1150 BCE)",
+   "function": "Temple of Amun-Ra; treasury and centre of the god's estates",
+   "activity": {
+    "figures": 120,
+    "radius": 420
+   }
+  },
+  {
+   "id": "karnak-quay",
+   "placeId": "karnak-harbour",
+   "name": "Quay and harbour of Karnak",
+   "category": "commercial",
+   "position": [
+    5984,
+    2808
+   ],
+   "rotation": 116,
+   "footprint": [
+    140.0,
+    162.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/karnak-quay.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 140,
+      "depth": 160
+     },
+     "buildings": [
+      {
+       "offset": [
+        -35.0,
+        -40.0
+       ],
+       "width": 42.0,
+       "depth": 48.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        35.0,
+        32.0
+       ],
+       "width": 42.0,
+       "depth": 48.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "The temple's landing is probably a simple sloping bank on a river channel then closer to the temple; nothing of it has been found."
+    },
+    "hatshepsut-1470": {
+     "note": "A harbour basin before the temple, joined to the river by a canal. Hatshepsut's obelisks, quarried at Aswan, would have come ashore near here on a huge barge that reliefs show towed by a fleet of rowing boats.",
+     "confidence": "reconstruction"
+    },
+    "ramesside-1250": {
+     "note": "The canal, the basin and the stone landing ramp with its rams: the god's gilded barque Userhat moored here at the great festivals; cargo boats unloaded grain for Amun's granaries."
+    },
+    "late-period-600": {
+     "note": "Priests carve the height of high floods on the quay walls, with the king's name and year; the records run from about the 10th to the 7th century BCE."
+    },
+    "roman-200": {
+     "note": "The river has drawn away and the basin is silting; a round Greek bath house of the Ptolemaic period stands by the quay, with the village crowding the old harbour."
+    }
+   },
+   "summary": "The harbour in front of Amun's temple: a canal from the Nile, a basin for the god's barque and the boats of the temple estates, and a stone landing stage with a short avenue of rams to the temple gate.",
+   "details": [
+    "Excavations from the 2000s and cores in the floodplain show the river once flowed much closer to Karnak, and that a canal and harbour served the temple. The stone landing stage ('tribune') in front of the first pylon carries flood records of about the 10th to 7th centuries BCE; when it was first built is debated.",
+    "The miniature shows the basin with moored boats, the ramp, the tribune with its pair of small obelisks and the rams leading to the temple, with storehouses on the quay. The basin's size and the storehouses are interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-karnak",
+    "blyth-karnak",
+    "graham-karnak-floodplain"
+   ],
+   "built": "New Kingdom and later (dates debated)",
+   "function": "Temple harbour and landing stage",
+   "activity": {
+    "figures": 50,
+    "radius": 200
+   }
+  },
+  {
+   "id": "mut-precinct",
+   "placeId": "isheru",
+   "name": "Precinct of Mut",
+   "category": "temple",
+   "position": [
+    5927,
+    3661
+   ],
+   "rotation": -154,
+   "footprint": [
+    260.0,
+    330.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/mut-precinct.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 260,
+     "depth": 330,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 26.0,
+     "columnHeight": 104.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "Mut is already Amun's consort, but no temple of hers is known here yet; the Isheru lake may be old, as the name is."
+    },
+    "hatshepsut-1470": {
+     "note": "Hatshepsut builds for Mut, whose rites she favoured; what stood is known mostly from her reused blocks and inscriptions. The model shows the later layout.",
+     "confidence": "reconstruction"
+    },
+    "ramesside-1250": {
+     "note": "Amenhotep III has filled the precinct with hundreds of granite statues of the lioness Sekhmet, Mut's raging form, perhaps one or two for each day of the year."
+    },
+    "late-period-600": {
+     "note": "Montuemhat, the 'Prince of Thebes' who outlived the Assyrian sack, restores Mut's temple; Taharqa builds a gate and a temple here. Priests and the God's Wife's staff live round the lake."
+    },
+    "roman-200": {
+     "note": "Ptolemaic kings rebuilt the gateway; the temple is still served, but the precinct is filling with houses and the lake with silt."
+    }
+   },
+   "summary": "The temple of Mut, Amun's consort, the mother goddess and lioness, with its crescent-shaped sacred lake, the Isheru, curving round the temple's south end.",
+   "details": [
+    "Mut's precinct lies south of Amun's, joined to it by the avenue of rams. Its horseshoe lake curved round three sides of the temple; Mut's 'Festival of Drunkenness', recalling the calming of the raging lioness with red beer, was held here. Amenhotep III set up hundreds of Sekhmet statues in the precinct.",
+    "The miniature shows the gate, the courts and hall of the temple, the crescent lake, a row of Sekhmet statues and a smaller temple beside it inside a brick enclosure. Excavation since the 1970s keeps revising the plan, which is simplified here."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mut-precinct",
+    "fazzini-mut",
+    "wilkinson-temples",
+    "blyth-karnak"
+   ],
+   "built": "c. 1470–30 BCE",
+   "function": "Temple of Mut",
+   "activity": {
+    "figures": 30,
+    "radius": 180
+   }
+  },
+  {
+   "id": "montu-precinct",
+   "placeId": "montu",
+   "name": "Precinct of Montu",
+   "category": "temple",
+   "position": [
+    6459,
+    2685
+   ],
+   "rotation": -154,
+   "footprint": [
+    160.0,
+    170.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/montu-precinct.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 160,
+     "depth": 170,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 16.0,
+     "columnHeight": 64.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "Montu, the falcon-headed war god, was lord of Thebes before Amun; an older shrine of his stood north of Amun's temple. Amenhotep III will replace it about 1370 BCE."
+    },
+    "ramesside-1250": {
+     "note": "Amenhotep III's temple of Montu, with a columned portico and its own sacred lake, faces north along a sphinx-lined road to its harbour."
+    },
+    "late-period-600": {
+     "note": "Kushite and Saite kings repair it; Taharqa adds columns to the portico."
+    },
+    "roman-200": {
+     "note": "Ptolemy III's tall gateway leads into the precinct; Montu, the warrior, is identified with Greek Apollo."
+    }
+   },
+   "summary": "The precinct of the falcon-headed war god Montu, the old lord of Thebes, north of Amun's temple, with the temple Amenhotep III built for him.",
+   "details": [
+    "Montu's cult was older at Thebes than Amun's: the Mentuhotep kings who reunited Egypt were named after him. Amenhotep III built the main temple; later kings added a portico, a temple of Maat and a sacred lake. A road of sphinxes ran north from its gate.",
+    "The miniature shows the brick enclosure, the gate, the temple with its portico and a sacred lake. The precinct is poorly preserved and the layout follows the usual reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-montu-precinct",
+    "wilkinson-temples",
+    "blyth-karnak"
+   ],
+   "built": "c. 1370 BCE, later additions",
+   "function": "Temple of Montu",
+   "activity": {
+    "figures": 16,
+    "radius": 120
+   }
+  },
+  {
+   "id": "town-of-thebes",
+   "placeId": "waset-town",
+   "name": "Town mound of Waset",
+   "category": "district",
+   "position": [
+    6690,
+    3229
+   ],
+   "rotation": 116,
+   "footprint": [
+    260.0,
+    220.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/town-of-thebes.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 260,
+      "depth": 220
+     },
+     "buildings": [
+      {
+       "offset": [
+        -65.0,
+        -55.0
+       ],
+       "width": 78.0,
+       "depth": 66.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        65.0,
+        44.0
+       ],
+       "width": 78.0,
+       "depth": 66.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "The heart of the Middle Kingdom town: houses on a planned grid have been excavated east of Amun's sacred lake, inside the later enclosure."
+    },
+    "hatshepsut-1470": {
+     "note": "The old town is built over as the temple grows; houses of priests and craftsmen and the workshops of Amun's estate stand on the mound."
+    },
+    "ramesside-1250": {
+     "note": "A crowded mound of houses, bakeries and stores east of the temple; Akhenaten's great temples to the Aten stood just east of here until Horemheb pulled them down."
+    },
+    "late-period-600": {
+     "note": "Houses rebuilt again and again on the rubble, each storey higher; the mound shows burned layers of the Assyrian sack of 664 BCE."
+    },
+    "roman-200": {
+     "note": "A village of mud-brick houses with dovecotes on top of two thousand years of ruins, the 'Great Thebes' Strabo found broken into villages."
+    }
+   },
+   "summary": "The town mound east of Karnak: houses rebuilt on the ruins of earlier houses for two thousand years until the town stood metres above the plain.",
+   "details": [
+    "Where most Thebans lived is still unknown under modern Luxor. Excavations east of Amun's sacred lake and inside the precinct found Middle Kingdom houses on a grid and Late Period houses with tall walls on deep foundations; Akhenaten's Aten temples lay just east.",
+    "The miniature is an interpretation: a rising mound of flat-roofed brick houses, yards and granaries with lanes between them, and palms. Its size and plan are not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-thebes",
+    "kemp-ancient-egypt",
+    "blyth-karnak"
+   ],
+   "built": "c. 2000 BCE onward",
+   "function": "Town quarter",
+   "activity": {
+    "figures": 60,
+    "radius": 200
+   }
+  },
+  {
+   "id": "avenue-of-sphinxes",
+   "placeId": "dromos",
+   "name": "Avenue of Sphinxes",
+   "category": "monument",
+   "position": [
+    5009,
+    4313
+   ],
+   "rotation": 43,
+   "footprint": [
+    32.0,
+    300.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/avenue-of-sphinxes.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 32,
+     "depth": 300,
+     "height": 12.8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "name": "Processional way of Amun",
+     "confidence": "reconstruction",
+     "note": "A raised road between Karnak and Luxor for the Opet festival, with brick walls and trees; the god's bearers rest at Hatshepsut's barque shrines along it.",
+     "model": {
+      "glb": "models/thebes/processional-way.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 32,
+       "depth": 300,
+       "height": 12.8,
+       "roof": "flat"
+      }
+     }
+    },
+    "ramesside-1250": {
+     "name": "Processional way of Amun",
+     "confidence": "reconstruction",
+     "note": "The same road, with sphinxes near the temples; Ramesses II's Opet processions pass along it with soldiers, dancers and acrobats.",
+     "model": {
+      "glb": "models/thebes/processional-way.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 32,
+       "depth": 300,
+       "height": 12.8,
+       "roof": "flat"
+      }
+     }
+    },
+    "late-period-600": {
+     "name": "Processional way of Amun",
+     "confidence": "reconstruction",
+     "note": "The old road, probably much repaired after 664 BCE. Nectanebo I (380–362 BCE) will rebuild it as the paved avenue of sphinxes.",
+     "model": {
+      "glb": "models/thebes/processional-way.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 32,
+       "depth": 300,
+       "height": 12.8,
+       "roof": "flat"
+      }
+     }
+    },
+    "roman-200": {
+     "note": "Nectanebo's sphinx avenue, about 2.7 km long. Roman Thebans built houses, kilns and wine presses over stretches of it."
+    }
+   },
+   "summary": "The paved processional avenue between Karnak and Luxor, lined on both sides by sphinxes with Nectanebo I's face, along which Amun travelled each year at the Opet festival.",
+   "details": [
+    "A route between the two temples existed by the 18th dynasty: Hatshepsut's Red Chapel shows the barque going to Luxor by land, past six barque stations, and back by river. Nectanebo I (380–362 BCE) rebuilt the road as a paved dromos lined with over a thousand sphinxes; it was excavated from 1949 and reopened in full in 2021.",
+    "The miniature shows a 300 m stretch of the paved avenue with its two rows of sphinxes and low side walls. The earlier variant shows the processional road, whose form is not well known."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-avenue-sphinxes",
+    "wiki-opet",
+    "lacau-chevrier-red"
+   ],
+   "built": "New Kingdom route; sphinx avenue c. 380 BCE",
+   "function": "Processional way",
+   "activity": {
+    "figures": 40,
+    "radius": 200
+   }
+  },
+  {
+   "id": "opet-shrine",
+   "placeId": "barque-station",
+   "name": "Barque station of Hatshepsut",
+   "category": "religious",
+   "position": [
+    5493,
+    3787
+   ],
+   "rotation": 43,
+   "footprint": [
+    25.0,
+    34.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/thebes/opet-shrine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 24,
+     "depth": 34,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "One of six rest stations Hatshepsut built along the road to Luxor: the bearers set down the god's barque on its stand, and priests offered incense and water."
+    },
+    "ramesside-1250": {
+     "note": "Probably still standing beside the road; Ramesses II rebuilt Hatshepsut's barque shrine at Luxor into his new court.",
+     "confidence": "interpretation"
+    },
+    "late-period-600": {
+     "note": "Gone: the barque stations of the road were demolished or buried; Nectanebo's avenue will be laid over the route."
+    }
+   },
+   "summary": "A small pillared chapel on a platform with ramps, where the priests carrying Amun's barque rested on the way from Karnak to Luxor at the Opet festival.",
+   "details": [
+    "The Red Chapel shows six barque stations on the road to Luxor, each with a name of Hatshepsut's devising. None survives in place; the type is known from the shrine re-erected in Luxor's first court and from other barque stations.",
+    "The miniature shows a peripteral chapel of square pillars on a podium with ramps at both ends and the barque on its stand inside. Its place on the route is an interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-opet",
+    "lacau-chevrier-red",
+    "wiki-red-chapel"
+   ],
+   "built": "c. 1470 BCE",
+   "function": "Barque rest station",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "luxor-temple",
+   "placeId": "ipet-resyt",
+   "name": "Luxor Temple (Ipet-resyt)",
+   "category": "temple",
+   "position": [
+    4373,
+    5048
+   ],
+   "rotation": -150,
+   "footprint": [
+    120.0,
+    290.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/luxor-temple.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 120,
+     "depth": 290,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 12.0,
+     "columnHeight": 48.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "Reused blocks suggest a Middle Kingdom shrine at the southern sanctuary, but nothing of it stands; this is a riverside village."
+    },
+    "hatshepsut-1470": {
+     "confidence": "reconstruction",
+     "note": "An earlier, smaller temple of Amun's southern sanctuary, with Hatshepsut's barque shrine for the Opet festival in front; Amenhotep III will rebuild it entirely.",
+     "model": {
+      "glb": "models/thebes/luxor-1470.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 120,
+       "depth": 290,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 12.0,
+       "columnHeight": 48.0
+      }
+     }
+    },
+    "ramesside-1250": {
+     "note": "Ramesses II has added the court and the pylon, with six colossi of himself and two obelisks of 25 and 23 m in front, to Amenhotep III's colonnade, sun court and sanctuaries."
+    },
+    "late-period-600": {
+     "note": "The temple stands as Ramesses left it; the Kushites and Saites add little. Nectanebo I will build the sphinx avenue to its gate."
+    },
+    "roman-200": {
+     "confidence": "reconstruction",
+     "note": "About 300 CE the Romans wall the temple into a legion camp; a hall becomes a shrine of the emperors with painted frescoes. Here shown with the camp walls, a century after this map's date.",
+     "model": {
+      "glb": "models/thebes/luxor-roman.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 120,
+       "depth": 290,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 12.0,
+       "columnHeight": 48.0
+      }
+     }
+    }
+   },
+   "summary": "Amun's southern sanctuary, where the god of Karnak came each year at the Opet festival, built by Amenhotep III and fronted by Ramesses II's pylon, obelisks and colossi.",
+   "details": [
+    "Amenhotep III (c. 1390–1352 BCE) built the temple's core: the sanctuaries, the hypostyle, the great sun court and a colonnade of fourteen papyrus columns some 19 m tall. Ramesses II added the first court and the pylon, angled to meet the road from Karnak, with two obelisks; the western one has stood in Paris's Place de la Concorde since 1836.",
+    "The miniature shows the pylon with flagstaffs, two obelisks, the seated and standing colossi, the Ramesside court, the colonnade, the sun court and the roofed temple behind. Painted decoration and the Roman and later additions are omitted."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-luxor-temple",
+    "wiki-luxor-obelisk",
+    "bell-luxor",
+    "wilkinson-temples",
+    "jones-mcfadden-luxor"
+   ],
+   "built": "c. 1390–1250 BCE",
+   "function": "Temple of Amun of Opet and the royal ka",
+   "activity": {
+    "figures": 80,
+    "radius": 250
+   }
+  },
+  {
+   "id": "deir-el-bahari",
+   "placeId": "djeser-djeseru",
+   "name": "Deir el-Bahari: Djeser-djeseru",
+   "category": "temple",
+   "position": [
+    1133,
+    799
+   ],
+   "rotation": -64,
+   "footprint": [
+    240.0,
+    280.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/deir-el-bahari.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 240,
+     "depth": 280,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 24.0,
+     "columnHeight": 96.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "name": "Temple of Mentuhotep II",
+     "confidence": "reconstruction",
+     "note": "Mentuhotep II's tomb-temple under the cliff: terraces with pillared walks round a central block, perhaps topped by a mound or pyramid, and a grove of sycamores and tamarisks in front.",
+     "model": {
+      "glb": "models/thebes/deir-el-bahari-1950.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 240,
+       "depth": 280,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 24.0,
+       "columnHeight": 96.0
+      }
+     }
+    },
+    "hatshepsut-1470": {
+     "note": "Hatshepsut's 'Holiest of Holies' rises beside Mentuhotep's temple: three terraces joined by ramps, colonnades carved with her divine birth and the Punt expedition, the sanctuary cut into the cliff."
+    },
+    "ramesside-1250": {
+     "note": "Thutmose III has hacked out Hatshepsut's figures and names; Ramesses II's men repair Akhenaten's damage. The temples still receive Amun at the Valley Festival."
+    },
+    "late-period-600": {
+     "note": "Priests of the 21st–25th dynasties are buried in tombs in the temple courts; the terraces are partly buried by rockfall and sand."
+    },
+    "roman-200": {
+     "note": "A Ptolemaic sanctuary of the deified sages Imhotep and Amenhotep son of Hapu draws the sick to Hatshepsut's upper terrace for healing dreams."
+    }
+   },
+   "summary": "Hatshepsut's terraced temple under the cliffs of the west bank, beside the older tomb-temple of Mentuhotep II, aligned across the river with Karnak.",
+   "details": [
+    "Senenmut is credited with the queen's temple, begun about 1479 BCE: ramps rise through three terraces fronted by square pillars to a court and a sanctuary cut into the rock. The reliefs show her divine birth and a trading voyage to Punt. Mentuhotep II's temple of about 2000 BCE beside it inspired the design.",
+    "The miniature shows Hatshepsut's terraces, ramps and colonnades, the Hathor and Anubis chapels and the upper court, with Mentuhotep's temple to the south and the cliffs behind. Gardens, sphinxes and statues are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-deir-el-bahari",
+    "wiki-hatshepsut-temple",
+    "wiki-mentuhotep-temple",
+    "naville-deir-el-bahari",
+    "arnold-mentuhotep"
+   ],
+   "built": "c. 2010 BCE (Mentuhotep II); c. 1479–1458 BCE (Hatshepsut)",
+   "function": "Mortuary temples; shrine of Amun and Hathor",
+   "activity": {
+    "figures": 40,
+    "radius": 250
+   }
+  },
+  {
+   "id": "valley-of-the-kings",
+   "placeId": "ta-sekhet-aat",
+   "name": "Valley of the Kings",
+   "category": "monument",
+   "position": [
+    501,
+    466
+   ],
+   "rotation": -30,
+   "footprint": [
+    120.0,
+    200.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/valley-of-the-kings.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 200,
+     "height": 48.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "An empty desert wadi: Middle Kingdom kings were buried in the north part of the necropolis and in the north of Egypt."
+    },
+    "hatshepsut-1470": {
+     "note": "Thutmose I was probably the first king buried here; Hatshepsut's long tomb curves deep into the rock. The entrances are hidden and guarded."
+    },
+    "ramesside-1250": {
+     "note": "The workmen of Deir el-Medina are cutting Ramesses II's tomb and the vast tomb of his sons (KV5), and painting the corridors with the books of the underworld."
+    },
+    "late-period-600": {
+     "note": "Robbed long ago: at the end of the New Kingdom the priests moved the royal mummies to hidden caches. Some tombs stand open, used by squatters."
+    },
+    "roman-200": {
+     "note": "A tourist sight: Greek and Roman visitors leave over two thousand graffiti in the open tombs, most of them in Ramesses VI's, which they took for Memnon's."
+    }
+   },
+   "summary": "The wadi behind the western cliffs where the kings of the New Kingdom, from about 1500 to 1070 BCE, were buried in tombs cut deep into the rock.",
+   "details": [
+    "Some 64 tombs are known, from small pits to corridors over 100 m long, decorated with the books of the underworld. Built by the workmen of Deir el-Medina and guarded by the necropolis police, nearly all were robbed in antiquity; Tutankhamun's, found in 1922, is the exception.",
+    "The miniature shows a stretch of the valley floor between rock slopes, the doorways of several tombs with their spoil heaps, the guards' and workmen's huts and a path. The valley is compressed to fit."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-valley-kings",
+    "reeves-wilkinson-valley",
+    "weeks-atlas"
+   ],
+   "built": "c. 1500–1070 BCE",
+   "function": "Royal necropolis",
+   "activity": {
+    "figures": 16,
+    "radius": 120
+   }
+  },
+  {
+   "id": "nobles-tombs",
+   "placeId": "sheikh-abd-el-qurna",
+   "name": "Tombs of the Nobles (Sheikh Abd el-Qurna)",
+   "category": "monument",
+   "position": [
+    1204,
+    1465
+   ],
+   "rotation": -80,
+   "footprint": [
+    200.0,
+    121.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/nobles-tombs.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 200,
+     "depth": 120,
+     "height": 48.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "Officials of Mentuhotep II and his successors cut their first tombs in the hills near Deir el-Bahari; this hillside is still mostly bare."
+    },
+    "hatshepsut-1470": {
+     "note": "The hill fills with the chapels of the new empire's officials: Senenmut, Rekhmire the vizier and others, their walls painted with harvests, banquets and foreign tribute."
+    },
+    "ramesside-1250": {
+     "note": "Ramesside officials build chapels with small brick pyramids over their courtyards; the families picnic at them during the Valley Festival."
+    },
+    "late-period-600": {
+     "note": "Great tombs of officials of the God's Wives, like Montuemhat's in the Asasif below, with brick pylons and sunken courts."
+    },
+    "roman-200": {
+     "note": "Many tombs are reused for later burials or as houses and stables."
+    }
+   },
+   "summary": "Hundreds of rock-cut tomb chapels of Theban officials in the foothills, their painted walls the best record of daily life in New Kingdom Egypt.",
+   "details": [
+    "More than 400 private tombs are numbered in the Theban necropolis. Each had a courtyard and a T-shaped chapel cut into the hill, where the family brought offerings, and a shaft to the burial chamber. Paintings show farming, crafts, banquets, funerals and tribute bearers.",
+    "The miniature shows a terraced hillside with courtyards, dark chapel doorways, small pyramids of brick over some of them and paths between. Individual tombs are not identified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tombs-nobles",
+    "strudwick-thebes"
+   ],
+   "built": "c. 2000 BCE onward, mostly 1500–1100 BCE",
+   "function": "Private tombs",
+   "activity": {
+    "figures": 14,
+    "radius": 120
+   }
+  },
+  {
+   "id": "ramesseum",
+   "placeId": "khnumt-waset",
+   "name": "The Ramesseum",
+   "category": "temple",
+   "position": [
+    1514,
+    1897
+   ],
+   "rotation": -56,
+   "footprint": [
+    181.2,
+    280.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/ramesseum.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 180,
+     "depth": 280,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 18.0,
+     "columnHeight": 72.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "Desert edge beyond the fields; Amenhotep II will build a small temple nearby. Ramesses II's temple is two centuries away."
+    },
+    "ramesside-1250": {
+     "note": "Just finished: two pylons carved with the battle of Kadesh, the seated colossus of Ramesses II, about 19 m and a thousand tonnes, courts of Osiris pillars, a hypostyle, and vaulted granaries all round."
+    },
+    "late-period-600": {
+     "note": "Already a quarry and a cemetery: priests of the 22nd dynasty are buried in its halls, and its storerooms are full of their tombs."
+    },
+    "roman-200": {
+     "confidence": "reconstruction",
+     "note": "Diodorus calls it the 'Tomb of Ozymandias'. The colossus lies broken in the court, the first pylon is collapsing and villagers quarry the granaries' bricks.",
+     "model": {
+      "glb": "models/thebes/ramesseum-ruin.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 180,
+       "depth": 280,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 18.0,
+       "columnHeight": 72.0
+      }
+     }
+    }
+   },
+   "summary": "The 'House of Millions of Years' of Ramesses II, his mortuary temple on the west bank, with pylons carved with the battle of Kadesh and the fallen colossus that inspired Shelley's 'Ozymandias'.",
+   "details": [
+    "Built in the first two decades of Ramesses II's reign (from about 1279 BCE), it had two pylons and courts, a 48-column hypostyle, a small palace for the king's visits and a ring of mud-brick vaulted storerooms holding grain and goods. Schoolboys' exercises show a scribal school here; its granaries stored the grain of the god's estates.",
+    "The miniature shows the pylons, the first court with the palace on its south side, the seated colossus, the Osiride court, the hypostyle and the brick magazines. Painted reliefs are omitted and the magazines simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ramesseum",
+    "wilkinson-temples",
+    "strudwick-thebes"
+   ],
+   "built": "c. 1279–1260 BCE",
+   "function": "Mortuary temple of Ramesses II",
+   "activity": {
+    "figures": 50,
+    "radius": 220
+   }
+  },
+  {
+   "id": "seti-qurna",
+   "placeId": "seti-temple",
+   "name": "Temple of Seti I at Qurna",
+   "category": "temple",
+   "position": [
+    3219,
+    1331
+   ],
+   "rotation": -80,
+   "footprint": [
+    120.5,
+    160.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/seti-qurna.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 120,
+     "depth": 160,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 12.0,
+     "columnHeight": 48.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "Fields at the northern end of the west bank; Seti I's temple will be built here about 1290 BCE."
+    },
+    "ramesside-1250": {
+     "note": "Finished by Ramesses II for his father and grandfather: brick pylons and courts, and a stone temple with a portico of ten papyrus columns."
+    },
+    "late-period-600": {
+     "note": "Still served by its priests, and still a station of Amun's barque at the Valley Festival."
+    },
+    "roman-200": {
+     "note": "The brick pylons are melted mounds; the stone temple stands, and villagers live in its courts."
+    }
+   },
+   "summary": "The mortuary temple of Seti I at the north end of the west bank, a station of Amun's barque at the Beautiful Festival of the Valley.",
+   "details": [
+    "Begun by Seti I (c. 1290–1279 BCE) and completed by Ramesses II, the temple honoured Amun, Seti and his father Ramesses I. Two courts with brick pylons led to the stone temple, whose facade is a portico of papyrus columns; behind it a hypostyle and the barque sanctuary.",
+    "The miniature shows the brick pylons, the courts, the colonnaded facade and the roofed temple with its side chapels. The brick parts are reconstructed from their foundations."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-seti-temple",
+    "wilkinson-temples",
+    "strudwick-thebes"
+   ],
+   "built": "c. 1290–1270 BCE",
+   "function": "Mortuary temple of Seti I",
+   "activity": {
+    "figures": 20,
+    "radius": 150
+   }
+  },
+  {
+   "id": "colossi-of-memnon",
+   "placeId": "kom-el-hettan",
+   "name": "Colossi of Memnon and the temple of Amenhotep III",
+   "category": "monument",
+   "position": [
+    1324,
+    2652
+   ],
+   "rotation": -74,
+   "footprint": [
+    121.2,
+    400.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/colossi-of-memnon.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 400,
+     "height": 48.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "Low fields at the desert edge; Amenhotep III will build the largest temple of the west bank here about 1360 BCE."
+    },
+    "ramesside-1250": {
+     "note": "The pair of seated quartzite colossi, about 18 m high, guard the pylon of Amenhotep III's vast temple; the flood reaches its courts each year, by design."
+    },
+    "late-period-600": {
+     "confidence": "reconstruction",
+     "note": "An earthquake about 1200 BCE brought the temple down, and Merenptah and later kings quarried it. Only the colossi stand among stumps of walls and fallen statues.",
+     "model": {
+      "glb": "models/thebes/memnon-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 120,
+       "depth": 400,
+       "height": 48.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "roman-200": {
+     "confidence": "reconstruction",
+     "note": "Cracked by the earthquake of 27 BCE, the northern colossus 'sang' at dawn and was taken for Memnon greeting his mother Eos. Repaired about 199 CE, traditionally by Septimius Severus, it fell silent.",
+     "model": {
+      "glb": "models/thebes/memnon-roman.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 120,
+       "depth": 400,
+       "height": 48.0,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "Two seated colossi of Amenhotep III, 18 m tall, before the ruins of his mortuary temple, the largest in Thebes; the Greeks called the northern one Memnon and came to hear it sing.",
+   "details": [
+    "Amenhotep III's temple (about 1360 BCE) stretched some 600 m back from the colossi through three pylons to a great sun court, its pavement flooded each year by the Nile. It fell in an earthquake about a century later and was quarried. The colossi, carved from single blocks of quartzite, were visited by Greek and Roman tourists who carved over a hundred poems and names on their legs.",
+    "The miniature shows the colossi, the pylons, the processional way with jackal sphinxes and the peristyle court with standing statues; the temple is compressed in length. The ruin variant shows the later state."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-colossi",
+    "wiki-amenhotep-temple",
+    "oconnor-cline-amenhotep",
+    "bernand-memnon",
+    "strabo-17"
+   ],
+   "built": "c. 1360 BCE",
+   "function": "Mortuary temple of Amenhotep III",
+   "activity": {
+    "figures": 30,
+    "radius": 200
+   }
+  },
+  {
+   "id": "medinet-habu",
+   "placeId": "djeme",
+   "name": "Medinet Habu",
+   "category": "temple",
+   "position": [
+    552,
+    2829
+   ],
+   "rotation": -70,
+   "footprint": [
+    210.8,
+    320.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/medinet-habu.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 210,
+     "depth": 320,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 21.0,
+     "columnHeight": 84.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "ramesside-1250": {
+     "note": "Here stands only the small temple of Amun of Djeme built by Hatshepsut and Thutmose III; Ramesses III will build his great temple and fortress round it about 1170 BCE."
+    },
+    "late-period-600": {
+     "note": "The fortified temple of Ramesses III, refuge of the west bank's people in the troubles after 1100 BCE; the God's Wives of Amun build their tomb chapels inside the gate."
+    },
+    "roman-200": {
+     "confidence": "reconstruction",
+     "note": "The town of Djeme fills the enclosure: houses of mud brick round the temple and over its outer courts; the temple of Thutmose III is still served.",
+     "model": {
+      "glb": "models/thebes/medinet-habu-djeme.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 210,
+       "depth": 320,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 21.0,
+       "columnHeight": 84.0
+      }
+     }
+    }
+   },
+   "summary": "Ramesses III's mortuary temple of about 1170 BCE, inside a fortress wall with a gate built like a Syrian migdol tower; later the walled town of Djeme.",
+   "details": [
+    "The best-preserved of the mortuary temples: two pylons, courts with Osiride pillars, a hypostyle and sanctuaries, with reliefs of Ramesses III's wars against the Libyans and the Sea Peoples. A palace stood on the first court's south side. The enclosure, 18 m high in brick, made it the stronghold of the west bank.",
+    "The miniature shows the High Gate, the brick enclosure, the temple with its pylons and courts, the palace, the older Amun temple and the God's Wives' chapels. The Roman variant adds the houses of Djeme."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-medinet-habu",
+    "holscher-medinet-habu",
+    "wilkinson-temples"
+   ],
+   "built": "c. 1186–1155 BCE",
+   "function": "Mortuary temple of Ramesses III; administrative centre",
+   "activity": {
+    "figures": 40,
+    "radius": 220
+   }
+  },
+  {
+   "id": "deir-el-medina",
+   "placeId": "set-maat",
+   "name": "Deir el-Medina (Set Maat)",
+   "category": "district",
+   "position": [
+    582,
+    1853
+   ],
+   "rotation": -15,
+   "footprint": [
+    81.2,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/deir-el-medina.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 80,
+      "depth": 170
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.0,
+        -42.5
+       ],
+       "width": 24.0,
+       "depth": 51.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.0,
+        34.0
+       ],
+       "width": 24.0,
+       "depth": 51.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "variants": {
+    "middle-kingdom-1950": {
+     "note": "An empty side valley under Qurnet Murai."
+    },
+    "hatshepsut-1470": {
+     "note": "The walled village founded under Thutmose I for the royal tomb builders is still small, a few dozen houses on a single street."
+    },
+    "ramesside-1250": {
+     "note": "'The Place of Truth': some 68 houses of the tomb builders inside a wall, their chapels and tombs with small pyramids on the slopes."
+    },
+    "late-period-600": {
+     "confidence": "reconstruction",
+     "note": "Abandoned about 1070 BCE when royal tomb building ended; roofless houses filling with sand.",
+     "model": {
+      "glb": "models/thebes/deir-el-medina-ruin.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 80,
+        "depth": 170
+       },
+       "buildings": [
+        {
+         "offset": [
+          -20.0,
+          -42.5
+         ],
+         "width": 24.0,
+         "depth": 51.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          20.0,
+          34.0
+         ],
+         "width": 24.0,
+         "depth": 51.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    },
+    "roman-200": {
+     "confidence": "reconstruction",
+     "note": "Ptolemy IV built a small temple of Hathor and Maat beside the ruined village; Christian monks will later live in it, giving the place its name, 'monastery of the town'.",
+     "model": {
+      "glb": "models/thebes/deir-el-medina-hathor.glb",
+      "fallback": {
+       "kit": "cluster",
+       "plaza": {
+        "width": 80,
+        "depth": 170
+       },
+       "buildings": [
+        {
+         "offset": [
+          -20.0,
+          -42.5
+         ],
+         "width": 24.0,
+         "depth": 51.0,
+         "height": 8
+        },
+        {
+         "offset": [
+          20.0,
+          34.0
+         ],
+         "width": 24.0,
+         "depth": 51.0,
+         "height": 7
+        }
+       ]
+      }
+     }
+    }
+   },
+   "summary": "The walled village of the craftsmen who cut and painted the royal tombs, home for four centuries to some 60–70 families who left thousands of written ostraca.",
+   "details": [
+    "Founded about 1500 BCE and enlarged under the Ramesside kings, the village had houses of four rooms in a row along one main street, a kitchen at the back and stairs to the roof. Its literate workmen left letters, accounts, laundry lists, love poems and records of court cases on flakes of limestone and pottery.",
+    "The miniature shows the enclosure wall, the houses with their roofs and courts, the main street, chapels and the workmen's tombs with small pyramids on the slope. House plans are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-deir-el-medina",
+    "bierbrier-tomb-builders",
+    "lesko-pharaohs-workers"
+   ],
+   "built": "c. 1500–1070 BCE",
+   "function": "Workmen's village",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "malkata",
+   "placeId": "per-hai",
+   "name": "Malkata, palace of Amenhotep III",
+   "category": "civic",
+   "position": [
+    451,
+    4327
+   ],
+   "rotation": 0,
+   "footprint": [
+    240.0,
+    300.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/thebes/malkata.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 240,
+     "depth": 300,
+     "height": 96.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ramesside-1250"
+   ],
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "Desert edge south of the necropolis; Amenhotep III will build his palace town here about 1390 BCE."
+    },
+    "ramesside-1250": {
+     "note": "Built for Amenhotep III's jubilees and abandoned when Akhenaten moved the court; by 1250 BCE an empty palace of crumbling brick with faded painted floors.",
+     "confidence": "reconstruction"
+    },
+    "late-period-600": {
+     "note": "Low mounds of melted brick and potsherds by the desert edge."
+    }
+   },
+   "summary": "The palace town of Amenhotep III on the west bank, perhaps called the 'House of Rejoicing', with halls for his jubilee festivals and a vast harbour basin, Birket Habu.",
+   "details": [
+    "Built of mud brick from about 1390 BCE, Malkata had the king's palace with a columned hall and throne room, palaces for queen Tiye and others, a temple of Amun, offices, a festival hall and workmen's quarters. Floors and ceilings were painted with marsh scenes, birds and calves; jar labels name the jubilees.",
+    "The miniature shows palace blocks with columned halls and courts, the temple, houses and the edge of the harbour, partly roofless as they would have stood a century after abandonment. The plan follows excavations and is simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-malkata",
+    "lacovara-royal-city",
+    "oconnor-cline-amenhotep",
+    "kemp-oconnor-birket-habu"
+   ],
+   "built": "c. 1390–1350 BCE",
+   "function": "Royal palace town",
+   "activity": {
+    "figures": 10,
+    "radius": 150
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "riverside-market",
+   "name": "Market on the river bank",
+   "kind": "market",
+   "position": [
+    4944,
+    3883
+   ],
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "summary": "Where boats pulled in to the bank and traders sat under awnings with baskets of fish, bread, vegetables and sandals, bartering against a price reckoned in copper or grain.",
+   "details": [
+    "Egypt had no coins until the Late Period: goods were valued in deben of copper or sacks of grain and swapped. A painting in the tomb of Kenamun shows Syrian ships unloading at Thebes and Egyptian traders on the bank with food and cloth for the sailors. The site of the market here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "vogelsang-kenamun",
+    "janssen-commodity-prices",
+    "kemp-ancient-egypt"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Fishermen haul in baskets of catfish and Nile perch; women set out loaves, onions and leeks on mats and call to the first ferry passengers."
+    },
+    {
+     "hour": 12,
+     "text": "A sailor from a Syrian ship offers a jar of oil for a pair of sandals and a bundle of linen; the seller weighs the bargain against copper prices in her head."
+    },
+    {
+     "hour": 18,
+     "text": "Boats tie up for the night; the market women pack their baskets, a baboon on a leash snatches a fig, and smoke rises from cooking fires on the bank."
+    }
+   ],
+   "variants": {
+    "roman-200": {
+     "note": "Now a village market with coins: Roman bronze drachmas, and Greek spoken beside Egyptian."
+    }
+   }
+  },
+  {
+   "id": "potters-yard",
+   "name": "Potter's yard",
+   "kind": "workshop",
+   "position": [
+    4764,
+    4216
+   ],
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "summary": "A yard of wheels, drying racks and a round kiln where Nile mud and desert marl were turned into beer jars, bread moulds, bowls and the big storage vessels of every household.",
+   "details": [
+    "Potters dug Nile silt for everyday red wares and finer marl clay from the desert. From the Middle Kingdom the wheel was turned with one hand while the other shaped the pot; bread moulds were made by the thousand for the temple bakeries. The yard's place here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-pottery",
+    "kemp-ancient-egypt"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A boy treads clay in a pit with straw; his father, squatting at the wheel, turns it with his left hand and pulls up a beer jar with his right."
+    },
+    {
+     "hour": 13,
+     "text": "Rows of bread moulds dry in the sun; the kiln is packed and sealed with clay, and the firing begins, smoke rolling over the roofs."
+    },
+    {
+     "hour": 19,
+     "text": "The kiln still glows; the potter's wife counts out jars ordered by the temple granary and sets aside the cracked ones for the household."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "temple-bakery",
+   "name": "Bakery and brewery of Amun",
+   "kind": "bakery",
+   "position": [
+    6589,
+    3495
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600"
+   ],
+   "summary": "The workshops that made the god's daily bread and beer: thousands of loaves and jars a day, offered on Amun's altars and then paid out as wages to his priests and staff.",
+   "details": [
+    "Temple bakeries and breweries stood beside the precincts; at Karnak, Late Period bakeries with rows of ovens have been excavated east of the sacred lake. Bread was baked in conical clay moulds; beer was brewed from barley or emmer bread mashed with malt, and drunk through straws to strain the husks."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "samuel-bread-beer",
+    "wiki-ancient-egyptian-cuisine",
+    "kemp-ancient-egypt"
+   ],
+   "vignettes": [
+    {
+     "hour": 4,
+     "text": "Before dawn the women grind emmer on saddle querns, kneeling in a row; the ovens are already hot, and moulds stacked in the embers for the first loaves."
+    },
+    {
+     "hour": 10,
+     "text": "Brewers crumble half-baked loaves into vats with malt and water; the sweet, sour smell fills the yard, and a scribe tallies jars for the god's table."
+    },
+    {
+     "hour": 17,
+     "text": "The loaves come back from the altar, the god having eaten their essence; the steward pays them out to priests and porters as their day's wage."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "linen-weavers",
+   "name": "Linen weavers of the temple estate",
+   "kind": "workshop",
+   "position": [
+    6720,
+    2330
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600"
+   ],
+   "summary": "A weaving house where women spun flax and wove the fine linen worn by priests and used to wrap statues and the dead.",
+   "details": [
+    "Linen was Egypt's cloth: priests wore only linen, the god's statue was dressed in fresh cloth daily, and the finest 'royal linen' was nearly transparent. Weaving on the ground loom was mostly women's work; the upright loom, introduced in the New Kingdom, was often worked by men. This workshop is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-linen",
+    "kemp-ancient-egypt"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Flax stems soaked in the canal are beaten and combed; women sit spinning, a spindle in each hand, the thread wetted from a bowl beside them."
+    },
+    {
+     "hour": 12,
+     "text": "On a ground loom pegged into the floor two women pass the shuttle; a length of fine linen grows, marked with the temple's name in ink."
+    },
+    {
+     "hour": 17,
+     "text": "A priest collects folded cloth for the god's morning dressing; the weavers sweep the lint and lock the door."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "granary-of-amun",
+   "name": "Granaries of Amun",
+   "kind": "works",
+   "position": [
+    6048,
+    2463
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600"
+   ],
+   "summary": "Rows of domed silos and storehouses by the temple harbour, where the grain of Amun's estates was measured in, recorded and paid out.",
+   "details": [
+    "By the reign of Ramesses III the temple of Amun owned perhaps a fifth of Egypt's farmland, worked by tenants who paid grain to its granaries. Tomb paintings show scribes recording each measure as workers fill domed silos from the top by ladders. The granaries' site here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "kemp-ancient-egypt",
+    "janssen-commodity-prices"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A grain barge from Armant ties up at the harbour; porters with sacks on their shoulders climb ladders to tip barley into the domed silos."
+    },
+    {
+     "hour": 11,
+     "text": "A scribe calls out each measure; another writes it in red and black on a papyrus roll, while a third keeps tally on a wooden board."
+    },
+    {
+     "hour": 16,
+     "text": "The overseer seals the silo doors with clay and his seal; a priest's servant waits with a sack for the month's ration."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tomb-robbers-court",
+   "name": "The great court of Thebes",
+   "kind": "civic",
+   "position": [
+    5847,
+    3329
+   ],
+   "activePeriods": [
+    "ramesside-1250"
+   ],
+   "summary": "The kenbet, the court of the city's officials, which in about 1110 BCE heard the confessions of the men who had robbed the royal tombs.",
+   "details": [
+    "The Abbott and Leopold-Amherst papyri record the inquiries of Ramesses IX's sixteenth year, when the vizier Khaemwaset sat with the mayors and priests to examine accused robbers; another series follows under Ramesses XI. Where the court sat is uncertain: the records name a place by a temple gate, and this placing is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-abbott-papyrus",
+    "peet-robberies"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Prisoners are brought in bound; the vizier and the mayor of Thebes sit on stools, a scribe beside them with a fresh roll of papyrus."
+    },
+    {
+     "hour": 12,
+     "text": "A stonemason, beaten on the soles of his feet, names the men who opened a king's tomb with him and how they shared the gold."
+    },
+    {
+     "hour": 17,
+     "text": "The court rises; the accused are led back to the temple prison, and the scribe adds the day's names to the list of the guilty."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "gods-wife-estate",
+   "name": "House of the God's Wife of Amun",
+   "kind": "civic",
+   "position": [
+    6720,
+    2574
+   ],
+   "activePeriods": [
+    "late-period-600"
+   ],
+   "summary": "The household of the God's Wife of Amun, the royal priestess who ruled Thebes for the Kushite and Saite kings, with her steward's offices, storerooms and chapels.",
+   "details": [
+    "From the 8th to the 6th century BCE each God's Wife, a king's daughter, adopted her successor. Her stewards, men like Harwa and Ibi, ran great estates and were buried in huge tombs on the west bank. Her chapels at Karnak stand north and east of Amun's temple; the house's site here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-gods-wife",
+    "caminos-nitocris"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Female singers of Amun file out with sistra for the morning rite; the God's Wife, in a vulture headdress, follows under a parasol."
+    },
+    {
+     "hour": 12,
+     "text": "Her steward hears the estate managers' reports: fields in the Delta, cattle at Thebes, bread owed by a temple in the south."
+    },
+    {
+     "hour": 18,
+     "text": "Lamps in the storerooms; scribes seal jars of wine from her vineyards with her name in hieratic on the stoppers."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "shaduf-garden",
+   "name": "Kitchen garden and shaduf",
+   "kind": "garden",
+   "position": [
+    6820,
+    4305
+   ],
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "summary": "A walled vegetable garden watered by a shaduf, a counterweighted pole and bucket, with beds of onions, lettuce, leeks and cucumbers under date palms.",
+   "details": [
+    "The shaduf appears in Theban tomb paintings from the time of Amenhotep III: a pole on a post, a bucket on one end, a lump of mud as counterweight on the other, lifting water from a canal into channels. Gardens were watered by hand in the dry months after the flood had gone."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shaduf",
+    "kemp-ancient-egypt"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A gardener dips the shaduf bucket in the canal, swings it up and empties it into a channel that runs between beds of onions."
+    },
+    {
+     "hour": 13,
+     "text": "Under the palms his children pick cucumbers and fill baskets with lettuce, the long Egyptian kind sacred to the fertility god Min."
+    },
+    {
+     "hour": 18,
+     "text": "The pole creaks a few more times before dark; goats are shut out of the beds with a fence of thorns."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "opet-landing",
+   "name": "Landing of the Opet barques",
+   "kind": "dock",
+   "position": [
+    4232,
+    4860
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250"
+   ],
+   "summary": "The river landing by Luxor temple where the barques of Amun, Mut and Khonsu were loaded onto boats to return to Karnak at the end of the Opet festival.",
+   "details": [
+    "Hatshepsut's Red Chapel shows the barque going to Luxor by land and coming back by river; under Tutankhamun and later the reliefs in Luxor's colonnade show both ways by river, the god's boat towed from the bank by crowds of men. The landing's exact place is an interpretation."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-opet",
+    "lacau-chevrier-red"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Priests carry the portable barque, curtained and gilded, down to the water; the great river barque Userhat waits, its prow and stern carved with rams' heads."
+    },
+    {
+     "hour": 12,
+     "text": "Towing crews heave on ropes along the bank while drummers and Nubian soldiers march alongside, and women shake sistra and clap."
+    },
+    {
+     "hour": 17,
+     "text": "The quay is a litter of flowers, bread crusts and broken beer jars; boys dive for lost offerings in the shallows."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "karnak-baths",
+   "name": "Greek bath house at the quay",
+   "kind": "bath",
+   "position": [
+    5947,
+    2641
+   ],
+   "activePeriods": [
+    "roman-200"
+   ],
+   "summary": "A round bath house in the Greek style with individual hip-bath tubs in a ring, excavated in 2007 in front of Karnak's first pylon.",
+   "details": [
+    "Built in the Ptolemaic period and later enlarged, the baths had a circular room (tholos) with seats for bathers, a heating system and mosaic floors. They were used into Roman times by the townspeople and pilgrims who came to Karnak."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-roman-bath-karnak"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The attendant pours hot water into the ring of hip baths; a priest and two traders sit in their tubs and talk about the price of wheat."
+    },
+    {
+     "hour": 14,
+     "text": "Pilgrims from the Delta, dusty from the road, pay a bronze coin to wash before visiting Amun's temple."
+    },
+    {
+     "hour": 19,
+     "text": "The furnace boy rakes out the ashes; the floor mosaic gleams wet in lamplight as the last bathers leave."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "fishermen-skiffs",
+   "name": "Fishermen's landing and papyrus skiffs",
+   "kind": "dock",
+   "position": [
+    4503,
+    3329
+   ],
+   "activePeriods": [
+    "middle-kingdom-1950",
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600",
+    "roman-200"
+   ],
+   "summary": "A muddy landing on the west bank where fishermen beached their light skiffs of papyrus bundles and dried their nets and catch.",
+   "details": [
+    "Skiffs of papyrus stems bound into bundles were the poor man's boat, light enough to carry. Theban tomb paintings show fishermen with seine nets between two skiffs, traps and spears, and fish split and dried on racks. Fish was a staple of workers' rations at Deir el-Medina."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-papyrus-boat",
+    "mcdowell-village-life"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Two skiffs push off in the grey light, a net strung between them; the men chant to keep time as they sweep the shallows."
+    },
+    {
+     "hour": 11,
+     "text": "Catfish and tilapia are split and laid on reed racks to dry; a heron stalks the scraps, and a crocodile is watched warily from the bank."
+    },
+    {
+     "hour": 17,
+     "text": "Skiffs are turned over to dry on the mud; a fisherman ties a fresh bundle of papyrus into a hull that has begun to sag."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "embalmers",
+   "name": "Embalmers' workshop",
+   "kind": "workshop",
+   "position": [
+    2156,
+    2829
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250",
+    "late-period-600"
+   ],
+   "summary": "The workshop on the west bank where the dead of Thebes were washed, eviscerated, dried in natron and wrapped in linen over seventy days.",
+   "details": [
+    "Embalming was done at the edge of the desert, away from the houses. Herodotus describes three grades of service; a full burial took about 70 days. Embalmers' caches of used natron, linen and tools have been found in the necropolis, including near Tutankhamun's tomb. The workshop's place here is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mummification",
+    "kemp-ancient-egypt"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A family's dead father arrives by boat on a bier; the embalmers' foreman agrees the price and the grade of linen."
+    },
+    {
+     "hour": 13,
+     "text": "Behind a reed screen the body lies packed in natron on a sloping table; a priest in a jackal mask recites as the wrapping of another begins."
+    },
+    {
+     "hour": 18,
+     "text": "Jars of oils and resin are sealed; the smell of cedar and myrrh hangs over the workshop as the embalmers wash their hands in the canal."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "scribal-school",
+   "name": "Scribal school of the Ramesseum",
+   "kind": "school",
+   "position": [
+    1685,
+    2141
+   ],
+   "activePeriods": [
+    "ramesside-1250"
+   ],
+   "summary": "A school by the Ramesseum where boys learned hieratic by copying classic texts, maxims and model letters onto ostraca and writing boards.",
+   "details": [
+    "Hundreds of schoolboy exercises from the Ramesseum and Deir el-Medina copy texts like the Satire of the Trades, which praises the scribe's life over every other: 'Be a scribe! It saves you from labour.' Students were beaten for laziness; teachers were often scribes of the temple."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-scribe",
+    "wiki-ramesseum",
+    "parkinson-voices"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Boys sit cross-legged with palettes on their knees, chanting a line of the Satire of the Trades before copying it in red and black ink."
+    },
+    {
+     "hour": 11,
+     "text": "The master checks an ostracon, marks the mistakes in red and raps a dreamer on the back with his stick: 'A boy's ear is on his back.'"
+    },
+    {
+     "hour": 15,
+     "text": "Lessons over, the boys run to the temple storehouses where their fathers work; one tucks his writing board under his arm."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "painters-tombs",
+   "name": "Tomb painters of Set Maat",
+   "kind": "workshop",
+   "position": [
+    431,
+    1864
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250"
+   ],
+   "summary": "The workmen's own tombs on the slope above Deir el-Medina, where the painters of the royal tombs decorated chapels for their families and sketched on ostraca.",
+   "details": [
+    "The draughtsmen who laid out the royal tombs painted their own small chapels on their days off, under little brick pyramids. They left thousands of figured ostraca: practice sketches of kings and gods, and comic scenes of cats serving mice. The village's records show who worked in which gang, and when."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-deir-el-medina",
+    "wiki-ostracon",
+    "bierbrier-tomb-builders"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A draughtsman grids a whitewashed wall in red ochre and sketches the outline of his father offering to Osiris; his son grinds the pigments."
+    },
+    {
+     "hour": 12,
+     "text": "In the shade of the chapel court, a painter tries out a cat herding geese on a flake of limestone, laughs, and passes it round."
+    },
+    {
+     "hour": 17,
+     "text": "The yellow, blue and black are covered against the dust; the men walk down to the village, their brushes of chewed reed in a basket."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "workmens-huts",
+   "name": "Workmen's huts at the pass",
+   "kind": "house",
+   "position": [
+    532,
+    721
+   ],
+   "activePeriods": [
+    "hatshepsut-1470",
+    "ramesside-1250"
+   ],
+   "summary": "A cluster of stone huts on the col above the Valley of the Kings where the tomb builders slept during their eight-day working week.",
+   "details": [
+    "The crew of the tomb worked in two 'sides', left and right, for eight days of a ten-day week, sleeping in drystone huts on the pass and going home to the village for the rest. Their names are scratched on the huts' stones and on the rocks round them."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "bierbrier-tomb-builders",
+    "lesko-pharaohs-workers"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Men roll up their mats and eat bread and onions brought up from the village by their sons; below, the valley is still in shadow."
+    },
+    {
+     "hour": 13,
+     "text": "The huts are empty except for an old water carrier, who refills the jars and looks out over the cliffs toward Karnak."
+    },
+    {
+     "hour": 20,
+     "text": "Back from the tomb, the crew sit by a fire of dung cakes; a foreman reads a letter aloud and someone sings a love song."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "greek-graffiti",
+   "name": "Graffiti on the singing Memnon",
+   "kind": "monument",
+   "position": [
+    1595,
+    2752
+   ],
+   "activePeriods": [
+    "roman-200"
+   ],
+   "summary": "The legs and base of the northern Colossus of Memnon, covered with over a hundred Greek and Latin inscriptions by visitors who came at dawn to hear it sing.",
+   "details": [
+    "From the reign of Nero to the early 3rd century CE prefects, soldiers, poets and tourists carved their names, the date and what they heard. Some wrote verses; the poet Julia Balbilla's epigrams for Hadrian's visit in 130 CE are among them. After the repair of about 199 CE the statue fell silent."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-colossi",
+    "bernand-memnon",
+    "wiki-julia-balbilla"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "In the dark, a party from Alexandria waits by the statue's feet with their guide; at sunrise a faint, sharp sound like a struck lyre string comes from the stone."
+    },
+    {
+     "hour": 9,
+     "text": "A Roman centurion pays a mason to carve: 'I, Lucius, heard Memnon at the first hour', with the emperor's year, beside a hundred others."
+    },
+    {
+     "hour": 16,
+     "text": "Village boys sell dates and water to the next day's visitors, and point out the verses of the empress's poet high on the left leg."
+    }
+   ],
+   "variants": {
+    "roman-200": {
+     "note": "About 199 CE, the colossus has just been repaired and stopped singing; visitors still come and read the graffiti."
+    }
+   }
+  }
+ ],
+ "events": [
+  {
+   "id": "mentuhotep-reunites",
+   "title": "Mentuhotep II reunites Egypt",
+   "periodId": "middle-kingdom-1950",
+   "date": "c. 2040 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "deir-el-bahari"
+   },
+   "effect": "crowd",
+   "text": "Nebhepetre Mentuhotep II, prince of Thebes, defeated the kings of Herakleopolis and ruled all Egypt from Thebes, ending a century of division. Later Egyptians remembered him as a founder beside Menes. He built his tomb-temple under the cliffs of Deir el-Bahari; nearby, some sixty of his soldiers killed in battle were buried together in a rock tomb.",
+   "sourceIds": [
+    "wiki-mentuhotep-ii",
+    "arnold-mentuhotep"
+   ]
+  },
+  {
+   "id": "white-chapel",
+   "title": "Senusret I's jubilee and the White Chapel",
+   "periodId": "middle-kingdom-1950",
+   "date": "c. 1940 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "karnak"
+   },
+   "effect": "construction",
+   "text": "For his thirty-year jubilee Senusret I built a limestone kiosk at Karnak to receive Amun's barque, its pillars carved with the king before the god and a list of Egypt's provinces. Amenhotep III later dismantled it as fill for his third pylon, which saved it: Henri Chevrier recovered the blocks in 1927–1930 and rebuilt it.",
+   "sourceIds": [
+    "wiki-white-chapel",
+    "lacau-chevrier-white"
+   ]
+  },
+  {
+   "id": "punt-expedition",
+   "title": "Ships return from Punt",
+   "periodId": "hatshepsut-1470",
+   "date": "c. 1470 BCE (year 9 of Hatshepsut)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "deir-el-bahari"
+   },
+   "effect": "procession",
+   "text": "Hatshepsut's fleet sailed down the Red Sea to Punt, somewhere on the African coast, and came back with myrrh, ebony, ivory, gold, baboons and living incense trees in baskets. The reliefs of her temple show the Puntite houses on stilts and their queen; the incense trees, it is said, were planted on the temple terraces.",
+   "sourceIds": [
+    "wiki-punt",
+    "naville-deir-el-bahari",
+    "wiki-hatshepsut"
+   ]
+  },
+  {
+   "id": "hatshepsut-obelisks",
+   "title": "Hatshepsut raises two obelisks",
+   "periodId": "hatshepsut-1470",
+   "date": "c. 1457 BCE (year 16)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "karnak"
+   },
+   "effect": "construction",
+   "text": "Two granite obelisks, about 29.5 m high, quarried at Aswan in seven months by her inscription's account, were set up in the hall between Thutmose I's pylons, their tips sheathed in electrum to catch the sun. Thutmose III later walled them in to the roof, which is why one still stands, its upper inscription crisp.",
+   "sourceIds": [
+    "wiki-hatshepsut",
+    "blyth-karnak"
+   ]
+  },
+  {
+   "id": "opet-festival",
+   "title": "The Opet festival",
+   "periodId": "hatshepsut-1470",
+   "date": "2nd month of the flood season, every year",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "luxor-temple"
+   },
+   "effect": "procession",
+   "text": "Amun's statue left Karnak in its gilded barque on priests' shoulders and travelled to Luxor, with Mut and Khonsu, to renew his union with the king's divine ka. Crowds lined the way for bread, beer and oracles. Under Thutmose III the feast lasted eleven days; by Ramesses III's time, twenty-seven.",
+   "sourceIds": [
+    "wiki-opet",
+    "lacau-chevrier-red"
+   ]
+  },
+  {
+   "id": "akhenaten-leaves",
+   "title": "Akhenaten abandons Thebes",
+   "periodId": "ramesside-1250",
+   "date": "c. 1346 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "town-of-thebes"
+   },
+   "effect": "none",
+   "text": "Amenhotep IV built vast temples to the sun disc, the Aten, just east of Karnak, then changed his name to Akhenaten and moved the court to a new city at Amarna. His agents hacked Amun's name out of the monuments. After his death the old gods returned; Horemheb tore the Aten temples down and packed their small blocks into his pylons.",
+   "sourceIds": [
+    "wiki-akhenaten",
+    "blyth-karnak"
+   ]
+  },
+  {
+   "id": "ramesses-luxor",
+   "title": "Ramesses II fronts Luxor with a pylon",
+   "periodId": "ramesside-1250",
+   "date": "c. 1279–1270 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "luxor-temple"
+   },
+   "effect": "construction",
+   "text": "In his first years Ramesses II added a court and a pylon to Amenhotep III's temple, turning its axis to face the road from Karnak, and set up two obelisks and six colossi of himself in front. The pylon was later carved with his version of the battle of Kadesh of 1274 BCE.",
+   "sourceIds": [
+    "wiki-luxor-temple",
+    "wilkinson-temples"
+   ]
+  },
+  {
+   "id": "valley-festival",
+   "title": "The Beautiful Festival of the Valley",
+   "periodId": "ramesside-1250",
+   "date": "2nd month of the harvest season, every year",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "deir-el-bahari"
+   },
+   "effect": "procession",
+   "text": "Amun crossed the river in his barque to visit the temples of the dead kings on the west bank. Families followed to the tombs of their own dead with flowers, food and plenty of beer, and feasted there through the night; songs from the tomb paintings urge the drinkers on. A festival of the dead, and one of Thebes' great parties.",
+   "sourceIds": [
+    "wiki-valley-festival",
+    "strudwick-thebes"
+   ]
+  },
+  {
+   "id": "workmen-strike",
+   "title": "The first recorded strike",
+   "periodId": "ramesside-1250",
+   "date": "1157 BCE (year 29 of Ramesses III)",
+   "kind": "civic",
+   "at": {
+    "position": [
+     1855,
+     1609
+    ]
+   },
+   "effect": "crowd",
+   "text": "When their grain rations were weeks late, the tomb workmen downed tools, marched past the necropolis guard posts and sat down behind the temple of Thutmose III, shouting 'We are hungry!' Officials brought them rations, and the protests went on for months. The scribe Amennakht recorded it all; his papyrus is in Turin.",
+   "sourceIds": [
+    "wiki-strike",
+    "edgerton-strike",
+    "bierbrier-tomb-builders"
+   ]
+  },
+  {
+   "id": "tomb-robbery-trials",
+   "title": "The great tomb-robbery inquiry",
+   "periodId": "ramesside-1250",
+   "date": "c. 1111 BCE (year 16 of Ramesses IX)",
+   "kind": "civic",
+   "at": {
+    "spotId": "tomb-robbers-court"
+   },
+   "effect": "crowd",
+   "text": "Paser, mayor of Thebes, accused Paweraa, mayor of the west bank, of letting royal tombs be robbed. A commission inspected ten royal tombs and found one king's tomb broken into. A stonemason, Amenpanefer, confessed how his gang burned the coffins and shared the gold. Most of the accused were convicted; robbing went on.",
+   "sourceIds": [
+    "wiki-abbott-papyrus",
+    "peet-robberies"
+   ]
+  },
+  {
+   "id": "nitocris-adoption",
+   "title": "Nitocris comes to Thebes",
+   "periodId": "late-period-600",
+   "date": "656 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "karnak-quay"
+   },
+   "effect": "procession",
+   "text": "Psamtik I sent his daughter Nitocris upriver with a great fleet to be adopted as heir by the Kushite God's Wife of Amun; the Theban magnates pledged bread, beer, meat and land to her household. The Adoption Stela records the deal, which brought Thebes peacefully under the new Saite kings. She held the office for some seventy years.",
+   "sourceIds": [
+    "caminos-nitocris",
+    "wiki-nitocris",
+    "wiki-gods-wife"
+   ]
+  },
+  {
+   "id": "assyrian-sack",
+   "title": "Ashurbanipal sacks Thebes",
+   "periodId": "late-period-600",
+   "date": "664 or 663 BCE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "karnak"
+   },
+   "effect": "fire",
+   "text": "When the Kushite king Tantamani tried to retake Egypt, the Assyrian army pursued him south and sacked Thebes. Ashurbanipal boasted of the plunder: silver, gold, people, and two tall obelisks clad in shining electrum carried off to Nineveh. The prophet Nahum asked Nineveh, 'Art thou better than populous No?'",
+   "sourceIds": [
+    "wiki-sack-thebes"
+   ]
+  },
+  {
+   "id": "earthquake-memnon",
+   "title": "The earthquake that made Memnon sing",
+   "periodId": "roman-200",
+   "date": "27 BCE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "colossi-of-memnon"
+   },
+   "effect": "none",
+   "text": "An earthquake cracked the northern colossus of Amenhotep III across the upper body. Soon afterwards the broken statue began to give out a sound at sunrise, perhaps as the stone warmed and dried. Strabo, who heard it about 25 BCE, could not tell whether it came from the stone or from someone standing near it.",
+   "sourceIds": [
+    "wiki-colossi",
+    "strabo-17"
+   ]
+  },
+  {
+   "id": "hadrian-memnon",
+   "title": "Hadrian and Sabina hear Memnon",
+   "periodId": "roman-200",
+   "date": "November 130 CE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "colossi-of-memnon"
+   },
+   "effect": "crowd",
+   "text": "The emperor Hadrian, the empress Sabina and their court came at dawn to hear the colossus. According to the poems of Julia Balbilla, carved on its leg, Memnon kept silent on the first morning and sang the next, and greeted the emperor more than once.",
+   "sourceIds": [
+    "wiki-julia-balbilla",
+    "bernand-memnon",
+    "wiki-colossi"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "opet-1470",
+   "title": "With Amun to the southern sanctuary",
+   "periodId": "hatshepsut-1470",
+   "summary": "Follow the god's barque at the Opet festival under Hatshepsut, from Karnak along the processional road to Luxor and back by river, as her Red Chapel shows it.",
+   "steps": [
+    {
+     "landmarkId": "karnak",
+     "title": "The god comes out",
+     "when": "first day of the festival",
+     "text": "In the Red Chapel the priests lift Amun's portable barque, its shrine veiled, onto carrying poles. Hatshepsut, as king, burns incense before it; the procession passes her new obelisks and out through the pylons."
+    },
+    {
+     "landmarkId": "avenue-of-sphinxes",
+     "title": "On the road",
+     "text": "Shaven-headed priests carry the barque at a slow pace; soldiers clear the way, musicians drum and shake sistra, and the townspeople crowd the road for a glimpse of the shrine."
+    },
+    {
+     "landmarkId": "opet-shrine",
+     "title": "A rest on the way",
+     "text": "At each barque station the bearers set the god down on a stand. Priests offer water and incense; the crowd presses forward with questions for the oracle."
+    },
+    {
+     "landmarkId": "luxor-temple",
+     "title": "The southern sanctuary",
+     "text": "At Luxor the god is received in the shrine of his southern form. In the rites, hidden from the crowd, the king's divine ka is renewed: kingship reborn for another year."
+    },
+    {
+     "spotId": "opet-landing",
+     "title": "Back by river",
+     "text": "At the end of the feast the barques go down to the landing and onto the great boat Userhat, towed upstream to Karnak by crews hauling on ropes along the bank."
+    },
+    {
+     "landmarkId": "karnak-quay",
+     "title": "Home to Karnak",
+     "text": "The god's boat ties up at the temple harbour, and the barque is carried back to its shrine. The leftover offerings, thousands of loaves and jars of beer, are shared out."
+    }
+   ],
+   "sourceIds": [
+    "wiki-opet",
+    "lacau-chevrier-red"
+   ]
+  },
+  {
+   "id": "tomb-builders-1250",
+   "title": "A week with the tomb builders",
+   "periodId": "ramesside-1250",
+   "summary": "Spend a working week with the crew of the royal tomb under Ramesses II, from their village over the mountain to the Valley of the Kings and down to the Ramesseum for their wages.",
+   "steps": [
+    {
+     "landmarkId": "deir-el-medina",
+     "title": "Leaving the village",
+     "when": "first day of the week",
+     "text": "Before dawn the men of the 'right side' leave their houses in Set Maat, bread and onions in their bags. Wives and daughters stay; they will run the village, trade and argue at the well while the men are away."
+    },
+    {
+     "spotId": "workmens-huts",
+     "title": "Up to the pass",
+     "text": "An hour's climb over the mountain brings the crew to their stone huts on the col. From here they can see Karnak across the river and the Valley below."
+    },
+    {
+     "landmarkId": "valley-of-the-kings",
+     "title": "In the king's tomb",
+     "text": "Stonecutters hack at the corridor by the light of wicks dipped in fat and salt to keep down the smoke; scribes count the wicks used. Behind them plasterers smooth the walls for the draughtsmen."
+    },
+    {
+     "spotId": "painters-tombs",
+     "title": "Days off",
+     "text": "Back home, a draughtsman spends his free days painting his own family tomb above the village, and sketching jokes on ostraca for his friends."
+    },
+    {
+     "landmarkId": "ramesseum",
+     "title": "Wages in grain",
+     "text": "At the month's end porters bring the crew's wages from the temple stores: emmer for bread, barley for beer, with fish, vegetables and firewood. When rations come late, there will be trouble."
+    },
+    {
+     "spotId": "scribal-school",
+     "title": "The scribe's son",
+     "text": "A crew scribe's son copies model letters at the school by the Ramesseum. If he learns well, he will one day keep the tomb's journal like his father."
+    }
+   ],
+   "sourceIds": [
+    "bierbrier-tomb-builders",
+    "lesko-pharaohs-workers",
+    "mcdowell-village-life"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "kemp-ancient-egypt",
+   "title": "Ancient Egypt: Anatomy of a Civilization",
+   "author": "Barry J. Kemp",
+   "year": 2006,
+   "note": "2nd edition; chapter on Thebes and the New Kingdom city"
+  },
+  {
+   "id": "strudwick-thebes",
+   "title": "Thebes in Egypt: A Guide to the Tombs and Temples of Ancient Luxor",
+   "author": "Nigel and Helen Strudwick",
+   "year": 1999
+  },
+  {
+   "id": "weeks-atlas",
+   "title": "Atlas of the Valley of the Kings / Theban Mapping Project",
+   "author": "Kent R. Weeks (ed.)",
+   "year": "2000–",
+   "url": "https://thebanmappingproject.com/"
+  },
+  {
+   "id": "bunbury-river",
+   "title": "The Nile and Ancient Egypt: Changing Land- and Waterscapes, from the Neolithic to the Roman Era",
+   "author": "Judith Bunbury",
+   "year": 2019
+  },
+  {
+   "id": "graham-karnak-floodplain",
+   "title": "Reconstructing Thebes' ancient river: the Karnak floodplain cores",
+   "author": "Angus Graham, Judith Bunbury et al.",
+   "year": "2012–2015",
+   "note": "Theban Harbours and Waterscapes Survey reports, Journal of Egyptian Archaeology"
+  },
+  {
+   "id": "kemp-oconnor-birket-habu",
+   "title": "An Ancient Nile Harbour: University Museum Excavations at the 'Birket Habu'",
+   "author": "Barry J. Kemp and David O'Connor",
+   "year": 1974,
+   "note": "International Journal of Nautical Archaeology 3"
+  },
+  {
+   "id": "wiki-thebes",
+   "title": "Thebes, Egypt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+  },
+  {
+   "id": "wiki-theban-necropolis",
+   "title": "Theban Necropolis",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Theban_Necropolis"
+  },
+  {
+   "id": "wiki-birket-habu",
+   "title": "Malkata (Birket Habu)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malkata"
+  },
+  {
+   "id": "wiki-flooding-nile",
+   "title": "Flooding of the Nile",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Flooding_of_the_Nile"
+  },
+  {
+   "id": "wiki-avenue-sphinxes",
+   "title": "Avenue of Sphinxes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Avenue_of_Sphinxes"
+  },
+  {
+   "id": "wiki-diospolis",
+   "title": "Thebes, Egypt: Greek and Roman Diospolis Magna",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thebes,_Egypt#Ptolemaic_and_Roman_periods"
+  },
+  {
+   "id": "blyth-karnak",
+   "title": "Karnak: Evolution of a Temple",
+   "author": "Elizabeth Blyth",
+   "year": 2006
+  },
+  {
+   "id": "wilkinson-temples",
+   "title": "The Complete Temples of Ancient Egypt",
+   "author": "Richard H. Wilkinson",
+   "year": 2000
+  },
+  {
+   "id": "arnold-last-pharaohs",
+   "title": "Temples of the Last Pharaohs",
+   "author": "Dieter Arnold",
+   "year": 1999
+  },
+  {
+   "id": "arnold-mentuhotep",
+   "title": "The Temple of Mentuhotep at Deir el-Bahari",
+   "author": "Dieter Arnold",
+   "year": 1979
+  },
+  {
+   "id": "naville-deir-el-bahari",
+   "title": "The Temple of Deir el Bahari (7 vols)",
+   "author": "Édouard Naville",
+   "year": "1894–1908"
+  },
+  {
+   "id": "lacau-chevrier-white",
+   "title": "Une chapelle de Sésostris Ier à Karnak",
+   "author": "Pierre Lacau and Henri Chevrier",
+   "year": 1956
+  },
+  {
+   "id": "lacau-chevrier-red",
+   "title": "Une chapelle d'Hatshepsout à Karnak",
+   "author": "Pierre Lacau and Henri Chevrier",
+   "year": "1977–1979"
+  },
+  {
+   "id": "bell-luxor",
+   "title": "Luxor Temple and the Cult of the Royal Ka",
+   "author": "Lanny Bell",
+   "year": 1985,
+   "note": "Journal of Near Eastern Studies 44"
+  },
+  {
+   "id": "jones-mcfadden-luxor",
+   "title": "Art of Empire: The Roman Frescoes and Imperial Cult Chamber in Luxor Temple",
+   "author": "Michael Jones and Susan McFadden (eds.)",
+   "year": 2015
+  },
+  {
+   "id": "reeves-wilkinson-valley",
+   "title": "The Complete Valley of the Kings",
+   "author": "Nicholas Reeves and Richard H. Wilkinson",
+   "year": 1996
+  },
+  {
+   "id": "holscher-medinet-habu",
+   "title": "The Excavation of Medinet Habu (5 vols)",
+   "author": "Uvo Hölscher",
+   "year": "1934–1954"
+  },
+  {
+   "id": "bierbrier-tomb-builders",
+   "title": "The Tomb-Builders of the Pharaohs",
+   "author": "Morris Bierbrier",
+   "year": 1982
+  },
+  {
+   "id": "lesko-pharaohs-workers",
+   "title": "Pharaoh's Workers: The Villagers of Deir el Medina",
+   "author": "Leonard H. Lesko (ed.)",
+   "year": 1994
+  },
+  {
+   "id": "oconnor-cline-amenhotep",
+   "title": "Amenhotep III: Perspectives on His Reign",
+   "author": "David O'Connor and Eric H. Cline (eds.)",
+   "year": 1998
+  },
+  {
+   "id": "lacovara-royal-city",
+   "title": "The New Kingdom Royal City",
+   "author": "Peter Lacovara",
+   "year": 1997
+  },
+  {
+   "id": "bernand-memnon",
+   "title": "Les inscriptions grecques et latines du Colosse de Memnon",
+   "author": "André and Étienne Bernand",
+   "year": 1960
+  },
+  {
+   "id": "strabo-17",
+   "title": "Geography, Book 17 (Egypt)",
+   "author": "Strabo",
+   "year": "c. 20 CE",
+   "url": "https://en.wikipedia.org/wiki/Geographica"
+  },
+  {
+   "id": "fazzini-mut",
+   "title": "Brooklyn Museum and Johns Hopkins excavations in the Precinct of Mut: reports",
+   "author": "Richard Fazzini; Betsy M. Bryan",
+   "year": "1976–",
+   "url": "https://www.brooklynmuseum.org/opencollection/research/mut"
+  },
+  {
+   "id": "wiki-karnak",
+   "title": "Karnak",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Karnak"
+  },
+  {
+   "id": "wiki-hypostyle",
+   "title": "Great Hypostyle Hall of Karnak",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Hypostyle_Hall_of_Karnak"
+  },
+  {
+   "id": "wiki-white-chapel",
+   "title": "White Chapel",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White_Chapel"
+  },
+  {
+   "id": "wiki-red-chapel",
+   "title": "Red Chapel of Hatshepsut",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_Chapel_of_Hatshepsut"
+  },
+  {
+   "id": "wiki-mut-precinct",
+   "title": "Precinct of Mut",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Precinct_of_Mut"
+  },
+  {
+   "id": "wiki-montu-precinct",
+   "title": "Precinct of Montu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Precinct_of_Montu"
+  },
+  {
+   "id": "wiki-opet",
+   "title": "Opet Festival",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Opet_Festival"
+  },
+  {
+   "id": "wiki-luxor-temple",
+   "title": "Luxor Temple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Luxor_Temple"
+  },
+  {
+   "id": "wiki-luxor-obelisk",
+   "title": "Luxor Obelisks",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Luxor_Obelisks"
+  },
+  {
+   "id": "wiki-deir-el-bahari",
+   "title": "Deir el-Bahari",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deir_el-Bahari"
+  },
+  {
+   "id": "wiki-hatshepsut-temple",
+   "title": "Mortuary Temple of Hatshepsut",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mortuary_Temple_of_Hatshepsut"
+  },
+  {
+   "id": "wiki-mentuhotep-temple",
+   "title": "Mortuary Temple of Mentuhotep II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mortuary_Temple_of_Mentuhotep_II"
+  },
+  {
+   "id": "wiki-valley-kings",
+   "title": "Valley of the Kings",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings"
+  },
+  {
+   "id": "wiki-tombs-nobles",
+   "title": "Tombs of the Nobles (Luxor)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tombs_of_the_Nobles_(Luxor)"
+  },
+  {
+   "id": "wiki-ramesseum",
+   "title": "Ramesseum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ramesseum"
+  },
+  {
+   "id": "wiki-seti-temple",
+   "title": "Mortuary Temple of Seti I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mortuary_Temple_of_Seti_I"
+  },
+  {
+   "id": "wiki-colossi",
+   "title": "Colossi of Memnon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colossi_of_Memnon"
+  },
+  {
+   "id": "wiki-amenhotep-temple",
+   "title": "Mortuary Temple of Amenhotep III",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mortuary_Temple_of_Amenhotep_III"
+  },
+  {
+   "id": "wiki-medinet-habu",
+   "title": "Medinet Habu (temple)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medinet_Habu_(temple)"
+  },
+  {
+   "id": "wiki-deir-el-medina",
+   "title": "Deir el-Medina",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deir_el-Medina"
+  },
+  {
+   "id": "wiki-malkata",
+   "title": "Malkata",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malkata"
+  },
+  {
+   "id": "mcdowell-village-life",
+   "title": "Village Life in Ancient Egypt: Laundry Lists and Love Songs",
+   "author": "A. G. McDowell",
+   "year": 1999
+  },
+  {
+   "id": "peet-robberies",
+   "title": "The Great Tomb-Robberies of the Twentieth Egyptian Dynasty",
+   "author": "T. Eric Peet",
+   "year": 1930
+  },
+  {
+   "id": "edgerton-strike",
+   "title": "The Strikes in Ramses III's Twenty-Ninth Year",
+   "author": "William F. Edgerton",
+   "year": 1951,
+   "note": "Journal of Near Eastern Studies 10"
+  },
+  {
+   "id": "janssen-commodity-prices",
+   "title": "Commodity Prices from the Ramessid Period",
+   "author": "Jac. J. Janssen",
+   "year": 1975
+  },
+  {
+   "id": "samuel-bread-beer",
+   "title": "Investigation of Ancient Egyptian Baking and Brewing Methods by Correlative Microscopy",
+   "author": "Delwen Samuel",
+   "year": 1996,
+   "note": "Science 273"
+  },
+  {
+   "id": "vogelsang-kenamun",
+   "title": "The Theban tomb of Kenamun (TT 162): the riverside market scene",
+   "author": "Norman de Garis Davies and R. O. Faulkner",
+   "year": 1947,
+   "note": "Journal of Egyptian Archaeology 33"
+  },
+  {
+   "id": "caminos-nitocris",
+   "title": "The Nitocris Adoption Stela",
+   "author": "Ricardo A. Caminos",
+   "year": 1964,
+   "note": "Journal of Egyptian Archaeology 50"
+  },
+  {
+   "id": "parkinson-voices",
+   "title": "Voices from Ancient Egypt: An Anthology of Middle Kingdom Writings",
+   "author": "R. B. Parkinson",
+   "year": 1991
+  },
+  {
+   "id": "wiki-ostracon",
+   "title": "Ostracon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ostracon"
+  },
+  {
+   "id": "wiki-ancient-egyptian-cuisine",
+   "title": "Ancient Egyptian cuisine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_cuisine"
+  },
+  {
+   "id": "wiki-scribe",
+   "title": "Scribe (ancient Egypt)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scribe#Egypt"
+  },
+  {
+   "id": "wiki-pottery",
+   "title": "Ancient Egyptian pottery",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_pottery"
+  },
+  {
+   "id": "wiki-linen",
+   "title": "Linen in ancient Egypt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Linen#History"
+  },
+  {
+   "id": "wiki-papyrus-boat",
+   "title": "Reed boat",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Reed_boat"
+  },
+  {
+   "id": "wiki-shaduf",
+   "title": "Shadoof",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shadoof"
+  },
+  {
+   "id": "wiki-mummification",
+   "title": "Mummy (ancient Egypt): embalming",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_burial_customs"
+  },
+  {
+   "id": "wiki-abbott-papyrus",
+   "title": "Abbott Papyrus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Abbott_Papyrus"
+  },
+  {
+   "id": "wiki-strike",
+   "title": "Turin Strike Papyrus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Turin_Strike_Papyrus"
+  },
+  {
+   "id": "wiki-gods-wife",
+   "title": "God's Wife of Amun",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/God%27s_Wife_of_Amun"
+  },
+  {
+   "id": "wiki-julia-balbilla",
+   "title": "Julia Balbilla",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Julia_Balbilla"
+  },
+  {
+   "id": "wiki-mentuhotep-ii",
+   "title": "Mentuhotep II",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mentuhotep_II"
+  },
+  {
+   "id": "wiki-punt",
+   "title": "Land of Punt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Land_of_Punt"
+  },
+  {
+   "id": "wiki-hatshepsut",
+   "title": "Hatshepsut",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hatshepsut"
+  },
+  {
+   "id": "wiki-akhenaten",
+   "title": "Akhenaten",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Akhenaten"
+  },
+  {
+   "id": "wiki-valley-festival",
+   "title": "Beautiful Festival of the Valley",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beautiful_Festival_of_the_Valley"
+  },
+  {
+   "id": "wiki-sack-thebes",
+   "title": "Assyrian conquest of Egypt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Assyrian_conquest_of_Egypt"
+  },
+  {
+   "id": "wiki-nitocris",
+   "title": "Nitocris I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nitocris_I"
+  },
+  {
+   "id": "wiki-roman-bath-karnak",
+   "title": "Karnak: the Ptolemaic baths at the quay",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Karnak"
+  }
+ ]
+}

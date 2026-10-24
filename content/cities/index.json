@@ -24,6 +24,7 @@
     { "id": "babylon", "name": "Babylon", "subtitle": "Bābili, the Gate of the Gods", "status": "playable" },
     { "id": "persepolis", "name": "Persepolis", "subtitle": "Parsa, Terrace of the Achaemenid Kings", "status": "playable" },
     { "id": "florence", "name": "Florence", "subtitle": "Florentia to the Grand Duchy", "status": "playable" },
-    { "id": "lisbon", "name": "Lisbon", "subtitle": "Olisipo, al-Ushbuna, Lisboa", "status": "playable" }
+    { "id": "lisbon", "name": "Lisbon", "subtitle": "Olisipo, al-Ushbuna, Lisboa", "status": "playable" },
+    { "id": "thebes", "name": "Thebes", "subtitle": "Waset, City of Amun", "status": "playable" }
   ]
 }
