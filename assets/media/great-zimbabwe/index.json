@@ -1,0 +1,214 @@
+{
+ "great-enclosure": [],
+ "hill-complex": [],
+ "valley-ruins": [],
+ "ridge-ruins": [],
+ "eastern-ruins": [],
+ "hill-ascent": [],
+ "royal-kraal": [
+  {
+   "src": "media/great-zimbabwe/royal-kraal/1.jpg",
+   "thumb": "media/great-zimbabwe/royal-kraal/t1.jpg",
+   "w": 800,
+   "h": 781,
+   "kind": "artwork",
+   "caption": "Building an African Kraal (July 1853, X, p.78)",
+   "artist": "Wesleyan Methodist Missionary Society",
+   "date": "1853",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Building_an_African_Kraal_(July_1853,_X,_p.78)_-_Copy.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/royal-kraal/2.jpg",
+   "thumb": "media/great-zimbabwe/royal-kraal/t2.jpg",
+   "w": 800,
+   "h": 739,
+   "kind": "photograph",
+   "caption": "Typical Kaffir Krall near Bulawayo.",
+   "artist": "Unknown authorUnknown author",
+   "date": "19th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Kaffir_Kraal_near_Bulawayo.jpg"
+  }
+ ],
+ "elite-houses": [],
+ "smelting-area": [
+  {
+   "src": "media/great-zimbabwe/smelting-area/1.jpg",
+   "thumb": "media/great-zimbabwe/smelting-area/t1.jpg",
+   "w": 800,
+   "h": 379,
+   "kind": "artwork",
+   "caption": "Persian Method of Smelting Iron.",
+   "artist": "William F. Durfee",
+   "date": "1890-12",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:PSM_V38_D159_Persian_method_of_smelting_iron.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/smelting-area/2.jpg",
+   "thumb": "media/great-zimbabwe/smelting-area/t2.jpg",
+   "w": 651,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "A Blomary Fire. The cavity of the hearth d … was lined with fire-resisting stone. … The tuyère, b, was placed from seven to eight inches above the bottom of the hearth, and was contrived so that its inclination could be…",
+   "artist": "William F. Durfee",
+   "date": "1890-12",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:PSM_V38_D175_A_blomary_fire.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/smelting-area/3.jpg",
+   "thumb": "media/great-zimbabwe/smelting-area/t3.jpg",
+   "w": 533,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Święto \"Śląska\" - piec do wytopu żelaza, fragment pokazu dawnych technik hutniczych",
+   "artist": "Przykuta",
+   "date": "2007-06",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%C5%9Awi%C4%99to_%C5%9Al%C4%85ska_piec_p.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/smelting-area/4.jpg",
+   "thumb": "media/great-zimbabwe/smelting-area/t4.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "The ruins of Mission San Juan Capistrano's metalworking furnaces. Photograph by Robert A. Estremo, copyright 2005.",
+   "artist": "The original uploader was Lordkinbote at English Wikipedia.",
+   "date": "9 April 2005 (original upload date)",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mission_San_Juan_Capistrano_4-5-05_100_6559.JPG"
+  }
+ ],
+ "trade-ground": [
+  {
+   "src": "media/great-zimbabwe/trade-ground/1.jpg",
+   "thumb": "media/great-zimbabwe/trade-ground/t1.jpg",
+   "w": 800,
+   "h": 470,
+   "kind": "painting",
+   "caption": "This famous canvas, probably painted in the workshop of Gentile Bellini (d. 1507), depicts the Mamluk governor of Damascus granting and audience to some Venetians at the beginning of the sixteenth century.",
+   "artist": "Follower of Gentile Bellini",
+   "date": "1511",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Anonymous_Venetian_orientalist_painting,_The_Reception_of_the_Ambassadors_in_Damascus%27,_1511,_the_Louvre.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/trade-ground/3.jpg",
+   "thumb": "media/great-zimbabwe/trade-ground/t3.jpg",
+   "w": 800,
+   "h": 580,
+   "kind": "photograph",
+   "caption": "Proto-historic and historic maritime trade network of the Austronesian peoples in the Indian Ocean per \"Austronesian Shipping in the Indian Ocean: From Outrigger Boats to Trading Ships\" in (2016) Early Exchange between…",
+   "artist": "Obsidian Soul",
+   "date": "2019",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Austronesian_maritime_trade_network_in_the_Indian_Ocean.png"
+  },
+  {
+   "src": "media/great-zimbabwe/trade-ground/4.jpg",
+   "thumb": "media/great-zimbabwe/trade-ground/t4.jpg",
+   "w": 800,
+   "h": 543,
+   "kind": "photograph",
+   "caption": "Sea Storm in Pacifica, w:California",
+   "artist": "Brocken Inaglory",
+   "date": "2008",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Waves_in_pacifica_1.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/trade-ground/2.jpg",
+   "thumb": "media/great-zimbabwe/trade-ground/t2.jpg",
+   "w": 800,
+   "h": 762,
+   "kind": "coin",
+   "caption": "Coin by PHGCOM.",
+   "artist": "PHGCOM",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_ship_on_lead_coin_of_Vashishtiputra_Shri_Pulumavi.jpg"
+  }
+ ],
+ "commoners-village": [
+  {
+   "src": "media/great-zimbabwe/commoners-village/1.jpg",
+   "thumb": "media/great-zimbabwe/commoners-village/t1.jpg",
+   "w": 547,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Witch doctor of the Shona people close to Great Zimbabwe, Zimbabwe.Kodak photo CD from slide.",
+   "artist": "Hans Hillewaert",
+   "date": "1989-08",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Shona_witch_doctor_(Zimbabwe).jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/commoners-village/2.jpg",
+   "thumb": "media/great-zimbabwe/commoners-village/t2.jpg",
+   "w": 800,
+   "h": 633,
+   "kind": "photograph",
+   "caption": "Photograph, Late 19th Century.",
+   "artist": "Unknown",
+   "date": "Late 19th Century",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:DP-13785-001.jpg"
+  }
+ ],
+ "fields-granaries": [
+  {
+   "src": "media/great-zimbabwe/fields-granaries/1.jpg",
+   "thumb": "media/great-zimbabwe/fields-granaries/t1.jpg",
+   "w": 494,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "MW^Zm /V- ^ ^^^^^^^^^^^^^^^^H !^VN jr*1»ri6,-.- AwTMW-jlr/v /ï;».r ^/*?.#y\"'f*' IIOrC^lTÉ 80RCHÔ .",
+   "artist": "Descourtilz, J. Theodore.; Descourtilz, M. E.; Pichard.",
+   "date": "1829",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Flore_m%C3%A9dicale_des_Antilles,_ou,_Trait%C3%A9_des_plantes_usuelles_(10559146133)_(cropped).jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/fields-granaries/2.jpg",
+   "thumb": "media/great-zimbabwe/fields-granaries/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Sorghum bicolor 2005, sep 4 by pethan Botanical Gardens Utrecht University",
+   "artist": "No machine-readable author provided. Pethan assumed (based on copyright claims).",
+   "date": "4 September 2005 (according to Exif…",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Sorghum_bicolor03.jpg"
+  },
+  {
+   "src": "media/great-zimbabwe/fields-granaries/3.jpg",
+   "thumb": "media/great-zimbabwe/fields-granaries/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Crop Name - Jowar Traditional variety - Dagadi Jowar Botanical Name - Sorghum bicolor Family - Poaceae Place - Aatpadi, District - Sangali, State - Maharashtra, Country - India Name of Grower - Shital Deshpande Photo…",
+   "artist": "MGB CEE",
+   "date": "2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E0%A4%A6%E0%A4%97%E0%A4%A1%E0%A5%80_%E0%A4%9C%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A5%80,_%E0%A4%86%E0%A4%9F%E0%A4%AA%E0%A4%BE%E0%A4%A1%E0%A5%80_Dagadi_Jowar,_Aatpadi_(Sorghum_bicolor).jpg"
+  }
+ ]
+}
