@@ -1,0 +1,4047 @@
+{
+ "id": "aksum",
+ "name": "Aksum",
+ "subtitle": "City of the Stelae",
+ "description": "Seventeen centuries of Aksum in the highlands of northern Ethiopia: from the early town below the hill of Beta Giyorgis, through the kings who raised the carved granite stelae, struck gold coins and turned Christian, to the sacred town of St Mary of Zion where emperors came to be crowned. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "ezana-350",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#B9AE9A",
+   "#A89C86",
+   "#C4B8A0",
+   "#9E927E",
+   "#B2A68E"
+  ],
+  "roofs": [
+   "#8E7A60",
+   "#9A8668"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2051,
+    1831
+   ],
+   "distance": 30,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   3476,
+   3495
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Mai Hejja (upper course)",
+    "path": [
+     [
+      2332,
+      0
+     ],
+     [
+      2299,
+      333
+     ],
+     [
+      2289,
+      666
+     ],
+     [
+      2299,
+      999
+     ],
+     [
+      2310,
+      1220
+     ],
+     [
+      2321,
+      1365
+     ]
+    ],
+    "width": 8,
+    "id": "mai-hejja",
+    "blurb": "A seasonal stream coming down between the hills of Beta Giyorgis and Mai Qoqo. It runs only in the rains of June to September; the rest of the year it is a stony bed, with water to be dug for in the sand."
+   },
+   {
+    "name": "Mai Hejja (through the town)",
+    "path": [
+     [
+      2310,
+      1476
+     ],
+     [
+      2299,
+      1609
+     ],
+     [
+      2299,
+      1753
+     ],
+     [
+      2321,
+      1942
+     ],
+     [
+      2353,
+      2219
+     ],
+     [
+      2418,
+      2552
+     ],
+     [
+      2494,
+      2996
+     ],
+     [
+      2548,
+      3495
+     ]
+    ],
+    "width": 8,
+    "id": "mai-hejja-south",
+    "blurb": "Below the reservoir the stream runs south past the stelae field and through the town to the plain. The name used here follows the archaeologists' maps; its ancient name is not known."
+   },
+   {
+    "name": "Mai Shum",
+    "path": [
+     [
+      2310,
+      1437
+     ],
+     [
+      2337,
+      1404
+     ]
+    ],
+    "width": 30,
+    "id": "mai-shum",
+    "blurb": "The reservoir at the foot of Mai Qoqo, called the Queen of Sheba's Bath. It is cut into the rock where the valley opens, and may go back to Aksumite times; it was recut and enlarged later and is still used for water and for the Timkat baptism.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "name": "The spring pool",
+    "path": [
+     [
+      2319,
+      1429
+     ],
+     [
+      2332,
+      1411
+     ]
+    ],
+    "width": 16,
+    "id": "mai-shum-spring",
+    "blurb": "A pool where the stream leaves the hills, the town's surest water in the dry months. Whether it was already dammed and cut into a reservoir is not known.",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "name": "Stream below Beta Giyorgis",
+    "path": [
+     [
+      885,
+      832
+     ],
+     [
+      972,
+      1220
+     ],
+     [
+      1036,
+      1609
+     ],
+     [
+      1090,
+      1997
+     ],
+     [
+      1177,
+      2385
+     ],
+     [
+      1252,
+      2829
+     ],
+     [
+      1339,
+      3495
+     ]
+    ],
+    "width": 6,
+    "id": "west-stream",
+    "blurb": "A seasonal stream from the western slopes of Beta Giyorgis, crossing the Gondar road between the town and Dungur; dry outside the summer rains."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Beta Giyorgis",
+    "center": [
+     1457,
+     721
+    ],
+    "radius": 650,
+    "label": true,
+    "id": "beta-giyorgis",
+    "blurb": "The flat-topped hill north-west of the town, over 2,200 m high. A settlement and an elite cemetery stood on its top centuries before the Aksumite kingdom (excavated by Rodolfo Fattovich); the church of St George that gives it its name came much later."
+   },
+   {
+    "name": "Abba Liqanos",
+    "center": [
+     594,
+     499
+    ],
+    "radius": 360,
+    "label": true,
+    "id": "abba-liqanos",
+    "blurb": "A hilltop west of Beta Giyorgis crowned by the monastery of Abba Liqanos, by tradition one of the Nine Saints, monks from the Roman world who came to Aksum around 500."
+   },
+   {
+    "name": "Mai Qoqo",
+    "center": [
+     3044,
+     1387
+    ],
+    "radius": 420,
+    "label": true,
+    "id": "mai-qoqo",
+    "blurb": "The hill east of the stream, at whose western foot lies the Mai Shum reservoir. On its slopes and on the spur to the north lie Aksumite tombs, among them those traditionally of Kaleb and Gebre Meskel."
+   },
+   {
+    "name": "Ridge of the royal tombs",
+    "center": [
+     3239,
+     333
+    ],
+    "radius": 320,
+    "label": false,
+    "id": "tombs-ridge",
+    "blurb": "A spur north of Mai Qoqo, with a wide view over the town and the plain, where the tombs attributed to Kaleb and Gebre Meskel were dug."
+   }
+  ],
+  "roads": [
+   {
+    "name": "Road west to Gobedra and the Takkaze",
+    "path": [
+     [
+      1922,
+      1753
+     ],
+     [
+      1900,
+      1886
+     ],
+     [
+      1781,
+      1997
+     ],
+     [
+      1619,
+      2164
+     ],
+     [
+      1295,
+      2208
+     ],
+     [
+      972,
+      2263
+     ],
+     [
+      702,
+      2302
+     ],
+     [
+      324,
+      2341
+     ],
+     [
+      0,
+      2385
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "west-road",
+    "blurb": "West past the great mansions and the stelae field of Gudit to the granite quarries of Gobedra, about 4 km out, and on to the Takkaze river and the west. In later centuries the route to Gondar.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "name": "Track west to Gobedra",
+    "path": [
+     [
+      1922,
+      1753
+     ],
+     [
+      1900,
+      1886
+     ],
+     [
+      1781,
+      1997
+     ],
+     [
+      1619,
+      2164
+     ],
+     [
+      1295,
+      2208
+     ],
+     [
+      972,
+      2263
+     ],
+     [
+      702,
+      2302
+     ],
+     [
+      324,
+      2341
+     ],
+     [
+      0,
+      2385
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "west-track",
+    "blurb": "A track west along the foot of the hills to the outcrops of Gobedra, where granite for the first stelae was split.",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "name": "Street of the stelae",
+    "path": [
+     [
+      1727,
+      1753
+     ],
+     [
+      2051,
+      1753
+     ],
+     [
+      2321,
+      1753
+     ],
+     [
+      2645,
+      1775
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "stelae-street",
+    "blurb": "The east–west way between the royal stelae field and the cathedral precinct: the town's ceremonial heart, where processions passed and, in later centuries, the coronation road ran.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "name": "Road east to Yeha and Adulis",
+    "path": [
+     [
+      2645,
+      1775
+     ],
+     [
+      2915,
+      1831
+     ],
+     [
+      3239,
+      1942
+     ],
+     [
+      3476,
+      2019
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "east-road",
+    "blurb": "East toward Adwa and Yeha, then north-east over the plateau and down the escarpment to Adulis on the Red Sea, a journey the Periplus reckons at about eight days. Ivory, gold and incense went out this way; glass, wine, cloth and iron came in.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "name": "Track east",
+    "path": [
+     [
+      2321,
+      1753
+     ],
+     [
+      2645,
+      1775
+     ],
+     [
+      2915,
+      1831
+     ],
+     [
+      3239,
+      1942
+     ],
+     [
+      3476,
+      2019
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "east-track",
+    "blurb": "The track east toward Yeha, the older centre of the highlands, and the coast.",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "name": "Road south to the plain",
+    "path": [
+     [
+      2213,
+      1753
+     ],
+     [
+      2224,
+      1886
+     ],
+     [
+      2235,
+      2219
+     ],
+     [
+      2202,
+      2552
+     ],
+     [
+      2148,
+      2996
+     ],
+     [
+      2105,
+      3495
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "south-road",
+    "blurb": "South out of the town into the farmland of the plain, toward the villages and the roads to the south.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "name": "Road of the royal tombs",
+    "path": [
+     [
+      2429,
+      1753
+     ],
+     [
+      2418,
+      1553
+     ],
+     [
+      2407,
+      1354
+     ],
+     [
+      2440,
+      1165
+     ],
+     [
+      2515,
+      1021
+     ],
+     [
+      2699,
+      832
+     ],
+     [
+      2915,
+      688
+     ],
+     [
+      3077,
+      599
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "tombs-road",
+    "blurb": "Up the valley past the Mai Shum reservoir and the stone of Ezana to the tombs on the ridge north-east of the town.",
+    "periods": [
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "name": "Path to Mai Shum",
+    "path": [
+     [
+      2429,
+      1753
+     ],
+     [
+      2418,
+      1553
+     ],
+     [
+      2407,
+      1354
+     ],
+     [
+      2440,
+      1165
+     ],
+     [
+      2515,
+      1021
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "mai-shum-path",
+    "blurb": "The path from the town up to the pool at the mouth of the valley, walked every day by women and girls with water jars.",
+    "periods": [
+     "early-100",
+     "ezana-350"
+    ]
+   },
+   {
+    "name": "Path up Beta Giyorgis",
+    "path": [
+     [
+      1727,
+      1753
+     ],
+     [
+      1619,
+      1442
+     ],
+     [
+      1533,
+      1165
+     ],
+     [
+      1425,
+      932
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "beta-giyorgis-path",
+    "blurb": "The climb to the top of Beta Giyorgis, where the old hilltop settlement and its cemetery lay."
+   },
+   {
+    "name": "Lane of the mansions",
+    "path": [
+     [
+      1781,
+      1997
+     ],
+     [
+      1889,
+      2241
+     ],
+     [
+      2159,
+      2308
+     ],
+     [
+      2235,
+      2219
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "lower-street",
+    "blurb": "A lane through the southern quarter of stone houses and mansions.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   }
+  ],
+  "walls": [],
+  "gates": [],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1760,
+      1709
+     ],
+     [
+      1684,
+      1487
+     ],
+     [
+      1943,
+      1442
+     ],
+     [
+      1986,
+      1686
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses at the foot of Beta Giyorgis",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1814,
+      1797
+     ],
+     [
+      2213,
+      1797
+     ],
+     [
+      2213,
+      2019
+     ],
+     [
+      1835,
+      2019
+     ]
+    ],
+    "density": "loose",
+    "name": "The early town",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1080,
+      1087
+     ],
+     [
+      1511,
+      999
+     ],
+     [
+      1619,
+      721
+     ],
+     [
+      1133,
+      644
+     ]
+    ],
+    "density": "loose",
+    "name": "Slopes of Beta Giyorgis",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2461,
+      1686
+     ],
+     [
+      2483,
+      1509
+     ],
+     [
+      2656,
+      1531
+     ],
+     [
+      2656,
+      1686
+     ]
+    ],
+    "density": "loose",
+    "name": "Farmsteads by the spring",
+    "periods": [
+     "early-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1954,
+      1797
+     ],
+     [
+      2181,
+      1797
+     ],
+     [
+      2191,
+      2197
+     ],
+     [
+      1965,
+      2197
+     ]
+    ],
+    "density": "dense",
+    "name": "Round the cathedral",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2245,
+      1808
+     ],
+     [
+      2278,
+      1808
+     ],
+     [
+      2343,
+      2308
+     ],
+     [
+      2256,
+      2308
+     ]
+    ],
+    "density": "dense",
+    "name": "Between road and stream",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2375,
+      1808
+     ],
+     [
+      2656,
+      1820
+     ],
+     [
+      2742,
+      2064
+     ],
+     [
+      2656,
+      2308
+     ],
+     [
+      2440,
+      2308
+     ]
+    ],
+    "density": "dense",
+    "name": "East of the stream",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1511,
+      1831
+     ],
+     [
+      1857,
+      1820
+     ],
+     [
+      1760,
+      1975
+     ],
+     [
+      1619,
+      2130
+     ],
+     [
+      1274,
+      2152
+     ],
+     [
+      1209,
+      1975
+     ]
+    ],
+    "density": "loose",
+    "name": "West town",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1209,
+      2263
+     ],
+     [
+      1598,
+      2241
+     ],
+     [
+      1857,
+      2308
+     ],
+     [
+      1878,
+      2552
+     ],
+     [
+      1231,
+      2552
+     ]
+    ],
+    "density": "loose",
+    "name": "South of the west road",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1770,
+      1709
+     ],
+     [
+      1706,
+      1498
+     ],
+     [
+      1900,
+      1487
+     ],
+     [
+      1911,
+      1709
+     ]
+    ],
+    "density": "loose",
+    "name": "Below the stelae",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2472,
+      1709
+     ],
+     [
+      2494,
+      1509
+     ],
+     [
+      2699,
+      1542
+     ],
+     [
+      2710,
+      1720
+     ]
+    ],
+    "density": "loose",
+    "name": "Under Mai Qoqo",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1965,
+      2352
+     ],
+     [
+      2181,
+      2352
+     ],
+     [
+      2170,
+      2685
+     ],
+     [
+      1976,
+      2685
+     ]
+    ],
+    "density": "loose",
+    "name": "Toward the plain",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2267,
+      2352
+     ],
+     [
+      2375,
+      2352
+     ],
+     [
+      2429,
+      2663
+     ],
+     [
+      2256,
+      2685
+     ]
+    ],
+    "density": "loose",
+    "name": "East of the south road",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      777,
+      2164
+     ],
+     [
+      810,
+      1975
+     ],
+     [
+      1026,
+      1953
+     ],
+     [
+      1036,
+      2197
+     ]
+    ],
+    "density": "loose",
+    "name": "Mansions of the west",
+    "periods": [
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      216,
+      2175
+     ],
+     [
+      237,
+      1997
+     ],
+     [
+      626,
+      1997
+     ],
+     [
+      615,
+      2175
+     ]
+    ],
+    "density": "loose",
+    "name": "Houses round Dungur",
+    "periods": [
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2764,
+      1864
+     ],
+     [
+      2936,
+      1886
+     ],
+     [
+      2936,
+      2064
+     ],
+     [
+      2785,
+      2064
+     ]
+    ],
+    "density": "loose",
+    "name": "East town",
+    "periods": [
+     "kaleb-530"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1835,
+      1797
+     ],
+     [
+      2191,
+      1797
+     ],
+     [
+      2191,
+      2152
+     ],
+     [
+      1857,
+      2152
+     ]
+    ],
+    "density": "dense",
+    "name": "Clergy compounds round Mary of Zion",
+    "periods": [
+     "medieval-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2375,
+      1820
+     ],
+     [
+      2591,
+      1831
+     ],
+     [
+      2612,
+      2108
+     ],
+     [
+      2397,
+      2108
+     ]
+    ],
+    "density": "loose",
+    "name": "Huts east of the stream",
+    "periods": [
+     "medieval-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1770,
+      1709
+     ],
+     [
+      1706,
+      1498
+     ],
+     [
+      1900,
+      1487
+     ],
+     [
+      1911,
+      1709
+     ]
+    ],
+    "density": "loose",
+    "name": "Huts under the stelae",
+    "periods": [
+     "medieval-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1349,
+      2075
+     ],
+     [
+      1403,
+      1886
+     ],
+     [
+      1727,
+      1864
+     ],
+     [
+      1706,
+      2019
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet on the west road",
+    "periods": [
+     "medieval-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1965,
+      2219
+     ],
+     [
+      2191,
+      2219
+     ],
+     [
+      2181,
+      2496
+     ],
+     [
+      1986,
+      2496
+     ]
+    ],
+    "density": "loose",
+    "name": "Huts toward the plain",
+    "periods": [
+     "medieval-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1835,
+      1797
+     ],
+     [
+      2191,
+      1797
+     ],
+     [
+      2191,
+      2164
+     ],
+     [
+      1857,
+      2164
+     ]
+    ],
+    "density": "dense",
+    "name": "Clergy houses round the church",
+    "periods": [
+     "gondarine-1665"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2375,
+      1820
+     ],
+     [
+      2612,
+      1831
+     ],
+     [
+      2656,
+      2130
+     ],
+     [
+      2397,
+      2219
+     ]
+    ],
+    "density": "dense",
+    "name": "East of the stream",
+    "periods": [
+     "gondarine-1665"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1770,
+      1709
+     ],
+     [
+      1706,
+      1498
+     ],
+     [
+      1900,
+      1487
+     ],
+     [
+      1911,
+      1709
+     ]
+    ],
+    "density": "loose",
+    "name": "Under the stelae",
+    "periods": [
+     "gondarine-1665"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1349,
+      2075
+     ],
+     [
+      1403,
+      1886
+     ],
+     [
+      1727,
+      1864
+     ],
+     [
+      1706,
+      2019
+     ]
+    ],
+    "density": "loose",
+    "name": "West houses",
+    "periods": [
+     "gondarine-1665"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1965,
+      2241
+     ],
+     [
+      2191,
+      2241
+     ],
+     [
+      2181,
+      2552
+     ],
+     [
+      1986,
+      2552
+     ]
+    ],
+    "density": "loose",
+    "name": "South town",
+    "periods": [
+     "gondarine-1665"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2472,
+      1709
+     ],
+     [
+      2494,
+      1509
+     ],
+     [
+      2677,
+      1542
+     ],
+     [
+      2688,
+      1720
+     ]
+    ],
+    "density": "loose",
+    "name": "Under Mai Qoqo",
+    "periods": [
+     "gondarine-1665"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      1900,
+      1997
+     ],
+     [
+      1954,
+      1997
+     ],
+     [
+      1954,
+      2130
+     ],
+     [
+      1900,
+      2130
+     ]
+    ],
+    "kind": "park",
+    "name": "Trees of the church precinct",
+    "periods": [
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1889,
+      1387
+     ],
+     [
+      1835,
+      1220
+     ],
+     [
+      2105,
+      1198
+     ],
+     [
+      2137,
+      1365
+     ]
+    ],
+    "kind": "park",
+    "name": "Olive and juniper grove",
+    "periods": [
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "stelae-field",
+    "name": "The royal stelae field",
+    "polygon": [
+     [
+      1922,
+      1709
+     ],
+     [
+      1922,
+      1387
+     ],
+     [
+      2267,
+      1387
+     ],
+     [
+      2267,
+      1709
+     ]
+    ],
+    "description": "The main cemetery of Aksum's rulers at the foot of Beta Giyorgis: rough stones of the early graves, then the carved stelae of the 3rd and 4th centuries over great underground tombs. The archaeologists' Northern Stelae Park.",
+    "periods": [
+     "early-100",
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "id": "zion-precinct",
+    "name": "Precinct of Mary of Zion",
+    "polygon": [
+     [
+      1943,
+      2164
+     ],
+     [
+      1943,
+      1775
+     ],
+     [
+      2191,
+      1775
+     ],
+     [
+      2191,
+      2164
+     ]
+    ],
+    "description": "The cathedral and its enclosures: in Alvares' day a great walled circuit holding the church, the houses of its two rectors, canons and monks. Boundaries approximate.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "id": "west-mansions",
+    "name": "The western mansions",
+    "polygon": [
+     [
+      162,
+      2441
+     ],
+     [
+      162,
+      1886
+     ],
+     [
+      1727,
+      1886
+     ],
+     [
+      1727,
+      2441
+     ]
+    ],
+    "description": "The western side of the Aksumite city along the road to Gobedra, with great mansions on stepped podiums: Ta'akha Maryam, and later Dungur, beside the stelae field of Gudit.",
+    "periods": [
+     "ezana-350",
+     "kaleb-530"
+    ]
+   },
+   {
+    "id": "mai-shum-valley",
+    "name": "The valley of Mai Shum",
+    "polygon": [
+     [
+      2267,
+      1498
+     ],
+     [
+      2267,
+      832
+     ],
+     [
+      2645,
+      832
+     ],
+     [
+      2645,
+      1498
+     ]
+    ],
+    "description": "The mouth of the Mai Hejja valley between the two hills, with the town's reservoir and, beyond it, the road to the royal tombs.",
+    "periods": [
+     "early-100",
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Aksum",
+    "position": [
+     2591,
+     2352
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "early-100",
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "text": "Beta Giyorgis",
+    "position": [
+     1619,
+     444
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "Mai Qoqo",
+    "position": [
+     3239,
+     1442
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "Abba Liqanos",
+    "position": [
+     486,
+     200
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Mai Shum",
+    "position": [
+     2137,
+     1309
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "text": "stelae field",
+    "position": [
+     2029,
+     1442
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Dungur",
+    "position": [
+     486,
+     2108
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "text": "Gudit field",
+    "position": [
+     864,
+     2496
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ezana-350",
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   },
+   {
+    "text": "to Gobedra and the west",
+    "position": [
+     324,
+     2552
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "to Yeha and Adulis",
+    "position": [
+     3217,
+     2130
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "the plain",
+    "position": [
+     1727,
+     3162
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "tombs of Kaleb",
+    "position": [
+     3077,
+     166
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kaleb-530",
+     "medieval-1500",
+     "gondarine-1665"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D6AE",
+   "ink": "#5E4632",
+   "water": "#62858A",
+   "hill": "#7E7A58",
+   "road": "#8A6A4A"
+  },
+  "compass": [
+   3239,
+   3218
+  ],
+  "cartouche": [
+   86,
+   3417
+  ]
+ },
+ "periods": [
+  {
+   "id": "early-100",
+   "label": "The early town",
+   "year": 100,
+   "startYear": -150,
+   "endYear": 269,
+   "summary": "An early Aksumite town grows below the hill of Beta Giyorgis, where an older settlement and an elite cemetery stood. Rough, uncarved granite stelae mark the graves of the powerful north of the town. Around the middle of the 1st century the Greek Periplus names 'the metropolis of the Axumites', where ivory from beyond the Nile was brought on its way to the port of Adulis.",
+   "population": "a few thousand, perhaps (no figures survive)",
+   "feel": "Cattle lowing in the valley at dawn, smoke from hearths of acacia wood, the thud of mallets on granite as a new grave marker is dressed.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Stone houses of the early town",
+    "text": "Rectangular houses of rubble stone laid in mud, flat roofs of timber and earth, rooms round small yards; the richer ones already on low stone platforms."
+   },
+   "outskirts": {
+    "title": "Farmsteads and pasture",
+    "text": "Scattered farmsteads with stone-walled cattle pens, fields of barley, wheat and teff on the plain, grazing on the hill slopes."
+   }
+  },
+  {
+   "id": "ezana-350",
+   "label": "City of the stelae",
+   "year": 350,
+   "startYear": 270,
+   "endYear": 479,
+   "summary": "Aksum rules the northern highlands and the Red Sea trade through Adulis. Kings strike gold coins and raise carved granite stelae over their tombs, the tallest dressed as towers of thirteen storeys. Around the 330s King Ezana turns Christian under the Syrian Frumentius; the crescent and disc on his coins give way to the cross, and tradition places the first church of Mary of Zion here.",
+   "population": "perhaps 20,000 (a guess; no figures survive)",
+   "feel": "Greek, Ge'ez and South Arabian spoken in the market, the ring of the mint's hammers, granite towers casting long shadows over the graves at evening.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Aksumite stone houses",
+    "text": "Walls of rubble stone in mud, laid in recessed and projecting bays and tied by timber beams whose square ends stick out of the wall: the 'monkey-head' framing carved on the stelae. Flat roofs, a stair to an upper floor."
+   },
+   "outskirts": {
+    "title": "Mansions, farms and cemeteries",
+    "text": "Elite mansions on stepped podiums among smaller houses; beyond them fields of wheat, barley and teff, cattle pens and the stelae of lesser families."
+   }
+  },
+  {
+   "id": "kaleb-530",
+   "label": "Kaleb's Aksum",
+   "year": 530,
+   "startYear": 480,
+   "endYear": 749,
+   "summary": "A Christian kingdom at its height under Kaleb (Ella Asbeha), who sends a fleet across the Red Sea against the Jewish king of Himyar in Yemen around 525. Cosmas Indicopleustes describes a four-towered royal palace. Mansions like Dungur rise in the west; Kaleb and his son Gebre Meskel are traditionally buried on the hill to the north-east. In the 7th century trade falls away and the town slowly shrinks.",
+   "population": "perhaps 20,000 at its height (a guess)",
+   "feel": "Chanting from the cathedral, war elephants and the king's guard on the west road, merchants counting gold and copper coins under the stelae.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of the Christian city",
+    "text": "Two-storey houses of stone and timber on stepped bases, the 'monkey-head' beam ends in rows on the walls, doors and windows framed in wood; small crosses carved over the lintels."
+   },
+   "outskirts": {
+    "title": "Mansions and farmland",
+    "text": "Walled mansions of the nobles with their courts and servants' ranges, then villages and fields running out to the plain and the quarries of Gobedra."
+   }
+  },
+  {
+   "id": "medieval-1500",
+   "label": "The sacred town",
+   "year": 1500,
+   "startYear": 750,
+   "endYear": 1535,
+   "summary": "The kings have long moved south; Aksum is a small town of priests round the church of Mary of Zion, rebuilt in the early 15th century and visited by emperors to be crowned. Francisco Alvares, here in the 1520s, saw a five-aisled painted church inside two walled enclosures, stelae, thrones and good houses. In 1535 the army of Ahmad Gragn burned the church.",
+   "population": "perhaps 2,000–5,000 (a guess)",
+   "feel": "Bells of stone and drums at the church gate, incense at dawn, the long chant of the priests, pilgrims sleeping in the churchyard.",
+   "style": "kraal",
+   "houses": {
+    "title": "Round huts round the church",
+    "text": "Round houses of stone and wattle under conical thatched roofs, set in fenced compounds of the clergy and their families; some older stone houses still in use near the church."
+   },
+   "outskirts": {
+    "title": "Villages and fields",
+    "text": "Small hamlets of round huts among the broken stelae and the mounds of the old mansions; terraced fields and pasture on the slopes."
+   }
+  },
+  {
+   "id": "gondarine-1665",
+   "label": "Town of priests",
+   "year": 1665,
+   "startYear": 1536,
+   "endYear": 1800,
+   "summary": "After the wars, Aksum's church is rebuilt under Gelawdewos and Minas, then replaced by Emperor Fasilides around 1665 with the battlemented church that still stands, on the old Aksumite podium. The court is at Gondar; Aksum is a holy town of priests, monks and church schools, with the right of sanctuary and the coronation stones where emperors were anointed.",
+   "population": "a few thousand, many of them clergy (a guess)",
+   "feel": "The chant of Yared's hymns before dawn, white-robed priests under juniper trees, pilgrims in the churchyard for the feast of Zion.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Stone hidmo houses",
+    "text": "Flat-roofed Tigrayan stone houses (hidmo) with thick walls of unmortared stone, timber posts inside and an earthen roof; round thatched huts in the yards. Clergy households cluster round the church."
+   },
+   "outskirts": {
+    "title": "Hamlets among the ruins",
+    "text": "Farmsteads and round huts among the fallen stelae and ruined palaces, threshing floors and ox-ploughed fields of teff and barley."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "great-stele",
+   "placeId": "great-stele",
+   "name": "The Great Stele (Stele 1)",
+   "category": "monument",
+   "position": [
+    2044,
+    1671
+   ],
+   "rotation": 0,
+   "footprint": [
+    14.0,
+    44.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/great-stele.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 14,
+     "depth": 44,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Graves of the early kings marked by rough, uncarved stones. The tombs that the Great Stele was meant to crown would be dug here two centuries later."
+    },
+    "ezana-350": {
+     "note": "Drawn as meant to stand: 33 m of carved granite, perhaps the largest stone anyone tried to set up. It may never have stood long: many think it fell as it was raised.",
+     "confidence": "interpretation"
+    },
+    "kaleb-530": {
+     "note": "Lying broken in pieces across the graves beside it. Whenever it fell, the age of stelae was over: Christian kings were buried under churches and chapels instead.",
+     "name": "The fallen Great Stele",
+     "model": {
+      "glb": "models/aksum/great-stele-fallen.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 14,
+       "depth": 44,
+       "height": 8,
+       "roof": "flat"
+      }
+     }
+    },
+    "medieval-1500": {
+     "note": "The broken pieces lie where they fell, among the other stelae that Alvares saw in the 1520s, some standing, some fallen.",
+     "name": "The fallen Great Stele",
+     "model": {
+      "glb": "models/aksum/great-stele-fallen.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 14,
+       "depth": 44,
+       "height": 8,
+       "roof": "flat"
+      }
+     }
+    },
+    "gondarine-1665": {
+     "note": "Still lying in its pieces, as it lies today: the greatest of the stelae.",
+     "name": "The fallen Great Stele",
+     "model": {
+      "glb": "models/aksum/great-stele-fallen.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 14,
+       "depth": 44,
+       "height": 8,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "The largest of Aksum's stelae: a single granite block of about 520 tonnes, 33 m long, carved as a tower of thirteen storeys over a false door, which fell and broke, perhaps as it was being raised.",
+   "details": [
+    "Quarried at Gobedra, about 4 km west, dressed and hauled here, the Great Stele was carved on all four faces with storeys of beam ends and windows. Phillipson argued that it fell during erection or soon after, in the 4th century, crashing onto the great tomb beside it; when exactly is unknown.",
+    "The standing model is an interpretation of its intended look, carved on the pattern of Ezana's stele; the fallen model breaks it into six pieces lying northward from its base. The real pieces and their direction are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ezana-stele",
+    "wiki-axum",
+    "phillipson-ancient-ethiopia",
+    "phillipson-stelae",
+    "munro-hay-aksum"
+   ],
+   "built": "probably early 4th century",
+   "function": "Royal grave marker",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "ezana-stele",
+   "placeId": "ezana-stele",
+   "name": "King Ezana's Stele (Stele 3)",
+   "category": "monument",
+   "position": [
+    2081,
+    1650
+   ],
+   "rotation": 0,
+   "footprint": [
+    10.0,
+    8.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/ezana-stele.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 10,
+     "depth": 8,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Not yet raised. The royal cemetery here holds only rough standing stones over the early graves."
+    },
+    "ezana-350": {
+     "note": "New or nearly new: probably the last great stele set up at Aksum, around the time Ezana turned Christian. The name 'Ezana's stele' is modern; whose grave it marks is not known."
+    },
+    "kaleb-530": {
+     "note": "Standing over the royal cemetery in a Christian city; new kings are buried elsewhere, but the old stelae are left in place."
+    },
+    "medieval-1500": {
+     "note": "One of the few great stelae still upright among the fallen ones; pilgrims and priests pass it on the way to Mary of Zion."
+    },
+    "gondarine-1665": {
+     "note": "Still standing, as it was when Henry Salt drew it in the early 19th century: the only one of the three great stelae that never broke."
+    }
+   },
+   "summary": "The stele that still stands: about 21 m of carved granite showing a tower of storeys, with a false door at its foot and a rounded head that once held a metal plate.",
+   "details": [
+    "The stelae stood over underground royal tombs. This one is carved on all four sides with false windows between rows of round beam ends, copying the timber-laced masonry of Aksumite houses; an offering plate with cut hollows lies before it. It was probably raised in the first half of the 4th century.",
+    "The model shows the stepped base, the false door, the storeys and the rounded head with its plate. The number of storeys and the exact window pattern are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ezana-stele",
+    "wiki-obelisk-axum",
+    "phillipson-ancient-ethiopia",
+    "munro-hay-aksum",
+    "unesco-aksum"
+   ],
+   "built": "probably first half of the 4th century",
+   "function": "Royal grave marker",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "rome-stele",
+   "placeId": "rome-stele",
+   "name": "The Rome Stele (Stele 2)",
+   "category": "monument",
+   "position": [
+    2083,
+    1670
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.0,
+    10.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/rome-stele.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 10,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Not yet raised; the early graves here are marked by rough stones."
+    },
+    "ezana-350": {
+     "note": "Standing, about 24 m tall, beside the stele now called Ezana's: one of the three great carved stelae of the royal cemetery."
+    },
+    "kaleb-530": {
+     "note": "Standing in the old royal cemetery of a now Christian city."
+    },
+    "medieval-1500": {
+     "note": "Probably still standing. When it fell is not recorded; earthquakes and the wars of the 1530s are both possible."
+    },
+    "gondarine-1665": {
+     "note": "Drawn fallen and broken. By the 19th century it lay in pieces; Italian troops cut it up and took it to Rome in 1937, and it came back in 2005.",
+     "name": "The fallen Rome Stele",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/aksum/rome-stele-fallen.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 30,
+       "depth": 10,
+       "height": 8,
+       "roof": "flat"
+      }
+     }
+    }
+   },
+   "summary": "A 24 m carved stele with false doors at its base, taken to Rome as war booty in 1937, set up by the Circus Maximus, returned in 2005 and re-erected here in 2008.",
+   "details": [
+    "Like Ezana's stele it is carved on all sides as a tower of storeys with a rounded head once enclosed in metal. When it fell is unknown: it was lying broken when Mussolini's army cut it into three and shipped it from Massawa. A UN agreement of 1947 promised its return, which took until 2005.",
+    "The model shows it standing, then fallen in pieces from the 17th century, a guess at the date. Storey count and carving are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-obelisk-axum",
+    "wiki-ezana-stele",
+    "phillipson-ancient-ethiopia",
+    "munro-hay-aksum"
+   ],
+   "built": "probably 4th century",
+   "function": "Royal grave marker",
+   "activity": {
+    "figures": 6,
+    "radius": 50
+   }
+  },
+  {
+   "id": "northern-stelae",
+   "placeId": "northern-stelae-park",
+   "name": "Northern Stelae Field",
+   "category": "monument",
+   "position": [
+    2181,
+    1542
+   ],
+   "rotation": 0,
+   "footprint": [
+    64.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/northern-stelae.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 64,
+     "depth": 70,
+     "height": 25.6,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-100",
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "The first royal cemetery: graves under heaps of stones, marked by rough granite slabs a few metres high, split from boulders and set up unworked.",
+     "name": "The early royal cemetery",
+     "model": {
+      "glb": "models/aksum/northern-stelae-early.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 64,
+       "depth": 70,
+       "height": 25.6,
+       "roof": "flat"
+      }
+     }
+    },
+    "ezana-350": {
+     "note": "A terrace crowded with stelae of every size: rough stones of old graves, dressed slabs, and carved storeyed stelae of 15 to 18 m over the tombs of the great."
+    },
+    "kaleb-530": {
+     "note": "The stelae are no longer raised; the field is an old cemetery beside the Christian city, its tombs perhaps already robbed."
+    },
+    "medieval-1500": {
+     "note": "Many stelae have fallen. The field belongs to the church's domain, and Alvares saw 'many tall stones' here, some carved, some broken."
+    },
+    "gondarine-1665": {
+     "note": "Fallen and standing stelae in the grass, with the round huts of the town pressing at the edge."
+    }
+   },
+   "summary": "The main field of stelae on the slope below Beta Giyorgis: over a hundred stones, from rough slabs over the early graves to carved towers, marking a royal cemetery used for some three centuries.",
+   "details": [
+    "The stelae fall into three groups: rough undressed slabs, dressed slabs with rounded tops, and six storeyed stelae carved as houses. The great tombs underneath, with stairwells, corridors and chambers, include the Mausoleum and the Tomb of the Brick Arches. A terrace wall runs along the south.",
+    "The model shows the eastern part of the field: the terrace, two smaller storeyed stelae standing and one fallen, and dozens of rough stones. Their positions are illustrative."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ezana-stele",
+    "wiki-axum",
+    "phillipson-ancient-ethiopia",
+    "phillipson-stelae",
+    "munro-hay-aksum"
+   ],
+   "built": "1st–4th centuries",
+   "function": "Royal and elite cemetery",
+   "activity": {
+    "figures": 14,
+    "radius": 90
+   }
+  },
+  {
+   "id": "gudit-stelae",
+   "placeId": "gudit-stelae-field",
+   "name": "Gudit stelae field",
+   "category": "monument",
+   "position": [
+    702,
+    2374
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/gudit-stelae.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Open ground west of the town. The cemetery that would fill it with stelae belongs mostly to the 3rd and 4th centuries."
+    },
+    "ezana-350": {
+     "note": "A busy cemetery of the town's elite: hundreds of small plain stelae over shaft graves, among them the graves of people buried with glass, beads and imported pottery."
+    },
+    "kaleb-530": {
+     "note": "An old cemetery beside the western road, opposite the mansion of Dungur."
+    },
+    "medieval-1500": {
+     "note": "Stones half-buried in the fields. Local tradition ties this field to Queen Gudit, who is said to have sacked Aksum in the 10th century; the stelae are far older than her."
+    },
+    "gondarine-1665": {
+     "note": "A field of small fallen and leaning stones where cattle graze, still called after Queen Gudit."
+    }
+   },
+   "summary": "A large field of small, undressed stelae west of the town, over graves mostly of the 3rd and 4th centuries, named by tradition after Queen Gudit, who had nothing to do with it.",
+   "details": [
+    "Unlike the royal field, the Gudit field has plain stones, most of them only a few metres high, and shaft graves of the well-to-do; excavations found glass vessels from the Roman world among the goods. Its name comes from a later legend of the destroying queen Gudit.",
+    "The model scatters about 150 stones, a third fallen, and a few grave platforms; the layout is illustrative."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-gudit",
+    "wiki-axum",
+    "phillipson-ancient-ethiopia",
+    "munro-hay-aksum"
+   ],
+   "built": "mostly 3rd–4th centuries",
+   "function": "Cemetery",
+   "activity": {
+    "figures": 6,
+    "radius": 80
+   }
+  },
+  {
+   "id": "tomb-false-door",
+   "placeId": "tomb-false-door",
+   "name": "Tomb of the False Door",
+   "category": "monument",
+   "position": [
+    1954,
+    1631
+   ],
+   "rotation": 0,
+   "footprint": [
+    24.0,
+    20.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/tomb-false-door.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 24,
+     "depth": 20,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "The slope west of the stelae field; the tomb would be dug here in the 4th century."
+    },
+    "ezana-350": {
+     "note": "A new royal tomb, perhaps of a king of Ezana's century: a stair down past a granite slab carved as a door, into a stone chamber, under a building that has since vanished."
+    },
+    "kaleb-530": {
+     "note": "Sealed and, probably, already robbed; its superstructure is decaying."
+    },
+    "medieval-1500": {
+     "note": "Buried under earth and fallen stones; nothing shows above ground."
+    },
+    "gondarine-1665": {
+     "note": "Lost under the fields. It was found and excavated only in the 1990s."
+    }
+   },
+   "summary": "A 4th-century royal tomb at the western edge of the stelae field, entered down a stair whose end is a single granite slab carved as a closed wooden door, with frame, beam ends and lock.",
+   "details": [
+    "Excavated by David Phillipson's team in the 1990s, the tomb had been robbed in antiquity. The false door, carved like the doors at the foot of the stelae, stands above the real entrance to the chamber. A building of dressed stone once stood over the tomb.",
+    "The model shows a raised platform for the lost superstructure, the open stairwell and the false door; above-ground forms and position are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-axum",
+    "phillipson-stelae",
+    "phillipson-ancient-ethiopia"
+   ],
+   "built": "probably 4th century",
+   "function": "Royal tomb",
+   "activity": {
+    "figures": 4,
+    "radius": 30
+   }
+  },
+  {
+   "id": "dungur",
+   "placeId": "dungur",
+   "name": "Dungur ('Queen of Sheba's palace')",
+   "category": "civic",
+   "position": [
+    702,
+    2238
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    58.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/dungur.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 58,
+     "height": 23.200000000000003,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "ezana-350": {
+     "note": "Fields and scattered houses on the west road, opposite the Gudit stelae field. The great house of Dungur would be built here in the 6th or 7th century."
+    },
+    "kaleb-530": {
+     "note": "A noble's mansion of the late Aksumite city: a two-storey central block on a stepped podium in a court ringed by ranges of rooms, entered up a double stair. Its owner is unknown.",
+     "confidence": "reconstruction"
+    },
+    "medieval-1500": {
+     "note": "A grassy mound with wall stumps, which local legend calls the palace of the Queen of Sheba.",
+     "name": "Mound of Dungur",
+     "model": {
+      "glb": "models/aksum/dungur-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 58,
+       "height": 23.200000000000003,
+       "roof": "pitched"
+      }
+     }
+    },
+    "gondarine-1665": {
+     "note": "Still a mound among fields and junipers; it would be excavated by Francis Anfray in 1966–68.",
+     "name": "Mound of Dungur",
+     "model": {
+      "glb": "models/aksum/dungur-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 58,
+       "height": 23.200000000000003,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The best preserved Aksumite mansion: a stepped-podium central block with corner towers and timber-laced walls, ringed by rooms and courts. Local legend makes it the Queen of Sheba's palace; it is about 1,500 years too late.",
+   "details": [
+    "Excavated in 1966–68, Dungur covers about 3,250 m². Its walls show the Aksumite method: rubble in mud, stepped in and out in bays and tied with timber beams whose ends stood out as 'monkey heads'. Stone piers carried wooden floors. It is dated to the 6th or 7th century.",
+    "The model reconstructs the upper parts (two storeys, corner towers, windows) on the pattern of Krencker's drawings of Ta'akha Maryam. Only the lower walls and podium survive."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-dungur",
+    "wiki-architecture-ethiopia",
+    "munro-hay-aksum",
+    "phillipson-ancient-ethiopia",
+    "unesco-aksum"
+   ],
+   "built": "6th or 7th century",
+   "function": "Elite mansion",
+   "activity": {
+    "figures": 24,
+    "radius": 90
+   }
+  },
+  {
+   "id": "taakha-maryam",
+   "placeId": "taakha-maryam",
+   "name": "Ta'akha Maryam",
+   "category": "civic",
+   "position": [
+    1457,
+    2041
+   ],
+   "rotation": 0,
+   "footprint": [
+    120.0,
+    80.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/taakha-maryam.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 80,
+     "height": 32.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Farmland on the western side of the town; the great palace complex would rise here later."
+    },
+    "ezana-350": {
+     "note": "One of the vast palace complexes of the capital: a central pavilion on a podium, corner towers, ranges of rooms round several courts. Its date is uncertain; the 4th century is often given.",
+     "confidence": "reconstruction"
+    },
+    "kaleb-530": {
+     "note": "Perhaps the kind of building Cosmas meant by the king's 'four-towered palace', though nothing ties his words to this site."
+    },
+    "medieval-1500": {
+     "note": "Ruined walls and heaps of stone along the west road, quarried for building.",
+     "name": "Ruins of Ta'akha Maryam",
+     "model": {
+      "glb": "models/aksum/taakha-maryam-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 120,
+       "depth": 80,
+       "height": 32.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "gondarine-1665": {
+     "note": "A field of ruins. Little survives today: its plan is known mainly from the German Aksum Expedition's survey of 1906.",
+     "name": "Ruins of Ta'akha Maryam",
+     "model": {
+      "glb": "models/aksum/taakha-maryam-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 120,
+       "depth": 80,
+       "height": 32.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A great Aksumite palace complex of about 120 × 80 m west of the centre: a central pavilion on a stepped podium inside rings of rooms and courts, the largest residence known at Aksum.",
+   "details": [
+    "Surveyed by the German Aksum Expedition in 1906, Ta'akha Maryam had a central block with corner towers raised on a podium and reached by stairs, inside a maze of courtyards and ranges. Its masonry and plan resemble Dungur's. Its date and owner are unknown; it is usually called 4th-century.",
+    "The model follows Krencker's plan in outline, simplified to a ring of ranges, two cross ranges and the pavilion; heights and openings are reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-architecture-ethiopia",
+    "wiki-axum",
+    "dae-1913",
+    "munro-hay-aksum",
+    "phillipson-ancient-ethiopia"
+   ],
+   "built": "perhaps 4th century",
+   "function": "Palace",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "kaleb-tombs",
+   "placeId": "kaleb-tombs",
+   "name": "Tombs of Kaleb and Gebre Meskel",
+   "category": "monument",
+   "position": [
+    3158,
+    523
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.0,
+    36.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/kaleb-tombs.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 36,
+     "height": 14.4,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "ezana-350": {
+     "note": "A bare ridge north-east of the town, above the valley of Mai Shum."
+    },
+    "kaleb-530": {
+     "note": "Royal tombs of the 6th century: two blocks of fine dressed granite on a terrace, each opened by a stair down to stone-built chambers. Tradition gives them to Kaleb and his son Gebre Meskel."
+    },
+    "medieval-1500": {
+     "note": "The tombs are a place of legend: one story has Kaleb's treasure hidden in them; the chapel above Gebre Meskel's tomb has fallen."
+    },
+    "gondarine-1665": {
+     "note": "Open, empty vaults on the ridge, visited by the curious and by shepherds."
+    }
+   },
+   "summary": "Two underground royal tombs on the ridge north-east of town, traditionally of King Kaleb (c. 510–540) and his son Gebre Meskel, with chambers built of exactly fitted granite blocks.",
+   "details": [
+    "Each tomb is reached by a stairway into chambers built of finely fitted granite blocks. The traditional names are not proven; the style suggests the 6th century. A building, perhaps a chapel, stood above one of them.",
+    "The model shows only what is above ground: the terrace, the two masonry blocks, their stairwells and some column bases. The superstructure's form is unknown."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kaleb",
+    "wiki-gebre-meskel",
+    "munro-hay-aksum",
+    "phillipson-ancient-ethiopia"
+   ],
+   "built": "6th century (traditional attribution)",
+   "function": "Royal tombs",
+   "activity": {
+    "figures": 6,
+    "radius": 60
+   }
+  },
+  {
+   "id": "mai-shum",
+   "placeId": "mai-shum",
+   "name": "Mai Shum ('Queen of Sheba's Bath')",
+   "category": "civic",
+   "position": [
+    2323,
+    1420
+   ],
+   "rotation": 0,
+   "footprint": [
+    56.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/mai-shum.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 56,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "A spring pool where the Mai Hejja stream leaves the hills. Whether anyone had yet cut it into a reservoir is not known."
+    },
+    "ezana-350": {
+     "note": "The town's reservoir, probably already cut into the rock: women with clay jars on the steps at dawn and dusk, cattle watered below the dam.",
+     "confidence": "interpretation"
+    },
+    "kaleb-530": {
+     "note": "Still the city's main store of water through the dry season, from October to May."
+    },
+    "medieval-1500": {
+     "note": "Called the bath of the Queen of Sheba; Alvares praised the town's 'very good wells of water of very beautiful worked masonry'."
+    },
+    "gondarine-1665": {
+     "note": "The reservoir of the town of priests, used for water and for the Timkat feast of Epiphany, when the faithful are blessed with its water."
+    }
+   },
+   "summary": "A large rock-cut reservoir at the foot of Mai Qoqo, popularly called the Queen of Sheba's Bath, probably Aksumite in origin and still used for water and the Timkat (Epiphany) blessing.",
+   "details": [
+    "The basin is cut into the rock where the Mai Hejja valley opens, with steps down to the water. It may go back to Aksumite times, which would have given the city a store of water through the long dry season; it has been recut and enlarged since, and its steps are later.",
+    "The model shows the basin, a dam wall on the south and flights of steps; its size and shape are approximate."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-axum",
+    "munro-hay-aksum",
+    "alvares"
+   ],
+   "built": "perhaps Aksumite; recut later",
+   "function": "Reservoir",
+   "activity": {
+    "figures": 18,
+    "radius": 60
+   }
+  },
+  {
+   "id": "mary-of-zion",
+   "placeId": "mary-of-zion",
+   "name": "Church of Mary of Zion (Maryam Seyon)",
+   "category": "religious",
+   "position": [
+    2083,
+    1931
+   ],
+   "rotation": 90,
+   "footprint": [
+    90.0,
+    100.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/mary-of-zion.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 100,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Houses and open ground south of the royal cemetery; a church would stand here after the conversion of the kings."
+    },
+    "ezana-350": {
+     "note": "Tradition puts the first church here in the time of Ezana and the first bishop, Frumentius. Its form is unknown; the model shows a basilica on the great stepped podium that still survives.",
+     "confidence": "interpretation",
+     "name": "The first church of Zion",
+     "model": {
+      "glb": "models/aksum/mary-of-zion-aksumite.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 90,
+       "depth": 100,
+       "height": 36.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "kaleb-530": {
+     "note": "The cathedral of the Christian capital, a basilica with timber-laced walls on its high podium, inside a precinct.",
+     "confidence": "reconstruction",
+     "name": "Cathedral of Zion",
+     "model": {
+      "glb": "models/aksum/mary-of-zion-aksumite.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 90,
+       "depth": 100,
+       "height": 36.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "medieval-1500": {
+     "note": "The church rebuilt in the early 15th century, as Alvares saw it in the 1520s: five aisles, vaulted and painted, in a high-walled court inside a great enclosure. Burned in 1535.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/aksum/mary-of-zion-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 90,
+       "depth": 100,
+       "height": 36.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "gondarine-1665": {
+     "note": "Fasilides' church of about 1665, rectangular and battlemented with round corner turrets, standing on the old Aksumite podium in its walled precinct."
+    }
+   },
+   "summary": "Ethiopia's holiest church and the place where emperors were crowned, said to hold the Ark of the Covenant. Founded by tradition under Ezana, rebuilt in the 15th century, burned in 1535, and rebuilt by Fasilides around 1665.",
+   "details": [
+    "The church stands on a stepped podium of Aksumite masonry, the one certain remnant of the first cathedral. Alvares described the late-medieval church of five aisles with seven chapels inside two enclosures; Ahmad Gragn's army burned it in 1535. Gelawdewos and Minas rebuilt it; Fasilides replaced that building with the present one.",
+    "Three models: an interpretation of the Aksumite basilica, a reconstruction from Alvares' account, and Fasilides' church, simplified. The 1955 cathedral and 1965 chapel of the Tablet are outside this atlas's time."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mary-zion",
+    "wiki-axum",
+    "alvares",
+    "wiki-fasilides",
+    "munro-hay-aksum"
+   ],
+   "built": "4th century (tradition); rebuilt 15th century; c. 1665",
+   "function": "Cathedral and coronation church",
+   "activity": {
+    "figures": 50,
+    "radius": 110
+   }
+  },
+  {
+   "id": "coronation-thrones",
+   "placeId": "stone-thrones",
+   "name": "The stone thrones",
+   "category": "monument",
+   "position": [
+    2083,
+    1808
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.0,
+    10.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/coronation-thrones.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 10,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Open ground by the cemetery; the custom of setting up thrones may be old, but none is known from this time."
+    },
+    "ezana-350": {
+     "note": "Granite thrones of the kings, set up after victories and carrying inscribed panels and perhaps metal statues; Ezana's inscriptions speak of a throne raised 'here in Sado'."
+    },
+    "kaleb-530": {
+     "note": "A row of thrones of earlier kings on the ceremonial way between the stelae and the cathedral, with their inscriptions of wars won."
+    },
+    "medieval-1500": {
+     "note": "The old thrones are coronation seats now: here Zara Yaqob sat in 1436, after cutting a cord held across his path by the 'daughters of Aksum'.",
+     "name": "The coronation seats"
+    },
+    "gondarine-1665": {
+     "note": "The king's stone and the seats of the judges in front of the church, used again when emperors come to Aksum to be crowned.",
+     "name": "The coronation seats"
+    }
+   },
+   "summary": "Granite bases of Aksumite thrones, once carrying seats, inscriptions and statues, which in later centuries became the stone seats used at the coronations of emperors at Aksum.",
+   "details": [
+    "Dozens of throne bases survive round Aksum, with sockets for lost seats and panels. Their inscriptions (of Ezana, Kaleb and others) recorded campaigns. Medieval kings crowned at Aksum were seated on these stones in the rites before the church.",
+    "The model lines seven thrones on a paved strip with a larger central seat and inscribed slabs; their number and arrangement are illustrative, the seats themselves a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-axum",
+    "munro-hay-aksum",
+    "alvares",
+    "wiki-zara-yaqob"
+   ],
+   "built": "4th–6th centuries; used later at coronations",
+   "function": "Victory thrones, coronation seats",
+   "activity": {
+    "figures": 12,
+    "radius": 40
+   }
+  },
+  {
+   "id": "ezana-stone",
+   "placeId": "ezana-stone",
+   "name": "The Ezana Stone",
+   "category": "monument",
+   "position": [
+    2472,
+    1014
+   ],
+   "rotation": 0,
+   "footprint": [
+    6.0,
+    5.0
+   ],
+   "scale": 2.5,
+   "model": {
+    "glb": "models/aksum/ezana-stone.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 6,
+     "depth": 5,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "A slope on the way up the valley; nothing marks it yet."
+    },
+    "ezana-350": {
+     "note": "New: an inscribed granite stone recording Ezana's campaigns, in Ge'ez, in South Arabian script and in Greek, the Rosetta Stone of Aksum."
+    },
+    "kaleb-530": {
+     "note": "An old royal inscription by the road up to the new royal tombs; its Greek could still be read by the merchants."
+    },
+    "medieval-1500": {
+     "note": "Half-buried; the scripts are older than the church Ge'ez anyone around it reads."
+    },
+    "gondarine-1665": {
+     "note": "Buried or lying forgotten; farmers found it again in modern times, and it now stands under a shelter on the spot."
+    }
+   },
+   "summary": "A granite stone inscribed for King Ezana in three versions, Ge'ez, Sabaic (South Arabian) script and Greek, recording his wars, in the Greek invoking the Christian God.",
+   "details": [
+    "Ezana ruled about 330–360. The inscription tells of his campaigns, including one against the Noba around the Nile; earlier inscriptions of his name the gods Astar and Mahrem, later ones God and Christ, so that his stones document the conversion. Inscriptions in several languages are known from his reign.",
+    "The model is a slab with lines standing for the text, on a low base, enlarged on the map. The real stone is about 2 m high."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-ezana-stone",
+    "wiki-ezana",
+    "munro-hay-aksum"
+   ],
+   "built": "c. 340s–350s",
+   "function": "Royal inscription",
+   "activity": {
+    "figures": 3,
+    "radius": 20
+   }
+  },
+  {
+   "id": "beta-giyorgis",
+   "placeId": "beta-giyorgis",
+   "name": "Hilltop settlement of Beta Giyorgis",
+   "category": "district",
+   "position": [
+    1349,
+    832
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/aksum/beta-giyorgis.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 90,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -22.5,
+        -17.5
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        22.5,
+        14.0
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-100"
+   ],
+   "variants": {
+    "early-100": {
+     "note": "Stone houses on terraces, cattle pens and the elite cemetery of Ona Enda Aboi Zewgi with its rough stelae, above the new town; the settlement goes back perhaps to the 7th–4th centuries BCE.",
+     "confidence": "reconstruction"
+    },
+    "ezana-350": {
+     "note": "The town has moved down to the valley, but people still live on the hill; its old cemetery is a place of ancestors.",
+     "name": "Beta Giyorgis"
+    }
+   },
+   "summary": "The settlement on top of Beta Giyorgis, where Rodolfo Fattovich's excavations found houses and an elite cemetery going back centuries before the Aksumite kingdom: the hill where Aksum began.",
+   "details": [
+    "Excavations by Fattovich and Bard from the 1990s showed that people lived on the hill from about the 7th–4th centuries BCE, and that the elite cemetery of Ona Enda Aboi Zewgi, marked by rough stelae, was used into the early Aksumite period, before the royal cemetery moved below.",
+    "The model's houses, yards and pens are illustrative; only the existence and the date range of the settlement and cemetery are documented."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-axum",
+    "phillipson-foundations",
+    "munro-hay-aksum"
+   ],
+   "built": "c. 7th century BCE – 1st century CE",
+   "function": "Settlement and elite cemetery",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "herders-compound",
+   "name": "A farmstead by the spring",
+   "kind": "house",
+   "position": [
+    2569,
+    1575
+   ],
+   "activePeriods": [
+    "early-100"
+   ],
+   "summary": "A stone farmhouse of the early town with a walled cattle pen, granary jars and a threshing floor, near the spring at the mouth of the valley.",
+   "details": [
+    "Excavated houses of the early Aksumite period are rectangular, of rubble in mud, with stone-lined storage and hearths. Cattle, sheep and goats, wheat, barley and teff fed the town; pottery and grinding stones are everywhere in the deposits. This farmstead is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "phillipson-foundations",
+    "phillipson-ancient-ethiopia"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The boys drive the cattle out of the stone pen toward the hill, the dog running ahead. Smoke rises from the roof; someone is already grinding grain on a stone."
+    },
+    {
+     "hour": 13,
+     "text": "Barley spread on the threshing floor; the oxen walk round and round on it, and a girl sweeps the grain together with a bundle of twigs."
+    },
+    {
+     "hour": 20,
+     "text": "Milk in a smoked clay pot, flat bread from the griddle, the cattle back in the pen and the door barred against hyenas."
+    }
+   ],
+   "variants": {
+    "ezana-350": {
+     "note": "The houses of the growing city have reached the spring; the farmers have moved out to the plain."
+    }
+   }
+  },
+  {
+   "id": "stonemasons",
+   "name": "Stonemasons on the Gobedra road",
+   "kind": "works",
+   "position": [
+    130,
+    2408
+   ],
+   "activePeriods": [
+    "early-100",
+    "ezana-350"
+   ],
+   "summary": "Masons dressing granite blocks brought from the quarries of Gobedra, about 4 km further west and outside this map, where an unfinished stele still lies and a lioness is carved on a rock.",
+   "details": [
+    "The stelae were split from the granite (nepheline syenite) of Gobedra with wedges, roughed out, and dragged to the city, perhaps on rollers by gangs of men or with elephants: how is not known. The lioness carved in the rock near the quarry cannot be dated."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "phillipson-ancient-ethiopia",
+    "wiki-lioness-gobedra",
+    "munro-hay-aksum"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Wooden wedges hammered into a line of holes are soaked with water; by noon, they say, the stone will split. The foreman marks the next cut with charcoal."
+    },
+    {
+     "hour": 13,
+     "text": "Iron picks ring on a granite slab the length of four men. Dust in the air, water skins passed round, a song to keep the blows together."
+    },
+    {
+     "hour": 18,
+     "text": "A team leans into the ropes and the sledge creaks forward on its rollers: another day, another few hundred metres toward the city."
+    }
+   ],
+   "variants": {
+    "kaleb-530": {
+     "note": "No more great stelae are cut; the masons dress blocks for churches, mansions and royal tombs instead."
+    }
+   }
+  },
+  {
+   "id": "market",
+   "name": "The market below the stelae",
+   "kind": "market",
+   "position": [
+    2159,
+    1709
+   ],
+   "activePeriods": [
+    "early-100",
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "The open ground by the royal stelae where the town traded: grain, cattle and salt from the highlands, ivory and gold from the west, glass, wine, cloth and iron from the Red Sea.",
+   "details": [
+    "The Periplus lists what Adulis took in: cloth from Egypt, glass, brass, iron for spears, wine from Italy and Syria, a little olive oil, gold and silver plate for the king. Out went ivory, tortoise shell and rhinoceros horn. Where the market stood is not known; this place is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "periplus",
+    "munro-hay-aksum",
+    "phillipson-ancient-ethiopia"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Women spread grain on hides: barley, wheat, the tiny seed of teff. A trader from the coast unpacks green glass cups wrapped in straw."
+    },
+    {
+     "hour": 12,
+     "text": "Copper coins change hands for salt bars and cloth; a gold piece with the king's head is bitten, weighed and argued over."
+    },
+    {
+     "hour": 17,
+     "text": "The tall stones throw long shadows over the stalls; porters load donkeys for the road east before dark."
+    }
+   ],
+   "variants": {
+    "early-100": {
+     "note": "A smaller market of the early town; no coins yet, trade by barter and weight."
+    },
+    "medieval-1500": {
+     "note": "A weekly market of the sacred town: grain, honey, cotton cloth, salt bars as money."
+    },
+    "gondarine-1665": {
+     "note": "A small market by the church precinct, salt bars and cloth serving as money."
+    }
+   }
+  },
+  {
+   "id": "mint",
+   "name": "The king's mint",
+   "kind": "workshop",
+   "position": [
+    2483,
+    1886
+   ],
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530"
+   ],
+   "summary": "Where Aksum's coins were struck: gold for the Red Sea trade with Greek legends, silver and bronze for the town, the cross replacing the crescent and disc under Ezana.",
+   "details": [
+    "From about 270, beginning with King Endubis, Aksum was one of the few states of its time to issue gold coins. After Ezana's conversion the cross appears; some bronze coins have the cross picked out in gold. Where the mint stood is not known: this position is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-aksumite-currency",
+    "munro-hay-coins",
+    "munro-hay-aksum"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Gold dust is weighed out under guard and melted in small clay crucibles; a boy works the bellows until the charcoal roars."
+    },
+    {
+     "hour": 13,
+     "text": "Blank discs on the anvil, the die above, one blow of the hammer: the king's bust in a headcloth, wheat ears, and a cross."
+    },
+    {
+     "hour": 19,
+     "text": "The day's coins are counted twice into a leather bag and sealed; the die is locked away in the king's storehouse."
+    }
+   ],
+   "variants": {
+    "kaleb-530": {
+     "note": "Kaleb's coins carry his throne name, Ella Asbeha, and the cross; copper coins are struck in large numbers."
+    }
+   }
+  },
+  {
+   "id": "ivory-trader",
+   "name": "An ivory merchant's store",
+   "kind": "shop",
+   "position": [
+    2612,
+    1975
+   ],
+   "activePeriods": [
+    "early-100",
+    "ezana-350",
+    "kaleb-530"
+   ],
+   "summary": "A storehouse of tusks waiting for the caravan to Adulis: the Periplus says all the ivory from beyond the Nile came to Aksum first.",
+   "details": [
+    "The Periplus (mid-1st century) says the ivory was brought to the metropolis of the Axumites from the country beyond the Nile, and on to Adulis, eight days' journey. Elephants were still hunted in the lowlands; Cosmas later describes the trade. The store is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "periplus",
+    "cosmas",
+    "wiki-adulis"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Tusks lie in rows on mats, the largest as long as a man. The merchant wets one with his thumb to show the grain to a buyer from the coast."
+    },
+    {
+     "hour": 14,
+     "text": "Hunters from the western lowlands squat by the door with three more tusks and a rhinoceros horn wrapped in hide."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps out, the door barred; the camel and donkey loads for Adulis are packed and roped for the morning."
+    }
+   ],
+   "variants": {
+    "medieval-1500": {
+     "note": "The Red Sea trade has moved away; the store is long gone."
+    }
+   }
+  },
+  {
+   "id": "incense-seller",
+   "name": "Incense and spice stall",
+   "kind": "shop",
+   "position": [
+    2267,
+    1853
+   ],
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500"
+   ],
+   "summary": "Frankincense and myrrh from the lowlands and the Horn, sold for the old gods' altars and then for the church's censers.",
+   "details": [
+    "Frankincense and myrrh grew in the lowlands of the Horn and southern Arabia and were among the goods of the Red Sea trade; incense burned before the stelae altars and later in every church. The stall is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "periplus",
+    "munro-hay-aksum"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Lumps of pale frankincense in baskets, dark myrrh in a pot; a priest's servant sniffs, bargains and buys a handful wrapped in a leaf."
+    },
+    {
+     "hour": 13,
+     "text": "The seller drops a grain on a coal to show the smoke, sweet and resinous, curling over the street."
+    },
+    {
+     "hour": 19,
+     "text": "The last customers are women buying a little incense for the house, against fleas and bad spirits."
+    }
+   ],
+   "variants": {
+    "medieval-1500": {
+     "note": "Incense now goes mostly to Mary of Zion, whose priests burn it at every office."
+    }
+   }
+  },
+  {
+   "id": "roman-merchants",
+   "name": "Prayer house of the Roman merchants",
+   "kind": "church",
+   "position": [
+    2440,
+    1919
+   ],
+   "activePeriods": [
+    "ezana-350",
+    "kaleb-530"
+   ],
+   "summary": "Rufinus tells how the young Syrian Frumentius, a captive at the Aksumite court, sought out Christian merchants from the Roman world and gave them places to meet for prayer.",
+   "details": [
+    "According to Rufinus, Frumentius and his brother Aedesius were captured as boys from a ship on the Red Sea and served at court; Frumentius later went to Alexandria, was consecrated bishop by Athanasius and returned to Aksum. The prayer house's place is unknown; this is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "rufinus",
+    "wiki-frumentius",
+    "munro-hay-aksum"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A dozen men in Greek tunics stand facing east in a plain room, singing a psalm; a cross is painted on the plastered wall."
+    },
+    {
+     "hour": 13,
+     "text": "The merchants talk prices in Greek over bread and wine: glass from Egypt, iron, the ivory market, the king's new coins."
+    },
+    {
+     "hour": 20,
+     "text": "A lamp burns in the room after the evening prayer; an Aksumite servant of the court stays behind to ask about the new faith."
+    }
+   ],
+   "variants": {
+    "kaleb-530": {
+     "note": "The city is Christian now; Greek-speaking traders from Byzantine Egypt worship in the city's churches."
+    }
+   }
+  },
+  {
+   "id": "potter",
+   "name": "Potter's yard",
+   "kind": "workshop",
+   "position": [
+    2569,
+    2241
+   ],
+   "activePeriods": [
+    "early-100",
+    "ezana-350",
+    "kaleb-530"
+   ],
+   "summary": "Red and black burnished pots, jars and bowls, shaped by hand and fired in an open bonfire on the edge of town.",
+   "details": [
+    "Pottery is the commonest find at Aksum: handmade wares, often red-slipped and burnished, with incised or stamped decoration, some with crosses after the conversion. Potting was probably women's work, as in the region today. The yard is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "phillipson-ancient-ethiopia",
+    "phillipson-foundations"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Clay from the stream bank, trodden with straw and sand; a woman coils a jar on a broken pot that turns on the ground."
+    },
+    {
+     "hour": 13,
+     "text": "Rows of drying pots in the shade; a girl burnishes a bowl with a smooth pebble until it shines like leather."
+    },
+    {
+     "hour": 18,
+     "text": "The firing: pots stacked under dung and brushwood, flames leaping, then the hiss and smoke when the fire is beaten down."
+    }
+   ],
+   "variants": {
+    "medieval-1500": {
+     "note": "Potters still work at the edge of the much smaller town."
+    }
+   }
+  },
+  {
+   "id": "chant-school",
+   "name": "School of chant",
+   "kind": "school",
+   "position": [
+    2191,
+    2064
+   ],
+   "activePeriods": [
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "Where deacons learn zema, the church chant that tradition says St Yared composed at Aksum in the 6th century, and later qene, the church's improvised poetry.",
+   "details": [
+    "Tradition makes Yared a priest of Aksum under King Gebre Meskel, inspired by birds to compose the chants and their three modes. The church schools taught reading, chant, qene poetry and the scriptures in Ge'ez, which ceased to be spoken but remained the church's language. The school's place is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-yared",
+    "wiki-zema",
+    "wiki-qene",
+    "pankhurst-ethiopia"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn the boys sit wrapped in their shammas round a fire, repeating a line of chant after the master until it is right."
+    },
+    {
+     "hour": 13,
+     "text": "The pupils beg for bread at the houses round the church, as students have done for centuries, singing at each door."
+    },
+    {
+     "hour": 20,
+     "text": "The master beats time with his prayer staff; the older students sway and answer, the sistrum shaking softly."
+    }
+   ],
+   "variants": {
+    "kaleb-530": {
+     "note": "Tradition sets Yared himself here, singing before King Gebre Meskel."
+    }
+   }
+  },
+  {
+   "id": "scribe",
+   "name": "A church scribe's house",
+   "kind": "workshop",
+   "position": [
+    1986,
+    2030
+   ],
+   "activePeriods": [
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "A scribe copying psalters and the books of the church in Ge'ez on parchment, with reed pens and inks of soot and plant dyes.",
+   "details": [
+    "Ethiopian manuscripts were written on goat or sheep parchment, with black ink for the text and red for holy names and headings, and bound between wooden boards. Aksum's church kept land charters and records in its books (the 'Book of Aksum'). The house is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-geez-script",
+    "pankhurst-ethiopia",
+    "wiki-mary-zion"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Parchment stretched on a frame in the yard, scraped smooth with a knife; the scribe rules lines with an awl."
+    },
+    {
+     "hour": 12,
+     "text": "He holds the leaf on his knee, no table, and writes in black, changing pens to put the name of Mary in red."
+    },
+    {
+     "hour": 18,
+     "text": "The finished quires are sewn and laced into boards of olive wood; the book goes to the church for the evening office."
+    }
+   ],
+   "variants": {
+    "gondarine-1665": {
+     "note": "After the burning of 1535 the church's books are being copied again from what was saved."
+    }
+   }
+  },
+  {
+   "id": "coronation-road",
+   "name": "The coronation way",
+   "kind": "civic",
+   "position": [
+    1922,
+    1775
+   ],
+   "activePeriods": [
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "The road along which a king came to be crowned at Aksum: met by the daughters of Aksum holding a cord, which he cut, then seated on the stone throne, anointed, and taken to Zion.",
+   "details": [
+    "Few medieval kings came to Aksum for coronation, but those who did, like Zara Yaqob in 1436 and later Sarsa Dengel in 1579, followed an old rite: the cord held by the maidens of Zion, the stone seat, anointing and the mass in Mary of Zion. Details vary between accounts."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-axum",
+    "wiki-zara-yaqob",
+    "munro-hay-aksum"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Priests in embroidered capes with silver crosses and fringed umbrellas line the way; drums and sistra sound from the church gate."
+    },
+    {
+     "hour": 11,
+     "text": "The king rides up; girls hold a cord across the road and ask who he is. 'King of Zion', he answers, and cuts it with his sword."
+    },
+    {
+     "hour": 18,
+     "text": "After the anointing and the mass the crowd disperses; beggars and pilgrims gather at the gate for the bread and meat of the feast."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "pilgrims",
+   "name": "Pilgrims at the gate of Zion",
+   "kind": "inn",
+   "position": [
+    1857,
+    1975
+   ],
+   "activePeriods": [
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "Pilgrims from all over the highlands camping by the precinct of Mary of Zion, especially for the feast of Zion in November.",
+   "details": [
+    "Aksum's church claimed the Ark of the Covenant, the tablets of Moses brought, in the Kebra Nagast's story, by Menelik son of Solomon and the Queen of Sheba. The town had the right of sanctuary, and pilgrims came for the feast of Zion (21 Hedar, about 30 November)."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mary-zion",
+    "pankhurst-ethiopia",
+    "alvares"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Pilgrims wrapped in white sleep against the precinct wall; the first chant from inside wakes them, and they kneel and kiss the stones."
+    },
+    {
+     "hour": 13,
+     "text": "A family that walked twelve days from Gojjam shares roasted barley; an old man asks a deacon where the Ark is kept."
+    },
+    {
+     "hour": 20,
+     "text": "Candles and small fires along the wall, a beggar's song about Mary, and the dark mass of the church against the stars."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "farmer",
+   "name": "Ploughing teff on the plain",
+   "kind": "garden",
+   "position": [
+    1727,
+    2996
+   ],
+   "activePeriods": [
+    "early-100",
+    "ezana-350",
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "A farmer behind a pair of oxen and a wooden ard, the iron-tipped plough of the highlands, breaking the black soil for teff in the early rains.",
+   "details": [
+    "Teff, the tiny grain of injera, was domesticated in the Ethiopian highlands; Aksum's farmers grew it with wheat and barley, and the ox-drawn ard is shown on Aksumite-period objects and still used. The plain south of the town was its granary. The scene is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-teff",
+    "phillipson-foundations",
+    "munro-hay-aksum"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the plain; the farmer yokes the two oxen, talks to them by name, and sets the ard's point into the furrow."
+    },
+    {
+     "hour": 12,
+     "text": "Women follow, broadcasting the teff seed from a basket, so fine it drifts like dust; children chase off the birds."
+    },
+    {
+     "hour": 18,
+     "text": "The oxen are watered at the stream; the farmer walks home with the plough on his shoulder toward the smoke of the town."
+    }
+   ],
+   "variants": {
+    "medieval-1500": {
+     "note": "Many fields belong to the church of Zion and its clergy, worked by tenant farmers."
+    },
+    "gondarine-1665": {
+     "note": "Church land, ploughed by tenants who pay their dues in grain to the priests of Zion."
+    }
+   }
+  },
+  {
+   "id": "abba-liqanos",
+   "name": "Monastery of Abba Liqanos",
+   "kind": "church",
+   "position": [
+    605,
+    477
+   ],
+   "activePeriods": [
+    "kaleb-530",
+    "medieval-1500",
+    "gondarine-1665"
+   ],
+   "summary": "A small monastery on the hilltop west of Beta Giyorgis, founded by tradition by Abba Liqanos, one of the Nine Saints, monks from the Roman world who came around 500.",
+   "details": [
+    "The Nine Saints are credited with spreading monasticism and translating scripture into Ge'ez in the late 5th and 6th centuries; Liqanos and Pantelewon settled on hills above Aksum. What survives is later; the first buildings are unknown."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nine-saints",
+    "munro-hay-aksum",
+    "pankhurst-ethiopia"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "A bell-stone struck in the dark; monks in yellow-brown robes file into the little church on the summit."
+    },
+    {
+     "hour": 13,
+     "text": "The town lies below in the heat haze, the stelae like pins; a monk tends a terrace of barley inside the wall."
+    },
+    {
+     "hour": 19,
+     "text": "Wind on the hilltop, a single lamp, and the long night office in Ge'ez."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "periplus-c50",
+   "title": "'The metropolis of the Axumites'",
+   "periodId": "early-100",
+   "date": "mid-1st century CE (c. 40–70)",
+   "kind": "daily",
+   "at": {
+    "spotId": "market"
+   },
+   "effect": "none",
+   "text": "An anonymous Greek merchant's guide to the Red Sea, the Periplus, describes Adulis and, five days' journey inland beyond Coloe, 'the city of the people called Axumites', where all the ivory from beyond the Nile is brought. It is the first certain mention of Aksum, and already calls it a metropolis.",
+   "sourceIds": [
+    "periplus",
+    "wiki-kingdom-aksum",
+    "phillipson-ancient-ethiopia"
+   ]
+  },
+  {
+   "id": "ezana-conversion",
+   "title": "King Ezana turns Christian",
+   "periodId": "ezana-350",
+   "date": "c. 330s–340s",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mary-of-zion"
+   },
+   "effect": "crowd",
+   "text": "Taught by Frumentius, a Syrian captive at court who returned from Alexandria as bishop, King Ezana became a Christian. His coins replace the old crescent and disc with the cross, and his later inscriptions invoke 'the Lord of Heaven'. Tradition sets the first church of Mary of Zion here; the exact date of his conversion is debated.",
+   "sourceIds": [
+    "rufinus",
+    "wiki-ezana",
+    "wiki-aksumite-currency",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "ezana-campaign",
+   "title": "Ezana's inscription of victory",
+   "periodId": "ezana-350",
+   "date": "c. 350s",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "ezana-stone"
+   },
+   "effect": "procession",
+   "text": "After a campaign to the Nile against the Noba, Ezana had his deeds carved on stone in Ge'ez, in South Arabian script and in Greek, thanking God for victory. The army came home with captives and cattle, which the inscriptions count to the head.",
+   "sourceIds": [
+    "wiki-ezana-stone",
+    "wiki-ezana",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "great-stele-fall",
+   "title": "The Great Stele falls",
+   "periodId": "ezana-350",
+   "date": "unknown; perhaps the 4th century",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "great-stele"
+   },
+   "effect": "crowd",
+   "text": "The largest stele, 33 m of granite, crashed down and broke into pieces, smashing part of a great tomb beside it. Phillipson suggests it fell while it was being raised or soon after, and that the disaster may have helped end the custom of royal stelae at the time of the conversion; no source records the day.",
+   "sourceIds": [
+    "phillipson-ancient-ethiopia",
+    "wiki-great-stele",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "cosmas-c520",
+   "title": "Cosmas sees the king's palace",
+   "periodId": "kaleb-530",
+   "date": "c. 518–525",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "taakha-maryam"
+   },
+   "effect": "none",
+   "text": "The Alexandrian merchant Cosmas, later called Indicopleustes, was at Adulis as the king prepared war on Himyar, copied an old inscription there for the governor, and described the 'four-towered palace' of the king of Ethiopia with its bronze unicorns and the giraffes kept by the king. Which building he meant is unknown.",
+   "sourceIds": [
+    "cosmas",
+    "wiki-cosmas",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "kaleb-himyar-525",
+   "title": "Kaleb's fleet sails for Himyar",
+   "periodId": "kaleb-530",
+   "date": "c. 525",
+   "kind": "procession",
+   "at": {
+    "position": [
+     3131,
+     1886
+    ]
+   },
+   "effect": "procession",
+   "text": "After the Jewish king of Himyar in Yemen, Yusuf (Dhu Nuwas), massacred the Christians of Najran, King Kaleb marched his army down to Adulis and crossed the Red Sea, with ships that some accounts say came from the Byzantines. Yusuf was defeated and killed; Christian rulers installed by Aksum held Yemen, though one of them, Abraha, soon went his own way.",
+   "sourceIds": [
+    "procopius",
+    "wiki-kaleb",
+    "wiki-dhu-nuwas",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "hijra-615",
+   "title": "Refuge for the first Muslims",
+   "periodId": "kaleb-530",
+   "date": "c. 615",
+   "kind": "civic",
+   "at": {
+    "position": [
+     1727,
+     1908
+    ]
+   },
+   "effect": "none",
+   "text": "Persecuted in Mecca, a small group of the Prophet Muhammad's followers crossed the Red Sea and were received by the Negus (al-Najashi), the Christian king, who refused to hand them back. Where he held court is not stated; Aksum is likely, while Muslim tradition places his tomb at Negash, far to the east.",
+   "sourceIds": [
+    "ibn-ishaq",
+    "wiki-hijra-abyssinia",
+    "wiki-najashi"
+   ]
+  },
+  {
+   "id": "gudit-c960",
+   "title": "Queen Gudit burns Aksum (tradition)",
+   "periodId": "medieval-1500",
+   "date": "c. 960 (tradition)",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "mary-of-zion"
+   },
+   "effect": "fire",
+   "text": "Ethiopian tradition tells of a queen, Gudit or Yodit, who sacked Aksum, burned its churches and killed the royal family. An Arabic source of the time mentions a hostile queen ravaging the kingdom. Whether she burned Mary of Zion, and who she was, are both uncertain.",
+   "sourceIds": [
+    "wiki-gudit",
+    "wiki-mary-zion",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "zara-yaqob-1436",
+   "title": "Zara Yaqob crowned at Aksum",
+   "periodId": "medieval-1500",
+   "date": "1436",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "coronation-thrones"
+   },
+   "effect": "procession",
+   "text": "Emperor Zara Yaqob came north to be crowned at Aksum, by the rite later described: the cord held by the daughters of Aksum cut, the stone throne, anointing, and mass in the rebuilt church of Zion. He stayed in the region for three years, and few later kings repeated the journey.",
+   "sourceIds": [
+    "wiki-zara-yaqob",
+    "wiki-axum",
+    "munro-hay-aksum"
+   ]
+  },
+  {
+   "id": "gragn-1535",
+   "title": "Ahmad Gragn burns Mary of Zion",
+   "periodId": "medieval-1500",
+   "date": "1535",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "mary-of-zion"
+   },
+   "effect": "fire",
+   "text": "In the war between Adal and Ethiopia, the army of Imam Ahmad ibn Ibrahim, called Gragn ('the left-handed'), took Aksum and burned the great church Alvares had admired a decade before. A list in the Book of Aksum counts 1,705 gold objects that Emperor Lebna Dengel had already sent away for safekeeping.",
+   "sourceIds": [
+    "futuh",
+    "wiki-ahmad-gragn",
+    "wiki-axum"
+   ]
+  },
+  {
+   "id": "fasilides-1665",
+   "title": "Fasilides builds the new Zion",
+   "periodId": "gondarine-1665",
+   "date": "c. 1665 (some say 1655)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mary-of-zion"
+   },
+   "effect": "construction",
+   "text": "Emperor Fasilides, builder of the castles of Gondar, replaced the church put up after the war with a new one in the Gondarine manner on the old Aksumite podium: rectangular, battlemented, with round corner towers. His daughter Yodit gave lavishly for its dedication. It is the 'old church' still standing.",
+   "sourceIds": [
+    "wiki-fasilides",
+    "wiki-axum",
+    "wiki-mary-zion"
+   ]
+  },
+  {
+   "id": "iyasu-1693",
+   "title": "Iyasu I comes to Zion",
+   "periodId": "gondarine-1665",
+   "date": "1693",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mary-of-zion"
+   },
+   "effect": "crowd",
+   "text": "Fifteen years after rebels burned the town in 1678, Emperor Iyasu I came to Aksum for the rites at Mary of Zion, which had survived. The visit of the emperor from Gondar renewed the old tie between the crown and Aksum's church, though the court itself stayed far to the south.",
+   "sourceIds": [
+    "wiki-iyasu-i",
+    "wiki-axum"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "ezana-day",
+   "title": "A day in Ezana's Aksum",
+   "periodId": "ezana-350",
+   "summary": "Walk the capital in the years of King Ezana: the market and the mint, the Roman merchants' prayer house, the royal stelae, and the new church where the king has taken the cross.",
+   "steps": [
+    {
+     "spotId": "market",
+     "title": "Under the stones",
+     "text": "Start in the market by the royal cemetery: highland grain and cattle, ivory from the west, glass and wine from the coast, and the king's coins passing from hand to hand."
+    },
+    {
+     "spotId": "mint",
+     "title": "Gold with a cross",
+     "text": "At the mint the hammers strike gold pieces with the king's bust. Lately the die has changed: where the crescent and disc of the old gods stood, there is now a cross."
+    },
+    {
+     "spotId": "roman-merchants",
+     "title": "The merchants' prayers",
+     "text": "In a plain room Greek-speaking traders sing psalms. Frumentius, the king's old tutor, now a bishop consecrated in Alexandria, once found them places like this."
+    },
+    {
+     "landmarkId": "ezana-stele",
+     "title": "The house of stone",
+     "text": "The newest stele rises 21 m over a royal tomb, carved as a tower of storeys with a false door at its foot. It may be the last one: Christian kings will not raise more."
+    },
+    {
+     "landmarkId": "great-stele",
+     "title": "The giant",
+     "text": "Beside it the Great Stele, 33 m of granite, the largest of all. Whether it still stands or already lies broken, as many think, no record tells."
+    },
+    {
+     "landmarkId": "mary-of-zion",
+     "title": "The new church",
+     "text": "South of the stelae, tradition says, stands the first church of Zion, on the great stepped podium that still survives. The king prays here now.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "periplus",
+    "rufinus",
+    "munro-hay-aksum",
+    "phillipson-ancient-ethiopia"
+   ]
+  },
+  {
+   "id": "alvares-1520",
+   "title": "With Alvares in Aksum",
+   "periodId": "medieval-1500",
+   "summary": "Follow the Portuguese priest Francisco Alvares, who spent months at Aksum in the 1520s with an embassy to the Ethiopian king, a decade before the great church burned.",
+   "steps": [
+    {
+     "spotId": "pilgrims",
+     "title": "A large town",
+     "text": "Alvares found 'a large town with very good houses', with fine stone figures of lions, dogs and birds in many of them."
+    },
+    {
+     "landmarkId": "mary-of-zion",
+     "title": "A very noble church",
+     "text": "Mary of Zion, 'the first there was in Ethiopia': five wide aisles, vaulted and painted, seven chapels facing east, a great paved court inside a very high wall, and a second enclosure like a town wall."
+    },
+    {
+     "landmarkId": "coronation-thrones",
+     "title": "The stone seats",
+     "text": "He described the old stone thrones by the church, which the kings used when they came to be crowned at Aksum, and inscribed stones in scripts few could read."
+    },
+    {
+     "landmarkId": "northern-stelae",
+     "title": "Tall stones",
+     "text": "He described the field of tall stones, some carved, some plain, many standing and many fallen, the work of a people nobody in the town could name."
+    },
+    {
+     "landmarkId": "mai-shum",
+     "title": "The great tank",
+     "text": "He praised the town's 'very good wells of water of very beautiful worked masonry'. The reservoir at the foot of the hill, later called the Queen of Sheba's bath, may be one of them."
+    }
+   ],
+   "sourceIds": [
+    "alvares",
+    "wiki-mary-zion",
+    "wiki-axum"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "munro-hay-aksum",
+   "title": "Aksum: An African Civilisation of Late Antiquity",
+   "author": "Stuart Munro-Hay",
+   "year": 1991
+  },
+  {
+   "id": "phillipson-ancient-ethiopia",
+   "title": "Ancient Ethiopia: Aksum, its Antecedents and Successors",
+   "author": "David W. Phillipson",
+   "year": 1998
+  },
+  {
+   "id": "phillipson-foundations",
+   "title": "Foundations of an African Civilisation: Aksum and the Northern Horn, 1000 BC – AD 1300",
+   "author": "David W. Phillipson",
+   "year": 2012
+  },
+  {
+   "id": "periplus",
+   "title": "Periplus of the Erythraean Sea",
+   "author": "anonymous Greek merchant",
+   "year": "mid-1st century CE",
+   "note": "trans. Lionel Casson (1989)",
+   "url": "https://en.wikipedia.org/wiki/Periplus_of_the_Erythraean_Sea"
+  },
+  {
+   "id": "unesco-aksum",
+   "title": "Aksum (World Heritage List no. 15)",
+   "author": "UNESCO World Heritage Centre",
+   "year": 1980,
+   "url": "https://whc.unesco.org/en/list/15/"
+  },
+  {
+   "id": "wiki-axum",
+   "title": "Axum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Axum"
+  },
+  {
+   "id": "wiki-kingdom-aksum",
+   "title": "Kingdom of Aksum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum"
+  },
+  {
+   "id": "wiki-beta-giyorgis",
+   "title": "Axum (Beta Giyorgis and the pre-Aksumite settlement)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Axum"
+  },
+  {
+   "id": "phillipson-stelae",
+   "title": "Archaeology at Aksum, Ethiopia, 1993–97",
+   "author": "David W. Phillipson",
+   "year": 2000,
+   "note": "excavations in the stelae field, the Tomb of the False Door"
+  },
+  {
+   "id": "dae-1913",
+   "title": "Deutsche Aksum-Expedition",
+   "author": "Enno Littmann, Daniel Krencker and others",
+   "year": 1913,
+   "note": "survey of 1906: plans of the stelae, Ta'akha Maryam and other mansions"
+  },
+  {
+   "id": "alvares",
+   "title": "Verdadeira informação das terras do Preste João das Índias (The Prester John of the Indies)",
+   "author": "Francisco Álvares",
+   "year": "1540",
+   "url": "https://en.wikipedia.org/wiki/Francisco_%C3%81lvares"
+  },
+  {
+   "id": "cosmas",
+   "title": "Christian Topography",
+   "author": "Cosmas Indicopleustes",
+   "year": "c. 550",
+   "url": "https://en.wikipedia.org/wiki/Christian_Topography"
+  },
+  {
+   "id": "wiki-ezana-stele",
+   "title": "King Ezana's Stele",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/King_Ezana%27s_Stele"
+  },
+  {
+   "id": "wiki-obelisk-axum",
+   "title": "Obelisk of Axum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Obelisk_of_Axum"
+  },
+  {
+   "id": "wiki-dungur",
+   "title": "Dungur",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dungur"
+  },
+  {
+   "id": "wiki-architecture-ethiopia",
+   "title": "Architecture of Ethiopia (Aksumite architecture)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Architecture_of_Ethiopia"
+  },
+  {
+   "id": "wiki-mary-zion",
+   "title": "Church of Our Lady Mary of Zion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_Mary_of_Zion"
+  },
+  {
+   "id": "wiki-ezana-stone",
+   "title": "Ezana Stone",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ezana_Stone"
+  },
+  {
+   "id": "wiki-kaleb",
+   "title": "Kaleb of Axum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaleb_of_Axum"
+  },
+  {
+   "id": "wiki-gebre-meskel",
+   "title": "Gebre Meskel",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gebre_Meskel"
+  },
+  {
+   "id": "wiki-gudit",
+   "title": "Gudit",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gudit"
+  },
+  {
+   "id": "wiki-ezana",
+   "title": "Ezana of Axum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ezana_of_Axum"
+  },
+  {
+   "id": "wiki-fasilides",
+   "title": "Fasilides",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fasilides"
+  },
+  {
+   "id": "wiki-zara-yaqob",
+   "title": "Zara Yaqob",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zara_Yaqob"
+  },
+  {
+   "id": "wiki-hawulti",
+   "title": "Hawulti",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hawulti"
+  },
+  {
+   "id": "rufinus",
+   "title": "Ecclesiastical History, Book 10 (Frumentius and Aedesius)",
+   "author": "Rufinus of Aquileia",
+   "year": "c. 402",
+   "url": "https://en.wikipedia.org/wiki/Frumentius"
+  },
+  {
+   "id": "procopius",
+   "title": "History of the Wars, Book 1.19–20 (Ethiopia and Himyar)",
+   "author": "Procopius of Caesarea",
+   "year": "c. 550"
+  },
+  {
+   "id": "ibn-ishaq",
+   "title": "Sirat Rasul Allah (the emigration to Abyssinia)",
+   "author": "Ibn Ishaq, ed. Ibn Hisham",
+   "year": "8th–9th century",
+   "note": "trans. A. Guillaume, The Life of Muhammad (1955)"
+  },
+  {
+   "id": "futuh",
+   "title": "Futuh al-Habasha (The Conquest of Abyssinia)",
+   "author": "Shihab al-Din Ahmad ibn Abd al-Qadir (Arab Faqih)",
+   "year": "c. 1559",
+   "note": "trans. Paul Lester Stenhouse (2003)"
+  },
+  {
+   "id": "munro-hay-coins",
+   "title": "Catalogue of the Aksumite Coins in the British Museum",
+   "author": "Stuart Munro-Hay",
+   "year": 1999
+  },
+  {
+   "id": "pankhurst-ethiopia",
+   "title": "The Ethiopians: A History",
+   "author": "Richard Pankhurst",
+   "year": 1998
+  },
+  {
+   "id": "wiki-aksumite-currency",
+   "title": "Aksumite currency",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aksumite_currency"
+  },
+  {
+   "id": "wiki-frumentius",
+   "title": "Frumentius",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Frumentius"
+  },
+  {
+   "id": "wiki-dhu-nuwas",
+   "title": "Dhu Nuwas",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dhu_Nuwas"
+  },
+  {
+   "id": "wiki-cosmas",
+   "title": "Cosmas Indicopleustes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cosmas_Indicopleustes"
+  },
+  {
+   "id": "wiki-hijra-abyssinia",
+   "title": "Migration to Abyssinia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Migration_to_Abyssinia"
+  },
+  {
+   "id": "wiki-najashi",
+   "title": "Najashi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Najashi"
+  },
+  {
+   "id": "wiki-ahmad-gragn",
+   "title": "Ahmad ibn Ibrahim al-Ghazi",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ahmad_ibn_Ibrahim_al-Ghazi"
+  },
+  {
+   "id": "wiki-iyasu-i",
+   "title": "Iyasu I",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Iyasu_I"
+  },
+  {
+   "id": "wiki-adulis",
+   "title": "Adulis",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Adulis"
+  },
+  {
+   "id": "wiki-teff",
+   "title": "Teff",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Teff"
+  },
+  {
+   "id": "wiki-geez-script",
+   "title": "Geʽez script",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ge%CA%BDez_script"
+  },
+  {
+   "id": "wiki-yared",
+   "title": "Yared",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yared"
+  },
+  {
+   "id": "wiki-zema",
+   "title": "Zema (Ethiopian chant)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zema"
+  },
+  {
+   "id": "wiki-qene",
+   "title": "Qene",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Qene"
+  },
+  {
+   "id": "wiki-nine-saints",
+   "title": "Nine Saints",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nine_Saints"
+  },
+  {
+   "id": "wiki-lioness-gobedra",
+   "title": "Lioness of Gobedra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lioness_of_Gobedra"
+  },
+  {
+   "id": "wiki-great-stele",
+   "title": "King Ezana's Stele (the Great Stele)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/King_Ezana%27s_Stele"
+  },
+  {
+   "id": "wiki-timkat",
+   "title": "Timkat",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timkat"
+  }
+ ]
+}

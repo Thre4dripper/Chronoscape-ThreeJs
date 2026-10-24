@@ -475,7 +475,9 @@
           "subtitle": "City of the stelae, 350",
           "at": [38.72, 14.13],
           "glyph": "obelisk",
-          "blurb": "Capital of a trading kingdom of the Horn of Africa, with its tall carved stone stelae."
+          "blurb": "Capital of a trading kingdom of the Horn of Africa, with its tall carved stone stelae.",
+          "city": "aksum",
+          "period": "ezana-350"
         },
         {
           "title": "Timbuktu",
