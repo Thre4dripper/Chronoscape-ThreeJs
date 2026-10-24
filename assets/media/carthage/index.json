@@ -1,0 +1,539 @@
+{
+ "byrsa": [
+  {
+   "src": "media/carthage/byrsa/1.jpg",
+   "thumb": "media/carthage/byrsa/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "maison punique n°4 de l'ilôt C, byrsa (Carthage)",
+   "artist": "Pradigue",
+   "date": "2001",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Maison_punique_byrsa.jpg"
+  },
+  {
+   "src": "media/carthage/byrsa/2.jpg",
+   "thumb": "media/carthage/byrsa/t2.jpg",
+   "w": 800,
+   "h": 482,
+   "kind": "photograph",
+   "caption": "Representation of the Punic city in the Carthage National Museum",
+   "artist": "damian entwistle",
+   "date": "2010",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Carthage_National_Museum_representation_of_city.jpg"
+  }
+ ],
+ "cothon": [
+  {
+   "src": "media/carthage/cothon/1.jpg",
+   "thumb": "media/carthage/cothon/t1.jpg",
+   "w": 800,
+   "h": 540,
+   "kind": "reconstruction",
+   "caption": "Maquette du port de Carthage à l'époque romaine",
+   "artist": "Pradigue",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Port_militaire_romain_3.jpg"
+  },
+  {
+   "src": "media/carthage/cothon/2.jpg",
+   "thumb": "media/carthage/cothon/t2.jpg",
+   "w": 800,
+   "h": 749,
+   "kind": "photograph",
+   "caption": "Map (rough) of modern Carthage showing remaining ruins from Punic and roman era, own work composed from various mapreferences",
+   "artist": "Hobe / Holger Behr",
+   "date": "2005",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Karta_Karthago.PNG"
+  },
+  {
+   "src": "media/carthage/cothon/3.jpg",
+   "thumb": "media/carthage/cothon/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Citizen59, 2007.",
+   "artist": "Citizen59",
+   "date": "2007",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:MahdiaCemetery.JPG"
+  }
+ ],
+ "antonine-baths": [
+  {
+   "src": "media/carthage/antonine-baths/1.jpg",
+   "thumb": "media/carthage/antonine-baths/t1.jpg",
+   "w": 800,
+   "h": 363,
+   "kind": "plan",
+   "caption": "Plan.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Plan_thermes_d-antonin.jpg"
+  },
+  {
+   "src": "media/carthage/antonine-baths/2.jpg",
+   "thumb": "media/carthage/antonine-baths/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "AWIB-ISAW: Antonine Baths at Carthage View of the ruins of the Antonine Baths at Carthage, Tunisia. by Graham Claytor (2007) copyright: 2007 Graham Claytor (used with permission) photographed place: Carthago, Karthago…",
+   "artist": "Institute for the Study of the Ancient World",
+   "date": "2007",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Antonine_Baths_at_Carthage.jpg"
+  }
+ ],
+ "commercial-harbour": [
+  {
+   "src": "media/carthage/commercial-harbour/1.jpg",
+   "thumb": "media/carthage/commercial-harbour/t1.jpg",
+   "w": 800,
+   "h": 540,
+   "kind": "reconstruction",
+   "caption": "Maquette du port de Carthage à l'époque romaine",
+   "artist": "Pradigue",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Port_militaire_romain_3.jpg"
+  },
+  {
+   "src": "media/carthage/commercial-harbour/2.jpg",
+   "thumb": "media/carthage/commercial-harbour/t2.jpg",
+   "w": 800,
+   "h": 749,
+   "kind": "photograph",
+   "caption": "Map (rough) of modern Carthage showing remaining ruins from Punic and roman era, own work composed from various mapreferences",
+   "artist": "Hobe / Holger Behr",
+   "date": "2005",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Karta_Karthago.PNG"
+  },
+  {
+   "src": "media/carthage/commercial-harbour/3.jpg",
+   "thumb": "media/carthage/commercial-harbour/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Citizen59, 2007.",
+   "artist": "Citizen59",
+   "date": "2007",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:MahdiaCemetery.JPG"
+  }
+ ],
+ "tophet": [
+  {
+   "src": "media/carthage/tophet/1.jpg",
+   "thumb": "media/carthage/tophet/t1.jpg",
+   "w": 435,
+   "h": 800,
+   "kind": "painting",
+   "caption": "This painting is part of the \"Black Paintings\" series and is thought to depict the Greek Myth of Cronus.",
+   "artist": "Francisco Goya",
+   "date": "between 1820 and 1823date Romanticism…",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg"
+  },
+  {
+   "src": "media/carthage/tophet/2.jpg",
+   "thumb": "media/carthage/tophet/t2.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "photograph",
+   "caption": "Tophet Salambo Carthage Tunisie",
+   "artist": "GIRAUD Patrick",
+   "date": "2007",
+   "license": "CC BY-SA 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Tunisise_Carthage_Tophet_Salambo_04.JPG"
+  },
+  {
+   "src": "media/carthage/tophet/3.jpg",
+   "thumb": "media/carthage/tophet/t3.jpg",
+   "w": 800,
+   "h": 489,
+   "kind": "photograph",
+   "caption": "The Magenta in Brest. The Napoléon III ship can be seen in the background",
+   "artist": "Louis Le Breton",
+   "date": "19th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Magenta_and_Napol%C3%A9on_III_in_Brest.jpg"
+  }
+ ],
+ "sea-wall": [],
+ "hannibal-quarter": [
+  {
+   "src": "media/carthage/hannibal-quarter/2.jpg",
+   "thumb": "media/carthage/hannibal-quarter/t2.jpg",
+   "w": 588,
+   "h": 800,
+   "kind": "engraving",
+   "caption": "Appian: Historia Romana. Printed in Venice 1477 by Erhard Ratdolt",
+   "artist": "Dierker",
+   "date": "1477",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Radolt.JPG"
+  },
+  {
+   "src": "media/carthage/hannibal-quarter/1.jpg",
+   "thumb": "media/carthage/hannibal-quarter/t1.jpg",
+   "w": 727,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "A page of the Latin translation of Appian’s „Roman History“ by Pier Candido Decembrio in the manuscript Florence, Biblioteca Medicea Laurenziana, Plut. 68.19.",
+   "artist": "Appian",
+   "date": "1488/1490 (date of the manuscript)",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Appian_(Latin),_Florence,_BML,_Plut._68.19_(cropped).jpg"
+  },
+  {
+   "src": "media/carthage/hannibal-quarter/3.jpg",
+   "thumb": "media/carthage/hannibal-quarter/t3.jpg",
+   "w": 800,
+   "h": 535,
+   "kind": "photograph",
+   "caption": "Techo del zaguán del Palacio de la Diputación de Palencia. Los vacceos salen a defender Palencia de las tropas de Lucio Licinio Lúculo (151 a.C.). Apiano contempla y recoge el episodio.",
+   "artist": "Jl FilpoC",
+   "date": "2023",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Salida_de_los_vacceos_contra_los_romanos,_Eugenio_Oliva.jpg"
+  }
+ ],
+ "juno-necropolis": [
+  {
+   "src": "media/carthage/juno-necropolis/1.jpg",
+   "thumb": "media/carthage/juno-necropolis/t1.jpg",
+   "w": 615,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "Statue impériale romaine exposée au Musée national de Carthage (Tunisie) Plaquette de description du musée :Faustine La Jeune, épouse de Marc Aurèle ou sa fille Lucille, épouse de Lucius Vérus.Moulage.",
+   "artist": "Pradigue",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Statue_romaine_imp%C3%A9riale.jpg"
+  },
+  {
+   "src": "media/carthage/juno-necropolis/2.jpg",
+   "thumb": "media/carthage/juno-necropolis/t2.jpg",
+   "w": 800,
+   "h": 550,
+   "kind": "photograph",
+   "caption": "The archaeological site of Carthage, between originality and restoration",
+   "artist": "R.maabid",
+   "date": "2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:MYTHICAL_CARTHAGE.jpg"
+  },
+  {
+   "src": "media/carthage/juno-necropolis/4.jpg",
+   "thumb": "media/carthage/juno-necropolis/t4.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Site archéologique des Thermes d'Antonin",
+   "artist": "Youssefbensaad",
+   "date": "2016",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Carthagethermesantonin_12.jpg"
+  }
+ ],
+ "amphitheatre": [
+  {
+   "src": "media/carthage/amphitheatre/1.jpg",
+   "thumb": "media/carthage/amphitheatre/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Carthage amphitheatre, Carthage, Tunisia.",
+   "artist": "Neil Rickards",
+   "date": "2003",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Carthage_amphitheatre.jpg"
+  },
+  {
+   "src": "media/carthage/amphitheatre/2.jpg",
+   "thumb": "media/carthage/amphitheatre/t2.jpg",
+   "w": 793,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Winston Churchill standing in the Roman theatre of ancient Carthage to address 3,000 British and American troops.",
+   "artist": "Stubbs, Arthur W., No. 2 Army Film and Photo Section, Army Film and Photographic Unit",
+   "date": "1943",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Winston_Churchill_au_th%C3%A9%C3%A2tre_de_Carthage,_1943.jpg"
+  }
+ ],
+ "theatre": [
+  {
+   "src": "media/carthage/theatre/2.jpg",
+   "thumb": "media/carthage/theatre/t2.jpg",
+   "w": 456,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "ApuleI Madaurensis Platonici Opera omnia quae exstant Geverhartus Elmenhorstius ex Mstis & vett. Codd. recensuit, Librumque emendationum et indices absolutissimos adjecit.",
+   "artist": "Apuleius",
+   "date": "1621",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Apuleius,_Opera_omnia,_1621_-_BEIC_9468424.tiff"
+  },
+  {
+   "src": "media/carthage/theatre/3.jpg",
+   "thumb": "media/carthage/theatre/t3.jpg",
+   "w": 800,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Artwork by Johann Jakob Bernoulli (1831—1913), before 1882.",
+   "artist": "Johann Jakob Bernoulli (1831—1913)",
+   "date": "before 1882",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Apuleius-Kontorniat-2.jpg"
+  },
+  {
+   "src": "media/carthage/theatre/1.jpg",
+   "thumb": "media/carthage/theatre/t1.jpg",
+   "w": 800,
+   "h": 601,
+   "kind": "painting",
+   "caption": "Restoration of a late antique ceiling painting of a writer, often identified as Lucius Caecilius Firmianus Lactantius or Lucius Apuleius Madaurensis. Bischöfliches Museum (Bishop's Museum), Trier.",
+   "artist": "Unknown authorUnknown author",
+   "date": "circa 330",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Ancient_philosopher_(probably_Apuleius_or_Lactantius)_on_late_antique_ceiling_painting_from_Trier.jpg"
+  },
+  {
+   "src": "media/carthage/theatre/4.jpg",
+   "thumb": "media/carthage/theatre/t4.jpg",
+   "w": 800,
+   "h": 521,
+   "kind": "photograph",
+   "caption": "Lupa Capitolina: she-wolf with Romulus and Remus. Bronze, 12th century AD[1], 5th century BC (the twins are a 15th-century addition).",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+  }
+ ],
+ "odeon": [],
+ "circus": [
+  {
+   "src": "media/carthage/circus/1.jpg",
+   "thumb": "media/carthage/circus/t1.jpg",
+   "w": 800,
+   "h": 450,
+   "kind": "plan",
+   "caption": "Tunisie, Emplacement du cirque de Carthage au premier plan",
+   "artist": "Rais67",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Tunis_Carthage_Cirque_2.jpg"
+  },
+  {
+   "src": "media/carthage/circus/2.jpg",
+   "thumb": "media/carthage/circus/t2.jpg",
+   "w": 800,
+   "h": 572,
+   "kind": "photograph",
+   "caption": "The architecture of the Carthage Circus",
+   "artist": "University of Chicago",
+   "date": "2004",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:The_Carthage_Circus_Design.jpg"
+  },
+  {
+   "src": "media/carthage/circus/3.jpg",
+   "thumb": "media/carthage/circus/t3.jpg",
+   "w": 800,
+   "h": 560,
+   "kind": "photograph",
+   "caption": "This image shows the races witnessed by masses of people at the Circus of Carthage, and the bishop of Hippo stated that the games did not give the money to the poor but to more games in the future (page 258) Through the…",
+   "artist": "Peter Brown",
+   "date": "2013",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Populus.png"
+  }
+ ],
+ "la-malga": [
+  {
+   "src": "media/carthage/la-malga/1.jpg",
+   "thumb": "media/carthage/la-malga/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "artwork",
+   "caption": "Artwork by Profburp, 1838.",
+   "artist": "Profburp",
+   "date": "1838",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Environs_tunis_1838.jpg"
+  },
+  {
+   "src": "media/carthage/la-malga/2.jpg",
+   "thumb": "media/carthage/la-malga/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Citernes de La Malga, Carthage (tunisie)",
+   "artist": "Pradigue",
+   "date": "2001",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Malga_2.jpg"
+  },
+  {
+   "src": "media/carthage/la-malga/3.jpg",
+   "thumb": "media/carthage/la-malga/t3.jpg",
+   "w": 800,
+   "h": 136,
+   "kind": "photograph",
+   "caption": "Citrenes romaine de La Malga à Carthage",
+   "artist": "This illustration was made by (User:Royonx) and released under the license(s) stated…",
+   "date": "2014",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Citernes_de_La_Malga.jpg"
+  }
+ ],
+ "villa-aviary": [
+  {
+   "src": "media/carthage/villa-aviary/1.jpg",
+   "thumb": "media/carthage/villa-aviary/t1.jpg",
+   "w": 615,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "Statue impériale romaine exposée au Musée national de Carthage (Tunisie) Plaquette de description du musée :Faustine La Jeune, épouse de Marc Aurèle ou sa fille Lucille, épouse de Lucius Vérus.Moulage.",
+   "artist": "Pradigue",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Statue_romaine_imp%C3%A9riale.jpg"
+  },
+  {
+   "src": "media/carthage/villa-aviary/2.jpg",
+   "thumb": "media/carthage/villa-aviary/t2.jpg",
+   "w": 800,
+   "h": 550,
+   "kind": "photograph",
+   "caption": "The archaeological site of Carthage, between originality and restoration",
+   "artist": "R.maabid",
+   "date": "2020",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:MYTHICAL_CARTHAGE.jpg"
+  },
+  {
+   "src": "media/carthage/villa-aviary/4.jpg",
+   "thumb": "media/carthage/villa-aviary/t4.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Site archéologique des Thermes d'Antonin",
+   "artist": "Youssefbensaad",
+   "date": "2016",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Carthagethermesantonin_12.jpg"
+  }
+ ],
+ "damous-el-karita": [
+  {
+   "src": "media/carthage/damous-el-karita/1.jpg",
+   "thumb": "media/carthage/damous-el-karita/t1.jpg",
+   "w": 800,
+   "h": 492,
+   "kind": "plan",
+   "caption": "Carthage - Plan de la basilique de Damous Karita",
+   "artist": "Profburp",
+   "date": "1890",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Damous_karita_plan.jpg"
+  },
+  {
+   "src": "media/carthage/damous-el-karita/2.jpg",
+   "thumb": "media/carthage/damous-el-karita/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Tunisie, Carthage, Basilique Damoue el Karita",
+   "artist": "Rais67",
+   "date": "2010",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Tunisie_Basilique_Damous_el_Karita_2.jpg"
+  },
+  {
+   "src": "media/carthage/damous-el-karita/4.jpg",
+   "thumb": "media/carthage/damous-el-karita/t4.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Carthage, entrées de la rotonde de Damous el Karita",
+   "artist": "M.Rais",
+   "date": "2011",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Tunisie_Carthage_rotonde_4.jpg"
+  }
+ ],
+ "sidi-bou-said": [
+  {
+   "src": "media/carthage/sidi-bou-said/1.jpg",
+   "thumb": "media/carthage/sidi-bou-said/t1.jpg",
+   "w": 800,
+   "h": 517,
+   "kind": "photograph",
+   "caption": "the beautiful coffe \"Sidi Chebaan\" in sidi bousaid with one of the best views in the world :)",
+   "artist": "Mohamed Moslem Mosbah",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sidi_Chebaan.jpg"
+  },
+  {
+   "src": "media/carthage/sidi-bou-said/2.jpg",
+   "thumb": "media/carthage/sidi-bou-said/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "The Carthage Presidential Palace, Tunisia. Photo taken from Sidi Bou Said",
+   "artist": "Fjmustak",
+   "date": "2015",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Carthage_Palace_from_Sidi_Bou_Said.jpg"
+  }
+ ]
+}
