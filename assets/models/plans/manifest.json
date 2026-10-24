@@ -7523,6 +7523,276 @@
   "size": 135.2,
   "w": 130.0
  },
+ "thebes/avenue-of-sphinxes": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 32.0
+ },
+ "thebes/colossi-of-memnon": {
+  "cx": 0.0,
+  "cy": -0.3,
+  "d": 400.6,
+  "ext": "webp",
+  "px": 1024,
+  "size": 416.62,
+  "w": 121.2
+ },
+ "thebes/deir-el-bahari": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 280.0,
+  "ext": "webp",
+  "px": 874,
+  "size": 291.2,
+  "w": 240.0
+ },
+ "thebes/deir-el-bahari-1950": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 280.0,
+  "ext": "webp",
+  "px": 874,
+  "size": 291.2,
+  "w": 240.0
+ },
+ "thebes/deir-el-medina": {
+  "cx": -0.59,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 81.17
+ },
+ "thebes/deir-el-medina-hathor": {
+  "cx": -0.59,
+  "cy": -0.02,
+  "d": 170.04,
+  "ext": "webp",
+  "px": 531,
+  "size": 176.84,
+  "w": 81.17
+ },
+ "thebes/deir-el-medina-ruin": {
+  "cx": -0.59,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 81.17
+ },
+ "thebes/karnak": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 580.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 603.2,
+  "w": 500.0
+ },
+ "thebes/karnak-1470": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 580.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 603.2,
+  "w": 500.0
+ },
+ "thebes/karnak-1950": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 580.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 603.2,
+  "w": 500.0
+ },
+ "thebes/karnak-late": {
+  "cx": 0.0,
+  "cy": -0.75,
+  "d": 581.5,
+  "ext": "webp",
+  "px": 1024,
+  "size": 604.76,
+  "w": 503.0
+ },
+ "thebes/karnak-quay": {
+  "cx": 0.0,
+  "cy": 1.0,
+  "d": 162.0,
+  "ext": "webp",
+  "px": 505,
+  "size": 168.48,
+  "w": 140.0
+ },
+ "thebes/luxor-1470": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 290.0,
+  "ext": "webp",
+  "px": 905,
+  "size": 301.6,
+  "w": 120.0
+ },
+ "thebes/luxor-roman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 290.0,
+  "ext": "webp",
+  "px": 905,
+  "size": 301.6,
+  "w": 120.0
+ },
+ "thebes/luxor-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 290.0,
+  "ext": "webp",
+  "px": 905,
+  "size": 301.6,
+  "w": 120.0
+ },
+ "thebes/malkata": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 240.0
+ },
+ "thebes/medinet-habu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 320.0,
+  "ext": "webp",
+  "px": 998,
+  "size": 332.8,
+  "w": 210.8
+ },
+ "thebes/medinet-habu-djeme": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 320.0,
+  "ext": "webp",
+  "px": 998,
+  "size": 332.8,
+  "w": 210.8
+ },
+ "thebes/memnon-roman": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 400.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 416.0,
+  "w": 120.0
+ },
+ "thebes/memnon-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 400.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 416.0,
+  "w": 120.0
+ },
+ "thebes/montu-precinct": {
+  "cx": 0.0,
+  "cy": 0.35,
+  "d": 170.7,
+  "ext": "webp",
+  "px": 533,
+  "size": 177.53,
+  "w": 160.0
+ },
+ "thebes/mut-precinct": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 330.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 343.2,
+  "w": 260.0
+ },
+ "thebes/nobles-tombs": {
+  "cx": 0.0,
+  "cy": -0.5,
+  "d": 121.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "thebes/opet-shrine": {
+  "cx": -0.21,
+  "cy": -0.0,
+  "d": 34.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 35.36,
+  "w": 25.02
+ },
+ "thebes/processional-way": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 32.0
+ },
+ "thebes/ramesseum": {
+  "cx": 0.0,
+  "cy": -0.3,
+  "d": 280.6,
+  "ext": "webp",
+  "px": 875,
+  "size": 291.82,
+  "w": 181.2
+ },
+ "thebes/ramesseum-ruin": {
+  "cx": 0.0,
+  "cy": -0.3,
+  "d": 280.6,
+  "ext": "webp",
+  "px": 875,
+  "size": 291.82,
+  "w": 181.2
+ },
+ "thebes/seti-qurna": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 160.55,
+  "ext": "webp",
+  "px": 501,
+  "size": 166.97,
+  "w": 120.55
+ },
+ "thebes/town-of-thebes": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 220.0,
+  "ext": "webp",
+  "px": 811,
+  "size": 270.4,
+  "w": 260.0
+ },
+ "thebes/valley-of-the-kings": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 200.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 120.0
+ },
  "timbuktu/aqit-house": {
   "cx": 0.0,
   "cy": 0.18,
