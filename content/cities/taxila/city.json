@@ -1,0 +1,4770 @@
+{
+ "id": "taxila",
+ "name": "Taxila",
+ "subtitle": "Takshashila, the gateway city",
+ "description": "The Taxila valley from the Persian satrapy of the 5th century BCE to the ruins Xuanzang found in the 630s CE: the Bhir Mound city by the Tamra Nala, Sirkap, the Greek grid city on the Hathial spur, the Kushan city of Sirsukh to the north-east, and the Buddhist stupas and monasteries round them. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "maurya-300",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#CDBB9C",
+   "#C2AE8C",
+   "#D6C7AA",
+   "#B9A27F",
+   "#CBB491"
+  ],
+  "roofs": [
+   "#A99070",
+   "#9C8463",
+   "#B39C79"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1249,
+    3273
+   ],
+   "distance": 36,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   4489,
+   4493
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Tamra Nala",
+    "path": [
+     [
+      4489,
+      3828
+     ],
+     [
+      3980,
+      3928
+     ],
+     [
+      3424,
+      3994
+     ],
+     [
+      2962,
+      3972
+     ],
+     [
+      2591,
+      3917
+     ],
+     [
+      2221,
+      3861
+     ],
+     [
+      1805,
+      3905
+     ],
+     [
+      1435,
+      4016
+     ],
+     [
+      1111,
+      4016
+     ],
+     [
+      925,
+      3905
+     ],
+     [
+      870,
+      3639
+     ],
+     [
+      898,
+      3218
+     ],
+     [
+      916,
+      2774
+     ],
+     [
+      879,
+      2330
+     ],
+     [
+      814,
+      1886
+     ],
+     [
+      759,
+      1220
+     ],
+     [
+      602,
+      555
+     ],
+     [
+      509,
+      0
+     ]
+    ],
+    "width": 16,
+    "id": "tamra-nala",
+    "blurb": "The Tamra (or Tabra) Nala, a stony stream that floods after the monsoon rains, runs between the Bhir Mound and Sirkap and on north to the Haro river, a few kilometres beyond the edge of this map. Its course here is approximate."
+   },
+   {
+    "name": "Lundi Nala",
+    "path": [
+     [
+      4489,
+      2274
+     ],
+     [
+      3980,
+      1997
+     ],
+     [
+      3841,
+      1664
+     ],
+     [
+      3933,
+      1110
+     ],
+     [
+      3961,
+      555
+     ],
+     [
+      4072,
+      0
+     ]
+    ],
+    "width": 9,
+    "id": "lundi-nala",
+    "blurb": "A smaller stream from the hills to the east, running past the east side of Sirsukh toward the Haro. Name and course follow the usual excavation plans and are approximate."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Hathial",
+    "center": [
+     2018,
+     3550
+    ],
+    "radius": 300,
+    "label": true,
+    "id": "hathial",
+    "blurb": "A limestone spur running out from the hills to the south-east. Its western end held the oldest settlement in the valley, perhaps from the late 2nd millennium BCE; the Greeks took the ridge into Sirkap's walls as an upper city."
+   },
+   {
+    "name": "Kunala ridge",
+    "center": [
+     1342,
+     3218
+    ],
+    "radius": 200,
+    "label": false,
+    "id": "kunala-ridge",
+    "blurb": "The western tail of the Hathial spur, just south of the lower city of Sirkap, crowned by the Kunala stupa."
+   },
+   {
+    "name": "Eastern hills",
+    "center": [
+     4072,
+     2996
+    ],
+    "radius": 420,
+    "label": true,
+    "id": "eastern-hills",
+    "blurb": "Low hills of limestone and scrub between the Taxila valley and the side valleys where the Jaulian and Mohra Moradu monasteries were built."
+   },
+   {
+    "name": "Mohra spur",
+    "center": [
+     4442,
+     2385
+    ],
+    "radius": 220,
+    "label": false,
+    "id": "mohra-spur",
+    "blurb": "The hill slope above the Mohra Moradu valley."
+   }
+  ],
+  "roads": [
+   {
+    "name": "First Street",
+    "path": [
+     [
+      453,
+      3439
+     ],
+     [
+      435,
+      3595
+     ],
+     [
+      453,
+      3750
+     ],
+     [
+      435,
+      3905
+     ],
+     [
+      463,
+      4061
+     ],
+     [
+      444,
+      4238
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": true,
+    "id": "bhir-first-street",
+    "blurb": "The main street of the Bhir Mound as Marshall named it, running roughly north–south and bending as it goes; shops of one or two rooms opened onto it.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "name": "Second Street",
+    "path": [
+     [
+      620,
+      3484
+     ],
+     [
+      602,
+      3639
+     ],
+     [
+      629,
+      3794
+     ],
+     [
+      611,
+      3950
+     ],
+     [
+      639,
+      4105
+     ],
+     [
+      666,
+      4216
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "bhir-second-street",
+    "blurb": "A parallel street to the east, narrower and more crooked; the lanes between the two were often blocked by later houses.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "name": "Lane of the wells",
+    "path": [
+     [
+      259,
+      3761
+     ],
+     [
+      370,
+      3783
+     ],
+     [
+      509,
+      3761
+     ],
+     [
+      666,
+      3794
+     ],
+     [
+      777,
+      3772
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "bhir-north-lane",
+    "blurb": "A twisting cross-lane; the soak-wells of stacked pottery rings that drained the houses were dug along lanes like this.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "name": "South lane",
+    "path": [
+     [
+      278,
+      4016
+     ],
+     [
+      389,
+      3994
+     ],
+     [
+      537,
+      4027
+     ],
+     [
+      666,
+      4005
+     ],
+     [
+      768,
+      4039
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "bhir-south-lane",
+    "blurb": "A lane through the southern quarter, built over as the town grew south in the Mauryan period.",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "name": "Sirkap cross-lane 1",
+    "path": [
+     [
+      1064,
+      2130
+     ],
+     [
+      1379,
+      2130
+     ],
+     [
+      1712,
+      2130
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirkap-lane-1",
+    "blurb": "One of the narrow side streets that cross the main street at right angles, dividing Sirkap into regular blocks in the Hippodamian manner.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "Sirkap cross-lane 2",
+    "path": [
+     [
+      1064,
+      2286
+     ],
+     [
+      1379,
+      2286
+     ],
+     [
+      1712,
+      2286
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirkap-lane-2",
+    "blurb": "One of the narrow side streets that cross the main street at right angles, dividing Sirkap into regular blocks in the Hippodamian manner.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "Sirkap cross-lane 3",
+    "path": [
+     [
+      1064,
+      2441
+     ],
+     [
+      1379,
+      2441
+     ],
+     [
+      1712,
+      2441
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirkap-lane-3",
+    "blurb": "One of the narrow side streets that cross the main street at right angles, dividing Sirkap into regular blocks in the Hippodamian manner.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "Sirkap cross-lane 4",
+    "path": [
+     [
+      1064,
+      2596
+     ],
+     [
+      1379,
+      2596
+     ],
+     [
+      1712,
+      2596
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirkap-lane-4",
+    "blurb": "One of the narrow side streets that cross the main street at right angles, dividing Sirkap into regular blocks in the Hippodamian manner.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "Sirkap cross-lane 5",
+    "path": [
+     [
+      1064,
+      2752
+     ],
+     [
+      1379,
+      2752
+     ],
+     [
+      1712,
+      2752
+     ]
+    ],
+    "width": 5,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirkap-lane-5",
+    "blurb": "One of the narrow side streets that cross the main street at right angles, dividing Sirkap into regular blocks in the Hippodamian manner.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "Road to Pushkalavati and Bactria",
+    "path": [
+     [
+      0,
+      2829
+     ],
+     [
+      111,
+      3051
+     ],
+     [
+      231,
+      3273
+     ],
+     [
+      370,
+      3439
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "uttarapatha-west",
+    "blurb": "The great northern road, the Uttarapatha, came in from the west: over the Indus at Udabhandapura to Pushkalavati and on through the passes to Bactria. Caravans of horses, wool and lapis came down it.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300",
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road to the Ganges plain",
+    "path": [
+     [
+      555,
+      4227
+     ],
+     [
+      833,
+      4172
+     ],
+     [
+      1092,
+      4127
+     ],
+     [
+      1481,
+      4238
+     ],
+     [
+      1944,
+      4349
+     ],
+     [
+      2360,
+      4405
+     ],
+     [
+      2730,
+      4482
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "uttarapatha-east",
+    "blurb": "The Uttarapatha went on south-east through the Margalla pass toward Mathura and the Ganges cities; Pataliputra, the Mauryan capital, lay some 1,500 km away.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300",
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road north to the Haro and Kashmir",
+    "path": [
+     [
+      389,
+      3439
+     ],
+     [
+      352,
+      2996
+     ],
+     [
+      324,
+      2330
+     ],
+     [
+      278,
+      1553
+     ],
+     [
+      231,
+      777
+     ],
+     [
+      204,
+      0
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "kashmir-road",
+    "blurb": "A track north across the valley to the fords of the Haro and on toward Urasa (Hazara) and Kashmir.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "name": "Main street of Sirkap",
+    "path": [
+     [
+      1388,
+      1986
+     ],
+     [
+      1388,
+      2219
+     ],
+     [
+      1388,
+      2496
+     ],
+     [
+      1388,
+      2718
+     ],
+     [
+      1388,
+      2929
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "sirkap-main-street",
+    "blurb": "A straight street about 700 m long from the north gate toward the palace and the Hathial ridge, lined with shops and with small shrines and stupas set in among the house blocks.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "Road west from the north gate",
+    "path": [
+     [
+      1388,
+      1964
+     ],
+     [
+      1111,
+      1864
+     ],
+     [
+      814,
+      1931
+     ],
+     [
+      509,
+      2219
+     ],
+     [
+      259,
+      2552
+     ],
+     [
+      0,
+      2829
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "sirkap-west-road",
+    "blurb": "Outside the north gate the western road turned across the Tamra Nala to join the old highway to the Indus.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road north past Jandial",
+    "path": [
+     [
+      1388,
+      1964
+     ],
+     [
+      1407,
+      1775
+     ],
+     [
+      1444,
+      1553
+     ],
+     [
+      1527,
+      1220
+     ],
+     [
+      1620,
+      666
+     ],
+     [
+      1712,
+      0
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "jandial-road",
+    "blurb": "From the north gate the road ran north past the temple at Jandial toward the Haro and the hill country beyond.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road to the Dharmarajika",
+    "path": [
+     [
+      1731,
+      2596
+     ],
+     [
+      2129,
+      2641
+     ],
+     [
+      2406,
+      2829
+     ],
+     [
+      2517,
+      3218
+     ],
+     [
+      2591,
+      3606
+     ],
+     [
+      2610,
+      3883
+     ],
+     [
+      2573,
+      4105
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "dharmarajika-road",
+    "blurb": "A path from Sirkap round the north and east of the Hathial ridge to the great stupa, walked by pilgrims and by monks going to and from the town.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road from Sirkap to Sirsukh",
+    "path": [
+     [
+      1407,
+      1775
+     ],
+     [
+      1805,
+      1642
+     ],
+     [
+      2314,
+      1531
+     ],
+     [
+      2776,
+      1442
+     ],
+     [
+      3054,
+      1387
+     ]
+    ],
+    "width": 9,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirkap-sirsukh-road",
+    "blurb": "The road from the old city to the new Kushan one, about 2 km.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Sirsukh, north–south street",
+    "path": [
+     [
+      3054,
+      1387
+     ],
+     [
+      3054,
+      999
+     ],
+     [
+      3054,
+      555
+     ],
+     [
+      3054,
+      166
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": false,
+    "id": "sirsukh-ns",
+    "blurb": "Sirsukh's interior is barely excavated; a main street between the gates is assumed, not known.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Sirsukh, east–west street",
+    "path": [
+     [
+      2406,
+      754
+     ],
+     [
+      2776,
+      754
+     ],
+     [
+      3332,
+      754
+     ],
+     [
+      3702,
+      754
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirsukh-ew",
+    "blurb": "A cross street between the east and west gates; its line, like the rest of the plan, is conjectural.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road west from Sirsukh",
+    "path": [
+     [
+      2406,
+      754
+     ],
+     [
+      2129,
+      865
+     ],
+     [
+      1805,
+      999
+     ],
+     [
+      1555,
+      1110
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "sirsukh-west-road",
+    "blurb": "A road from Sirsukh's west gate to the old northern road past Jandial.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Road to Mohra Moradu and Jaulian",
+    "path": [
+     [
+      3702,
+      754
+     ],
+     [
+      3813,
+      999
+     ],
+     [
+      4026,
+      1442
+     ],
+     [
+      4165,
+      1775
+     ],
+     [
+      4489,
+      1864
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "monastery-road",
+    "blurb": "The way east into the hills to the monasteries of Mohra Moradu and, a little farther, Jaulian, where monks lived from the 2nd to the 5th century.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Wall of Sirkap",
+    "path": [
+     [
+      1037,
+      1975
+     ],
+     [
+      1740,
+      1975
+     ],
+     [
+      1758,
+      2552
+     ],
+     [
+      1805,
+      2885
+     ],
+     [
+      2082,
+      3107
+     ],
+     [
+      2240,
+      3351
+     ],
+     [
+      2147,
+      3573
+     ],
+     [
+      1870,
+      3639
+     ],
+     [
+      1620,
+      3329
+     ],
+     [
+      1388,
+      2996
+     ],
+     [
+      1037,
+      2973
+     ]
+    ],
+    "closed": true,
+    "id": "sirkap-wall",
+    "blurb": "A stone wall about 6 m thick with rectangular bastions, enclosing the lower city on the plain and climbing over the Hathial spur to take in an upper city; Marshall measured the circuit at nearly 5.6 km. In the 5th century CE it stands abandoned.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Wall of Sirsukh",
+    "path": [
+     [
+      2406,
+      166
+     ],
+     [
+      3702,
+      166
+     ],
+     [
+      3702,
+      1387
+     ],
+     [
+      2406,
+      1387
+     ]
+    ],
+    "closed": true,
+    "id": "sirsukh-wall",
+    "blurb": "The Kushan city wall, a rough rectangle about 1.4 by 1.2 km, faced in diaper masonry with semicircular bastions every 27 m or so and loopholes in the lower storey. Parts of the south and east walls were excavated in 1915.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "North Gate of Sirkap",
+    "position": [
+     1388,
+     1975
+    ],
+    "id": "sirkap-north-gate",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "East gate (conjectural)",
+    "position": [
+     1749,
+     2585
+    ],
+    "id": "sirkap-east-gate",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "name": "South gate",
+    "position": [
+     3054,
+     1387
+    ],
+    "id": "sirsukh-south-gate",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "North gate",
+    "position": [
+     3054,
+     166
+    ],
+    "id": "sirsukh-north-gate",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "West gate",
+    "position": [
+     2406,
+     754
+    ],
+    "id": "sirsukh-west-gate",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "East gate",
+    "position": [
+     3702,
+     754
+    ],
+    "id": "sirsukh-east-gate",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Crossing of the Tamra Nala",
+    "path": [
+     [
+      916,
+      1897
+     ],
+     [
+      722,
+      1953
+     ]
+    ],
+    "build": "timber",
+    "arches": 2,
+    "id": "tamra-bridge-west",
+    "blurb": "A wooden bridge, or in the dry season simply a ford, where the western road crossed the stream below Sirkap.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "name": "Ford below the Dharmarajika",
+    "path": [
+     [
+      2619,
+      3828
+     ],
+     [
+      2591,
+      4005
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "tamra-bridge-stupa",
+    "blurb": "The pilgrims' crossing of the Tamra Nala on the way up to the great stupa.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      278,
+      3473
+     ],
+     [
+      407,
+      3473
+     ],
+     [
+      407,
+      3728
+     ],
+     [
+      278,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      500,
+      3473
+     ],
+     [
+      583,
+      3473
+     ],
+     [
+      574,
+      3728
+     ],
+     [
+      491,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      657,
+      3473
+     ],
+     [
+      768,
+      3473
+     ],
+     [
+      768,
+      3728
+     ],
+     [
+      657,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      278,
+      3817
+     ],
+     [
+      407,
+      3839
+     ],
+     [
+      398,
+      3972
+     ],
+     [
+      278,
+      3961
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      500,
+      3817
+     ],
+     [
+      583,
+      3839
+     ],
+     [
+      583,
+      3972
+     ],
+     [
+      491,
+      3961
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      657,
+      3817
+     ],
+     [
+      768,
+      3839
+     ],
+     [
+      759,
+      3972
+     ],
+     [
+      657,
+      3961
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      278,
+      4050
+     ],
+     [
+      407,
+      4050
+     ],
+     [
+      407,
+      4161
+     ],
+     [
+      278,
+      4150
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      500,
+      4050
+     ],
+     [
+      583,
+      4050
+     ],
+     [
+      574,
+      4161
+     ],
+     [
+      491,
+      4150
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      657,
+      4050
+     ],
+     [
+      768,
+      4050
+     ],
+     [
+      768,
+      4161
+     ],
+     [
+      657,
+      4150
+     ]
+    ],
+    "density": "dense",
+    "name": "Bhir Mound",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      1995
+     ],
+     [
+      1342,
+      1995
+     ],
+     [
+      1342,
+      2121
+     ],
+     [
+      1074,
+      2121
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block A west",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      1995
+     ],
+     [
+      1342,
+      1995
+     ],
+     [
+      1342,
+      2121
+     ],
+     [
+      1074,
+      2121
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block A west",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      1995
+     ],
+     [
+      1703,
+      1995
+     ],
+     [
+      1703,
+      2121
+     ],
+     [
+      1435,
+      2121
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block A east",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      1995
+     ],
+     [
+      1703,
+      1995
+     ],
+     [
+      1703,
+      2121
+     ],
+     [
+      1435,
+      2121
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block A east",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2139
+     ],
+     [
+      1342,
+      2139
+     ],
+     [
+      1342,
+      2277
+     ],
+     [
+      1074,
+      2277
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block B west",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2139
+     ],
+     [
+      1342,
+      2139
+     ],
+     [
+      1342,
+      2277
+     ],
+     [
+      1074,
+      2277
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block B west",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2139
+     ],
+     [
+      1703,
+      2139
+     ],
+     [
+      1703,
+      2277
+     ],
+     [
+      1435,
+      2277
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block B east",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2139
+     ],
+     [
+      1703,
+      2139
+     ],
+     [
+      1703,
+      2277
+     ],
+     [
+      1435,
+      2277
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block B east",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2294
+     ],
+     [
+      1342,
+      2294
+     ],
+     [
+      1342,
+      2432
+     ],
+     [
+      1074,
+      2432
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block C west",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2294
+     ],
+     [
+      1342,
+      2294
+     ],
+     [
+      1342,
+      2432
+     ],
+     [
+      1074,
+      2432
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block C west",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2294
+     ],
+     [
+      1703,
+      2294
+     ],
+     [
+      1703,
+      2432
+     ],
+     [
+      1435,
+      2432
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block C east",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2294
+     ],
+     [
+      1703,
+      2294
+     ],
+     [
+      1703,
+      2432
+     ],
+     [
+      1435,
+      2432
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block C east",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2450
+     ],
+     [
+      1342,
+      2450
+     ],
+     [
+      1342,
+      2587
+     ],
+     [
+      1074,
+      2587
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block D west",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2450
+     ],
+     [
+      1342,
+      2450
+     ],
+     [
+      1342,
+      2587
+     ],
+     [
+      1074,
+      2587
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block D west",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2450
+     ],
+     [
+      1703,
+      2450
+     ],
+     [
+      1703,
+      2587
+     ],
+     [
+      1435,
+      2587
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block D east",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2450
+     ],
+     [
+      1703,
+      2450
+     ],
+     [
+      1703,
+      2587
+     ],
+     [
+      1435,
+      2587
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirkap, block D east",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2605
+     ],
+     [
+      1342,
+      2605
+     ],
+     [
+      1342,
+      2743
+     ],
+     [
+      1074,
+      2743
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block E west",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2605
+     ],
+     [
+      1703,
+      2605
+     ],
+     [
+      1703,
+      2743
+     ],
+     [
+      1435,
+      2743
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block E east",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1074,
+      2760
+     ],
+     [
+      1342,
+      2760
+     ],
+     [
+      1342,
+      2942
+     ],
+     [
+      1074,
+      2942
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block F west",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1435,
+      2760
+     ],
+     [
+      1703,
+      2760
+     ],
+     [
+      1703,
+      2942
+     ],
+     [
+      1435,
+      2942
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirkap, block F east",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1555,
+      3018
+     ],
+     [
+      1805,
+      3040
+     ],
+     [
+      1851,
+      3184
+     ],
+     [
+      1592,
+      3218
+     ]
+    ],
+    "density": "loose",
+    "name": "Hathial village",
+    "periods": [
+     "achaemenid-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      93,
+      3550
+     ],
+     [
+      222,
+      3573
+     ],
+     [
+      231,
+      3883
+     ],
+     [
+      93,
+      3905
+     ]
+    ],
+    "density": "loose",
+    "name": "Bhir Mound, west suburb",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      722,
+      4238
+     ],
+     [
+      925,
+      4216
+     ],
+     [
+      1037,
+      4327
+     ],
+     [
+      759,
+      4383
+     ]
+    ],
+    "density": "loose",
+    "name": "Caravan ground and potters",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      287,
+      3484
+     ],
+     [
+      574,
+      3484
+     ],
+     [
+      574,
+      3706
+     ],
+     [
+      287,
+      3706
+     ]
+    ],
+    "density": "loose",
+    "name": "Bhir Mound, last houses",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1481,
+      1686
+     ],
+     [
+      1721,
+      1686
+     ],
+     [
+      1721,
+      1908
+     ],
+     [
+      1481,
+      1908
+     ]
+    ],
+    "density": "loose",
+    "name": "Outside the north gate",
+    "periods": [
+     "indo-greek-50"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2462,
+      222
+     ],
+     [
+      3008,
+      222
+     ],
+     [
+      3008,
+      699
+     ],
+     [
+      2462,
+      699
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirsukh, north-west quarter",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3100,
+      222
+     ],
+     [
+      3656,
+      222
+     ],
+     [
+      3656,
+      699
+     ],
+     [
+      3100,
+      699
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirsukh, north-east quarter",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2462,
+      810
+     ],
+     [
+      3008,
+      810
+     ],
+     [
+      3008,
+      1309
+     ],
+     [
+      2462,
+      1309
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirsukh, south-west quarter",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3100,
+      810
+     ],
+     [
+      3656,
+      810
+     ],
+     [
+      3656,
+      1309
+     ],
+     [
+      3100,
+      1309
+     ]
+    ],
+    "density": "dense",
+    "name": "Sirsukh, south-east quarter",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2684,
+      499
+     ],
+     [
+      3008,
+      499
+     ],
+     [
+      3008,
+      699
+     ],
+     [
+      2684,
+      699
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirsukh, what is left",
+    "periods": [
+     "huna-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3100,
+      810
+     ],
+     [
+      3424,
+      810
+     ],
+     [
+      3424,
+      1110
+     ],
+     [
+      3100,
+      1110
+     ]
+    ],
+    "density": "loose",
+    "name": "Sirsukh, what is left",
+    "periods": [
+     "huna-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2203,
+      4327
+     ],
+     [
+      2406,
+      4305
+     ],
+     [
+      2425,
+      4360
+     ],
+     [
+      2221,
+      4383
+     ]
+    ],
+    "density": "loose",
+    "name": "Monks' village by the Dharmarajika",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      722,
+      3550
+     ],
+     [
+      796,
+      3550
+     ],
+     [
+      796,
+      3750
+     ],
+     [
+      703,
+      3750
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet by the Tamra Nala",
+    "periods": [
+     "huna-500"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      787,
+      999
+     ],
+     [
+      1388,
+      999
+     ],
+     [
+      1342,
+      1498
+     ],
+     [
+      879,
+      1498
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the valley",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300",
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      463,
+      2552
+     ],
+     [
+      787,
+      2552
+     ],
+     [
+      805,
+      3218
+     ],
+     [
+      463,
+      3273
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields north of the Bhir Mound",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      324,
+      3528
+     ],
+     [
+      602,
+      3528
+     ],
+     [
+      602,
+      3883
+     ],
+     [
+      324,
+      3883
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields over the Bhir Mound",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2684,
+      3550
+     ],
+     [
+      3239,
+      3550
+     ],
+     [
+      3239,
+      3828
+     ],
+     [
+      2730,
+      3828
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mango groves",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300",
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2314,
+      1664
+     ],
+     [
+      2869,
+      1664
+     ],
+     [
+      2869,
+      2108
+     ],
+     [
+      2314,
+      2108
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the plain",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300",
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3980,
+      2108
+     ],
+     [
+      4118,
+      2130
+     ],
+     [
+      4128,
+      2241
+     ],
+     [
+      3980,
+      2219
+     ]
+    ],
+    "kind": "park",
+    "name": "Monastery grove",
+    "periods": [
+     "kushan-200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1092,
+      2164
+     ],
+     [
+      1684,
+      2164
+     ],
+     [
+      1684,
+      2718
+     ],
+     [
+      1092,
+      2718
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields over Sirkap",
+    "periods": [
+     "huna-500"
+    ]
+   }
+  ],
+  "marsh": [],
+  "districts": [
+   {
+    "id": "bhir-mound",
+    "name": "Bhir Mound",
+    "polygon": [
+     [
+      241,
+      3439
+     ],
+     [
+      796,
+      3439
+     ],
+     [
+      796,
+      4238
+     ],
+     [
+      241,
+      4238
+     ]
+    ],
+    "description": "The oldest city on the valley floor, from about the 6th century BCE: a mound of rubble houses on irregular streets, the Takshashila of the Persian satraps, of Alexander and of the Mauryan viceroys.",
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "id": "sirkap",
+    "name": "Sirkap",
+    "polygon": [
+     [
+      1037,
+      1975
+     ],
+     [
+      1740,
+      1975
+     ],
+     [
+      1758,
+      2973
+     ],
+     [
+      1037,
+      2973
+     ]
+    ],
+    "description": "The Indo-Greek city founded in the 2nd century BCE, its lower town on a grid of blocks along one main street, its upper town on the Hathial ridge; home to Greek, Saka and Parthian kings until the Kushans moved the city.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "id": "sirkap-upper",
+    "name": "Upper city (Hathial)",
+    "polygon": [
+     [
+      1758,
+      2973
+     ],
+     [
+      2082,
+      3107
+     ],
+     [
+      2240,
+      3351
+     ],
+     [
+      2147,
+      3573
+     ],
+     [
+      1870,
+      3639
+     ],
+     [
+      1620,
+      3329
+     ],
+     [
+      1388,
+      2996
+     ]
+    ],
+    "description": "The part of Sirkap on the ridge, inside the walls but thinly built: a citadel and perhaps barracks and stores. Little has been excavated.",
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "id": "sirsukh",
+    "name": "Sirsukh",
+    "polygon": [
+     [
+      2406,
+      166
+     ],
+     [
+      3702,
+      166
+     ],
+     [
+      3702,
+      1387
+     ],
+     [
+      2406,
+      1387
+     ]
+    ],
+    "description": "The Kushan city on the plain, square-walled with round bastions, built probably in the late 1st or 2nd century CE. Its interior is almost unexcavated; modern villages and fields cover it.",
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "id": "dharmarajika-precinct",
+    "name": "Dharmarajika precinct",
+    "polygon": [
+     [
+      2406,
+      4083
+     ],
+     [
+      2684,
+      4083
+     ],
+     [
+      2684,
+      4349
+     ],
+     [
+      2406,
+      4349
+     ]
+    ],
+    "description": "The sacred ground of the great stupa on the rise east of the Tamra Nala, with its chapels, votive stupas and monastery.",
+    "periods": [
+     "maurya-300",
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Takshashila",
+    "position": [
+     509,
+     3351
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "achaemenid-450",
+     "maurya-300"
+    ]
+   },
+   {
+    "text": "Bhir Mound",
+    "position": [
+     509,
+     3351
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "indo-greek-50",
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "text": "Sirkap",
+    "position": [
+     1111,
+     1831
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "indo-greek-50",
+     "kushan-200"
+    ]
+   },
+   {
+    "text": "Sirkap (ruins)",
+    "position": [
+     1111,
+     1831
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "huna-500"
+    ]
+   },
+   {
+    "text": "Sirsukh",
+    "position": [
+     2684,
+     78
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "text": "Tamra Nala",
+    "position": [
+     814,
+     2996
+    ],
+    "size": "sm",
+    "rotation": -88
+   },
+   {
+    "text": "Lundi Nala",
+    "position": [
+     4026,
+     888
+    ],
+    "size": "sm",
+    "rotation": -85
+   },
+   {
+    "text": "Hathial",
+    "position": [
+     2055,
+     3750
+    ],
+    "size": "md",
+    "rotation": 0
+   },
+   {
+    "text": "to Pushkalavati and Bactria",
+    "position": [
+     74,
+     2774
+    ],
+    "size": "sm",
+    "rotation": -35
+   },
+   {
+    "text": "to Mathura and the Ganges",
+    "position": [
+     1851,
+     4416
+    ],
+    "size": "sm",
+    "rotation": 8
+   },
+   {
+    "text": "to Jaulian",
+    "position": [
+     4257,
+     1753
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kushan-200",
+     "huna-500"
+    ]
+   },
+   {
+    "text": "to the Haro river",
+    "position": [
+     925,
+     111
+    ],
+    "size": "sm",
+    "rotation": 0
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D6AE",
+   "ink": "#6B4B33",
+   "water": "#62878A",
+   "hill": "#7C7C58",
+   "road": "#8C6B4A"
+  },
+  "compass": [
+   4211,
+   244
+  ],
+  "cartouche": [
+   3239,
+   4349
+  ]
+ },
+ "periods": [
+  {
+   "id": "achaemenid-450",
+   "label": "Takshashila of the satraps",
+   "year": -450,
+   "startYear": -520,
+   "endYear": -327,
+   "summary": "Takshashila on the Bhir Mound, a town of Gandhara, which Darius I made part of the Persian empire about 518 BCE. Rubble-stone houses crowd crooked lanes on a low mound by the Tamra Nala; an older settlement lies on the Hathial ridge nearby. Later Indian tradition makes the town a place where teachers took pupils in grammar, law and medicine; how early that began is uncertain.",
+   "population": "unknown; perhaps a few thousand",
+   "feel": "Smoke from dung fires, bullock carts creaking in from the passes, a teacher's voice reciting verses for his pupils to repeat.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Rubble houses of the Bhir Mound",
+    "text": "Small houses of undressed stone set in mud, plastered inside, with flat roofs of timber and clay; rooms round a little yard with a hearth, storage jars and a soak-pit. They lean on one another along lanes that twist with the old property lines."
+   },
+   "outskirts": {
+    "title": "Fields and cattle pens",
+    "text": "Wheat and barley fields on the valley floor, cattle pens and threshing floors, a few farmsteads of rubble and mud on the slopes of the Hathial ridge."
+   }
+  },
+  {
+   "id": "maurya-300",
+   "label": "The gateway city",
+   "year": -300,
+   "startYear": -326,
+   "endYear": -181,
+   "summary": "The Bhir Mound city at its largest. In 326 BCE its king Ambhi (Taxiles) welcomed Alexander; within twenty years Chandragupta Maurya held the Punjab and Taxila became the seat of a northern viceroy. Buddhist legend sends the young Ashoka here to put down a revolt. Rubble houses line twisting streets, with wells and soak-pits in the yards; the Dharmarajika stupa is begun, probably under Ashoka.",
+   "population": "unknown; perhaps 10,000–20,000",
+   "feel": "Caravans from Bactria unloading by the gate, horse traders shouting prices, pupils chanting grammar rules under a teacher's roof, kites over the market.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses on the Bhir Mound",
+    "text": "Houses of rubble stone in mud mortar, often two storeys, the walls once plastered and painted; rooms open onto a small court with a well or soak-pit of stacked pots. Shops of one room face the streets, which bend and narrow at random."
+   },
+   "outskirts": {
+    "title": "Fields, groves and caravan grounds",
+    "text": "Irrigated fields and mango groves along the Tamra Nala, open ground where caravans camp, potters' kilns and brick clamps, and the first Buddhist shrine on the rise to the east."
+   }
+  },
+  {
+   "id": "indo-greek-50",
+   "label": "Sirkap, the Greek city",
+   "year": -50,
+   "startYear": -180,
+   "endYear": 60,
+   "summary": "Sirkap, the walled city at the foot of the Hathial ridge, laid out on a grid by the Bactrian Greeks after about 180 BCE and held in turn by Indo-Greek, Saka and Parthian kings. A straight main street runs south from the north gate between house blocks, shops and street shrines; a Greek-style temple stands at Jandial outside the gate. Rebuilt after an earthquake about 30 CE.",
+   "population": "unknown; perhaps 20,000–40,000",
+   "feel": "Greek and Prakrit in the main street, the ring of silversmiths' hammers, incense at a stupa between the shops, cavalry clattering out of the north gate.",
+   "style": "courtyard",
+   "houses": {
+    "title": "House blocks of Sirkap",
+    "text": "Each block between the lanes holds several houses of rubble and later of diaper masonry, rooms set round open courts, plastered and flat-roofed, some of two storeys; shops line the main street, and small stupas or shrines stand among them."
+   },
+   "outskirts": {
+    "title": "Gardens outside the walls",
+    "text": "Orchards and fields along the Tamra Nala, the temple at Jandial in its enclosure, tombs and stupas along the roads, and the old Bhir Mound half deserted across the stream."
+   }
+  },
+  {
+   "id": "kushan-200",
+   "label": "Kushan Sirsukh",
+   "year": 200,
+   "startYear": 61,
+   "endYear": 459,
+   "summary": "The Kushans have built a new city, Sirsukh, with square walls and round bastions on the plain to the north-east; Sirkap thins out. Silk Road wealth goes into Buddhism: the Dharmarajika is enlarged and ringed with chapels, and monasteries such as Mohra Moradu rise on the hillsides, their stupas covered in painted stucco Buddhas. Walls are laid in diaper masonry, large blocks with small stones packed between.",
+   "population": "unknown",
+   "feel": "Monks' bells and chanting from the hills, the scrape of chisels on grey schist, camels and Kushan horsemen in felt boots at the gates of Sirsukh.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses of Sirsukh",
+    "text": "Courtyard houses of diaper masonry, coursed blocks with small stones packed between, plastered and whitewashed; flat roofs of beams and clay, rooms round a court with a well, kitchens and stores at the back."
+   },
+   "outskirts": {
+    "title": "Monasteries and fields",
+    "text": "Monasteries with cells round a court and a stupa beside them on every spur, orchards and fields between, and Sirkap's old blocks slowly emptying behind its wall."
+   }
+  },
+  {
+   "id": "huna-500",
+   "label": "After the Huns",
+   "year": 500,
+   "startYear": 460,
+   "endYear": 660,
+   "summary": "After the Hephthalite (Huna) raids of about 460–470 the monasteries are burned and the cities shrink. Sirsukh survives as a reduced town; Sirkap and the Bhir Mound are mounds of rubble with fields on them. When Xuanzang passed in the 630s he found the land subject to Kashmir, its ruling families extinct, and most of the monasteries ruined, with few monks.",
+   "population": "a few thousand at most",
+   "feel": "Wind over burned courtyards, goats grazing between broken stupas, a handful of monks tending a lamp at a damaged shrine.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Houses among the ruins",
+    "text": "Small houses patched together from the stones of older buildings, one storey, with flat roofs of brushwood and mud; animals stabled in the old courts."
+   },
+   "outskirts": {
+    "title": "Fields over the old cities",
+    "text": "Ploughed fields and grazing on the mounds of the Bhir and Sirkap, burned monasteries on the hills, a few hamlets by the streams."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "dharmarajika",
+   "placeId": "dharmarajika",
+   "name": "Dharmarajika stupa",
+   "category": "religious",
+   "position": [
+    2545,
+    4216
+   ],
+   "rotation": 0,
+   "footprint": [
+    140.0,
+    170.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/dharmarajika.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 140,
+     "depth": 170,
+     "height": 56.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "maurya-300",
+    "indo-greek-50",
+    "kushan-200",
+    "huna-500"
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "Open ground on the rise east of the Tamra Nala; nothing is known to have stood here before the stupa."
+    },
+    "maurya-300": {
+     "confidence": "interpretation",
+     "note": "By the usual account the first stupa was raised under Ashoka in the mid-3rd century BCE, later in this era, to hold relics of the Buddha: a plain dome on a low drum inside a wooden railing.",
+     "model": {
+      "glb": "models/taxila/dharmarajika-early.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 170,
+       "height": 56.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "indo-greek-50": {
+     "note": "The old stupa stands in a growing ring of small votive stupas, given by pilgrims and townspeople of Sirkap.",
+     "model": {
+      "glb": "models/taxila/dharmarajika-ig.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 170,
+       "height": 56.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "kushan-200": {
+     "note": "Rebuilt larger and refaced, ringed by chapels with images of stucco and schist, the monastery courts to the north. A silver scroll dated 'year 136' (probably 78 CE), found in one chapel, records a gift of relics."
+    },
+    "huna-500": {
+     "name": "Dharmarajika (ruined)",
+     "confidence": "reconstruction",
+     "note": "Burned, by the usual reading of the ash layers, in the Huna raids of the later 5th century; the dome stands stripped, the chapels roofless, a few monks in the remaining cells.",
+     "model": {
+      "glb": "models/taxila/dharmarajika-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 140,
+       "depth": 170,
+       "height": 56.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The oldest and largest Buddhist monument of Taxila: a great round stupa about 45 m across, ringed by small votive stupas and chapels, with monastery courts beside it, built up over seven centuries from a Mauryan core.",
+   "details": [
+    "Its name, 'of the Dharma king', suggests Ashoka, and the core is usually dated to his reign; Marshall found coins and finds from then on. In the 1st–2nd centuries CE the stupa was enlarged and given a stone casing with a moulded base and four stairs to a terrace, and a ring of chapels and votive stupas filled the court round it.",
+    "The miniature shows the Kushan stupa: the drum with pilasters, the dome, the square harmika and a mast of umbrellas, the ring of votive stupas and chapels, and a monastery court to the north. The height of the dome and the umbrellas are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-dharmarajika",
+    "marshall-taxila",
+    "marshall-guide"
+   ],
+   "built": "c. 3rd century BCE; enlarged 1st–4th centuries CE",
+   "function": "Buddhist relic stupa and monastery",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "sirkap-north-gate",
+   "placeId": "sirkap-north-gate",
+   "name": "North Gate and wall of Sirkap",
+   "category": "military",
+   "position": [
+    1388,
+    1975
+   ],
+   "rotation": 180,
+   "footprint": [
+    220.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/sirkap-wall.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 220,
+     "depth": 50,
+     "wallHeight": 10.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200",
+    "huna-500"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Open ground at the foot of the Hathial spur, across the stream from the Bhir Mound city; the Greek city will be laid out here after about 180 BCE."
+    },
+    "indo-greek-50": {
+     "note": "The main gate of the Greek city, with the main street running straight south from it; the wall was refaced in stone, and rebuilt after the earthquake of about 30 CE."
+    },
+    "kushan-200": {
+     "note": "Still standing, but the Kushans have built their city at Sirsukh and the town behind the gate is emptying."
+    },
+    "huna-500": {
+     "name": "Wall of Sirkap (ruined)",
+     "note": "Abandoned for centuries; the wall is a long grassy bank with broken bastions, robbed for building stone.",
+     "model": {
+      "glb": "models/taxila/sirkap-wall-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 220,
+       "depth": 50,
+       "wallHeight": 10.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The stone wall of the Greek city, about 6 m thick with square bastions, and its north gate at the head of the main street.",
+   "details": [
+    "Marshall traced the wall for nearly 5.6 km round the lower city and over the Hathial ridge. It was built of rubble faced with roughly dressed stone, 4.5 to 6.6 m thick, with rectangular bastions at short intervals; an earlier mud-brick rampart lies inside it. The north gate opened on the main street and on the roads to the Bhir Mound and Jandial.",
+    "The miniature shows a 220 m stretch round the north gate: the wall with its bastions and battlements, the gate passage between two towers, the guardrooms, and the first houses of the main street inside. The height of the wall and its crenellation are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sirkap",
+    "marshall-taxila",
+    "marshall-guide"
+   ],
+   "built": "2nd century BCE; refaced 1st century BCE–1st century CE",
+   "function": "City wall and gate",
+   "activity": {
+    "figures": 25,
+    "radius": 140
+   }
+  },
+  {
+   "id": "eagle-shrine",
+   "placeId": "eagle-shrine",
+   "name": "Shrine of the Double-Headed Eagle",
+   "category": "religious",
+   "position": [
+    1453,
+    2519
+   ],
+   "rotation": 90,
+   "footprint": [
+    14.0,
+    14.0
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/taxila/eagle-shrine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 14,
+     "depth": 14,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Open ground; Sirkap is not yet founded."
+    },
+    "indo-greek-50": {
+     "note": "A small stupa on a square base in its own court on the main street, its front a mixture of Greek and Indian forms; built in the Saka or Parthian period."
+    },
+    "kushan-200": {
+     "note": "Still standing among half-empty house blocks."
+    },
+    "huna-500": {
+     "note": "Buried in the rubble of the fallen houses; only the base survived to be excavated."
+    }
+   },
+   "summary": "A small stupa in Block F of Sirkap whose base mixes three kinds of niche, Greek, Indian and in between, with a double-headed eagle perched over one of them.",
+   "details": [
+    "The base, about 8 by 7 m, is divided by Corinthian pilasters. Between them are niches shaped as a Greek temple front with a pediment, as an Indian arch with an ogee curve, and as an early Indian torana gateway; a bird sits on each, and over the middle niche a double-headed eagle, a motif with a long history from Babylon to Scythia. A stair rises from the court.",
+    "The miniature shows the base with its pilasters and niches, the stair and the court wall, and a reconstructed drum, dome and umbrellas: the upper part is lost. It is drawn at twice its size."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sirkap",
+    "marshall-taxila",
+    "wiki-gandhara-art"
+   ],
+   "built": "1st century BCE or 1st century CE",
+   "function": "Buddhist stupa",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "apsidal-temple",
+   "placeId": "apsidal-temple",
+   "name": "Apsidal Temple of Sirkap",
+   "category": "religious",
+   "position": [
+    1555,
+    2352
+   ],
+   "rotation": 90,
+   "footprint": [
+    40.0,
+    71.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/apsidal-temple.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 70,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Open ground; Sirkap is not yet founded."
+    },
+    "indo-greek-50": {
+     "note": "The largest shrine in Sirkap, in its walled court on the main street; built probably after the earthquake of about 30 CE, under the Parthians."
+    },
+    "kushan-200": {
+     "note": "Still in use, by the finds, while the town round it thins out."
+    },
+    "huna-500": {
+     "note": "A low mound of rubble in the fields."
+    }
+   },
+   "summary": "A Buddhist temple with a long nave ending in a rounded apse, where a stupa probably stood, set in a large walled court on the east side of Sirkap's main street.",
+   "details": [
+    "The plan is the Indian chaitya hall built free-standing: a porch, a rectangular nave and a round apse, with an ambulatory round the apse. The court in front, about 70 m deep, was entered from the main street by a flight of steps. Marshall dated it to the Parthian rebuilding of the 1st century CE; the stupa in the apse is inferred, not found.",
+    "The miniature shows the walled court with its steps and small stupas, the temple on its plinth with nave, apse and a barrel roof. The roof form is a reconstruction based on rock-cut chaitya halls."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sirkap",
+    "marshall-taxila",
+    "marshall-guide"
+   ],
+   "built": "1st century CE (probably)",
+   "function": "Buddhist temple (chaitya)",
+   "activity": {
+    "figures": 12,
+    "radius": 60
+   }
+  },
+  {
+   "id": "sirkap-block",
+   "placeId": "sirkap-block",
+   "name": "A house block on the main street",
+   "category": "commercial",
+   "position": [
+    1333,
+    2208
+   ],
+   "rotation": 270,
+   "footprint": [
+    40.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/sirkap-block.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 40,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -10.0,
+        -15.0
+       ],
+       "width": 12.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        10.0,
+        12.0
+       ],
+       "width": 12.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Open ground; Sirkap is not yet founded."
+    },
+    "indo-greek-50": {
+     "note": "Shops on the street front, houses round courts behind, a small stupa court among them: a typical block of the Parthian town."
+    },
+    "kushan-200": {
+     "note": "Some houses still lived in, others falling in; the shops are fewer."
+    },
+    "huna-500": {
+     "note": "Rubble under fields."
+    }
+   },
+   "summary": "One of Sirkap's regular blocks between the main street and a cross-lane: shops on the street, houses round courts behind, and a small street shrine.",
+   "details": [
+    "Excavation laid bare long rows of such blocks, each holding several houses with rooms round open courts, two storeys high in places, built of rubble and later of diaper masonry. Several blocks held a stupa or shrine in its own court, open to the street, and hoards of jewellery, coins and silver were found buried under house floors.",
+    "The miniature is a generic block: one-room shops on the main street side, three houses round courts with flat roofs and parapets, a stair to an upper floor, and a small stupa in a court. Exact layouts differ from block to block."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sirkap",
+    "marshall-taxila"
+   ],
+   "built": "2nd century BCE–1st century CE",
+   "function": "Houses, shops and a street shrine",
+   "activity": {
+    "figures": 20,
+    "radius": 60
+   }
+  },
+  {
+   "id": "sirkap-palace",
+   "placeId": "sirkap-palace",
+   "name": "Palace of Sirkap",
+   "category": "civic",
+   "position": [
+    1555,
+    2829
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.2,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/sirkap-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Open ground; Sirkap is not yet founded."
+    },
+    "indo-greek-50": {
+     "note": "The residence of the kings of Taxila; Philostratus says the palace Apollonius saw was no grander than a well-to-do citizen's house."
+    },
+    "kushan-200": {
+     "note": "Probably a governor's residence or abandoned; the court has moved to Sirsukh."
+    },
+    "huna-500": {
+     "note": "A rubble mound."
+    }
+   },
+   "summary": "A complex of courts at the south end of the main street, identified by Marshall as the royal palace: plain rubble walls, an audience hall, private rooms and offices round open courts.",
+   "details": [
+    "The building covers about 110 by 90 m. Marshall saw in it an audience court with a hall at one end, a court for the household, guardrooms and stores; its plan reminded him of Assyrian and Parthian palaces. Its modest size fits Philostratus' remark that the king's house was plain.",
+    "The miniature shows four courts with rooms round them, the audience hall with a columned porch, and a gate from the main street. Heights, roofs and the porch columns are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sirkap",
+    "marshall-taxila",
+    "philostratus-apollonius"
+   ],
+   "built": "1st century BCE–1st century CE",
+   "function": "Royal palace",
+   "activity": {
+    "figures": 18,
+    "radius": 90
+   }
+  },
+  {
+   "id": "hathial-citadel",
+   "placeId": "hathial-citadel",
+   "name": "Hathial acropolis",
+   "category": "military",
+   "position": [
+    1962,
+    3384
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    80.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/hathial.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 110,
+     "depth": 80,
+     "wallHeight": 16.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200"
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "The ridge-top holds the remains of the oldest settlement of the valley; the town has moved down to the Bhir Mound."
+    },
+    "maurya-300": {
+     "note": "Grazing ground on the ridge, with the ruins of the old village."
+    },
+    "indo-greek-50": {
+     "note": "The upper city of Sirkap, inside the wall, with a fortified post on the summit."
+    },
+    "kushan-200": {
+     "note": "Probably abandoned with Sirkap."
+    },
+    "huna-500": {
+     "note": "Bare ridge with broken walls."
+    }
+   },
+   "summary": "The summit of the Hathial ridge inside Sirkap's wall, the city's upper town and citadel above the grid of the lower city.",
+   "details": [
+    "The Hathial spur was the earliest settled place in the valley, with pottery reaching back perhaps to the late 2nd millennium BCE. The Greeks took it inside their wall, as Greek cities often took an acropolis, but excavation on the ridge has been limited, and what stood here is not well known.",
+    "The miniature is an interpretation: a walled post with a tower and barrack ranges on the rocky crest. It shows the idea of the upper city, not an excavated plan."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hathial",
+    "wiki-sirkap",
+    "dani-taxila"
+   ],
+   "built": "2nd century BCE (wall); earlier settlement from c. 1000 BCE or before",
+   "function": "Upper city and citadel",
+   "activity": {
+    "figures": 8,
+    "radius": 70
+   }
+  },
+  {
+   "id": "jandial-temple",
+   "placeId": "jandial-temple",
+   "name": "Temple at Jandial",
+   "category": "temple",
+   "position": [
+    1277,
+    1609
+   ],
+   "rotation": 0,
+   "footprint": [
+    34.0,
+    56.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/jandial.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 34,
+     "depth": 56,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 3.4000000000000004,
+     "columnHeight": 13.600000000000001
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200",
+    "huna-500"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "A low mound north of the stream; the temple is not yet built."
+    },
+    "indo-greek-50": {
+     "note": "Newly built on its mound outside the north gate, the most Greek building of the valley; whose god it served is unknown."
+    },
+    "kushan-200": {
+     "note": "Still standing; by some accounts the cult continued under the Kushans."
+    },
+    "huna-500": {
+     "name": "Temple at Jandial (ruined)",
+     "note": "Roofless, its columns fallen; the stone is carried off for building.",
+     "model": {
+      "glb": "models/taxila/jandial-ruin.glb",
+      "fallback": {
+       "kit": "temple",
+       "width": 34,
+       "depth": 56,
+       "columnsFront": 6,
+       "columnsSide": 0,
+       "podium": 3.4000000000000004,
+       "columnHeight": 13.600000000000001
+      }
+     }
+    }
+   },
+   "summary": "A temple of Greek plan on a mound north of Sirkap: a porch with Ionic columns, an anteroom, a sanctuary, and at the back a solid block of masonry with a stair, perhaps the base of a tower.",
+   "details": [
+    "About 48 by 26 m, it has the plan of a Greek temple: Ionic columns in antis at front and back, pronaos, naos and opisthodomos, enclosed by an outer wall pierced by windows where a Greek temple has its colonnade. Between the naos and the back porch a solid mass of masonry with a stair suggested to Marshall a tower, and with it a Zoroastrian fire temple; others doubt this.",
+    "The miniature shows the walled court, the stepped plinth, the outer wall with windows, the Ionic porches, the tiled roof and a reconstructed tower over the rear block. The tower's height and form, and the roof, are conjectural."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-jandial",
+    "marshall-taxila",
+    "marshall-guide"
+   ],
+   "built": "1st century BCE (Saka–Parthian period)",
+   "function": "Temple, cult uncertain (fire temple?)",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "kunala-stupa",
+   "placeId": "kunala-stupa",
+   "name": "Kunala stupa",
+   "category": "religious",
+   "position": [
+    1416,
+    3184
+   ],
+   "rotation": 0,
+   "footprint": [
+    46.0,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/kunala.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 46,
+     "depth": 64,
+     "height": 18.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "indo-greek-50",
+    "kushan-200",
+    "huna-500"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Bare ridge. Legend sets the blinding of Ashoka's son Kunala in Taxila in this era; the stupa that remembers it was built later."
+    },
+    "indo-greek-50": {
+     "note": "A first, smaller stupa on the ridge above the new city, by Marshall's dating."
+    },
+    "kushan-200": {
+     "note": "Rebuilt larger on three terraces, with a monastery on the slope beside it."
+    },
+    "huna-500": {
+     "note": "Damaged and deserted. Xuanzang was shown a stupa built where Kunala lost his eyes; Marshall identified it with this one.",
+     "model": {
+      "glb": "models/taxila/kunala-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 46,
+       "depth": 64,
+       "height": 18.400000000000002,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A tall stupa on the ridge just south of Sirkap, on a base of three terraces, traditionally the place where Ashoka's son Kunala was blinded.",
+   "details": [
+    "The legend, told in the Ashokavadana and by Xuanzang, has Ashoka's queen forge an order to blind the prince while he governed Taxila. The stupa on the Hathial ridge, about 15 m across at the base, was first built perhaps in the 1st century BCE and rebuilt in the 3rd or 4th century CE, with a monastery on the slope.",
+    "The miniature shows the three-terraced square base with pilasters and stair, the drum and dome, harmika and umbrellas, and a small monastery court. The upper parts are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kunala-stupa",
+    "marshall-guide",
+    "xuanzang"
+   ],
+   "built": "1st century BCE; rebuilt 3rd–4th century CE",
+   "function": "Buddhist stupa and monastery",
+   "activity": {
+    "figures": 10,
+    "radius": 60
+   }
+  },
+  {
+   "id": "bhir-quarter",
+   "placeId": "bhir-quarter",
+   "name": "Houses of the Bhir Mound",
+   "category": "district",
+   "position": [
+    342,
+    3606
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    80.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/bhir-quarter.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 90,
+      "depth": 80
+     },
+     "buildings": [
+      {
+       "offset": [
+        -22.5,
+        -20.0
+       ],
+       "width": 27.0,
+       "depth": 24.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        22.5,
+        16.0
+       ],
+       "width": 27.0,
+       "depth": 24.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "achaemenid-450",
+    "maurya-300"
+   ],
+   "variants": {
+    "achaemenid-450": {
+     "note": "Houses of rubble in mud along crooked lanes, the town of the Persian province."
+    },
+    "maurya-300": {
+     "note": "Rebuilt and denser: houses of two storeys, shops on the street, soak-wells in every yard; the city Alexander and the Mauryan viceroys knew."
+    },
+    "indo-greek-50": {
+     "note": "Largely abandoned for the new city of Sirkap across the stream; a few houses remain."
+    }
+   },
+   "summary": "A piece of the oldest city on the valley floor: irregular rubble houses round small courts on a bending street, as excavated by Marshall on the Bhir Mound.",
+   "details": [
+    "The Bhir Mound was occupied from about the 6th to the 2nd century BCE. Its houses were of undressed stone in mud mortar, plastered, with rooms round courts and no clear plan; streets wander and narrow. Soak-pits of stacked pottery rings drained the houses. A hoard found here held bent silver bars, punch-marked coins and coins of Alexander and his successor Philip III.",
+    "The miniature shows one stretch of First Street with the houses on either side, their courts, shops, a well and a soak-pit. Heights and roofs are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bhir",
+    "marshall-taxila",
+    "allchin"
+   ],
+   "built": "c. 6th–2nd century BCE",
+   "function": "Houses and shops",
+   "activity": {
+    "figures": 24,
+    "radius": 80
+   }
+  },
+  {
+   "id": "sirsukh-wall",
+   "placeId": "sirsukh-wall",
+   "name": "South wall of Sirsukh",
+   "category": "military",
+   "position": [
+    2730,
+    1387
+   ],
+   "rotation": 0,
+   "footprint": [
+    260.1,
+    44.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/sirsukh-wall.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 260,
+     "depth": 44,
+     "wallHeight": 8.8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kushan-200",
+    "huna-500"
+   ],
+   "variants": {
+    "indo-greek-50": {
+     "note": "Open fields on the plain north-east of Sirkap."
+    },
+    "kushan-200": {
+     "note": "The new Kushan city's wall: diaper masonry with round bastions and loopholes."
+    },
+    "huna-500": {
+     "note": "Still the town's defence, patched with re-used stones; the town inside has shrunk."
+    }
+   },
+   "summary": "A stretch of the Kushan city wall of Sirsukh, faced in diaper masonry with semicircular bastions about 27 m apart.",
+   "details": [
+    "Sirsukh was laid out on open ground, probably in the late 1st or early 2nd century CE, as a rough rectangle with walls about 5 km round. Marshall excavated part of the south wall: a core of rubble faced with diaper masonry, a sloping plinth, semicircular bastions and loopholes in the lower storey. The interior is almost unexcavated.",
+    "The miniature shows a 260 m stretch of the south wall west of the gate, with its bastions, the banded masonry, loopholes and battlements, and a few houses inside. The upper wall and crenellation are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sirsukh",
+    "marshall-taxila",
+    "marshall-guide"
+   ],
+   "built": "late 1st–2nd century CE",
+   "function": "City wall",
+   "activity": {
+    "figures": 12,
+    "radius": 140
+   }
+  },
+  {
+   "id": "mohra-moradu",
+   "placeId": "mohra-moradu",
+   "name": "Mohra Moradu monastery",
+   "category": "religious",
+   "position": [
+    4220,
+    2019
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    100.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/taxila/mohra-moradu.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 100,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kushan-200",
+    "huna-500"
+   ],
+   "variants": {
+    "indo-greek-50": {
+     "note": "A wooded side valley in the hills; the monastery is not yet built."
+    },
+    "kushan-200": {
+     "note": "A working monastery: the main stupa covered in painted stucco Buddhas, and monks in the cells round the court."
+    },
+    "huna-500": {
+     "name": "Mohra Moradu (burned)",
+     "note": "Burned in the Huna raids; the roofs have fallen in on the cells, though the stucco on the stupa survived under the debris.",
+     "model": {
+      "glb": "models/taxila/mohra-moradu-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 70,
+       "depth": 100,
+       "height": 28.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "A Buddhist monastery in a small valley east of Sirsukh: a stupa covered in stucco figures and a square court of monks' cells, one of them holding a complete miniature stupa.",
+   "details": [
+    "Built probably in the 2nd or 3rd century CE and enlarged later, it has a main stupa on a square base with stucco Buddhas and bodhisattvas in niches, votive stupas round it, and a monastery of two storeys with about 27 cells round a court with a tank, an assembly hall and a kitchen. A carved and painted miniature stupa found in one cell is now in the Taxila Museum.",
+    "The miniature shows the main stupa with its niche figures, the votive stupas, and the monastery court with its cells, verandah and tank. Roofs and the upper storey are a reconstruction."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mohra-moradu",
+    "marshall-taxila",
+    "behrendt"
+   ],
+   "built": "2nd–5th century CE",
+   "function": "Buddhist monastery",
+   "activity": {
+    "figures": 12,
+    "radius": 70
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "teacher-house",
+   "name": "A teacher and his pupils",
+   "kind": "school",
+   "position": [
+    537,
+    3883
+   ],
+   "activePeriods": [
+    "achaemenid-450",
+    "maurya-300"
+   ],
+   "summary": "A Brahmin teacher's house where a handful of pupils live, work for him and learn by heart: the Vedas, grammar, perhaps law, archery or medicine. There was no university building; teaching happened in houses like this.",
+   "details": [
+    "Buddhist Jataka stories send princes from Benares to 'Takkasila' to study under famous teachers, paying a fee or working it off. Later tradition links the grammarian Panini, who came from Shalatura near the Indus, and Chanakya, Chandragupta's minister, with the town; none of this can be proved, but Taxila's name as a seat of learning was old by the time it was written down."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-takshashila-learning",
+    "wiki-panini",
+    "wiki-chanakya",
+    "marshall-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Before light the pupils sweep the court and fetch water; then they sit cross-legged and repeat after the teacher, line by line, until the verse is right."
+    },
+    {
+     "hour": 13,
+     "text": "In the heat the older pupils drill each other on grammar rules, short as riddles, while the younger ones gather firewood and tend the teacher's cows."
+    },
+    {
+     "hour": 20,
+     "text": "By lamplight the teacher questions a pupil from the far east of India about a rule; the boy stumbles, and the others laugh until the teacher looks up."
+    }
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Tradition puts Chanakya among Taxila's teachers in these years, training the young Chandragupta; the story is late and legendary."
+    }
+   }
+  },
+  {
+   "id": "physician",
+   "name": "A physician's house",
+   "kind": "house",
+   "position": [
+    713,
+    3894
+   ],
+   "activePeriods": [
+    "achaemenid-450",
+    "maurya-300"
+   ],
+   "summary": "A healer who also teaches: herbs drying on the roof, oils simmering, pupils grinding roots. Buddhist tradition says Jivaka, the Buddha's doctor, trained at Takshashila for seven years.",
+   "details": [
+    "The Pali Vinaya tells how Jivaka travelled from Rajagriha to Takkasila to study medicine, and how at the end his teacher sent him to find a plant with no healing use; he came back saying there was none. The story is a legend, but it shows how far Taxila's name for medicine reached."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-jivaka",
+    "wiki-takshashila-learning"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A farmer with a gashed leg waits in the court; the physician cleans it with a decoction, packs it with paste and binds it, explaining each step to two pupils."
+    },
+    {
+     "hour": 12,
+     "text": "On the roof pupils turn bundles of drying roots and bark, and argue over which is which."
+    },
+    {
+     "hour": 19,
+     "text": "Oil seethes in a pot on the hearth, thick with herbs; it will be rubbed into an old man's joints tomorrow."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "bhir-market",
+   "name": "The market street",
+   "kind": "market",
+   "position": [
+    528,
+    3639
+   ],
+   "activePeriods": [
+    "achaemenid-450",
+    "maurya-300"
+   ],
+   "summary": "Stalls and one-room shops along First Street: grain, salt, cloth, copper pots, beads of carnelian and lapis, horses from the north led through the crowd.",
+   "details": [
+    "Shops opening onto the street are a feature of the Bhir Mound houses. Aristobulus, who came with Alexander, is quoted by Strabo on Taxila's customs: poor families who could not dower their daughters brought them to the market to be chosen as wives, and the dead were exposed to vultures. Both remarks are Greek observations, hard to check."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "strabo",
+    "marshall-taxila",
+    "allchin"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Shutters come down off the shop fronts. A salt seller from the Salt Range sets out grey-pink blocks; a bead maker lays carnelian on a cloth."
+    },
+    {
+     "hour": 12,
+     "text": "A string of horses from the hills is walked down the street, and the crowd presses back against the shop walls."
+    },
+    {
+     "hour": 18,
+     "text": "Money-changers weigh bent silver bars and punch-marked coins on small scales and tie them into cloth before dark."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "potter",
+   "name": "A potter's yard",
+   "kind": "workshop",
+   "position": [
+    870,
+    4294
+   ],
+   "activePeriods": [
+    "achaemenid-450",
+    "maurya-300"
+   ],
+   "summary": "A potter's yard on the edge of town: a wheel, a heap of clay from the stream bank, a kiln, and rows of storage jars, bowls and the pottery rings stacked to make soak-wells.",
+   "details": [
+    "Most Bhir Mound pottery is plain red ware made locally. In the Mauryan levels appears a little of the glossy Northern Black Polished ware made in the Ganges valley, a luxury carried up the highway; the soak-wells of the houses were lined with large pottery rings."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "marshall-taxila",
+    "wiki-nbp"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The potter's wife treads clay in a pit with her feet; the potter centres the first lump of the day and pulls up a bowl in six turns of the wheel."
+    },
+    {
+     "hour": 13,
+     "text": "Rows of drying pots wait in the shade. A buyer from the town wants six big rings for a new soak-well and haggles over the price."
+    },
+    {
+     "hour": 21,
+     "text": "The kiln is fired: smoke and sparks rise, and the family takes turns feeding dung cakes and brush into the mouth through the night."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "caravan-halt",
+   "name": "Caravan halt on the Uttarapatha",
+   "kind": "inn",
+   "position": [
+    93,
+    3218
+   ],
+   "activePeriods": [
+    "achaemenid-450",
+    "maurya-300",
+    "indo-greek-50"
+   ],
+   "summary": "Open ground by the western road where caravans unload: from the Indus and Bactria come horses, wool and lapis lazuli; going west, cloth, spices and Indian iron.",
+   "details": [
+    "Taxila stood where the road from Bactria over the Hindu Kush met the road down the Ganges plain, later called the Uttarapatha, and where a road branched north to Kashmir. Greek writers and Mauryan sources alike treat it as the great market of the north-west; the camp ground itself is imagined here."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-taxila",
+    "strabo",
+    "dani-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Camels groan as they kneel to be unloaded; drivers light fires and boil rice, and a customs clerk walks the lines counting bales."
+    },
+    {
+     "hour": 13,
+     "text": "Horse dealers from the north show their animals' teeth and gait to buyers from the town; a deal is struck with a slap of hands."
+    },
+    {
+     "hour": 20,
+     "text": "Around the fires the talk is of the passes: snow on the Hindu Kush, robbers on the Indus road, prices in Pushkalavati."
+    }
+   ],
+   "variants": {
+    "indo-greek-50": {
+     "note": "Now beside the road out of Sirkap's north gate; coins of the Greek and Saka kings, Greek on one side and Kharoshthi on the other, change hands."
+    }
+   }
+  },
+  {
+   "id": "aramaic-inscription",
+   "name": "Where an Aramaic edict may have stood",
+   "kind": "monument",
+   "position": [
+    333,
+    3928
+   ],
+   "activePeriods": [
+    "maurya-300"
+   ],
+   "summary": "A fragmentary inscription in Aramaic, the Persian empire's administrative language, found in 1915 re-used in a later wall at Sirkap. It is often counted among Ashoka's edicts.",
+   "details": [
+    "The text is broken; it seems to mention 'our lord Priyadar(shi)', Ashoka's title, and is read as a moral edict for the Aramaic-speaking officials of the north-west. Where it was first set up is unknown; it is placed here, in the Mauryan city, only as a reminder that Persian scribal traditions outlived the Persians."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-aramaic-taxila",
+    "marshall-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A clerk trained in the old Persian chancery script reads the stone aloud for a man who cannot, translating as he goes."
+    },
+    {
+     "hour": 14,
+     "text": "Children trace the strange right-to-left letters with their fingers in the shade."
+    },
+    {
+     "hour": 19,
+     "text": "An official's servant sets a lamp before the stone at the start of a festival day."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "mint",
+   "name": "A die-cutter and moneyer",
+   "kind": "works",
+   "position": [
+    1231,
+    2674
+   ],
+   "activePeriods": [
+    "indo-greek-50"
+   ],
+   "summary": "A workshop striking silver and copper coins for the kings of Taxila: Greek legend and royal portrait on the front, Kharoshthi Prakrit on the back. The building is imagined; the coins are everywhere in Sirkap.",
+   "details": [
+    "The Indo-Greek kings struck bilingual coins, Greek on the obverse and the same title in Prakrit, in Kharoshthi script, on the reverse: Menander, Antialcidas and others; the Saka and Parthian kings who followed kept the system. Square copper coins follow the local Indian standard. Where in Sirkap the mint stood is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-indo-greek-coinage",
+    "marshall-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The die-cutter bends over a bronze die with a graver, cutting the king's profile in reverse, helmeted, with a fillet behind."
+    },
+    {
+     "hour": 12,
+     "text": "A blank is set on the lower die, the upper die held over it, and the hammer falls: one coin, then the next, counted into baskets."
+    },
+    {
+     "hour": 18,
+     "text": "Every coin is weighed again under the eye of a royal officer before the strongroom door is sealed."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "silversmith",
+   "name": "A silversmith's shop",
+   "kind": "shop",
+   "position": [
+    1555,
+    2064
+   ],
+   "activePeriods": [
+    "indo-greek-50"
+   ],
+   "summary": "A small shop on the main street making cups, bowls, earrings and bracelets in silver and gold, for Greek, Saka and Indian buyers alike.",
+   "details": [
+    "Sirkap's houses yielded hoards of jewellery and silver plate, buried under floors probably at times of danger and never recovered: gold earrings, necklaces with garnets, silver cups and dishes, some in Hellenistic style. Marshall dated many of the hoards to the 1st century CE."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "marshall-taxila",
+    "wiki-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Charcoal glows under a blowpipe; the smith solders tiny gold granules onto an earring with a breath at a time."
+    },
+    {
+     "hour": 13,
+     "text": "A Saka officer's wife turns a silver cup with a frieze of cupids in the light and asks the price in Greek, then again in Prakrit."
+    },
+    {
+     "hour": 21,
+     "text": "The smith pries up a floor slab in the back room and lowers a pot of finished pieces into the hole beneath."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "greek-envoy",
+   "name": "House of a Greek official",
+   "kind": "civic",
+   "position": [
+    1592,
+    2674
+   ],
+   "activePeriods": [
+    "indo-greek-50"
+   ],
+   "summary": "A well-off house near the palace, belonging to a Greek-speaking servant of the king: the kind of man Heliodorus was, 'son of Dion, of Takshashila', sent as ambassador to an Indian court.",
+   "details": [
+    "About 110 BCE Heliodorus of Taxila, envoy of the Indo-Greek king Antialcidas, set up a pillar at Vidisha in central India in honour of the god Vasudeva, calling himself a devotee. He shows Greeks at Taxila serving its kings, writing Prakrit and worshipping Indian gods. The house here is generic."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-heliodorus",
+    "marshall-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A secretary reads the day's petitions in Greek; a second copies the king's answers in Kharoshthi."
+    },
+    {
+     "hour": 13,
+     "text": "In the shaded court the official's sons recite Homer to a tutor, then switch to Prakrit to argue with the cook."
+    },
+    {
+     "hour": 20,
+     "text": "Guests recline at dinner on couches in the Greek way, and the talk turns to the new god whose pillar the envoy has raised in the south."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sculptor",
+   "name": "A sculptor of schist Buddhas",
+   "kind": "workshop",
+   "position": [
+    2295,
+    4349
+   ],
+   "activePeriods": [
+    "kushan-200"
+   ],
+   "summary": "A workshop by the Dharmarajika carving grey-green schist into Buddhas, bodhisattvas and relief panels of the Buddha's life for the chapels and stupas of the valley.",
+   "details": [
+    "Gandharan sculpture mixes Indian subjects with Hellenistic and Roman forms: wavy hair, toga-like robes, acanthus and Corinthian capitals. At Taxila much decoration was in stucco, but schist reliefs were brought or carved for the richer shrines. Pieces were painted and gilded."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-gandhara-art",
+    "marshall-taxila",
+    "behrendt"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Blocks of schist from the hills lie in the yard. The master marks out a standing Buddha with charcoal; an apprentice roughs out the shoulders with a point."
+    },
+    {
+     "hour": 13,
+     "text": "A donor, a merchant's widow, comes to see the panel she has paid for: the Buddha's birth, his mother holding a branch."
+    },
+    {
+     "hour": 18,
+     "text": "The last light rakes across a finished face; the master smooths the eyelids with a stone before the painter takes it tomorrow."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "stucco-workshop",
+   "name": "Stucco modellers at Mohra Moradu",
+   "kind": "workshop",
+   "position": [
+    4054,
+    2175
+   ],
+   "activePeriods": [
+    "kushan-200"
+   ],
+   "summary": "Craftsmen modelling lime stucco figures onto the stupa and chapel walls of the monastery: heads pressed from moulds, bodies built on stone cores, then painted.",
+   "details": [
+    "At Taxila stucco replaced stone for most later decoration, especially from the 3rd century CE: rows of seated Buddhas in niches, bodhisattvas, donors and guardians. Heads were often cast from moulds and finished by hand; traces of red, black and gold paint survived at Mohra Moradu and Jaulian."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "marshall-taxila",
+    "behrendt",
+    "wiki-gandhara-art"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Lime slakes and hisses in a pit; a boy mixes it with sand and fibre into a stiff paste."
+    },
+    {
+     "hour": 12,
+     "text": "On scaffolding against the stupa a modeller presses a moulded head into place and sharpens the curls with a wooden tool."
+    },
+    {
+     "hour": 18,
+     "text": "The painter walks the row of new figures adding red to the lips and black to the eyes while the monks begin the evening chant."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "monk-cell",
+   "name": "A monk's cell",
+   "kind": "shrine",
+   "position": [
+    2425,
+    4083
+   ],
+   "activePeriods": [
+    "kushan-200",
+    "huna-500"
+   ],
+   "summary": "One small room in a monastery court: a bed of stone or wood, a niche for a lamp, a begging bowl, a few manuscripts of birch bark.",
+   "details": [
+    "Gandharan monasteries set cells round a court with a verandah, often on two storeys, with an assembly hall, kitchen and stores beside it. Birch-bark manuscripts in Gandhari found elsewhere in the region show what monks read and copied."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "marshall-taxila",
+    "behrendt"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn the monk sits on his bed in the dark cell, legs folded, while the court fills with the sound of others waking."
+    },
+    {
+     "hour": 11,
+     "text": "Back from the begging round in town with rice and lentils in his bowl, he eats once, before noon, as the rule requires."
+    },
+    {
+     "hour": 20,
+     "text": "By a small lamp in the wall niche he copies a text on a strip of birch bark, letter by letter, in Kharoshthi."
+    }
+   ],
+   "variants": {
+    "huna-500": {
+     "note": "The court has burned; three monks live on in the few cells with roofs, and Xuanzang's later visitors find the Dharma 'in decline'."
+    }
+   }
+  },
+  {
+   "id": "glass-merchant",
+   "name": "A Kushan merchant with Roman glass",
+   "kind": "shop",
+   "position": [
+    2823,
+    499
+   ],
+   "activePeriods": [
+    "kushan-200"
+   ],
+   "summary": "A trader in Sirsukh with goods from the far west: thin blown glass from Roman Egypt and Syria, bronze figurines, wine, set beside Chinese silk and Indian ivory.",
+   "details": [
+    "Under the Kushans the overland road from China and the sea route through the Indus ports met in Gandhara. Roman glass and bronzes reached Taxila (finds come mainly from Sirkap) and, in quantity, Begram in Afghanistan; Kushan gold coins were struck on the Roman weight standard."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kushan",
+    "marshall-taxila"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Straw is unpacked from a crate and a pale green flask comes out whole; the merchant holds it to the light and breathes again."
+    },
+    {
+     "hour": 13,
+     "text": "A monastery steward buys incense and a bronze lamp; a young noble wants the blue glass cup, and pays in Kushan gold."
+    },
+    {
+     "hour": 20,
+     "text": "The merchant tallies his book in Bactrian Greek letters by lamplight, the silk bales stacked against the wall."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "huna-hamlet",
+   "name": "A farm on the ruins",
+   "kind": "house",
+   "position": [
+    750,
+    3650
+   ],
+   "activePeriods": [
+    "huna-500"
+   ],
+   "summary": "A farmer's house of re-used stones on the edge of the old Bhir Mound, the fields running over buried streets, the plough turning up coins and potsherds.",
+   "details": [
+    "After the 5th-century raids the valley shrank to villages. Xuanzang describes Taxila as fertile, with streams and flowers, but its chiefs fighting among themselves and the country subject to Kashmir."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "xuanzang",
+    "wiki-hephthalites"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The farmer yokes the oxen. His son picks a green copper coin out of the furrow, a king's face worn smooth."
+    },
+    {
+     "hour": 13,
+     "text": "Goats graze along the broken wall of Sirkap across the stream; a shepherd naps in the shade of a fallen bastion."
+    },
+    {
+     "hour": 19,
+     "text": "Smoke from the hearth rises into a dusk empty of the old city's noise; somewhere up the hill a monastery bell rings once."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "darius-518",
+   "title": "Gandhara becomes a Persian province",
+   "periodId": "achaemenid-450",
+   "date": "c. 518 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "bhir-quarter"
+   },
+   "effect": "none",
+   "text": "Darius I lists Gandara among his lands in the Behistun inscription, and soon after pushed to the Indus. Herodotus says the Indian province paid the largest tribute in the empire, in gold dust. Persian rule brought Aramaic scribes, a standard of weight and perhaps the first coined silver to Taxila; the Bhir Mound grew as a provincial town.",
+   "sourceIds": [
+    "herodotus",
+    "wiki-achaemenid-indus",
+    "marshall-taxila"
+   ]
+  },
+  {
+   "id": "alexander-326",
+   "title": "Ambhi opens Taxila to Alexander",
+   "periodId": "maurya-300",
+   "date": "spring 326 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "bhir-quarter"
+   },
+   "effect": "procession",
+   "text": "The king of Taxila, whom the Greeks called Taxiles, had sent envoys to Alexander in Bactria. Now he met him with rich gifts, elephants among them, and the Macedonians called Taxila the greatest city between the Indus and the Hydaspes. Alexander sacrificed and held games here before marching against Porus, Taxiles' rival, with Taxiles' troops beside him.",
+   "sourceIds": [
+    "arrian",
+    "plutarch-alexander",
+    "wiki-taxiles"
+   ]
+  },
+  {
+   "id": "kalanos-326",
+   "title": "Alexander's envoy meets the naked sages",
+   "periodId": "maurya-300",
+   "date": "326 BCE",
+   "kind": "daily",
+   "at": {
+    "position": [
+     204,
+     3051
+    ]
+   },
+   "effect": "none",
+   "text": "Alexander sent the philosopher Onesicritus to the ascetics living outside the town. Their elder, Dandamis, would not come: Alexander had nothing he wanted. Another, Kalanos, joined the army and followed it to Persia, where in 323 he had himself burned alive on a pyre before the troops.",
+   "sourceIds": [
+    "strabo",
+    "arrian",
+    "plutarch-alexander",
+    "wiki-calanus"
+   ]
+  },
+  {
+   "id": "chanakya-320",
+   "title": "Chanakya and Chandragupta (tradition)",
+   "periodId": "maurya-300",
+   "date": "c. 320 BCE (tradition)",
+   "kind": "civic",
+   "at": {
+    "spotId": "teacher-house"
+   },
+   "effect": "none",
+   "text": "Later Buddhist and Jain texts and Sanskrit plays tell how Chanakya, a Brahmin of Takshashila, trained the young Chandragupta and helped him overthrow the Nanda kings of Magadha. By about 305 Chandragupta held the north-west too. The Arthashastra, the manual of statecraft credited to Chanakya, reached its present form later.",
+   "sourceIds": [
+    "wiki-chanakya",
+    "wiki-takshashila-learning"
+   ]
+  },
+  {
+   "id": "ashoka-viceroy",
+   "title": "Prince Ashoka quells a revolt (legend)",
+   "periodId": "maurya-300",
+   "date": "c. 275 BCE (legend)",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "bhir-quarter"
+   },
+   "effect": "crowd",
+   "text": "The Ashokavadana says King Bindusara sent his son Ashoka with an army but no weapons to put down a rising at Takshashila. The townspeople came out to meet him and said they had nothing against the prince or the king, only against wicked ministers. Taxila stayed the seat of a Mauryan viceroy.",
+   "sourceIds": [
+    "ashokavadana",
+    "wiki-ashoka"
+   ]
+  },
+  {
+   "id": "kunala-legend",
+   "title": "The blinding of Kunala (legend)",
+   "periodId": "maurya-300",
+   "date": "mid-3rd century BCE (legend)",
+   "kind": "daily",
+   "at": {
+    "position": [
+     1249,
+     3273
+    ]
+   },
+   "effect": "none",
+   "text": "Ashoka's son Kunala, famous for his beautiful eyes, was governing Taxila when an order came, sealed with the king's seal, to put them out. It was forged by the queen Tishyarakshita. The townspeople refused, but Kunala obeyed. Centuries later a stupa on the ridge was shown to pilgrims as the place.",
+   "sourceIds": [
+    "ashokavadana",
+    "wiki-kunala",
+    "xuanzang"
+   ]
+  },
+  {
+   "id": "demetrius-180",
+   "title": "The Greeks of Bactria take Taxila",
+   "periodId": "indo-greek-50",
+   "date": "c. 180 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "sirkap-north-gate"
+   },
+   "effect": "construction",
+   "text": "As Mauryan power faded, Demetrius I of Bactria crossed the Hindu Kush and took Gandhara. The Greeks laid out a new city across the stream from the old one, on a grid like the cities of their homeland: Sirkap. For over a century Greek kings, Menander among them, struck coins here in two languages.",
+   "sourceIds": [
+    "wiki-demetrius",
+    "marshall-taxila",
+    "wiki-indo-greek-coinage"
+   ]
+  },
+  {
+   "id": "apollonius-46",
+   "title": "Apollonius of Tyana at the king's court",
+   "periodId": "indo-greek-50",
+   "date": "c. 46 CE (Philostratus)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "sirkap-palace"
+   },
+   "effect": "crowd",
+   "text": "Philostratus, writing 170 years later, has the Greek sage Apollonius come to Taxila and dine with its Parthian king Phraotes, who spoke Greek. He describes a city as large as Nineveh, walled like a Greek town, with narrow streets, a temple before the walls hung with bronze panels of Alexander and Porus, and a palace no finer than a rich man's house. How much is true is debated.",
+   "sourceIds": [
+    "philostratus-apollonius",
+    "wiki-apollonius",
+    "marshall-taxila"
+   ]
+  },
+  {
+   "id": "kushan-sirsukh",
+   "title": "The Kushans build Sirsukh",
+   "periodId": "kushan-200",
+   "date": "late 1st–2nd century CE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "sirsukh-wall"
+   },
+   "effect": "construction",
+   "text": "After the Kushans took Taxila from the Parthians, a new walled city rose on the plain to the north-east. Under Kanishka (about 127–150) Taxila lay at the heart of an empire reaching from the Oxus to the Ganges, and its monasteries prospered on the trade passing through. Whether Kanishka or a predecessor began Sirsukh is uncertain.",
+   "sourceIds": [
+    "wiki-kushan",
+    "wiki-kanishka",
+    "marshall-taxila"
+   ]
+  },
+  {
+   "id": "faxian-403",
+   "title": "Faxian visits the 'severed head'",
+   "periodId": "kushan-200",
+   "date": "c. 403 CE",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "dharmarajika"
+   },
+   "effect": "procession",
+   "text": "The Chinese monk Faxian, walking to India for Buddhist texts, came to Zhushashiluo, which he translated as 'severed head': here, in a former life, the Buddha gave his head to a man who asked for it. He saw great stupas adorned with jewels, venerated by the kings and people of the region.",
+   "sourceIds": [
+    "faxian",
+    "wiki-faxian"
+   ]
+  },
+  {
+   "id": "huna-470",
+   "title": "The Huns burn the monasteries",
+   "periodId": "huna-500",
+   "date": "c. 460–470 CE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "mohra-moradu"
+   },
+   "effect": "fire",
+   "text": "Hephthalite (Huna) armies overran Gandhara in the later 5th century. At Taxila the excavators found the monasteries burned, with ash and fallen roofs over the cells and stucco figures, and coin series ending; the destruction is usually laid to them. The city never recovered.",
+   "sourceIds": [
+    "wiki-hephthalites",
+    "marshall-taxila"
+   ]
+  },
+  {
+   "id": "xuanzang-630",
+   "title": "Xuanzang finds a ruined land",
+   "periodId": "huna-500",
+   "date": "c. 630 CE",
+   "kind": "daily",
+   "at": {
+    "landmarkId": "kunala-stupa"
+   },
+   "effect": "none",
+   "text": "The pilgrim Xuanzang found Taxila subject to Kashmir, its ruling families extinct, the chiefs feuding. The monasteries were many but ruined and deserted, with few monks. He was shown a stupa built by Ashoka where Kunala was blinded, said to restore the sight of the blind who prayed there.",
+   "sourceIds": [
+    "xuanzang",
+    "wiki-xuanzang",
+    "marshall-guide"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "gateway-300",
+   "title": "A day in the gateway city",
+   "periodId": "maurya-300",
+   "summary": "About 300 BCE, a generation after Alexander: walk into Takshashila on the Bhir Mound with a caravan, through the market and the teachers' houses, out to the place where the great stupa will rise.",
+   "steps": [
+    {
+     "spotId": "caravan-halt",
+     "title": "Off the road from Bactria",
+     "when": "Dawn",
+     "text": "You come in with a horse caravan off the road from the Indus. Customs men count the bales; a Mauryan clerk writes the duty owed."
+    },
+    {
+     "spotId": "bhir-market",
+     "title": "First Street",
+     "when": "Morning",
+     "text": "Into the town by the main street: one-room shops, salt and beads and copper, money-changers weighing bent silver bars, horses pushing through."
+    },
+    {
+     "landmarkId": "bhir-quarter",
+     "title": "Rubble houses",
+     "when": "Late morning",
+     "text": "Down a side lane the houses lean together, stone in mud, courts with wells and soak-pits; women grind grain on their thresholds."
+    },
+    {
+     "spotId": "teacher-house",
+     "title": "The teacher's court",
+     "when": "Noon",
+     "text": "In a doorway pupils from far-off kingdoms chant grammar rules. Some say Chanakya taught in a house like this."
+    },
+    {
+     "spotId": "physician",
+     "title": "The physician",
+     "when": "Afternoon",
+     "text": "Next door a healer binds a wound and names each herb for his pupils, as Jivaka's teacher is said to have done."
+    },
+    {
+     "spotId": "potter",
+     "title": "By the kilns",
+     "when": "Evening",
+     "text": "At the edge of town the potters fire their kilns, and beyond the stream the rise where, within a lifetime, the Dharmarajika will be built."
+    }
+   ],
+   "sourceIds": [
+    "marshall-taxila",
+    "strabo",
+    "wiki-takshashila-learning"
+   ]
+  },
+  {
+   "id": "pilgrim-200",
+   "title": "A pilgrim's round in Kushan Taxila",
+   "periodId": "kushan-200",
+   "summary": "About 200 CE, follow a monk from the new city of Sirsukh past the old Greek town to the stupas of the ridge and the plain.",
+   "steps": [
+    {
+     "landmarkId": "sirsukh-wall",
+     "title": "Out of Sirsukh",
+     "when": "Dawn",
+     "text": "The monk leaves Sirsukh by the south gate, under the round bastions of the new Kushan wall."
+    },
+    {
+     "landmarkId": "jandial-temple",
+     "title": "The old Greek temple",
+     "when": "Early morning",
+     "text": "On the road south the Ionic columns of Jandial catch the first sun. Nobody he asks agrees whose god it was."
+    },
+    {
+     "landmarkId": "sirkap-north-gate",
+     "title": "Into old Sirkap",
+     "when": "Morning",
+     "text": "Through the north gate the main street runs straight ahead, half its houses empty now, its shrines still tended."
+    },
+    {
+     "landmarkId": "eagle-shrine",
+     "title": "The eagle with two heads",
+     "when": "Late morning",
+     "text": "He stops at the little stupa with Greek and Indian niches and the strange two-headed bird, and leaves a flower."
+    },
+    {
+     "landmarkId": "kunala-stupa",
+     "title": "Kunala's stupa",
+     "when": "Noon",
+     "text": "Up on the ridge he circles the tall stupa where, they say, a prince lost his eyes and kept his patience."
+    },
+    {
+     "spotId": "sculptor",
+     "title": "The sculptors' yard",
+     "when": "Afternoon",
+     "text": "Down by the stream he watches a schist Buddha take shape under the chisel, for a chapel by the great stupa."
+    },
+    {
+     "landmarkId": "dharmarajika",
+     "title": "The Dharma king's stupa",
+     "when": "Evening",
+     "text": "At the Dharmarajika he walks the circuit among the votive stupas as lamps are lit in the chapels."
+    }
+   ],
+   "sourceIds": [
+    "marshall-guide",
+    "behrendt",
+    "faxian"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-taxila",
+   "title": "Taxila",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taxila"
+  },
+  {
+   "id": "wiki-bhir",
+   "title": "Bhir Mound",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bhir_Mound"
+  },
+  {
+   "id": "wiki-sirkap",
+   "title": "Sirkap",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sirkap"
+  },
+  {
+   "id": "wiki-sirsukh",
+   "title": "Sirsukh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sirsukh"
+  },
+  {
+   "id": "wiki-hathial",
+   "title": "Hathial",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hathial"
+  },
+  {
+   "id": "wiki-gandhara",
+   "title": "Gandhara",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gandhara"
+  },
+  {
+   "id": "wiki-uttarapatha",
+   "title": "Uttarapatha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Uttarapatha"
+  },
+  {
+   "id": "wiki-haro",
+   "title": "Haro River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Haro_River"
+  },
+  {
+   "id": "marshall-taxila",
+   "title": "Taxila: An Illustrated Account of Archaeological Excavations, 3 vols.",
+   "author": "John Marshall",
+   "year": 1951
+  },
+  {
+   "id": "marshall-guide",
+   "title": "A Guide to Taxila",
+   "author": "John Marshall",
+   "year": "1918, 4th ed. 1960"
+  },
+  {
+   "id": "dani-taxila",
+   "title": "The Historic City of Taxila",
+   "author": "Ahmad Hasan Dani",
+   "year": 1986
+  },
+  {
+   "id": "allchin",
+   "title": "The Archaeology of Early Historic South Asia",
+   "author": "F. R. Allchin",
+   "year": 1995
+  },
+  {
+   "id": "wiki-dharmarajika",
+   "title": "Dharmarajika Stupa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dharmarajika_Stupa"
+  },
+  {
+   "id": "wiki-jandial",
+   "title": "Jandial",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jandial"
+  },
+  {
+   "id": "wiki-kunala-stupa",
+   "title": "Kunala Stupa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kunala_Stupa"
+  },
+  {
+   "id": "wiki-mohra-moradu",
+   "title": "Mohra Muradu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mohra_Muradu"
+  },
+  {
+   "id": "wiki-gandhara-art",
+   "title": "Greco-Buddhist art",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greco-Buddhist_art"
+  },
+  {
+   "id": "wiki-stupa",
+   "title": "Stupa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stupa"
+  },
+  {
+   "id": "wiki-apollonius",
+   "title": "Apollonius of Tyana",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Apollonius_of_Tyana"
+  },
+  {
+   "id": "behrendt",
+   "title": "The Buddhist Architecture of Gandhara",
+   "author": "Kurt A. Behrendt",
+   "year": 2004
+  },
+  {
+   "id": "philostratus-apollonius",
+   "title": "Life of Apollonius of Tyana, Book 2",
+   "author": "Philostratus",
+   "year": "c. 220 CE",
+   "url": "https://en.wikipedia.org/wiki/Life_of_Apollonius_of_Tyana"
+  },
+  {
+   "id": "xuanzang",
+   "title": "Great Tang Records on the Western Regions (Da Tang Xiyu Ji), Book 3",
+   "author": "Xuanzang",
+   "year": "646 CE",
+   "url": "https://en.wikipedia.org/wiki/Great_Tang_Records_on_the_Western_Regions"
+  },
+  {
+   "id": "herodotus",
+   "title": "Histories, Books 3–4",
+   "author": "Herodotus",
+   "year": "c. 430 BCE",
+   "url": "https://en.wikipedia.org/wiki/Histories_(Herodotus)"
+  },
+  {
+   "id": "arrian",
+   "title": "Anabasis of Alexander, Books 4–5",
+   "author": "Arrian",
+   "year": "2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Anabasis_of_Alexander"
+  },
+  {
+   "id": "strabo",
+   "title": "Geography, Book 15",
+   "author": "Strabo",
+   "year": "c. 20 CE",
+   "url": "https://en.wikipedia.org/wiki/Geographica"
+  },
+  {
+   "id": "plutarch-alexander",
+   "title": "Life of Alexander",
+   "author": "Plutarch",
+   "year": "c. 100 CE",
+   "url": "https://en.wikipedia.org/wiki/Parallel_Lives"
+  },
+  {
+   "id": "faxian",
+   "title": "A Record of Buddhist Kingdoms (Foguo ji)",
+   "author": "Faxian",
+   "year": "c. 416 CE",
+   "url": "https://en.wikipedia.org/wiki/Faxian"
+  },
+  {
+   "id": "ashokavadana",
+   "title": "Ashokavadana",
+   "author": "anonymous (Sanskrit Buddhist legend)",
+   "year": "c. 2nd century CE",
+   "url": "https://en.wikipedia.org/wiki/Ashokavadana"
+  },
+  {
+   "id": "wiki-takshashila-learning",
+   "title": "Taxila (ancient centre of learning)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taxila#Ancient_centre_of_learning"
+  },
+  {
+   "id": "wiki-panini",
+   "title": "Pāṇini",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/P%C4%81%E1%B9%87ini"
+  },
+  {
+   "id": "wiki-chanakya",
+   "title": "Chanakya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chanakya"
+  },
+  {
+   "id": "wiki-jivaka",
+   "title": "Jīvaka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/J%C4%ABvaka"
+  },
+  {
+   "id": "wiki-aramaic-taxila",
+   "title": "Edicts of Ashoka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edicts_of_Ashoka"
+  },
+  {
+   "id": "wiki-nbp",
+   "title": "Northern Black Polished Ware",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Northern_Black_Polished_Ware"
+  },
+  {
+   "id": "wiki-indo-greek-coinage",
+   "title": "Indo-Greek Kingdom",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indo-Greek_Kingdom"
+  },
+  {
+   "id": "wiki-heliodorus",
+   "title": "Heliodorus pillar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Heliodorus_pillar"
+  },
+  {
+   "id": "wiki-kushan",
+   "title": "Kushan Empire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kushan_Empire"
+  },
+  {
+   "id": "wiki-kanishka",
+   "title": "Kanishka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kanishka"
+  },
+  {
+   "id": "wiki-achaemenid-indus",
+   "title": "Achaemenid conquest of the Indus Valley",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Achaemenid_conquest_of_the_Indus_Valley"
+  },
+  {
+   "id": "wiki-taxiles",
+   "title": "Taxiles",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Taxiles"
+  },
+  {
+   "id": "wiki-calanus",
+   "title": "Calanus",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Calanus"
+  },
+  {
+   "id": "wiki-demetrius",
+   "title": "Demetrius I of Bactria",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demetrius_I_of_Bactria"
+  },
+  {
+   "id": "wiki-faxian",
+   "title": "Faxian",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Faxian"
+  },
+  {
+   "id": "wiki-hephthalites",
+   "title": "Hephthalites",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hephthalites"
+  },
+  {
+   "id": "wiki-xuanzang",
+   "title": "Xuanzang",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xuanzang"
+  },
+  {
+   "id": "wiki-kunala",
+   "title": "Kunala",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kunala"
+  },
+  {
+   "id": "wiki-ashoka",
+   "title": "Ashoka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ashoka"
+  }
+ ]
+}

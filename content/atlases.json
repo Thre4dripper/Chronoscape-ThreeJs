@@ -136,7 +136,9 @@
           "subtitle": "Gateway city, 300 BCE",
           "at": [72.82, 33.75],
           "glyph": "stupa",
-          "blurb": "A crossroads city of the north-west, known for its centre of learning and for the meeting of Indian and Greek worlds."
+          "blurb": "A crossroads city of the north-west, known for its centre of learning and for the meeting of Indian and Greek worlds.",
+          "city": "taxila",
+          "period": "maurya-300"
         }
       ]
     },
