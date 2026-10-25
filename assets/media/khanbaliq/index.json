@@ -1,0 +1,478 @@
+{
+ "yuan-palace": [
+  {
+   "src": "media/khanbaliq/yuan-palace/1.jpg",
+   "thumb": "media/khanbaliq/yuan-palace/t1.jpg",
+   "w": 623,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "The Lugou Bridge (Marco Polo Bridge), constructed from 1189 to 1192, although the current bridge was reconstructed in 1698.",
+   "artist": "Shizhao",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Transport_de_mat%C3%A9riaux_pendant_le_r%C3%A8gne_de_Kubila%C3%AF_pour_les_constructions_qu%27il_entreprit_dans_l%27enceinte_du_palais_imp%C3%A9rial_de_P%C3%A9kin.jpg"
+  },
+  {
+   "src": "media/khanbaliq/yuan-palace/2.jpg",
+   "thumb": "media/khanbaliq/yuan-palace/t2.jpg",
+   "w": 800,
+   "h": 599,
+   "kind": "artwork",
+   "caption": "\"A new description of Asia\". Note the presence of two Khanbaliqs (Combalich in the land of \"Kitaisk\" on the Ob River, and Cambalu, in \"Cataia\") and one Beijing (Paquin, in Xuntien (Shuntian))",
+   "artist": "Jodocus Hondius I",
+   "date": "1610",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:CEM-19-Asiae-nova-description-1610-Jodocus-Hondius-2538.jpg"
+  },
+  {
+   "src": "media/khanbaliq/yuan-palace/3.jpg",
+   "thumb": "media/khanbaliq/yuan-palace/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by Bergmann.",
+   "artist": "Bergmann",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Beijing_Gulou.JPG"
+  },
+  {
+   "src": "media/khanbaliq/yuan-palace/4.jpg",
+   "thumb": "media/khanbaliq/yuan-palace/t4.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "The Temple of Heaven in Beijing, China.",
+   "artist": "star5112",
+   "date": "2006",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:3_Temple_of_Heaven.jpg"
+  }
+ ],
+ "qionghua": [
+  {
+   "src": "media/khanbaliq/qionghua/1.jpg",
+   "thumb": "media/khanbaliq/qionghua/t1.jpg",
+   "w": 800,
+   "h": 512,
+   "kind": "photograph",
+   "caption": "Beihai Park, Beijing, China (Spots removed from original image.)",
+   "artist": "xiquinhosilva",
+   "date": "2013",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beihai_Park_65414.jpg"
+  },
+  {
+   "src": "media/khanbaliq/qionghua/2.jpg",
+   "thumb": "media/khanbaliq/qionghua/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "The white pagoda in Beihai Park, Beijing, China, photo by Chen Yihan, see http://chenyihan.smugmug.com",
+   "artist": "Czzhermit",
+   "date": "2013",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:White_pagoda,_beihai_park,_beijing,_china.jpg"
+  }
+ ],
+ "tuancheng": [],
+ "forbidden-city": [
+  {
+   "src": "media/khanbaliq/forbidden-city/4.jpg",
+   "thumb": "media/khanbaliq/forbidden-city/t4.jpg",
+   "w": 673,
+   "h": 800,
+   "kind": "plan",
+   "caption": "Plan of the Forbidden City. Self created via Inkscape. This labelled version for use in w:Forbidden City. Unlabelled version is found at Image:Forbidden_city_map_wp_0.png.",
+   "artist": "Tommy Chen (Sumple)",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Forbidden_city_map_wp_1.png"
+  },
+  {
+   "src": "media/khanbaliq/forbidden-city/1.jpg",
+   "thumb": "media/khanbaliq/forbidden-city/t1.jpg",
+   "w": 521,
+   "h": 800,
+   "kind": "artwork",
+   "caption": "Hanging scroll. Portrait of an official in front of the Forbidden City. Painted in ink and colours on silk.",
+   "artist": "Zhu Bang 朱邦",
+   "date": "1522-1566 (Jiajing reign)",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E5%AE%AB%E5%9F%8E%E5%9B%BE%E8%BD%B4.jpg"
+  },
+  {
+   "src": "media/khanbaliq/forbidden-city/3.jpg",
+   "thumb": "media/khanbaliq/forbidden-city/t3.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "painting",
+   "caption": "Imperial Palace color decorative painting.",
+   "artist": "Gisling",
+   "date": "",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Palace_color_decorative_painting.JPG"
+  },
+  {
+   "src": "media/khanbaliq/forbidden-city/2.jpg",
+   "thumb": "media/khanbaliq/forbidden-city/t2.jpg",
+   "w": 800,
+   "h": 400,
+   "kind": "photograph",
+   "caption": "A (HDR-) photograph shot from the Jingshan Park (aka Coal Hill or Prospect Hill).",
+   "artist": "Pixelflake",
+   "date": "2012",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+  },
+  {
+   "src": "media/khanbaliq/forbidden-city/5.jpg",
+   "thumb": "media/khanbaliq/forbidden-city/t5.jpg",
+   "w": 800,
+   "h": 532,
+   "kind": "photograph",
+   "caption": "Interior of the Palace Museum (Forbidden City) in Beijing, China: corridor connecting the Hall of Literary Glory and the Hall of Main Respect;",
+   "artist": "蒋亦炯",
+   "date": "2010",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E6%95%85%E5%AE%AB12.JPG"
+  }
+ ],
+ "tiananmen": [
+  {
+   "src": "media/khanbaliq/tiananmen/1.jpg",
+   "thumb": "media/khanbaliq/tiananmen/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "A view of Tiananmen in Beijing.",
+   "artist": "Balon Greyjoy",
+   "date": "10 January 2020",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:20200110_Tiananmen-3.jpg"
+  },
+  {
+   "src": "media/khanbaliq/tiananmen/2.jpg",
+   "thumb": "media/khanbaliq/tiananmen/t2.jpg",
+   "w": 800,
+   "h": 599,
+   "kind": "photograph",
+   "caption": "Photograph by calflier001, 2012.",
+   "artist": "calflier001",
+   "date": "2012",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:FORBIDDEN_CITY_BEIJING_CHINA_OCT_2012_(8162336738).jpg"
+  }
+ ],
+ "jingshan": [
+  {
+   "src": "media/khanbaliq/jingshan/1.jpg",
+   "thumb": "media/khanbaliq/jingshan/t1.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "reconstruction",
+   "caption": "Model of the Forbidden City and Jingshan Park in Beijing",
+   "artist": "Pvt pauline",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Maquette_van_de_Verboden_Stad_en_Jingshan_Park.JPG"
+  },
+  {
+   "src": "media/khanbaliq/jingshan/2.jpg",
+   "thumb": "media/khanbaliq/jingshan/t2.jpg",
+   "w": 600,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Jingshan park, Beijing, China",
+   "artist": "Charlie fong冯成",
+   "date": "2009-01",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Jingshan_park.jpg"
+  },
+  {
+   "src": "media/khanbaliq/jingshan/3.jpg",
+   "thumb": "media/khanbaliq/jingshan/t3.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by 秋水平湖, 2013.",
+   "artist": "秋水平湖",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%B1%B1%E5%80%9A%E6%9C%9B%E6%A8%93.JPG"
+  }
+ ],
+ "drum-tower": [],
+ "bell-tower": [],
+ "yuan-towers": [],
+ "jishuitan-harbour": [
+  {
+   "src": "media/khanbaliq/jishuitan-harbour/1.jpg",
+   "thumb": "media/khanbaliq/jishuitan-harbour/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "The Shichahai lake area in Beijing",
+   "artist": "FANG Chen",
+   "date": "2008",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beijing_Shichahai_1.jpg"
+  },
+  {
+   "src": "media/khanbaliq/jishuitan-harbour/2.jpg",
+   "thumb": "media/khanbaliq/jishuitan-harbour/t2.jpg",
+   "w": 800,
+   "h": 596,
+   "kind": "photograph",
+   "caption": "The Shichahai in Beijing",
+   "artist": "FANG Chen",
+   "date": "2008",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beijing_Shichahai_bridge.jpg"
+  }
+ ],
+ "wanning-bridge": [
+  {
+   "src": "media/khanbaliq/wanning-bridge/1.jpg",
+   "thumb": "media/khanbaliq/wanning-bridge/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "The Shichahai lake area in Beijing",
+   "artist": "FANG Chen",
+   "date": "2008",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beijing_Shichahai_1.jpg"
+  },
+  {
+   "src": "media/khanbaliq/wanning-bridge/2.jpg",
+   "thumb": "media/khanbaliq/wanning-bridge/t2.jpg",
+   "w": 800,
+   "h": 596,
+   "kind": "photograph",
+   "caption": "The Shichahai in Beijing",
+   "artist": "FANG Chen",
+   "date": "2008",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beijing_Shichahai_bridge.jpg"
+  }
+ ],
+ "confucius-guozijian": [
+  {
+   "src": "media/khanbaliq/confucius-guozijian/1.jpg",
+   "thumb": "media/khanbaliq/confucius-guozijian/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "A gate into the Guozijian in Beijing, China.",
+   "artist": "Philip Larson",
+   "date": "2009",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Guozijian_1.jpg"
+  },
+  {
+   "src": "media/khanbaliq/confucius-guozijian/2.jpg",
+   "thumb": "media/khanbaliq/confucius-guozijian/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Inside a room displays Chinese instruments at the Guozijian in Beijing",
+   "artist": "Chris Stevenson",
+   "date": "2008",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beijingguozijianpic5.jpg"
+  }
+ ],
+ "yonghegong": [
+  {
+   "src": "media/khanbaliq/yonghegong/1.jpg",
+   "thumb": "media/khanbaliq/yonghegong/t1.jpg",
+   "w": 800,
+   "h": 526,
+   "kind": "photograph",
+   "caption": "Photograph by xiquinhosilva, 2013.",
+   "artist": "xiquinhosilva",
+   "date": "2013",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:65618-Beijing-Lama-Temple_(28098480603).jpg"
+  },
+  {
+   "src": "media/khanbaliq/yonghegong/2.jpg",
+   "thumb": "media/khanbaliq/yonghegong/t2.jpg",
+   "w": 457,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Budda Maitreja in Hall of Ten Thousand Happinesses (5 photos stitched through Hugin)",
+   "artist": "Roweromaniak",
+   "date": "2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pekin_L00-1U.jpg"
+  }
+ ],
+ "nine-dragon-wall": [
+  {
+   "src": "media/khanbaliq/nine-dragon-wall/1.jpg",
+   "thumb": "media/khanbaliq/nine-dragon-wall/t1.jpg",
+   "w": 800,
+   "h": 425,
+   "kind": "photograph",
+   "caption": "Nine Dragon Wall in the Forbidden City in Beijing, China.",
+   "artist": "Seebeer",
+   "date": "2002",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Neun-Drachen-Mauer.jpg"
+  },
+  {
+   "src": "media/khanbaliq/nine-dragon-wall/2.jpg",
+   "thumb": "media/khanbaliq/nine-dragon-wall/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by hakkun, Taken on 22 February 2015.",
+   "artist": "hakkun",
+   "date": "Taken on 22 February 2015",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Nine_Dragon_Wall_-_panoramio.jpg"
+  }
+ ],
+ "guangji": [
+  {
+   "src": "media/khanbaliq/guangji/1.jpg",
+   "thumb": "media/khanbaliq/guangji/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by The original uploader was Smartneddy at Chinese Wikipedia., 23 December 2004 (original upload date).",
+   "artist": "The original uploader was Smartneddy at Chinese Wikipedia.",
+   "date": "23 December 2004 (original upload date)",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Guangji_Temple_Main_Garden.jpg"
+  },
+  {
+   "src": "media/khanbaliq/guangji/2.jpg",
+   "thumb": "media/khanbaliq/guangji/t2.jpg",
+   "w": 800,
+   "h": 532,
+   "kind": "photograph",
+   "caption": "Temple of Heaven - Hall of Prayer for Good Harvests",
+   "artist": "Shujianyang",
+   "date": "2016",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_20160323_01.jpg"
+  }
+ ],
+ "miaoying": [
+  {
+   "src": "media/khanbaliq/miaoying/1.jpg",
+   "thumb": "media/khanbaliq/miaoying/t1.jpg",
+   "w": 800,
+   "h": 550,
+   "kind": "photograph",
+   "caption": "Photograph by EditQ, 2023.",
+   "artist": "EditQ",
+   "date": "2023",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Miaoying_Temple_8.jpg"
+  }
+ ],
+ "dianmen": [
+  {
+   "src": "media/khanbaliq/dianmen/1.jpg",
+   "thumb": "media/khanbaliq/dianmen/t1.jpg",
+   "w": 800,
+   "h": 598,
+   "kind": "photograph",
+   "caption": "Photograph by Gamble, Sidney D., between 1924 and 1927.",
+   "artist": "Gamble, Sidney D.",
+   "date": "between 1924 and 1927",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Di%27anmen1.jpg"
+  },
+  {
+   "src": "media/khanbaliq/dianmen/2.jpg",
+   "thumb": "media/khanbaliq/dianmen/t2.jpg",
+   "w": 800,
+   "h": 433,
+   "kind": "photograph",
+   "caption": "Intersection of Di'anmen East, West and Outer streets in the Dongcheng District of Beijing",
+   "artist": "Daniel Case",
+   "date": "2014",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Intersection_of_Di%27anmen_East,_West_and_Outer_streets,_Beijing.jpg"
+  }
+ ],
+ "deshengmen": [
+  {
+   "src": "media/khanbaliq/deshengmen/1.jpg",
+   "thumb": "media/khanbaliq/deshengmen/t1.jpg",
+   "w": 800,
+   "h": 531,
+   "kind": "photograph",
+   "caption": "Photograph by Bgabel, 2010.",
+   "artist": "Bgabel",
+   "date": "2010",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:CN-pek-deshengmen-tor.jpg"
+  },
+  {
+   "src": "media/khanbaliq/deshengmen/2.jpg",
+   "thumb": "media/khanbaliq/deshengmen/t2.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "The Deshengmen gate in Beijing",
+   "artist": "FANG Chen",
+   "date": "2007",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Deshengmenpic1.jpg"
+  }
+ ],
+ "andingmen": [
+  {
+   "src": "media/khanbaliq/andingmen/1.jpg",
+   "thumb": "media/khanbaliq/andingmen/t1.jpg",
+   "w": 800,
+   "h": 650,
+   "kind": "artwork",
+   "caption": "Title: Top of the Wall from Anting Gate. Peking Taken Possession by English and French Troops.[1]",
+   "artist": "Felice Beato",
+   "date": "1860-10-21[1]",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Top_of_the_Wall_from_Anting_Gate,_Peking.jpg"
+  }
+ ]
+}
