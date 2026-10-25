@@ -4094,6 +4094,195 @@
   "size": 145.6,
   "w": 140.0
  },
+ "kaifeng/bian-wharves": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 686,
+  "size": 228.8,
+  "w": 220.0
+ },
+ "kaifeng/dragon-pavilion": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 150.0,
+  "ext": "webp",
+  "px": 468,
+  "size": 156.0,
+  "w": 120.0
+ },
+ "kaifeng/east-water-gate": {
+  "cx": 0.28,
+  "cy": -0.0,
+  "d": 80.0,
+  "ext": "webp",
+  "px": 283,
+  "size": 94.18,
+  "w": 90.56
+ },
+ "kaifeng/fan-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 100.0
+ },
+ "kaifeng/fan-pagoda-ming": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 100.0
+ },
+ "kaifeng/fan-pagoda-qing": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "d": 110.5,
+  "ext": "webp",
+  "px": 345,
+  "size": 114.92,
+  "w": 100.0
+ },
+ "kaifeng/fan-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 250,
+  "size": 83.2,
+  "w": 80.0
+ },
+ "kaifeng/genyue": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 300.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 374.4,
+  "w": 360.0
+ },
+ "kaifeng/imperial-way": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 561.2,
+  "ext": "webp",
+  "px": 1024,
+  "size": 583.65,
+  "w": 110.0
+ },
+ "kaifeng/iron-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "kaifeng/rainbow-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 56.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.24,
+  "w": 44.0
+ },
+ "kaifeng/song-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 340.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 353.6,
+  "w": 320.0
+ },
+ "kaifeng/south-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "kaifeng/south-gate-ming": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 130.0
+ },
+ "kaifeng/synagogue": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 40.0
+ },
+ "kaifeng/xiangguo-temple": {
+  "cx": 0.0,
+  "cy": 0.51,
+  "d": 241.02,
+  "ext": "webp",
+  "px": 752,
+  "size": 250.66,
+  "w": 180.0
+ },
+ "kaifeng/xiangguo-temple-qing": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 240.0,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 180.0
+ },
+ "kaifeng/yanqing-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 120.0,
+  "ext": "webp",
+  "px": 374,
+  "size": 124.8,
+  "w": 70.0
+ },
+ "kaifeng/zhou-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 380.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 395.2,
+  "w": 300.0
+ },
+ "kaifeng/zhouqiao": {
+  "cx": 0.0,
+  "cy": 0.0,
+  "d": 64.2,
+  "ext": "webp",
+  "px": 200,
+  "size": 66.77,
+  "w": 50.0
+ },
+ "kaifeng/zhouqiao-ming": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 200,
+  "size": 66.56,
+  "w": 50.0
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
