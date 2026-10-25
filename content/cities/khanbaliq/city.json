@@ -1,0 +1,7168 @@
+{
+ "id": "khanbaliq",
+ "name": "Khanbaliq",
+ "subtitle": "Dadu of the Great Khan, and Beijing",
+ "description": "The centre of the Yuan capital Dadu (Khanbaliq) and of Ming and Qing Beijing, from the Jin emperors' lake palace of the 1170s to Qianlong's city: the palaces round the Taiye lakes, the Forbidden City, the Drum and Bell Towers and the Jishuitan harbour at the end of the Grand Canal. The Yuan north wall and the Altar of Heaven lie beyond the frame. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "kublai-1290",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#D6CBB6",
+   "#CBBFA8",
+   "#BFB39C"
+  ],
+  "roofs": [
+   "#5E5F62",
+   "#6A6866",
+   "#57595C"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3841,
+    4327
+   ],
+   "distance": 46,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7427,
+   7323
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Lakes of the Gaoliang river",
+    "path": [
+     [
+      3628,
+      3051
+     ],
+     [
+      3244,
+      2552
+     ],
+     [
+      2646,
+      2108
+     ],
+     [
+      2134,
+      1720
+     ],
+     [
+      1793,
+      1442
+     ]
+    ],
+    "width": 380,
+    "id": "haizi-jin",
+    "blurb": "A chain of shallow lakes and reed beds where the Gaoliang river spread out north-east of Zhongdu. Kublai's planners would put the centre of their new city on its eastern shore.",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Jishuitan (the Haizi)",
+    "path": [
+     [
+      3628,
+      3051
+     ],
+     [
+      3244,
+      2552
+     ],
+     [
+      2646,
+      2108
+     ],
+     [
+      2134,
+      1720
+     ],
+     [
+      1793,
+      1442
+     ]
+    ],
+    "width": 380,
+    "id": "jishuitan-yuan",
+    "blurb": "'The Sea', the great lake inside Dadu, fed by springs led from the Western Hills by Guo Shoujing. From 1293 it was the terminus of the Grand Canal: the Yuan history says its surface was 'covered with boats'.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Qianhai (Front Lake)",
+    "path": [
+     [
+      3654,
+      3084
+     ],
+     [
+      3517,
+      2752
+     ],
+     [
+      3415,
+      2552
+     ]
+    ],
+    "width": 170,
+    "id": "qianhai",
+    "blurb": "The southern of the three lakes of Shichahai, all that the Ming walls left of the Yuan Jishuitan. Lotus grows in summer; in winter people skate and sled on it.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Houhai (Rear Lake)",
+    "path": [
+     [
+      3312,
+      2496
+     ],
+     [
+      2902,
+      2274
+     ],
+     [
+      2518,
+      2053
+     ]
+    ],
+    "width": 200,
+    "id": "houhai",
+    "blurb": "The middle lake, joined to Qianhai under the Yinding bridge. Princes' mansions and temples line its banks; the Ten Temples (Shicha) gave the lakes their name.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Xihai (Jishuitan)",
+    "path": [
+     [
+      2348,
+      1942
+     ],
+     [
+      2202,
+      1720
+     ]
+    ],
+    "width": 170,
+    "id": "xihai",
+    "blurb": "The western lake, which kept the old name Jishuitan, 'pool of gathered water'. Water from the Western Hills enters here through a sluice under the north wall.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Taiye lake: Beihai",
+    "path": [
+     [
+      3090,
+      3628
+     ],
+     [
+      3124,
+      3939
+     ],
+     [
+      3176,
+      4105
+     ]
+    ],
+    "width": 470,
+    "id": "beihai",
+    "blurb": "The northern basin of the Taiye ('Great Liquid') lake round Qionghua island. The Jin dug it out for the Daning palace; Kublai built his palace on its east bank; the Ming and Qing kept it as the Western Park (Xiyuan).",
+    "periods": [
+     "jin-1200",
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Taiye lake",
+    "path": [
+     [
+      3176,
+      4216
+     ],
+     [
+      3158,
+      4505
+     ]
+    ],
+    "width": 180,
+    "id": "beihai-south",
+    "periods": [
+     "jin-1200",
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Taiye lake",
+    "path": [
+     [
+      3287,
+      4161
+     ],
+     [
+      3380,
+      4327
+     ]
+    ],
+    "width": 90,
+    "id": "beihai-bay",
+    "periods": [
+     "jin-1200",
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Taiye lake: Zhonghai",
+    "path": [
+     [
+      3141,
+      4527
+     ],
+     [
+      3090,
+      4937
+     ],
+     [
+      3090,
+      5381
+     ],
+     [
+      3141,
+      5636
+     ]
+    ],
+    "width": 210,
+    "id": "zhonghai",
+    "blurb": "The middle basin, west of the palace. In the Yuan it was the southern end of the Taiye lake; the Ming called it the Middle Sea when they dug the Southern Sea below it.",
+    "periods": [
+     "jin-1200",
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Nanhai (Southern Sea)",
+    "path": [
+     [
+      3201,
+      5714
+     ],
+     [
+      3346,
+      5880
+     ]
+    ],
+    "width": 260,
+    "id": "nanhai",
+    "blurb": "Dug in the early Ming to complete the three seas of the Western Park, round the Yingtai island where the Qing emperors later held audiences and fished.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Channel into the Taiye lake",
+    "path": [
+     [
+      3654,
+      3084
+     ],
+     [
+      3457,
+      3351
+     ],
+     [
+      3329,
+      3550
+     ]
+    ],
+    "width": 25,
+    "id": "qianhai-beihai",
+    "blurb": "The Ming fed the palace lakes from Shichahai through a channel under the Imperial City wall.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Jinshui river (palace water)",
+    "path": [
+     [
+      0,
+      2385
+     ],
+     [
+      427,
+      2441
+     ],
+     [
+      1622,
+      3218
+     ],
+     [
+      2390,
+      3550
+     ],
+     [
+      2919,
+      3750
+     ]
+    ],
+    "width": 10,
+    "id": "jinshui-yuan",
+    "blurb": "The Yuan led clean water from the Yuquan spring to the Taiye lake in a channel of its own, kept apart from the canal water and carried over crossing streams in troughs. Its course through the city follows the usual reconstruction.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Tonghui canal",
+    "path": [
+     [
+      3654,
+      3018
+     ],
+     [
+      3867,
+      2973
+     ],
+     [
+      4183,
+      2996
+     ],
+     [
+      4507,
+      3129
+     ],
+     [
+      4644,
+      3351
+     ],
+     [
+      4652,
+      4660
+     ],
+     [
+      4652,
+      5991
+     ],
+     [
+      4652,
+      6357
+     ],
+     [
+      5549,
+      6768
+     ],
+     [
+      6658,
+      7323
+     ]
+    ],
+    "width": 24,
+    "id": "tonghui-yuan",
+    "blurb": "Guo Shoujing's canal of 1292-1293, the last stage of the Grand Canal: from Jishuitan under the Wanning bridge, along the east wall of the Imperial City and out by the Wenming gate to Tongzhou, with lock gates to lift the barges. Kublai named it 'Tonghui', 'Free-flowing Benefit'.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Yuhe (Jade River)",
+    "path": [
+     [
+      3654,
+      3018
+     ],
+     [
+      3867,
+      2973
+     ],
+     [
+      4183,
+      2996
+     ],
+     [
+      4507,
+      3129
+     ],
+     [
+      4644,
+      3351
+     ],
+     [
+      4652,
+      4660
+     ],
+     [
+      4652,
+      6069
+     ],
+     [
+      4678,
+      6934
+     ]
+    ],
+    "width": 14,
+    "id": "yuhe",
+    "blurb": "The old Tonghui canal through the city. Once the Ming Imperial City wall enclosed it, boats could no longer pass; it became a drain from Shichahai to the south moat, and the grain barges stopped at Dongbianmen.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Gaoliang river",
+    "path": [
+     [
+      0,
+      1198
+     ],
+     [
+      854,
+      1276
+     ],
+     [
+      1366,
+      1365
+     ],
+     [
+      1793,
+      1442
+     ]
+    ],
+    "width": 26,
+    "id": "gaoliang",
+    "blurb": "The river from the springs at the foot of the Western Hills that fed the lakes. The Yuan diverted more spring water into it to keep the canal full.",
+    "periods": [
+     "jin-1200",
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Gaoliang river",
+    "path": [
+     [
+      0,
+      1198
+     ],
+     [
+      854,
+      1276
+     ],
+     [
+      1195,
+      1365
+     ]
+    ],
+    "width": 26,
+    "id": "gaoliang-mq",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Inflow to Jishuitan",
+    "path": [
+     [
+      2151,
+      1354
+     ],
+     [
+      2185,
+      1664
+     ]
+    ],
+    "width": 16,
+    "id": "sluice-mq",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Moat of Dadu",
+    "path": [
+     [
+      256,
+      0
+     ],
+     [
+      256,
+      6357
+     ],
+     [
+      7171,
+      6357
+     ],
+     [
+      7171,
+      0
+     ]
+    ],
+    "width": 30,
+    "id": "yuan-moat",
+    "blurb": "The moat outside the rammed-earth walls, crossed by bridges at the gates.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "City moat (Huchenghe)",
+    "path": [
+     [
+      1067,
+      1354
+     ],
+     [
+      7179,
+      1354
+     ],
+     [
+      7179,
+      7068
+     ],
+     [
+      248,
+      7068
+     ],
+     [
+      248,
+      2164
+     ],
+     [
+      1067,
+      1354
+     ]
+    ],
+    "width": 36,
+    "id": "ming-moat",
+    "blurb": "The moat round the Ming walls, fed by the Gaoliang river at the north-west corner and draining east into the Tonghui river at Dongbianmen.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Tonghui river (to Tongzhou)",
+    "path": [
+     [
+      7179,
+      7068
+     ],
+     [
+      7427,
+      7156
+     ]
+    ],
+    "width": 30,
+    "id": "tonghui-mq",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Tongzi river (palace moat)",
+    "path": [
+     [
+      3833,
+      5516
+     ],
+     [
+      3487,
+      5516
+     ],
+     [
+      3487,
+      4543
+     ],
+     [
+      4332,
+      4543
+     ],
+     [
+      4332,
+      5516
+     ],
+     [
+      3987,
+      5516
+     ]
+    ],
+    "width": 52,
+    "id": "tongzi-he",
+    "blurb": "The moat of the Forbidden City, 52 m wide, dug in the 1410s; its spoil went into Jingshan. Its water came from the Taiye lake.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   }
+  ],
+  "islands": [
+   {
+    "name": "Qionghua island",
+    "polygon": [
+     [
+      3366,
+      4072
+     ],
+     [
+      3362,
+      4028
+     ],
+     [
+      3339,
+      3990
+     ],
+     [
+      3305,
+      3965
+     ],
+     [
+      3266,
+      3950
+     ],
+     [
+      3227,
+      3942
+     ],
+     [
+      3185,
+      3943
+     ],
+     [
+      3144,
+      3958
+     ],
+     [
+      3112,
+      3989
+     ],
+     [
+      3097,
+      4030
+     ],
+     [
+      3096,
+      4072
+     ],
+     [
+      3105,
+      4111
+     ],
+     [
+      3120,
+      4149
+     ],
+     [
+      3146,
+      4183
+     ],
+     [
+      3183,
+      4206
+     ],
+     [
+      3227,
+      4212
+     ],
+     [
+      3268,
+      4200
+     ],
+     [
+      3303,
+      4176
+     ],
+     [
+      3331,
+      4148
+     ],
+     [
+      3354,
+      4113
+     ]
+    ]
+   },
+   {
+    "name": "Yingtai",
+    "polygon": [
+     [
+      3404,
+      5891
+     ],
+     [
+      3397,
+      5868
+     ],
+     [
+      3372,
+      5854
+     ],
+     [
+      3346,
+      5849
+     ],
+     [
+      3317,
+      5851
+     ],
+     [
+      3296,
+      5868
+     ],
+     [
+      3294,
+      5891
+     ],
+     [
+      3302,
+      5913
+     ],
+     [
+      3317,
+      5932
+     ],
+     [
+      3346,
+      5939
+     ],
+     [
+      3372,
+      5928
+     ],
+     [
+      3391,
+      5913
+     ]
+    ],
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   }
+  ],
+  "hills": [],
+  "roads": [
+   {
+    "name": "Road to Zhongdu",
+    "path": [
+     [
+      3671,
+      4416
+     ],
+     [
+      3585,
+      5769
+     ],
+     [
+      2902,
+      6879
+     ],
+     [
+      2305,
+      7323
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "zhongdu-road",
+    "blurb": "The road from the Daning palace south-west to the north-east gates of Zhongdu, about 3 km away.",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Road north to Changping",
+    "path": [
+     [
+      3713,
+      4383
+     ],
+     [
+      3841,
+      3218
+     ],
+     [
+      4098,
+      1886
+     ],
+     [
+      4354,
+      0
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "jin-north-road",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Road east to the Wenyu river",
+    "path": [
+     [
+      3713,
+      4383
+     ],
+     [
+      5549,
+      4272
+     ],
+     [
+      7427,
+      4050
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "jin-east-road",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Qianbulang (the Thousand-Step Corridor)",
+    "path": [
+     [
+      3944,
+      6269
+     ],
+     [
+      3935,
+      5991
+     ],
+     [
+      3910,
+      5215
+     ]
+    ],
+    "width": 40,
+    "style": "major",
+    "labelled": true,
+    "id": "qianbulang-yuan",
+    "blurb": "The ceremonial way from the Lizheng gate in the city wall through the Lingxing gate of the Imperial City to the palace's Chongtian gate, flanked by covered galleries; the Ming repeated it in front of Tiananmen.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Street of the Haizi bridge",
+    "path": [
+     [
+      3867,
+      3329
+     ],
+     [
+      3867,
+      2973
+     ],
+     [
+      3824,
+      2463
+     ]
+    ],
+    "width": 25,
+    "style": "major",
+    "labelled": true,
+    "id": "haizi-street",
+    "blurb": "The axis north of the palace to the Central Pavilion (Zhongxin ge), which marked the middle of the city, and the Drum Tower beside it.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Di'anmen Outer Street",
+    "path": [
+     [
+      3850,
+      3140
+     ],
+     [
+      3858,
+      2973
+     ],
+     [
+      3816,
+      2507
+     ]
+    ],
+    "width": 25,
+    "style": "major",
+    "labelled": true,
+    "id": "dianmen-outer",
+    "blurb": "The axis street from the Imperial City's north gate over the Wanning bridge to the Drum Tower, lined with shops, tea houses and the 'tobacco-pipe' lane to the lakes.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Xiejie (Slanting Street)",
+    "path": [
+     [
+      2902,
+      1997
+     ],
+     [
+      3287,
+      2164
+     ],
+     [
+      3483,
+      2385
+     ]
+    ],
+    "width": 20,
+    "style": "major",
+    "labelled": true,
+    "id": "xiejie-yuan",
+    "blurb": "The diagonal street along the north-east shore of Jishuitan, the busiest market of Dadu: silks, furs, pearls, horses and camels, near the harbour and the Drum Tower.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Gulou West Street",
+    "path": [
+     [
+      2476,
+      1831
+     ],
+     [
+      2902,
+      1997
+     ],
+     [
+      3329,
+      2164
+     ],
+     [
+      3739,
+      2419
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": true,
+    "id": "gulou-west",
+    "blurb": "The old Xiejie, the one diagonal street of the grid, following the shore of the Yuan harbour.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Street to the Chongren gate",
+    "path": [
+     [
+      3602,
+      2419
+     ],
+     [
+      5634,
+      2408
+     ],
+     [
+      7085,
+      2385
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": false,
+    "id": "chongren-street",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Gulou East Street",
+    "path": [
+     [
+      3858,
+      2419
+     ],
+     [
+      5634,
+      2408
+     ],
+     [
+      7085,
+      2385
+     ]
+    ],
+    "width": 24,
+    "style": "minor",
+    "labelled": true,
+    "id": "gulou-east",
+    "blurb": "East from the Drum Tower to the Dongzhimen gate, where carts of timber and bricks from the Grand Canal came into the city.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Xizhimen Street",
+    "path": [
+     [
+      341,
+      2463
+     ],
+     [
+      1929,
+      2385
+     ]
+    ],
+    "width": 22,
+    "style": "minor",
+    "labelled": false,
+    "id": "xizhimen-street",
+    "blurb": "From the west gate (Heyimen under the Yuan, Xizhimen under the Ming), by which carts of spring water from the Jade Spring hill came in for the palace.",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Shuncheng gate street",
+    "path": [
+     [
+      2006,
+      6269
+     ],
+     [
+      1929,
+      6136
+     ],
+     [
+      1929,
+      4238
+     ],
+     [
+      1929,
+      2385
+     ],
+     [
+      1929,
+      2108
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": true,
+    "id": "xisi-yuan",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Xidan - Xisi Street",
+    "path": [
+     [
+      2006,
+      6968
+     ],
+     [
+      1929,
+      6136
+     ],
+     [
+      1929,
+      4238
+     ],
+     [
+      1929,
+      2385
+     ],
+     [
+      1929,
+      1553
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": true,
+    "id": "xisi",
+    "blurb": "The main north-south street of the west city, from the Xuanwu gate through the crossings of Xidan and Xisi, each marked by memorial arches (pailou), to Xinjiekou.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Wenming gate street",
+    "path": [
+     [
+      5634,
+      6269
+     ],
+     [
+      5634,
+      4238
+     ],
+     [
+      5634,
+      2408
+     ],
+     [
+      5634,
+      0
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": true,
+    "id": "dongsi-yuan",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Dongdan - Dongsi Street",
+    "path": [
+     [
+      5634,
+      6968
+     ],
+     [
+      5634,
+      6136
+     ],
+     [
+      5634,
+      4238
+     ],
+     [
+      5634,
+      2408
+     ],
+     [
+      5634,
+      1509
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": true,
+    "id": "dongsi",
+    "blurb": "The main north-south street of the east city, from the Chongwen gate past the arches of Dongdan and Dongsi to the Yonghegong.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Andingmen Inner Street",
+    "path": [
+     [
+      4874,
+      3129
+     ],
+     [
+      4874,
+      2419
+     ],
+     [
+      4874,
+      1476
+     ]
+    ],
+    "width": 22,
+    "style": "minor",
+    "labelled": true,
+    "id": "andingmen-inner",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Anzhen gate street",
+    "path": [
+     [
+      4874,
+      3295
+     ],
+     [
+      4874,
+      2419
+     ],
+     [
+      4874,
+      0
+     ]
+    ],
+    "width": 22,
+    "style": "minor",
+    "labelled": false,
+    "id": "anzhen-yuan",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Deshengmen Inner Street",
+    "path": [
+     [
+      2476,
+      1476
+     ],
+     [
+      2476,
+      1831
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": false,
+    "id": "deshengmen-inner",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Fuchengmen Inner Street",
+    "path": [
+     [
+      341,
+      4238
+     ],
+     [
+      1929,
+      4238
+     ],
+     [
+      2390,
+      4238
+     ]
+    ],
+    "width": 22,
+    "style": "minor",
+    "labelled": true,
+    "id": "fuchengmen-street",
+    "blurb": "The road from the west gate (Pingzemen under the Yuan, Fuchengmen under the Ming), the coal road from the Western Hills; it passes the Miaoying White Dagoba and the Guangji temple.",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Chaoyangmen Inner Street",
+    "path": [
+     [
+      4593,
+      4238
+     ],
+     [
+      5634,
+      4238
+     ],
+     [
+      7085,
+      4238
+     ]
+    ],
+    "width": 22,
+    "style": "minor",
+    "labelled": true,
+    "id": "chaoyangmen-street",
+    "blurb": "From the east gate (Qihuamen under the Yuan, Chaoyangmen under the Ming) where the grain from the canal granaries came in.",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "West Chang'an Street",
+    "path": [
+     [
+      1929,
+      6136
+     ],
+     [
+      3398,
+      6136
+     ]
+    ],
+    "width": 26,
+    "style": "minor",
+    "labelled": true,
+    "id": "changan-west",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "East Chang'an Street",
+    "path": [
+     [
+      4499,
+      6136
+     ],
+     [
+      5634,
+      6136
+     ]
+    ],
+    "width": 26,
+    "style": "minor",
+    "labelled": true,
+    "id": "changan-east",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Tianjie (the Imperial Way)",
+    "path": [
+     [
+      3969,
+      6746
+     ],
+     [
+      3952,
+      6113
+     ]
+    ],
+    "width": 40,
+    "style": "major",
+    "labelled": true,
+    "id": "tianjie",
+    "blurb": "The T-shaped walled square in front of Tiananmen, with the Thousand-Step Corridor of offices along its sides; edicts were lowered from the gate to officials kneeling here.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Qianmen Street",
+    "path": [
+     [
+      3978,
+      7034
+     ],
+     [
+      3995,
+      7323
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": false,
+    "id": "qianmen-street",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Wangfujing (Street of the Princes' Mansions)",
+    "path": [
+     [
+      5122,
+      6136
+     ],
+     [
+      5122,
+      4238
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": true,
+    "id": "wangfujing",
+    "blurb": "Named after the ten princes' mansions built along it under Yongle.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Dong'anmen Street",
+    "path": [
+     [
+      4815,
+      5215
+     ],
+     [
+      5122,
+      5215
+     ]
+    ],
+    "width": 18,
+    "style": "minor",
+    "labelled": false,
+    "id": "donganmen-street",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Di'anmen East Street",
+    "path": [
+     [
+      3910,
+      3107
+     ],
+     [
+      4823,
+      3107
+     ]
+    ],
+    "width": 18,
+    "style": "minor",
+    "labelled": false,
+    "id": "dianmen-east",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Chengxian Street (Guozijian Street)",
+    "path": [
+     [
+      4874,
+      1931
+     ],
+     [
+      5634,
+      1931
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "guozijian-street",
+    "blurb": "The quiet lane of the Temple of Confucius and the Imperial Academy, spanned by memorial arches; officials had to dismount at its ends.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Walls of Dadu",
+    "path": [
+     [
+      341,
+      0
+     ],
+     [
+      341,
+      6269
+     ],
+     [
+      7085,
+      6269
+     ],
+     [
+      7085,
+      0
+     ]
+    ],
+    "closed": false,
+    "id": "yuan-wall",
+    "blurb": "Rammed earth, about 28.6 km round (7.6 by 6.7 km), with eleven gates; begun 1267. In the rains the walls were protected with reed matting. The north wall, 2.5 km beyond the frame, still stands as a long earth mound.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Huangcheng (Imperial City) wall",
+    "path": [
+     [
+      2390,
+      3329
+     ],
+     [
+      4567,
+      3329
+     ],
+     [
+      4567,
+      5991
+     ],
+     [
+      2390,
+      5991
+     ]
+    ],
+    "closed": true,
+    "id": "yuan-imperial",
+    "blurb": "The Yuan imperial city (also called the Xiaocheng), about 20 li round, enclosing the Taiye lake with the emperor's palace on the east bank and the palaces of the crown prince and the empress dowager on the west.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Inner City wall (Neicheng)",
+    "path": [
+     [
+      1067,
+      1476
+     ],
+     [
+      7085,
+      1476
+     ],
+     [
+      7085,
+      6968
+     ],
+     [
+      341,
+      6968
+     ],
+     [
+      341,
+      2164
+     ]
+    ],
+    "closed": true,
+    "id": "ming-wall",
+    "blurb": "Xu Da's north wall of 1368 and Yongle's south wall of 1419 joined to the old Yuan east and west walls: about 24 km round, faced with brick from 1445, 12 m high, with nine gates, barbicans and arrow towers. The north-west corner is cut off by the lakes.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Imperial City wall (Huangcheng)",
+    "path": [
+     [
+      2390,
+      3162
+     ],
+     [
+      4789,
+      3162
+     ],
+     [
+      4789,
+      6069
+     ],
+     [
+      2390,
+      6069
+     ]
+    ],
+    "closed": true,
+    "id": "ming-imperial",
+    "blurb": "Yongle's Imperial City, some 11 km round, red-plastered under yellow tiles: the lakes of the Western Park, Jingshan, temples, storehouses and the offices and workshops of the eunuch directorates. Its four gates were Tiananmen, Di'anmen, Dong'anmen and Xi'anmen.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Walls of the Imperial Way",
+    "path": [
+     [
+      4482,
+      6069
+     ],
+     [
+      4482,
+      6191
+     ],
+     [
+      4140,
+      6191
+     ],
+     [
+      4140,
+      6768
+     ],
+     [
+      3799,
+      6768
+     ],
+     [
+      3799,
+      6191
+     ],
+     [
+      3415,
+      6191
+     ],
+     [
+      3415,
+      6069
+     ]
+    ],
+    "closed": false,
+    "id": "tianjie-wall",
+    "blurb": "The red walls of the T-shaped square in front of Tiananmen, closed by the Damingmen on the south and the Chang'an Left and Right gates on the east and west.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Lizheng gate",
+    "position": [
+     3944,
+     6269
+    ],
+    "id": "lizhengmen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Wenming gate",
+    "position": [
+     5634,
+     6269
+    ],
+    "id": "wenmingmen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Shuncheng gate",
+    "position": [
+     2006,
+     6269
+    ],
+    "id": "shunchengmen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Qihua gate",
+    "position": [
+     7085,
+     4238
+    ],
+    "id": "qihuamen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Chongren gate",
+    "position": [
+     7085,
+     2385
+    ],
+    "id": "chongrenmen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Pingze gate",
+    "position": [
+     341,
+     4238
+    ],
+    "id": "pingzemen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Heyi gate",
+    "position": [
+     341,
+     2463
+    ],
+    "id": "heyimen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Lingxing gate",
+    "position": [
+     3935,
+     5991
+    ],
+    "id": "lingxingmen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Houzai gate",
+    "position": [
+     3867,
+     3329
+    ],
+    "id": "houzaimen",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Dongzhimen",
+    "position": [
+     7085,
+     2385
+    ],
+    "id": "dongzhimen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Chaoyangmen",
+    "position": [
+     7085,
+     4238
+    ],
+    "id": "chaoyangmen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Chongwenmen",
+    "position": [
+     5634,
+     6968
+    ],
+    "id": "chongwenmen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Zhengyangmen (Qianmen)",
+    "position": [
+     3969,
+     6968
+    ],
+    "id": "zhengyangmen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Xuanwumen",
+    "position": [
+     2006,
+     6968
+    ],
+    "id": "xuanwumen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Fuchengmen",
+    "position": [
+     341,
+     4238
+    ],
+    "id": "fuchengmen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Xizhimen",
+    "position": [
+     341,
+     2463
+    ],
+    "id": "xizhimen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Xi'anmen",
+    "position": [
+     2390,
+     4238
+    ],
+    "id": "xianmen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Dong'anmen",
+    "position": [
+     4789,
+     5215
+    ],
+    "id": "donganmen",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Damingmen",
+    "position": [
+     3969,
+     6768
+    ],
+    "id": "damingmen",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "name": "Daqingmen",
+    "position": [
+     3969,
+     6768
+    ],
+    "id": "daqingmen",
+    "periods": [
+     "qing-1750"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Wanning bridge",
+    "path": [
+     [
+      3867,
+      3018
+     ],
+     [
+      3858,
+      2929
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "wanning-b",
+    "blurb": "The bridge that carries the axis over the outflow of Jishuitan, 'the bridge of ten thousand tranquillities'.",
+    "landmarkId": "wanning-bridge",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Yinding bridge",
+    "path": [
+     [
+      3406,
+      2485
+     ],
+     [
+      3321,
+      2563
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "yinding",
+    "blurb": "The small 'silver ingot' bridge at the neck between Qianhai and Houhai, famous for its view of the Western Hills.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Timber bridge to Yingzhou",
+    "path": [
+     [
+      3005,
+      4538
+     ],
+     [
+      3295,
+      4538
+     ]
+    ],
+    "build": "timber",
+    "arches": 10,
+    "id": "yuan-wood-bridge",
+    "blurb": "The Yuan timber bridge from the Round City across the lake to the palaces on the west bank, with a drawbridge in the middle.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "name": "Jin'ao Yudong bridge",
+    "path": [
+     [
+      3005,
+      4538
+     ],
+     [
+      3295,
+      4538
+     ]
+    ],
+    "build": "stone",
+    "arches": 9,
+    "id": "jinao-yudong",
+    "blurb": "The Ming marble bridge between Beihai and Zhonghai, named after the gold turtle and jade rainbow arches at its two ends.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "name": "Yong'an bridge",
+    "path": [
+     [
+      3312,
+      4205
+     ],
+     [
+      3432,
+      4371
+     ]
+    ],
+    "build": "stone",
+    "arches": 3,
+    "id": "yongan",
+    "blurb": "The bridge from the Round City to Qionghua island, with a decorated arch at each end.",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      376,
+      4272
+     ],
+     [
+      1904,
+      4272
+     ],
+     [
+      1904,
+      6224
+     ],
+     [
+      376,
+      6224
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of the Pingze gate",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      4272
+     ],
+     [
+      2356,
+      4272
+     ],
+     [
+      2356,
+      6224
+     ],
+     [
+      1955,
+      6224
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of the Shuncheng gate",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      2496
+     ],
+     [
+      1904,
+      2496
+     ],
+     [
+      1904,
+      4205
+     ],
+     [
+      376,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of the Heyi gate",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      3329
+     ],
+     [
+      2356,
+      3329
+     ],
+     [
+      2356,
+      4205
+     ],
+     [
+      1955,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards west of the Imperial City",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      1331
+     ],
+     [
+      1904,
+      1331
+     ],
+     [
+      1904,
+      2430
+     ],
+     [
+      376,
+      2430
+     ]
+    ],
+    "density": "loose",
+    "name": "North-west wards by the Haizi",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2817,
+      1775
+     ],
+     [
+      4354,
+      1775
+     ],
+     [
+      4354,
+      3284
+     ],
+     [
+      2817,
+      3284
+     ]
+    ],
+    "density": "dense",
+    "name": "Market quarter of the Xiejie",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4354,
+      1476
+     ],
+     [
+      5608,
+      1476
+     ],
+     [
+      5608,
+      2385
+     ],
+     [
+      4354,
+      2385
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of the Chongren gate",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      1476
+     ],
+     [
+      7051,
+      1476
+     ],
+     [
+      7051,
+      2385
+     ],
+     [
+      5660,
+      2385
+     ]
+    ],
+    "density": "loose",
+    "name": "North-east wards",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4601,
+      2452
+     ],
+     [
+      5608,
+      2452
+     ],
+     [
+      5608,
+      4205
+     ],
+     [
+      4601,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards east of the palace",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      2452
+     ],
+     [
+      7051,
+      2452
+     ],
+     [
+      7051,
+      4205
+     ],
+     [
+      5660,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of the Qihua gate",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4601,
+      4272
+     ],
+     [
+      5608,
+      4272
+     ],
+     [
+      5608,
+      6224
+     ],
+     [
+      4601,
+      6224
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards of the Wenming gate",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      4272
+     ],
+     [
+      7051,
+      4272
+     ],
+     [
+      7051,
+      6224
+     ],
+     [
+      5660,
+      6224
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east wards",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2988,
+      55
+     ],
+     [
+      5608,
+      55
+     ],
+     [
+      5608,
+      1331
+     ],
+     [
+      2988,
+      1331
+     ]
+    ],
+    "density": "loose",
+    "name": "Thinly built northern wards",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2416,
+      3362
+     ],
+     [
+      2902,
+      3362
+     ],
+     [
+      2902,
+      5958
+     ],
+     [
+      2416,
+      5958
+     ]
+    ],
+    "density": "loose",
+    "name": "Palaces of the west bank (Longfu and Xingsheng)",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      341,
+      6446
+     ],
+     [
+      7085,
+      6446
+     ],
+     [
+      7085,
+      7323
+     ],
+     [
+      341,
+      7323
+     ]
+    ],
+    "density": "loose",
+    "name": "Suburbs toward Zhongdu",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      6169
+     ],
+     [
+      1904,
+      6169
+     ],
+     [
+      1904,
+      6923
+     ],
+     [
+      376,
+      6923
+     ]
+    ],
+    "density": "dense",
+    "name": "Xuanwumen Inner quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      6169
+     ],
+     [
+      3380,
+      6169
+     ],
+     [
+      3380,
+      6235
+     ],
+     [
+      3756,
+      6235
+     ],
+     [
+      3756,
+      6923
+     ],
+     [
+      1955,
+      6923
+     ]
+    ],
+    "density": "dense",
+    "name": "Xidan quarter and the western ministries",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4524,
+      6169
+     ],
+     [
+      5608,
+      6169
+     ],
+     [
+      5608,
+      6923
+     ],
+     [
+      4183,
+      6923
+     ],
+     [
+      4183,
+      6235
+     ],
+     [
+      4524,
+      6235
+     ]
+    ],
+    "density": "dense",
+    "name": "Ministries east of the Imperial Way",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      6169
+     ],
+     [
+      7051,
+      6169
+     ],
+     [
+      7051,
+      6923
+     ],
+     [
+      5660,
+      6923
+     ]
+    ],
+    "density": "dense",
+    "name": "Chongwenmen Inner quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      4272
+     ],
+     [
+      1904,
+      4272
+     ],
+     [
+      1904,
+      6102
+     ],
+     [
+      376,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Xisi south",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      4272
+     ],
+     [
+      2356,
+      4272
+     ],
+     [
+      2356,
+      6102
+     ],
+     [
+      1955,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Xidan north",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      2496
+     ],
+     [
+      1904,
+      2496
+     ],
+     [
+      1904,
+      4205
+     ],
+     [
+      376,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Fuchengmen quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      3162
+     ],
+     [
+      2356,
+      3162
+     ],
+     [
+      2356,
+      4205
+     ],
+     [
+      1955,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Xisi north",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1101,
+      1520
+     ],
+     [
+      1904,
+      1520
+     ],
+     [
+      1904,
+      2430
+     ],
+     [
+      376,
+      2430
+     ],
+     [
+      376,
+      2197
+     ]
+    ],
+    "density": "loose",
+    "name": "Xinjiekou",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      1520
+     ],
+     [
+      2450,
+      1520
+     ],
+     [
+      2450,
+      3118
+     ],
+     [
+      1955,
+      3118
+     ]
+    ],
+    "density": "loose",
+    "name": "Banks of Xihai and Houhai",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2501,
+      1520
+     ],
+     [
+      4849,
+      1520
+     ],
+     [
+      4849,
+      2385
+     ],
+     [
+      2501,
+      2385
+     ]
+    ],
+    "density": "dense",
+    "name": "North of the Bell Tower",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2988,
+      2452
+     ],
+     [
+      4849,
+      2452
+     ],
+     [
+      4849,
+      3096
+     ],
+     [
+      2988,
+      3096
+     ]
+    ],
+    "density": "dense",
+    "name": "Shichahai and the Drum Tower",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4900,
+      1520
+     ],
+     [
+      5608,
+      1520
+     ],
+     [
+      5608,
+      2385
+     ],
+     [
+      4900,
+      2385
+     ]
+    ],
+    "density": "loose",
+    "name": "Andingmen quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      1520
+     ],
+     [
+      7051,
+      1520
+     ],
+     [
+      7051,
+      2385
+     ],
+     [
+      5660,
+      2385
+     ]
+    ],
+    "density": "loose",
+    "name": "Dongzhimen quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4900,
+      2452
+     ],
+     [
+      5608,
+      2452
+     ],
+     [
+      5608,
+      4205
+     ],
+     [
+      4900,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Jiaodaokou",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4823,
+      2452
+     ],
+     [
+      4849,
+      2452
+     ],
+     [
+      4849,
+      4205
+     ],
+     [
+      4823,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Imperial City's north-east corner",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      2452
+     ],
+     [
+      7051,
+      2452
+     ],
+     [
+      7051,
+      4205
+     ],
+     [
+      5660,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Dongsi quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4823,
+      4272
+     ],
+     [
+      5105,
+      4272
+     ],
+     [
+      5105,
+      6102
+     ],
+     [
+      4823,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Princes' mansions of Wangfujing",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5139,
+      4272
+     ],
+     [
+      5608,
+      4272
+     ],
+     [
+      5608,
+      6102
+     ],
+     [
+      5139,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Dongdan north",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      4272
+     ],
+     [
+      7051,
+      4272
+     ],
+     [
+      7051,
+      6102
+     ],
+     [
+      5660,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Chaoyangmen quarter",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4140,
+      3206
+     ],
+     [
+      4763,
+      3206
+     ],
+     [
+      4763,
+      4161
+     ],
+     [
+      4140,
+      4161
+     ]
+    ],
+    "density": "dense",
+    "name": "Storehouses and directorates of the Imperial City",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4371,
+      4327
+     ],
+     [
+      4763,
+      4327
+     ],
+     [
+      4763,
+      6025
+     ],
+     [
+      4371,
+      6025
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east Imperial City (Nanchizi)",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2416,
+      3206
+     ],
+     [
+      2902,
+      3206
+     ],
+     [
+      2902,
+      6025
+     ],
+     [
+      2416,
+      6025
+     ]
+    ],
+    "density": "dense",
+    "name": "Xishiku: west bank of the Western Park",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2988,
+      7112
+     ],
+     [
+      5122,
+      7112
+     ],
+     [
+      5122,
+      7323
+     ],
+     [
+      2988,
+      7323
+     ]
+    ],
+    "density": "loose",
+    "name": "Qianmen suburb",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      6169
+     ],
+     [
+      1904,
+      6169
+     ],
+     [
+      1904,
+      6923
+     ],
+     [
+      376,
+      6923
+     ]
+    ],
+    "density": "dense",
+    "name": "Xuanwumen Inner quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      6169
+     ],
+     [
+      3380,
+      6169
+     ],
+     [
+      3380,
+      6235
+     ],
+     [
+      3756,
+      6235
+     ],
+     [
+      3756,
+      6923
+     ],
+     [
+      1955,
+      6923
+     ]
+    ],
+    "density": "dense",
+    "name": "Xidan quarter and the western ministries",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4524,
+      6169
+     ],
+     [
+      5608,
+      6169
+     ],
+     [
+      5608,
+      6923
+     ],
+     [
+      4183,
+      6923
+     ],
+     [
+      4183,
+      6235
+     ],
+     [
+      4524,
+      6235
+     ]
+    ],
+    "density": "dense",
+    "name": "Ministries east of the Imperial Way",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      6169
+     ],
+     [
+      7051,
+      6169
+     ],
+     [
+      7051,
+      6923
+     ],
+     [
+      5660,
+      6923
+     ]
+    ],
+    "density": "dense",
+    "name": "Chongwenmen Inner quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      4272
+     ],
+     [
+      1904,
+      4272
+     ],
+     [
+      1904,
+      6102
+     ],
+     [
+      376,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Xisi south",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      4272
+     ],
+     [
+      2356,
+      4272
+     ],
+     [
+      2356,
+      6102
+     ],
+     [
+      1955,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Xidan north",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      2496
+     ],
+     [
+      1904,
+      2496
+     ],
+     [
+      1904,
+      4205
+     ],
+     [
+      376,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Fuchengmen quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      3162
+     ],
+     [
+      2356,
+      3162
+     ],
+     [
+      2356,
+      4205
+     ],
+     [
+      1955,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Xisi north",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1101,
+      1520
+     ],
+     [
+      1904,
+      1520
+     ],
+     [
+      1904,
+      2430
+     ],
+     [
+      376,
+      2430
+     ],
+     [
+      376,
+      2197
+     ]
+    ],
+    "density": "dense",
+    "name": "Xinjiekou",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1955,
+      1520
+     ],
+     [
+      2450,
+      1520
+     ],
+     [
+      2450,
+      3118
+     ],
+     [
+      1955,
+      3118
+     ]
+    ],
+    "density": "dense",
+    "name": "Banks of Xihai and Houhai",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2501,
+      1520
+     ],
+     [
+      4849,
+      1520
+     ],
+     [
+      4849,
+      2385
+     ],
+     [
+      2501,
+      2385
+     ]
+    ],
+    "density": "dense",
+    "name": "North of the Bell Tower",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2988,
+      2452
+     ],
+     [
+      4849,
+      2452
+     ],
+     [
+      4849,
+      3096
+     ],
+     [
+      2988,
+      3096
+     ]
+    ],
+    "density": "dense",
+    "name": "Shichahai and the Drum Tower",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4900,
+      1520
+     ],
+     [
+      5608,
+      1520
+     ],
+     [
+      5608,
+      2385
+     ],
+     [
+      4900,
+      2385
+     ]
+    ],
+    "density": "dense",
+    "name": "Andingmen quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      1520
+     ],
+     [
+      7051,
+      1520
+     ],
+     [
+      7051,
+      2385
+     ],
+     [
+      5660,
+      2385
+     ]
+    ],
+    "density": "dense",
+    "name": "Dongzhimen quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4900,
+      2452
+     ],
+     [
+      5608,
+      2452
+     ],
+     [
+      5608,
+      4205
+     ],
+     [
+      4900,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Jiaodaokou",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4823,
+      2452
+     ],
+     [
+      4849,
+      2452
+     ],
+     [
+      4849,
+      4205
+     ],
+     [
+      4823,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Imperial City's north-east corner",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      2452
+     ],
+     [
+      7051,
+      2452
+     ],
+     [
+      7051,
+      4205
+     ],
+     [
+      5660,
+      4205
+     ]
+    ],
+    "density": "dense",
+    "name": "Dongsi quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4823,
+      4272
+     ],
+     [
+      5105,
+      4272
+     ],
+     [
+      5105,
+      6102
+     ],
+     [
+      4823,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Princes' mansions of Wangfujing",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5139,
+      4272
+     ],
+     [
+      5608,
+      4272
+     ],
+     [
+      5608,
+      6102
+     ],
+     [
+      5139,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Dongdan north",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5660,
+      4272
+     ],
+     [
+      7051,
+      4272
+     ],
+     [
+      7051,
+      6102
+     ],
+     [
+      5660,
+      6102
+     ]
+    ],
+    "density": "dense",
+    "name": "Chaoyangmen quarter",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4140,
+      3206
+     ],
+     [
+      4763,
+      3206
+     ],
+     [
+      4763,
+      4161
+     ],
+     [
+      4140,
+      4161
+     ]
+    ],
+    "density": "dense",
+    "name": "Storehouses and directorates of the Imperial City",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4371,
+      4327
+     ],
+     [
+      4763,
+      4327
+     ],
+     [
+      4763,
+      6025
+     ],
+     [
+      4371,
+      6025
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east Imperial City (Nanchizi)",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2416,
+      3206
+     ],
+     [
+      2902,
+      3206
+     ],
+     [
+      2902,
+      6025
+     ],
+     [
+      2416,
+      6025
+     ]
+    ],
+    "density": "dense",
+    "name": "Xishiku: west bank of the Western Park",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2988,
+      7112
+     ],
+     [
+      5122,
+      7112
+     ],
+     [
+      5122,
+      7323
+     ],
+     [
+      2988,
+      7323
+     ]
+    ],
+    "density": "dense",
+    "name": "Qianmen suburb",
+    "periods": [
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1451,
+      3905
+     ],
+     [
+      2006,
+      3905
+     ],
+     [
+      2006,
+      4172
+     ],
+     [
+      1451,
+      4172
+     ]
+    ],
+    "density": "loose",
+    "name": "Xiliu village",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3244,
+      1908
+     ],
+     [
+      3713,
+      1908
+     ],
+     [
+      3713,
+      2219
+     ],
+     [
+      3244,
+      2219
+     ]
+    ],
+    "density": "loose",
+    "name": "Fishing village on the lakes",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4268,
+      4860
+     ],
+     [
+      4738,
+      4860
+     ],
+     [
+      4738,
+      5104
+     ],
+     [
+      4268,
+      5104
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet east of the Daning palace",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2689,
+      6524
+     ],
+     [
+      3201,
+      6524
+     ],
+     [
+      3201,
+      6823
+     ],
+     [
+      2689,
+      6823
+     ]
+    ],
+    "density": "loose",
+    "name": "Village on the Zhongdu road",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5719,
+      3528
+     ],
+     [
+      6189,
+      3528
+     ],
+     [
+      6189,
+      3739
+     ],
+     [
+      5719,
+      3739
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern hamlet",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3585,
+      4527
+     ],
+     [
+      4055,
+      4527
+     ],
+     [
+      4055,
+      4826
+     ],
+     [
+      3585,
+      4826
+     ]
+    ],
+    "density": "loose",
+    "name": "Service quarter of the Daning palace",
+    "periods": [
+     "jin-1200"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      0,
+      0
+     ],
+     [
+      7427,
+      0
+     ],
+     [
+      7427,
+      1331
+     ],
+     [
+      0,
+      1331
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields north of the lakes",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3884,
+      1331
+     ],
+     [
+      7427,
+      1331
+     ],
+     [
+      7427,
+      3439
+     ],
+     [
+      3884,
+      3439
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields east of the lakes",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4140,
+      3794
+     ],
+     [
+      7427,
+      3794
+     ],
+     [
+      7427,
+      4749
+     ],
+     [
+      4140,
+      4749
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields east of the palace",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3671,
+      5215
+     ],
+     [
+      7427,
+      5215
+     ],
+     [
+      7427,
+      7323
+     ],
+     [
+      3671,
+      7323
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields toward Zhongdu",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      1331
+     ],
+     [
+      2476,
+      1331
+     ],
+     [
+      2476,
+      3861
+     ],
+     [
+      0,
+      3861
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields by the Gaoliang river",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      4216
+     ],
+     [
+      2476,
+      4216
+     ],
+     [
+      2476,
+      7323
+     ],
+     [
+      0,
+      7323
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields west of the palace",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2518,
+      3439
+     ],
+     [
+      2902,
+      3439
+     ],
+     [
+      2902,
+      4660
+     ],
+     [
+      2518,
+      4660
+     ]
+    ],
+    "kind": "park",
+    "name": "Gardens of the Daning palace",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3500,
+      3373
+     ],
+     [
+      4354,
+      3373
+     ],
+     [
+      4354,
+      4205
+     ],
+     [
+      3500,
+      4205
+     ]
+    ],
+    "kind": "park",
+    "name": "Yuyuan, the imperial garden",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      376,
+      55
+     ],
+     [
+      2646,
+      55
+     ],
+     [
+      2646,
+      1110
+     ],
+     [
+      376,
+      1110
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields in the northern wards",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5668,
+      55
+     ],
+     [
+      7051,
+      55
+     ],
+     [
+      7051,
+      1442
+     ],
+     [
+      5668,
+      1442
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields in the north-east wards",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      0
+     ],
+     [
+      171,
+      0
+     ],
+     [
+      171,
+      7323
+     ],
+     [
+      0,
+      7323
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields outside the west wall",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      7256,
+      0
+     ],
+     [
+      7427,
+      0
+     ],
+     [
+      7427,
+      7323
+     ],
+     [
+      7256,
+      7323
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields outside the east wall",
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      171,
+      0
+     ],
+     [
+      7256,
+      0
+     ],
+     [
+      7256,
+      1254
+     ],
+     [
+      171,
+      1254
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields north of the walls",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2919,
+      3351
+     ],
+     [
+      3500,
+      3351
+     ],
+     [
+      3500,
+      5769
+     ],
+     [
+      2919,
+      5769
+     ]
+    ],
+    "kind": "park",
+    "name": "Western Park (Xiyuan)",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      939,
+      999
+     ],
+     [
+      1963,
+      999
+     ],
+     [
+      1963,
+      1276
+     ],
+     [
+      939,
+      1276
+     ]
+    ],
+    "name": "Reed beds of the Gaoliang",
+    "periods": [
+     "jin-1200",
+     "kublai-1290"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "daning-palace",
+    "name": "Daning palace",
+    "polygon": [
+     [
+      2518,
+      3439
+     ],
+     [
+      4098,
+      3439
+     ],
+     [
+      4098,
+      4882
+     ],
+     [
+      2518,
+      4882
+     ]
+    ],
+    "description": "The Jin emperors' detached palace of 1179 (later called Wanning and Shou'an): halls on the lake shore and on the heaped-up Qionghua island, where Shizong and Zhangzong spent their summers away from Zhongdu.",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "id": "dadu",
+    "name": "Dadu (Khanbaliq)",
+    "polygon": [
+     [
+      341,
+      0
+     ],
+     [
+      7085,
+      0
+     ],
+     [
+      7085,
+      6269
+     ],
+     [
+      341,
+      6269
+     ]
+    ],
+    "description": "The 'Great Capital', laid out from 1267 on a plan going back to the Rites of Zhou: the palace in front, markets behind, the ancestral temple on the east and the altars of soil and grain on the west. Mongol, Chinese, Central Asian and Tibetan quarters mixed in its fifty wards.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "id": "yuan-imperial-city",
+    "name": "Huangcheng (the Imperial City)",
+    "polygon": [
+     [
+      2390,
+      3329
+     ],
+     [
+      4567,
+      3329
+     ],
+     [
+      4567,
+      5991
+     ],
+     [
+      2390,
+      5991
+     ]
+    ],
+    "description": "The enclosure round the Taiye lake: the Great Within (Danei) on the east bank, the Longfu palace of the crown prince and the Xingsheng palace of the empress dowager on the west, gardens, stables and tents between.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "id": "danei",
+    "name": "The Great Within (Danei)",
+    "polygon": [
+     [
+      3514,
+      4238
+     ],
+     [
+      4254,
+      4238
+     ],
+     [
+      4254,
+      5192
+     ],
+     [
+      3514,
+      5192
+     ]
+    ],
+    "description": "The palace city, about 740 by 950 m: the Daming Hall for the great audiences at the front, the Yanchun Pavilion behind, corner towers on its walls. Its exact site is debated; it lay roughly where the Forbidden City now stands, a little to the north.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "id": "xiejie-market",
+    "name": "The Bell and Drum Tower market",
+    "polygon": [
+     [
+      2988,
+      1997
+     ],
+     [
+      4354,
+      1997
+     ],
+     [
+      4354,
+      2829
+     ],
+     [
+      2988,
+      2829
+     ]
+    ],
+    "description": "The commercial heart of Dadu round the harbour: the Xiejie, the rice, silk, fur and pearl markets, the camel and horse markets, wine shops and the theatres of the zaju playwrights.",
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "id": "zijincheng",
+    "name": "Zijincheng (the Forbidden City)",
+    "polygon": [
+     [
+      3533,
+      4590
+     ],
+     [
+      4286,
+      4590
+     ],
+     [
+      4286,
+      5551
+     ],
+     [
+      3533,
+      5551
+     ]
+    ],
+    "description": "The 'Purple Forbidden City', the emperor's palace from 1420 to 1912: the outer court of the three great halls for state ceremonies and the inner court of the emperor's and empresses' residences behind the Gate of Heavenly Purity.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "id": "ming-imperial-city",
+    "name": "Huangcheng (the Imperial City)",
+    "polygon": [
+     [
+      2390,
+      3162
+     ],
+     [
+      4789,
+      3162
+     ],
+     [
+      4789,
+      6069
+     ],
+     [
+      2390,
+      6069
+     ]
+    ],
+    "description": "The walled enclosure round the Forbidden City: the Western Park and its three lakes, Jingshan, the Ancestral Temple and the Altar of Soil and Grain, and the storehouses, kitchens and workshops of the twenty-four eunuch directorates.",
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "id": "inner-city",
+    "name": "Inner City (Neicheng)",
+    "polygon": [
+     [
+      341,
+      1476
+     ],
+     [
+      7085,
+      1476
+     ],
+     [
+      7085,
+      6968
+     ],
+     [
+      341,
+      6968
+     ]
+    ],
+    "description": "The walled city of 1368-1420 round the Imperial City, divided into wards (fang) under five city police districts; ministries line the Imperial Way, markets cluster at the Bell and Drum Towers, Xisi and Dongsi.",
+    "periods": [
+     "ming-1450"
+    ]
+   },
+   {
+    "id": "banner-city",
+    "name": "The Tartar City (Inner City)",
+    "polygon": [
+     [
+      341,
+      1476
+     ],
+     [
+      7085,
+      1476
+     ],
+     [
+      7085,
+      6968
+     ],
+     [
+      341,
+      6968
+     ]
+    ],
+    "description": "From 1648 the Inner City was reserved for the Eight Banners, each with its sector: the two Yellow Banners in the north, the Whites in the east, the Reds in the west and the Blues in the south. Han Chinese merchants and officials lived in the Outer City to the south.",
+    "periods": [
+     "qing-1750"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Zhongdu lies to the south-west",
+    "position": [
+     939,
+     7045
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Daning Palace",
+    "position": [
+     2134,
+     3661
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Khanbaliq",
+    "position": [
+     4695,
+     666
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "text": "Dadu",
+    "position": [
+     4695,
+     943
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "text": "Beijing",
+    "position": [
+     4695,
+     721
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "text": "Taiye lake",
+    "position": [
+     2902,
+     4882
+    ],
+    "size": "sm",
+    "rotation": -80,
+    "periods": [
+     "jin-1200",
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "text": "Jishuitan",
+    "position": [
+     2476,
+     1942
+    ],
+    "size": "md",
+    "rotation": -35,
+    "periods": [
+     "jin-1200",
+     "kublai-1290"
+    ]
+   },
+   {
+    "text": "Shichahai",
+    "position": [
+     2732,
+     2219
+    ],
+    "size": "sm",
+    "rotation": -30,
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "text": "The Great Within",
+    "position": [
+     4311,
+     4127
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "text": "Imperial City",
+    "position": [
+     2732,
+     3439
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kublai-1290",
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "text": "Western Park",
+    "position": [
+     2646,
+     5215
+    ],
+    "size": "sm",
+    "rotation": -90,
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "text": "Inner City",
+    "position": [
+     1280,
+     6768
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "ming-1450",
+     "qing-1750"
+    ]
+   },
+   {
+    "text": "Yuan north wall 2.5 km north",
+    "position": [
+     2134,
+     222
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kublai-1290"
+    ]
+   },
+   {
+    "text": "Outer City and Altar of Heaven to the south",
+    "position": [
+     5207,
+     7234
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "qing-1750"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D6AE",
+   "ink": "#5C4232",
+   "water": "#62878A",
+   "hill": "#7A7D58",
+   "road": "#8C6C4C"
+  },
+  "compass": [
+   6915,
+   388
+  ],
+  "cartouche": [
+   85,
+   7234
+  ]
+ },
+ "periods": [
+  {
+   "id": "jin-1200",
+   "label": "Jin Zhongdu and the Daning Palace",
+   "year": 1200,
+   "startYear": 1153,
+   "endYear": 1263,
+   "summary": "In 1153 the Jurchen Jin moved their capital to Yanjing and renamed it Zhongdu; its walls lay south-west of this map. North-east of them, round lakes fed by the Gaoliang river, Emperor Shizong built the Daning detached palace in 1179, with Qionghua island heaped up in the lake and crowned by a hall. The rest is villages, temples and fields.",
+   "population": "Zhongdu perhaps several hundred thousand; this area a few villages",
+   "feel": "Reed-cutters and fishermen on the lakes, the emperor's summer escort raising dust on the road from Zhongdu, millet drying on village threshing floors.",
+   "style": "sinic",
+   "houses": {
+    "title": "Villages north-east of Zhongdu",
+    "text": "Farm compounds of pounded earth and grey brick round a yard with a well, a millet store and a pig pen; a village temple, a wine shop and a smithy on the road to the capital."
+   },
+   "outskirts": {
+    "title": "Millet and sorghum fields",
+    "text": "Open fields of millet, sorghum and wheat, vegetable plots by the lakes, graves among the trees, and the parks and hunting grounds of the Daning palace."
+   }
+  },
+  {
+   "id": "kublai-1290",
+   "label": "Khanbaliq, the Yuan capital",
+   "year": 1290,
+   "startYear": 1264,
+   "endYear": 1367,
+   "summary": "Kublai Khan had Liu Bingzhong lay out a new capital beside the Jin lakes from 1267: a rammed-earth rectangle of about 28.6 km round with eleven gates, a grid of avenues and lanes, the palace on the Taiye lake, the Drum and Bell Towers at the centre and, from 1293, Grand Canal grain barges in Jishuitan. The Mongols called it Khanbaliq, 'city of the khan'.",
+   "population": "perhaps 500,000 to 900,000 (estimates vary widely)",
+   "feel": "Camel bells and Mongol horsemen, Persian, Uyghur and Italian voices in the Xiejie market, coal smoke, and the drum beating the night watches from the tower.",
+   "style": "sinic",
+   "houses": {
+    "title": "Hutongs of Dadu",
+    "text": "Between the avenues run east-west lanes (hutong) some 70-80 m apart. In 1285 plots of 8 mu (about half a hectare) were granted first to the rich and to officials; courtyard houses of grey brick and timber filled them, while ordinary families built smaller courts of rammed earth."
+   },
+   "outskirts": {
+    "title": "Empty wards and gardens",
+    "text": "Much of the walled area, the north above all, was never fully built: vegetable gardens, orchards and fields between scattered compounds, temples, felt tents and horse lines."
+   }
+  },
+  {
+   "id": "ming-1450",
+   "label": "Ming Beijing after Yongle",
+   "year": 1450,
+   "startYear": 1368,
+   "endYear": 1643,
+   "summary": "Xu Da took Dadu in 1368 and moved its north wall 2.5 km south. The Yongle emperor made Beijing the capital, formally in 1421: the Forbidden City (1406-1420) on the old palace site, Jingshan heaped up from the moat spoil, a larger Imperial City, the south wall moved south (1419), and in 1436-1439 the gates rebuilt with barbicans and arrow towers.",
+   "population": "perhaps 600,000 to 900,000",
+   "feel": "Eunuchs' sedan chairs in the lanes outside the Imperial City, clerks hurrying to the ministries at dawn, soldiers on the new brick walls, and the yellow roofs glimpsed over red walls.",
+   "style": "sinic",
+   "houses": {
+    "title": "Siheyuan of the Inner City",
+    "text": "Courtyard houses of grey brick under grey tile, gated on the hutong: an entrance court behind a screen wall, the main hall facing south for the elders, side halls for sons and their wives, a back row for women and servants. Princes and eunuchs build bigger mansions with gardens."
+   },
+   "outskirts": {
+    "title": "Gardens inside the walls",
+    "text": "Vegetable gardens, temple grounds, garrison yards and empty lots fill the far corners of the Inner City, especially round the Jishuitan lakes and in the north-east."
+   }
+  },
+  {
+   "id": "qing-1750",
+   "label": "Qianlong's Beijing",
+   "year": 1750,
+   "startYear": 1644,
+   "endYear": 1911,
+   "summary": "The Manchus entered in June 1644 and gave the Inner City to the Eight Banners, moving most Han Chinese to the Outer City. They kept and rebuilt the Ming palaces: Tiananmen and the White Dagoba on Qionghua island in 1651, the Hall of Supreme Harmony in 1695-1697. Under Qianlong came the Yonghegong lamasery (1744), the brick Bell Tower (1745-1747) and the Jingshan pavilions (1751).",
+   "population": "perhaps 700,000 to 1,000,000",
+   "feel": "Bannermen with caged larks in the tea houses, Tibetan lamas in maroon at the Yonghegong, camel trains of coal from the Western Hills, and the noon gun of the Drum Tower.",
+   "style": "sinic",
+   "houses": {
+    "title": "Banner courtyards",
+    "text": "Each banner holds a sector of the Inner City; its families live in rows of siheyuan of grey brick round one, two or three courts, with jujube and pomegranate trees, goldfish jars and a screen wall inside the gate. Princes' mansions (wangfu) take whole blocks."
+   },
+   "outskirts": {
+    "title": "Banner barracks and gardens",
+    "text": "Soldiers' rows, granaries, temple gardens and vegetable plots in the corners of the city, and lotus ponds round Shichahai."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "yuan-palace",
+   "placeId": "yuan-palace",
+   "name": "The Great Within: the Daming Hall",
+   "category": "civic",
+   "position": [
+    3884,
+    4715
+   ],
+   "rotation": 0,
+   "footprint": [
+    738.8,
+    957.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/yuan-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 740,
+     "depth": 955,
+     "height": 296.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Not yet: fields and a hamlet east of the Jin emperors' lake palace."
+    },
+    "kublai-1290": {
+     "note": "Kublai's palace city, finished about 1274: the Daming Hall for New Year, the khan's birthday and enthronements, the Yanchun Pavilion behind, felt tents in the gardens."
+    },
+    "ming-1450": {
+     "note": "Gone. The Ming pulled the Yuan palace down after 1368; the Forbidden City and Jingshan were raised over and around its site."
+    }
+   },
+   "summary": "Kublai Khan's palace city on the east bank of the Taiye lake: a walled rectangle with corner towers, the Daming Hall on a terrace at the front, the Yanchun Pavilion behind, both on the 'I'-shaped plan of front hall, corridor and rear hall.",
+   "details": [
+    "Tao Zongyi and Xiao Xun, who surveyed it in 1368, describe the Daming Hall as eleven bays, 200 by 120 chi (about 63 by 38 m) and 90 chi high, joined by a columned corridor to a rear hall. Marco Polo saw walls covered in gold and silver, a hall that could seat 6,000, and a roof glazed 'red, yellow, green, blue' that shone like crystal. Kublai had steppe grass from Mongolia planted before its steps.",
+    "The miniature is a reconstruction after Xiao Xun and Fu Xinian's studies: the palace wall with four corner towers and the Chongtian gate, the Daming and Yanchun courts with their cloisters, white marble terraces and glazed roofs. The exact site under the Forbidden City is debated, and the colours of the tiles are a guess."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-khanbaliq",
+    "xiao-xun",
+    "tao-zongyi",
+    "polo",
+    "steinhardt"
+   ],
+   "built": "1267-1274",
+   "function": "Palace of the Yuan emperors: audiences, banquets, enthronements",
+   "activity": {
+    "figures": 60,
+    "radius": 420
+   }
+  },
+  {
+   "id": "qionghua",
+   "placeId": "qionghua",
+   "name": "Qionghua island and the Guanghan Hall",
+   "category": "civic",
+   "position": [
+    3227,
+    4072
+   ],
+   "rotation": 0,
+   "footprint": [
+    294.0,
+    288.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/qionghua.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 290,
+     "depth": 280,
+     "height": 112.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "jin-1200",
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "jin-1200": {
+     "name": "Qionghua island of the Daning palace",
+     "note": "New: the island heaped up in the lake for Emperor Shizong's Daning palace (1179), its rockery said to be made of stones carried off from the Song emperor's garden at Kaifeng; the Guanghan Hall on top."
+    },
+    "kublai-1290": {
+     "name": "Wanshou shan (Longevity Hill)",
+     "note": "Kublai lived in the Guanghan Hall before his palace was ready and kept the great jade wine jar of 1265 there; in 1271 the hill was renamed Wanshou shan."
+    },
+    "ming-1450": {
+     "note": "Part of the Ming Western Park. The Guanghan Hall, by now very old, stood until it collapsed in 1579."
+    },
+    "qing-1750": {
+     "name": "Qionghua island and the White Dagoba",
+     "note": "The White Dagoba crowns the hill since 1651, the year before the Fifth Dalai Lama came to Beijing, on the site of the fallen Guanghan Hall, with the Yong'an temple stepping up the south slope.",
+     "model": {
+      "glb": "models/khanbaliq/qionghua-qing.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 290,
+       "depth": 280,
+       "height": 112.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "An artificial hill on an island in the Taiye lake, built by the Jin in the 1170s and the oldest part of Beijing's palaces: the Guanghan Hall on the summit under the Jin, Yuan and Ming, the Tibetan-style White Dagoba since 1651.",
+   "details": [
+    "The island rose from the spoil of the lake dug for the Jin Daning palace; Kublai camped here when he first came to Yanjing in the 1260s and held court in the Guanghan Hall, 'the Hall of the Moon Palace'. Marco Polo describes a green hill in the palace grounds planted with evergreen trees brought from afar on elephants. After the Guanghan Hall fell in 1579 the summit was bare until 1651.",
+    "The miniature shows the island with its rockery slopes, pines and terraces. The Jin, Yuan and Ming version carries a reconstructed double-eaved Guanghan Hall; the Qing version the 35.9 m dagoba with its red 'eye' niche, the Yong'an temple halls and the gallery round the north shore, simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-beihai",
+    "tao-zongyi",
+    "polo",
+    "steinhardt"
+   ],
+   "built": "1179 (island); 1651 (dagoba)",
+   "function": "Imperial pleasure island: palace hall, later Tibetan Buddhist stupa",
+   "activity": {
+    "figures": 30,
+    "radius": 220
+   }
+  },
+  {
+   "id": "tuancheng",
+   "placeId": "tuancheng",
+   "name": "The Round City (Tuancheng)",
+   "category": "civic",
+   "position": [
+    3500,
+    4438
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.6,
+    80.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/tuancheng.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Not yet: a low islet off the shore of the Daning palace lake."
+    },
+    "kublai-1290": {
+     "name": "Yingzhou islet and the Yitian Hall",
+     "note": "The round Yitian Hall stood on its own islet, joined to Wanshou shan by a stone bridge and to the west bank by a timber one.",
+     "model": {
+      "glb": "models/khanbaliq/tuancheng-yuan.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 90,
+       "depth": 90,
+       "height": 36.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ming-1450": {
+     "name": "The Round City and the Chengguang Hall",
+     "note": "The Ming walled the islet and joined it to the shore; the Chengguang Hall replaced the Yitian Hall."
+    },
+    "qing-1750": {
+     "name": "The Round City and the Chengguang Hall",
+     "note": "The Chengguang Hall was rebuilt in 1690; in the 1740s Qianlong placed Kublai's great jade jar in a pavilion here."
+    }
+   },
+   "summary": "A round walled terrace between the Taiye lake and the palace: in the Yuan the islet of Yingzhou with the round Yitian Hall, under the Ming and Qing the brick-walled Round City with the cross-shaped Chengguang Hall.",
+   "details": [
+    "Tao Zongyi describes the Yitian Hall as round, 35 chi high, with a double-eaved round roof, standing in the lake opposite Wanshou shan. The Ming filled in the water on the east side and enclosed the terrace in a crenellated brick wall about 4.6 m high; the Chengguang Hall on it has porches on all four sides.",
+    "Two miniatures: the Yuan islet with its round hall and the Ming-Qing walled terrace with the Chengguang Hall, the jade-jar pavilion and old pines. The Yuan hall's roof form follows Tao Zongyi; its details are conjecture."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-tuancheng",
+    "wiki-beihai",
+    "tao-zongyi"
+   ],
+   "built": "1270s; walled in the Ming",
+   "function": "Pleasure hall of the palace lake",
+   "activity": {
+    "figures": 12,
+    "radius": 80
+   }
+  },
+  {
+   "id": "forbidden-city",
+   "placeId": "forbidden-city",
+   "name": "The Forbidden City",
+   "category": "civic",
+   "position": [
+    3910,
+    5070
+   ],
+   "rotation": 0,
+   "footprint": [
+    761.4,
+    968.9
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/forbidden-city.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 753,
+     "depth": 961,
+     "height": 301.2,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet. The Yuan palace city stands here and a little to the north, with gardens, felt tents and the Taiye lake to the west."
+    },
+    "ming-1450": {
+     "name": "Zijincheng: the Fengtian Hall",
+     "note": "Yongle's palace, finished in 1420. Lightning burned the three great halls in May 1421; they were rebuilt only in 1440-1441, and the Fengtian Hall again rules the outer court.",
+     "model": {
+      "glb": "models/khanbaliq/forbidden-city-1450.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 753,
+       "depth": 961,
+       "height": 301.2,
+       "roof": "pitched"
+      }
+     }
+    },
+    "qing-1750": {
+     "name": "Zijincheng: the Hall of Supreme Harmony",
+     "note": "The Manchus kept the Ming palace. The main hall, burned and rebuilt several times, was renamed Taihedian in 1645 and rebuilt in its present form in 1695-1697."
+    }
+   },
+   "summary": "The palace of the Ming and Qing emperors: a walled rectangle of 961 by 753 m with corner towers and a moat, entered by the Meridian Gate, with the Hall of Supreme Harmony on its triple marble terrace at the heart of the outer court.",
+   "details": [
+    "Built 1406-1420 for the Yongle emperor with timber floated from Sichuan and Yunnan, bricks from Linqing and marble from Fangshan. The outer court holds three halls on one 8 m terrace of three tiers: the Hall of Supreme Harmony (64 by 37 m, eleven bays, a double-eaved hipped roof in yellow glazed tile), the Hall of Central Harmony and the Hall of Preserving Harmony. The inner court lies behind the Gate of Heavenly Purity.",
+    "The miniature shows the red walls and their four corner towers with their famous many-ridged roofs, the U-shaped Meridian Gate, the Golden Water stream and bridges, the Gate of Supreme Harmony, the three great halls and the inner court simplified to its main halls. The many side courts are reduced to blocks. The Ming main hall is drawn a little larger, as written sources suggest."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-forbidden-city",
+    "wiki-taihedian",
+    "wiki-meridian-gate",
+    "yu-zhuoyun",
+    "liang-sicheng"
+   ],
+   "built": "1406-1420",
+   "function": "Imperial palace: ceremonies of state, government, the emperor's household",
+   "activity": {
+    "figures": 90,
+    "radius": 480
+   }
+  },
+  {
+   "id": "tiananmen",
+   "placeId": "tiananmen",
+   "name": "Tiananmen",
+   "category": "civic",
+   "position": [
+    3944,
+    6047
+   ],
+   "rotation": 0,
+   "footprint": [
+    163.0,
+    60.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/tiananmen.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 160,
+     "depth": 60,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet. The Yuan Lingxing gate of the Imperial City stood close to here, behind the Thousand-Step Corridor from the Lizheng gate."
+    },
+    "ming-1450": {
+     "name": "Chengtianmen",
+     "note": "The Gate of Receiving Heaven of 1420, by the usual account a five-bay timber gateway like a great pailou under yellow tiles. Lightning burned it in 1457; it was rebuilt as a gate tower in 1465.",
+     "model": {
+      "glb": "models/khanbaliq/chengtianmen-1450.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 160,
+       "depth": 60,
+       "height": 24.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "qing-1750": {
+     "note": "Rebuilt in 1651 and renamed Tiananmen, 'Gate of Heavenly Peace'. Edicts were lowered from it in a gilded phoenix's beak to officials kneeling below."
+    }
+   },
+   "summary": "The south gate of the Imperial City: a nine-bay gate tower with a double-eaved roof of yellow tile on a red platform pierced by five passages, behind the Golden Water River and its five marble bridges.",
+   "details": [
+    "The tower, 34.7 m high, stands on a brick platform plastered red; the middle passage, with its own bridge, was for the emperor alone. In front stand two carved marble huabiao columns and a pair of stone lions. The gate opened onto the walled Imperial Way, where new edicts were proclaimed and the names of successful examination candidates posted.",
+    "The Qing miniature follows the gate of 1651, replaced by an exact copy in 1969-1970. The Ming one shows Chengtianmen as the timber gateway of the written accounts, with the Imperial City wall to either side; its exact form is uncertain."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tiananmen",
+    "wiki-imperial-city",
+    "liang-sicheng"
+   ],
+   "built": "1420; rebuilt 1465 and 1651",
+   "function": "Main gate of the Imperial City; place of proclamations",
+   "activity": {
+    "figures": 50,
+    "radius": 150
+   }
+  },
+  {
+   "id": "jingshan",
+   "placeId": "jingshan",
+   "name": "Jingshan (Prospect Hill)",
+   "category": "monument",
+   "position": [
+    3876,
+    4194
+   ],
+   "rotation": 0,
+   "footprint": [
+    424.0,
+    260.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/jingshan.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 420,
+     "depth": 260,
+     "height": 104.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet: the gardens behind the Yuan palace, with a small hill near the later site, by some accounts."
+    },
+    "ming-1450": {
+     "name": "Wansui shan (Hill of Ten Thousand Years)",
+     "note": "Heaped up in the 1410s from the spoil of the palace moat and lakes, closing the palace from the north wind as fengshui required; people called it Coal Hill. Deer and cranes kept on its slopes.",
+     "model": {
+      "glb": "models/khanbaliq/jingshan-1450.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 420,
+       "depth": 260,
+       "height": 104.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "qing-1750": {
+     "name": "Jingshan and its five pavilions",
+     "note": "Renamed Jingshan in 1655. Qianlong set five pavilions on its five peaks in 1751, the middle one, Wanchun, the highest point of the city."
+    }
+   },
+   "summary": "The artificial hill north of the Forbidden City, about 45 m high, with five peaks; since 1751 a pavilion on each, the square triple-eaved Wanchun pavilion in the middle on the city's axis.",
+   "details": [
+    "The hill closes the palace on the north. On 25 April 1644, as Li Zicheng's rebels broke into the city, the last Ming emperor, Chongzhen, hanged himself from a tree on its eastern slope. The Qing used the halls behind it for the imperial ancestors' portraits.",
+    "Two miniatures: the Ming hill planted with pines and cypresses, and the Qing hill with the five pavilions of 1751: Wanchun in the centre under yellow tiles, two octagonal pavilions under green, two round ones under blue. The hill's shape is simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-jingshan",
+    "naquin"
+   ],
+   "built": "1410s; pavilions 1751",
+   "function": "Palace hill and garden",
+   "activity": {
+    "figures": 25,
+    "radius": 220
+   }
+  },
+  {
+   "id": "drum-tower",
+   "placeId": "drum-tower",
+   "name": "The Drum Tower (Gulou)",
+   "category": "civic",
+   "position": [
+    3807,
+    2474
+   ],
+   "rotation": 0,
+   "footprint": [
+    57.0,
+    35.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/drum-tower.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet here: the Yuan Central Pavilion marked this spot, and the Yuan drum tower stood a little to the west."
+    },
+    "ming-1450": {
+     "note": "Built in 1420 on the axis north of the Imperial City: 24 drums sound the night watches."
+    },
+    "qing-1750": {
+     "note": "Repaired by the Qing. Its drums mark the watches of the night for the Inner City, and the Bell Tower answers."
+    }
+   },
+   "summary": "The Ming drum tower of 1420 on the axis north of the palace: a brick base pierced by arched passages, a two-storey timber tower of five bays with three eaves of grey tile trimmed in green.",
+   "details": [
+    "The tower is about 47 m high on a base of about 56 by 34 m. Its drums, one great one and 24 smaller, were beaten at dusk to close the city gates and at the five night watches; the Bell Tower answered. It stood at the head of the city's busiest market, round the shore of the lakes.",
+    "The miniature follows the tower as it stands: grey brick base with three passages on each long side, red columns, a balcony, grey roof with green-glazed trim. The tower was repaired many times; its details at 1450 are assumed to match."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-drum-bell",
+    "naquin"
+   ],
+   "built": "1420",
+   "function": "Timekeeping tower: drums for the night watches",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "bell-tower",
+   "placeId": "bell-tower",
+   "name": "The Bell Tower (Zhonglou)",
+   "category": "civic",
+   "position": [
+    3799,
+    2319
+   ],
+   "rotation": 0,
+   "footprint": [
+    32.0,
+    32.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/bell-tower.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet here: the Yuan bell tower stood a little to the west, north of the Yuan drum tower."
+    },
+    "ming-1450": {
+     "note": "The Ming timber bell tower of 1420 on a brick base, later lost to fire.",
+     "model": {
+      "glb": "models/khanbaliq/bell-tower-1450.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 40,
+       "depth": 40,
+       "height": 16.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "qing-1750": {
+     "note": "New: rebuilt in 1745-1747 for Qianlong entirely in brick and stone against fire, 47.9 m high, with the great bronze bell of the Yongle reign inside."
+    }
+   },
+   "summary": "The tower of the city's great bell, north of the Drum Tower across a small square: since 1747 a fireproof tower of brick and stone with arched openings and a double-eaved roof.",
+   "details": [
+    "The bronze bell, about 7 m high with its loop and some 63 tonnes, was cast under Yongle and is the heaviest in China. It was struck at dusk and at dawn, answering the drums. The timber Ming tower of 1420 burned; Qianlong's architects built the new one without timber in its structure.",
+    "Two miniatures: the Qing tower in grey brick with white-stone trim, arched openings on every side and a double-eaved hip-and-gable roof of dark tile with green edges; and the Ming timber tower on its base, after the drum tower's form, which is an assumption."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-drum-bell",
+    "naquin"
+   ],
+   "built": "1420; rebuilt 1745-1747",
+   "function": "Timekeeping tower: the great bell",
+   "activity": {
+    "figures": 15,
+    "radius": 90
+   }
+  },
+  {
+   "id": "yuan-towers",
+   "placeId": "yuan-towers",
+   "name": "Drum and Bell Towers of Dadu",
+   "category": "civic",
+   "position": [
+    3551,
+    2297
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    220.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/yuan-towers.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 220,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Not yet: reed beds and fields on the eastern shore of the lakes."
+    },
+    "kublai-1290": {
+     "note": "The Qizheng tower (1272) with its drums and water-clock, and the bell tower to its north, overlooking the Xiejie market and the harbour."
+    },
+    "ming-1450": {
+     "note": "Gone. The Ming built new towers in 1420 a little to the east on the palace axis; Jiugulou Street, 'Old Drum Tower Street', keeps the memory of this site."
+    }
+   },
+   "summary": "The Yuan drum tower, called Qizheng lou, and the bell tower behind it, at the head of Dadu's busiest market by the Jishuitan harbour, a little west of the later Ming towers.",
+   "details": [
+    "Built in 1272, the drum tower held the drums and a water-clock that set the hours for the city; the bell tower stood north of it. They looked over the Xiejie market and the harbour, and the Central Pavilion east of them marked the middle of the city. The Ming moved the towers east in 1420.",
+    "The miniature is an interpretation: two tall timber towers on brick and earth bases, grey-roofed, after Yuan building practice and the Ming towers. Their exact site, near the south end of today's Jiugulou Street, and their form are uncertain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-drum-bell",
+    "wiki-khanbaliq",
+    "steinhardt"
+   ],
+   "built": "1272",
+   "function": "Timekeeping towers of Dadu",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "jishuitan-harbour",
+   "placeId": "jishuitan-harbour",
+   "name": "The Jishuitan harbour",
+   "category": "commercial",
+   "position": [
+    3602,
+    2752
+   ],
+   "rotation": 0,
+   "footprint": [
+    160.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/jishuitan-harbour.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 160,
+      "depth": 120
+     },
+     "buildings": [
+      {
+       "offset": [
+        -40.0,
+        -30.0
+       ],
+       "width": 48.0,
+       "depth": 36.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        40.0,
+        24.0
+       ],
+       "width": 48.0,
+       "depth": 36.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Not yet: the reedy east shore of the lakes, with fishing boats."
+    },
+    "kublai-1290": {
+     "note": "Grain barges from the south, rafts of timber and boats of salt, porcelain and silk tie up at stone quays below the Xiejie market. The canal opens in 1293."
+    },
+    "ming-1450": {
+     "note": "Gone. The Ming Imperial City wall cut the canal; barges stop at Dongbianmen outside the walls, and the lake fills with lotus and pleasure boats."
+    }
+   },
+   "summary": "The end of the Grand Canal inside Dadu: quays, granaries and warehouses on the north-east shore of the Haizi lake, below the Drum Tower market.",
+   "details": [
+    "Guo Shoujing's Tonghui canal (1292-1293) brought spring water from the Western Hills into Jishuitan and led it out east to Tongzhou with lock gates, so that barges from the Yangzi could sail into the heart of the capital. The Yuan history says the lake was 'covered with boats'; grain, timber, bricks and salt were unloaded here.",
+    "The miniature shows an interpretation of the harbour: a stone quay with steps, warehouses and a granary, cranes and grain barges on the water. The real arrangement of the quays is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-shichahai",
+    "wiki-grand-canal",
+    "wiki-guo-shoujing",
+    "steinhardt"
+   ],
+   "built": "1292-1293",
+   "function": "Inland harbour: terminus of the Grand Canal",
+   "activity": {
+    "figures": 50,
+    "radius": 180
+   }
+  },
+  {
+   "id": "wanning-bridge",
+   "placeId": "wanning-bridge",
+   "name": "The Wanning bridge",
+   "category": "civic",
+   "position": [
+    3867,
+    2973
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.0,
+    40.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/khanbaliq/wanning-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 30,
+     "depth": 40,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Not yet: the outflow of the lakes through marshy ground."
+    },
+    "kublai-1290": {
+     "note": "New: built in 1285 where the axis crossed the outflow of the Haizi; from 1293 the canal barges pass beneath it. Kublai is said to have named the canal from here."
+    },
+    "ming-1450": {
+     "name": "Houmen bridge",
+     "note": "Now called the Back Gate bridge, behind the Imperial City's north gate; the canal below is only a drain into the palace grounds."
+    },
+    "qing-1750": {
+     "name": "Houmen bridge",
+     "note": "Still carries the axis street to the Drum Tower; the old Yuan water-beasts crouch on its banks."
+    }
+   },
+   "summary": "A stone arch bridge on the city's axis over the outflow of Jishuitan, first built in 1285 and still in use, with carved Yuan water-guarding beasts on its banks.",
+   "details": [
+    "The bridge stood where the Tonghui canal left the harbour, so that it marked the link between the canal and the city's axis. Stone beasts (zhenshui shou) on its banks, carved in the Yuan, watched the water level. The bridge was rebuilt more than once; excavations in 2000 uncovered its Yuan stonework.",
+    "The miniature shows a single stone arch with balustrades and the carved beasts, the canal walls and a stretch of the street. Scale is enlarged to make it readable."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-shichahai",
+    "steinhardt"
+   ],
+   "built": "1285",
+   "function": "Bridge on the city's axis over the canal",
+   "activity": {
+    "figures": 12,
+    "radius": 50
+   }
+  },
+  {
+   "id": "confucius-guozijian",
+   "placeId": "confucius-guozijian",
+   "name": "Temple of Confucius and the Guozijian",
+   "category": "religious",
+   "position": [
+    5190,
+    1753
+   ],
+   "rotation": 0,
+   "footprint": [
+    280.0,
+    300.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/confucius-guozijian.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 280,
+     "depth": 300,
+     "height": 112.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet: the temple was begun in 1302 and finished in 1306, when the Imperial Academy was added to its west."
+    },
+    "ming-1450": {
+     "note": "The Yuan buildings, repaired and enlarged under Yongle; the names of every metropolitan graduate are carved on steles in the front court."
+    },
+    "qing-1750": {
+     "note": "Qianlong's stele pavilions stand in the courts; in 1784 he will add the square Biyong lecture hall in the Academy."
+    }
+   },
+   "summary": "The state temple of Confucius and, beside it to the west, the Imperial Academy (Guozijian), founded under the Yuan in 1302-1306 in the north-east of the city.",
+   "details": [
+    "The temple, on the east as the rites required, has the Dacheng gate and Dacheng hall with the tablet of Confucius, ancient cypresses and nearly two hundred steles with the names of some 51,000 jinshi graduates of the Yuan, Ming and Qing. The Academy trained the sons of officials and foreign students; the emperor lectured there once in his reign.",
+    "The miniature shows the two walled compounds side by side: the temple's gates, the Dacheng hall on its terrace, stele pavilions and cypresses, and the Academy's gate and lecture hall with its side ranges. Roof colours follow Qing practice before the 1906 upgrade to yellow."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-guozijian",
+    "naquin"
+   ],
+   "built": "1302-1306",
+   "function": "State temple of Confucius; national academy",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "yonghegong",
+   "placeId": "yonghegong",
+   "name": "Yonghegong (the Lama Temple)",
+   "category": "religious",
+   "position": [
+    5805,
+    1831
+   ],
+   "rotation": 0,
+   "footprint": [
+    120.0,
+    440.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/yonghegong.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 440,
+     "height": 48.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "qing-1750"
+   ],
+   "variants": {
+    "ming-1450": {
+     "note": "Not yet: lanes and courtyards inside the Andingmen."
+    },
+    "qing-1750": {
+     "note": "New: the mansion of Prince Yong (later the Yongzheng emperor) from 1694, made a Gelug lamasery by Qianlong in 1744. The giant sandalwood Maitreya is being installed in the Wanfu pavilion."
+    }
+   },
+   "summary": "The largest Tibetan Buddhist monastery in Beijing: a prince's mansion of 1694 turned in 1744 into a lamasery of yellow-roofed halls stepping north along a 480 m axis to the three-storey Wanfu pavilion.",
+   "details": [
+    "Yinzhen, fourth son of Kangxi, lived here as Prince Yong; Qianlong was, by tradition, born in it. In 1744 Qianlong gave it to the Gelug order as a seat of learning and a place to manage relations with Mongolia and Tibet. The Wanfu pavilion holds a Maitreya about 18 m high carved from a single sandalwood trunk, a gift of the Seventh Dalai Lama.",
+    "The miniature shows the paifang arches and tree-lined approach, the gate, the Hall of the Heavenly Kings, the Yonghe, Yongyou and Falun halls, and the Wanfu pavilion with its two side pavilions and flying bridges. Courts and side buildings are simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-yonghe",
+    "naquin"
+   ],
+   "built": "1694; lamasery 1744",
+   "function": "Tibetan Buddhist monastery",
+   "activity": {
+    "figures": 40,
+    "radius": 150
+   }
+  },
+  {
+   "id": "nine-dragon-wall",
+   "placeId": "nine-dragon-wall",
+   "name": "The Nine-Dragon Wall of Beihai",
+   "category": "monument",
+   "position": [
+    3090,
+    3284
+   ],
+   "rotation": 0,
+   "footprint": [
+    26.6,
+    2.6
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/khanbaliq/nine-dragon-wall.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 27,
+     "depth": 6,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "qing-1750"
+   ],
+   "variants": {
+    "ming-1450": {
+     "note": "Not yet: the north shore of the Western Park's lake."
+    },
+    "qing-1750": {
+     "note": "Added in 1756, a few years after this map's date, as the spirit screen of a Buddhist temple on Beihai's north shore."
+    }
+   },
+   "summary": "A screen wall of glazed tiles, about 26 m long and 6.6 m high, with nine coiling dragons in seven colours on each face.",
+   "details": [
+    "Spirit walls stood in front of gates to block evil influences, which move only in straight lines. This one, of 424 glazed tiles on a base of white stone under a hipped tile roof, is decorated on both sides, with hundreds of smaller dragons in the frieze and roof.",
+    "The miniature shows the stone base, the dragon panels in yellow, blue, purple and white on a green-blue ground, and the roof. It is drawn at twice its size so that it can be seen."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-nine-dragon",
+    "wiki-beihai"
+   ],
+   "built": "1756",
+   "function": "Spirit screen of a temple",
+   "activity": {
+    "figures": 8,
+    "radius": 40
+   }
+  },
+  {
+   "id": "guangji",
+   "placeId": "guangji",
+   "name": "Guangji temple",
+   "category": "religious",
+   "position": [
+    1707,
+    3994
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    230.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/guangji.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 230,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "jin-1200",
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "jin-1200": {
+     "name": "The Xiliu village temple",
+     "note": "A village temple of the Jin, the forerunner of the Guangji temple, among fields north-east of Zhongdu.",
+     "model": {
+      "glb": "models/khanbaliq/guangji-early.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 230,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "kublai-1290": {
+     "name": "The Xiliu village temple",
+     "note": "The old village temple now stands inside the walls of Dadu, near the Pingze gate road.",
+     "model": {
+      "glb": "models/khanbaliq/guangji-early.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 230,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ming-1450": {
+     "name": "The Xiliu village temple",
+     "note": "Old and dilapidated. From 1457 the monk Puhui will rebuild it with eunuch patrons, and the emperor will name it Hongci Guangji temple in 1466.",
+     "model": {
+      "glb": "models/khanbaliq/guangji-early.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 110,
+       "depth": 230,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "qing-1750": {
+     "note": "The Ming temple, repaired and enlarged several times by the Qing, with its marble ordination terrace of the Kangxi reign."
+    }
+   },
+   "summary": "A Buddhist temple on the Fuchengmen road, a Jin village temple rebuilt in the 1460s as the Hongci Guangji temple: gate, bell and drum towers and four main halls on one axis.",
+   "details": [
+    "The temple's records trace it to the Xiliu village temple of the Jin. Its Ming rebuilding was paid for by palace eunuchs, as were dozens of the city's temples, and the Qing emperors repaired it several times. Its ordination terrace made it one of the places where monks of the capital took their vows.",
+    "Two miniatures: a small village temple for the Jin to the early Ming, an interpretation; and the Ming-Qing temple with its gate, bell and drum towers, the Hall of the Heavenly Kings, the Mahavira Hall, the Guanyin hall and the library at the back."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-guangji",
+    "naquin"
+   ],
+   "built": "Jin; rebuilt 1457-1466",
+   "function": "Buddhist temple",
+   "activity": {
+    "figures": 20,
+    "radius": 110
+   }
+  },
+  {
+   "id": "miaoying",
+   "placeId": "miaoying",
+   "name": "The White Dagoba of the Miaoying temple",
+   "category": "religious",
+   "position": [
+    1195,
+    4127
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    150.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/miaoying.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 150,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Not yet: a Liao-period temple and relic pagoda stood here, outside Zhongdu."
+    },
+    "kublai-1290": {
+     "name": "White Stupa of the Dasheng Shou Wan'an temple",
+     "note": "New: designed by the Nepali artist Anige and finished in 1279, the stupa of Kublai's great state temple, where officials rehearsed court ceremonies."
+    },
+    "ming-1450": {
+     "note": "The temple halls burned in 1368; the stupa survived. The temple will be rebuilt in 1457 and named Miaoying."
+    },
+    "qing-1750": {
+     "note": "The Miaoying temple, repaired by the Qing; the stupa's bronze canopy and bells were renewed in the Qianlong reign."
+    }
+   },
+   "summary": "The oldest Tibetan-style stupa in China, 50.9 m high: a white bell-shaped dome on a stepped, recessed-corner podium, a tapering spire of thirteen rings and a bronze canopy hung with bells.",
+   "details": [
+    "Kublai had a Liao relic pagoda opened and a new stupa built over it to designs by Anige (Araniko), a Nepali artist brought to his court by the Tibetan lama Phagpa; it was finished in 1279 as the centre of a state temple. Lightning burned the temple in 1368; the stupa stood.",
+    "The miniature shows the stupa on its double podium, the lotus base, the dome, the spire with its thirteen rings and the canopy, and the Ming temple halls in front of it, simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-miaoying",
+    "wiki-araniko",
+    "steinhardt"
+   ],
+   "built": "1271-1279",
+   "function": "Tibetan Buddhist stupa and temple",
+   "activity": {
+    "figures": 20,
+    "radius": 110
+   }
+  },
+  {
+   "id": "dianmen",
+   "placeId": "dianmen",
+   "name": "Di'anmen",
+   "category": "civic",
+   "position": [
+    3850,
+    3162
+   ],
+   "rotation": 0,
+   "footprint": [
+    62.2,
+    22.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/dianmen.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 22,
+     "height": 8.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet. The Houzai gate of the Yuan Imperial City stood a little to the south."
+    },
+    "ming-1450": {
+     "name": "Bei'anmen",
+     "note": "New in 1420: the north gate of the Imperial City, through which eunuchs and supplies came and went."
+    },
+    "qing-1750": {
+     "note": "Rebuilt and renamed Di'anmen, 'Gate of Earthly Peace', in 1651, answering Tiananmen in the south."
+    }
+   },
+   "summary": "The north gate of the Imperial City on the axis behind Jingshan: a seven-bay hall-type gate under a yellow hip-and-gable roof, set in the red Imperial City wall.",
+   "details": [
+    "Unlike the towering Tiananmen, the north gate was a single-storey gate hall on a low marble base, with three doors. It faced the Wanning bridge and the Drum Tower market and served the traffic of eunuchs, craftsmen and supplies into the Imperial City. It was pulled down in 1954.",
+    "The miniature shows the gate hall, its doors and the stubs of the red Imperial City wall with yellow tiled copings, after photographs taken before 1954."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-dianmen",
+    "wiki-imperial-city"
+   ],
+   "built": "1420; rebuilt 1651",
+   "function": "North gate of the Imperial City",
+   "activity": {
+    "figures": 20,
+    "radius": 80
+   }
+  },
+  {
+   "id": "deshengmen",
+   "placeId": "deshengmen",
+   "name": "Deshengmen",
+   "category": "military",
+   "position": [
+    2476,
+    1440
+   ],
+   "rotation": 180,
+   "footprint": [
+    110.0,
+    103.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/ming-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 110,
+     "depth": 100,
+     "wallHeight": 20.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet: the Yuan north wall ran 2.5 km further north; here were lanes of the Yuan city near the lakes."
+    },
+    "ming-1450": {
+     "note": "Xu Da's north wall of 1368; the gate tower, barbican and arrow tower were rebuilt in brick in 1436-1439. In October 1449 Yu Qian beat back the Oirats here."
+    },
+    "qing-1750": {
+     "note": "The 'Gate of Virtuous Victory' through which armies marched out to war. Water carts from the Jade Spring for the palace came in by the Xizhimen; coal and camels came here."
+    }
+   },
+   "summary": "The western of the two gates in the Ming north wall: a gate tower on the wall, a barbican and a massive arrow tower with rows of firing windows, built in 1436-1439.",
+   "details": [
+    "Each gate of the Inner City had a gate tower on the wall and, outside it, a barbican (wengcheng) whose arrow tower (jianlou) faced the enemy with 82 windows; the barbican gate opened to one side. Deshengmen's gate tower was pulled down in 1921; its arrow tower still stands.",
+    "The miniature shows the wall with its battlements and ramps, the gate tower with three eaves, the barbican and the arrow tower, after old photographs. Andingmen used the same model."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-deshengmen",
+    "wiki-fortifications-beijing",
+    "arlington-lewisohn"
+   ],
+   "built": "1368; rebuilt 1436-1439",
+   "function": "City gate",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "andingmen",
+   "placeId": "andingmen",
+   "name": "Andingmen",
+   "category": "military",
+   "position": [
+    4874,
+    1440
+   ],
+   "rotation": 180,
+   "footprint": [
+    110.0,
+    103.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/khanbaliq/ming-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 110,
+     "depth": 100,
+     "wallHeight": 20.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "variants": {
+    "kublai-1290": {
+     "note": "Not yet: the Yuan Anzhen gate stood 2.5 km further north."
+    },
+    "ming-1450": {
+     "note": "The eastern gate of the north wall, built 1368 and rebuilt with its barbican in 1436-1439."
+    },
+    "qing-1750": {
+     "note": "The 'Gate of Peace and Stability', through which armies returned in triumph, and night-soil carts left the city for the fields."
+    }
+   },
+   "summary": "The eastern gate of the Ming north wall, with its gate tower, barbican and arrow tower; returning armies entered by it.",
+   "details": [
+    "Andingmen led north to the drill grounds and the Altar of the Earth (built 1530). Like Deshengmen it had a semicircular-cornered barbican with a temple inside it. The whole gate was demolished in 1969 for the subway and the Second Ring Road.",
+    "The miniature is the same as Deshengmen's: the gate tower, barbican and arrow tower after old photographs."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-andingmen",
+    "wiki-fortifications-beijing",
+    "arlington-lewisohn"
+   ],
+   "built": "1368; rebuilt 1436-1439",
+   "function": "City gate",
+   "activity": {
+    "figures": 25,
+    "radius": 120
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "lotus-fishers",
+   "name": "Fishermen and reed-cutters on the lakes",
+   "kind": "dock",
+   "position": [
+    3287,
+    1997
+   ],
+   "activePeriods": [
+    "jin-1200"
+   ],
+   "summary": "A fishing hamlet on the eastern shore of the Gaoliang lakes, north of the Jin emperor's Daning palace, where villagers fished, cut reeds and gathered lotus roots.",
+   "details": [
+    "The shallow lakes north-east of Zhongdu were fed by springs and the Gaoliang river. The reed beds gave matting, roofing and fuel; lotus root and water chestnut were sold in the capital's markets. When the court came to the Daning palace in summer, the shores near it were closed. The hamlet is an interpretation of what such lakes supported."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-zhongdu",
+    "wiki-shichahai"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Mist on the water. Two men pole a flat boat through the reeds, lifting wicker fish traps; a heron stands on one leg by the channel."
+    },
+    {
+     "hour": 12,
+     "text": "Women in the hamlet plait reed mats in the shade and split lotus roots for drying. Bundles of reeds lean against every wall."
+    },
+    {
+     "hour": 19,
+     "text": "Carts leave for the Zhongdu market before the city gates close at dusk, loaded with fish in wet baskets and lotus seed pods."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "jin-farm",
+   "name": "A farmstead in the millet fields",
+   "kind": "house",
+   "position": [
+    5122,
+    3550
+   ],
+   "activePeriods": [
+    "jin-1200"
+   ],
+   "summary": "A farmstead of rammed earth among millet and sorghum fields east of the Daning palace, perhaps held by a Jurchen military household settled round the capital.",
+   "details": [
+    "The Jin settled Jurchen soldiers' households (meng'an mouke) on land round Zhongdu, often taken from Han farmers, who then worked it as tenants. Farms grew millet, sorghum, wheat and beans, with vegetable plots by the wells. The farm is a composite: no particular house in this area is known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-meng-an",
+    "wiki-zhongdu"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A Jurchen farmer with a shaved crown and a queue harnesses an ox to the plough; his Han tenant is already at work in the next field."
+    },
+    {
+     "hour": 13,
+     "text": "Millet heads drying on the threshing floor. A girl drives the chickens off with a stick; the dog sleeps under the cart."
+    },
+    {
+     "hour": 20,
+     "text": "The family eats millet porridge and pickled turnip on the heated brick bed (kang), warm from the kitchen stove beneath it."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ger-camp",
+   "name": "Felt tents in the palace park",
+   "kind": "house",
+   "position": [
+    4055,
+    3905
+   ],
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "summary": "Mongol felt tents (ger) pitched in the parkland behind the Yuan palace, where the court kept steppe customs: banquets, archery, horses and kumis.",
+   "details": [
+    "The Yuan emperors spent summers at Shangdu and winters in Dadu, and kept Mongol ways in both: rites were held in tents, princes camped in the palace grounds, and the great jisun banquets, where all wore robes of one colour, lasted days. Marco Polo describes the park as full of deer and other game. The camp's place in the park is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ger",
+    "polo",
+    "rossabi",
+    "steinhardt"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Smoke rises through the roof ring of a white felt tent. A servant churns mare's milk in a leather bag, slapping it with a wooden paddle to make kumis."
+    },
+    {
+     "hour": 12,
+     "text": "Princes shoot at a target on the grass while officials in Chinese robes wait their turn to report. Hunting eagles on posts turn their hooded heads."
+    },
+    {
+     "hour": 21,
+     "text": "A banquet tent glows with lamps. Singers with horse-head fiddles; the khan's guard stands at the door, and no one may tread on the threshold."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ortoq-merchant",
+   "name": "A Muslim merchant's counting house on the Xiejie",
+   "kind": "bank",
+   "position": [
+    3176,
+    2130
+   ],
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "summary": "The house of an ortoq merchant from Central Asia, trading and lending silver lent to him by Mongol princes, in the market quarter by the harbour.",
+   "details": [
+    "Ortoq ('partner') merchants, mostly Muslims from Central Asia and Persia, traded with capital put up by the khan and princes, and lent at notorious rates: 'lamb's interest' that doubled each year. Many served in the finance offices; the minister Ahmad Fanakati, hated for his exactions, was assassinated in Dadu in 1282. The house is an interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ortoq",
+    "wiki-ahmad-fanakati",
+    "rossabi"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A merchant from Bukhara weighs silver ingots on a balance while his clerk writes the loan in Persian and Chinese. A prince's steward watches."
+    },
+    {
+     "hour": 13,
+     "text": "Bales of Persian cotton and pearls from the southern seas are unpacked. A Chinese broker argues the price in Mongol, the language of the court."
+    },
+    {
+     "hour": 19,
+     "text": "Prayer mats are unrolled in the inner court as the call to prayer sounds from a small mosque in the next lane."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "chao-office",
+   "name": "A paper-money exchange office",
+   "kind": "bank",
+   "position": [
+    4226,
+    2607
+   ],
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "summary": "One of the government offices where worn notes of the Yuan paper money (chao) were exchanged for new ones and notes for silver, in the market district north of the Imperial City.",
+   "details": [
+    "The Yuan made paper money the main currency: Zhongtong notes from 1260 and Zhiyuan notes from 1287, printed on mulberry-bark paper with vermilion seals. Marco Polo marvelled that the khan made money 'like an alchemist' and that worn notes could be changed for new at a charge of three per cent. The office's position is approximate."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-chao",
+    "polo",
+    "rossabi"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A queue at the counter. A clerk examines a soft, torn note, checks the seal against a register and stamps a new one in exchange, keeping three in a hundred."
+    },
+    {
+     "hour": 12,
+     "text": "A Venetian visitor turns a note over in his hands: black paper, the size of a hand, printed with strings of coins and a warning of death to forgers."
+    },
+    {
+     "hour": 17,
+     "text": "Guards carry the day's worn notes in sealed chests to be burned; the office's ledgers are tied up and stored."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "black-stones",
+   "name": "Coal sellers at the west gate",
+   "kind": "market",
+   "position": [
+    640,
+    4194
+   ],
+   "activePeriods": [
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "summary": "Carts and camels of coal from the Western Hills entering by the west gate, the 'black stones' that Marco Polo found burned everywhere in Cathay.",
+   "details": [
+    "Polo wrote that a black stone dug from the mountains burned like charcoal and kept a fire all night, and that so many baths were heated with it that wood would not have sufficed. Coal came from the mines at Mentougou in the Western Hills, through the Pingze gate, later Fuchengmen, whose gateway bore a carved plum branch (mei, a pun on coal)."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "polo",
+    "naquin"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A line of camels sways in through the gate, each with two baskets of black lumps. Their drivers, faces grey with dust, call out the price."
+    },
+    {
+     "hour": 11,
+     "text": "At a stall, a coal seller mixes coal dust with yellow clay and water and rolls it into balls to dry in the sun: cheap fuel for the poor."
+    },
+    {
+     "hour": 18,
+     "text": "Smoke from ten thousand stoves lies over the lanes. A bath-house keeper stokes his furnace with black stones, as Polo said."
+    }
+   ],
+   "variants": {
+    "ming-1450": {
+     "name": "Coal at the Fuchengmen",
+     "note": "Coal still comes from the Western Hills, now through the Fuchengmen."
+    },
+    "qing-1750": {
+     "name": "Coal at the Fuchengmen",
+     "note": "Camel trains from Mentougou bring coal through the 'coal gate'; coal-ball makers work in every lane."
+    }
+   }
+  },
+  {
+   "id": "yam-relay",
+   "name": "A post station by the Qihua gate",
+   "kind": "inn",
+   "position": [
+    6786,
+    4161
+   ],
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "summary": "A station of the yam, the Mongol relay post, where messengers changed horses and travellers with the khan's tablets were lodged and fed.",
+   "details": [
+    "Marco Polo describes stations every 25 to 30 miles with up to 400 horses, and between them foot-runners with bells on their belts every three miles, so that news travelled ten days' journey in a day. Envoys carried paiza tablets of gold, silver or wood as passes. The station's site is an interpretation."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-yam",
+    "polo",
+    "rossabi"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "A rider gallops in, his belt hung with bells. Before he has dismounted a groom is leading out a fresh horse; he does not even sit down."
+    },
+    {
+     "hour": 14,
+     "text": "A Tibetan monk with a silver tablet of the khan demands rooms and mounts for his party of twelve. The station master counts his horses and sighs."
+    },
+    {
+     "hour": 22,
+     "text": "The register is closed by lamplight: so many arrivals, so many departures, so much grain and mutton issued, sealed for the Bureau of Transmission."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "grain-barge",
+   "name": "Grain barges unloading at Jishuitan",
+   "kind": "dock",
+   "position": [
+    3500,
+    2607
+   ],
+   "activePeriods": [
+    "kublai-1290"
+   ],
+   "summary": "Barges of tax grain from the Yangzi delta, brought by sea and canal, unloading at the quays of Jishuitan after the Tonghui canal opened in 1293.",
+   "details": [
+    "Dadu lived on southern rice. Most came by sea to Zhigu (Tianjin) and then by canal; the Tonghui canal let the barges into the city itself. Porters carried the sacks to the granaries; the official histories speak of the lake 'covered with boats'. The vignettes are composite."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-grand-canal",
+    "wiki-guo-shoujing",
+    "yuanshi"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A string of barges is hauled up through the last lock by men on the towpath. Their sails are furled, their decks piled with sacks of rice."
+    },
+    {
+     "hour": 11,
+     "text": "Porters run up the planks with sacks on their shoulders. A clerk drops a bamboo tally into a jar for each one, and later counts the tallies."
+    },
+    {
+     "hour": 17,
+     "text": "Boatmen from Jiangnan cook fish on the decks and drink rice wine; their speech is hard for the northerners on the quay to follow."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "hutong-courtyard",
+   "name": "A courtyard house in the Dongsi lanes",
+   "kind": "house",
+   "position": [
+    5847,
+    3351
+   ],
+   "activePeriods": [
+    "kublai-1290",
+    "ming-1450",
+    "qing-1750"
+   ],
+   "summary": "A courtyard house (siheyuan) on one of the parallel east-west lanes north of Dongsi, a grid that has survived since the Yuan layout of the 1260s.",
+   "details": [
+    "The lanes between Dongsi and Dongzhimen keep the Yuan pattern: hutong running east-west about 70-80 m apart, plots facing south. A siheyuan has a gate in the south-east corner, a screen wall, an outer court, then an inner court with the main hall facing south between side wings. The house is a typical example, not a known one."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-hutong",
+    "wiki-siheyuan",
+    "steinhardt"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The water-carrier's barrow squeaks down the lane. He fills the big jar inside the gate; the cook is already fanning the coal stove."
+    },
+    {
+     "hour": 13,
+     "text": "In the inner court the grandmother naps under a jujube tree. A peddler's rattle drum sounds in the hutong: needles, thread, combs."
+    },
+    {
+     "hour": 21,
+     "text": "The gate is barred. Lamplight behind paper windows; the family sleeps on brick beds warmed from beneath, the children in the side wing."
+    }
+   ],
+   "variants": {
+    "kublai-1290": {
+     "name": "A new house in the Yuan lanes",
+     "note": "In 1285 plots of 8 mu were granted to families moving from the old Jin city; this one is still half garden."
+    },
+    "ming-1450": {
+     "note": "A Ming official's family lives here, with servants; a shrine to the ancestors stands in the main hall."
+    },
+    "qing-1750": {
+     "name": "A bannerman's courtyard",
+     "note": "Now a bannerman's house of the Plain White Banner, paid a stipend in silver and rice; he keeps larks and fighting crickets."
+    }
+   }
+  },
+  {
+   "id": "tea-house",
+   "name": "A tea house on Di'anmen Street",
+   "kind": "tavern",
+   "position": [
+    3944,
+    2752
+   ],
+   "activePeriods": [
+    "qing-1750"
+   ],
+   "summary": "A tea house near the Drum Tower, where bannermen spent the day over tea, caged birds, chess and the storytellers' serial tales.",
+   "details": [
+    "Qing Beijing's tea houses ranged from simple 'big bowl' stalls to halls with a stage for storytellers and ballad singers. Bannermen, with stipends and little work, made them their clubs; they brought their larks and thrushes in covered cages and hung them from the rafters. The tea house here is a composite of later descriptions."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "naquin"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Bannermen arrive swinging birdcages, hang them on the rafters and uncover them. The larks start to sing against each other; the waiter brings jasmine tea."
+    },
+    {
+     "hour": 14,
+     "text": "A storyteller slaps his wooden block on the table and resumes the Romance of the Three Kingdoms where he stopped yesterday. Nobody leaves."
+    },
+    {
+     "hour": 18,
+     "text": "The Drum Tower's drums roll at dusk. Customers drain their cups, cover their birdcages and walk home along the lake."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "gongyuan",
+   "name": "The examination hall (Gongyuan)",
+   "kind": "school",
+   "position": [
+    6445,
+    5936
+   ],
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "summary": "The metropolitan examination compound in the south-east of the Inner City, rows of thousands of brick cells in which candidates from every province wrote the triennial examinations.",
+   "details": [
+    "Candidates who had passed the provincial examinations came to Beijing every three years. They were searched, locked into tiny cells for three sessions of about three days each and wrote essays on the classics under the watch of guards in towers. Those who passed sat the palace examination. A fire in 1463 killed some ninety candidates locked in their cells."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-imperial-exam",
+    "elman"
+   ],
+   "vignettes": [
+    {
+     "hour": 4,
+     "text": "Lanterns at the gate. Guards search each candidate's basket of food, ink and brushes, looking for crib notes sewn into robes."
+    },
+    {
+     "hour": 13,
+     "text": "In a cell a metre wide a candidate writes an eight-legged essay on a board across his knees; his neighbour coughs and burns his rice over a little stove."
+    },
+    {
+     "hour": 22,
+     "text": "Rows of candles flicker along the lanes of cells. From the watchtower an examiner sees one go out: a man asleep or a man fainted."
+    }
+   ],
+   "variants": {
+    "qing-1750": {
+     "note": "Rebuilt in brick; some 10,000 cells now. Manchu bannermen sit their own translation examinations."
+    }
+   }
+  },
+  {
+   "id": "observatory",
+   "name": "The Observatory on the city wall",
+   "kind": "civic",
+   "position": [
+    7068,
+    6202
+   ],
+   "activePeriods": [
+    "ming-1450",
+    "qing-1750"
+   ],
+   "summary": "The astronomical platform on the south-east of the Inner City wall, built in 1442, where the Bureau of Astronomy watched the sky to make the calendar and read omens.",
+   "details": [
+    "The Ming platform held bronze copies of Guo Shoujing's Yuan instruments. From 1644 Jesuit astronomers ran the Bureau of Astronomy: Adam Schall, then Ferdinand Verbiest, who cast six new instruments in 1673. In 1750 the Bureau was headed by the Slovene Jesuit Augustin Hallerstein, who was preparing a great armillary sphere for Qianlong."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-observatory",
+    "wiki-hallerstein"
+   ],
+   "vignettes": [
+    {
+     "hour": 4,
+     "text": "Before dawn, an astronomer and two students read the positions of the planets on the armillary sphere and call out the numbers to a clerk."
+    },
+    {
+     "hour": 12,
+     "text": "In the office below, the calendar for next year is checked: every lucky and unlucky day for the whole empire depends on it."
+    },
+    {
+     "hour": 22,
+     "text": "A guest star is seen near the Purple Palace constellation. The duty officer writes a report for the emperor before he goes off watch."
+    }
+   ],
+   "variants": {
+    "ming-1450": {
+     "name": "The Ming observatory",
+     "note": "New in 1442: the platform on the wall with bronze armillary spheres and an abridged armillary, copied from Guo Shoujing's Yuan instruments."
+    },
+    "qing-1750": {
+     "name": "A Jesuit astronomer at the Observatory",
+     "note": "Hallerstein, president of the Bureau since 1746, wears the robes of a mandarin; his sphere will be finished in 1754."
+    }
+   }
+  },
+  {
+   "id": "camel-caravan",
+   "name": "A camel caravan inside Deshengmen",
+   "kind": "market",
+   "position": [
+    2604,
+    1664
+   ],
+   "activePeriods": [
+    "qing-1750"
+   ],
+   "summary": "Bactrian camels resting inside the Deshengmen after the road from Kalgan and Mongolia, with felt, hides and wool in, and tea, cloth and silver out.",
+   "details": [
+    "Camel trains linked Beijing with Kalgan (Zhangjiakou), Mongolia and, after the treaty of 1727, the Russian trade at Kyakhta, where tea was exchanged for furs. Camel men camped in yards near the northern gates; in summer, when the camels moulted, they rested in the grasslands. The yard's position is approximate."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "naquin"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A line of forty camels kneels in a yard. The caravan master, a Shanxi merchant in a sheepskin coat, checks the bales of felt against his list."
+    },
+    {
+     "hour": 12,
+     "text": "Bricks of compressed tea are stacked for the return journey, each stamped with the firm's mark. Mongol herders bargain for needles and cotton cloth."
+    },
+    {
+     "hour": 19,
+     "text": "The camel drivers eat mutton and noodles round a fire in the yard; a bell clanks as a camel shifts in its sleep."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "eunuch-workshop",
+   "name": "A eunuch directorate's enamel workshop",
+   "kind": "workshop",
+   "position": [
+    4482,
+    3606
+   ],
+   "activePeriods": [
+    "ming-1450"
+   ],
+   "summary": "A workshop of the Directorate for Imperial Accoutrements in the Imperial City, where craftsmen under eunuch supervisors made cloisonné enamel, lacquer and fittings for the palace.",
+   "details": [
+    "The Ming palace was served by twenty-four eunuch offices with workshops, storehouses and kitchens in the Imperial City. The cloisonné of the Jingtai reign (1450-1457) became so famous that cloisonné is still called 'Jingtai blue' (jingtailan). The workshop is an interpretation of the directorates' quarter."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-cloisonne",
+    "tsai"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A eunuch supervisor in a red robe unlocks the store and weighs out copper wire and powdered glass to each master; every grain is recorded."
+    },
+    {
+     "hour": 12,
+     "text": "A craftsman bends thin copper strips into lotus scrolls on a bronze vase and glues them down with a paste of starch."
+    },
+    {
+     "hour": 17,
+     "text": "Vases come out of the charcoal kiln glowing, the blue glass melted into the copper cells. Tomorrow they will be polished and gilded."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "daning-1179",
+   "title": "Shizong builds the Daning palace",
+   "periodId": "jin-1200",
+   "date": "1179",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "qionghua"
+   },
+   "effect": "construction",
+   "text": "Emperor Shizong of Jin built a detached palace on the lakes north-east of Zhongdu, heaping the spoil into an island with a hall on its summit. Rocks for its slopes, the story goes, were carted from the Song emperor Huizong's famous Genyue garden at Kaifeng, taken in 1127. The emperors spent their summers here.",
+   "sourceIds": [
+    "wiki-beihai",
+    "steinhardt"
+   ]
+  },
+  {
+   "id": "zhongdu-1215",
+   "title": "The Mongols take Zhongdu",
+   "periodId": "jin-1200",
+   "date": "1215",
+   "kind": "riot",
+   "at": {
+    "position": [
+     939,
+     7101
+    ]
+   },
+   "effect": "fire",
+   "text": "After a long blockade, while the Jin court fled south to Kaifeng, Chinggis Khan's armies took Zhongdu in the early summer of 1215. Parts of the city burned for a month, and travellers later wrote of bones heaped outside the walls. The Daning palace on the lake survived and was later given to Daoist monks.",
+   "sourceIds": [
+    "wiki-siege-zhongdu",
+    "wiki-zhongdu"
+   ]
+  },
+  {
+   "id": "dadu-1267",
+   "title": "Liu Bingzhong lays out Dadu",
+   "periodId": "kublai-1290",
+   "date": "1267",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "yuan-palace"
+   },
+   "effect": "construction",
+   "text": "Kublai rejected the ruined Jin capital and ordered a new city on the Daning palace lakes. The monk-adviser Liu Bingzhong, with the Muslim architect Yeheidie'er, planned walls, palace, axis and street grid on the ideal of the Rites of Zhou. Walls and palace rose from 1267; families moved in from the old city from 1285.",
+   "sourceIds": [
+    "wiki-liu-bingzhong",
+    "wiki-khanbaliq",
+    "steinhardt"
+   ]
+  },
+  {
+   "id": "white-stupa-1279",
+   "title": "Anige's White Stupa is finished",
+   "periodId": "kublai-1290",
+   "date": "1279",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "miaoying"
+   },
+   "effect": "construction",
+   "text": "Over a Liao relic pagoda, the Nepali artist Anige built a white stupa in Tibetan style for Kublai's state temple, consecrated in 1279. Anige, brought to the court by Phagpa, went on to direct the imperial workshops and made the portraits of Kublai and his empress Chabi.",
+   "sourceIds": [
+    "wiki-miaoying"
+   ]
+  },
+  {
+   "id": "polo-new-year",
+   "title": "Marco Polo at the White Feast",
+   "periodId": "kublai-1290",
+   "date": "New Year, c. 1275-1291",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "yuan-palace"
+   },
+   "effect": "crowd",
+   "text": "Marco Polo, at Kublai's court for about seventeen years (his account is our only source for most of it), describes New Year in Khanbaliq: everyone dressed in white, gifts of white horses by the thousand, elephants under embroidered cloths parading past the khan, and the whole court bowing four times to his throne.",
+   "sourceIds": [
+    "polo",
+    "wiki-marco-polo"
+   ]
+  },
+  {
+   "id": "tonghui-1293",
+   "title": "The canal reaches Jishuitan",
+   "periodId": "kublai-1290",
+   "date": "autumn 1293",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "jishuitan-harbour"
+   },
+   "effect": "crowd",
+   "text": "Guo Shoujing's canal from the Western Hills springs through Dadu to Tongzhou was finished, with lock gates to lift the barges. Kublai, coming back from his summer capital, is said to have seen the lake covered with boats from the bridge and named the canal Tonghui, 'Free-flowing Benefit'.",
+   "sourceIds": [
+    "wiki-guo-shoujing",
+    "wiki-grand-canal",
+    "yuanshi"
+   ]
+  },
+  {
+   "id": "ming-1368",
+   "title": "Xu Da's army enters Dadu",
+   "periodId": "ming-1450",
+   "date": "14 September 1368",
+   "kind": "riot",
+   "at": {
+    "position": [
+     7000,
+     4238
+    ]
+   },
+   "effect": "crowd",
+   "text": "The last Yuan emperor, Toghon Temür, fled north to Shangdu with his court. The Ming general Xu Da filled the moat and stormed the Qihua gate; he sealed the treasuries and palace and renamed the city Beiping, 'the North Pacified'. A new north wall soon shortened the city by 2.5 km.",
+   "sourceIds": [
+    "wiki-xu-da",
+    "wiki-khanbaliq"
+   ]
+  },
+  {
+   "id": "capital-1421",
+   "title": "Beijing becomes the capital",
+   "periodId": "ming-1450",
+   "date": "2 February 1421",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "forbidden-city"
+   },
+   "effect": "procession",
+   "text": "The Yongle emperor, who had seized the throne from Nanjing in 1402 and had ruled the north as Prince of Yan, held the New Year audience in his new palace and proclaimed Beijing the chief capital. Envoys from Timurid Herat, who were present, described the vast halls, the crowds of officials and the elephants at the gates.",
+   "sourceIds": [
+    "wiki-yongle",
+    "wiki-forbidden-city"
+   ]
+  },
+  {
+   "id": "fire-1421",
+   "title": "Lightning burns the three great halls",
+   "periodId": "ming-1450",
+   "date": "9 May 1421",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "forbidden-city"
+   },
+   "effect": "fire",
+   "text": "Barely three months after the court moved in, lightning set fire to the Fengtian, Huagai and Jinshen halls, and all three burned down. Officials who saw a sign of Heaven's displeasure in the move north were punished for saying so. The halls stood as ruins until they were rebuilt in 1440-1441.",
+   "sourceIds": [
+    "wiki-forbidden-city",
+    "wiki-yongle"
+   ]
+  },
+  {
+   "id": "deshengmen-1449",
+   "title": "Yu Qian holds Deshengmen",
+   "periodId": "ming-1450",
+   "date": "October 1449",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "deshengmen"
+   },
+   "effect": "crowd",
+   "text": "After the Oirat Mongols captured the Zhengtong emperor at Tumu in September, their leader Esen marched on Beijing with the emperor as a hostage. The minister of war Yu Qian refused to bargain, put the emperor's brother on the throne and fought the Oirats outside Deshengmen with cannon and firearms; after five days Esen withdrew.",
+   "sourceIds": [
+    "wiki-tumu",
+    "wiki-yu-qian"
+   ]
+  },
+  {
+   "id": "chongzhen-1644",
+   "title": "The last Ming emperor dies on Jingshan",
+   "periodId": "qing-1750",
+   "date": "25 April 1644",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "jingshan"
+   },
+   "effect": "none",
+   "text": "As Li Zicheng's rebels broke into the city, the Chongzhen emperor rang the palace bell for his ministers; none came. He went out by the north gate and hanged himself from a tree on the eastern slope of the hill, leaving a note blaming his officials.",
+   "sourceIds": [
+    "wiki-chongzhen"
+   ]
+  },
+  {
+   "id": "manchu-1644",
+   "title": "The Manchus ride into Beijing",
+   "periodId": "qing-1750",
+   "date": "6 June 1644",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "forbidden-city"
+   },
+   "effect": "procession",
+   "text": "Defeated at Shanhai pass, Li Zicheng set fire to parts of the palace and fled. The Manchu regent Dorgon entered with his bannermen, proclaiming that he had come to avenge the Ming, and held court in the Wuying hall, one of the few undamaged. In October the young Shunzhi emperor was enthroned here.",
+   "sourceIds": [
+    "wiki-dorgon",
+    "wiki-forbidden-city"
+   ]
+  },
+  {
+   "id": "dagoba-1651",
+   "title": "The White Dagoba rises on Qionghua",
+   "periodId": "qing-1750",
+   "date": "1651",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "qionghua"
+   },
+   "effect": "construction",
+   "text": "The Shunzhi emperor had a Tibetan-style stupa built on the summit of the island, where the Guanghan Hall had fallen in 1579, at the request of a Tibetan lama, with a temple below it. It honoured the Gelug church, whose Fifth Dalai Lama visited the emperor the next year.",
+   "sourceIds": [
+    "wiki-beihai"
+   ]
+  },
+  {
+   "id": "yonghegong-1744",
+   "title": "Qianlong gives his father's palace to the lamas",
+   "periodId": "qing-1750",
+   "date": "1744",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "yonghegong"
+   },
+   "effect": "procession",
+   "text": "The Qianlong emperor turned the Yonghe palace, where his father had lived as a prince, into a monastery of the Gelug school, with colleges of philosophy, Tantra, astrology and medicine, and lamas from Mongolia and Tibet. It became the centre of the court's dealings with the Tibetan Buddhist world.",
+   "sourceIds": [
+    "wiki-yonghe",
+    "naquin"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "polo-khanbaliq",
+   "title": "Marco Polo's Khanbaliq",
+   "periodId": "kublai-1290",
+   "summary": "Walk through the capital of the Great Khan with the Venetian who described it to Europe: the post roads, the palace, the green hill, paper money, burning stones and the night bell.",
+   "steps": [
+    {
+     "spotId": "yam-relay",
+     "title": "The khan's post",
+     "text": "You come in by the east gate where the riders of the yam change horses. Polo counted 400 horses at some stations and wrote that news travelled ten days' journey in one.",
+     "when": "dawn"
+    },
+    {
+     "landmarkId": "yuan-palace",
+     "title": "The greatest palace",
+     "text": "'The greatest palace that ever was': a hall for 6,000 guests, walls of gold and silver painted with dragons and horsemen, a roof glazed in every colour that shines like crystal.",
+     "when": "morning"
+    },
+    {
+     "spotId": "ger-camp",
+     "title": "Tents in the park",
+     "text": "Behind the halls the khan's park is full of deer, and the Mongol court still feasts in felt tents.",
+     "when": "late morning"
+    },
+    {
+     "landmarkId": "qionghua",
+     "title": "The Green Mount",
+     "text": "A hill 'a hundred paces high' covered in evergreen trees brought from far away on elephants, with a green hall on top: Kublai's Wanshou shan.",
+     "when": "noon"
+    },
+    {
+     "spotId": "chao-office",
+     "title": "Money from bark",
+     "text": "The khan makes money like an alchemist, from mulberry bark, sealed in vermilion; everyone must take it, on pain of death.",
+     "when": "afternoon"
+    },
+    {
+     "spotId": "black-stones",
+     "title": "Black stones that burn",
+     "text": "At the west gate, camels bring black stones that burn better than wood: coal, which Polo describes as a marvel.",
+     "when": "evening"
+    },
+    {
+     "landmarkId": "yuan-towers",
+     "title": "The night bell",
+     "text": "A great bell in the tower is struck at night; after the third stroke no one may go out, except for a birth or a sickness, and then with a light.",
+     "when": "night"
+    }
+   ],
+   "sourceIds": [
+    "polo",
+    "rossabi"
+   ]
+  },
+  {
+   "id": "qianlong-axis",
+   "title": "Along the axis in Qianlong's Beijing",
+   "periodId": "qing-1750",
+   "summary": "From Tiananmen north through the Forbidden City, over Jingshan and along the lakes to the Drum Tower and the lamas of the Yonghegong, in the 1750s.",
+   "steps": [
+    {
+     "landmarkId": "tiananmen",
+     "title": "The Gate of Heavenly Peace",
+     "text": "Five marble bridges over the Golden Water; the middle one for the emperor alone. Above, an edict comes down in a golden phoenix's beak to officials kneeling below.",
+     "when": "dawn"
+    },
+    {
+     "landmarkId": "forbidden-city",
+     "title": "The Hall of Supreme Harmony",
+     "text": "Past the Meridian Gate and the Gate of Supreme Harmony, the hall on its triple terrace of marble, where the emperor is enthroned and the New Year greeted.",
+     "when": "morning"
+    },
+    {
+     "landmarkId": "jingshan",
+     "title": "Prospect Hill",
+     "text": "From the Wanchun pavilion, new in 1751, the whole city lies below: yellow roofs in the middle, grey courtyards to the walls, the White Dagoba to the west.",
+     "when": "late morning"
+    },
+    {
+     "landmarkId": "qionghua",
+     "title": "The White Dagoba",
+     "text": "Over the bridge to Qionghua island and up through the Yong'an temple to the Tibetan stupa of 1651.",
+     "when": "noon"
+    },
+    {
+     "spotId": "tea-house",
+     "title": "A tea house",
+     "text": "Bannermen and their caged larks, jasmine tea and a storyteller in the middle of a war of the Three Kingdoms.",
+     "when": "afternoon"
+    },
+    {
+     "landmarkId": "drum-tower",
+     "title": "The Drum Tower",
+     "text": "At dusk the drums roll out the closing of the gates; the bronze bell next door answers.",
+     "when": "dusk"
+    },
+    {
+     "landmarkId": "yonghegong",
+     "title": "The Lama Temple",
+     "text": "In the north-east, the evening chant of hundreds of lamas in the halls Qianlong gave them in 1744.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "naquin",
+    "wiki-forbidden-city"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-khanbaliq",
+   "title": "Khanbaliq",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Khanbaliq"
+  },
+  {
+   "id": "wiki-zhongdu",
+   "title": "Zhongdu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zhongdu"
+  },
+  {
+   "id": "wiki-beijing-history",
+   "title": "History of Beijing",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Beijing"
+  },
+  {
+   "id": "wiki-fortifications-beijing",
+   "title": "Fortifications of Beijing",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fortifications_of_Beijing"
+  },
+  {
+   "id": "wiki-imperial-city",
+   "title": "Imperial City, Beijing",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Imperial_City,_Beijing"
+  },
+  {
+   "id": "wiki-shichahai",
+   "title": "Shichahai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shichahai"
+  },
+  {
+   "id": "wiki-hutong",
+   "title": "Hutong",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hutong"
+  },
+  {
+   "id": "wiki-eight-banners",
+   "title": "Eight Banners",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eight_Banners"
+  },
+  {
+   "id": "steinhardt",
+   "title": "Chinese Imperial City Planning",
+   "author": "Nancy Shatzman Steinhardt",
+   "year": 1990
+  },
+  {
+   "id": "hou-renzhi",
+   "title": "Historical Atlas of Beijing (Beijing lishi ditu ji)",
+   "author": "Hou Renzhi (ed.)",
+   "year": 1988
+  },
+  {
+   "id": "naquin",
+   "title": "Peking: Temples and City Life, 1400-1900",
+   "author": "Susan Naquin",
+   "year": 2000
+  },
+  {
+   "id": "wiki-beihai",
+   "title": "Beihai Park",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beihai_Park"
+  },
+  {
+   "id": "wiki-tuancheng",
+   "title": "Tuancheng",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tuancheng"
+  },
+  {
+   "id": "wiki-forbidden-city",
+   "title": "Forbidden City",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Forbidden_City"
+  },
+  {
+   "id": "wiki-taihedian",
+   "title": "Hall of Supreme Harmony",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hall_of_Supreme_Harmony"
+  },
+  {
+   "id": "wiki-meridian-gate",
+   "title": "Meridian Gate",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Meridian_Gate"
+  },
+  {
+   "id": "wiki-tiananmen",
+   "title": "Tiananmen",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tiananmen"
+  },
+  {
+   "id": "wiki-jingshan",
+   "title": "Jingshan Park",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jingshan_Park"
+  },
+  {
+   "id": "wiki-drum-bell",
+   "title": "Drum Tower and Bell Tower of Beijing",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Drum_Tower_and_Bell_Tower_of_Beijing"
+  },
+  {
+   "id": "wiki-grand-canal",
+   "title": "Grand Canal (China)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grand_Canal_(China)"
+  },
+  {
+   "id": "wiki-guo-shoujing",
+   "title": "Guo Shoujing",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Guo_Shoujing"
+  },
+  {
+   "id": "wiki-guozijian",
+   "title": "Beijing Guozijian",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Guozijian"
+  },
+  {
+   "id": "wiki-yonghe",
+   "title": "Yonghe Temple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yonghe_Temple"
+  },
+  {
+   "id": "wiki-nine-dragon",
+   "title": "Nine-Dragon Wall",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nine-Dragon_Wall"
+  },
+  {
+   "id": "wiki-dianmen",
+   "title": "Di'anmen",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Di%27anmen"
+  },
+  {
+   "id": "wiki-deshengmen",
+   "title": "Deshengmen",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deshengmen"
+  },
+  {
+   "id": "wiki-andingmen",
+   "title": "Andingmen",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andingmen"
+  },
+  {
+   "id": "wiki-guangji",
+   "title": "Guangji Temple (Beijing)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Guangji_Temple_(Beijing)"
+  },
+  {
+   "id": "wiki-miaoying",
+   "title": "Miaoying Temple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Miaoying_Temple"
+  },
+  {
+   "id": "wiki-araniko",
+   "title": "Araniko",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Araniko"
+  },
+  {
+   "id": "xiao-xun",
+   "title": "Gugong yilu (Record of the Remains of the Former Palace)",
+   "author": "Xiao Xun",
+   "year": 1368
+  },
+  {
+   "id": "tao-zongyi",
+   "title": "Chuogeng lu (Notes Written While Resting from the Plough)",
+   "author": "Tao Zongyi",
+   "year": 1366
+  },
+  {
+   "id": "polo",
+   "title": "The Description of the World",
+   "author": "Marco Polo and Rustichello of Pisa (trans. A. C. Moule and P. Pelliot)",
+   "year": 1938
+  },
+  {
+   "id": "yu-zhuoyun",
+   "title": "Palaces of the Forbidden City",
+   "author": "Yu Zhuoyun",
+   "year": 1984
+  },
+  {
+   "id": "liang-sicheng",
+   "title": "Chinese Architecture: A Pictorial History",
+   "author": "Liang Sicheng (ed. Wilma Fairbank)",
+   "year": 1984
+  },
+  {
+   "id": "arlington-lewisohn",
+   "title": "In Search of Old Peking",
+   "author": "L. C. Arlington and William Lewisohn",
+   "year": 1935
+  },
+  {
+   "id": "wiki-marco-polo",
+   "title": "Marco Polo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Marco_Polo"
+  },
+  {
+   "id": "wiki-yam",
+   "title": "Yam (route)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yam_(route)"
+  },
+  {
+   "id": "wiki-chao",
+   "title": "Chao (currency)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chao_(currency)"
+  },
+  {
+   "id": "wiki-ortoq",
+   "title": "Ortoq",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ortoq"
+  },
+  {
+   "id": "wiki-ahmad-fanakati",
+   "title": "Ahmad Fanakati",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ahmad_Fanakati"
+  },
+  {
+   "id": "wiki-siheyuan",
+   "title": "Siheyuan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siheyuan"
+  },
+  {
+   "id": "wiki-observatory",
+   "title": "Beijing Ancient Observatory",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beijing_Ancient_Observatory"
+  },
+  {
+   "id": "wiki-hallerstein",
+   "title": "Augustin Hallerstein",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Augustin_Hallerstein"
+  },
+  {
+   "id": "wiki-imperial-exam",
+   "title": "Imperial examination",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Imperial_examination"
+  },
+  {
+   "id": "wiki-cloisonne",
+   "title": "Cloisonné",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cloisonn%C3%A9"
+  },
+  {
+   "id": "wiki-eunuchs",
+   "title": "Eunuchs in China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eunuch#China"
+  },
+  {
+   "id": "wiki-ger",
+   "title": "Yurt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yurt"
+  },
+  {
+   "id": "wiki-meng-an",
+   "title": "Meng'an Mouke",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Meng%27an_Mouke"
+  },
+  {
+   "id": "wiki-siege-zhongdu",
+   "title": "Battle of Zhongdu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Zhongdu"
+  },
+  {
+   "id": "wiki-liu-bingzhong",
+   "title": "Liu Bingzhong",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Liu_Bingzhong"
+  },
+  {
+   "id": "wiki-xu-da",
+   "title": "Xu Da",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xu_Da"
+  },
+  {
+   "id": "wiki-yongle",
+   "title": "Yongle Emperor",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yongle_Emperor"
+  },
+  {
+   "id": "wiki-tumu",
+   "title": "Tumu Crisis",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tumu_Crisis"
+  },
+  {
+   "id": "wiki-yu-qian",
+   "title": "Yu Qian",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yu_Qian"
+  },
+  {
+   "id": "wiki-chongzhen",
+   "title": "Chongzhen Emperor",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chongzhen_Emperor"
+  },
+  {
+   "id": "wiki-dorgon",
+   "title": "Dorgon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dorgon"
+  },
+  {
+   "id": "rossabi",
+   "title": "Khubilai Khan: His Life and Times",
+   "author": "Morris Rossabi",
+   "year": 1988
+  },
+  {
+   "id": "elman",
+   "title": "A Cultural History of Civil Examinations in Late Imperial China",
+   "author": "Benjamin A. Elman",
+   "year": 2000
+  },
+  {
+   "id": "tsai",
+   "title": "The Eunuchs in the Ming Dynasty",
+   "author": "Shih-shan Henry Tsai",
+   "year": 1996
+  },
+  {
+   "id": "yuanshi",
+   "title": "Yuan shi (History of the Yuan)",
+   "author": "Song Lian et al.",
+   "year": 1370
+  }
+ ]
+}

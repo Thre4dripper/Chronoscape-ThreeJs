@@ -31,6 +31,7 @@
     { "id": "aksum", "name": "Aksum", "subtitle": "City of the Stelae", "status": "playable" },
     { "id": "kaifeng", "name": "Kaifeng", "subtitle": "Bianzhou, Dongjing of the Song, and the City under the Silt", "status": "playable" },
     { "id": "mohenjo-daro", "name": "Mohenjo-daro", "subtitle": "City of the Indus", "status": "playable" },
-    { "id": "merv", "name": "Merv", "subtitle": "Marw al-Shahijan, Queen of the World", "status": "playable" }
+    { "id": "merv", "name": "Merv", "subtitle": "Marw al-Shahijan, Queen of the World", "status": "playable" },
+    { "id": "khanbaliq", "name": "Khanbaliq", "subtitle": "Dadu of the Great Khan, and Beijing", "status": "playable" }
   ]
 }

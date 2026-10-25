@@ -222,7 +222,9 @@
           "subtitle": "Yuan capital, 1290",
           "at": [116.4, 39.9],
           "glyph": "pagoda",
-          "blurb": "Kublai Khan's new capital on the site of later Beijing, as Marco Polo described it."
+          "blurb": "Kublai Khan's new capital on the site of later Beijing, as Marco Polo described it.",
+          "city": "khanbaliq",
+          "period": "kublai-1290"
         }
       ]
     },
