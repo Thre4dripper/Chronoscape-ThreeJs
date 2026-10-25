@@ -209,7 +209,9 @@
           "subtitle": "Northern Song capital, 1120",
           "at": [114.31, 34.8],
           "glyph": "pagoda",
-          "blurb": "A busy commercial city on the canals, the world of the scroll 'Along the River During the Qingming Festival'."
+          "blurb": "A busy commercial city on the canals, the world of the scroll 'Along the River During the Qingming Festival'.",
+          "city": "kaifeng",
+          "period": "song-1120"
         },
         {
           "title": "Khanbaliq",

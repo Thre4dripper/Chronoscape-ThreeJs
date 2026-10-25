@@ -1,0 +1,8087 @@
+{
+ "id": "kaifeng",
+ "name": "Kaifeng",
+ "subtitle": "Bianzhou, Dongjing of the Song, and the City under the Silt",
+ "description": "Kaifeng on the Bian canal from the Tang prefectural town of Bianzhou to the Qing city rebuilt over the silt of 1642: the Song inner city and palace, the Imperial Way, the eastern and southern wards of the outer city, the Bian out toward the Rainbow Bridge, the Iron and Fan pagodas. The Song outer wall's north side and the western suburbs lie beyond the frame. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "song-1120",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#DCCDB0",
+   "#D2C1A0",
+   "#C6B492"
+  ],
+  "roofs": [
+   "#5E5F62",
+   "#686664",
+   "#57595C"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    3931,
+    2829
+   ],
+   "distance": 46,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7405,
+   6657
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Bian river (Tongji canal)",
+    "path": [
+     [
+      0,
+      3240
+     ],
+     [
+      274,
+      3240
+     ],
+     [
+      1810,
+      3384
+     ],
+     [
+      2834,
+      3528
+     ],
+     [
+      3556,
+      3639
+     ],
+     [
+      3840,
+      3794
+     ],
+     [
+      4297,
+      3961
+     ],
+     [
+      4882,
+      4249
+     ],
+     [
+      5576,
+      4349
+     ],
+     [
+      6125,
+      4383
+     ],
+     [
+      7085,
+      4216
+     ],
+     [
+      7295,
+      4272
+     ],
+     [
+      7588,
+      4327
+     ]
+    ],
+    "width": 38,
+    "id": "bian",
+    "blurb": "The Sui Tongji canal of 605, the Grand Canal's main stem, drawing Yellow River water south-east to the Huai. Under the Song some six million shi of grain a year came up it to the capital, past the Zhou bridge and Xiangguo temple.",
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Old bed of the Bian",
+    "path": [
+     [
+      1810,
+      3384
+     ],
+     [
+      2834,
+      3528
+     ],
+     [
+      3556,
+      3639
+     ],
+     [
+      3840,
+      3794
+     ],
+     [
+      4297,
+      3961
+     ],
+     [
+      4882,
+      4249
+     ]
+    ],
+    "width": 14,
+    "id": "bian-ming",
+    "blurb": "After the Jin the Bian silted up and was cut off from the Yellow River; inside the Ming city only a drain ran in its bed under the old Zhou bridge.",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "name": "Cai river (Huimin)",
+    "path": [
+     [
+      0,
+      5858
+     ],
+     [
+      274,
+      5814
+     ],
+     [
+      2103,
+      5603
+     ],
+     [
+      3382,
+      5492
+     ],
+     [
+      4845,
+      5547
+     ],
+     [
+      6125,
+      5858
+     ],
+     [
+      6673,
+      6102
+     ],
+     [
+      6811,
+      6213
+     ],
+     [
+      6948,
+      6657
+     ]
+    ],
+    "width": 24,
+    "id": "cai",
+    "blurb": "The Huimin or Cai river curved through the southern outer city under thirteen bridges, among them the Longjin bridge on the Imperial Way, carrying boats from the south-west and the Huai.",
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Wuzhang river (Guangji)",
+    "path": [
+     [
+      0,
+      44
+     ],
+     [
+      1188,
+      133
+     ],
+     [
+      3017,
+      311
+     ],
+     [
+      4342,
+      388
+     ],
+     [
+      5759,
+      277
+     ],
+     [
+      7085,
+      133
+     ],
+     [
+      7405,
+      89
+     ]
+    ],
+    "width": 20,
+    "id": "wuzhang",
+    "blurb": "The 'Five-zhang' canal (about 15 m wide, as its name says), fed from the Jinshui, carried grain from Shandong into the north of the outer city. Its line here is the usual reconstruction; a modern stream follows it.",
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Jinshui river",
+    "path": [
+     [
+      0,
+      1109
+     ],
+     [
+      274,
+      1109
+     ],
+     [
+      2084,
+      1243
+     ],
+     [
+      2834,
+      1420
+     ],
+     [
+      3245,
+      1553
+     ]
+    ],
+    "width": 12,
+    "id": "jinshui",
+    "blurb": "The 'Golden Water' canal brought clean water from the hills west of Zhengzhou across the Bian in an aqueduct and into the palace pools; its overflow joined the Wuzhang.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Moat of the inner city",
+    "path": [
+     [
+      2029,
+      921
+     ],
+     [
+      5586,
+      921
+     ],
+     [
+      5467,
+      2053
+     ],
+     [
+      5485,
+      2630
+     ],
+     [
+      5311,
+      2851
+     ],
+     [
+      5183,
+      3650
+     ],
+     [
+      5037,
+      4116
+     ],
+     [
+      4918,
+      4538
+     ],
+     [
+      1728,
+      4538
+     ],
+     [
+      1746,
+      3195
+     ],
+     [
+      1837,
+      2463
+     ],
+     [
+      2002,
+      1287
+     ],
+     [
+      2029,
+      921
+     ]
+    ],
+    "width": 22,
+    "id": "song-inner-moat",
+    "blurb": "The inner city's moat, fed by the canals.",
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Moat of the outer city (Hulong river)",
+    "path": [
+     [
+      7131,
+      -333
+     ],
+     [
+      7131,
+      4216
+     ],
+     [
+      7131,
+      6269
+     ],
+     [
+      229,
+      6269
+     ],
+     [
+      229,
+      -333
+     ]
+    ],
+    "width": 30,
+    "id": "song-outer-moat-e",
+    "blurb": "The Hulong ('Dragon-Guarding') river, the outer city's moat, about ten zhang (some 30 m) wide, lined with willows and elms on both banks; no one was allowed to walk on its banks.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "City moat",
+    "path": [
+     [
+      2998,
+      355
+     ],
+     [
+      3766,
+      333
+     ],
+     [
+      5686,
+      577
+     ],
+     [
+      5723,
+      732
+     ],
+     [
+      5467,
+      2053
+     ],
+     [
+      5485,
+      2630
+     ],
+     [
+      5311,
+      2851
+     ],
+     [
+      5183,
+      3650
+     ],
+     [
+      5037,
+      4116
+     ],
+     [
+      4799,
+      4682
+     ],
+     [
+      4598,
+      4771
+     ],
+     [
+      3456,
+      4593
+     ],
+     [
+      3364,
+      4682
+     ],
+     [
+      2944,
+      4505
+     ],
+     [
+      1691,
+      4272
+     ],
+     [
+      1646,
+      4072
+     ],
+     [
+      1746,
+      3195
+     ],
+     [
+      1792,
+      2696
+     ],
+     [
+      1837,
+      2441
+     ],
+     [
+      2167,
+      1220
+     ],
+     [
+      2487,
+      466
+     ],
+     [
+      2669,
+      399
+     ],
+     [
+      2998,
+      355
+     ]
+    ],
+    "width": 26,
+    "id": "ming-moat",
+    "blurb": "The moat round the Ming and Qing walls; in the Qing it was partly a string of ponds.",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Yang family lake",
+    "path": [
+     [
+      3419,
+      1864
+     ],
+     [
+      3437,
+      2086
+     ]
+    ],
+    "width": 250,
+    "id": "yang-lake",
+    "blurb": "One of the two lakes south of the Dragon Pavilion, formed after the flood of 1642 in the hollows of the drowned Zhou palace. Its water is said to be clear; tradition gives it to the loyal Yang family of generals.",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Pan family lake",
+    "path": [
+     [
+      3748,
+      1864
+     ],
+     [
+      3739,
+      2086
+     ]
+    ],
+    "width": 250,
+    "id": "pan-lake",
+    "blurb": "The eastern lake by the causeway to the Dragon Pavilion, said to be murky, after the treacherous minister Pan Renmei of the operas. Both lakes date from after 1642.",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Baogong lake",
+    "path": [
+     [
+      2514,
+      3218
+     ],
+     [
+      2669,
+      3606
+     ],
+     [
+      2925,
+      3939
+     ]
+    ],
+    "width": 260,
+    "id": "baogong-lake",
+    "blurb": "A lake left in the low south-west of the city by the flood of 1642, later named after the upright Song judge Bao Zheng.",
+    "periods": [
+     "qing-1700"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Wansui Mountain (Genyue)",
+    "center": [
+     4754,
+     1442
+    ],
+    "radius": 150,
+    "label": true,
+    "id": "genyue-hill",
+    "blurb": "The 'Mountain of Ten Thousand Years' raised by Huizong's builders from 1117 in the north-east of the inner city, with rocks shipped from Lake Tai on the 'Flower and Rock Convoys'. The usual figure for its height is about 90 chi, some 28 m.",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "name": "Fan terrace",
+    "center": [
+     4735,
+     5925
+    ],
+    "radius": 90,
+    "label": true,
+    "id": "fantai",
+    "blurb": "A low mound in the south-east, named after the Fan family who lived round it; the Tianqing temple and its pagoda stood on it."
+   },
+   {
+    "name": "Coal Hill of the Zhou palace",
+    "center": [
+     3620,
+     1575
+    ],
+    "radius": 80,
+    "label": true,
+    "id": "coal-hill",
+    "blurb": "The artificial hill at the back of the Zhou prince's palace. It stood above the silt of 1642, and the Qing built a pavilion on it in 1692, the later Dragon Pavilion.",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   }
+  ],
+  "roads": [
+   {
+    "name": "Imperial Way (Yujie)",
+    "path": [
+     [
+      3611,
+      2274
+     ],
+     [
+      3556,
+      3639
+     ],
+     [
+      3419,
+      4460
+     ],
+     [
+      3382,
+      5492
+     ],
+     [
+      3364,
+      6213
+     ],
+     [
+      3346,
+      6657
+     ]
+    ],
+    "width": 40,
+    "style": "major",
+    "labelled": true,
+    "id": "yujie",
+    "blurb": "The ceremonial avenue south from the palace's Xuande gate, 'some two hundred paces wide' near the palace, with brick-lined channels planted with lotus, peach and plum, and red and black lacquered fences keeping commoners off the emperor's lane in the middle.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Street before the palace",
+    "path": [
+     [
+      1920,
+      2441
+     ],
+     [
+      3017,
+      2352
+     ],
+     [
+      5028,
+      2352
+     ],
+     [
+      5403,
+      2585
+     ],
+     [
+      5668,
+      2330
+     ],
+     [
+      7085,
+      2330
+     ],
+     [
+      7405,
+      2308
+     ]
+    ],
+    "width": 26,
+    "style": "major",
+    "labelled": true,
+    "id": "palace-front",
+    "blurb": "The east-west street before the Xuande gate, from the Liang gate in the west to the old Cao gate and on to the New Cao gate of the outer city; east of the palace it ran past the Pan Tower and the Sangjia entertainment quarter.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Ma Xing Street",
+    "path": [
+     [
+      4342,
+      2352
+     ],
+     [
+      4342,
+      999
+     ],
+     [
+      4342,
+      0
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": true,
+    "id": "maxing",
+    "blurb": "The 'Horse Traders' Street' north from the Pan Tower crossroads to the New Fengqiu gate, the liveliest night market of the capital: Cai Tao wrote that its lamp-oil smoke kept the mosquitoes away.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Street of the Old Song Gate",
+    "path": [
+     [
+      3620,
+      3606
+     ],
+     [
+      3821,
+      3695
+     ],
+     [
+      4479,
+      3794
+     ],
+     [
+      4964,
+      4039
+     ],
+     [
+      6125,
+      3994
+     ],
+     [
+      7085,
+      3828
+     ],
+     [
+      7405,
+      3828
+     ]
+    ],
+    "width": 22,
+    "style": "major",
+    "labelled": true,
+    "id": "east-street",
+    "blurb": "From the Zhou bridge past Xiangguo temple to the old Song gate (Lizhe) of the inner city and on to the New Song gate of the outer city, the road to Song prefecture and the east. The scroll's city gate may be one of the gates on it.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Street to the New Zheng Gate",
+    "path": [
+     [
+      3492,
+      3550
+     ],
+     [
+      2103,
+      3273
+     ],
+     [
+      274,
+      3051
+     ],
+     [
+      0,
+      3051
+     ]
+    ],
+    "width": 20,
+    "style": "minor",
+    "labelled": true,
+    "id": "west-street",
+    "blurb": "West along the north bank of the Bian to the old Zheng gate and the New Zheng gate (Shuntian) of the outer city, outside which lay the Jinming pond of the imperial boating festivals.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Road from the Liang Gate",
+    "path": [
+     [
+      1920,
+      2441
+     ],
+     [
+      274,
+      2441
+     ],
+     [
+      0,
+      2441
+     ]
+    ],
+    "width": 16,
+    "style": "minor",
+    "labelled": false,
+    "id": "liang-road",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Baokang Gate Street",
+    "path": [
+     [
+      4297,
+      3717
+     ],
+     [
+      4297,
+      4460
+     ],
+     [
+      4342,
+      5381
+     ],
+     [
+      4479,
+      6213
+     ],
+     [
+      4525,
+      6657
+     ]
+    ],
+    "width": 16,
+    "style": "minor",
+    "labelled": true,
+    "id": "baokang",
+    "blurb": "South from the Bian through the Baokang gate toward the Chen prefecture gate; the Fan terrace and the Tianqing temple lay just to the east.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Street west of the palace",
+    "path": [
+     [
+      3017,
+      2352
+     ],
+     [
+      3017,
+      999
+     ],
+     [
+      3017,
+      0
+     ]
+    ],
+    "width": 16,
+    "style": "minor",
+    "labelled": false,
+    "id": "fengqiu-west",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Road in the east outer city",
+    "path": [
+     [
+      6308,
+      2330
+     ],
+     [
+      6308,
+      3828
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "outer-east-n",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Street before the governor's yamen",
+    "path": [
+     [
+      3611,
+      2274
+     ],
+     [
+      3556,
+      3639
+     ],
+     [
+      3419,
+      4460
+     ],
+     [
+      3382,
+      5492
+     ],
+     [
+      3346,
+      6657
+     ]
+    ],
+    "width": 24,
+    "style": "major",
+    "labelled": true,
+    "id": "tang-axis",
+    "blurb": "The street south from the gate of the Xuanwu military governor's compound across the Zhou bridge to the south gate, the line the Song would widen into the Imperial Way.",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "East-west street",
+    "path": [
+     [
+      0,
+      2441
+     ],
+     [
+      1920,
+      2441
+     ],
+     [
+      3611,
+      2352
+     ],
+     [
+      5028,
+      2352
+     ],
+     [
+      5403,
+      2585
+     ],
+     [
+      7405,
+      2496
+     ]
+    ],
+    "width": 18,
+    "style": "minor",
+    "labelled": true,
+    "id": "tang-ew",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "Canal street",
+    "path": [
+     [
+      0,
+      3051
+     ],
+     [
+      2103,
+      3273
+     ],
+     [
+      3492,
+      3550
+     ],
+     [
+      3821,
+      3695
+     ],
+     [
+      4479,
+      3794
+     ],
+     [
+      4964,
+      4039
+     ],
+     [
+      6125,
+      3994
+     ],
+     [
+      7405,
+      3994
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": true,
+    "id": "tang-canal-road",
+    "blurb": "The towpath and street along the Bian, through the west and east gates: the road of the barge haulers and the grain convoys.",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "North street",
+    "path": [
+     [
+      4342,
+      2352
+     ],
+     [
+      4342,
+      999
+     ],
+     [
+      4342,
+      0
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "tang-north",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "Street before the Zhou palace",
+    "path": [
+     [
+      3611,
+      2330
+     ],
+     [
+      3556,
+      3639
+     ],
+     [
+      3382,
+      4593
+     ]
+    ],
+    "width": 22,
+    "style": "major",
+    "labelled": true,
+    "id": "ming-axis",
+    "blurb": "The old Imperial Way, now the street from the Zhou palace's south gate to the Nanxun gate, lined with the offices of the province and the shops of the Drum Tower quarter.",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "name": "South Gate Street",
+    "path": [
+     [
+      3593,
+      1686
+     ],
+     [
+      3593,
+      2330
+     ],
+     [
+      3556,
+      3639
+     ],
+     [
+      3382,
+      4593
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "qing-axis",
+    "blurb": "From the Dragon Pavilion along the causeway between the two lakes and south on the line of the Song Imperial Way to the South gate; the modern Zhongshan Road.",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Daliang Gate - Cao Gate street",
+    "path": [
+     [
+      1920,
+      2463
+     ],
+     [
+      3017,
+      2441
+     ],
+     [
+      4205,
+      2463
+     ],
+     [
+      5403,
+      2585
+     ]
+    ],
+    "width": 20,
+    "style": "major",
+    "labelled": true,
+    "id": "mq-ew",
+    "blurb": "The main east-west street, from the Daliang gate in the west to the Renhe (Cao) gate in the east.",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Song Gate Street",
+    "path": [
+     [
+      3931,
+      3251
+     ],
+     [
+      4114,
+      3439
+     ],
+     [
+      4964,
+      4039
+     ]
+    ],
+    "width": 16,
+    "style": "minor",
+    "labelled": true,
+    "id": "mq-songmen",
+    "blurb": "From the Drum Tower south-east to the Lijing gate, still called the Song gate after its Song predecessor.",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Drum Tower Street",
+    "path": [
+     [
+      3584,
+      3251
+     ],
+     [
+      3931,
+      3251
+     ],
+     [
+      3931,
+      2463
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": true,
+    "id": "mq-gulou",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "North Gate Street",
+    "path": [
+     [
+      4598,
+      533
+     ],
+     [
+      4479,
+      1331
+     ],
+     [
+      4479,
+      2463
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": true,
+    "id": "mq-north",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Street by the Yanqing temple",
+    "path": [
+     [
+      2834,
+      2463
+     ],
+     [
+      2834,
+      3772
+     ],
+     [
+      2843,
+      4305
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "mq-west",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Road east from the Cao gate",
+    "path": [
+     [
+      5485,
+      2585
+     ],
+     [
+      6308,
+      2496
+     ],
+     [
+      7405,
+      2496
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "mq-east-road",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Road east from the Song gate",
+    "path": [
+     [
+      5046,
+      4039
+     ],
+     [
+      6125,
+      4083
+     ],
+     [
+      7405,
+      3994
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "mq-song-road",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Road to the Fan pagoda",
+    "path": [
+     [
+      3382,
+      4660
+     ],
+     [
+      3931,
+      5326
+     ],
+     [
+      4479,
+      5658
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "mq-south-road",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Road west from the Daliang gate",
+    "path": [
+     [
+      1828,
+      2463
+     ],
+     [
+      0,
+      2552
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "mq-west-road",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Road to the Yellow River",
+    "path": [
+     [
+      4598,
+      388
+     ],
+     [
+      4662,
+      0
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "mq-north-road",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Outer wall (Waicheng, the 'New City')",
+    "path": [
+     [
+      7085,
+      -444
+     ],
+     [
+      7085,
+      6213
+     ],
+     [
+      274,
+      6213
+     ],
+     [
+      274,
+      -444
+     ]
+    ],
+    "closed": false,
+    "id": "song-outer-wall",
+    "blurb": "Begun in 955 by Emperor Shizong of the Later Zhou and rebuilt higher in 1075–1078: about 29 km round, rammed earth, with barbicans, 'horse-face' bastions every hundred paces and water gates where the canals entered. Its line here is the usual reconstruction; the north side lies beyond the frame.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Inner wall (Licheng, the 'Old City')",
+    "path": [
+     [
+      2103,
+      999
+     ],
+     [
+      5503,
+      999
+     ],
+     [
+      5384,
+      2053
+     ],
+     [
+      5403,
+      2630
+     ],
+     [
+      5229,
+      2829
+     ],
+     [
+      5101,
+      3617
+     ],
+     [
+      4955,
+      4072
+     ],
+     [
+      4845,
+      4460
+     ],
+     [
+      1810,
+      4460
+     ],
+     [
+      1828,
+      3195
+     ],
+     [
+      1920,
+      2463
+     ],
+     [
+      2084,
+      1287
+     ]
+    ],
+    "closed": true,
+    "id": "song-inner-wall",
+    "blurb": "The wall of Bianzhou, rebuilt by the governor Li Mian in 781 at about 20 li round, which became the Song inner city. The Ming wall follows it in the east, south and west; its north side is the usual reconstruction.",
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Palace city wall (Danei)",
+    "path": [
+     [
+      3245,
+      1553
+     ],
+     [
+      3977,
+      1553
+     ],
+     [
+      3977,
+      2274
+     ],
+     [
+      3245,
+      2274
+     ]
+    ],
+    "closed": true,
+    "id": "palace-wall",
+    "blurb": "The palace city, about 5 li round, grown from the Tang governor's compound: red-plastered walls with corner towers and the Xuande, Donghua, Xihua and Gongchen gates. The palace lay under the later Zhou palace and the lakes.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "City wall",
+    "path": [
+     [
+      3017,
+      455
+     ],
+     [
+      3766,
+      433
+     ],
+     [
+      5622,
+      666
+     ],
+     [
+      5640,
+      777
+     ],
+     [
+      5384,
+      2053
+     ],
+     [
+      5403,
+      2630
+     ],
+     [
+      5229,
+      2829
+     ],
+     [
+      5101,
+      3617
+     ],
+     [
+      4955,
+      4072
+     ],
+     [
+      4726,
+      4616
+     ],
+     [
+      4598,
+      4682
+     ],
+     [
+      3456,
+      4505
+     ],
+     [
+      3382,
+      4593
+     ],
+     [
+      2980,
+      4416
+     ],
+     [
+      1764,
+      4194
+     ],
+     [
+      1728,
+      4072
+     ],
+     [
+      1828,
+      3195
+     ],
+     [
+      1874,
+      2696
+     ],
+     [
+      1920,
+      2463
+     ],
+     [
+      2249,
+      1287
+     ],
+     [
+      2551,
+      555
+     ],
+     [
+      2688,
+      499
+     ]
+    ],
+    "closed": true,
+    "id": "mq-wall",
+    "blurb": "Rebuilt in 1368–1378 on the Jin wall, which had extended the Song inner city to the north, and faced in brick. Buried and breached in 1642, rebuilt in the 1660s and again after the flood of 1841; the brick wall still stands, about 14 km round.",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Outer wall of the Zhou palace",
+    "path": [
+     [
+      2998,
+      1165
+     ],
+     [
+      4223,
+      1165
+     ],
+     [
+      4223,
+      2308
+     ],
+     [
+      2998,
+      2308
+     ]
+    ],
+    "closed": true,
+    "id": "zhou-outer-wall",
+    "blurb": "The 'screen wall' (xiaoqiang) round the Prince of Zhou's palace and its gardens, said to be some 9 li round; its exact line is not known.",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "name": "Inner wall of the Zhou palace",
+    "path": [
+     [
+      3346,
+      1465
+     ],
+     [
+      3894,
+      1465
+     ],
+     [
+      3894,
+      2130
+     ],
+     [
+      3346,
+      2130
+     ]
+    ],
+    "closed": true,
+    "id": "zhou-inner-wall",
+    "blurb": "The 'forbidden city' of the princely palace, with its own moat.",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "name": "Ring dyke (on the old outer wall)",
+    "path": [
+     [
+      7085,
+      -444
+     ],
+     [
+      7085,
+      6213
+     ],
+     [
+      274,
+      6213
+     ],
+     [
+      274,
+      -444
+     ]
+    ],
+    "closed": false,
+    "id": "ring-dyke",
+    "blurb": "The ruined Song outer wall survived as an earth bank, probably kept up as a dyke round the city against the Yellow River floods, which came ever closer as the river bed rose.",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "Zhuque gate",
+    "position": [
+     3419,
+     4460
+    ],
+    "id": "zhuque-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Baokang gate",
+    "position": [
+     4297,
+     4460
+    ],
+    "id": "baokang-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Xin gate",
+    "position": [
+     2651,
+     4460
+    ],
+    "id": "xin-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Lizhe gate (old Song gate)",
+    "position": [
+     4964,
+     4039
+    ],
+    "id": "lizhe-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Wangchun gate (old Cao gate)",
+    "position": [
+     5403,
+     2585
+    ],
+    "id": "wangchun-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Changhe gate (Liang gate)",
+    "position": [
+     1920,
+     2441
+    ],
+    "id": "changhe-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Jinglong gate (old Fengqiu gate)",
+    "position": [
+     4342,
+     999
+    ],
+    "id": "jinglong-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "New Song gate (Chaoyang)",
+    "position": [
+     7085,
+     3828
+    ],
+    "id": "xinsong-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "East water gate",
+    "position": [
+     7085,
+     4216
+    ],
+    "id": "east-water-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "New Cao gate (Hanhui)",
+    "position": [
+     7085,
+     2330
+    ],
+    "id": "xincao-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Nanxun gate",
+    "position": [
+     3364,
+     6213
+    ],
+    "id": "nanxun-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Chen prefecture gate (Xuanhua)",
+    "position": [
+     4479,
+     6213
+    ],
+    "id": "chenzhou-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Dailou gate (Anshang)",
+    "position": [
+     1646,
+     6213
+    ],
+    "id": "dailou-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "New Zheng gate (Shuntian)",
+    "position": [
+     274,
+     3051
+    ],
+    "id": "xinzheng-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "West water gate",
+    "position": [
+     274,
+     3240
+    ],
+    "id": "west-water-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Wansheng gate",
+    "position": [
+     274,
+     2441
+    ],
+    "id": "wansheng-gate",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "South gate",
+    "position": [
+     3419,
+     4460
+    ],
+    "id": "tang-south-gate",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "East gate",
+    "position": [
+     4964,
+     4039
+    ],
+    "id": "tang-east-gate",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "West gate",
+    "position": [
+     1920,
+     2441
+    ],
+    "id": "tang-west-gate",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "North gate",
+    "position": [
+     4342,
+     999
+    ],
+    "id": "tang-north-gate",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "name": "Daliang gate (West gate)",
+    "position": [
+     1920,
+     2463
+    ],
+    "id": "daliang-gate",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Anyuan gate (North gate)",
+    "position": [
+     4598,
+     533
+    ],
+    "id": "anyuan-gate",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Renhe gate (Cao gate)",
+    "position": [
+     5403,
+     2585
+    ],
+    "id": "renhe-gate",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Lijing gate (Song gate)",
+    "position": [
+     4964,
+     4039
+    ],
+    "id": "lijing-gate",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "name": "Nanxun gate (South gate)",
+    "position": [
+     3382,
+     4593
+    ],
+    "id": "nanxun-ming",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Zhou bridge",
+    "path": [
+     [
+      3565,
+      3573
+     ],
+     [
+      3547,
+      3706
+     ]
+    ],
+    "build": "stone",
+    "arches": 3,
+    "id": "zhouqiao-bridge",
+    "blurb": "The bridge of the prefecture (zhou), officially the Tianhan bridge, where the Imperial Way crossed the Bian.",
+    "landmarkId": "zhouqiao",
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Xiangguo temple bridge",
+    "path": [
+     [
+      3931,
+      3717
+     ],
+     [
+      3913,
+      3861
+     ]
+    ],
+    "build": "stone",
+    "arches": 1,
+    "id": "xiangguo-bridge",
+    "blurb": "The bridge by Xiangguo temple, a low flat bridge like the Zhou bridge, so low that only flat-roofed boats could pass under it.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Rainbow Bridge (Hongqiao)",
+    "path": [
+     [
+      7295,
+      4194
+     ],
+     [
+      7295,
+      4349
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "rainbow-bridge-b",
+    "blurb": "A pierless timber arch over the Bian east of the city, the centrepiece of Zhang Zeduan's scroll.",
+    "landmarkId": "rainbow-bridge",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "name": "Shangtu bridge",
+    "path": [
+     [
+      6491,
+      4238
+     ],
+     [
+      6491,
+      4438
+     ]
+    ],
+    "build": "timber",
+    "arches": 1,
+    "id": "shang-tu-bridge",
+    "blurb": "Another of the arched 'flying bridges' over the Bian inside the outer city, beside the grain wharves.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Longjin bridge",
+    "path": [
+     [
+      3382,
+      5414
+     ],
+     [
+      3382,
+      5570
+     ]
+    ],
+    "build": "stone",
+    "arches": 3,
+    "id": "longjin-bridge",
+    "blurb": "The bridge of the Imperial Way over the Cai river, between the Zhuque and Nanxun gates.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "name": "Canal bridge",
+    "path": [
+     [
+      6491,
+      4238
+     ],
+     [
+      6491,
+      4438
+     ]
+    ],
+    "build": "stone",
+    "arches": 3,
+    "id": "tang-east-bridge",
+    "periods": [
+     "tang-800"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      1965,
+      3717
+     ],
+     [
+      3428,
+      3717
+     ],
+     [
+      3428,
+      4405
+     ],
+     [
+      1965,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city south of the Bian (west)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3702,
+      3828
+     ],
+     [
+      4223,
+      4027
+     ],
+     [
+      4223,
+      4405
+     ],
+     [
+      3702,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city south of the Bian (east)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4370,
+      4083
+     ],
+     [
+      4571,
+      4183
+     ],
+     [
+      4708,
+      4405
+     ],
+     [
+      4370,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city south of the Bian (by the Baokang gate)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2530
+     ],
+     [
+      3456,
+      2530
+     ],
+     [
+      3456,
+      3439
+     ],
+     [
+      2029,
+      3184
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city west of the Imperial Way",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3730,
+      2530
+     ],
+     [
+      5211,
+      2530
+     ],
+     [
+      5138,
+      2829
+     ],
+     [
+      5010,
+      3617
+     ],
+     [
+      4900,
+      3928
+     ],
+     [
+      4479,
+      3739
+     ],
+     [
+      3730,
+      3550
+     ]
+    ],
+    "density": "dense",
+    "name": "Xiangguo temple quarter",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2194,
+      1387
+     ],
+     [
+      2944,
+      1553
+     ],
+     [
+      2944,
+      2252
+     ],
+     [
+      2194,
+      2252
+     ]
+    ],
+    "density": "dense",
+    "name": "North-west inner city",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2194,
+      1065
+     ],
+     [
+      2944,
+      1065
+     ],
+     [
+      2944,
+      1309
+     ],
+     [
+      2194,
+      1132
+     ]
+    ],
+    "density": "dense",
+    "name": "North-west inner city (by the wall)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4022,
+      1065
+     ],
+     [
+      4278,
+      1065
+     ],
+     [
+      4278,
+      2252
+     ],
+     [
+      4022,
+      2252
+     ]
+    ],
+    "density": "dense",
+    "name": "Ma Xing Street quarter",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4415,
+      1686
+     ],
+     [
+      5302,
+      1686
+     ],
+     [
+      5302,
+      2252
+     ],
+     [
+      4415,
+      2252
+     ]
+    ],
+    "density": "dense",
+    "name": "Pan Tower quarter",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3245,
+      1065
+     ],
+     [
+      3977,
+      1065
+     ],
+     [
+      3977,
+      1498
+     ],
+     [
+      3245,
+      1498
+     ]
+    ],
+    "density": "loose",
+    "name": "Behind the palace",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      411,
+      1309
+     ],
+     [
+      1691,
+      1309
+     ],
+     [
+      1691,
+      2330
+     ],
+     [
+      411,
+      2330
+     ]
+    ],
+    "density": "dense",
+    "name": "West outer city (north)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      411,
+      3462
+     ],
+     [
+      1691,
+      3462
+     ],
+     [
+      1691,
+      5104
+     ],
+     [
+      411,
+      5104
+     ]
+    ],
+    "density": "dense",
+    "name": "West outer city (by the Bian)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1810,
+      4638
+     ],
+     [
+      3273,
+      4638
+     ],
+     [
+      3273,
+      5370
+     ],
+     [
+      1810,
+      5370
+     ]
+    ],
+    "density": "dense",
+    "name": "South outer city (west)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3520,
+      4638
+     ],
+     [
+      4223,
+      4638
+     ],
+     [
+      4223,
+      5370
+     ],
+     [
+      3520,
+      5370
+     ]
+    ],
+    "density": "dense",
+    "name": "South outer city (east)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4434,
+      4638
+     ],
+     [
+      5211,
+      4638
+     ],
+     [
+      5211,
+      5414
+     ],
+     [
+      4434,
+      5414
+     ]
+    ],
+    "density": "dense",
+    "name": "South outer city (by the Baokang street)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2194,
+      5747
+     ],
+     [
+      3273,
+      5747
+     ],
+     [
+      3273,
+      6102
+     ],
+     [
+      2194,
+      6102
+     ]
+    ],
+    "density": "loose",
+    "name": "Beyond the Cai (west)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3520,
+      5681
+     ],
+     [
+      4388,
+      5681
+     ],
+     [
+      4388,
+      6102
+     ],
+     [
+      3520,
+      6102
+     ]
+    ],
+    "density": "loose",
+    "name": "Beyond the Cai (east)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5759,
+      1109
+     ],
+     [
+      6993,
+      1109
+     ],
+     [
+      6993,
+      2219
+     ],
+     [
+      5759,
+      2219
+     ]
+    ],
+    "density": "dense",
+    "name": "East outer city (north)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5668,
+      2441
+     ],
+     [
+      6235,
+      2441
+     ],
+     [
+      6235,
+      3717
+     ],
+     [
+      5668,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "East outer city (Old Song gate)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6381,
+      2441
+     ],
+     [
+      6993,
+      2441
+     ],
+     [
+      6993,
+      3717
+     ],
+     [
+      6381,
+      3717
+     ]
+    ],
+    "density": "dense",
+    "name": "East outer city (New Song gate)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5348,
+      4527
+     ],
+     [
+      6993,
+      4527
+     ],
+     [
+      6993,
+      5459
+     ],
+     [
+      5348,
+      5459
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east outer city",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      411,
+      466
+     ],
+     [
+      2944,
+      466
+     ],
+     [
+      2944,
+      821
+     ],
+     [
+      411,
+      821
+     ]
+    ],
+    "density": "dense",
+    "name": "North outer city",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3090,
+      466
+     ],
+     [
+      4251,
+      466
+     ],
+     [
+      4251,
+      821
+     ],
+     [
+      3090,
+      821
+     ]
+    ],
+    "density": "dense",
+    "name": "North outer city (by Ma Xing Street)",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4434,
+      466
+     ],
+     [
+      5211,
+      466
+     ],
+     [
+      5211,
+      666
+     ],
+     [
+      4434,
+      666
+     ]
+    ],
+    "density": "dense",
+    "name": "Kaibao temple quarter",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5759,
+      466
+     ],
+     [
+      6993,
+      466
+     ],
+     [
+      6993,
+      910
+     ],
+     [
+      5759,
+      910
+     ]
+    ],
+    "density": "dense",
+    "name": "North-east outer city",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      7204,
+      3495
+     ],
+     [
+      7386,
+      3495
+     ],
+     [
+      7386,
+      3717
+     ],
+     [
+      7204,
+      3717
+     ]
+    ],
+    "density": "loose",
+    "name": "Inns outside the east gates",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      37,
+      1553
+     ],
+     [
+      183,
+      1553
+     ],
+     [
+      183,
+      2330
+     ],
+     [
+      37,
+      2330
+     ]
+    ],
+    "density": "loose",
+    "name": "Villages outside the west wall",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1965,
+      3717
+     ],
+     [
+      3428,
+      3717
+     ],
+     [
+      3428,
+      4405
+     ],
+     [
+      1965,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards by the canal (west)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3702,
+      3828
+     ],
+     [
+      4223,
+      4027
+     ],
+     [
+      4223,
+      4405
+     ],
+     [
+      3702,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards by the canal (east)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4370,
+      4083
+     ],
+     [
+      4571,
+      4183
+     ],
+     [
+      4708,
+      4405
+     ],
+     [
+      4370,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards by the canal (south-east)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2530
+     ],
+     [
+      3456,
+      2530
+     ],
+     [
+      3456,
+      3439
+     ],
+     [
+      2029,
+      3184
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards west of the yamen street",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3730,
+      2530
+     ],
+     [
+      5211,
+      2530
+     ],
+     [
+      5138,
+      2829
+     ],
+     [
+      5010,
+      3617
+     ],
+     [
+      4900,
+      3928
+     ],
+     [
+      4479,
+      3739
+     ],
+     [
+      3730,
+      3550
+     ]
+    ],
+    "density": "dense",
+    "name": "Wards round Xiangguo temple",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2194,
+      1387
+     ],
+     [
+      2944,
+      1553
+     ],
+     [
+      2944,
+      2252
+     ],
+     [
+      2194,
+      2252
+     ]
+    ],
+    "density": "loose",
+    "name": "North-west wards",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4415,
+      1686
+     ],
+     [
+      5302,
+      1686
+     ],
+     [
+      5302,
+      2252
+     ],
+     [
+      4415,
+      2252
+     ]
+    ],
+    "density": "loose",
+    "name": "North-east wards",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5211,
+      3684
+     ],
+     [
+      6308,
+      3684
+     ],
+     [
+      6308,
+      3928
+     ],
+     [
+      5211,
+      3928
+     ]
+    ],
+    "density": "loose",
+    "name": "Canal hamlet outside the east gate",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      731,
+      2774
+     ],
+     [
+      1646,
+      2774
+     ],
+     [
+      1646,
+      2973
+     ],
+     [
+      731,
+      2973
+     ]
+    ],
+    "density": "loose",
+    "name": "Canal hamlet outside the west gate",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4297,
+      5603
+     ],
+     [
+      4845,
+      5603
+     ],
+     [
+      4845,
+      5792
+     ],
+     [
+      4297,
+      5792
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet by the Fan terrace",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1965,
+      3717
+     ],
+     [
+      3428,
+      3717
+     ],
+     [
+      3428,
+      4405
+     ],
+     [
+      1965,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city south of the Bian (west)",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3702,
+      3828
+     ],
+     [
+      4223,
+      4027
+     ],
+     [
+      4223,
+      4405
+     ],
+     [
+      3702,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city south of the Bian (east)",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4370,
+      4083
+     ],
+     [
+      4571,
+      4183
+     ],
+     [
+      4708,
+      4405
+     ],
+     [
+      4370,
+      4405
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city south of the Bian (by the Baokang gate)",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2530
+     ],
+     [
+      3456,
+      2530
+     ],
+     [
+      3456,
+      3439
+     ],
+     [
+      2029,
+      3184
+     ]
+    ],
+    "density": "dense",
+    "name": "Inner city west of the Imperial Way",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3730,
+      2530
+     ],
+     [
+      5211,
+      2530
+     ],
+     [
+      5138,
+      2829
+     ],
+     [
+      5010,
+      3617
+     ],
+     [
+      4900,
+      3928
+     ],
+     [
+      4479,
+      3739
+     ],
+     [
+      3730,
+      3550
+     ]
+    ],
+    "density": "dense",
+    "name": "Xiangguo temple quarter",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2194,
+      1387
+     ],
+     [
+      2944,
+      1553
+     ],
+     [
+      2944,
+      2252
+     ],
+     [
+      2194,
+      2252
+     ]
+    ],
+    "density": "loose",
+    "name": "North-west inner city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4022,
+      1065
+     ],
+     [
+      4278,
+      1065
+     ],
+     [
+      4278,
+      2252
+     ],
+     [
+      4022,
+      2252
+     ]
+    ],
+    "density": "loose",
+    "name": "Ma Xing Street quarter",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4415,
+      1686
+     ],
+     [
+      5302,
+      1686
+     ],
+     [
+      5302,
+      2252
+     ],
+     [
+      4415,
+      2252
+     ]
+    ],
+    "density": "loose",
+    "name": "Pan Tower quarter",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1810,
+      4638
+     ],
+     [
+      3273,
+      4638
+     ],
+     [
+      3273,
+      5370
+     ],
+     [
+      1810,
+      5370
+     ]
+    ],
+    "density": "loose",
+    "name": "South outer city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3520,
+      4638
+     ],
+     [
+      4223,
+      4638
+     ],
+     [
+      4223,
+      5370
+     ],
+     [
+      3520,
+      5370
+     ]
+    ],
+    "density": "loose",
+    "name": "South outer city (east)",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5668,
+      2441
+     ],
+     [
+      6235,
+      2441
+     ],
+     [
+      6235,
+      3717
+     ],
+     [
+      5668,
+      3717
+     ]
+    ],
+    "density": "loose",
+    "name": "East outer city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6381,
+      2441
+     ],
+     [
+      6993,
+      2441
+     ],
+     [
+      6993,
+      3717
+     ],
+     [
+      6381,
+      3717
+     ]
+    ],
+    "density": "loose",
+    "name": "East outer city (New Song gate)",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      411,
+      3462
+     ],
+     [
+      1691,
+      3462
+     ],
+     [
+      1691,
+      4438
+     ],
+     [
+      411,
+      4438
+     ]
+    ],
+    "density": "loose",
+    "name": "West outer city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4434,
+      466
+     ],
+     [
+      5211,
+      466
+     ],
+     [
+      5211,
+      666
+     ],
+     [
+      4434,
+      666
+     ]
+    ],
+    "density": "loose",
+    "name": "Kaibao temple quarter",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      3606
+     ],
+     [
+      2761,
+      3606
+     ],
+     [
+      2761,
+      4127
+     ],
+     [
+      2029,
+      4127
+     ]
+    ],
+    "density": "dense",
+    "name": "South-west quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2925,
+      3717
+     ],
+     [
+      3346,
+      3717
+     ],
+     [
+      3346,
+      4327
+     ],
+     [
+      2925,
+      4327
+     ]
+    ],
+    "density": "dense",
+    "name": "South-west quarter (by the South gate)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2574
+     ],
+     [
+      2761,
+      2574
+     ],
+     [
+      2761,
+      3329
+     ],
+     [
+      2029,
+      3329
+     ]
+    ],
+    "density": "dense",
+    "name": "West quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2925,
+      2574
+     ],
+     [
+      3456,
+      2574
+     ],
+     [
+      3456,
+      3439
+     ],
+     [
+      2925,
+      3439
+     ]
+    ],
+    "density": "dense",
+    "name": "West quarter (by the main street)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3675,
+      2574
+     ],
+     [
+      3858,
+      2574
+     ],
+     [
+      3858,
+      3162
+     ],
+     [
+      3675,
+      3162
+     ]
+    ],
+    "density": "dense",
+    "name": "Drum Tower quarter (west)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4004,
+      2574
+     ],
+     [
+      4406,
+      2574
+     ],
+     [
+      4406,
+      3550
+     ],
+     [
+      4114,
+      3362
+     ],
+     [
+      4004,
+      3195
+     ]
+    ],
+    "density": "dense",
+    "name": "Drum Tower quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4553,
+      2663
+     ],
+     [
+      5211,
+      2663
+     ],
+     [
+      5156,
+      2829
+     ],
+     [
+      5028,
+      3617
+     ],
+     [
+      4900,
+      3883
+     ],
+     [
+      4553,
+      3661
+     ]
+    ],
+    "density": "dense",
+    "name": "East quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3657,
+      3329
+     ],
+     [
+      4068,
+      3462
+     ],
+     [
+      4662,
+      3894
+     ],
+     [
+      4662,
+      4105
+     ],
+     [
+      4297,
+      3917
+     ],
+     [
+      3840,
+      3750
+     ],
+     [
+      3657,
+      3650
+     ]
+    ],
+    "density": "dense",
+    "name": "Xiangguo temple quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3584,
+      3772
+     ],
+     [
+      3840,
+      3883
+     ],
+     [
+      4297,
+      4050
+     ],
+     [
+      4754,
+      4305
+     ],
+     [
+      4644,
+      4482
+     ],
+     [
+      3565,
+      4438
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2788,
+      666
+     ],
+     [
+      2377,
+      1309
+     ],
+     [
+      2103,
+      2330
+     ],
+     [
+      2907,
+      2330
+     ],
+     [
+      2907,
+      666
+     ]
+    ],
+    "density": "dense",
+    "name": "North-west quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4297,
+      721
+     ],
+     [
+      4406,
+      721
+     ],
+     [
+      4406,
+      2352
+     ],
+     [
+      4297,
+      2352
+     ]
+    ],
+    "density": "dense",
+    "name": "North-east quarter (by the North Gate street)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4644,
+      721
+     ],
+     [
+      5439,
+      721
+     ],
+     [
+      5320,
+      2053
+     ],
+     [
+      5320,
+      2352
+     ],
+     [
+      4571,
+      2352
+     ]
+    ],
+    "density": "dense",
+    "name": "North-east quarter",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3017,
+      599
+     ],
+     [
+      4251,
+      599
+     ],
+     [
+      4251,
+      1054
+     ],
+     [
+      3017,
+      1054
+     ]
+    ],
+    "density": "dense",
+    "name": "Lanes north of the Zhou palace",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5256,
+      3717
+     ],
+     [
+      6308,
+      3717
+     ],
+     [
+      6308,
+      3972
+     ],
+     [
+      5256,
+      3972
+     ]
+    ],
+    "density": "dense",
+    "name": "East suburb (Song gate)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5211,
+      4172
+     ],
+     [
+      6125,
+      4172
+     ],
+     [
+      6125,
+      4460
+     ],
+     [
+      5211,
+      4460
+     ]
+    ],
+    "density": "loose",
+    "name": "East suburb (south of the road)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5622,
+      2164
+     ],
+     [
+      6308,
+      2164
+     ],
+     [
+      6308,
+      2419
+     ],
+     [
+      5622,
+      2419
+     ]
+    ],
+    "density": "loose",
+    "name": "East suburb (Cao gate)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5622,
+      2663
+     ],
+     [
+      6308,
+      2663
+     ],
+     [
+      6308,
+      2940
+     ],
+     [
+      5622,
+      2940
+     ]
+    ],
+    "density": "loose",
+    "name": "East suburb (south of the Cao gate road)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2834,
+      4793
+     ],
+     [
+      3309,
+      4793
+     ],
+     [
+      3309,
+      5104
+     ],
+     [
+      2834,
+      5104
+     ]
+    ],
+    "density": "loose",
+    "name": "South suburb",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      914,
+      2164
+     ],
+     [
+      1600,
+      2164
+     ],
+     [
+      1600,
+      2419
+     ],
+     [
+      914,
+      2419
+     ]
+    ],
+    "density": "loose",
+    "name": "West suburb",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      914,
+      2641
+     ],
+     [
+      1600,
+      2641
+     ],
+     [
+      1600,
+      2940
+     ],
+     [
+      914,
+      2940
+     ]
+    ],
+    "density": "loose",
+    "name": "West suburb (south of the road)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4205,
+      22
+     ],
+     [
+      4553,
+      22
+     ],
+     [
+      4553,
+      244
+     ],
+     [
+      4205,
+      244
+     ]
+    ],
+    "density": "loose",
+    "name": "North suburb",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4735,
+      22
+     ],
+     [
+      5211,
+      22
+     ],
+     [
+      5211,
+      244
+     ],
+     [
+      4735,
+      244
+     ]
+    ],
+    "density": "loose",
+    "name": "North suburb (east)",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4297,
+      5681
+     ],
+     [
+      5028,
+      5681
+     ],
+     [
+      5028,
+      5814
+     ],
+     [
+      4297,
+      5814
+     ]
+    ],
+    "density": "loose",
+    "name": "Village by the Fan pagoda",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3675,
+      2574
+     ],
+     [
+      3858,
+      2574
+     ],
+     [
+      3858,
+      3162
+     ],
+     [
+      3675,
+      3162
+     ]
+    ],
+    "density": "dense",
+    "name": "Drum Tower quarter (west)",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4004,
+      2574
+     ],
+     [
+      4406,
+      2574
+     ],
+     [
+      4406,
+      3550
+     ],
+     [
+      4114,
+      3362
+     ],
+     [
+      4004,
+      3195
+     ]
+    ],
+    "density": "dense",
+    "name": "Drum Tower quarter",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4553,
+      2663
+     ],
+     [
+      5211,
+      2663
+     ],
+     [
+      5156,
+      2829
+     ],
+     [
+      5028,
+      3617
+     ],
+     [
+      4900,
+      3883
+     ],
+     [
+      4553,
+      3661
+     ]
+    ],
+    "density": "dense",
+    "name": "East quarter",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3657,
+      3351
+     ],
+     [
+      3977,
+      3495
+     ],
+     [
+      4297,
+      3717
+     ],
+     [
+      4297,
+      4050
+     ],
+     [
+      3657,
+      4050
+     ]
+    ],
+    "density": "dense",
+    "name": "Xiangguo temple lanes",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3017,
+      2574
+     ],
+     [
+      3456,
+      2574
+     ],
+     [
+      3456,
+      3040
+     ],
+     [
+      3017,
+      3040
+     ]
+    ],
+    "density": "dense",
+    "name": "West of the Drum Tower",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2029,
+      2530
+     ],
+     [
+      2761,
+      2530
+     ],
+     [
+      2761,
+      3040
+     ],
+     [
+      2029,
+      3040
+     ]
+    ],
+    "density": "loose",
+    "name": "Lanes south of the lakes",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4553,
+      1664
+     ],
+     [
+      5211,
+      1664
+     ],
+     [
+      5211,
+      2330
+     ],
+     [
+      4553,
+      2330
+     ]
+    ],
+    "density": "loose",
+    "name": "North-east lanes",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4644,
+      666
+     ],
+     [
+      5211,
+      666
+     ],
+     [
+      5211,
+      1220
+     ],
+     [
+      4644,
+      1220
+     ]
+    ],
+    "density": "loose",
+    "name": "North lanes",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5211,
+      3772
+     ],
+     [
+      5942,
+      3772
+     ],
+     [
+      5942,
+      3972
+     ],
+     [
+      5211,
+      3972
+     ]
+    ],
+    "density": "loose",
+    "name": "East suburb (Song gate)",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1097,
+      2164
+     ],
+     [
+      1600,
+      2164
+     ],
+     [
+      1600,
+      2397
+     ],
+     [
+      1097,
+      2397
+     ]
+    ],
+    "density": "loose",
+    "name": "West suburb",
+    "periods": [
+     "qing-1700"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      4498,
+      1198
+     ],
+     [
+      5046,
+      1198
+     ],
+     [
+      5046,
+      1664
+     ],
+     [
+      4498,
+      1664
+     ]
+    ],
+    "kind": "park",
+    "name": "Genyue garden",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3282,
+      1587
+     ],
+     [
+      3940,
+      1587
+     ],
+     [
+      3940,
+      1709
+     ],
+     [
+      3282,
+      1709
+     ]
+    ],
+    "kind": "park",
+    "name": "Rear garden of the palace",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3291,
+      1609
+     ],
+     [
+      3931,
+      1609
+     ],
+     [
+      3931,
+      2219
+     ],
+     [
+      3291,
+      2219
+     ]
+    ],
+    "kind": "park",
+    "name": "Gardens of the governor's compound",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2194,
+      1065
+     ],
+     [
+      5211,
+      1065
+     ],
+     [
+      5211,
+      1553
+     ],
+     [
+      2194,
+      1553
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields inside the north wall",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5759,
+      111
+     ],
+     [
+      7405,
+      111
+     ],
+     [
+      7405,
+      3550
+     ],
+     [
+      5759,
+      3550
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields east of the city",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      4549
+     ],
+     [
+      7405,
+      4549
+     ],
+     [
+      7405,
+      5547
+     ],
+     [
+      0,
+      5547
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields south of the city",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      5547
+     ],
+     [
+      4205,
+      5547
+     ],
+     [
+      4205,
+      5836
+     ],
+     [
+      0,
+      5836
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields by the Fan terrace (west)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4937,
+      5547
+     ],
+     [
+      7405,
+      5547
+     ],
+     [
+      7405,
+      5836
+     ],
+     [
+      4937,
+      5836
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields by the Fan terrace (east)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      6102
+     ],
+     [
+      7405,
+      6102
+     ],
+     [
+      7405,
+      6657
+     ],
+     [
+      0,
+      6657
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields far south",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      111
+     ],
+     [
+      1554,
+      111
+     ],
+     [
+      1554,
+      2752
+     ],
+     [
+      0,
+      2752
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields west of the city (north)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      3329
+     ],
+     [
+      1554,
+      3329
+     ],
+     [
+      1554,
+      4216
+     ],
+     [
+      0,
+      4216
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields west of the city (south)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1646,
+      0
+     ],
+     [
+      5759,
+      0
+     ],
+     [
+      5759,
+      754
+     ],
+     [
+      1646,
+      754
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields north of the city",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4937,
+      5681
+     ],
+     [
+      6993,
+      5681
+     ],
+     [
+      6993,
+      6169
+     ],
+     [
+      4937,
+      6169
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Gardens beyond the Cai",
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      6346
+     ],
+     [
+      7405,
+      6346
+     ],
+     [
+      7405,
+      6657
+     ],
+     [
+      0,
+      6657
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields beyond the south wall",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      7176,
+      111
+     ],
+     [
+      7405,
+      111
+     ],
+     [
+      7405,
+      3329
+     ],
+     [
+      7176,
+      3329
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields beyond the east wall",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      411,
+      466
+     ],
+     [
+      4251,
+      466
+     ],
+     [
+      4251,
+      865
+     ],
+     [
+      411,
+      865
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields in the north outer city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      411,
+      5681
+     ],
+     [
+      4571,
+      5681
+     ],
+     [
+      4571,
+      6169
+     ],
+     [
+      411,
+      6169
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields in the south outer city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4937,
+      5681
+     ],
+     [
+      6993,
+      5681
+     ],
+     [
+      6993,
+      6169
+     ],
+     [
+      4937,
+      6169
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields in the south outer city (east)",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5759,
+      466
+     ],
+     [
+      6993,
+      466
+     ],
+     [
+      6993,
+      2219
+     ],
+     [
+      5759,
+      2219
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields in the east outer city",
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3035,
+      1220
+     ],
+     [
+      4187,
+      1220
+     ],
+     [
+      4187,
+      1420
+     ],
+     [
+      3035,
+      1420
+     ]
+    ],
+    "kind": "park",
+    "name": "Gardens of the Zhou palace",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      5215
+     ],
+     [
+      7405,
+      5215
+     ],
+     [
+      7405,
+      5603
+     ],
+     [
+      0,
+      5603
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields outside the walls (south)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      5603
+     ],
+     [
+      4205,
+      5603
+     ],
+     [
+      4205,
+      5858
+     ],
+     [
+      0,
+      5858
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields round the Fan pagoda (west)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5119,
+      5603
+     ],
+     [
+      7405,
+      5603
+     ],
+     [
+      7405,
+      5858
+     ],
+     [
+      5119,
+      5858
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields round the Fan pagoda (east)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      5858
+     ],
+     [
+      4571,
+      5858
+     ],
+     [
+      4571,
+      6657
+     ],
+     [
+      0,
+      6657
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields far south (west)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4891,
+      5858
+     ],
+     [
+      7405,
+      5858
+     ],
+     [
+      7405,
+      6657
+     ],
+     [
+      4891,
+      6657
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields far south (east)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6399,
+      111
+     ],
+     [
+      7405,
+      111
+     ],
+     [
+      7405,
+      4993
+     ],
+     [
+      6399,
+      4993
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields outside the walls (east)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      0,
+      111
+     ],
+     [
+      823,
+      111
+     ],
+     [
+      823,
+      4993
+     ],
+     [
+      0,
+      4993
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields outside the walls (west)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      823,
+      0
+     ],
+     [
+      4159,
+      0
+     ],
+     [
+      4159,
+      244
+     ],
+     [
+      823,
+      244
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields outside the walls (north)",
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2788,
+      666
+     ],
+     [
+      2377,
+      1309
+     ],
+     [
+      2103,
+      2330
+     ],
+     [
+      3200,
+      2330
+     ],
+     [
+      3200,
+      666
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields inside the walls (north-west)",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2011,
+      4216
+     ],
+     [
+      3017,
+      4383
+     ],
+     [
+      3200,
+      4438
+     ],
+     [
+      3200,
+      4161
+     ],
+     [
+      2011,
+      4150
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields inside the walls (south-west)",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3657,
+      4105
+     ],
+     [
+      4662,
+      4105
+     ],
+     [
+      4662,
+      4482
+     ],
+     [
+      3657,
+      4482
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields inside the walls (south-east)",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4644,
+      1276
+     ],
+     [
+      5394,
+      1276
+     ],
+     [
+      5394,
+      1609
+     ],
+     [
+      4644,
+      1609
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields inside the walls (north-east)",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3245,
+      1109
+     ],
+     [
+      4205,
+      1109
+     ],
+     [
+      4205,
+      1498
+     ],
+     [
+      3245,
+      1498
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields on the Zhou palace",
+    "periods": [
+     "qing-1700"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      3200,
+      2219
+     ],
+     [
+      3931,
+      2219
+     ],
+     [
+      3931,
+      2352
+     ],
+     [
+      3200,
+      2352
+     ]
+    ],
+    "name": "Reed beds of the drowned palace",
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2103,
+      2940
+     ],
+     [
+      2651,
+      2940
+     ],
+     [
+      2651,
+      3129
+     ],
+     [
+      2103,
+      3129
+     ]
+    ],
+    "name": "Waterlogged ground by Baogong lake",
+    "periods": [
+     "qing-1700"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "danei",
+    "name": "Palace city (Danei)",
+    "polygon": [
+     [
+      3245,
+      1553
+     ],
+     [
+      3977,
+      1553
+     ],
+     [
+      3977,
+      2274
+     ],
+     [
+      3245,
+      2274
+     ]
+    ],
+    "description": "The Song emperors' palace, grown from the Tang governor's compound and the Later Liang and Later Zhou palaces: the Daqing hall for great audiences, the Wende and Chuigong halls for daily business, the inner palace and gardens behind.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "id": "licheng",
+    "name": "Inner city (Licheng)",
+    "polygon": [
+     [
+      2103,
+      999
+     ],
+     [
+      5503,
+      999
+     ],
+     [
+      5384,
+      2053
+     ],
+     [
+      5403,
+      2630
+     ],
+     [
+      5229,
+      2829
+     ],
+     [
+      5101,
+      3617
+     ],
+     [
+      4955,
+      4072
+     ],
+     [
+      4845,
+      4460
+     ],
+     [
+      1810,
+      4460
+     ],
+     [
+      1828,
+      3195
+     ],
+     [
+      1920,
+      2463
+     ],
+     [
+      2084,
+      1287
+     ]
+    ],
+    "description": "The 'old city' of the Tang, packed with government offices, the mansions of the great, the great temples and the busiest streets: the Imperial Way, the Pan Tower and Ma Xing streets, the Zhou bridge night market.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "id": "waicheng-east",
+    "name": "Outer city: the eastern wards",
+    "polygon": [
+     [
+      5576,
+      444
+     ],
+     [
+      7085,
+      444
+     ],
+     [
+      7085,
+      5991
+     ],
+     [
+      5576,
+      5991
+     ]
+    ],
+    "description": "Between the two walls on the east, where the Bian came in from the Huai: granaries, wharves, boatmen's inns, warehouses and the markets that grew up round the water gates.",
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "id": "bianzhou",
+    "name": "Bianzhou",
+    "polygon": [
+     [
+      2103,
+      999
+     ],
+     [
+      5503,
+      999
+     ],
+     [
+      5384,
+      2053
+     ],
+     [
+      5403,
+      2630
+     ],
+     [
+      5229,
+      2829
+     ],
+     [
+      5101,
+      3617
+     ],
+     [
+      4955,
+      4072
+     ],
+     [
+      4845,
+      4460
+     ],
+     [
+      1810,
+      4460
+     ],
+     [
+      1828,
+      3195
+     ],
+     [
+      1920,
+      2463
+     ],
+     [
+      2084,
+      1287
+     ]
+    ],
+    "description": "The prefectural city of Bianzhou, seat from 781 of the Xuanwu military governor: a walled town at the crossing of the Tongji canal and the roads across the plain.",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "id": "zhou-palace-d",
+    "name": "Palace of the Prince of Zhou",
+    "polygon": [
+     [
+      2998,
+      1165
+     ],
+     [
+      4223,
+      1165
+     ],
+     [
+      4223,
+      2308
+     ],
+     [
+      2998,
+      2308
+     ]
+    ],
+    "description": "The palace of Zhu Su, fifth son of the Hongwu emperor, made Prince of Zhou in 1370 and settled in Kaifeng in 1378, and of his descendants for 260 years: walled courts on the old Song-Jin palace site, gardens, and a hill behind.",
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "id": "kaifeng-qing",
+    "name": "Walled city of Kaifeng",
+    "polygon": [
+     [
+      3017,
+      455
+     ],
+     [
+      3766,
+      433
+     ],
+     [
+      5622,
+      666
+     ],
+     [
+      5640,
+      777
+     ],
+     [
+      5384,
+      2053
+     ],
+     [
+      5403,
+      2630
+     ],
+     [
+      5229,
+      2829
+     ],
+     [
+      5101,
+      3617
+     ],
+     [
+      4955,
+      4072
+     ],
+     [
+      4726,
+      4616
+     ],
+     [
+      4598,
+      4682
+     ],
+     [
+      3456,
+      4505
+     ],
+     [
+      3382,
+      4593
+     ],
+     [
+      2980,
+      4416
+     ],
+     [
+      1764,
+      4194
+     ],
+     [
+      1728,
+      4072
+     ],
+     [
+      1828,
+      3195
+     ],
+     [
+      1874,
+      2696
+     ],
+     [
+      1920,
+      2463
+     ],
+     [
+      2249,
+      1287
+     ],
+     [
+      2551,
+      555
+     ],
+     [
+      2688,
+      499
+     ]
+    ],
+    "description": "The Qing provincial capital rebuilt on the silt: yamens, temples, guild halls and markets along a few streets; lakes, ponds and fields fill much of the area inside the walls.",
+    "periods": [
+     "qing-1700"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Bianzhou",
+    "position": [
+     1188,
+     666
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "text": "Dongjing",
+    "position": [
+     1006,
+     5858
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "song-1120"
+    ]
+   },
+   {
+    "text": "Nanjing (Bianjing)",
+    "position": [
+     1188,
+     5858
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Kaifeng",
+    "position": [
+     1371,
+     5991
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   },
+   {
+    "text": "Bian river",
+    "position": [
+     6491,
+     4460
+    ],
+    "size": "md",
+    "rotation": 2,
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Cai river",
+    "position": [
+     2651,
+     5703
+    ],
+    "size": "sm",
+    "rotation": -3,
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Wuzhang river",
+    "position": [
+     2103,
+     200
+    ],
+    "size": "sm",
+    "rotation": 4,
+    "periods": [
+     "tang-800",
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Imperial Way",
+    "position": [
+     3456,
+     3107
+    ],
+    "size": "sm",
+    "rotation": -88,
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Inner city",
+    "position": [
+     2560,
+     1276
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Outer city",
+    "position": [
+     6308,
+     1553
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Palace",
+    "position": [
+     3611,
+     1642
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "song-1120",
+     "jin-1200"
+    ]
+   },
+   {
+    "text": "Zhou palace",
+    "position": [
+     3611,
+     1276
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ming-1600"
+    ]
+   },
+   {
+    "text": "Yang lake",
+    "position": [
+     3200,
+     2086
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "text": "Pan lake",
+    "position": [
+     3977,
+     2086
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "text": "Baogong lake",
+    "position": [
+     2377,
+     3717
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "qing-1700"
+    ]
+   },
+   {
+    "text": "Ring dyke",
+    "position": [
+     2103,
+     6302
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "ming-1600",
+     "qing-1700"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E8D6AE",
+   "ink": "#5C4434",
+   "water": "#62878A",
+   "hill": "#7A7D58",
+   "road": "#8C6C4C"
+  },
+  "compass": [
+   7204,
+   311
+  ],
+  "cartouche": [
+   55,
+   6590
+  ]
+ },
+ "periods": [
+  {
+   "id": "tang-800",
+   "label": "Bianzhou on the Grand Canal",
+   "year": 800,
+   "startYear": 618,
+   "endYear": 906,
+   "summary": "A prefectural city where the Tongji canal, the Sui Grand Canal's main stem, met the roads of the plain: grain barges from the Huai and the Yangzi passed through on their way to Luoyang and Chang'an. In 781 the governor Li Mian rebuilt its rammed-earth walls, some 20 li round. The Xuanwu army's headquarters stood where the Song palace would be; Xiangguo temple was named in 712.",
+   "population": "perhaps 100,000 or more (no reliable figure)",
+   "feel": "Barge haulers chanting on the towpath, grain dust at the transfer granaries, and drums from the governor's yamen at dusk.",
+   "style": "sinic",
+   "houses": {
+    "title": "Wards of a canal town",
+    "text": "Inside the walls, lanes of rammed-earth courtyard houses under grey tile and thatch, still grouped in walled wards with gates shut at night. Inns, granaries and boatmen's quarters crowd the canal banks."
+   },
+   "outskirts": {
+    "title": "Fields of the Bian plain",
+    "text": "Wheat and millet on the flat yellow loam, hamlets of earth houses along the canal and the roads to Zhengzhou and Song, willows on the towpath."
+   }
+  },
+  {
+   "id": "song-1120",
+   "label": "Dongjing, the Northern Song capital",
+   "year": 1120,
+   "startYear": 907,
+   "endYear": 1127,
+   "summary": "Capital of four Five Dynasties houses and, from 960, of the Song: three nested walls, the outer some 29 km round, four canals bringing the grain of the south. Perhaps a million people. The ward walls are gone: shops open onto the streets, markets run all night, and teahouses, taverns and theatres crowd the city of Zhang Zeduan's scroll. Emperor Huizong builds the Genyue garden.",
+   "population": "perhaps 1,000,000 (estimates 0.5–1.5 million)",
+   "feel": "Lanterns over the Ma Xing street night market, the smell of coal smoke and roast mutton, drums from the theatres and boatmen shouting under the Rainbow Bridge.",
+   "style": "sinic",
+   "houses": {
+    "title": "Shophouses open to the street",
+    "text": "No ward walls now: narrow two-storey shophouses of timber and plaster stand gable to gable along the streets, with open fronts, awnings, shop signs and tavern flags. Behind them, family courtyards and workshops; tile for the rich, thatch and boards for the poor."
+   },
+   "outskirts": {
+    "title": "Market gardens and canal hamlets",
+    "text": "Between the walls and beyond: vegetable plots, orchards, grave mounds and the villas of officials, with hamlets of inns and warehouses on the canals."
+   }
+  },
+  {
+   "id": "jin-1200",
+   "label": "Nanjing (Bianjing) of the Jin",
+   "year": 1200,
+   "startYear": 1128,
+   "endYear": 1233,
+   "summary": "The Jurchens took the city in 1127 and carried off two emperors and the court. Under the Jin it was the 'Southern Capital': Prince Hailing rebuilt the palace in the 1150s, but Song money, scholars and trade had gone south. In 1214 the Jin court fled here from the Mongols, and in 1232–1233 the city was starved and stormed after a long siege.",
+   "population": "perhaps 200,000–400,000, swollen by refugees after 1214",
+   "feel": "Jurchen horsemen in the empty streets of the outer city, weeds in the old theatres, and after 1214 the crush of refugees and soldiers.",
+   "style": "sinic",
+   "houses": {
+    "title": "Patched houses of the inner city",
+    "text": "Life withdraws into the inner city: Song shophouses patched and subdivided, Jurchen officials in the old mansions, temples kept up by fewer monks."
+   },
+   "outskirts": {
+    "title": "The empty outer city",
+    "text": "Burnt and abandoned blocks between the walls go back to vegetable gardens and fields; soldiers camp in deserted compounds."
+   }
+  },
+  {
+   "id": "ming-1600",
+   "label": "Ming Kaifeng and the Prince of Zhou",
+   "year": 1600,
+   "startYear": 1368,
+   "endYear": 1642,
+   "summary": "The Ming made Kaifeng the capital of Henan and the seat of the Prince of Zhou, whose vast palace covered the old Song-Jin palace site. The walls were rebuilt and faced in brick, the city ringed by Yellow River dykes. Kaifeng was rich: merchants from Shanxi and Huizhou, a Jewish congregation with its synagogue, princely gardens. In 1642 the dykes were cut during Li Zicheng's siege.",
+   "population": "perhaps 300,000–400,000 before 1642",
+   "feel": "Bells from the Zhou palace, silk and medicine shops round the Drum Tower, carts on the brick-paved main streets, and the Yellow River always higher than the roofs.",
+   "style": "sinic",
+   "houses": {
+    "title": "Courtyard houses of the Ming city",
+    "text": "Grey-brick quadrangle houses behind blank walls and gate towers line straight lanes off the main streets; princely kinsmen, officials and merchants hold the big compounds, shopkeepers live over their shops on the Drum Tower streets."
+   },
+   "outskirts": {
+    "title": "Suburbs and dyked fields",
+    "text": "Outside the gates, suburbs (guan) of inns and carters; beyond, wheat fields on the old Song city, behind the ring dyke against the Yellow River."
+   }
+  },
+  {
+   "id": "qing-1700",
+   "label": "Qing Kaifeng over the silt",
+   "year": 1700,
+   "startYear": 1643,
+   "endYear": 1840,
+   "summary": "The flood of 1642 buried the Ming city under metres of silt and drowned most of its people. The Qing rebuilt the walls on the old line in the 1660s, but the city inside was half empty: lakes in the hollows of the Zhou palace, fields within the walls. In 1692 a pavilion was raised on the palace's old Coal Hill, the later Dragon Pavilion.",
+   "population": "perhaps 50,000–100,000 (no reliable figure)",
+   "feel": "Reed beds and fishing boats in the palace lakes, cattle grazing inside the walls, and the bells of the rebuilt Xiangguo temple.",
+   "style": "sinic",
+   "houses": {
+    "title": "Rebuilt courtyards on the silt",
+    "text": "One-storey brick and adobe courtyard houses rebuilt on the silt over the Ming city, thickest along the streets from the Drum Tower to the Song gate and round Xiangguo temple."
+   },
+   "outskirts": {
+    "title": "Flood-silt fields",
+    "text": "Inside and outside the walls, fields of sandy flood silt: wheat, peanuts, jujube trees and ponds left in the low ground, where the Ming city lies buried some metres down."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "iron-pagoda",
+   "placeId": "iron-pagoda",
+   "name": "Iron Pagoda (Youguo temple)",
+   "category": "religious",
+   "position": [
+    5293,
+    821
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/iron-pagoda.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 90,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120",
+    "jin-1200",
+    "ming-1600",
+    "qing-1700"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Outside the walls to the north-east stands a small temple, said to have been founded in the Northern Qi; under the Song it will become the great Kaibao temple."
+    },
+    "song-1120": {
+     "name": "Iron Pagoda of the Kaibao temple",
+     "note": "New in 1049, replacing Yu Hao's timber pagoda of 989, burned by lightning in 1044. It rises over the Kaibao temple, one of the capital's great temples, outside the inner city's north-east corner."
+    },
+    "jin-1200": {
+     "note": "It stood through the sack of 1127; the temple round it was damaged and patched by the Jin."
+    },
+    "ming-1600": {
+     "name": "Iron Pagoda of the Youguo temple",
+     "note": "The temple, rebuilt and renamed Youguo in the Ming, now lies inside the north-east corner of the brick wall."
+    },
+    "qing-1700": {
+     "note": "The silt of 1642 buried the pagoda's base and the temple halls; the tower itself stood, its lowest storey now at the level of the new ground."
+    }
+   },
+   "summary": "A thirteen-storey octagonal brick pagoda of 1049, about 55 m tall, clad in glazed tiles of a rust-brown colour that gave it its name: it looks like iron, but is not.",
+   "details": [
+    "Built in 1049 to house a relic, after the timber pagoda by the master builder Yu Hao burned. The walls are faced with some fifty kinds of moulded glazed tiles showing Buddhas, flying apsaras, lions, musicians and flowers. A spiral stair climbs inside the core. It has survived floods, earthquakes and Japanese shellfire in 1938.",
+    "The miniature shows the slender octagonal shaft with thin tiled eaves, niches and doors on alternating faces, bells at the eave corners and a gourd finial, on a stone base over the silted ground, with a small temple court. Tile figures are reduced to bands and niches."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-iron-pagoda",
+    "steinhardt-arch",
+    "liang-sicheng"
+   ],
+   "built": "1049",
+   "function": "Relic pagoda of the Kaibao (Youguo) temple",
+   "activity": {
+    "figures": 20,
+    "radius": 110
+   }
+  },
+  {
+   "id": "fan-pagoda",
+   "placeId": "fan-pagoda",
+   "name": "Fan Pagoda (Tianqing temple)",
+   "category": "religious",
+   "position": [
+    4735,
+    5925
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/fan-pagoda.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 110,
+     "height": 40.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120",
+    "jin-1200",
+    "ming-1600",
+    "qing-1700"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "The Fan terrace (Fantai), a low mound south-east of the town named after the Fan family who lived round it; an old music terrace stood nearby."
+    },
+    "song-1120": {
+     "note": "Begun in 974 for the Tianqing temple on the Fan terrace: a hexagonal brick tower of nine storeys, probably the capital's tallest before the Iron Pagoda (its full height is not known)."
+    },
+    "jin-1200": {
+     "note": "Still standing at full height above the half-empty southern outer city."
+    },
+    "ming-1600": {
+     "note": "Truncated: the upper storeys, damaged in the Yuan, were pulled down early in the Ming, legend says to 'cut off the royal aura'. Three storeys remain, with a flat top.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/kaifeng/fan-pagoda-ming.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 110,
+       "height": 40.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "qing-1700": {
+     "note": "Still three storeys; in the Qing a small seven-tiered spire was set on the flat top, giving the odd silhouette it keeps today.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/kaifeng/fan-pagoda-qing.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 110,
+       "height": 40.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The oldest building in Kaifeng: a squat hexagonal brick pagoda of the 970s, its walls covered in thousands of moulded tiles each showing a seated Buddha. Cut down to three storeys in the Ming.",
+   "details": [
+    "The pagoda of the Tianqing temple was begun in 974 on the Fan terrace in the south-east of the outer city. Its brick faces are lined with some 7,000 square tiles, each with a Buddha in a niche, in over a hundred designs, and steles with sutra texts are set into the inner walls. The present stump is about 32 m high.",
+    "The Song miniature shows the full pagoda as an interpretation: nine diminishing hexagonal storeys with corbelled brick eaves. Its original height and crown are not recorded. The Ming and Qing variants show the surviving three storeys, with the later small spire."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kaifeng",
+    "wiki-chinese-pagoda",
+    "steinhardt-arch"
+   ],
+   "built": "974-977 (begun)",
+   "function": "Pagoda of the Tianqing temple",
+   "activity": {
+    "figures": 14,
+    "radius": 110
+   }
+  },
+  {
+   "id": "xiangguo-temple",
+   "placeId": "xiangguo-temple",
+   "name": "Xiangguo Temple",
+   "category": "religious",
+   "position": [
+    3821,
+    3484
+   ],
+   "rotation": 0,
+   "footprint": [
+    180.0,
+    241.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/xiangguo-temple.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 180,
+     "depth": 240,
+     "height": 72.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "song-1120",
+    "jin-1200",
+    "ming-1600",
+    "qing-1700"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Founded in 555 as the Jianguo temple, renamed Xiangguo ('Minister of State') by Emperor Ruizong in 712. A large prefectural temple by the canal; the miniature shows its later Song form."
+    },
+    "song-1120": {
+     "name": "Daxiangguo Temple",
+     "note": "The greatest temple of the capital, 64 courtyards, its bell and drum towers rising over the Bian. Five times a month its courtyards became a market of thousands of traders, Meng Yuanlao says."
+    },
+    "jin-1200": {
+     "note": "Plundered in 1127 but kept up under the Jin; in the siege of 1232 its courtyards sheltered refugees."
+    },
+    "ming-1600": {
+     "note": "Rebuilt in the Ming and still the city's great temple, with fairs and storytellers in its courts, until the flood of 1642 buried it."
+    },
+    "qing-1700": {
+     "note": "Rebuilt on the silt after 1642 and again in 1766 under Qianlong, with the octagonal glazed Luohan hall that still stands.",
+     "confidence": "documented",
+     "model": {
+      "glb": "models/kaifeng/xiangguo-temple-qing.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 180,
+       "depth": 240,
+       "height": 72.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "Kaifeng's great Buddhist temple by the Bian, founded in 555 and named in 712: under the Song the largest temple of the capital, its courts a famous monthly market.",
+   "details": [
+    "The Song temple was the emperors' favourite, with frescoes by famous painters, a giant gilt Buddha and halls rebuilt after fires in the 990s. Its market, open five days a month, sold everything from birds and pets to mats, bows, books, paintings, incense and the embroidery of nuns, Meng Yuanlao says.",
+    "The Song miniature is an interpretation from texts: a gate, bell and drum towers, the main hall on a terrace, a tall pavilion behind and side galleries round the market court. The Qing variant follows the present buildings of 1766, with the octagonal Luohan hall."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-xiangguo",
+    "dongjing-menghualu",
+    "heng"
+   ],
+   "built": "555 (founded); 712 (named); rebuilt 1766",
+   "function": "Buddhist temple and market",
+   "activity": {
+    "figures": 70,
+    "radius": 180
+   }
+  },
+  {
+   "id": "song-palace",
+   "placeId": "song-palace",
+   "name": "Song Palace: Xuande Gate and Daqing Hall",
+   "category": "civic",
+   "position": [
+    3611,
+    2141
+   ],
+   "rotation": 0,
+   "footprint": [
+    320.0,
+    340.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/song-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 320,
+     "depth": 340,
+     "height": 128.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120",
+    "jin-1200"
+   ],
+   "variants": {
+    "tang-800": {
+     "name": "Compound of the Xuanwu military governor",
+     "note": "The walled headquarters (yamen) of the Xuanwu army's governor, seat from 781. Zhu Wen, governor here, made it his palace when he founded the Later Liang in 907."
+    },
+    "song-1120": {
+     "note": "The Song palace at its height: Huizong rebuilt the Xuande gate with glazed tiles and gilt nails, and painted the cranes that circled its roof in 1112."
+    },
+    "jin-1200": {
+     "name": "Jin palace (Nanjing)",
+     "note": "Looted in 1127. Prince Hailing rebuilt the halls lavishly in the 1150s; the Jin emperor Xuanzong moved in when he fled the Mongols in 1214.",
+     "confidence": "interpretation"
+    },
+    "ming-1600": {
+     "note": "Gone. The Prince of Zhou's palace stands on the site, its foundations over the Song and Jin ones."
+    }
+   },
+   "summary": "The front of the Song imperial palace: the Xuande gate with its double-eaved tower and projecting wings over red walls, and behind it the Daqing hall of great audiences.",
+   "details": [
+    "The palace grew from the Tang governor's compound, rebuilt in 962 on the model of Luoyang's palace. The Xuande gate had five passages, a towering hall roofed in glazed tiles and wings ending in que towers; from it emperors watched the Lantern Festival. The Daqing hall held New Year audiences and the examination ceremonies.",
+    "Excavation has found parts of the palace walls under the lakes and the Dragon Pavilion. The miniature is a reconstruction from texts, Huizong's 'Auspicious Cranes' and the Song building manual Yingzao fashi: the gate, the court, the Daqing hall and its galleries."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bianjing",
+    "steinhardt",
+    "heng",
+    "qiu-gang"
+   ],
+   "built": "962 onward (on the governor's compound of the Tang)",
+   "function": "Front gate and great audience hall of the Song palace",
+   "activity": {
+    "figures": 60,
+    "radius": 220
+   }
+  },
+  {
+   "id": "imperial-way",
+   "placeId": "imperial-way",
+   "name": "Imperial Way (Yujie)",
+   "category": "civic",
+   "position": [
+    3593,
+    2829
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.0,
+    561.2
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/imperial-way.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 560,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120",
+    "jin-1200"
+   ],
+   "variants": {
+    "tang-800": {
+     "name": "Street before the governor's yamen",
+     "note": "An ordinary broad street south from the governor's compound to the canal bridge."
+    },
+    "song-1120": {
+     "note": "At its finest under Huizong: in 1112 the channels were planted with lotus and the banks with peach, plum, pear and apricot, 'like embroidery in spring', and commoners walked under the corridors beside it."
+    },
+    "jin-1200": {
+     "note": "The fences and covered walks are gone; the avenue is still the city's spine and the road of Jin processions."
+    },
+    "ming-1600": {
+     "note": "Narrowed to an ordinary main street of shops from the Zhou palace to the Nanxun gate; the Qing street, today's Zhongshan Road, keeps its line."
+    }
+   },
+   "summary": "The ceremonial avenue south from the palace: a central lane for the emperor fenced in red lacquer, brick-lined channels of lotus and fruit trees, and covered walks for the people.",
+   "details": [
+    "Meng Yuanlao describes it as 'some two hundred paces wide', with covered walkways (yulang) where merchants once traded until banned in 1112, two rows of black-lacquered fences, then red-lacquered ones down the middle where only the emperor's train could pass, and brick-lined water channels planted with lotus.",
+    "The miniature shows a stretch of the avenue near the palace in its 1112 form: corridors, channels, fences and blossoming trees. The width is reduced; its real width and the corridors' form are uncertain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bianjing",
+    "dongjing-menghualu",
+    "heng"
+   ],
+   "built": "Song, laid out on the Tang street; channels 1112",
+   "function": "Ceremonial avenue of the capital",
+   "activity": {
+    "figures": 60,
+    "radius": 280
+   }
+  },
+  {
+   "id": "fan-tower",
+   "placeId": "fan-tower",
+   "name": "Fan Tower (Fanlou)",
+   "category": "commercial",
+   "position": [
+    4205,
+    2219
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.0,
+    64.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/fan-tower.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 80,
+      "depth": 64
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.0,
+        -16.0
+       ],
+       "width": 24.0,
+       "depth": 19.2,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.0,
+        12.8
+       ],
+       "width": 24.0,
+       "depth": 19.2,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Not yet. Taverns in the Tang town were small houses on the ward lanes."
+    },
+    "song-1120": {
+     "name": "Fan Tower (Fengle Tower)",
+     "note": "At its height: rebuilt as five three-storey buildings linked by flying bridges, and renamed Fengle Tower about 1120. From the top floor one could see into the palace, so the west upper rooms were closed."
+    },
+    "jin-1200": {
+     "note": "Its fate under the Jin is not recorded; the great taverns of the Song capital do not reappear in accounts of the Jin city."
+    }
+   },
+   "summary": "The most famous restaurant of Song Kaifeng, first called the Alum Tower (Baifanlou): linked three-storey halls joined by flying bridges, lit by lanterns all night, with a coloured gate of lashed poles at its door.",
+   "details": [
+    "Meng Yuanlao says the Fan Tower (Fanlou, from fan, alum, whose traders first used it) was rebuilt as 'five buildings facing each other, each of three storeys, linked by flying bridges, bright and dark'; it bought 5,000 jars of official wine a year and sold its own. Like the scroll's taverns it had a 'coloured tower gate' (caimen) of lashed poles and banners.",
+    "The miniature shows three of the linked halls with galleries, flying bridges and the caimen; the exact plan and its place, given here east of the palace, are uncertain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-bianjing",
+    "dongjing-menghualu",
+    "heng"
+   ],
+   "built": "before 1100; rebuilt about 1120",
+   "function": "Restaurant and wine house",
+   "activity": {
+    "figures": 50,
+    "radius": 120
+   }
+  },
+  {
+   "id": "genyue",
+   "placeId": "genyue",
+   "name": "Genyue Garden",
+   "category": "monument",
+   "position": [
+    4772,
+    1431
+   ],
+   "rotation": 0,
+   "footprint": [
+    360.0,
+    300.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/genyue.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 360,
+     "depth": 300,
+     "height": 120.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Fields and gardens inside the north-east corner of the walls."
+    },
+    "song-1120": {
+     "note": "Under construction (1117-1122): rocks from Lake Tai arrive on the 'Flower and Rock Convoys' (huashigang), whose exactions helped provoke the Fang La rebellion of 1120."
+    },
+    "jin-1200": {
+     "note": "Destroyed in the siege of 1126-1127: the defenders broke up its rocks for catapult shot, burned its pavilions for firewood and ate its deer, the chroniclers say."
+    }
+   },
+   "summary": "Emperor Huizong's imperial garden, an artificial mountain of Lake Tai rocks with pavilions, streams and rare plants, built 1117-1122 in the north-east of the inner city and destroyed five years later.",
+   "details": [
+    "The Genyue ('Mountain of Stability in the North-east', the gen trigram) was raised on a geomancer's advice to bring the emperor sons. Its main peak, Wansui Shan, is usually said to have been about 90 chi (some 28 m) high. Huizong's own record describes cliffs, caves, waterfalls, pavilions and thousands of exotic trees, cranes and deer.",
+    "The miniature is an interpretation: a rocky hill of grey Taihu stones with pavilions, a lake and plantings. The garden's exact extent and layout are not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-huizong",
+    "wiki-chinese-garden",
+    "hargett-genyue"
+   ],
+   "built": "1117-1122",
+   "function": "Imperial garden",
+   "activity": {
+    "figures": 16,
+    "radius": 180
+   }
+  },
+  {
+   "id": "zhouqiao",
+   "placeId": "zhouqiao",
+   "name": "Zhou Bridge (Tianhan Bridge)",
+   "category": "monument",
+   "position": [
+    3556,
+    3639
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.0,
+    64.2
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/kaifeng/zhouqiao.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 64,
+     "height": 20.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "song-1120",
+    "jin-1200",
+    "ming-1600"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "New in the late 700s, it is thought, when Li Mian rebuilt the city: the bridge of the prefecture (zhou) on the street before the governor's compound."
+    },
+    "song-1120": {
+     "note": "The heart of the capital, where the Imperial Way crosses the Bian. Low and flat, with stone columns and carved stone walls; the night market here sold food until the third watch."
+    },
+    "jin-1200": {
+     "note": "Still the city's centre, crossing a Bian that is silting up now that the canal no longer carries the southern grain."
+    },
+    "ming-1600": {
+     "note": "Rebuilt as a stone arch over a dwindling stream; buried with the city in 1642 and found again by archaeologists in 1984.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/kaifeng/zhouqiao-ming.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 50,
+       "depth": 64,
+       "height": 20.0,
+       "roof": "flat"
+      }
+     }
+    },
+    "qing-1700": {
+     "note": "Buried several metres down under the silt of 1642; the street runs over it."
+    }
+   },
+   "summary": "The stone bridge where the Imperial Way crossed the Bian, centre of the Song capital and its night markets; excavated from under the silt since 1984.",
+   "details": [
+    "Meng Yuanlao describes it as low and flat, so that boats could not pass with masts up, its stone walls carved with sea monsters and water plants. Excavations of 2018-2022 found the Song river walls with large carved panels of sea horses, rolling waves and cranes in clouds, beside the bridge's remains.",
+    "The Song miniature shows a flat stone bridge on piers with carved bank walls and night-market stalls; the Ming variant shows the later stone arch. Dimensions are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bian-river",
+    "dongjing-menghualu",
+    "qiu-gang"
+   ],
+   "built": "Tang (probably late 8th century); rebuilt in the Ming",
+   "function": "Bridge of the Imperial Way over the Bian",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "rainbow-bridge",
+   "placeId": "rainbow-bridge",
+   "name": "Rainbow Bridge (Hongqiao)",
+   "category": "monument",
+   "position": [
+    7295,
+    4272
+   ],
+   "rotation": 0,
+   "footprint": [
+    44.0,
+    56.0
+   ],
+   "scale": 1.5,
+   "model": {
+    "glb": "models/kaifeng/rainbow-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 44,
+     "depth": 56,
+     "height": 17.6,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Not yet. Bridges over the Tang canal stood on timber piers, which barges often struck."
+    },
+    "song-1120": {
+     "note": "The scroll's moment: crowds and stalls on the hump, a grain boat below lowering its mast in the current while the crew shout and fend off with poles."
+    },
+    "jin-1200": {
+     "note": "Probably gone. Timber bridges need constant renewal, and the Bian, no longer carrying the southern grain, was silting up."
+    }
+   },
+   "summary": "The arched timber bridge without piers over the Bian outside the city, the centrepiece of Zhang Zeduan's scroll. Drawn here at the frame's edge; the real bridge stood some 7 li (about 3.5 km) further downstream.",
+   "details": [
+    "Pier bridges kept being rammed by barges, so from the 1030s, after a design first built at Qingzhou in Shandong, 'flying bridges' without piers were thrown over the Bian: logs lashed into interlocking polygonal arches, a 'woven arch' that held itself up. Meng Yuanlao counts the Rainbow Bridge seven li east of the East Water Gate.",
+    "The miniature follows the scroll and Tang Huancheng's study of its structure: two interlocking systems of logs, cross beams, a humped plank deck with railings, stalls at both ends, and a boat beneath lowering its mast."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-qingming-scroll",
+    "hansen-scroll",
+    "tang-huancheng",
+    "dongjing-menghualu"
+   ],
+   "built": "1030s or later",
+   "function": "Bridge over the Bian",
+   "activity": {
+    "figures": 50,
+    "radius": 90
+   }
+  },
+  {
+   "id": "bian-wharves",
+   "placeId": "bian-wharves",
+   "name": "Grain wharves on the Bian",
+   "category": "commercial",
+   "position": [
+    5759,
+    4294
+   ],
+   "rotation": 0,
+   "footprint": [
+    220.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/bian-wharves.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 220,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -55.0,
+        -17.5
+       ],
+       "width": 66.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        55.0,
+        14.0
+       ],
+       "width": 66.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "song-1120",
+    "jin-1200"
+   ],
+   "variants": {
+    "tang-800": {
+     "name": "Canal landing outside the east gate",
+     "note": "Bianzhou's landing on the Tongji canal, where grain barges from the south paid duty, changed crews and waited to go up toward Luoyang."
+    },
+    "song-1120": {
+     "note": "Some six million shi of grain a year come up the Bian to state granaries inside the east outer city; every autumn the canal is lined with boats waiting to unload."
+    },
+    "jin-1200": {
+     "note": "Nearly idle: with the south in Song hands, no grain fleets come up the Bian, and the canal silts."
+    },
+    "ming-1600": {
+     "note": "Gone. The Bian has silted up and the Grand Canal now runs far to the east; fields and suburbs cover the old wharves."
+    }
+   },
+   "summary": "Wharves, warehouses and state granaries on the Bian inside the east outer city, where the grain fleets from the Yangzi and Huai unloaded to feed the capital.",
+   "details": [
+    "The Song capital ate grain shipped up the Tongji canal from the south-east: about six million shi (some 400,000 tonnes) a year by the early 1000s, brought in convoys of boats and stored in granaries along the canal between the inner and outer walls. Porters carried sacks up the banks in endless lines, as the scroll shows.",
+    "The miniature shows a stone-faced quay with granaries, a warehouse, a hoist and grain boats moored along it. The granaries' exact positions are not known; their place here is illustrative."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-bian-river",
+    "wiki-grand-canal",
+    "dongjing-menghualu"
+   ],
+   "built": "Tang to Song",
+   "function": "Canal wharves and state granaries",
+   "activity": {
+    "figures": 60,
+    "radius": 160
+   }
+  },
+  {
+   "id": "east-water-gate",
+   "placeId": "east-water-gate",
+   "name": "East Water Gate",
+   "category": "military",
+   "position": [
+    7085,
+    4216
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.6,
+    80.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/east-water-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 90,
+     "depth": 80,
+     "wallHeight": 16.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "song-1120",
+    "jin-1200"
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Not yet: open fields and the canal towpath. The outer wall will be begun in 955."
+    },
+    "song-1120": {
+     "note": "Where the Bian leaves the outer city: iron-bound grilles lowered at night across the canal, and walled side passages on both banks for the towpaths."
+    },
+    "jin-1200": {
+     "note": "Defended against the Mongols in 1232; the outer wall held for weeks before the city surrendered in 1233."
+    },
+    "ming-1600": {
+     "note": "Gone with the outer wall, whose ruined bank now serves as a dyke; the Bian here is a dry bed among fields."
+    }
+   },
+   "summary": "The water gate where the Bian left the outer city eastward, its towers built out into the canal on both banks.",
+   "details": [
+    "The outer wall had water gates where the four canals entered and left. Meng Yuanlao describes the Bian's East Water Gate with 'iron windows' (grilles) lowered at night and walled walkways (guaizi cheng) running out along both banks. The Rainbow Bridge lay seven li downstream.",
+    "The miniature shows earth-walled gate towers on both banks with a timber gallery over the canal and a lowered grille; its form is reconstructed from the text and other Song gates."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bianjing",
+    "dongjing-menghualu",
+    "heng"
+   ],
+   "built": "955; rebuilt 1075-1078",
+   "function": "Water gate of the outer city",
+   "activity": {
+    "figures": 20,
+    "radius": 90
+   }
+  },
+  {
+   "id": "south-gate",
+   "placeId": "south-gate",
+   "name": "Zhuque Gate",
+   "category": "military",
+   "position": [
+    3410,
+    4527
+   ],
+   "rotation": 0,
+   "footprint": [
+    130.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/south-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 130,
+     "depth": 110,
+     "wallHeight": 22.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "song-1120",
+    "jin-1200",
+    "ming-1600",
+    "qing-1700"
+   ],
+   "variants": {
+    "tang-800": {
+     "name": "South gate of Bianzhou",
+     "note": "The south gate of Li Mian's wall of 781, on the street from the governor's compound; the miniature shows its later Song form."
+    },
+    "song-1120": {
+     "note": "The inner city's south gate, on the Imperial Way between the Zhou bridge and the Longjin bridge: a gate tower on a rammed-earth platform with three passages."
+    },
+    "jin-1200": {
+     "note": "The Jin repaired the inner walls and, after 1214, pushed them outward to hold the court and refugees."
+    },
+    "ming-1600": {
+     "name": "Nanxun Gate (South gate)",
+     "note": "The Ming south gate in the new brick-faced wall, with a barbican (wengcheng) and a two-storey gate tower.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/kaifeng/south-gate-ming.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 130,
+       "depth": 110,
+       "wallHeight": 22.0,
+       "bastions": 8
+      }
+     }
+    },
+    "qing-1700": {
+     "name": "South gate",
+     "note": "Rebuilt after the flood on the Ming line; the silt reached almost to the arch, and the ground inside the walls now lies higher than the old city.",
+     "model": {
+      "glb": "models/kaifeng/south-gate-ming.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 130,
+       "depth": 110,
+       "wallHeight": 22.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The south gate on the city's axis, the Song Zhuque gate of the inner city and later the Ming Nanxun gate, through which the Imperial Way ran south toward the outer wall.",
+   "details": [
+    "Under the Song the Zhuque gate faced the Longjin bridge and the southern outer city; inside it lay the Zhou bridge and the Imperial Way. The Ming rebuilt the walls in brick with barbicans at all five gates; the Qing rebuilt them after the flood of 1642, and again after 1841.",
+    "The Song miniature reconstructs a gate tower on an earth platform with three passages after Song paintings; the Ming-Qing variant shows the brick gate, barbican and two-storey tower. Their precise forms are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kaifeng",
+    "wiki-bianjing",
+    "heng"
+   ],
+   "built": "781 (Tang wall); Song; Ming 1370s; rebuilt 1660s",
+   "function": "South gate of the inner city",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "synagogue",
+   "placeId": "synagogue",
+   "name": "Kaifeng Synagogue",
+   "category": "religious",
+   "position": [
+    4205,
+    2940
+   ],
+   "rotation": 270,
+   "footprint": [
+    40.0,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/synagogue.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 110,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "jin-1200",
+    "ming-1600",
+    "qing-1700"
+   ],
+   "variants": {
+    "song-1120": {
+     "note": "Not yet. Jewish merchants may already have come to the Song capital; a stele of 1489 says their ancestors came bringing cloth and were welcomed by an emperor of the Song."
+    },
+    "jin-1200": {
+     "note": "New: the 1489 stele dates the first synagogue to 1163, under the Jin; the date is the community's own tradition."
+    },
+    "ming-1600": {
+     "note": "Rebuilt after floods in 1279, 1421 and 1461. In 1605 the scholar Ai Tian of this congregation visited Matteo Ricci in Beijing, and the West learned of the Jews of Kaifeng."
+    },
+    "qing-1700": {
+     "note": "Rebuilt in the 1650s and 1660s after the flood of 1642, which had soaked its scrolls; the Jesuit Jean Domenge drew it in 1722. It decayed in the 1800s and was gone by the 1860s."
+    }
+   },
+   "summary": "The synagogue of the Kaifeng Jews, a Chinese temple compound of courts, arches and halls facing west toward Jerusalem, first built, its stele says, in 1163.",
+   "details": [
+    "The community, perhaps of Persian origin, called their faith the 'religion that plucks the sinew'. Their 'Temple of Purity and Truth' stood on the Earth Market street south-east of the Drum Tower. The 1722 drawings show courts with archways, a stele pavilion, a hall for washing, and the main hall with the 'Chair of Moses' and Torah scrolls.",
+    "The miniature follows Domenge's drawings of the Qing building: a walled compound entered from the east, archways, pavilions and the main hall at the west end. Earlier buildings are assumed similar. The site's exact boundaries are not known."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kaifeng-jews",
+    "leslie-jews"
+   ],
+   "built": "1163 (stele date); rebuilt 1279, 1421, 1489, 1650s-1660s",
+   "function": "Synagogue",
+   "activity": {
+    "figures": 14,
+    "radius": 80
+   }
+  },
+  {
+   "id": "zhou-palace",
+   "placeId": "zhou-palace",
+   "name": "Palace of the Prince of Zhou",
+   "category": "civic",
+   "position": [
+    3620,
+    1864
+   ],
+   "rotation": 0,
+   "footprint": [
+    300.0,
+    380.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/zhou-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 300,
+     "depth": 380,
+     "height": 120.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1600"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "The Jin palace stands here; the Prince of Zhou's palace will rise on its ruins in the 1370s."
+    },
+    "ming-1600": {
+     "note": "The seat of the princes of Zhou for 260 years, behind its own walls and moat, with halls roofed in green glaze, an archery ground, gardens and an artificial hill behind."
+    },
+    "qing-1700": {
+     "note": "Drowned in 1642. The hollows of its courts filled as the Yang and Pan lakes; only the hill at the back stood above the silt, and in 1692 a pavilion was built on it."
+    }
+   },
+   "summary": "The palace of Zhu Su, Prince of Zhou, fifth son of the first Ming emperor, and his heirs, built from 1378 on the site of the Song and Jin palaces.",
+   "details": [
+    "Zhu Su was made Prince of Zhou in 1370 and came to Kaifeng in 1378. His palace was a reduced imperial palace: a gate, a front hall of audience, a rear hall and residence, flanking courts and gardens, all inside an inner wall and moat and an outer screen wall. Zhu Su compiled the famine herbal Jiuhuang bencao (1406) here.",
+    "The miniature is an interpretation from the Ming rules for princely palaces and from Chang'an's Prince of Qin's palace: the Duanli gate, three halls on an I-shaped terrace, green-glazed roofs and red walls. Its real layout is buried under the lakes."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-zhu-su",
+    "wiki-kaifeng",
+    "steinhardt"
+   ],
+   "built": "1378 onward",
+   "function": "Palace of the Prince of Zhou",
+   "activity": {
+    "figures": 40,
+    "radius": 200
+   }
+  },
+  {
+   "id": "dragon-pavilion",
+   "placeId": "dragon-pavilion",
+   "name": "Dragon Pavilion (Longting)",
+   "category": "monument",
+   "position": [
+    3629,
+    1620
+   ],
+   "rotation": 0,
+   "footprint": [
+    120.0,
+    150.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/dragon-pavilion.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 120,
+     "depth": 150,
+     "height": 48.0,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "qing-1700"
+   ],
+   "variants": {
+    "ming-1600": {
+     "note": "The Coal Hill at the back of the Prince of Zhou's palace, an artificial mound among the gardens."
+    },
+    "qing-1700": {
+     "name": "Wanshou Pavilion (later the Dragon Pavilion)",
+     "note": "New in 1692: a pavilion for the emperor's 'longevity tablet' on the old hill, where officials bowed on imperial birthdays. Rebuilt larger in 1734 and later called the Dragon Pavilion."
+    }
+   },
+   "summary": "A hall on a high brick platform at the north end of the old palace axis, raised on the hill of the drowned Zhou palace and reached by a long stair between the two lakes.",
+   "details": [
+    "In 1692 the Qing built a Wanshou ('Ten Thousand Years') pavilion on the Coal Hill to hold a tablet in honour of the emperor; under Yongzheng it became a palace hall, and the name Longting, Dragon Pavilion, came from the tradition that it stood on the Song palace's throne hall. The present hall is of the 1800s.",
+    "The miniature shows the present form: a brick platform about 13 m high, the long stair with a carved dragon ramp up the middle, and a hall with yellow-glazed roof and red columns. The 1692 pavilion was smaller."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-dragon-pavilion",
+    "wiki-1642-flood",
+    "wiki-kaifeng"
+   ],
+   "built": "1692; rebuilt 1734 and later",
+   "function": "Pavilion of the imperial longevity tablet",
+   "activity": {
+    "figures": 30,
+    "radius": 150
+   }
+  },
+  {
+   "id": "yanqing-temple",
+   "placeId": "yanqing-temple",
+   "name": "Yanqing Daoist Temple",
+   "category": "religious",
+   "position": [
+    3053,
+    3417
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    120.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/kaifeng/yanqing-temple.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 120,
+     "height": 28.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1600",
+    "qing-1700"
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Here, tradition says, Wang Chongyang, founder of the Quanzhen school of Daoism, died at an inn in 1170. His disciples later built a temple on the spot."
+    },
+    "ming-1600": {
+     "note": "Named Yanqing guan in 1373; its Jade Emperor pavilion, a Yuan building of brick with a pavilion top, is the temple's landmark."
+    },
+    "qing-1700": {
+     "note": "Mostly buried and ruined in 1642; the brick Jade Emperor pavilion survived, its base deep in the silt."
+    }
+   },
+   "summary": "A Daoist temple of the Quanzhen school on the spot where its founder Wang Chongyang died in 1170, with a strange Yuan pavilion: a brick tower topped by an octagonal timber pavilion.",
+   "details": [
+    "Founded in the Yuan as the Chongyang temple in memory of Wang Chongyang, renamed Yanqing guan in the early Ming. Its Jade Emperor pavilion (Yuhuang ge) is a two-storey brick building of the Yuan, about 13 m high, with an octagonal upper storey whose roof some liken to a Mongol tent.",
+    "The miniature shows the Jade Emperor pavilion with its brick lower storey and octagonal top, a gate and the main hall behind in a walled court. Only the pavilion is old; the other buildings are interpretations."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-wang-chongyang",
+    "wiki-kaifeng"
+   ],
+   "built": "Yuan (13th-14th century); named 1373",
+   "function": "Daoist temple of the Quanzhen school",
+   "activity": {
+    "figures": 14,
+    "radius": 80
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "canal-landing",
+   "name": "Barge landing on the Tongji canal",
+   "kind": "dock",
+   "position": [
+    5302,
+    4016
+   ],
+   "activePeriods": [
+    "tang-800"
+   ],
+   "summary": "The landing outside Bianzhou's east gate where grain barges from the Huai and the Yangzi tied up, paid duty and changed haulers on their way to the capitals.",
+   "details": [
+    "After the reforms of Liu Yan in the 760s, southern grain moved up the canals in stages, each fleet of boats built for its own stretch of water, and Bianzhou was a key stage between the Huai and the Yellow River. The town lived off the traffic: inns, rope-makers, boat-builders, granaries and the governor's customs post."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-grand-canal",
+    "wiki-bian-river",
+    "mote"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Haulers sleep on the deck of a long grain barge. A customs clerk with a brush and a ledger walks down the line of boats counting sacks of rice from the Yangzi."
+    },
+    {
+     "hour": 13,
+     "text": "A new team of haulers takes up the tow ropes for the stretch to the Yellow River. Their chant carries up the towpath under the willows."
+    },
+    {
+     "hour": 19,
+     "text": "The town gate has shut. Boatmen eat noodles at a stall on the bank, and a lamp burns in the granary watchman's hut."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "grain-boat",
+   "name": "A grain boat unloading on the Bian",
+   "kind": "dock",
+   "position": [
+    6308,
+    4294
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "A big flat-bottomed canal boat moored at the bank, porters carrying sacks of grain up a plank to the warehouses, as in the opening scenes of Zhang Zeduan's scroll.",
+   "details": [
+    "The scroll shows over twenty boats on the Bian: grain carriers with deck houses and steering oars, tied to the bank while porters with sacks on their shoulders file up planks and a clerk tallies with counting sticks. The canal ran swift with Yellow River water; boats going upstream were hauled by teams of trackers on the bank."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-qingming-scroll",
+    "hansen-scroll",
+    "wiki-bian-river"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The boat's master unlocks the hatches. Porters stripped to the waist hoist sacks onto their shoulders and trot up the gangplank while a clerk hands each a tally stick."
+    },
+    {
+     "hour": 12,
+     "text": "A cook on the stern boils rice on a clay stove. Children lean over the rail watching another boat being hauled upstream by trackers on long ropes."
+    },
+    {
+     "hour": 18,
+     "text": "The hold is empty and swept. The crew counts out the porters' wages in strings of copper cash under the eaves of the warehouse."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sun-yang-tavern",
+   "name": "The Sun Yang tavern",
+   "kind": "tavern",
+   "position": [
+    6811,
+    3772
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "A big licensed wine house (zhengdian) near the city gate in the scroll, with a coloured gate of lashed poles over its door, a wine flag and an upper floor of private rooms.",
+   "details": [
+    "The scroll's 'Sun Yang main shop' is one of the 72 licensed 'main shops' that brewed their own wine; thousands of smaller 'foot shops' bought from them. Its caimen, a towering gateway of lashed poles, flowers and banners, was the mark of a great tavern. Meng Yuanlao says waiters remembered every guest's order and called it to the kitchen."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-qingming-scroll",
+    "dongjing-menghualu",
+    "west-dongjing"
+   ],
+   "vignettes": [
+    {
+     "hour": 10,
+     "text": "Workmen re-tie the pole gateway with fresh red silk and paper flowers. Jars of new wine are rolled in from the brewery yard behind."
+    },
+    {
+     "hour": 14,
+     "text": "A waiter with a towel over his shoulder sings out six orders to the kitchen at once: mutton soup, fried fish, pickled ginger, warm wine."
+    },
+    {
+     "hour": 21,
+     "text": "Lanterns hang from every floor. Upstairs, behind bamboo blinds, a party of officials listens to a singing girl with a clapper."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "zhao-pharmacy",
+   "name": "Dr Zhao's pharmacy",
+   "kind": "shop",
+   "position": [
+    6582,
+    3661
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "The shop of 'Zhao the Imperial Physician' (Zhao taicheng) in the scroll, its sign boards advertising cures for 'the five labours and seven injuries' and for hangovers.",
+   "details": [
+    "Near the end of the scroll a woman carrying a child consults a doctor in a shop marked 'Zhao taicheng jia'. Song Kaifeng had state pharmacies (from 1076) selling standard prescriptions at fixed prices, besides private doctors and drug sellers; Meng Yuanlao lists famous medicine shops by name."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-qingming-scroll",
+    "wiki-tcm",
+    "dongjing-menghualu"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The apprentice takes down the shutters and props up the tall sign boards. Drawers of dried roots, scorpions and deer horn line the back wall."
+    },
+    {
+     "hour": 11,
+     "text": "A mother with a feverish child waits on the bench. The doctor feels three pulses at the child's wrist and writes a prescription in quick strokes."
+    },
+    {
+     "hour": 16,
+     "text": "A man who drank too much at the tavern next door buys a packet of 'wine-dispelling' powder and tips the boy to grind it."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "teahouse",
+   "name": "A teahouse by the Zhou bridge",
+   "kind": "tavern",
+   "position": [
+    3382,
+    3439
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "One of the teahouses on the streets near the Zhou bridge, where whisked powdered tea was served all day and some houses stayed open until dawn.",
+   "details": [
+    "Song tea was ground to powder and whisked into a froth in dark glazed bowls; tea contests were a craze up to Emperor Huizong, who wrote a treatise on tea. Meng Yuanlao describes teahouses round the old Cao gate that opened at the fifth watch, where traders met to do business before dawn, and fortune-tellers worked the streets outside."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tea-culture",
+    "dongjing-menghualu",
+    "west-dongjing"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn, lanterns: cloth dealers and their brokers sit over bowls of frothy tea, settling the day's prices in low voices."
+    },
+    {
+     "hour": 13,
+     "text": "A fortune-teller sets up his table and banner outside the door, reading faces for twenty cash. Inside, two clerks compare the froth on their bowls."
+    },
+    {
+     "hour": 20,
+     "text": "Musicians play a pipa and a flute in the back room. The waiter whisks another bowl, the bamboo whisk rattling against the black glaze."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "wazi",
+   "name": "The Sangjia wazi (entertainment quarter)",
+   "kind": "market",
+   "position": [
+    4708,
+    2530
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "The 'tile market' south of the Pan Tower street, with more than fifty theatre enclosures (goulan), the biggest holding several thousand people, open in all weathers.",
+   "details": [
+    "Meng Yuanlao lists the Sangjia, Middle and Inner wazi with their 'Lotus', 'Peony', 'Elephant' and 'Yaksha' enclosures: storytellers of history and of Buddhist tales, shadow puppets, puppet plays, acrobats, wrestlers, comic dialogues, singers. Between the stages, sellers of medicines, fortunes, old clothes, snacks and paper cuts. 'One could spend the whole day there without noticing.'"
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-dongjing-menghualu",
+    "dongjing-menghualu",
+    "wiki-pingshu",
+    "west-dongjing"
+   ],
+   "vignettes": [
+    {
+     "hour": 11,
+     "text": "Hawkers set up between the enclosures. A barker beats a gong outside the Peony enclosure: the famous Huo Sijiu tells the Three Kingdoms today."
+    },
+    {
+     "hour": 15,
+     "text": "Inside, on rising benches, a crowd listens to a storyteller slap down his wooden block as Zhang Fei roars at Changban bridge."
+    },
+    {
+     "hour": 21,
+     "text": "Lanterns over the shadow-play screen. Paper figures of generals ride across the lit silk while a drummer and a singer give them voices."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "zhouqiao-night-market",
+   "name": "Night market at the Zhou bridge",
+   "kind": "market",
+   "position": [
+    3638,
+    3528
+   ],
+   "activePeriods": [
+    "song-1120",
+    "jin-1200"
+   ],
+   "summary": "The food stalls that crowded the Imperial Way south and north of the Zhou bridge every night until the third watch: soups, boiled and grilled meats, sweets, fruit in ice in summer.",
+   "details": [
+    "Meng Yuanlao lists the night market's dishes stall by stall: wild fox meat, fried tripe, chicken skin, kidneys, honeyed fritters, sour plum drink, lychee paste, 'all at no more than fifteen cash'. With the end of the curfew in the Song, night markets ran in many streets and on the busiest ones never closed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "dongjing-menghualu",
+    "wiki-song-economy",
+    "west-dongjing"
+   ],
+   "vignettes": [
+    {
+     "hour": 18,
+     "text": "As the light goes, stalls are set up along the Imperial Way: braziers, pots of soup, trays of sweets under oil lamps."
+    },
+    {
+     "hour": 21,
+     "text": "Crowds on the bridge. A boy carries a bowl of sliced mutton and pickles back to his master's shop; a vendor sings out the names of a dozen candied fruits."
+    },
+    {
+     "hour": 23,
+     "text": "The third watch sounds. The last stallholders pack their charcoal into baskets while late guests from the taverns stumble home."
+    }
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "Smaller and quieter under the Jin; Fan Chengda, a Song envoy who passed in 1170, found the old streets shabby and the people dressed like Jurchens."
+    }
+   }
+  },
+  {
+   "id": "jieshen-exchange",
+   "name": "Jieshen lane: gold, silver and silk exchange",
+   "kind": "bank",
+   "position": [
+    4571,
+    2441
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "The lane east of the Pan Tower crossroads where gold, silver and coloured silks changed hands in buildings 'tall and imposing, with wide fronts', each deal 'worth tens of millions'.",
+   "details": [
+    "Song Kaifeng ran on strings of copper cash, silver by weight and, increasingly, paper: salt vouchers, tea vouchers and, from the 1020s, state paper money printed in Sichuan (jiaozi). Dealers in Jieshen lane exchanged coin, silver and gold, lent money and kept deposits; pawnshops were everywhere."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "dongjing-menghualu",
+    "wiki-jiaozi",
+    "wiki-song-economy"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A dealer's clerk weighs a silver ingot on a steelyard, bites a gold leaf to test it, and writes the rate on a board by the door."
+    },
+    {
+     "hour": 12,
+     "text": "A salt merchant from the west presents a voucher on the state monopoly and walks out with a porter carrying strings of cash."
+    },
+    {
+     "hour": 17,
+     "text": "Iron-bound chests are carried into the back room. A watchman with a rattle takes his post at the lane's gate."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "printing-shop",
+   "name": "A printer's shop near Xiangguo temple",
+   "kind": "workshop",
+   "position": [
+    4159,
+    3218
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "A shop cutting and printing woodblock books for the bookstalls of the Xiangguo temple market, the kind of place where Bi Sheng's movable type would have been tried.",
+   "details": [
+    "Woodblock printing was the normal method, and Kaifeng's Directorate of Education printed the classics. Shen Kuo's Dream Pool Essays records that in the 1040s a commoner, Bi Sheng, made movable type of baked clay, set in an iron frame with wax and resin. Where Bi Sheng worked is not recorded; this shop is illustrative."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-bi-sheng",
+    "wiki-movable-type",
+    "wiki-dream-pool",
+    "wiki-xiangguo"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "A carver bends over a pear-wood block, cutting away everything that is not a character. Shavings curl round his knife."
+    },
+    {
+     "hour": 13,
+     "text": "The printer inks a block with a brush, lays a sheet over it and rubs it smooth with a pad; a boy hangs the wet page on a line."
+    },
+    {
+     "hour": 18,
+     "text": "Folded and stitched copies of the examination classics are stacked for the temple market, where candidates will pay well for them."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "xiangguo-fair",
+   "name": "The Xiangguo temple market",
+   "kind": "market",
+   "position": [
+    3821,
+    3439
+   ],
+   "activePeriods": [
+    "song-1120",
+    "jin-1200",
+    "ming-1600"
+   ],
+   "summary": "On five days of every month the temple's courtyards filled with thousands of traders: birds and pets in the outer court, mats, curtains and bows in the second, books, antiques and paintings by the halls.",
+   "details": [
+    "Meng Yuanlao describes the market court by court: rare birds and cats by the gate, everyday goods in the courtyard, fruit and dried meats by the Buddha hall, embroidery and hats made by nuns along the corridors, books, rubbings and paintings behind the hall, where officials leaving office sold their curios. Fortune-tellers and painters of portraits worked the galleries."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "dongjing-menghualu",
+    "wiki-xiangguo",
+    "west-dongjing"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The gates open on a market day. A bird seller hangs cages of thrushes and parrots from the gate beams; a man leads in a pair of white cats on strings."
+    },
+    {
+     "hour": 12,
+     "text": "Under the eaves of the Buddha hall nuns sell embroidered collars. A scholar haggles over a rubbing of an old stele behind the hall."
+    },
+    {
+     "hour": 16,
+     "text": "A portrait painter finishes a likeness of a merchant's late father from his son's description, and the fortune-tellers fold their tables."
+    }
+   ],
+   "variants": {
+    "jin-1200": {
+     "note": "The market went on under the Jin, smaller."
+    },
+    "ming-1600": {
+     "note": "In the Ming the temple again held fairs, with storytellers and opera stages in its courts."
+    }
+   }
+  },
+  {
+   "id": "coal-yard",
+   "name": "A coal yard by the New Cao gate",
+   "kind": "works",
+   "position": [
+    6125,
+    2108
+   ],
+   "activePeriods": [
+    "song-1120"
+   ],
+   "summary": "A yard selling coal and briquettes to the households of the capital, which by 1100 burned coal from the Hedong and Henan mines rather than firewood.",
+   "details": [
+    "A writer of the 1130s, Zhuang Chuo, recalled that 'of the millions of households in the old capital, not one used firewood: all burned coal'. Coal came by cart and canal from the hills of Henan and Shanxi; the state ran coal yards that sold at controlled prices in winter. Coal also fuelled the iron foundries of the north."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-coal-china",
+    "hartwell",
+    "wiki-song-economy"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Carts loaded with black lumps creak in through the gate; the yard foreman checks the weight on a great steelyard."
+    },
+    {
+     "hour": 12,
+     "text": "A woman buys a basket of coal-dust briquettes; a porter from a tavern takes six baskets on a carrying pole."
+    },
+    {
+     "hour": 17,
+     "text": "Smoke from ten thousand stoves hangs low over the city in the cold; the yard's last cart is unloaded by lantern light."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "wang-chongyang-inn",
+   "name": "The inn where Wang Chongyang died",
+   "kind": "inn",
+   "position": [
+    2998,
+    3462
+   ],
+   "activePeriods": [
+    "jin-1200"
+   ],
+   "summary": "An inn of the Wang family in Bianjing where Wang Chongyang, founder of the Quanzhen ('Complete Perfection') school of Daoism, died in 1170 on his way back west with four disciples.",
+   "details": [
+    "Wang Chongyang, a failed military candidate turned hermit, preached in Shandong and won disciples such as Ma Yu and Qiu Chuji, who would later meet Genghis Khan. He died in Bianjing in early 1170. The Yanqing temple was later built where he died, tradition says; the inn's exact site is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-wang-chongyang",
+    "wiki-quanzhen"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Four Daoists in patched robes sweep the inn yard and boil water for their master, who coughs in the back room."
+    },
+    {
+     "hour": 14,
+     "text": "The innkeeper's wife brings broth. The old man sits up, recites a poem on emptiness and asks for brush and paper."
+    },
+    {
+     "hour": 22,
+     "text": "Lamps burn late in the inn. The disciples sit in a circle round the bed, chanting softly, while snow falls in the yard."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "famine-herb-garden",
+   "name": "The Prince of Zhou's garden of famine plants",
+   "kind": "garden",
+   "position": [
+    3200,
+    1354
+   ],
+   "activePeriods": [
+    "ming-1600"
+   ],
+   "summary": "A garden in the Zhou palace where Zhu Su, Prince of Zhou, grew over four hundred wild plants to learn which the poor could eat in famine; his illustrated herbal appeared in 1406.",
+   "details": [
+    "Zhu Su collected plants from the countryside of Henan, grew them in his garden, had them drawn from life, and recorded which parts could be eaten and how to cook out their poisons. The Jiuhuang bencao (1406) lists 414 plants, most never in a herbal before, and was reprinted for centuries."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-jiuhuang-bencao",
+    "wiki-zhu-su"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Gardeners water rows of weeds collected from field edges: purslane, shepherd's purse, elm bark seedlings, each with a wooden label."
+    },
+    {
+     "hour": 11,
+     "text": "A painter crouches by a clump of wild amaranth, drawing its leaves vein by vein while the prince's secretary notes its taste."
+    },
+    {
+     "hour": 16,
+     "text": "In the kitchen a cook boils a bitter root twice, changes the water, and offers a bowl to the prince, who tastes it himself."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "silk-shop",
+   "name": "A silk shop on the Drum Tower street",
+   "kind": "shop",
+   "position": [
+    4068,
+    3129
+   ],
+   "activePeriods": [
+    "ming-1600"
+   ],
+   "summary": "One of the silk and cloth shops crowding the streets round the Drum Tower in late Ming Kaifeng, a rich provincial capital and market for Henan's cotton and the silks of the south.",
+   "details": [
+    "Late Ming Kaifeng was full of shops, guild halls and princely spending: the Zhou princes' clan had grown to thousands of members on state stipends. Gazetteers and diaries of the 1642 siege describe busy markets by the Drum Tower, round Xiangguo temple and along the Song gate street."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kaifeng",
+    "des-forges"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "The shopkeeper unrolls bolts of Suzhou damask across the counter for a prince's steward, who wants twenty lengths for a wedding."
+    },
+    {
+     "hour": 14,
+     "text": "Cotton cloth from the villages arrives on wheelbarrows; the clerk measures it with a foot-rule and stamps each bolt."
+    },
+    {
+     "hour": 19,
+     "text": "The Drum Tower sounds the first watch. The shutters go up, and the family eats in the courtyard behind the shop."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "guild-hall",
+   "name": "The Shanxi-Shaanxi merchants' guild hall",
+   "kind": "civic",
+   "position": [
+    3693,
+    2863
+   ],
+   "activePeriods": [
+    "qing-1700"
+   ],
+   "summary": "The guild hall of the Shanxi and Shaanxi merchants, built in the Qianlong reign on the site of a Ming minister's mansion, with a carved gate, a stage and a hall to Guan Yu.",
+   "details": [
+    "Merchants from Shanxi and Shaanxi, later joined by Gansu, dominated the trade in salt, cloth, tea and money in Qing Kaifeng. Their hall, famous for its wood, brick and stone carving, still stands; opera was performed on its stage for the god Guan Yu and the members' feasts."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-kaifeng"
+   ],
+   "vignettes": [
+    {
+     "hour": 9,
+     "text": "Merchants in blue gowns burn incense before the red-faced statue of Guan Yu, god of loyalty and of honest accounts."
+    },
+    {
+     "hour": 14,
+     "text": "The members settle a dispute over a debt at a long table in the side hall, with the guild's rule book open between them."
+    },
+    {
+     "hour": 19,
+     "text": "An opera troupe from Shanxi plays on the carved stage; the merchants watch from the hall, cracking melon seeds."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "lake-fishermen",
+   "name": "Fishermen on the Pan lake",
+   "kind": "dock",
+   "position": [
+    3931,
+    1975
+   ],
+   "activePeriods": [
+    "qing-1700"
+   ],
+   "summary": "Fishing boats and reed cutters on the lakes that had filled the hollows of the drowned Zhou palace after 1642, below the new pavilion on the old hill.",
+   "details": [
+    "After the flood of 1642 the low ground of the Zhou palace held water as two lakes, separated by the causeway to the hill at the back. Fishermen, reed cutters and lotus growers worked them. Local tradition named the clear west lake after the loyal Yang family of the operas and the muddy east lake after the traitor Pan Renmei."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-1642-flood",
+    "wiki-dragon-pavilion"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Mist on the water. A fisherman poles his flat boat out to check his traps among the reeds, where carp move in the shallows."
+    },
+    {
+     "hour": 12,
+     "text": "Women cut reeds and tie them in sheaves on the bank; a boy says the bricks he dives for down there are from the old palace."
+    },
+    {
+     "hour": 18,
+     "text": "The pavilion on the hill catches the last sun. Boats come in with baskets of fish for the evening market at the Drum Tower."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "xiangguo-712",
+   "title": "Xiangguo temple is named",
+   "periodId": "tang-800",
+   "date": "712",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "xiangguo-temple"
+   },
+   "effect": "procession",
+   "text": "Emperor Ruizong, who had once been Prince of Xiang, gave the Jianguo temple of Bianzhou the name Xiangguo, 'Minister of State', recalling his own title, in the year he handed the throne to his son Xuanzong. A tablet in his calligraphy was hung over the gate.",
+   "sourceIds": [
+    "wiki-xiangguo"
+   ]
+  },
+  {
+   "id": "li-mian-781",
+   "title": "Li Mian rebuilds the walls of Bianzhou",
+   "periodId": "tang-800",
+   "date": "781",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "south-gate"
+   },
+   "effect": "construction",
+   "text": "As the court struggled with rebellious governors, the military governor Li Mian rebuilt the walls of Bianzhou, about 20 li round, in rammed earth. His walls became the Song inner city and set the frame of Kaifeng for a thousand years; the town became the seat of the Xuanwu army.",
+   "sourceIds": [
+    "wiki-kaifeng",
+    "mote"
+   ]
+  },
+  {
+   "id": "song-founding-960",
+   "title": "Zhao Kuangyin founds the Song",
+   "periodId": "song-1120",
+   "date": "February 960",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "song-palace"
+   },
+   "effect": "procession",
+   "text": "Sent north against the Khitans, the general Zhao Kuangyin was draped in a yellow robe by his officers at the Chenqiao post station and proclaimed emperor. He marched back to Kaifeng, took the throne from the child emperor of the Later Zhou without a sack, and made the city the capital of the Song.",
+   "sourceIds": [
+    "wiki-chenqiao",
+    "mote"
+   ]
+  },
+  {
+   "id": "movable-type-1040s",
+   "title": "Bi Sheng's movable type",
+   "periodId": "song-1120",
+   "date": "1041-1048",
+   "kind": "daily",
+   "at": {
+    "spotId": "printing-shop"
+   },
+   "effect": "none",
+   "text": "In the Qingli reign a commoner named Bi Sheng carved characters on small pieces of clay, fired them hard, and set them in an iron frame lined with wax and resin to print pages, Shen Kuo records. For common characters he kept twenty copies. Where he worked is not known; the method stayed rare beside woodblocks.",
+   "sourceIds": [
+    "wiki-bi-sheng",
+    "wiki-dream-pool",
+    "wiki-movable-type"
+   ]
+  },
+  {
+   "id": "iron-pagoda-1049",
+   "title": "The Iron Pagoda is built",
+   "periodId": "song-1120",
+   "date": "1049",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "iron-pagoda"
+   },
+   "effect": "construction",
+   "text": "Five years after lightning burned Yu Hao's timber pagoda at the Kaibao temple, a new one was raised in brick, faced with glazed tiles to resist fire: thirteen storeys and some 55 m, the colour of iron. It has survived a thousand years of floods and earthquakes.",
+   "sourceIds": [
+    "wiki-iron-pagoda"
+   ]
+  },
+  {
+   "id": "cranes-1112",
+   "title": "Cranes over the Xuande gate",
+   "periodId": "song-1120",
+   "date": "16th day of the 1st month, 1112",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "song-palace"
+   },
+   "effect": "none",
+   "text": "On the day after the Lantern Festival a flock of cranes circled over the Xuande gate while crowds watched; two settled on the roof's ridge ornaments. Emperor Huizong took it as an omen of heaven's favour and painted the scene, 'Auspicious Cranes', with his own poem, now in the Liaoning Museum.",
+   "sourceIds": [
+    "wiki-huizong"
+   ]
+  },
+  {
+   "id": "qingming-scroll",
+   "title": "Zhang Zeduan paints the Qingming scroll",
+   "periodId": "song-1120",
+   "date": "about 1100-1127",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "rainbow-bridge"
+   },
+   "effect": "crowd",
+   "text": "A court painter, Zhang Zeduan, painted a handscroll over five metres long of a riverside city: farms, boats, the Rainbow Bridge, a gate, shops and some 800 people. Its date and even its subject, the Qingming festival or 'peace and order', are debated; it is usually taken to show Kaifeng under Huizong.",
+   "sourceIds": [
+    "wiki-qingming-scroll",
+    "wiki-zhang-zeduan",
+    "hansen-scroll"
+   ]
+  },
+  {
+   "id": "jingkang-1127",
+   "title": "The Jingkang incident: the Jin take Kaifeng",
+   "periodId": "song-1120",
+   "date": "January-April 1127",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "song-palace"
+   },
+   "effect": "fire",
+   "text": "The Jurchen Jin besieged the capital twice in 1126. The second time the walls fell. The Jin stripped the city of gold, silk, books, instruments and craftsmen, and in spring carried off the retired emperor Huizong, his son Qinzong and some 3,000 of the court to the north, where both died. A Song prince fled south.",
+   "sourceIds": [
+    "wiki-jingkang",
+    "mote"
+   ]
+  },
+  {
+   "id": "jin-capital-1214",
+   "title": "The Jin court flees to Bianjing",
+   "periodId": "jin-1200",
+   "date": "1214",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "song-palace"
+   },
+   "effect": "procession",
+   "text": "With the Mongols of Genghis Khan at the gates of Zhongdu (Beijing), the Jin emperor Xuanzong moved his court south to Bianjing, the old Song capital. Officials, soldiers and refugees followed; the city swelled again, and its walls were repaired and extended.",
+   "sourceIds": [
+    "wiki-jin",
+    "mote"
+   ]
+  },
+  {
+   "id": "siege-1232",
+   "title": "The Mongol siege and the thunder-crash bombs",
+   "periodId": "jin-1200",
+   "date": "1232-1233",
+   "kind": "riot",
+   "at": {
+    "position": [
+     7131,
+     3772
+    ]
+   },
+   "effect": "fire",
+   "text": "Subutai's Mongols besieged Bianjing for months. The defenders lowered 'thunder-crash bombs' (zhentianlei), iron shells filled with gunpowder, on chains onto the sappers' cowhide shelters at the wall foot and blew them apart, and used 'flying fire lances'. Plague and famine did what the bombs could not; the city surrendered in 1233.",
+   "sourceIds": [
+    "wiki-siege-1232",
+    "wiki-thunder-crash",
+    "needham-gunpowder"
+   ]
+  },
+  {
+   "id": "zhou-1378",
+   "title": "The Prince of Zhou comes to Kaifeng",
+   "periodId": "ming-1600",
+   "date": "1378",
+   "kind": "procession",
+   "at": {
+    "landmarkId": "zhou-palace"
+   },
+   "effect": "procession",
+   "text": "Zhu Su, fifth son of the Hongwu emperor, made Prince of Zhou in 1370, took up his fief in Kaifeng, whose palace was built for him on the site of the Song and Jin palaces. His descendants would hold it until the city drowned in 1642.",
+   "sourceIds": [
+    "wiki-zhu-su"
+   ]
+  },
+  {
+   "id": "flood-1642",
+   "title": "The dykes are cut: Kaifeng drowns",
+   "periodId": "ming-1600",
+   "date": "October 1642",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "zhou-palace"
+   },
+   "effect": "none",
+   "text": "Li Zicheng's rebels had besieged Kaifeng three times; the city starved. The Yellow River dykes north of the city were breached, by the Ming side, the rebels or both, as accounts disagree. The river poured in over the walls. Of several hundred thousand people only a small part survived; the Ming city lies under metres of silt.",
+   "sourceIds": [
+    "wiki-1642-flood",
+    "wiki-li-zicheng",
+    "des-forges"
+   ]
+  },
+  {
+   "id": "wanshou-1692",
+   "title": "A pavilion on the old palace hill",
+   "periodId": "qing-1700",
+   "date": "1692",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "dragon-pavilion"
+   },
+   "effect": "construction",
+   "text": "Officials of the rebuilt provincial capital put up a Wanshou ('Ten Thousand Years') pavilion on the Coal Hill of the drowned Zhou palace, to hold a tablet honouring the Kangxi emperor before which they bowed on his birthday. Enlarged in 1734, it became the Dragon Pavilion.",
+   "sourceIds": [
+    "wiki-dragon-pavilion"
+   ]
+  },
+  {
+   "id": "xiangguo-1766",
+   "title": "Xiangguo temple rebuilt under Qianlong",
+   "periodId": "qing-1700",
+   "date": "1766",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "xiangguo-temple"
+   },
+   "effect": "construction",
+   "text": "After a century of patching on the silt, the temple was rebuilt on a grand scale with imperial funds: a gate, bell and drum towers, the main hall and the unusual octagonal glazed hall round a central pavilion that holds a Guanyin with a thousand arms carved from a single ginkgo tree.",
+   "sourceIds": [
+    "wiki-xiangguo"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "along-the-river",
+   "title": "Along the River into the city",
+   "periodId": "song-1120",
+   "summary": "Follow Zhang Zeduan's scroll from the Rainbow Bridge through the East Water Gate to the taverns and shops by the city gate, then on to the Xiangguo temple market and the night market at the Zhou bridge.",
+   "steps": [
+    {
+     "landmarkId": "rainbow-bridge",
+     "title": "The Rainbow Bridge",
+     "text": "Crowds lean over the rails as a grain boat swings in the current, its mast half lowered. On the hump, stalls sell knives, cakes and straw hats.",
+     "when": "10 am"
+    },
+    {
+     "landmarkId": "east-water-gate",
+     "title": "The East Water Gate",
+     "text": "Upstream, the canal passes under the outer wall. Its iron grilles are raised by day; trackers haul a boat through on long ropes.",
+     "when": "11 am"
+    },
+    {
+     "spotId": "sun-yang-tavern",
+     "title": "The Sun Yang tavern",
+     "text": "Past the gate a tall pole archway hung with flowers marks the Sun Yang main shop. Jars of new wine are being unloaded.",
+     "when": "noon"
+    },
+    {
+     "spotId": "zhao-pharmacy",
+     "title": "Dr Zhao's pharmacy",
+     "text": "Next door a mother waits with her child; the sign boards promise cures for hangovers and the 'five labours'.",
+     "when": "1 pm"
+    },
+    {
+     "landmarkId": "bian-wharves",
+     "title": "The grain wharves",
+     "text": "Back on the Bian, porters file up planks with sacks of southern rice for the state granaries.",
+     "when": "3 pm"
+    },
+    {
+     "spotId": "xiangguo-fair",
+     "title": "Xiangguo temple market",
+     "text": "It is a market day: birds by the gate, mats and bows in the court, books and paintings behind the Buddha hall.",
+     "when": "4 pm"
+    },
+    {
+     "spotId": "zhouqiao-night-market",
+     "title": "The Zhou bridge at night",
+     "text": "Lamps along the Imperial Way. Fifteen cash buys a bowl of soup and a plate of grilled kidneys until the third watch.",
+     "when": "9 pm"
+    }
+   ],
+   "sourceIds": [
+    "wiki-qingming-scroll",
+    "dongjing-menghualu",
+    "hansen-scroll"
+   ]
+  },
+  {
+   "id": "under-the-silt",
+   "title": "The city under the silt",
+   "periodId": "qing-1700",
+   "summary": "A walk through Qing Kaifeng, rebuilt on the flood silt of 1642: the lakes over the drowned palace, the new pavilion, the rebuilt temples and synagogue, and the two old pagodas that outlived everything.",
+   "steps": [
+    {
+     "landmarkId": "dragon-pavilion",
+     "title": "The pavilion on the hill",
+     "text": "From the new pavilion on the Zhou palace's old hill you look down a causeway between two lakes, where the princely courts lie under water and mud.",
+     "when": "morning"
+    },
+    {
+     "spotId": "lake-fishermen",
+     "title": "The palace lakes",
+     "text": "Reed cutters and fishermen work the lakes; boys dive for glazed tiles from the drowned halls.",
+     "when": "late morning"
+    },
+    {
+     "landmarkId": "xiangguo-temple",
+     "title": "Xiangguo temple",
+     "text": "Rebuilt on the silt, its ground higher than the old courts. Monks and pilgrims climb to the gate up new steps.",
+     "when": "noon"
+    },
+    {
+     "landmarkId": "synagogue",
+     "title": "The synagogue",
+     "text": "The Jews of Kaifeng rebuilt their synagogue in the 1660s and recopied the Torah scrolls soaked in the flood.",
+     "when": "afternoon"
+    },
+    {
+     "spotId": "guild-hall",
+     "title": "The merchants' hall",
+     "text": "Shanxi merchants, who brought money back into the half-empty city, feast their god Guan Yu at their carved hall.",
+     "when": "late afternoon"
+    },
+    {
+     "landmarkId": "iron-pagoda",
+     "title": "The Iron Pagoda",
+     "text": "Its base is buried, but thirteen storeys of brown glaze still rise over the fields inside the north-east corner of the walls.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "wiki-1642-flood",
+    "wiki-dragon-pavilion",
+    "wiki-kaifeng-jews"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-kaifeng",
+   "title": "Kaifeng",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaifeng"
+  },
+  {
+   "id": "wiki-bianjing",
+   "title": "Bianjing",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bianjing"
+  },
+  {
+   "id": "wiki-bian-river",
+   "title": "Bian River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bian_River"
+  },
+  {
+   "id": "wiki-grand-canal",
+   "title": "Grand Canal (China)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grand_Canal_(China)"
+  },
+  {
+   "id": "wiki-1642-flood",
+   "title": "1642 Yellow River flood",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1642_Yellow_River_flood"
+  },
+  {
+   "id": "dongjing-menghualu",
+   "title": "Dongjing meng Hua lu (The Eastern Capital: A Dream of Splendour)",
+   "author": "Meng Yuanlao",
+   "year": 1147
+  },
+  {
+   "id": "west-dongjing",
+   "title": "The Interplay of Commerce and Culture in Song Kaifeng (on the Dongjing meng Hua lu)",
+   "author": "Stephen H. West"
+  },
+  {
+   "id": "heng",
+   "title": "Cities of Aristocrats and Bureaucrats: The Development of Medieval Chinese Cityscapes",
+   "author": "Heng Chye Kiang",
+   "year": 1999
+  },
+  {
+   "id": "steinhardt",
+   "title": "Chinese Imperial City Planning",
+   "author": "Nancy Shatzman Steinhardt",
+   "year": 1990
+  },
+  {
+   "id": "qiu-gang",
+   "title": "Kaifeng Song cheng kaogu (archaeology of the Song city of Kaifeng)",
+   "author": "Qiu Gang et al., Kaifeng Song City Archaeological Team"
+  },
+  {
+   "id": "osm",
+   "title": "OpenStreetMap: Kaifeng city wall and lakes",
+   "author": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "id": "wiki-iron-pagoda",
+   "title": "Iron Pagoda",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Iron_Pagoda"
+  },
+  {
+   "id": "wiki-chinese-pagoda",
+   "title": "Chinese pagoda",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_pagoda"
+  },
+  {
+   "id": "wiki-xiangguo",
+   "title": "Daxiangguo Temple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Daxiangguo_Temple"
+  },
+  {
+   "id": "wiki-qingming-scroll",
+   "title": "Along the River During the Qingming Festival",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival"
+  },
+  {
+   "id": "wiki-huizong",
+   "title": "Emperor Huizong of Song",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Emperor_Huizong_of_Song"
+  },
+  {
+   "id": "wiki-chinese-garden",
+   "title": "Chinese garden",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_garden"
+  },
+  {
+   "id": "wiki-kaifeng-jews",
+   "title": "Kaifeng Jews",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaifeng_Jews"
+  },
+  {
+   "id": "wiki-zhu-su",
+   "title": "Zhu Su",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zhu_Su"
+  },
+  {
+   "id": "wiki-dragon-pavilion",
+   "title": "Dragon Pavilion",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dragon_Pavilion"
+  },
+  {
+   "id": "wiki-wang-chongyang",
+   "title": "Wang Chongyang",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wang_Chongyang"
+  },
+  {
+   "id": "steinhardt-arch",
+   "title": "Chinese Architecture: A History",
+   "author": "Nancy Shatzman Steinhardt",
+   "year": 2019
+  },
+  {
+   "id": "hansen-scroll",
+   "title": "The Beginnings and the End of the Qingming Scroll",
+   "author": "Valerie Hansen",
+   "year": 1996
+  },
+  {
+   "id": "tang-huancheng",
+   "title": "Zhongguo gudai qiaoliang (Ancient Chinese Bridges), on the Rainbow Bridge's structure",
+   "author": "Tang Huancheng",
+   "year": 1987
+  },
+  {
+   "id": "hargett-genyue",
+   "title": "Huizong's Magic Marchmount: The Genyue Pleasure Park of Kaifeng",
+   "author": "James M. Hargett",
+   "year": 1988
+  },
+  {
+   "id": "leslie-jews",
+   "title": "The Survival of the Chinese Jews: The Jewish Community of Kaifeng",
+   "author": "Donald Daniel Leslie",
+   "year": 1972
+  },
+  {
+   "id": "liang-sicheng",
+   "title": "A Pictorial History of Chinese Architecture",
+   "author": "Liang Ssu-ch'eng (ed. Wilma Fairbank)",
+   "year": 1984
+  },
+  {
+   "id": "wiki-zhang-zeduan",
+   "title": "Zhang Zeduan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zhang_Zeduan"
+  },
+  {
+   "id": "wiki-dongjing-menghualu",
+   "title": "Dongjing Meng Hua Lu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dongjing_Meng_Hua_Lu"
+  },
+  {
+   "id": "wiki-tea-culture",
+   "title": "Chinese tea culture",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chinese_tea_culture"
+  },
+  {
+   "id": "wiki-pingshu",
+   "title": "Pingshu (storytelling)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pingshu"
+  },
+  {
+   "id": "wiki-tcm",
+   "title": "Traditional Chinese medicine",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Traditional_Chinese_medicine"
+  },
+  {
+   "id": "wiki-coal-china",
+   "title": "Coal in China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Coal_in_China"
+  },
+  {
+   "id": "wiki-song-economy",
+   "title": "Economy of the Song dynasty",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Economy_of_the_Song_dynasty"
+  },
+  {
+   "id": "wiki-jiaozi",
+   "title": "Jiaozi (currency)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jiaozi_(currency)"
+  },
+  {
+   "id": "wiki-movable-type",
+   "title": "Movable type",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Movable_type"
+  },
+  {
+   "id": "wiki-bi-sheng",
+   "title": "Bi Sheng",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bi_Sheng"
+  },
+  {
+   "id": "wiki-dream-pool",
+   "title": "Dream Pool Essays",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dream_Pool_Essays"
+  },
+  {
+   "id": "wiki-quanzhen",
+   "title": "Quanzhen School",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Quanzhen_School"
+  },
+  {
+   "id": "wiki-jiuhuang-bencao",
+   "title": "Jiuhuang bencao",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jiuhuang_bencao"
+  },
+  {
+   "id": "wiki-li-zicheng",
+   "title": "Li Zicheng",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Li_Zicheng"
+  },
+  {
+   "id": "wiki-chenqiao",
+   "title": "Chenqiao mutiny",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chenqiao_mutiny"
+  },
+  {
+   "id": "wiki-jingkang",
+   "title": "Jingkang incident",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jingkang_incident"
+  },
+  {
+   "id": "wiki-siege-1232",
+   "title": "Siege of Kaifeng (1232)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Kaifeng_(1232)"
+  },
+  {
+   "id": "wiki-thunder-crash",
+   "title": "Thunder crash bomb",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thunder_crash_bomb"
+  },
+  {
+   "id": "wiki-jin",
+   "title": "Jin dynasty (1115–1234)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)"
+  },
+  {
+   "id": "gernet",
+   "title": "Daily Life in China on the Eve of the Mongol Invasion, 1250-1276",
+   "author": "Jacques Gernet",
+   "year": 1962
+  },
+  {
+   "id": "hartwell",
+   "title": "A Cycle of Economic Change in Imperial China: Coal and Iron in Northeast China, 750-1350",
+   "author": "Robert Hartwell",
+   "year": 1967
+  },
+  {
+   "id": "needham-gunpowder",
+   "title": "Science and Civilisation in China, vol. 5 part 7: The Gunpowder Epic",
+   "author": "Joseph Needham",
+   "year": 1986
+  },
+  {
+   "id": "des-forges",
+   "title": "Cultural Centrality and Political Change in Chinese History: Northeast Henan in the Fall of the Ming",
+   "author": "Roger V. Des Forges",
+   "year": 2003
+  },
+  {
+   "id": "mote",
+   "title": "Imperial China 900-1800",
+   "author": "F. W. Mote",
+   "year": 1999
+  }
+ ]
+}
