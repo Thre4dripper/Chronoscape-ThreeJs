@@ -2679,6 +2679,66 @@
   "cy": -0.4,
   "size": 143.62
  },
+ "mohenjo-daro/citadel-platform": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 134.19
+ },
+ "mohenjo-daro/college": {
+  "cx": 0.0,
+  "cy": 0.3,
+  "size": 92.55
+ },
+ "mohenjo-daro/craft-quarter": {
+  "cx": 0.0,
+  "cy": 0.12,
+  "size": 56.56
+ },
+ "mohenjo-daro/dk-g-well": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 24.85
+ },
+ "mohenjo-daro/great-bath": {
+  "cx": -0.02,
+  "cy": -0.3,
+  "size": 79.53
+ },
+ "mohenjo-daro/great-hall": {
+  "cx": -0.24,
+  "cy": 0.33,
+  "size": 73.48
+ },
+ "mohenjo-daro/hr-house": {
+  "cx": 0.0,
+  "cy": 0.35,
+  "size": 54.88
+ },
+ "mohenjo-daro/main-street": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 162.56
+ },
+ "mohenjo-daro/pillared-hall": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "size": 46.15
+ },
+ "mohenjo-daro/priest-king-house": {
+  "cx": 0.02,
+  "cy": -0.0,
+  "size": 46.21
+ },
+ "mohenjo-daro/southern-defences": {
+  "cx": 0.0,
+  "cy": -0.02,
+  "size": 83.11
+ },
+ "mohenjo-daro/stupa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 91.04
+ },
  "nara/chodo-in": {
   "cx": 0.0,
   "cy": 1.74,
