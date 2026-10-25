@@ -8198,6 +8198,177 @@
   "size": 98.49,
   "w": 92.4
  },
+ "taxila/apsidal-temple": {
+  "cx": 0.0,
+  "cy": 0.49,
+  "d": 71.02,
+  "ext": "webp",
+  "px": 222,
+  "size": 73.86,
+  "w": 40.04
+ },
+ "taxila/bhir-quarter": {
+  "cx": 0.0,
+  "cy": 0.06,
+  "d": 80.44,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "taxila/dharmarajika": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 140.0
+ },
+ "taxila/dharmarajika-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 140.0
+ },
+ "taxila/dharmarajika-ig": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 140.0
+ },
+ "taxila/dharmarajika-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 170.0,
+  "ext": "webp",
+  "px": 530,
+  "size": 176.8,
+  "w": 140.0
+ },
+ "taxila/eagle-shrine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 14.56,
+  "w": 14.0
+ },
+ "taxila/hathial": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 80.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "taxila/jandial": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 56.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.24,
+  "w": 34.0
+ },
+ "taxila/jandial-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 56.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 58.24,
+  "w": 34.0
+ },
+ "taxila/kunala": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 200,
+  "size": 66.56,
+  "w": 46.0
+ },
+ "taxila/kunala-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 64.0,
+  "ext": "webp",
+  "px": 200,
+  "size": 66.56,
+  "w": 46.0
+ },
+ "taxila/mohra-moradu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 70.0
+ },
+ "taxila/mohra-moradu-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 100.0,
+  "ext": "webp",
+  "px": 312,
+  "size": 104.0,
+  "w": 70.0
+ },
+ "taxila/sirkap-block": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 40.0
+ },
+ "taxila/sirkap-palace": {
+  "cx": -0.1,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 344,
+  "size": 114.61,
+  "w": 110.2
+ },
+ "taxila/sirkap-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 687,
+  "size": 228.84,
+  "w": 220.04
+ },
+ "taxila/sirkap-wall-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 687,
+  "size": 228.84,
+  "w": 220.04
+ },
+ "taxila/sirsukh-wall": {
+  "cx": 0.05,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 812,
+  "size": 270.55,
+  "w": 260.15
+ },
  "tenochtitlan/aqueduct": {
   "cx": 0.0,
   "cy": -0.0,
