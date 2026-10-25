@@ -2274,6 +2274,111 @@
   "cy": -0.0,
   "size": 158.43
  },
+ "kaifeng/bian-wharves": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 251.22
+ },
+ "kaifeng/dragon-pavilion": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 214.37
+ },
+ "kaifeng/east-water-gate": {
+  "cx": 0.28,
+  "cy": -0.0,
+  "size": 146.02
+ },
+ "kaifeng/fan-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 243.55
+ },
+ "kaifeng/fan-pagoda-ming": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 174.25
+ },
+ "kaifeng/fan-pagoda-qing": {
+  "cx": 0.0,
+  "cy": -0.25,
+  "size": 188.43
+ },
+ "kaifeng/fan-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 132.24
+ },
+ "kaifeng/genyue": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 435.81
+ },
+ "kaifeng/imperial-way": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 581.91
+ },
+ "kaifeng/iron-pagoda": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 202.18
+ },
+ "kaifeng/rainbow-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 84.16
+ },
+ "kaifeng/song-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 403.95
+ },
+ "kaifeng/south-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 182.84
+ },
+ "kaifeng/south-gate-ming": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 202.04
+ },
+ "kaifeng/synagogue": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 148.21
+ },
+ "kaifeng/xiangguo-temple": {
+  "cx": 0.0,
+  "cy": 0.51,
+  "size": 308.02
+ },
+ "kaifeng/xiangguo-temple-qing": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 296.65
+ },
+ "kaifeng/yanqing-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 165.26
+ },
+ "kaifeng/zhou-palace": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 433.95
+ },
+ "kaifeng/zhouqiao": {
+  "cx": 0.0,
+  "cy": 0.0,
+  "size": 87.74
+ },
+ "kaifeng/zhouqiao-ming": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 89.13
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
