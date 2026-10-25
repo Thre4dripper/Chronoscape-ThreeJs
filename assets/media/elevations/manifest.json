@@ -5895,6 +5895,138 @@
   "w": 40.0,
   "x0px": 31.2
  },
+ "mohenjo-daro/citadel-platform": {
+  "ground": 195.7,
+  "h": 14.55,
+  "mpp": 0.08339,
+  "px": [
+   283,
+   217
+  ],
+  "w": 20.0,
+  "x0px": 21.6
+ },
+ "mohenjo-daro/college": {
+  "ground": 138.5,
+  "h": 7.75,
+  "mpp": 0.08342,
+  "px": [
+   938,
+   184
+  ],
+  "w": 70.6,
+  "x0px": 45.8
+ },
+ "mohenjo-daro/craft-quarter": {
+  "ground": 87.2,
+  "h": 4.7,
+  "mpp": 0.08344,
+  "px": [
+   543,
+   118
+  ],
+  "w": 40.1,
+  "x0px": 31.2
+ },
+ "mohenjo-daro/dk-g-well": {
+  "ground": 61.4,
+  "h": 3.75,
+  "mpp": 0.08382,
+  "px": [
+   154,
+   78
+  ],
+  "w": 10.1,
+  "x0px": 16.8
+ },
+ "mohenjo-daro/great-bath": {
+  "ground": 134.5,
+  "h": 8.85,
+  "mpp": 0.08349,
+  "px": [
+   467,
+   163
+  ],
+  "w": 34.25,
+  "x0px": 28.4
+ },
+ "mohenjo-daro/great-hall": {
+  "ground": 134.7,
+  "h": 8.2,
+  "mpp": 0.08337,
+  "px": [
+   681,
+   171
+  ],
+  "w": 50.72,
+  "x0px": 36.3
+ },
+ "mohenjo-daro/hr-house": {
+  "ground": 123.4,
+  "h": 8.0,
+  "mpp": 0.08351,
+  "px": [
+   444,
+   151
+  ],
+  "w": 32.48,
+  "x0px": 27.5
+ },
+ "mohenjo-daro/main-street": {
+  "ground": 123.5,
+  "h": 8.09,
+  "mpp": 0.08339,
+  "px": [
+   419,
+   150
+  ],
+  "w": 30.5,
+  "x0px": 26.6
+ },
+ "mohenjo-daro/pillared-hall": {
+  "ground": 88.5,
+  "h": 5.25,
+  "mpp": 0.08343,
+  "px": [
+   389,
+   114
+  ],
+  "w": 28.2,
+  "x0px": 25.5
+ },
+ "mohenjo-daro/priest-king-house": {
+  "ground": 115.3,
+  "h": 7.65,
+  "mpp": 0.08352,
+  "px": [
+   340,
+   139
+  ],
+  "w": 24.44,
+  "x0px": 23.7
+ },
+ "mohenjo-daro/southern-defences": {
+  "ground": 203.2,
+  "h": 13.95,
+  "mpp": 0.08333,
+  "px": [
+   672,
+   239
+  ],
+  "w": 50.0,
+  "x0px": 36.0
+ },
+ "mohenjo-daro/stupa": {
+  "ground": 194.2,
+  "h": 12.8,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   235
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
  "nara/chodo-in": {
   "ground": 234.8,
   "h": 25.02,
