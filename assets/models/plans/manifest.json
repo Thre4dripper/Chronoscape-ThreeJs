@@ -4823,6 +4823,177 @@
   "size": 94.43,
   "w": 40.0
  },
+ "merv/abdullah-khan-kala": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 624,
+  "size": 208.0,
+  "w": 200.0
+ },
+ "merv/askhab": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "merv/beni-makhan": {
+  "cx": 0.25,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 220,
+  "size": 73.32,
+  "w": 70.5
+ },
+ "merv/erk-kala": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 520.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 540.8,
+  "w": 520.0
+ },
+ "merv/erk-kala-ruin": {
+  "cx": 0.0,
+  "cy": 0.93,
+  "d": 521.87,
+  "ext": "webp",
+  "px": 1024,
+  "size": 542.74,
+  "w": 520.0
+ },
+ "merv/friday-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 343,
+  "size": 114.4,
+  "w": 110.0
+ },
+ "merv/great-kyz-kala": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 58.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 60.32,
+  "w": 52.0
+ },
+ "merv/gyaur-kala-walls": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 240.0
+ },
+ "merv/gyaur-kala-walls-ruin": {
+  "cx": -0.38,
+  "cy": -0.22,
+  "d": 70.43,
+  "ext": "webp",
+  "px": 751,
+  "size": 250.38,
+  "w": 240.75
+ },
+ "merv/majan-dam": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "merv/muhammad-ibn-zayd": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 30.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 24.0
+ },
+ "merv/sanjar-mausoleum": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 41.6,
+  "w": 40.0
+ },
+ "merv/shahriyar-ark": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 380.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 395.2,
+  "w": 360.0
+ },
+ "merv/shahriyar-ark-ruin": {
+  "cx": 0.0,
+  "cy": 1.0,
+  "d": 382.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 397.28,
+  "w": 360.0
+ },
+ "merv/small-kyz-kala": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 28.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 31.2,
+  "w": 30.0
+ },
+ "merv/stupa": {
+  "cx": 0.0,
+  "cy": 0.38,
+  "d": 90.75,
+  "ext": "webp",
+  "px": 283,
+  "size": 94.38,
+  "w": 90.0
+ },
+ "merv/sultan-kala-walls": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "merv/sultan-kala-walls-ruin": {
+  "cx": 0.0,
+  "cy": -1.0,
+  "d": 92.0,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "merv/yakhdan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 44.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
  "mohenjo-daro/citadel-platform": {
   "cx": 0.0,
   "cy": -0.0,
