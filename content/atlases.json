@@ -170,7 +170,9 @@
           "subtitle": "Seljuk metropolis, 1100",
           "at": [61.84, 37.66],
           "glyph": "dome",
-          "blurb": "One of the largest cities of its age, an oasis capital ringed by walls, later destroyed by the Mongols."
+          "blurb": "One of the largest cities of its age, an oasis capital ringed by walls, later destroyed by the Mongols.",
+          "city": "merv",
+          "period": "seljuk-1100"
         },
         {
           "title": "Dunhuang",
