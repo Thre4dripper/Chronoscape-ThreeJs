@@ -4139,6 +4139,101 @@
   "cy": 1.15,
   "size": 133.3
  },
+ "taxila/apsidal-temple": {
+  "cx": 0.0,
+  "cy": 0.49,
+  "size": 110.16
+ },
+ "taxila/bhir-quarter": {
+  "cx": 0.0,
+  "cy": 0.06,
+  "size": 111.64
+ },
+ "taxila/dharmarajika": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 260.48
+ },
+ "taxila/dharmarajika-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 221.85
+ },
+ "taxila/dharmarajika-ig": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 221.85
+ },
+ "taxila/dharmarajika-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 207.89
+ },
+ "taxila/eagle-shrine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 41.19
+ },
+ "taxila/hathial": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 153.1
+ },
+ "taxila/jandial": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 107.2
+ },
+ "taxila/jandial-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 76.6
+ },
+ "taxila/kunala": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 128.39
+ },
+ "taxila/kunala-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 94.13
+ },
+ "taxila/mohra-moradu": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 155.87
+ },
+ "taxila/mohra-moradu-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 128.67
+ },
+ "taxila/sirkap-block": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 86.54
+ },
+ "taxila/sirkap-palace": {
+  "cx": -0.1,
+  "cy": -0.0,
+  "size": 134.58
+ },
+ "taxila/sirkap-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 259.9
+ },
+ "taxila/sirkap-wall-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 239.06
+ },
+ "taxila/sirsukh-wall": {
+  "cx": 0.05,
+  "cy": -0.0,
+  "size": 289.21
+ },
  "tenochtitlan/aqueduct": {
   "cx": 0.0,
   "cy": -0.0,
