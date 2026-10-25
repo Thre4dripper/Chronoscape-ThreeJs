@@ -5235,6 +5235,281 @@
   "w": 50.0,
   "x0px": 36.0
  },
+ "khanbaliq/bell-tower": {
+  "ground": 565.7,
+  "h": 44.44,
+  "mpp": 0.08347,
+  "px": [
+   450,
+   599
+  ],
+  "w": 32.0,
+  "x0px": 33.3
+ },
+ "khanbaliq/bell-tower-1450": {
+  "ground": 522.4,
+  "h": 40.92,
+  "mpp": 0.08339,
+  "px": [
+   447,
+   554
+  ],
+  "w": 32.0,
+  "x0px": 31.6
+ },
+ "khanbaliq/chengtianmen-1450": {
+  "ground": 212.2,
+  "h": 19.5,
+  "mpp": 0.12717,
+  "px": [
+   1400,
+   271
+  ],
+  "w": 163.0,
+  "x0px": 59.1
+ },
+ "khanbaliq/confucius-guozijian": {
+  "ground": 179.3,
+  "h": 26.86,
+  "mpp": 0.21743,
+  "px": [
+   1400,
+   235
+  ],
+  "w": 280.0,
+  "x0px": 56.1
+ },
+ "khanbaliq/dianmen": {
+  "ground": 247.5,
+  "h": 17.18,
+  "mpp": 0.08334,
+  "px": [
+   830,
+   289
+  ],
+  "w": 62.2,
+  "x0px": 41.9
+ },
+ "khanbaliq/drum-tower": {
+  "ground": 551.7,
+  "h": 42.73,
+  "mpp": 0.08341,
+  "px": [
+   762,
+   591
+  ],
+  "w": 57.0,
+  "x0px": 39.3
+ },
+ "khanbaliq/forbidden-city": {
+  "ground": 129.6,
+  "h": 44.91,
+  "mpp": 0.58879,
+  "px": [
+   1400,
+   183
+  ],
+  "w": 761.4,
+  "x0px": 53.4
+ },
+ "khanbaliq/forbidden-city-1450": {
+  "ground": 130.9,
+  "h": 45.84,
+  "mpp": 0.58879,
+  "px": [
+   1400,
+   184
+  ],
+  "w": 761.4,
+  "x0px": 53.4
+ },
+ "khanbaliq/guangji": {
+  "ground": 335.6,
+  "h": 23.58,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   398
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "khanbaliq/guangji-early": {
+  "ground": 195.7,
+  "h": 11.51,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   258
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "khanbaliq/jingshan": {
+  "ground": 257.7,
+  "h": 66.83,
+  "mpp": 0.32851,
+  "px": [
+   1400,
+   312
+  ],
+  "w": 424.0,
+  "x0px": 54.7
+ },
+ "khanbaliq/jingshan-1450": {
+  "ground": 212.4,
+  "h": 51.87,
+  "mpp": 0.32851,
+  "px": [
+   1400,
+   267
+  ],
+  "w": 424.0,
+  "x0px": 54.7
+ },
+ "khanbaliq/jishuitan-harbour": {
+  "ground": 178.1,
+  "h": 14.9,
+  "mpp": 0.12495,
+  "px": [
+   1399,
+   237
+  ],
+  "w": 160.0,
+  "x0px": 59.2
+ },
+ "khanbaliq/miaoying": {
+  "ground": 577.0,
+  "h": 43.51,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   632
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "khanbaliq/ming-gate": {
+  "ground": 498.9,
+  "h": 37.69,
+  "mpp": 0.08629,
+  "px": [
+   1400,
+   561
+  ],
+  "w": 110.0,
+  "x0px": 62.6
+ },
+ "khanbaliq/nine-dragon-wall": {
+  "ground": 128.3,
+  "h": 8.65,
+  "mpp": 0.0835,
+  "px": [
+   368,
+   153
+  ],
+  "w": 26.6,
+  "x0px": 24.7
+ },
+ "khanbaliq/qionghua": {
+  "ground": 314.1,
+  "h": 58.95,
+  "mpp": 0.22822,
+  "px": [
+   1400,
+   370
+  ],
+  "w": 293.99,
+  "x0px": 55.9
+ },
+ "khanbaliq/qionghua-qing": {
+  "ground": 339.5,
+  "h": 64.82,
+  "mpp": 0.22822,
+  "px": [
+   1400,
+   395
+  ],
+  "w": 293.99,
+  "x0px": 55.9
+ },
+ "khanbaliq/tiananmen": {
+  "ground": 387.2,
+  "h": 41.77,
+  "mpp": 0.12717,
+  "px": [
+   1400,
+   446
+  ],
+  "w": 163.0,
+  "x0px": 59.1
+ },
+ "khanbaliq/tuancheng": {
+  "ground": 431.5,
+  "h": 31.76,
+  "mpp": 0.08338,
+  "px": [
+   1068,
+   482
+  ],
+  "w": 80.6,
+  "x0px": 50.7
+ },
+ "khanbaliq/tuancheng-yuan": {
+  "ground": 300.2,
+  "h": 20.46,
+  "mpp": 0.08336,
+  "px": [
+   1190,
+   355
+  ],
+  "w": 90.0,
+  "x0px": 55.2
+ },
+ "khanbaliq/wanning-bridge": {
+  "ground": 74.8,
+  "h": 4.05,
+  "mpp": 0.0835,
+  "px": [
+   412,
+   101
+  ],
+  "w": 30.0,
+  "x0px": 26.3
+ },
+ "khanbaliq/yonghegong": {
+  "ground": 433.5,
+  "h": 34.96,
+  "mpp": 0.094,
+  "px": [
+   1400,
+   495
+  ],
+  "w": 120.0,
+  "x0px": 61.7
+ },
+ "khanbaliq/yuan-palace": {
+  "ground": 122.8,
+  "h": 39.82,
+  "mpp": 0.57136,
+  "px": [
+   1400,
+   176
+  ],
+  "w": 738.8,
+  "x0px": 53.5
+ },
+ "khanbaliq/yuan-towers": {
+  "ground": 437.1,
+  "h": 33.04,
+  "mpp": 0.0834,
+  "px": [
+   801,
+   478
+  ],
+  "w": 60.0,
+  "x0px": 40.8
+ },
  "kyoto/chion-in-sanmon": {
   "ground": 390.4,
   "h": 29.26,
