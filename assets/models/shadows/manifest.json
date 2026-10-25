@@ -2379,6 +2379,131 @@
   "cy": -0.0,
   "size": 89.13
  },
+ "khanbaliq/bell-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 119.99
+ },
+ "khanbaliq/bell-tower-1450": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 113.66
+ },
+ "khanbaliq/chengtianmen-1450": {
+  "cx": 0.0,
+  "cy": -0.41,
+  "size": 206.1
+ },
+ "khanbaliq/confucius-guozijian": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 356.35
+ },
+ "khanbaliq/dianmen": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 101.12
+ },
+ "khanbaliq/drum-tower": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 141.92
+ },
+ "khanbaliq/forbidden-city": {
+  "cx": 0.0,
+  "cy": -1.65,
+  "size": 1057.75
+ },
+ "khanbaliq/forbidden-city-1450": {
+  "cx": 0.0,
+  "cy": -1.65,
+  "size": 1059.41
+ },
+ "khanbaliq/guangji": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 280.44
+ },
+ "khanbaliq/guangji-early": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 258.73
+ },
+ "khanbaliq/jingshan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 552.29
+ },
+ "khanbaliq/jingshan-1450": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 525.36
+ },
+ "khanbaliq/jishuitan-harbour": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 194.82
+ },
+ "khanbaliq/miaoying": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 236.33
+ },
+ "khanbaliq/ming-gate": {
+  "cx": 0.0,
+  "cy": 1.5,
+  "size": 185.84
+ },
+ "khanbaliq/nine-dragon-wall": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 50.17
+ },
+ "khanbaliq/qionghua": {
+  "cx": 1.99,
+  "cy": 4.29,
+  "size": 408.1
+ },
+ "khanbaliq/qionghua-qing": {
+  "cx": 1.99,
+  "cy": 4.29,
+  "size": 418.65
+ },
+ "khanbaliq/tiananmen": {
+  "cx": 0.0,
+  "cy": -0.41,
+  "size": 246.19
+ },
+ "khanbaliq/tuancheng": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 145.77
+ },
+ "khanbaliq/tuancheng-yuan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 134.83
+ },
+ "khanbaliq/wanning-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 55.29
+ },
+ "khanbaliq/yonghegong": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 510.93
+ },
+ "khanbaliq/yuan-palace": {
+  "cx": 0.0,
+  "cy": -0.39,
+  "size": 1036.66
+ },
+ "khanbaliq/yuan-towers": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 287.47
+ },
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
