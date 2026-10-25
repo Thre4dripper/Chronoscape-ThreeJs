@@ -29,6 +29,7 @@
     { "id": "carthage", "name": "Carthage", "subtitle": "Qart-hadasht, the New City", "status": "playable" },
     { "id": "great-zimbabwe", "name": "Great Zimbabwe", "subtitle": "Dzimba dza mabwe, the houses of stone", "status": "playable" },
     { "id": "aksum", "name": "Aksum", "subtitle": "City of the Stelae", "status": "playable" },
-    { "id": "kaifeng", "name": "Kaifeng", "subtitle": "Bianzhou, Dongjing of the Song, and the City under the Silt", "status": "playable" }
+    { "id": "kaifeng", "name": "Kaifeng", "subtitle": "Bianzhou, Dongjing of the Song, and the City under the Silt", "status": "playable" },
+    { "id": "mohenjo-daro", "name": "Mohenjo-daro", "subtitle": "City of the Indus", "status": "playable" }
   ]
 }

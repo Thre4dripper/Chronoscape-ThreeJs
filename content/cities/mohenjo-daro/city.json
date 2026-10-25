@@ -1,0 +1,4010 @@
+{
+ "id": "mohenjo-daro",
+ "name": "Mohenjo-daro",
+ "subtitle": "City of the Indus",
+ "description": "Mohenjo-daro on the Indus flood plain from its founding on brick platforms (c. 2600 BCE) through the mature Harappan city and its decline (c. 1900 BCE) to the Buddhist stupa built on the Citadel mound in Kushan times. The city's ancient name is unknown; Mohenjo-daro, 'mound of the dead', is Sindhi. Positions are projected from real coordinates; the drawing is an illustration, not a survey, and the river's ancient course is a guess.",
+ "defaultPeriodId": "mature-2500",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 0.9,
+  "walls": [
+   "#B98763",
+   "#C49470",
+   "#AD7B58",
+   "#C9A07C",
+   "#B58D6A"
+  ],
+  "roofs": [
+   "#BFA684",
+   "#B39A78"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1088,
+    1054
+   ],
+   "distance": 34,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   2423,
+   2053
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Indus (ancient course?)",
+    "path": [
+     [
+      2077,
+      -55
+     ],
+     [
+      2136,
+      444
+     ],
+     [
+      2196,
+      999
+     ],
+     [
+      2176,
+      1553
+     ],
+     [
+      2235,
+      2108
+     ]
+    ],
+    "width": 280,
+    "id": "indus",
+    "blurb": "The Indus now flows several kilometres east of the ruins, and it has shifted many times. In Harappan times it probably ran east of the city, perhaps closer than today, and flooded the plain every summer; this course is a guess, not a survey.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Indus",
+    "path": [
+     [
+      2324,
+      -55
+     ],
+     [
+      2364,
+      444
+     ],
+     [
+      2423,
+      999
+     ],
+     [
+      2403,
+      1553
+     ],
+     [
+      2463,
+      2108
+     ]
+    ],
+    "width": 240,
+    "id": "indus",
+    "blurb": "Where the river ran in Kushan times is not known; it is drawn a little further east than in the Bronze Age, its old bed left as marsh.",
+    "periods": [
+     "kushan-150"
+    ]
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Citadel mound (Mound of the Great Bath)",
+    "center": [
+     831,
+     954
+    ],
+    "radius": 150,
+    "label": true,
+    "id": "citadel-mound",
+    "blurb": "The western mound, raised on a platform of mud brick and earth faced with fired brick, about 12 m above the plain. The Great Bath, the Great Hall and the 'College' stood on its northern part."
+   },
+   {
+    "name": "Southern Citadel (L area)",
+    "center": [
+     831,
+     1198
+    ],
+    "radius": 125,
+    "label": false,
+    "id": "l-area-mound",
+    "blurb": "The southern part of the Citadel mound, separated from the north by a lane or gap, with the Pillared Hall and other large buildings."
+   },
+   {
+    "name": "DK mound",
+    "center": [
+     1434,
+     821
+    ],
+    "radius": 210,
+    "label": true,
+    "id": "dk-mound",
+    "blurb": "The buried north-eastern part of the Lower Town, a low mound of brick rubble and silt in Kushan times.",
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "name": "HR and VS mounds",
+    "center": [
+     1256,
+     1276
+    ],
+    "radius": 200,
+    "label": true,
+    "id": "hr-mound",
+    "blurb": "The buried southern part of the Lower Town.",
+    "periods": [
+     "kushan-150"
+    ]
+   }
+  ],
+  "roads": [
+   {
+    "name": "First Street (Main Street)",
+    "path": [
+     [
+      1296,
+      533
+     ],
+     [
+      1296,
+      865
+     ],
+     [
+      1296,
+      1076
+     ],
+     [
+      1296,
+      1287
+     ],
+     [
+      1296,
+      1598
+     ]
+    ],
+    "width": 10,
+    "style": "major",
+    "labelled": true,
+    "id": "first-street",
+    "blurb": "The excavators' First Street, the main north–south street of the Lower Town, about 10 m wide and running straight for over 800 m, with covered brick drains along its sides. Its ancient name is unknown.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "East Street",
+    "path": [
+     [
+      1058,
+      865
+     ],
+     [
+      1296,
+      865
+     ],
+     [
+      1523,
+      865
+     ],
+     [
+      1889,
+      865
+     ]
+    ],
+    "width": 9,
+    "style": "major",
+    "labelled": true,
+    "id": "east-street",
+    "blurb": "The main east–west street of the Lower Town, crossing First Street at right angles in the DK area. Its drains ran east toward the flood plain.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Street east of First Street",
+    "path": [
+     [
+      1523,
+      555
+     ],
+     [
+      1523,
+      865
+     ],
+     [
+      1523,
+      1076
+     ],
+     [
+      1523,
+      1553
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "second-street",
+    "blurb": "A lesser north–south street parallel to First Street; the grid of the eastern Lower Town is known only in part.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Cross street in the DK area",
+    "path": [
+     [
+      1058,
+      1076
+     ],
+     [
+      1296,
+      1076
+     ],
+     [
+      1731,
+      1076
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "central-cross",
+    "blurb": "An east–west street dividing the blocks of the Lower Town; the lines of the lesser streets are partly reconstructed.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Cross street between HR and VS",
+    "path": [
+     [
+      1058,
+      1287
+     ],
+     [
+      1296,
+      1287
+     ],
+     [
+      1731,
+      1287
+     ]
+    ],
+    "width": 7,
+    "style": "minor",
+    "labelled": false,
+    "id": "south-cross",
+    "blurb": "An east–west street in the south of the Lower Town, between the HR and VS areas.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Deadman Lane",
+    "path": [
+     [
+      1098,
+      1154
+     ],
+     [
+      1256,
+      1154
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "deadman-lane",
+    "blurb": "A narrow lane in the HR area, named by the excavators for skeletons found there; they once fed the story of a massacre at the city's end, now rejected.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Path between Citadel and Lower Town",
+    "path": [
+     [
+      1019,
+      533
+     ],
+     [
+      1019,
+      888
+     ],
+     [
+      1019,
+      1220
+     ],
+     [
+      1019,
+      1598
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "gap-path",
+    "blurb": "The low ground between the Citadel and the Lower Town, perhaps an open space or a channel; its use is unknown.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Lane across the Citadel",
+    "path": [
+     [
+      702,
+      1109
+     ],
+     [
+      969,
+      1109
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "citadel-lane",
+    "blurb": "A broad lane or gap dividing the Citadel's northern mound, with the Great Bath, from its southern part, the L area.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Road to the river landing",
+    "path": [
+     [
+      1889,
+      865
+     ],
+     [
+      2047,
+      865
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "landing-road",
+    "blurb": "East Street ran on toward the river; where boats landed is not known.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Road north",
+    "path": [
+     [
+      1296,
+      533
+     ],
+     [
+      1276,
+      277
+     ],
+     [
+      1236,
+      -22
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": false,
+    "id": "north-road",
+    "blurb": "First Street continued north out of the city toward the fields and the villages upriver.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Road south",
+    "path": [
+     [
+      1296,
+      1598
+     ],
+     [
+      1315,
+      1831
+     ],
+     [
+      1335,
+      2075
+     ]
+    ],
+    "width": 8,
+    "style": "major",
+    "labelled": false,
+    "id": "south-road",
+    "blurb": "South along the plain, the direction of the river traffic toward the sea, some 300 km away, and the Gulf trade.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Track to the western fields",
+    "path": [
+     [
+      663,
+      1021
+     ],
+     [
+      346,
+      999
+     ],
+     [
+      -20,
+      943
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "west-track",
+    "blurb": "A track from the Citadel's west side across the fields.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "name": "Path up the stupa mound",
+    "path": [
+     [
+      1098,
+      1198
+     ],
+     [
+      999,
+      1109
+     ],
+     [
+      940,
+      999
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "stupa-path",
+    "blurb": "From the village at the foot of the mound up to the monastery and the stupa.",
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "name": "Track across the mounds",
+    "path": [
+     [
+      1098,
+      1198
+     ],
+     [
+      1335,
+      1109
+     ],
+     [
+      1731,
+      865
+     ],
+     [
+      2225,
+      777
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "mound-track",
+    "blurb": "A village track across the low mounds of the buried city toward the river.",
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "name": "Road north",
+    "path": [
+     [
+      1098,
+      1198
+     ],
+     [
+      1137,
+      555
+     ],
+     [
+      1157,
+      -22
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "kushan-north-road",
+    "blurb": "A country road along the plain.",
+    "periods": [
+     "kushan-150"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Citadel platform wall",
+    "path": [
+     [
+      682,
+      799
+     ],
+     [
+      979,
+      799
+     ],
+     [
+      979,
+      1309
+     ],
+     [
+      682,
+      1309
+     ]
+    ],
+    "closed": true,
+    "id": "citadel-wall",
+    "blurb": "The Citadel stood on a platform of mud brick and earth with a revetment of brick and, at least in places, solid towers. Whether it was a defence against enemies or against floods, or both, is debated; its full line is only partly excavated.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   }
+  ],
+  "gates": [],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      702,
+      821
+     ],
+     [
+      959,
+      821
+     ],
+     [
+      959,
+      1076
+     ],
+     [
+      702,
+      1076
+     ]
+    ],
+    "density": "dense",
+    "name": "Northern Citadel",
+    "periods": [
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      702,
+      1143
+     ],
+     [
+      959,
+      1143
+     ],
+     [
+      959,
+      1287
+     ],
+     [
+      702,
+      1287
+     ]
+    ],
+    "density": "dense",
+    "name": "L area",
+    "periods": [
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      702,
+      821
+     ],
+     [
+      959,
+      821
+     ],
+     [
+      959,
+      1076
+     ],
+     [
+      702,
+      1076
+     ]
+    ],
+    "density": "loose",
+    "name": "Citadel under construction",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      577
+     ],
+     [
+      1493,
+      577
+     ],
+     [
+      1493,
+      832
+     ],
+     [
+      1303,
+      832
+     ]
+    ],
+    "density": "dense",
+    "name": "DK-G (north)",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      577
+     ],
+     [
+      1731,
+      577
+     ],
+     [
+      1731,
+      832
+     ],
+     [
+      1553,
+      832
+     ]
+    ],
+    "density": "dense",
+    "name": "DK-G (north-east)",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      577
+     ],
+     [
+      1288,
+      577
+     ],
+     [
+      1288,
+      832
+     ],
+     [
+      1058,
+      832
+     ]
+    ],
+    "density": "dense",
+    "name": "North-western block",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      899
+     ],
+     [
+      1493,
+      899
+     ],
+     [
+      1493,
+      1043
+     ],
+     [
+      1303,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "DK-B and DK-C",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      899
+     ],
+     [
+      1731,
+      899
+     ],
+     [
+      1731,
+      1043
+     ],
+     [
+      1553,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "DK area (east)",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      899
+     ],
+     [
+      1288,
+      899
+     ],
+     [
+      1288,
+      1043
+     ],
+     [
+      1058,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "West of First Street",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1109
+     ],
+     [
+      1288,
+      1109
+     ],
+     [
+      1288,
+      1254
+     ],
+     [
+      1058,
+      1254
+     ]
+    ],
+    "density": "dense",
+    "name": "HR area",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      1109
+     ],
+     [
+      1493,
+      1109
+     ],
+     [
+      1493,
+      1254
+     ],
+     [
+      1303,
+      1254
+     ]
+    ],
+    "density": "dense",
+    "name": "Central blocks",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      1109
+     ],
+     [
+      1731,
+      1109
+     ],
+     [
+      1731,
+      1254
+     ],
+     [
+      1553,
+      1254
+     ]
+    ],
+    "density": "dense",
+    "name": "Eastern blocks",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1320
+     ],
+     [
+      1288,
+      1320
+     ],
+     [
+      1288,
+      1575
+     ],
+     [
+      1058,
+      1575
+     ]
+    ],
+    "density": "dense",
+    "name": "VS area",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      1320
+     ],
+     [
+      1493,
+      1320
+     ],
+     [
+      1493,
+      1575
+     ],
+     [
+      1303,
+      1575
+     ]
+    ],
+    "density": "dense",
+    "name": "Southern blocks",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      1320
+     ],
+     [
+      1731,
+      1320
+     ],
+     [
+      1731,
+      1575
+     ],
+     [
+      1553,
+      1575
+     ]
+    ],
+    "density": "dense",
+    "name": "Moneer area",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1770,
+      577
+     ],
+     [
+      1889,
+      577
+     ],
+     [
+      1889,
+      1575
+     ],
+     [
+      1770,
+      1575
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern suburbs (buried)",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1642
+     ],
+     [
+      1889,
+      1642
+     ],
+     [
+      1889,
+      1797
+     ],
+     [
+      1058,
+      1797
+     ]
+    ],
+    "density": "loose",
+    "name": "Southern suburbs (buried)",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      377
+     ],
+     [
+      1731,
+      377
+     ],
+     [
+      1731,
+      499
+     ],
+     [
+      1058,
+      499
+     ]
+    ],
+    "density": "loose",
+    "name": "Northern suburbs (buried)",
+    "periods": [
+     "mature-2500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      610
+     ],
+     [
+      1493,
+      610
+     ],
+     [
+      1493,
+      832
+     ],
+     [
+      1303,
+      832
+     ]
+    ],
+    "density": "dense",
+    "name": "DK area (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      899
+     ],
+     [
+      1288,
+      899
+     ],
+     [
+      1288,
+      1043
+     ],
+     [
+      1058,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "West of First Street (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      899
+     ],
+     [
+      1493,
+      899
+     ],
+     [
+      1493,
+      1043
+     ],
+     [
+      1303,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "DK-B and DK-C (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1109
+     ],
+     [
+      1288,
+      1109
+     ],
+     [
+      1288,
+      1254
+     ],
+     [
+      1058,
+      1254
+     ]
+    ],
+    "density": "dense",
+    "name": "HR area (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      1109
+     ],
+     [
+      1493,
+      1109
+     ],
+     [
+      1493,
+      1254
+     ],
+     [
+      1303,
+      1254
+     ]
+    ],
+    "density": "loose",
+    "name": "Central blocks (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1320
+     ],
+     [
+      1288,
+      1320
+     ],
+     [
+      1288,
+      1498
+     ],
+     [
+      1058,
+      1498
+     ]
+    ],
+    "density": "loose",
+    "name": "VS area (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      899
+     ],
+     [
+      1691,
+      899
+     ],
+     [
+      1691,
+      1254
+     ],
+     [
+      1553,
+      1254
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern edge (early)",
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      577
+     ],
+     [
+      1493,
+      577
+     ],
+     [
+      1493,
+      832
+     ],
+     [
+      1303,
+      832
+     ]
+    ],
+    "density": "dense",
+    "name": "DK-G (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      577
+     ],
+     [
+      1731,
+      577
+     ],
+     [
+      1731,
+      832
+     ],
+     [
+      1553,
+      832
+     ]
+    ],
+    "density": "loose",
+    "name": "DK-G east (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      577
+     ],
+     [
+      1288,
+      577
+     ],
+     [
+      1288,
+      832
+     ],
+     [
+      1058,
+      832
+     ]
+    ],
+    "density": "loose",
+    "name": "North-western block (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      899
+     ],
+     [
+      1493,
+      899
+     ],
+     [
+      1493,
+      1043
+     ],
+     [
+      1303,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "DK-B and DK-C (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      899
+     ],
+     [
+      1731,
+      899
+     ],
+     [
+      1731,
+      1043
+     ],
+     [
+      1553,
+      1043
+     ]
+    ],
+    "density": "loose",
+    "name": "DK area east (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      899
+     ],
+     [
+      1288,
+      899
+     ],
+     [
+      1288,
+      1043
+     ],
+     [
+      1058,
+      1043
+     ]
+    ],
+    "density": "dense",
+    "name": "West of First Street (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1109
+     ],
+     [
+      1288,
+      1109
+     ],
+     [
+      1288,
+      1254
+     ],
+     [
+      1058,
+      1254
+     ]
+    ],
+    "density": "dense",
+    "name": "HR area (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      1109
+     ],
+     [
+      1493,
+      1109
+     ],
+     [
+      1493,
+      1254
+     ],
+     [
+      1303,
+      1254
+     ]
+    ],
+    "density": "dense",
+    "name": "Central blocks (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      1109
+     ],
+     [
+      1731,
+      1109
+     ],
+     [
+      1731,
+      1254
+     ],
+     [
+      1553,
+      1254
+     ]
+    ],
+    "density": "loose",
+    "name": "Eastern blocks (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1058,
+      1320
+     ],
+     [
+      1288,
+      1320
+     ],
+     [
+      1288,
+      1575
+     ],
+     [
+      1058,
+      1575
+     ]
+    ],
+    "density": "dense",
+    "name": "VS area (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1303,
+      1320
+     ],
+     [
+      1493,
+      1320
+     ],
+     [
+      1493,
+      1575
+     ],
+     [
+      1303,
+      1575
+     ]
+    ],
+    "density": "loose",
+    "name": "Southern blocks (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1553,
+      1320
+     ],
+     [
+      1731,
+      1320
+     ],
+     [
+      1731,
+      1575
+     ],
+     [
+      1553,
+      1575
+     ]
+    ],
+    "density": "loose",
+    "name": "Moneer area (late)",
+    "periods": [
+     "late-1900"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1009,
+      1132
+     ],
+     [
+      1157,
+      1132
+     ],
+     [
+      1157,
+      1309
+     ],
+     [
+      1009,
+      1309
+     ]
+    ],
+    "density": "loose",
+    "name": "Village below the monastery",
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      702,
+      821
+     ],
+     [
+      821,
+      821
+     ],
+     [
+      821,
+      910
+     ],
+     [
+      702,
+      910
+     ]
+    ],
+    "density": "loose",
+    "name": "Monastery dependencies",
+    "periods": [
+     "kushan-150"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      69,
+      55
+     ],
+     [
+      593,
+      55
+     ],
+     [
+      593,
+      721
+     ],
+     [
+      69,
+      721
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Wheat and barley fields (west)"
+   },
+   {
+    "polygon": [
+     [
+      69,
+      1387
+     ],
+     [
+      593,
+      1387
+     ],
+     [
+      593,
+      1997
+     ],
+     [
+      69,
+      1997
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields on the flood plain (south-west)"
+   },
+   {
+    "polygon": [
+     [
+      643,
+      55
+     ],
+     [
+      1187,
+      55
+     ],
+     [
+      1187,
+      311
+     ],
+     [
+      643,
+      311
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Cotton and sesame fields (north)"
+   },
+   {
+    "polygon": [
+     [
+      643,
+      1864
+     ],
+     [
+      1236,
+      1864
+     ],
+     [
+      1236,
+      1997
+     ],
+     [
+      643,
+      1997
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields south of the city"
+   },
+   {
+    "polygon": [
+     [
+      1187,
+      577
+     ],
+     [
+      1830,
+      577
+     ],
+     [
+      1830,
+      1553
+     ],
+     [
+      1187,
+      1553
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields on the old mounds",
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      643,
+      388
+     ],
+     [
+      1088,
+      388
+     ],
+     [
+      1088,
+      721
+     ],
+     [
+      643,
+      721
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields north of the mound",
+    "periods": [
+     "kushan-150"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      1533,
+      22
+     ],
+     [
+      1988,
+      22
+     ],
+     [
+      2008,
+      333
+     ],
+     [
+      1632,
+      355
+     ]
+    ],
+    "name": "Flood basin (north-east)"
+   },
+   {
+    "polygon": [
+     [
+      1929,
+      1686
+     ],
+     [
+      2047,
+      1686
+     ],
+     [
+      2087,
+      2019
+     ],
+     [
+      1533,
+      2019
+     ],
+     [
+      1533,
+      1886
+     ]
+    ],
+    "name": "Flood basin (south-east)"
+   },
+   {
+    "polygon": [
+     [
+      129,
+      799
+     ],
+     [
+      544,
+      799
+     ],
+     [
+      544,
+      1309
+     ],
+     [
+      129,
+      1309
+     ]
+    ],
+    "name": "Back-swamp west of the Citadel"
+   },
+   {
+    "polygon": [
+     [
+      2008,
+      111
+     ],
+     [
+      2205,
+      111
+     ],
+     [
+      2225,
+      1886
+     ],
+     [
+      2027,
+      1886
+     ]
+    ],
+    "name": "The river's old bed",
+    "periods": [
+     "kushan-150"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "citadel",
+    "name": "The Citadel (SD area)",
+    "polygon": [
+     [
+      682,
+      799
+     ],
+     [
+      979,
+      799
+     ],
+     [
+      979,
+      1309
+     ],
+     [
+      682,
+      1309
+     ]
+    ],
+    "description": "The raised western mound with the city's great public buildings: the Great Bath, the Great Hall, the 'College' and, in the southern L area, the Pillared Hall. Who used them, priests, rulers or councils, is unknown.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "id": "dk-area",
+    "name": "DK area",
+    "polygon": [
+     [
+      1286,
+      555
+     ],
+     [
+      1751,
+      555
+     ],
+     [
+      1751,
+      1065
+     ],
+     [
+      1286,
+      1065
+     ]
+    ],
+    "description": "The north-eastern Lower Town, dug by K. N. Dikshit and Ernest Mackay in the 1920s: First Street, East Street, dense blocks of houses, wells and workshops. The 'Priest-King' was found here.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "id": "hr-area",
+    "name": "HR area",
+    "polygon": [
+     [
+      1038,
+      1087
+     ],
+     [
+      1291,
+      1087
+     ],
+     [
+      1291,
+      1265
+     ],
+     [
+      1038,
+      1265
+     ]
+    ],
+    "description": "Named after H. Hargreaves, who excavated it: large houses, the narrow Deadman Lane and the find-spot of the bronze 'Dancing Girl'.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "id": "vs-area",
+    "name": "VS area",
+    "polygon": [
+     [
+      1038,
+      1298
+     ],
+     [
+      1291,
+      1298
+     ],
+     [
+      1291,
+      1598
+     ],
+     [
+      1038,
+      1598
+     ]
+    ],
+    "description": "Named after M. S. Vats: houses, workshops and many wells in the south-west of the Lower Town.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "id": "moneer-area",
+    "name": "Moneer area",
+    "polygon": [
+     [
+      1513,
+      1298
+     ],
+     [
+      1751,
+      1298
+     ],
+     [
+      1751,
+      1598
+     ],
+     [
+      1513,
+      1598
+     ]
+    ],
+    "description": "The south-eastern Lower Town, where later surveys found much evidence of crafts: shell working, beads, pottery and stone tools.",
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Indus",
+    "position": [
+     2156,
+     555
+    ],
+    "size": "lg",
+    "rotation": -84,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "Indus",
+    "position": [
+     2374,
+     1387
+    ],
+    "size": "md",
+    "rotation": -84,
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "text": "Citadel",
+    "position": [
+     603,
+     754
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "Lower Town",
+    "position": [
+     1414,
+     444
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "Lower Town",
+    "position": [
+     1414,
+     521
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "early-2600"
+    ]
+   },
+   {
+    "text": "DK",
+    "position": [
+     1632,
+     710
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "HR",
+    "position": [
+     1118,
+     1187
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "VS",
+    "position": [
+     1098,
+     1509
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "Moneer",
+    "position": [
+     1652,
+     1520
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   },
+   {
+    "text": "Flood plain",
+    "position": [
+     1830,
+     1886
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Stupa mound",
+    "position": [
+     841,
+     743
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "text": "Mounds of the buried city",
+    "position": [
+     1513,
+     1054
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "kushan-150"
+    ]
+   },
+   {
+    "text": "to the sea",
+    "position": [
+     1414,
+     1964
+    ],
+    "size": "sm",
+    "rotation": -85,
+    "periods": [
+     "early-2600",
+     "mature-2500",
+     "late-1900"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E9D5A9",
+   "ink": "#6C4A30",
+   "water": "#5F888A",
+   "hill": "#A28A62",
+   "road": "#8E6A46"
+  },
+  "compass": [
+   198,
+   200
+  ],
+  "cartouche": [
+   49,
+   1997
+  ]
+ },
+ "periods": [
+  {
+   "id": "early-2600",
+   "label": "The city on the platforms",
+   "year": -2600,
+   "startYear": -2650,
+   "endYear": -2501,
+   "summary": "Around 2600 BCE (the date is approximate; the earliest levels lie below the water table and have never been reached) people on the Indus plain began a city on a vast scale: massive platforms of mud brick and packed earth lifted the Citadel and the Lower Town above the floods, and streets were laid out north–south and east–west. Fired brick of standard size, a common script and weights followed.",
+   "population": "unknown; growing fast",
+   "feel": "Brick kilns smoking along the river, gangs carrying baskets of earth up the rising platforms, the flood plain green after the summer inundation.",
+   "style": "courtyard",
+   "houses": {
+    "title": "The first brick houses",
+    "text": "Rooms of fired and mud brick round small courts, raised on the platforms above flood level; little is known of these earliest houses, which lie deep under later ones. Wells and drains were part of the city from the start, as far as soundings show."
+   },
+   "outskirts": {
+    "title": "Fields and brick kilns",
+    "text": "Wheat and barley sown on the silt as the flood went down, cattle and buffalo grazing, and kilns firing bricks by the hundred thousand for the new city."
+   }
+  },
+  {
+   "id": "mature-2500",
+   "label": "Mature Harappan Mohenjo-daro",
+   "year": -2500,
+   "startYear": -2500,
+   "endYear": -2001,
+   "summary": "The largest city of the Indus civilisation, perhaps 200–250 hectares with its buried suburbs. On the Citadel stood the Great Bath, the Great Hall ('granary'), the 'College' and a pillared hall; in the Lower Town, blocks of fired-brick courtyard houses with wells and bathrooms lined straight streets with covered drains. No palace or great temple has been identified, and who ruled is unknown.",
+   "population": "perhaps 40,000 (estimates range from about 20,000 upward)",
+   "feel": "Water drawn from hundreds of wells, the smell of the drains and of wet brick, potters' wheels and bead drills whirring in the courtyards, ox-carts creaking down First Street.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Courtyard houses of the Lower Town",
+    "text": "Houses of fired brick round an open court, one or two storeys, with flat roofs of timber and earth. They show blank walls to the main streets, doors on the side lanes, and no windows outside; many had their own well, a brick bathing platform and a drain to the street."
+   },
+   "outskirts": {
+    "title": "Fields on the flood plain",
+    "text": "Wheat, barley, sesame, peas and cotton grown on the silt left by the river's flood; buffalo and humped cattle grazing the banks, threshing floors and herders' huts."
+   }
+  },
+  {
+   "id": "late-1900",
+   "label": "Late Harappan decline",
+   "year": -1900,
+   "startYear": -2000,
+   "endYear": -1700,
+   "summary": "From about 1900 BCE the city shrank and decayed. Houses were rebuilt crudely in reused brick, large houses were cut up into small rooms, kilns were set up inside the city and drains went unrepaired. The causes are debated: shifts of the river, floods, a weaker monsoon, the end of the Mesopotamian trade. By about 1700 the city was largely deserted.",
+   "population": "falling; unknown",
+   "feel": "Smoke from kilns in the old streets, cracked drains overflowing, families in subdivided rooms of great houses, silt banked against the walls.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Patched and divided houses",
+    "text": "Old courtyard houses rebuilt on their stumps with broken and reused brick, partition walls through the courts, floors raised again and again over rubble. Bathrooms and drains were blocked or abandoned; some houses were left empty among the occupied ones."
+   },
+   "outskirts": {
+    "title": "Thin fields and abandoned blocks",
+    "text": "Fields and grazing on the plain, and on the edges of the city, empty houses falling to ruin and filling with wind-blown silt."
+   }
+  },
+  {
+   "id": "kushan-150",
+   "label": "The stupa on the mound",
+   "year": 150,
+   "startYear": 100,
+   "endYear": 400,
+   "summary": "Two thousand years after the city died, Buddhist monks built a stupa and a monastery of mud brick on the highest point of the Citadel mound, probably in the 2nd or 3rd century CE when the Kushan kings ruled much of the north-west (dated by Kushan coins found there). The Bronze Age city lay buried under the mounds, unknown.",
+   "population": "a monastery and a small village; perhaps a few hundred people",
+   "feel": "Chanting and the beat of a drum at dawn on the mound, kites over the river, villagers threshing on ground littered with ancient broken brick.",
+   "style": "courtyard",
+   "houses": {
+    "title": "The village below the monastery",
+    "text": "A few mud-brick houses round courts at the foot of the mound, built partly with bricks dug from the ruins, home to farmers and to the people who served the monks."
+   },
+   "outskirts": {
+    "title": "Fields on the old mounds",
+    "text": "Fields and grazing over the low mounds of the buried Lower Town; ploughs turn up broken brick and potsherds of a city no one remembers."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "great-bath",
+   "placeId": "great-bath",
+   "name": "The Great Bath",
+   "category": "religious",
+   "position": [
+    801,
+    976
+   ],
+   "rotation": 0,
+   "footprint": [
+    34.2,
+    55.6
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/great-bath.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 33,
+     "depth": 55,
+     "height": 13.200000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The Citadel's platform is rising here; the Great Bath belongs to a later building phase, and what stood on this spot first is not known."
+    },
+    "mature-2500": {
+     "note": "The tank in use: water drawn from a well in the east range, steps down at both ends, a colonnade round the court and a corbelled drain carrying the water away to the west."
+    },
+    "late-1900": {
+     "note": "As the city declined the Bath seems to have gone out of use; late walls were built over parts of the complex. How long it was kept filled is unknown."
+    },
+    "kushan-150": {
+     "note": "Buried under the mound beside the monks' stupa, its rim a few metres below the monastery floors."
+    }
+   },
+   "summary": "A watertight brick tank about 12 by 7 metres and 2.4 metres deep, with steps at both ends, set in a court surrounded by a colonnade and rooms: probably a place of ritual bathing.",
+   "details": [
+    "The tank's floor and walls are of finely fitted fired bricks set on edge in gypsum mortar, backed by a layer of bitumen and a further wall of brick, so that it held water. Stairs, once with timber treads, lead down at the north and south ends to small landings. A large corbelled drain at the south-west corner emptied it. Rooms on the east included a well that may have filled it.",
+    "The miniature shows the tank filled, the colonnaded court round it (the piers were of brick; their height and the roofing of the ambulatory are reconstructed), the eastern range with the well room and the outer drain. Its purpose is inferred: most scholars see ritual purification, by analogy with much later South Asian temple tanks."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-great-bath",
+    "marshall-1931",
+    "kenoyer-1998",
+    "possehl-2002"
+   ],
+   "built": "c. 2500 BCE (mature Harappan; dating approximate)",
+   "function": "Bathing tank, probably ritual",
+   "activity": {
+    "figures": 18,
+    "radius": 60
+   }
+  },
+  {
+   "id": "great-hall",
+   "placeId": "great-hall",
+   "name": "The Great Hall ('Granary')",
+   "category": "civic",
+   "position": [
+    752,
+    1010
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.7,
+    27.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/great-hall.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 27,
+     "height": 10.8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The platform on which the Great Hall would stand was being raised; its building came later, probably early in the mature period."
+    },
+    "mature-2500": {
+     "note": "The brick podium of 27 blocks with its timber superstructure standing; what it held, grain, goods or assemblies, is uncertain."
+    },
+    "late-1900": {
+     "note": "In the late period the timber hall decayed or burned; later walls were built against the podium."
+    },
+    "kushan-150": {
+     "note": "A low rise beside the stupa mound; its brick blocks lay buried until the 1950s."
+    }
+   },
+   "summary": "A podium of 27 solid brick blocks in three rows, divided by narrow passages, that once carried a large timber building. Wheeler called it a granary; many archaeologists now prefer 'Great Hall'.",
+   "details": [
+    "The podium, about 50 by 27 metres, sits beside the Great Bath on the Citadel's western edge. Its blocks are separated by channels which Wheeler took for air ducts under a granary floor, with a loading platform on the north. No grain was found, and the plan resembles a pillared hall or storehouse as much as a granary.",
+    "The miniature shows the blocks with their dark passages, a grid of timber posts and beams on top and a flat roof partly cut away. The superstructure is entirely reconstructed: only the brick podium and sockets for timber survive."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "wheeler-1968",
+    "possehl-2002",
+    "kenoyer-1998"
+   ],
+   "built": "probably c. 2500 BCE",
+   "function": "Storehouse or hall (interpretation debated)",
+   "activity": {
+    "figures": 10,
+    "radius": 50
+   }
+  },
+  {
+   "id": "college",
+   "placeId": "college",
+   "name": "The 'College'",
+   "category": "civic",
+   "position": [
+    841,
+    865
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.6,
+    25.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/college.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 24,
+     "height": 9.600000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The northern Citadel platform still under construction; the building here is of the mature period."
+    },
+    "mature-2500": {
+     "note": "A large building of many rooms round a cloistered court, just north-east of the Great Bath."
+    },
+    "late-1900": {
+     "note": "Partitioned and patched in the late period, like the houses of the Lower Town."
+    },
+    "kushan-150": {
+     "note": "Buried beneath the monastery's outbuildings north of the stupa."
+    }
+   },
+   "summary": "A long building north-east of the Great Bath, about 70 by 24 metres, with a small court surrounded by a verandah: called the 'College of Priests' by its excavator, with no proof.",
+   "details": [
+    "Mackay suggested it housed priests serving the Great Bath, hence the name. Its plan, of rooms round a court with a cloister of piers and a stair to an upper floor, could equally fit a palace, an official residence or a guesthouse. Its walls survive only a little above floor level.",
+    "The miniature shows the court, cloister, ranges of rooms and a partial upper storey; heights, roofs and door positions are reconstructed from the house types of the city."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "marshall-1931",
+    "possehl-2002"
+   ],
+   "built": "mature Harappan",
+   "function": "Unknown: residence or official building",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  },
+  {
+   "id": "pillared-hall",
+   "placeId": "pillared-hall",
+   "name": "Pillared Hall (L area)",
+   "category": "civic",
+   "position": [
+    821,
+    1220
+   ],
+   "rotation": 0,
+   "footprint": [
+    28.2,
+    28.7
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/pillared-hall.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 28,
+     "depth": 28,
+     "height": 11.200000000000001,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The southern Citadel was being raised; the hall is a later building."
+    },
+    "mature-2500": {
+     "note": "A square hall with twenty brick piers in rows, brick-paved aisles between them: perhaps an assembly hall."
+    },
+    "late-1900": {
+     "note": "Probably disused; its piers were later built over."
+    },
+    "kushan-150": {
+     "note": "Buried in the southern part of the mound."
+    }
+   },
+   "summary": "A square hall about 27 metres across in the southern Citadel, its roof once carried on twenty rectangular brick piers in four rows of five: perhaps an assembly or audience hall.",
+   "details": [
+    "The piers stand in rows with paved aisles between them, as if for seated people or for display. Its excavators thought of an assembly hall, a market or a place of worship; nothing found in it settles the question. It is the clearest example of a large covered public space in the city.",
+    "The miniature shows the piers, a low outer wall with doorways and a flat timber roof, left off over the southern half to show the interior. The roof and its height are reconstructed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "marshall-1931",
+    "kenoyer-1998"
+   ],
+   "built": "mature Harappan",
+   "function": "Assembly hall (interpretation)",
+   "activity": {
+    "figures": 12,
+    "radius": 40
+   }
+  },
+  {
+   "id": "citadel-platform",
+   "placeId": "citadel-platform",
+   "name": "The Citadel platform and its revetment",
+   "category": "military",
+   "position": [
+    979,
+    999
+   ],
+   "rotation": 0,
+   "footprint": [
+    20.0,
+    100.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/citadel-platform.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 20,
+     "depth": 100,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The platform rising in layers of mud brick and earth, faced with brick on its east side toward the Lower Town; the work of years and of thousands of labourers."
+    },
+    "mature-2500": {
+     "note": "A brick-faced platform about 12 m high with solid towers along its edge, the public buildings on top and drains running out through the revetment."
+    },
+    "late-1900": {
+     "note": "Still standing but patched; floods and rain cut gullies into the platform's faces."
+    },
+    "kushan-150": {
+     "note": "Now a steep mound of eroded brick crowned by the monastery and stupa."
+    }
+   },
+   "summary": "The Citadel stood on a platform of mud brick and packed earth, faced with fired brick and set with towers: a work against floods, enemies or both, and a statement of the city's power.",
+   "details": [
+    "Soundings show the Citadel was built up artificially by many metres before its buildings were raised, with a mud-brick retaining wall later faced and strengthened. Towers and bastions are known at several points of its edge. Whether the Lower Town had similar platforms everywhere is still debated.",
+    "The miniature shows a 100-metre stretch of the eastern face toward the Lower Town: the battered revetment with brick courses, two solid towers, drain outlets, a stair up the face and buildings on top. The stair and tower heights are reconstructed."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "jansen-1993",
+    "wheeler-1968",
+    "kenoyer-1998"
+   ],
+   "built": "from c. 2600 BCE, rebuilt many times",
+   "function": "Platform, flood defence and fortification",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "southern-defences",
+   "placeId": "southern-defences",
+   "name": "Towers of the Citadel's south-east corner",
+   "category": "military",
+   "position": [
+    940,
+    1276
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.0,
+    25.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/southern-defences.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 50,
+     "depth": 25,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The first retaining wall of the Citadel's southern end, of mud brick."
+    },
+    "mature-2500": {
+     "note": "Solid towers of mud brick faced with fired brick at the south-east corner of the Citadel, with a small postern and a stair."
+    },
+    "late-1900": {
+     "note": "Late repairs: rougher brick, a blocked postern. Such strengthening may answer floods as much as any enemy."
+    },
+    "kushan-150": {
+     "note": "A rubble slope at the foot of the mound, where villagers dig old bricks to reuse."
+    }
+   },
+   "summary": "Solid brick towers and a wall at the south-east corner of the Citadel mound, excavated in the 1920s and by Wheeler in 1950: proof that the platform's edge was strengthened, though not of who it was meant to keep out.",
+   "details": [
+    "Wheeler saw a fortified citadel and a warrior state; later archaeologists note that no weapons of war, siege or burning layers mark the city, and that the towers may have protected the platform against the Indus floods, or served as display. The towers were rebuilt more than once.",
+    "The miniature shows a stretch of wall about 50 m long with three square towers, a postern gate and a stair, on the platform's southern side. Exact heights and the parapet are reconstructed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "wheeler-1968",
+    "possehl-2002"
+   ],
+   "built": "mature Harappan, with later rebuilding",
+   "function": "Revetment and towers",
+   "activity": {
+    "figures": 6,
+    "radius": 40
+   }
+  },
+  {
+   "id": "main-street",
+   "placeId": "first-street",
+   "name": "First Street and its drains",
+   "category": "district",
+   "position": [
+    1296,
+    976
+   ],
+   "rotation": 0,
+   "footprint": [
+    30.5,
+    140.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/main-street.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 30,
+      "depth": 140
+     },
+     "buildings": [
+      {
+       "offset": [
+        -7.5,
+        -35.0
+       ],
+       "width": 9.0,
+       "depth": 42.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        7.5,
+        28.0
+       ],
+       "width": 9.0,
+       "depth": 42.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The street's line was already fixed in the earliest levels reached; the grid was planned, not grown."
+    },
+    "mature-2500": {
+     "note": "A straight earth street about 10 m wide between blank house walls, with covered brick drains, inspection holes and sump pits along its sides."
+    },
+    "late-1900": {
+     "note": "Drains unrepaired and choked with silt, house walls rebuilt crookedly onto the street, kilns set up beside it."
+    },
+    "kushan-150": {
+     "note": "Buried under fields; it would be found again in 1925–31."
+    }
+   },
+   "summary": "A stretch of the Lower Town's main north–south street: straight, unpaved, lined with blank house walls and with brick drains covered by slabs running along it.",
+   "details": [
+    "Every house drain and bathroom chute ran into street drains of fired brick, covered with bricks or stone slabs and fitted at intervals with sump pits where solids settled and could be dug out by hand. Few cities before the Romans built anything comparable. The houses turned their backs to the main streets; their doors opened onto side lanes.",
+    "The miniature shows a 140-metre stretch with drains on both sides, open inspection pits, a side lane, a public well at a corner and courtyard houses along both fronts. House heights and roofs are reconstructed."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sanitation-ivc",
+    "mackay-1938",
+    "jansen-1993",
+    "kenoyer-1998"
+   ],
+   "built": "laid out c. 2600 BCE, raised and rebuilt to c. 1900",
+   "function": "Main street",
+   "activity": {
+    "figures": 40,
+    "radius": 120
+   }
+  },
+  {
+   "id": "hr-house",
+   "placeId": "hr-house",
+   "name": "House I in the HR area",
+   "category": "district",
+   "position": [
+    1216,
+    1209
+   ],
+   "rotation": 0,
+   "footprint": [
+    32.5,
+    27.1
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/hr-house.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 32,
+      "depth": 26
+     },
+     "buildings": [
+      {
+       "offset": [
+        -8.0,
+        -6.5
+       ],
+       "width": 9.6,
+       "depth": 7.8,
+       "height": 8
+      },
+      {
+       "offset": [
+        8.0,
+        5.2
+       ],
+       "width": 9.6,
+       "depth": 7.8,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "Earlier houses stood here, buried under the later building."
+    },
+    "mature-2500": {
+     "note": "A large building of two courts with thick walls and a monumental entrance; a rich household, or possibly a temple."
+    },
+    "late-1900": {
+     "note": "Cut up into smaller units, with rough partition walls through its courts."
+    },
+    "kushan-150": {
+     "note": "Under the HR mound."
+    }
+   },
+   "summary": "One of the largest buildings of the Lower Town, in the HR area: rooms round two courts, a double entrance and thick walls; a great house or perhaps a temple.",
+   "details": [
+    "Excavated by Hargreaves in the 1920s, House I has an unusual symmetrical entrance and a ring of brick in one court that some read as the base of a sacred tree or a cult object. Pieces of stone sculpture were found in or near it. Most scholars treat it as a large residence; the temple idea is possible but unproven.",
+    "The miniature shows the two courts, a well, bathing rooms with drains and a partial upper storey. Heights, roofs and the stair are reconstructed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "marshall-1931",
+    "kenoyer-1998"
+   ],
+   "built": "mature Harappan",
+   "function": "Large house or public building",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "dk-g-well",
+   "placeId": "dk-g-well",
+   "name": "Well in the DK-G area",
+   "category": "civic",
+   "position": [
+    1414,
+    754
+   ],
+   "rotation": 0,
+   "footprint": [
+    10.1,
+    10.1
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/mohenjo-daro/dk-g-well.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 10,
+     "depth": 10,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The well was sunk early; its shaft would be raised many times as the ground level rose."
+    },
+    "mature-2500": {
+     "note": "A round shaft of wedge-shaped bricks with a brick-paved platform, a drain for spilt water and stands for pots."
+    },
+    "late-1900": {
+     "note": "Its shaft raised again with rough brick as rubble and silt built up round it."
+    },
+    "kushan-150": {
+     "note": "Buried. Excavated in the 1920s, wells like this one now stand up as brick towers because the deposits round them were dug away."
+    }
+   },
+   "summary": "One of the hundreds of brick-lined wells of Mohenjo-daro, with its round shaft and paved platform where people drew water by rope and pot.",
+   "details": [
+    "The city may have had some 700 wells, a well for every few houses, many of them in houses and others in lanes for public use. Their shafts are built of tapering bricks; the rims show grooves worn by ropes. As floors rose over the centuries the shafts were raised too, so excavated wells now stand like towers.",
+    "The miniature, enlarged twice, shows the shaft, the brick platform with its drain, pots and a trough. The exact form of the DK-G platform is simplified."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "jansen-1993",
+    "mackay-1938"
+   ],
+   "built": "c. 2600–1900 BCE, raised repeatedly",
+   "function": "Public well",
+   "activity": {
+    "figures": 6,
+    "radius": 30
+   }
+  },
+  {
+   "id": "priest-king-house",
+   "placeId": "priest-king-house",
+   "name": "House of the 'Priest-King'",
+   "category": "district",
+   "position": [
+    1394,
+    976
+   ],
+   "rotation": 0,
+   "footprint": [
+    24.4,
+    20.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/priest-king-house.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 24,
+      "depth": 20
+     },
+     "buildings": [
+      {
+       "offset": [
+        -6.0,
+        -5.0
+       ],
+       "width": 7.199999999999999,
+       "depth": 6.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        6.0,
+        4.0
+       ],
+       "width": 7.199999999999999,
+       "depth": 6.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "Earlier houses on the same block lines."
+    },
+    "mature-2500": {
+     "note": "A house with an unusual wall of ornamental brickwork and a niche, near where the steatite 'Priest-King' was found."
+    },
+    "late-1900": {
+     "note": "The bust lay in late debris; how and when it came to be there is uncertain."
+    },
+    "kushan-150": {
+     "note": "Buried under the DK mound."
+    }
+   },
+   "summary": "A building in the DK area with ornamental brickwork, near where the famous steatite bust of a bearded man, the 'Priest-King', was found in 1927.",
+   "details": [
+    "The 17.5 cm bust shows a man with a fillet round his head and a robe decorated with trefoils that once held red paste. The name 'Priest-King' is a modern guess: nothing shows he was either. The building where it was found is unusual for its decorative brick wall and niche, but its use is unknown.",
+    "The miniature shows a courtyard house with the decorated wall, a niche, a well and bathroom; the plan is simplified from the excavated area, and its heights are reconstructed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-priest-king",
+    "mackay-1938",
+    "kenoyer-1998"
+   ],
+   "built": "mature Harappan",
+   "function": "House or shrine (uncertain)",
+   "activity": {
+    "figures": 6,
+    "radius": 30
+   }
+  },
+  {
+   "id": "craft-quarter",
+   "placeId": "moneer-workshops",
+   "name": "Workshops of the Moneer area",
+   "category": "commercial",
+   "position": [
+    1582,
+    1420
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.1,
+    30.4
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/craft-quarter.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 40,
+      "depth": 30
+     },
+     "buildings": [
+      {
+       "offset": [
+        -10.0,
+        -7.5
+       ],
+       "width": 12.0,
+       "depth": 9.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        10.0,
+        6.0
+       ],
+       "width": 12.0,
+       "depth": 9.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "variants": {
+    "early-2600": {
+     "note": "The south-eastern edge of the early town; whether crafts were already gathered here is unknown."
+    },
+    "mature-2500": {
+     "note": "Yards with kilns, sheds and storerooms where shell, stone beads, pottery and tools were made, close to the river traffic."
+    },
+    "late-1900": {
+     "note": "Kilns now spread into the old residential streets; the craft yards smaller and poorer."
+    },
+    "kushan-150": {
+     "note": "Under the eastern fields."
+    }
+   },
+   "summary": "Workshops and storerooms in the south-east of the Lower Town, where surface surveys found debris of shell-working, bead-making, stone tools and pottery.",
+   "details": [
+    "Craft debris turns up all over Mohenjo-daro, but surveys of the Moneer area found especially dense scatters of shell, stone and kiln waste, suggesting a district of workshops. Crafts were organised by families or groups; goods like etched carnelian beads and shell bangles were traded as far as Mesopotamia.",
+    "The miniature is a reconstruction: a walled yard with two kilns, open sheds on posts, a storehouse of brick, a well and a drain. No single excavated building is copied."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "kenoyer-1998",
+    "wiki-bead-making",
+    "possehl-2002"
+   ],
+   "built": "mature Harappan",
+   "function": "Workshops and stores",
+   "activity": {
+    "figures": 14,
+    "radius": 50
+   }
+  },
+  {
+   "id": "stupa",
+   "placeId": "stupa",
+   "name": "Buddhist stupa and monastery",
+   "category": "religious",
+   "position": [
+    900,
+    954
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    45.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/mohenjo-daro/stupa.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 45,
+     "height": 18.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "kushan-150"
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "The highest point of the Citadel, beside the Great Bath; what Harappan building lies under the later stupa is not known."
+    },
+    "kushan-150": {
+     "note": "The stupa of mud brick on its square terrace, within a walled court, and a monastery of cells round a courtyard beside it."
+    }
+   },
+   "summary": "A Buddhist stupa of mud brick on a square terrace, with a monastery of cells round a court, built on the highest point of the Citadel mound, probably in the 2nd or 3rd century CE.",
+   "details": [
+    "The stupa drew the first archaeologists: R. D. Banerji came in 1922 to study it and found in the mound round it seals of a far older civilisation. Kushan coins found in the monastery date its use. In 2011 Verardi and Barba argued that the stupa's base may be Harappan, a view not generally accepted.",
+    "The miniature shows the stupa (dome, harmika and umbrellas are reconstructed, since only the lower part survives), its terrace and stair, the court wall and the monastery's cells round a court. Exact dimensions are simplified."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "wiki-stupa",
+    "wiki-kushan",
+    "marshall-1931",
+    "verardi-barba-2011"
+   ],
+   "built": "c. 2nd–3rd century CE",
+   "function": "Buddhist stupa and monastery",
+   "activity": {
+    "figures": 8,
+    "radius": 50
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "seal-cutter",
+   "name": "A seal-cutter's workshop",
+   "kind": "workshop",
+   "position": [
+    1464,
+    799
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "A craftsman carves a square steatite seal with a 'unicorn' and a line of the still undeciphered Indus script, to be fired hard and white.",
+   "details": [
+    "Indus seals are small squares of steatite, mostly 2–3 cm across, cut in reverse with burins and drills, with a pierced boss on the back for a cord; firing hardened and whitened them. The one-horned 'unicorn' before a standard is by far the commonest animal. Unfinished seals show they were made in the city. Their use was to stamp clay sealings on bundles, doors and jars."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-unicorn-seals",
+    "wiki-indus-script",
+    "kenoyer-1998"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "He saws a block of soft grey steatite into squares with a copper blade and water, then rubs each face smooth on a stone slab."
+    },
+    {
+     "hour": 13,
+     "text": "In the shade of the court he cuts the unicorn backwards, its horn curving forward, the standard below its head. The script signs above go last, mirror-written."
+    },
+    {
+     "hour": 19,
+     "text": "The finished seals go into a small kiln with charcoal; they come out white and hard. A merchant presses one into clay to check the sign line reads true."
+    }
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "Fewer seals are made, and fewer bear script; in late Harappan levels writing seems to fade from use."
+    }
+   }
+  },
+  {
+   "id": "bead-maker",
+   "name": "A carnelian bead-maker",
+   "kind": "workshop",
+   "position": [
+    1493,
+    1398
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Long barrel beads of red carnelian, heated to deepen their colour, then drilled end to end with stone drills, a labour of days for a single bead.",
+   "details": [
+    "Indus bead-makers heated carnelian to turn it a deep red, chipped and ground the blanks, and drilled them with hard stone drills spun by a bow, using water and abrasive. The longest beads, up to about 10 cm, took days or weeks of drilling. Etched carnelian beads, with white patterns burned in with alkali, reached Mesopotamia and were buried in the royal tombs of Ur."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-carnelian",
+    "kenoyer-1998",
+    "wright-2010"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Nodules of carnelian from Gujarat, wrapped in clay jars, come out of the slow fire a shade redder. Some have cracked; they go to the cheap-bead pile."
+    },
+    {
+     "hour": 12,
+     "text": "Bow string rasping, the drill turns and stops, turns and stops. A trickle of water and grit keeps the hole cool. Half a finger's depth by midday."
+    },
+    {
+     "hour": 20,
+     "text": "By lamplight an apprentice paints a white pattern on a bead with a paste of soda and plant juice, to fix it in the fire tomorrow."
+    }
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "Bead-making goes on, but the long drilled beads and etched beads for the Gulf trade become rare."
+    }
+   }
+  },
+  {
+   "id": "potter-kiln",
+   "name": "A potter's yard and kiln",
+   "kind": "works",
+   "position": [
+    1187,
+    1653
+   ],
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "A potter throws red jars on the wheel and paints them in black with pipal leaves and intersecting circles, to fire in an updraft kiln at the edge of town.",
+   "details": [
+    "Harappan potters used fast wheels and fired their wares in updraft kilns, producing standard shapes across the whole civilisation: dish-on-stand, perforated jars, tall storage jars, pointed goblets. In the mature city kilns kept mostly to the edges; in the late period they appear inside the old residential blocks, one of the signs of the city's decline."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "kenoyer-1998",
+    "marshall-1931",
+    "possehl-2002"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Wet clay from the riverbank, tempered with sand, kneaded underfoot. The wheel, a heavy disc spun by hand, picks up speed."
+    },
+    {
+     "hour": 12,
+     "text": "With a brush of hair the potter's daughter paints black bands and a row of pipal leaves on a red-slipped jar drying in the sun."
+    },
+    {
+     "hour": 18,
+     "text": "The kiln is loaded and sealed; dung cakes and brushwood roar in the firebox. The yard smells of smoke until morning."
+    }
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "Kilns now stand among the houses, even in old streets, as the city's order breaks down."
+    },
+    "early-2600": {
+     "note": "Pottery kilns and brick kilns work round the clock to build the new city."
+    }
+   }
+  },
+  {
+   "id": "public-well",
+   "name": "A public well at a street corner",
+   "kind": "fountain",
+   "position": [
+    1355,
+    1032
+   ],
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Water drawn by rope and pot from a brick shaft at a street corner, one of the hundreds of wells of the city.",
+   "details": [
+    "Mohenjo-daro had perhaps 700 wells, an unusually generous supply: most houses had a well or were close to one. Public wells stood in lanes and at corners, with brick platforms that drained spilt water into the street drains. The rims show grooves worn by ropes; broken pots lay thick round them."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "jansen-1993"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Women and girls with clay pots wait their turn. The rope runs over the brick rim in a groove worn deep by years of hauling."
+    },
+    {
+     "hour": 13,
+     "text": "Ox-cart drivers water their animals at a trough beside the platform; the spill runs into the covered drain along First Street."
+    },
+    {
+     "hour": 21,
+     "text": "Quiet. A last pot comes up with a slap of water; somewhere a dog drinks from the puddle on the platform."
+    }
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "The shaft raised again with broken brick; the platform cracked and the drain beside it choked."
+    }
+   }
+  },
+  {
+   "id": "cotton-weaver",
+   "name": "A cotton weaver's house",
+   "kind": "house",
+   "position": [
+    1434,
+    1176
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Spinning and weaving cotton, one of the earliest cotton cloths known: fragments survived at Mohenjo-daro stuck to a silver jar.",
+   "details": [
+    "Scraps of cotton cloth and string, preserved by corrosion on a silver vessel, were found at Mohenjo-daro, among the oldest cotton textiles anywhere (cotton fibres at Mehrgarh are older still). Spindle whorls are common finds in houses. Some cloth was dyed with madder red; the 'Priest-King' wears a robe patterned with trefoils."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-cotton",
+    "marshall-1931",
+    "kenoyer-1998"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "On the roof, an old woman twirls a spindle with a clay whorl, drawing out thread from a basket of cleaned cotton bolls."
+    },
+    {
+     "hour": 13,
+     "text": "In the court, a ground loom pegged to the brick floor; the weaver passes the shuttle and beats in the weft with a wooden sword."
+    },
+    {
+     "hour": 18,
+     "text": "A length of cloth soaks in a pot of red dye. Tomorrow it will dry on the roof, a red flag over the grey-brown city."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "trader-weights",
+   "name": "A trader with chert weights",
+   "kind": "market",
+   "position": [
+    1246,
+    821
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Goods weighed on a balance with polished cubes of banded chert, part of a standard system used from the Indus to the Gulf.",
+   "details": [
+    "Indus weights are cubes of chert, very precisely made, in a series that doubles (1, 2, 4, 8, 16, 32, 64) and then goes up in decimals; the common unit of '16' weighs about 13.7 grams. The same standards were used from Afghanistan to Gujarat and at Dilmun in the Gulf. Clay sealings stamped with seals show how packages were closed and marked."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-weights",
+    "kenoyer-1998",
+    "wright-2010"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A bale of cotton cloth is unwrapped by the street corner; the trader breaks the clay sealing and reads the seal's sign line."
+    },
+    {
+     "hour": 12,
+     "text": "Copper ingots on one pan, a stack of small chert cubes on the other, banded brown and cream, polished like sweets. The beam settles level."
+    },
+    {
+     "hour": 17,
+     "text": "Accounts are kept in the head, or on something perishable; no ledgers survive. The trader re-seals the bale with his own unicorn seal."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "bronze-caster",
+   "name": "A bronze caster in the HR area",
+   "kind": "workshop",
+   "position": [
+    1137,
+    1243
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Copper and bronze cast by the lost-wax method, as in the little bronze figure of a young woman found in the HR area in 1926, the so-called 'Dancing Girl'.",
+   "details": [
+    "The 'Dancing Girl' is a bronze figure about 10.5 cm tall, a slender nude girl with a hand on her hip and an arm loaded with bangles. Whether she is dancing is a modern guess. She was cast by the lost-wax method: a wax model coated in clay, the wax melted out and metal poured in. Copper came from Rajasthan, Baluchistan or Oman; tin is harder to source."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-dancing-girl",
+    "kenoyer-1998",
+    "marshall-1931"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "The caster rolls thin wax threads for the bangles, twenty-four of them up one arm, and presses them onto a wax figure no longer than a hand."
+    },
+    {
+     "hour": 13,
+     "text": "The clay-wrapped mould bakes in the coals; molten wax runs out of a hole in its foot. A boy works the goatskin bellows until his arms ache."
+    },
+    {
+     "hour": 19,
+     "text": "The bronze is poured, the mould left to cool. Tomorrow it will be broken open, the figure filed and polished, and one more mould will be gone forever."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "bathing-platform",
+   "name": "A family's bathing platform",
+   "kind": "bath",
+   "position": [
+    1187,
+    1409
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "In a house of the VS area, a small room with a sloping floor of fitted brick where the family washed by pouring water, the waste running out by a chute to the street drain.",
+   "details": [
+    "Almost every excavated house had a bathing area: a floor of carefully fitted bricks, often set on edge, sloping to a corner outlet, near a well. Many had latrines too, emptying into pots or the drains. The care given to washing, in houses and at the Great Bath, has led scholars to suggest ideas of ritual purity, much as in later South Asian practice."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sanitation-ivc",
+    "kenoyer-1998",
+    "jansen-1993"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Water from the house well, poured from a jar over the father's head. It runs across the brick floor and gurgles down the chute in the wall."
+    },
+    {
+     "hour": 12,
+     "text": "Children are scrubbed in turn, shrieking at the cold water. Their mother sets out a clay dish of ground pulse paste to clean with."
+    },
+    {
+     "hour": 20,
+     "text": "The brick floor is swept and dried. Out in the lane a sweeper lifts a drain cover to check the flow."
+    }
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "The drain from this bathroom is blocked; waste is now emptied into jars sunk in the lane."
+    }
+   }
+  },
+  {
+   "id": "drain-cleaner",
+   "name": "The drain cleaners of East Street",
+   "kind": "civic",
+   "position": [
+    1602,
+    843
+   ],
+   "activePeriods": [
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Workers lift the brick covers of the street drain and dig the silt out of a sump pit, piling it by the road to be carted away.",
+   "details": [
+    "The street drains had sump pits and covers that could be lifted, and piles of cleaned-out sludge were found beside them, so someone was responsible for keeping them clear. Who organised the work, neighbourhoods or a city authority, is unknown. The late city's blocked drains show what happened when no one did."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sanitation-ivc",
+    "mackay-1938",
+    "jansen-1993"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Before the heat, two men lift the bricks off a sump pit and scoop out black silt with baskets. The smell clears the street."
+    },
+    {
+     "hour": 12,
+     "text": "The silt dries on the roadside in a long heap; a cart will take it to the fields outside the city."
+    },
+    {
+     "hour": 17,
+     "text": "The covers are back. Water from a hundred bathing platforms runs again, east toward the flood plain."
+    }
+   ],
+   "variants": {
+    "late-1900": {
+     "note": "No one cleans the sump any more. Silt fills the drain and waste water spreads over the street."
+    }
+   }
+  },
+  {
+   "id": "boatman",
+   "name": "A boatman on the Indus",
+   "kind": "dock",
+   "position": [
+    2018,
+    865
+   ],
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900"
+   ],
+   "summary": "Flat-bottomed boats with a cabin of reeds and a high stern, punted and sailed along the river, carrying grain, timber, stone and goods to the coast.",
+   "details": [
+    "A seal and a clay tablet from Mohenjo-daro show boats with a cabin amidships and high prow and stern; the river was the main highway of the Indus civilisation, linking the city to the coast and to the Gulf trade. Where boats landed at Mohenjo-daro, and how close the river then ran, are unknown."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "marshall-1931",
+    "kenoyer-1998",
+    "wiki-ivc"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the brown water. The boatman bails his hull, checks the reed cabin's lashing and waits for the porters with sacks of barley."
+    },
+    {
+     "hour": 13,
+     "text": "The boat goes downstream with the current, the boatman steering with a long oar; buffalo stand in the shallows, only their heads above water."
+    },
+    {
+     "hour": 19,
+     "text": "Tied up at the bank, a fire on the sand. Other crews come from upriver with deodar timber and baskets of grey steatite."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "buffalo-herder",
+   "name": "Buffalo herders on the flood plain",
+   "kind": "garden",
+   "position": [
+    445,
+    555
+   ],
+   "activePeriods": [
+    "early-2600",
+    "mature-2500",
+    "late-1900",
+    "kushan-150"
+   ],
+   "summary": "Water buffalo and humped zebu grazing the stubble and wallowing in the backwaters west of the city.",
+   "details": [
+    "The water buffalo appears on Indus seals and among the animal bones of the city, with zebu cattle, sheep and goats. Cattle pulled the solid-wheeled carts whose clay models are common finds, and ploughs: a ploughed field has been found at Kalibangan. Herders lived on the edge of the city and in the villages of the plain."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-water-buffalo",
+    "kenoyer-1998",
+    "wright-2010"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A boy drives the buffalo out to the back-swamp, riding the lead cow, a stick across his knees."
+    },
+    {
+     "hour": 13,
+     "text": "Only horns and nostrils show above the brown water. The herder sleeps in the shade of a babul tree."
+    },
+    {
+     "hour": 18,
+     "text": "Back in the dust of evening; the milk is carried to the town in pots, and dung patted into cakes for the kilns."
+    }
+   ],
+   "variants": {
+    "kushan-150": {
+     "note": "Herders graze buffalo on the mounds of the buried city, among the broken bricks."
+    }
+   }
+  },
+  {
+   "id": "stupa-monk",
+   "name": "A monk at the stupa",
+   "kind": "shrine",
+   "position": [
+    959,
+    1010
+   ],
+   "activePeriods": [
+    "kushan-150"
+   ],
+   "summary": "A Buddhist monk circles the stupa on the mound at dawn, unaware that the ancient city lies under his feet.",
+   "details": [
+    "The monastery on the Citadel mound was one of many Buddhist foundations in Sindh in the early centuries CE. Monks lived in small cells round a court, begged their food in the villages and walked clockwise round the stupa in devotion. Kushan coins were found in the monastery; the ruins of the Harappan city below were then entirely unknown."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-stupa",
+    "wiki-kushan",
+    "marshall-1931"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn, a drum and chanting. The monk walks clockwise round the stupa, his robe dark ochre in the half-light, the river mist below."
+    },
+    {
+     "hour": 11,
+     "text": "With his bowl he goes down to the village; a woman gives him rice and lentils. A child shows him a strange little stone square with an animal on it."
+    },
+    {
+     "hour": 19,
+     "text": "In his cell, a lamp and a palm-leaf book. From the mound he can see the village fires and the dark line of the river."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "kushan-village",
+   "name": "Village at the foot of the mound",
+   "kind": "house",
+   "position": [
+    1098,
+    1232
+   ],
+   "activePeriods": [
+    "kushan-150"
+   ],
+   "summary": "Farmers' mud-brick houses at the foot of the stupa mound, some built with fired bricks dug out of the ancient ruins.",
+   "details": [
+    "Villages of the early centuries CE stood across the plain; at Mohenjo-daro people lived round the monastery and farmed the land over the buried city. Reuse of ancient bricks for later building is common on Indus sites; in the 19th century bricks from Harappa were taken in great numbers for railway ballast."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mohenjo-daro",
+    "possehl-2002"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A farmer digs into the mound for building bricks and finds them oddly large and hard, laid by unknown hands."
+    },
+    {
+     "hour": 13,
+     "text": "Wheat threshed by oxen on a floor of trodden earth; chaff blows over the ruins."
+    },
+    {
+     "hour": 20,
+     "text": "Lamps in the courtyards, a story of demons in the mound told to children. The monks' drum sounds once from above."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "founding-2600",
+   "title": "A city raised on platforms",
+   "periodId": "early-2600",
+   "date": "c. 2600 BCE (approximate)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "citadel-platform"
+   },
+   "effect": "construction",
+   "text": "Mohenjo-daro was not a village grown large. Its builders raised great platforms of mud brick and earth, many metres high, to lift the Citadel and parts of the Lower Town above the floods, and fixed a grid of streets. The earliest levels lie below the water table, so its founding date and any earlier settlement are guesses.",
+   "sourceIds": [
+    "jansen-1993",
+    "kenoyer-1998",
+    "wiki-mohenjo-daro"
+   ]
+  },
+  {
+   "id": "grid-laid",
+   "title": "First Street and the drains laid out",
+   "periodId": "early-2600",
+   "date": "c. 2600–2500 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "main-street"
+   },
+   "effect": "construction",
+   "text": "The main streets ran straight north–south and east–west, with drains planned with them, and kept their lines for centuries as houses were rebuilt again and again on the same plots. Bricks were made to the same proportions, 1:2:4, across the whole Indus world.",
+   "sourceIds": [
+    "wiki-sanitation-ivc",
+    "kenoyer-1998",
+    "jansen-1993"
+   ]
+  },
+  {
+   "id": "great-bath-built",
+   "title": "The Great Bath is built",
+   "periodId": "mature-2500",
+   "date": "c. 2500 BCE (approximate)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "great-bath"
+   },
+   "effect": "construction",
+   "text": "On the Citadel, builders sealed a brick tank with gypsum mortar and a jacket of bitumen, so that it would hold water about 2.4 metres deep. Nothing like it is known elsewhere in the Indus world. What rites were performed there is unknown, but bathing for purity, so important in later South Asia, is the usual guess.",
+   "sourceIds": [
+    "wiki-great-bath",
+    "marshall-1931",
+    "possehl-2002"
+   ]
+  },
+  {
+   "id": "meluhha-trade",
+   "title": "Ships of Meluhha at Agade",
+   "periodId": "mature-2500",
+   "date": "c. 2300 BCE",
+   "kind": "civic",
+   "at": {
+    "spotId": "boatman"
+   },
+   "effect": "crowd",
+   "text": "Sargon of Akkad boasted that ships from Dilmun, Magan and Meluhha moored at the quay of his capital. Meluhha is now generally taken to be the Indus region. Indus seals, weights and etched carnelian beads turn up in Mesopotamia and the Gulf; what Mohenjo-daro's merchants brought home, perhaps silver, wool or tin, is less clear.",
+   "sourceIds": [
+    "wiki-meluhha",
+    "wiki-sargon",
+    "wright-2010"
+   ]
+  },
+  {
+   "id": "floods-rebuilding",
+   "title": "Floods, silt and rebuilding",
+   "periodId": "mature-2500",
+   "date": "repeatedly, c. 2400–2000 BCE",
+   "kind": "disaster",
+   "at": {
+    "landmarkId": "dk-g-well"
+   },
+   "effect": "construction",
+   "text": "Excavations show layer upon layer of houses, floors raised over silt and rubble, and well shafts heightened to keep pace. Some layers of silt suggest floods; one theory of catastrophic floods from a dammed Indus is now widely doubted. The city's answer each time was to rebuild on the same lines, higher.",
+   "sourceIds": [
+    "jansen-1993",
+    "possehl-2002",
+    "dales-1964"
+   ]
+  },
+  {
+   "id": "decline-1900",
+   "title": "The city falls into decline",
+   "periodId": "late-1900",
+   "date": "c. 1900 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "main-street"
+   },
+   "effect": "none",
+   "text": "Around 1900 BCE the great cities of the Indus emptied. At Mohenjo-daro houses were divided and rebuilt in poor brick, kilns appeared in the streets and drains went unrepaired. Shifts of the rivers, a weaker monsoon around the time of the 4.2-kiloyear climate event, and the loss of trade may all have played a part.",
+   "sourceIds": [
+    "wiki-ivc",
+    "wiki-4-2-kiloyear",
+    "possehl-2002",
+    "kenoyer-1998"
+   ]
+  },
+  {
+   "id": "deadman-lane",
+   "title": "The bodies in Deadman Lane",
+   "periodId": "late-1900",
+   "date": "late levels, after c. 1900 BCE",
+   "kind": "disaster",
+   "at": {
+    "position": [
+     1177,
+     1154
+    ]
+   },
+   "effect": "none",
+   "text": "Skeletons found lying in the latest levels, some in a lane of the HR area, led Wheeler to imagine a final massacre by Aryan invaders. Dales showed in 1964 that they came from different times and showed no signs of battle; the 'massacre' is a myth, and the city's end was slow decline.",
+   "sourceIds": [
+    "dales-1964",
+    "wheeler-1968",
+    "wiki-mohenjo-daro"
+   ]
+  },
+  {
+   "id": "abandoned",
+   "title": "The last people leave",
+   "periodId": "late-1900",
+   "date": "c. 1700 BCE (approximate)",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "great-bath"
+   },
+   "effect": "none",
+   "text": "By about 1700 BCE Mohenjo-daro was largely deserted. People of the Late Harappan tradition lived on in smaller villages across Sindh and further east. Wind-blown sand and flood silt slowly buried the city until only its mounds showed above the plain.",
+   "sourceIds": [
+    "possehl-2002",
+    "wiki-ivc"
+   ]
+  },
+  {
+   "id": "stupa-built",
+   "title": "Monks build a stupa on the mound",
+   "periodId": "kushan-150",
+   "date": "c. 2nd century CE (approximate)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "stupa"
+   },
+   "effect": "construction",
+   "text": "Buddhist monks raised a stupa and monastery on the highest mound, using mud brick and old bricks dug from the ruins. Eighteen centuries later, in 1922, R. D. Banerji of the Archaeological Survey came to excavate the stupa and found seals of an unknown script beneath the Buddhist levels: the discovery of the Indus civilisation.",
+   "sourceIds": [
+    "wiki-banerji",
+    "wiki-mohenjo-daro",
+    "marshall-1931"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "day-in-mohenjo-daro",
+   "title": "A day in the Indus city",
+   "periodId": "mature-2500",
+   "summary": "A walk through mature Mohenjo-daro around 2500 BCE, from a well in the Lower Town up First Street to the Citadel and the Great Bath.",
+   "steps": [
+    {
+     "landmarkId": "dk-g-well",
+     "title": "Water first",
+     "when": "dawn",
+     "text": "The day begins at the well. Pots go down the brick shaft on ropes; the rim's grooves are as old as anyone's grandparents."
+    },
+    {
+     "spotId": "seal-cutter",
+     "title": "The seal-cutter",
+     "text": "In a DK courtyard a craftsman carves a unicorn into a steatite square. The signs above it say something no one today can read."
+    },
+    {
+     "landmarkId": "main-street",
+     "title": "Down First Street",
+     "text": "Blank brick walls, no windows; carts, porters and buffalo in the dust. Under your feet, along the street edge, covered drains carry away the city's waste water."
+    },
+    {
+     "spotId": "trader-weights",
+     "title": "Weighing at the crossroads",
+     "when": "midday",
+     "text": "At the corner of East Street, copper is weighed against cubes of chert. The same weights are used hundreds of kilometres away."
+    },
+    {
+     "landmarkId": "citadel-platform",
+     "title": "Up to the Citadel",
+     "text": "A stair climbs the brick face of the platform, twelve metres above the plain. From the top the Lower Town's grid spreads east toward the river."
+    },
+    {
+     "landmarkId": "great-bath",
+     "title": "The Great Bath",
+     "when": "evening",
+     "text": "In the colonnaded court, the tank's still water. People go down the steps at one end and up at the other: bathing, perhaps, for purity."
+    }
+   ],
+   "sourceIds": [
+    "kenoyer-1998",
+    "jansen-1993",
+    "wiki-mohenjo-daro"
+   ]
+  },
+  {
+   "id": "mound-of-the-dead",
+   "title": "The monk and the buried city",
+   "periodId": "kushan-150",
+   "summary": "Mohenjo-daro two thousand years after its end: the monastery on the mound, the village below and fields over a forgotten city.",
+   "steps": [
+    {
+     "landmarkId": "stupa",
+     "title": "Dawn on the mound",
+     "text": "The monks circle the stupa. Under its terrace, unknown to them, lie the walls of the Bronze Age Citadel."
+    },
+    {
+     "spotId": "stupa-monk",
+     "title": "The begging round",
+     "text": "A monk goes down with his bowl. On the slope, rain has washed out old bricks larger and harder than any the village makes."
+    },
+    {
+     "spotId": "kushan-village",
+     "title": "The village",
+     "text": "Farmers have built their houses partly from bricks quarried in the mound. A child has found a little stone seal with a bull on it."
+    },
+    {
+     "spotId": "buffalo-herder",
+     "title": "Over the old streets",
+     "text": "Buffalo graze across the low mounds of the Lower Town. Beneath the stubble, First Street still runs straight, waiting for 1925."
+    }
+   ],
+   "sourceIds": [
+    "wiki-stupa",
+    "wiki-kushan",
+    "wiki-mohenjo-daro"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "marshall-1931",
+   "title": "Mohenjo-daro and the Indus Civilization",
+   "author": "John Marshall (ed.)",
+   "year": 1931,
+   "note": "3 vols.; the excavations of 1922–27",
+   "url": "https://archive.org/details/in.ernet.dli.2015.33006"
+  },
+  {
+   "id": "mackay-1938",
+   "title": "Further Excavations at Mohenjo-daro",
+   "author": "Ernest J. H. Mackay",
+   "year": 1938,
+   "note": "the DK area excavations of 1927–31"
+  },
+  {
+   "id": "jansen-1993",
+   "title": "Mohenjo-daro: Stadt der Brunnen und Kanäle",
+   "author": "Michael Jansen",
+   "year": 1993,
+   "note": "the wells, drains and platforms of the city"
+  },
+  {
+   "id": "kenoyer-1998",
+   "title": "Ancient Cities of the Indus Valley Civilization",
+   "author": "Jonathan Mark Kenoyer",
+   "year": 1998
+  },
+  {
+   "id": "possehl-2002",
+   "title": "The Indus Civilization: A Contemporary Perspective",
+   "author": "Gregory L. Possehl",
+   "year": 2002
+  },
+  {
+   "id": "wheeler-1968",
+   "title": "The Indus Civilization (3rd ed.)",
+   "author": "Mortimer Wheeler",
+   "year": 1968
+  },
+  {
+   "id": "wiki-mohenjo-daro",
+   "title": "Mohenjo-daro",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mohenjo-daro"
+  },
+  {
+   "id": "wiki-ivc",
+   "title": "Indus Valley Civilisation",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"
+  },
+  {
+   "id": "wiki-indus",
+   "title": "Indus River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indus_River"
+  },
+  {
+   "id": "verardi-barba-2011",
+   "title": "The So-Called Stupa at Mohenjo-daro: A Reconsideration",
+   "author": "Giovanni Verardi and Federica Barba",
+   "year": 2011,
+   "note": "argues that the 'stupa' may be a Harappan structure"
+  },
+  {
+   "id": "wiki-great-bath",
+   "title": "Great Bath",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Bath"
+  },
+  {
+   "id": "wiki-harappan-architecture",
+   "title": "Harappan architecture",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harappan_architecture"
+  },
+  {
+   "id": "wiki-priest-king",
+   "title": "Priest-King (sculpture)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Priest-King_(sculpture)"
+  },
+  {
+   "id": "wiki-stupa",
+   "title": "Stupa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stupa"
+  },
+  {
+   "id": "wiki-kushan",
+   "title": "Kushan Empire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kushan_Empire"
+  },
+  {
+   "id": "wiki-sanitation-ivc",
+   "title": "Sanitation of the Indus Valley Civilisation",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sanitation_of_the_Indus_Valley_Civilisation"
+  },
+  {
+   "id": "wiki-bead-making",
+   "title": "Bead making in the Indus Valley Civilisation",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation#Arts_and_culture"
+  },
+  {
+   "id": "wright-2010",
+   "title": "The Ancient Indus: Urbanism, Economy, and Society",
+   "author": "Rita P. Wright",
+   "year": 2010
+  },
+  {
+   "id": "dales-1964",
+   "title": "The Mythical Massacre at Mohenjo-daro",
+   "author": "George F. Dales",
+   "year": 1964,
+   "note": "Expedition 6 (3): 36–43"
+  },
+  {
+   "id": "wiki-indus-script",
+   "title": "Indus script",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indus_script"
+  },
+  {
+   "id": "wiki-unicorn-seals",
+   "title": "Indus Valley Civilisation seals",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation#Seals"
+  },
+  {
+   "id": "wiki-carnelian",
+   "title": "Etched carnelian beads",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Etched_carnelian_beads"
+  },
+  {
+   "id": "wiki-dancing-girl",
+   "title": "Dancing Girl (prehistoric sculpture)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dancing_Girl_(prehistoric_sculpture)"
+  },
+  {
+   "id": "wiki-weights",
+   "title": "Harappan weights and measures",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation#Weights_and_measures"
+  },
+  {
+   "id": "wiki-cotton",
+   "title": "Cotton: history",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_cotton"
+  },
+  {
+   "id": "wiki-meluhha",
+   "title": "Meluhha",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Meluhha"
+  },
+  {
+   "id": "wiki-sargon",
+   "title": "Sargon of Akkad",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sargon_of_Akkad"
+  },
+  {
+   "id": "wiki-banerji",
+   "title": "R. D. Banerji",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/R._D._Banerji"
+  },
+  {
+   "id": "wiki-water-buffalo",
+   "title": "Water buffalo",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Water_buffalo"
+  },
+  {
+   "id": "wiki-4-2-kiloyear",
+   "title": "4.2-kiloyear event",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/4.2-kiloyear_event"
+  }
+ ]
+}
