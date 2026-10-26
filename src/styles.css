@@ -592,8 +592,11 @@ canvas { display: block; cursor: grab; }
 .room__hover-maps em { margin-left: auto; font-family: var(--display); font-size: 13px; opacity: 0.8; }
 .room__hover-count { font-family: var(--roman); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #6d7a46; }
 .room__ready { display: flex; flex-direction: column; gap: 4px; padding-top: 8px; border-top: 1px solid var(--page-rule); }
-.room__ready span { font-family: var(--roman); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #6d7a46; }
-.room__ready strong { font-family: var(--roman); font-size: 15px; }
+.room__ready-list { margin: 0; line-height: 1.55; }
+/* never runs under the era ruler at the bottom */
+.room__hover { max-height: calc(100vh - 128px - 150px); overflow: hidden; }
+.room__ready > span { font-family: var(--roman); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: #6d7a46; }
+.room__ready strong { font-family: var(--roman); font-size: 13px; font-weight: 600; white-space: nowrap; }
 .room__ready em { font-family: var(--display); font-weight: 400; font-size: 14px; opacity: 0.75; }
 
 .ruler { position: absolute; z-index: 5; left: 26px; right: 26px; bottom: 18px; padding: 8px 14px 6px; background: rgba(242,229,196,0.9); border: 1px solid rgba(74,51,34,0.45); border-radius: 3px; box-shadow: 0 12px 30px rgba(40,24,10,0.3); transition: opacity 0.3s; }

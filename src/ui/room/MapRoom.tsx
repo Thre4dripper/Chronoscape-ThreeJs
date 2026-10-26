@@ -119,12 +119,21 @@ function RoomLabel({ hovered }: { hovered: (typeof atlasCatalog.atlases)[number]
         <div className="room__hover-era">How to use the room</div>
         <p>Point at an atlas to read about it. Click to take it down and see the maps folded inside. The ribbons below show the centuries each atlas covers.</p>
         <div className="room__ready">
-          <span>Ready to unfold</span>
-          {names.map((n) => (
-            <strong key={n}>
-              {n} <em>in {ready.filter((r) => r.map.title === n).length} atlases</em>
-            </strong>
-          ))}
+          <span>{ready.length} maps ready to unfold</span>
+          <p className="room__ready-list">
+            {names.map((n, i) => {
+              const k = ready.filter((r) => r.map.title === n).length;
+              return (
+                <span key={n}>
+                  <strong>
+                    {n}
+                    {k > 1 && <em> ×{k}</em>}
+                  </strong>
+                  {i < names.length - 1 ? " · " : ""}
+                </span>
+              );
+            })}
+          </p>
         </div>
       </aside>
     );
