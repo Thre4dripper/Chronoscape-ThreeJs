@@ -724,7 +724,7 @@
     "radius": 420,
     "label": false,
     "id": "montagne",
-    "blurb": "The limestone hill of the left bank, Mons Lucotitius to the Romans, who built their forum on its shoulder. Saint Geneviève was buried on the summit about 502; the abbey named after her, then the colleges of the University, covered it."
+    "blurb": "The limestone hill of the left bank, Mons Lucotitius to the Romans, who built their forum on its shoulder. Saint Geneviève was buried on the summit in the early 6th century; the abbey named after her, then the colleges of the University, covered it."
    },
    {
     "name": "Butte Saint-Roch",
@@ -1395,7 +1395,7 @@
     "style": "minor",
     "labelled": false,
     "id": "rue-galande",
-    "blurb": "From the Petit Pont past the place Maubert, where the poorest scholars heard their lectures, to the abbey of Saint-Victor.",
+    "blurb": "From the Petit Pont past the place Maubert and the rue du Fouarre, where arts students sat on straw at their lectures, to the abbey of Saint-Victor.",
     "periods": [
      "capetian-1000",
      "philippe-1250",
@@ -1503,7 +1503,7 @@
     "style": "minor",
     "labelled": false,
     "id": "rue-de-vaugirard",
-    "blurb": "The longest street of Paris, toward the village of Vaugirard, past the Luxembourg palace (1615).",
+    "blurb": "The road to the village of Vaugirard (today the longest street in Paris), past the Luxembourg palace (1615).",
     "periods": [
      "valois-1550",
      "louis-1789"
@@ -1564,7 +1564,7 @@
     ]
    },
    {
-    "name": "Rue de Grenelle and rue du Bac",
+    "name": "Rue du Bac and rue de Grenelle",
     "path": [
      [
       828,
@@ -1591,7 +1591,7 @@
     "style": "minor",
     "labelled": false,
     "id": "rue-de-grenelle",
-    "blurb": "The ferry road from the Pont Royal into the faubourg Saint-Germain, the quarter of aristocratic hôtels between court and garden.",
+    "blurb": "The rue du Bac, named after the ferry that the Pont Royal replaced, and the rue de Grenelle: streets of the faubourg Saint-Germain, the quarter of aristocratic hôtels between court and garden.",
     "periods": [
      "louis-1789"
     ]
@@ -5063,7 +5063,7 @@
       2019
      ]
     ],
-    "description": "The island of king and bishop: the royal palace at the west end, Notre-Dame and the Hôtel-Dieu at the east, and between them a maze of lanes and some twenty parish churches.",
+    "description": "The island of king and bishop: the royal palace at the west end, Notre-Dame and the Hôtel-Dieu at the east, and between them a maze of lanes and well over a dozen small parish churches.",
     "periods": [
      "capetian-1000",
      "philippe-1250",
@@ -5565,10 +5565,10 @@
      "note": "Brand new: consecrated on 26 April 1248 to house the Crown of Thorns, bought by Louis IX from the Latin emperor of Constantinople for more than the chapel itself cost."
     },
     "valois-1550": {
-     "note": "The spire is Charles VII's of the 1450s–60s. The relics are shown to the crowd from a balcony each Good Friday; the lower chapel serves the palace staff."
+     "note": "A 15th-century spire has replaced the first one. The relics are shown to the faithful on Good Friday; the lower chapel serves the palace staff."
     },
     "louis-1789": {
-     "note": "The spire burned in 1630 and was rebuilt. The chapel still serves the law courts that now fill the palace; in 1791 the relics will be removed and the spire pulled down."
+     "note": "The spire burned in 1630 and was rebuilt. The chapel still serves the law courts that now fill the palace; in the 1790s the relics will be removed and the spire pulled down."
     }
    },
    "summary": "Louis IX's palace chapel, built 1242–48 as a giant reliquary for the Crown of Thorns: an upper chapel that is almost all glass, under a steep roof and a slender spire.",
@@ -5654,7 +5654,7 @@
      }
     },
     "valois-1550": {
-     "note": "Philip the Fair's rebuilding (1298–1315): the twin-naved Grand-Salle, the Tours César and d'Argent on the quay, Charles V's clock tower (1371). The kings have left; the Parlement sits here."
+     "note": "Philip the Fair's rebuilding (1298–1315): the twin-naved Grand-Salle, the Tours César and d'Argent on the quay, and the square tower that has carried the city's first public clock since about 1370. The kings have left; the Parlement sits here."
     },
     "louis-1789": {
      "name": "Palais de Justice",
@@ -5851,12 +5851,12 @@
      "note": "The river bank below the Louvre, outside the wall of Charles V. Henri IV's gallery will be built along it in 1595–1610."
     },
     "louis-1789": {
-     "note": "The longest room in Europe, its upper floor planned as a public museum since the 1770s; below it, Henri IV lodged artists and craftsmen, and the royal mint and press worked."
+     "note": "One of the longest rooms in Europe, its upper floor planned as a public museum since the 1770s; below it, Henri IV lodged artists and craftsmen, and the royal mint and press worked."
     }
    },
    "summary": "Henri IV's riverside gallery (1595–1610), about 450 m long, joining the Louvre to the Tuileries along the Seine.",
    "details": [
-    "Built for Henri IV as the Grand Dessein, it let the king pass from the Louvre to the Tuileries above the street and outside the city wall. Its ground floor housed artists' and craftsmen's lodgings; the long upper room held the plan-reliefs of fortified towns until 1777, and became the main gallery of the Louvre museum in 1793.",
+    "Built for Henri IV as the Grand Dessein, it let the king pass from the Louvre to the Tuileries above the street and outside the city wall. From 1608 its ground floor housed artists' and craftsmen's lodgings; the long upper room held the plan-reliefs of fortified towns until 1777, and became the main gallery of the Louvre museum in 1793.",
     "The miniature shows the eastern half of the gallery along the quay, with its dormers and the arched windows of the ground floor; its western half continues off the model to the Pavillon de Flore."
    ],
    "confidence": "documented",
@@ -5918,7 +5918,7 @@
      "note": "The provost's court and prison, the morgue where the drowned from the Seine are laid out, and the standard measures of the city."
     },
     "louis-1789": {
-     "note": "Enlarged in 1684; still the criminal court and prison of Paris. It will be pulled down in 1802."
+     "note": "Rebuilt and enlarged from 1684; still the criminal court and prison of Paris. Its demolition will begin in 1802."
     }
    },
    "summary": "The fortress at the right-bank end of the Grand Pont: the seat of the king's provost, its courts and one of the most dreaded prisons in Paris.",
@@ -5973,7 +5973,7 @@
      "note": "Fields and vineyards outside the city on the road to the abbey of Saint-Antoine."
     },
     "valois-1550": {
-     "note": "The bastide of the Porte Saint-Antoine, now a fortress with a bastion added on the east (1553). It guards the road and the Hôtel Saint-Pol and serves as a state prison and treasury."
+     "note": "The bastide of the Porte Saint-Antoine, now a fortress with a bastion added on the east (1553). It guards the road and the Hôtel Saint-Pol and already serves as a state prison."
     },
     "louis-1789": {
      "note": "A state prison holding seven men on 14 July 1789, when the crowd took it; its demolition began the next day."
@@ -6162,10 +6162,10 @@
      "note": "Houses and gardens on the summit of Mons Lucotitius above the forum. Clovis will found a church of the Holy Apostles here about 502, where Geneviève is buried."
     },
     "capetian-1000": {
-     "note": "The canons' church rebuilt after the Viking raids, with its Romanesque bell tower (later the Tour Clovis), the shrine of the city's patron saint and its own walled bourg."
+     "note": "The canons' church, rebuilt after the Viking raids, with the shrine of the city's patron saint and its own bourg; the Romanesque bell tower (later the Tour Clovis) will follow in the 11th–12th century."
     },
     "philippe-1250": {
-     "note": "The abbey of the Augustinian canons where Abelard taught on the hill: its school rivals Notre-Dame's, and its abbot shares authority over the University."
+     "note": "The abbey of the Augustinian canons where Abelard taught on the hill: its school rivals Notre-Dame's, and its chancellor, like the cathedral's, grants licences to teach."
     },
     "valois-1550": {
      "note": "The great abbey on the summit, its tower heightened in Gothic style; Geneviève's shrine is carried in procession to Notre-Dame in times of flood or plague."
@@ -6432,7 +6432,7 @@
    },
    "summary": "The bridge of houses: rebuilt in stone in 1500–1512 with two rows of uniform houses, the first numbered street in Paris.",
    "details": [
-    "A timber bridge of 1413 here fell into the Seine on 25 October 1499, with its houses. The city rebuilt it in stone with five arches and some sixty-odd houses of uniform design, numbered, their rents paying for the bridge. Royal entries crossed it on the way to Notre-Dame. The houses were demolished in 1786.",
+    "A timber bridge of 1413 here fell into the Seine on 25 October 1499, with its houses. The city rebuilt it in stone with five arches and sixty-eight houses of uniform design, numbered, their rents paying for the bridge. Royal entries crossed it on the way to Notre-Dame. The houses were demolished in 1786.",
     "The 1550 model shows the five arches with cutwaters and the double row of gabled houses meeting over the roadway; the 1789 model shows the bare bridge. The house fronts are simplified."
    ],
    "confidence": "documented",
@@ -6620,7 +6620,7 @@
    },
    "summary": "The 'new bridge' of 1578–1607 across the point of the Cité: the first Paris bridge without houses, with pavements, and the city's favourite promenade.",
    "details": [
-    "Begun by Henri III and finished by Henri IV, it crosses both arms in twelve arches, joined by the newly made Place Dauphine and the point of the island. It had raised pavements and semicircular bays over every pier, but no houses, so that the king could see the Louvre. The Samaritaine pump (1608) supplied the palaces.",
+    "Begun by Henri III and finished by Henri IV, it crosses both arms in twelve arches, joined by the newly made Place Dauphine and the point of the island. It had raised pavements and semicircular bays over every pier, but no houses: Henri IV refused to let them be built. The Samaritaine pump (1608) supplied the palaces.",
     "The miniature shows the two spans with their half-moon bays, the cornice of carved masks, the equestrian statue of Henri IV (1614) on the point and the Samaritaine pump house on the downstream side of the north span."
    ],
    "confidence": "documented",
@@ -6681,7 +6681,7 @@
      }
     },
     "valois-1550": {
-     "note": "Rebuilt in flamboyant Gothic; the bell tower of 1509–23, 58 m high, paid for by the rich butchers, is the tallest in the Ville."
+     "note": "Rebuilt in flamboyant Gothic; the bell tower of 1509–23, 52 m high, paid for by the rich butchers, is the tallest in the Ville."
     },
     "louis-1789": {
      "note": "Still a busy parish; the church will be sold in 1797 and pulled down, leaving only the tower."
@@ -6839,7 +6839,7 @@
     },
     "louis-1789": {
      "name": "Marché des Innocents",
-     "note": "Closed in 1780 after cellars collapsed into the pits; the bones went to the catacombs in 1785–87. Goujon's fountain, moved to the centre, waters a new vegetable market.",
+     "note": "Closed in 1780 after a cellar wall gave way beside a mass grave; from 1785 the bones were moved to the old quarries, the future Catacombs. Goujon's fountain, moved to the centre, waters a new vegetable market.",
      "model": {
       "glb": "models/paris/innocents-1789.glb",
       "fallback": {
@@ -7128,7 +7128,7 @@
      }
     },
     "louis-1789": {
-     "note": "Complete, with a new classical west front (1754–88) whose south tower was never finished. Richelieu, Molière and Louis XIV were baptised or married in its parish."
+     "note": "Complete, with a new classical west front (1754–88) whose south tower was never finished. Richelieu and Molière were baptised here, and Louis XIV made his first communion here."
     }
    },
    "summary": "The parish church of the Halles, begun in 1532: a Gothic cathedral-sized body dressed in Renaissance ornament, with a classical west front added in the 18th century.",
@@ -7555,7 +7555,7 @@
     "valois-1550",
     "louis-1789"
    ],
-   "summary": "The sloping square before the Hôtel de Ville: the city's hiring place, its bonfire ground on Saint John's Eve and, for six centuries, its place of execution.",
+   "summary": "The sloping square before the Hôtel de Ville: the city's hiring place, its bonfire ground on Saint John's Eve and, for five centuries, its main place of execution.",
    "details": [
     "Unemployed workmen gathered here each morning to be hired: 'faire grève' first meant to wait for work here, later to strike. Executions drew huge crowds: the regicide Ravaillac was torn apart by horses here in 1610, Damiens in 1757. On Saint John's Eve the city lit a great bonfire, the king sometimes setting the torch."
    ],
@@ -7621,7 +7621,7 @@
    ],
    "variants": {
     "louis-1789": {
-     "note": "Some 2,500 patients, often four to a bed; Tenon's report of 1788 calls it the worst hospital in Europe and urges it be moved."
+     "note": "Some 2,500 patients, often four to a bed; Tenon's report of 1788 condemns its crowding and urges new hospitals."
     }
    }
   },
@@ -7725,7 +7725,7 @@
    ],
    "summary": "The butchers' hall in front of the Grand Châtelet, held by a closed guild of a few families, with slaughterhouses and tanneries in the streets round about.",
    "details": [
-    "The Grande Boucherie belonged to some twenty hereditary families who controlled the meat trade of the right bank; the stalls passed from father to son. Animals were slaughtered behind the stalls, the blood running down to the Seine. The butchers' wealth paid for the tower of Saint-Jacques; their street gangs, the Cabochiens, terrorised Paris in 1413."
+    "The Grande Boucherie belonged to a handful of hereditary families who controlled the meat trade of the right bank; the stalls passed from father to son. Animals were slaughtered behind the stalls, the blood running down to the Seine. The butchers' wealth paid for the tower of Saint-Jacques; their street gangs, the Cabochiens, terrorised Paris in 1413."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -7764,7 +7764,7 @@
    ],
    "summary": "The octagonal tower in the market where fraudulent traders, blasphemers and bankrupts were displayed, turning on a wheel so the whole crowd could see them.",
    "details": [
-    "The pillory was a small stone tower with a revolving wooden platform on top, in which the condemned stood with head and hands locked in a board; every half hour they were turned to face a new side of the market. Market fraud, false weights and blasphemy earned a turn there; the crowd threw mud and rotten produce."
+    "The pillory was a small stone tower with a revolving wooden platform on top, in which the condemned stood with head and hands locked in a board; at intervals they were turned to face a new side of the market. Market fraud, false weights and blasphemy earned a turn there; the crowd threw mud and rotten produce."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -7799,7 +7799,7 @@
     "philippe-1250",
     "valois-1550"
    ],
-   "summary": "Public steam baths (étuves), some thirty of them in 13th-century Paris, where men and women bathed on separate days; their criers announced each morning that the water was hot.",
+   "summary": "Public steam baths (étuves), about two dozen of them in late 13th-century Paris, where men and women usually bathed on separate days; their criers announced each morning that the water was hot.",
    "details": [
     "The statutes of the étuveurs in Étienne Boileau's Livre des métiers forbade crying the baths before daylight, because thieves used it as a pretext, and forbade keeping prostitutes. A bath in a wooden tub or the steam room cost a few deniers. Fear of plague and syphilis emptied the bathhouses in the 16th century."
    ],
@@ -7839,13 +7839,12 @@
    "activePeriods": [
     "valois-1550"
    ],
-   "summary": "The most famous tavern of old Paris, on the Cité near the Madeleine church, named in Villon's Testament and later haunted by Rabelais and the poets of the Pléiade.",
+   "summary": "The most famous tavern of old Paris, on the Cité near the Madeleine church, named in Villon's Testament and by Rabelais, and by tradition a haunt of the Pléiade poets.",
    "details": [
-    "Villon bequeathed jokes to its owner, Robin Turgis, in 1461. A century later Rabelais mentions it among the good taverns of Paris, and Ronsard and his friends drank here. Taverns sold wine by the pot under the sign of a pine cone or a bush; a crier of wine stood at the door."
+    "Villon bequeathed jokes to its owner, Robin Turgis, in 1461. A century later Rabelais mentions it among the good taverns of Paris, and tradition has Ronsard and his friends drinking here. Taverns sold wine by the pot under the sign of a pine cone or a bush; a crier of wine stood at the door."
    ],
    "confidence": "documented",
    "sourceIds": [
-    "wiki-pomme-de-pin",
     "villon"
    ],
    "vignettes": [
@@ -8179,7 +8178,7 @@
     "landmarkId": "grand-chatelet"
    },
    "effect": "fire",
-   "text": "A Danish fleet of hundreds of ships, by the monk Abbo's count, demanded passage up the Seine. Count Odo and Bishop Gozlin refused. They attacked the half-built tower at the Grand Pont's head with rams and fire. In February a flood swept away the Petit Pont and its tower fell, its twelve defenders killed. The emperor paid them to go on to Burgundy; Odo became king.",
+   "text": "A Danish fleet of hundreds of ships, by the monk Abbo's count, demanded passage up the Seine. Count Odo and Bishop Gozlin refused. They attacked the half-built tower at the Grand Pont's head with rams and fire. In February a flood swept away the Petit Pont and its tower fell, its twelve defenders killed. The emperor Charles the Fat paid them and let them go on to plunder Burgundy; in 888 Odo was made king.",
    "sourceIds": [
     "abbo",
     "wiki-siege-885"
@@ -8211,7 +8210,7 @@
     "landmarkId": "notre-dame"
    },
    "effect": "construction",
-   "text": "Bishop Maurice de Sully, son of a peasant, began a new cathedral east of the old Saint-Étienne, to be the largest of its day. Tradition says Pope Alexander III, in exile in France, laid the first stone. A new street, the rue Neuve-Notre-Dame, was cut to bring the stone from the quays. The choir's high altar was consecrated in 1189.",
+   "text": "Bishop Maurice de Sully, son of a peasant, began a new cathedral east of the old Saint-Étienne, to be the largest of its day. Tradition says Pope Alexander III, in exile in France, laid the first stone. A new street, the rue Neuve-Notre-Dame, was cut to bring the stone from the quays. The high altar of the new choir was consecrated in 1182.",
    "sourceIds": [
     "wiki-notre-dame",
     "erlande"
@@ -8426,7 +8425,7 @@
      "landmarkId": "sainte-chapelle",
      "title": "The king's glass house",
      "when": "Good Friday",
-     "text": "The king shows the Crown of Thorns from his new chapel in the palace. Through the open door you glimpse the upper chapel: walls of glass, red and blue, burning like a jewel box."
+     "text": "On Good Friday the relics of the Passion are shown at the king's new chapel in the palace. Through the open door you glimpse the upper chapel: walls of glass, red and blue, burning like a jewel box."
     },
     {
      "spotId": "pilori-des-halles",
@@ -8595,7 +8594,7 @@
    "title": "Plan de Paris (the Truschet and Hoyau or 'Basel' plan)",
    "author": "Olivier Truschet and Germain Hoyau",
    "year": "c. 1550",
-   "url": "https://en.wikipedia.org/wiki/Plan_de_Truschet_et_Hoyau"
+   "url": "https://fr.wikipedia.org/wiki/Plan_de_Truschet_et_Hoyau"
   },
   {
    "id": "wiki-notre-dame",
@@ -8647,9 +8646,9 @@
   },
   {
    "id": "wiki-grande-galerie",
-   "title": "Grande Galerie (Louvre)",
+   "title": "Grande Galerie",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Grande_Galerie_(Louvre)"
+   "url": "https://en.wikipedia.org/wiki/Grande_Galerie"
   },
   {
    "id": "wiki-grand-chatelet",
@@ -8665,9 +8664,9 @@
   },
   {
    "id": "wiki-temple",
-   "title": "Temple (Paris)",
+   "title": "Square du Temple (site of the Temple)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Temple_(Paris)"
+   "url": "https://en.wikipedia.org/wiki/Square_du_Temple_%E2%80%93_Elie-Wiesel"
   },
   {
    "id": "wiki-saint-germain",
@@ -9011,25 +9010,19 @@
    "id": "wiki-rue-du-fouarre",
    "title": "Rue du Fouarre",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Rue_du_Fouarre"
+   "url": "https://fr.wikipedia.org/wiki/Rue_du_Fouarre"
   },
   {
    "id": "wiki-grande-boucherie",
-   "title": "Grande Boucherie de Paris",
+   "title": "Quartier de Saint-Jacques-de-la-Boucherie",
    "author": "Wikipedia",
-   "url": "https://fr.wikipedia.org/wiki/Grande_Boucherie_de_Paris"
+   "url": "https://fr.wikipedia.org/wiki/Quartier_de_Saint-Jacques-de-la-Boucherie"
   },
   {
    "id": "wiki-pilori-halles",
-   "title": "Pilori des Halles",
+   "title": "Halles de Paris",
    "author": "Wikipedia",
-   "url": "https://fr.wikipedia.org/wiki/Pilori_des_Halles"
-  },
-  {
-   "id": "wiki-pomme-de-pin",
-   "title": "La Pomme de Pin (cabaret)",
-   "author": "Wikipedia",
-   "url": "https://fr.wikipedia.org/wiki/La_Pomme_de_Pin"
+   "url": "https://fr.wikipedia.org/wiki/Halles_de_Paris"
   },
   {
    "id": "wiki-ulrich-gering",
@@ -9047,7 +9040,7 @@
    "id": "wiki-foire-saint-germain",
    "title": "Foire Saint-Germain",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Foire_Saint-Germain"
+   "url": "https://fr.wikipedia.org/wiki/Foire_Saint-Germain"
   },
   {
    "id": "wiki-procope",
@@ -9065,7 +9058,7 @@
    "id": "wiki-bouquinistes",
    "title": "Bouquinistes of Paris",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Bouquinistes_of_Paris"
+   "url": "https://en.wikipedia.org/wiki/Bouquinistes"
   },
   {
    "id": "wiki-pompe-notre-dame",

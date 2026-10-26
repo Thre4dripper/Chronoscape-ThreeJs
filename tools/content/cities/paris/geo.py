@@ -73,7 +73,7 @@ SOURCES = [
     dict(id="jones-paris", title="Paris: Biography of a City", author="Colin Jones", year=2004),
     dict(id="hillairet", title="Dictionnaire historique des rues de Paris", author="Jacques Hillairet", year=1963),
     dict(id="turgot-plan", title="Plan de Paris (the Turgot plan)", author="Louis Bretez for Michel-Étienne Turgot", year=1739, url="https://en.wikipedia.org/wiki/Turgot_map_of_Paris"),
-    dict(id="truschet-hoyau", title="Plan de Paris (the Truschet and Hoyau or 'Basel' plan)", author="Olivier Truschet and Germain Hoyau", year="c. 1550", url="https://en.wikipedia.org/wiki/Plan_de_Truschet_et_Hoyau"),
+    dict(id="truschet-hoyau", title="Plan de Paris (the Truschet and Hoyau or 'Basel' plan)", author="Olivier Truschet and Germain Hoyau", year="c. 1550", url="https://fr.wikipedia.org/wiki/Plan_de_Truschet_et_Hoyau"),
 ]
 
 # ---------------------------------------------------------------- water and islands
@@ -116,7 +116,7 @@ ISLANDS = [
 
 HILLS = [
     dict(id="montagne", name="Montagne Sainte-Geneviève", center=(48.8462, 2.3478), radius=420, label=False,
-         blurb="The limestone hill of the left bank, Mons Lucotitius to the Romans, who built their forum on its shoulder. Saint Geneviève was buried on the summit about 502; the abbey named after her, then the colleges of the University, covered it."),
+         blurb="The limestone hill of the left bank, Mons Lucotitius to the Romans, who built their forum on its shoulder. Saint Geneviève was buried on the summit in the early 6th century; the abbey named after her, then the colleges of the University, covered it."),
     dict(id="butte-saint-roch", name="Butte Saint-Roch", center=(48.8660, 2.3330), radius=150, periods=PRE_1614,
          blurb="A mound of rubbish and spoil outside the Saint-Honoré gate, crowned with windmills; Joan of Arc was wounded attacking the city near here in 1429. It was levelled from the 1660s for the new quarter round the rue de Richelieu."),
     dict(id="monceau-saint-gervais", name="Monceau Saint-Gervais", center=(48.8558, 2.3540), radius=90, label=False, periods=EARLY,
@@ -180,7 +180,7 @@ ROADS = [
          blurb="The glassmakers' street, the old east–west route behind the Grève through the parish of Saint-Merry."),
     dict(id="rue-galande", name="Rue Galande and rue Saint-Victor", periods=["capetian-1000", "philippe-1250", "valois-1550", "louis-1789"], width=8, style="minor",
          path=[(48.8522, 2.3474), (48.8515, 2.3485), (48.8505, 2.3500), (48.8492, 2.3522), (48.8478, 2.3548), (48.8462, 2.3580)],
-         blurb="From the Petit Pont past the place Maubert, where the poorest scholars heard their lectures, to the abbey of Saint-Victor."),
+         blurb="From the Petit Pont past the place Maubert and the rue du Fouarre, where arts students sat on straw at their lectures, to the abbey of Saint-Victor."),
     dict(id="rue-de-la-harpe", name="Rue de la Harpe", periods=["capetian-1000", "philippe-1250", "valois-1550", "louis-1789"], width=8, style="minor",
          path=[(48.8536, 2.3446), (48.8515, 2.3432), (48.8500, 2.3424), (48.8485, 2.3414), (48.8460, 2.3400)],
          blurb="The University's western street, from the Pont Saint-Michel past the Cluny ruins to the Porte Saint-Michel."),
@@ -189,16 +189,16 @@ ROADS = [
          blurb="The road from the Cité bridges west to the abbey of Saint-Germain-des-Prés and its fair."),
     dict(id="rue-de-vaugirard", name="Rue de Vaugirard", periods=["valois-1550", "louis-1789"], width=8, style="minor",
          path=[(48.8478, 2.3405), (48.8488, 2.3370), (48.8475, 2.3300), (48.8450, 2.3230), (48.8425, 2.3170)],
-         blurb="The longest street of Paris, toward the village of Vaugirard, past the Luxembourg palace (1615)."),
+         blurb="The road to the village of Vaugirard (today the longest street in Paris), past the Luxembourg palace (1615)."),
     dict(id="rue-dauphine", name="Rue Dauphine", periods=["louis-1789"], width=9, style="minor",
          path=[(48.8558, 2.3399), (48.8547, 2.3390), (48.8536, 2.3382)],
          blurb="Cut in 1607 through the gardens of the Grands-Augustins to carry the traffic of the new Pont Neuf to the faubourg Saint-Germain."),
     dict(id="rue-de-richelieu", name="Rue de Richelieu", periods=["louis-1789"], width=9, style="minor",
          path=[(48.8635, 2.3372), (48.8665, 2.3378), (48.8695, 2.3385), (48.8716, 2.3388)],
          blurb="The street laid out over the levelled Butte Saint-Roch beside Richelieu's palace (the Palais-Royal), home of the royal library."),
-    dict(id="rue-de-grenelle", name="Rue de Grenelle and rue du Bac", periods=["louis-1789"], width=9, style="minor",
+    dict(id="rue-de-grenelle", name="Rue du Bac and rue de Grenelle", periods=["louis-1789"], width=9, style="minor",
          path=[(48.8604, 2.3283), (48.8575, 2.3265), (48.8545, 2.3255), (48.8535, 2.3215), (48.8545, 2.3170)],
-         blurb="The ferry road from the Pont Royal into the faubourg Saint-Germain, the quarter of aristocratic hôtels between court and garden."),
+         blurb="The rue du Bac, named after the ferry that the Pont Royal replaced, and the rue de Grenelle: streets of the faubourg Saint-Germain, the quarter of aristocratic hôtels between court and garden."),
     dict(id="boulevards", name="The Boulevards (Nouveau Cours)", periods=["louis-1789"], width=36, style="major", labelled=True,
          path=[(48.8532, 2.3700), (48.8570, 2.3688), (48.8610, 2.3672), (48.8642, 2.3653), (48.8668, 2.3630), (48.8686, 2.3585), (48.8698, 2.3528), (48.8706, 2.3470), (48.8712, 2.3410), (48.8712, 2.3345), (48.8705, 2.3270), (48.8698, 2.3240)],
          blurb="Louis XIV had the right-bank wall levelled from 1670 and planted with four rows of elms: a promenade for coaches, then the theatres, cafés and puppet shows of the boulevard du Temple."),
@@ -371,7 +371,7 @@ GARDENS = [
 
 DISTRICTS = [
     dict(id="la-cite", name="La Cité", periods=["capetian-1000", "philippe-1250", "valois-1550"], polygon=[(48.8577, 2.3415), (48.8574, 2.3448), (48.8562, 2.3490), (48.8544, 2.3517), (48.8521, 2.3527), (48.8521, 2.3504), (48.8538, 2.3460), (48.8563, 2.3413)],
-         description="The island of king and bishop: the royal palace at the west end, Notre-Dame and the Hôtel-Dieu at the east, and between them a maze of lanes and some twenty parish churches."),
+         description="The island of king and bishop: the royal palace at the west end, Notre-Dame and the Hôtel-Dieu at the east, and between them a maze of lanes and well over a dozen small parish churches."),
     dict(id="la-ville", name="La Ville", periods=["philippe-1250", "valois-1550"], polygon=[(48.8595, 2.3385), (48.8655, 2.3450), (48.8634, 2.3524), (48.8590, 2.3592), (48.8532, 2.3608), (48.8570, 2.3490)],
          description="The right bank of the merchants: the ports of the Grève, the Halles, the butchers, the changers and the Hôtel de Ville of the provost of the merchants."),
     dict(id="universite", name="L'Université", periods=["philippe-1250", "valois-1550"], polygon=[(48.8574, 2.3373), (48.8500, 2.3400), (48.8452, 2.3480), (48.8503, 2.3550), (48.8525, 2.3480)],
