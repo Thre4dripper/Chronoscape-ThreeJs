@@ -181,7 +181,9 @@
           "subtitle": "Oasis of the caves, 800",
           "at": [94.66, 40.14],
           "glyph": "pagoda",
-          "blurb": "The last stop before the deserts of the Tarim, and the Buddhist cave temples of Mogao carved into the cliffs nearby."
+          "blurb": "The last stop before the deserts of the Tarim, and the Buddhist cave temples of Mogao carved into the cliffs nearby.",
+          "city": "dunhuang",
+          "period": "tang-800"
         }
       ]
     },

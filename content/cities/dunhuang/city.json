@@ -1,0 +1,4401 @@
+{
+ "id": "dunhuang",
+ "name": "Dunhuang",
+ "subtitle": "Shazhou, Oasis of the Caves",
+ "description": "The oasis of Dunhuang from the Han commandery of 111 BCE to its desertion behind the Ming frontier: the walled town of Shazhou on the west bank of the Dang river, its canals and farms, the Sogdian quarter east of the river and, 5 km south, the Crescent Moon Spring in the Mingsha dunes. The Mogao caves, 25 km south-east, are drawn out of place at the frame's edge. Positions are projected from real coordinates; the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "tang-800",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#D8C49C",
+   "#CDB78E",
+   "#C4AC82",
+   "#DCCBA8"
+  ],
+  "roofs": [
+   "#B9A27C",
+   "#AE966F",
+   "#6E6A66"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    1873,
+    2441
+   ],
+   "distance": 44,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7491,
+   7434
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Dang river (Danghe)",
+    "path": [
+     [
+      0,
+      5936
+     ],
+     [
+      511,
+      5215
+     ],
+     [
+      1107,
+      4327
+     ],
+     [
+      1617,
+      3439
+     ],
+     [
+      1856,
+      2552
+     ],
+     [
+      1915,
+      1575
+     ],
+     [
+      2001,
+      666
+     ],
+     [
+      2128,
+      0
+     ]
+    ],
+    "width": 70,
+    "id": "dang",
+    "blurb": "The Dang (in Tang texts the Ganquan, 'Sweet Spring', river) comes out of the Qilian mountains to the south-west and runs north past the town to the Shule river. All the oasis lives on it: its water is taken off at weirs above the town into a fan of canals. Summer floods later washed away the old town's east side."
+   },
+   {
+    "name": "Mengshou canal",
+    "path": [
+     [
+      1277,
+      3961
+     ],
+     [
+      979,
+      3861
+     ],
+     [
+      596,
+      3495
+     ],
+     [
+      323,
+      2885
+     ],
+     [
+      298,
+      1553
+     ],
+     [
+      289,
+      666
+     ],
+     [
+      272,
+      0
+     ]
+    ],
+    "width": 8,
+    "id": "mengshou",
+    "blurb": "One of the canals named in the Tang gazetteer of Shazhou found at Dunhuang (Pelliot 2005), called after Meng Shou, an official said to have dug it. Its line here, west of the town, is a guess.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Yangkai canal",
+    "path": [
+     [
+      1720,
+      3273
+     ],
+     [
+      3065,
+      2885
+     ],
+     [
+      3916,
+      2108
+     ],
+     [
+      4767,
+      777
+     ],
+     [
+      5193,
+      0
+     ]
+    ],
+    "width": 8,
+    "id": "yangkai",
+    "blurb": "A canal of the Tang gazetteer, here led north-east across the oasis east of the river. Canal officers (qutou) organised the farmers on each canal to clean it and to take their turn at the water.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Duxiang canal",
+    "path": [
+     [
+      1447,
+      3772
+     ],
+     [
+      2639,
+      4105
+     ],
+     [
+      4767,
+      4105
+     ],
+     [
+      6470,
+      3772
+     ],
+     [
+      7491,
+      2996
+     ]
+    ],
+    "width": 8,
+    "id": "duxiang",
+    "blurb": "The 'canal of the town townships', after the Tang gazetteer, here running east along the foot of the dunes. Its course is a guess; the manuscripts list scores of smaller branch canals and ditches.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Beifu canal",
+    "path": [
+     [
+      2009,
+      888
+     ],
+     [
+      3065,
+      444
+     ],
+     [
+      3831,
+      0
+     ]
+    ],
+    "width": 7,
+    "id": "beifu",
+    "blurb": "'The north office canal' of the Tang gazetteer, watering the fields north of the town; its line is a guess.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Irrigation ditch",
+    "path": [
+     [
+      1277,
+      3961
+     ],
+     [
+      979,
+      3861
+     ],
+     [
+      596,
+      3495
+     ],
+     [
+      323,
+      2885
+     ],
+     [
+      298,
+      1553
+     ]
+    ],
+    "width": 6,
+    "id": "ming-ditch",
+    "blurb": "One of the few channels still kept open by the farmers who remained.",
+    "periods": [
+     "ming-1500"
+    ]
+   },
+   {
+    "name": "Crescent Moon Spring (Yueyaquan)",
+    "path": [
+     [
+      3096,
+      7050
+     ],
+     [
+      3122,
+      7034
+     ],
+     [
+      3148,
+      7022
+     ],
+     [
+      3175,
+      7015
+     ],
+     [
+      3201,
+      7012
+     ],
+     [
+      3227,
+      7015
+     ],
+     [
+      3253,
+      7022
+     ],
+     [
+      3280,
+      7034
+     ],
+     [
+      3306,
+      7050
+     ]
+    ],
+    "width": 42,
+    "id": "yueyaquan",
+    "blurb": "A crescent pool about 220 m long in a hollow among the dunes, fed by groundwater and never filled by the drifting sand: Tang texts call it the 'Sand Well' (Shajing). It has shrunk badly in the last century and is now topped up artificially."
+   }
+  ],
+  "islands": [],
+  "hills": [
+   {
+    "name": "Mingsha Shan (Singing Sand Mountain)",
+    "center": [
+     2384,
+     6213
+    ],
+    "radius": 300,
+    "label": true,
+    "id": "mingsha",
+    "blurb": "Dunes of fine sand rising 100 m and more above the oasis, stretching 40 km east to the Mogao cliff. In dry weather a sliding slope booms and hums; Tang and Five Dynasties texts already tell of the sand that 'roars like thunder', and townspeople climbed them at the Dragon Boat festival."
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     979,
+     6491
+    ],
+    "radius": 380,
+    "label": false,
+    "id": "dune-1"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     1745,
+     6990
+    ],
+    "radius": 380,
+    "label": false,
+    "id": "dune-2"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     1660,
+     5880
+    ],
+    "radius": 330,
+    "label": false,
+    "id": "dune-3"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     2426,
+     7212
+    ],
+    "radius": 300,
+    "label": false,
+    "id": "dune-4"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     3958,
+     6324
+    ],
+    "radius": 340,
+    "label": false,
+    "id": "dune-5"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     4214,
+     7212
+    ],
+    "radius": 300,
+    "label": false,
+    "id": "dune-6"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     4171,
+     5603
+    ],
+    "radius": 340,
+    "label": false,
+    "id": "dune-7"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     5065,
+     6823
+    ],
+    "radius": 380,
+    "label": false,
+    "id": "dune-8"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     5320,
+     5769
+    ],
+    "radius": 330,
+    "label": false,
+    "id": "dune-9"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     5959,
+     7101
+    ],
+    "radius": 320,
+    "label": false,
+    "id": "dune-10"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     7321,
+     6047
+    ],
+    "radius": 290,
+    "label": false,
+    "id": "dune-11"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     7193,
+     5104
+    ],
+    "radius": 250,
+    "label": false,
+    "id": "dune-12"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     1617,
+     5048
+    ],
+    "radius": 270,
+    "label": false,
+    "id": "dune-13"
+   },
+   {
+    "name": "Mingsha dunes",
+    "center": [
+     1149,
+     7212
+    ],
+    "radius": 260,
+    "label": false,
+    "id": "dune-15"
+   }
+  ],
+  "roads": [
+   {
+    "name": "South Street",
+    "path": [
+     [
+      1277,
+      2164
+     ],
+     [
+      1277,
+      1575
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "south-street",
+    "blurb": "The street from the south gate to the crossing in the middle of the town. The Tang town's street plan is not known; the cross of main streets is the usual pattern of a prefectural town.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "North Street",
+    "path": [
+     [
+      1277,
+      1575
+     ],
+     [
+      1277,
+      999
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": false,
+    "id": "north-street",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "West Street",
+    "path": [
+     [
+      894,
+      1575
+     ],
+     [
+      1277,
+      1575
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": false,
+    "id": "west-street",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "East Street",
+    "path": [
+     [
+      1277,
+      1575
+     ],
+     [
+      1660,
+      1575
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": true,
+    "id": "east-street",
+    "blurb": "From the crossing to the east gate and the bridge over the Dang, the way to the Sogdian quarter, the caravan market and the road to China.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Lane",
+    "path": [
+     [
+      1277,
+      1886
+     ],
+     [
+      1660,
+      1886
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "lane-s",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Bridge approach",
+    "path": [
+     [
+      1660,
+      1575
+     ],
+     [
+      1864,
+      1575
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "bridge-approach",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Road to Guazhou and Chang'an",
+    "path": [
+     [
+      1966,
+      1575
+     ],
+     [
+      2554,
+      1575
+     ],
+     [
+      4767,
+      1498
+     ],
+     [
+      7491,
+      1387
+     ]
+    ],
+    "width": 14,
+    "style": "major",
+    "labelled": true,
+    "id": "east-road",
+    "blurb": "The Silk Road east: to Guazhou, through the Hexi corridor to Liangzhou and on to Chang'an, some 1,800 km away. Caravans of silk went west along it; horses, jade, glass and silver came east.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Road to the Sand Well",
+    "path": [
+     [
+      2384,
+      1575
+     ],
+     [
+      2494,
+      2441
+     ],
+     [
+      2639,
+      3550
+     ],
+     [
+      2979,
+      5215
+     ],
+     [
+      3184,
+      6746
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "spring-road",
+    "blurb": "South across the oasis to the dunes and the Crescent Moon Spring, 5 km from the town: a pleasure outing on festival days.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950",
+     "ming-1500"
+    ]
+   },
+   {
+    "name": "Road to the Mogao caves",
+    "path": [
+     [
+      2494,
+      2441
+     ],
+     [
+      4342,
+      3550
+     ],
+     [
+      6299,
+      5215
+     ],
+     [
+      6963,
+      6679
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": true,
+    "id": "mogao-road",
+    "blurb": "South-east along the foot of the dunes and across the gravel desert to the Mogao cliff, 25 km from the town: a day's walk for pilgrims, monks and painters. On this map it ends at the cliff drawn out of place at the frame's edge.",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Road to the Yang Pass",
+    "path": [
+     [
+      894,
+      1575
+     ],
+     [
+      553,
+      1886
+     ],
+     [
+      0,
+      2552
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "yang-road",
+    "blurb": "South-west to the Yang Pass, about 70 km away, and the southern road along the Kunlun to Khotan.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Road to the Yumen Pass",
+    "path": [
+     [
+      1277,
+      999
+     ],
+     [
+      851,
+      444
+     ],
+     [
+      553,
+      0
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": true,
+    "id": "yumen-road",
+    "blurb": "North-west to the Yumen ('Jade Gate') Pass, some 80-90 km away, and the northern road by Loulan or, later, by Hami and Turfan.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Track to the fort",
+    "path": [
+     [
+      2554,
+      1575
+     ],
+     [
+      2622,
+      777
+     ],
+     [
+      2639,
+      499
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "han-fort-road",
+    "periods": [
+     "han-100",
+     "northern-wei-500"
+    ]
+   },
+   {
+    "name": "Track",
+    "path": [
+     [
+      851,
+      1553
+     ],
+     [
+      851,
+      444
+     ],
+     [
+      553,
+      0
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "ming-track-n",
+    "periods": [
+     "ming-1500"
+    ]
+   },
+   {
+    "name": "Track to the ford",
+    "path": [
+     [
+      1660,
+      1575
+     ],
+     [
+      2554,
+      1575
+     ],
+     [
+      4767,
+      1498
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "ming-track-e",
+    "periods": [
+     "ming-1500"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Town wall of Dunhuang",
+    "path": [
+     [
+      894,
+      999
+     ],
+     [
+      1660,
+      999
+     ],
+     [
+      1660,
+      2164
+     ],
+     [
+      894,
+      2164
+     ]
+    ],
+    "closed": true,
+    "id": "town-wall",
+    "blurb": "Where the Han commandery town stood is debated; it was probably at or near the later Shazhou on the west bank of the Dang, and the map draws it on that circuit. Rammed earth, laid in layers between board shutters.",
+    "periods": [
+     "han-100",
+     "northern-wei-500"
+    ]
+   },
+   {
+    "name": "Shazhou town wall",
+    "path": [
+     [
+      894,
+      999
+     ],
+     [
+      1660,
+      999
+     ],
+     [
+      1660,
+      2164
+     ],
+     [
+      894,
+      2164
+     ]
+    ],
+    "closed": true,
+    "id": "shazhou-wall",
+    "blurb": "The Tang walls of Shazhou, rammed earth some 10 m high, with corner towers, bastions and four gates; an inner citadel (zicheng) held the governor's offices. Stretches of the west wall and the south-west corner still stand on the west bank of the Dang.",
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "Ruined walls of Shazhou",
+    "path": [
+     [
+      1660,
+      999
+     ],
+     [
+      894,
+      999
+     ],
+     [
+      894,
+      2164
+     ],
+     [
+      1660,
+      2164
+     ]
+    ],
+    "closed": false,
+    "id": "shazhou-ruin",
+    "blurb": "The walls stand broken and empty, the east side already gnawed by the river. The Qing built a new Dunhuang town on the east bank in the 1720s.",
+    "periods": [
+     "ming-1500"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "South gate",
+    "position": [
+     1277,
+     2164
+    ],
+    "id": "south-gate",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "North gate",
+    "position": [
+     1277,
+     999
+    ],
+    "id": "north-gate",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "West gate",
+    "position": [
+     894,
+     1575
+    ],
+    "id": "west-gate",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "name": "East gate",
+    "position": [
+     1660,
+     1575
+    ],
+    "id": "east-gate",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   }
+  ],
+  "bridges": [
+   {
+    "name": "Bridge over the Dang",
+    "path": [
+     [
+      1869,
+      1575
+     ],
+     [
+      1962,
+      1575
+     ]
+    ],
+    "build": "timber",
+    "arches": 5,
+    "id": "dang-bridge-b",
+    "blurb": "A timber bridge on trestles joined the town to the east bank, the Sogdian quarter and the road to China.",
+    "landmarkId": "dang-bridge",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   }
+  ],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      919,
+      1032
+     ],
+     [
+      1251,
+      1032
+     ],
+     [
+      1251,
+      1542
+     ],
+     [
+      919,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "North-west quarter",
+    "periods": [
+     "han-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1302,
+      1032
+     ],
+     [
+      1634,
+      1032
+     ],
+     [
+      1634,
+      1542
+     ],
+     [
+      1302,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "North-east quarter",
+    "periods": [
+     "han-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      919,
+      1609
+     ],
+     [
+      1251,
+      1609
+     ],
+     [
+      1251,
+      2130
+     ],
+     [
+      919,
+      2130
+     ]
+    ],
+    "density": "loose",
+    "name": "South-west quarter",
+    "periods": [
+     "han-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1302,
+      1609
+     ],
+     [
+      1634,
+      1609
+     ],
+     [
+      1634,
+      2130
+     ],
+     [
+      1302,
+      2130
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east quarter",
+    "periods": [
+     "han-100"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      919,
+      1032
+     ],
+     [
+      1251,
+      1032
+     ],
+     [
+      1251,
+      1542
+     ],
+     [
+      919,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "North-west quarter",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1302,
+      1032
+     ],
+     [
+      1634,
+      1032
+     ],
+     [
+      1634,
+      1542
+     ],
+     [
+      1302,
+      1542
+     ]
+    ],
+    "density": "dense",
+    "name": "North-east quarter",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      919,
+      1609
+     ],
+     [
+      1251,
+      1609
+     ],
+     [
+      1251,
+      2130
+     ],
+     [
+      919,
+      2130
+     ]
+    ],
+    "density": "dense",
+    "name": "South-west quarter",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1302,
+      1609
+     ],
+     [
+      1634,
+      1609
+     ],
+     [
+      1634,
+      2130
+     ],
+     [
+      1302,
+      2130
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east quarter",
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1302,
+      1609
+     ],
+     [
+      1634,
+      1609
+     ],
+     [
+      1634,
+      2130
+     ],
+     [
+      1302,
+      2130
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east quarter",
+    "periods": [
+     "northern-wei-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2469,
+      1132
+     ],
+     [
+      3320,
+      1132
+     ],
+     [
+      3320,
+      1509
+     ],
+     [
+      2469,
+      1509
+     ]
+    ],
+    "density": "dense",
+    "name": "Congjiao township (the Sogdian colony)",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2469,
+      1132
+     ],
+     [
+      3320,
+      1132
+     ],
+     [
+      3320,
+      1509
+     ],
+     [
+      2469,
+      1509
+     ]
+    ],
+    "density": "dense",
+    "name": "East bank quarter",
+    "periods": [
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2026,
+      1642
+     ],
+     [
+      2324,
+      1642
+     ],
+     [
+      2324,
+      2019
+     ],
+     [
+      2026,
+      2019
+     ]
+    ],
+    "density": "dense",
+    "name": "Inns by the bridge",
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2520,
+      1642
+     ],
+     [
+      3065,
+      1642
+     ],
+     [
+      3065,
+      2019
+     ],
+     [
+      2520,
+      2019
+     ]
+    ],
+    "density": "loose",
+    "name": "East bank houses",
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2469,
+      1132
+     ],
+     [
+      2979,
+      1132
+     ],
+     [
+      2979,
+      1442
+     ],
+     [
+      2469,
+      1442
+     ]
+    ],
+    "density": "loose",
+    "name": "East bank hamlet",
+    "periods": [
+     "northern-wei-500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      468,
+      1054
+     ],
+     [
+      834,
+      1054
+     ],
+     [
+      834,
+      1465
+     ],
+     [
+      468,
+      1465
+     ]
+    ],
+    "density": "loose",
+    "name": "West suburb",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1337,
+      499
+     ],
+     [
+      1745,
+      499
+     ],
+     [
+      1745,
+      910
+     ],
+     [
+      1337,
+      910
+     ]
+    ],
+    "density": "loose",
+    "name": "North suburb",
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3065,
+      466
+     ],
+     [
+      3405,
+      466
+     ],
+     [
+      3405,
+      666
+     ],
+     [
+      3065,
+      666
+     ]
+    ],
+    "density": "loose",
+    "name": "Village on the Beifu canal",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4597,
+      2330
+     ],
+     [
+      5023,
+      2330
+     ],
+     [
+      5023,
+      2530
+     ],
+     [
+      4597,
+      2530
+     ]
+    ],
+    "density": "loose",
+    "name": "Village on the Yangkai canal",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5618,
+      721
+     ],
+     [
+      6044,
+      721
+     ],
+     [
+      6044,
+      921
+     ],
+     [
+      5618,
+      921
+     ]
+    ],
+    "density": "loose",
+    "name": "Village in the east fields",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      638,
+      3384
+     ],
+     [
+      979,
+      3384
+     ],
+     [
+      979,
+      3595
+     ],
+     [
+      638,
+      3595
+     ]
+    ],
+    "density": "loose",
+    "name": "Village south of the town",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3746,
+      3828
+     ],
+     [
+      4171,
+      3828
+     ],
+     [
+      4171,
+      3994
+     ],
+     [
+      3746,
+      3994
+     ]
+    ],
+    "density": "loose",
+    "name": "Village on the Duxiang canal",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5618,
+      4305
+     ],
+     [
+      6002,
+      4305
+     ],
+     [
+      6002,
+      4493
+     ],
+     [
+      5618,
+      4493
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet at the dunes",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1362,
+      1109
+     ],
+     [
+      1600,
+      1109
+     ],
+     [
+      1600,
+      1387
+     ],
+     [
+      1362,
+      1387
+     ]
+    ],
+    "density": "loose",
+    "name": "Squatters in the old north-east quarter",
+    "periods": [
+     "ming-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      383,
+      2441
+     ],
+     [
+      681,
+      2441
+     ],
+     [
+      681,
+      2607
+     ],
+     [
+      383,
+      2607
+     ]
+    ],
+    "density": "loose",
+    "name": "Farm on the west canal",
+    "periods": [
+     "ming-1500"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      170,
+      2330
+     ],
+     [
+      834,
+      2330
+     ],
+     [
+      1319,
+      3384
+     ],
+     [
+      953,
+      4105
+     ],
+     [
+      170,
+      4105
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the west canal",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      85,
+      1054
+     ],
+     [
+      834,
+      1054
+     ],
+     [
+      834,
+      2241
+     ],
+     [
+      85,
+      2241
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields west of the town",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2213,
+      55
+     ],
+     [
+      6895,
+      55
+     ],
+     [
+      6895,
+      865
+     ],
+     [
+      2213,
+      865
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields north of the town",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3235,
+      1054
+     ],
+     [
+      7151,
+      1054
+     ],
+     [
+      7151,
+      3550
+     ],
+     [
+      3235,
+      3550
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields of the east canals",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2596,
+      2164
+     ],
+     [
+      4725,
+      2164
+     ],
+     [
+      4725,
+      4771
+     ],
+     [
+      2596,
+      4771
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields under the dunes",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4810,
+      3606
+     ],
+     [
+      6810,
+      3606
+     ],
+     [
+      6810,
+      4604
+     ],
+     [
+      4810,
+      4604
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields on the Duxiang canal",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1873,
+      3606
+     ],
+     [
+      2111,
+      2552
+     ],
+     [
+      2384,
+      2552
+     ],
+     [
+      2384,
+      4660
+     ],
+     [
+      2001,
+      4660
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields by the river",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      681,
+      499
+     ],
+     [
+      1260,
+      499
+     ],
+     [
+      1260,
+      888
+     ],
+     [
+      681,
+      888
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Orchards by the town",
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      170,
+      2330
+     ],
+     [
+      834,
+      2330
+     ],
+     [
+      1319,
+      3384
+     ],
+     [
+      953,
+      4105
+     ],
+     [
+      170,
+      4105
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields kept on the west canal",
+    "periods": [
+     "ming-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2213,
+      222
+     ],
+     [
+      3575,
+      222
+     ],
+     [
+      3575,
+      865
+     ],
+     [
+      2213,
+      865
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields kept north of the ruins",
+    "periods": [
+     "ming-1500"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      1745,
+      33
+     ],
+     [
+      2384,
+      33
+     ],
+     [
+      2384,
+      555
+     ],
+     [
+      1745,
+      555
+     ]
+    ],
+    "name": "Reed beds by the river"
+   },
+   {
+    "polygon": [
+     [
+      3235,
+      1109
+     ],
+     [
+      7151,
+      1109
+     ],
+     [
+      7151,
+      3550
+     ],
+     [
+      3235,
+      3550
+     ]
+    ],
+    "name": "Tamarisk scrub on the old fields",
+    "periods": [
+     "ming-1500"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2596,
+      2164
+     ],
+     [
+      4725,
+      2164
+     ],
+     [
+      4725,
+      4771
+     ],
+     [
+      2596,
+      4771
+     ]
+    ],
+    "name": "Tamarisk scrub under the dunes",
+    "periods": [
+     "ming-1500"
+    ]
+   }
+  ],
+  "districts": [
+   {
+    "id": "town",
+    "name": "Dunhuang town",
+    "polygon": [
+     [
+      894,
+      999
+     ],
+     [
+      1660,
+      999
+     ],
+     [
+      1660,
+      2164
+     ],
+     [
+      894,
+      2164
+     ]
+    ],
+    "description": "The walled seat of the commandery of Dunhuang: the governor's office, granaries and barracks, and later the first monasteries, behind rammed-earth walls on the west bank of the Dang.",
+    "periods": [
+     "han-100",
+     "northern-wei-500"
+    ]
+   },
+   {
+    "id": "shazhou",
+    "name": "Shazhou",
+    "polygon": [
+     [
+      894,
+      999
+     ],
+     [
+      1660,
+      999
+     ],
+     [
+      1660,
+      2164
+     ],
+     [
+      894,
+      2164
+     ]
+    ],
+    "description": "The walled town of Shazhou, seat of the prefecture and later of the Guiyi Circuit: the yamen in its inner citadel, monasteries, courtyard houses and lanes. Most of the oasis people lived outside it on their farms.",
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "id": "congjiao",
+    "name": "Congjiao township",
+    "polygon": [
+     [
+      2026,
+      1132
+     ],
+     [
+      3320,
+      1132
+     ],
+     [
+      3320,
+      2019
+     ],
+     [
+      2026,
+      2019
+     ]
+    ],
+    "description": "A township of about 300 Sogdian households, registered in the 750s, a short way east of the town round the Xian (Zoroastrian) shrine of 'An city'. After the Tibetan conquest the families scattered among the other townships and turned Buddhist.",
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "id": "oasis",
+    "name": "The oasis",
+    "polygon": [
+     [
+      0,
+      0
+     ],
+     [
+      7491,
+      0
+     ],
+     [
+      7491,
+      4771
+     ],
+     [
+      0,
+      4771
+     ]
+    ],
+    "description": "Fields, orchards, poplar rows and farmsteads along the canals of the Dang: a green island about 20 km across between the gravel desert and the Mingsha dunes.",
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950",
+     "ming-1500"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Dunhuang",
+    "position": [
+     4171,
+     666
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "han-100",
+     "northern-wei-500"
+    ]
+   },
+   {
+    "text": "Shazhou",
+    "position": [
+     4171,
+     666
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "text": "Ruins of Shazhou",
+    "position": [
+     4171,
+     666
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ming-1500"
+    ]
+   },
+   {
+    "text": "Dang He",
+    "position": [
+     1600,
+     3107
+    ],
+    "size": "md",
+    "rotation": -65
+   },
+   {
+    "text": "Mingsha Shan",
+    "position": [
+     4597,
+     6546
+    ],
+    "size": "lg",
+    "rotation": 0
+   },
+   {
+    "text": "Crescent Moon Spring",
+    "position": [
+     3201,
+     7234
+    ],
+    "size": "sm",
+    "rotation": 0
+   },
+   {
+    "text": "Toward the Mogao Caves (25 km)",
+    "position": [
+     6555,
+     7234
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950",
+     "ming-1500"
+    ]
+   },
+   {
+    "text": "Oasis fields",
+    "position": [
+     5959,
+     2441
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "han-100",
+     "northern-wei-500",
+     "tang-800",
+     "guiyi-950"
+    ]
+   },
+   {
+    "text": "Congjiao (Sogdians)",
+    "position": [
+     2979,
+     999
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "tang-800"
+    ]
+   },
+   {
+    "text": "Gobi",
+    "position": [
+     341,
+     166
+    ],
+    "size": "sm",
+    "rotation": 0
+   }
+  ],
+  "palette": {
+   "parchment": "#EAD8B0",
+   "ink": "#6A4A32",
+   "water": "#5F8A8C",
+   "hill": "#B89A66",
+   "road": "#8C6C4A"
+  },
+  "compass": [
+   7108,
+   333
+  ],
+  "cartouche": [
+   85,
+   7301
+  ]
+ },
+ "periods": [
+  {
+   "id": "han-100",
+   "label": "The Han commandery of Dunhuang",
+   "year": -100,
+   "startYear": -111,
+   "endYear": 280,
+   "summary": "The Han took the Hexi corridor from the Xiongnu and set up the commandery of Dunhuang about 111 BCE (some historians argue for a few decades later), carrying the wall and its beacon line west to the Yumen and Yang passes, 70-90 km beyond the frame. The town on the west bank of the Dang is a garrison and supply base: rammed-earth walls, granaries, the governor's office, soldier-farmers digging canals.",
+   "population": "about 38,000 in the whole commandery (census of 2 CE); a few thousand in the town",
+   "feel": "Pounded earth and camel dung, the drum of the commandery office, convict labourers digging ditches, and columns of smoke from the beacons on the desert edge.",
+   "style": "sinic",
+   "houses": {
+    "title": "Rammed-earth houses of the garrison town",
+    "text": "Single-storey houses of rammed earth and sun-dried brick round small yards, roofed flat with poplar poles, reed mats and mud; the barracks, granaries and stables of the garrison along the walls."
+   },
+   "outskirts": {
+    "title": "Fields of the military colonies",
+    "text": "Wheat and millet fields laid out by the soldier-farmers (tuntian), fed by new canals from the Dang; farmsteads among poplars and willows, and the gravel desert straight beyond the last ditch."
+   }
+  },
+  {
+   "id": "northern-wei-500",
+   "label": "Buddhist Dunhuang",
+   "year": 500,
+   "startYear": 281,
+   "endYear": 617,
+   "summary": "After the Han the oasis passes between the Liang kingdoms of the north-west, the Northern Wei (from 439-442) and their successors. Buddhism comes with monks and merchants on the road: Dharmaraksha, 'the bodhisattva of Dunhuang', translates sutras in the 3rd century, and from 366, by tradition, monks cut meditation caves into the Mogao cliff 25 km south-east. Monasteries rise among the town's earth houses.",
+   "population": "perhaps 10,000-20,000 in the oasis (no reliable figure)",
+   "feel": "Bells and chanting from the monasteries, Sogdian voices at the market, and the dry wind off the dunes sifting sand into every courtyard.",
+   "style": "sinic",
+   "houses": {
+    "title": "Courtyard houses of the oasis town",
+    "text": "One-storey houses of rammed earth and mud brick round courtyards, flat roofs of poplar beams and reed matting. The great local clans, the Suo, Zhang, Yin and Linghu, build larger compounds with gate halls and timber porches."
+   },
+   "outskirts": {
+    "title": "Canal hamlets",
+    "text": "Hamlets strung along the canals among fields of wheat, millet and hemp, rows of poplars and elms against the wind, orchards of apricots and jujubes."
+   }
+  },
+  {
+   "id": "tang-800",
+   "label": "Shazhou under Tibetan rule",
+   "year": 800,
+   "startYear": 618,
+   "endYear": 847,
+   "summary": "Tang Shazhou is a frontier prefecture with a Sogdian colony east of the walls. In 786, after a long siege, it surrenders to the Tibetan Empire, which rules until 848: Chinese clerks serve Tibetan officials and the monasteries prosper. The Mogao caves are at their height, with the Great Buddhas of 35 and 26 m in their timber façades, and the monasteries copy sutras by the thousand.",
+   "population": "about 16,000 in the prefecture by the census of the 740s; fewer under Tibetan rule",
+   "feel": "Tibetan and Chinese spoken in the yamen, chanting from more than a dozen monasteries, camel bells at the east gate, and the smell of ink and lamp oil in the scriptoria.",
+   "style": "sinic",
+   "houses": {
+    "title": "Courtyard houses of Shazhou",
+    "text": "Inside the rammed-earth walls, one-storey courtyard houses of earth and timber with flat mud roofs; grey-tiled halls only for officials and monasteries. Contracts in the library cave sell houses room by room and divide them between brothers."
+   },
+   "outskirts": {
+    "title": "Farms of the townships",
+    "text": "Farmsteads of the oasis townships strung along the canals: walled yards, poplars and elms, wheat, millet, hemp and beans, orchards and melon beds, watered in turn by the canal officers' rota."
+   }
+  },
+  {
+   "id": "guiyi-950",
+   "label": "The Guiyi Circuit of the Cao family",
+   "year": 950,
+   "startYear": 848,
+   "endYear": 1036,
+   "summary": "In 848 Zhang Yichao drives out the Tibetans and offers Shazhou to the Tang, who make it the Guiyi ('Return to Allegiance') Circuit. From 914 the Cao family rule it as a little kingdom, marrying into the Uighur and Khotanese royal houses and cutting great family caves at Mogao. About 1000 a side chamber, Cave 17, is sealed full of manuscripts; in 1036 the Tanguts of Xixia take the oasis.",
+   "population": "perhaps 20,000-30,000 in the oasis (estimates from the household registers vary)",
+   "feel": "Uighur, Khotanese and Chinese envoys at the Cao court, feasts of the lay Buddhist societies in the lanes, and lamps carried out to every cave on the eighth day of the twelfth month.",
+   "style": "sinic",
+   "houses": {
+    "title": "Courtyard houses of the Guiyi town",
+    "text": "One-storey courtyard houses of rammed earth and mud brick, flat-roofed: a hall, side rooms and a kitchen round a yard, often a mill or a stable. The deeds in the library cave sell them room by room, measured to the foot."
+   },
+   "outskirts": {
+    "title": "Farms and monastery estates",
+    "text": "Farmsteads along the canals, monastery estates worked by dependent households, and on the desert edge the felt tents of Uighur and Tibetan herders."
+   }
+  },
+  {
+   "id": "ming-1500",
+   "label": "Beyond the Jiayu Pass",
+   "year": 1500,
+   "startYear": 1037,
+   "endYear": 1724,
+   "summary": "The Tanguts hold Dunhuang from 1036, the Mongols from 1227. The Ming fix their frontier at the Jiayu Pass, some 380 km east, and leave the oasis to loose guard commands under Mongol chiefs (Shazhou guard from 1404; the Handong left guard from 1479). Farmers drift away; by the 1520s the Ming have withdrawn behind the pass. The old town is a ruin and the caves are visited by few.",
+   "population": "a few hundred households of herders and farmers (a guess)",
+   "feel": "Wind over the broken walls, sheep and goats bleating in the old streets, dung fires before felt tents, and sand drifting against every doorway.",
+   "style": "sinic",
+   "houses": {
+    "title": "Huts in the ruins",
+    "text": "A few farmhouses of mud brick and rammed earth patched against the old walls, roofed with poplar poles and reeds; many families live in felt tents for part of the year."
+   },
+   "outskirts": {
+    "title": "Silted canals and pasture",
+    "text": "Only a few canals are kept open; old fields turn to tamarisk scrub, reed beds and grazing for sheep, goats and camels."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "shazhou-walls",
+   "placeId": "shazhou-walls",
+   "name": "Shazhou walls: the south-west corner and south gate",
+   "category": "military",
+   "position": [
+    1094,
+    2118
+   ],
+   "rotation": 0,
+   "footprint": [
+    423.4,
+    130.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/shazhou-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 420,
+     "depth": 130,
+     "wallHeight": 26.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950",
+    "ming-1500"
+   ],
+   "variants": {
+    "han-100": {
+     "name": "Walls of the Han commandery town",
+     "note": "A plain rammed-earth wall, perhaps 7-8 m high, with a simple timber gate tower; whether the Han town stood exactly here is uncertain.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/dunhuang/shazhou-gate-han.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 420,
+       "depth": 130,
+       "wallHeight": 26.0,
+       "bastions": 8
+      }
+     }
+    },
+    "northern-wei-500": {
+     "name": "Walls of Dunhuang",
+     "note": "The old walls, patched by the Liang kings and the Wei governors; refugees from the wars in the east crowd inside.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/dunhuang/shazhou-gate-han.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 420,
+       "depth": 130,
+       "wallHeight": 26.0,
+       "bastions": 8
+      }
+     }
+    },
+    "tang-800": {
+     "note": "The Tang walls that held out for years against the Tibetan siege before the town surrendered on terms in 786. Tibetan guards now keep the gates."
+    },
+    "guiyi-950": {
+     "note": "Kept up by the Guiyi governors, whose soldiers watch for Uighur and Tangut raiders from the corner towers."
+    },
+    "ming-1500": {
+     "name": "Ruins of the Shazhou walls",
+     "note": "Broken and abandoned: the gate tower long gone, the wall slumped into ridges of layered earth, herders' sheep grazing in the gateway.",
+     "model": {
+      "glb": "models/dunhuang/shazhou-gate-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 420,
+       "depth": 130,
+       "wallHeight": 26.0,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "The rammed-earth walls of the oasis town, here at their south-west corner with its corner tower, bastions along the wall, and the south gate with a gate tower over a single passage.",
+   "details": [
+    "Shazhou's walls were rammed earth laid in layers 10-15 cm thick between board shutters, about 10 m high, with projecting bastions ('horse-faces'), corner towers and four gates. A stretch of the west wall and the south-west corner survives on the west bank of the Dang; the eastern side was washed away by the river, and the full trace is uncertain.",
+    "The miniature is an interpretation after Tang town walls excavated in Gansu and Xinjiang and the walls in the Mogao wall paintings: layered earth, a parapet, a timber tower on the gate platform and a little barbican. The gate's position in the middle of the south wall is assumed."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-shazhou",
+    "wiki-rammed-earth",
+    "rong-xinjiang",
+    "stein-serindia"
+   ],
+   "built": "Han origins; Tang form 7th-8th century",
+   "function": "Town walls and gates",
+   "activity": {
+    "figures": 25,
+    "radius": 200
+   }
+  },
+  {
+   "id": "yamen",
+   "placeId": "shazhou-yamen",
+   "name": "The governor's yamen",
+   "category": "civic",
+   "position": [
+    1464,
+    1331
+   ],
+   "rotation": 0,
+   "footprint": [
+    130.0,
+    150.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/yamen.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 130,
+     "depth": 150,
+     "height": 52.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "han-100": {
+     "name": "Office of the Grand Administrator of Dunhuang",
+     "note": "The commandery office: rammed-earth halls round courts, the governor's archive of wooden slips, and the garrison commander's office beside it.",
+     "model": {
+      "glb": "models/dunhuang/yamen-han.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 150,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "northern-wei-500": {
+     "name": "Government office of Dunhuang (Guazhou)",
+     "note": "Under the Northern Wei the town is the seat of Dunhuang garrison, later of Guazhou; from about 525 the Wei prince Yuan Rong governs here and sponsors caves at Mogao.",
+     "model": {
+      "glb": "models/dunhuang/yamen-han.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 130,
+       "depth": 150,
+       "height": 52.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "tang-800": {
+     "name": "Prefecture office (Tibetan administration)",
+     "note": "The Tang prefect's office, now the seat of the Tibetan governor: Tibetan officials, Chinese clerks keeping registers in both scripts, households counted in Tibetan-style 'tribes'."
+    },
+    "guiyi-950": {
+     "name": "Headquarters of the Guiyi Circuit",
+     "note": "The palace-office of the Cao family, who style themselves Military Commissioners and sometimes kings: audience hall, archives, armoury, kitchens for envoys."
+    },
+    "ming-1500": {
+     "note": "Gone: a mound of fallen earth in the empty town."
+    }
+   },
+   "summary": "The government compound in the inner citadel of the town: gate hall, audience hall and offices round walled courts, from which governors ruled the oasis for over a thousand years.",
+   "details": [
+    "Dunhuang's records survive in astonishing quantity: Han wooden slips from the beacons and post stations, and in the library cave thousands of Tang and Guiyi documents - household registers, tax lists, court cases, letters of the governors, accounts of the Cao court's banquets for Uighur and Khotanese envoys.",
+    "Nothing of the compound has been excavated, so the miniature is an interpretation: a walled court with a gate hall, a main hall and side ranges, timber halls under grey tile on earth platforms, after Tang administrative compounds in wall paintings."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-yamen",
+    "wiki-guiyi",
+    "rong-xinjiang",
+    "loewe"
+   ],
+   "built": "Han origins; rebuilt many times",
+   "function": "Seat of the commandery, prefecture and Guiyi Circuit",
+   "activity": {
+    "figures": 30,
+    "radius": 160
+   }
+  },
+  {
+   "id": "kaiyuan-si",
+   "placeId": "kaiyuan-si",
+   "name": "Kaiyuan monastery (Kaiyuan si)",
+   "category": "religious",
+   "position": [
+    1073,
+    1309
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.0,
+    130.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/kaiyuan-si.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 130,
+     "height": 40.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "northern-wei-500": {
+     "note": "Not yet founded: the emperor Xuanzong ordered a Kaiyuan monastery in every prefecture in 738."
+    },
+    "tang-800": {
+     "note": "One of the official monasteries of Shazhou, where the emperor's birthday and the state rites were kept; under the Tibetans its monks copy sutras for the Tibetan king's merit."
+    },
+    "guiyi-950": {
+     "note": "Still one of the town's dozen and more monasteries, its monks listed in the Guiyi registers of clergy."
+    },
+    "ming-1500": {
+     "note": "Gone: its timbers taken, its earth platforms ploughed or drifted over."
+    }
+   },
+   "summary": "The prefecture's official Kaiyuan monastery, founded under an imperial edict of 738: a walled precinct with a gate, a Buddha hall and a lecture hall, and a timber pagoda.",
+   "details": [
+    "Xuanzong decreed in 738 that every prefecture should have a monastery and a Daoist abbey named after his Kaiyuan era. Dunhuang manuscripts name a Kaiyuan si at Shazhou among the town's monasteries, which numbered sixteen or seventeen in the 9th and 10th centuries.",
+    "Its position inside the walls is a guess. The miniature follows the monasteries painted on the Mogao walls: a gate, a courtyard with a pagoda, a main hall on a platform, cloisters round the court."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kaiyuan-temple",
+    "wiki-dunhuang-manuscripts",
+    "rong-xinjiang"
+   ],
+   "built": "738 (by decree; date of the Shazhou building unknown)",
+   "function": "Official Buddhist monastery",
+   "activity": {
+    "figures": 18,
+    "radius": 120
+   }
+  },
+  {
+   "id": "longxing-si",
+   "placeId": "longxing-si",
+   "name": "Longxing monastery (Longxing si)",
+   "category": "religious",
+   "position": [
+    1073,
+    1853
+   ],
+   "rotation": 0,
+   "footprint": [
+    100.0,
+    130.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/longxing-si.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 100,
+     "depth": 130,
+     "height": 40.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "No monastery yet: Buddhism reaches Dunhuang with travellers in the later Han, but no temple of this time is known."
+    },
+    "northern-wei-500": {
+     "name": "A town monastery",
+     "note": "Monasteries stand in the town by the 5th century, built round a central pagoda in the early manner; which one stood here, and under what name, is unknown.",
+     "confidence": "interpretation",
+     "model": {
+      "glb": "models/dunhuang/wei-monastery.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 100,
+       "depth": 130,
+       "height": 40.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "tang-800": {
+     "note": "Renamed Longxing ('Dragon Rising') under an edict of 705, one of the great monasteries of Shazhou, with a library whose catalogues survive in the library cave."
+    },
+    "guiyi-950": {
+     "note": "One of the leading monasteries of the Guiyi town: its monks hold office in the clergy administration, lend grain to farmers and copy sutras for patrons."
+    },
+    "ming-1500": {
+     "note": "Gone, like the other monasteries of the town."
+    }
+   },
+   "summary": "One of the great monasteries of Shazhou: gate, pagoda court, Buddha hall and sutra library, where monks copied, lent and read the scriptures later found in the library cave.",
+   "details": [
+    "An edict of 705 renamed a monastery in each prefecture Zhongxing, soon changed to Longxing; Dunhuang's Longxing si appears often in the manuscripts, with its library catalogues, loan accounts and lists of monks. Many manuscripts in the library cave came from the town monasteries' libraries.",
+    "The position is a guess, and so is the plan. The miniature shows a Tang monastery after the Mogao paintings; the Northern Wei variant puts a timber pagoda in the middle of the court, the usual plan of early Chinese monasteries."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-chinese-buddhist-architecture",
+    "wiki-dunhuang-manuscripts",
+    "rong-xinjiang"
+   ],
+   "built": "5th-6th century origins (?); named Longxing 705",
+   "function": "Buddhist monastery and library",
+   "activity": {
+    "figures": 18,
+    "radius": 120
+   }
+  },
+  {
+   "id": "ming-village",
+   "placeId": "ming-village",
+   "name": "Village in the ruins",
+   "category": "district",
+   "position": [
+    1490,
+    1886
+   ],
+   "rotation": 0,
+   "footprint": [
+    80.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/ming-village.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 80,
+      "depth": 60
+     },
+     "buildings": [
+      {
+       "offset": [
+        -20.0,
+        -15.0
+       ],
+       "width": 24.0,
+       "depth": 18.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        20.0,
+        12.0
+       ],
+       "width": 24.0,
+       "depth": 18.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ming-1500"
+   ],
+   "variants": {
+    "guiyi-950": {
+     "note": "The town is full: houses, lanes, the monasteries and the yamen; nobody yet imagines it empty."
+    },
+    "ming-1500": {
+     "note": "A few mud-brick houses and felt tents among the broken walls: herders of the Mongol guard commands and the last farmers, before the Ming withdrew behind the Jiayu Pass."
+    }
+   },
+   "summary": "A hamlet of mud-brick huts, pens and felt tents in the ruins of the old town, as it may have looked when Dunhuang lay outside the Ming frontier.",
+   "details": [
+    "After the Ming fixed their frontier at the Jiayu Pass, Dunhuang was left to Mongol chiefs with Ming titles: the Shazhou guard (from 1404) and the Handong left guard (from 1479). Chinese settlers came back only after the Qing re-founded the oasis in the 1720s.",
+    "Almost nothing is known of the oasis in these centuries. The miniature is an interpretation: rammed-earth huts, a sheep pen of brushwood and two felt tents against a stretch of the old wall."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-dunhuang",
+    "wiki-ming-great-wall"
+   ],
+   "built": "15th-16th century",
+   "function": "Herders' and farmers' hamlet",
+   "activity": {
+    "figures": 8,
+    "radius": 90
+   }
+  },
+  {
+   "id": "dang-bridge",
+   "placeId": "dang-bridge",
+   "name": "Bridge over the Dang",
+   "category": "civic",
+   "position": [
+    1915,
+    1575
+   ],
+   "rotation": 0,
+   "footprint": [
+    98.0,
+    14.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/dang-bridge.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 95,
+     "depth": 14,
+     "height": 8,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "A timber bridge or a ford: the commandery's road east crossed the river here to the post road for the Hexi corridor."
+    },
+    "tang-800": {
+     "note": "Caravans from the east cross here into the town; Tibetan guards collect tolls at the east gate."
+    },
+    "guiyi-950": {
+     "note": "Mended each year after the summer floods by labour levied from the townships."
+    },
+    "ming-1500": {
+     "note": "Gone; herders ford the river in the low season."
+    }
+   },
+   "summary": "A timber trestle bridge across the Dang between the town's east gate and the east bank, where the road to China began.",
+   "details": [
+    "The Dang is a braided summer-flood river; Dunhuang documents record levies of labour and timber for bridges and weirs. Where exactly the medieval bridge stood is not known.",
+    "The miniature is an interpretation: a deck of poplar logs on timber trestles with stone-filled cribs against the floods, as on bridges still built in the oases of Gansu and Xinjiang."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-hexi",
+    "whitfield"
+   ],
+   "built": "unknown",
+   "function": "River crossing",
+   "activity": {
+    "figures": 10,
+    "radius": 80
+   }
+  },
+  {
+   "id": "caravan-market",
+   "placeId": "caravan-market",
+   "name": "The caravan market",
+   "category": "commercial",
+   "position": [
+    2315,
+    1276
+   ],
+   "rotation": 0,
+   "footprint": [
+    90.0,
+    70.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/caravan-market.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 90,
+      "depth": 70
+     },
+     "buildings": [
+      {
+       "offset": [
+        -22.5,
+        -17.5
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        22.5,
+        14.0
+       ],
+       "width": 27.0,
+       "depth": 21.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "Trade passes through the commandery, but under the officials' eye: merchants need passes checked at the Yumen and Yang gates."
+    },
+    "northern-wei-500": {
+     "note": "Sogdian merchants already live at Dunhuang: letters written by Sogdians in the 310s, found by Stein in a beacon tower west of the town, mention their community here."
+    },
+    "tang-800": {
+     "note": "Sogdian caravan leaders, Chinese brokers and Tibetan officials meet in the inn yard over silk, felt, horses and grain."
+    },
+    "guiyi-950": {
+     "note": "Uighur, Khotanese and Chinese traders; the Cao court's envoys bring jade from Khotan and horses from the Uighurs, and pay in silk."
+    },
+    "ming-1500": {
+     "note": "Gone. The caravans now go round, or wait at the Jiayu Pass."
+    }
+   },
+   "summary": "A walled caravan inn and market yard on the east bank, where camel trains unloaded, merchants lodged and goods were weighed, taxed and sold.",
+   "details": [
+    "Dunhuang was the last Chinese town before the desert routes divided for Loulan, Hami and Khotan. Its markets saw Sogdian merchants from the 4th century, and the library cave keeps contracts, travel passes and letters of merchants who passed through.",
+    "Where the market stood is unknown; its place east of the river, near the Sogdian colony, is a guess. The miniature shows a walled inn yard with stables, rooms round a court, shop rows and camels."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sogdians-china",
+    "wiki-caravanserai",
+    "vaissiere",
+    "hansen"
+   ],
+   "built": "unknown",
+   "function": "Market and caravan inn",
+   "activity": {
+    "figures": 35,
+    "radius": 150
+   }
+  },
+  {
+   "id": "xian-shrine",
+   "placeId": "xian-shrine",
+   "name": "Xian (Zoroastrian) shrine of 'An city'",
+   "category": "religious",
+   "position": [
+    2894,
+    1331
+   ],
+   "rotation": 0,
+   "footprint": [
+    50.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/xian-shrine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 50,
+     "height": 20.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "northern-wei-500": {
+     "note": "Sogdians are here already; whether they had a temple of their own yet is not known."
+    },
+    "tang-800": {
+     "note": "The shrine of the Sogdian colony. After 786 the colony disperses, but the shrine survives."
+    },
+    "guiyi-950": {
+     "note": "Still standing: the Guiyi accounts pay for paper and offerings at the 'sai xian' festivals of the Xian god, by now a local cult as much as a Sogdian one."
+    },
+    "ming-1500": {
+     "note": "Long gone."
+    }
+   },
+   "summary": "The Sogdians' fire-god shrine a short way east of the town, a walled enclosure 'about a hundred paces round' with a house painted with images of the gods in twenty niches.",
+   "details": [
+    "The Tang gazetteer of Shazhou (Pelliot 2005) describes a shrine of the Xian god one li east of the town: a building with the gods' images painted, twenty niches, a wall about a hundred paces round. It stood in 'An city', the walled settlement of the Sogdian Congjiao township.",
+    "The miniature is an interpretation: a small walled court with a flat-roofed hall of painted niches and a fire altar, after the Sogdian temples excavated at Panjikent. Its exact position is a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-zoroastrianism-china",
+    "shazhou-tujing",
+    "vaissiere"
+   ],
+   "built": "before the 8th century",
+   "function": "Sogdian (Zoroastrian) shrine",
+   "activity": {
+    "figures": 10,
+    "radius": 80
+   }
+  },
+  {
+   "id": "han-fort",
+   "placeId": "han-fort",
+   "name": "Han garrison fort",
+   "category": "military",
+   "position": [
+    2639,
+    388
+   ],
+   "rotation": 0,
+   "footprint": [
+    43.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/han-fort.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 40,
+     "depth": 40,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "A square fort of the commandery's garrison guarding the river crossing north of the town; its site here is notional."
+    },
+    "northern-wei-500": {
+     "note": "Still garrisoned under the Liang kings and the Wei, or used as a granary; its upkeep is uncertain."
+    },
+    "tang-800": {
+     "note": "A ruin of earth walls among the fields, or levelled; the Tang garrison lives in the town and the outlying forts."
+    }
+   },
+   "summary": "A small square fort of rammed earth with thick walls and a single gate, the type of the Han frontier forts round Dunhuang.",
+   "details": [
+    "The Han frontier west of Dunhuang was held by beacons and small square forts like the 'Small Square Fort' (Xiaofangpan) near the Yumen Pass, about 24 m square with walls nearly 10 m high, still standing. Forts and granaries guarded the commandery itself too.",
+    "This fort's position is notional: the miniature shows the type, after Xiaofangpan, to stand for the commandery's garrison rather than a known site in the oasis."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-yumen",
+    "wiki-great-wall-han",
+    "stein-serindia",
+    "loewe"
+   ],
+   "built": "1st century BCE (type)",
+   "function": "Garrison fort",
+   "activity": {
+    "figures": 8,
+    "radius": 60
+   }
+  },
+  {
+   "id": "han-beacon",
+   "placeId": "han-beacon",
+   "name": "Han beacon tower",
+   "category": "military",
+   "position": [
+    1107,
+    222
+   ],
+   "rotation": 0,
+   "footprint": [
+    16.0,
+    16.0
+   ],
+   "scale": 2.0,
+   "model": {
+    "glb": "models/dunhuang/beacon.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 16,
+     "depth": 16,
+     "wallHeight": 8,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950",
+    "ming-1500"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "Manned by a few soldiers with stacks of brushwood and dung for signals: smoke by day, fire by night, flags and a signalling pole."
+    },
+    "northern-wei-500": {
+     "name": "Old beacon tower",
+     "note": "Out of use, its top fallen; signal towers of later dynasties stand elsewhere.",
+     "model": {
+      "glb": "models/dunhuang/beacon-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 16,
+       "depth": 16,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "tang-800": {
+     "name": "Old beacon tower",
+     "note": "A weathered stump of layered earth and reeds among the fields.",
+     "model": {
+      "glb": "models/dunhuang/beacon-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 16,
+       "depth": 16,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "guiyi-950": {
+     "name": "Old beacon tower",
+     "note": "A weathered stump of layered earth and reeds among the fields.",
+     "model": {
+      "glb": "models/dunhuang/beacon-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 16,
+       "depth": 16,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    },
+    "ming-1500": {
+     "name": "Old beacon tower",
+     "note": "Still standing, as dozens of Han beacons in the desert round Dunhuang still do.",
+     "model": {
+      "glb": "models/dunhuang/beacon-ruin.glb",
+      "fallback": {
+       "kit": "fort",
+       "width": 16,
+       "depth": 16,
+       "wallHeight": 8,
+       "bastions": 8
+      }
+     }
+    }
+   },
+   "summary": "A signal tower of rammed earth laid in layers with reed and tamarisk, one of the chain of Han beacons that carried warnings along the frontier to the commandery.",
+   "details": [
+    "Han beacons (feng sui) were square towers 7-10 m high of rammed earth or sun-dried brick, every few layers bound with reeds or tamarisk branches, with a lookout on top, quarters at the foot and piles of fuel. Dozens survive west and north of Dunhuang; Stein dug up thousands of wooden documents in them.",
+    "This one is placed at the edge of the oasis to stand for the line; its position is notional. Scaled up twice for legibility."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-beacon",
+    "wiki-great-wall-han",
+    "stein-serindia",
+    "loewe"
+   ],
+   "built": "about 100 BCE (type)",
+   "function": "Signal tower",
+   "activity": {
+    "figures": 4,
+    "radius": 40
+   }
+  },
+  {
+   "id": "canal-head",
+   "placeId": "canal-head",
+   "name": "Canal head and sluice on the Dang",
+   "category": "civic",
+   "position": [
+    1132,
+    3917
+   ],
+   "rotation": -25,
+   "footprint": [
+    50.0,
+    30.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/canal-head.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 50,
+     "depth": 30,
+     "height": 12.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950",
+    "ming-1500"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "The soldier-farmers dig the first canals off the Dang under the commandery's agricultural officers."
+    },
+    "northern-wei-500": {
+     "note": "The canal system grows; the Mengshou canal is said to be named after a 4th-century official who dug it."
+    },
+    "tang-800": {
+     "note": "Canal officers organise the spring cleaning of the channels and the turns at the water; the Tibetans keep the system as they found it."
+    },
+    "guiyi-950": {
+     "note": "Water rules survive in the library cave: an order of watering by canal and field, from the first spring watering to the winter soaking."
+    },
+    "ming-1500": {
+     "note": "A few sluices still worked by the farmers who remain; most channels have silted up."
+    }
+   },
+   "summary": "Where a canal leaves the river: a weir of brushwood, stones and stakes turning water into a channel, and a timber sluice gate (doumen) to let it in or shut it off.",
+   "details": [
+    "The oasis lived by its canals. The Tang gazetteer of Shazhou names the main ones and the Majuankou weir far up-river that fed them; a set of irrigation rules (Pelliot 3560) lays down the order in which canals and fields received water through the year.",
+    "The main weir lay beyond the frame, some 12 km up the Dang; this miniature shows a smaller canal head near the town, an interpretation after traditional brushwood weirs and timber sluices of Gansu."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-karez",
+    "shazhou-tujing",
+    "rong-xinjiang"
+   ],
+   "built": "from the 1st century BCE",
+   "function": "Irrigation works",
+   "activity": {
+    "figures": 6,
+    "radius": 60
+   }
+  },
+  {
+   "id": "spring-shrine",
+   "placeId": "crescent-spring",
+   "name": "Shrine by the Crescent Moon Spring",
+   "category": "religious",
+   "position": [
+    3201,
+    7074
+   ],
+   "rotation": 0,
+   "footprint": [
+    82.0,
+    41.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/spring-shrine.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 80,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "tang-800",
+    "guiyi-950"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "The spring lies alone among the dunes, ringed with reeds."
+    },
+    "northern-wei-500": {
+     "note": "The spring among the dunes; no building is recorded."
+    },
+    "tang-800": {
+     "note": "The 'Sand Well' is a place of outings and offerings; a small shrine on the shore is a guess."
+    },
+    "guiyi-950": {
+     "note": "Townspeople climb the dunes at the Dragon Boat festival and slide down to hear the sand roar, then rest by the spring."
+    },
+    "ming-1500": {
+     "note": "Deserted; the Qing later built a temple here, the ancestor of the Leiyin temple and pavilions rebuilt in the 1990s."
+    }
+   },
+   "summary": "A small pavilion-shrine on the south shore of the crescent pool among the dunes, a guess at what a medieval visitor might have found.",
+   "details": [
+    "Tang and Five Dynasties texts from the library cave describe the spring that sand never fills and the Singing Sand mountain round it. Temple buildings on the shore are recorded from the Qing; they were wrecked in the 1960s and rebuilt from the 1990s as the Leiyin temple and the Moon Spring pavilion.",
+    "The miniature is an interpretation: a modest hall and a two-storey pavilion on an earth terrace among reeds and poplars, smaller than the modern buildings. The spring itself is drawn on the map."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-crescent-lake",
+    "rong-xinjiang"
+   ],
+   "built": "unknown (Qing temple; rebuilt 1990s)",
+   "function": "Shrine and resting place",
+   "activity": {
+    "figures": 8,
+    "radius": 80
+   }
+  },
+  {
+   "id": "mogao",
+   "placeId": "mogao-caves",
+   "name": "The Mogao caves (shown out of place)",
+   "category": "religious",
+   "position": [
+    6980,
+    6901
+   ],
+   "rotation": 0,
+   "footprint": [
+    420.3,
+    110.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/dunhuang/mogao.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 420,
+     "depth": 110,
+     "height": 44.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950",
+    "ming-1500"
+   ],
+   "variants": {
+    "han-100": {
+     "note": "A bare conglomerate cliff over the Daquan stream, 25 km south-east of the town; no caves yet."
+    },
+    "northern-wei-500": {
+     "note": "By tradition the monk Lezun cut the first cave here in 366. Small meditation cells and painted shrine caves with central pillars line part of the cliff.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/dunhuang/mogao-500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 420,
+       "depth": 110,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "tang-800": {
+     "note": "At the height of the site: the 35 m North Great Buddha (Cave 96, 695) behind a four-storey timber façade, the 26 m South Great Buddha (Cave 130), tiers of painted caves joined by plank galleries."
+    },
+    "guiyi-950": {
+     "note": "The Zhang and Cao families add great caves with timber porches; the Great Buddha's façade has five storeys. About 1000 a chamber off Cave 16 is walled up full of manuscripts.",
+     "model": {
+      "glb": "models/dunhuang/mogao-950.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 420,
+       "depth": 110,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "ming-1500": {
+     "note": "Hardly visited: galleries rotted and fallen, sand drifting into the lower caves, a few Taoist and Buddhist hermits.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/dunhuang/mogao-1500.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 420,
+       "depth": 110,
+       "height": 44.0,
+       "roof": "pitched"
+      }
+     }
+    }
+   },
+   "summary": "The cliff of the Thousand Buddha Caves, 25 km south-east of the town and far outside this map, drawn at the frame's edge so the reader can see it: rows of cave mouths, plank galleries and the timber façade of the Great Buddha.",
+   "details": [
+    "Some 735 caves, 492 of them painted, are cut over 1.7 km of the cliff above the Daquan stream, from the 4th to the 14th century. A stele of 698 says the monk Lezun cut the first in 366. The North Great Buddha (Cave 96, 695) is 35.5 m high; its façade had four storeys, five after a rebuilding in the 870s and repairs in 966; the nine-storey front seen today dates from 1935.",
+    "Shown out of place and much compressed: the real cliff faces east and is far longer. The miniature keeps its character - several tiers of square cave mouths, timber porches and galleries, the tall façade of Cave 96 and the smaller one of Cave 130 - and the poplars along the stream."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-mogao",
+    "wiki-library-cave",
+    "whitfield-cave",
+    "rong-xinjiang"
+   ],
+   "built": "366 to the 14th century",
+   "function": "Buddhist cave temples",
+   "activity": {
+    "figures": 30,
+    "radius": 220
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "cave-painter",
+   "name": "Painters' workshop below the caves",
+   "kind": "workshop",
+   "position": [
+    6683,
+    7012
+   ],
+   "activePeriods": [
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950"
+   ],
+   "summary": "Painters and their apprentices grinding pigments at the foot of the Mogao cliff: malachite green, azurite and lapis blue, red ochre and cinnabar, lead white, and gold leaf for the Buddhas' faces.",
+   "details": [
+    "Analysis of the wall paintings finds malachite, azurite, lapis lazuli (from Badakhshan, used mostly from the 5th to the 7th century), cinnabar, red lead, ochres and gold. Painters worked from sketchbooks and pounces; Guiyi documents name a painting academy and master painters in the governor's service."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-mogao",
+    "wiki-lapis",
+    "wiki-malachite",
+    "whitfield-cave"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Frost on the poplars by the stream. An apprentice pounds green malachite in a stone mortar, then washes and settles it in bowls until only the finest powder is left."
+    },
+    {
+     "hour": 12,
+     "text": "Inside a new cave the master snaps a line of red ochre for the outline of a Buddha's halo, while a boy holds an oil lamp up to the ceiling."
+    },
+    {
+     "hour": 19,
+     "text": "Brushes washed in the stream, glue pots set by the fire. The painters eat millet gruel and talk over tomorrow's patron, a general who wants his whole family on the wall."
+    }
+   ],
+   "variants": {
+    "northern-wei-500": {
+     "note": "Painters of the Wei caves: Jataka tales in red-brown grounds, flying apsaras, and costly lapis blue from Afghanistan."
+    },
+    "guiyi-950": {
+     "note": "Painters of the Cao court's academy cover new caves with huge sutra illustrations and lines of donors in Uighur and Khotanese dress."
+    }
+   }
+  },
+  {
+   "id": "library-cave",
+   "name": "The library cave (Cave 17)",
+   "kind": "shrine",
+   "position": [
+    7134,
+    7023
+   ],
+   "activePeriods": [
+    "guiyi-950"
+   ],
+   "summary": "A small chamber off the corridor of Cave 16, once a memorial chapel for the monk Hongbian, filled in the early 11th century with bundles of scrolls, paintings and banners and plastered over.",
+   "details": [
+    "About 50,000 manuscripts and printed texts, in Chinese, Tibetan, Sogdian, Khotanese, Uighur, Sanskrit and Hebrew, from the 4th to the early 11th century. Why the cave was sealed is debated: fear of invaders, or a store of worn sacred texts no longer used. It was opened by the Taoist Wang Yuanlu in 1900."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-library-cave",
+    "wiki-dunhuang-manuscripts",
+    "rong-xinjiang"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Monks carry bundles of worn scrolls up the gallery, each wrapped in cloth: sutras with torn ends, old contracts on the back, a painted banner gone dark."
+    },
+    {
+     "hour": 13,
+     "text": "The chamber is full to the ceiling. A mason lays sun-dried bricks across the doorway, and a painter waits with his brushes to cover the new plaster."
+    },
+    {
+     "hour": 18,
+     "text": "The wall is painted over with bodhisattvas. Nobody will open it for nine hundred years."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sutra-copyist",
+   "name": "Scriptorium of the monastery",
+   "kind": "workshop",
+   "position": [
+    1175,
+    1753
+   ],
+   "activePeriods": [
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950"
+   ],
+   "summary": "Monks and hired scribes copying sutras on yellow-dyed paper, rolls of 20-odd sheets pasted end to end, each ending with a colophon naming the scribe, the patron and the date.",
+   "details": [
+    "Thousands of the Dunhuang manuscripts are sutra copies made for merit; their colophons name scribes, checkers and the families who paid. Under Tibetan rule in the 820s and 830s the Tibetan court ordered copies of the Aparimitayus and Prajnaparamita sutras by the hundred, and scribes were fined for spoiled sheets."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-dunhuang-manuscripts",
+    "rong-xinjiang",
+    "whitfield"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A novice rules faint lines on paper dyed yellow with phellodendron, which keeps away insects. The master grinds his ink stick in silence."
+    },
+    {
+     "hour": 12,
+     "text": "Seventeen characters to a line. A scribe finishes a roll of the Lotus Sutra and writes the colophon: 'copied for the soul of my late mother'."
+    },
+    {
+     "hour": 17,
+     "text": "The checker reads a roll against the exemplar, marks two wrong characters with dots, and sends the sheet back."
+    }
+   ],
+   "variants": {
+    "northern-wei-500": {
+     "note": "Copyists of the 5th-6th century write in a heavy clerical-style hand; dated copies of these years survive from the library cave."
+    },
+    "tang-800": {
+     "note": "Under the Tibetans, Chinese and Tibetan scribes copy sutras ordered by the Tibetan king; spoiled sheets are counted and fined."
+    },
+    "guiyi-950": {
+     "note": "Copying goes on for patrons and the monasteries; paper is short, and many texts are copied on the backs of old documents."
+    }
+   }
+  },
+  {
+   "id": "monastery-school",
+   "name": "A monastery school",
+   "kind": "school",
+   "position": [
+    1175,
+    1165
+   ],
+   "activePeriods": [
+    "guiyi-950"
+   ],
+   "summary": "Boys of the town's families learning to read and write at a monastery school, copying primers, poems and model letters, and signing their exercises.",
+   "details": [
+    "Many Dunhuang manuscripts are school exercises signed by 'student' (xuelang) so-and-so of the Jingtu, Lianfeng or Sanjie monastery schools, sometimes with a scribbled verse complaining of the cold or the teacher. They copied the Thousand Character Classic, the Classic of Filial Piety, model letters and poems."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-dunhuang-manuscripts",
+    "rong-xinjiang",
+    "whitfield"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Twenty boys chant the Thousand Character Classic in unison, rocking on their mats; a monk paces with a bamboo rod."
+    },
+    {
+     "hour": 12,
+     "text": "A boy copies a model letter of condolence on the back of an old tax register, then signs it with the date and his name."
+    },
+    {
+     "hour": 16,
+     "text": "Under his exercise he scrawls a verse: the day is long, the teacher strict, and he is cold. Then he runs home along the canal."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "tibetan-official",
+   "name": "A Tibetan official's office",
+   "kind": "civic",
+   "position": [
+    1549,
+    1487
+   ],
+   "activePeriods": [
+    "tang-800"
+   ],
+   "summary": "An office of the Tibetan administration of Shazhou (786-848), where Tibetan officers and Chinese clerks keep registers, hear disputes and organise the copying of sutras.",
+   "details": [
+    "Under Tibetan rule the people of Shazhou were reorganised into 'tribes' (sde) and military units, some Chinese learned Tibetan and served as officials, and documents were written in both languages. Tibetan dress was imposed for some occasions; local families later complained of having to wear it."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-tibetan-empire",
+    "rong-xinjiang",
+    "hansen"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A Tibetan officer in a long robe and fur-trimmed hat takes his seat. A Chinese clerk unrolls a register written in Tibetan script on Chinese paper."
+    },
+    {
+     "hour": 13,
+     "text": "Two farmers dispute the water turn on a canal. The clerk translates; the officer orders them to share it, and both bow."
+    },
+    {
+     "hour": 17,
+     "text": "A courier from Guazhou brings an order from the court: more copies of the Aparimitayus sutra for the king's long life."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "contract-scribe",
+   "name": "Contract writer at the crossing",
+   "kind": "shop",
+   "position": [
+    1337,
+    1520
+   ],
+   "activePeriods": [
+    "tang-800",
+    "guiyi-950"
+   ],
+   "summary": "A scribe at a stall writing loan deeds, sale contracts and letters for those who cannot: borrowing grain in spring to be repaid with interest at harvest.",
+   "details": [
+    "Hundreds of contracts survive from Dunhuang: loans of grain and silk, sales of land, houses and slaves, hire of labourers and camels, adoptions and divorces. They follow standard models, end with the parties' and witnesses' marks - often a sketch of their finger joints - and promise repayment 'if the borrower dies or flees, his guarantors will pay'."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-dunhuang-manuscripts",
+    "trombert",
+    "hansen"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "Spring, and the granaries at home are empty. A farmer borrows two shi of wheat from a monastery; the scribe writes it down, interest at half again by autumn."
+    },
+    {
+     "hour": 12,
+     "text": "Two brothers divide their father's house room by room. The scribe measures each wall in feet on the paper; the neighbours sign as witnesses."
+    },
+    {
+     "hour": 17,
+     "text": "The borrower cannot write. He lays his fingers on the paper and the scribe draws the lines of his joints beside his name."
+    }
+   ],
+   "variants": {
+    "tang-800": {
+     "note": "Contracts are dated by the cyclical year, since the Tang reign titles no longer reach Tibetan Shazhou."
+    }
+   }
+  },
+  {
+   "id": "pipa-player",
+   "name": "A banquet in a courtyard house",
+   "kind": "house",
+   "position": [
+    1405,
+    1720
+   ],
+   "activePeriods": [
+    "guiyi-950"
+   ],
+   "summary": "A feast of a lay Buddhist society (she) in a member's courtyard, with wine, music on the pipa and the dancing that the Dunhuang music manuscripts record.",
+   "details": [
+    "A manuscript in the library cave (Pelliot 3808) holds twenty-five tunes written in pipa tablature, probably 10th century; others hold dance notations. Lay societies of neighbours or women met for feasts, funerals and festivals; their circulars, passed from house to house, fined late members."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-pipa",
+    "picken-pipa",
+    "wiki-dunhuang-manuscripts",
+    "rong-xinjiang"
+   ],
+   "vignettes": [
+    {
+     "hour": 10,
+     "text": "A circular comes round: the society meets today at the house of Zhang the Third; bring a measure of millet and a jar of wine; latecomers pay a fine."
+    },
+    {
+     "hour": 18,
+     "text": "Lamps in the courtyard. A girl tunes a four-stringed pipa, plays a slow prelude, then a quick tune; the members clap and sing the words."
+    },
+    {
+     "hour": 22,
+     "text": "The last guests stumble home along the dark lane. A dog barks; the watch beats the hour at the yamen."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "felt-maker",
+   "name": "Felt maker",
+   "kind": "workshop",
+   "position": [
+    1490,
+    1109
+   ],
+   "activePeriods": [
+    "guiyi-950",
+    "ming-1500"
+   ],
+   "summary": "A felt maker beating and rolling sheep's wool into felt for tents, rugs, boots and saddle cloths.",
+   "details": [
+    "Felt was a staple of the oasis and of the herders round it: Dunhuang accounts list felt among the goods paid to monasteries and given to envoys. The wool is laid out, wetted, rolled in a mat and rolled again for hours until it mats."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-felt",
+    "whitfield"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Wool from the herders' sheep lies in heaps. The felt maker beats it with a bow-string until it is fluffy as cloud."
+    },
+    {
+     "hour": 13,
+     "text": "Hot water is sprinkled on the layered wool, the mat rolled tight, and two men roll it back and forth with their feet, singing to keep time."
+    },
+    {
+     "hour": 18,
+     "text": "The new felt hangs drying on the wall, grey and white. A herder's wife bargains for it with a lamb."
+    }
+   ],
+   "variants": {
+    "ming-1500": {
+     "note": "Now most of the oasis lives in felt: the felt maker works in a tent among the ruins for the Mongol herders."
+    }
+   }
+  },
+  {
+   "id": "camel-inn",
+   "name": "Camel inn by the bridge",
+   "kind": "inn",
+   "position": [
+    2171,
+    1831
+   ],
+   "activePeriods": [
+    "tang-800",
+    "guiyi-950"
+   ],
+   "summary": "An inn with a big yard for camels, where caravans unload after the desert, men and animals sleep, and grain and fodder are sold.",
+   "details": [
+    "Caravans of Bactrian camels crossed the deserts to Hami, Loulan and Khotan. Contracts from Dunhuang show camels hired by the trip, with penalties if the beast died; travellers needed passes checked at each town."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "hansen",
+    "whitfield",
+    "wiki-sogdians"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Camels groan as they are loaded in the dark yard; the caravan wants to be well out on the gravel before the heat."
+    },
+    {
+     "hour": 14,
+     "text": "A caravan from Hami comes in over the bridge, the camels coated in dust. The innkeeper counts them for the fodder bill."
+    },
+    {
+     "hour": 21,
+     "text": "Drovers sleep on felt by the fire. Someone tells of the demons of the desert who call travellers by name to lead them astray."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sogdian-caravan",
+   "name": "A Sogdian caravan leader",
+   "kind": "market",
+   "position": [
+    2418,
+    1176
+   ],
+   "activePeriods": [
+    "northern-wei-500",
+    "tang-800"
+   ],
+   "summary": "A sartapao (caravan leader) of the Sogdian community, settling accounts with his partners: silk, pepper, musk and silver.",
+   "details": [
+    "Sogdians from Samarkand and Bukhara ran much of the overland trade. The Ancient Letters, written in Sogdian about 313 and lost in a beacon tower west of Dunhuang, tell of a family of traders stranded here; in the 750s some 300 Sogdian households lived in the Congjiao township east of the town."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-sogdians",
+    "vaissiere",
+    "hansen",
+    "stein-serindia"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "The caravan leader checks bales of silk against his list in Sogdian script, then against the Chinese clerk's list. They do not agree."
+    },
+    {
+     "hour": 12,
+     "text": "Partners from Samarkand drink grape wine under an awning and discuss the price of musk in Chang'an and of silver in Merv."
+    },
+    {
+     "hour": 17,
+     "text": "He walks to the Xian shrine to make an offering before the journey west, past houses where his countrymen have lived for generations."
+    }
+   ],
+   "variants": {
+    "northern-wei-500": {
+     "note": "Sogdian merchants already live here: a letter of about 313 was written by a Sogdian woman abandoned at Dunhuang by her husband."
+    },
+    "tang-800": {
+     "note": "After 786 the colony scatters and many Sogdians become Buddhist and Chinese; trade continues under Tibetan supervision."
+    }
+   }
+  },
+  {
+   "id": "oasis-farmer",
+   "name": "Farmer at the canal",
+   "kind": "garden",
+   "position": [
+    426,
+    2996
+   ],
+   "activePeriods": [
+    "han-100",
+    "northern-wei-500",
+    "tang-800",
+    "guiyi-950",
+    "ming-1500"
+   ],
+   "summary": "A farmstead on the west canal: wheat and millet, a few apricot trees, poplars for timber, and the anxious wait for the water's turn.",
+   "details": [
+    "Farming in the oasis depended on a strict rota: canal by canal, the water was let in from spring to autumn under the canal officers. Dunhuang farmers grew wheat, millet, barley, hemp, beans and melons and paid tax in grain, cloth and labour."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "rong-xinjiang",
+    "whitfield",
+    "wiki-dunhuang"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "The canal officer's drum: the water is coming. The farmer opens his field gate with a hoe and the brown water spreads among the wheat."
+    },
+    {
+     "hour": 12,
+     "text": "Too hot to work. The family eats under the poplars; the wind brings fine sand from the dunes and grit in the bread."
+    },
+    {
+     "hour": 19,
+     "text": "He closes the gate and the water runs on to his neighbour's field. Tomorrow he owes a day's labour cleaning the canal."
+    }
+   ],
+   "variants": {
+    "han-100": {
+     "note": "A soldier-farmer of the military colony, working fields of the commandery and handing in grain at the granary."
+    },
+    "ming-1500": {
+     "note": "A few families still farm here, among herders' flocks and the silting ditches."
+    }
+   }
+  },
+  {
+   "id": "beacon-soldier",
+   "name": "Soldier at the beacon",
+   "kind": "works",
+   "position": [
+    1251,
+    255
+   ],
+   "activePeriods": [
+    "han-100"
+   ],
+   "summary": "A garrison soldier of the Han frontier keeping watch, the signal fuel stacked, the daily log written on wooden slips.",
+   "details": [
+    "The wooden documents from Han beacons and from the Xuanquan post station east of Dunhuang (out of the frame; tens of thousands of slips excavated in 1990-1992) record rosters, rations, sick lists, signal codes, travellers' passes and the bored complaints of soldiers far from home."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-great-wall",
+    "loewe",
+    "stein-serindia"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Dawn watch. The soldier climbs the ladder to the top, scans the gravel plain, and sees nothing but a hare."
+    },
+    {
+     "hour": 13,
+     "text": "He writes the day's entry on a pine slip: 'no alarm'. His rations, two bushels of millet a month, arrive from the commandery granary."
+    },
+    {
+     "hour": 21,
+     "text": "Far to the west a point of fire. He lights his own pile of brushwood; on the next tower east another flame answers."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "commandery-111bce",
+   "title": "The commandery of Dunhuang founded",
+   "periodId": "han-100",
+   "date": "about 111 BCE",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "yamen"
+   },
+   "effect": "crowd",
+   "text": "After the Han won the Hexi corridor from the Xiongnu, Emperor Wu set up four commanderies along it, Dunhuang the farthest west. The Hanshu dates it 111 BCE; some historians argue for a few decades later. Convicts, soldiers and settlers were sent to dig canals and garrison a town whose name may mean 'blazing'.",
+   "sourceIds": [
+    "wiki-dunhuang",
+    "loewe",
+    "hansen"
+   ]
+  },
+  {
+   "id": "han-wall",
+   "title": "The wall and beacons carried west",
+   "periodId": "han-100",
+   "date": "about 100 BCE",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "han-beacon"
+   },
+   "effect": "construction",
+   "text": "The Han wall of layered gravel, reeds and tamarisk branches was pushed west of Dunhuang to the Yumen and Yang passes and beyond, with beacons every few kilometres. Stein found the wall still standing and thousands of wooden slips in its towers.",
+   "sourceIds": [
+    "wiki-great-wall",
+    "stein-serindia",
+    "loewe"
+   ]
+  },
+  {
+   "id": "kumarajiva-385",
+   "title": "Kumarajiva's white horse dies",
+   "periodId": "northern-wei-500",
+   "date": "385 (legend)",
+   "kind": "procession",
+   "at": {
+    "position": [
+     1124,
+     2241
+    ]
+   },
+   "effect": "procession",
+   "text": "The army of Lü Guang, coming back from Kucha with the captured monk Kumarajiva, passed Dunhuang. Legend says his white horse, which had carried the sutras, died here and was buried under a pagoda. The White Horse Pagoda standing on the spot today is a Qing rebuilding.",
+   "sourceIds": [
+    "wiki-kumarajiva",
+    "wiki-white-horse-pagoda"
+   ]
+  },
+  {
+   "id": "lezun-366",
+   "title": "Lezun cuts the first cave",
+   "periodId": "northern-wei-500",
+   "date": "366 (by tradition)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mogao"
+   },
+   "effect": "construction",
+   "text": "A stele of 698 tells how the monk Lezun, walking with his staff, saw a golden light like a thousand Buddhas over the cliff and cut a cave there; the monk Faliang followed. Neither cave has been identified; the oldest surviving ones date from the early 5th century.",
+   "sourceIds": [
+    "wiki-mogao",
+    "whitfield-cave"
+   ]
+  },
+  {
+   "id": "great-buddha-695",
+   "title": "The North Great Buddha finished",
+   "periodId": "tang-800",
+   "date": "695",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "mogao"
+   },
+   "effect": "construction",
+   "text": "In the reign of Empress Wu, who promoted the cult of the future Buddha Maitreya, a seated Maitreya 35.5 m high was carved in the conglomerate cliff and modelled in clay over it (Cave 96). A four-storey timber façade let worshippers see the face from its galleries. The South Great Buddha, 26 m, followed in the 720s-740s.",
+   "sourceIds": [
+    "wiki-mogao",
+    "whitfield-cave"
+   ]
+  },
+  {
+   "id": "tibetan-conquest-786",
+   "title": "Shazhou surrenders to the Tibetans",
+   "periodId": "tang-800",
+   "date": "786 (some date it 781)",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "shazhou-walls"
+   },
+   "effect": "crowd",
+   "text": "Cut off from the Tang since the An Lushan rebellion, Shazhou held out for about ten years against Tibetan armies. When food ran out the town surrendered on condition that its people would not be moved away. Tibet ruled for sixty years.",
+   "sourceIds": [
+    "wiki-tibetan-empire",
+    "rong-xinjiang",
+    "hansen"
+   ]
+  },
+  {
+   "id": "zhang-yichao-848",
+   "title": "Zhang Yichao drives out the Tibetans",
+   "periodId": "guiyi-950",
+   "date": "848",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "yamen"
+   },
+   "effect": "crowd",
+   "text": "With the Tibetan empire in civil war, Zhang Yichao of a leading Dunhuang family rose, expelled the Tibetan garrison and sent envoys by long detours to Chang'an. In 851 the Tang named him Military Commissioner of the Guiyi ('Return to Allegiance') Circuit. A Mogao wall painting shows his victory procession.",
+   "sourceIds": [
+    "wiki-zhang-yichao",
+    "wiki-guiyi",
+    "rong-xinjiang"
+   ]
+  },
+  {
+   "id": "diamond-sutra-868",
+   "title": "The Diamond Sutra printed",
+   "periodId": "guiyi-950",
+   "date": "11 May 868",
+   "kind": "daily",
+   "at": {
+    "spotId": "library-cave"
+   },
+   "effect": "none",
+   "text": "'Reverently made for universal free distribution by Wang Jie on behalf of his two parents': so ends a printed scroll of the Diamond Sutra, 5 m long, with a frontispiece of the Buddha preaching. Where it was printed is unknown. Found in the library cave and taken by Stein in 1907, it is the oldest complete dated printed book.",
+   "sourceIds": [
+    "wiki-diamond-sutra",
+    "wiki-library-cave"
+   ]
+  },
+  {
+   "id": "laba-lamps-951",
+   "title": "Lamps for every cave",
+   "periodId": "guiyi-950",
+   "date": "eighth day of the twelfth month, about 951",
+   "kind": "festival",
+   "at": {
+    "landmarkId": "mogao"
+   },
+   "effect": "procession",
+   "text": "A document of the clergy office shares out the lamps for the night of the eighth of the twelfth month: so many caves to each monk, every cave along the cliff to be lit. Townspeople and monks walked out to the caves for the festival.",
+   "sourceIds": [
+    "rong-xinjiang",
+    "whitfield-cave"
+   ]
+  },
+  {
+   "id": "library-sealed",
+   "title": "The library cave is sealed",
+   "periodId": "guiyi-950",
+   "date": "early 11th century (after 1002?)",
+   "kind": "construction",
+   "at": {
+    "spotId": "library-cave"
+   },
+   "effect": "construction",
+   "text": "The latest dated document inside is of 1002, so the chamber was walled up soon after. Whether out of fear of the Tanguts or Karakhanids, or to store worn texts, nobody wrote it down. When Wang Yuanlu found it in 1900 its contents were dry and almost perfect.",
+   "sourceIds": [
+    "wiki-library-cave",
+    "rong-xinjiang",
+    "hansen"
+   ]
+  },
+  {
+   "id": "xixia-1036",
+   "title": "The Tanguts take Shazhou",
+   "periodId": "guiyi-950",
+   "date": "1036 (the date is debated)",
+   "kind": "riot",
+   "at": {
+    "landmarkId": "shazhou-walls"
+   },
+   "effect": "crowd",
+   "text": "The Tangut state of Xixia, expanding west along the Hexi corridor, took Guazhou and Shazhou and ended the Cao family's rule; local resistance may have lasted some years. The Tanguts, devout Buddhists themselves, went on repainting caves at Mogao.",
+   "sourceIds": [
+    "wiki-western-xia",
+    "wiki-guiyi"
+   ]
+  },
+  {
+   "id": "jiayu-1524",
+   "title": "The Ming close the Jiayu Pass",
+   "periodId": "ming-1500",
+   "date": "1520s",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "ming-village"
+   },
+   "effect": "none",
+   "text": "Under pressure from Turfan, the Ming gave up their guard commands west of the Jiayu Pass and withdrew behind it; the usual date given is 1524. Dunhuang's remaining people were moved inside or left to the herders, and the oasis stayed outside China's frontier for two centuries.",
+   "sourceIds": [
+    "wiki-jiayu",
+    "wiki-dunhuang"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "sutras-for-the-king",
+   "title": "Sutras for the Tibetan king",
+   "periodId": "tang-800",
+   "summary": "A day in Tibetan Shazhou about 830, following an order for sutra copies from the yamen to the scriptorium and the caves.",
+   "steps": [
+    {
+     "landmarkId": "dang-bridge",
+     "title": "A courier at the bridge",
+     "text": "A rider crosses the Dang at dawn with an order from the Tibetan court: copies of the Aparimitayus sutra, for the king's long life."
+    },
+    {
+     "spotId": "tibetan-official",
+     "title": "The order is read",
+     "text": "At the office the Tibetan officer has it read out; a Chinese clerk works out how much paper, how many scribes, and which monasteries must supply them."
+    },
+    {
+     "spotId": "contract-scribe",
+     "title": "Paper on credit",
+     "text": "Paper is short. A monastery steward borrows rolls against the next harvest, and the scribe at the crossing writes the deed."
+    },
+    {
+     "spotId": "sutra-copyist",
+     "title": "In the scriptorium",
+     "text": "Scribes copy line after line; the checkers count every spoiled sheet, because the Tibetans fine them."
+    },
+    {
+     "landmarkId": "mogao",
+     "title": "At the caves",
+     "text": "Some copies go to the caves, where painters are finishing a new shrine for a Tibetan-era patron, his family painted in Tibetan dress along the wall."
+    }
+   ],
+   "sourceIds": [
+    "rong-xinjiang",
+    "hansen",
+    "whitfield-cave"
+   ]
+  },
+  {
+   "id": "last-days-of-the-guiyi",
+   "title": "Before the cave was sealed",
+   "periodId": "guiyi-950",
+   "summary": "A walk through the Cao family's Dunhuang, from the market to the caves, in the generation before the library cave was walled up.",
+   "steps": [
+    {
+     "landmarkId": "caravan-market",
+     "title": "Envoys at the market",
+     "text": "Khotanese envoys unload jade and pay their escort in silk; the market buzzes with Uighur, Khotanese and Chinese."
+    },
+    {
+     "landmarkId": "yamen",
+     "title": "At the Cao court",
+     "text": "The Military Commissioner receives them; clerks record the gifts and the banquet's cost in wheat, oil and wine."
+    },
+    {
+     "spotId": "monastery-school",
+     "title": "School",
+     "text": "Across town, boys copy model letters on the backs of old registers - paper that will one day end up in the library cave."
+    },
+    {
+     "spotId": "pipa-player",
+     "title": "A society feast",
+     "text": "In the evening the lay society meets; a pipa plays the tunes later found written in tablature."
+    },
+    {
+     "spotId": "library-cave",
+     "title": "The sealed room",
+     "text": "At the caves, bundles of old scrolls are stacked into Hongbian's chapel. A wall is built, painted, and forgotten."
+    }
+   ],
+   "sourceIds": [
+    "rong-xinjiang",
+    "wiki-library-cave",
+    "hansen"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiki-dunhuang",
+   "title": "Dunhuang",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunhuang"
+  },
+  {
+   "id": "wiki-hexi",
+   "title": "Hexi Corridor",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hexi_Corridor"
+  },
+  {
+   "id": "wiki-shazhou",
+   "title": "Shazhou",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shazhou"
+  },
+  {
+   "id": "wiki-crescent-lake",
+   "title": "Crescent Lake (Dunhuang)",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crescent_Lake_(Dunhuang)"
+  },
+  {
+   "id": "wiki-singing-sand",
+   "title": "Singing sand",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Singing_sand"
+  },
+  {
+   "id": "wiki-guiyi",
+   "title": "Guiyi Circuit",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Guiyi_Circuit"
+  },
+  {
+   "id": "hansen",
+   "title": "The Silk Road: A New History",
+   "author": "Valerie Hansen",
+   "year": 2012
+  },
+  {
+   "id": "whitfield",
+   "title": "Life Along the Silk Road",
+   "author": "Susan Whitfield",
+   "year": 1999
+  },
+  {
+   "id": "rong-xinjiang",
+   "title": "Eighteen Lectures on Dunhuang",
+   "author": "Rong Xinjiang (trans. Imre Galambos)",
+   "year": 2013
+  },
+  {
+   "id": "shazhou-tujing",
+   "title": "Shazhou dudufu tujing (Gazetteer of the Shazhou Area Command, Pelliot chinois 2005)",
+   "author": "anonymous, Tang"
+  },
+  {
+   "id": "wiki-mogao",
+   "title": "Mogao Caves",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mogao_Caves"
+  },
+  {
+   "id": "wiki-library-cave",
+   "title": "Library Cave",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Library_Cave"
+  },
+  {
+   "id": "wiki-dunhuang-manuscripts",
+   "title": "Dunhuang manuscripts",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dunhuang_manuscripts"
+  },
+  {
+   "id": "wiki-beacon",
+   "title": "Signal tower",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Signal_tower"
+  },
+  {
+   "id": "wiki-great-wall-han",
+   "title": "Great Wall of China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+  },
+  {
+   "id": "wiki-yumen",
+   "title": "Yumen Pass",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yumen_Pass"
+  },
+  {
+   "id": "wiki-yamen",
+   "title": "Yamen",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yamen"
+  },
+  {
+   "id": "wiki-kaiyuan-temple",
+   "title": "Kaiyuan Temple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaiyuan_Temple"
+  },
+  {
+   "id": "wiki-chinese-buddhist-architecture",
+   "title": "Buddhist temples in China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buddhist_temples_in_China"
+  },
+  {
+   "id": "wiki-sogdians-china",
+   "title": "Sogdians",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sogdians"
+  },
+  {
+   "id": "wiki-zoroastrianism-china",
+   "title": "Zoroastrianism in China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zoroastrianism_in_China"
+  },
+  {
+   "id": "wiki-caravanserai",
+   "title": "Caravanserai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caravanserai"
+  },
+  {
+   "id": "wiki-karez",
+   "title": "Irrigation in China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Irrigation_in_China"
+  },
+  {
+   "id": "wiki-ming-great-wall",
+   "title": "Jiayu Pass",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jiayu_Pass"
+  },
+  {
+   "id": "wiki-rammed-earth",
+   "title": "Rammed earth",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rammed_earth"
+  },
+  {
+   "id": "whitfield-cave",
+   "title": "Cave Temples of Mogao at Dunhuang: Art and History on the Silk Road",
+   "author": "Roderick Whitfield, Susan Whitfield and Neville Agnew",
+   "year": 2015
+  },
+  {
+   "id": "vaissiere",
+   "title": "Sogdian Traders: A History",
+   "author": "Étienne de la Vaissière",
+   "year": 2005
+  },
+  {
+   "id": "loewe",
+   "title": "Records of Han Administration",
+   "author": "Michael Loewe",
+   "year": 1967
+  },
+  {
+   "id": "stein-serindia",
+   "title": "Serindia: Detailed Report of Explorations in Central Asia and Westernmost China",
+   "author": "Aurel Stein",
+   "year": 1921
+  },
+  {
+   "id": "wiki-diamond-sutra",
+   "title": "Diamond Sutra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Diamond_Sutra"
+  },
+  {
+   "id": "wiki-kumarajiva",
+   "title": "Kumārajīva",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kumarajiva"
+  },
+  {
+   "id": "wiki-white-horse-pagoda",
+   "title": "White Horse Pagoda",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/White_Horse_Pagoda"
+  },
+  {
+   "id": "wiki-zhang-yichao",
+   "title": "Zhang Yichao",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zhang_Yichao"
+  },
+  {
+   "id": "wiki-tibetan-empire",
+   "title": "Tibetan Empire",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+  },
+  {
+   "id": "wiki-western-xia",
+   "title": "Western Xia",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Western_Xia"
+  },
+  {
+   "id": "wiki-jiayu",
+   "title": "Jiayu Pass",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jiayu_Pass"
+  },
+  {
+   "id": "wiki-pipa",
+   "title": "Pipa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pipa"
+  },
+  {
+   "id": "wiki-felt",
+   "title": "Felt",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Felt"
+  },
+  {
+   "id": "wiki-lapis",
+   "title": "Lapis lazuli",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lapis_lazuli"
+  },
+  {
+   "id": "wiki-malachite",
+   "title": "Malachite",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Malachite"
+  },
+  {
+   "id": "wiki-sogdians",
+   "title": "Sogdians",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sogdians"
+  },
+  {
+   "id": "wiki-great-wall",
+   "title": "Great Wall of China",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+  },
+  {
+   "id": "wiki-dharmaraksha",
+   "title": "Dharmarakṣa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dharmaraksha"
+  },
+  {
+   "id": "trombert",
+   "title": "Le crédit à Dunhuang: vie matérielle et société en Chine médiévale",
+   "author": "Éric Trombert",
+   "year": 1995
+  },
+  {
+   "id": "picken-pipa",
+   "title": "Music from the Tang Court",
+   "author": "Laurence Picken et al.",
+   "year": "1981-2000"
+  }
+ ]
+}
