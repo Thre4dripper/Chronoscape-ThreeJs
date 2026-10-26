@@ -52,7 +52,7 @@ export function TitlePage() {
           <Rule className="frontis__rule" />
           <p className="frontis__lead">
             Take a map from the shelf and watch it unfold into a living city. Point at a temple and it rises from the paper; turn the ages and see the city grow, burn,
-            and rise again, from the kings of early Rome to Michelangelo's dome.
+            and rise again, from the temples of Thebes to the shogun's Edo.
           </p>
           <div className="frontis__actions">
             <button className="seal-btn" onClick={enter}>
@@ -62,7 +62,7 @@ export function TitlePage() {
               <span className="seal-btn__text">
                 Enter the Map Room
                 <small>
-                  {atlases} atlases from every corner of the globe
+                  {atlases} atlases · {open.length} maps ready to unfold
                 </small>
               </span>
             </button>
