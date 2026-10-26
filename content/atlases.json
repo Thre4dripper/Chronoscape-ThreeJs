@@ -129,7 +129,9 @@
           "subtitle": "Mauryan capital, 300 BCE",
           "at": [85.14, 25.6],
           "glyph": "stupa",
-          "blurb": "The capital of Chandragupta Maurya and Ashoka on the Ganges, described by the Greek envoy Megasthenes."
+          "blurb": "The capital of Chandragupta Maurya and Ashoka on the Ganges, described by the Greek envoy Megasthenes.",
+          "city": "pataliputra",
+          "period": "maurya-300"
         },
         {
           "title": "Taxila",

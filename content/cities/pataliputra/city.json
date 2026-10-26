@@ -1,0 +1,5017 @@
+{
+ "id": "pataliputra",
+ "name": "Pataliputra",
+ "subtitle": "Patna on the Ganges",
+ "description": "The middle of the long riverside city of Pataliputra, capital of Magadha, the Mauryas and the Guptas, from the fort of Pataligama (5th century BCE) to Sher Shah Suri's refounded Patna (1541): Kumhrar, Bulandi Bagh, Gulzarbagh and Patna City between the Ganges and the old beds of the Son. Megasthenes' city ran on for kilometres beyond both edges. Positions are projected from real coordinates; the ancient plan is a reconstruction and the drawing is an illustration, not a survey.",
+ "defaultPeriodId": "maurya-300",
+ "world": {
+  "scale": 0.01,
+  "heightScale": 1.0,
+  "walls": [
+   "#C9A47A",
+   "#B8936A",
+   "#D6BC94",
+   "#A98260",
+   "#CDB48E"
+  ],
+  "roofs": [
+   "#9C7A55",
+   "#B39A5E",
+   "#8C6A4A"
+  ]
+ },
+ "camera": {
+  "projection": "perspective",
+  "start": {
+   "target": [
+    2761,
+    3384
+   ],
+   "distance": 40,
+   "tilt": 52,
+   "heading": 0
+  },
+  "minDistance": 1.6,
+  "maxDistance": 130
+ },
+ "map": {
+  "size": [
+   7479,
+   5991
+  ],
+  "resolution": 4096,
+  "water": [
+   {
+    "name": "Ganges (Ganga)",
+    "path": [
+     [
+      -502,
+      821
+     ],
+     [
+      1506,
+      965
+     ],
+     [
+      3012,
+      1209
+     ],
+     [
+      4518,
+      1598
+     ],
+     [
+      6023,
+      2097
+     ],
+     [
+      7529,
+      2541
+     ],
+     [
+      8031,
+      2663
+     ]
+    ],
+    "width": 1800,
+    "id": "ganga",
+    "blurb": "The Ganges here is broad and braided, more than a kilometre wide in the monsoon, with shifting sandbanks (diara). Across it lay the Licchavi country of Vaishali and the mouth of the Gandak. The city's ghats, boatyards and harbour lined this bank; Megasthenes calls the river the greatest in India."
+   },
+   {
+    "name": "Old bed of the Son (Erannoboas)",
+    "path": [
+     [
+      -502,
+      5048
+     ],
+     [
+      602,
+      5303
+     ],
+     [
+      2008,
+      5414
+     ],
+     [
+      3514,
+      5481
+     ],
+     [
+      5019,
+      5437
+     ],
+     [
+      6525,
+      5326
+     ],
+     [
+      8031,
+      5159
+     ]
+    ],
+    "width": 220,
+    "id": "son-old",
+    "blurb": "Megasthenes places the city where the Erannoboas, the Son, meets the Ganges. The Son has since moved west to join the Ganges near Maner; the line drawn here follows one reconstruction of an old bed south of the city, and is uncertain.",
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "name": "Silting channel of the Son",
+    "path": [
+     [
+      -502,
+      5048
+     ],
+     [
+      602,
+      5303
+     ],
+     [
+      2008,
+      5414
+     ],
+     [
+      3514,
+      5481
+     ],
+     [
+      5019,
+      5437
+     ],
+     [
+      6525,
+      5326
+     ],
+     [
+      8031,
+      5159
+     ]
+    ],
+    "width": 110,
+    "id": "son-silted",
+    "blurb": "By Gupta times the Son's old channel south of the city was probably shrinking as the river shifted west; its course and date are uncertain.",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Punpun backwater (later the Badshahi Nala)",
+    "path": [
+     [
+      -502,
+      5048
+     ],
+     [
+      602,
+      5303
+     ],
+     [
+      2008,
+      5414
+     ],
+     [
+      3514,
+      5481
+     ],
+     [
+      5019,
+      5437
+     ],
+     [
+      6525,
+      5326
+     ],
+     [
+      8031,
+      5159
+     ]
+    ],
+    "width": 45,
+    "id": "punpun-nala",
+    "blurb": "By the 16th century the old Son bed south of the city was a seasonal drain and backwater, fed in the rains by the Punpun; the Mughals called its line the Badshahi Nala.",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "name": "The moat",
+    "path": [
+     [
+      -502,
+      4937
+     ],
+     [
+      1506,
+      4926
+     ],
+     [
+      3012,
+      4959
+     ],
+     [
+      5521,
+      4926
+     ],
+     [
+      8031,
+      4882
+     ]
+    ],
+    "width": 90,
+    "id": "moat-south",
+    "blurb": "Megasthenes (in Arrian) says a ditch ran outside the palisade, 600 feet wide and 30 cubits deep, for defence and to take the city's sewage. Its line here is a reconstruction; the width is drawn smaller than his figure.",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   }
+  ],
+  "islands": [
+   {
+    "name": "Diara sandbank",
+    "polygon": [
+     [
+      602,
+      1276
+     ],
+     [
+      402,
+      943
+     ],
+     [
+      1205,
+      754
+     ],
+     [
+      2610,
+      865
+     ],
+     [
+      2911,
+      1109
+     ],
+     [
+      1807,
+      1243
+     ]
+    ]
+   },
+   {
+    "name": "Diara sandbank",
+    "polygon": [
+     [
+      4919,
+      2019
+     ],
+     [
+      4718,
+      1775
+     ],
+     [
+      5622,
+      1664
+     ],
+     [
+      6726,
+      1942
+     ],
+     [
+      6877,
+      2164
+     ],
+     [
+      5923,
+      2130
+     ]
+    ]
+   }
+  ],
+  "hills": [],
+  "roads": [
+   {
+    "name": "Rajapatha (the royal road)",
+    "path": [
+     [
+      0,
+      3750
+     ],
+     [
+      1506,
+      3772
+     ],
+     [
+      3012,
+      3794
+     ],
+     [
+      4518,
+      3828
+     ],
+     [
+      6023,
+      3861
+     ],
+     [
+      7479,
+      3883
+     ]
+    ],
+    "width": 28,
+    "style": "major",
+    "labelled": true,
+    "id": "royal-road",
+    "blurb": "The main street along the length of the city. Megasthenes describes a royal road running north-west to the frontier, with a pillar every ten stadia; inside the walls it is the axis of the city. Its line here is a reconstruction.",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Street of the palace",
+    "path": [
+     [
+      803,
+      2596
+     ],
+     [
+      803,
+      3328
+     ],
+     [
+      803,
+      3772
+     ],
+     [
+      803,
+      4804
+     ]
+    ],
+    "width": 16,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-kumhrar",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "River street",
+    "path": [
+     [
+      2209,
+      2696
+     ],
+     [
+      2209,
+      3772
+     ],
+     [
+      2209,
+      4815
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-bulandi",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Street of the harbour",
+    "path": [
+     [
+      3514,
+      2385
+     ],
+     [
+      3514,
+      2796
+     ],
+     [
+      3514,
+      3794
+     ],
+     [
+      3514,
+      4837
+     ]
+    ],
+    "width": 20,
+    "style": "major",
+    "labelled": false,
+    "id": "street-harbour",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "East street",
+    "path": [
+     [
+      5019,
+      2885
+     ],
+     [
+      5019,
+      3839
+     ],
+     [
+      5019,
+      4804
+     ]
+    ],
+    "width": 14,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-east",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "South-east street",
+    "path": [
+     [
+      6525,
+      3273
+     ],
+     [
+      6525,
+      3872
+     ],
+     [
+      6525,
+      4804
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": false,
+    "id": "street-se",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Road to Rajagriha and Gaya",
+    "path": [
+     [
+      3514,
+      4837
+     ],
+     [
+      3564,
+      5326
+     ],
+     [
+      3614,
+      5658
+     ],
+     [
+      3714,
+      5991
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "road-rajagriha",
+    "blurb": "South across the Son's old bed to Rajagriha, the older Magadhan capital in its ring of hills, and to Bodh Gaya. A ford or ferry crossed the channel; the line is schematic.",
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Road east to Champa",
+    "path": [
+     [
+      7479,
+      3883
+     ],
+     [
+      8031,
+      3939
+     ]
+    ],
+    "width": 16,
+    "style": "major",
+    "labelled": false,
+    "id": "road-champa",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Main street of Pataligama",
+    "path": [
+     [
+      1807,
+      4050
+     ],
+     [
+      2610,
+      3750
+     ],
+     [
+      3514,
+      3717
+     ],
+     [
+      4518,
+      3606
+     ],
+     [
+      5170,
+      3439
+     ]
+    ],
+    "width": 12,
+    "style": "major",
+    "labelled": false,
+    "id": "pataligama-street",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "name": "Lane to Gotama's Ford",
+    "path": [
+     [
+      3514,
+      2385
+     ],
+     [
+      3514,
+      2829
+     ],
+     [
+      3514,
+      3717
+     ],
+     [
+      3514,
+      4205
+     ]
+    ],
+    "width": 10,
+    "style": "minor",
+    "labelled": false,
+    "id": "pataligama-ford",
+    "blurb": "The Buddhist texts say the gate by which the Buddha left the new fort was named Gotama's Gate, and the ferry place where he crossed the Ganges Gotama's Ford.",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "name": "Highway along the Ganges",
+    "path": [
+     [
+      0,
+      3195
+     ],
+     [
+      2008,
+      3328
+     ],
+     [
+      3514,
+      3495
+     ],
+     [
+      4518,
+      3717
+     ],
+     [
+      5521,
+      3861
+     ],
+     [
+      6525,
+      3928
+     ],
+     [
+      7479,
+      3950
+     ]
+    ],
+    "width": 18,
+    "style": "major",
+    "labelled": true,
+    "id": "river-road",
+    "blurb": "The road along the south bank, west to Danapur and the Son ferries and east through Patna City toward Bengal; the later Ashok Rajpath follows much of it.",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "name": "Road to Gaya from the Chowk",
+    "path": [
+     [
+      5923,
+      3928
+     ],
+     [
+      5823,
+      4438
+     ],
+     [
+      5722,
+      5104
+     ],
+     [
+      5572,
+      5991
+     ]
+    ],
+    "width": 12,
+    "style": "minor",
+    "labelled": true,
+    "id": "chowk-road",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "name": "Lane to the landing",
+    "path": [
+     [
+      3514,
+      3495
+     ],
+     [
+      3514,
+      2663
+     ],
+     [
+      3514,
+      2385
+     ]
+    ],
+    "width": 8,
+    "style": "minor",
+    "labelled": false,
+    "id": "gulzarbagh-lane",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "name": "Village lane to Kumhrar",
+    "path": [
+     [
+      2008,
+      3328
+     ],
+     [
+      1907,
+      3772
+     ],
+     [
+      1707,
+      4438
+     ],
+     [
+      1606,
+      5104
+     ]
+    ],
+    "width": 6,
+    "style": "minor",
+    "labelled": false,
+    "id": "kumhrar-lane",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "walls": [
+   {
+    "name": "Rampart of the early city",
+    "path": [
+     [
+      1807,
+      2752
+     ],
+     [
+      4518,
+      2885
+     ],
+     [
+      5170,
+      3439
+     ],
+     [
+      4819,
+      4161
+     ],
+     [
+      2911,
+      4238
+     ],
+     [
+      1807,
+      3939
+     ],
+     [
+      1807,
+      2752
+     ]
+    ],
+    "closed": true,
+    "id": "udayin-rampart",
+    "blurb": "An earth rampart with a timber stockade round the first capital, grown from Ajatashatru's fort at Pataligama. Nothing of it has been securely identified; its line here is a guess sized to a town of the Nanda age.",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "name": "Timber palisade (river side)",
+    "path": [
+     [
+      0,
+      2496
+     ],
+     [
+      1506,
+      2641
+     ],
+     [
+      3012,
+      2774
+     ],
+     [
+      4518,
+      2885
+     ],
+     [
+      6224,
+      3273
+     ],
+     [
+      7479,
+      3550
+     ]
+    ],
+    "closed": false,
+    "id": "palisade-north",
+    "blurb": "Megasthenes: a wooden wall pierced with loopholes for archers, with 570 towers and 64 gates. Lines of sal posts found at Bulandi Bagh and elsewhere since 1903 are taken to be part of it; whether they belong to the outer circuit or an inner line is debated.",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "name": "Timber palisade (land side)",
+    "path": [
+     [
+      0,
+      4771
+     ],
+     [
+      1506,
+      4815
+     ],
+     [
+      3012,
+      4837
+     ],
+     [
+      5521,
+      4804
+     ],
+     [
+      7479,
+      4749
+     ]
+    ],
+    "closed": false,
+    "id": "palisade-south",
+    "blurb": "The palisade on the landward side, with the moat outside. Its trace is a reconstruction: Megasthenes' parallelogram ran some 14 km along the river, far beyond both edges of this map.",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "name": "Old rampart (river side)",
+    "path": [
+     [
+      0,
+      2496
+     ],
+     [
+      1506,
+      2641
+     ],
+     [
+      3012,
+      2774
+     ],
+     [
+      4518,
+      2885
+     ],
+     [
+      6224,
+      3273
+     ],
+     [
+      7479,
+      3550
+     ]
+    ],
+    "closed": false,
+    "id": "rampart-north",
+    "blurb": "By Faxian's time the Mauryan timber had long rotted or burned; an earth bank and brick repairs probably marked the old line. What defences the Gupta city had is not known.",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Old rampart (land side)",
+    "path": [
+     [
+      0,
+      4771
+     ],
+     [
+      1506,
+      4815
+     ],
+     [
+      3012,
+      4837
+     ],
+     [
+      5521,
+      4804
+     ],
+     [
+      7479,
+      4749
+     ]
+    ],
+    "closed": false,
+    "id": "rampart-south",
+    "blurb": "The landward line of the old city, an earth bank above the silting moat (reconstruction).",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Sher Shah's fort",
+    "path": [
+     [
+      6515,
+      3484
+     ],
+     [
+      6837,
+      3484
+     ],
+     [
+      6837,
+      3728
+     ],
+     [
+      6515,
+      3728
+     ],
+     [
+      6515,
+      3484
+     ]
+    ],
+    "closed": true,
+    "id": "sher-shah-fort",
+    "blurb": "The fort Sher Shah built on the Ganges in 1541, when he judged Patna the place for a great city. Its walls stood into the 19th century; the Qila House (Jalan Museum) stands on part of the site. The outline here is schematic.",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "gates": [
+   {
+    "name": "South gate (road to Rajagriha)",
+    "position": [
+     3514,
+     4837
+    ],
+    "id": "gate-rajagriha",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "South-west gate",
+    "position": [
+     803,
+     4804
+    ],
+    "id": "gate-sw",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "South-east gate",
+    "position": [
+     6525,
+     4804
+    ],
+    "id": "gate-se",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "River gate",
+    "position": [
+     2209,
+     2696
+    ],
+    "id": "gate-river-w",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Harbour gate",
+    "position": [
+     3514,
+     2796
+    ],
+    "id": "gate-harbour",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "River gate",
+    "position": [
+     5019,
+     2885
+    ],
+    "id": "gate-river-e",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "name": "Gotama's Gate",
+    "position": [
+     3514,
+     2829
+    ],
+    "id": "gate-pataligama",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "name": "South gate",
+    "position": [
+     3514,
+     4205
+    ],
+    "id": "gate-udayin-s",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "name": "Fort gate",
+    "position": [
+     6676,
+     3728
+    ],
+    "id": "fort-gate",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "bridges": [],
+  "aqueducts": [],
+  "blocks": [
+   {
+    "polygon": [
+     [
+      2008,
+      2940
+     ],
+     [
+      3413,
+      2940
+     ],
+     [
+      3413,
+      3606
+     ],
+     [
+      2008,
+      3606
+     ]
+    ],
+    "density": "dense",
+    "name": "Pataligama by the river",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3614,
+      3051
+     ],
+     [
+      4216,
+      3051
+     ],
+     [
+      4216,
+      3606
+     ],
+     [
+      3614,
+      3606
+     ]
+    ],
+    "density": "dense",
+    "name": "Potters' and smiths' quarter",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2510,
+      3828
+     ],
+     [
+      3413,
+      3828
+     ],
+     [
+      3413,
+      4105
+     ],
+     [
+      2510,
+      4105
+     ]
+    ],
+    "density": "dense",
+    "name": "Lanes of the early city",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3614,
+      3495
+     ],
+     [
+      4718,
+      3495
+     ],
+     [
+      4718,
+      4083
+     ],
+     [
+      3614,
+      4083
+     ]
+    ],
+    "density": "loose",
+    "name": "Lanes of the early city",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      602,
+      3107
+     ],
+     [
+      1606,
+      3107
+     ],
+     [
+      1606,
+      3772
+     ],
+     [
+      602,
+      3772
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet west of the rampart",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5622,
+      3328
+     ],
+     [
+      6525,
+      3328
+     ],
+     [
+      6525,
+      3883
+     ],
+     [
+      5622,
+      3883
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlet east of the rampart",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      50,
+      2552
+     ],
+     [
+      723,
+      2596
+     ],
+     [
+      723,
+      3695
+     ],
+     [
+      50,
+      3695
+     ]
+    ],
+    "density": "dense",
+    "name": "West quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1907,
+      2774
+     ],
+     [
+      2128,
+      2774
+     ],
+     [
+      2128,
+      3695
+     ],
+     [
+      1907,
+      3695
+     ]
+    ],
+    "density": "loose",
+    "name": "Lanes by the palace",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      883,
+      3162
+     ],
+     [
+      1305,
+      3162
+     ],
+     [
+      1305,
+      3695
+     ],
+     [
+      883,
+      3695
+     ]
+    ],
+    "density": "loose",
+    "name": "Courtiers' houses",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2289,
+      2829
+     ],
+     [
+      3433,
+      2885
+     ],
+     [
+      3433,
+      3706
+     ],
+     [
+      2289,
+      3706
+     ]
+    ],
+    "density": "dense",
+    "name": "Bulandi Bagh quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3594,
+      2885
+     ],
+     [
+      4939,
+      2951
+     ],
+     [
+      4939,
+      3750
+     ],
+     [
+      3594,
+      3750
+     ]
+    ],
+    "density": "dense",
+    "name": "Harbour quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5100,
+      2996
+     ],
+     [
+      6445,
+      3262
+     ],
+     [
+      6445,
+      3794
+     ],
+     [
+      5100,
+      3794
+     ]
+    ],
+    "density": "dense",
+    "name": "East river quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6606,
+      3328
+     ],
+     [
+      7429,
+      3528
+     ],
+     [
+      7429,
+      3817
+     ],
+     [
+      6606,
+      3817
+     ]
+    ],
+    "density": "dense",
+    "name": "East end",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6606,
+      3328
+     ],
+     [
+      7429,
+      3528
+     ],
+     [
+      7429,
+      3817
+     ],
+     [
+      6606,
+      3817
+     ]
+    ],
+    "density": "loose",
+    "name": "East end",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      50,
+      3861
+     ],
+     [
+      723,
+      3861
+     ],
+     [
+      723,
+      4715
+     ],
+     [
+      50,
+      4715
+     ]
+    ],
+    "density": "dense",
+    "name": "South-west quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      50,
+      3861
+     ],
+     [
+      723,
+      3861
+     ],
+     [
+      723,
+      4715
+     ],
+     [
+      50,
+      4715
+     ]
+    ],
+    "density": "loose",
+    "name": "South-west quarter",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      883,
+      3861
+     ],
+     [
+      2128,
+      3861
+     ],
+     [
+      2128,
+      4715
+     ],
+     [
+      883,
+      4715
+     ]
+    ],
+    "density": "dense",
+    "name": "Quarter south of the palace",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2289,
+      3861
+     ],
+     [
+      3433,
+      3861
+     ],
+     [
+      3433,
+      4715
+     ],
+     [
+      2289,
+      4715
+     ]
+    ],
+    "density": "loose",
+    "name": "Quarter of the stupa",
+    "periods": [
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2289,
+      3861
+     ],
+     [
+      3433,
+      3861
+     ],
+     [
+      3433,
+      4715
+     ],
+     [
+      2289,
+      4715
+     ]
+    ],
+    "density": "dense",
+    "name": "Quarter of the wells",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3594,
+      3883
+     ],
+     [
+      4939,
+      3883
+     ],
+     [
+      4939,
+      4726
+     ],
+     [
+      3594,
+      4726
+     ]
+    ],
+    "density": "loose",
+    "name": "South gate quarter",
+    "periods": [
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3594,
+      3883
+     ],
+     [
+      4939,
+      3883
+     ],
+     [
+      4939,
+      4726
+     ],
+     [
+      3594,
+      4726
+     ]
+    ],
+    "density": "dense",
+    "name": "South gate quarter",
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5100,
+      3928
+     ],
+     [
+      6445,
+      3928
+     ],
+     [
+      6445,
+      4704
+     ],
+     [
+      5100,
+      4704
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6606,
+      3972
+     ],
+     [
+      7429,
+      3972
+     ],
+     [
+      7429,
+      4682
+     ],
+     [
+      6606,
+      4682
+     ]
+    ],
+    "density": "dense",
+    "name": "South-east quarter",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6606,
+      3972
+     ],
+     [
+      7429,
+      3972
+     ],
+     [
+      7429,
+      4682
+     ],
+     [
+      6606,
+      4682
+     ]
+    ],
+    "density": "loose",
+    "name": "South-east quarter",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1004,
+      5603
+     ],
+     [
+      3012,
+      5603
+     ],
+     [
+      3012,
+      5947
+     ],
+     [
+      1004,
+      5947
+     ]
+    ],
+    "density": "loose",
+    "name": "Villages beyond the Son",
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4216,
+      5603
+     ],
+     [
+      6525,
+      5603
+     ],
+     [
+      6525,
+      5947
+     ],
+     [
+      4216,
+      5947
+     ]
+    ],
+    "density": "loose",
+    "name": "Villages beyond the Son",
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4718,
+      3417
+     ],
+     [
+      5823,
+      3606
+     ],
+     [
+      5823,
+      3794
+     ],
+     [
+      4718,
+      3750
+     ]
+    ],
+    "density": "dense",
+    "name": "Patna City, west of the Chowk",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4618,
+      3972
+     ],
+     [
+      5742,
+      3972
+     ],
+     [
+      5742,
+      4438
+     ],
+     [
+      4618,
+      4438
+     ]
+    ],
+    "density": "dense",
+    "name": "Patna City, west of the Chowk",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5983,
+      3573
+     ],
+     [
+      6425,
+      3606
+     ],
+     [
+      6425,
+      3850
+     ],
+     [
+      5983,
+      3828
+     ]
+    ],
+    "density": "dense",
+    "name": "Patna City by Harmandir",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      5923,
+      3994
+     ],
+     [
+      6726,
+      3994
+     ],
+     [
+      6726,
+      4604
+     ],
+     [
+      5923,
+      4604
+     ]
+    ],
+    "density": "dense",
+    "name": "Patna City, east",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6977,
+      4238
+     ],
+     [
+      7429,
+      4238
+     ],
+     [
+      7429,
+      4604
+     ],
+     [
+      6977,
+      4604
+     ]
+    ],
+    "density": "dense",
+    "name": "Patna City, east",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      6927,
+      3218
+     ],
+     [
+      7429,
+      3439
+     ],
+     [
+      7429,
+      3861
+     ],
+     [
+      6927,
+      3828
+     ]
+    ],
+    "density": "loose",
+    "name": "Mughal suburb by the river",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3112,
+      2885
+     ],
+     [
+      4317,
+      2885
+     ],
+     [
+      4317,
+      3439
+     ],
+     [
+      3112,
+      3439
+     ]
+    ],
+    "density": "loose",
+    "name": "Gulzarbagh",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4417,
+      2829
+     ],
+     [
+      4618,
+      2829
+     ],
+     [
+      4618,
+      3606
+     ],
+     [
+      4417,
+      3606
+     ]
+    ],
+    "density": "loose",
+    "name": "Mahendru and the ghats",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1004,
+      3606
+     ],
+     [
+      1707,
+      3606
+     ],
+     [
+      1707,
+      4105
+     ],
+     [
+      1004,
+      4105
+     ]
+    ],
+    "density": "loose",
+    "name": "Village of Kumhrar",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2209,
+      2885
+     ],
+     [
+      2911,
+      2885
+     ],
+     [
+      2911,
+      3273
+     ],
+     [
+      2209,
+      3273
+     ]
+    ],
+    "density": "loose",
+    "name": "Bulandi Bagh hamlet",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2610,
+      3828
+     ],
+     [
+      3413,
+      3828
+     ],
+     [
+      3413,
+      4438
+     ],
+     [
+      2610,
+      4438
+     ]
+    ],
+    "density": "loose",
+    "name": "Village by the old wells",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      201,
+      2663
+     ],
+     [
+      1405,
+      2663
+     ],
+     [
+      1405,
+      3162
+     ],
+     [
+      201,
+      3162
+     ]
+    ],
+    "density": "loose",
+    "name": "Hamlets on the river road",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "gardens": [
+   {
+    "polygon": [
+     [
+      904,
+      2663
+     ],
+     [
+      1857,
+      2663
+     ],
+     [
+      1857,
+      2829
+     ],
+     [
+      904,
+      2829
+     ]
+    ],
+    "kind": "park",
+    "name": "Royal park",
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1556,
+      3240
+     ],
+     [
+      1857,
+      3240
+     ],
+     [
+      1857,
+      3695
+     ],
+     [
+      1556,
+      3695
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Palace grove",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      201,
+      3994
+     ],
+     [
+      1606,
+      3994
+     ],
+     [
+      1606,
+      4660
+     ],
+     [
+      201,
+      4660
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mango groves outside the rampart",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      2008,
+      4327
+     ],
+     [
+      6023,
+      4327
+     ],
+     [
+      6023,
+      4826
+     ],
+     [
+      2008,
+      4826
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields south of the early city",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      100,
+      5603
+     ],
+     [
+      904,
+      5603
+     ],
+     [
+      904,
+      5947
+     ],
+     [
+      100,
+      5947
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Rice fields beyond the Son",
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3112,
+      5603
+     ],
+     [
+      4116,
+      5603
+     ],
+     [
+      4116,
+      5947
+     ],
+     [
+      3112,
+      5947
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Rice fields beyond the Son",
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      201,
+      3772
+     ],
+     [
+      904,
+      3772
+     ],
+     [
+      904,
+      4660
+     ],
+     [
+      201,
+      4660
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Mango groves over the old city",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      1807,
+      4161
+     ],
+     [
+      2510,
+      4161
+     ],
+     [
+      2510,
+      4660
+     ],
+     [
+      1807,
+      4660
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields over the old city",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      3514,
+      4050
+     ],
+     [
+      4518,
+      4050
+     ],
+     [
+      4518,
+      4660
+     ],
+     [
+      3514,
+      4660
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields over the old city",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      201,
+      5548
+     ],
+     [
+      5019,
+      5548
+     ],
+     [
+      5019,
+      5947
+     ],
+     [
+      201,
+      5947
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields toward the Punpun",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      201,
+      4771
+     ],
+     [
+      5019,
+      4771
+     ],
+     [
+      5019,
+      5215
+     ],
+     [
+      201,
+      5215
+     ]
+    ],
+    "kind": "orchard",
+    "name": "Fields toward the Punpun",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "marsh": [
+   {
+    "polygon": [
+     [
+      100,
+      4871
+     ],
+     [
+      7429,
+      4871
+     ],
+     [
+      7429,
+      5004
+     ],
+     [
+      100,
+      5004
+     ]
+    ],
+    "name": "Silted moat",
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      100,
+      4860
+     ],
+     [
+      4518,
+      4860
+     ],
+     [
+      4518,
+      4993
+     ],
+     [
+      100,
+      4993
+     ]
+    ],
+    "name": "Low ground of the old moat",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      201,
+      5148
+     ],
+     [
+      3012,
+      5148
+     ],
+     [
+      3012,
+      5281
+     ],
+     [
+      201,
+      5281
+     ]
+    ],
+    "name": "Jheels on the old Son bed",
+    "periods": [
+     "gupta-400",
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      4016,
+      5048
+     ],
+     [
+      7429,
+      5048
+     ],
+     [
+      7429,
+      5237
+     ],
+     [
+      4016,
+      5237
+     ]
+    ],
+    "name": "Waterlogged ground by the Son",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "polygon": [
+     [
+      100,
+      2219
+     ],
+     [
+      1004,
+      2241
+     ],
+     [
+      1004,
+      2352
+     ],
+     [
+      100,
+      2330
+     ]
+    ],
+    "name": "Riverside flats"
+   }
+  ],
+  "districts": [
+   {
+    "id": "pataligama",
+    "name": "Pataligama",
+    "polygon": [
+     [
+      1807,
+      2752
+     ],
+     [
+      4518,
+      2885
+     ],
+     [
+      5170,
+      3439
+     ],
+     [
+      4819,
+      4161
+     ],
+     [
+      2911,
+      4238
+     ],
+     [
+      1807,
+      3939
+     ]
+    ],
+    "description": "The fortified village at the confluence that Ajatashatru's ministers built against the Licchavis, and the capital it became under Udayin, the Shishunagas and the Nandas.",
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "id": "royal-quarter",
+    "name": "The royal quarter (Kumhrar)",
+    "polygon": [
+     [
+      883,
+      2663
+     ],
+     [
+      1857,
+      2663
+     ],
+     [
+      1857,
+      3695
+     ],
+     [
+      883,
+      3695
+     ]
+    ],
+    "description": "Where the Mauryan palace and the pillared hall stood among parks and fishponds, by the usual reading of the Kumhrar excavations. In Faxian's day the old palace still stood and a monastery hospital worked nearby.",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "id": "bulandi-bagh",
+    "name": "Bulandi Bagh",
+    "polygon": [
+     [
+      2289,
+      2829
+     ],
+     [
+      3433,
+      2885
+     ],
+     [
+      3433,
+      3706
+     ],
+     [
+      2289,
+      3706
+     ]
+    ],
+    "description": "The quarter by the river where Waddell (1903) and Spooner (1912–15) found long rows of sal-wood posts: the timber palisade of the Mauryan city, preserved in wet clay.",
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "id": "patna-city",
+    "name": "Patna City",
+    "polygon": [
+     [
+      4618,
+      3417
+     ],
+     [
+      7479,
+      3550
+     ],
+     [
+      7479,
+      4604
+     ],
+     [
+      4618,
+      4604
+     ]
+    ],
+    "description": "Sher Shah's new town round his fort on the river, which the Mughals made the capital of Bihar: the Chowk, the bazaars, mosques, the Harmandir and the merchants' ghats.",
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "text": "Ganga",
+    "position": [
+     3815,
+     721
+    ],
+    "size": "lg",
+    "rotation": 8
+   },
+   {
+    "text": "Diara",
+    "position": [
+     1606,
+     999
+    ],
+    "size": "sm",
+    "rotation": 4
+   },
+   {
+    "text": "Son (old bed)",
+    "position": [
+     1305,
+     5614
+    ],
+    "size": "sm",
+    "rotation": 2,
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "text": "Badshahi Nala",
+    "position": [
+     4518,
+     5581
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "text": "To Vaishali, across the river",
+    "position": [
+     6826,
+     1442
+    ],
+    "size": "sm",
+    "rotation": 10
+   },
+   {
+    "text": "To Rajagriha and Gaya",
+    "position": [
+     4216,
+     5792
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "magadha-450",
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "text": "To Gaya",
+    "position": [
+     5923,
+     5792
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "text": "Royal road west, to Taxila",
+    "position": [
+     402,
+     3661
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "maurya-300",
+     "ashoka-250"
+    ]
+   },
+   {
+    "text": "To Champa",
+    "position": [
+     7128,
+     4050
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "maurya-300",
+     "ashoka-250",
+     "gupta-400"
+    ]
+   },
+   {
+    "text": "Pataligama",
+    "position": [
+     3815,
+     3495
+    ],
+    "size": "md",
+    "rotation": 0,
+    "periods": [
+     "magadha-450"
+    ]
+   },
+   {
+    "text": "Palibothra",
+    "position": [
+     2811,
+     4383
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "maurya-300"
+    ]
+   },
+   {
+    "text": "Pataliputra",
+    "position": [
+     2811,
+     4383
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "ashoka-250"
+    ]
+   },
+   {
+    "text": "Kusumapura",
+    "position": [
+     2811,
+     4383
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "gupta-400"
+    ]
+   },
+   {
+    "text": "Kumhrar",
+    "position": [
+     1355,
+     3905
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "text": "Gulzarbagh",
+    "position": [
+     3915,
+     2829
+    ],
+    "size": "sm",
+    "rotation": 0,
+    "periods": [
+     "sher-shah-1545"
+    ]
+   },
+   {
+    "text": "Patna",
+    "position": [
+     6124,
+     4438
+    ],
+    "size": "lg",
+    "rotation": 0,
+    "periods": [
+     "sher-shah-1545"
+    ]
+   }
+  ],
+  "palette": {
+   "parchment": "#E7D4AA",
+   "ink": "#6C4A31",
+   "water": "#6A8B86",
+   "hill": "#7A7E5A",
+   "road": "#8B6A49"
+  },
+  "compass": [
+   6927,
+   499
+  ],
+  "cartouche": [
+   120,
+   5903
+  ]
+ },
+ "periods": [
+  {
+   "id": "magadha-450",
+   "label": "Pataligama, the new capital of Magadha",
+   "year": -450,
+   "startYear": -490,
+   "endYear": -322,
+   "summary": "Ajatashatru's ministers Sunidha and Vassakara fortify the village of Pataligama at the Son–Ganges confluence against the Licchavis across the river (traditionally c. 490 BCE; the date is much disputed). His son Udayin moves the Magadhan capital here from Rajagriha. Under the Shishunagas and the Nandas it grows into a river town of timber, thatch and mud brick inside earth ramparts.",
+   "population": "unknown; a few tens of thousands at most",
+   "feel": "Carpenters' adzes and rammed earth on the new rampart, ferries crossing toward Vaishali, smoke from potters' kilns firing black polished bowls.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Timber and mud houses of Pataligama",
+    "text": "Low houses of mud brick and wattle on timber frames, thatched or tiled, round small yards with a well or a soak pit of stacked pottery rings. Lanes are of beaten earth; potters, smiths and boatmen live by their trades."
+   },
+   "outskirts": {
+    "title": "Rice fields and hamlets",
+    "text": "Paddy, barley and sugarcane on the flood-silt, mango groves, hamlets of thatched huts on raised ground, cattle pens and threshing floors beside the old channels of the Son."
+   }
+  },
+  {
+   "id": "maurya-300",
+   "label": "Pataliputra · Mauryan capital",
+   "year": -300,
+   "startYear": -321,
+   "endYear": -269,
+   "summary": "Chandragupta Maurya, advised by Kautilya, takes the Nanda throne (c. 321 BCE) and rules most of northern India from here. Megasthenes, envoy of Seleucus, describes a parallelogram about 80 by 15 stadia along the river, ringed by a timber palisade with 570 towers and 64 gates and a broad moat. The palace stands in parks; houses are of timber.",
+   "population": "perhaps 150,000–400,000 (modern guesses; Megasthenes gives no figure)",
+   "feel": "War elephants swaying through the gates, carts of grain at the river stairs, the call of the market inspectors, and incense and dust at the palace audiences.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Timber houses of the Mauryan city",
+    "text": "Megasthenes says that cities by rivers were built of wood, because brick would not survive the floods. Houses of two or three storeys of timber and mud on brick footings, with balconies and tiled or thatched roofs, crowd the lanes between the royal roads."
+   },
+   "outskirts": {
+    "title": "Gardens and suburbs outside the moat",
+    "text": "Royal parks and pleasure gardens, orchards, workshops and cremation grounds outside the moat, and villages in the rice fields toward the Son and the road to Rajagriha."
+   }
+  },
+  {
+   "id": "ashoka-250",
+   "label": "Ashoka's Pataliputra",
+   "year": -250,
+   "startYear": -268,
+   "endYear": -185,
+   "summary": "Ashoka, crowned c. 268 BCE, turns to the Buddha's teaching after the Kalinga war. Polished sandstone pillars from Chunar are raised across the empire; at Pataliputra the 80-pillared hall at Kumhrar (its date is argued) and stupas rise, and the Third Buddhist Council meets c. 250 BCE. The dynasty weakens after his death (c. 232) and ends in 185 BCE.",
+   "population": "perhaps the largest city in the world at the time (modern estimates, uncertain)",
+   "feel": "The grinding hiss of stone polishers, monks' chanting at the monasteries, edicts read aloud in the squares, and the royal elephants at the river.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Timber and brick houses of Ashoka's city",
+    "text": "Still mostly timber on brick footings, but burnt brick now walls the richer houses and the monasteries. Courtyards with wells of terracotta rings, tiled roofs, and verandas on carved posts line the lanes."
+   },
+   "outskirts": {
+    "title": "Monasteries and groves",
+    "text": "Monastery compounds with brick cells round courts, stupas among mango groves, the royal parks, and villages of thatched huts along the roads south and east."
+   }
+  },
+  {
+   "id": "gupta-400",
+   "label": "Kusumapura of the Guptas",
+   "year": 405,
+   "startYear": 320,
+   "endYear": 550,
+   "summary": "The Guptas rise in Magadha from c. 320 CE, though their court soon moves among other cities. Faxian, who stays here c. 405–408 to copy the Vinaya, finds a rich city with Ashoka's stone palace 'built by spirits', two great monasteries, wheeled processions of images, and free hospitals. Aryabhata works at Kusumapura (499).",
+   "population": "unknown; still a large city in Faxian's day",
+   "feel": "Bells and drums on the image cars in the spring procession, the smell of medicinal oils at the hospital, Sanskrit verses recited in the school courtyards.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Brick houses of the Gupta city",
+    "text": "Houses of burnt brick round courts, plastered and painted, one or two storeys with flat or tiled roofs; timber balconies over the lanes. Terracotta drains and ring-wells serve each block."
+   },
+   "outskirts": {
+    "title": "Ruined ramparts and monasteries",
+    "text": "The old timber palisade has rotted into an earth bank; outside it lie monasteries, gardens, tanks and villages, and the silted moat is a chain of ponds."
+   }
+  },
+  {
+   "id": "sher-shah-1545",
+   "label": "Sher Shah's Patna",
+   "year": 1545,
+   "startYear": 1541,
+   "endYear": 1704,
+   "summary": "Pataliputra had shrunk to villages by Xuanzang's time (c. 637). In 1541 Sher Shah Suri, an Afghan from Bihar who had driven out Humayun, builds a fort on the Ganges and moves the provincial seat here from Bihar Sharif; his mosque follows (c. 1545). Under the Mughals Patna becomes the capital of Bihar Subah, a great river port for saltpetre, cloth and grain.",
+   "population": "perhaps 200,000 by the late 17th century (travellers' guesses)",
+   "feel": "Boats packed along the ghats, saltpetre and indigo bales, the azan from Sher Shah's mosque, and the bazaar of Patna City loud with Persian, Bhojpuri and Bengali.",
+   "style": "courtyard",
+   "houses": {
+    "title": "Courtyard houses of Patna City",
+    "text": "Brick and mud houses of one or two storeys round courts, with flat roofs and parapets; merchants' havelis with carved wooden doors and balconies. Ralph Fitch (1586) found most houses of earth and straw, the streets broad."
+   },
+   "outskirts": {
+    "title": "Villages over the ruins",
+    "text": "Mud-walled villages, mango groves and fields over the buried city: Kumhrar, Bulandi Bagh and Gulzarbagh are hamlets whose wells and ploughs turn up old bricks and beams."
+   }
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "mauryan-palace",
+   "placeId": "mauryan-palace",
+   "name": "The Mauryan palace",
+   "category": "civic",
+   "position": [
+    1707,
+    2996
+   ],
+   "rotation": 0,
+   "footprint": [
+    240.0,
+    171.8
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/mauryan-palace.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 240,
+     "depth": 170,
+     "height": 68.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250",
+    "gupta-400"
+   ],
+   "variants": {
+    "magadha-450": {
+     "note": "The Nanda kings' palace stood somewhere in the city; nothing is known of it. Where the Mauryan halls will rise there are, perhaps, gardens and fishponds by the royal compound.",
+     "confidence": "interpretation"
+    },
+    "maurya-300": {
+     "note": "Chandragupta's palace as Greek writers knew it: timber halls on brick platforms, gilded pillars with vines and silver birds, parks with tame peacocks and fishponds. Aelian says neither Susa nor Ecbatana could match it."
+    },
+    "ashoka-250": {
+     "note": "Ashoka's court. Later Buddhist writers credit him with stone halls and walls here; polished sandstone fragments from Kumhrar and Bulandi Bagh may come from his buildings."
+    },
+    "gupta-400": {
+     "name": "The palace 'built by spirits'",
+     "note": "Faxian, c. 405, sees Ashoka's palace still standing in the city: walls and gates of piled stone, carving and inlay 'which no human hands of this world could accomplish', so he believes spirits built it."
+    },
+    "sher-shah-1545": {
+     "name": "Mounds of Kumhrar",
+     "note": "Gone: buried under flood silt, ash and later villages. Xuanzang (c. 637) already found the old city a ruin of foundations."
+    }
+   },
+   "summary": "The palace of Chandragupta and Ashoka, which Greek writers rated above the palaces of Persia: wooden halls on raised platforms among parks, fishponds and tame birds. Its exact site is not known.",
+   "details": [
+    "Megasthenes' account, quoted by Strabo and Aelian, describes gilded pillars wound with golden vines and silver birds, parks with peacocks and pheasants, and ponds of tame fish. Excavations at Kumhrar and Bulandi Bagh found polished sandstone fragments and burnt timber, and the palace is usually placed near the pillared hall, but no plan has been recovered.",
+    "The miniature is an interpretation: timber halls with barrel-vaulted roofs (after the rock-cut facade of the Lomas Rishi cave) on brick platforms, polished stone columns in front, verandas, a walled court with a gate and fishponds. Sizes and layout are guesses."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-pataliputra",
+    "wiki-mauryan-art",
+    "wiki-mauryan-palace",
+    "megasthenes",
+    "faxian",
+    "wiki-lomas-rishi"
+   ],
+   "built": "late 4th–3rd century BCE",
+   "function": "Royal palace of the Maurya emperors",
+   "activity": {
+    "figures": 40,
+    "radius": 220
+   }
+  },
+  {
+   "id": "kumhrar-hall",
+   "placeId": "kumhrar",
+   "name": "The 80-pillared hall at Kumhrar",
+   "category": "civic",
+   "position": [
+    1486,
+    3439
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    81.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/pillared-hall.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 60,
+     "depth": 80,
+     "height": 24.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250",
+    "gupta-400"
+   ],
+   "variants": {
+    "magadha-450": {
+     "note": "Open ground in what will become the royal quarter."
+    },
+    "maurya-300": {
+     "note": "Shown standing, though its date is argued: most put it under Ashoka (c. 250 BCE), some under Chandragupta. Spooner compared it to the hundred-column hall at Persepolis.",
+     "confidence": "interpretation"
+    },
+    "ashoka-250": {
+     "note": "Eight rows of ten polished sandstone columns under a timber floor or roof; tradition links the hall to Ashoka's Third Council, which is not proved."
+    },
+    "gupta-400": {
+     "note": "A ruin: the timber superstructure burned and the columns fell or were buried in ash and silt. A Gupta-age monastery and hospital (the Arogya Vihara) grew up nearby.",
+     "confidence": "reconstruction",
+     "model": {
+      "glb": "models/pataliputra/pillared-hall-ruin.glb",
+      "fallback": {
+       "kit": "hall",
+       "width": 60,
+       "depth": 80,
+       "height": 24.0,
+       "roof": "pitched"
+      }
+     }
+    },
+    "sher-shah-1545": {
+     "name": "Mound of Kumhrar",
+     "note": "Buried. Spooner found the column stumps under the village in 1912–15; Altekar and Mishra dug again in 1951–55. One column stands in the park today."
+    }
+   },
+   "summary": "A great hall of eighty polished sandstone columns in rows of ten, the largest Mauryan building yet found, excavated at Kumhrar where the palace is thought to have stood.",
+   "details": [
+    "Spooner found the stumps and ash layer in 1912–15; Altekar and Mishra (1951–55) completed the plan: eight rows of ten unfluted, mirror-polished Chunar sandstone columns about 4.6 m apart, perhaps 9–10 m tall. South of the hall lay timber platforms, perhaps steps from a canal. Fire destroyed the superstructure.",
+    "The miniature restores the hall on a low brick floor with the eighty columns and a timber roof with a barrel-vaulted clerestory; the roof form and the timber landing stages are interpretation. The Gupta ruin shows column stumps, fallen drums and charred beams."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-kumhrar",
+    "spooner",
+    "altekar-mishra",
+    "harle"
+   ],
+   "built": "probably 3rd century BCE (dates range c. 320–232 BCE)",
+   "function": "Assembly or audience hall",
+   "activity": {
+    "figures": 30,
+    "radius": 120
+   }
+  },
+  {
+   "id": "bulandi-bagh-palisade",
+   "placeId": "bulandi-bagh",
+   "name": "The timber palisade at Bulandi Bagh",
+   "category": "military",
+   "position": [
+    2610,
+    2740
+   ],
+   "rotation": 180,
+   "footprint": [
+    260.0,
+    70.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/palisade.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 260,
+     "depth": 70,
+     "wallHeight": 14.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250"
+   ],
+   "variants": {
+    "magadha-450": {
+     "note": "The early city's stockade probably ran further in; this stretch of riverbank is fields and boat landings.",
+     "confidence": "interpretation"
+    },
+    "maurya-300": {
+     "note": "Megasthenes' wooden wall: two rows of sal posts with a walk between, loopholed for archers, towers at intervals and the ditch in front. He counted 570 towers and 64 gates round the whole circuit."
+    },
+    "ashoka-250": {
+     "note": "Still the city's defence; posts were renewed as they rotted, and brick began to replace timber in places (hedge)."
+    },
+    "gupta-400": {
+     "name": "Old rampart at Bulandi Bagh",
+     "note": "The timber has rotted or burned; an earth bank and the silted ditch mark the line. Waterlogged clay preserved the stumps below ground.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A section of the Mauryan city wall: a double line of upright sal-wood posts, towers and gateways behind a wet ditch, the 'wooden wall' Megasthenes describes. Its posts were found at Bulandi Bagh.",
+   "details": [
+    "Waddell traced timber at Bulandi Bagh in 1903; Spooner and then Page (1926–27) uncovered parallel rows of sal posts about 4.5 m apart, standing some 4–5 m high, with a timber floor and a drain between, over hundreds of metres. They are generally taken as part of the palisade Megasthenes saw; dating and exact role are debated.",
+    "The miniature shows a 260 m stretch with a double row of posts and a walkway, square timber towers with barrel roofs and loopholes, one gate, and the ditch before it. Megasthenes' 570 towers and 64 gates refer to the whole circuit of some 34 km; their spacing here is a guess."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-bulandi-bagh",
+    "megasthenes",
+    "waddell",
+    "spooner",
+    "wiki-pataliputra"
+   ],
+   "built": "4th–3rd century BCE",
+   "function": "City wall (timber palisade and ditch)",
+   "activity": {
+    "figures": 16,
+    "radius": 160
+   }
+  },
+  {
+   "id": "mauryan-gate",
+   "placeId": "south-gate",
+   "name": "The south gate of Pataliputra",
+   "category": "military",
+   "position": [
+    3514,
+    4860
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    60.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/city-gate.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 70,
+     "depth": 60,
+     "wallHeight": 12.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250"
+   ],
+   "variants": {
+    "magadha-450": {
+     "note": "Fields outside the early town; the road to Rajagriha passes here on its way to the south gate further in."
+    },
+    "maurya-300": {
+     "note": "One of the 64 gates: two timber towers on brick footings over a road from the moat bridge, with the gatekeepers who, says the Arthashastra, record who enters and leaves."
+    },
+    "ashoka-250": {
+     "note": "The gate of the road to Rajagriha and Bodh Gaya, used by pilgrims to the places of the Buddha's life."
+    },
+    "gupta-400": {
+     "name": "Old south gate",
+     "note": "A gap in the old earth rampart; the road still runs south across the silting moat.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A timber gatehouse of the palisade on the road south to Rajagriha: twin towers with barrel-vaulted roofs, a bridge over the moat, and guards at the gate.",
+   "details": [
+    "No gate of Pataliputra has been excavated. The Arthashastra prescribes gates with towers, a moat bridge that can be removed and gatekeepers who register strangers; Megasthenes gives 64 gates for the whole circuit. Mauryan relief panels at Sanchi (later) show city gates with timber towers and barrel-vaulted roofs.",
+    "The miniature is an interpretation: two timber towers on brick plinths joined by a gallery, chaitya-arched roofs, stretches of palisade either side, and a timber bridge over the moat on the outer side."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-pataliputra",
+    "megasthenes",
+    "harle"
+   ],
+   "built": "4th–3rd century BCE",
+   "function": "City gate",
+   "activity": {
+    "figures": 20,
+    "radius": 90
+   }
+  },
+  {
+   "id": "pataligama-fort",
+   "placeId": "pataligama",
+   "name": "The fort of Pataligama",
+   "category": "military",
+   "position": [
+    4417,
+    3051
+   ],
+   "rotation": 0,
+   "footprint": [
+    300.0,
+    200.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/pataligama.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 300,
+     "depth": 200,
+     "wallHeight": 40.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "magadha-450"
+   ],
+   "variants": {
+    "magadha-450": {
+     "note": "The stronghold Ajatashatru's ministers Sunidha and Vassakara built at the village of Patali against the Vajji confederacy of Vaishali, across the river; Udayin made the town his capital."
+    },
+    "maurya-300": {
+     "note": "Swallowed by the growing city; its site is not known, and this placement by the river is a guess.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "The fortified village at the river that began Pataliputra: an earth rampart with a timber stockade, gate towers and thatched halls, built to watch the Licchavis across the Ganges.",
+   "details": [
+    "The Mahaparinibbana Sutta says that when the Buddha passed through Pataligama the ministers Sunidha and Vassakara were building a fortress there against the Vajjis, and he foretold a great city that fire, water and dissension would one day ruin. Tradition dates the fort c. 490 BCE (hedge: the Buddha's dates are disputed).",
+    "The miniature is an interpretation: a rectangle of rammed earth with a stockade and corner towers, a gate toward the river, granaries, a hall and thatched huts inside. Its site is unknown."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ajatashatru",
+    "wiki-udayin",
+    "mahaparinibbana",
+    "wiki-pataliputra"
+   ],
+   "built": "5th century BCE (traditionally c. 490 BCE)",
+   "function": "Fort and early capital",
+   "activity": {
+    "figures": 20,
+    "radius": 170
+   }
+  },
+  {
+   "id": "harbour",
+   "placeId": "river-harbour",
+   "name": "The river harbour",
+   "category": "commercial",
+   "position": [
+    3514,
+    2330
+   ],
+   "rotation": 0,
+   "footprint": [
+    221.9,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/harbour.glb",
+    "fallback": {
+     "kit": "cluster",
+     "plaza": {
+      "width": 220,
+      "depth": 90
+     },
+     "buildings": [
+      {
+       "offset": [
+        -55.0,
+        -22.5
+       ],
+       "width": 66.0,
+       "depth": 27.0,
+       "height": 8
+      },
+      {
+       "offset": [
+        55.0,
+        18.0
+       ],
+       "width": 66.0,
+       "depth": 27.0,
+       "height": 7
+      }
+     ]
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "magadha-450",
+    "maurya-300",
+    "ashoka-250",
+    "gupta-400",
+    "sher-shah-1545"
+   ],
+   "variants": {
+    "magadha-450": {
+     "name": "Gotama's Ford landing",
+     "note": "A mud bank with boats drawn up; tradition names the crossing place Gotama's Ford, after the Buddha's crossing to Vaishali."
+    },
+    "maurya-300": {
+     "note": "Timber jetties, brick stairs and warehouses below the harbour gate. The Arthashastra's superintendent of ships collects tolls and ferry fees here."
+    },
+    "ashoka-250": {
+     "note": "Barges bring sandstone blocks from Chunar upriver for the pillars; Ashoka's missions to Sri Lanka are said to have sailed downriver to Tamralipti."
+    },
+    "gupta-400": {
+     "note": "Still the port of a great city: rice, cotton cloth and salt by boat, and pilgrims to and from the monasteries."
+    },
+    "sher-shah-1545": {
+     "name": "Gulzarbagh ghat",
+     "note": "A landing of the Mughal river trade below the villages, with saltpetre and grain boats; the European factories were built along this bank in the 17th century."
+    }
+   },
+   "summary": "Stairs, jetties and warehouses on the Ganges bank, where boats from upriver and from Bengal tied up below the harbour gate.",
+   "details": [
+    "Pataliputra lived by the river: Megasthenes describes the Ganges trade, the Arthashastra a superintendent of ships with tolls and ferry rules. No Mauryan harbour has been excavated; the landing is placed below Bulandi Bagh and Gulzarbagh for illustration.",
+    "The miniature shows brick stairs (a ghat) down to the water, timber jetties, thatched warehouses and moored boats; the forms are interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-ghat",
+    "megasthenes",
+    "wiki-pataliputra"
+   ],
+   "built": "from the 5th century BCE",
+   "function": "River port",
+   "activity": {
+    "figures": 40,
+    "radius": 160
+   }
+  },
+  {
+   "id": "ashoka-pillar",
+   "placeId": "ashoka-pillar",
+   "name": "Ashoka's lion pillar",
+   "category": "monument",
+   "position": [
+    3092,
+    4016
+   ],
+   "rotation": 0,
+   "footprint": [
+    6.0,
+    6.0
+   ],
+   "scale": 2.5,
+   "model": {
+    "glb": "models/pataliputra/ashoka-pillar.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 6,
+     "depth": 6,
+     "height": 8,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashoka-250",
+    "gupta-400"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Not yet raised. Stone was cut at Chunar, up the Ganges, and polished by a technique still debated."
+    },
+    "ashoka-250": {
+     "note": "A polished monolith about 12 m high on a bell capital and abacus, crowned by a lion. Faxian saw such a pillar here with an inscription of Ashoka's gift of Jambudvipa to the monks."
+    },
+    "gupta-400": {
+     "note": "Faxian (c. 405) describes the inscribed pillar beside Ashoka's stupa, and another with a lion on top at a city Ashoka built to the north."
+    },
+    "sher-shah-1545": {
+     "note": "Gone; fragments of polished pillars have been found at Kumhrar and Bulandi Bagh."
+    }
+   },
+   "summary": "A polished sandstone column with a bell capital and a crouching lion, like those Ashoka set up across his empire, standing by his stupa south of the palace.",
+   "details": [
+    "Ashoka's pillars were monoliths of Chunar sandstone some 12–14 m high, polished to a mirror finish, with lotus-bell capitals and animal crowns; several carry his edicts. Faxian describes inscribed pillars at Pataliputra, one with a lion on top. Which pillar stood where is unknown.",
+    "The miniature follows the Lauriya Nandangarh pillar: a tapering shaft about 12 m high, a bell capital, a round abacus with a frieze of geese, and a single seated lion."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-pillars-of-ashoka",
+    "wiki-lion-capital",
+    "faxian",
+    "irwin-pillars"
+   ],
+   "built": "c. 250 BCE",
+   "function": "Commemorative pillar",
+   "activity": {
+    "figures": 6,
+    "radius": 30
+   }
+  },
+  {
+   "id": "ashoka-stupa",
+   "placeId": "ashoka-stupa",
+   "name": "Ashoka's stupa",
+   "category": "religious",
+   "position": [
+    2811,
+    4050
+   ],
+   "rotation": 0,
+   "footprint": [
+    40.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/ashoka-stupa.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 40,
+     "depth": 40,
+     "height": 16.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashoka-250",
+    "gupta-400"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Not yet built: open ground south of the royal road."
+    },
+    "ashoka-250": {
+     "note": "Faxian was told this was the first of the 84,000 stupas Ashoka built for the Buddha's relics, after opening seven of the original eight."
+    },
+    "gupta-400": {
+     "note": "Faxian (c. 405) sees it three li south of the city, with a footprint of the Buddha and a vihara before it, and the inscribed pillar beside it."
+    },
+    "sher-shah-1545": {
+     "note": "Lost; its site is not known. The placement here near Agam Kuan follows a local tradition, which is uncertain."
+    }
+   },
+   "summary": "The great stupa Faxian was told Ashoka built first of his 84,000: a whitewashed brick dome on a drum inside a stone railing with four gateways.",
+   "details": [
+    "The legend in the Ashokavadana makes Ashoka redistribute the relics into 84,000 stupas; Faxian and Xuanzang saw his first stupa at Pataliputra, south of the city. No such stupa has been identified on the ground; mounds near Agam Kuan are a local candidate.",
+    "The miniature uses the early stupa type known from Sanchi and Bharhut: a plastered brick dome on a low drum, a square harmika and parasols, a railing and four toranas. Size is a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-stupa",
+    "faxian",
+    "xuanzang",
+    "thapar-ashoka"
+   ],
+   "built": "c. 250 BCE",
+   "function": "Buddhist relic monument",
+   "activity": {
+    "figures": 18,
+    "radius": 60
+   }
+  },
+  {
+   "id": "agam-kuan",
+   "placeId": "agam-kuan",
+   "name": "Agam Kuan, the 'unfathomable well'",
+   "category": "monument",
+   "position": [
+    2761,
+    3573
+   ],
+   "rotation": 0,
+   "footprint": [
+    28.0,
+    28.0
+   ],
+   "scale": 1.4,
+   "model": {
+    "glb": "models/pataliputra/agam-kuan.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 28,
+     "depth": 28,
+     "height": 11.200000000000001,
+     "roof": "flat"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashoka-250",
+    "gupta-400",
+    "sher-shah-1545"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Not yet dug, if tradition is right that it belongs to Ashoka's reign."
+    },
+    "ashoka-250": {
+     "note": "A round brick-lined well. Legend makes it part of Ashoka's 'hell', the torture chamber of his cruel years, where victims were thrown in before his conversion."
+    },
+    "gupta-400": {
+     "note": "Xuanzang (c. 637) tells the story of Ashoka's hell at Pataliputra; Agam Kuan is the place local tradition points to."
+    },
+    "sher-shah-1545": {
+     "note": "A venerated well beside the shrine of Shitala Devi; the Mughals are said to have added the arched superstructure (hedge)."
+    }
+   },
+   "summary": "A deep round well of brick, said to be Ashoka's, which legend ties to the 'hell' in which he tortured prisoners before he turned to the Buddha.",
+   "details": [
+    "The well is about 32 m deep and some 6 m across, lined with brick in its upper part; its date is not established. The Chinese pilgrims retell the story of Ashoka's hell, a prison of tortures built in the city; local tradition identifies it with Agam Kuan, and a Shitala Devi temple stands beside it.",
+    "The miniature shows the round well-head with its brick drum, eight arched openings and a conical roof, as it appears today; for the ancient eras the roof is a guess."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-agam-kuan",
+    "xuanzang",
+    "faxian"
+   ],
+   "built": "traditionally 3rd century BCE; superstructure later",
+   "function": "Well and place of legend",
+   "activity": {
+    "figures": 10,
+    "radius": 40
+   }
+  },
+  {
+   "id": "kukkutarama",
+   "placeId": "kukkutarama",
+   "name": "Kukkutarama monastery",
+   "category": "religious",
+   "position": [
+    3915,
+    4272
+   ],
+   "rotation": 0,
+   "footprint": [
+    110.2,
+    90.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/kukkutarama.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 110,
+     "depth": 90,
+     "height": 36.0,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "ashoka-250",
+    "gupta-400"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Not yet built: a grove south-east of the city."
+    },
+    "ashoka-250": {
+     "note": "Ashoka's monastery, the 'Cock Park', where the Ashokavadana says he gave away his last half-mango. Some identify it with the Ashokarama of the Third Council."
+    },
+    "gupta-400": {
+     "note": "Faxian lodged at a Mahayana monastery beside Ashoka's stupa; the Kukkutarama itself, Xuanzang says two centuries later, lay in ruins.",
+     "confidence": "interpretation"
+    },
+    "sher-shah-1545": {
+     "note": "Gone; its site is unknown. Xuanzang places its ruins south-east of the old city."
+    }
+   },
+   "summary": "Ashoka's monastery south-east of the city: brick cells round a court, a stupa and a shrine hall, where monks gathered in the Mauryan Buddhist world. Its location here is a guess.",
+   "details": [
+    "The Kukkutarama, 'cock monastery', is named in the Ashokavadana and by the Chinese pilgrims as Ashoka's great foundation at Pataliputra. Xuanzang places its ruins south-east of the old city. Sri Lankan chronicles put the Third Council at the Ashokarama; some scholars equate the two.",
+    "The miniature is an interpretation after excavated monasteries of the period: a square of brick cells on a plinth with a veranda round an open court, a small stupa and a barrel-roofed shrine hall, a gate and a tank."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kukkutarama",
+    "xuanzang",
+    "faxian",
+    "thapar-ashoka"
+   ],
+   "built": "3rd century BCE",
+   "function": "Buddhist monastery",
+   "activity": {
+    "figures": 24,
+    "radius": 110
+   }
+  },
+  {
+   "id": "arogya-vihara",
+   "placeId": "arogya-vihara",
+   "name": "Faxian's hospital (the Arogya Vihara)",
+   "category": "civic",
+   "position": [
+    1004,
+    3328
+   ],
+   "rotation": 0,
+   "footprint": [
+    70.0,
+    56.5
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/arogya-vihara.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 70,
+     "depth": 56,
+     "height": 22.400000000000002,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "gupta-400"
+   ],
+   "variants": {
+    "ashoka-250": {
+     "note": "Open ground by the palace. Ashoka's edicts speak of medical care for people and animals, but no hospital building of his is known here."
+    },
+    "gupta-400": {
+     "note": "Faxian: the city's leading families keep houses of medicine where the poor, orphans, widows, the crippled and the sick are fed and treated free until they recover."
+    },
+    "sher-shah-1545": {
+     "name": "Mound of Kumhrar",
+     "note": "Buried; a clay sealing of the 'Arogya Vihara' of the monks was found at Kumhrar in the 1950s."
+    }
+   },
+   "summary": "A monastery hospital of brick round a court near the old pillared hall, the kind of free house of medicine Faxian admired: food, medicines and care given by the city's householders.",
+   "details": [
+    "Faxian (c. 405) describes charitable hospitals in Pataliputra. At Kumhrar Altekar and Mishra found a Gupta-age monastery layer and terracotta sealings reading Sri-Arogya-vihare bhikshu-sanghasya, 'of the community of monks at the Arogya [health] Vihara'. Linking the two is a reasonable guess, not a proof.",
+    "The miniature shows a single-storey brick vihara on a plinth: cells round a court with a veranda, a well, a shrine and a pharmacy room. Its plan is interpretation."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kumhrar",
+    "altekar-mishra",
+    "faxian",
+    "wiki-faxian"
+   ],
+   "built": "4th–5th century CE",
+   "function": "Monastery hospital",
+   "activity": {
+    "figures": 22,
+    "radius": 80
+   }
+  },
+  {
+   "id": "gupta-temple",
+   "placeId": "gupta-temple",
+   "name": "A Gupta brick temple",
+   "category": "temple",
+   "position": [
+    4267,
+    3495
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    40.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/gupta-temple.glb",
+    "fallback": {
+     "kit": "temple",
+     "width": 60,
+     "depth": 40,
+     "columnsFront": 6,
+     "columnsSide": 0,
+     "podium": 4.0,
+     "columnHeight": 16.0
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "gupta-400"
+   ],
+   "variants": {
+    "ashoka-250": {
+     "note": "Houses and lanes; temples of Vishnu and Shiva of this kind do not yet exist."
+    },
+    "gupta-400": {
+     "note": "A brick temple of the Gupta age, with a tall stepped tower over the sanctum and a porch. The Guptas were Vaishnavas, and their age gave India its first stone and brick temples."
+    },
+    "sher-shah-1545": {
+     "note": "Gone. No Gupta temple has been found in Patna; the type is known from Bhitargaon and Deogarh."
+    }
+   },
+   "summary": "A temple of the Gupta age: a square sanctum under a stepped brick tower with terracotta panels, on a high plinth with a porch, of the type surviving at Bhitargaon.",
+   "details": [
+    "No temple of the Gupta period has been excavated at Patna, though the city was one of the Gupta capitals and Faxian describes Brahmanical festivals there. Surviving temples of the age, such as Bhitargaon (brick, 5th century) and Deogarh (stone), show the forms.",
+    "The miniature follows Bhitargaon: a brick sanctum on a stepped plinth, a pyramidal tower of receding tiers with chaitya-arch niches and an amalaka, and a flat-roofed porch. Placement and dedication are guesses."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-gupta-architecture",
+    "wiki-bhitargaon",
+    "faxian"
+   ],
+   "built": "5th century CE",
+   "function": "Hindu temple",
+   "activity": {
+    "figures": 14,
+    "radius": 60
+   }
+  },
+  {
+   "id": "sher-shah-fort",
+   "placeId": "patna-qila",
+   "name": "Sher Shah's fort at Patna",
+   "category": "military",
+   "position": [
+    6676,
+    3606
+   ],
+   "rotation": 0,
+   "footprint": [
+    320.0,
+    246.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/patna-fort.glb",
+    "fallback": {
+     "kit": "fort",
+     "width": 320,
+     "depth": 240,
+     "wallHeight": 48.0,
+     "bastions": 8
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "sher-shah-1545"
+   ],
+   "variants": {
+    "gupta-400": {
+     "note": "The east end of the old city by the river; its houses are falling into ruin."
+    },
+    "sher-shah-1545": {
+     "note": "Built in 1541 when Sher Shah, encamped by the river, judged that a fort here would make Patna a great city. The Mughal governors of Bihar held court in it."
+    }
+   },
+   "summary": "The brick fort Sher Shah Suri built on the Ganges in 1541 to refound Patna: high walls with round bastions, a gate to the town, a water gate and the governor's palace inside.",
+   "details": [
+    "The Tarikh-i Daudi tells how Sher Shah, on the river bank at Patna in 1541, ordered a fort built at great cost, and the provincial seat moved here from Bihar Sharif. It became the seat of the Mughal subahdars. Its walls stood into the 19th century; Qila House (now the Jalan Museum) stands on part of the site.",
+    "The miniature restores a rectangle of brick walls with round bastions and battlements, a gate on the town side, a water gate and ghat on the river, and a palace court and mosque inside. Its plan and size are schematic."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sher-shah",
+    "wiki-jalan-museum",
+    "wiki-patna",
+    "asher"
+   ],
+   "built": "1541",
+   "function": "Fort and governor's seat",
+   "activity": {
+    "figures": 30,
+    "radius": 200
+   }
+  },
+  {
+   "id": "sher-shah-mosque",
+   "placeId": "sher-shah-masjid",
+   "name": "Sher Shah Suri Masjid",
+   "category": "religious",
+   "position": [
+    6877,
+    4161
+   ],
+   "rotation": 0,
+   "footprint": [
+    60.0,
+    50.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/sher-shah-mosque.glb",
+    "fallback": {
+     "kit": "mosque",
+     "width": 60,
+     "depth": 50,
+     "domes": 3,
+     "minaretHeight": 20
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "sher-shah-1545"
+   ],
+   "variants": {
+    "gupta-400": {
+     "note": "Lanes and houses at the east end of the old city."
+    },
+    "sher-shah-1545": {
+     "note": "Built about 1545 to commemorate Sher Shah's rule: an Afghan-style mosque with a great central dome ringed by smaller domes and corner towers, facing east across a court."
+    }
+   },
+   "summary": "The mosque Sher Shah raised in his new Patna about 1545, one of the oldest standing in Bihar: an Afghan prayer hall under a large central dome with smaller domes and kiosks round it.",
+   "details": [
+    "Built 1540–45 in the Afghan style of the Suri buildings, it has a prayer hall of five arched bays under a central dome, with four smaller domes and octagonal kiosks at the corners of the roof. It stands in Patna City, near the old Purab Darwaza.",
+    "The miniature shows the plastered brick hall facing east onto a walled court with a tank, the five-arched front, the central dome on its drum, the smaller corner domes and kiosks. Proportions are approximate."
+   ],
+   "confidence": "reconstruction",
+   "sourceIds": [
+    "wiki-sher-shah-mosque",
+    "wiki-sher-shah",
+    "asher"
+   ],
+   "built": "c. 1540–1545",
+   "function": "Congregational mosque",
+   "activity": {
+    "figures": 24,
+    "radius": 70
+   }
+  },
+  {
+   "id": "kamaldah",
+   "placeId": "kamaldah",
+   "name": "Kamaldah Jain shrine",
+   "category": "religious",
+   "position": [
+    3815,
+    3772
+   ],
+   "rotation": 0,
+   "footprint": [
+    36.0,
+    36.0
+   ],
+   "scale": 1.0,
+   "model": {
+    "glb": "models/pataliputra/kamaldah.glb",
+    "fallback": {
+     "kit": "hall",
+     "width": 36,
+     "depth": 36,
+     "height": 14.4,
+     "roof": "pitched"
+    }
+   },
+   "reveal": "assemble",
+   "activePeriods": [
+    "sher-shah-1545"
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "Jain tradition places the death of the monk Sthulabhadra, leader of the Jains in Pataliputra under Chandragupta, near here."
+    },
+    "gupta-400": {
+     "note": "Jain tradition remembers Seth Sudarshan, a merchant who kept his vows under false accusation, as attaining liberation at this spot."
+    },
+    "sher-shah-1545": {
+     "note": "A small walled Jain shrine on a mound by Gulzarbagh. The present temples are later (hedge: the dates given vary, 18th century or earlier); a shrine may have stood here already.",
+     "confidence": "interpretation"
+    }
+   },
+   "summary": "A small Jain shrine on a mound near Gulzarbagh, sacred as the place of Sthulabhadra and of the merchant Sudarshan: white plastered sanctums with spires inside a walled court.",
+   "details": [
+    "Kamaldah is honoured by Jains as the place where Seth Sudarshan attained liberation and as linked to Sthulabhadra, Bhadrabahu's pupil, who held the Jain council at Pataliputra. The surviving temples are later than this era and their date is uncertain.",
+    "The miniature shows a walled court on a low mound with two small white shrines with curved spires and a gateway. It is an interpretation; the 16th-century state of the site is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-kamaldah",
+    "wiki-sthulabhadra"
+   ],
+   "built": "shrines later than the 16th century (hedge)",
+   "function": "Jain shrine",
+   "activity": {
+    "figures": 8,
+    "radius": 40
+   }
+  }
+ ],
+ "spots": [
+  {
+   "id": "potters-nbpw",
+   "name": "Potters of the black polished ware",
+   "kind": "workshop",
+   "position": [
+    3915,
+    3328
+   ],
+   "activePeriods": [
+    "magadha-450",
+    "maurya-300"
+   ],
+   "summary": "A potters' yard where thin, glossy black bowls and dishes are thrown and fired, the fine tableware of the Ganges cities.",
+   "details": [
+    "Northern Black Polished Ware, a wheel-made ware with a mirror-like black slip, is found in the lowest city levels of Pataliputra and across the Ganges plain from about 700 to 200 BCE. How its gloss was made is still argued. This yard is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-nbpw",
+    "wiki-pataliputra"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The potter kicks his wheel to speed and lifts a bowl thin as a leaf; his wife paints the slip on yesterday's pots with a rag."
+    },
+    {
+     "hour": 13,
+     "text": "A merchant from Kashi turns a black dish in the sun to see his face in it and bargains for a cartload."
+    },
+    {
+     "hour": 20,
+     "text": "The kiln is sealed with mud and cow dung for a slow, smoky firing; the boys take turns to watch it through the night."
+    }
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "The ware is at its finest and travels as far as the Deccan and the north-west; plainer grey and red wares fill the kitchens."
+    }
+   }
+  },
+  {
+   "id": "punch-mint",
+   "name": "The silver-punchers' mint",
+   "kind": "works",
+   "position": [
+    2359,
+    3273
+   ],
+   "activePeriods": [
+    "magadha-450",
+    "maurya-300",
+    "ashoka-250"
+   ],
+   "summary": "Where silver is cut into small bent bars and stamped with punches of the sun, a six-armed wheel, hills and animals: the karshapanas of Magadha.",
+   "details": [
+    "Punch-marked silver coins of Magadha carry four or five separate symbols struck with small punches; the Mauryan series adds the arched hill with a crescent. The Arthashastra names a superintendent of the mint (lakshanadhyaksha) and a coin examiner. The site of the mint is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-punch-marked",
+    "arthashastra"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "Scales are checked against stamped weights; the assayer rubs a strip of silver on a touchstone and squints at the streak."
+    },
+    {
+     "hour": 12,
+     "text": "Tap, tap, tap: five punches on every blank, the sun first, then the wheel. Clipped scraps go back to the melting pot under guard."
+    },
+    {
+     "hour": 18,
+     "text": "The day's coins are counted into sealed bags for the treasury; a clerk scratches the tally on a palm leaf."
+    }
+   ],
+   "variants": {
+    "maurya-300": {
+     "note": "The royal mint of the empire; Kautilya's rules set the alloy, the fee for minting and the fine for false coin."
+    },
+    "ashoka-250": {
+     "note": "Still striking the same silver karshapanas, now with Mauryan symbols; copper cast coins circulate in the market."
+    }
+   }
+  },
+  {
+   "id": "city-commissioners",
+   "name": "Hall of the city commissioners",
+   "kind": "civic",
+   "position": [
+    3112,
+    3606
+   ],
+   "activePeriods": [
+    "maurya-300"
+   ],
+   "summary": "The office of the astynomoi: thirty officials in six boards of five who, Megasthenes says, run the city's crafts, foreigners, records, trade, manufactures and taxes.",
+   "details": [
+    "Megasthenes (in Strabo) lists six boards of five: one for the crafts, one for foreigners (lodging, escort and burial), one for births and deaths, one for trade and weights, one for goods made, one to collect a tenth of sales. Together they kept markets, harbours and temples in repair. The Arthashastra's nagaraka, city prefect, fits beside them."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "megasthenes",
+    "wiki-megasthenes",
+    "arthashastra"
+   ],
+   "vignettes": [
+    {
+     "hour": 7,
+     "text": "A clerk of the second board enters the name of a Greek traveller and the house he lodges in; a guide is assigned to keep him company."
+    },
+    {
+     "hour": 12,
+     "text": "Weights and measures from the cloth market are tested on the board's scales; a light weight is broken and its owner fined."
+    },
+    {
+     "hour": 17,
+     "text": "The births and deaths of the day are read out and written down 'so that the king may know', as Megasthenes puts it."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "elephant-stables",
+   "name": "The royal elephant stables",
+   "kind": "works",
+   "position": [
+    552,
+    3218
+   ],
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250"
+   ],
+   "summary": "Long sheds and bathing tanks for the king's war elephants, which only the king might own; Seleucus received 500 of them for his eastern provinces.",
+   "details": [
+    "Megasthenes says that horses and elephants were the king's alone, with stables and keepers paid by the state; the Arthashastra details the superintendent of elephants, their rations, training and doctors. By the peace of c. 303 BCE Seleucus gave up eastern lands and received 500 elephants. The stables' site is not known."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "megasthenes",
+    "arthashastra",
+    "wiki-war-elephant"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mahouts lead the elephants down to the tank; trunks spray, boys scrub grey hides with bricks of pumice."
+    },
+    {
+     "hour": 12,
+     "text": "The fodder carts arrive: rice balls with salt and ghee, green cane, a ration weighed out by the superintendent's clerk."
+    },
+    {
+     "hour": 19,
+     "text": "A young elephant, newly caught in the eastern forests, rocks against its chains while an old keeper sings to it."
+    }
+   ],
+   "variants": {
+    "ashoka-250": {
+     "note": "Ashoka's edicts parade the royal elephant as a sign of the dhamma; the war stables still stand."
+    }
+   }
+  },
+  {
+   "id": "kautilya-tavern",
+   "name": "A wine-shop of the spies",
+   "kind": "tavern",
+   "position": [
+    5421,
+    3994
+   ],
+   "activePeriods": [
+    "maurya-300"
+   ],
+   "summary": "A licensed drinking house of the kind the Arthashastra wants watched: comfortable rooms, scented seats, and agents posing as customers who note who spends too freely.",
+   "details": [
+    "The Arthashastra, ascribed to Kautilya, Chandragupta's minister, regulates wine-shops (the superintendent of liquor) and wants spies in them to watch for strangers, thieves and spendthrifts. How much of the text dates from Mauryan times is debated; this shop and its spies are an illustration of its rules, not a known place."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "arthashastra",
+    "wiki-chanakya"
+   ],
+   "vignettes": [
+    {
+     "hour": 11,
+     "text": "The shop opens; the licence is checked, the jars sealed by the superintendent. A 'merchant' at the corner seat buys nobody a drink."
+    },
+    {
+     "hour": 17,
+     "text": "Boatmen and porters come in from the harbour. One pays with a gold ring; the quiet man at the corner seat remembers his face."
+    },
+    {
+     "hour": 22,
+     "text": "Closing time by law. A drunk sleeps on the bench; the keeper must keep his goods safe until morning, or pay for them."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "jain-merchant",
+   "name": "A Jain merchant's house",
+   "kind": "house",
+   "position": [
+    4216,
+    3939
+   ],
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250"
+   ],
+   "summary": "A merchant family of the Jain faith, dealing in cloth and grain, who feed wandering monks; Pataliputra is where, tradition says, the Jain canon was first gathered.",
+   "details": [
+    "Jain tradition places a great famine in the time of Chandragupta, after which the monk Sthulabhadra convened a council at Pataliputra to recite the scriptures while Bhadrabahu had gone south; the Digambara tradition says Chandragupta himself went with him. The tradition is late; the merchant's house is an illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sthulabhadra",
+    "wiki-bhadrabahu",
+    "wiki-chandragupta"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "The household strains its drinking water through cloth before anyone drinks; a broom of soft wool sweeps ants from the doorstep."
+    },
+    {
+     "hour": 11,
+     "text": "Two monks with begging bowls stop at the door; the mistress gives rice and curds, standing, and says nothing of payment."
+    },
+    {
+     "hour": 17,
+     "text": "The merchant checks bales of Kashi cotton by lamplight before sunset: no food after dark in this house."
+    }
+   ],
+   "variants": {
+    "ashoka-250": {
+     "note": "The family prospers under Ashoka, whose edicts ask respect for all sects, Jains among them."
+    }
+   }
+  },
+  {
+   "id": "pillar-polishers",
+   "name": "Yard of the pillar polishers",
+   "kind": "workshop",
+   "position": [
+    4016,
+    2574
+   ],
+   "activePeriods": [
+    "ashoka-250"
+   ],
+   "summary": "Blocks of buff sandstone from Chunar, floated down the Ganges, are dressed and polished here to the mirror sheen of Mauryan pillars and capitals.",
+   "details": [
+    "Ashoka's pillars and capitals are of Chunar sandstone, worked into monoliths and given the 'Mauryan polish', a glassy finish whose method is still argued (abrasives and long rubbing; perhaps a coating). Whether the pillars were finished at Chunar or near the capital is not known; this yard by the river is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-mauryan-polish",
+    "wiki-chunar",
+    "irwin-pillars"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A barge sits low at the bank under a sandstone shaft longer than three boats; rollers and two hundred men wait for the signal."
+    },
+    {
+     "hour": 12,
+     "text": "Rubbing, rubbing: men work a lion's mane with fine sand and water, then with polishing stones, until the stone shows their faces."
+    },
+    {
+     "hour": 18,
+     "text": "The overseer runs his palm along the shaft and nods. Tomorrow the bell capital will be lifted onto its tenon."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "ganges-ferry",
+   "name": "The ferry to Vaishali",
+   "kind": "dock",
+   "position": [
+    2008,
+    2019
+   ],
+   "activePeriods": [
+    "magadha-450",
+    "maurya-300",
+    "ashoka-250",
+    "gupta-400",
+    "sher-shah-1545"
+   ],
+   "summary": "The crossing to the north bank and the road to Vaishali: flat ferry boats, grain barges at anchor, and boatmen who know the shifting sandbanks.",
+   "details": [
+    "The Buddha crossed here, the texts say, as the river rose. Megasthenes notes the Ganges trade; the Arthashastra fixes ferry fees and punishes ferrymen who leave passengers stranded. In Mughal times grain and saltpetre boats lay here in their hundreds."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "mahaparinibbana",
+    "arthashastra",
+    "megasthenes"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Mist on the river. A ferry noses out among the sandbanks, packed with milk cans, a goat, and a family going to a wedding at Vaishali."
+    },
+    {
+     "hour": 13,
+     "text": "Grain barges with tall square sails wait for a wind; boatmen sleep in the shade of the cargo under a thatched awning."
+    },
+    {
+     "hour": 19,
+     "text": "The last crossing; the ferryman's boy holds a lamp at the bow and calls the depth at each push of the pole."
+    }
+   ],
+   "variants": {
+    "magadha-450": {
+     "name": "Gotama's Ford",
+     "note": "The crossing where, the Pali texts say, the Buddha passed over to the north bank; it was named after him."
+    },
+    "sher-shah-1545": {
+     "name": "Ferry ghat",
+     "note": "Grain and saltpetre boats for Bengal; the ferry runs to Hajipur on the north bank."
+    }
+   }
+  },
+  {
+   "id": "fish-market",
+   "name": "Fish market on the bank",
+   "kind": "market",
+   "position": [
+    5521,
+    2940
+   ],
+   "activePeriods": [
+    "maurya-300",
+    "ashoka-250",
+    "gupta-400",
+    "sher-shah-1545"
+   ],
+   "summary": "Rohu, hilsa and river prawns sold off the boats at dawn, in baskets of wet leaves, on the mud between the wall and the river.",
+   "details": [
+    "Fish from the Ganges fed the city in every age. Ashoka's fifth pillar edict lists fish that may not be caught or sold on certain days; the market is placed for illustration below the east river gate."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "thapar-ashoka",
+    "wiki-pataliputra"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Boats come in with the night's catch; women squat by the baskets and shout prices before the fish lose their shine."
+    },
+    {
+     "hour": 11,
+     "text": "Kites wheel over the gutting boards. The market is nearly bare; dried fish hang on lines for the poorer buyers."
+    },
+    {
+     "hour": 18,
+     "text": "Boys wash the boards in the river while fishermen mend nets on the bank and talk of the coming flood."
+    }
+   ],
+   "variants": {
+    "ashoka-250": {
+     "note": "On the fast days of Ashoka's fifth pillar edict, no fish may be sold: the stalls stand empty and the boats stay in."
+    },
+    "sher-shah-1545": {
+     "name": "Machhua Toli fish market",
+     "note": "The fish market of Patna City; name and site illustrative."
+    }
+   }
+  },
+  {
+   "id": "faxian-monastery",
+   "name": "The monastery where Faxian copied the Vinaya",
+   "kind": "school",
+   "position": [
+    2610,
+    4161
+   ],
+   "activePeriods": [
+    "gupta-400"
+   ],
+   "summary": "A Mahayana monastery beside Ashoka's stupa where, Faxian says, six or seven hundred monks lived and students came from all quarters; he stayed three years copying the rules of the monastic order.",
+   "details": [
+    "Faxian came to India to find complete copies of the Vinaya, which were taught orally in the north-west. At Pataliputra he found texts written down, stayed three years learning Sanskrit and copying them, and took them home to China by sea. He lodged at a Mahayana monastery near Ashoka's stupa; a Hinayana one stood beside it."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "faxian",
+    "wiki-faxian"
+   ],
+   "vignettes": [
+    {
+     "hour": 5,
+     "text": "Before dawn the bell; monks file out to the stupa to circle it with lamps, chanting in Sanskrit."
+    },
+    {
+     "hour": 11,
+     "text": "A Chinese monk bends over palm leaves by the veranda, copying a Vinaya text letter by letter, his lips moving with the Sanskrit."
+    },
+    {
+     "hour": 19,
+     "text": "A debate in the hall: a visiting teacher challenges the abbot on the nature of emptiness while the novices take sides."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "aryabhata-school",
+   "name": "The astronomers' school of Kusumapura",
+   "kind": "school",
+   "position": [
+    4668,
+    3439
+   ],
+   "activePeriods": [
+    "gupta-400"
+   ],
+   "summary": "A house of learning where astronomers teach with gnomons and water clocks; Aryabhata wrote his Aryabhatiya at Kusumapura, which most take to be Pataliputra.",
+   "details": [
+    "Aryabhata says he was 23 in 499 CE and that he set out knowledge honoured at Kusumapura. His work makes the earth turn on its axis, gives pi as about 3.1416 and explains eclipses by shadows. Whether Kusumapura is Pataliputra, and whether there was a formal school here, is not certain."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-aryabhata",
+    "wiki-aryabhatiya"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "A student marks the gnomon's first shadow on the court's plaster floor and calls out the time by the water clock."
+    },
+    {
+     "hour": 13,
+     "text": "Verses are chanted and repeated: the sine table compressed into letters of the alphabet, learned by heart."
+    },
+    {
+     "hour": 22,
+     "text": "On the roof the teacher points out the moon's node with a bamboo rod and predicts the next eclipse."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "sher-shah-sarai",
+   "name": "Sher Shah's caravanserai",
+   "kind": "inn",
+   "position": [
+    5019,
+    3994
+   ],
+   "activePeriods": [
+    "sher-shah-1545"
+   ],
+   "summary": "A walled inn on the road through Patna City with rooms round a court, a well and a mosque, where travellers lodged free and dak horses waited.",
+   "details": [
+    "Sher Shah built sarais along his roads, each with separate lodging for Hindus and Muslims, a well and a mosque, and horses for the royal post; his historians credit him with 1,700. A sarai at Patna is assumed here; the building and site are illustrative."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-sher-shah",
+    "wiki-caravanserai"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Bullock carts creak out of the gate loaded with sugar and cotton for Bengal; a dak rider gallops in with a bag for the governor."
+    },
+    {
+     "hour": 13,
+     "text": "In the shade of the arcade a Brahmin cook boils rice for Hindu guests; across the court a Muslim cook roasts meat."
+    },
+    {
+     "hour": 21,
+     "text": "The gate is barred; the keeper counts the guests, as the rule requires, and the watch begins."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "harmandir-house",
+   "name": "The house where Guru Gobind Singh was born",
+   "kind": "shrine",
+   "position": [
+    6023,
+    3772
+   ],
+   "activePeriods": [
+    "sher-shah-1545"
+   ],
+   "summary": "A merchant's house in Patna City where Guru Tegh Bahadur's family stayed and his son Gobind Rai, the tenth Sikh Guru, was born in 1666; now Takht Sri Patna Sahib.",
+   "details": [
+    "Guru Tegh Bahadur, travelling in the east, left his family at Patna, where Gobind Rai was born in December 1666; he lived here until about 1670. The house became a place of pilgrimage; the present Takht was rebuilt in the 19th and 20th centuries."
+   ],
+   "confidence": "documented",
+   "sourceIds": [
+    "wiki-guru-gobind-singh",
+    "wiki-takht-patna"
+   ],
+   "vignettes": [
+    {
+     "hour": 6,
+     "text": "Morning hymns from an upper room; a few devotees from the Sikh sangat of Patna sit on the floor with their eyes closed."
+    },
+    {
+     "hour": 13,
+     "text": "In the lane outside, the boy Gobind Rai and his friends play at war with toy bows, as the stories tell."
+    },
+    {
+     "hour": 20,
+     "text": "The family's hosts light lamps; a letter from the Guru in Assam is read out to the household."
+    }
+   ],
+   "variants": {}
+  },
+  {
+   "id": "english-factory",
+   "name": "Hughes and Parker's cloth house",
+   "kind": "shop",
+   "position": [
+    4969,
+    3384
+   ],
+   "activePeriods": [
+    "sher-shah-1545"
+   ],
+   "summary": "The short-lived trading house the English East India Company opened in Patna in 1620 to buy silk and cotton cloth, closed within a year.",
+   "details": [
+    "In 1620 Robert Hughes and John Parker were sent from Agra to Patna to buy raw silk and calico; their letters describe the bazaar and its prices, and the venture was wound up in 1621. Dutch and later English factories followed. The building's site is not known; it is placed for illustration."
+   ],
+   "confidence": "interpretation",
+   "sourceIds": [
+    "wiki-eic",
+    "wiki-patna"
+   ],
+   "vignettes": [
+    {
+     "hour": 8,
+     "text": "A broker unrolls bolts of white calico on the floor; the Englishman counts threads with a glass and frowns at the price."
+    },
+    {
+     "hour": 14,
+     "text": "Silk-winders bring hanks of yellow Bengal silk to be weighed; the scales argue in the Englishman's favour, the winders say."
+    },
+    {
+     "hour": 21,
+     "text": "By candlelight a letter to Agra: the river is high, the silk dear, the climate bad, and could they please send money."
+    }
+   ],
+   "variants": {}
+  }
+ ],
+ "events": [
+  {
+   "id": "pataligama-founded",
+   "title": "Ministers fortify Pataligama",
+   "periodId": "magadha-450",
+   "date": "c. 490 BCE (traditional; disputed)",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "pataligama-fort"
+   },
+   "effect": "construction",
+   "text": "Ajatashatru of Magadha, at war with the Vajji confederacy across the Ganges, sends his ministers Sunidha and Vassakara to build a fort at the village of Patali, by the river crossing. The texts say gods haunted the ground where the great houses were to stand. The date depends on the disputed date of the Buddha.",
+   "sourceIds": [
+    "mahaparinibbana",
+    "wiki-ajatashatru"
+   ]
+  },
+  {
+   "id": "buddha-prophecy",
+   "title": "The Buddha foretells a great city",
+   "periodId": "magadha-450",
+   "date": "5th century BCE (the Buddha's dates are disputed)",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "harbour"
+   },
+   "effect": "crowd",
+   "text": "On his last journey the Buddha passes the new fort. He foretells that Pataliputra will become the chief city, a place for unpacking goods, but that fire, water and dissension will threaten it. The ministers feed him; the gate he leaves by is named Gotama's Gate and the crossing Gotama's Ford.",
+   "sourceIds": [
+    "mahaparinibbana",
+    "wiki-pataliputra"
+   ]
+  },
+  {
+   "id": "udayin-capital",
+   "title": "Udayin makes Pataliputra his capital",
+   "periodId": "magadha-450",
+   "date": "c. 460 BCE (traditional)",
+   "kind": "civic",
+   "at": {
+    "landmarkId": "pataligama-fort"
+   },
+   "effect": "procession",
+   "text": "Ajatashatru's son Udayin moves the Magadhan court from Rajagriha, hemmed in by its hills, to the fort on the Ganges, better placed for river trade and for war on the plain. Jain and Puranic texts credit him with founding the city of Kusumapura here. Shishunagas and Nandas will rule from it.",
+   "sourceIds": [
+    "wiki-udayin",
+    "wiki-pataliputra"
+   ]
+  },
+  {
+   "id": "chandragupta-accession",
+   "title": "Chandragupta takes the Nanda throne",
+   "periodId": "maurya-300",
+   "date": "c. 321 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mauryan-palace"
+   },
+   "effect": "crowd",
+   "text": "Chandragupta Maurya, with the Brahmin Kautilya (Chanakya) as his guide, overthrows the last Nanda king and enters Pataliputra. Later stories tell of failed first attacks and a lesson learned from a child burning his fingers on the middle of a hot cake. Within twenty years his empire runs from Afghanistan to Bengal.",
+   "sourceIds": [
+    "wiki-chandragupta",
+    "wiki-chanakya"
+   ]
+  },
+  {
+   "id": "megasthenes-embassy",
+   "title": "Megasthenes arrives from Seleucus",
+   "periodId": "maurya-300",
+   "date": "c. 302 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "mauryan-gate"
+   },
+   "effect": "procession",
+   "text": "After the treaty that traded Seleucus' eastern provinces for 500 war elephants, the Greek envoy Megasthenes comes to Palibothra. His Indica, lost but quoted by Strabo, Arrian and Diodorus, gives Europe its picture of the city: the timber wall with 570 towers and 64 gates, the moat, the six boards of commissioners.",
+   "sourceIds": [
+    "megasthenes",
+    "wiki-megasthenes"
+   ]
+  },
+  {
+   "id": "jain-council",
+   "title": "Jain monks gather the canon",
+   "periodId": "maurya-300",
+   "date": "c. 300 BCE (tradition)",
+   "kind": "civic",
+   "at": {
+    "spotId": "jain-merchant"
+   },
+   "effect": "crowd",
+   "text": "After a twelve-year famine scatters the Jain monks, Sthulabhadra calls a council at Pataliputra to recite and fix the sacred texts, Svetambara tradition says. Bhadrabahu, the elder, has gone south; Digambaras later reject the council's canon. The story is told long after, and its dates are uncertain.",
+   "sourceIds": [
+    "wiki-sthulabhadra",
+    "wiki-bhadrabahu"
+   ]
+  },
+  {
+   "id": "third-council",
+   "title": "Ashoka's Third Buddhist Council",
+   "periodId": "ashoka-250",
+   "date": "c. 250 BCE",
+   "kind": "ceremony",
+   "at": {
+    "landmarkId": "kukkutarama"
+   },
+   "effect": "crowd",
+   "text": "The Sri Lankan chronicles say Ashoka called a thousand monks to the Ashokarama at Pataliputra under Moggaliputta Tissa, to expel false monks and fix the teaching; the council lasted nine months and sent missions abroad, Mahinda's to Sri Lanka among them. Northern Buddhist texts do not mention it.",
+   "sourceIds": [
+    "mahavamsa",
+    "wiki-third-council",
+    "thapar-ashoka"
+   ]
+  },
+  {
+   "id": "mauryan-fall",
+   "title": "Pushyamitra kills the last Maurya",
+   "periodId": "ashoka-250",
+   "date": "c. 185 BCE",
+   "kind": "riot",
+   "at": {
+    "position": [
+     2008,
+     3717
+    ]
+   },
+   "effect": "crowd",
+   "text": "Brihadratha, the last Maurya, reviews his army; his general Pushyamitra Shunga kills him in front of the troops and takes the throne. The Shungas rule from Pataliputra; Buddhist texts remember Pushyamitra as a persecutor, which may be exaggerated. The empire of Ashoka has already broken into pieces.",
+   "sourceIds": [
+    "wiki-pushyamitra",
+    "thapar-ashoka"
+   ]
+  },
+  {
+   "id": "faxian-procession",
+   "title": "Faxian watches the procession of images",
+   "periodId": "gupta-400",
+   "date": "c. 406 CE, eighth day of the second month",
+   "kind": "procession",
+   "at": {
+    "position": [
+     3212,
+     3794
+    ]
+   },
+   "effect": "procession",
+   "text": "Every year, Faxian writes, the city builds some twenty four-wheeled cars five storeys high, of bamboo wrapped in white felt and painted, with images of the Buddha and gods in gilt and silver. Brahmins come to invite the Buddhas into the city; for two nights there is music, lamps and offerings.",
+   "sourceIds": [
+    "faxian",
+    "wiki-faxian"
+   ]
+  },
+  {
+   "id": "aryabhatiya",
+   "title": "Aryabhata completes the Aryabhatiya",
+   "periodId": "gupta-400",
+   "date": "499 CE",
+   "kind": "civic",
+   "at": {
+    "spotId": "aryabhata-school"
+   },
+   "effect": "none",
+   "text": "At twenty-three, Aryabhata sets down in 121 verses the knowledge honoured at Kusumapura: the earth spinning on its axis, the place-value arithmetic, a sine table, a value of pi near 3.1416, eclipses as shadows. Whether Kusumapura is Pataliputra is not quite certain, but most scholars think so.",
+   "sourceIds": [
+    "wiki-aryabhatiya",
+    "wiki-aryabhata"
+   ]
+  },
+  {
+   "id": "sher-shah-refounds",
+   "title": "Sher Shah orders a fort at Patna",
+   "periodId": "sher-shah-1545",
+   "date": "1541",
+   "kind": "construction",
+   "at": {
+    "landmarkId": "sher-shah-fort"
+   },
+   "effect": "construction",
+   "text": "Sher Shah, master of Hindustan since driving out Humayun, stands on the Ganges bank at Patna and declares that a fort here would make a great city. The fort is built at a cost said to be 500,000 rupees, and the seat of Bihar moves from Bihar Sharif. Pataliputra's old site becomes a capital again.",
+   "sourceIds": [
+    "wiki-sher-shah",
+    "wiki-patna"
+   ]
+  },
+  {
+   "id": "gobind-born",
+   "title": "Gobind Rai is born in Patna",
+   "periodId": "sher-shah-1545",
+   "date": "December 1666",
+   "kind": "ceremony",
+   "at": {
+    "spotId": "harmandir-house"
+   },
+   "effect": "crowd",
+   "text": "While Guru Tegh Bahadur travels in Assam, his wife Mata Gujri gives birth to their son in a Patna City house. Gobind Rai spends his first years here before the family moves to Anandpur; as Guru Gobind Singh he will found the Khalsa in 1699. The house becomes one of the five Takhts of the Sikhs.",
+   "sourceIds": [
+    "wiki-guru-gobind-singh",
+    "wiki-takht-patna"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "megasthenes-palibothra",
+   "title": "Megasthenes in Palibothra",
+   "periodId": "maurya-300",
+   "summary": "The Greek envoy's city: from the river landing through the wooden wall to the commissioners, the mint, the king's elephants and the palace in its parks.",
+   "steps": [
+    {
+     "landmarkId": "harbour",
+     "title": "Landing on the Ganges",
+     "text": "The envoy's boat ties up among grain barges below the harbour gate. The river here, he writes, is the greatest in India.",
+     "when": "dawn"
+    },
+    {
+     "landmarkId": "bulandi-bagh-palisade",
+     "title": "The wooden wall",
+     "text": "Along the bank runs the palisade: posts of sal wood in double rows, loopholes for archers, a tower every few dozen metres, and the ditch in front."
+    },
+    {
+     "spotId": "city-commissioners",
+     "title": "Six boards of five",
+     "text": "Inside, a clerk of the board for foreigners writes down his name and lodging and gives him an escort, as for every stranger.",
+     "when": "morning"
+    },
+    {
+     "spotId": "punch-mint",
+     "title": "Silver in the making",
+     "text": "In the mint the punches ring on silver blanks: the sun, the wheel, the hill with a crescent."
+    },
+    {
+     "spotId": "elephant-stables",
+     "title": "The king's elephants",
+     "text": "Only the king may keep elephants. By the stables the mahouts bathe them; a few hundred have just gone west to Seleucus.",
+     "when": "noon"
+    },
+    {
+     "landmarkId": "mauryan-palace",
+     "title": "The palace",
+     "text": "Gilded pillars, peacocks in the parks, tame fish in the ponds: the palace, he will write, outshines Susa and Ecbatana.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "megasthenes",
+    "arthashastra",
+    "wiki-megasthenes"
+   ]
+  },
+  {
+   "id": "faxian-kusumapura",
+   "title": "Faxian's three years in Kusumapura",
+   "periodId": "gupta-400",
+   "summary": "The Chinese pilgrim's Pataliputra, c. 405 CE: Ashoka's stupa and pillar, the monastery where he copied the Vinaya, the stone palace and the free hospital.",
+   "steps": [
+    {
+     "landmarkId": "harbour",
+     "title": "By river from the west",
+     "text": "Faxian arrives after years on the road from Chang'an, across the Pamirs and down the Ganges plain.",
+     "when": "morning"
+    },
+    {
+     "landmarkId": "mauryan-palace",
+     "title": "A palace built by spirits",
+     "text": "Ashoka's palace still stands in the middle of the city; its stone walls and carving, Faxian thinks, no human hands could have made."
+    },
+    {
+     "landmarkId": "ashoka-stupa",
+     "title": "The first stupa",
+     "text": "South of the city stands the first of Ashoka's 84,000 stupas, with the Buddha's footprint and a vihara before it."
+    },
+    {
+     "landmarkId": "ashoka-pillar",
+     "title": "The inscribed pillar",
+     "text": "Beside it a stone pillar records that Ashoka gave all Jambudvipa to the monks and bought it back with money."
+    },
+    {
+     "spotId": "faxian-monastery",
+     "title": "Copying the Vinaya",
+     "text": "Here he stays three years, learning Sanskrit and copying the monastic rules no one in the north-west had written down.",
+     "when": "every day"
+    },
+    {
+     "landmarkId": "arogya-vihara",
+     "title": "The house of medicine",
+     "text": "He admires the free hospitals: the poor, the orphaned and the sick are fed and treated there until they are well.",
+     "when": "evening"
+    }
+   ],
+   "sourceIds": [
+    "faxian",
+    "wiki-faxian"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "megasthenes",
+   "title": "Ancient India as Described by Megasthenes and Arrian",
+   "author": "J. W. McCrindle (trans.)",
+   "year": 1877,
+   "url": "https://en.wikipedia.org/wiki/Indica_(Megasthenes)"
+  },
+  {
+   "id": "faxian",
+   "title": "A Record of Buddhistic Kingdoms (Faxian's Foguoji)",
+   "author": "Faxian, trans. James Legge",
+   "year": 1886,
+   "url": "https://en.wikipedia.org/wiki/Faxian"
+  },
+  {
+   "id": "waddell",
+   "title": "Report on the Excavations at Pataliputra (Patna), the Palibothra of the Greeks",
+   "author": "L. A. Waddell",
+   "year": 1903
+  },
+  {
+   "id": "spooner",
+   "title": "Mr. Ratan Tata's Excavations at Pataliputra (Archaeological Survey of India Annual Report 1912–13)",
+   "author": "D. B. Spooner",
+   "year": 1915
+  },
+  {
+   "id": "altekar-mishra",
+   "title": "Report on Kumrahar Excavations, 1951–1955",
+   "author": "A. S. Altekar & Vijayakanta Mishra",
+   "year": 1959
+  },
+  {
+   "id": "thapar-ashoka",
+   "title": "Aśoka and the Decline of the Mauryas",
+   "author": "Romila Thapar",
+   "year": 1961
+  },
+  {
+   "id": "arthashastra",
+   "title": "The Kautilya Arthashastra",
+   "author": "R. P. Kangle (trans.)",
+   "year": "1960–65",
+   "url": "https://en.wikipedia.org/wiki/Arthashastra"
+  },
+  {
+   "id": "wiki-pataliputra",
+   "title": "Pataliputra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pataliputra"
+  },
+  {
+   "id": "wiki-patna",
+   "title": "Patna",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Patna"
+  },
+  {
+   "id": "wiki-ganges",
+   "title": "Ganges",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ganges"
+  },
+  {
+   "id": "wiki-son",
+   "title": "Sone River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sone_River"
+  },
+  {
+   "id": "wiki-punpun",
+   "title": "Punpun River",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Punpun_River"
+  },
+  {
+   "id": "xuanzang",
+   "title": "Si-Yu-Ki: Buddhist Records of the Western World",
+   "author": "Xuanzang, trans. Samuel Beal",
+   "year": 1884,
+   "url": "https://en.wikipedia.org/wiki/Great_Tang_Records_on_the_Western_Regions"
+  },
+  {
+   "id": "irwin-pillars",
+   "title": "'Aśokan' Pillars: A Reassessment of the Evidence (Burlington Magazine)",
+   "author": "John Irwin",
+   "year": "1973–76"
+  },
+  {
+   "id": "harle",
+   "title": "The Art and Architecture of the Indian Subcontinent",
+   "author": "J. C. Harle",
+   "year": 1994
+  },
+  {
+   "id": "asher",
+   "title": "Architecture of Mughal India (The New Cambridge History of India I.4)",
+   "author": "Catherine B. Asher",
+   "year": 1992
+  },
+  {
+   "id": "mahaparinibbana",
+   "title": "Mahāparinibbāna Sutta (Dīgha Nikāya 16)",
+   "author": "trans. T. W. Rhys Davids",
+   "year": 1910,
+   "url": "https://en.wikipedia.org/wiki/Mahaparinibbana_Sutta"
+  },
+  {
+   "id": "wiki-kumhrar",
+   "title": "Kumhrar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kumhrar"
+  },
+  {
+   "id": "wiki-mauryan-palace",
+   "title": "Pataliputra capital",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pataliputra_capital"
+  },
+  {
+   "id": "wiki-mauryan-art",
+   "title": "Mauryan art",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mauryan_art"
+  },
+  {
+   "id": "wiki-pillars-of-ashoka",
+   "title": "Pillars of Ashoka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pillars_of_Ashoka"
+  },
+  {
+   "id": "wiki-lion-capital",
+   "title": "Lion Capital of Ashoka",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lion_Capital_of_Ashoka"
+  },
+  {
+   "id": "wiki-agam-kuan",
+   "title": "Agam Kuan",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Agam_Kuan"
+  },
+  {
+   "id": "wiki-kukkutarama",
+   "title": "Kukkutarama",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kukkutarama"
+  },
+  {
+   "id": "wiki-stupa",
+   "title": "Stupa",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stupa"
+  },
+  {
+   "id": "wiki-gupta-architecture",
+   "title": "Gupta art",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gupta_art"
+  },
+  {
+   "id": "wiki-bhitargaon",
+   "title": "Bhitargaon",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bhitargaon"
+  },
+  {
+   "id": "wiki-faxian",
+   "title": "Faxian",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Faxian"
+  },
+  {
+   "id": "wiki-bulandi-bagh",
+   "title": "Bulandi Bagh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bulandi_Bagh"
+  },
+  {
+   "id": "wiki-lomas-rishi",
+   "title": "Lomas Rishi Cave",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lomas_Rishi_Cave"
+  },
+  {
+   "id": "wiki-sher-shah-mosque",
+   "title": "Sher Shah Suri Mosque",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sher_Shah_Suri_Mosque"
+  },
+  {
+   "id": "wiki-sher-shah",
+   "title": "Sher Shah Suri",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sher_Shah_Suri"
+  },
+  {
+   "id": "wiki-jalan-museum",
+   "title": "Jalan Museum",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jalan_Museum"
+  },
+  {
+   "id": "wiki-kamaldah",
+   "title": "Kamaldah Jain temple",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kamaldah_Jain_temple"
+  },
+  {
+   "id": "wiki-sthulabhadra",
+   "title": "Sthulabhadra",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sthulabhadra"
+  },
+  {
+   "id": "wiki-ghat",
+   "title": "Ghat",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ghat"
+  },
+  {
+   "id": "wiki-ajatashatru",
+   "title": "Ajatashatru",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ajatashatru"
+  },
+  {
+   "id": "wiki-udayin",
+   "title": "Udayin",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Udayin"
+  },
+  {
+   "id": "wiki-megasthenes",
+   "title": "Megasthenes",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Megasthenes"
+  },
+  {
+   "id": "mahavamsa",
+   "title": "The Mahāvaṃsa, or the Great Chronicle of Ceylon",
+   "author": "trans. Wilhelm Geiger",
+   "year": 1912,
+   "url": "https://en.wikipedia.org/wiki/Mahavamsa"
+  },
+  {
+   "id": "fitch",
+   "title": "The Voyage of Master Ralph Fitch (in Hakluyt's Principal Navigations)",
+   "author": "Ralph Fitch",
+   "year": 1599,
+   "url": "https://en.wikipedia.org/wiki/Ralph_Fitch"
+  },
+  {
+   "id": "wiki-chanakya",
+   "title": "Chanakya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chanakya"
+  },
+  {
+   "id": "wiki-chandragupta",
+   "title": "Chandragupta Maurya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chandragupta_Maurya"
+  },
+  {
+   "id": "wiki-punch-marked",
+   "title": "Punch-marked coins",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Punch-marked_coins"
+  },
+  {
+   "id": "wiki-nbpw",
+   "title": "Northern Black Polished Ware",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Northern_Black_Polished_Ware"
+  },
+  {
+   "id": "wiki-mauryan-polish",
+   "title": "Mauryan polish",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mauryan_polish"
+  },
+  {
+   "id": "wiki-chunar",
+   "title": "Chunar",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chunar"
+  },
+  {
+   "id": "wiki-third-council",
+   "title": "Buddhist councils",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buddhist_councils"
+  },
+  {
+   "id": "wiki-pushyamitra",
+   "title": "Pushyamitra Shunga",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pushyamitra_Shunga"
+  },
+  {
+   "id": "wiki-aryabhata",
+   "title": "Aryabhata",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aryabhata"
+  },
+  {
+   "id": "wiki-aryabhatiya",
+   "title": "Aryabhatiya",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aryabhatiya"
+  },
+  {
+   "id": "wiki-bhadrabahu",
+   "title": "Bhadrabahu",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bhadrabahu"
+  },
+  {
+   "id": "wiki-caravanserai",
+   "title": "Caravanserai",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Caravanserai"
+  },
+  {
+   "id": "wiki-guru-gobind-singh",
+   "title": "Guru Gobind Singh",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Guru_Gobind_Singh"
+  },
+  {
+   "id": "wiki-takht-patna",
+   "title": "Takht Sri Patna Sahib",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Takht_Sri_Patna_Sahib"
+  },
+  {
+   "id": "wiki-eic",
+   "title": "East India Company",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/East_India_Company"
+  },
+  {
+   "id": "wiki-war-elephant",
+   "title": "War elephant",
+   "author": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/War_elephant"
+  }
+ ]
+}
