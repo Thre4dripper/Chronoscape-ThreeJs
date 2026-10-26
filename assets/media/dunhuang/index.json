@@ -1,0 +1,428 @@
+{
+ "shazhou-walls": [],
+ "yamen": [
+  {
+   "src": "media/dunhuang/yamen/1.jpg",
+   "thumb": "media/dunhuang/yamen/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "This is a photo of a declared monument in Hong Kong identified by the ID",
+   "artist": "Abasaa",
+   "date": "2011",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Kowloon_Walled_City_Park_02.JPG"
+  },
+  {
+   "src": "media/dunhuang/yamen/2.jpg",
+   "thumb": "media/dunhuang/yamen/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "The interior of a cell in the Pingyao yamen.",
+   "artist": "Alex Ostrovski",
+   "date": "2018",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cell_in_Pingyao_Yamen.jpg"
+  }
+ ],
+ "kaiyuan-si": [],
+ "longxing-si": [
+  {
+   "src": "media/dunhuang/longxing-si/1.jpg",
+   "thumb": "media/dunhuang/longxing-si/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Jiuhuashan_Roushen_Temple.jpg"
+  },
+  {
+   "src": "media/dunhuang/longxing-si/2.jpg",
+   "thumb": "media/dunhuang/longxing-si/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Zhangzhugang, 2013.",
+   "artist": "Zhangzhugang",
+   "date": "2013",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Zhengding_Longxing_Si_2013.08.31_17-01-55.jpg"
+  }
+ ],
+ "ming-village": [
+  {
+   "src": "media/dunhuang/ming-village/1.jpg",
+   "thumb": "media/dunhuang/ming-village/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "photograph",
+   "caption": "Photograph by 慕尼黑啤酒, 2015.",
+   "artist": "慕尼黑啤酒",
+   "date": "2015",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Jiucenglou_of_Mogao_Caves.jpg"
+  },
+  {
+   "src": "media/dunhuang/ming-village/2.jpg",
+   "thumb": "media/dunhuang/ming-village/t2.jpg",
+   "w": 800,
+   "h": 304,
+   "kind": "photograph",
+   "caption": "Photograph by John Hill, 2011.",
+   "artist": "John Hill",
+   "date": "2011",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Han_Dynasty_Granary_west_of_Dunhuang.jpg"
+  }
+ ],
+ "dang-bridge": [
+  {
+   "src": "media/dunhuang/dang-bridge/2.jpg",
+   "thumb": "media/dunhuang/dang-bridge/t2.jpg",
+   "w": 800,
+   "h": 481,
+   "kind": "photograph",
+   "caption": "Linze, Zhangye, Gansu, China",
+   "artist": "Han Lei",
+   "date": "Taken on 29 July 2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Linze,_Zhangye,_Gansu,_China_-_panoramio_(4).jpg"
+  },
+  {
+   "src": "media/dunhuang/dang-bridge/3.jpg",
+   "thumb": "media/dunhuang/dang-bridge/t3.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Liuxingy, 2024.",
+   "artist": "Liuxingy",
+   "date": "2024",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%98%89%E5%B3%AA%E5%85%B3_%E5%85%B0%E6%96%B0%E9%93%81%E8%B7%AF%E5%85%B3%E5%9F%8E%E6%99%AF%E5%8C%BA%E6%AE%B5%E4%B9%8BHXD1C-6133%E7%89%B5%E5%BC%95%E8%B4%A7%E5%88%97_01.jpg"
+  },
+  {
+   "src": "media/dunhuang/dang-bridge/1.jpg",
+   "thumb": "media/dunhuang/dang-bridge/t1.jpg",
+   "w": 800,
+   "h": 600,
+   "kind": "coin",
+   "caption": "Coin by Dan Lundberg.",
+   "artist": "Dan Lundberg",
+   "date": "",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:20160507_China_6097_Jiayuguan_sRGB_(29881726912).jpg"
+  }
+ ],
+ "caravan-market": [
+  {
+   "src": "media/dunhuang/caravan-market/1.jpg",
+   "thumb": "media/dunhuang/caravan-market/t1.jpg",
+   "w": 800,
+   "h": 622,
+   "kind": "reconstruction",
+   "caption": "Northern Zhou Dynasty Tomb of Shijun (roof reconstructed)",
+   "artist": "Gary Todd + Unknown author Reconstruction in color: पाटलिपुत्र (talk)",
+   "date": "",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:Northern_Zhou_Dynasty_Tomb_of_Shijun_(roof_reconstructed).jpg"
+  },
+  {
+   "src": "media/dunhuang/caravan-market/4.jpg",
+   "thumb": "media/dunhuang/caravan-market/t4.jpg",
+   "w": 800,
+   "h": 397,
+   "kind": "photograph",
+   "caption": "Photograph by DEMIS Mapserver, पाटलिपुत्र, 2023.",
+   "artist": "DEMIS Mapserver, पाटलिपुत्र",
+   "date": "2023",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Map_of_Sogdia.png"
+  },
+  {
+   "src": "media/dunhuang/caravan-market/2.jpg",
+   "thumb": "media/dunhuang/caravan-market/t2.jpg",
+   "w": 800,
+   "h": 399,
+   "kind": "coin",
+   "caption": "Coin by No machine-readable author provided. World Imaging assumed (based on copyright claims)..",
+   "artist": "No machine-readable author provided. World Imaging assumed (based on copyright claims).",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Sogdian_barbaric_copy_of_a_coin_of_Euthydemus.jpg"
+  },
+  {
+   "src": "media/dunhuang/caravan-market/3.jpg",
+   "thumb": "media/dunhuang/caravan-market/t3.jpg",
+   "w": 787,
+   "h": 800,
+   "kind": "coin",
+   "caption": "Chinese-inspired Sogdian coin, Kelpin 8th Century CE. These coins were minted in Semirech'e in what is now South Eastern Kazakhstan, South East of Lake Balkhash.",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:ChineseShapedSogdianCoinKelpin8thCenturyCE.jpg"
+  },
+  {
+   "src": "media/dunhuang/caravan-market/5.jpg",
+   "thumb": "media/dunhuang/caravan-market/t5.jpg",
+   "w": 800,
+   "h": 798,
+   "kind": "coin",
+   "caption": "Sogdian coin, 6th century, from Kesh (compare with this coin).",
+   "artist": "Unknown",
+   "date": "",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:SogdianCoin6thCentury.JPG"
+  }
+ ],
+ "xian-shrine": [
+  {
+   "src": "media/dunhuang/xian-shrine/1.jpg",
+   "thumb": "media/dunhuang/xian-shrine/t1.jpg",
+   "w": 800,
+   "h": 442,
+   "kind": "painting",
+   "caption": "Song Dynasty painting in the Litang style illustrating the theme \"Confucianism, Taoism and Buddhism are one\". Depicts Taoist Lu Xiujing (left), official Tao Yuanming (right) and Buddhist monk Huiyuan (center, founder of…",
+   "artist": "Unknown authorUnknown author",
+   "date": "",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Huxisanxiaotu.jpg"
+  },
+  {
+   "src": "media/dunhuang/xian-shrine/2.jpg",
+   "thumb": "media/dunhuang/xian-shrine/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Photograph by Zhangzhugang, 2014.",
+   "artist": "Zhangzhugang",
+   "date": "2014",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Shanwei_Fengshan_Zumiao_2014.01.18_11-32-52.jpg"
+  },
+  {
+   "src": "media/dunhuang/xian-shrine/3.jpg",
+   "thumb": "media/dunhuang/xian-shrine/t3.jpg",
+   "w": 800,
+   "h": 530,
+   "kind": "photograph",
+   "caption": "Photograph by Popolon, 2014.",
+   "artist": "Popolon",
+   "date": "2014",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Qiang_folk_religion%27s_Silver_Turtle_Temple_at_Qiangshan,_in_Mao,_Ngawa,_Sichuan.jpg"
+  }
+ ],
+ "han-fort": [
+  {
+   "src": "media/dunhuang/han-fort/1.jpg",
+   "thumb": "media/dunhuang/han-fort/t1.jpg",
+   "w": 800,
+   "h": 530,
+   "kind": "photograph",
+   "caption": "Photograph by Popolon, 2013.",
+   "artist": "Popolon",
+   "date": "2013",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dunhuang.yumenguan.jpg"
+  },
+  {
+   "src": "media/dunhuang/han-fort/2.jpg",
+   "thumb": "media/dunhuang/han-fort/t2.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Kinesiska muren från Handynastin vid Yumenguan",
+   "artist": "Bairuilong",
+   "date": "2014",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hanmuren.JPG"
+  }
+ ],
+ "han-beacon": [],
+ "canal-head": [
+  {
+   "src": "media/dunhuang/canal-head/1.jpg",
+   "thumb": "media/dunhuang/canal-head/t1.jpg",
+   "w": 800,
+   "h": 364,
+   "kind": "painting",
+   "caption": "Painting by Unknown authorUnknown author, before 1353.",
+   "artist": "Unknown authorUnknown author",
+   "date": "before 1353",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%85%83_%E5%BF%BD%E5%93%A5%E8%B5%A4_%E5%92%8C_%E4%BD%9A%E5%90%8D_%E8%80%95%E7%A8%BC%E5%9C%96_%E5%8D%B7--Rice_Culture,_or_Sowing_and_Reaping_MET_DP122015.jpg"
+  },
+  {
+   "src": "media/dunhuang/canal-head/2.jpg",
+   "thumb": "media/dunhuang/canal-head/t2.jpg",
+   "w": 800,
+   "h": 364,
+   "kind": "painting",
+   "caption": "Painting by Unknown authorUnknown author, before 1353.",
+   "artist": "Unknown authorUnknown author",
+   "date": "before 1353",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%85%83_%E5%BF%BD%E5%93%A5%E8%B5%A4_%E5%92%8C_%E4%BD%9A%E5%90%8D_%E8%80%95%E7%A8%BC%E5%9C%96_%E5%8D%B7--Rice_Culture,_or_Sowing_and_Reaping_MET_DP122014.jpg"
+  },
+  {
+   "src": "media/dunhuang/canal-head/3.jpg",
+   "thumb": "media/dunhuang/canal-head/t3.jpg",
+   "w": 800,
+   "h": 365,
+   "kind": "painting",
+   "caption": "Painting by Unknown authorUnknown author, before 1353.",
+   "artist": "Unknown authorUnknown author",
+   "date": "before 1353",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%85%83_%E5%BF%BD%E5%93%A5%E8%B5%A4_%E5%92%8C_%E4%BD%9A%E5%90%8D_%E8%80%95%E7%A8%BC%E5%9C%96_%E5%8D%B7--Rice_Culture,_or_Sowing_and_Reaping_MET_DP122011.jpg"
+  },
+  {
+   "src": "media/dunhuang/canal-head/4.jpg",
+   "thumb": "media/dunhuang/canal-head/t4.jpg",
+   "w": 800,
+   "h": 363,
+   "kind": "painting",
+   "caption": "Painting by Unknown authorUnknown author, before 1353.",
+   "artist": "Unknown authorUnknown author",
+   "date": "before 1353",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%85%83_%E5%BF%BD%E5%93%A5%E8%B5%A4_%E5%92%8C_%E4%BD%9A%E5%90%8D_%E8%80%95%E7%A8%BC%E5%9C%96_%E5%8D%B7--Rice_Culture,_or_Sowing_and_Reaping_MET_DP122010.jpg"
+  },
+  {
+   "src": "media/dunhuang/canal-head/5.jpg",
+   "thumb": "media/dunhuang/canal-head/t5.jpg",
+   "w": 800,
+   "h": 364,
+   "kind": "painting",
+   "caption": "Painting by Unknown authorUnknown author, before 1353.",
+   "artist": "Unknown authorUnknown author",
+   "date": "before 1353",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "page": "https://commons.wikimedia.org/wiki/File:%E5%85%83_%E5%BF%BD%E5%93%A5%E8%B5%A4_%E5%92%8C_%E4%BD%9A%E5%90%8D_%E8%80%95%E7%A8%BC%E5%9C%96_%E5%8D%B7--Rice_Culture,_or_Sowing_and_Reaping_MET_DP122009.jpg"
+  }
+ ],
+ "spring-shrine": [
+  {
+   "src": "media/dunhuang/spring-shrine/1.jpg",
+   "thumb": "media/dunhuang/spring-shrine/t1.jpg",
+   "w": 800,
+   "h": 533,
+   "kind": "photograph",
+   "caption": "Taken right after the end of siren.",
+   "artist": "N509FZ",
+   "date": "2023",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Crescent_Lake_from_the_Singing_Sand_Dunes_(20230918101214).jpg"
+  },
+  {
+   "src": "media/dunhuang/spring-shrine/2.jpg",
+   "thumb": "media/dunhuang/spring-shrine/t2.jpg",
+   "w": 800,
+   "h": 800,
+   "kind": "photograph",
+   "caption": "Walden Pond, Massachusetts on June 27, 2012. This is a square crop of File:2012-06-27-Walden-Pond-02 33.jpg by User:Cbaile19.",
+   "artist": "Buaidh",
+   "date": "2017",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Walden_Pond,_Massachusetts_on_June_27,_2012.png"
+  }
+ ],
+ "mogao": [
+  {
+   "src": "media/dunhuang/mogao/1.jpg",
+   "thumb": "media/dunhuang/mogao/t1.jpg",
+   "w": 489,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Fragmentary silk painting of standing figure, Library Cave (Cave 17 of the Mogao Caves), 9th century, during the Imperial Tibetan rule (787–848) or the Guiyi Era (848–1036) of Dunhuang.",
+   "artist": "AnonymousUnknown author",
+   "date": "9th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Mogao_Christian_painting_(original_version).jpg"
+  },
+  {
+   "src": "media/dunhuang/mogao/2.jpg",
+   "thumb": "media/dunhuang/mogao/t2.jpg",
+   "w": 800,
+   "h": 581,
+   "kind": "painting",
+   "caption": "Sogdian Deities: Daēnā and Nanā, a line drawing sketch from Tunhwang preserved in the Bibliothèque nationale de France.",
+   "artist": "anonymous",
+   "date": "10th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Sogdian-Zoroastrian_Deities,_Tunhwang.jpg"
+  },
+  {
+   "src": "media/dunhuang/mogao/3.jpg",
+   "thumb": "media/dunhuang/mogao/t3.jpg",
+   "w": 800,
+   "h": 519,
+   "kind": "painting",
+   "caption": "Painting by Chinese artist(s) from the 10th century, 10th century.",
+   "artist": "Chinese artist(s) from the 10th century",
+   "date": "10th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Mogao_Cave_61,_painting_of_Mount_Wutai_monasteries.jpg"
+  },
+  {
+   "src": "media/dunhuang/mogao/4.jpg",
+   "thumb": "media/dunhuang/mogao/t4.jpg",
+   "w": 800,
+   "h": 543,
+   "kind": "painting",
+   "caption": "Celestial realm, Mokao Caves, Throana.",
+   "artist": "Unknown authorUnknown author",
+   "date": "between 618 and 907",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:T%27ang_Architecture_in_the_Mo-kao_Fresco_2.jpg"
+  },
+  {
+   "src": "media/dunhuang/mogao/5.jpg",
+   "thumb": "media/dunhuang/mogao/t5.jpg",
+   "w": 702,
+   "h": 800,
+   "kind": "painting",
+   "caption": "Tunhwang Buddhist donors, fresco at Cave 98 of the Mo-kao Caves.",
+   "artist": "Unknown authorUnknown author",
+   "date": "10th century",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "page": "https://commons.wikimedia.org/wiki/File:Buddhist_donors_from_Cave_98_at_Mo-kao.jpg"
+  }
+ ]
+}
