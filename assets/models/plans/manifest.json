@@ -6173,6 +6173,150 @@
   "size": 281.63,
   "w": 36.0
  },
+ "pataliputra/agam-kuan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 28.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 29.12,
+  "w": 28.0
+ },
+ "pataliputra/arogya-vihara": {
+  "cx": 0.0,
+  "cy": 0.28,
+  "d": 56.55,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "pataliputra/ashoka-pillar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 6.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 6.24,
+  "w": 6.0
+ },
+ "pataliputra/ashoka-stupa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 41.6,
+  "w": 40.0
+ },
+ "pataliputra/city-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 218,
+  "size": 72.8,
+  "w": 70.0
+ },
+ "pataliputra/gupta-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
+ "pataliputra/harbour": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 692,
+  "size": 230.78,
+  "w": 221.9
+ },
+ "pataliputra/kamaldah": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 36.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 37.44,
+  "w": 36.0
+ },
+ "pataliputra/kukkutarama": {
+  "cx": 0.11,
+  "cy": -0.0,
+  "d": 90.0,
+  "ext": "webp",
+  "px": 344,
+  "size": 114.63,
+  "w": 110.22
+ },
+ "pataliputra/mauryan-palace": {
+  "cx": 0.0,
+  "cy": 0.88,
+  "d": 171.75,
+  "ext": "webp",
+  "px": 749,
+  "size": 249.6,
+  "w": 240.0
+ },
+ "pataliputra/palisade": {
+  "cx": 0.0,
+  "cy": -0.28,
+  "d": 70.55,
+  "ext": "webp",
+  "px": 811,
+  "size": 270.4,
+  "w": 260.0
+ },
+ "pataliputra/pataligama": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "d": 200.5,
+  "ext": "webp",
+  "px": 936,
+  "size": 312.0,
+  "w": 300.0
+ },
+ "pataliputra/patna-fort": {
+  "cx": 0.0,
+  "cy": -3.0,
+  "d": 246.0,
+  "ext": "webp",
+  "px": 998,
+  "size": 332.8,
+  "w": 320.0
+ },
+ "pataliputra/pillared-hall": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "d": 81.0,
+  "ext": "webp",
+  "px": 253,
+  "size": 84.24,
+  "w": 60.0
+ },
+ "pataliputra/pillared-hall-ruin": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "d": 81.0,
+  "ext": "webp",
+  "px": 253,
+  "size": 84.24,
+  "w": 60.0
+ },
+ "pataliputra/sher-shah-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 62.4,
+  "w": 60.0
+ },
  "persepolis/apadana": {
   "cx": -0.06,
   "cy": 0.06,
