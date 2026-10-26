@@ -24,6 +24,17 @@ export function AtlasCard({ atlas, index, onClose }: { atlas: Atlas; index: numb
     addEventListener("chronoscape:pick-map", on);
     return () => (removeEventListener("chronoscape:pick-map", on), clearTimeout(timer));
   }, [atlas.id]);
+  // put the atlas back on a click anywhere outside this card (clicks in the 3D room are handled by the
+  // canvas: a click on the held atlas itself must keep it open, one on empty space closes it)
+  useEffect(() => {
+    const down = (e: PointerEvent) => {
+      const t = e.target as Element | null;
+      if (!t || root.current?.contains(t) || t.closest("canvas, .room-tip, .register, .room__top, .flight")) return;
+      onClose();
+    };
+    addEventListener("pointerdown", down);
+    return () => removeEventListener("pointerdown", down);
+  }, [onClose]);
   return (
     <aside ref={root} className="atlas-card" data-hud-block aria-label={atlas.title} style={{ ["--tie" as string]: atlas.color }}>
       <button className="atlas-card__close" onClick={onClose} aria-label="Put the atlas back">

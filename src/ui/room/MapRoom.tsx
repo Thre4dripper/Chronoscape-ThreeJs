@@ -60,9 +60,11 @@ export default function MapRoom() {
         dpr={[1, 1.75]}
         camera={{ fov: 30, near: 0.4, far: 80, position: [0, 3, 12] }}
         gl={{ antialias: true }}
-        onPointerMissed={() => {
+        onPointerMissed={(e) => {
           useRoom.getState().setHover(null);
           useRoom.getState().setTip(null);
+          // a click on empty space in the room puts an open atlas back on the shelf
+          if (e.type === "click" && useNav.getState().atlasId) openAtlas(null);
         }}
       >
         <color attach="background" args={["#d8c299"]} />
