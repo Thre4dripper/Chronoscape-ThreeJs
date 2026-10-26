@@ -3,6 +3,7 @@ import { useStore } from "./engine/store";
 import { syncFromUrl, useNav } from "./nav";
 import { TitlePage } from "./ui/title/TitlePage";
 import { Flight } from "./ui/Flight";
+import { useSeo } from "./seo";
 
 // three.js and everything 3D load only when they are needed
 const CityView = lazy(() => import("./CityView"));
@@ -16,6 +17,7 @@ export function App() {
   const loading = useStore((s) => s.loading);
   const error = useStore((s) => s.error);
 
+  useSeo();
   useEffect(() => {
     syncFromUrl();
     addEventListener("popstate", syncFromUrl);
