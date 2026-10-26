@@ -122,7 +122,7 @@ PERIODS = [
     dict(id="empire-100ce", label="High Empire", year=100, startYear=-26, endYear=192,
          summary="Trajan's Rome at its peak: marble over brick-faced concrete, fourteen regions, the Colosseum, the imperial fora, great baths, nine aqueducts and tenements six storeys high. The emperor rules from the Palatine; the Senate meets and obeys. Free grain, games and water for a million people fed by sea from Egypt and Africa.",
          population="about 1,000,000",
-         feel="Marble glare at noon, forty thousand tenements, the roar of the amphitheatre and the clatter of carts all night."),
+         feel="Marble glare at noon, tens of thousands of tenements, the roar of the amphitheatre and the clatter of carts all night."),
     dict(id="empire-215ce", label="Severan Rome", year=215, startYear=193, endYear=284,
          summary="The Severan city: Caracalla's enormous baths, the Septizodium, a marble plan of every street displayed in the Temple of Peace. Still a million people on the dole, now with free oil too; soldier-emperors from Africa and Syria, gilded brick and coloured marble. The Aurelian Walls (271–275) will soon enclose a city that has begun to fear the north.",
          population="perhaps 1,000,000",
@@ -159,20 +159,20 @@ SPOTS = [
     dict(id="vesta-and-regia", name="Temple of Vesta and the Regia", kind="shrine", latlon=(41.8919, 12.4863), activePeriods=["kingdom-600bce"] + ANCIENT,
          summary="The round hearth-temple of Vesta, tended by six Vestal Virgins, and the Regia, the old 'king's house' used by the pontifex maximus: the religious centre of the Forum from the 7th century BCE.",
          details=[
-             "The Regia was built over archaic huts around 600 BCE and kept its odd trapezoidal plan through every rebuilding; it held the calendar, the spears of Mars and the pontifical archive. Vesta's temple, round like the first huts, sheltered the state hearth that must never go out. Both were last rebuilt by Julia Domna after the fire of 191 CE.",
+             "The Regia, built over archaic huts around 600 BCE, kept its odd trapezoidal plan through every rebuilding; it held the spears of Mars and the pontifical archive. Vesta's round temple sheltered the state hearth that must never go out. The Regia was rebuilt in marble in 36 BCE, Vesta's temple by Julia Domna after 191 CE.",
              "Beside the temple stood the House of the Vestals; a storeroom (penus) held the sacred objects. The miniature shows the imperial marble temple; the archaic version, probably thatched and wooden, is a reconstruction. The cult ended in 394 CE and the buildings fell into ruin.",
          ],
          confidence="documented", sourceIds=["wiki-vesta", "wiki-regia", "ovid-fasti", "coarelli"],
          vignettes=[
              dict(hour=6, text="A Vestal in white, hair bound in six braids, feeds the hearth with dry wood; smoke rises through the roof opening. A lictor waits outside to walk her across the Forum."),
-             dict(hour=12, text="On the Kalends, priests gather at the Regia to announce the month's festivals. Matrons bring offerings; on 9 June, the Vestalia, bakers' donkeys pass garlanded with loaves."),
+             dict(hour=12, text="On the Kalends the queen of sacred rites sacrifices to Juno in the Regia. Matrons bring offerings; on 9 June, the Vestalia, bakers' donkeys pass garlanded with loaves."),
              dict(hour=20, text="Dusk: the temple door is barred; the hearth glow shows through the lattice. Vestals walk back the few metres to their house under the Palatine, lictors ahead."),
          ],
          variants={}),
     dict(id="lacus-curtius", name="Lacus Curtius", kind="shrine", latlon=(41.8925, 12.4851), activePeriods=ANCIENT,
          summary="A walled pit in the middle of the Forum, the last trace of its marsh, named for a Curtius who, legend says, rode fully armed into a chasm to save the city.",
          details=[
-             "Romans told three stories: the Sabine Mettius Curtius bogged in the marsh, the youth Marcus Curtius who leapt into a chasm in 362 BCE, and a consul who fenced a lightning-struck spot. The surviving pavement and twelve-sided well-head are Augustan; a relief (a copy stands in the Forum) shows the horseman.",
+             "Romans told three stories: the Sabine Mettius Curtius bogged in the marsh, the youth Marcus Curtius who leapt into a chasm in 362 BCE, and a consul who fenced a lightning-struck spot. The surviving paving and enclosure are Augustan; a relief (a copy stands in the Forum) shows the horseman.",
              "Suetonius says that every year people of all ranks threw a coin into the Lacus for Augustus's health. In 69 CE the emperor Galba was cut down beside it. The miniature shows an altar and fenced enclosure; its exact form before the Augustan paving is uncertain.",
          ],
          confidence="documented", sourceIds=["wiki-lacus-curtius", "suetonius", "pliny-nh", "claridge"],
@@ -289,7 +289,7 @@ SPOTS = [
     dict(id="forum-boarium-market", name="Cattle market (Forum Boarium)", kind="market", latlon=(41.8896, 12.4818), activePeriods=["kingdom-600bce"] + ANCIENT,
          summary="The cattle market by the river landing, Rome's oldest trading ground, with the Ara Maxima of Hercules where merchants paid tithes, and a famous bronze bull.",
          details=[
-             "Here the Tiber ford, the salt road and the roads from Etruria and Latium met below the Palatine. Greek and Phoenician traders were present by the 6th century BCE; the twin archaic temples at Sant'Omobono date from about 580 BCE. Livestock from Latium was sold on the hoof; the first gladiatorial games were held here in 264 BCE.",
+             "Here the Tiber ford, the salt road and the roads from Etruria and Latium met below the Palatine. Greek and Phoenician traders were present by the 6th century BCE; the archaic temple at Sant'Omobono dates from the 6th century BCE. Livestock from Latium was sold on the hoof; the first gladiatorial games were held here in 264 BCE.",
              "The temples of Portunus and Hercules Victor (the round one) survive from the 2nd–1st centuries BCE. In 228 and 216 BCE two Gauls and two Greeks were buried alive here on the Sibylline books' orders. The miniature shows pens and a bronze bull; the market's edges are approximate.",
          ],
          confidence="documented", sourceIds=["wiki-forum-boarium", "livy", "coarelli", "cornell"],
@@ -316,7 +316,7 @@ SPOTS = [
          summary="Nero's great provision market on the Caelian (59 CE): a colonnaded court with a two-storey domed pavilion, selling fish, meat and delicacies to Rome's richest tables.",
          details=[
              "The macellum was the up-market food hall, distinct from the open forum markets; Rome had two, Livia's on the Esquiline and Nero's on the Caelian. A coin of 63–64 CE shows the Macellum Magnum as a round two-storey tholos inside a portico. Fishmongers, butchers and poulterers sold from marble tables, meat hung from hooks.",
-             "Its site is roughly where Santo Stefano Rotondo stands, though the church is not built on it. Juvenal mocks the gourmet who ruins himself at the macellum. The miniature follows the coin image and the excavated macella of Pompeii and Pozzuoli; the detail is reconstruction.",
+             "It stood on the Caelian, probably near Santo Stefano Rotondo, though the church is not built on it. Juvenal mocks the gourmet who ruins himself at the macellum. The miniature follows the coin image and the excavated macella of Pompeii and Pozzuoli; the detail is reconstruction.",
          ],
          confidence="reconstruction", sourceIds=["wiki-macellum-magnum", "juvenal", "holleran", "richardson"],
          vignettes=[
@@ -329,7 +329,7 @@ SPOTS = [
          summary="Rome's river port below the Aventine, built from 193 BCE: a long stone quay with mooring rings and ramps, warehouses behind, and gangs of porters carrying grain, oil and marble.",
          details=[
              "The aediles Aemilius Lepidus and Aemilius Paullus laid out the Emporium in 193 BCE with the vast vaulted Porticus Aemilia behind it; the quay was paved in 174 BCE. Barges (codicariae) towed upriver from Ostia, later Portus, by oxen or men unloaded here. The Horrea Galbana stored grain, oil and wine for the city.",
-             "Porters (saccarii) worked in guilds; a sack of grain weighed about 30 kg. Travertine quay blocks with rings and stepped ramps survive on the Lungotevere Testaccio. The miniature shows the quay, a stretch of warehouse and barges; the warehouses are reduced in scale.",
+             "Porters (saccarii) worked in guilds and were paid by the load. Travertine quay blocks with rings and stepped ramps survive on the Lungotevere Testaccio. The miniature shows the quay, a stretch of warehouse and barges; the warehouses are reduced in scale.",
          ],
          confidence="documented", sourceIds=["livy", "wiki-porticus-aemilia", "rickman", "claridge"],
          vignettes=[
@@ -367,7 +367,7 @@ SPOTS = [
     dict(id="pons-sublicius", name="Pons Sublicius (the wooden bridge)", kind="works", latlon=(41.8880, 12.4782), activePeriods=["kingdom-600bce"] + ANCIENT,
          summary="Rome's oldest bridge, all wood and no iron, kept by the pontiffs as a sacred thing: the crossing Horatius held, from which straw puppets were thrown each May.",
          details=[
-             "Tradition gives it to King Ancus Marcius (7th century BCE). Pliny says it could contain no iron, so that it could be cut quickly in war, and the pontifices repaired it with rites. Horatius Cocles held it against Porsenna in 508 BCE. On 14 May the Vestals threw 27 rush puppets (Argei) from it into the river.",
+             "Tradition gives it to King Ancus Marcius (7th century BCE). Pliny says it could contain no iron, perhaps so it could be cut quickly, and the pontifices repaired it with rites. Horatius Cocles held it against Porsenna (508 BCE). On the Ides of May the Vestals threw rush puppets (the Argei, 27 by Varro's count) from it into the river.",
              "It was carried away by floods again and again (23 BCE, 69 CE) and always rebuilt in wood; its exact site is debated, probably just below the Pons Aemilius near the Forum Boarium. The miniature shows a timber trestle bridge; piers and width are a reconstruction.",
          ],
          confidence="documented", sourceIds=["wiki-sublicius", "pliny-nh", "ovid-fasti", "livy"],
@@ -400,7 +400,7 @@ SPOTS = [
          vignettes=[
              dict(hour=5, text="Lamps hang from the portico while it is still dark; boys chant syllables after the master, a slave paedagogus waits outside with each child's lunch. The cane lies ready."),
              dict(hour=11, text="Midday break: the master dismisses them to the street; tablets are smoothed with the stylus end. The neighbours, Martial says, would pay him to be quiet."),
-             dict(hour=16, text="Afternoon: counting on the abacus, pebbles clicking; a girl reads Virgil haltingly. From midsummer the bench will stay empty until October."),
+             dict(hour=16, text="Afternoon: counting on the abacus, pebbles clicking; a girl reads a line of verse haltingly. From midsummer the bench will stay empty until October."),
          ],
          variants={}),
     dict(id="fullonica", name="Fuller's workshop (laundry and dye-works)", kind="workshop", latlon=(41.8902, 12.4862), activePeriods=LATE_REP_ON,
@@ -432,8 +432,8 @@ SPOTS = [
     dict(id="saepta-julia", name="Saepta Julia (voting hall, later a luxury market)", kind="civic", latlon=(41.8975, 12.4786), activePeriods=["republic-50bce"] + IMPERIAL,
          summary="Agrippa's marble-colonnaded enclosure in the Campus Martius (26 BCE) for citizens to vote, soon better known as Rome's most fashionable shopping arcade, where Martial's Mamurra browsed all day.",
          details=[
-             "Caesar planned a marble voting pen to replace the wooden Ovile; Agrippa finished it, 310 by 120 m, with the Diribitorium beside it for counting. Voting mattered less after Augustus, and the long porticoes filled with dealers in ivory, bronzes, silver, slaves and tortoiseshell. Gladiators and even a naval show were staged here.",
-             "Martial has Mamurra handle the best boys and tables, price a vase and buy two cheap cups. Hadrian restored it after fires. Its east wall survives beside the Pantheon. The miniature shows the enclosure with shops in the colonnades; the interior courtyard is simplified.",
+             "Caesar planned a marble voting pen to replace the wooden Ovile; Agrippa finished it, 310 by 120 m, with the Diribitorium beside it for counting. Voting mattered less after Augustus, and the long porticoes filled with dealers in ivory, bronzes, silver, slaves and tortoiseshell. Augustus staged gladiatorial games here.",
+             "Martial has Mamurra handle the best boys and tables, price a vase and buy two cheap cups. Hadrian restored it after fires. Stretches of its walls survive just east of the Pantheon. The miniature shows the enclosure with shops in the colonnades; the interior courtyard is simplified.",
          ],
          confidence="documented", sourceIds=["wiki-saepta", "martial", "holleran", "claridge"],
          vignettes=[
@@ -575,7 +575,7 @@ SPOTS = [
     dict(id="campo-de-fiori", name="Campo de' Fiori", kind="market", latlon=(41.8956, 12.4722), activePeriods=LATER,
          summary="A meadow over the ruins of Pompey's theatre that became, after paving in 1456, the city's liveliest square: horse market, inns, booksellers, hangings and, at every corner, a tavern.",
          details=[
-             "The name (field of flowers) describes it in 1300: pasture and gardens between the Orsini fortress built into the theatre's cavea and the river quarter. Cardinal Scarampo paved it under Callixtus III in 1456; Sixtus IV's new streets made it the hub of Parione. Horse and hay markets met here twice a week.",
+             "The name (field of flowers) describes it in 1300: pasture and gardens between the Orsini fortress built into the theatre's cavea and the river quarter. It was paved under Callixtus III in 1456; Sixtus IV's new streets made it the hub of Parione. Horse and hay markets met here.",
              "Vannozza Cattanei, mother of the Borgia children, ran the Hostaria della Vacca on a corner. Executions were held here from the 15th century; Giordano Bruno was burned here in 1600. The miniature shows a paved square with inns, stalls and a gallows; stall positions are reconstruction.",
          ],
          confidence="documented", sourceIds=["wiki-campo-de-fiori", "partner", "stinger", "census-1527"],
@@ -614,7 +614,7 @@ SPOTS = [
     dict(id="pilgrim-hostels", name="Pilgrims' hostels on Via del Pellegrino", kind="inn", latlon=(41.8968, 12.4706), activePeriods=LATER,
          summary="Inns and national hospices along the pilgrims' way to St Peter's, named Via del Pellegrino when Sixtus IV straightened it in 1483: beds in rows, soup, relics for sale and fleas.",
          details=[
-             "The Jubilee of 1300 brought, Villani says, 200,000 pilgrims; Dante describes the crowd control on Ponte Sant'Angelo. Hospices were founded by nations (the Saxons at Santo Spirito, the English in 1362 on today's Via di Monserrato, the Germans at Santa Maria dell'Anima in 1386), and private inns packed the street.",
+             "The Jubilee of 1300 brought, Villani says, 200,000 pilgrims; Dante describes the crowd control on Ponte Sant'Angelo. Hospices were founded by nations (the Saxons at Santo Spirito, the English in 1362 on today's Via di Monserrato, the Germans and Netherlanders at Santa Maria dell'Anima from 1350), and private inns packed the street.",
              "Sixtus IV's Via Peregrinorum (1483) ran from Campo de' Fiori toward the bridge; goldsmiths, innkeepers and rosary-sellers lived along it in the 1526 census. The miniature shows an inn with a courtyard and a hospice with a dormitory; individual inns are not located.",
          ],
          confidence="documented", sourceIds=["mirabilia", "partner", "census-1527", "hibbert"],
@@ -736,7 +736,7 @@ SPOTS = [
          ],
          confidence="documented", sourceIds=["krautheimer", "lanciani-destruction", "mirabilia", "wiki-roman-forum"],
          vignettes=[
-             dict(hour=6, text="Cowherds from the Campagna drive oxen in through the half-buried Arch of Septimius Severus; the field is wet. A friar at Santa Maria Nova rings for matins."),
+             dict(hour=6, text="Cowherds from the Campagna drive oxen in past the half-buried Arch of Septimius Severus; the field is wet. A monk at Santa Maria Nova rings for matins."),
              dict(hour=12, text="Cattle market in the shade of the three columns; a dealer counts beasts by the Arch of Titus, a lime-burner's cart picks over a marble cornice in the ditch."),
              dict(hour=20, text="Mist and the smell of cattle; an antiquary with a lantern measures a buried capital. In the Mamertine chapel, a lamp; bats under the Basilica of Maxentius."),
          ],
@@ -784,7 +784,7 @@ SPOTS = [
          summary="A straight new street a kilometre long, cut by Julius II and Bramante from 1508 along the Tiber bend: palaces, the Florentine church, the unfinished Palace of the Tribunals, and the fashionable evening walk.",
          details=[
              "Julius II wanted to concentrate the law courts in one palace and give the Florentine bankers a straight road to the Vatican bridge. The Palazzo dei Tribunali was abandoned at its rusticated base (the 'sofas' of Via Giulia). San Giovanni dei Fiorentini was begun in 1519; Antonio da Sangallo the Younger built his own house here.",
-             "By 1560 Via Giulia was a street of bankers, courtesans and prelates, paved and lined with palaces (Palazzo Sacchetti, 1542). The Farnese arch and the prisons came later. The miniature shows the straight street with palaces and a church under construction; façades are simplified.",
+             "By 1560 Via Giulia was a street of bankers, courtesans and prelates, lined with palaces such as Sangallo's house, later Palazzo Sacchetti. The Farnese arch and the prisons came later. The miniature shows the straight street with palaces and a church under construction; façades are simplified.",
          ],
          confidence="documented", sourceIds=["wiki-via-giulia", "partner", "stinger", "hibbert"],
          vignettes=[
@@ -794,9 +794,9 @@ SPOTS = [
          ],
          variants={}),
     dict(id="osteria-dell-orso", name="Osteria dell'Orso (inn)", kind="inn", latlon=(41.9028, 12.4720), activePeriods=["renaissance-1560"],
-         summary="A tall 15th-century inn by the Ripetta landing, the best address for travellers arriving by river: Montaigne took rooms here in 1580 before finding lodgings in the city.",
+         summary="A tall 15th-century inn near the river above Ponte Sant'Angelo, well placed for travellers arriving from the north: Montaigne took rooms here in 1580 before finding lodgings in the city.",
          details=[
-             "The Hostaria dell'Orso, 'at the sign of the bear', occupies a house of about 1460 on the corner of Via dei Soldati and Via di Monte Brianzo, with a loggia and painted façade. Travellers landing from Umbria and the upper Tiber found it first; it fed and stabled them, and charged accordingly.",
+             "The Hostaria dell'Orso, 'at the sign of the bear', occupies a house of about 1460 on the corner of Via dei Soldati and Via di Monte Brianzo, with a loggia and painted façade. Travellers coming down the Via Flaminia or by river from upstream found it early; it fed and stabled them, and charged accordingly.",
              "Tradition adds Dante and Rabelais to the guest list; Montaigne's Journal is the sure witness. Inns were regulated by the city: posted prices, no gambling, no women of ill fame. The miniature shows the inn with its arcaded ground floor and stable yard; the yard is reconstruction.",
          ],
          confidence="documented", sourceIds=["wiki-hostaria-orso", "montaigne", "partner", "delumeau"],
@@ -809,14 +809,14 @@ SPOTS = [
     dict(id="scalae-aracoeli", name="Market stalls at the foot of the Aracoeli stairs", kind="market", latlon=(41.8942, 12.4822), activePeriods=["renaissance-1560"],
          summary="At the foot of the 124 marble steps built in 1348, stalls and criers of the old Capitoline market linger below the hill where Michelangelo's new piazza is being laid out.",
          details=[
-             "The stairs were built in thanksgiving for the end of the plague of 1348; Cola di Rienzo climbed them first and was killed near their foot in 1354. The Capitol was the city's market until Sixtus IV moved the market to Piazza Navona in 1477; fruit-sellers, criers and notaries stayed on at the foot.",
-             "From 1536 Michelangelo's design transformed the hilltop; in 1560 the cordonata and the Senator's palace stairs were under way. Public notices were cried here and criminals' sentences posted. The miniature shows stalls on a sloping piazza with the stairs behind; stall positions are reconstruction.",
+             "The stairs were built in 1348, traditionally as thanks for surviving the Black Death; Cola di Rienzo was killed on the Capitol nearby in 1354. The Capitol was the city's market until Sixtus IV moved the market to Piazza Navona in 1477; fruit-sellers, criers and notaries stayed on at the foot.",
+             "From 1538 Michelangelo's design began to transform the hilltop; by 1560 the Senator's palace stairs were built, the cordonata ramp not yet. Public notices were cried here and criminals' sentences posted. The miniature shows stalls on a sloping piazza with the stairs behind; stall positions are reconstruction.",
          ],
          confidence="reconstruction", sourceIds=["wiki-aracoeli", "wiki-cola", "krautheimer", "stinger"],
          vignettes=[
              dict(hour=6, text="Greengrocers from the disabitato set out figs and greens at the foot of the stairs; a Franciscan from the Aracoeli comes down to buy bread. Cattle lowing from the Forum behind."),
              dict(hour=12, text="The city crier reads a bando of the Conservators; a notary draws up a contract on a stall; children race up the 124 steps. Marble dust drifts from the works above."),
-             dict(hour=19, text="Stalls folded; a beggar sleeps on the lowest step. Vespers from Santa Maria in Aracoeli drift down; a lantern climbs the cordonata toward the Senator's palace."),
+             dict(hour=19, text="Stalls folded; a beggar sleeps on the lowest step. Vespers from Santa Maria in Aracoeli drift down; a lantern climbs the old path toward the Senator's palace."),
          ],
          variants={}),
 ]

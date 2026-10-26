@@ -191,7 +191,7 @@
     ],
     "radius": 320,
     "label": true,
-    "blurb": "Long ridge south-east of the Forum, named for the Etruscan Caelius Vibenna. Senatorial mansions and the Temple of Claudius under the Empire; later churches among vineyards, like Santo Stefano Rotondo."
+    "blurb": "Long ridge south-east of the Forum, said to be named for the Etruscan Caelius Vibenna. Imperial mansions and the Temple of Claudius; later churches among vineyards."
    },
    {
     "id": "esquiline-hill",
@@ -202,7 +202,7 @@
     ],
     "radius": 420,
     "label": true,
-    "blurb": "Rome's biggest hill, with three spurs: Oppian, Cispian and Fagutal. Once the paupers' cemetery, then Maecenas's gardens, Nero's Golden House, Trajan's Baths and Santa Maria Maggiore."
+    "blurb": "Rome's biggest hill, with two spurs, the Oppian (and Fagutal) and Cispian. Once the paupers' cemetery, then Maecenas's gardens, Nero's Golden House, Trajan's Baths and Santa Maria Maggiore."
    },
    {
     "id": "viminal",
@@ -490,7 +490,7 @@
      "empire-215ce",
      "late-400ce"
     ],
-    "blurb": "The Via Flaminia's straight run through the Campus Martius to the Capitoline, 'the broad street'. Imperial arches spanned it; it became the Corso, medieval Rome's racecourse."
+    "blurb": "The Via Flaminia's straight run through the Campus Martius to the Capitoline, 'the broad street'. Imperial arches spanned it; from the 1460s it was the Corso, the Carnival racecourse."
    },
    {
     "id": "corso",
@@ -3193,7 +3193,7 @@
       2836
      ]
     ],
-    "description": "The crowded valley between the Esquiline, Viminal and Quirinal, reached via the Argiletum. Tall tenements, shops, taverns and brothels; Martial calls it loud, Juvenal fled it. Julius Caesar grew up here. The Forum of Augustus's firewall shut it off from the marble centre.",
+    "description": "The crowded valley between the Esquiline, Viminal and Quirinal, reached via the Argiletum. Tall tenements, shops, taverns and brothels; Martial calls it loud; Juvenal would prefer a barren island. Caesar grew up here. Augustus's firewall shut it off from the marble centre.",
     "periods": [
      "republic-200bce",
      "republic-50bce",
@@ -3412,7 +3412,7 @@
       3836
      ]
     ],
-    "description": "The long ridge south-east of the Colosseum: in the Republic a hill of ordinary houses and tufa quarries, under the Empire a quiet quarter of senators' mansions, the Castra Peregrina barracks and the vast Temple of Claudius. Churches like San Clemente rose on their ruins.",
+    "description": "The long ridge south-east of the Colosseum: in the Republic ordinary houses and tufa quarries, under the Empire a quiet quarter of senators' mansions, the Castra Peregrina and the vast Temple of Claudius. Churches like Santi Giovanni e Paolo rose on their ruins.",
     "periods": [
      "republic-200bce",
      "republic-50bce",
@@ -3631,7 +3631,7 @@
       2891
      ]
     ],
-    "description": "The smallest hill and the state's religious heart: the Temple of Jupiter Optimus Maximus on one summit, the Arx and Juno Moneta on the other, the Tabularium between. The medieval Senators' Palace sat on the Tabularium; Michelangelo's piazza remade it as civic Rome.",
+    "description": "A small, steep hill and the state's religious heart: the Temple of Jupiter Optimus Maximus on one summit, the Arx and Juno Moneta on the other, the Tabularium between. The medieval Senators' Palace sat on the Tabularium; Michelangelo's piazza remade it as civic Rome.",
     "periods": [
      "kingdom-600bce",
      "republic-200bce",
@@ -3913,7 +3913,7 @@
    "endYear": 192,
    "summary": "Trajan's Rome at its peak: marble over brick-faced concrete, fourteen regions, the Colosseum, the imperial fora, great baths, nine aqueducts and tenements six storeys high. The emperor rules from the Palatine; the Senate meets and obeys. Free grain, games and water for a million people fed by sea from Egypt and Africa.",
    "population": "about 1,000,000",
-   "feel": "Marble glare at noon, forty thousand tenements, the roar of the amphitheatre and the clatter of carts all night."
+   "feel": "Marble glare at noon, tens of thousands of tenements, the roar of the amphitheatre and the clatter of carts all night."
   },
   {
    "id": "empire-215ce",
@@ -4115,10 +4115,10 @@
      }
     },
     "empire-100ce": {
-     "note": "Augustus's marble Forum: the Temple of Divine Julius closes the east end beside the Arch of Augustus; the rebuilt Basilicas Aemilia and Julia, the Temple of Vespasian and Domitian's equestrian statue (91 CE)."
+     "note": "Augustus's marble Forum: the Temple of Divine Julius at the east end, the rebuilt Basilicas Aemilia and Julia, the Temple of Vespasian. Domitian's equestrian statue (c. 91 CE) fell after his murder in 96."
     },
     "empire-215ce": {
-     "note": "The Arch of Septimius Severus (203 CE) dominates the west end. The square is crammed with honorific columns and statues; Vesta's temple and the Regia were rebuilt after the fire of 191 CE."
+     "note": "The Arch of Septimius Severus (203 CE) dominates the west end. The square is crammed with honorific columns and statues; Julia Domna rebuilt Vesta's temple after the fire of 191 CE."
     },
     "late-400ce": {
      "note": "Still kept up: Diocletian's rebuilt Curia and Basilica Julia, seven honorific columns before the Basilica Julia, restored statues. Temples were closed by law in 391 CE but the buildings stand intact."
@@ -4262,18 +4262,18 @@
      "confidence": "interpretation"
     },
     "empire-100ce": {
-     "note": "Plancus's temple: six Ionic columns across the front, a high podium with the treasury vaults inside, and the long stair up from the Forum. The Clivus Capitolinus climbs past its flank."
+     "note": "Plancus's temple: probably six Ionic columns across the front, a high podium with the treasury vaults inside, and the long stair up from the Forum. The Clivus Capitolinus climbs past its flank."
     },
     "empire-215ce": {
      "note": "Unchanged in form; the treasury remains here in name even though real money sits in the imperial fiscus. Its bulk closes the west end of the Forum below the Capitoline."
     },
     "late-400ce": {
      "name": "Temple of Saturn (restored)",
-     "note": "Rebuilt after a fire with second-hand granite columns and clumsily cut Ionic capitals; the architrave records the Senate's restoration. One of the last pagan temples maintained by Rome's senators."
+     "note": "Rebuilt after a fire (probably that of 360 CE) with second-hand granite columns and clumsily cut Ionic capitals; the architrave records the Senate's restoration. One of the last pagan temples maintained by Rome's senators."
     },
     "medieval-1300": {
      "name": "Ruins of the Temple of Saturn",
-     "note": "The cella is gone; the eight-columned front stands half-buried at the edge of the Campo Vaccino. The podium is quarried for marble and lime, and a lane passes under the columns.",
+     "note": "The cella is gone; the porch, six columns across and two deep, stands half-buried at the edge of the Campo Vaccino. The podium is quarried for marble and lime; a lane passes under the columns.",
      "model": {
       "glb": "models/rome/temple-of-saturn-ruin.glb",
       "fallback": {
@@ -4304,9 +4304,9 @@
      }
     }
    },
-   "summary": "Among the oldest temples of the Forum, dedicated c. 497 BCE and housing the state treasury; its eight surviving granite columns belong to a rebuilding after a fire in the 4th century CE.",
+   "summary": "Among the oldest temples of the Forum, dedicated c. 497 BCE and housing the state treasury; its eight surviving granite columns belong to a rebuilding after a fire, probably in 360 CE.",
    "details": [
-    "Tradition dates the dedication to 497 BCE. Lucius Munatius Plancus rebuilt it in 42 BCE on a high podium that still survives. After a fire in the 4th century CE the front was patched together from reused columns of grey and pink granite with ill-matching Ionic capitals; the architrave inscription records that 'the Senate and People of Rome restored what fire had consumed'.",
+    "Tradition dates the dedication to 497 BCE. Lucius Munatius Plancus rebuilt it in 42 BCE on a high podium that still survives. After a fire, probably in 360 CE, the front was patched together from reused columns of grey and pink granite with ill-matching Ionic capitals; the architrave inscription records that 'the Senate and People of Rome restored what fire had consumed'.",
     "The miniature shows the Plancus temple: a hexastyle Ionic front on a tall podium with steps rising from the Forum side, the treasury vaults inside the podium. For the Republic the earlier form is conjectural; for 400 CE the model reuses the same mass with the patched columns of the restoration. Medieval and Renaissance periods show the stripped front standing in the field, as in 16th-century drawings."
    ],
    "built": "Dedicated c. 497 BCE; rebuilt 42 BCE; restored after fire, late 4th century CE",
@@ -4413,7 +4413,7 @@
     },
     "late-400ce": {
      "name": "Curia (Diocletian's rebuilding)",
-     "note": "Diocletian's rebuilding (c. 303 CE): the surviving hall, 25 m high, with marble opus sectile floor and three tiers of seats. The Altar of Victory, removed in 382 CE, caused the last great pagan-Christian dispute."
+     "note": "Diocletian's rebuilding (c. 303 CE): the surviving hall, about 21 m high, with opus sectile floor and three tiers of seats. The Altar of Victory, removed in 382 CE, caused the last great pagan-Christian dispute."
     },
     "medieval-1300": {
      "name": "Sant'Adriano al Foro",
@@ -4431,7 +4431,7 @@
     },
     "renaissance-1560": {
      "name": "Sant'Adriano al Foro",
-     "note": "Still Sant'Adriano, a parish church of the Campo Vaccino with a campanile. The ancient brick walls remain untouched; Borromini's Baroque remodelling and the removal of the bronze doors to the Lateran come in 1660.",
+     "note": "Still Sant'Adriano, a parish church of the Campo Vaccino with a campanile. The ancient brick walls are untouched; a Baroque remodelling and the removal of the bronze doors to the Lateran (1660) lie ahead.",
      "model": {
       "glb": "models/rome/curia-church.glb",
       "fallback": {
@@ -4447,7 +4447,7 @@
    "summary": "The Senate House of Rome: the Curia Hostilia of the kings, rebuilt by Sulla, replaced by Caesar's Curia Julia (29 BCE), rebuilt by Diocletian, and preserved as the church of Sant'Adriano.",
    "details": [
     "The Curia Hostilia, attributed to King Tullus Hostilius, stood on the north side of the Comitium. Sulla enlarged it (Curia Cornelia) c. 80 BCE; it burned in 52 BCE at Clodius's funeral. Caesar started the Curia Julia on a new alignment in 44 BCE; Augustus dedicated it in 29 BCE. After the fire of 283 CE Diocletian rebuilt it, and that brick hall survives, converted into Sant'Adriano in 630 CE.",
-    "The imperial miniature follows the standing building: a plain brick box 25 m high with a gabled roof, a tall door and three windows over a marble-faced lower facade. The Curia Hostilia is far less certain, resting on excavations under the Comitium and later descriptions, so that model is an interpretation. The church keeps the shell, with a bell tower and a floor raised above the Forum silt."
+    "The imperial miniature follows the standing building: a plain brick box about 21 m high with a gabled roof, a tall door and three windows over a marble-faced lower facade. The Curia Hostilia is far less certain, resting on excavations under the Comitium and later descriptions, so that model is an interpretation. The church keeps the shell, with a bell tower and a floor raised above the Forum silt."
    ],
    "built": "Curia Hostilia 7th century BCE (traditional); Curia Julia 44–29 BCE; rebuilt by Diocletian after 283 CE",
    "function": "Senate house; church from 630 CE",
@@ -4517,7 +4517,7 @@
      }
     },
     "republic-200bce": {
-     "note": "The archaic temple: wooden columns and beams, painted terracotta revetments, Vulca's clay Jupiter, and a terracotta four-horse chariot on the gable. Triumphs end on its steps; the Sibylline Books are kept inside.",
+     "note": "The archaic temple: timber beams, painted terracotta revetments, Vulca's clay Jupiter, and the Ogulnii's bronze Jupiter in a four-horse chariot (296 BCE) on the roof. Triumphs end on its steps.",
      "confidence": "interpretation",
      "model": {
       "glb": "models/rome/temple-of-jupiter-archaic.glb",
@@ -4551,7 +4551,7 @@
      "note": "Domitian's gleaming temple unchanged, visible from the whole city. Caracalla and his successors still climb the Clivus Capitolinus for the annual vows and triumphs; the Capitoline Games continue."
     },
     "late-400ce": {
-     "note": "Still standing, still gilded, admired by Ammianus in 357 CE, but closed to sacrifice after 391 CE. Stilicho stripped the gold from its doors c. 400; the Vandals take the gilded tiles in 455."
+     "note": "Still standing, still gilded, admired by Ammianus in 357 CE, but closed to sacrifice after 391 CE. Zosimus says Stilicho stripped gold from its doors (c. 408); the Vandals take the gilded tiles in 455."
     },
     "medieval-1300": {
      "note": "Gone, quarried away. The southern summit is Monte Caprino, 'goat hill', with houses and vegetable plots; the podium's tufa blocks survive only in cellars and will be found under Palazzo Caffarelli."
@@ -4560,7 +4560,7 @@
    "summary": "The great temple on the Capitoline, Rome's chief sanctuary, vowed by the Tarquin kings and dedicated in 509 BCE: the largest Etruscan-style temple in Italy, rebuilt in marble after fires in 83 BCE, 69 CE and 80 CE.",
    "details": [
     "Begun by the Tarquin kings and dedicated in 509 BCE, it stood on a podium about 53 by 62 m, still partly visible under Palazzo Caffarelli. Three cellae housed Jupiter, Juno and Minerva behind a deep triple colonnade, under a terracotta roof. It burned in 83 BCE, was rededicated by Catulus in 69 BCE, burned again in 69 and 80 CE, and Domitian rebuilt it in marble with gilded tiles.",
-    "The miniature reconstructs the plan from the podium and from coins: a wide low temple with six columns across the front, three deep, and a broad gable. Elevation and decoration are debated; the archaic version with terracotta acroteria and the four-horse chariot on the roof follows Pliny and Livy. The site has been built over since the Middle Ages, so nothing of the superstructure is shown for 1300 or 1560."
+    "The miniature reconstructs the plan from the podium and from coins: a wide low temple with six columns across the front, three deep, and a broad gable. Elevation and decoration are debated; the archaic version with terracotta acroteria and a four-horse chariot on the roof follows Pliny and Livy. The site has been built over since the Middle Ages, so nothing of the superstructure is shown for 1300 or 1560."
    ],
    "built": "Dedicated 509 BCE; rebuilt 69 BCE, 75 CE (Vespasian) and after 80 CE (Domitian)",
    "function": "State temple of Jupiter, Juno and Minerva; goal of triumphal processions",
@@ -4617,10 +4617,10 @@
      "note": "Brand new: three tiers of arches, travertine gleaming white, gilded shields on the attic, statues in the arcades. The hypogeum below the arena is finished; Domitian's and Trajan's games draw the city."
     },
     "empire-215ce": {
-     "note": "Still complete and in full use under Caracalla, hosting beast hunts he himself joins. In 217 CE lightning will set the upper timber seating ablaze; repairs continue to 240 CE."
+     "note": "Still complete and in full use under Caracalla, who, Dio says, killed beasts in the arena himself. In 217 CE lightning will set the upper timber seating ablaze; repairs continue to 240 CE."
     },
     "late-400ce": {
-     "note": "Gladiatorial combat is fading (last recorded c. 435 CE); beast hunts go on. Earthquakes in 429 and 443 bring repairs by city prefects, whose inscriptions survive on the seats."
+     "note": "Gladiatorial combat is fading (last mentioned c. 435 CE); beast hunts go on. After an earthquake, probably in 443, city prefects repair it, as surviving inscriptions record."
     },
     "medieval-1300": {
      "name": "Colosseum (Frangipane fortress)",
@@ -4638,7 +4638,7 @@
     },
     "renaissance-1560": {
      "name": "Colosseum (ruin)",
-     "note": "A roofless ruin, half its outer ring fallen; the city quarries travertine for Palazzo Venezia and St Peter's. A confraternity keeps a chapel inside; the arena is a wild garden of flowers.",
+     "note": "A roofless ruin, half its outer ring fallen; the city quarries travertine for Palazzo Venezia and St Peter's. Until 1539 the Gonfalone confraternity stages Passion plays inside; the arena is overgrown.",
      "model": {
       "glb": "models/rome/colosseum-ruin.glb",
       "fallback": {
@@ -4653,7 +4653,7 @@
    },
    "summary": "The Flavian Amphitheatre, inaugurated in 80 CE with 100 days of games: the largest amphitheatre ever built, seating some 50,000 spectators for gladiatorial combat and beast hunts.",
    "details": [
-    "Vespasian began it c. 72 CE on the drained lake of Nero's Golden House, paid for with Jerusalem's spoils; Titus inaugurated it in 80 CE and Domitian added the top storey and the hypogeum. The travertine ellipse, 189 by 156 m, rose 48 m in three arcaded storeys and an attic. A lightning fire in 217 CE was repaired under Alexander Severus; earthquakes damaged it in the 5th century.",
+    "Vespasian began it c. 72 CE on the drained lake of Nero's Golden House, probably paid for with Jerusalem's spoils; Titus inaugurated it in 80 CE and Domitian added the top storey and the hypogeum. The travertine ellipse, 189 by 156 m, rose 48 m in three arcaded storeys and an attic. A lightning fire in 217 CE was repaired under Alexander Severus; earthquakes damaged it in the 5th century.",
     "The miniature shows the complete exterior with its 80 arches per storey, statues in the upper arcades and the masts of the velarium awning; the hypogeum is not modelled. The Frangipane fortress of 1300 and the ruined state of 1560, after the southern outer ring collapsed in the earthquake of 1349, are schematic. The arena floor and the Meta Sudans fountain outside are simplified."
    ],
    "built": "c. 72–80 CE; top storey and hypogeum under Domitian; repaired 217–240s CE",
@@ -4718,7 +4718,7 @@
      }
     },
     "republic-200bce": {
-     "note": "Still mostly timber: the painted starting gates of 329 BCE, stone turning posts and the seven bronze egg lap-counters set up by the censors in 174 BCE. Seating burns and is rebuilt repeatedly.",
+     "note": "Still mostly timber: the starting gates of 329 BCE, stone turning posts and the seven bronze egg lap-counters set up by the censors in 174 BCE. Seating burns and is rebuilt repeatedly.",
      "model": {
       "glb": "models/rome/circus-maximus-republic.glb",
       "fallback": {
@@ -4745,7 +4745,7 @@
      "note": "Trajan's rebuilding after the collapse of 103 CE: stone and brick arcaded seating, marble lower tiers, the imperial box on the Palatine side, Augustus's obelisk on the spina. Perhaps 150,000 can watch."
     },
     "empire-215ce": {
-     "note": "Caracalla is said to have enlarged the starting gates; the circus is the city's main entertainment while fire shuts the Colosseum after 217 CE. Crowds roar for the Blues and Greens."
+     "note": "Trajan's stone circus unchanged; it is the city's main entertainment while fire shuts the Colosseum after 217 CE. Crowds roar for the Blues and Greens."
     },
     "late-400ce": {
      "note": "Still racing: Constantius II added a second obelisk in 357 CE, the tallest in Rome. Seats are repaired; chariot factions and star drivers draw crowds that Christian bishops deplore. Races continue until 549 CE.",
@@ -4822,16 +4822,16 @@
      "note": "Open ground on the Velia, the saddle between Palatine and Esquiline, where the Sacred Way crests among aristocratic houses; Cicero's house stood nearby on the Palatine slope."
     },
     "empire-100ce": {
-     "note": "Newly built in white Pentelic marble, about 15 m high, with fresh gilding on the inscription and a bronze group on top. Travellers coming up the Sacred Way pass beneath the menorah relief."
+     "note": "Less than twenty years old, white Pentelic marble about 15 m high, probably crowned by a bronze group. Travellers coming up the Sacred Way pass beneath the menorah relief."
     },
     "empire-215ce": {
-     "note": "Unchanged, now framed by Hadrian's Temple of Venus and Roma to the east and the Colosseum below; its gilded letters look down the Sacred Way toward the Forum."
+     "note": "Unchanged, now framed by Hadrian's Temple of Venus and Roma to the east and the Colosseum below; its inscription looks down the Sacred Way toward the Forum."
     },
     "late-400ce": {
      "note": "Still intact on the Via Sacra, among senatorial restorations. The reliefs are weathered; Christians now read the menorah procession as proof of the Temple's fall."
     },
     "medieval-1300": {
-     "note": "Built into the Frangipane family's fortress on the Velia with the Turris Chartularia beside it; a tower sits on the attic and the passage is a fortified gate. The inscription stays visible."
+     "note": "Built into the Frangipane family's fortress on the Velia with the Turris Chartularia nearby; the passage serves as a fortified gate. The inscription stays visible."
     },
     "renaissance-1560": {
      "note": "Still sunk in fortifications and houses; the outer piers are gone but the inscription and reliefs show. Artists sketch it; by tradition Rome's Jews refuse to walk beneath it."
@@ -4896,7 +4896,7 @@
     },
     "empire-100ce": {
      "name": "Pantheon of Agrippa",
-     "note": "Agrippa's Pantheon, restored by Domitian after the fire of 80 CE: a temple facing south toward Agrippa's baths, with caryatids by Diogenes of Athens. Its plan is debated. It will burn again in 110 CE.",
+     "note": "Agrippa's Pantheon, restored by Domitian after the fire of 80 CE: with caryatids by Diogenes of Athens (Pliny). Its plan and orientation are debated. It will burn again in 110 CE.",
      "confidence": "interpretation",
      "model": {
       "glb": "models/rome/pantheon-agrippa.glb",
@@ -4915,7 +4915,7 @@
      "note": "Hadrian's rotunda, repaired by Severus and Caracalla in 202 CE (their inscription is on the architrave): gilded bronze roof tiles, bronze doors, the dome lit by the oculus, statues of the gods in the niches."
     },
     "late-400ce": {
-     "note": "Intact and still a temple, though closed; its bronze roof and marble veneer survive. Cassiodorus and Procopius will still marvel at its dome; in 609 CE the emperor Phocas will give it to the pope."
+     "note": "Intact though closed as a temple; its bronze roof and marble veneer survive. Ammianus records Constantius II's wonder at it in 357 CE; in 609 CE the emperor Phocas will give it to the pope."
     },
     "medieval-1300": {
      "name": "Santa Maria ad Martyres (the Pantheon)",
@@ -4929,7 +4929,7 @@
    "summary": "Hadrian's temple to all the gods (c. 118–128 CE), replacing Agrippa's of 27 BCE: a concrete rotunda whose 43.3 m dome remains the largest unreinforced concrete dome in the world, preserved as a church since 609 CE.",
    "details": [
     "Agrippa's Pantheon of 27–25 BCE burned in 80 CE and again in 110 CE. Hadrian rebuilt it, keeping Agrippa's name on the frieze: a 16-column granite porch leads through bronze doors into a rotunda 43.3 m wide and high, with a coffered dome and 9 m oculus. Septimius Severus and Caracalla repaired it in 202 CE. Pope Boniface IV consecrated it as Santa Maria ad Martyres in 609 CE.",
-    "The miniature shows Hadrian's building with its forecourt and colonnades; the roof is simplified, and the bronze tiles and bronze porch trusses, removed by Constans II in 663 CE and Urban VIII in 1625, are shown intact in antiquity. Agrippa's building for 100 CE is a reconstruction: probably a rectangular temple facing south, its plan debated. The 1560 model omits later bell towers."
+    "The miniature shows Hadrian's building with its forecourt and colonnades; the roof is simplified, and the bronze tiles and bronze porch trusses, removed by Constans II in 663 CE and Urban VIII in 1625, are shown intact in antiquity. Agrippa's building for 100 CE is a reconstruction: older studies made it a temple facing south, newer ones a rotunda facing north. The 1560 model omits later bell towers."
    ],
    "built": "27–25 BCE (Agrippa); rebuilt c. 118–128 CE (Hadrian); repaired 202 CE",
    "function": "Temple to all the gods; church of Santa Maria ad Martyres since 609 CE",
@@ -4987,14 +4987,14 @@
      "note": "Augustus's theatre complete: 41 arches a storey, Doric below and Ionic above, a marble stage front, awnings against the sun. Plays and part of Augustus's Secular Games of 17 BCE were held here."
     },
     "empire-215ce": {
-     "note": "Restored by Vespasian, who held rededication games; Alexander Severus will restore it again after 222 CE. Plays and pantomime continue; the river-side stage building is patched after Tiber floods."
+     "note": "Vespasian restored its stage and held games for the rededication; Alexander Severus is said to have planned another restoration. Plays and pantomime continue."
     },
     "late-400ce": {
      "note": "Listed in the 4th-century regionary catalogues, but decaying: its travertine is reportedly reused for the Pons Cestius rebuilding of 370 CE, and performances have largely ceased."
     },
     "medieval-1300": {
      "name": "Theatre of Marcellus (Savelli fortress)",
-     "note": "A fortress of the Pierleoni and then the Savelli: the cavea is filled with houses, the arcades walled up, towers on the upper tier. The space inside is the market of Monte Savello.",
+     "note": "A fortress of the Pierleoni and, from the 13th century, the Savelli: the cavea filled with houses and rubble (the mound of Monte Savello), the arcades walled up.",
      "model": {
       "glb": "models/rome/theatre-of-marcellus-fortress.glb",
       "fallback": {
@@ -5023,9 +5023,9 @@
      }
     }
    },
-   "summary": "Rome's largest permanent theatre after Pompey's, begun by Caesar and dedicated by Augustus in 13 or 11 BCE in memory of his nephew Marcellus; its arcaded outer wall survives as the base of Palazzo Savelli-Orsini.",
+   "summary": "One of Rome's three permanent stone theatres, begun by Caesar and dedicated by Augustus in 13 or 11 BCE in memory of his nephew Marcellus; its arcaded outer wall survives as the base of Palazzo Savelli-Orsini.",
    "details": [
-    "Caesar cleared the site near the Forum Holitorium, demolishing the Temple of Pietas; Augustus completed it and dedicated it in the name of Marcellus, who died in 23 BCE. The cavea, about 130 m across, seated 15,000–20,000 and rose in three storeys of travertine arcades with Doric and Ionic half-columns. The stage building backed onto the Tiber; the Temples of Apollo Sosianus and Bellona stood beside it.",
+    "Caesar cleared the site near the Forum Holitorium, demolishing the Temple of Pietas; Augustus completed it and dedicated it in the name of Marcellus, who died in 23 BCE. The cavea, about 111 m across, seated perhaps 11,000–20,000 and rose in three storeys of travertine arcades with Doric and Ionic half-columns. The stage building backed onto the Tiber; the Temples of Apollo Sosianus and Bellona stood beside it.",
     "The miniature reconstructs the full semicircle with its stage building, following the surviving arcades and the Marble Plan. The stage, the upper attic storey and the awning masts are conjectural. For 1300 the model shows the Pierleoni and Savelli fortress on the shell, and for 1560 Baldassare Peruzzi's palazzo (1523–27) rising from the upper tier, with houses crammed in the arcades."
    ],
    "built": "Begun under Caesar; dedicated 13 or 11 BCE",
@@ -5097,7 +5097,7 @@
    },
    "summary": "Rome's first permanent stone theatre, dedicated by Pompey in 55 BCE with a temple of Venus Victrix atop the seating and a vast garden portico behind, where Caesar was assassinated in 44 BCE.",
    "details": [
-    "Pompey evaded the ban on permanent theatres by presenting the cavea as a stairway to the Temple of Venus Victrix. The semicircle, about 150 m across, seated perhaps 17,000. Behind the stage a portico of 180 by 135 m enclosed gardens and the Curia of Pompey, where the Senate met on the Ides of March 44 BCE. Fires in 21 and 80 CE brought rebuildings by Tiberius, Claudius and Domitian.",
+    "Pompey evaded the ban on permanent theatres by presenting the cavea as a stairway to the Temple of Venus Victrix. The semicircle, about 150 m across, seated perhaps 17,000 (Pliny says 40,000). Behind the stage a portico of 180 by 135 m enclosed gardens and the Curia of Pompey, where the Senate met on the Ides of March 44 BCE. Fires in 21 and 80 CE brought rebuildings.",
     "The miniature combines the Marble Plan with the surviving substructures under Via di Grotta Pinta and Campo de' Fiori. The temple on the cavea's crown and the stage building are conjectural, as is the portico's garden layout. The cavea's curve still shapes the streets today, which is what the medieval note describes: houses and palaces (later Palazzo Orsini-Pio) built into the vaults."
    ],
    "built": "Dedicated 55 BCE; restored after fires of 21 CE and 80 CE; repaired 4th and 6th centuries",
@@ -5216,7 +5216,7 @@
    },
    "summary": "The first of the Imperial Fora, begun by Caesar in 54 BCE and dedicated in 46 BCE: a colonnaded square beside the Roman Forum dominated by the Temple of Venus Genetrix, ancestress of the Julian family.",
    "details": [
-    "Caesar paid over 60 million sesterces for the land (Cicero, Suetonius) beside the old Forum. The rectangular piazza, about 75 by 160 m, had porticoes on three sides and the Temple of Venus Genetrix at its northwest end, dedicated in 46 BCE after Pharsalus. Augustus completed it. Trajan rebuilt the temple and added the Basilica Argentaria after cutting back the Capitoline saddle; it was rededicated in 113 CE.",
+    "Caesar paid 60 million sesterces for the land by 54 BCE (Cicero), 100 million in all (Suetonius). The piazza, about 75 by 160 m, had porticoes on three sides and the Temple of Venus Genetrix at its northwest end, dedicated in 46 BCE after Pharsalus. Augustus completed it. Trajan rebuilt the temple and added the Basilica Argentaria after cutting back the Capitoline saddle; it was rededicated in 113 CE.",
     "The miniature shows the Trajanic form that survives today: the temple front on its high podium, the double porticoes and the paved square. For 50 BCE it shows the site under construction, with houses cleared and the podium rising; the equestrian statue of Caesar in front is restored from the sources. The tabernae and the Basilica Argentaria are simplified."
    ],
    "built": "54–46 BCE; completed by Augustus; rebuilt by Trajan, rededicated 113 CE",
@@ -5378,7 +5378,7 @@
     },
     "empire-100ce": {
      "name": "Forum of Trajan (under construction)",
-     "note": "Work begins; Domitian may already have started the clearing. Apollodorus's crews cut back the Quirinal and build the Markets' brick terraces; the Basilica Ulpia is laid out. Dedication waits until 112 CE.",
+     "note": "Shown a few years early: Domitian may have begun clearing, but the main works follow the Dacian War of 106 CE, when Apollodorus's crews cut back the Quirinal. Dedication 112 CE.",
      "model": {
       "glb": "models/rome/forum-of-trajan-construction.glb",
       "fallback": {
@@ -5414,7 +5414,7 @@
      "note": "Complete and dazzling: Trajan's ashes rest in the Column's base, Hadrian's Temple of Divine Trajan stands north of it, the Basilica Ulpia's gilded roof shines. Marcus Aurelius auctioned palace treasures here in 169 CE."
     },
     "late-400ce": {
-     "note": "Ammianus describes Constantius II's awe before it in 357 CE: a construction unique under heaven. Statues of senators and generals still accumulate in the Basilica; the libraries hold Rome's records."
+     "note": "Ammianus describes Constantius II's awe before it in 357 CE: a construction unique under heaven. Statues of senators, generals and poets still accumulate in its porticoes and basilica."
     },
     "medieval-1300": {
      "name": "Trajan's Column",
@@ -5447,8 +5447,8 @@
    },
    "summary": "The last and grandest of the Imperial Fora, dedicated in 112 CE: a 300-metre complex of piazza, Basilica Ulpia, libraries and Trajan's Column, cut into the Quirinal slope by the architect Apollodorus of Damascus.",
    "details": [
-    "Trajan financed it with Dacian booty. Builders removed a saddle of the Quirinal to the column's height, 38 m, as its inscription boasts. The piazza, about 185 m wide, led to the Basilica Ulpia with its gilded bronze roof, then the Column (dedicated 113 CE) flanked by Greek and Latin libraries, and later Hadrian's temple of Divine Trajan. Trajan's Markets rise in brick tiers on the hillside behind.",
-    "The miniature follows the excavated plan and the 1998–2000 digs, which removed the colonnaded entrance and equestrian statue of older reconstructions on the south side; that end remains debated. The Column is shown with its painted spiral relief and the bronze statue of Trajan on top (replaced by St Peter in 1587). For 100 CE the model shows the site being cut back and the first foundations."
+    "Dacian booty paid. Builders removed a saddle of the Quirinal as high as the column, about 35 m with its base, as its inscription says. The piazza, flanked by exedrae, led to the Basilica Ulpia with its gilded bronze roof, then the Column (dedicated 113 CE) flanked by Greek and Latin libraries, and later the temple of Divine Trajan. Trajan's Markets rise in brick tiers on the hillside behind.",
+    "The miniature follows the excavated plan; the 1998–2000 digs overturned older reconstructions of the south entrance, which remains debated, as does the place of Trajan's equestrian statue. The Column is shown with its spiral relief, perhaps once painted, and the bronze statue of Trajan on top (replaced by St Peter in 1587). For 100 CE the model shows the site being cut back and the first foundations."
    ],
    "built": "c. 106–112 CE; Column dedicated 113 CE; Temple of Divine Trajan c. 125–138 CE",
    "function": "Civic square, law courts, libraries, imperial commemoration",
@@ -5514,7 +5514,7 @@
     },
     "renaissance-1560": {
      "name": "Orti Farnesiani (Farnese Gardens)",
-     "note": "Cardinal Alessandro Farnese has begun the Orti Farnesiani (1550s) over the Domus Tiberiana, with Vignola's terraces and aviaries; the Flavian halls are vineyards whose walls the Farnese plunder for statues.",
+     "note": "Cardinal Alessandro Farnese has begun the Orti Farnesiani (1550s) over the Domus Tiberiana; the terraces and aviaries come later. The Flavian halls are vineyards dug for statues.",
      "model": {
       "glb": "models/rome/orti-farnesiani.glb",
       "fallback": {
@@ -5586,7 +5586,7 @@
      "note": "Almost finished: Caracalla will open the central block in 216 CE. Thousands of workers lay the vaults; the Aqua Antoniniana aqueduct arrives on a new arcade; the outer enclosure is still bare ground."
     },
     "late-400ce": {
-     "note": "In full operation, restored by Aurelian and Diocletian; the regionary catalogues count it among Rome's eleven great baths. The Farnese Hercules stands in the cold hall. The aqueduct cut of 537 CE will end bathing."
+     "note": "In use, restored by Aurelian and later emperors; one of the eleven great baths of the regionary catalogues. The Farnese Hercules probably stands in one of its halls. Cutting the aqueduct in 537 ends bathing."
     },
     "medieval-1300": {
      "name": "Ruins of the Baths of Caracalla",
@@ -5620,7 +5620,7 @@
    "summary": "The Antonine Baths, built 212–216 CE: a vast bathing complex on the edge of the Aventine whose concrete halls, inside an enclosure 337 by 328 m, remain among the best-preserved imperial ruins in Rome.",
    "details": [
     "Begun in 212 CE and inaugurated by Caracalla in 216 CE; the enclosure with libraries, gardens and stadium was finished under Elagabalus and Alexander Severus. The central block, 214 by 110 m, held a frigidarium 58 by 24 m under three cross vaults and a domed caldarium 35 m across. Some 1,600 could bathe at once, supplied by a branch of the Aqua Marcia, the Aqua Antoniniana.",
-    "The miniature shows the full enclosure with the central block as reconstructed from the standing walls, vaults restored; the marble veneer, mosaics and the Farnese sculptures (Hercules, Bull) are not represented. The hidden service levels and mills under the floors are omitted. For 1300 and 1560 the model shows the roofless block, by then being stripped by Farnese excavators (from 1545) and lime burners."
+    "The miniature shows the full enclosure with the central block as reconstructed from the standing walls, vaults restored; the marble veneer, mosaics and the Farnese sculptures (Hercules, Bull) are not represented. The hidden service levels and mills under the floors are omitted. For 1300 and 1560 the model shows the roofless block, stripped by lime burners and, from 1545, by the Farnese excavators."
    ],
    "built": "212–216 CE; enclosure completed by c. 235 CE",
    "function": "Public baths, libraries and gardens",
@@ -5672,7 +5672,7 @@
      "note": "A crowded quarter on the Viminal slopes near the Vicus Patricius, with houses, workshops and a few mansions; Diocletian will clear it all in 298 CE for the largest baths in the empire."
     },
     "late-400ce": {
-     "note": "Newly complete, the biggest baths in the empire: marble halls, the cross-vaulted frigidarium with granite columns 15 m high, the open pool, gardens and libraries, taking about 3,000 bathers. The Aqua Marcia feeds it."
+     "note": "Newly complete, the biggest baths in the empire: marble halls, the cross-vaulted frigidarium with granite columns about 14 m high, the open pool, gardens and libraries, taking about 3,000 bathers. The Aqua Marcia feeds it."
     },
     "medieval-1300": {
      "name": "Ruins of the Baths of Diocletian",
@@ -5690,7 +5690,7 @@
     },
     "renaissance-1560": {
      "name": "Santa Maria degli Angeli (Baths of Diocletian)",
-     "note": "Pius IV has granted the frigidarium to the Carthusians (1561) and Michelangelo is converting it into Santa Maria degli Angeli (1563–66): the ancient vaults become the church nave. Villas and vineyards surround.",
+     "note": "Soon Pius IV will grant it to the Carthusians (1561) and Michelangelo will design Santa Maria degli Angeli (from 1563) inside the frigidarium, its vaults becoming the church. Villas and vineyards surround.",
      "model": {
       "glb": "models/rome/baths-of-diocletian-church.glb",
       "fallback": {
@@ -5703,10 +5703,10 @@
      }
     }
    },
-   "summary": "The largest baths of Rome, built 298–306 CE on the Viminal for perhaps 3,000 bathers; Michelangelo turned its cold hall into the church of Santa Maria degli Angeli in 1563–66.",
+   "summary": "The largest baths of Rome, built 298–306 CE on the Viminal for perhaps 3,000 bathers; its cold hall became the church of Santa Maria degli Angeli to Michelangelo's design, from 1563.",
    "details": [
-    "Dedicated by Diocletian and Maximian and completed under Constantius and Maximin, the complex covered 13 hectares: an enclosure about 380 by 370 m with exedrae and libraries, and a central block on the Caracalla model with a frigidarium 90 m long under three cross vaults, a domed caldarium and a huge open pool (natatio). The bathing halls were lined with marble and granite columns.",
-    "The miniature reconstructs the whole enclosure from Marble Plan fragments, Palladio's drawings and the surviving halls (the church, the Aula Ottagona, the exedra of Piazza della Repubblica). For 1300 the vaulted shell stands roofless in open country; for 1560 the model shows Michelangelo's conversion of the frigidarium, just beginning (1561–66), and the Carthusian monastery beside it."
+    "Begun by Maximian in Diocletian's name in 298 and dedicated after their abdication in 305–306, the complex covered 13 hectares: an enclosure about 380 by 370 m with exedrae and libraries, and a central block on the Caracalla model with a frigidarium 90 m long under three cross vaults, a domed caldarium and a huge open pool (natatio). The bathing halls were lined with marble and granite columns.",
+    "The miniature reconstructs the whole enclosure from Marble Plan fragments, Palladio's drawings and the surviving halls (the church, the Aula Ottagona, the exedra of Piazza della Repubblica). For 1300 the vaulted shell stands roofless in open country; for 1560 the model anticipates Michelangelo's conversion of the frigidarium (begun 1563, finished after his death in 1564) and the Carthusian monastery."
    ],
    "built": "298–306 CE; church of Santa Maria degli Angeli from 1561",
    "function": "Public baths; church and monastery from the 16th century",
@@ -5759,7 +5759,7 @@
     },
     "empire-100ce": {
      "name": "Baths of Trajan (under construction)",
-     "note": "Under construction: the Esquiline wing of Nero's Golden House, damaged by fire in 104 CE, is being filled with rubble as foundations, and brick substructures rise. Apollodorus's baths open in 109 CE.",
+     "note": "Shown a few years early: after a fire in 104 CE the Esquiline wing of Nero's Golden House will be filled with rubble as foundations. The baths open in 109 CE.",
      "model": {
       "glb": "models/rome/baths-of-trajan-construction.glb",
       "fallback": {
@@ -5781,9 +5781,9 @@
      "note": "Ruined vaults and exedrae stand in vineyards and orchards on the Oppian hill; locals call them the Baths of Titus, a confusion lasting into the 19th century. San Pietro in Vincoli sits at the edge."
     }
    },
-   "summary": "The first of the great imperial bath complexes, opened in 109 CE on the Oppian Hill over the buried wing of Nero's Golden House, designed by Apollodorus of Damascus and the model for all later imperial baths.",
+   "summary": "The first of the great imperial bath complexes, opened in 109 CE on the Oppian Hill over the buried wing of Nero's Golden House, probably designed by Apollodorus of Damascus and the model for later imperial baths.",
    "details": [
-    "Trajan built the baths on a platform of 330 by 215 m over Nero's Domus Aurea, which was filled in to serve as foundation after the fire of 104 CE damaged the hill. Dedicated 22 June 109 CE. The central block with its huge frigidarium, cross-vaulted halls and southwest-facing caldarium was surrounded by a garden enclosure with exedrae, libraries and lecture rooms, and fed by the Sette Sale cistern.",
+    "Trajan built the baths on a platform about 330 by 340 m over Nero's Domus Aurea, which was filled in to serve as foundation after the fire of 104 CE damaged the hill. Dedicated 22 June 109 CE. The central block with its huge frigidarium, cross-vaulted halls and southwest-facing caldarium was surrounded by a garden enclosure with exedrae, libraries and lecture rooms, and fed by the Sette Sale cistern.",
     "Only fragments stand in the Parco di Colle Oppio, so the miniature follows the Marble Plan, Palladio's 16th-century drawings and comparison with Caracalla's baths. Hall heights are reconstructed. The 100 CE model shows the Golden House being filled in and the platform under construction. In the medieval note the hill is vineyards; the surviving exedrae were long attributed to Titus."
    ],
    "built": "c. 104–109 CE; dedicated 22 June 109 CE",
@@ -5844,11 +5844,11 @@
      "note": "Unchanged, a landmark of the Campus Martius; emperors are now buried in Hadrian's tomb across the river. The groves and the Ustrinum, the cremation enclosure, are still visible beside it."
     },
     "late-400ce": {
-     "note": "Still standing, obelisks in place; the bronze Res Gestae tablets and the crowning statue are lost at some unknown date, perhaps in the sack of 410 CE. The groves have given way to building."
+     "note": "Still standing, obelisks in place; the bronze Res Gestae tablets and crowning statue will be lost at an unknown date, perhaps in the sack of 410 CE. The groves have given way to building."
     },
     "medieval-1300": {
      "name": "Mausoleum of Augustus (Colonna fortress)",
-     "note": "A Colonna fortress from the 12th century, with a tower on the mound, slighted by the Commune of Rome in the 13th century. The obelisks lie broken and buried; the quarter is called the Augusta.",
+     "note": "The Colonna fortified it in the 12th century; after Rome's defeat by Tusculum in 1167 they were banished and the fortress dismantled. The obelisks lie broken and buried; the quarter is called the Augusta.",
      "model": {
       "glb": "models/rome/mausoleum-of-augustus-fortress.glb",
       "fallback": {
@@ -5862,7 +5862,7 @@
     },
     "renaissance-1560": {
      "name": "Mausoleum of Augustus (Soderini garden)",
-     "note": "The Soderini family, owners since 1549, have made the drum a hanging garden with statues in the niches; artists draw the ruin's circle. The obelisks lie nearby, broken, until their re-erection in 1587 and 1786.",
+     "note": "The Soderini family, owners from the mid-16th century, have made the drum a hanging garden with statues in the niches. The obelisks lie nearby, broken, until their re-erection in 1587 and 1786.",
      "model": {
       "glb": "models/rome/mausoleum-of-augustus-ruin.glb",
       "fallback": {
@@ -5875,7 +5875,7 @@
      }
     }
    },
-   "summary": "The dynastic tomb Augustus built in 28 BCE in the Campus Martius: a round earth-topped mound about 90 m across, planted with cypresses, that held the ashes of the Julio-Claudian emperors and Nerva.",
+   "summary": "The dynastic tomb Augustus built in 28 BCE in the Campus Martius: a round earth-topped mound about 90 m across, planted with cypresses, that held the ashes of Augustus, his family, several Julio-Claudian emperors and Nerva.",
    "details": [
     "Built on his return from Egypt, before the title Augustus: concentric concrete walls faced in travertine, 87–90 m in diameter, with a tumulus of earth and cypress trees above and a bronze statue of Augustus on top. Two obelisks flanked the entrance, with the bronze Res Gestae tablets. It held Marcellus (23 BCE), Agrippa, Drusus, Augustus himself in 14 CE, Livia, Tiberius, Claudius and Nerva, the last in 98 CE.",
     "The miniature follows the usual reconstruction: a stepped drum with tree-planted terraces and a crowning statue; the number of terraces and the top are debated, and some restore a tall central tower. The Colonna fortress of 1300 and the 16th-century garden of the Soderini (hanging gardens with statues) are shown schematically. The obelisks now stand at Santa Maria Maggiore and the Quirinal."
@@ -5963,7 +5963,7 @@
     },
     "renaissance-1560": {
      "name": "Castel Sant'Angelo",
-     "note": "The papal fortress: Sangallo's bastions, Paul III's frescoed apartments, Raffaello da Montelupo's marble angel (1544) on the summit. Clement VII sheltered here in the Sack of 1527; Cellini claims he fired from its walls.",
+     "note": "The papal fortress: Renaissance bastions, Paul III's frescoed apartments, Raffaello da Montelupo's marble angel (1544) on top. Clement VII sheltered here in the Sack of 1527; Cellini claims he manned its guns.",
      "model": {
       "glb": "models/rome/castel-santangelo-renaissance.glb",
       "fallback": {
@@ -5979,7 +5979,7 @@
    "summary": "Hadrian's tomb across the Tiber, finished by Antoninus Pius in 139 CE and reached by the Pons Aelius: a 64 m drum on a square base, later Rome's river citadel, papal fortress and prison, Castel Sant'Angelo.",
    "details": [
     "Begun c. 123 CE, completed 139 CE: a square base 89 m a side, a drum 64 m across faced in travertine and marble, an earth mound with cypresses, and a quadriga on top. The emperors from Hadrian to Caracalla were buried here. In 401 CE Honorius made it a bastion of the city wall; it withstood the Goths in 537 CE, when defenders hurled statues down on them.",
-    "The miniature shows the standard reconstruction of the tomb (mound and crowning quadriga are debated), then the fortified mausoleum of c. 400 with the bridge, the medieval castle with its angel chapel, and the Renaissance castle: bastions by Antonio da Sangallo, the Passetto to the Vatican, and the papal apartments of Paul III. The angel statue on top is simplified."
+    "The miniature shows the standard reconstruction of the tomb (mound and crowning quadriga are debated), then the fortified mausoleum of c. 400 with the bridge, the medieval castle with its angel chapel, and the Renaissance castle: bastions of Alexander VI and his successors, the Passetto to the Vatican, and the papal apartments of Paul III. The angel statue on top is simplified."
    ],
    "built": "c. 123–139 CE; fortified 401 CE; papal castle rebuilt 14th–16th centuries",
    "function": "Imperial tomb; later fortress, papal refuge and prison",
@@ -6001,8 +6001,8 @@
    "name": "Ara Pacis Augustae",
    "category": "monument",
    "position": [
-    2649,
-    1334
+    2616,
+    1612
    ],
    "rotation": -90,
    "footprint": [
@@ -6034,19 +6034,19 @@
      "note": "Dedicated 9 BCE beside the Via Flaminia, with the Mausoleum to the north and Augustus's obelisk sundial (10 BCE) nearby; a debated theory has its shadow touch the altar on his birthday."
     },
     "empire-215ce": {
-     "note": "Still standing; priests sacrifice each year on 30 January and 4 July. A brick wall was built round it in the 2nd century to hold back floods and rising ground; the Campus is built up."
+     "note": "Still standing, though the yearly sacrifice may have lapsed. A brick wall was built round it in the 2nd century to hold back floods and rising ground; the Campus is built up."
     },
     "late-400ce": {
      "note": "Sinking into Tiber silt behind its protective wall, the reliefs still visible but sacrifices ended by law in 391 CE. The altar will lie under 4 m of mud by the Middle Ages."
     },
     "medieval-1300": {
-     "note": "Buried under 4 m of silt beneath houses of the Campo Marzio near the Via Lata. The first fragments reappear in 1568 under Palazzo Peretti (later Fiano); the cardinal gives them to the Medici."
+     "note": "Buried under silt beneath houses of the Campo Marzio near the Via Lata. The first fragments will reappear in 1568 under Palazzo Peretti (later Fiano) and go to the Medici and other collections."
     }
    },
    "summary": "The Altar of Augustan Peace, voted in 13 BCE and dedicated 30 January 9 BCE in the Campus Martius: a marble enclosure carved with the imperial procession and allegories of peace, the masterpiece of Augustan sculpture.",
    "details": [
     "The Senate voted it when Augustus returned from Spain and Gaul in 13 BCE; it was dedicated on Livia's birthday, 9 BCE. A marble screen 11.6 by 10.6 m encloses the altar on a podium; outside, friezes show the procession of the imperial family, priests and senators, panels with Aeneas, Romulus, Roma and a peaceful goddess, and acanthus scrolls below. It stood beside the Via Flaminia, near Augustus's sundial obelisk.",
-    "The miniature shows the altar at its original site, about 300 m southeast of the present museum, where fragments were found in 1568 and 1859 and excavated under Palazzo Fiano in 1903 and 1937–38. The painted colours of the reliefs are not shown. In antiquity Tiber floods and rising ground slowly buried it; by 400 CE it may already have been half-sunk."
+    "The miniature shows the altar at its original site, a few hundred metres south-east of the present museum, under Palazzo Fiano by the Via Flaminia, where fragments were found in 1568 and 1859 and excavated under Palazzo Fiano in 1903 and 1937–38. The painted colours of the reliefs are not shown. In antiquity Tiber floods and rising ground slowly buried it; by 400 CE it may already have been half-sunk."
    ],
    "built": "Voted 13 BCE; dedicated 30 January 9 BCE",
    "function": "State altar for annual sacrifices to Pax Augusta",
@@ -6098,13 +6098,13 @@
      "note": "Open fields of the central Campus Martius, where temporary wooden stadia for Greek athletics were raised by Caesar in 46 BCE and will be again by Augustus in 28 BCE."
     },
     "empire-100ce": {
-     "note": "Newly built with travertine arcades, Ionic half-columns and statues, seating about 30,000; Greek athletes compete every four years in Domitian's Capitoline Games, with music in the Odeon next door."
+     "note": "Newly built with travertine arcades and statues, seating perhaps 20,000–30,000; Greek athletes compete every four years in Domitian's Capitoline Games, with music in the Odeon next door."
     },
     "empire-215ce": {
      "note": "Still staging foot races, boxing and wrestling; after the Colosseum fire of 217 CE gladiators fight here too. Alexander Severus repairs it. St Agnes's legend places her martyrdom in a brothel under its arches."
     },
     "late-400ce": {
-     "note": "Listed in the regionary catalogues with 30,088 places; athletics are dying out with the end of pagan festivals. Christians venerate the spot of Agnes's martyrdom (c. 304 CE) in the arcades."
+     "note": "Listed in the regionary catalogues (one gives 30,088 places); athletics are dying out with the end of pagan festivals. Christians venerate the spot of Agnes's martyrdom (c. 304 CE) in the arcades."
     },
     "medieval-1300": {
      "name": "Piazza in Agone (Stadium of Domitian)",
@@ -6245,7 +6245,7 @@
    },
    "summary": "A small Ionic temple of the late 2nd or early 1st century BCE beside the river harbour, dedicated to Portunus, god of harbours and doors, perfectly preserved as the church of Santa Maria Egiziaca.",
    "details": [
-    "A temple stood here by the 3rd century BCE (dedicated 17 August, the Portunalia); the present building, in travertine and tufa coated with stucco, dates to c. 120–80 BCE. It is pseudoperipteral: four Ionic columns across the front and five down each side, the rest engaged in the cella walls, on a podium 11 by 19 m. It overlooked the Portus Tiberinus, the old river port of the Forum Boarium.",
+    "A temple stood here by the 3rd century BCE (dedicated 17 August, the Portunalia); the present building, in travertine and tufa coated with stucco, dates to c. 120–80 BCE. It is pseudoperipteral: a porch four Ionic columns wide and two deep, with half-columns engaged in the cella walls, on a podium about 11 by 19 m. It overlooked the Portus Tiberinus, the old river port of the Forum Boarium.",
     "The miniature shows the temple as it stands, with stucco restored to a white finish and a terracotta-tiled roof. The Republican version for 200 BCE is a guess, modelled on the earlier podium found beneath. From 872 CE it was a church, with the colonnade walled up, a bell-cote and frescoes inside, which the model shows for 1300 and 1560."
    ],
    "built": "c. 120–80 BCE on an earlier 3rd-century BCE podium; church from 872 CE",
@@ -6303,7 +6303,7 @@
      "note": "Open ground of the Forum Boarium between the river port and the Ara Maxima of Hercules, where cattle dealers and oil merchants trade; the Greek-style round temple is a few decades off."
     },
     "republic-50bce": {
-     "note": "Newly built in gleaming Pentelic marble from Athens, 20 Corinthian columns round a circular cella with a bronze cult statue. The pure Greek style is a showpiece amid Rome's tufa and stucco."
+     "note": "Some decades old, in Pentelic marble from Athens: 20 Corinthian columns round a circular cella. The pure Greek style is a showpiece amid Rome's tufa and stucco."
     },
     "empire-100ce": {
      "note": "Restored by Tiberius in 15 CE after flood damage: several columns and capitals replaced in Luna marble. Oil merchants trade nearby, and the Ara Maxima's feast of Hercules passes it on 12 August."
@@ -6316,7 +6316,7 @@
     },
     "medieval-1300": {
      "name": "Santo Stefano alle Carrozze (Temple of Hercules)",
-     "note": "Santo Stefano alle Carrozze, a church since 1132, its columns walled in and an altar inside; antiquarians call it the Temple of Vesta. Carts of the cattle dealers give the name.",
+     "note": "Santo Stefano alle Carrozze, a church since 1132, its columns walled in and an altar inside; antiquarians call it the Temple of Vesta. The origin of the name is unclear.",
      "model": {
       "glb": "models/rome/temple-of-hercules-church.glb",
       "fallback": {
@@ -6347,9 +6347,9 @@
      }
     }
    },
-   "summary": "The round marble temple in the Forum Boarium, c. 120 BCE, the oldest surviving marble building in Rome: twenty Corinthian columns of Pentelic marble around a cella, probably dedicated to Hercules Olivarius by a rich oil merchant.",
+   "summary": "The round marble temple in the Forum Boarium, c. 120 BCE, the oldest surviving marble building in Rome: twenty Corinthian columns of Pentelic marble around a cella, probably dedicated to Hercules Victor, perhaps the 'Olivarius' of the oil merchants.",
    "details": [
-    "Probably the Temple of Hercules Victor dedicated by Marcus Octavius Herrenus, an olive-oil merchant, in the late 2nd century BCE; a Greek architect (perhaps Hermodorus of Salamis) built it in Pentelic marble, its 20 columns 10.6 m high on a stepped base 14.8 m across. Tiberius restored it in 15 CE after Tiber floods, replacing some columns in Luna marble. It was long called the Temple of Vesta.",
+    "Perhaps the Temple of Hercules Victor that Marcus Octavius Herrenus, a merchant, dedicated in the late 2nd century BCE; a Greek architect (perhaps Hermodorus of Salamis) built it in Pentelic marble, its 20 columns 10.6 m high on a stepped base 14.8 m across. Tiberius restored it in 15 CE after Tiber floods, replacing some columns in Luna marble. It was long called the Temple of Vesta.",
     "The miniature shows the temple with its original tall entablature and conical tiled roof restored; the present roof is a later low tiled cone. The attribution to Hercules Olivarius rests on an inscription found nearby and remains uncertain, as does the identity of its donor. For 1300 and 1560 it appears as Santo Stefano alle Carrozze, with the spaces between the columns walled."
    ],
    "built": "c. 120 BCE; restored 15 CE",
@@ -6412,10 +6412,10 @@
      "note": "The temple of Aesculapius (289 BCE) stands at the south end with a portico and spring; sick pilgrims sleep in the precinct for healing dreams. Shrines of Faunus (194 BCE) and Jupiter share the island."
     },
     "republic-50bce": {
-     "note": "The island has been shaped as a ship, travertine prow and stern, an obelisk for a mast; the Pons Fabricius (62 BCE) and Pons Cestius (c. 46 BCE) now link it to both banks."
+     "note": "The island is probably being faced as a ship, with a travertine prow (the obelisk 'mast' may be later); the Pons Fabricius (62 BCE) and soon the Pons Cestius link it to both banks."
     },
     "empire-100ce": {
-     "note": "Busy with the sick; Claudius ruled in 47 CE that slaves abandoned here are free if they recover. The temple of Aesculapius with its spring, the portico lodgings and the Faunus temple fill the island."
+     "note": "Busy with the sick; Claudius ruled that sick slaves abandoned here are free if they recover. The temple of Aesculapius with its spring, the portico lodgings and the Faunus temple fill the island."
     },
     "empire-215ce": {
      "note": "Unchanged: a healing sanctuary with dream incubation and a famous spring, inscriptions recording cures, the two stone bridges busy with traffic from the Trastevere market gardens."
@@ -6458,7 +6458,7 @@
    },
    "summary": "Temple of Aesculapius, founded 291 BCE after a plague, when the god's sacred snake was brought from Epidaurus; the island was later shaped like a ship, and its healing role lives on in San Bartolomeo and the Fatebenefratelli hospital.",
    "details": [
-    "Livy says the snake swam ashore here in 291 BCE; the temple was dedicated in 289 BCE, probably at the island's southeast end, under the present San Bartolomeo. In the 1st century BCE the island's tip was faced in travertine as a ship's prow and stern with an obelisk as mast; the carved prow with Aesculapius's staff survives. Sick slaves were abandoned there, and Claudius freed those who recovered.",
+    "Livy and Ovid say the snake swam ashore here in 291 BCE; the temple, dedicated in 289 BCE, probably lay at the downstream end under San Bartolomeo. In the 1st century BCE the island's tip was faced in travertine as a ship's prow and stern and later an obelisk as mast; the carved prow with Aesculapius's staff survives. Sick slaves were abandoned there, and Claudius freed those who recovered.",
     "The miniature shows the temple on its platform at the downstream end, flanked by the ship-shaped embankments and the two bridges; the temple's elevation is a reconstruction, nothing standing. Other island shrines (Faunus, Jupiter Jurarius, Tiberinus) are omitted. For 1300 and 1560 the model shows Otto III's church of San Bartolomeo (c. 1000 CE), rebuilt after floods, with its Romanesque campanile."
    ],
    "built": "Temple 291–289 BCE; travertine 'ship' 1st century BCE; San Bartolomeo c. 1000 CE",
@@ -6782,7 +6782,7 @@
      "note": "Augustus's rebuilding (c. 27–23 BCE), named for Octavia: new porticoes, Greek and Latin libraries, a curia, schools, and Greek sculptures praised by Pliny. A fashionable gallery for strolling."
     },
     "empire-215ce": {
-     "note": "Rebuilt by Severus and Caracalla after the fire of 203 CE: the propylon that survives today, with its Corinthian columns and inscription, dates from this restoration. Shops cluster at its gate."
+     "note": "Restored by Severus and Caracalla in 203 CE after a fire, probably that of 191: the surviving propylon, with its Corinthian columns and inscription, dates from this restoration."
     },
     "late-400ce": {
      "note": "The complex is listed in the regionary catalogues; the temples are closed, the libraries' fate unknown. The propylon still carries the Severan inscription; the quarter is turning to housing."
@@ -6858,7 +6858,7 @@
    },
    "summary": "Colonnaded enclosure around the temples of Jupiter Stator and Juno Regina, built by Metellus in 146 BCE and rebuilt by Augustus in his sister Octavia's name c. 27 BCE; its propylon later housed the fish market.",
    "details": [
-    "Metellus Macedonicus, celebrating his triumph of 146 BCE, enclosed the two temples with a portico and placed Lysippus's bronze group of Alexander's companions inside; the first all-marble temple in Rome (Jupiter Stator by Hermodorus) stood here. Augustus rebuilt it from Dalmatian spoils with libraries, a curia and schools; Septimius Severus and Caracalla restored it after a fire in 203 CE, the date of the surviving propylon.",
+    "Metellus Macedonicus, celebrating his triumph of 146 BCE, enclosed the two temples with a portico and placed Lysippus's bronze group of Alexander's companions inside; the first all-marble temple in Rome (Jupiter Stator by Hermodorus) stood here. Augustus rebuilt it from Dalmatian spoils with libraries, a curia and schools; Septimius Severus and Caracalla restored it after a fire, dedicating the surviving propylon in 203 CE.",
     "The miniature shows the Augustan-Severan complex: a rectangle about 130 by 120 m of double colonnades, the propylon on the south side with its gable, and the two temples inside; the Republican Porticus Metelli is similar in plan but without the propylon, by conjecture. The 1300 and 1560 models show the propylon as the arcade of the fish market with the church of Sant'Angelo in Pescheria behind."
    ],
    "built": "146 BCE (Porticus Metelli); rebuilt c. 27–23 BCE; restored 203 CE",
@@ -6999,7 +6999,7 @@
      "note": "Not yet built. This corner of the Forum, between the Rostra and the Senate house, was open paving around the Umbilicus Urbi, the symbolic navel of the city."
     },
     "empire-215ce": {
-     "note": "Newly dedicated in 203 CE for Severus's Parthian victories. Since 212 CE Geta's name has been chiselled from the inscription on Caracalla's orders; a bronze six-horse chariot crowns the attic."
+     "note": "Dedicated in 203 CE for Severus's Parthian victories. Since 212 CE Geta's name has been chiselled from the inscription on Caracalla's orders; a bronze six-horse chariot crowns the attic."
     },
     "late-400ce": {
      "note": "Intact, though the bronze chariot group on top is probably gone by now. The relief panels of Parthian cities under siege are still crisp; the Forum around it is still paved and used."
@@ -7013,7 +7013,7 @@
    },
    "summary": "Triple triumphal arch dedicated in 203 CE at the foot of the Capitol to celebrate Septimius Severus's Parthian wars, its inscription famously altered after the murder of Geta.",
    "details": [
-    "The Senate dedicated the arch in 203 CE to Severus and his sons for the Parthian victories of 194 to 199 CE. Built of travertine and brick faced with marble, it is 23 metres high and 25 wide, with three passages, four large relief panels of sieges and campaigns, and a bronze chariot on the attic. After Caracalla murdered Geta in 212 CE his name was erased from the dedication.",
+    "The Senate dedicated the arch in 203 CE to Severus and his sons for the Parthian victories of 195–198 CE. Of travertine and brick faced with marble, it is 23 metres high and 25 wide, with three passages, four large relief panels of sieges and campaigns, and a bronze chariot on the attic. After Caracalla murdered Geta in December 211 CE his name was erased from the dedication.",
     "The miniature shows the arch at full height with its lost bronze crowning group for the imperial periods, then progressively buried in the medieval and Renaissance scenes. The exact form of the chariot group is known only from coins; the medieval church and tower attached to the arch are placed approximately."
    ],
    "built": "Dedicated 203 CE",
@@ -7070,12 +7070,12 @@
      "note": "Standing, but embedded in the Frangipane family's fortifications that stretch from the Colosseum to the Palatine. The arch doubles as a gate tower; the ground has risen around its base."
     },
     "renaissance-1560": {
-     "note": "Freed from most fortifications, it stands on the road to the Lateran used by papal processions. In the 1530s Lorenzino de' Medici hacked heads from several reliefs for his collection."
+     "note": "Freed from most fortifications, it stands on the road to the Lateran used by papal processions. In 1534 Lorenzino de' Medici knocked the heads off some of its statues."
     }
    },
    "summary": "The largest surviving Roman triumphal arch, dedicated in 315 CE for Constantine's victory over Maxentius and assembled largely from sculpture taken off second-century monuments.",
    "details": [
-    "The Senate dedicated the arch in 315 CE, three years after Constantine's victory at the Milvian Bridge. It is 21 metres high and 26 wide, with three passages. Most of its sculpture is reused: Trajanic battle friezes, Hadrianic hunting roundels and Marcus Aurelius's panels, with the emperors' heads recut. Only the narrow frieze of Constantine's campaign and the inscription are new work.",
+    "The Senate dedicated the arch in 315 CE, three years after Constantine's victory at the Milvian Bridge. It is 21 metres high and 26 wide, with three passages. Most of its sculpture is reused: Trajanic battle friezes, Hadrianic hunting roundels and Marcus Aurelius's panels, with the emperors' heads recut. New work includes the narrow frieze of Constantine's campaign, the inscription, the pedestal reliefs and the spandrel Victories.",
     "The miniature shows the arch complete, with its attic statues of Dacian prisoners. Whether Constantine's builders adapted an existing Hadrianic arch or built from the foundations up is still disputed. The medieval Frangipane walls that joined it to the Colosseum are shown schematically."
    ],
    "built": "Dedicated 315 CE",
@@ -7154,7 +7154,7 @@
     },
     "renaissance-1560": {
      "name": "Santa Maria Nova (Temple of Venus and Roma)",
-     "note": "Santa Maria Nova, by now also called Santa Francesca Romana after the saint buried there in 1440. Beyond its apse the two temple cellas stand roofless amid gardens and vines.",
+     "note": "Santa Maria Nova, where Francesca Romana was buried in 1440; canonised in 1608, she will give the church its later name. Beyond its apse the two temple cellas stand roofless amid gardens and vines.",
      "confidence": "reconstruction",
      "model": {
       "glb": "models/rome/santa-francesca-romana.glb",
@@ -7226,10 +7226,10 @@
      "note": "Not yet built. In 100 CE this was open ground in the northern Campus Martius along the Via Flaminia; the Antonine temples and the column come two generations later."
     },
     "empire-215ce": {
-     "note": "Finished by 193 CE. The 100-foot marble shaft, carved with a spiral of Marcus's wars on the Danube, carries a gilt bronze statue of the emperor and faces his temple across a paved square."
+     "note": "Finished by 193 CE. The 100-foot marble shaft, carved with a spiral of Marcus's wars on the Danube, carries a bronze statue of the emperor; his temple probably stood nearby."
     },
     "late-400ce": {
-     "note": "Intact, with its bronze statue still on top. The spiral reliefs, including the 'rain miracle' scene of 172 CE, remain the showpiece of the square; a procurator's office keeps the column maintained."
+     "note": "Intact, with its bronze statue still on top. The spiral reliefs, including the 'rain miracle' scene of 172 CE, remain the showpiece of the square."
     },
     "medieval-1300": {
      "note": "Standing, but the bronze emperor is long gone and houses crowd its base. The monks of San Silvestro in Capite own it and charge visitors a fee to climb the internal stair."
@@ -7296,7 +7296,7 @@
      "note": "Constantine's basilica, begun around 320 CE over the necropolis: five aisles on 88 columns, a transept over the shrine, an apse, and a great colonnaded atrium entered from the east."
     },
     "medieval-1300": {
-     "note": "The same basilica, now with a bell tower, a mosaic façade of the 1220s, the Leonine Walls around the Borgo, and Giotto's Navicella mosaic in the atrium for the Jubilee of 1300.",
+     "note": "The same basilica, now with a bell tower, a mosaic façade of the 1220s, the Leonine Walls around the Borgo, and Giotto's Navicella mosaic in the atrium, made about this time.",
      "model": {
       "glb": "models/rome/old-st-peters-medieval.glb",
       "fallback": {
@@ -7517,10 +7517,10 @@
      "note": "The Franciscans' new church, rebuilt from the 1250s in brick with a plain unfinished façade and a nave on 22 ancient columns; the Roman commune holds its assemblies here."
     },
     "renaissance-1560": {
-     "note": "Reached by the 124-step marble stair of 1348, built in thanks for the plague's end. Pinturicchio's Bernardino chapel of the 1480s is inside; Michelangelo's new ramp to the Campidoglio climbs beside it."
+     "note": "Reached by the 124-step marble stair of 1348, built in thanks for the plague's end. Pinturicchio's Bernardino chapel of the 1480s is inside; Michelangelo's planned ramp to the Campidoglio is not yet built."
     }
    },
-   "summary": "The Franciscan church on the Capitol's northern summit, built in the 1250s over a Greek monastery and the ancient citadel, and the civic church of medieval Rome.",
+   "summary": "The Franciscan church on the Capitol's northern summit, rebuilt from the 1250s over an older monastery and the ancient citadel, and the civic church of medieval Rome.",
    "details": [
     "A monastery of Santa Maria de Capitolio is recorded on the Arx by the 9th century; the legend of an altar raised by Augustus after the Sibyl's prophecy gave it the name Aracoeli. Innocent IV gave the church to the Franciscans in 1249 or 1250, who rebuilt it in Romanesque-Gothic form by about 1300, reusing 22 ancient columns. The great stair was added in 1348.",
     "The miniature shows the brick church, the stair and the convent beside it, with the Capitol's Roman substructures below. Whether the Temple of Juno Moneta lay exactly under the church or further south under the Vittoriano is disputed; the medieval convent, demolished in the 1880s, is shown schematically."
@@ -7851,8 +7851,8 @@
    },
    "summary": "The banker Agostino Chigi's riverside villa, built by Peruzzi in 1506 to 1510 and frescoed by Raphael and his circle, the model Renaissance pleasure house in Rome.",
    "details": [
-    "Baldassare Peruzzi designed the villa for the Sienese banker Agostino Chigi between 1506 and 1510 as a U-shaped block with a garden loggia. Raphael painted the Galatea around 1512 and designed the Loggia of Cupid and Psyche in 1517 to 1518; Sebastiano del Piombo, Sodoma and Peruzzi worked beside him. Chigi died in 1520; Cardinal Alessandro Farnese bought the villa in 1579, giving it its name.",
-    "The miniature shows the villa with its garden and the riverside loggia and stables, both lost when the Tiber embankments were built in the 1880s. The layout of the gardens and the river front is reconstructed from sixteenth-century plans and views."
+    "Baldassare Peruzzi designed the villa for the Sienese banker Agostino Chigi between 1506 and 1510 as a U-shaped block with a garden loggia. Raphael painted the Galatea around 1512 and designed the Loggia of Cupid and Psyche in 1517 to 1518; Sebastiano del Piombo, Sodoma and Peruzzi worked beside him. Chigi died in 1520; Cardinal Alessandro Farnese bought the villa in 1579 (some say 1577), giving it its name.",
+    "The miniature shows the villa with its garden, Raphael's stables (demolished in 1808) and the riverside loggia, lost to the Tiber embankments in the 1880s. The layout of the gardens and the river front is reconstructed from sixteenth-century plans and views."
    ],
    "built": "1506–1510",
    "function": "Suburban villa of Agostino Chigi",
@@ -7919,7 +7919,7 @@
      }
     },
     "medieval-1300": {
-     "note": "Innocent II's church of 1140 to 1143, on 22 granite columns from the Baths of Caracalla, with his apse mosaic, a Romanesque campanile, and Cavallini's new mosaics of the Virgin's life, dated 1291."
+     "note": "Innocent II's church of 1140–43, on 22 granite columns said to come from the Baths of Caracalla, with his apse mosaic, a campanile, and Cavallini's new mosaics of the Virgin's life, dated 1291."
     },
     "renaissance-1560": {
      "note": "Essentially the twelfth-century basilica with its mosaic façade and medieval porch. Domenichino's gilded ceiling of 1617 and Carlo Fontana's porch of 1702 lie in the future."
@@ -7927,7 +7927,7 @@
    },
    "summary": "Perhaps the oldest church of the Virgin in Rome, a titulus of the third or fourth century rebuilt in the 1140s with reused columns and mosaics that still glow across the main square of Trastevere.",
    "details": [
-    "The Liber Pontificalis credits Callixtus I with founding a Christian meeting place here and Julius I with building a basilica in the 340s; a legend says oil welled from the ground on the site in 38 BCE. Innocent II rebuilt the church in 1140 to 1143 with columns and Ionic capitals stripped from the Baths of Caracalla, a mosaic apse and a campanile. Pietro Cavallini added mosaics in 1291.",
+    "The Liber Pontificalis credits Callixtus I with founding a Christian meeting place here and Julius I with building a basilica in the 340s; a legend says oil welled from the ground on the site in 38 BCE. Innocent II rebuilt the church in 1140 to 1143 with ancient columns and Ionic capitals, traditionally from the Baths of Caracalla, a mosaic apse and a campanile. Pietro Cavallini added mosaics in 1291.",
     "The miniature shows a conjectural fourth-century hall, then Innocent II's basilica, which survives little changed. Nothing of the early church has been excavated, so its size and orientation are guesses; the twelfth-century façade mosaic and porch are shown as recorded before Fontana's rebuilding."
    ],
    "built": "Titulus by the 4th century; rebuilt 1140–1143",
@@ -7981,7 +7981,7 @@
     },
     "late-400ce": {
      "name": "Titulus Clementis (San Clemente)",
-     "note": "A basilica built in the late 4th century over the earlier buildings, attested at a synod of 392 CE. Three aisles with an apse; the plan of this lower church was excavated in 1857.",
+     "note": "A basilica built in the late 4th century over the earlier buildings, mentioned by Jerome in 392 CE. Three aisles with an apse; the plan of this lower church was excavated in 1857.",
      "model": {
       "glb": "models/rome/san-clemente-early.glb",
       "fallback": {
@@ -8156,7 +8156,7 @@
      }
     },
     "late-400ce": {
-     "note": "Now a city gate: Aurelian used the arch in his wall of the 270s, and Honorius in 405 CE added towers and a forward bastion, burying the baker's tomb inside one of them."
+     "note": "Now a city gate: Aurelian used the arch in his wall of the 270s, and Honorius (c. 401–405 CE) added towers and a forward bastion, burying the baker's tomb inside one of them."
     },
     "medieval-1300": {
      "note": "Called Porta Maggiore after the road to Santa Maria Maggiore. The aqueduct channels above are dry; the Honorian towers still guard a largely empty, vineyard-filled corner of the city."
@@ -8167,10 +8167,10 @@
    },
    "summary": "Claudius's monumental aqueduct arch of 52 CE over the Praenestine and Labican roads, later turned into a gate of the Aurelian Walls, with the famous baker's tomb beside it.",
    "details": [
-    "Claudius finished the Aqua Claudia and Anio Novus in 52 CE and marked their crossing of two roads with a double arch of deliberately rough travertine blocks, 32 metres wide, carrying both channels. Aurelian incorporated it into his wall in 271 to 275 CE, and Honorius in 405 CE added towers and a bastion that enclosed the tomb of the baker Eurysaces, built about 30 BCE.",
+    "Claudius finished the Aqua Claudia and Anio Novus in 52 CE and marked their crossing of two roads with a double arch of deliberately rough travertine blocks, 32 metres wide, carrying both channels. Aurelian incorporated it into his wall in 271 to 275 CE, and Honorius in the early 400s added towers and a bastion that enclosed the tomb of the baker Eurysaces, built about 30 BCE.",
     "The miniature shows the arch with its aqueduct channels, then the gate with Honorius's towers, which were demolished in 1838. The inscriptions and attic are well preserved; the form of the Honorian bastion and the medieval buildings against the gate are reconstructed from early drawings."
    ],
-   "built": "52 CE; made a gate 271–275 CE; towers 405 CE",
+   "built": "52 CE; made a gate 271–275 CE; towers early 5th century",
    "function": "Aqueduct crossing, later city gate",
    "confidence": "documented",
    "sourceIds": [
@@ -8224,16 +8224,16 @@
     },
     "medieval-1300": {
      "name": "Porta San Sebastiano (Porta Appia)",
-     "note": "Named for the basilica of San Sebastiano on the Appian Way. The towers are kept up and garrisoned; in 1327 a Roman militia defeats a Neapolitan force here and scratches an archangel on the wall."
+     "note": "Named for San Sebastiano on the Appian Way. The towers are garrisoned; in 1327 Romans beat back King Robert of Naples's troops here, as an archangel and inscription carved in the passage record."
     },
     "renaissance-1560": {
      "name": "Porta San Sebastiano (Porta Appia)",
-     "note": "The largest and best-kept gate in the walls, still the ceremonial entrance from the south. Marcantonio Colonna's triumphal return from Lepanto will pass through it in 1571."
+     "note": "The largest and best-kept gate in the walls, still the ceremonial entrance from the south. Charles V entered here in 1536; Marcantonio Colonna's triumph after Lepanto will pass through it in 1571."
     }
    },
    "summary": "The gate of the Appian Way in the Aurelian Walls, rebuilt under Honorius around 401 to 403 CE and the largest and best-preserved of Rome's ancient gates.",
    "details": [
-    "Aurelian's wall of 271 to 275 CE crossed the Via Appia with a twin-arched gate between round towers. Around 401 to 403 CE Honorius's engineers rebuilt it with a single arch, marble-faced towers raised on square bases, and a fortified upper storey; a sixth-century repair raised the towers again. Just inside stands the so-called Arch of Drusus, really an arch of Caracalla's aqueduct.",
+    "Aurelian's wall of 271 to 275 CE crossed the Via Appia with a twin-arched gate between round towers. Around 401 to 403 CE Honorius's engineers rebuilt it with a single arch, marble-faced towers raised on square bases, and a fortified upper storey; later repairs raised the towers again. Just inside stands the so-called Arch of Drusus, really an arch of Caracalla's aqueduct.",
     "The miniature shows the Honorian gate with its gallery and towers, which survive to full height. The exact appearance of Aurelian's original gate and the sequence of later heightenings are reconstructed from the brickwork; the inscription of the 1327 battle and later graffiti are not modelled."
    ],
    "built": "271–275 CE; rebuilt c. 401–403 CE",
@@ -8296,8 +8296,8 @@
    },
    "summary": "The brick fortress of the Praetorian Guard, built by Sejanus in 21 to 23 CE on the north-east edge of Rome, where emperors were made and unmade until Constantine abolished the Guard.",
    "details": [
-    "Tiberius's prefect Sejanus concentrated the Praetorian cohorts in one camp of 440 by 380 metres, 17 hectares, in 21 to 23 CE. Its brick-faced concrete walls, 3.5 metres high with rounded corners and four gates, enclosed barracks for perhaps 10,000 men. Aurelian built the camp into his city wall in the 270s; Maxentius heightened it; Constantine razed the west side in 312 CE.",
-    "The miniature shows the walled camp with its gates and barrack rows; the internal plan is poorly known and follows the standard layout of a Roman fort. The three surviving sides, still part of the Aurelian Walls, are 17 metres high today after repeated raisings."
+    "Tiberius's prefect Sejanus concentrated the Praetorian cohorts in one camp of 440 by 380 metres, 17 hectares, in 21 to 23 CE. Its brick-faced concrete walls, under 5 metres high, with rounded corners and four gates, enclosed barracks for perhaps 10,000 men. Aurelian built the camp into his city wall in the 270s; Maxentius heightened it; Constantine razed the west side in 312 CE.",
+    "The miniature shows the walled camp with its gates and barrack rows; the internal plan is poorly known and follows the standard layout of a Roman fort. The three surviving sides, still part of the Aurelian Walls, stand much higher today after repeated raisings."
    ],
    "built": "21–23 CE; walls raised 270s and c. 310 CE; west wall razed 312 CE",
    "function": "Barracks of the Praetorian Guard",
@@ -8371,19 +8371,19 @@
      "note": "No port yet. A flood meadow below the Aventine, outside the settlement; boats still beach at the Forum Boarium upstream by the Tiber Island ford."
     },
     "republic-200bce": {
-     "note": "Being laid out. The aediles of 193 BCE build the Emporium quay; in 174 BCE it is paved and the Porticus Aemilia, a vaulted concrete hall nearly 500 metres long, rises behind it."
+     "note": "Being laid out. The aediles of 193 BCE build the Emporium and the Porticus Aemilia, later a vaulted hall nearly 500 metres long; the censors pave the quay in 174 BCE."
     },
     "republic-50bce": {
      "note": "The city's working harbour: a travertine quay with mooring rings and ramps, the long portico behind it, and the new Horrea Galbae, a vast three-courtyard warehouse of the Sulpicii Galbae."
     },
     "empire-100ce": {
-     "note": "At full stretch. Grain, oil and wine for a million people come up the river from Trajan's new harbour at Portus; broken oil amphorae are already being stacked into Monte Testaccio."
+     "note": "At full stretch. Grain, oil and wine for perhaps a million people come up from Claudius's harbour at Portus, which Trajan is enlarging; broken oil amphorae are already being stacked into Monte Testaccio."
     },
     "empire-215ce": {
-     "note": "The Severan grain and oil doles keep the quays busy; the amphora mound climbs past 30 metres. Rows of warehouses, many imperial property, cover the plain down to the river."
+     "note": "The Severan grain and oil doles keep the quays busy; the amphora mound climbs ever higher. Rows of warehouses, many imperial property, cover the plain down to the river."
     },
     "late-400ce": {
-     "note": "Still working but shrinking: the African oil shipments that fed Testaccio stopped around 260 CE, and the Vandal seizure of Carthage in 439 CE will cut the grain fleet too."
+     "note": "Still working but shrinking: dumping of Spanish and African oil jars at Testaccio stopped around 260 CE, and the Vandal seizure of Carthage in 439 CE will cut the grain fleet too."
     },
     "medieval-1300": {
      "note": "Gone. The plain is the Prati del Popolo Romano, pasture and vineyards where the commune holds its Carnival games below Monte Testaccio; marble is quarried from the old quay, the Marmorata."
@@ -8391,10 +8391,10 @@
    },
    "summary": "Republican Rome's river port below the Aventine, with the Porticus Aemilia and the enormous Horrea Galbae warehouses, where the grain, oil and marble of the empire were landed for over six centuries.",
    "details": [
-    "Livy records the aediles Lepidus and Paullus building the Emporium in 193 BCE and the Porticus Aemilia, a 487 by 60 metre hall of barrel vaults, in 174 BCE. The Horrea Galbae, warehouses founded by the Sulpicii Galbae, grew into courtyards covering more than 3 hectares. A travertine quay 500 metres long with ramps and mooring rings served the barges, and discarded oil amphorae formed the 35-metre Monte Testaccio.",
+    "Livy records the aediles Lepidus and Paullus building the Emporium and Porticus Aemilia in 193 BCE, and censors paving and rebuilding in 174 BCE; the vaulted hall measured 487 by 60 metres. The Horrea Galbae, warehouses founded by the Sulpicii Galbae, grew into courtyards covering more than 3 hectares. A travertine quay with ramps and mooring rings served the barges; discarded oil amphorae formed the 35-metre Monte Testaccio.",
     "The miniature shows the quay, the portico and the warehouse courtyards in a simplified grid. The identification of the great vaulted building as the Porticus Aemilia has recently been challenged by scholars who see it as a shipyard; the internal plan of the Horrea Galbae is only partly excavated."
    ],
-   "built": "Emporium 193 BCE; Porticus Aemilia 174 BCE; Horrea Galbae 2nd–1st century BCE",
+   "built": "Emporium and Porticus Aemilia 193 BCE, rebuilt 174 BCE; Horrea Galbae 2nd–1st century BCE",
    "function": "River port and state warehouses",
    "confidence": "reconstruction",
    "sourceIds": [
@@ -8579,7 +8579,7 @@
      "note": "Not yet built. The Campus Martius bank here is open ground; the only crossing to the Vatican is Nero's bridge a little downstream, which Hadrian's new bridge will replace."
     },
     "empire-215ce": {
-     "note": "Hadrian's bridge of 134 CE leads straight to his mausoleum: three great arches of travertine over the river, smaller arches on the banks, and a ramp with a bronze-crowned balustrade."
+     "note": "Hadrian's bridge of 134 CE leads straight to his mausoleum: three great arches of travertine over the river, with smaller arches and ramps on the banks."
     },
     "late-400ce": {
      "note": "Intact and busy with pilgrims to St Peter's. The mausoleum at its end is now a fortress built into the Aurelian Walls."
@@ -8792,7 +8792,7 @@
    ],
    "summary": "The round hearth-temple of Vesta, tended by six Vestal Virgins, and the Regia, the old 'king's house' used by the pontifex maximus: the religious centre of the Forum from the 7th century BCE.",
    "details": [
-    "The Regia was built over archaic huts around 600 BCE and kept its odd trapezoidal plan through every rebuilding; it held the calendar, the spears of Mars and the pontifical archive. Vesta's temple, round like the first huts, sheltered the state hearth that must never go out. Both were last rebuilt by Julia Domna after the fire of 191 CE.",
+    "The Regia, built over archaic huts around 600 BCE, kept its odd trapezoidal plan through every rebuilding; it held the spears of Mars and the pontifical archive. Vesta's round temple sheltered the state hearth that must never go out. The Regia was rebuilt in marble in 36 BCE, Vesta's temple by Julia Domna after 191 CE.",
     "Beside the temple stood the House of the Vestals; a storeroom (penus) held the sacred objects. The miniature shows the imperial marble temple; the archaic version, probably thatched and wooden, is a reconstruction. The cult ended in 394 CE and the buildings fell into ruin."
    ],
    "confidence": "documented",
@@ -8809,7 +8809,7 @@
     },
     {
      "hour": 12,
-     "text": "On the Kalends, priests gather at the Regia to announce the month's festivals. Matrons bring offerings; on 9 June, the Vestalia, bakers' donkeys pass garlanded with loaves."
+     "text": "On the Kalends the queen of sacred rites sacrifices to Juno in the Regia. Matrons bring offerings; on 9 June, the Vestalia, bakers' donkeys pass garlanded with loaves."
     },
     {
      "hour": 20,
@@ -8835,7 +8835,7 @@
    ],
    "summary": "A walled pit in the middle of the Forum, the last trace of its marsh, named for a Curtius who, legend says, rode fully armed into a chasm to save the city.",
    "details": [
-    "Romans told three stories: the Sabine Mettius Curtius bogged in the marsh, the youth Marcus Curtius who leapt into a chasm in 362 BCE, and a consul who fenced a lightning-struck spot. The surviving pavement and twelve-sided well-head are Augustan; a relief (a copy stands in the Forum) shows the horseman.",
+    "Romans told three stories: the Sabine Mettius Curtius bogged in the marsh, the youth Marcus Curtius who leapt into a chasm in 362 BCE, and a consul who fenced a lightning-struck spot. The surviving paving and enclosure are Augustan; a relief (a copy stands in the Forum) shows the horseman.",
     "Suetonius says that every year people of all ranks threw a coin into the Lacus for Augustus's health. In 69 CE the emperor Galba was cut down beside it. The miniature shows an altar and fenced enclosure; its exact form before the Augustan paving is uncertain."
    ],
    "confidence": "documented",
@@ -9229,7 +9229,7 @@
    ],
    "summary": "The cattle market by the river landing, Rome's oldest trading ground, with the Ara Maxima of Hercules where merchants paid tithes, and a famous bronze bull.",
    "details": [
-    "Here the Tiber ford, the salt road and the roads from Etruria and Latium met below the Palatine. Greek and Phoenician traders were present by the 6th century BCE; the twin archaic temples at Sant'Omobono date from about 580 BCE. Livestock from Latium was sold on the hoof; the first gladiatorial games were held here in 264 BCE.",
+    "Here the Tiber ford, the salt road and the roads from Etruria and Latium met below the Palatine. Greek and Phoenician traders were present by the 6th century BCE; the archaic temple at Sant'Omobono dates from the 6th century BCE. Livestock from Latium was sold on the hoof; the first gladiatorial games were held here in 264 BCE.",
     "The temples of Portunus and Hercules Victor (the round one) survive from the 2nd–1st centuries BCE. In 228 and 216 BCE two Gauls and two Greeks were buried alive here on the Sibylline books' orders. The miniature shows pens and a bronze bull; the market's edges are approximate."
    ],
    "confidence": "documented",
@@ -9314,7 +9314,7 @@
    "summary": "Nero's great provision market on the Caelian (59 CE): a colonnaded court with a two-storey domed pavilion, selling fish, meat and delicacies to Rome's richest tables.",
    "details": [
     "The macellum was the up-market food hall, distinct from the open forum markets; Rome had two, Livia's on the Esquiline and Nero's on the Caelian. A coin of 63–64 CE shows the Macellum Magnum as a round two-storey tholos inside a portico. Fishmongers, butchers and poulterers sold from marble tables, meat hung from hooks.",
-    "Its site is roughly where Santo Stefano Rotondo stands, though the church is not built on it. Juvenal mocks the gourmet who ruins himself at the macellum. The miniature follows the coin image and the excavated macella of Pompeii and Pozzuoli; the detail is reconstruction."
+    "It stood on the Caelian, probably near Santo Stefano Rotondo, though the church is not built on it. Juvenal mocks the gourmet who ruins himself at the macellum. The miniature follows the coin image and the excavated macella of Pompeii and Pozzuoli; the detail is reconstruction."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -9357,7 +9357,7 @@
    "summary": "Rome's river port below the Aventine, built from 193 BCE: a long stone quay with mooring rings and ramps, warehouses behind, and gangs of porters carrying grain, oil and marble.",
    "details": [
     "The aediles Aemilius Lepidus and Aemilius Paullus laid out the Emporium in 193 BCE with the vast vaulted Porticus Aemilia behind it; the quay was paved in 174 BCE. Barges (codicariae) towed upriver from Ostia, later Portus, by oxen or men unloaded here. The Horrea Galbana stored grain, oil and wine for the city.",
-    "Porters (saccarii) worked in guilds; a sack of grain weighed about 30 kg. Travertine quay blocks with rings and stepped ramps survive on the Lungotevere Testaccio. The miniature shows the quay, a stretch of warehouse and barges; the warehouses are reduced in scale."
+    "Porters (saccarii) worked in guilds and were paid by the load. Travertine quay blocks with rings and stepped ramps survive on the Lungotevere Testaccio. The miniature shows the quay, a stretch of warehouse and barges; the warehouses are reduced in scale."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -9496,7 +9496,7 @@
    ],
    "summary": "Rome's oldest bridge, all wood and no iron, kept by the pontiffs as a sacred thing: the crossing Horatius held, from which straw puppets were thrown each May.",
    "details": [
-    "Tradition gives it to King Ancus Marcius (7th century BCE). Pliny says it could contain no iron, so that it could be cut quickly in war, and the pontifices repaired it with rites. Horatius Cocles held it against Porsenna in 508 BCE. On 14 May the Vestals threw 27 rush puppets (Argei) from it into the river.",
+    "Tradition gives it to King Ancus Marcius (7th century BCE). Pliny says it could contain no iron, perhaps so it could be cut quickly, and the pontifices repaired it with rites. Horatius Cocles held it against Porsenna (508 BCE). On the Ides of May the Vestals threw rush puppets (the Argei, 27 by Varro's count) from it into the river.",
     "It was carried away by floods again and again (23 BCE, 69 CE) and always rebuilt in wood; its exact site is debated, probably just below the Pons Aemilius near the Forum Boarium. The miniature shows a timber trestle bridge; piers and width are a reconstruction."
    ],
    "confidence": "documented",
@@ -9602,7 +9602,7 @@
     },
     {
      "hour": 16,
-     "text": "Afternoon: counting on the abacus, pebbles clicking; a girl reads Virgil haltingly. From midsummer the bench will stay empty until October."
+     "text": "Afternoon: counting on the abacus, pebbles clicking; a girl reads a line of verse haltingly. From midsummer the bench will stay empty until October."
     }
    ],
    "variants": {}
@@ -9707,8 +9707,8 @@
    ],
    "summary": "Agrippa's marble-colonnaded enclosure in the Campus Martius (26 BCE) for citizens to vote, soon better known as Rome's most fashionable shopping arcade, where Martial's Mamurra browsed all day.",
    "details": [
-    "Caesar planned a marble voting pen to replace the wooden Ovile; Agrippa finished it, 310 by 120 m, with the Diribitorium beside it for counting. Voting mattered less after Augustus, and the long porticoes filled with dealers in ivory, bronzes, silver, slaves and tortoiseshell. Gladiators and even a naval show were staged here.",
-    "Martial has Mamurra handle the best boys and tables, price a vase and buy two cheap cups. Hadrian restored it after fires. Its east wall survives beside the Pantheon. The miniature shows the enclosure with shops in the colonnades; the interior courtyard is simplified."
+    "Caesar planned a marble voting pen to replace the wooden Ovile; Agrippa finished it, 310 by 120 m, with the Diribitorium beside it for counting. Voting mattered less after Augustus, and the long porticoes filled with dealers in ivory, bronzes, silver, slaves and tortoiseshell. Augustus staged gladiatorial games here.",
+    "Martial has Mamurra handle the best boys and tables, price a vase and buy two cheap cups. Hadrian restored it after fires. Stretches of its walls survive just east of the Pantheon. The miniature shows the enclosure with shops in the colonnades; the interior courtyard is simplified."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -10167,7 +10167,7 @@
    ],
    "summary": "A meadow over the ruins of Pompey's theatre that became, after paving in 1456, the city's liveliest square: horse market, inns, booksellers, hangings and, at every corner, a tavern.",
    "details": [
-    "The name (field of flowers) describes it in 1300: pasture and gardens between the Orsini fortress built into the theatre's cavea and the river quarter. Cardinal Scarampo paved it under Callixtus III in 1456; Sixtus IV's new streets made it the hub of Parione. Horse and hay markets met here twice a week.",
+    "The name (field of flowers) describes it in 1300: pasture and gardens between the Orsini fortress built into the theatre's cavea and the river quarter. It was paved under Callixtus III in 1456; Sixtus IV's new streets made it the hub of Parione. Horse and hay markets met here.",
     "Vannozza Cattanei, mother of the Borgia children, ran the Hostaria della Vacca on a corner. Executions were held here from the 15th century; Giordano Bruno was burned here in 1600. The miniature shows a paved square with inns, stalls and a gallows; stall positions are reconstruction."
    ],
    "confidence": "documented",
@@ -10298,7 +10298,7 @@
    ],
    "summary": "Inns and national hospices along the pilgrims' way to St Peter's, named Via del Pellegrino when Sixtus IV straightened it in 1483: beds in rows, soup, relics for sale and fleas.",
    "details": [
-    "The Jubilee of 1300 brought, Villani says, 200,000 pilgrims; Dante describes the crowd control on Ponte Sant'Angelo. Hospices were founded by nations (the Saxons at Santo Spirito, the English in 1362 on today's Via di Monserrato, the Germans at Santa Maria dell'Anima in 1386), and private inns packed the street.",
+    "The Jubilee of 1300 brought, Villani says, 200,000 pilgrims; Dante describes the crowd control on Ponte Sant'Angelo. Hospices were founded by nations (the Saxons at Santo Spirito, the English in 1362 on today's Via di Monserrato, the Germans and Netherlanders at Santa Maria dell'Anima from 1350), and private inns packed the street.",
     "Sixtus IV's Via Peregrinorum (1483) ran from Campo de' Fiori toward the bridge; goldsmiths, innkeepers and rosary-sellers lived along it in the 1526 census. The miniature shows an inn with a courtyard and a hospice with a dormitory; individual inns are not located."
    ],
    "confidence": "documented",
@@ -10661,7 +10661,7 @@
    "vignettes": [
     {
      "hour": 6,
-     "text": "Cowherds from the Campagna drive oxen in through the half-buried Arch of Septimius Severus; the field is wet. A friar at Santa Maria Nova rings for matins."
+     "text": "Cowherds from the Campagna drive oxen in past the half-buried Arch of Septimius Severus; the field is wet. A monk at Santa Maria Nova rings for matins."
     },
     {
      "hour": 12,
@@ -10808,7 +10808,7 @@
    "summary": "A straight new street a kilometre long, cut by Julius II and Bramante from 1508 along the Tiber bend: palaces, the Florentine church, the unfinished Palace of the Tribunals, and the fashionable evening walk.",
    "details": [
     "Julius II wanted to concentrate the law courts in one palace and give the Florentine bankers a straight road to the Vatican bridge. The Palazzo dei Tribunali was abandoned at its rusticated base (the 'sofas' of Via Giulia). San Giovanni dei Fiorentini was begun in 1519; Antonio da Sangallo the Younger built his own house here.",
-    "By 1560 Via Giulia was a street of bankers, courtesans and prelates, paved and lined with palaces (Palazzo Sacchetti, 1542). The Farnese arch and the prisons came later. The miniature shows the straight street with palaces and a church under construction; façades are simplified."
+    "By 1560 Via Giulia was a street of bankers, courtesans and prelates, lined with palaces such as Sangallo's house, later Palazzo Sacchetti. The Farnese arch and the prisons came later. The miniature shows the straight street with palaces and a church under construction; façades are simplified."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -10844,9 +10844,9 @@
    "activePeriods": [
     "renaissance-1560"
    ],
-   "summary": "A tall 15th-century inn by the Ripetta landing, the best address for travellers arriving by river: Montaigne took rooms here in 1580 before finding lodgings in the city.",
+   "summary": "A tall 15th-century inn near the river above Ponte Sant'Angelo, well placed for travellers arriving from the north: Montaigne took rooms here in 1580 before finding lodgings in the city.",
    "details": [
-    "The Hostaria dell'Orso, 'at the sign of the bear', occupies a house of about 1460 on the corner of Via dei Soldati and Via di Monte Brianzo, with a loggia and painted façade. Travellers landing from Umbria and the upper Tiber found it first; it fed and stabled them, and charged accordingly.",
+    "The Hostaria dell'Orso, 'at the sign of the bear', occupies a house of about 1460 on the corner of Via dei Soldati and Via di Monte Brianzo, with a loggia and painted façade. Travellers coming down the Via Flaminia or by river from upstream found it early; it fed and stabled them, and charged accordingly.",
     "Tradition adds Dante and Rabelais to the guest list; Montaigne's Journal is the sure witness. Inns were regulated by the city: posted prices, no gambling, no women of ill fame. The miniature shows the inn with its arcaded ground floor and stable yard; the yard is reconstruction."
    ],
    "confidence": "documented",
@@ -10885,8 +10885,8 @@
    ],
    "summary": "At the foot of the 124 marble steps built in 1348, stalls and criers of the old Capitoline market linger below the hill where Michelangelo's new piazza is being laid out.",
    "details": [
-    "The stairs were built in thanksgiving for the end of the plague of 1348; Cola di Rienzo climbed them first and was killed near their foot in 1354. The Capitol was the city's market until Sixtus IV moved the market to Piazza Navona in 1477; fruit-sellers, criers and notaries stayed on at the foot.",
-    "From 1536 Michelangelo's design transformed the hilltop; in 1560 the cordonata and the Senator's palace stairs were under way. Public notices were cried here and criminals' sentences posted. The miniature shows stalls on a sloping piazza with the stairs behind; stall positions are reconstruction."
+    "The stairs were built in 1348, traditionally as thanks for surviving the Black Death; Cola di Rienzo was killed on the Capitol nearby in 1354. The Capitol was the city's market until Sixtus IV moved the market to Piazza Navona in 1477; fruit-sellers, criers and notaries stayed on at the foot.",
+    "From 1538 Michelangelo's design began to transform the hilltop; by 1560 the Senator's palace stairs were built, the cordonata ramp not yet. Public notices were cried here and criminals' sentences posted. The miniature shows stalls on a sloping piazza with the stairs behind; stall positions are reconstruction."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -10906,7 +10906,7 @@
     },
     {
      "hour": 19,
-     "text": "Stalls folded; a beggar sleeps on the lowest step. Vespers from Santa Maria in Aracoeli drift down; a lantern climbs the cordonata toward the Senator's palace."
+     "text": "Stalls folded; a beggar sleeps on the lowest step. Vespers from Santa Maria in Aracoeli drift down; a lantern climbs the old path toward the Senator's palace."
     }
    ],
    "variants": {}
@@ -10973,7 +10973,7 @@
     "landmarkId": "roman-forum"
    },
    "effect": "procession",
-   "text": "Returning from Zama, Scipio rode through the Forum and up to the Capitol in the most splendid triumph Rome had yet seen. Livy reports 123,000 pounds of silver carried in the procession and 400 asses paid to each soldier. The victory ended the Second Punic War; the name Africanus, Livy notes, was the first ever taken from a conquered land. Captive Carthaginians walked before the chariot.",
+   "text": "Returning from Zama, Scipio rode through the Forum and up to the Capitol in the most splendid triumph Rome had yet seen. Livy reports 123,000 pounds of silver carried in the procession and 400 asses paid to each soldier. The victory ended the Second Punic War; Livy notes he was the first general to be known by the name of a people he had conquered: Africanus.",
    "sourceIds": [
     "livy",
     "beard-triumph",
@@ -10990,7 +10990,7 @@
     "landmarkId": "roman-forum"
    },
    "effect": "construction",
-   "text": "As censor in 184 BCE, Cato the Elder bought houses and shops beside the Curia and built the Basilica Porcia, the first of Rome's great roofed halls for business and law. Livy records senators objecting to the expense. The building, Greek in form, housed the tribunes' bench; it burned in 52 BCE together with the Curia during the riot at Clodius's funeral and was never rebuilt.",
+   "text": "As censor in 184 BCE, Cato the Elder bought houses and shops beside the Curia and built the Basilica Porcia, the first of Rome's great roofed halls for business and law. Plutarch says Cato built it in the teeth of opposition. The building, Greek in form, housed the tribunes' bench; it burned in 52 BCE together with the Curia during the riot at Clodius's funeral and was never rebuilt.",
    "sourceIds": [
     "livy",
     "wiki-basilica-porcia",
@@ -11026,7 +11026,7 @@
     ]
    },
    "effect": "construction",
-   "text": "The praetor Quintus Marcius Rex was charged with repairing the old aqueducts and bringing in a new one, 91 kilometres from springs in the upper Anio valley. Its last stretch ran on arches, the first aqueduct arcade in Rome, and it was the first to reach the Capitol, which the Sibylline Books had supposedly forbidden. Frontinus praised its cold, clear water above all others. It cost 180 million sesterces.",
+   "text": "The praetor Quintus Marcius Rex was charged with repairing the old aqueducts and bringing in a new one, 91 kilometres from springs in the upper Anio valley. Its last stretch ran on long arcades, the first on such a scale at Rome, and it was the first to reach the Capitol, which the Sibylline Books had supposedly forbidden. Frontinus praised its cold, clear water. It cost 180 million sesterces.",
    "sourceIds": [
     "frontinus",
     "wiki-aqua-marcia"
@@ -11058,7 +11058,7 @@
     "landmarkId": "theatre-of-pompey"
    },
    "effect": "crowd",
-   "text": "Pompey dedicated his theatre in 55 BCE, during his second consulship, with games that Cicero, writing to a friend, found vulgar: six hundred mules in a tragedy, and twenty elephants slaughtered in the arena whose cries roused the crowd's pity rather than pleasure. A temple of Venus Victrix crowned the seating, letting Pompey call the whole theatre a temple and dodge the ban on permanent theatres.",
+   "text": "Pompey dedicated his theatre in 55 BCE, during his second consulship, with games that Cicero, writing to a friend, found vulgar: six hundred mules in a tragedy, and elephants (twenty, says Pliny) slaughtered in the games, whose cries roused the crowd's pity rather than pleasure. A temple of Venus Victrix crowned the seating, letting Pompey call the whole theatre a temple and dodge the ban on permanent theatres.",
    "sourceIds": [
     "cicero-letters",
     "pliny",
@@ -11125,7 +11125,7 @@
     "landmarkId": "forum-of-trajan"
    },
    "effect": "construction",
-   "text": "Spoils from the Dacian Wars paid for the largest imperial forum. Apollodorus of Damascus's workmen cut away a spur joining the Quirinal to the Capitoline; the inscription on Trajan's Column says its height, about 38 metres, shows how much hill was removed. The complex, dedicated in 112, held a basilica, two libraries and a great colonnaded square with an equestrian statue of Trajan at the centre.",
+   "text": "Spoils from the Dacian Wars paid for the largest imperial forum. Apollodorus of Damascus's workmen cut away a spur joining the Quirinal to the Capitoline; the inscription on Trajan's Column says its height, about 35 metres with the base, shows how much hill was removed. The complex, dedicated in 112, held a basilica, two libraries and a great colonnaded square with an equestrian statue of Trajan at the centre.",
    "sourceIds": [
     "wiki-trajan-forum",
     "claridge",
@@ -11175,7 +11175,7 @@
     "spotId": "tiber-boatmen"
    },
    "effect": "none",
-   "text": "In the spring of 69 CE, as Otho marched out against Vitellius, the Tiber rose over its banks and swamped the Campus Martius and the low ground of the Forum valley. Tacitus records collapsed tenements, people drowned in their shops and beds, food shortages, and the Via Flaminia, the army's route north, blocked by water. Boatmen rowed between upper storeys. Romans read it as an omen.",
+   "text": "In the spring of 69 CE, as Otho marched out against Vitellius, the Tiber rose over its banks and swamped the Campus Martius and the low ground of the Forum valley. Tacitus records collapsed tenements, people drowned in their shops and beds, food shortages, and the Via Flaminia, the army's route north, blocked by water. Romans read it as an omen.",
    "sourceIds": [
     "tacitus",
     "aldrete",
@@ -11277,7 +11277,7 @@
     "landmarkId": "curia"
    },
    "effect": "none",
-   "text": "In 384 Symmachus, prefect of Rome and spokesman for the pagan senators, petitioned the young emperor Valentinian II to restore the altar and golden statue of Victory removed from the Senate house two years earlier. \"We ask peace for the gods of our fathers,\" he wrote; \"not by one road alone can we reach so great a mystery.\" Bishop Ambrose of Milan answered and won. The altar was never restored.",
+   "text": "In 384 Symmachus, prefect of Rome and voice of the pagan senators, begged the young Valentinian II to restore the Altar of Victory, removed from the Senate house in 382. \"We ask peace for the gods of our fathers,\" he wrote; \"not by one road alone can we reach so great a mystery.\" Ambrose answered and won. Save a brief return under the usurper Eugenius (392–394), the altar was never restored.",
    "sourceIds": [
     "symmachus",
     "ambrose",
@@ -11313,7 +11313,7 @@
     "landmarkId": "temple-of-jupiter"
    },
    "effect": "none",
-   "text": "In 391 the emperor Theodosius forbade all sacrifice and ordered the temples closed: no one might enter them, look upon the images or burn incense to the household gods. The great Temple of Jupiter on the Capitol, Rome's state sanctuary for 900 years, lost its priests and offerings. The Vandals stripped its gilded roof tiles in 455. Senators who had led the old religion quietly joined the churches.",
+   "text": "Laws of Theodosius in 391–392 forbade all sacrifice: no one might enter the temples or revere the images, and a later law banned even incense to the household gods. The great Temple of Jupiter on the Capitol, Rome's state sanctuary for 900 years, lost its priests and offerings. The Vandals stripped its gilded roof tiles in 455. Senators who had led the old religion quietly joined the churches.",
    "sourceIds": [
     "codex-theodosianus",
     "wiki-theodosius-pagans",
@@ -11347,7 +11347,7 @@
     "landmarkId": "st-peters"
    },
    "effect": "none",
-   "text": "Around 1300, probably a few years after the Jubilee, Cardinal Jacopo Stefaneschi commissioned Giotto to make a vast mosaic of the Navicella, Christ walking on the water towards the apostles' storm-tossed boat, for the atrium of Old St Peter's. Every pilgrim crossing the courtyard passed beneath it: the ship was the Church, its pilot Peter. Only a heavily restored fragment survives in the new basilica's portico.",
+   "text": "Around 1300 (proposed dates run from about 1298 to 1310) Cardinal Jacopo Stefaneschi commissioned Giotto to make a vast mosaic of the Navicella, Christ walking on the water towards the apostles' storm-tossed boat, for the atrium of Old St Peter's. Every pilgrim crossing the courtyard passed beneath it: the ship was the Church, its pilot Peter. Only a heavily restored fragment survives in the new basilica's portico.",
    "sourceIds": [
     "wiki-navicella",
     "krautheimer"
@@ -11395,7 +11395,7 @@
     "spotId": "calcararia"
    },
    "effect": "fire",
-   "text": "Every working day the calcararii feed their kilns with broken statues, inscriptions and column drums from the ancient city. Burned for a day or two, marble becomes lime for mortar; a single kiln can eat a temple's facing in a season. The quarter's name, Calcarario, survives in street names near Largo Argentina. Clerks occasionally copied inscriptions before they burned, which is how some texts are known at all.",
+   "text": "Every working day the calcararii feed their kilns with broken statues, inscriptions and column drums from the ancient city. Burned for days, marble becomes lime for mortar. The quarter's name, Calcarario, survived in the church of Santa Lucia de Calcarario near Largo Argentina. Now and then someone copied an inscription before it burned, which is how some texts are known at all.",
    "sourceIds": [
     "lanciani",
     "krautheimer"
@@ -11445,7 +11445,7 @@
     "landmarkId": "campidoglio"
    },
    "effect": "construction",
-   "text": "After Charles V's visit in 1536 exposed the civic hill's shabbiness, Paul III moved the bronze Marcus Aurelius there in 1538 and asked Michelangelo to redesign it. He turned the square to face St Peter's, gave the Senators' Palace a double stair and planned twin palaces framing a trapezoid with an oval starburst pavement. Work was slow: in 1560 the Conservators' Palace façade was rising; the pavement waited until 1940.",
+   "text": "After Charles V's visit in 1536, Paul III moved the bronze Marcus Aurelius there in 1538 and asked Michelangelo to redesign it. He turned the square towards St Peter's, gave the Senators' Palace a double stair and planned twin palaces framing a trapezoid with an oval pavement. Work was slow: in 1560 only the Senators' stair was done; the Conservators' Palace followed from 1563 and the pavement waited until 1940.",
    "sourceIds": [
     "wiki-campidoglio",
     "ackerman"
@@ -11461,7 +11461,7 @@
     "spotId": "pasquino"
    },
    "effect": "crowd",
-   "text": "Most mornings since about 1501 Romans have found verses pasted to the battered ancient statue at the corner of the Orsini palace (now Palazzo Braschi), mocking cardinals, popes and prices in Latin or Roman dialect. Under Paul IV the pasquinades were so savage that he reportedly wanted the statue thrown in the Tiber. Crowds read and copy them before the police tear them down. Pasquino has rivals: Marforio, Madama Lucrezia.",
+   "text": "Most mornings since about 1501 Romans have found verses pasted to the battered ancient statue at the corner of the Orsini palace (now Palazzo Braschi), mocking cardinals, popes and prices in Latin or Roman dialect. Adrian VI reportedly wanted the statue thrown in the Tiber; under Paul IV the pasquinades were savage. Crowds read and copy them before the police tear them down. Pasquino has rivals: Marforio, Madama Lucrezia.",
    "sourceIds": [
     "wiki-pasquino",
     "hibbert",
@@ -11470,7 +11470,7 @@
   },
   {
    "id": "tiber-flood-1557",
-   "title": "The Tiber's worst flood in living memory",
+   "title": "The great Tiber flood of 1557",
    "periodId": "renaissance-1560",
    "date": "15 September 1557",
    "kind": "disaster",
@@ -11478,7 +11478,7 @@
     "spotId": "tiber-mills"
    },
    "effect": "none",
-   "text": "On 15 September 1557 the Tiber rose to nearly 19 metres on the Ripetta gauge, the highest flood since 1530, drowning the Campo Marzio, the new Ghetto and Trastevere. The floating mills moored by the Tiber Island broke loose and smashed against the bridges; bread ran short for days. Mud lay in the churches; a plaque at Santa Maria sopra Minerva marks the level. Embankments came only after 1870.",
+   "text": "On 15 September 1557 the Tiber rose to nearly 19 metres on the Ripetta gauge, close to the record flood of 1530, drowning the Campo Marzio, the Ghetto and Trastevere. The floating mills moored by the Tiber Island broke loose and smashed against the bridges; bread ran short for days. Mud lay in the churches; a plaque at Santa Maria sopra Minerva marks the level. Embankments came only after 1870.",
    "sourceIds": [
     "wiki-tiber-floods",
     "hibbert",
@@ -11497,7 +11497,7 @@
      "landmarkId": "circus-maximus",
      "title": "The procession enters the city",
      "when": "71 CE",
-     "text": "The emperors spent the night outside the walls by the Temple of Isis and at dawn took their seats at the Portico of Octavia, where the Senate and the army cheered them. Josephus says the parade was routed through the theatres so more people could see it; its way probably ran round the Circus Maximus. Crowds pack the stands and rooftops. Soldiers in silk pass first, then wagons of spoils.",
+     "text": "The emperors spent the night outside the walls by the Temple of Isis and at dawn took their seats at the Portico of Octavia, where the Senate and the army cheered them. Josephus says the parade was routed through the theatres so more people could see it; its way probably ran round the Circus Maximus. Crowds pack stands and rooftops; wagons of spoils roll past.",
      "sourceIds": [
       "josephus",
       "beard-triumph"
@@ -11556,7 +11556,7 @@
      "spotId": "subura-insula",
      "title": "Waking in the tenement",
      "when": "first hour",
-     "text": "Up five flights, the poor tenant has a single room: no kitchen, no water, a chamber pot emptied, or thrown, into the street. Juvenal notes that on the top floor you are the last to learn of a fire and the first to burn. Below, the ground-floor shops take down their shutters. Clients hurry out in togas to their patron's morning greeting, hoping for the handout.",
+     "text": "Up five flights, the poor tenant has a single room: no kitchen, no water, a chamber pot emptied, or thrown, into the street. Juvenal notes that the tenant under the roof tiles, where the doves nest, burns last but has no way out. Below, the ground-floor shops take down their shutters. Clients hurry out in togas to their patron's morning greeting, hoping for the handout.",
      "sourceIds": [
       "juvenal",
       "martial"
@@ -11566,7 +11566,7 @@
      "spotId": "subura-barber",
      "title": "At the barber's",
      "when": "second hour",
-     "text": "Second hour: men wait on stools for a shave. The barber works with an iron razor and water, no soap; Martial jokes about one so slow that the beard grows back on the first cheek before he finishes the second. Here you hear the quarter's gossip, the price of bread, who died in last night's fire. A good barber also pulls teeth and lances boils.",
+     "text": "Second hour: men wait on stools for a shave. The barber works with an iron razor and water, no soap; Martial jokes about one so slow that the beard grows back on the first cheek before he finishes the second. Here you hear the quarter's gossip, the price of bread, who died in last night's fire.",
      "sourceIds": [
       "martial",
       "carcopino"
@@ -11638,7 +11638,7 @@
     {
      "landmarkId": "st-peters",
      "title": "Fifteen visits for forgiveness",
-     "text": "The bull of February demands fifteen days of visits from foreigners, thirty from Romans. Inside the old Constantinian basilica, with its forest of columns, pilgrims shuffle past the confessio where Peter lies, kiss the bronze pine-cone fountain in the atrium, and leave coins. Villani reports that at St Paul's two clerics stood day and night raking in the offerings.",
+     "text": "The bull of February demands fifteen days of visits from foreigners, thirty from Romans. Inside the old Constantinian basilica, with its forest of columns, pilgrims shuffle past the confessio where Peter lies, wash at the bronze pine-cone fountain in the atrium, and leave coins. A chronicler from Asti saw two clerics at St Paul's raking in the offerings day and night.",
      "sourceIds": [
       "villani",
       "krautheimer"
@@ -11700,7 +11700,7 @@
      "spotId": "campo-de-fiori",
      "title": "Market in the morning",
      "when": "1560",
-     "text": "Campo de' Fiori is the market: stalls of vegetables, fish and hay, horse-dealers, and inns round the square for pilgrims and papal couriers. Executions happen here too, and bandits' heads are displayed. Behind the houses the curve of Pompey's ancient theatre still shapes the lanes. Rome has grown back to perhaps 80,000 people since the Sack of 1527.",
+     "text": "Campo de' Fiori is the market: stalls of vegetables, fish and hay, horse-dealers, and inns round the square for pilgrims and papal couriers. Executions happen here too. Behind the houses the curve of Pompey's ancient theatre still shapes the lanes. Rome has grown back to perhaps 80,000 people since the Sack of 1527.",
      "sourceIds": [
       "wiki-campo-de-fiori",
       "partner"
@@ -11709,7 +11709,7 @@
     {
      "landmarkId": "palazzo-farnese",
      "title": "The Farnese palace",
-     "text": "The largest private palace in Rome, begun by Sangallo for Cardinal Alessandro Farnese and finished, after he became Paul III, by Michelangelo, who added the great cornice and the window over the door. In 1560 the cardinal's grandson of the same name lives here among antiquities dug from the Baths of Caracalla, the Farnese Bull and Hercules. Vignola is completing the rear loggia.",
+     "text": "The largest private palace in Rome, begun by Sangallo for Cardinal Alessandro Farnese and finished, after he became Paul III, by Michelangelo, who added the great cornice and the window over the door. In 1560 Paul III's grandsons, Cardinals Alessandro and Ranuccio, keep building and filling it with antiquities from the Baths of Caracalla, the Farnese Bull and Hercules. The garden front is unfinished.",
      "sourceIds": [
       "wiki-palazzo-farnese",
       "ackerman"
@@ -11727,7 +11727,7 @@
     {
      "landmarkId": "st-peters",
      "title": "The dome takes shape",
-     "text": "At St Peter's the old basilica's nave still stands, walled off from the new crossing where Michelangelo's four great piers carry the rising drum. The architect, 85 and often too frail to ride out, sends instructions from his house and has a wooden model built so no one can alter his design. In 1560 Pius IV confirms his authority against critics among the works deputies.",
+     "text": "At St Peter's the old basilica's nave still stands, walled off from the new crossing, where Bramante's four great piers, thickened by Michelangelo, carry the rising drum. The architect, 85 and often too frail to ride out, sends instructions from his house and has a wooden model built so no one can alter his design. In 1560 Pius IV confirms his authority against critics among the works deputies.",
      "sourceIds": [
       "vasari",
       "ackerman",
@@ -11737,7 +11737,7 @@
     {
      "landmarkId": "campidoglio",
      "title": "The Capitol remade",
-     "text": "On the Capitol the Marcus Aurelius sits on Michelangelo's base at the centre of a square still half built. The Senators' Palace has its double stair; the Conservators' Palace façade with its giant pilasters is going up, to be finished in the 1580s. Ancient statues are being set along the balustrade. Senators and guilds meet here, in the shadow of the popes.",
+     "text": "On the Capitol the Marcus Aurelius sits on Michelangelo's base at the centre of a square still half built. The Senators' Palace has its double stair; the Conservators' Palace, with its giant pilasters, will be begun in 1563 and finished in the 1580s; the Dioscuri reach the balustrade in 1583. Senators and guilds meet here, in the shadow of the popes.",
      "sourceIds": [
       "wiki-campidoglio",
       "ackerman"
