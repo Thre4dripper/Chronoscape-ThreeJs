@@ -91,12 +91,33 @@ function Parcel({ city, area, active, onGone }: { city: City; area: Area; active
   const progress = useRef(0);
   const gone = useRef(false);
 
+  // the footprints (with a small margin) of the monuments that stand wholly inside this area in this era
+  const periodId = useStore((st) => st.periodId) ?? city.defaultPeriodId;
+  const holes = useMemo(() => {
+    const out: Vec2[][] = [];
+    for (const l of city.landmarks) {
+      if (!l.activePeriods.includes(periodId)) continue;
+      const hw = (l.footprint[0] * l.scale) / 2 + 6, hd = (l.footprint[1] * l.scale) / 2 + 6;
+      const a = (l.rotation * Math.PI) / 180, c = Math.cos(a), sn = Math.sin(a);
+      const rect: Vec2[] = [[-hw, -hd], [hw, -hd], [hw, hd], [-hw, hd]].map(([u, v]) => [l.position[0] + u * c - v * sn, l.position[1] + u * sn + v * c]);
+      if (rect.every(([x, y]) => pointInPolygon(x, y, area.pts))) out.push(rect.reverse());
+    }
+    return out;
+  }, [city, periodId, area.pts]);
+
   /* ---- slab with exact boundary ---- */
   const { geom, outline, mats } = useMemo(() => {
     const shape = new THREE.Shape(area.pts.map((p) => {
       const [x, z] = toW(p);
       return new THREE.Vector2(x, -z);
     }));
+    // monuments standing in a garden or marsh keep their own ground: the slab has a hole round each
+    for (const r of holes) {
+      shape.holes.push(new THREE.Path(r.map((p) => {
+        const [x, z] = toW(p);
+        return new THREE.Vector2(x, -z);
+      })));
+    }
     const g = new THREE.ExtrudeGeometry(shape, { depth, bevelEnabled: false });
     g.rotateX(-Math.PI / 2);
     const pts = area.pts.map((p) => {
@@ -186,6 +207,7 @@ function Parcel({ city, area, active, onGone }: { city: City; area: Area; active
     const r = PLANT_RADIUS[plants.kind];
     const pts = plants.pts.filter(([x, y]) => {
       if (distToEdges(x, y, area.pts) < r) return false;
+      for (const h of holes) if (pointInPolygon(x, y, h)) return false;
       for (const a of actors) {
         const dx = x - a.p[0], dy = y - a.p[1];
         const c = Math.cos(a.rot), sn = Math.sin(a.rot);
@@ -194,7 +216,7 @@ function Parcel({ city, area, active, onGone }: { city: City; area: Area; active
       return true;
     });
     return { kind: plants.kind, pts };
-  }, [plants, actors, area.pts]);
+  }, [plants, actors, area.pts, holes]);
 
   const set = usePropSet(city);
   useFrame((_, dtRaw) => {
