@@ -3429,6 +3429,86 @@
   "cy": -0.0,
   "size": 359.8
  },
+ "pataliputra/agam-kuan": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 53.1
+ },
+ "pataliputra/arogya-vihara": {
+  "cx": 0.0,
+  "cy": 0.28,
+  "size": 104.52
+ },
+ "pataliputra/ashoka-pillar": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 41.44
+ },
+ "pataliputra/ashoka-stupa": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 85.12
+ },
+ "pataliputra/city-gate": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 119.1
+ },
+ "pataliputra/gupta-temple": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 113.9
+ },
+ "pataliputra/harbour": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 258.08
+ },
+ "pataliputra/kamaldah": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 70.95
+ },
+ "pataliputra/kukkutarama": {
+  "cx": 0.11,
+  "cy": -0.0,
+  "size": 150.5
+ },
+ "pataliputra/mauryan-palace": {
+  "cx": 0.0,
+  "cy": 0.88,
+  "size": 302.98
+ },
+ "pataliputra/palisade": {
+  "cx": 0.0,
+  "cy": -0.28,
+  "size": 304.05
+ },
+ "pataliputra/pataligama": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 340.98
+ },
+ "pataliputra/patna-fort": {
+  "cx": 0.0,
+  "cy": -3.0,
+  "size": 379.66
+ },
+ "pataliputra/pillared-hall": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "size": 134.54
+ },
+ "pataliputra/pillared-hall-ruin": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "size": 103.49
+ },
+ "pataliputra/sher-shah-mosque": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 110.95
+ },
  "persepolis/apadana": {
   "cx": -0.06,
   "cy": 0.06,
