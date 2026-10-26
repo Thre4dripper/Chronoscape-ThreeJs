@@ -4,7 +4,7 @@ import { Outlines } from "@react-three/drei";
 import * as THREE from "three";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 import type { Atlas, AtlasMap } from "@/content/schema";
-import { playableMaps, previewOf, useNav } from "@/nav";
+import { playableMaps, previewOf, readRegister, useNav } from "@/nav";
 import { BRASS, cartoucheTexture, coverTexture, GILT, inlayTexture, labelTexture, OUTLINE, PAPER_T, ROMAN, toon, toonGradient, WOOD, WOOD_DARK, WOOD_LIGHT } from "./toon";
 import { tipHandlers, useRoom } from "./roomState";
 import { bookplateTexture, indexTexture } from "./pages";
@@ -340,16 +340,35 @@ function Drawer({ kind, x, fw, label, seed }: { kind: "maps" | "instruments"; x:
 }
 
 /** The ready maps lying flat in their drawer: click one to unfold it. */
+/** Up to eight ready maps for the drawer: the visitor's recent travels first, then a selection that changes daily. */
+function drawerPicks() {
+  const all = playableMaps();
+  const seen = readRegister().travels;
+  const day = Math.floor(Date.now() / 864e5);
+  const score = (p: (typeof all)[number], i: number) => {
+    const k = seen.indexOf(`${p.map.title}|${p.map.subtitle}`);
+    return k >= 0 ? k : 100 + (((i + 1) * 2654435761 + day * 40503) % 997);
+  };
+  return all
+    .map((p, i) => ({ p, s: score(p, i) }))
+    .sort((a, b) => a.s - b.s)
+    .slice(0, 8)
+    .map((x) => x.p);
+}
+
 function DrawerMaps({ fw }: { fw: number }) {
-  const ready = useMemo(() => playableMaps(), []);
+  const ready = useMemo(drawerPicks, []);
   const open = useRoom((s) => s.drawer === "maps");
   const n = ready.length;
+  const cols = Math.min(n, 4);
   return (
     <>
       {ready.map(({ atlas, map }, i) => {
-        // lying flat in the drawer; when it opens they rise and stand up in a row, facing you
-        const flat: [number, number, number] = [((i % 2) - 0.5) * (fw * 0.46), -0.105, -0.17 - Math.floor(i / 2) * 0.26];
-        const up: [number, number, number] = [(i - (n - 1) / 2) * ((fw * 0.95) / n), 0.36 + (i % 2) * 0.04, 0.2];
+        const c = i % cols, row = Math.floor(i / cols);
+        const inRow = Math.min(cols, n - row * cols);
+        // lying flat in the drawer; when it opens they rise and stand up in rows, facing you (the back row higher)
+        const flat: [number, number, number] = [(c - 1.5) * (fw * 0.23), -0.105, -0.17 - row * 0.3];
+        const up: [number, number, number] = [(c - (inRow - 1) / 2) * ((fw * 0.95) / cols), 0.36 + (c % 2) * 0.04 + row * 0.5, 0.2 - row * 0.18];
         return <FlatMap key={`${atlas.id}:${map.title}:${i}`} atlas={atlas} map={map} flat={flat} up={up} open={open} rot={((i * 37) % 9 - 4) * 0.03} delay={i * 0.07} />;
       })}
     </>
@@ -385,7 +404,7 @@ function FlatMap({ atlas, map, flat, up, open, rot, delay }: { atlas: Atlas; map
     const k = e * e * (3 - 2 * e);
     o.position.set(flat[0] + (up[0] - flat[0]) * k, flat[1] + (up[1] - flat[1]) * k, flat[2] + (up[2] - flat[2]) * k);
     // from lying flat (the maps' planes face up) to standing, tilted back a little toward the viewer
-    o.rotation.set(k * 1.35, rot * (1 - k), (i_ - 1.5) * -0.06 * k);
+    o.rotation.set(k * 1.35, rot * (1 - k), ((i_ % 4) - 1.5) * -0.06 * k);
     o.scale.setScalar(1 + 0.7 * k);
   });
   return (
