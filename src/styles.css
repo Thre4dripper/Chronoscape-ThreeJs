@@ -48,14 +48,16 @@ canvas { display: block; cursor: grab; }
 
 /* ---------- HUD ---------- */
 .hud { position: absolute; z-index: 10; pointer-events: none; }
-.hud--top-left { top: 22px; left: 26px; }
+.hud--top-left { top: 18px; left: 22px; padding: 8px 16px 10px; background: rgba(58,42,30,0.74); border: 1px solid rgba(230,211,170,0.22); border-radius: 4px; backdrop-filter: blur(6px); }
 .hud--top-right { top: 22px; right: 26px; pointer-events: auto; }
-.hud--bottom-left { left: 26px; bottom: 24px; }
+.hud--bottom-left { left: 22px; bottom: 20px; padding: 8px 16px 9px; background: rgba(58,42,30,0.74); border: 1px solid rgba(230,211,170,0.22); border-radius: 4px; backdrop-filter: blur(6px); color: var(--parchment); }
 
 .brand {
   font-family: var(--display); font-size: 13px; letter-spacing: 0.42em; text-transform: uppercase;
-  color: var(--parchment); opacity: 0.85;
+  color: #e9c89a;
 }
+.hud--top-left { max-width: min(560px, calc(100vw - 720px)); min-width: 220px; }
+.city-line { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .city-line { margin-top: 4px; font-family: var(--display); font-size: 26px; letter-spacing: 0.06em; color: #f3e5c3; text-shadow: 0 1px 0 rgba(0,0,0,0.5); }
 .city-name { text-transform: uppercase; }
 .city-sub { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.75; }
@@ -70,7 +72,8 @@ canvas { display: block; cursor: grab; }
 .status-subject { font-family: var(--display); font-size: 22px; letter-spacing: 0.12em; text-transform: uppercase; color: #f3e5c3; text-shadow: 0 1px 0 rgba(0,0,0,0.5); }
 .status-line { font-family: var(--display); font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.85; margin-top: 2px; }
 .status-mode { color: #e9c89a; }
-.status-hint { margin-top: 6px; font-size: 14px; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.6; }
+.status-hint { margin-top: 6px; font-size: 14px; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.75; }
+.hud--bottom-left .status-line, .hud--bottom-left .status-hint { text-shadow: 0 1px 2px rgba(0,0,0,0.85), 0 0 10px rgba(30,20,12,0.7); }
 
 /* ---------- Timeline ---------- */
 .timeline {
@@ -569,7 +572,7 @@ canvas { display: block; cursor: grab; }
 .room__back { padding: 8px 14px; font-family: var(--display); font-size: 15px; color: #3d2a1c; background: rgba(242,229,196,0.88); border: 1px solid rgba(74,51,34,0.45); border-radius: 20px; cursor: pointer; }
 .room__back:hover { background: #f8ecd0; }
 .room__heading { text-align: left; color: #3d2a1c; text-shadow: 0 1px 0 rgba(255,245,220,0.7); }
-.room__kicker { font-family: var(--roman); font-size: 11px; letter-spacing: 0.4em; text-transform: uppercase; color: #8a3f26; }
+.room__kicker { font-family: var(--roman); font-weight: 700; font-size: 13px; letter-spacing: 0.38em; text-transform: uppercase; color: #6e2a14; text-shadow: 0 1px 0 rgba(255,245,220,0.9), 0 0 8px rgba(255,240,210,0.8); }
 .room__heading h1 { margin: 2px 0 0; font-family: var(--roman); font-weight: 700; font-size: 32px; letter-spacing: 0.08em; text-transform: uppercase; }
 .room__heading p { margin: 2px 0 0; font-family: var(--display); font-style: italic; font-size: 16px; }
 .room__hover {
