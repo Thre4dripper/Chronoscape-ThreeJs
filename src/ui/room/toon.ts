@@ -185,8 +185,14 @@ export function cartoucheTexture(title: string, motto: string) {
   g.fillStyle = "#3d2a1c";
   g.textAlign = "center";
   g.textBaseline = "middle";
-  g.font = '700 92px "Cinzel", Georgia, serif';
-  spaced(g, title, W / 2, H / 2 - 18, 18);
+  // the title keeps a clear margin from the rolled ends: shrink it until it fits
+  const room = x1 - x0 - 2 * 110;
+  let size = 92;
+  for (; size > 40; size -= 4) {
+    g.font = `700 ${size}px "Cinzel", Georgia, serif`;
+    if (g.measureText(title).width + size * 0.2 * (title.length - 1) <= room) break;
+  }
+  spaced(g, title, W / 2, H / 2 - 18, size * 0.2);
   g.font = 'italic 40px "IM Fell English", Georgia, serif';
   g.fillStyle = "#8a3f26";
   g.fillText(motto, W / 2, H / 2 + 52);
