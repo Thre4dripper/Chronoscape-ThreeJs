@@ -1759,6 +1759,111 @@
   "cy": 2.04,
   "size": 135.84
  },
+ "dunhuang/beacon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 52.8
+ },
+ "dunhuang/beacon-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 36.6
+ },
+ "dunhuang/canal-head": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 77.8
+ },
+ "dunhuang/caravan-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 119.6
+ },
+ "dunhuang/dang-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 118.33
+ },
+ "dunhuang/han-fort": {
+  "cx": -1.5,
+  "cy": -0.0,
+  "size": 70.62
+ },
+ "dunhuang/kaiyuan-si": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 191.78
+ },
+ "dunhuang/longxing-si": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 170.04
+ },
+ "dunhuang/ming-village": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 107.8
+ },
+ "dunhuang/mogao": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 515.26
+ },
+ "dunhuang/mogao-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 515.26
+ },
+ "dunhuang/mogao-500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 515.26
+ },
+ "dunhuang/mogao-950": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 515.26
+ },
+ "dunhuang/shazhou-gate": {
+  "cx": 0.8,
+  "cy": -0.0,
+  "size": 479.39
+ },
+ "dunhuang/shazhou-gate-han": {
+  "cx": 1.0,
+  "cy": -0.0,
+  "size": 460.42
+ },
+ "dunhuang/shazhou-gate-ruin": {
+  "cx": -0.45,
+  "cy": -0.0,
+  "size": 446.36
+ },
+ "dunhuang/spring-shrine": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "size": 114.55
+ },
+ "dunhuang/wei-monastery": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 199.01
+ },
+ "dunhuang/xian-shrine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "size": 76.0
+ },
+ "dunhuang/yamen": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 189.14
+ },
+ "dunhuang/yamen-han": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "size": 190.18
+ },
  "edo/asakusa-okura": {
   "cx": -0.63,
   "cy": -0.13,
