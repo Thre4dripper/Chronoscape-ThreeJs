@@ -142,15 +142,34 @@ one `scale` number per landmark exaggerates small monuments for readability.
 
 ## Adding a city (content only)
 
-1. Create `content/cities/<id>/city.json` following `src/content/schema.ts`
-   (map vectors, periods, landmarks, stories, sources) and list it in
-   `content/cities/index.json`.
-2. Either reference procedural kits in `model`, or build miniatures in Blender:
-   add builders to `tools/blender/models/<id>.py`, run `npm run assets:build`
-   (or build in a live Blender session), which exports to `assets/models/<id>/`.
-3. `npm run validate` must pass. `npm test` checks every pack.
+Every city after Rome is three data modules and one Blender module; the spec,
+quality bar and model conventions are in `tools/content/cities/FORMAT.md`.
 
-No renderer code changes are required. Delhi was added this way to prove it.
+1. Write `tools/content/cities/<id>/{geo,landmarks,life}.py` in latitude/longitude
+   and metres: frame, eras (each with its house-building `style` and texts),
+   rivers, coasts, walls, gates, roads, blocks, gardens, landmarks with per-era
+   variants, spots with hourly vignettes, events, stories, sources.
+   `python3 tools/content/build_city.py <id>` projects them into
+   `content/cities/<id>/city.json`.
+2. Write `tools/blender/models/cities/<id>.py` (BUILDERS keyed `<id>/<model>`),
+   built from the shared parts in `tools/blender/models/worldkit.py` (domes,
+   minarets, iwans, tombs, stupas, pagodas, East Asian halls, castle keeps, Gothic
+   churches, Byzantine domes, pylons, ziggurats, step pyramids, kancha, Sahel
+   mosques, Zimbabwe walls…). Check them with `tools/blender/sketch.py`.
+3. `scripts/finish-city.sh <id> "<atlas>:<map title>:<era>"` bakes the models
+   (vertex colour, CPU), renders plans and elevations, queues the Commons
+   pictures, lists the city, wires its atlas map and bakes its plates.
+   `scripts/finish-queue.sh` and `scripts/media-queue.sh` run these one at a
+   time in the background.
+
+No renderer code changes are required. The house styles (`gothic`, `courtyard`,
+`sinic`, `japanese`, `mesoamerican`, `andean`, `sahel`, `kraal`, plus the
+Mediterranean ones) shape the generated blocks, their hover models, roofs,
+colours and descriptions. Street life comes from regional Blender prop sets
+(`tools/blender/models/props_sets/`: Islamic and Indian, East Asian, Mesoamerican,
+Andean, African, Venetian), chosen per era from the house style or per city
+(`world.props`), listed in `models/props/sets.json`, with Rome's props as the
+fallback.
 
 ## Next steps (in order)
 
