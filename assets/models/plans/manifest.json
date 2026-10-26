@@ -3167,6 +3167,195 @@
   "size": 62.61,
   "w": 60.2
  },
+ "dunhuang/beacon": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 16.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 16.64,
+  "w": 16.0
+ },
+ "dunhuang/beacon-ruin": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 16.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 16.64,
+  "w": 16.0
+ },
+ "dunhuang/canal-head": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 30.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
+ "dunhuang/caravan-market": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 70.0,
+  "ext": "webp",
+  "px": 281,
+  "size": 93.6,
+  "w": 90.0
+ },
+ "dunhuang/dang-bridge": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 14.0,
+  "ext": "webp",
+  "px": 306,
+  "size": 101.92,
+  "w": 98.0
+ },
+ "dunhuang/han-fort": {
+  "cx": -1.5,
+  "cy": -0.0,
+  "d": 40.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 44.72,
+  "w": 43.0
+ },
+ "dunhuang/kaiyuan-si": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 100.0
+ },
+ "dunhuang/longxing-si": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 100.0
+ },
+ "dunhuang/ming-village": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 60.0,
+  "ext": "webp",
+  "px": 250,
+  "size": 83.2,
+  "w": 80.0
+ },
+ "dunhuang/mogao": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 437.11,
+  "w": 420.3
+ },
+ "dunhuang/mogao-1500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 437.11,
+  "w": 420.3
+ },
+ "dunhuang/mogao-500": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 437.11,
+  "w": 420.3
+ },
+ "dunhuang/mogao-950": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 110.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 437.11,
+  "w": 420.3
+ },
+ "dunhuang/shazhou-gate": {
+  "cx": 0.8,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 440.34,
+  "w": 423.4
+ },
+ "dunhuang/shazhou-gate-han": {
+  "cx": 1.0,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 438.88,
+  "w": 422.0
+ },
+ "dunhuang/shazhou-gate-ruin": {
+  "cx": -0.45,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 1024,
+  "size": 437.74,
+  "w": 420.9
+ },
+ "dunhuang/spring-shrine": {
+  "cx": 0.0,
+  "cy": 0.5,
+  "d": 41.0,
+  "ext": "webp",
+  "px": 256,
+  "size": 85.28,
+  "w": 82.0
+ },
+ "dunhuang/wei-monastery": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 130.0,
+  "ext": "webp",
+  "px": 406,
+  "size": 135.2,
+  "w": 100.0
+ },
+ "dunhuang/xian-shrine": {
+  "cx": 0.0,
+  "cy": -0.0,
+  "d": 50.0,
+  "ext": "webp",
+  "px": 192,
+  "size": 52.0,
+  "w": 50.0
+ },
+ "dunhuang/yamen": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "d": 150.5,
+  "ext": "webp",
+  "px": 470,
+  "size": 156.52,
+  "w": 130.0
+ },
+ "dunhuang/yamen-han": {
+  "cx": 0.0,
+  "cy": 0.25,
+  "d": 150.5,
+  "ext": "webp",
+  "px": 470,
+  "size": 156.52,
+  "w": 130.0
+ },
  "edo/asakusa-okura": {
   "cx": -0.63,
   "cy": -0.13,
