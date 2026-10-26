@@ -526,6 +526,78 @@ def _base_colors(o):
     return out or [(0.8, 0.8, 0.8)]
 
 
+def _decouple_coplanar(objs, size):
+    """
+    Lift parts that lie flush in the same plane as another part (a court's paving on a platform, stripe
+    bands on a dome, a slab on a slab), which would z-fight in the app: the smaller of each overlapping
+    pair moves out along the shared normal by a hair. Works across the model's stage objects too.
+    """
+    eps = max(0.01, size * 0.0004)
+    infos = []      # per island: [obj, bm, verts, area]
+    groups = {}     # plane key -> [(island index, face area, 2D bbox)]
+    bms = []
+    for o in objs:
+        bm = bmesh.new()
+        bm.from_mesh(o.data)
+        bm.faces.ensure_lookup_table()
+        bms.append((o, bm))
+        seen = set()
+        for f0 in bm.faces:
+            if f0.index in seen:
+                continue
+            # one island: faces connected through shared vertices
+            stack, faces = [f0], []
+            seen.add(f0.index)
+            while stack:
+                f = stack.pop()
+                faces.append(f)
+                for v in f.verts:
+                    for g in v.link_faces:
+                        if g.index not in seen:
+                            seen.add(g.index)
+                            stack.append(g)
+            idx = len(infos)
+            infos.append([bm, {v for f in faces for v in f.verts}, sum(f.calc_area() for f in faces)])
+            for f in faces:
+                a = f.calc_area()
+                if a < 1e-4:
+                    continue
+                n = f.normal
+                c = f.calc_center_median()
+                key = (round(n.x, 2), round(n.y, 2), round(n.z, 2), round(n.dot(c) / 0.004))
+                # a 2D box in the plane: project onto two axes perpendicular to the normal
+                ax = n.orthogonal().normalized()
+                ay = n.cross(ax)
+                us = [v.co.dot(ax) for v in f.verts]
+                vs = [v.co.dot(ay) for v in f.verts]
+                groups.setdefault(key, []).append((idx, a, (min(us), max(us), min(vs), max(vs)), n.copy()))
+    lift = {}
+    for key, fs in groups.items():
+        if len({i for i, *_ in fs}) < 2:
+            continue
+        for j in range(len(fs)):
+            for k in range(j + 1, len(fs)):
+                (i1, a1, b1, n1), (i2, a2, b2, n2) = fs[j], fs[k]
+                if i1 == i2:
+                    continue
+                ox = min(b1[1], b2[1]) - max(b1[0], b2[0])
+                oy = min(b1[3], b2[3]) - max(b1[2], b2[2])
+                if ox <= 1e-3 or oy <= 1e-3:
+                    continue
+                small = i1 if infos[i1][2] < infos[i2][2] else i2
+                if small not in lift:
+                    lift[small] = n1
+    for i, n in lift.items():
+        bm, verts, _ = infos[i]
+        for v in verts:
+            v.co += n * eps
+    for o, bm in bms:
+        bm.to_mesh(o.data)
+        o.data.update()
+        bm.free()
+    return len(lift)
+
+
 def bake_vc(key, budget=None, samples=96, out_dir=None, shadow=None, ao_res=None):
     t0 = time.time()
     B = builders()
@@ -538,6 +610,7 @@ def bake_vc(key, budget=None, samples=96, out_dir=None, shadow=None, ao_res=None
     budget = budget or (220000 if size > 150 else 120000 if size > 60 else 60000)
     set_cycles(samples)
     lighting()
+    lifted = _decouple_coplanar(objs, size)
     for o in objs:
         planar(o)
     tri0 = sum(tri_count(o) for o in objs)
@@ -556,6 +629,7 @@ def bake_vc(key, budget=None, samples=96, out_dir=None, shadow=None, ao_res=None
         if hasattr(m, "stages"):
             m.finish()
         objs = [o for o in bpy.context.scene.objects if o.type == "MESH"]
+        _decouple_coplanar(objs, size)
         for o in objs:
             planar(o)
         scale_edge = max_edge * math.sqrt(tri1 / budget) * 1.4
@@ -639,4 +713,4 @@ def bake_vc(key, budget=None, samples=96, out_dir=None, shadow=None, ao_res=None
         if k_ in props:
             kw[k_] = v
     bpy.ops.export_scene.gltf(**kw)
-    return {"key": key, "tris": tri1, "from_tris": tri0, "kb": os.path.getsize(path) // 1024, "s": round(time.time() - t0, 1), "bake_s": round(t_b, 1), "shadow_s": round(t_sh, 1), "edge": round(max_edge, 2), "ink": sum(len(i.data.edges) for i in inks)}
+    return {"key": key, "lifted": lifted, "tris": tri1, "from_tris": tri0, "kb": os.path.getsize(path) // 1024, "s": round(time.time() - t0, 1), "bake_s": round(t_b, 1), "shadow_s": round(t_sh, 1), "edge": round(max_edge, 2), "ink": sum(len(i.data.edges) for i in inks)}
