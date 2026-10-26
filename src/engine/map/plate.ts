@@ -4,7 +4,7 @@ import { planFor } from "./plans";
 import { ctx2d, makeCanvas, type AnyCanvas, type Ctx2D } from "./canvas";
 
 /** Bump when the drawing changes, so baked plates are re-baked. */
-export const PLATE_VERSION = 10;
+export const PLATE_VERSION = 11;
 import { centroid, chaikin, hash, mulberry32, offsetPath, pathLength, pointAlong, rectCorners } from "./geom";
 
 /**
@@ -448,8 +448,27 @@ export function drawPlate(canvas: AnyCanvas, city: City, periodId: string, view:
   }
 
   /* ---------------- landmark plans ---------------- */
-  for (const l of city.landmarks) {
-    if (!l.activePeriods.includes(periodId)) continue;
+  // biggest first, so a monument standing inside a larger one (a tomb in a mosque court, a temple in a
+  // precinct) is drawn on top of it, and every cleared margin is laid before any plan is drawn
+  const lms = city.landmarks
+    .filter((l) => l.activePeriods.includes(periodId))
+    .sort((a, b) => b.footprint[0] * b.footprint[1] * b.scale * b.scale - a.footprint[0] * a.footprint[1] * a.scale * a.scale);
+  for (const l of lms) {
+    const fw = l.footprint[0] * l.scale, fd = l.footprint[1] * l.scale;
+    if (!visPt(l.position[0], l.position[1], Math.max(fw, fd))) continue;
+    const model = (l.variants[periodId]?.model ?? l.model) as KitParams | { glb: string };
+    if (!("glb" in model) || !planFor(model.glb)) continue;
+    const m = 10;
+    ctx.save();
+    ctx.translate(l.position[0], l.position[1]);
+    ctx.rotate((l.rotation * Math.PI) / 180);
+    ctx.shadowColor = hexA(pal.parchment, 0.9);
+    ctx.shadowBlur = Math.max(2, 14 * ppu);
+    ctx.fillStyle = hexA(PAPER_LIGHT, 0.85);
+    ctx.fillRect(-fw / 2 - m, -fd / 2 - m, fw + 2 * m, fd + 2 * m);
+    ctx.restore();
+  }
+  for (const l of lms) {
     const fw = l.footprint[0] * l.scale, fd = l.footprint[1] * l.scale;
     if (!visPt(l.position[0], l.position[1], Math.max(fw, fd))) continue;
     const v = l.variants[periodId];
@@ -462,12 +481,6 @@ export function drawPlate(canvas: AnyCanvas, city: City, periodId: string, view:
     if (drawn) {
       // a cleared margin of pale paper, then the model's own plan with a cast shadow
       const m = 10;
-      ctx.save();
-      ctx.shadowColor = hexA(pal.parchment, 0.9);
-      ctx.shadowBlur = Math.max(2, 14 * ppu);
-      ctx.fillStyle = hexA(PAPER_LIGHT, 0.85);
-      ctx.fillRect(-fw / 2 - m, -fd / 2 - m, fw + 2 * m, fd + 2 * m);
-      ctx.restore();
       ctx.save();
       ctx.scale(l.scale, l.scale);
       ctx.shadowColor = hexA(ink, 0.35);
