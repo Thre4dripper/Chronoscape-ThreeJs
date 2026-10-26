@@ -746,7 +746,7 @@
     "style": "minor",
     "labelled": true,
     "id": "kyogoku",
-    "blurb": "The city's eastern edge avenue. Beyond it lay the Kamo flood plain, where Michinaga built Hōjō-ji in the 1020s.",
+    "blurb": "The city's eastern edge avenue. Beyond it lay the Kamo flood plain, where Michinaga built Hōjō-ji from 1019.",
     "periods": [
      "heian-800",
      "fujiwara-1000"
@@ -1398,7 +1398,7 @@
     "style": "minor",
     "labelled": false,
     "id": "senbon-1750",
-    "blurb": "A lane on the line of the old Suzaku-ōji, named for the thousand stupas (senbon) set up at the cremation ground of Rendaino to the north.",
+    "blurb": "A lane on the line of the old Suzaku-ōji, traditionally named for the thousand grave posts (senbon) set up at the cremation ground of Rendaino to the north.",
     "periods": [
      "edo-1750"
     ]
@@ -3996,16 +3996,16 @@
      "note": "The Shingon headquarters, with its first pagoda complete. The pagoda will burn after a lightning strike in 1055 and rise again by 1086."
     },
     "ashikaga-1400": {
-     "note": "Patronised by the Ashikaga, who quartered troops here in 1336. The Kondō of Kūkai's day will burn in a riot of 1486."
+     "note": "Patronised by the Ashikaga, who quartered troops here in 1336. The Heian Kondō will burn in a riot of 1486."
     },
     "edo-1750": {
-     "note": "The Kondō rebuilt in 1603 by Toyotomi Hideyori; the fifth pagoda, 55 m, the tallest in Japan, given by the shogun Iemitsu in 1644."
+     "note": "The Kondō rebuilt in 1603 by Toyotomi Hideyori; the fifth pagoda, 55 m, the tallest wooden pagoda in Japan, given by the shogun Iemitsu in 1644."
     }
    },
    "summary": "The 'East Temple' guarding the south gate of Heian-kyō, given to Kūkai in 823 and still standing: its five-storey pagoda has been the first sight of Kyoto for travellers from the south for a thousand years.",
    "details": [
     "Tō-ji and its twin Sai-ji were the only Buddhist temples allowed inside the new capital. Kūkai made Tō-ji the centre of Shingon esoteric Buddhism. The pagoda has burned at least four times, in 1055 after lightning and for the last time in 1635; each time it was rebuilt to roughly the same 55 m height.",
-    "The miniature shows the Kondō, a seven-bay hall with a pent roof (mokoshi), and the pagoda at the south-east corner of the precinct. The cloisters, middle gate and lecture hall are left out; the Kōdō is a separate landmark. Form follows the present buildings of 1603 and 1644, which repeat the older plan."
+    "The miniature shows the Kondō, a large hall wrapped in a pent roof (mokoshi), and the pagoda at the south-east corner of the precinct. The cloisters, middle gate and lecture hall are left out; the Kōdō is a separate landmark. Form follows the present buildings of 1603 and 1644, which repeat the older plan."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4180,7 +4180,7 @@
    ],
    "variants": {
     "heian-800": {
-     "note": "The emperor's pleasure garden south of the palace, older than the city: a spring-fed pond with an island and a pavilion for poetry, boating and cock-fighting. Kūkai prays for rain here in 824."
+     "note": "The emperor's pleasure garden south of the palace, laid out with the city round a natural spring: a spring-fed pond with an island and a pavilion for poetry, banquets and boating. Kūkai prays for rain here in 824."
     },
     "fujiwara-1000": {
      "note": "Still a sacred pond: in drought the court has its water released for the fields, and Shingon monks pray for rain on its banks. The first goryōe plague rite was held here in 863."
@@ -4222,7 +4222,7 @@
     "wiki-shinsen-en",
     "ponsonby-fane"
    ],
-   "built": "before 794",
+   "built": "c. 794",
    "function": "Imperial garden, site of rain prayers",
    "activity": {
     "figures": 15,
@@ -4294,7 +4294,7 @@
    "summary": "The temple of the Otowa spring on the hillside of Higashiyama, whose main hall stands out over the valley on a timber stage carried by a lattice of 18 tall pillars, 13 m above the ground.",
    "details": [
     "The Hondō, under a sweeping roof of cypress bark, sits half on the hill and half on the stage, which is built without nails: zelkova pillars up to 12 m long locked together by horizontal tie-beams (nuki). Below, the three streams of the Otowa falls. A vermilion gate and three-storey pagoda stand on the ridge to the west.",
-    "The miniature follows the 1633 buildings: Niōmon, west gate and pagoda, the Hondō and its stage on the slope. The terrain is simplified to a single falling hillside. The temple burned at least nine times; earlier halls are assumed to have had a similar plan."
+    "The miniature follows the 1633 buildings: Niōmon, west gate and pagoda, the Hondō and its stage on the slope. The terrain is simplified to a single falling hillside. The temple burned many times; earlier halls are assumed to have had a similar plan."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4426,7 +4426,7 @@
    },
    "summary": "The five-storey pagoda of Hōkan-ji rising from the lanes between Kiyomizu and Gion, rebuilt in 1440 on the site of one of the oldest temples in the Kyoto basin.",
    "details": [
-    "The present pagoda of 1440 is 46 m tall, unpainted, with deep tiled eaves and a bronze spire of nine rings. The warlord Kiso Yoshinaka is said to have raised his banner on it in 1183; later shoguns and Oda Nobunaga's men also used it as a lookout.",
+    "The present pagoda of 1440 is 46 m tall, unpainted, with deep tiled eaves and a bronze spire of nine rings. The warlord Kiso Yoshinaka is said to have raised his banner on it in 1183; later warriors are said to have used it as a lookout too.",
     "The miniature shows the pagoda alone on its stone base; the small temple halls around it are left out."
    ],
    "confidence": "documented",
@@ -4486,7 +4486,7 @@
    },
    "summary": "The 120 m hall of a thousand and one Kannon, built for the retired emperor Go-Shirakawa in 1164 and rebuilt in 1266; its name means 'hall of thirty-three bays'.",
    "details": [
-    "A single hall, about 120 m long and 17 m deep, under a long low hip-and-gable roof of tile, with 35 bays across the front counting the end bays. Inside, 1,001 gilded wooden statues of the thousand-armed Kannon stand in ten rows on stepped platforms round a great seated Kannon by Tankei.",
+    "A single hall, about 120 m long and 17 m deep, under a long low hip-and-gable roof of tile, with 35 bays across the front counting the end bays. Inside, 1,000 gilded wooden statues of the thousand-armed Kannon stand in ten rows on stepped platforms either side of a great seated Kannon by Tankei.",
     "The miniature shows the hall with its front veranda and central porch, facing east toward the Higashiyama. The precinct wall (the Taikō wall of Hideyoshi) and the gate are omitted."
    ],
    "confidence": "documented",
@@ -4595,7 +4595,7 @@
     },
     "ashikaga-1400": {
      "name": "Muromachi-dono (Hana no Gosho)",
-     "note": "Yoshimitsu's palace of 1378, famous for flowering trees sent by every daimyo. Yoshimitsu himself retires to his Kitayama villa (the Golden Pavilion) in 1397."
+     "note": "Yoshimitsu's palace of 1378, famous for the flowering trees sent by nobles and warriors. Yoshimitsu himself retires to his Kitayama villa (the Golden Pavilion) in 1397."
     },
     "edo-1750": {
      "note": "Gone since the 16th century. The site, at Imadegawa-Muromachi, is covered by townhouses and the Dōshisha grounds of later times."
@@ -4653,7 +4653,7 @@
    ],
    "variants": {
     "ashikaga-1400": {
-     "note": "Yoshimitsu's Zen monastery beside his palace, finished in 1392, with the tallest building ever raised in pre-modern Japan: a seven-storey pagoda of 109 m, completed in 1399 and burned by lightning in 1403."
+     "note": "Yoshimitsu's Zen monastery beside his palace, finished in 1392, with probably the tallest building raised in pre-modern Japan: a seven-storey pagoda of 109 m, completed in 1399 and burned by lightning in 1403."
     },
     "edo-1750": {
      "note": "No pagoda: rebuilt after the Ōnin War and a fire of 1551, the monastery keeps its Hattō of 1605, the oldest of its kind, with Kanō Mitsunobu's dragon on the ceiling.",
@@ -4789,7 +4789,7 @@
    },
    "summary": "The Tokugawa shoguns' castle in Kyoto, a moated rectangle of stone walls and white-plastered corner towers, built to watch over the emperor and to house the shogun on his rare visits.",
    "details": [
-    "The outer enclosure, about 500 by 400 m, holds the Ninomaru Palace of 1626 with its painted Kanō screens and 'nightingale' floors. The inner Honmaru, with its own moat, had a palace and a five-storey keep (tenshu) at its south-west corner until lightning burned the keep in 1750; the Honmaru palace burned in the fire of 1788.",
+    "The outer enclosure, about 500 by 400 m, holds the Ninomaru Palace (1603, refitted for 1626) with its painted Kanō screens and 'nightingale' floors. The inner Honmaru, with its own moat, had a palace and a five-storey keep (tenshu) at its south-west corner until lightning burned the keep in 1750; the Honmaru palace burned in the fire of 1788.",
     "The miniature shows the castle as it stood in the first half of 1750, with the keep. The Ninomaru Palace is simplified to a staggered row of halls; the moats, walls and corner towers follow the present castle. After August 1750 only the stone base of the keep remained."
    ],
    "confidence": "documented",
@@ -4963,7 +4963,7 @@
     "wiki-kyoto-gosho",
     "ponsonby-fane"
    ],
-   "built": "1331 (site); rebuilt 1590, 1613, 1642, 1655, 1709, 1790",
+   "built": "1331 (site); rebuilt many times, 1590 to 1855",
    "function": "Imperial palace",
    "activity": {
     "figures": 30,
@@ -5001,7 +5001,7 @@
    ],
    "variants": {
     "ashikaga-1400": {
-     "note": "No permanent bridge yet: travellers from the east forded the Kamo or crossed on light timber bridges that floods carried away."
+     "note": "No lasting bridge: light timber bridges, put up by subscription, were carried away by floods again and again, and travellers often forded the Kamo."
     },
     "edo-1750": {
      "note": "Hideyoshi's bridge of 1590, the first in Japan on stone piers, with bronze giboshi finials on its railing posts; the western terminus of the Tōkaidō from Edo."
@@ -5055,7 +5055,7 @@
    ],
    "variants": {
     "ashikaga-1400": {
-     "note": "The Gojō bridge of this time crosses 250 m upstream, at the old Gojō avenue (today's Matsubara), and leads pilgrims to Kiyomizu."
+     "note": "The Gojō bridge of this time crosses about 300 m upstream, at the old Gojō avenue (today's Matsubara), and leads pilgrims to Kiyomizu."
     },
     "edo-1750": {
      "note": "Moved here by Hideyoshi in 1589 to serve his Great Buddha at Hōkō-ji; kept up afterwards by the shogunate as a public bridge."
@@ -5063,7 +5063,7 @@
    },
    "summary": "The Gojō bridge on its new line: moved by Hideyoshi to lead to his Great Buddha, it carried the road to Kiyomizu and Fushimi across the Kamo.",
    "details": [
-    "A timber bridge on stone piers kept up by the shogunate as one of the public bridges (kōgibashi). The legend of Benkei's fight with the boy Ushiwakamaru belongs to the old Gojō bridge further north, but the statues and the story moved with the name.",
+    "A timber bridge on stone piers kept up by the shogunate as one of the public bridges (kōgibashi). The legend of Benkei's fight with the boy Ushiwakamaru belongs to the old Gojō bridge further north, but the story moved with the name.",
     "The miniature is a generic Edo public bridge, deck and railing on stone piers; the exact number of spans is not known."
    ],
    "confidence": "reconstruction",
@@ -5170,7 +5170,7 @@
      "note": "Not yet: the fields and small temples north of Sanjūsangen-dō."
     },
     "edo-1750": {
-     "note": "Hideyori's hall of 1614, its bronze Buddha broken by the 1662 earthquake and replaced by a wooden one in 1667. Hideyoshi's first Buddha fell in the 1596 earthquake. All will burn after lightning in 1798."
+     "note": "Hideyori's rebuilt hall (finished about 1612), its bronze Buddha broken by the 1662 earthquake and replaced by a wooden one in 1667. Hideyoshi's first Buddha fell in the 1596 earthquake. All will burn after lightning in 1798."
     }
    },
    "summary": "Hideyoshi's answer to the Great Buddha of Nara: a hall about 49 m tall housing a Buddha some 19 m high, the largest building in Edo-period Kyoto. Its bell's inscription gave Ieyasu a pretext for war in 1614.",
@@ -5183,7 +5183,7 @@
     "wiki-hokoji",
     "meisho-zue"
    ],
-   "built": "1586–1595; rebuilt 1614",
+   "built": "1586–1595; rebuilt 1609–1612",
    "function": "Hall of the Great Buddha",
    "activity": {
     "figures": 40,
@@ -5204,9 +5204,9 @@
     "heian-800",
     "fujiwara-1000"
    ],
-   "summary": "The official market of the east city, between Shichijō and Hachijō beside the Horikawa canal, run by a market office that checked weights, set prices and flogged cheats.",
+   "summary": "The official market of the east city, between Shichijō and Hachijō beside the Horikawa canal, run by a market office that checked weights, set prices and punished cheats.",
    "details": [
-    "The Engishiki of 927 lists 51 kinds of stall here: silk, thread, cotton wadding, rice, salt, oil, dried fish, seaweed, needles, combs, brushes, saddles, horses. It opened at noon and closed at sunset to the beat of a drum. It traded half the month, the West Market the other half; by 1000 the East had most of the trade."
+    "The Engishiki of 927 lists 51 kinds of stall here: silk, thread, silk floss, rice, salt, oil, dried fish, seaweed, needles, combs, brushes, saddles, horses. It opened at noon and closed at sunset to the beat of a drum. It traded half the month, the West Market the other half; by 1000 the East had most of the trade."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -5224,7 +5224,7 @@
     },
     {
      "hour": 18,
-     "text": "The closing drum. Stallholders carry their wares home; a few beggars and dogs pick through the fish scales, and the hijiri Kūya preaches the nembutsu to whoever stays."
+     "text": "The closing drum. Stallholders carry their wares home; a few beggars and dogs pick through the fish scales, and a wandering monk begs from whoever stays."
     }
    ],
    "variants": {
@@ -5247,7 +5247,7 @@
    ],
    "summary": "The West Market, mirror of the East across the Suzaku-ōji, beside the Nishi-Horikawa canal. It declined with the western city and was nearly dead by the 11th century.",
    "details": [
-    "Built to the same plan and regulations as the East Market, with its own market office, warehouses and canal landing. As the west half emptied, the court tried to force trade back by giving the West Market a monopoly on certain goods; it did not work."
+    "Built to the same plan and regulations as the East Market, with its own market office, warehouses and canal landing. As the west half emptied, the court is said to have tried to force trade back by reserving certain goods to the West Market; it did not work."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -5491,7 +5491,7 @@
    "vignettes": [
     {
      "hour": 6,
-     "text": "Townspeople bow to the Kannon on their way to the shops; swans paddle on the little pond where the prince once bathed, as the story goes."
+     "text": "Townspeople bow to the Kannon on their way to the shops; carp turn in the little pond where the prince once bathed, as the story goes."
     },
     {
      "hour": 13,
@@ -5499,7 +5499,7 @@
     },
     {
      "hour": 20,
-     "text": "The alarm bell: fire in Shimogyō. Men of the chō run for buckets and hooks."
+     "text": "The alarm bell: fire to the south. Neighbours run for buckets and hooks."
     }
    ],
    "variants": {
@@ -5575,7 +5575,7 @@
     },
     {
      "hour": 13,
-     "text": "Pilgrims touch the bronze ox for luck in study. Plum trees, Michizane's favourite, stand bare or in white flower by the gate."
+     "text": "Pilgrims pray to Michizane for luck in study. Plum trees, Michizane's favourite, stand bare or in white flower by the gate."
     },
     {
      "hour": 18,
@@ -5600,7 +5600,7 @@
     "ashikaga-1400",
     "edo-1750"
    ],
-   "summary": "The neighbourhood on Shijō that has built and pulled the halberd float, always first in the Gion procession, since the 14th century; its storehouse holds the float's beams and tapestries all year.",
+   "summary": "The neighbourhood on Shijō that has built and pulled the halberd float, always first in the Gion procession, since at least the fifteenth century; its storehouse holds the float's beams and tapestries all year.",
    "details": [
     "Each float (yamaboko) belongs to one chō, whose householders pay for it, assemble it without nails from numbered timbers, and pull it. The Naginata-boko carries a long halberd at its top and a boy chosen as the god's page. After the Ōnin War the townsmen revived the floats in 1500 as their own festival."
    ],
@@ -5643,7 +5643,7 @@
    ],
    "summary": "Folding fans, said to be a Japanese invention of the Heian period, were made near the old Gojō bridge by the nuns of the Mieidō temple, and Mieidō fans became a Kyoto speciality.",
    "details": [
-    "Paper fans on bamboo ribs, painted with flowers, waves or poems, were sold to pilgrims and exported to China in the Muromachi period. In the Edo period dozens of fan shops worked here, with painters, rib-cutters and folders in separate trades."
+    "Paper fans on bamboo ribs, painted with flowers, waves or poems, were sold to pilgrims and exported to China in the Muromachi period. In the Edo period many fan shops worked here, with painters, rib-cutters and folders in separate trades."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -5895,7 +5895,7 @@
    "activePeriods": [
     "edo-1750"
    ],
-   "summary": "The slopes below Kiyomizu-dera were lined with kilns making tea bowls and painted wares for pilgrims and tea-masters; the overglaze painter Ninsei had worked at nearby Omuro.",
+   "summary": "The slopes below Kiyomizu-dera were lined with kilns making tea bowls and painted wares for pilgrims and tea-masters; the overglaze painter Ninsei had worked at Omuro in the north-west.",
    "details": [
     "Kyoto wares (kyō-yaki) were thrown and painted in workshops along Gojō-zaka and Kiyomizu-zaka and fired in climbing kilns on the hillside. In 1750 they are still small family shops; the great names of Kiyomizu ware, like Okuda Eisen, come later in the century."
    ],
@@ -6000,7 +6000,7 @@
     "landmarkId": "shinsen-en"
    },
    "effect": "procession",
-   "text": "With epidemic in the capital, priests set up 66 halberds, one for each province of Japan, and carried the shrine of Gozu Tennō to the Shinsen-en pond to appease the angry spirits. The rite became the Gion goryōe, held every year from 970: the Gion Matsuri.",
+   "text": "With epidemic in the capital, priests set up 66 halberds, one for each province of Japan, at the Shinsen-en pond and prayed to the plague god Gozu Tennō to appease the angry spirits, as the shrine's tradition tells it. The rite became the Gion goryōe, held every year from 970: the Gion Matsuri.",
    "sourceIds": [
     "wiki-gion-matsuri",
     "ponsonby-fane"
@@ -6048,7 +6048,7 @@
     "landmarkId": "tsuchimikado-dono"
    },
    "effect": "crowd",
-   "text": "On the day a third of his daughters was made empress, Michinaga, at a banquet at his mansion, recited: 'This world, I think, is indeed my world: like the full moon I see no flaw in it.' The courtier Sanesuke, who recorded it, declined to compose a reply and led the guests in reciting it together.",
+   "text": "On the day his daughter Ishi became empress, the third of his daughters to do so, Michinaga, at a banquet at his mansion, recited: 'This world, I think, is indeed my world: like the full moon I see no flaw in it.' The courtier Sanesuke, who recorded it, declined to compose a reply and led the guests in reciting it together.",
    "sourceIds": [
     "shoyuki",
     "wiki-michinaga"
@@ -6099,7 +6099,7 @@
     "landmarkId": "shokokuji"
    },
    "effect": "crowd",
-   "text": "Yoshimitsu dedicated the seven-storey pagoda of Shōkoku-ji, 109 m high, with a ceremony as grand as an emperor's: a thousand monks, court nobles and the shogun's warriors. Lightning burned it four years later.",
+   "text": "Yoshimitsu dedicated the seven-storey pagoda of Shōkoku-ji, 109 m high, with a ceremony modelled on imperial rites, attended by monks, court nobles and the shogun's warriors. Lightning burned it four years later.",
    "sourceIds": [
     "wiki-shokokuji",
     "stavros"
@@ -6169,7 +6169,7 @@
     "spotId": "kitano"
    },
    "effect": "crowd",
-   "text": "Izumo no Okuni, who called herself a shrine maiden of Izumo, danced in men's clothes with a sword and a crucifix, playing a dandy visiting a teahouse. Her 'kabuki odori' at Kitano and then on the Kamo riverbed was copied by every troupe of women entertainers in town.",
+   "text": "Izumo no Okuni, who called herself a shrine maiden of Izumo, danced in men's clothes with a sword and a crucifix, playing a dandy visiting a teahouse. Her 'kabuki odori', by tradition first at Kitano and then on the Kamo riverbed, was copied by every troupe of women entertainers in town.",
    "sourceIds": [
     "wiki-okuni",
     "wiki-kitano"
@@ -6367,7 +6367,7 @@
    "title": "Chiteiki (Record of the Pond Pavilion)",
    "author": "Yoshishige no Yasutane",
    "year": 982,
-   "url": "https://en.wikipedia.org/wiki/Yoshishige_no_Yasutane"
+   "url": "https://en.wikipedia.org/wiki/Chiteiki"
   },
   {
    "id": "wiki-heian-palace",
@@ -6377,9 +6377,9 @@
   },
   {
    "id": "wiki-rashomon",
-   "title": "Rashōmon (gate)",
+   "title": "Rajōmon",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Rash%C5%8Dmon_(gate)"
+   "url": "https://en.wikipedia.org/wiki/Raj%C5%8Dmon"
   },
   {
    "id": "wiki-toji",
@@ -6395,9 +6395,9 @@
   },
   {
    "id": "wiki-shinsen-en",
-   "title": "Shinsen-en",
+   "title": "Shinsenen",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Shinsen-en"
+   "url": "https://en.wikipedia.org/wiki/Shinsenen"
   },
   {
    "id": "wiki-kiyomizu",
@@ -6413,9 +6413,9 @@
   },
   {
    "id": "wiki-hokanji",
-   "title": "Hōkan-ji",
+   "title": "Yasaka Pagoda",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/H%C5%8Dkan-ji"
+   "url": "https://en.wikipedia.org/wiki/Yasaka_Pagoda"
   },
   {
    "id": "wiki-sanjusangendo",
@@ -6479,9 +6479,9 @@
   },
   {
    "id": "wiki-gojo-ohashi",
-   "title": "Gojō Ōhashi",
+   "title": "Gojo Bridge",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Goj%C5%8D_%C5%8Chashi"
+   "url": "https://en.wikipedia.org/wiki/Gojo_Bridge"
   },
   {
    "id": "wiki-chionin",
@@ -6543,8 +6543,7 @@
    "id": "meisho-zue",
    "title": "Miyako meisho zue (Illustrated Guide to the Famous Places of the Capital)",
    "author": "Akisato Ritō",
-   "year": 1780,
-   "url": "https://en.wikipedia.org/wiki/Miyako_meisho_zue"
+   "year": 1780
   },
   {
    "id": "engishiki",
@@ -6572,7 +6571,7 @@
    "title": "Shōyūki (diary of Fujiwara no Sanesuke)",
    "author": "Fujiwara no Sanesuke",
    "year": "982–1032",
-   "url": "https://en.wikipedia.org/wiki/Sh%C5%8Dy%C5%ABki"
+   "url": "https://en.wikipedia.org/wiki/Fujiwara_no_Sanesuke"
   },
   {
    "id": "heiji-emaki",
@@ -6586,7 +6585,7 @@
    "title": "Rakuchū rakugai zu byōbu (Uesugi screens of Kyoto in and out of the capital)",
    "author": "Kanō Eitoku",
    "year": "c. 1565",
-   "url": "https://en.wikipedia.org/wiki/Rakuch%C5%AB_rakugai_zu"
+   "url": "https://en.wikipedia.org/wiki/Kan%C5%8D_Eitoku"
   },
   {
    "id": "kaempfer",
@@ -6658,9 +6657,9 @@
   },
   {
    "id": "wiki-gissha",
-   "title": "Gissha (ox-drawn carriage)",
+   "title": "Heiji Monogatari Emaki",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Gissha"
+   "url": "https://en.wikipedia.org/wiki/Heiji_Monogatari_Emaki"
   },
   {
    "id": "wiki-onin-war",
@@ -6676,9 +6675,9 @@
   },
   {
    "id": "wiki-tenmei-fire",
-   "title": "Great Tenmei Fire",
+   "title": "List of fires in Kyoto",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Great_Tenmei_Fire"
+   "url": "https://en.wikipedia.org/wiki/List_of_fires_in_Kyoto"
   },
   {
    "id": "wiki-kanmu",

@@ -115,7 +115,7 @@ _HEIAN_ROADS = [
     dict(id="nishinotoin", name="Nishi-no-tōin-ōji", path=[(ICHIJO, NISHINOTOIN), (KUJO, NISHINOTOIN)], width=24),
     dict(id="higashinotoin", name="Higashi-no-tōin-ōji", path=[(ICHIJO, HIGASHINOTOIN), (KUJO, HIGASHINOTOIN)], width=24),
     dict(id="kyogoku", name="Higashi-Kyōgoku-ōji", path=[(ICHIJO, KYOGOKU), (KUJO, KYOGOKU)], width=30, labelled=True,
-         blurb="The city's eastern edge avenue. Beyond it lay the Kamo flood plain, where Michinaga built Hōjō-ji in the 1020s."),
+         blurb="The city's eastern edge avenue. Beyond it lay the Kamo flood plain, where Michinaga built Hōjō-ji from 1019."),
     dict(id="toba", name="Toba no tsukurimichi", path=[(KUJO, SUZAKU), (34.9750, 135.7432)], width=20, style="minor",
          blurb="The 'built road' south from the Rashōmon to the river port of Toba, where goods from the provinces landed."),
 ]
@@ -155,7 +155,7 @@ ROADS = [dict(r, periods=HEIAN) for r in _HEIAN_ROADS] + [
     dict(id="matsubara-1750", name="Matsubara-dōri", path=[(GOJO, 135.7480), (GOJO, 135.7690), (34.9985, 135.7745), (34.9980, 135.7790)], width=8, style="minor", periods=["edo-1750"]),
     dict(id="shichijo-1750", name="Shichijō-dōri", path=[(SHICHIJO, 135.7400), (SHICHIJO, 135.7700), (34.9893, 135.7740)], width=10, labelled=True, periods=["edo-1750"]),
     dict(id="senbon-1750", name="Senbon-dōri", path=[(35.0360, SUZAKU), (KUJO, SUZAKU)], width=8, style="minor", periods=["edo-1750"],
-         blurb="A lane on the line of the old Suzaku-ōji, named for the thousand stupas (senbon) set up at the cremation ground of Rendaino to the north."),
+         blurb="A lane on the line of the old Suzaku-ōji, traditionally named for the thousand grave posts (senbon) set up at the cremation ground of Rendaino to the north."),
     dict(id="horikawa-1750", name="Horikawa-dōri", path=[(35.0360, 135.7530), (KUJO, 135.7530)], width=10, periods=["edo-1750"]),
     dict(id="karasuma-1750", name="Karasuma-dōri", path=[(35.0330, KARASUMA), (KUJO, KARASUMA)], width=10, labelled=True, periods=["edo-1750"]),
     dict(id="muromachi-1750", name="Muromachi-dōri", path=[(35.0330, MUROMACHI), (34.9963, MUROMACHI)], width=8, periods=["edo-1750"]),
@@ -308,5 +308,5 @@ SOURCES = [
     dict(id="mccullough", title="The Capital and Its Society (Cambridge History of Japan, vol. 2: Heian Japan)", author="William H. McCullough", year=1999),
     dict(id="fieve-waley", title="Japanese Capitals in Historical Perspective: Place, Power and Memory in Kyoto, Edo and Tokyo", author="Nicolas Fiévé and Paul Waley (eds.)", year=2003),
     dict(id="berry", title="The Culture of Civil War in Kyoto", author="Mary Elizabeth Berry", year=1994),
-    dict(id="chiteiki", title="Chiteiki (Record of the Pond Pavilion)", author="Yoshishige no Yasutane", year=982, url="https://en.wikipedia.org/wiki/Yoshishige_no_Yasutane"),
+    dict(id="chiteiki", title="Chiteiki (Record of the Pond Pavilion)", author="Yoshishige no Yasutane", year=982, url="https://en.wikipedia.org/wiki/Chiteiki"),
 ]
