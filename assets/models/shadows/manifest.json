@@ -2612,7 +2612,7 @@
  "kyoto/chion-in-sanmon": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 118.67
+  "size": 118.63
  },
  "kyoto/chodo-in": {
   "cx": 0.0,
@@ -2622,7 +2622,7 @@
  "kyoto/dairi": {
   "cx": 0.0,
   "cy": 1.85,
-  "size": 352.9
+  "size": 352.68
  },
  "kyoto/gojo-bridge": {
   "cx": 0.0,
@@ -2632,27 +2632,27 @@
  "kyoto/gosho": {
   "cx": 3.47,
   "cy": 1.85,
-  "size": 504.98
+  "size": 504.65
  },
  "kyoto/hana-no-gosho": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 257.2
+  "size": 257.04
  },
  "kyoto/higashi-honganji": {
   "cx": 0.0,
   "cy": 0.61,
-  "size": 323.29
+  "size": 323.11
  },
  "kyoto/hokoji-daibutsuden": {
   "cx": 0.0,
   "cy": 0.13,
-  "size": 178.56
+  "size": 178.5
  },
  "kyoto/kenninji": {
   "cx": 0.0,
   "cy": 0.8,
-  "size": 291.69
+  "size": 291.52
  },
  "kyoto/kiyomizu": {
   "cx": 0.0,
@@ -2662,22 +2662,22 @@
  "kyoto/kiyomizu-800": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 264.39
+  "size": 264.29
  },
  "kyoto/nijo-castle": {
-  "cx": 0.5,
-  "cy": -0.0,
-  "size": 597.29
+  "cx": 0.4,
+  "cy": -0.1,
+  "size": 597.49
  },
  "kyoto/nishi-honganji": {
   "cx": 0.0,
   "cy": 0.61,
-  "size": 323.01
+  "size": 322.84
  },
  "kyoto/rashomon": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 91.8
+  "size": 91.77
  },
  "kyoto/rashomon-ruin": {
   "cx": 0.0,
@@ -2697,12 +2697,12 @@
  "kyoto/sanjusangendo": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 163.21
+  "size": 163.12
  },
  "kyoto/shinsen-en": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 277.66
+  "size": 277.49
  },
  "kyoto/shinsen-en-small": {
   "cx": 0.0,
@@ -2717,7 +2717,7 @@
  "kyoto/shokokuji-1750": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 317.79
+  "size": 317.61
  },
  "kyoto/suzakumon": {
   "cx": 0.0,
@@ -2737,12 +2737,12 @@
  "kyoto/toji-kodo": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 87.1
+  "size": 87.07
  },
  "kyoto/tsuchimikado-dono": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 257.2
+  "size": 257.04
  },
  "kyoto/yasaka-pagoda": {
   "cx": 0.0,
@@ -2752,7 +2752,7 @@
  "kyoto/yasaka-shrine": {
   "cx": 0.0,
   "cy": 1.25,
-  "size": 199.99
+  "size": 199.88
  },
  "lisbon/carmo": {
   "cx": 0.0,
