@@ -26,14 +26,18 @@ export function Landmark({ city, def }: { city: City; def: LandmarkDef }) {
   const root = useRef<THREE.Group>(null);
   const exitTimer = useRef<number | null>(null);
   const periodId = useStore((st) => st.periodId);
-  const hovered = useStore((st) => st.hoveredId === def.id);
+  // a monument standing inside a larger one (a mosque in the Round City, temples in a sacred precinct)
+  // rises with it, so the bigger model's courts never bury it
+  const outer = useMemo(() => enclosing(city, def), [city, def]);
+  const hovered = useStore((st) => st.hoveredId === def.id || (!!st.hoveredId && outer.includes(st.hoveredId)));
+  const withOuter = useStore((st) => !!st.focusedId && outer.includes(st.focusedId));
   // focused directly, or an event happening here is focused (from its marker, a story or the panel)
   const focused = useStore((st) => st.focusedId === def.id || (!!st.focusedEventId && landmarkForEvent(city, st.focusedEventId) === def.id));
   const active = !!periodId && def.activePeriods.includes(periodId);
   const variant = resolveVariant(def, periodId);
   const ctx = useMemo(() => ({ progress, mode: def.reveal }), [def.reveal]);
 
-  const target = !active ? -0.3 : focused || hovered ? 1 : 0;
+  const target = !active ? -0.3 : focused || hovered || withOuter ? 1 : 0;
   // the 3D model only exists while it is wanted (hover / focus) or still animating out
   const [mounted, setMounted] = useState(false);
 
@@ -118,4 +122,23 @@ export function Landmark({ city, def }: { city: City; def: LandmarkDef }) {
       </mesh>
     </group>
   );
+}
+
+const enclosers = new WeakMap<LandmarkDef, string[]>();
+/** Larger landmarks whose footprint contains this one's centre. */
+function enclosing(city: City, def: LandmarkDef): string[] {
+  let out = enclosers.get(def);
+  if (out) return out;
+  const area = def.footprint[0] * def.footprint[1] * def.scale * def.scale;
+  out = city.landmarks
+    .filter((o) => o !== def && o.footprint[0] * o.footprint[1] * o.scale * o.scale > area * 1.5)
+    .filter((o) => {
+      const a = (-o.rotation * Math.PI) / 180;
+      const dx = def.position[0] - o.position[0], dy = def.position[1] - o.position[1];
+      const u = dx * Math.cos(a) - dy * Math.sin(a), v = dx * Math.sin(a) + dy * Math.cos(a);
+      return Math.abs(u) <= (o.footprint[0] * o.scale) / 2 && Math.abs(v) <= (o.footprint[1] * o.scale) / 2;
+    })
+    .map((o) => o.id);
+  enclosers.set(def, out);
+  return out;
 }
