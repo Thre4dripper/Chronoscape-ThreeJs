@@ -3717,7 +3717,7 @@
  "rome/ara-pacis": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 33.96
+  "size": 33.98
  },
  "rome/arch-of-constantine": {
   "cx": 0.0,
@@ -3736,7 +3736,7 @@
  },
  "rome/basilica-of-maxentius": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.02,
   "size": 198.54
  },
  "rome/basilica-of-maxentius-ruin": {
@@ -3752,7 +3752,7 @@
  "rome/baths-of-caracalla-ruin": {
   "cx": 0.0,
   "cy": 0.59,
-  "size": 395.8
+  "size": 395.56
  },
  "rome/baths-of-diocletian": {
   "cx": 0.0,
@@ -3767,7 +3767,7 @@
  "rome/baths-of-diocletian-ruin": {
   "cx": 0.0,
   "cy": 0.59,
-  "size": 438.8
+  "size": 438.53
  },
  "rome/baths-of-trajan": {
   "cx": 0.0,
@@ -3847,7 +3847,7 @@
  "rome/curia-church": {
   "cx": 1.93,
   "cy": 1.2,
-  "size": 95.1
+  "size": 95.08
  },
  "rome/curia-hostilia": {
   "cx": 0.0,
@@ -3880,7 +3880,7 @@
   "size": 206.22
  },
  "rome/forum-of-trajan": {
-  "cx": 9.7,
+  "cx": 9.64,
   "cy": 3.0,
   "size": 388.34
  },
@@ -3892,7 +3892,7 @@
  "rome/ghetto": {
   "cx": 0.0,
   "cy": 2.0,
-  "size": 176.16
+  "size": 176.07
  },
  "rome/lateran-basilica": {
   "cx": 0.0,
@@ -3917,7 +3917,7 @@
  "rome/mausoleum-of-augustus-fortress": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 159.2
+  "size": 159.14
  },
  "rome/mausoleum-of-augustus-ruin": {
   "cx": 0.0,
@@ -3925,9 +3925,9 @@
   "size": 143.31
  },
  "rome/mausoleum-of-hadrian": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 205.59
+  "cx": -0.02,
+  "cy": -0.02,
+  "size": 205.63
  },
  "rome/new-st-peters-construction": {
   "cx": 0.0,
@@ -3985,29 +3985,29 @@
   "size": 326.24
  },
  "rome/pons-aelius": {
-  "cx": 0.0,
+  "cx": -0.03,
   "cy": 0.81,
-  "size": 161.36
+  "size": 161.41
  },
  "rome/pons-aemilius": {
-  "cx": 0.0,
+  "cx": -0.03,
   "cy": 0.7,
-  "size": 166.36
+  "size": 166.42
  },
  "rome/pons-aurelius": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": 0.81,
-  "size": 134.36
+  "size": 134.4
  },
  "rome/pons-fabricius": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": 0.93,
-  "size": 88.36
+  "size": 88.38
  },
  "rome/ponte-sisto": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": 0.81,
-  "size": 134.36
+  "size": 134.4
  },
  "rome/porta-appia": {
   "cx": 0.0,
@@ -4020,9 +4020,9 @@
   "size": 121.28
  },
  "rome/porta-maggiore-aqueduct": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 99.4
+  "cx": -0.01,
+  "cy": -0.01,
+  "size": 99.41
  },
  "rome/porticus-metelli": {
   "cx": 0.0,
@@ -4047,17 +4047,17 @@
  "rome/roman-forum-medieval": {
   "cx": 0.0,
   "cy": 1.5,
-  "size": 218.68
+  "size": 218.56
  },
  "rome/roman-forum-regal": {
-  "cx": 0.3,
+  "cx": 0.27,
   "cy": -0.0,
-  "size": 194.08
+  "size": 194.15
  },
  "rome/roman-forum-republic": {
-  "cx": 3.5,
+  "cx": 3.46,
   "cy": 4.7,
-  "size": 237.56
+  "size": 237.63
  },
  "rome/san-clemente": {
   "cx": 2.75,
@@ -4072,7 +4072,7 @@
  "rome/santa-francesca-romana": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 225.0
+  "size": 224.9
  },
  "rome/santa-maria-in-aracoeli": {
   "cx": 0.0,
@@ -4102,7 +4102,7 @@
  "rome/stadium-medieval": {
   "cx": 7.25,
   "cy": -5.26,
-  "size": 335.9
+  "size": 335.7
  },
  "rome/stadium-of-domitian": {
   "cx": 0.58,
@@ -4185,9 +4185,9 @@
   "size": 220.27
  },
  "rome/theatre-of-pompey": {
-  "cx": -1.93,
-  "cy": 42.45,
-  "size": 368.13
+  "cx": -1.92,
+  "cy": 42.4,
+  "size": 368.24
  },
  "rome/tiber-island-church": {
   "cx": 2.75,
