@@ -19,11 +19,9 @@ const WAYS = [
 
 export function TitlePage() {
   const goRoom = useNav((s) => s.goRoom);
-  const openMap = useNav((s) => s.openMap);
   const [leaving, setLeaving] = useState(false);
   const atlases = atlasCatalog.atlases.length;
   const open = playableMaps();
-  const rome = open.find((p) => p.map.city === "rome" && p.map.period === "empire-100ce") ?? open[0];
 
   // warm the map room's code while the visitor reads
   useEffect(() => {
@@ -66,11 +64,6 @@ export function TitlePage() {
                 </small>
               </span>
             </button>
-            {rome && (
-              <button className="frontis__shortcut" onClick={(e) => openMap(rome.atlas.id, rome.map, rectOf(e.currentTarget))}>
-                or unfold {rome.map.title}, {rome.map.subtitle.split(", ").pop()} <span aria-hidden="true">→</span>
-              </button>
-            )}
           </div>
         </div>
       </main>
@@ -88,10 +81,4 @@ export function TitlePage() {
       <Procession />
     </div>
   );
-}
-
-function rectOf(el: Element) {
-  const r = el.getBoundingClientRect();
-  // a small folded packet rising from the link
-  return { x: r.x + r.width / 2 - 40, y: r.y - 40, w: 80, h: 100 };
 }
