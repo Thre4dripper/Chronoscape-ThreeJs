@@ -1376,7 +1376,7 @@
     ],
     "closed": false,
     "id": "constantinian-wall",
-    "blurb": "Built 324–328 about 3 km west of the old wall of Byzantion. Almost nothing survives and its trace is known only from texts; this follows the usual reconstruction. It decayed after 413 and was gone by the 9th century.",
+    "blurb": "Built 324–328 about 3 km west of the old wall of Byzantion. Almost nothing survives and its trace is known only from texts; this follows the usual reconstruction. It decayed after 413; stretches survived for centuries, but little was left by the 11th century.",
     "periods": [
      "constantine-337",
      "justinian-562"
@@ -5113,7 +5113,7 @@
      "note": "The church as rebuilt after the earthquake of 740: a dome on a high drum over the crossing, a lower elliptical dome to the west; iconoclast emperors left a great mosaic cross in its apse."
     },
     "palaiologan-1453": {
-     "note": "Still standing beside the Great Church, with the Sampson hospital nearby in ruins."
+     "note": "Still standing beside the Great Church, in a much emptier city."
     },
     "suleyman-1560": {
      "name": "Aya İrini (Cebehane)",
@@ -5541,9 +5541,9 @@
      }
     }
    },
-   "summary": "Constantine's oval forum on the second hill, with his porphyry column, 37 m high, at its centre; the column still stands.",
+   "summary": "Constantine's oval forum on the second hill, with his porphyry column at its centre; the column still stands, about 35 m high.",
    "details": [
-    "The column was made of seven drums of Egyptian porphyry on a marble pedestal; relics were said to be buried beneath it, including the Palladium of Rome. Its statue of Constantine wore a radiate crown, perhaps reused from an Apollo.",
+    "The column was made of drums of Egyptian porphyry on a marble pedestal; relics were said to be buried beneath it, including the Palladium of Rome. Its statue of Constantine wore a radiate crown, perhaps reused from an Apollo.",
     "The forum's oval shape is known from texts; the colonnades and the Senate house are reconstructions. The column follows the surviving monument, whose top was rebuilt in masonry."
    ],
    "confidence": "reconstruction",
@@ -7727,7 +7727,7 @@
      "landmarkId": "pantokrator",
      "title": "The new monastery",
      "when": "Evening",
-     "text": "On the fourth hill, John II's three churches catch the evening light. Its hospital takes in the sick of any nation; you leave a gift for the doctors."
+     "text": "On the fourth hill, John II's three churches catch the evening light. Its hospital takes in the city's sick; you leave a gift for the doctors."
     }
    ],
    "sourceIds": [
@@ -7803,9 +7803,9 @@
   },
   {
    "id": "wiki-harbour-theodosius",
-   "title": "Harbour of Theodosius",
+   "title": "Harbour of Eleutherios (Theodosius)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Harbour_of_Theodosius"
+   "url": "https://en.wikipedia.org/wiki/Harbour_of_Eleutherios"
   },
   {
    "id": "wiki-mese",
@@ -7942,9 +7942,9 @@
   },
   {
    "id": "wiki-pantokrator",
-   "title": "Monastery of the Pantocrator",
+   "title": "Zeyrek Mosque (Pantokrator Monastery)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Monastery_of_the_Pantocrator"
+   "url": "https://en.wikipedia.org/wiki/Zeyrek_Mosque"
   },
   {
    "id": "wiki-chora",
@@ -8017,7 +8017,7 @@
    "title": "Procopius, On Buildings (De aedificiis), Book 1",
    "author": "Procopius",
    "year": "c. 554–560",
-   "url": "https://en.wikipedia.org/wiki/De_Aedificiis"
+   "url": "https://en.wikipedia.org/wiki/On_Buildings"
   },
   {
    "id": "paul-silentiary",
@@ -8086,7 +8086,7 @@
    "title": "Pierre Gilles, De topographia Constantinopoleos",
    "author": "Pierre Gilles",
    "year": "1561",
-   "url": "https://en.wikipedia.org/wiki/Pierre_Gilles_(naturalist)"
+   "url": "https://en.wikipedia.org/wiki/Petrus_Gyllius"
   },
   {
    "id": "clavijo",
@@ -8152,7 +8152,7 @@
    "title": "Typikon of the Pantokrator Monastery",
    "author": "John II Komnenos",
    "year": "1136",
-   "url": "https://en.wikipedia.org/wiki/Monastery_of_the_Pantocrator"
+   "url": "https://en.wikipedia.org/wiki/Zeyrek_Mosque"
   },
   {
    "id": "villehardouin",
@@ -8304,9 +8304,9 @@
   },
   {
    "id": "wiki-venetian-quarter",
-   "title": "Venetian quarter in Constantinople",
+   "title": "Byzantine–Venetian treaty of 1082",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Venetian_quarter_in_Constantinople"
+   "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Venetian_treaty_of_1082"
   },
   {
    "id": "wiki-stoudios",
@@ -8316,9 +8316,9 @@
   },
   {
    "id": "wiki-kontoskalion",
-   "title": "Harbour of Kontoskalion",
+   "title": "Kontoskalion",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Harbour_of_Kontoskalion"
+   "url": "https://en.wikipedia.org/wiki/Kontoskalion"
   },
   {
    "id": "wiki-galata-podesta",
@@ -8346,15 +8346,15 @@
   },
   {
    "id": "wiki-tophane",
-   "title": "Tophane-i Amire",
+   "title": "Tophane",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Tophane-i_Amire"
+   "url": "https://en.wikipedia.org/wiki/Tophane"
   },
   {
    "id": "wiki-galata-mevlevihane",
    "title": "Galata Mevlevi House",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Galata_Mevlevi_House_Museum"
+   "url": "https://en.wikipedia.org/wiki/Galata_Mevlevi_Lodge_Museum"
   },
   {
    "id": "wiki-nika",
