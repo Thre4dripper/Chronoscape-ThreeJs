@@ -1587,7 +1587,7 @@
  "delhi/arab-sarai": {
   "cx": 0.0,
   "cy": -3.5,
-  "size": 92.88
+  "size": 92.92
  },
  "delhi/begum-samru-palace": {
   "cx": 0.0,
@@ -1597,12 +1597,12 @@
  "delhi/chandni-chowk": {
   "cx": 0.0,
   "cy": 0.12,
-  "size": 328.25
+  "size": 328.49
  },
  "delhi/chandni-chowk-1850": {
   "cx": 0.0,
   "cy": 0.12,
-  "size": 337.27
+  "size": 337.51
  },
  "delhi/delhi-gate": {
   "cx": 0.0,
@@ -1620,9 +1620,9 @@
   "size": 59.08
  },
  "delhi/ghaziuddin-madrasa": {
-  "cx": 1.11,
+  "cx": 1.09,
   "cy": -0.0,
-  "size": 145.32
+  "size": 145.36
  },
  "delhi/hindu-rao-house": {
   "cx": 0.0,
@@ -1661,13 +1661,13 @@
  },
  "delhi/kashmiri-gate-1850": {
   "cx": 0.0,
-  "cy": 3.75,
+  "cy": 3.76,
   "size": 77.02
  },
  "delhi/khair-ul-manazil": {
-  "cx": 0.52,
+  "cx": 0.51,
   "cy": -0.0,
-  "size": 96.11
+  "size": 96.13
  },
  "delhi/kotla": {
   "cx": -0.16,
@@ -1737,7 +1737,7 @@
  "delhi/residency-1850": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 89.33
+  "size": 89.29
  },
  "delhi/salimgarh": {
   "cx": 0.0,
