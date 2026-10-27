@@ -2685,7 +2685,7 @@
    "year": 150,
    "startYear": -30,
    "endYear": 267,
-   "summary": "A Roman provincial city loved by its emperors. Augustus' marble market lies east of the old Agora; Hadrian finished the Olympieion in 132, built a library and a new quarter beyond his arch, and the millionaire Herodes Atticus rebuilds the Panathenaic Stadium in marble and gives an odeon on the Acropolis slope. Pausanias walks the streets writing his guidebook.",
+   "summary": "A Roman provincial city loved by its emperors. Augustus' marble market lies east of the old Agora; Hadrian finished the Olympieion in 132, built a library and a new quarter beyond his arch, and the millionaire Herodes Atticus has rebuilt the Panathenaic Stadium in marble; his odeon on the Acropolis slope follows about 161. Pausanias walks the streets writing his guidebook.",
    "population": "perhaps 30,000–40,000",
    "feel": "Latin and Greek in the streets, tourists with guides, water running in Hadrian's new aqueduct, marble everywhere.",
    "style": "antique",
@@ -2905,7 +2905,7 @@
      "note": "Just stopped: Mnesikles' gate was begun in 437 and abandoned unfinished in 432, its walls still bearing the lifting bosses and its south wing cut short."
     },
     "hellenistic-150": {
-     "note": "Little changed; a tall pedestal for a bronze four-horse chariot will soon be set up beside the north wing (the later 'Monument of Agrippa')."
+     "note": "Little changed; a tall pedestal carrying a bronze four-horse chariot, set up about 178 for a king of Pergamon, now stands beside the north wing (the later 'Monument of Agrippa')."
     },
     "roman-150ce": {
      "note": "A grand marble stairway of the 1st century CE has replaced the ramp; Pausanias admired the white marble ceiling and the paintings in the north wing."
@@ -3333,7 +3333,7 @@
      "note": "A bare slope below the Acropolis gate; the stoa of Eumenes II of Pergamon (2nd century BCE) runs east from here to the theatre."
     },
     "roman-150ce": {
-     "note": "Built about 160–174 CE by Herodes Atticus in memory of his wife Regilla, who died in 160; Philostratus says it had a roof of cedar."
+     "note": "Built about 161 CE by Herodes Atticus in memory of his wife Regilla, who died in 160; Philostratus says it had a roof of cedar."
     },
     "ottoman-1680": {
      "note": "A roofless ruin built into the outer defences of the kastro; its high arched facade serves as a wall."
@@ -3349,7 +3349,7 @@
     "wiki-odeon-herodes",
     "travlos"
    ],
-   "built": "c. 160–174 CE",
+   "built": "c. 161 CE",
    "function": "Odeon for music",
    "activity": {
     "figures": 30,
@@ -3565,7 +3565,7 @@
      }
     }
    },
-   "summary": "The best-preserved Greek temple anywhere: a Doric marble temple of 6 by 13 columns on the hill above the Agora, begun about 449 BCE for the god of smiths and Athena of the crafts.",
+   "summary": "One of the best-preserved Greek temples anywhere: a Doric marble temple of 6 by 13 columns on the hill above the Agora, begun about 449 BCE for the god of smiths and Athena of the crafts.",
    "details": [
     "Built in Pentelic marble with Parian marble sculpture, it is smaller than the Parthenon (13.7 by 31.8 m) and a little older in design. Only the east front metopes (the labours of Herakles) and four at each end of the long sides (Theseus) were carved. Inside, an Ionic frieze runs across the porch to the outer colonnade, an unusual touch.",
     "The miniature shows the peristyle with its fluted columns, the sculpted east front, the porch friezes and pediments, and the hill with the planted garden of the 3rd century BCE. The church variant has the Byzantine vault in place of the roof."
@@ -4649,7 +4649,6 @@
    "confidence": "interpretation",
    "sourceIds": [
     "wiki-slavery-greece",
-    "wiki-attic-stelai",
     "aristophanes"
    ],
    "vignettes": [
@@ -5124,7 +5123,7 @@
     },
     {
      "hour": 13,
-     "text": "Travellers on the Sacred Way read the epitaphs as they pass: 'Here lies Dexileos, son of Lysanias, of Thorikos'."
+     "text": "Travellers on the Sacred Way read the epitaphs as they pass: 'Dexileos, son of Lysanias, of Thorikos', killed at Corinth in 394."
     },
     {
      "hour": 21,
@@ -5161,7 +5160,7 @@
    ],
    "confidence": "interpretation",
    "sourceIds": [
-    "wiki-leokoreion",
+    "wiki-tyrannicides",
     "thucydides",
     "camp-agora"
    ],
@@ -5284,7 +5283,7 @@
     "landmarkId": "parthenon"
    },
    "effect": "procession",
-   "text": "At the Great Panathenaia of 438 Phidias' statue of Athena Parthenos was dedicated in the new temple: nearly 12 m of gold and ivory over a wooden core, the gold, weighed at some forty talents, removable in an emergency. Phidias was soon accused of stealing ivory and left Athens. The pediment sculptures went up over the next six years.",
+   "text": "At the Great Panathenaia of 438 Phidias' statue of Athena Parthenos was dedicated in the new temple: nearly 12 m of gold and ivory over a wooden core, the gold, weighed at some forty talents, removable in an emergency. Phidias was soon accused of embezzling materials; the ancient accounts of his trial and fate disagree. The pediment sculptures went up over the next six years.",
    "sourceIds": [
     "plutarch-lives",
     "wiki-parthenon",
@@ -5440,7 +5439,7 @@
     "landmarkId": "parthenon"
    },
    "effect": "none",
-   "text": "The Ottoman traveller Evliya Çelebi spent weeks in Athens and wrote that no mosque in the world was like the one on the citadel: its columns, its marble, its carvings of men and beasts. He wrote at length on its columns and carved figures, and on the town below with its gardens, fountains and churches.",
+   "text": "The Ottoman traveller Evliya Çelebi spent weeks in Athens and wrote that no mosque in the world was like the one on the citadel: its columns, its marble, its carvings of men and beasts. He also described the town below, with its gardens, fountains and churches.",
    "sourceIds": [
     "evliya",
     "wiki-ottoman-athens"
@@ -5583,9 +5582,9 @@
   },
   {
    "id": "wiki-walls-athens",
-   "title": "Walls of Athens",
+   "title": "City walls of Athens",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Walls_of_Athens"
+   "url": "https://en.wikipedia.org/wiki/City_walls_of_Athens"
   },
   {
    "id": "wiki-long-walls",
@@ -5631,9 +5630,9 @@
   },
   {
    "id": "wiki-demoi",
-   "title": "List of demoi of Attica",
+   "title": "Deme",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/List_of_demoi_of_Attica"
+   "url": "https://en.wikipedia.org/wiki/Deme"
   },
   {
    "id": "travlos",
@@ -5683,7 +5682,7 @@
    "id": "wiki-propylaea",
    "title": "Propylaea (Acropolis of Athens)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Propylaea"
+   "url": "https://en.wikipedia.org/wiki/Propylaea_(Acropolis_of_Athens)"
   },
   {
    "id": "wiki-nike",
@@ -5753,9 +5752,9 @@
   },
   {
    "id": "wiki-tholos-athens",
-   "title": "Tholos of Athens",
+   "title": "Ancient Agora of Athens",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Tholos_of_Athens"
+   "url": "https://en.wikipedia.org/wiki/Ancient_Agora_of_Athens"
   },
   {
    "id": "wiki-metroon",
@@ -5795,9 +5794,9 @@
   },
   {
    "id": "wiki-roman-agora",
-   "title": "Roman Agora (Athens)",
+   "title": "Roman Agora",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Roman_Agora_(Athens)"
+   "url": "https://en.wikipedia.org/wiki/Roman_Agora"
   },
   {
    "id": "wiki-dipylon",
@@ -5825,9 +5824,9 @@
   },
   {
    "id": "wiki-fethiye",
-   "title": "Fethiye Mosque, Athens",
+   "title": "Fethiye Mosque (Athens)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Fethiye_Mosque,_Athens"
+   "url": "https://en.wikipedia.org/wiki/Fethiye_Mosque_(Athens)"
   },
   {
    "id": "wiki-lysicrates",
@@ -5871,7 +5870,7 @@
    "title": "The Antiquities of Athens",
    "author": "James Stuart and Nicholas Revett",
    "year": "1762–1816",
-   "url": "https://en.wikipedia.org/wiki/The_Antiquities_of_Athens"
+   "url": "https://en.wikipedia.org/wiki/James_%22Athenian%22_Stuart"
   },
   {
    "id": "herodotus",
@@ -5964,9 +5963,9 @@
   },
   {
    "id": "wiki-enneakrounos",
-   "title": "Enneacrunus",
+   "title": "Ancient Agora of Athens",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Enneacrunus"
+   "url": "https://en.wikipedia.org/wiki/Ancient_Agora_of_Athens"
   },
   {
    "id": "wiki-symposium",
@@ -5979,12 +5978,6 @@
    "title": "Slavery in ancient Greece",
    "author": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Slavery_in_ancient_Greece"
-  },
-  {
-   "id": "wiki-attic-stelai",
-   "title": "Attic Stelai",
-   "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Attic_Stelai"
   },
   {
    "id": "wiki-pottery",
@@ -6021,12 +6014,6 @@
    "title": "Church of Panagia Kapnikarea",
    "author": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Church_of_Panagia_Kapnikarea"
-  },
-  {
-   "id": "wiki-leokoreion",
-   "title": "Leokoreion",
-   "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Leokoreion"
   },
   {
    "id": "wiki-peisistratos",
