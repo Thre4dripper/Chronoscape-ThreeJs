@@ -4572,17 +4572,17 @@
  "teotihuacan/avenue-of-the-dead": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 476.84
+  "size": 477.2
  },
  "teotihuacan/avenue-of-the-dead-1500": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 477.38
+  "size": 477.73
  },
  "teotihuacan/avenue-of-the-dead-650": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 467.47
+  "size": 467.82
  },
  "teotihuacan/ciudadela": {
   "cx": 0.0,
@@ -4597,7 +4597,7 @@
  "teotihuacan/ciudadela-650": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 448.9
+  "size": 448.62
  },
  "teotihuacan/great-compound": {
   "cx": 0.0,
@@ -4677,7 +4677,7 @@
  "teotihuacan/pyramid-of-the-sun-100": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 377.18
+  "size": 376.97
  },
  "teotihuacan/pyramid-of-the-sun-1500": {
   "cx": 0.0,
@@ -4687,12 +4687,12 @@
  "teotihuacan/pyramid-of-the-sun-650": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 426.8
+  "size": 426.59
  },
  "teotihuacan/san-juan-crossing": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": -0.0,
-  "size": 151.29
+  "size": 151.34
  },
  "teotihuacan/temple-of-the-feathered-serpent": {
   "cx": 0.0,
@@ -4726,12 +4726,12 @@
  },
  "teotihuacan/xalla": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.03,
   "size": 159.57
  },
  "teotihuacan/xalla-650": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.03,
   "size": 153.71
  },
  "thebes/avenue-of-sphinxes": {
