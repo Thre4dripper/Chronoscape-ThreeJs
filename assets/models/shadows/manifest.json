@@ -3235,9 +3235,9 @@
   "size": 128.6
  },
  "paris/forum": {
-  "cx": 0.0,
+  "cx": -0.03,
   "cy": 0.0,
-  "size": 219.9
+  "size": 219.97
  },
  "paris/grand-chatelet": {
   "cx": 0.0,
@@ -3251,7 +3251,7 @@
  },
  "paris/hotel-de-cluny": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.02,
   "size": 141.56
  },
  "paris/hotel-de-ville": {
@@ -3301,13 +3301,13 @@
  },
  "paris/notre-dame": {
   "cx": 0.0,
-  "cy": 0.7,
-  "size": 314.34
+  "cy": 0.67,
+  "size": 314.39
  },
  "paris/notre-dame-1789": {
   "cx": 0.0,
-  "cy": 0.7,
-  "size": 267.36
+  "cy": 0.67,
+  "size": 267.41
  },
  "paris/palais-cite": {
   "cx": 0.0,
@@ -3331,8 +3331,8 @@
  },
  "paris/philippe-wall": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 139.78
+  "cy": -0.02,
+  "size": 139.82
  },
  "paris/place-royale": {
   "cx": 0.0,
@@ -3346,23 +3346,23 @@
  },
  "paris/pont-au-change-1789": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 136.18
+  "cy": -0.02,
+  "size": 136.22
  },
  "paris/pont-neuf": {
   "cx": -3.15,
-  "cy": -2.5,
-  "size": 377.1
+  "cy": -2.57,
+  "size": 377.23
  },
  "paris/pont-notre-dame": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 156.12
+  "cy": -0.02,
+  "size": 156.16
  },
  "paris/pont-notre-dame-1789": {
   "cx": -3.2,
-  "cy": -0.0,
-  "size": 148.2
+  "cy": -0.02,
+  "size": 148.24
  },
  "paris/saint-etienne": {
   "cx": 0.0,
@@ -3421,8 +3421,8 @@
  },
  "paris/tour-de-nesle": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 100.81
+  "cy": 0.01,
+  "size": 100.82
  },
  "paris/tuileries": {
   "cx": 0.0,
