@@ -55,7 +55,7 @@ LANDMARKS = [
              M: dict(note="Building 4, about 89 m a side, is dedicated around 200–250 with sacrificed captives and animals; the pyramid is approaching its final size."),
              X: dict(note="The final pyramid (Building 7), some 43 m high, with the talud-tablero platform added in front, closing the north end of the avenue below Cerro Gordo."),
              C: dict(model="teotihuacan/pyramid-of-the-moon-650", note="The temple on top and the buildings at its foot burned in the destruction of the centre; the pyramid itself stands, its stucco cracking.", confidence="interpretation"),
-             A: dict(model="teotihuacan/pyramid-of-the-moon-1500", name="Metztli Itzacual, the Moon's pyramid", note="A grassy hill of rubble. The Aztecs called it the pyramid of the Moon: here, they said, Tecuciztecatl became the moon.", confidence="interpretation"),
+             A: dict(model="teotihuacan/pyramid-of-the-moon-1500", name="Metztli Itzacual, the Moon's pyramid", note="A grassy hill of rubble. The Aztecs called it the pyramid of the Moon, the god Tecuciztecatl having become the moon at Teotihuacan.", confidence="interpretation"),
          },
          summary="The pyramid at the north end of the Avenue of the Dead, raised in seven stages over three centuries and framed by Cerro Gordo behind it; a stage for the city's state rituals.",
          details=[
@@ -73,7 +73,7 @@ LANDMARKS = [
              M: dict(note="The plaza takes shape with the enlarged Moon pyramid: a paved square ringed by temple platforms of talud-tablero, an altar platform at its centre."),
              X: dict(note="A dozen or so temple platforms frame the plaza, painted red; the central platform and its altar mark the point where the avenue begins."),
              C: dict(model="teotihuacan/moon-plaza-650", note="Burned with the rest of the centre; temples on the platforms gone, stones and sculptures thrown into the plaza.", confidence="interpretation"),
-             A: dict(model="teotihuacan/moon-plaza-1500", note="A ring of overgrown mounds. Aztec tradition put the gods' great fire here, into which Nanahuatzin leapt to become the Sun.", confidence="interpretation"),
+             A: dict(model="teotihuacan/moon-plaza-1500", note="A ring of overgrown mounds. Aztec tradition set the gods' great fire, into which Nanahuatzin leapt to become the Sun, somewhere in Teotihuacan.", confidence="interpretation"),
          },
          summary="The great square at the foot of the Moon pyramid, closed by temple platforms on three sides, where the Avenue of the Dead begins; the setting for the city's largest gatherings in the north.",
          details=[
@@ -148,7 +148,7 @@ LANDMARKS = [
          },
          summary="A walled palace compound north of the Sun pyramid, with four large buildings round a central plaza and temple, which Linda Manzanilla has argued was the residence of the city's rulers.",
          details=[
-             "Excavated by Manzanilla and Leonardo López Luján from 1997, Xalla covers about 1.5 ha. Its buildings stand on talud-tablero platforms round a plaza; finds include stone sculptures of a lion-like feline, a figure of a god of fire and foreign stone. All were burned and smashed in the 6th century.",
+             "Excavated by Manzanilla and Leonardo López Luján from 1997, Xalla is one of the largest compounds near the avenue. Its buildings stand on talud-tablero platforms round a plaza; finds include fragments of fine stone sculpture and stone brought from far away. All were burned and smashed in the 6th century.",
              "The miniature shows four platforms with long porticoed buildings, the central temple and the enclosing wall. The superstructures are reconstruction.",
          ],
          built="c. 350–550 CE", function="Palace (probably)", confidence="interpretation",
@@ -326,7 +326,7 @@ LANDMARKS = [
          },
          summary="A barrio on the eastern edge of the city where Evelyn Rattray found round adobe buildings and pottery from the Gulf coast and the Maya lowlands: probably the home of foreign traders.",
          details=[
-             "The round structures, up to 10 m across, are without parallel elsewhere in the city; the pottery includes fine wares from Veracruz and the Maya area. The barrio stood near the routes east toward the Gulf, and its people are thought to have been merchants or their agents.",
+             "The round structures are without parallel elsewhere in the city; the pottery includes fine wares from Veracruz and the Maya area. The barrio stood near the routes east toward the Gulf, and its people are thought to have been merchants or their agents.",
              "The miniature shows round adobe houses with conical thatch beside a rectangular compound, bales and jars of trade goods. The round houses' roofs are a guess.",
          ],
          built="c. 200–550 CE", function="Residential barrio of foreign traders", confidence="interpretation",

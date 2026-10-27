@@ -75,7 +75,7 @@ SOURCES = [
     dict(id="manzanilla", title="Teotihuacan, ciudad excepcional de Mesoamérica", author="Linda R. Manzanilla", year=2017),
     dict(id="sanders-1979", title="The Basin of Mexico: Ecological Processes in the Evolution of a Civilization", author="William T. Sanders, Jeffrey R. Parsons and Robert S. Santley", year=1979),
     dict(id="wiki-teotihuacan", title="Teotihuacan", author="Wikipedia", url="https://en.wikipedia.org/wiki/Teotihuacan"),
-    dict(id="wiki-avenue", title="Avenue of the Dead", author="Wikipedia", url="https://en.wikipedia.org/wiki/Avenue_of_the_Dead"),
+    dict(id="wiki-avenue", title="Teotihuacan (the Avenue of the Dead)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Teotihuacan"),
     dict(id="wiki-cerro-gordo", title="Cerro Gordo (Mexico State)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Teotihuacan#Geography"),
 ]
 
@@ -102,7 +102,7 @@ PERIODS = [
          houses=dict(title="Apartment compounds", text="Large walled one-storey compounds of many rooms round patios, 50–60 m a side, with flat roofs, red-painted walls and a small temple on the main patio. Rich compounds such as Tetitla or Atetelco were painted inside with murals."),
          outskirts=dict(title="Edge of the city", text="Smaller compounds and adobe houses among fields of maize, beans and amaranth, and on the valley floor the canals and plots watered by the springs.")),
     dict(id=C, label="After the Fire", year=650, startYear=550, endYear=749,
-         summary="Some time between about 550 and 650 the temples and palaces along the Avenue of the Dead were burned, their sculptures smashed and thrown down: a deliberate destruction, most probably an uprising within the city. The centre was not rebuilt. People drifted away; newcomers with Coyotlatelco pottery settled in parts of the ruins.",
+         summary="Some time between about 550 and 650 the temples and palaces along the Avenue of the Dead were burned, their sculptures smashed and thrown down: a deliberate destruction, probably an uprising within the city. The centre was not rebuilt. People drifted away; newcomers with Coyotlatelco pottery settled in parts of the ruins.",
          population="perhaps 20,000–40,000 and falling (very uncertain)",
          feel="Blackened walls along the avenue, weeds in the plazas, the smell of old ash after rain.",
          style="mesoamerican",
@@ -140,7 +140,7 @@ HILLS = [
 
 MARSH = [
     dict(name="Springs of the valley floor", polygon=R(-2350, -2900, -2550, -1750),
-         blurb="Some eighty springs rose on the valley floor south-west of the city; their water was led along canals to irrigated fields, perhaps the basis of the city's food."),
+         blurb="Dozens of springs rose on the valley floor south-west of the city; their water was led along canals to irrigated fields, perhaps the basis of the city's food."),
 ]
 
 # ---------------------------------------------------------------- roads
@@ -165,7 +165,7 @@ ROADS = [
     dict(id="cross-1100", name="Street", path=L((-1100, -2900), (-1100, -70)), width=8, style="minor", periods=CLASSIC),
     dict(id="cross-1100e", name="Street", path=L((-1100, 70), (-1100, 2100)), width=8, style="minor", periods=CLASSIC),
     dict(id="road-otumba", name="Road to Otumba", path=L((-1100, 2100), (-900, 2600)), width=8, style="minor", labelled=True, periods=[X, C],
-         blurb="Toward the obsidian of Otumba in the hills to the east, the green obsidian came from farther north, near Pachuca."),
+         blurb="Toward the grey obsidian of Otumba in the hills to the east; the prized green obsidian came from farther north, near Pachuca."),
     dict(id="path-oztoyahualco", name="Path to Oztoyahualco", path=L((AV_N - 40, -60), (-150, -600), (0, -1300), (100, -2000)), width=6, style="minor", periods=[T]),
     dict(id="path-springs", name="Path to the springs", path=L((-1600, -60), (-1900, -900), (-2300, -1700)), width=6, style="minor", periods=[T]),
     dict(id="road-acolman", name="Road to Acolman and Texcoco", path=L((-2500, -60), (-2620, -900), (-2700, -1700), (-2900, -2700)), width=8, style="minor", labelled=True, periods=[A],

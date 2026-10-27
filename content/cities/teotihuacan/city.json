@@ -570,7 +570,7 @@
     "style": "minor",
     "labelled": true,
     "id": "road-otumba",
-    "blurb": "Toward the obsidian of Otumba in the hills to the east, the green obsidian came from farther north, near Pachuca.",
+    "blurb": "Toward the grey obsidian of Otumba in the hills to the east; the prized green obsidian came from farther north, near Pachuca.",
     "periods": [
      "xolalpan-450",
      "collapse-650"
@@ -2790,7 +2790,7 @@
    "year": 650,
    "startYear": 550,
    "endYear": 749,
-   "summary": "Some time between about 550 and 650 the temples and palaces along the Avenue of the Dead were burned, their sculptures smashed and thrown down: a deliberate destruction, most probably an uprising within the city. The centre was not rebuilt. People drifted away; newcomers with Coyotlatelco pottery settled in parts of the ruins.",
+   "summary": "Some time between about 550 and 650 the temples and palaces along the Avenue of the Dead were burned, their sculptures smashed and thrown down: a deliberate destruction, probably an uprising within the city. The centre was not rebuilt. People drifted away; newcomers with Coyotlatelco pottery settled in parts of the ruins.",
    "population": "perhaps 20,000–40,000 and falling (very uncertain)",
    "feel": "Blackened walls along the avenue, weeds in the plazas, the smell of old ash after rain.",
    "style": "mesoamerican",
@@ -2900,7 +2900,7 @@
     },
     "aztec-1500": {
      "name": "Metztli Itzacual, the Moon's pyramid",
-     "note": "A grassy hill of rubble. The Aztecs called it the pyramid of the Moon: here, they said, Tecuciztecatl became the moon.",
+     "note": "A grassy hill of rubble. The Aztecs called it the pyramid of the Moon, the god Tecuciztecatl having become the moon at Teotihuacan.",
      "confidence": "interpretation",
      "model": {
       "glb": "models/teotihuacan/pyramid-of-the-moon-1500.glb",
@@ -2993,7 +2993,7 @@
      }
     },
     "aztec-1500": {
-     "note": "A ring of overgrown mounds. Aztec tradition put the gods' great fire here, into which Nanahuatzin leapt to become the Sun.",
+     "note": "A ring of overgrown mounds. Aztec tradition set the gods' great fire, into which Nanahuatzin leapt to become the Sun, somewhere in Teotihuacan.",
      "confidence": "interpretation",
      "model": {
       "glb": "models/teotihuacan/moon-plaza-1500.glb",
@@ -3354,7 +3354,7 @@
    },
    "summary": "A walled palace compound north of the Sun pyramid, with four large buildings round a central plaza and temple, which Linda Manzanilla has argued was the residence of the city's rulers.",
    "details": [
-    "Excavated by Manzanilla and Leonardo López Luján from 1997, Xalla covers about 1.5 ha. Its buildings stand on talud-tablero platforms round a plaza; finds include stone sculptures of a lion-like feline, a figure of a god of fire and foreign stone. All were burned and smashed in the 6th century.",
+    "Excavated by Manzanilla and Leonardo López Luján from 1997, Xalla is one of the largest compounds near the avenue. Its buildings stand on talud-tablero platforms round a plaza; finds include fragments of fine stone sculpture and stone brought from far away. All were burned and smashed in the 6th century.",
     "The miniature shows four platforms with long porticoed buildings, the central temple and the enclosing wall. The superstructures are reconstruction."
    ],
    "confidence": "interpretation",
@@ -4231,7 +4231,7 @@
    },
    "summary": "A barrio on the eastern edge of the city where Evelyn Rattray found round adobe buildings and pottery from the Gulf coast and the Maya lowlands: probably the home of foreign traders.",
    "details": [
-    "The round structures, up to 10 m across, are without parallel elsewhere in the city; the pottery includes fine wares from Veracruz and the Maya area. The barrio stood near the routes east toward the Gulf, and its people are thought to have been merchants or their agents.",
+    "The round structures are without parallel elsewhere in the city; the pottery includes fine wares from Veracruz and the Maya area. The barrio stood near the routes east toward the Gulf, and its people are thought to have been merchants or their agents.",
     "The miniature shows round adobe houses with conical thatch beside a rectangular compound, bales and jars of trade goods. The round houses' roofs are a guess."
    ],
    "confidence": "interpretation",
@@ -4390,7 +4390,7 @@
    ],
    "summary": "In the Oaxaca barrio, a household buries a relative in a stone-lined tomb under the patio, in the manner of the Valley of Oaxaca, with a grey ceramic urn of a Zapotec god.",
    "details": [
-    "Tomb 1 at the barrio's compound TL7 is a small stone chamber entered by a stair, with a jamb carved with Zapotec glyphs. Grey urns, Oaxacan in style but made from local clay, accompanied the dead. Isotopes in the bones suggest that people kept moving between Teotihuacan and Oaxaca for generations."
+    "Tombs in the barrio's compounds are small stone chambers in the Oaxacan manner; one has a doorjamb carved with Zapotec-style glyphs. Grey urns, Oaxacan in style but made from local clay, accompanied the dead. Isotopes in the bones suggest that people kept moving between Teotihuacan and Oaxaca for generations."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -4446,7 +4446,7 @@
     },
     {
      "hour": 14,
-     "text": "Cacao is beaten to froth in painted cups from the south, and dogs and deer roast for the guests; the hosts' Nahua-speaking interpreters move between them."
+     "text": "Cacao is beaten to froth in painted cups from the south, and dogs and deer roast for the guests; the hosts' interpreters move between them."
     },
     {
      "hour": 20,
@@ -4546,7 +4546,7 @@
    ],
    "summary": "Irrigated plots on the wet valley floor south-west of the city, watered from the springs by canals; some think raised fields like chinampas were made here.",
    "details": [
-    "Some eighty springs rose near modern San Juan Teotihuacán. Sanders and others argued that canal irrigation from them fed much of the city; whether there were true raised beds (chinampa-like) here in Teotihuacan times is debated. In the 16th century the springs still watered fields of maize, beans and chilli."
+    "Dozens of springs rose near modern San Juan Teotihuacán. Sanders and others argued that canal irrigation from them fed much of the city; whether there were true raised beds (chinampa-like) here in Teotihuacan times is debated. In the 16th century the springs still watered fields of maize, beans and chilli."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -4954,7 +4954,7 @@
     "landmarkId": "ciudadela"
    },
    "effect": "none",
-   "text": "Maya inscriptions record that Siyaj K'ak' 'arrived' at Tikal, far away in Guatemala, on the day the Tikal king Chak Tok Ich'aak died. A new king, son of 'Spearthrower Owl', perhaps a ruler of Teotihuacan, was installed. Whether this was conquest, alliance or a Maya faction using Teotihuacan's prestige is debated.",
+   "text": "Maya inscriptions record that Siyaj K'ak' 'arrived' at Tikal, far away in Guatemala, on the day the Tikal king Chak Tok Ich'aak died. A year later a new king, son of 'Spearthrower Owl', perhaps a ruler of Teotihuacan, was installed. Whether this was conquest, alliance or a Maya faction using Teotihuacan's prestige is debated.",
    "sourceIds": [
     "wiki-siyaj-kak",
     "wiki-spearthrower-owl",
@@ -5096,7 +5096,7 @@
     {
      "landmarkId": "pyramid-of-the-sun",
      "title": "The Sun pyramid",
-     "text": "The biggest building in the Americas, 65 m of painted terraces facing the place where the sun sets.",
+     "text": "One of the biggest buildings in the Americas, 65 m of painted terraces facing the place where the sun sets.",
      "when": "9:30"
     },
     {
@@ -5132,7 +5132,7 @@
     {
      "landmarkId": "ciudadela",
      "title": "A square of hills",
-     "text": "A great square of grassy ridges: a palace of giants, people say.",
+     "text": "A great square of grassy ridges, built, people say, by the giants of an earlier age.",
      "when": "6:30"
     },
     {
@@ -5150,7 +5150,7 @@
     {
      "landmarkId": "moon-plaza",
      "title": "The gods' fire",
-     "text": "Between the mounds before the Moon, the gods are said to have kept their fire for four days.",
+     "text": "Somewhere among these mounds, the story goes, the gods built their fire and did penance for four days.",
      "when": "11:00"
     },
     {
@@ -5206,9 +5206,9 @@
   },
   {
    "id": "wiki-avenue",
-   "title": "Avenue of the Dead",
+   "title": "Teotihuacan (the Avenue of the Dead)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Avenue_of_the_Dead"
+   "url": "https://en.wikipedia.org/wiki/Teotihuacan"
   },
   {
    "id": "wiki-cerro-gordo",
