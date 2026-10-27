@@ -126,7 +126,7 @@ WATER = [
          blurb="One of the three parallel canals of northern Cannaregio, dug as the marsh here was reclaimed in the 13th and 14th centuries, with the Scuola Grande della Misericordia on its bank."),
     dict(id="rio-sensa", name="Rio della Sensa", width=11, periods=LATE,
          path=[(45.4460, 12.3232), (45.4461, 12.3270), (45.4462, 12.3310), (45.4463, 12.3345)],
-         blurb="The northernmost of the Cannaregio canals, lined with modest houses, gardens and the church of Madonna dell'Orto, where Tintoretto lived and is buried."),
+         blurb="One of the parallel canals of northern Cannaregio, lined with modest houses and gardens; Tintoretto lived on its Fondamenta dei Mori, near the church of Madonna dell'Orto where he is buried."),
     dict(id="rio-san-trovaso", name="Rio di San Trovaso", width=12,
          path=[(45.4323, 12.3278), (45.4314, 12.3270), (45.4304, 12.3265), (45.4293, 12.3262)],
          blurb="A canal from the Grand Canal down to the Zattere, with one of the last working squeri, the boatyard of San Trovaso, on its bank."),
@@ -208,11 +208,11 @@ ROADS = [
 # ---------------------------------------------------------------- bridges
 BRIDGES = [
     dict(id="rialto-pontoon", name="Ponte della Moneta (bridge of boats)", path=[(45.43803, 12.33563), (45.43797, 12.33631)], build="timber", arches=1, landmarkId="rialto-bridge", periods=[D],
-         blurb="A bridge of boats laid across the Grand Canal about 1181, traditionally credited to Nicolò Barattieri; the tolls went to the mint, hence its name."),
+         blurb="A bridge of boats laid across the Grand Canal about 1181, traditionally credited to Nicolò Barattieri; its name probably came from the mint (moneta) near its eastern end."),
     dict(id="rialto-wood", name="Ponte di Rialto (timber)", path=[(45.43803, 12.33563), (45.43797, 12.33631)], build="timber", arches=3, landmarkId="rialto-bridge", periods=[R, C],
          blurb="The timber bridge with shops and a central drawbridge that could be raised for masted ships. It collapsed under a crowd in 1444 and was rebuilt the same way."),
     dict(id="rialto-stone", name="Ponte di Rialto", path=[(45.43803, 12.33563), (45.43797, 12.33631)], build="stone", arches=1, landmarkId="rialto-bridge", periods=[S],
-         blurb="Antonio da Ponte's single stone arch of 1588–91, 28 m wide, carrying three streets and two rows of shops."),
+         blurb="Antonio da Ponte's single stone arch of 1588–91, spanning about 28 m and carrying three streets and two rows of shops."),
     dict(id="ponte-paglia", name="Ponte della Paglia", path=[(45.43308, 12.34095), (45.43308, 12.34145)], build="stone", arches=1, periods=LATE,
          blurb="The bridge on the Riva over the Rio di Palazzo, named, it is said, after the barges of straw that moored here; rebuilt in stone in 1360."),
     dict(id="ponte-sospiri", name="Ponte dei Sospiri", path=[(45.43405, 12.34103), (45.43405, 12.34137)], build="stone", arches=1, periods=[S],
@@ -321,7 +321,7 @@ MARSH = [
 
 DISTRICTS = [
     dict(id="cannaregio", name="Cannaregio", periods=LATER, polygon=CANNAREGIO,
-         description="The northern sestiere, named after the canal of reeds (canne) that leads into it: parish churches, long fondamente, the Ghetto, gardens and the houses of boatmen and artisans."),
+         description="The northern sestiere, probably named after the reeds (canne) of the canal that leads into it: parish churches, long fondamente, the Ghetto, gardens and the houses of boatmen and artisans."),
     dict(id="san-marco", name="San Marco", periods=LATER, polygon=SAN_MARCO,
          description="The sestiere of government and money: the Piazza, the Doge's Palace, the Mercerie and the richest shops, inside the last bend of the Grand Canal."),
     dict(id="castello", name="Castello", periods=LATER, polygon=CASTELLO_W[:13] + CASTELLO_E[1:-1] + CASTELLO_W[15:],

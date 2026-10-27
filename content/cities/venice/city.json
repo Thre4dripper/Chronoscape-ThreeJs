@@ -245,7 +245,7 @@
     ],
     "width": 11,
     "id": "rio-sensa",
-    "blurb": "The northernmost of the Cannaregio canals, lined with modest houses, gardens and the church of Madonna dell'Orto, where Tintoretto lived and is buried.",
+    "blurb": "One of the parallel canals of northern Cannaregio, lined with modest houses and gardens; Tintoretto lived on its Fondamenta dei Mori, near the church of Madonna dell'Orto where he is buried.",
     "periods": [
      "republic-1400",
      "cinquecento-1580",
@@ -4061,7 +4061,7 @@
     "build": "timber",
     "arches": 1,
     "id": "rialto-pontoon",
-    "blurb": "A bridge of boats laid across the Grand Canal about 1181, traditionally credited to Nicolò Barattieri; the tolls went to the mint, hence its name.",
+    "blurb": "A bridge of boats laid across the Grand Canal about 1181, traditionally credited to Nicolò Barattieri; its name probably came from the mint (moneta) near its eastern end.",
     "landmarkId": "rialto-bridge",
     "periods": [
      "dandolo-1204"
@@ -4104,7 +4104,7 @@
     "build": "stone",
     "arches": 1,
     "id": "rialto-stone",
-    "blurb": "Antonio da Ponte's single stone arch of 1588–91, 28 m wide, carrying three streets and two rows of shops.",
+    "blurb": "Antonio da Ponte's single stone arch of 1588–91, spanning about 28 m and carrying three streets and two rows of shops.",
     "landmarkId": "rialto-bridge",
     "periods": [
      "serenissima-1780"
@@ -6738,7 +6738,7 @@
       1365
      ]
     ],
-    "description": "The northern sestiere, named after the canal of reeds (canne) that leads into it: parish churches, long fondamente, the Ghetto, gardens and the houses of boatmen and artisans.",
+    "description": "The northern sestiere, probably named after the reeds (canne) of the canal that leads into it: parish churches, long fondamente, the Ghetto, gardens and the houses of boatmen and artisans.",
     "periods": [
      "dandolo-1204",
      "republic-1400",
@@ -8326,7 +8326,7 @@
     "dandolo-1204": {
      "name": "Ponte della Moneta",
      "confidence": "reconstruction",
-     "note": "A bridge of boats laid about 1181, traditionally by Nicolò Barattieri, and named for the mint's tolls.",
+     "note": "A bridge of boats laid about 1181, traditionally by Nicolò Barattieri, probably named after the mint (moneta) near its eastern end.",
      "model": {
       "glb": "models/venice/rialto-pontoon.glb",
       "fallback": {
@@ -8671,7 +8671,7 @@
    },
    "summary": "The state shipyard of the Republic: walled basins lined with covered slipways, rope walks, foundries and stores, where the galleys of the fleet were built and kept ready.",
    "details": [
-    "Traditionally founded in 1104 and enlarged in 1303–25 and again from 1473, the Arsenal covered about 45 ha behind its walls. In the 16th century it employed thousands of arsenalotti and could fit out a galley a day: in 1571 it sent a hundred galleys to Lepanto. Ships moved past the stores as on a production line.",
+    "Traditionally founded in 1104 and enlarged in 1303–25 and again from 1473, the Arsenal covered about 45 ha behind its walls. In the 16th century it employed thousands of arsenalotti and kept a reserve fleet ready to fit out; in 1571 it supplied most of the hundred-odd Venetian galleys at Lepanto. Ships moved past the stores as on a production line.",
     "The miniature shows the walls and towers, the Porta Magna and the water gate, the Darsena Vecchia, Nuova and Novissima with covered slipways (tese) and galleys, and the 316 m Tana along the south wall. The layout follows the de' Barbari view and later plans, simplified."
    ],
    "confidence": "documented",
@@ -8967,7 +8967,7 @@
      "note": "Titian's Assumption (1516–18) glows over the high altar; Titian himself was buried here in 1576, probably a victim of the plague."
     },
     "serenissima-1780": {
-     "note": "The great Franciscan church, its convent now partly state archives in the making."
+     "note": "The great Franciscan church and its convent; after the Republic falls, the convent will house the state archives (from 1815)."
     }
    },
    "summary": "The Franciscan church of Venice (c. 1340–1443): an immense brick Gothic church with a 70 m campanile, home of Titian's Assumption.",
@@ -9267,7 +9267,7 @@
      "note": "An islet of the public copper foundry (getto), where cannon and bronze were cast; the name Ghetto comes from it."
     },
     "cinquecento-1580": {
-     "note": "Since 29 March 1516 the Jews of Venice must live here, behind gates locked at night. Ashkenazi synagogues (1528, 1532, 1575) sit on the top floors; pawnbanks under the arcades."
+     "note": "Since 29 March 1516 the Jews of Venice must live here, behind gates locked at night. Synagogues (1528, 1532, 1575) sit on the top floors; pawnbanks under the arcades."
     },
     "serenissima-1780": {
      "note": "Houses of seven and eight storeys, the tallest in Venice, for some 1,600 people in decline. Napoleon's troops will burn the gates in July 1797."
@@ -9461,7 +9461,7 @@
    ],
    "summary": "Shallow pans cut into the barene, where lagoon water was let in and evaporated by the summer sun: salt was the first fortune of the Venetians.",
    "details": [
-    "Cassiodorus wrote in the 6th century that the lagoon people had no wealth but fish and salt, and that salt was worth more than gold to them. Saltworks ringed the lagoon in the 9th and 10th centuries; Venice later controlled the salt of Chioggia and taxed salt throughout its trade."
+    "Cassiodorus wrote in the 6th century that the lagoon people had no wealth but fish and salt, and that while some men might not seek gold, no one could do without salt. Saltworks ringed the lagoon in the 9th and 10th centuries; Venice later controlled the salt of Chioggia and taxed salt throughout its trade."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -9726,7 +9726,7 @@
    ],
    "summary": "A boatyard on the Rio di San Trovaso, where gondolas and other lagoon boats were built and repaired on a slipway in front of a timber house.",
    "details": [
-    "Squeri lined the canals at the edge of the city. The gondola took its familiar asymmetric form only slowly; a law of 1562 required them to be black. Builders, often from the Cadore mountains, used eight kinds of wood: oak, elm, larch, fir, cherry, walnut, lime and mahogany in later centuries."
+    "Squeri lined the canals at the edge of the city. The gondola took its familiar asymmetric form only slowly; sumptuary laws, traditionally dated from 1562, required them to be black. Builders, often from the Cadore mountains, used eight kinds of wood: oak, elm, larch, fir, cherry, walnut, lime and mahogany in later centuries."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -10101,7 +10101,7 @@
    "vignettes": [
     {
      "hour": 4,
-     "text": "The ovens have been lit since midnight. Bakers knead dough of wheat and water only, no salt; the loaves go in twice."
+     "text": "The ovens have been lit since midnight. Bakers knead dough of wheat and water; the loaves go in twice."
     },
     {
      "hour": 12,
@@ -10249,7 +10249,7 @@
     "landmarkId": "rialto-market"
    },
    "effect": "none",
-   "text": "The plague arrived early in 1348 on ships from the east. Within months perhaps half the city was dead. The Great Council named three officials to bury the dead on outlying islands and to keep order; it was the beginning of the health magistracy that later invented quarantine on the lagoon islands.",
+   "text": "The plague arrived early in 1348 on ships from the east. Within months perhaps half the city was dead. The Great Council named three officials to bury the dead on outlying islands and to keep order; it was the beginning of the health magistracy that in 1423 opened Europe's first permanent plague hospital, the lazaretto, on a lagoon island.",
    "sourceIds": [
     "wiki-black-death",
     "lane-venice"
@@ -10715,7 +10715,7 @@
    "id": "wiki-san-giorgio",
    "title": "San Giorgio Maggiore (church)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/San_Giorgio_Maggiore_(church)"
+   "url": "https://en.wikipedia.org/wiki/San_Giorgio_Maggiore_(church),_Venice"
   },
   {
    "id": "wiki-redentore",
@@ -10739,7 +10739,7 @@
    "id": "wiki-san-pietro",
    "title": "San Pietro di Castello, Venice",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/San_Pietro_di_Castello,_Venice"
+   "url": "https://en.wikipedia.org/wiki/San_Pietro_di_Castello_(church)"
   },
   {
    "id": "demus",
@@ -10806,7 +10806,7 @@
    "title": "Miracle of the Relic of the True Cross at the Ponte di Rialto",
    "author": "Vittore Carpaccio",
    "year": 1496,
-   "url": "https://en.wikipedia.org/wiki/Miracle_of_the_Relic_of_the_True_Cross_on_the_Rialto_Bridge"
+   "url": "https://en.wikipedia.org/wiki/Miracle_of_the_Relic_of_the_Cross_at_the_Ponte_di_Rialto"
   },
   {
    "id": "canaletto",
@@ -10841,9 +10841,9 @@
   },
   {
    "id": "wiki-tiepolo-conspiracy",
-   "title": "Tiepolo-Querini conspiracy",
+   "title": "Tiepolo conspiracy",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Tiepolo%E2%80%93Querini_conspiracy"
+   "url": "https://en.wikipedia.org/wiki/Tiepolo_conspiracy"
   },
   {
    "id": "wiki-black-death",
@@ -10921,7 +10921,7 @@
    "id": "wiki-squero",
    "title": "Squero",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Squero"
+   "url": "https://it.wikipedia.org/wiki/Squero"
   },
   {
    "id": "wiki-pieta",
@@ -10945,7 +10945,7 @@
    "id": "wiki-wellhead",
    "title": "Wellhead (vera da pozzo)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Wellhead_(Venice)"
+   "url": "https://it.wikipedia.org/wiki/Vera_da_pozzo"
   },
   {
    "id": "wiki-santa-maria-formosa",
@@ -10969,7 +10969,7 @@
    "id": "wiki-magazzini-sale",
    "title": "Magazzini del Sale, Venice",
    "author": "Wikipedia",
-   "url": "https://it.wikipedia.org/wiki/Magazzini_del_Sale_(Venezia)"
+   "url": "https://it.wikipedia.org/wiki/Magazzini_del_sale_(Venezia)"
   },
   {
    "id": "wiki-mask",
