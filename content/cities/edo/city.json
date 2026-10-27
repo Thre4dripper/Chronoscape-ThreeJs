@@ -5554,7 +5554,7 @@
    "startYear": 1868,
    "endYear": 1885,
    "summary": "Edo became Tokyo, the 'eastern capital', in 1868, and the emperor moved into the castle. With the daimyo gone home, much of the city stood empty and some mansion land was planted with mulberry and tea. After the Ginza fire of 1872 the government began a street of brick houses on Western lines, and in October the first railway ran from Shimbashi to Yokohama.",
-   "population": "perhaps 600,000 to 800,000, well below Edo's peak",
+   "population": "perhaps 500,000 to 800,000 (counts differ), well below Edo's peak",
    "feel": "Rickshaws (new since about 1870) rattling down the Tōkaidō, men in Western hats over kimono, bricklayers in Ginza and the whistle of the Yokohama train.",
    "style": "japanese",
    "houses": {
@@ -5794,7 +5794,7 @@
      "note": "Ieyasu made Sensō-ji a prayer temple of the shogunate. Its halls burned in 1631 and 1642 and were rebuilt by Iemitsu, the pagoda in 1648 and the main hall in 1649."
     },
     "meireki-1657": {
-     "note": "The new hall and pagoda escaped the 1657 fire. The shop stalls along the approach are growing into the Nakamise."
+     "note": "The new hall and pagoda seem to have escaped the 1657 fire. The shop stalls along the approach are growing into the Nakamise."
     },
     "bunka-1800": {
      "note": "Edo's busiest temple: the Nakamise rows of toy, sweet and souvenir shops, archery booths and teahouses, and behind the hall the Okuyama with jugglers, acrobats and peep shows."
@@ -5878,7 +5878,7 @@
      "note": "Growing through this era: shogun Ietsuna is buried here in 1680 and the huge Konpon Chūdō is finished in 1698."
     },
     "bunka-1800": {
-     "note": "At its height, with dozens of sub-temples on the hill. In spring the cherries draw crowds, but drinking and music are forbidden on the shogun's sacred ground."
+     "note": "At its height, with dozens of sub-temples on the hill. In spring the cherries draw crowds, but music and staying after dark are forbidden on the shogun's sacred ground."
     },
     "meiji-1872": {
      "note": "Burned in the Battle of Ueno on 4 July 1868, the shogun's loyalists' last stand. Only the pagoda, the Tōshōgū and a few gates survived; in 1873 the hill becomes a park.",
@@ -6641,7 +6641,7 @@
      "note": "Its immense tiled roof is a landmark from the bay, rising over the daimyo mansions of Tsukiji."
     },
     "meiji-1872": {
-     "note": "Untouched by the 1872 fire; the foreign settlement and its mission schools grow up next door."
+     "note": "The foreign settlement and its mission schools grow up next door."
     }
    },
    "summary": "The Edo branch of Kyoto's Nishi Hongan-ji, rebuilt after the 1657 fire on land its own followers reclaimed from the bay, the 'built land', Tsukiji, that gave the district its name.",
@@ -7023,7 +7023,7 @@
      "note": "Kanjin sumo is held here from 1684, the start of professional sumo as the Sumo Association reckons it."
     },
     "bunka-1800": {
-     "note": "Fukagawa's centre: its August festival, the teahouses of Monzen-nakachō and the Fukagawa geisha. In 1807 festival crowds brought down the Eitai bridge."
+     "note": "Fukagawa's centre: its festival in the eighth month, the teahouses of Monzen-nakachō and the Fukagawa geisha. In 1807 festival crowds brought down the Eitai bridge."
     },
     "meiji-1872": {
      "note": "The shrine and its festival carry on; the old teahouse quarter is quieter without the samurai."
@@ -7106,7 +7106,7 @@
      "note": "Built in 1620 on land filled out into the river; the first storehouses and docks."
     },
     "meireki-1657": {
-     "note": "Spared by the 1657 fire, which stopped short of them, as the story goes; the brokers' shops line the road in front."
+     "note": "The rice brokers' shops begin to line the road in front."
     },
     "bunka-1800": {
      "note": "Pay days, three times a year, fill Kuramae with bannermen and the brokers (fudasashi) who sell their rice and lend against next year's."
@@ -7843,9 +7843,9 @@
    "activePeriods": [
     "meiji-1872"
    ],
-   "summary": "Japan's first Western-style hotel, built in 1868 for foreigners at the new Tsukiji settlement: verandas, a lookout tower with a weathervane, walls of tile and plaster. It burned in the Ginza fire of 1872.",
+   "summary": "Tokyo's first Western-style hotel, built in 1868 for foreigners at the new Tsukiji settlement: verandas, a lookout tower with a weathervane, walls of tile and plaster. It burned in the Ginza fire of 1872.",
    "details": [
-    "Designed by R. P. Bridgens and built by the carpenter Shimizu Kisuke II, it mixed Western rooms and verandas with Japanese tiled roofs and namako walls. Few foreigners came, since most stayed in Yokohama, but Japanese sightseers flocked to it and print artists drew it again and again. Its exact site is approximate here."
+    "Designed by R. P. Bridgens and built by the carpenter Shimizu Kisuke II, it mixed Western rooms and verandas with Japanese tiled roofs and namako walls. Few foreigners came, since most stayed in Yokohama, which had had Western hotels since 1860, but Japanese sightseers flocked to it and print artists drew it again and again. Its exact site is approximate here."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -8586,9 +8586,9 @@
   },
   {
    "id": "wiki-nagaya",
-   "title": "Nagaya",
+   "title": "Housing in Japan",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Nagaya"
+   "url": "https://en.wikipedia.org/wiki/Housing_in_Japan"
   },
   {
    "id": "wiki-soba",

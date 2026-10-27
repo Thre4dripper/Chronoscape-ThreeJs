@@ -52,7 +52,7 @@ PERIODS = [
          outskirts=dict(title="Samurai yashiki", text="The high city is mansion land: daimyo compounds behind long gate-houses where retainers lodge, gardens with ponds and hills, and lesser samurai in fenced houses with vegetable plots.")),
     dict(id="meiji-1872", label="Early Meiji Tokyo", year=1872, startYear=1868, endYear=1885,
          summary="Edo became Tokyo, the 'eastern capital', in 1868, and the emperor moved into the castle. With the daimyo gone home, much of the city stood empty and some mansion land was planted with mulberry and tea. After the Ginza fire of 1872 the government began a street of brick houses on Western lines, and in October the first railway ran from Shimbashi to Yokohama.",
-         population="perhaps 600,000 to 800,000, well below Edo's peak",
+         population="perhaps 500,000 to 800,000 (counts differ), well below Edo's peak",
          feel="Rickshaws (new since about 1870) rattling down the Tōkaidō, men in Western hats over kimono, bricklayers in Ginza and the whistle of the Yokohama train.",
          style="japanese",
          houses=dict(title="Machiya, and Ginza brick", text="Most townspeople still live in timber machiya and nagaya as under the shoguns. In burned Ginza two-storey brick terraces with colonnaded fronts, designed by Thomas Waters, are going up; many Japanese find them damp and are slow to move in."),

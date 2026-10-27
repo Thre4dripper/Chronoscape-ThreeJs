@@ -159,8 +159,8 @@ SPOTS = [
                     dict(hour=18, text="A boat ferries finished baskets and paper to the city; a man whose term is over walks to the landing with his saved wages.")]),
 
     dict(id="tsukiji-hotel", name="Tsukiji Hotel (Hoterukan)", kind="inn", latlon=(35.6648, 139.7712), activePeriods=["meiji-1872"],
-         summary="Japan's first Western-style hotel, built in 1868 for foreigners at the new Tsukiji settlement: verandas, a lookout tower with a weathervane, walls of tile and plaster. It burned in the Ginza fire of 1872.",
-         details=["Designed by R. P. Bridgens and built by the carpenter Shimizu Kisuke II, it mixed Western rooms and verandas with Japanese tiled roofs and namako walls. Few foreigners came, since most stayed in Yokohama, but Japanese sightseers flocked to it and print artists drew it again and again. Its exact site is approximate here."],
+         summary="Tokyo's first Western-style hotel, built in 1868 for foreigners at the new Tsukiji settlement: verandas, a lookout tower with a weathervane, walls of tile and plaster. It burned in the Ginza fire of 1872.",
+         details=["Designed by R. P. Bridgens and built by the carpenter Shimizu Kisuke II, it mixed Western rooms and verandas with Japanese tiled roofs and namako walls. Few foreigners came, since most stayed in Yokohama, which had had Western hotels since 1860, but Japanese sightseers flocked to it and print artists drew it again and again. Its exact site is approximate here."],
          confidence="reconstruction", sourceIds=["wiki-tsukiji", "seidensticker"],
          vignettes=[dict(hour=7, text="Japanese sightseers stand outside sketching the tower; a porter in a Western cap sweeps the steps."),
                     dict(hour=13, text="A French merchant takes lunch of beef and bread in the dining room, looking out over the bay."),
@@ -287,7 +287,7 @@ STORIES = [
 SOURCES = [
     dict(id="wiki-masakado", title="Taira no Masakado", author="Wikipedia", url="https://en.wikipedia.org/wiki/Taira_no_Masakado"),
     dict(id="wiki-sento", title="Sentō", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sent%C5%8D"),
-    dict(id="wiki-nagaya", title="Nagaya", author="Wikipedia", url="https://en.wikipedia.org/wiki/Nagaya"),
+    dict(id="wiki-nagaya", title="Housing in Japan", author="Wikipedia", url="https://en.wikipedia.org/wiki/Housing_in_Japan"),
     dict(id="wiki-soba", title="Soba", author="Wikipedia", url="https://en.wikipedia.org/wiki/Soba"),
     dict(id="wiki-rakugo", title="Rakugo", author="Wikipedia", url="https://en.wikipedia.org/wiki/Rakugo"),
     dict(id="wiki-tsutaya", title="Tsutaya Jūzaburō", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tsutaya_J%C5%ABzabur%C5%8D"),
