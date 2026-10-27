@@ -4,7 +4,7 @@
 # converted to latitude/longitude by L(); the usual site plans are the basis, to roughly 20-50 m.
 import math
 
-O_LAT, O_LON = 27.0955, 77.6640
+O_LAT, O_LON = 27.09681, 77.66617   # the Anup Talao (re-anchored on OSM/Wikipedia; was 27.0955, 77.6640, ~260 m off)
 KY, KX = 110950.0, 111320.0 * math.cos(math.radians(27.0955))
 
 
@@ -74,7 +74,7 @@ WATER = [
     dict(id="lake-1560", name="Lake of Sikri", path=LL([(-3300, 50)] + off(SHORE, 760)[:5]), width=900, periods=SIKRI,
          blurb="A natural lake, shallow and seasonal, filled by the monsoon streams off the hills to the west. Babur admired it in 1527 and had a pavilion built by its edge."),
     dict(id="lake", name="The great lake", path=LL([(-3300, 50)] + off(SHORE, 700)), width=1400, periods=AKBAR,
-         blurb="Akbar dammed the lake to supply the new city, making a sheet of water perhaps 10 km long and 3 km wide on the city's open side. It watered gardens and the palace, by wheels and channels up the ridge, and served as a pleasure lake and hunting ground. Now dry."),
+         blurb="Akbar dammed the lake to supply the new city, making a sheet of water perhaps 10 km long and 3 km wide on the city's open side. It watered gardens and, by wheels and channels up the ridge, the palace, and served as a pleasure lake. Now dry."),
     dict(id="lake-arm", name="The great lake", path=LL([(-560, 1000), (-760, 1700), (-900, 2400)]), width=1000, periods=AKBAR),
     dict(id="lake-1610", name="The lake", path=LL([(-3300, 50)] + off(SHORE, 800)[:5] + [(140, 1400)]), width=1100, periods=LATE,
          blurb="With no one to keep the dam and the channels, the lake shrank back towards its old shallows; how much water stood here in Jahangir's day is not clearly recorded."),

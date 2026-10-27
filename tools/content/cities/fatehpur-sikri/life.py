@@ -2,7 +2,7 @@
 # Positions in metres east (x) / north (y) of the Anup Talao, converted by L() as in geo.py.
 import math
 
-O_LAT, O_LON = 27.0955, 77.6640
+O_LAT, O_LON = 27.09681, 77.66617   # the Anup Talao (re-anchored on OSM/Wikipedia; was 27.0955, 77.6640, ~260 m off)
 KY, KX = 110950.0, 111320.0 * math.cos(math.radians(27.0955))
 
 
@@ -21,7 +21,7 @@ SOURCES = [
     dict(id="baburnama", title="Baburnama", author="Babur, tr. Annette S. Beveridge", year="c. 1530 (tr. 1922)", url="https://en.wikipedia.org/wiki/Baburnama"),
     dict(id="monserrate", title="The Commentary of Father Monserrate, S.J., on his Journey to the Court of Akbar", author="Antonio Monserrate, tr. J. S. Hoyland", year="1582 (tr. 1922)"),
     dict(id="fitch", title="The Voyage of Ralph Fitch to the East Indies (in Hakluyt's Principal Navigations)", author="Ralph Fitch", year=1599, url="https://en.wikipedia.org/wiki/Ralph_Fitch"),
-    dict(id="tuzuk", title="Tuzuk-i-Jahangiri (Memoirs of Jahangir)", author="Jahangir, tr. A. Rogers & H. Beveridge", year="c. 1624 (tr. 1909–14)", url="https://en.wikipedia.org/wiki/Jahangirnama"),
+    dict(id="tuzuk", title="Tuzuk-i-Jahangiri (Memoirs of Jahangir)", author="Jahangir, tr. A. Rogers & H. Beveridge", year="c. 1624 (tr. 1909–14)", url="https://en.wikipedia.org/wiki/Tuzk-e-Jahangiri"),
     dict(id="rizvi-flynn", title="Fathpur-Sikri", author="S. A. A. Rizvi & V. J. A. Flynn", year=1975),
     dict(id="brand-lowry", title="Fatehpur-Sikri: A Sourcebook", author="Michael Brand & Glenn D. Lowry (eds.)", year=1985),
     dict(id="petruccioli", title="Fathpur Sikri: la città del sole e delle acque", author="Attilio Petruccioli", year=1988),
@@ -35,9 +35,9 @@ SOURCES = [
     dict(id="wiki-acquaviva", title="Rodolfo Acquaviva", author="Wikipedia", url="https://en.wikipedia.org/wiki/Rodolfo_Acquaviva"),
     dict(id="wiki-razmnama", title="Razmnama", author="Wikipedia", url="https://en.wikipedia.org/wiki/Razmnama"),
     dict(id="wiki-pachisi", title="Pachisi", author="Wikipedia", url="https://en.wikipedia.org/wiki/Pachisi"),
-    dict(id="wiki-abul-fazl", title="Abu'l-Fazl ibn Mubarak", author="Wikipedia", url="https://en.wikipedia.org/wiki/Abu%27l-Fazl_ibn_Mubarak"),
-    dict(id="wiki-mughal-coinage", title="Mughal coinage", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mughal_coinage"),
-    dict(id="wiki-mughal-carpet", title="Mughal carpet", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mughal_carpet"),
+    dict(id="wiki-abul-fazl", title="Abul Fazl", author="Wikipedia", url="https://en.wikipedia.org/wiki/Abul_Fazl"),
+    dict(id="wiki-mughal-coinage", title="Mughal currency", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mughal_currency"),
+    dict(id="wiki-mughal-carpet", title="Mughal carpets", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mughal_carpets"),
     dict(id="wiki-fatehpur-sikri", title="Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fatehpur_Sikri"),
     dict(id="wiki-buland-darwaza", title="Buland Darwaza", author="Wikipedia", url="https://en.wikipedia.org/wiki/Buland_Darwaza"),
     dict(id="wiki-islam-khan", title="Islam Khan I", author="Wikipedia", url="https://en.wikipedia.org/wiki/Islam_Khan_I"),
@@ -188,7 +188,7 @@ SPOTS = [
 EVENTS = [
     dict(id="khanwa-1527", title="Babur's victory and his garden at Sikri", periodId="sikri-1560", date="March 1527", kind="construction",
          at=dict(landmarkId="babur-garden"), effect="construction",
-         text="On 16 March 1527 (some give the 17th) Babur defeated the Rajput confederacy of Rana Sanga at Khanwa, not far from Sikri, with cannon and matchlocks. He renamed the place Shukri, 'thanks', and ordered a garden, a well and a pavilion by the lake. Fifty years later his grandson would build a capital on the ridge above.",
+         text="On 16 March 1527 (some give the 17th) Babur defeated the Rajput confederacy of Rana Sanga at Khanwa, not far from Sikri, with cannon and matchlocks. He renamed the place Shukri, 'thanks', and ordered a garden, a well and a pavilion by the lake. Some forty years later his grandson would build a capital on the ridge above.",
          sourceIds=["baburnama", "wiki-battle-of-khanwa"]),
     dict(id="salim-born-1569", title="The saint's prophecy and Prince Salim's birth", periodId="sikri-1560", date="30 August 1569", kind="ceremony",
          at=dict(spotId="khanqah"), effect="crowd",
@@ -196,7 +196,7 @@ EVENTS = [
          sourceIds=["akbarnama", "wiki-salim-chishti", "wiki-jahangir"]),
     dict(id="founding-1571", title="Work begins on the new capital", periodId="akbar-1585", date="1571", kind="construction",
          at=dict(landmarkId="jama-masjid"), effect="construction",
-         text="Akbar ordered palaces, a great mosque, houses for nobles and a wall to be built on the ridge; Abu'l-Fazl says the work went on under the emperor's own eye. The mosque's inscription gives 1571–72. By the mid-1570s the court had moved here from Agra, with its treasury, workshops and army.",
+         text="Akbar ordered palaces, a great mosque, houses for nobles and a wall to be built on the ridge; Abu'l-Fazl says the work went on under the emperor's own eye. The mosque's inscription gives 1571–72. From about 1571–72 the court lived here rather than at Agra, with its treasury, workshops and army.",
          sourceIds=["akbarnama", "rizvi-flynn", "koch"]),
     dict(id="gujarat-1573", title="The ride to Gujarat; the city of victory", periodId="akbar-1585", date="August–October 1573", kind="procession",
          at=dict(landmarkId="agra-gate"), effect="procession",
@@ -240,7 +240,7 @@ EVENTS = [
          sourceIds=["wiki-islam-khan", "rizvi-flynn"]),
     dict(id="jahangir-1619", title="Jahangir escapes the plague", periodId="abandoned-1610", date="1619", kind="procession",
          at=dict(landmarkId="khwabgah"), effect="procession",
-         text="With plague in Agra, Jahangir moved his court to Fatehpur for about three months in 1619 and lived in his father's palace. In his memoirs he notes the city of his birth and the saint's shrine. It was the last time an emperor held court here.",
+         text="With plague in Agra, Jahangir moved his court to Fatehpur for about three months in 1619 and lived in his father's palace. In his memoirs he notes the city of his birth and the saint's shrine. No later emperor made it his seat.",
          sourceIds=["tuzuk", "wiki-jahangir"]),
 ]
 

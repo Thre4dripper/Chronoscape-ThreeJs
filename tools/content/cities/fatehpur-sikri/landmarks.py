@@ -2,7 +2,7 @@
 # Positions in metres east (x) / north (y) of the Anup Talao, converted by L() as in geo.py.
 import math
 
-O_LAT, O_LON = 27.0955, 77.6640
+O_LAT, O_LON = 27.09681, 77.66617   # the Anup Talao (re-anchored on OSM/Wikipedia; was 27.0955, 77.6640, ~260 m off)
 KY, KX = 110950.0, 111320.0 * math.cos(math.radians(27.0955))
 
 
@@ -23,26 +23,27 @@ SOURCES = [
     dict(id="akbarnama", title="Akbarnama", author="Abu'l-Fazl, tr. H. Beveridge", year="c. 1596 (tr. 1897–1921)", url="https://en.wikipedia.org/wiki/Akbarnama"),
     dict(id="baburnama", title="Baburnama", author="Babur, tr. Annette S. Beveridge", year="c. 1530 (tr. 1922)", url="https://en.wikipedia.org/wiki/Baburnama"),
     dict(id="monserrate", title="The Commentary of Father Monserrate, S.J., on his Journey to the Court of Akbar", author="Antonio Monserrate, tr. J. S. Hoyland", year="1582 (tr. 1922)"),
-    dict(id="tuzuk", title="Tuzuk-i-Jahangiri (Memoirs of Jahangir)", author="Jahangir, tr. A. Rogers & H. Beveridge", year="c. 1624 (tr. 1909–14)", url="https://en.wikipedia.org/wiki/Jahangirnama"),
+    dict(id="tuzuk", title="Tuzuk-i-Jahangiri (Memoirs of Jahangir)", author="Jahangir, tr. A. Rogers & H. Beveridge", year="c. 1624 (tr. 1909–14)", url="https://en.wikipedia.org/wiki/Tuzk-e-Jahangiri"),
     dict(id="wiki-fatehpur-sikri", title="Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fatehpur_Sikri"),
     dict(id="wiki-jama-masjid-fs", title="Jama Masjid, Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Jama_Masjid,_Fatehpur_Sikri"),
     dict(id="wiki-buland-darwaza", title="Buland Darwaza", author="Wikipedia", url="https://en.wikipedia.org/wiki/Buland_Darwaza"),
     dict(id="wiki-salim-chishti-tomb", title="Tomb of Salim Chishti", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tomb_of_Salim_Chishti"),
     dict(id="wiki-islam-khan", title="Islam Khan I", author="Wikipedia", url="https://en.wikipedia.org/wiki/Islam_Khan_I"),
-    dict(id="wiki-diwan-i-khas-fs", title="Diwan-i-Khas (Fatehpur Sikri)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Diwan-i-Khas_(Fatehpur_Sikri)"),
-    dict(id="wiki-panch-mahal", title="Panch Mahal (Fatehpur Sikri)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Panch_Mahal_(Fatehpur_Sikri)"),
+    dict(id="wiki-diwan-i-khas-fs", title="Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fatehpur_Sikri"),
+    dict(id="wiki-panch-mahal", title="Panch Mahal, Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Panch_Mahal,_Fatehpur_Sikri"),
     dict(id="wiki-anup-talao", title="Anup Talao", author="Wikipedia", url="https://en.wikipedia.org/wiki/Anup_Talao"),
-    dict(id="wiki-mariam-palace", title="Mariam-uz-Zamani's Palace", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mariam-uz-Zamani%27s_Palace"),
-    dict(id="wiki-birbal-house", title="Birbal's House", author="Wikipedia", url="https://en.wikipedia.org/wiki/Birbal%27s_House"),
-    dict(id="wiki-hiran-minar", title="Hiran Minar (Fatehpur Sikri)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Hiran_Minar_(Fatehpur_Sikri)"),
+    dict(id="wiki-mariam-palace", title="Jodha Bai Mahal", author="Wikipedia", url="https://en.wikipedia.org/wiki/Jodha_Bai_Mahal"),
+    dict(id="wiki-birbal-house", title="Birbal Mahal", author="Wikipedia", url="https://en.wikipedia.org/wiki/Birbal_Mahal"),
+    dict(id="wiki-hiran-minar", title="Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fatehpur_Sikri"),
     dict(id="wiki-ibadat-khana", title="Ibadat Khana", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ibadat_Khana"),
-    dict(id="wiki-diwan-i-am", title="Diwan-i-Am", author="Wikipedia", url="https://en.wikipedia.org/wiki/Diwan-i-Aam"),
-    dict(id="wiki-naubat-khana", title="Naubat Khana", author="Wikipedia", url="https://en.wikipedia.org/wiki/Naubat_Khana"),
+    dict(id="wiki-diwan-i-am", title="Fatehpur Sikri", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fatehpur_Sikri"),
+    dict(id="wiki-naubat-khana", title="Naqqar khana", author="Wikipedia", url="https://en.wikipedia.org/wiki/Naqqar_khana"),
     dict(id="wiki-babur", title="Babur", author="Wikipedia", url="https://en.wikipedia.org/wiki/Babur"),
     dict(id="wiki-stepwell", title="Stepwell", author="Wikipedia", url="https://en.wikipedia.org/wiki/Stepwell"),
     dict(id="wiki-caravanserai", title="Caravanserai", author="Wikipedia", url="https://en.wikipedia.org/wiki/Caravanserai"),
     dict(id="wiki-hammam", title="Hammam", author="Wikipedia", url="https://en.wikipedia.org/wiki/Hammam"),
     dict(id="wiki-khwabgah", title="Khwabgah", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fatehpur_Sikri#Khwabgah"),
+    dict(id="wiki-sunehra-makan", title="Sunehra Makan Mahal", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sunehra_Makan_Mahal"),
 ]
 
 NOT_BUILT_1560 = "Bare sandstone on the ridge, cut here and there by the stonecutters of Sikri."
@@ -181,7 +182,7 @@ LANDMARKS = [
          variants={
              "sikri-1560": dict(note=NOT_BUILT_1560),
              "akbar-1585": dict(note="The largest palace of the harem, home of Akbar's Rajput queen from Amber, mother of Prince Salim, and of her household of women and guards."),
-             "abandoned-1610": dict(note="Locked; Jahangir's household used the harem palaces during the plague year of 1619."),
+             "abandoned-1610": dict(note="Locked; Jahangir's household probably used the harem palaces during his stay in the plague year of 1619.", confidence="interpretation"),
          },
          summary="The great harem palace: high plain walls round a court, entered from the east, with domed corner pavilions and north and south pavilions roofed in blue glazed tile.",
          details=["Built round a court of some 50 m, with carved pillars and brackets in the manner of Gujarat and Rajasthan, it is usually associated with Akbar's Rajput wife Harkha Bai (Mariam-uz-Zamani), mother of Jahangir; the name 'Jodh Bai' is a later misattribution. The ridged roofs of turquoise-blue tiles over the north and south ranges and the screened Hawa Mahal on the north are its distinctive features.",
@@ -215,7 +216,7 @@ LANDMARKS = [
          details=["Who lived here is uncertain. The name Mariam suggests Akbar's mother, Mariam Makani, or his Rajput wife Mariam-uz-Zamani; a story that it belonged to a Christian wife has no basis. The murals, now faint, showed figures, animals and scenes thought to be drawn from Persian and Indian stories.",
                   "The miniature shows the pillared verandah, the rooms behind it, a gilt band standing for the murals, the upper room and the roof kiosks. The layout is simplified and the kiosks are partly reconstructed."],
          built="c. 1570s", function="Residence in the palace", confidence="reconstruction",
-         sourceIds=["wiki-fatehpur-sikri", "rizvi-flynn", "smith-fs"], activity=dict(figures=4, radius=20)),
+         sourceIds=["wiki-sunehra-makan", "wiki-fatehpur-sikri", "rizvi-flynn", "smith-fs"], activity=dict(figures=4, radius=20)),
 
     dict(id="ibadat-khana", name="Ibadat Khana (House of Worship)", category="religious",
          latlon=L(95, 145), rotation=0, footprint=(40, 40), scale=1.0, model="fatehpur-sikri/ibadat-khana",
@@ -304,7 +305,7 @@ LANDMARKS = [
 
     # ------------------------------------------------------------ by the lake
     dict(id="hiran-minar", name="Hiran Minar", category="monument",
-         latlon=L(-180, 270), rotation=0, footprint=(8, 8), scale=2.0, model="fatehpur-sikri/hiran-minar",
+         latlon=L(-355, 213), rotation=0, footprint=(8, 8), scale=2.0, model="fatehpur-sikri/hiran-minar",
          activePeriods=CITY_ERAS,
          variants={
              "sikri-1560": dict(note="The grassy edge of the lake below the ridge."),
