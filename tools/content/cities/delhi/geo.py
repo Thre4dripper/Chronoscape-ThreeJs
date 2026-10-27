@@ -39,7 +39,7 @@ PERIODS = [
          houses=dict(title="Houses of Shergarh", text="Rubble and brick courtyard houses with flat roofs, a few of the richer with red sandstone door frames, packed along the roads from the fort gates. Many are new-built on old Firozabad foundations with stone carted from the ruins."),
          outskirts=dict(title="Ruins and villages", text="Fields among the ruined mohallas of Firozabad, grazing on the riverbank, the village round Nizamuddin's shrine.")),
     dict(id="humayun-1570", label="Humayun's Tomb", year=1570, startYear=1556, endYear=1638,
-         summary="Humayun died in the Purana Qila in 1556; his widow Haji Begum built his tomb by Nizamuddin's shrine, the first great garden-tomb of India, in red sandstone and white marble, finished about 1570. Akbar rules from Agra, so Delhi is a provincial city of courtiers' tombs, mosques and serais; Maham Anga's madrasa faces the fort, and Persian craftsmen live in the Arab Sarai.",
+         summary="Humayun died in the Purana Qila in 1556; his widow Haji Begum built his tomb by Nizamuddin's shrine, the first great garden-tomb of India, in red sandstone and white marble, finished about 1572. Akbar rules from Agra, so Delhi is a provincial city of courtiers' tombs, mosques and serais; Maham Anga's madrasa faces the fort, and the Arab Sarai houses Haji Begum's dependants, by tradition Arabs.",
          population="perhaps 80,000",
          feel="Quiet after the court has gone: pilgrims to the shrine, Persian masons' chisels at the tomb, the old fort's gates locked at dusk.",
          style="courtyard",
@@ -53,7 +53,7 @@ PERIODS = [
          houses=dict(title="Havelis and katras of Shahjahanabad", text="Nobles' havelis of brick and red sandstone round several courts, with zenana quarters and roof terraces; between them, mohallas and katras (gated markets with shops below, rooms above) reached by narrow kuchas closed by wooden gates at night."),
          outskirts=dict(title="Suburbs and gardens", text="Walled gardens of princesses and nobles, grain markets at Paharganj and Sabzi Mandi, potters, washermen and herders' hamlets beyond the walls.")),
     dict(id="zafar-1850", label="Zafar's Delhi", year=1850, startYear=1803, endYear=1857,
-         summary="The British have held Delhi since 1803; the Mughal emperor Bahadur Shah Zafar, a poet, keeps court in the Red Fort on a pension. A British Resident governs from Dara Shikoh's old mansion; St James' Church, the Magazine and bungalows cluster by Kashmiri Gate, the troops live in cantonments behind the Ridge, and Delhi College teaches Arabic and English. A bridge of boats crosses the Yamuna.",
+         summary="The British have held Delhi since 1803; the Mughal emperor Bahadur Shah Zafar, a poet, keeps court in the Red Fort on a pension, watched by a British Agent. Delhi College teaches Arabic and English in the old Residency, Dara Shikoh's library; St James' Church, the Magazine and bungalows cluster by Kashmiri Gate, and the troops live in cantonments behind the Ridge. A bridge of boats crosses the Yamuna.",
          population="about 150,000",
          feel="Mushairas by lamplight, pigeons wheeling over the rooftops, the church bell by Kashmiri Gate answering the azan.",
          style="courtyard",
@@ -79,7 +79,7 @@ WATER = [
     dict(id="salimgarh-channel", name="Salimgarh channel", path=[(28.6672, 77.2405), (28.6640, 77.2418), (28.6618, 77.2432), (28.6614, 77.2470)], width=30, periods=FROM_SURID,
          blurb="A side arm of the Yamuna cut Salimgarh off from the mainland; Jahangir bridged it in 1622, and Shah Jahan's fort was set just south of it."),
     dict(id="nahr-i-faiz", name="Nahr-i-Faiz (Chandni Chowk canal)", path=CHANDNI_CANAL, width=6, periods=MUGHAL_CITY,
-         blurb="Ali Mardan Khan's canal, brought from the Yamuna far upstream, ran down the middle of Chandni Chowk in a stone channel with pools and trees, then under the Lahori Gate into the fort as the Nahr-i-Bihisht. Silted and neglected by the 1820s, then restored by the British."),
+         blurb="Ali Mardan Khan's canal, brought from the Yamuna far upstream, ran along of Chandni Chowk in a stone channel with pools and trees, then under the Lahori Gate into the fort as the Nahr-i-Bihisht. It silted up in the 18th century and was restored by the British in 1820."),
     dict(id="faiz-canal", name="Faiz Bazaar canal", path=FAIZ_CANAL, width=5, periods=MUGHAL_CITY,
          blurb="A branch of the canal ran down the middle of Faiz Bazaar from the fort's Delhi Gate to the city's Delhi Gate."),
 ]
@@ -119,7 +119,7 @@ ROADS = [
          blurb="The street of the red well, from Hauz Qazi north to the Fatehpuri Masjid."),
     dict(id="hauz-qazi-ajmeri", name="Ajmeri Bazaar", path=[(28.6492, 77.2265), (28.6460, 77.2250), (28.6426, 77.2228)], width=10, periods=MUGHAL_CITY),
     dict(id="khari-baoli", name="Khari Baoli", path=[(28.6567, 77.2215), (28.6577, 77.2198), (28.6585, 77.2185)], width=14, periods=MUGHAL_CITY,
-         blurb="West of the Fatehpuri Masjid to the Lahori Gate, named after a brackish step-well; already then the spice and grain market of the city."),
+         blurb="West of the Fatehpuri Masjid to the Lahori Gate, named after a brackish step-well; later the city's great spice and grain market."),
     dict(id="esplanade-road", name="Road to Kashmiri Gate", path=[(28.6575, 77.2378), (28.6610, 77.2345), (28.6640, 77.2310), (28.6668, 77.2292)], width=10, periods=MUGHAL_CITY),
     dict(id="turkman-road", name="Road to Turkman Gate", path=[(28.6498, 77.2320), (28.6450, 77.2322), (28.6410, 77.2322)], width=8, periods=MUGHAL_CITY),
     # roads out of the gates
@@ -185,7 +185,7 @@ GATES = [
 
 BRIDGES = [
     dict(id="salimgarh-bridge", name="Salimgarh bridge", path=[(28.6625, 77.2441), (28.6605, 77.2441)], build="stone", arches=5, landmarkId="salimgarh", periods=["shahjahan-1660", "zafar-1850"],
-         blurb="Jahangir's bridge of 1622 across the channel to Salimgarh; Shah Jahan linked it to the fort, and Bahadur Shah Zafar would escape over it in September 1857."),
+         blurb="Jahangir's bridge of 1622 across the channel to Salimgarh; Shah Jahan linked it to the fort, and Bahadur Shah Zafar is said to have left the fort this way in September 1857."),
     dict(id="bridge-of-boats", name="Bridge of boats", path=[(28.6648, 77.2462), (28.6648, 77.2540)], build="timber", arches=12, periods=ZAFAR,
          blurb="A pontoon bridge on moored boats carried the road to Meerut across the Yamuna below Salimgarh; on 11 May 1857 the mutineers from Meerut rode over it into Delhi."),
 ]
@@ -359,7 +359,7 @@ SOURCES = [
     dict(id="peck", title="Delhi: A Thousand Years of Building", author="Lucy Peck", year=2005),
     dict(id="sharma", title="Delhi and its Neighbourhood", author="Y. D. Sharma (Archaeological Survey of India)", year=1974),
     dict(id="carr-stephen", title="The Archaeology and Monumental Remains of Delhi", author="Carr Stephen", year=1876, url="https://archive.org/details/archaeologyandm00stepgoog"),
-    dict(id="sayyid-ahmad", title="Asar-us-Sanadid (Monuments of Delhi)", author="Sayyid Ahmad Khan", year=1847, url="https://en.wikipedia.org/wiki/Asar-us-Sanadid"),
+    dict(id="sayyid-ahmad", title="Asar-us-Sanadid (Monuments of Delhi)", author="Sayyid Ahmad Khan", year=1847),
     dict(id="liddle", title="Chandni Chowk: The Mughal City of Old Delhi", author="Swapna Liddle", year=2017),
     dict(id="dalrymple", title="The Last Mughal: The Fall of a Dynasty, Delhi 1857", author="William Dalrymple", year=2006),
     dict(id="welch-crane", title="The Tughluqs: Master Builders of the Delhi Sultanate", author="Anthony Welch & Howard Crane", year=1983, note="Muqarnas 1"),

@@ -269,7 +269,7 @@
     ],
     "width": 6,
     "id": "nahr-i-faiz",
-    "blurb": "Ali Mardan Khan's canal, brought from the Yamuna far upstream, ran down the middle of Chandni Chowk in a stone channel with pools and trees, then under the Lahori Gate into the fort as the Nahr-i-Bihisht. Silted and neglected by the 1820s, then restored by the British.",
+    "blurb": "Ali Mardan Khan's canal, brought from the Yamuna far upstream, ran along of Chandni Chowk in a stone channel with pools and trees, then under the Lahori Gate into the fort as the Nahr-i-Bihisht. It silted up in the 18th century and was restored by the British in 1820.",
     "periods": [
      "shahjahan-1660",
      "zafar-1850"
@@ -599,7 +599,7 @@
     "style": "minor",
     "labelled": false,
     "id": "khari-baoli",
-    "blurb": "West of the Fatehpuri Masjid to the Lahori Gate, named after a brackish step-well; already then the spice and grain market of the city.",
+    "blurb": "West of the Fatehpuri Masjid to the Lahori Gate, named after a brackish step-well; later the city's great spice and grain market.",
     "periods": [
      "shahjahan-1660",
      "zafar-1850"
@@ -1430,7 +1430,7 @@
     "build": "stone",
     "arches": 5,
     "id": "salimgarh-bridge",
-    "blurb": "Jahangir's bridge of 1622 across the channel to Salimgarh; Shah Jahan linked it to the fort, and Bahadur Shah Zafar would escape over it in September 1857.",
+    "blurb": "Jahangir's bridge of 1622 across the channel to Salimgarh; Shah Jahan linked it to the fort, and Bahadur Shah Zafar is said to have left the fort this way in September 1857.",
     "landmarkId": "salimgarh",
     "periods": [
      "shahjahan-1660",
@@ -4884,7 +4884,7 @@
    "year": 1570,
    "startYear": 1556,
    "endYear": 1638,
-   "summary": "Humayun died in the Purana Qila in 1556; his widow Haji Begum built his tomb by Nizamuddin's shrine, the first great garden-tomb of India, in red sandstone and white marble, finished about 1570. Akbar rules from Agra, so Delhi is a provincial city of courtiers' tombs, mosques and serais; Maham Anga's madrasa faces the fort, and Persian craftsmen live in the Arab Sarai.",
+   "summary": "Humayun died in the Purana Qila in 1556; his widow Haji Begum built his tomb by Nizamuddin's shrine, the first great garden-tomb of India, in red sandstone and white marble, finished about 1572. Akbar rules from Agra, so Delhi is a provincial city of courtiers' tombs, mosques and serais; Maham Anga's madrasa faces the fort, and the Arab Sarai houses Haji Begum's dependants, by tradition Arabs.",
    "population": "perhaps 80,000",
    "feel": "Quiet after the court has gone: pilgrims to the shrine, Persian masons' chisels at the tomb, the old fort's gates locked at dusk.",
    "style": "courtyard",
@@ -4922,7 +4922,7 @@
    "year": 1850,
    "startYear": 1803,
    "endYear": 1857,
-   "summary": "The British have held Delhi since 1803; the Mughal emperor Bahadur Shah Zafar, a poet, keeps court in the Red Fort on a pension. A British Resident governs from Dara Shikoh's old mansion; St James' Church, the Magazine and bungalows cluster by Kashmiri Gate, the troops live in cantonments behind the Ridge, and Delhi College teaches Arabic and English. A bridge of boats crosses the Yamuna.",
+   "summary": "The British have held Delhi since 1803; the Mughal emperor Bahadur Shah Zafar, a poet, keeps court in the Red Fort on a pension, watched by a British Agent. Delhi College teaches Arabic and English in the old Residency, Dara Shikoh's library; St James' Church, the Magazine and bungalows cluster by Kashmiri Gate, and the troops live in cantonments behind the Ridge. A bridge of boats crosses the Yamuna.",
    "population": "about 150,000",
    "feel": "Mushairas by lamplight, pigeons wheeling over the rooftops, the church bell by Kashmiri Gate answering the azan.",
    "style": "courtyard",
@@ -4972,10 +4972,10 @@
      "note": "Open riverbank south of Islam Shah's Salimgarh: gardens, a few nobles' houses and the ghats where the Yamuna runs under the high ground."
     },
     "shahjahan-1660": {
-     "note": "New and complete: the Lahori and Delhi gates, the covered bazaar, the Naubat Khana, the Diwan-i-Am, and the marble palaces strung along the river wall with the Nahr-i-Bihisht flowing through them. Aurangzeb's Moti Masjid is being built."
+     "note": "New and complete: the Lahori and Delhi gates, the covered bazaar, the Naubat Khana, the Diwan-i-Am, and marble palaces along the river wall joined by the Nahr-i-Bihisht. Aurangzeb's Moti Masjid is being built."
     },
     "zafar-1850": {
-     "note": "Bahadur Shah Zafar's court on a British pension: Aurangzeb's barbicans veil both gates, the Peacock Throne went with Nadir Shah in 1739, and Zafar has added a red sandstone pavilion in the Hayat Bakhsh tank. Thousands of royal relatives crowd the palace lanes.",
+     "note": "Zafar's court on a British pension: Aurangzeb's barbicans veil both gates, the Peacock Throne left with Nadir Shah in 1739, and a new red sandstone pavilion stands in the Hayat Bakhsh tank.",
      "confidence": "reconstruction",
      "model": {
       "glb": "models/delhi/red-fort-1850.glb",
@@ -5306,7 +5306,7 @@
    },
    "summary": "Princess Jahanara's two-storeyed caravanserai on Chandni Chowk, with arcaded rooms round a garden court, built in 1650 for travelling merchants.",
    "details": [
-    "Jahanara Begum, Shah Jahan's eldest daughter, built the serai with the square and garden behind it. Contemporaries describe some 90 rooms on two floors round a large court with a garden and a mosque, and an arched gateway on the chowk. It housed visiting merchants and ambassadors.",
+    "Jahanara Begum, Shah Jahan's eldest daughter, built the serai with the square and garden behind it. Bernier and later writers describe arcaded rooms on two floors round a large court with a garden, and an arched gateway on the chowk; the number of rooms is not reliably recorded. It housed visiting merchants and ambassadors.",
     "The miniature shows two storeys of arched rooms round a planted court, a tall gateway on the square, corner towers and a small mosque. The plan follows the usual Mughal serai; the building does not survive and its exact form is a reconstruction."
    ],
    "confidence": "reconstruction",
@@ -5604,10 +5604,10 @@
      "note": "Known as Pir Ghaib, 'the vanished saint', after a holy man said to have disappeared here."
     },
     "shahjahan-1660": {
-     "note": "A ruin in the scrub above the new city's gardens. The Meerut pillar will be shattered by a gunpowder explosion in the early 18th century."
+     "note": "A ruin in the scrub above the new city's gardens. The Meerut pillar will be broken by a gunpowder explosion under Farrukhsiyar (1713–19)."
     },
     "zafar-1850": {
-     "note": "Beside Hindu Rao's house; the British re-erect the broken pillar nearby in 1838. In 1857 the Ridge pickets use the ruin."
+     "note": "Beside Hindu Rao's house; the pieces of the broken Meerut pillar lie nearby and will be set up again in the 1860s. In 1857 the Ridge pickets use the ruin."
     }
    },
    "summary": "A two-storey rubble building of Firoz Shah's hunting palace on the Ridge, possibly an observatory, near the second Ashokan pillar he brought to Delhi.",
@@ -5891,7 +5891,7 @@
      "note": "The dynasty's mausoleum: over a hundred Mughals lie in its plinth, among them Dara Shikoh, buried here in 1659 after his execution."
     },
     "zafar-1850": {
-     "note": "The garden is let as a vegetable plot. In September 1857 Bahadur Shah Zafar will take refuge here and surrender to Hodson."
+     "note": "The neglected garden is planted with vegetables and fruit trees. In September 1857 Bahadur Shah Zafar will take refuge here and surrender to Hodson."
     }
    },
    "summary": "The garden tomb of the emperor Humayun, begun in 1565 by his widow Haji Begum: the first great Mughal mausoleum, ancestor of the Taj Mahal.",
@@ -5956,10 +5956,10 @@
      "note": "An older neighbour of Humayun's new tomb, its tiles still bright."
     },
     "shahjahan-1660": {
-     "note": "Families of the Arab Sarai have begun to build houses inside its walled garden."
+     "note": "A Surid noble's tomb in the shadow of the Mughal mausoleum; later, villagers will settle inside its walled enclosure."
     },
     "zafar-1850": {
-     "note": "A small village fills the octagonal enclosure round the tomb."
+     "note": "Houses of a small village probably already crowd the octagonal enclosure; they were cleared in the 20th century."
     }
    },
    "summary": "The octagonal tomb of Isa Khan Niazi, a Surid noble, built 1547–48 in an octagonal walled garden with a mosque.",
@@ -6533,11 +6533,11 @@
    "variants": {
     "shahjahan-1660": {
      "name": "Dara Shikoh's library",
-     "note": "The library pavilion of Prince Dara Shikoh, Shah Jahan's scholarly heir, executed in 1659; his mansion passes to Ali Mardan Khan's family."
+     "note": "The library pavilion of Prince Dara Shikoh, Shah Jahan's scholarly heir, executed in 1659; his mansion passes to other nobles after his death."
     },
     "zafar-1850": {
      "name": "The Residency",
-     "note": "Remodelled for the British Residents after 1803 with a classical colonnade over the Mughal core; from the 1840s it houses part of Delhi College.",
+     "note": "Remodelled for the British Residents after 1803 with a classical colonnade over the Mughal core; since the 1840s it has housed Delhi College.",
      "confidence": "reconstruction",
      "model": {
       "glb": "models/delhi/residency-1850.glb",
@@ -6553,7 +6553,7 @@
    },
    "summary": "The library pavilion of Dara Shikoh, built in the 1630s–40s, later the British Residency, its Mughal core hidden behind a classical front.",
    "details": [
-    "Dara Shikoh, who translated the Upanishads into Persian, kept his library here near the river. After 1803 the British Resident, David Ochterlony, took over the building and gave it a Palladian facade; later it served colleges and offices.",
+    "Dara Shikoh, who translated the Upanishads into Persian, kept his library here near the river. After 1803 the British Resident, David Ochterlony, took over the building and gave it a classical facade; in the 1840s Delhi College moved in, and later it served schools and offices.",
     "The miniature shows a Mughal pavilion with chhajja and kiosks (1660) and the same block behind a columned verandah (1850). The Mughal form is a reconstruction."
    ],
    "confidence": "reconstruction",
@@ -6616,7 +6616,7 @@
     "wiki-siege-of-delhi",
     "dalrymple"
    ],
-   "built": "c. 1810s",
+   "built": "early 19th century",
    "function": "Arsenal",
    "activity": {
     "figures": 10,
@@ -6712,13 +6712,12 @@
      "note": "Open ground outside Ajmeri Gate; Ghaziuddin Khan will build his madrasa and tomb here around 1690–1710."
     },
     "zafar-1850": {
-     "name": "Delhi College",
-     "note": "Delhi College (refounded 1825) teaches Arabic, Persian, mathematics and English here; its 'oriental' section translates Western science into Urdu."
+     "note": "Delhi College was founded here in 1825 on the old madrasa's endowment; in the 1840s it moved to the old Residency by Kashmiri Gate. The red sandstone court still stands outside Ajmeri Gate."
     }
    },
-   "summary": "The red sandstone madrasa, mosque and tomb of Ghaziuddin Khan outside Ajmeri Gate, from 1825 the home of Delhi College.",
+   "summary": "The red sandstone madrasa, mosque and tomb of Ghaziuddin Khan outside Ajmeri Gate, where Delhi College began in 1825.",
    "details": [
-    "Ghaziuddin Khan, a general of Aurangzeb, built a two-storeyed ring of student cells round a court, a three-domed mosque on its west side and his own tomb in a marble screen. The British-supported Delhi College met here, with teachers such as Master Ramchandra and pupils who became the first Urdu modernists.",
+    "Ghaziuddin Khan, a general of Aurangzeb, built a two-storeyed ring of student cells round a court, a three-domed mosque on its west side and his own tomb in a marble screen. Delhi College, founded with British support in 1825, began here before moving to the old Residency in the 1840s; its teachers included Master Ramchandra, and its pupils included early Urdu modernists.",
     "The miniature shows the gateway, the arcaded two-storey cells, the mosque and the screened tomb."
    ],
    "confidence": "documented",
@@ -6828,7 +6827,7 @@
    },
    "summary": "The mansion on the Ridge built for William Fraser and owned by Hindu Rao, the key British post in the siege of 1857.",
    "details": [
-    "Built around 1830 for the eccentric Commissioner William Fraser (murdered in 1835), it was bought by Hindu Rao, brother-in-law of the Maratha ruler Daulat Rao Scindia. In 1857 Major Charles Reid's Gurkhas held it under constant fire for three months.",
+    "Built in the 1820s or early 1830s for the eccentric Commissioner William Fraser (murdered in 1835), it was bought by Hindu Rao, brother-in-law of the Maratha ruler Daulat Rao Scindia. In 1857 Major Charles Reid's Gurkhas held it under constant fire for three months.",
     "The miniature shows a flat-roofed classical house with verandahs on a terrace. The architectural detail is generic."
    ],
    "confidence": "reconstruction",
@@ -6836,7 +6835,7 @@
     "wiki-hindu-rao",
     "dalrymple"
    ],
-   "built": "c. 1830",
+   "built": "c. 1820s–30s",
    "function": "Mansion",
    "activity": {
     "figures": 8,
@@ -7207,7 +7206,7 @@
    ],
    "summary": "The bazaar between the Jama Masjid and the fort: first the camp market (urdu) of the army, later the street of booksellers and printers.",
    "details": [
-    "The camp market served the soldiers and retinues waiting on the fort; the language of its mixed crowds, zaban-i-urdu-i-mualla, 'the tongue of the exalted camp', gave Urdu its name. By the 1840s booksellers, calligraphers and lithographic presses clustered here; the Delhi Urdu Akhbar was printed nearby."
+    "The camp market served the soldiers and retinues waiting on the fort; the language of its mixed crowds, zaban-i-urdu-i-mualla, 'the tongue of the exalted camp', gave Urdu its name. By the 1840s booksellers, calligraphers and lithographic presses worked in and around it; Delhi's first Urdu newspapers were printed in the city in these years."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -7280,7 +7279,7 @@
      "note": "Imperial and noble flocks; the emperor's pigeon-masters are paid from the treasury."
     },
     "zafar-1850": {
-     "note": "Zafar himself flies pigeons and kites from the palace roofs."
+     "note": "Pigeon-flying is still a passion of every class, from the palace to the mohallas."
     }
    }
   },
@@ -7338,7 +7337,7 @@
    ],
    "summary": "The kitchen and the singing courtyard of the dargah, where the saint's free food has been given out and qawwali sung for seven centuries.",
    "details": [
-    "Nizamuddin's hospice fed all comers; Amir Khusrau, his disciple, is credited with shaping qawwali. On Thursday evenings and at the urs the courtyard fills with pilgrims, Hindu and Muslim, while qawwals sing Khusrau's verses with harmonium (later) and clapping."
+    "Nizamuddin's hospice fed all comers; Amir Khusrau, his disciple, is credited with shaping qawwali. On Thursday evenings and at the urs the courtyard fills with pilgrims, Hindu and Muslim, while qawwals sing Khusrau's verses to drum and clapping (the harmonium came much later)."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -7368,7 +7367,7 @@
      "note": "Princes and princesses visit; Jahanara will choose to be buried here."
     },
     "zafar-1850": {
-     "note": "Dargah Quli Khan in the 1730s and Ghalib a century later both describe the Thursday qawwali."
+     "note": "Dargah Quli Khan described its crowds in the 1730s; the Thursday qawwali and the urs still draw the whole city."
     }
    }
   },
@@ -7869,7 +7868,7 @@
     },
     {
      "hour": 18,
-     "text": "Lamp-light worship before sunset, since Jains do not eat or light fires after dark."
+     "text": "Lamps are lit for the evening worship; devout families have eaten before sunset, as Jain practice asks."
     }
    ],
    "variants": {
@@ -7877,7 +7876,7 @@
      "note": "A modest shrine for Jain men of the army camp."
     },
     "zafar-1850": {
-     "note": "Rebuilt and enlarged by the Jain merchants of the city."
+     "note": "Enlarged by the Jain merchants of the city; much of the present building is later still."
     }
    }
   },
@@ -8127,13 +8126,13 @@
    "id": "topra-pillar",
    "title": "Firoz Shah raises Ashoka's pillar",
    "periodId": "tughlaq-1380",
-   "date": "1360s",
+   "date": "1350s",
    "kind": "construction",
    "at": {
     "landmarkId": "firoz-shah-kotla"
    },
    "effect": "construction",
-   "text": "Afif describes the pillar wrapped in reed and raw silk, lowered on to a 42-wheeled carriage drawn by thousands of men, floated down the Yamuna on boats and hauled up the new pyramid with ropes and windlasses. No one in Delhi could read its inscription; the Brahmi edicts were deciphered only in 1837. The exact year is uncertain.",
+   "text": "Afif describes the pillar wrapped in reed and raw silk, lowered on to a 42-wheeled carriage drawn by thousands of men, floated down the Yamuna on boats and hauled up the new pyramid with ropes and pulleys. No one in Delhi could read its inscription; James Prinsep deciphered the Brahmi edicts only in 1837. The exact year is uncertain.",
    "sourceIds": [
     "afif",
     "wiki-feroz-shah-kotla",
@@ -8248,7 +8247,7 @@
     "landmarkId": "red-fort"
    },
    "effect": "procession",
-   "text": "Nine years after the foundation, the emperor came by river from Agra and entered the Qila-i-Mubarak by the water gate at an auspicious hour. The halls were hung with brocade and velvet, gold and jewels were scattered, and Dara Shikoh offered a feast. Delhi was again the Mughal capital.",
+   "text": "Nine years after the foundation, the emperor came by river from Agra and entered the Qila-i-Mubarak by the water gate at an auspicious hour. The halls were hung with brocade and velvet and gifts were showered on the court. Delhi was again the Mughal capital.",
    "sourceIds": [
     "wiki-red-fort",
     "koch",
@@ -8282,7 +8281,7 @@
     "landmarkId": "red-fort"
    },
    "effect": "crowd",
-   "text": "Having imprisoned his father in Agra and defeated his brothers, Aurangzeb, already enthroned in haste in 1658, held a lavish second coronation in the Diwan-i-Am. He took the title Alamgir, 'seizer of the world'; within months he had begun the Moti Masjid and was tightening the rules of the court.",
+   "text": "Having imprisoned his father in Agra and defeated his brothers, Aurangzeb, already enthroned in haste in 1658 with the title Alamgir, 'seizer of the world', held a lavish second coronation in the palace. Within months he had begun the Moti Masjid in the fort and was tightening the rules of the court.",
    "sourceIds": [
     "wiki-aurangzeb",
     "bernier",
@@ -8325,7 +8324,7 @@
    "id": "zafar-mushaira",
    "title": "A mushaira at the court of Zafar",
    "periodId": "zafar-1850",
-   "date": "1850s",
+   "date": "c. 1850",
    "kind": "festival",
    "at": {
     "landmarkId": "red-fort"
@@ -8348,7 +8347,7 @@
     "landmarkId": "delhi-magazine"
    },
    "effect": "fire",
-   "text": "As the cavalry from Meerut and the city's own sepoys poured in, Lieutenant Willoughby and eight men held the arsenal, then fired the trail of powder. The explosion killed hundreds in the surrounding streets and shook the city; several of the defenders escaped, singed and bleeding, to the Ridge.",
+   "text": "As the cavalry from Meerut and the city's own sepoys poured in, Lieutenant Willoughby and eight men held the arsenal, then fired the trail of powder. The explosion killed hundreds in the surrounding streets and shook the city; a few of the defenders escaped, burned and wounded.",
    "sourceIds": [
     "wiki-siege-of-delhi",
     "dalrymple",
@@ -8394,7 +8393,7 @@
    "id": "walk-1660",
    "title": "From Fatehpuri to the fort, 1660",
    "periodId": "shahjahan-1660",
-   "summary": "A day's walk down the new capital's great avenue, from the western mosque to the emperor's hall of audience, a year into Aurangzeb's reign.",
+   "summary": "A day's walk down the new capital's great avenue, from the western mosque to the emperor's hall of audience, early in Aurangzeb's reign.",
    "steps": [
     {
      "landmarkId": "fatehpuri-masjid",
@@ -8460,7 +8459,7 @@
     {
      "landmarkId": "residency",
      "title": "The Residency",
-     "text": "Dara Shikoh's library behind a classical colonnade: the seat of British power, and from the 1840s rooms of Delhi College."
+     "text": "Dara Shikoh's library behind a classical colonnade: the first seat of British power in Delhi, and since the 1840s the home of Delhi College."
     },
     {
      "spotId": "ballimaran-haveli",
@@ -8469,8 +8468,8 @@
     },
     {
      "landmarkId": "ghaziuddin-madrasa",
-     "title": "Delhi College",
-     "text": "Outside Ajmeri Gate, students translate English mathematics into Urdu in the cells of Ghaziuddin's madrasa."
+     "title": "Ghaziuddin's madrasa",
+     "text": "Outside Ajmeri Gate, the red sandstone court where Delhi College began in 1825 and its scholars first set about translating Western science into Urdu."
     },
     {
      "landmarkId": "red-fort",
@@ -8522,8 +8521,7 @@
    "id": "sayyid-ahmad",
    "title": "Asar-us-Sanadid (Monuments of Delhi)",
    "author": "Sayyid Ahmad Khan",
-   "year": 1847,
-   "url": "https://en.wikipedia.org/wiki/Asar-us-Sanadid"
+   "year": 1847
   },
   {
    "id": "liddle",
@@ -8585,8 +8583,7 @@
    "id": "afif",
    "title": "Tarikh-i Firoz Shahi",
    "author": "Shams-i Siraj Afif",
-   "year": "c. 1400",
-   "url": "https://en.wikipedia.org/wiki/Shams-i_Siraj_Afif"
+   "year": "c. 1400"
   },
   {
    "id": "lowry",
@@ -8639,9 +8636,9 @@
   },
   {
    "id": "wiki-fatehpuri-masjid",
-   "title": "Fatehpuri Masjid",
+   "title": "Fatehpuri Mosque",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Fatehpuri_Masjid"
+   "url": "https://en.wikipedia.org/wiki/Fatehpuri_Mosque"
   },
   {
    "id": "wiki-feroz-shah-kotla",
@@ -8653,7 +8650,7 @@
    "id": "wiki-topra-pillar",
    "title": "Delhi-Topra pillar",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Pillars_of_Ashoka"
+   "url": "https://en.wikipedia.org/wiki/Delhi-Topra_pillar"
   },
   {
    "id": "wiki-kalan-masjid",
@@ -8681,9 +8678,9 @@
   },
   {
    "id": "wiki-sher-shah-gate",
-   "title": "Sher Shah Gate",
+   "title": "Purana Qila",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Sher_Shah_Gate,_Delhi"
+   "url": "https://en.wikipedia.org/wiki/Purana_Qila"
   },
   {
    "id": "wiki-khair-ul-manazil",
@@ -8693,33 +8690,33 @@
   },
   {
    "id": "wiki-humayuns-tomb",
-   "title": "Humayun's Tomb",
+   "title": "Humayun's tomb",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Humayun%27s_Tomb"
+   "url": "https://en.wikipedia.org/wiki/Humayun%27s_tomb"
   },
   {
    "id": "wiki-isa-khan",
-   "title": "Isa Khan's Tomb",
+   "title": "Tomb of Isa Khan",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Isa_Khan%27s_Tomb"
+   "url": "https://en.wikipedia.org/wiki/Tomb_of_Isa_Khan"
   },
   {
    "id": "wiki-arab-ki-sarai",
-   "title": "Arab ki Sarai",
+   "title": "Arab Serai",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Arab_ki_Sarai"
+   "url": "https://en.wikipedia.org/wiki/Arab_Serai"
   },
   {
    "id": "wiki-nizamuddin-dargah",
-   "title": "Nizamuddin Dargah",
+   "title": "Hazrat Nizamuddin Dargah",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Nizamuddin_Dargah"
+   "url": "https://en.wikipedia.org/wiki/Hazrat_Nizamuddin_Dargah"
   },
   {
    "id": "wiki-zinat-ul-masajid",
-   "title": "Zinat-ul-Masajid",
+   "title": "Zeenat-ul-Masajid",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Zinat-ul-Masajid"
+   "url": "https://en.wikipedia.org/wiki/Zeenat-ul-Masajid"
   },
   {
    "id": "wiki-kashmiri-gate",
@@ -8741,9 +8738,9 @@
   },
   {
    "id": "wiki-ajmeri-gate",
-   "title": "Ajmeri Gate",
+   "title": "Gates of Delhi",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Ajmeri_Gate"
+   "url": "https://en.wikipedia.org/wiki/Gates_of_Delhi"
   },
   {
    "id": "wiki-st-james",
@@ -8753,9 +8750,9 @@
   },
   {
    "id": "wiki-dara-shikoh-library",
-   "title": "Dara Shikoh Library",
+   "title": "Dara Shikoh",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Dara_Shikoh_Library"
+   "url": "https://en.wikipedia.org/wiki/Dara_Shikoh"
   },
   {
    "id": "wiki-begum-samru",
@@ -8777,9 +8774,9 @@
   },
   {
    "id": "wiki-hindu-rao",
-   "title": "Hindu Rao Hospital",
+   "title": "Raja Hindu Rao",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Hindu_Rao_Hospital"
+   "url": "https://en.wikipedia.org/wiki/Raja_Hindu_Rao"
   },
   {
    "id": "wiki-metcalfe-house",
@@ -8789,15 +8786,15 @@
   },
   {
    "id": "wiki-siege-of-delhi",
-   "title": "Siege of Delhi",
+   "title": "Siege of Delhi (1857)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Siege_of_Delhi"
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Delhi_(1857)"
   },
   {
    "id": "wiki-pir-ghaib",
-   "title": "Pir Ghaib",
+   "title": "Pir Ghaib Hunting Lodge and Observatory",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Pir_Ghaib"
+   "url": "https://en.wikipedia.org/wiki/Pir_Ghaib_Hunting_Lodge_and_Observatory"
   },
   {
    "id": "manucci",
@@ -8823,8 +8820,7 @@
    "id": "jauhar",
    "title": "Tazkirat al-Waqiat (memoirs of Humayun)",
    "author": "Jauhar Aftabchi",
-   "year": "c. 1587",
-   "url": "https://en.wikipedia.org/wiki/Jauhar_Aftabchi"
+   "year": "c. 1587"
   },
   {
    "id": "ghalib-letters",
@@ -8846,9 +8842,9 @@
   },
   {
    "id": "wiki-agrasen-baoli",
-   "title": "Agrasen ki Baoli",
+   "title": "Agrasen Ki Baoli",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Agrasen_ki_Baoli"
+   "url": "https://en.wikipedia.org/wiki/Agrasen_Ki_Baoli"
   },
   {
    "id": "wiki-dariba-kalan",
@@ -8858,9 +8854,9 @@
   },
   {
    "id": "wiki-kinari-bazaar",
-   "title": "Kinari Bazaar",
+   "title": "Chandni Chowk",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Kinari_Bazaar"
+   "url": "https://en.wikipedia.org/wiki/Chandni_Chowk"
   },
   {
    "id": "wiki-nigambodh-ghat",
@@ -8870,9 +8866,9 @@
   },
   {
    "id": "wiki-ballimaran",
-   "title": "Ballimaran",
+   "title": "Ghalib ki Haveli",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Ballimaran"
+   "url": "https://en.wikipedia.org/wiki/Ghalib_ki_Haveli"
   },
   {
    "id": "wiki-ghalib",
@@ -8894,9 +8890,9 @@
   },
   {
    "id": "wiki-nadir-shah-delhi",
-   "title": "Nadir Shah's invasion of the Mughal Empire",
+   "title": "Nader Shah's invasion of India",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Nader_Shah%27s_invasion_of_the_Mughal_Empire"
+   "url": "https://en.wikipedia.org/wiki/Nader_Shah%27s_invasion_of_India"
   },
   {
    "id": "wiki-dara-shikoh",
@@ -8930,9 +8926,9 @@
   },
   {
    "id": "wiki-lal-mandir",
-   "title": "Shri Digambar Jain Lal Mandir",
+   "title": "Sri Digambar Jain Lal Mandir",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Shri_Digambar_Jain_Lal_Mandir"
+   "url": "https://en.wikipedia.org/wiki/Sri_Digambar_Jain_Lal_Mandir"
   },
   {
    "id": "wiki-roshanara-bagh",
