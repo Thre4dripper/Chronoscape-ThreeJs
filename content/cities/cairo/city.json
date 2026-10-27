@@ -870,7 +870,7 @@
     "style": "major",
     "labelled": true,
     "id": "qasaba",
-    "blurb": "The spine of al-Qahira from Bab al-Futuh to Bab Zuwayla. Between the two Fatimid palaces it widened into Bayn al-Qasrayn, 'between the two palaces', a parade ground for ten thousand soldiers; under the Mamluks the city's grandest street of madrasas and tombs.",
+    "blurb": "The spine of al-Qahira from Bab al-Futuh to Bab Zuwayla. Between the two Fatimid palaces it widened into Bayn al-Qasrayn, 'between the two palaces', a parade ground said to hold ten thousand soldiers; under the Mamluks the city's grandest street of madrasas and tombs.",
     "periods": [
      "fatimid-1050",
      "mamluk-1350",
@@ -3476,7 +3476,7 @@
      "note": "Restored after the burning of Fustat in 1168 and again by the amir Salar after the earthquake of 1303, but now standing at the edge of a shrunken town among rubbish mounds."
     },
     "ottoman-1600": {
-     "note": "Half-ruined and little used except on the last Friday of Ramadan, when the Ottoman governor and the notables came to pray here for the Nile's rise. Rebuilt by Murad Bey in 1798."
+     "note": "Half-ruined and little used except on the last Friday of Ramadan, when the Ottoman governor and the notables came to pray here for the Nile's rise. Pulled down and rebuilt by Murad Bey in 1796."
     }
    },
    "summary": "The first mosque in Africa, founded by the conqueror Amr ibn al-As in 641–642 at the centre of the camp-town of Fustat, and rebuilt and enlarged many times since.",
@@ -3537,10 +3537,10 @@
      "note": "Surrendered to Amr in April 641 after a seven-month siege. The Copts kept the fortress: churches stand inside its walls, and the Muslim town grows around it."
     },
     "tulunid-880": {
-     "note": "A Christian and Jewish quarter inside Roman walls. The Hanging Church stands on the bastions of the old river gate; the river still laps the western towers."
+     "note": "A Christian and Jewish quarter inside Roman walls. The Hanging Church stands on the bastions of the old river gate; the river probably still runs close under the western towers."
     },
     "fatimid-1050": {
-     "note": "The Coptic patriarch moves from Alexandria to Cairo in the 11th century; the Hanging Church becomes his seat. The Ben Ezra synagogue, rebuilt after al-Hakim's persecutions, stands at the south-east corner."
+     "note": "The Coptic patriarch moves from Alexandria to Cairo in the 11th century; the Hanging Church becomes his seat. The Ben Ezra synagogue, rebuilt after al-Hakim's persecutions, stands close to the fortress's southern wall."
     },
     "mamluk-1350": {
      "note": "The river has drawn back from the walls. Christians and Jews of Misr al-Qadima still worship in the churches and synagogue within; parts of the Roman wall have been quarried or built over."
@@ -3689,7 +3689,7 @@
    "summary": "The vast brick mosque Ahmad ibn Tulun built in 876–879 for his new city, with an arcaded court 92 m square, a domed fountain and a minaret with a spiral stair outside.",
    "details": [
     "Built of red brick coated in carved stucco, the mosque is about 122 by 140 m, enclosed by outer courts (ziyadas) that bring it to about 162 m square. Pointed arches on brick piers with corner colonnettes ring the court, five aisles deep on the qibla side; a frieze of sycamore wood carries the Qur'an round the hall.",
-    "The minaret, with its outer stair and bridge to the roof, recalls the spiral minaret of Samarra, Ibn Tulun's home. The present stone tower is usually dated to Lajin's restoration of 1296, as is the domed fountain shown in the court; the original arrangement is uncertain."
+    "The minaret, with its outer stair and bridge to the roof, recalls the spiral minaret of Samarra, where Ibn Tulun grew up. The present stone tower is usually dated to Lajin's restoration of 1296, as is the domed fountain shown in the court; the original arrangement is uncertain."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -3812,7 +3812,7 @@
      }
     },
     "mamluk-1350": {
-     "note": "Sunni since Saladin and the first university of the Islamic world in all but name. The madrasas of Taybars (1309) and Aqbugha (1340) flank the entrance; Aqbugha's minaret rises over them."
+     "note": "Sunni since Saladin and the most prestigious centre of learning in the Sunni world. The madrasas of Taybars (1309) and Aqbugha (1340) flank the entrance; Aqbugha's minaret rises over them."
     },
     "ottoman-1600": {
      "note": "Three minarets now: Aqbugha's, Qaitbay's (1483) and al-Ghuri's twin-headed one (1510). Students from the Maghrib to Java live in its riwaqs, lodgings by nation.",
@@ -3945,7 +3945,7 @@
    },
    "summary": "The lesser Fatimid palace on the west side of Bayn al-Qasrayn, overlooking the Kafuri garden, built by the caliph al-Aziz in the late 10th century.",
    "details": [
-    "Texts describe the Western Palace as a pleasure palace with belvederes over the garden and the canal, used for festivities and by members of the caliph's family. The parade ground between the palaces, Bayn al-Qasrayn, could hold ten thousand soldiers.",
+    "Texts describe the Western Palace as a pleasure palace with belvederes over the garden and the canal, used for festivities and by members of the caliph's family. The parade ground between the palaces, Bayn al-Qasrayn, could by al-Maqrizi's account hold ten thousand soldiers.",
     "No remains are visible and the plan is unknown. The miniature is an interpretation: a walled block with a gate on the square, halls round courts and a garden pavilion on its western side."
    ],
    "confidence": "interpretation",
@@ -4080,7 +4080,7 @@
    },
    "summary": "The 'Gate of Conquests' at the north end of the Qasaba, built in 1087 by Badr al-Jamali with two rounded towers and some of the finest Fatimid stonework in Cairo.",
    "details": [
-    "The towers are solid in their lower half, with a vaulted guardroom above, and the passage has a fine cross vault. Its stone was cut by masons from northern Syria, with carved rams' heads and cushion voussoirs; reused pharaonic blocks appear in the walls.",
+    "The towers are solid in their lower half, with a vaulted guardroom above, and the passage has a fine cross vault. Its stone was cut by masons said to have come from Edessa in upper Mesopotamia, with carved rams' heads and cushion voussoirs; reused pharaonic blocks appear in the walls.",
     "The miniature shows the gate's outer (north) face with its two rounded towers and arched passage; the wall is drawn on the map."
    ],
    "confidence": "documented",
@@ -5674,7 +5674,7 @@
     "landmarkId": "mosque-of-amr"
    },
    "effect": "construction",
-   "text": "Amr laid out the tribes' plots round a small mosque of mud brick with palm-trunk columns and a palm-leaf roof. Tradition says eighty Companions of the Prophet stood to fix its prayer direction. The camp, the fustat, became a city of hundreds of thousands, and its mosque was rebuilt, enlarged and loved for a millennium.",
+   "text": "Amr laid out the tribes' plots round a small mosque of mud brick with palm-trunk columns and a palm-leaf roof. Tradition says eighty Companions of the Prophet stood to fix its prayer direction. The camp, the fustat, became one of the great cities of the Islamic world, and its mosque was rebuilt, enlarged and loved for a millennium.",
    "sourceIds": [
     "wiki-amr",
     "kubiak-fustat"
@@ -5795,7 +5795,7 @@
     ]
    },
    "effect": "fire",
-   "text": "With the crusader army of King Amalric of Jerusalem approaching, the vizier Shawar ordered Fustat evacuated and set alight so the Franks could not use it. Chroniclers say it burned for fifty-four days, with twenty thousand barrels of naphtha. The city never fully recovered; al-Qahira became Cairo's heart.",
+   "text": "With the crusader army of King Amalric of Jerusalem approaching, the vizier Shawar ordered Fustat evacuated and set alight so the Franks could not use it. Chroniclers say it burned for fifty-four days, set alight with twenty thousand pots of naphtha; archaeologists think the damage was less complete than they claim. Fustat never fully recovered, and al-Qahira became Cairo's heart.",
    "sourceIds": [
     "wiki-fustat",
     "maqrizi-khitat"
@@ -5935,7 +5935,7 @@
     {
      "landmarkId": "al-azhar",
      "title": "The caliph's mosque",
-     "text": "Al-Azhar, eighty years old, is the mosque of the palace city. Isma'ili scholars teach the caliph's doctrine in its arcades; on Fridays in Ramadan the caliph himself comes to preach."
+     "text": "Al-Azhar, some seventy-five years old, is the mosque of the palace city. Isma'ili scholars teach the caliph's doctrine in its arcades; on Fridays in Ramadan the caliph himself comes to preach."
     },
     {
      "landmarkId": "bab-zuwayla",
@@ -6068,9 +6068,9 @@
   },
   {
    "id": "wiki-history-cairo",
-   "title": "History of Cairo",
+   "title": "Cairo",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/History_of_Cairo"
+   "url": "https://en.wikipedia.org/wiki/Cairo"
   },
   {
    "id": "wiki-fustat",
@@ -6305,7 +6305,7 @@
    "id": "wiki-al-muayyad",
    "title": "Mosque of al-Mu'ayyad",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Muayyad_Mosque"
+   "url": "https://en.wikipedia.org/wiki/Mosque_of_Sultan_al-Muayyad"
   },
   {
    "id": "wiki-wikala-ghuri",
@@ -6323,7 +6323,7 @@
    "id": "wiki-qaitbay",
    "title": "Funerary complex of Sultan Qaytbay",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Qaitbay_Mosque"
+   "url": "https://en.wikipedia.org/wiki/Funerary_complex_of_Sultan_Qaytbay"
   },
   {
    "id": "ibn-battuta",
