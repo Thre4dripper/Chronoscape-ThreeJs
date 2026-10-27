@@ -221,7 +221,7 @@ EVENTS = [
          sourceIds=["wiki-harun", "tabari"]),
     dict(id="fall-of-barmakids-803", title="The fall of the Barmakids", periodId="harun-800", date="January 803", kind="civic",
          at=dict(landmarkId="bridge-of-boats"), effect="crowd",
-         text="Without warning Harun had Ja'far, his closest companion, beheaded, and his father Yahya and brother al-Fadl imprisoned; their wealth was seized. Ja'far's body, cut in pieces, hung on the bridges of Baghdad for a year. Why Harun turned on the family is still debated.",
+         text="Without warning Harun had Ja'far, his closest companion, beheaded, and his father Yahya and brother al-Fadl imprisoned; their wealth was seized. Ja'far's body, cut in pieces, hung on the bridges of Baghdad for many months. Why Harun turned on the family is still debated.",
          sourceIds=["wiki-barmakids", "tabari", "kennedy-baghdad"]),
     dict(id="siege-812", title="The siege of Baghdad", periodId="mamun-830", date="August 812 – September 813", kind="disaster",
          at=dict(landmarkId="round-city"), effect="fire",
@@ -261,7 +261,7 @@ EVENTS = [
          sourceIds=["wiki-qadiriyya", "le-strange"]),
     dict(id="murad-1638", title="Murad IV retakes Baghdad", periodId="ottoman-1650", date="December 1638", kind="procession",
          at=dict(landmarkId="talisman-gate"), effect="procession",
-         text="After fifteen years of Safavid rule and a siege of some forty days, Sultan Murad IV took Baghdad back. He rode in through the Talisman Gate and had it bricked up behind him. A massacre of the Persian garrison followed; the peace of Zuhab in 1639 left Baghdad Ottoman until 1917.",
+         text="After fifteen years of Safavid rule and a siege of some forty days, Sultan Murad IV took Baghdad back. He rode in through the Talisman Gate, which by tradition he had bricked up behind him. A massacre of the Persian garrison followed; the peace of Zuhab in 1639 left Baghdad Ottoman until 1917.",
          sourceIds=["wiki-siege-1638", "le-strange"]),
 ]
 

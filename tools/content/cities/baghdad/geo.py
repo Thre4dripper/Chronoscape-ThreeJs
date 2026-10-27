@@ -128,7 +128,7 @@ ROADS = [
          blurb="Out of the Syria Gate (north-west) through the Harbiyya to the cemetery of the Quraysh and the road to Anbar, Raqqa and Syria."),
     # ---- the east bank, 770-944
     dict(id="bab-al-taq", name="Street of Bab al-Taq", path=[(33.3552, 44.3750), (33.3575, 44.3790), (33.3620, 44.3830), (33.3690, 44.3880), (33.3720, 44.3900)], width=18, style="major", labelled=True, periods=EARLY,
-         blurb="From the head of the main bridge under the great arch (taq) of Asma, al-Mahdi's daughter, north-east toward Shammasiyya and the Khurasan road. The busiest street of the east bank."),
+         blurb="From the head of the main bridge under the great arch (taq) named after Asma, a princess of the Abbasid house, north-east toward Shammasiyya and the Khurasan road. The busiest street of the east bank."),
     dict(id="rusafa-street", name="Street to Rusafa", path=[(33.3638, 44.3660), (33.3655, 44.3660), (33.3670, 44.3640)], width=12, style="minor", periods=EARLY,
          blurb="From the upper bridge to the mosque and palace of Rusafa."),
     dict(id="mukharrim-street", name="Street of al-Mukharrim", path=[(33.3552, 44.3750), (33.3510, 44.3790), (33.3460, 44.3860), (33.3420, 44.3915), (33.3380, 44.3960)], width=14, style="major", periods=EARLY,

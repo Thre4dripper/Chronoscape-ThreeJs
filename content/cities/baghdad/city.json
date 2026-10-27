@@ -490,7 +490,7 @@
     "style": "major",
     "labelled": true,
     "id": "bab-al-taq",
-    "blurb": "From the head of the main bridge under the great arch (taq) of Asma, al-Mahdi's daughter, north-east toward Shammasiyya and the Khurasan road. The busiest street of the east bank.",
+    "blurb": "From the head of the main bridge under the great arch (taq) named after Asma, a princess of the Abbasid house, north-east toward Shammasiyya and the Khurasan road. The busiest street of the east bank.",
     "periods": [
      "mansur-770",
      "harun-800",
@@ -3446,7 +3446,7 @@
    },
    "summary": "The Friday mosque of the Round City, built beside al-Mansur's palace about 763 and rebuilt in fired brick by Harun al-Rashid in 807–809: an arcaded court and a deep prayer hall under a flat timber roof.",
    "details": [
-    "The first mosque was about 100 yards square, of sun-dried brick, its flat roof on wooden columns; Harun replaced it in fired brick in 807–809. Al-Mu'tadid added a second court in 893 by taking in part of the palace, opening 17 arches into it. Its minaret burned in 915 and was rebuilt.",
+    "The first mosque was about 100 m square, of sun-dried brick, its flat roof on wooden columns; Harun replaced it in fired brick in 807–809. Al-Mu'tadid added a second court in 893 by taking in part of the palace, opening 17 arches into it. Its minaret burned in 915 and was rebuilt.",
     "The miniature shows the brick mosque of 809 as an early Abbasid hypostyle: thick buttressed walls, a court ringed by arcades, a prayer hall several aisles deep and a single tower. The minaret's form and the court's proportions are reconstructed from comparisons with Abbasid mosques at Samarra and Raqqa."
    ],
    "confidence": "reconstruction",
@@ -4059,12 +4059,12 @@
      "note": "The gate of the racecourse (Bab al-Halba), rebuilt by the caliph al-Nasir in 1221 with an inscription and the relief that gave it its later name."
     },
     "ottoman-1650": {
-     "note": "Murad IV rode into Baghdad through it in December 1638 and had it bricked up behind him so no one else could pass. It stood sealed until blown up by retreating Ottoman troops in 1917."
+     "note": "Murad IV rode into Baghdad through it in December 1638 and, by tradition, had it bricked up behind him. It stood sealed until blown up by retreating Ottoman troops in 1917."
     }
    },
    "summary": "The north-eastern gate of the walled east city, rebuilt by the caliph al-Nasir in 1221: a massive round brick tower over the gate passage, with an inscription band and a relief of a seated figure grasping two dragons.",
    "details": [
-    "The gate opened toward the racecourse (halba) laid out in front of it by the Seljuk sultan Malik Shah. Al-Nasir's inscription of 1221 ran round the tower; over the arch, a cross-legged figure held the tongues of two winged dragons, perhaps a talisman against enemies, though its date is debated. Sarre and Herzfeld photographed it before its destruction in 1917.",
+    "The gate took its first name from the racecourse (halba) outside it. Al-Nasir's inscription of 1221 ran round the tower; over the arch, a cross-legged figure held the tongues of two winged dragons, perhaps a talisman against enemies, though its date is debated. Sarre and Herzfeld photographed it before its destruction in 1917.",
     "The miniature follows those photographs in outline: a cylindrical tower of fired brick with a band of inscription, the gate arch and relief, a bridge over the moat and stretches of the city wall. Details of the parapet are reconstructed."
    ],
    "confidence": "reconstruction",
@@ -4112,7 +4112,7 @@
    "variants": {
     "abbasid-1200": {
      "name": "Bab al-Zafariyya",
-     "note": "The middle gate of the east wall, also called the Khurasan gate: a round brick tower with a domed hall inside, reached across the moat by a bridge."
+     "note": "The middle gate of the east wall: a round brick tower with a domed hall inside, reached across the moat by a bridge."
     },
     "ottoman-1650": {
      "note": "Still one of the gates of the Ottoman town, though the east of the walled area is largely gardens and cemeteries. It survives today, the only one of Baghdad's gates still standing."
@@ -4286,8 +4286,8 @@
    "name": "Shrine of Sheikh Abd al-Qadir al-Gilani",
    "category": "religious",
    "position": [
-    6816,
-    5747
+    6927,
+    5725
    ],
    "rotation": 0,
    "footprint": [
@@ -4330,7 +4330,7 @@
      "note": "Wrecked when the Safavids took Baghdad in 1508; Suleiman the Magnificent built the great dome over the tomb after 1534. The centre of the Qadiri Sufi order, with pilgrims from India to Africa."
     }
    },
-   "summary": "The tomb, mosque and lodge of Abd al-Qadir al-Gilani (1077–1166), preacher and founder of the Qadiriyya, the most widespread Sufi order, at Bab al-Shaykh in the east city.",
+   "summary": "The tomb, mosque and lodge of Abd al-Qadir al-Gilani (1077–1166), preacher and founder of the Qadiriyya, one of the most widespread Sufi orders, at Bab al-Shaykh in the east city.",
    "details": [
     "Abd al-Qadir came from Gilan in Persia to study in Baghdad and preached to great crowds at the madrasa of his teacher at Bab al-Azaj, where he was buried. The quarter round it is still called Bab al-Shaykh, the gate of the sheikh. The Ottomans rebuilt the shrine after 1534 and again later.",
     "The miniatures show the 12th-century madrasa with a modest dome over the tomb, and the Ottoman shrine with Suleiman's large dome, an arcaded court, a prayer hall and a minaret. Details of both are reconstructed; the present buildings are mostly later."
@@ -5197,7 +5197,7 @@
     "landmarkId": "bridge-of-boats"
    },
    "effect": "crowd",
-   "text": "Without warning Harun had Ja'far, his closest companion, beheaded, and his father Yahya and brother al-Fadl imprisoned; their wealth was seized. Ja'far's body, cut in pieces, hung on the bridges of Baghdad for a year. Why Harun turned on the family is still debated.",
+   "text": "Without warning Harun had Ja'far, his closest companion, beheaded, and his father Yahya and brother al-Fadl imprisoned; their wealth was seized. Ja'far's body, cut in pieces, hung on the bridges of Baghdad for many months. Why Harun turned on the family is still debated.",
    "sourceIds": [
     "wiki-barmakids",
     "tabari",
@@ -5360,7 +5360,7 @@
     "landmarkId": "talisman-gate"
    },
    "effect": "procession",
-   "text": "After fifteen years of Safavid rule and a siege of some forty days, Sultan Murad IV took Baghdad back. He rode in through the Talisman Gate and had it bricked up behind him. A massacre of the Persian garrison followed; the peace of Zuhab in 1639 left Baghdad Ottoman until 1917.",
+   "text": "After fifteen years of Safavid rule and a siege of some forty days, Sultan Murad IV took Baghdad back. He rode in through the Talisman Gate, which by tradition he had bricked up behind him. A massacre of the Persian garrison followed; the peace of Zuhab in 1639 left Baghdad Ottoman until 1917.",
    "sourceIds": [
     "wiki-siege-1638",
     "le-strange"
