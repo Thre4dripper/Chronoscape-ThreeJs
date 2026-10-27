@@ -319,7 +319,7 @@
     "radius": 360,
     "label": true,
     "id": "picchu",
-    "blurb": "The hill west of the city over which the Chinchaysuyu road climbed. From its top, observers watched the sun set behind pillars on the horizon to fix the time of planting."
+    "blurb": "The hill west of the city over which the Chinchaysuyu road climbed. On the skyline above it stood stone pillars (sukanqa); seen from the plaza, the sun setting between them marked the time of planting."
    },
    {
     "name": "Puquín",
@@ -2513,7 +2513,7 @@
       1989
      ]
     ],
-    "description": "'Terrace of joy', the half of the great plaza across the Saphy from Haukaypata. Its earth, the chroniclers say, was carried away and replaced with earth from every province of the empire.",
+    "description": "'Terrace of joy', the half of the great plaza across the Saphy from Haukaypata, joined to it on feast days into one vast open space.",
     "periods": [
      "pachacuti-1470",
      "huayna-1530"
@@ -3011,7 +3011,7 @@
      }
     }
    },
-   "summary": "The temple of the sun at the puma's tail, where the Inca kept the image of Inti, the rulers' mummies and a garden made of gold, and where the Dominicans later built Santo Domingo on the Inca walls.",
+   "summary": "The temple of the sun near the puma's tail, where the Inca kept the image of Inti, the rulers' mummies and a garden made of gold, and where the Dominicans later built Santo Domingo on the Inca walls.",
    "details": [
     "Pachacuti rebuilt the old Inticancha as the empire's chief shrine: chambers of the sun, moon, stars, thunder and rainbow round a court, of andesite blocks fitted without mortar. Chroniclers describe a band of gold plate along the walls and a garden of gold and silver plants and animals. Early in 1533 the Spaniards stripped some 700 gold plates for Atahualpa's ransom.",
     "The miniature shows the compound of fitted, slightly irregular ashlar with trapezoidal doors and niches, the gilt band under steep ichu-thatch roofs, the curved wall at the west corner, and the terraced garden falling toward the Saphy. Roof forms and the band's height are reconstruction; the plan follows the surviving walls."
@@ -3099,7 +3099,7 @@
    },
    "summary": "The fortress-temple on the hill above Cusco: three terraces of zigzag walls built of the largest stones the Inca ever moved, crowned by towers, a sun shrine and storehouses.",
    "details": [
-    "The three walls run about 400 m in sawtooth lines facing the esplanade of Chuquipampa. The largest limestone blocks of the lowest wall weigh over 100 tonnes and are fitted without mortar. Garcilaso, who played in the ruins as a boy, describes the round tower Muyuqmarka, the towers Sallaqmarka and Paucarmarka, and a maze of rooms. Whether it was mainly fortress, temple or storehouse is still argued.",
+    "The three walls run about 400 m in sawtooth lines facing the esplanade of Chuquipampa. The largest limestone blocks of the lowest wall are estimated at more than 100 tonnes and are fitted without mortar. Garcilaso, who played in the ruins as a boy, describes the round tower Muyuqmarka, the towers Sallaqmarka and Paucarmarka, and a maze of rooms. Whether it was mainly fortress, temple or storehouse is still argued.",
     "The miniature shows the three zigzag walls with their trapezoidal gateways, the hilltop with Muyuqmarka (three concentric round walls under a conical roof), the two rectangular towers and the esplanade. The tower superstructures are reconstruction from Garcilaso and the excavated foundations."
    ],
    "confidence": "reconstruction",
@@ -3293,7 +3293,7 @@
    },
    "summary": "The Renaissance cathedral of the Assumption on the site of Kiswarkancha, built of red andesite largely taken from Sacsayhuamán, flanked by the chapel of El Triunfo.",
    "details": [
-    "Work began in 1559 to plans adapted from those of Lima's cathedral; it went on for nearly a century and was completed in 1654. Its broad stone facade has two squat bell towers; inside are carved choir stalls and hundreds of paintings of the Cusco school, including a Last Supper with a guinea pig on the plate. The bell María Angola was cast in 1659.",
+    "Work began in 1559 and, with changes of plan and long pauses, went on for nearly a century; it was completed in 1654. Its broad stone facade has two squat bell towers; inside are carved choir stalls and hundreds of paintings of the Cusco school, including a Last Supper with a guinea pig on the plate. The bell María Angola was cast in 1659.",
     "The miniature shows the facade with its portals and two towers, the nave and aisles under vaults, El Triunfo at the south-east side with its small dome, and a lower chapel on the other side. El Triunfo's present building and the chapel of Jesús María are later (1730s); the smaller chapels here stand for their predecessors."
    ],
    "confidence": "documented",
@@ -4004,12 +4004,12 @@
      "note": "Fields and compounds at the edge of Kusipata."
     },
     "colonial-1650": {
-     "note": "The Franciscans' church and convent on its own plaza west of the centre, rebuilt in the 1640s–50s with a heavy square tower; its cloister holds a vast painted genealogy of the order."
+     "note": "The Franciscans' church and convent on its own plaza west of the centre, rebuilt in the 1640s–50s with a heavy square tower; its cloister is being hung with large canvases by Cusco painters."
     }
    },
    "summary": "The church and convent of the Franciscans on their plaza west of the Plaza de Armas, plain and massive outside, with a cloister of paintings inside.",
    "details": [
-    "The Franciscans settled in Cusco in the 1530s and moved to this site in the 1540s. The present church was built in the mid-17th century, around the earthquake of 1650, in a severe Renaissance style with one tower. Its convent became famous for its large canvases by Cusco painters.",
+    "The Franciscans settled in Cusco in the 1530s and moved to this site in the 1540s. The present church was built in the mid-17th century, around the earthquake of 1650, in a severe Renaissance style with one tower. Its convent became famous for its large canvases by Cusco painters, among them a vast genealogy of the Franciscan order painted in 1699.",
     "The miniature shows the church with its single tower and portal, the nave, and the two-storey arcaded cloister. Dates of the rebuilding are approximate."
    ],
    "confidence": "reconstruction",
@@ -4196,7 +4196,7 @@
     },
     {
      "hour": 17,
-     "text": "The day's stint counted on a khipu. The drafted workers walk back to their camp for maize beer and stew, paid by the state."
+     "text": "The day's stint counted on a khipu. The drafted workers walk back to their camp for maize beer and stew, fed by the state as part of their labour turn."
     }
    ],
    "variants": {}
@@ -4215,7 +4215,7 @@
    ],
    "summary": "One of the stones that, the Incas said, rose up as warriors to help young Pachacuti beat the Chanka, then turned back to stone; they were set up round the city and worshipped.",
    "details": [
-    "Cobo's list of the shrines on the ceque lines of Cusco names many pururaucas among its more than 300 huacas: stones, springs, hills and buildings, each tended by a lineage and given offerings in turn. This one stood in Kusipata."
+    "Cobo's list of the shrines on the ceque lines of Cusco names many pururaucas among its more than 300 huacas: stones, springs, hills and buildings, each tended by a lineage and given offerings in turn. Several stood round the plaza; this spot stands for them."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4328,7 +4328,7 @@
    ],
    "summary": "A household brewing aqha, maize beer, by the jarful: maize sprouted, ground, boiled and fermented in great pointed jars sunk in the floor.",
    "details": [
-    "Chicha was the drink of every feast and work party and the glue of Inca hospitality: the state 'paid' labour with food and beer. Women brewed it; one method, Garcilaso says, used maize chewed to start the ferment. A house brewing for a feast hung out a tuft of straw."
+    "Chicha was the drink of every feast and work party and the glue of Inca hospitality: the state 'paid' labour with food and beer. Women brewed it; one method, Garcilaso says, used maize chewed to start the ferment."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4385,7 +4385,7 @@
     },
     {
      "hour": 13,
-     "text": "Two women sit at an upright loom, beating in a weft of red and gold so tightly that the cloth looks like painted wood."
+     "text": "Two women sit at an upright loom, beating in a weft of red and yellow so tightly that the cloth looks like painted wood."
     },
     {
      "hour": 19,
@@ -4669,7 +4669,7 @@
     "landmarkId": "haukaypata"
    },
    "effect": "construction",
-   "text": "Pachacuti, Betanzos writes, drew the new Cusco and had it modelled in clay. The valley's people were moved out, the streams walled into channels, the marsh drained to make the plaza, and the core rebuilt in blocks of stone compounds for the royal lineages, with labour sent in turns from every conquered province.",
+   "text": "Pachacuti, the chroniclers write, planned the new Cusco himself, by one account with a model in clay. The valley's people were moved out, the streams walled into channels, the marsh drained to make the plaza, and the core rebuilt in blocks of stone compounds for the royal lineages, with labour sent in turns from every conquered province.",
    "sourceIds": [
     "betanzos",
     "wiki-pachacuti",
@@ -4686,7 +4686,7 @@
     "landmarkId": "coricancha"
    },
    "effect": "construction",
-   "text": "The rebuilt temple of the sun was finished in fitted stone and given its band of gold plate, its image of the sun and its garden of precious-metal plants. The cut stone was so fine, Cieza says, that he saw nothing like it in Spain.",
+   "text": "The rebuilt temple of the sun was finished in fitted stone and given its band of gold plate, its image of the sun and its garden of precious-metal plants. Cieza, who saw its walls a few years after the conquest, praised the cut stone as among the finest he had seen.",
    "sourceIds": [
     "cieza",
     "wiki-coricancha"
@@ -4702,7 +4702,7 @@
     "landmarkId": "sacsayhuaman"
    },
    "effect": "construction",
-   "text": "Pachacuti ordered the great house of the sun on the hill, the chronicles say; 20,000 men from the provinces worked on it in turns, Cieza reports, quarrying, hauling and fitting. It took the reigns of three Incas and was still being finished when the Spaniards came.",
+   "text": "Pachacuti ordered the great house of the sun on the hill, the chronicles say; 20,000 men from the provinces worked on it in turns, Cieza reports, quarrying, hauling and fitting. By the usual account it took several reigns and was still being finished when the Spaniards came.",
    "sourceIds": [
     "cieza",
     "garcilaso",
@@ -4752,7 +4752,7 @@
     "landmarkId": "haukaypata"
    },
    "effect": "crowd",
-   "text": "After capturing Huáscar, Atahualpa's generals Quizquiz and Chalcuchímac entered Cusco. They killed Huáscar's wives, children and many of his lineage, and destroyed the mummy of Tupac Inca Yupanqui, whose panaca had backed Huáscar. Atahualpa, meanwhile, was already the Spaniards' prisoner at Cajamarca.",
+   "text": "Atahualpa's generals Quizquiz and Chalcuchímac defeated and captured Huáscar outside the city, and their forces occupied Cusco. They killed Huáscar's wives, children and many of his lineage, and destroyed the mummy of Tupac Inca Yupanqui, whose panaca had backed Huáscar. Atahualpa, meanwhile, was already the Spaniards' prisoner at Cajamarca.",
    "sourceIds": [
     "wiki-quizquiz",
     "wiki-chalcuchimac",
@@ -4785,7 +4785,7 @@
     "landmarkId": "haukaypata"
    },
    "effect": "procession",
-   "text": "Francisco Pizarro and about 150 Spaniards, with the young Manco Inca as their ally, rode into Haukaypata. Sancho, the secretary, wrote that the city was so beautiful it would be remarkable even in Spain. In March 1534 Pizarro refounded it as a Spanish city and handed out its palaces as house lots.",
+   "text": "Francisco Pizarro and his Spaniards, with the young Manco Inca as their ally, rode into Haukaypata. Sancho, the secretary, wrote that the city was so beautiful it would be remarkable even in Spain. In March 1534 Pizarro refounded it as a Spanish city and handed out its palaces as house lots.",
    "sourceIds": [
     "sancho",
     "hemming"
@@ -4933,7 +4933,7 @@
     {
      "landmarkId": "hatun-rumiyoc",
      "title": "The twelve-angled stone",
-     "text": "In the street of Hatun Rumiyoc the Inca wall is intact, while the Spanish storey above it has lost its balcony."
+     "text": "In the street of Hatun Rumiyoc the Inca wall is intact, while the Spanish storey above it is cracked."
     },
     {
      "spotId": "cusco-painter",
@@ -5059,9 +5059,9 @@
   },
   {
    "id": "wiki-acllahuasi",
-   "title": "Acllahuasi",
+   "title": "Aclla (the acllawasi)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Acllahuasi"
+   "url": "https://en.wikipedia.org/wiki/Aclla"
   },
   {
    "id": "wiki-aclla",
@@ -5230,9 +5230,9 @@
   },
   {
    "id": "wiki-inca-mummies",
-   "title": "Inca mummies",
+   "title": "Mummy (the Americas)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Inca_mummies"
+   "url": "https://en.wikipedia.org/wiki/Mummy"
   },
   {
    "id": "wiki-panaca",
