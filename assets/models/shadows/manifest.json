@@ -246,8 +246,8 @@
  },
  "alexandria/heptastadion": {
   "cx": -2.18,
-  "cy": -0.0,
-  "size": 1225.59
+  "cy": 0.24,
+  "size": 1226.07
  },
  "alexandria/kom-el-dikka": {
   "cx": 0.0,
@@ -265,9 +265,9 @@
   "size": 223.2
  },
  "alexandria/needles": {
-  "cx": 0.0,
+  "cx": -0.03,
   "cy": -0.0,
-  "size": 204.76
+  "size": 204.82
  },
  "alexandria/paneion": {
   "cx": 0.0,
@@ -277,7 +277,7 @@
  "alexandria/pharos": {
   "cx": 0.0,
   "cy": 0.1,
-  "size": 347.7
+  "size": 347.61
  },
  "alexandria/pompeys-pillar": {
   "cx": 0.0,
@@ -290,12 +290,12 @@
   "size": 194.35
  },
  "alexandria/royal-palaces": {
-  "cx": 0.0,
+  "cx": -0.06,
   "cy": -1.24,
   "size": 360.57
  },
  "alexandria/royal-palaces-ruin": {
-  "cx": 0.0,
+  "cx": -0.06,
   "cy": -0.0,
   "size": 329.06
  },
@@ -326,8 +326,8 @@
  },
  "alexandria/timonium": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 381.48
+  "cy": 0.07,
+  "size": 381.62
  },
  "athens/altar-twelve": {
   "cx": 0.0,
