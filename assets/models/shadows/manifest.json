@@ -4422,12 +4422,12 @@
  "tenochtitlan/aqueduct": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 152.5
+  "size": 152.61
  },
  "tenochtitlan/aqueduct-1620": {
-  "cx": 0.0,
+  "cx": -0.03,
   "cy": -0.0,
-  "size": 159.59
+  "size": 159.65
  },
  "tenochtitlan/axayacatl-palace": {
   "cx": 0.0,
@@ -4435,9 +4435,9 @@
   "size": 168.54
  },
  "tenochtitlan/ballcourt": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
-  "size": 71.2
+  "size": 71.26
  },
  "tenochtitlan/calmecac": {
   "cx": 0.0,
@@ -4452,7 +4452,7 @@
  "tenochtitlan/dike": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 320.6
+  "size": 320.84
  },
  "tenochtitlan/house-of-eagles": {
   "cx": 0.0,
@@ -4470,12 +4470,12 @@
   "size": 264.68
  },
  "tenochtitlan/plaza-1519": {
-  "cx": 0.0,
+  "cx": -0.04,
   "cy": -0.0,
-  "size": 223.56
+  "size": 223.42
  },
  "tenochtitlan/plaza-mayor": {
-  "cx": 0.1,
+  "cx": 0.06,
   "cy": 0.17,
   "size": 223.14
  },
@@ -4487,7 +4487,7 @@
  "tenochtitlan/sacred-precinct-1440": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 315.74
+  "size": 315.56
  },
  "tenochtitlan/san-francisco": {
   "cx": 0.0,
@@ -4522,7 +4522,7 @@
  "tenochtitlan/templo-mayor-1620": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 123.39
+  "size": 123.46
  },
  "tenochtitlan/tlatelolco-market": {
   "cx": -0.35,
@@ -4531,7 +4531,7 @@
  },
  "tenochtitlan/tlatelolco-market-1440": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": -0.04,
   "size": 243.34
  },
  "tenochtitlan/tlatelolco-temple": {
@@ -4545,9 +4545,9 @@
   "size": 270.22
  },
  "tenochtitlan/toltec-bridge": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 49.0
+  "cx": -0.01,
+  "cy": -0.01,
+  "size": 48.99
  },
  "tenochtitlan/totocalli": {
   "cx": 0.0,
