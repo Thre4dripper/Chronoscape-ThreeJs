@@ -352,12 +352,12 @@
  "athens/dipylon": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 121.94
+  "size": 122.01
  },
  "athens/dipylon-430": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 121.94
+  "size": 122.01
  },
  "athens/erechtheion": {
   "cx": -0.16,
@@ -376,13 +376,13 @@
  },
  "athens/hadrians-library": {
   "cx": 0.0,
-  "cy": 0.5,
-  "size": 168.43
+  "cy": 0.48,
+  "size": 168.48
  },
  "athens/hadrians-library-ruin": {
   "cx": 0.0,
-  "cy": -1.5,
-  "size": 155.78
+  "cy": -1.52,
+  "size": 155.83
  },
  "athens/hephaisteion": {
   "cx": 0.21,
@@ -406,7 +406,7 @@
  },
  "athens/odeon-herodes": {
   "cx": 0.0,
-  "cy": 0.15,
+  "cy": 0.17,
   "size": 148.26
  },
  "athens/odeon-pericles": {
@@ -432,7 +432,7 @@
  "athens/olympieion-antiochus": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 165.71
+  "size": 165.8
  },
  "athens/olympieion-platform": {
   "cx": 0.0,
@@ -442,7 +442,7 @@
  "athens/olympieion-ruin": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 166.97
+  "size": 167.06
  },
  "athens/parthenon": {
   "cx": 0.19,
@@ -456,8 +456,8 @@
  },
  "athens/pnyx": {
   "cx": 0.0,
-  "cy": 5.83,
-  "size": 138.64
+  "cy": 5.85,
+  "size": 138.56
  },
  "athens/pnyx-430": {
   "cx": -0.27,
@@ -487,12 +487,12 @@
  "athens/stadium": {
   "cx": 0.0,
   "cy": -0.2,
-  "size": 295.4
+  "size": 295.21
  },
  "athens/stadium-lycurgan": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 292.95
+  "size": 292.76
  },
  "athens/stoa-attalos": {
   "cx": 0.0,
@@ -507,17 +507,17 @@
  "athens/theatre-dionysus": {
   "cx": 0.0,
   "cy": 1.4,
-  "size": 182.98
+  "size": 182.9
  },
  "athens/theatre-dionysus-430": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 182.98
+  "size": 182.9
  },
  "athens/theatre-dionysus-roman": {
   "cx": 0.0,
   "cy": 1.4,
-  "size": 182.98
+  "size": 182.9
  },
  "athens/tower-of-winds": {
   "cx": 0.0,
