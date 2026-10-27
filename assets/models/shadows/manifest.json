@@ -3075,7 +3075,7 @@
   "size": 250.18
  },
  "nara/daianji-1700": {
-  "cx": 2.5,
+  "cx": 2.46,
   "cy": -0.0,
   "size": 231.32
  },
@@ -3112,17 +3112,17 @@
  "nara/hokkedo": {
   "cx": -0.37,
   "cy": -0.19,
-  "size": 70.84
+  "size": 70.81
  },
  "nara/hokkedo-752": {
   "cx": -0.37,
   "cy": -0.19,
-  "size": 70.84
+  "size": 70.81
  },
  "nara/kasuga-taisha": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 166.87
+  "size": 166.78
  },
  "nara/kofukuji": {
   "cx": 0.0,
@@ -3141,13 +3141,13 @@
  },
  "nara/market": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 249.22
+  "cy": -0.04,
+  "size": 249.31
  },
  "nara/nandaimon": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 101.92
+  "size": 101.89
  },
  "nara/nandaimon-752": {
   "cx": 0.0,
@@ -3155,19 +3155,19 @@
   "size": 96.93
  },
  "nara/nigatsudo": {
-  "cx": 0.05,
+  "cx": 0.04,
   "cy": -0.46,
-  "size": 102.72
+  "size": 102.7
  },
  "nara/rajomon": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
-  "size": 98.04
+  "size": 98.05
  },
  "nara/saidaiji": {
   "cx": 0.0,
   "cy": 0.75,
-  "size": 219.91
+  "size": 219.78
  },
  "nara/sarusawa": {
   "cx": 0.0,
@@ -3177,17 +3177,17 @@
  "nara/shosoin": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 94.28
+  "size": 94.24
  },
  "nara/suzaku-oji": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 226.23
+  "cy": 0.04,
+  "size": 226.17
  },
  "nara/suzakumon": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
-  "size": 95.07
+  "size": 95.08
  },
  "nara/todaiji-pagoda": {
   "cx": 0.0,
