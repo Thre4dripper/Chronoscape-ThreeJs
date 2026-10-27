@@ -1486,8 +1486,8 @@
  },
  "cusco/hatun-rumiyoc-1650": {
   "cx": 0.0,
-  "cy": 0.31,
-  "size": 98.6
+  "cy": 0.32,
+  "size": 98.63
  },
  "cusco/hatunkancha": {
   "cx": 0.0,
@@ -1497,7 +1497,7 @@
  "cusco/haukaypata": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 202.14
+  "size": 202.01
  },
  "cusco/inticancha": {
   "cx": 0.0,
@@ -1541,7 +1541,7 @@
  },
  "cusco/qollqampata": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": -0.02,
   "size": 137.79
  },
  "cusco/sacsayhuaman": {
@@ -1565,7 +1565,7 @@
   "size": 80.33
  },
  "cusco/san-francisco": {
-  "cx": 0.0,
+  "cx": 0.02,
   "cy": -0.0,
   "size": 164.71
  },
