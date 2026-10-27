@@ -1115,29 +1115,29 @@
   "size": 143.01
  },
  "constantinople/aqueduct-of-valens": {
-  "cx": 0.0,
+  "cx": -0.17,
   "cy": -0.0,
-  "size": 958.45
+  "size": 958.79
  },
  "constantinople/basilica-cistern": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 164.99
+  "cx": -0.03,
+  "cy": -0.03,
+  "size": 165.05
  },
  "constantinople/blachernae": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 223.52
+  "cx": -0.03,
+  "cy": -0.03,
+  "size": 223.58
  },
  "constantinople/boukoleon": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": 0.15,
-  "size": 161.92
+  "size": 161.96
  },
  "constantinople/chalke": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
-  "size": 98.93
+  "size": 98.95
  },
  "constantinople/chora": {
   "cx": 0.0,
@@ -1185,14 +1185,14 @@
   "size": 237.56
  },
  "constantinople/galata-tower": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
-  "size": 164.9
+  "size": 164.92
  },
  "constantinople/golden-gate": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 239.4
+  "size": 239.55
  },
  "constantinople/grand-bazaar": {
   "cx": 0.0,
@@ -1200,14 +1200,14 @@
   "size": 288.36
  },
  "constantinople/great-palace": {
-  "cx": 0.24,
+  "cx": 0.19,
   "cy": -0.0,
-  "size": 296.29
+  "size": 296.38
  },
  "constantinople/great-palace-ruin": {
-  "cx": 0.24,
+  "cx": 0.19,
   "cy": -0.0,
-  "size": 260.4
+  "size": 260.49
  },
  "constantinople/hagia-irene": {
   "cx": 0.0,
@@ -1250,7 +1250,7 @@
   "size": 506.6
  },
  "constantinople/hippodrome-ruin": {
-  "cx": 0.0,
+  "cx": -0.09,
   "cy": -0.0,
   "size": 521.14
  },
@@ -1265,7 +1265,7 @@
   "size": 271.05
  },
  "constantinople/kastellion": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": 0.1,
   "size": 94.1
  },
@@ -1276,12 +1276,12 @@
  },
  "constantinople/little-hagia-sophia-mosque": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 138.91
+  "cy": 0.01,
+  "size": 138.94
  },
  "constantinople/pantokrator": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": -0.02,
   "size": 138.43
  },
  "constantinople/pantokrator-mosque": {
@@ -1291,13 +1291,13 @@
  },
  "constantinople/rustem-pasha": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.01,
   "size": 160.63
  },
  "constantinople/sea-walls": {
-  "cx": 0.0,
-  "cy": -0.01,
-  "size": 339.5
+  "cx": -0.06,
+  "cy": 0.06,
+  "size": 339.62
  },
  "constantinople/stoa-basilica": {
   "cx": 0.0,
@@ -1312,12 +1312,12 @@
  "constantinople/theodosian-walls": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 407.06
+  "size": 407.35
  },
  "constantinople/theodosian-walls-1453": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 407.06
+  "size": 407.35
  },
  "constantinople/topkapi": {
   "cx": 0.0,
