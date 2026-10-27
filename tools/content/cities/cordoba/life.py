@@ -266,13 +266,13 @@ EVENTS = [
 
 STORIES = [
     dict(id="caliphal-day", title="A day in the caliph's city", periodId="caliphal-950",
-         summary="Cross the river into Qurtuba at its height around 960: from the Bridge Gate to the Great Mosque, the booksellers and the caliph's library, then back to the river where the great wheel turns.",
+         summary="Cross the river into Qurtuba at its height around 962: from the Bridge Gate to the Great Mosque, the booksellers and the caliph's library, then back to the river where the great wheel turns.",
          sourceIds=["maqqari", "ibn-hayyan", "kennedy-muslim-spain"],
          steps=[dict(landmarkId="roman-bridge", title="Over the bridge", text="Come in from the south over the old bridge. Mule trains with oil and grain, a troop of horsemen from the frontier, a Christian envoy with his escort: everyone uses the one crossing."),
                 dict(landmarkId="puerta-del-puente", title="Bab al-Qantara", text="The Bridge Gate opens on al-Rasif, the esplanade along the river. To the left the Alcázar's walls; to the right the mosque's long flank with its buttresses."),
-                dict(landmarkId="mezquita", title="The forest of columns", when="c. 960", text="Wash at a fountain in the court, among the trees, and step into the hall: aisle after aisle of red and white arches on hundreds of columns. At the far end, workmen are cutting through the qibla wall for al-Hakam's extension."),
+                dict(landmarkId="mezquita", title="The forest of columns", when="c. 962", text="Wash at a fountain in the court, among the trees, and step into the hall: aisle after aisle of red and white arches on hundreds of columns. At the far end, workmen are cutting through the qibla wall for al-Hakam's extension."),
                 dict(spotId="booksellers", title="The booksellers' lane", text="Out of the east doors into the book market. Paper, parchment, copies of everything; an auction draws a crowd of scholars and showy collectors."),
-                dict(spotId="hakam-library", title="The caliph's books", text="In the Alcázar, copyists and binders work for the caliph's library, which later writers swore held 400,000 volumes. The prince al-Hakam reads in it when the court is not at Madinat al-Zahra."),
+                dict(spotId="hakam-library", title="The caliph's books", text="In the Alcázar, copyists and binders work for the caliph's library, which later writers swore held 400,000 volumes. Al-Hakam II, caliph since 961, reads in it when the court is not at Madinat al-Zahra."),
                 dict(landmarkId="caliphal-baths", title="The palace baths", text="Beside the palace, the baths: a warm room, then the hot room under its star-pierced vault. Courtiers trade news of the palace city out west."),
                 dict(landmarkId="albolafia", title="The great wheel", text="End at the river: the Albolafia's wheel scoops up water and pours it into the aqueduct for the palace gardens, creaking all day and all night.")]),
     dict(id="cervantes-cordoba", title="Rogues and masons: Córdoba around 1600", periodId="habsburg-1600",
