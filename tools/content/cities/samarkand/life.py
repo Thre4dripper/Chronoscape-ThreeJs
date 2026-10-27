@@ -6,8 +6,8 @@ TIMURID = ["timur-1404", "ulughbeg-1440"]
 
 SOURCES = [
     dict(id="clavijo", title="Embassy to Tamerlane, 1403–1406", author="Ruy González de Clavijo", year="1406 (trans. Guy Le Strange, 1928)", url="https://en.wikipedia.org/wiki/Ruy_Gonz%C3%A1lez_de_Clavijo"),
-    dict(id="istakhri", title="Kitab al-Masalik wa'l-Mamalik", author="al-Istakhri", year="c. 950", url="https://en.wikipedia.org/wiki/Estakhri"),
-    dict(id="ibn-hawqal", title="Surat al-Ard", author="Ibn Hawqal", year="c. 977", url="https://en.wikipedia.org/wiki/Muhammad_ibn_Hawqal"),
+    dict(id="istakhri", title="Kitab al-Masalik wa'l-Mamalik", author="al-Istakhri", year="c. 950", url="https://en.wikipedia.org/wiki/Istakhri"),
+    dict(id="ibn-hawqal", title="Surat al-Ard", author="Ibn Hawqal", year="c. 977", url="https://en.wikipedia.org/wiki/Ibn_Hawqal"),
     dict(id="babur", title="Baburnama", author="Zahir al-Din Muhammad Babur", year="c. 1530", url="https://en.wikipedia.org/wiki/Babur"),
     dict(id="barthold-turkestan", title="Turkestan Down to the Mongol Invasion", author="V. V. Barthold", year=1928),
     dict(id="barthold-ulugh-beg", title="Ulugh-Beg (Four Studies on the History of Central Asia, vol. 2)", author="V. V. Barthold", year="1918 (trans. 1958)"),
@@ -32,13 +32,13 @@ SOURCES = [
     dict(id="wiki-ulugh-beg", title="Ulugh Beg", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ulugh_Beg"),
     dict(id="wiki-zij-i-sultani", title="Zij-i Sultani", author="Wikipedia", url="https://en.wikipedia.org/wiki/Zij-i_Sultani"),
     dict(id="wiki-al-kashi", title="Jamshid al-Kashi", author="Wikipedia", url="https://en.wikipedia.org/wiki/Jamshid_al-Kashi"),
-    dict(id="wiki-shaybani", title="Muhammad Shaybani", author="Wikipedia", url="https://en.wikipedia.org/wiki/Shaybani_Khan"),
+    dict(id="wiki-shaybani", title="Muhammad Shaybani", author="Wikipedia", url="https://en.wikipedia.org/wiki/Muhammad_Shaybani"),
     dict(id="wiki-babur", title="Babur", author="Wikipedia", url="https://en.wikipedia.org/wiki/Babur"),
-    dict(id="wiki-sher-dor", title="Sher-Dor Madrasa", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sher-Dor_Madrasa"),
+    dict(id="wiki-sher-dor", title="Sher-Dor Madrasa", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sherdar_Madrasa"),
     dict(id="wiki-ulugh-beg-madrasa", title="Ulugh Beg Madrasa", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ulugh_Beg_Madrasa"),
     dict(id="wiki-bibi-khanym", title="Bibi-Khanym Mosque", author="Wikipedia", url="https://en.wikipedia.org/wiki/Bibi-Khanym_Mosque"),
     dict(id="wiki-gur-e-amir", title="Gur-e-Amir", author="Wikipedia", url="https://en.wikipedia.org/wiki/Gur-e-Amir"),
-    dict(id="wiki-lepyoshka", title="Lepyoshka (Central Asian flatbread)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Lepyoshka"),
+    dict(id="wiki-lepyoshka", title="Tandyr nan", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tandyr_nan"),
     dict(id="wiki-tandoor-bread", title="Tandoor bread", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tandoor_bread"),
 ]
 
@@ -154,9 +154,9 @@ SPOTS = [
          variants={}),
     dict(id="madrasa-cell", name="A student's cell in Ulugh Beg's madrasa", kind="school", latlon=(39.6542, 66.9746), activePeriods=["ulughbeg-1440", "shaybanid-1650"],
          summary="One of the small domed rooms round the madrasa court where two students lived, studied and slept, with a niche for books and a hearth.",
-         details=["A letter of the mathematician al-Kashi to his father describes Samarkand's scholarly life: Ulugh Beg teaching in the madrasa, some five hundred students attending lectures, and the sultan testing scholars on mathematics. The madrasa taught astronomy and mathematics beside law and theology."],
+         details=["A letter of the mathematician al-Kashi to his father describes Samarkand's scholarly life: Ulugh Beg teaching in the madrasa, crowded lectures, and the sultan questioning scholars on mathematics. The madrasa taught astronomy and mathematics beside law and theology."],
          confidence="documented", sourceIds=["bagheri-kashi", "wiki-ulugh-beg-madrasa"],
-         vignettes=[dict(hour=6, text="Prayer in the mosque hall, then cold bread and tea-less water; a student copies tables of sines by the door for the light."),
+         vignettes=[dict(hour=6, text="Prayer in the mosque hall, then cold bread and water; a student copies tables of sines by the door for the light."),
                     dict(hour=13, text="In the corner lecture hall a teacher reads Euclid; the sultan himself has come to listen and asks a sharp question."),
                     dict(hour=21, text="Two roommates argue over the motion of the moon by the light of a clay lamp.")],
          variants={"shaybanid-1650": dict(note="The madrasa still teaches, but law and theology now; the observatory's science is a memory.")}),
@@ -211,7 +211,7 @@ EVENTS = [
          text="The Uzbek leader Muhammad Shaybani seizes Samarkand. Babur recaptures it by surprise that autumn but loses it in 1501; Timurid rule in Transoxiana is over.",
          sourceIds=["wiki-shaybani", "babur"]),
     dict(id="sher-dor-begun", title="The Sher-Dor rises", periodId="shaybanid-1650", date="1619", kind="construction", at=dict(landmarkId="registan"), effect="construction",
-         text="Yalangtush Bahadur, governor of Samarkand, begins a madrasa opposite Ulugh Beg's, finished in 1636. Its portal shows tigers chasing deer beneath suns with human faces, a bold break with the rule against images.",
+         text="Yalangtush Bahadur, governor of Samarkand, begins a madrasa opposite Ulugh Beg's, finished in 1636. Its portal shows tigers chasing deer beneath suns with human faces, a rare departure from the usual avoidance of living figures on religious buildings.",
          sourceIds=["wiki-sher-dor"]),
 ]
 
@@ -233,5 +233,5 @@ STORIES = [
                 dict(spotId="mirzo-bath", title="The Mirza's bath", text="Babur later remembered the bath Ulugh Beg built, paved with many kinds of stone. Scholars and merchants meet in the steam."),
                 dict(landmarkId="gur-e-amir", title="Timur's jade", text="At the family tomb, the dark green nephrite slab Ulugh Beg brought from the steppe in 1425 covers his grandfather's grave."),
                 dict(landmarkId="shah-i-zinda", title="Up the street of tombs", text="Through Ulugh Beg's new gateway, past the double-domed tomb said to be Qazi-zada Rumi's, to the shrine of the Living King."),
-                dict(landmarkId="observatory", title="The arc on the hill", when="c. 1437", text="On Kohak the great sextant is cut into the rock. At noon the sun's image falls through an opening onto the marble arc, and the astronomers read off its height to a few seconds of arc.")]),
+                dict(landmarkId="observatory", title="The arc on the hill", when="c. 1437", text="On Kohak the great sextant is cut into the rock. At noon the sun's image falls through an opening onto the marble arc, and the astronomers read off its height with unusual precision.")]),
 ]

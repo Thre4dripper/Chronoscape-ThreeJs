@@ -3820,8 +3820,8 @@
    "name": "Chorsu",
    "category": "commercial",
    "position": [
-    2503,
-    3495
+    2965,
+    3184
    ],
    "rotation": 0,
    "footprint": [
@@ -3867,7 +3867,7 @@
    ],
    "variants": {
     "timur-1404": {
-     "note": "A domed crossing of trade streets west of the Registan, where the roads from the Ark and the Bukhara gate met; the form here is a reconstruction."
+     "note": "The crossing just east of the Registan where the roads to Tashkent, Bukhara and Shahrisabz met, probably already a market; its form here is a reconstruction."
     },
     "ulughbeg-1440": {
      "note": "Hatters, cloth sellers and money changers under the dome."
@@ -3876,9 +3876,9 @@
      "note": "A domed market at the crossing; the hexagonal Chorsu that stands now was built in the late 18th century."
     }
    },
-   "summary": "The 'four ways': a domed market building over a crossing of bazaar streets west of the Registan.",
+   "summary": "The 'four ways': a domed market building over a crossing of bazaar streets just east of the Registan.",
    "details": [
-    "Central Asian cities covered the crossings of their main bazaar streets with domed halls (chorsu or tim), lit through the drum and lined with shops. Samarkand's surviving Chorsu was built in the late 18th century; an earlier one at this crossing is likely but not documented.",
+    "Central Asian cities covered the crossings of their main bazaar streets with domed halls (chorsu or tim), lit through the drum and lined with shops. Samarkand's surviving Chorsu was built in the late 18th century; it was paid for by the Bukharan emir Shah Murad. A market stood at this crossing earlier, but an older domed building here is not documented.",
     "The miniature shows an octagonal domed hall with four arched entrances and shops round it, in the manner of the Timurid and Shaybanid trading domes of Bukhara."
    ],
    "confidence": "interpretation",
@@ -3925,7 +3925,7 @@
    ],
    "variants": {
     "timur-1404": {
-     "note": "The 'Heart-Gladdening Garden', laid out in 1397: a walled square garden of avenues, pools and a palace with a tiled gateway. Timur received the Castilian envoys in one of his gardens; its position here is approximate."
+     "note": "The 'Heart-Gladdening Garden', laid out in 1397: a walled square garden of avenues, pools and a palace with a tiled gateway. Timur received the Castilian envoys here; its position is approximate."
     },
     "ulughbeg-1440": {
      "note": "Kept by the Timurid princes as a pleasure garden; Ulugh Beg preferred the gardens near Kohak."
@@ -4476,7 +4476,7 @@
    ],
    "summary": "One of the small domed rooms round the madrasa court where two students lived, studied and slept, with a niche for books and a hearth.",
    "details": [
-    "A letter of the mathematician al-Kashi to his father describes Samarkand's scholarly life: Ulugh Beg teaching in the madrasa, some five hundred students attending lectures, and the sultan testing scholars on mathematics. The madrasa taught astronomy and mathematics beside law and theology."
+    "A letter of the mathematician al-Kashi to his father describes Samarkand's scholarly life: Ulugh Beg teaching in the madrasa, crowded lectures, and the sultan questioning scholars on mathematics. The madrasa taught astronomy and mathematics beside law and theology."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4486,7 +4486,7 @@
    "vignettes": [
     {
      "hour": 6,
-     "text": "Prayer in the mosque hall, then cold bread and tea-less water; a student copies tables of sines by the door for the light."
+     "text": "Prayer in the mosque hall, then cold bread and water; a student copies tables of sines by the door for the light."
     },
     {
      "hour": 13,
@@ -4766,7 +4766,7 @@
     "landmarkId": "registan"
    },
    "effect": "construction",
-   "text": "Yalangtush Bahadur, governor of Samarkand, begins a madrasa opposite Ulugh Beg's, finished in 1636. Its portal shows tigers chasing deer beneath suns with human faces, a bold break with the rule against images.",
+   "text": "Yalangtush Bahadur, governor of Samarkand, begins a madrasa opposite Ulugh Beg's, finished in 1636. Its portal shows tigers chasing deer beneath suns with human faces, a rare departure from the usual avoidance of living figures on religious buildings.",
    "sourceIds": [
     "wiki-sher-dor"
    ]
@@ -4851,7 +4851,7 @@
      "landmarkId": "observatory",
      "title": "The arc on the hill",
      "when": "c. 1437",
-     "text": "On Kohak the great sextant is cut into the rock. At noon the sun's image falls through an opening onto the marble arc, and the astronomers read off its height to a few seconds of arc."
+     "text": "On Kohak the great sextant is cut into the rock. At noon the sun's image falls through an opening onto the marble arc, and the astronomers read off its height with unusual precision."
     }
    ],
    "sourceIds": [
@@ -4881,14 +4881,14 @@
    "title": "Kitab al-Masalik wa'l-Mamalik",
    "author": "al-Istakhri",
    "year": "c. 950",
-   "url": "https://en.wikipedia.org/wiki/Estakhri"
+   "url": "https://en.wikipedia.org/wiki/Istakhri"
   },
   {
    "id": "ibn-hawqal",
    "title": "Surat al-Ard",
    "author": "Ibn Hawqal",
    "year": "c. 977",
-   "url": "https://en.wikipedia.org/wiki/Muhammad_ibn_Hawqal"
+   "url": "https://en.wikipedia.org/wiki/Ibn_Hawqal"
   },
   {
    "id": "golombek-wilber",
@@ -4916,9 +4916,9 @@
   },
   {
    "id": "wiki-history-samarkand",
-   "title": "History of Samarkand",
+   "title": "Samarkand: History",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/History_of_Samarkand"
+   "url": "https://en.wikipedia.org/wiki/Samarkand#History"
   },
   {
    "id": "wiki-afrasiyab",
@@ -4934,9 +4934,9 @@
   },
   {
    "id": "wiki-zarafshan",
-   "title": "Zarafshan River",
+   "title": "Zarafshon (river)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Zarafshan_River"
+   "url": "https://en.wikipedia.org/wiki/Zarafshon_(river)"
   },
   {
    "id": "pugachenkova",
@@ -4991,13 +4991,13 @@
    "id": "wiki-sher-dor",
    "title": "Sher-Dor Madrasa",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Sher-Dor_Madrasa"
+   "url": "https://en.wikipedia.org/wiki/Sherdar_Madrasa"
   },
   {
    "id": "wiki-tilya-kori",
    "title": "Tilya-Kori Madrasa",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Tilya-Kori_Madrasa"
+   "url": "https://en.wikipedia.org/wiki/Tilakari_Madrasa"
   },
   {
    "id": "wiki-bibi-khanym",
@@ -5019,9 +5019,9 @@
   },
   {
    "id": "wiki-kusam",
-   "title": "Kusam ibn Abbas",
+   "title": "Qutham ibn Abbas",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Kusam_ibn_Abbas"
+   "url": "https://en.wikipedia.org/wiki/Qutham_ibn_Abbas"
   },
   {
    "id": "wiki-observatory",
@@ -5031,9 +5031,9 @@
   },
   {
    "id": "wiki-afrasiyab-museum",
-   "title": "Afrasiyab Museum",
+   "title": "Afrasiab Museum of Samarkand",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Afrasiyab_Museum"
+   "url": "https://en.wikipedia.org/wiki/Afrasiab_Museum_of_Samarkand"
   },
   {
    "id": "wiki-varkhuman",
@@ -5185,7 +5185,7 @@
    "id": "wiki-shaybani",
    "title": "Muhammad Shaybani",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Shaybani_Khan"
+   "url": "https://en.wikipedia.org/wiki/Muhammad_Shaybani"
   },
   {
    "id": "wiki-babur",
@@ -5195,9 +5195,9 @@
   },
   {
    "id": "wiki-lepyoshka",
-   "title": "Lepyoshka (Central Asian flatbread)",
+   "title": "Tandyr nan",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Lepyoshka"
+   "url": "https://en.wikipedia.org/wiki/Tandyr_nan"
   },
   {
    "id": "wiki-tandoor-bread",

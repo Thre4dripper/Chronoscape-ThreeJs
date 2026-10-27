@@ -7,16 +7,16 @@ TIMURID = ["timur-1404", "ulughbeg-1440"]
 SOURCES = [
     dict(id="barthold-turkestan", title="Turkestan Down to the Mongol Invasion", author="V. V. Barthold", year=1928, note="2nd English edition; the description of Samarkand from the Arab geographers"),
     dict(id="clavijo", title="Embassy to Tamerlane, 1403–1406", author="Ruy González de Clavijo", year="1406 (trans. Guy Le Strange, 1928)", url="https://en.wikipedia.org/wiki/Ruy_Gonz%C3%A1lez_de_Clavijo"),
-    dict(id="istakhri", title="Kitab al-Masalik wa'l-Mamalik", author="al-Istakhri", year="c. 950", url="https://en.wikipedia.org/wiki/Estakhri"),
-    dict(id="ibn-hawqal", title="Surat al-Ard", author="Ibn Hawqal", year="c. 977", url="https://en.wikipedia.org/wiki/Muhammad_ibn_Hawqal"),
+    dict(id="istakhri", title="Kitab al-Masalik wa'l-Mamalik", author="al-Istakhri", year="c. 950", url="https://en.wikipedia.org/wiki/Istakhri"),
+    dict(id="ibn-hawqal", title="Surat al-Ard", author="Ibn Hawqal", year="c. 977", url="https://en.wikipedia.org/wiki/Ibn_Hawqal"),
     dict(id="golombek-wilber", title="The Timurid Architecture of Iran and Turan", author="Lisa Golombek and Donald Wilber", year=1988),
     dict(id="de-la-vaissiere", title="Sogdian Traders: A History", author="Étienne de la Vaissière", year=2005),
     dict(id="grenet-afrasiab", title="Samarkand / Afrasiab excavations (French–Uzbek archaeological mission reports)", author="Frantz Grenet et al.", year="1989–2020"),
     dict(id="wiki-samarkand", title="Samarkand", author="Wikipedia", url="https://en.wikipedia.org/wiki/Samarkand"),
-    dict(id="wiki-history-samarkand", title="History of Samarkand", author="Wikipedia", url="https://en.wikipedia.org/wiki/History_of_Samarkand"),
+    dict(id="wiki-history-samarkand", title="Samarkand: History", author="Wikipedia", url="https://en.wikipedia.org/wiki/Samarkand#History"),
     dict(id="wiki-afrasiyab", title="Afrasiyab (Samarkand)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Afrasiyab_(Samarkand)"),
     dict(id="wiki-siab", title="Siab Bazaar", author="Wikipedia", url="https://en.wikipedia.org/wiki/Siyob_Bazaar"),
-    dict(id="wiki-zarafshan", title="Zarafshan River", author="Wikipedia", url="https://en.wikipedia.org/wiki/Zarafshan_River"),
+    dict(id="wiki-zarafshan", title="Zarafshon (river)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Zarafshon_(river)"),
 ]
 
 CITY = dict(
