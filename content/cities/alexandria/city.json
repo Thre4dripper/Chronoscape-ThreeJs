@@ -3760,7 +3760,7 @@
      "note": "Carries the road and probably a water channel to Pharos; two bridged gaps let ships pass between the harbours."
     },
     "roman-150ce": {
-     "note": "In 48 BCE Caesar fought for its bridges and was driven into the sea, swimming to safety with his papers held above the water."
+     "note": "Early in 47 BCE Caesar fought for its bridges and was driven into the sea, swimming to safety with his papers held above the water."
     },
     "late-400": {
      "note": "Sand already piling up along both sides; the openings are silting."
@@ -3827,7 +3827,7 @@
      "note": "Each king added a palace of his own, says Strabo, so that the royal buildings covered a quarter or a third of the city, with gardens, halls and colonnades down to the water."
     },
     "roman-150ce": {
-     "note": "The Ptolemies are gone; the Roman prefect governs from part of the old palace. In 30 BCE Cleopatra died here or in her mausoleum nearby."
+     "note": "The Ptolemies are gone; the Roman prefect governs from part of the old palace. In 30 BCE Cleopatra died in her mausoleum near the palaces."
     },
     "late-400": {
      "note": "Ruined in the fighting of 272 under Aurelian, when the whole Brucheion was laid waste. Now broken walls, columns and gardens.",
@@ -3845,7 +3845,7 @@
    },
    "summary": "The palaces of the Ptolemies on Cape Lochias, the eastern horn of the Great Harbour, where Cleopatra received Caesar and Antony.",
    "details": [
-    "Nothing stands above ground; much of the cape has sunk and lies under the sea, where Franck Goddio's surveys since 1996 have found pavements, columns and sphinxes. The layout is unknown.",
+    "Nothing stands above ground; much of the cape has sunk and lies under the sea, where Franck Goddio's surveys since the 1990s have found pavements, columns and sphinxes. The layout is unknown.",
     "The miniature is an interpretation: a terraced peristyle palace with a columned audience hall and pavilions on the cape, Macedonian in plan, with Egyptian sphinxes on the quays."
    ],
    "confidence": "interpretation",
@@ -3904,7 +3904,7 @@
      "note": "Caesar's fire of 48 BCE burned books, probably in warehouses by the harbour; the Museum lives on under the emperors, who appoint its members. Claudius adds a new wing."
     },
     "late-400": {
-     "note": "Gone: the Museum is last heard of in the fighting of 272, when the Brucheion was destroyed. Learning goes on in the Serapeum, until 391, and in private schools."
+     "note": "Gone with the Brucheion, laid waste in 272. The Museum survives as a title (Theon, Hypatia's father, is called a member), and learning goes on in the Serapeum, until 391, and in private schools."
     }
    },
    "summary": "The Mouseion, a college of scholars under royal patronage, and the great Library attached to it: the centre of Greek learning for three centuries.",
@@ -4107,15 +4107,15 @@
      "note": "Not yet raised: the colonnades of the Serapeum stand here."
     },
     "late-400": {
-     "note": "Erected about 298 CE for Diocletian after he put down a revolt and besieged the city; the inscription names the prefect Postumus. It survived the Serapeum's destruction around it."
+     "note": "Erected between 297 and 303 CE for Diocletian, after he had besieged the city and put down a revolt; the inscription names the prefect Publius. It survived the Serapeum's destruction around it."
     },
     "ottoman-1600": {
      "note": "Standing alone on a ruin mound outside the Arab walls, a mark for ships; Europeans believed it was Pompey's tomb, hence the name. Arabs called it 'Amud al-Sawari, the column of the horsemen."
     }
    },
-   "summary": "A red Aswan granite column about 27 m high with its base and capital, raised for Diocletian about 298 CE: the largest ancient monolithic column standing outside Rome and Constantinople.",
+   "summary": "A red Aswan granite column about 27 m high with its base and capital, raised for Diocletian about 300 CE: the largest ancient monolithic column standing outside Rome and Constantinople.",
    "details": [
-    "The shaft is a single block about 20.5 m long and 2.7 m across at the base, with a Corinthian capital. A statue of Diocletian probably stood on top. The name comes from the medieval belief that Pompey's head was buried here.",
+    "The shaft is a single block about 20.5 m long and 2.7 m across at the base, with a Corinthian capital. A statue of Diocletian probably stood on top. The name probably comes from a misreading of the dedicator's name, Publius, as Pompeius; medieval visitors also believed Pompey's head was buried here.",
     "Shown scaled up to be readable, on its stepped base among the Serapeum's fallen blocks."
    ],
    "confidence": "documented",
@@ -4123,7 +4123,7 @@
     "wiki-pompeys-pillar",
     "mckenzie"
    ],
-   "built": "c. 298 CE",
+   "built": "297–303 CE",
    "function": "Honorific column",
    "activity": {
     "figures": 8,
@@ -5018,7 +5018,7 @@
     },
     {
      "hour": 13,
-     "text": "A school teacher buys cheap palimpsest stock; a lawyer's clerk pays three times as much for 'hieratic', the first grade."
+     "text": "A school teacher buys cheap palimpsest stock; a lawyer's clerk pays three times as much for the finest grade."
     },
     {
      "hour": 19,
@@ -5390,7 +5390,7 @@
    ],
    "summary": "Underground cisterns, filled once a year from the canal at the Nile flood, that kept the city in drinking water.",
    "details": [
-    "Alexandria had no springs; its water came by canal from the Nile and was stored in hundreds of cisterns of reused columns and vaults. Travellers of the 16th–18th centuries counted them among the wonders of the ruined city; the French found over 300 in 1798."
+    "Alexandria had no springs; its water came by canal from the Nile and was stored in hundreds of cisterns of reused columns and vaults. Travellers of the 16th–18th centuries counted them among the wonders of the ruined city, and the French surveyed hundreds of them after 1798."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -5642,7 +5642,7 @@
     "spotId": "great-synagogue"
    },
    "effect": "fire",
-   "text": "A rising of the Jews of Cyrenaica, Egypt and Cyprus under Trajan ended in massacre. In Alexandria the Jewish community, once a third of the city or more, was broken, and the great synagogue was probably destroyed.",
+   "text": "A rising of the Jews of Cyrenaica, Egypt and Cyprus under Trajan ended in massacre. In Alexandria the great Jewish community, which had filled two of the city's five districts in Philo's day, was broken, and the great synagogue was probably destroyed.",
    "sourceIds": [
     "wiki-kitos",
     "talmud-sukkah"
@@ -5677,7 +5677,7 @@
     ]
    },
    "effect": "none",
-   "text": "After an earthquake off Crete the sea drew back, leaving ships stranded and fish flapping in the mud; then a wave threw ships onto the roofs of Alexandria. The day was remembered yearly as 'the day of horror' (Ammianus).",
+   "text": "After an earthquake off Crete the sea drew back, leaving ships stranded and fish flapping in the mud; then a wave threw ships onto the roofs of Alexandria (Ammianus). The city marked the anniversary for generations afterwards.",
    "sourceIds": [
     "ammianus",
     "wiki-365-quake"
@@ -5786,7 +5786,7 @@
     {
      "spotId": "copyists",
      "title": "Among the copyists",
-     "text": "In the Museum the scribes collate three Iliads. Aristophanes himself is librarian; a colleague whispers that the king pays his salary and feeds him for nothing."
+     "text": "In the Museum the scribes collate three Iliads. Aristophanes of Byzantium, the next librarian, edits Homer here; a colleague whispers that the king pays his salary and feeds him for nothing."
     },
     {
      "landmarkId": "museum-library",
@@ -5943,9 +5943,9 @@
   },
   {
    "id": "wiki-brucheion",
-   "title": "Brucheion",
+   "title": "History of Alexandria",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Brucheion"
+   "url": "https://en.wikipedia.org/wiki/History_of_Alexandria"
   },
   {
    "id": "wiki-library",
@@ -6009,9 +6009,9 @@
   },
   {
    "id": "wiki-canopic-way",
-   "title": "Canopic Way",
+   "title": "Alexandria",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Canopic_Way"
+   "url": "https://en.wikipedia.org/wiki/Alexandria"
   },
   {
    "id": "wiki-shoqafa",
