@@ -69,8 +69,8 @@ SPOTS = [
          variants={I: dict(note="Already the market's currency: Tlatelolco's merchants import cacao from the coasts as trade grows with the alliance's conquests.")}),
 
     dict(id="obsidian-knappers", name="Obsidian blade-makers", kind="workshop", latlon=(19.4491, -99.1333), activePeriods=[M],
-         summary="Craftsmen who pressed long razor-sharp blades from cores of obsidian, volcanic glass, while you watched; Cortés marvelled at their skill.",
-         details=["The black and green glass came from mines at Otumba and Pachuca in the hills north-east of the lake. With a pointed stick braced against the chest, a knapper detached long parallel blades from a prepared core, used for knives, razors and the edges of the wooden warclub (macuahuitl). Spanish soldiers were shaved with them."],
+         summary="Craftsmen who pressed long razor-sharp blades from cores of obsidian, volcanic glass, while you watched; Spanish friars marvelled at their skill.",
+         details=["The black and green glass came from mines at Otumba and Pachuca in the hills north-east of the lake. With a pointed stick braced against the chest, a knapper detached long parallel blades from a prepared core, used for knives, razors and the edges of the wooden warclub (macuahuitl). Barbers shaved with them."],
          confidence="documented", sourceIds=["wiki-obsidian", "cortes-letters", "sahagun", "smith-aztecs"],
          vignettes=[dict(hour=8, text="A knapper sits with a fist-sized core clamped between his feet, leans his weight on a crutch-shaped stick, and a blade as long as a finger springs off with a soft crack."),
                     dict(hour=13, text="A warrior's servant buys a row of blades to glue into a new warclub; a barber tests an edge against the hairs of his arm."),
@@ -87,7 +87,7 @@ SPOTS = [
 
     dict(id="pulque-seller", name="Pulque sellers", kind="tavern", latlon=(19.4475, -99.1330), activePeriods=[M, C],
          summary="Sellers of pulque, the milky fermented sap of the maguey, drunk by the old, the sick and at festivals; public drunkenness among the young could be punished by death.",
-         details=["Aztec law restricted pulque: elders over about 52 could drink, and everyone at certain feasts, but a drunken noble might be executed. Sahagún describes pulque sellers in the market with their jars and gourds. Under Spanish rule the trade was licensed, taxed and boomed, and pulque shops became the taverns of the poor."],
+         details=["Aztec law restricted pulque: elders (traditionally those past 52) could drink, and everyone at certain feasts, but a drunken noble might be executed. Sahagún describes pulque sellers in the market with their jars and gourds. Under Spanish rule the trade was licensed, taxed and boomed, and pulque shops became the taverns of the poor."],
          confidence="documented", sourceIds=["wiki-pulque", "sahagun", "gibson"],
          vignettes=[dict(hour=8, text="Jars of fresh pulque arrive by canoe from the maguey fields round the lake, the sap gathered yesterday and fermented overnight. It smells sour and yeasty."),
                     dict(hour=13, text="An old man with the right to drink sits in the shade with a gourd of it. Younger men walk past without looking: they know the penalty."),
@@ -133,7 +133,7 @@ SPOTS = [
          variants={C: dict(name="Embarcadero de Roldán", note="The landing of the Canal de la Viga, where canoes from Chalco and Xochimilco unloaded vegetables, flowers and fodder for the city.", confidence="documented")}),
 
     dict(id="telpochcalli", name="Telpochcalli of Moyotlan", kind="school", latlon=(19.4280, -99.1420), activePeriods=[I, M],
-         summary="The 'house of youth' of a calpolli, where commoner boys from about fifteen lived, worked and trained for war under veteran warriors.",
+         summary="The 'house of youth' of a calpolli, where commoner boys in their teens lived, worked and trained for war under veteran warriors.",
          details=["Every ward had its telpochcalli. Boys swept, carried wood and worked on public projects by day, learned to fight and to handle weapons, and at night sang and danced at the house of song (cuicacalli). Their teachers were seasoned warriors; a youth who took captives in battle rose in rank and could leave to marry."],
          confidence="documented", sourceIds=["wiki-telpochcalli", "sahagun", "codex-mendoza", "clendinnen"],
          vignettes=[dict(hour=6, text="The boys come back from the lake with bundles of wood for the temple fires, hair cropped short, faces smeared with soot."),
@@ -198,7 +198,7 @@ SPOTS = [
 
     dict(id="san-jose-naturales", name="School of San José de los Naturales", kind="school", latlon=(19.4327, -99.1405), activePeriods=[C],
          summary="The school founded by the Flemish Franciscan Pedro de Gante in the 1520s beside San Francisco, where Indian boys learned to read, write, sing, paint and practise European crafts.",
-         details=["Pedro de Gante, a relative of Charles V, taught here for half a century until his death in 1572; it is said to have had about 1,000 pupils at its height. Its open chapel held huge congregations of Indians. Painters, sculptors, musicians and craftsmen trained here decorated the churches of New Spain."],
+         details=["Pedro de Gante, said to be a relative of Charles V, taught here for half a century until his death in 1572; it is said to have had about 1,000 pupils at its height. Its open chapel held huge congregations of Indians. Painters, sculptors, musicians and craftsmen trained here decorated the churches of New Spain."],
          confidence="documented", sourceIds=["wiki-pedro-de-gante", "gibson", "mundy"],
          vignettes=[dict(hour=7, text="Boys in white cotton chant the catechism in Nahuatl in the open chapel, a friar beating time with a rod."),
                     dict(hour=11, text="In the workshops pupils grind pigments for an altarpiece and copy saints from Flemish prints."),
@@ -214,7 +214,7 @@ SPOTS = [
 
     dict(id="hospital-de-jesus", name="Hospital de Jesús", kind="civic", latlon=(19.4288, -99.1335), activePeriods=[C],
          summary="The hospital founded by Cortés in the 1520s near the place where, by tradition, he first met Moctezuma; it is still a hospital, and Cortés's bones lie in its church.",
-         details=["Cortés endowed the Hospital of the Immaculate Conception, later called de Jesús, from his estates. Its stone patios with arcades are among the oldest buildings of the city. Tradition places his meeting with Moctezuma here, though the meeting was further south at Xoloc."],
+         details=["Cortés endowed the Hospital of the Immaculate Conception, later called de Jesús, from his estates. Its stone patios with arcades are among the oldest buildings of the city. Tradition places his meeting with Moctezuma here, at Huitzillan, where the southern causeway reached the city; some historians put it farther south, near Xoloc."],
          confidence="documented", sourceIds=["wiki-hospital-jesus", "wiki-hernan-cortes"],
          vignettes=[dict(hour=7, text="Brothers carry the night's dead out through the back door; in the arcaded patio the first patients sit in the sun."),
                     dict(hour=12, text="A physician from the university bleeds a merchant with a fever; the apothecary grinds herbs, some European, some Mexican."),
@@ -268,7 +268,7 @@ EVENTS = [
          sourceIds=["wiki-ahuitzotl", "duran"]),
     dict(id="cortes-enters-1519", title="Moctezuma meets Cortés", periodId=M, date="8 November 1519", kind="procession",
          at=dict(landmarkId="xoloc"), effect="procession",
-         text="Moctezuma, carried in a litter under a canopy of green feathers, comes down the Iztapalapa causeway to meet Cortés and some 400 Spaniards with thousands of Tlaxcalan allies. He gives Cortés necklaces of shell and gold, then lodges them in his father's palace. Bernal Díaz: 'it was like the enchantments in the book of Amadís'.",
+         text="Moctezuma, carried in a litter under a canopy of green feathers, comes out along the Iztapalapa causeway to meet Cortés and some 400 Spaniards with thousands of Tlaxcalan allies. He gives Cortés necklaces of shell and gold, then lodges them in his father's palace. Bernal Díaz: 'it was like the enchantments in the book of Amadís'.",
          sourceIds=["bernal-diaz", "cortes-letters", "sahagun-12"]),
     dict(id="toxcatl-1520", title="The massacre at the feast of Toxcatl", periodId=M, date="May 1520", kind="riot",
          at=dict(landmarkId="templo-mayor"), effect="crowd",
@@ -280,7 +280,7 @@ EVENTS = [
          sourceIds=["wiki-noche-triste", "sahagun-12", "bernal-diaz"]),
     dict(id="fall-1521", title="The fall of Tenochtitlan", periodId=M, date="13 August 1521", kind="riot",
          at=dict(landmarkId="tlatelolco-market"), effect="fire",
-         text="After almost three months of siege by brigantines on the lake and tens of thousands of indigenous allies, with the aqueduct cut and smallpox in the city, the last defenders hold out in Tlatelolco round the market. Cuauhtémoc is captured in a canoe trying to escape. 'Broken spears lie in the roads', says a Nahua lament.",
+         text="After almost three months of siege by brigantines on the lake and tens of thousands of indigenous allies, with the aqueduct cut and the city already ravaged by smallpox, the last defenders hold out in Tlatelolco round the market. Cuauhtémoc is captured in a canoe trying to escape. 'Broken spears lie in the roads', says a Nahua lament written a few years later.",
          sourceIds=["wiki-fall-tenochtitlan", "wiki-cuauhtemoc", "sahagun-12", "hassig"]),
     dict(id="colegio-1536", title="The Colegio de Santa Cruz opens", periodId=C, date="6 January 1536", kind="civic",
          at=dict(landmarkId="santa-cruz-tlatelolco"), effect="procession",
@@ -306,10 +306,10 @@ EVENTS = [
 
 STORIES = [
     dict(id="cortes-first-days", title="The first days of Cortés in Tenochtitlan", periodId=M,
-         summary="Follow the Spaniards from the meeting with Moctezuma on the southern causeway to the summits of the two great temples, as Bernal Díaz remembered it fifty years later.",
+         summary="Follow the Spaniards from the meeting with Moctezuma on the southern causeway to the summits of the two great temples, as Bernal Díaz remembered it decades later.",
          sourceIds=["bernal-diaz", "cortes-letters", "sahagun-12"],
          steps=[
-             dict(landmarkId="xoloc", title="The meeting", when="8 November 1519", text="On the causeway at Xoloc Moctezuma steps down from his litter onto cloths spread by his lords. Cortés tries to embrace him and is held back: no one touches the ruler. They exchange necklaces."),
+             dict(landmarkId="xoloc", title="The meeting", when="8 November 1519", text="Past the fort of Xoloc, where the causeway reaches the city, Moctezuma steps down from his litter onto cloths spread by his lords. Cortés tries to embrace him and is held back: no one touches the ruler. They exchange necklaces."),
              dict(landmarkId="axayacatl-palace", title="Lodged in a palace", when="8 November, afternoon", text="Moctezuma leads them to his father's palace and seats Cortés on a dais. The Spaniards fire their cannon in salute, and the city hears it with fear. Days later they find the sealed treasure room."),
              dict(landmarkId="totocalli", title="The house of birds", text="Bernal Díaz describes the ruler's aviary: birds from eagles to tiny hummingbirds, pools for waterbirds, and a house of jaguars, pumas and rattlesnakes 'that make a sound like bells'."),
              dict(landmarkId="tlatelolco-market", title="The great market", when="12 November 1519", text="The Spaniards ride to Tlatelolco. They are 'astounded at the number of people and the quantity of merchandise', from gold dust in quills to slaves on poles to human excrement sold for tanning salt."),
@@ -325,6 +325,6 @@ STORIES = [
              dict(landmarkId="cathedral", title="Two cathedrals", text="Mass in the old cathedral, low and timber-roofed, while behind it the walls of the new one rise on their raft of piles. Old stones of the Aztec temples lie in the foundations."),
              dict(spotId="plateros", title="The silversmiths' street", text="Gage was amazed by the wealth on show in the goldsmiths' and silversmiths' shops: plate, chains, pearls and jewels, and coaches of the rich passing in the street."),
              dict(landmarkId="san-francisco", title="San Francisco", text="The great Franciscan convent, where the friars teach Indian boys in the school of San José and the viceroy Gelves hid from the rioters."),
-             dict(spotId="canoe-landing", title="The Roldán landing", text="Back along the Acequia, canoes from Chalco unload maize and flowers. Gage warned that the city stood on water and could be drowned; five years later, it was."),
+             dict(spotId="canoe-landing", title="The Roldán landing", text="Back along the Acequia, canoes from Chalco unload maize and flowers. Gage saw a city built on the lake's edge; in 1629, a few years after his visit, it drowned."),
          ]),
 ]

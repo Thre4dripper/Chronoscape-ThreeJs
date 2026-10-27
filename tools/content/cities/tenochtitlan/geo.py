@@ -51,7 +51,7 @@ PERIODS = [
          houses=dict(title="Calpolli patio houses", text="Adobe houses with whitewashed lime plaster and flat roofs, several rooms round a shared patio, one patio per extended family. Each plot fronted a street on one side and a canal on the other, with a canoe tied at the back door."),
          outskirts=dict(title="Chinampa homesteads", text="Long narrow garden beds between canals, edged with willows, each farmed by a household living in a small house at its end. The island grew outward bed by bed.")),
     dict(id=M, label="The Island Capital", year=1519, startYear=1486, endYear=1521,
-         summary="The capital of an empire of tribute from coast to coast, as Cortés saw it on 8 November 1519: about 13 km² of island laid out on a grid of streets and canals, three causeways to the mainland, the walled Sacred Precinct with the twin-temple pyramid at its heart, palaces of stone and lime, and at Tlatelolco a market of 20,000 to 25,000 people a day.",
+         summary="The capital of an empire of tribute from coast to coast, as Cortés saw it on 8 November 1519: about 13 km² of island laid out on a grid of streets and canals, three causeways to the mainland, the walled Sacred Precinct with the twin-temple pyramid at its heart, palaces of stone and lime, and at Tlatelolco a market that Cortés said drew more than 60,000 people a day.",
          population="about 200,000 with Tlatelolco (estimates range from 60,000 to 300,000)",
          feel="Thousands of canoes, conch trumpets at dawn from the temple tops, copal smoke, the market's roar heard a league away.",
          style="mesoamerican",
@@ -170,7 +170,7 @@ ROADS = [
          blurb="The western causeway to Tlacopan, the shortest to the mainland, with gaps bridged by removable beams. The aqueduct from Chapultepec ran beside it into the city."),
     dict(id="iztapalapa-causeway-1440", name="Causeway of Iztapalapa", path=IZTAPALAPA_N, width=12, style="major", labelled=True, periods=[I]),
     dict(id="iztapalapa-causeway", name="Causeway of Iztapalapa", path=[(19.43174, -99.1331)] + IZTAPALAPA_N[1:], width=12, style="major", labelled=True, periods=[M],
-         blurb="The great southern causeway, 'as straight as a rule' and wide enough for eight horsemen abreast, wrote Bernal Díaz. Cortés entered the city along it on 8 November 1519."),
+         blurb="The great southern causeway, about 7 km long and, Cortés wrote, wide enough for eight horsemen abreast. He entered the city along it on 8 November 1519."),
     dict(id="iztapalapa-causeway-s", name="Causeway of Iztapalapa", path=IZTAPALAPA_S, width=12, style="major", periods=[I, M]),
     dict(id="coyoacan-causeway", name="Causeway of Coyoacán", path=COYOACAN, width=9, style="major", periods=[I, M],
          blurb="The branch to Coyoacán, joining the Iztapalapa causeway at the fort of Xoloc."),
@@ -226,7 +226,7 @@ BRIDGES = [
 AQUEDUCTS = [
     dict(name="Aqueduct of Chapultepec", periods=[I, M],
          path=[(19.4240, -99.1660), (19.4320, -99.1620), (19.43835, -99.15760), (19.43875, -99.15450), (19.43775, -99.15100), (19.43745, -99.14850)]),
-    dict(name="Aqueduct of Chapultepec (Santa Fe line)", periods=[C],
+    dict(name="Aqueduct of Santa Fe", periods=[C],
          path=[(19.4240, -99.1660), (19.4320, -99.1620), (19.43835, -99.15760), (19.43875, -99.15450), (19.43775, -99.15100), (19.43745, -99.14850), (19.43625, -99.14400)]),
 ]
 

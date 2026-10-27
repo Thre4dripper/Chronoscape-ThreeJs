@@ -2883,7 +2883,7 @@
     "style": "major",
     "labelled": true,
     "id": "iztapalapa-causeway",
-    "blurb": "The great southern causeway, 'as straight as a rule' and wide enough for eight horsemen abreast, wrote Bernal Díaz. Cortés entered the city along it on 8 November 1519.",
+    "blurb": "The great southern causeway, about 7 km long and, Cortés wrote, wide enough for eight horsemen abreast. He entered the city along it on 8 November 1519.",
     "periods": [
      "moctezuma-1519"
     ]
@@ -3746,7 +3746,7 @@
     ]
    },
    {
-    "name": "Aqueduct of Chapultepec (Santa Fe line)",
+    "name": "Aqueduct of Santa Fe",
     "path": [
      [
       -315,
@@ -5730,7 +5730,7 @@
    "year": 1519,
    "startYear": 1486,
    "endYear": 1521,
-   "summary": "The capital of an empire of tribute from coast to coast, as Cortés saw it on 8 November 1519: about 13 km² of island laid out on a grid of streets and canals, three causeways to the mainland, the walled Sacred Precinct with the twin-temple pyramid at its heart, palaces of stone and lime, and at Tlatelolco a market of 20,000 to 25,000 people a day.",
+   "summary": "The capital of an empire of tribute from coast to coast, as Cortés saw it on 8 November 1519: about 13 km² of island laid out on a grid of streets and canals, three causeways to the mainland, the walled Sacred Precinct with the twin-temple pyramid at its heart, palaces of stone and lime, and at Tlatelolco a market that Cortés said drew more than 60,000 people a day.",
    "population": "about 200,000 with Tlatelolco (estimates range from 60,000 to 300,000)",
    "feel": "Thousands of canoes, conch trumpets at dawn from the temple tops, copal smoke, the market's roar heard a league away.",
    "style": "mesoamerican",
@@ -5948,11 +5948,11 @@
      }
     },
     "moctezuma-1519": {
-     "note": "Stages VI–VII: about 82 by 84 m at the base and perhaps 45 m high, twin stairs up to the red shrine of Huitzilopochtli (south) and the blue and white shrine of Tlaloc (north)."
+     "note": "Stages VI–VII: perhaps 80–100 m a side at the base and 30–45 m high, twin stairs up to the red shrine of Huitzilopochtli (south) and the blue and white shrine of Tlaloc (north)."
     },
     "colonial-1620": {
      "name": "Site of the Templo Mayor",
-     "note": "Pulled down from 1521 and quarried for the new city; by 1620 houses and streets cover its stump. Its ruins were found only in 1978, by electricity workers.",
+     "note": "Pulled down from 1521 and quarried for the new city; by 1620 houses and streets cover its stump. Its remains were rediscovered in 1978, when electricity workers struck the carved Coyolxauhqui stone.",
      "confidence": "reconstruction",
      "model": {
       "glb": "models/tenochtitlan/templo-mayor-1620.glb",
@@ -5968,7 +5968,7 @@
      }
     }
    },
-   "summary": "The twin-temple pyramid of Huitzilopochtli, god of war and the sun, and Tlaloc, god of rain, rebuilt seven times over the old shrine at the centre of the Mexica world.",
+   "summary": "The twin-temple pyramid of Huitzilopochtli, god of war and the sun, and Tlaloc, god of rain, enlarged in seven main stages over the old shrine at the centre of the Mexica world.",
    "details": [
     "Each ruler enlarged the temple by building a new pyramid over the old one, so the excavated stump shows seven main stages, from the shrine of the 1320s to the building Cortés climbed in 1519. Its two summit shrines stood for the hill of Coatepec, Huitzilopochtli's birthplace, and the mountain of sustenance of Tlaloc. More than 200 offerings have been excavated since 1978.",
     "The miniature shows stage VII as usually reconstructed: four stuccoed tiers, a double stair with serpent-head balustrades, and the two shrines with their tall roofs. The shrines' roof-crests, the colours and the exact height (estimates run 30–45 m) are reconstruction."
@@ -6025,7 +6025,7 @@
      "confidence": "interpretation"
     },
     "moctezuma-1519": {
-     "note": "A round temple on a platform facing the Templo Mayor across the plaza, its stair to the east. Its doorway was carved as a serpent's open jaws, said Bernal Díaz."
+     "note": "A round temple on a platform facing the Templo Mayor across the plaza, its stair to the east. Bernal Díaz describes a temple doorway shaped like a serpent's open jaws, probably this one."
     },
     "colonial-1620": {
      "note": "Destroyed; colonial houses behind the cathedral stand over it. Remains of its platform were found in 2017 under a hotel on Calle de Guatemala."
@@ -6333,7 +6333,7 @@
      "note": "Destroyed in the siege; Cortés built his own houses on its ruins, sold to the Crown in 1562 as the viceregal palace."
     }
    },
-   "summary": "The palace of Moctezuma II, a city within the city: the seat of government, courts of justice, councils and tribute stores, where some 600 lords attended the ruler every day.",
+   "summary": "The palace of Moctezuma II, a city within the city: the seat of government, courts of justice, councils and tribute stores, where, Cortés wrote, some 600 lords attended the ruler every day.",
    "details": [
     "Cortés and Bernal Díaz describe a palace of many courts and rooms with walls of stone and lime, cedar ceilings and woven mats, with apartments for the ruler's wives, rooms for visiting lords, a council of war, a tribute office and treasure rooms. The Codex Mendoza draws its plan: the ruler's hall on a raised platform above a courtyard.",
     "The miniature follows the Codex Mendoza plan and Evans's study of Aztec palaces: a stepped platform, a great court entered from the square, the raised throne hall, lesser courts and a garden. Its scale is estimated from the block later occupied by the National Palace."
@@ -6398,7 +6398,7 @@
    },
    "summary": "The palace of the ruler Axayacatl, where Moctezuma lodged Cortés and his men in November 1519 and where the Spaniards were besieged in June 1520.",
    "details": [
-    "Bernal Díaz says it was large enough to house all the Spaniards and their 2,000 Tlaxcalan allies, with halls hung with cloth and a temple of its own. The Spaniards held Moctezuma prisoner here, and dug through a freshly plastered wall to find the treasure. After the massacre of Toxcatl the Mexica besieged them here until the flight of the Noche Triste.",
+    "Bernal Díaz says it was large enough to house all the Spaniards and their Tlaxcalan allies (perhaps 2,000 or more), with halls hung with cloth and a temple of its own. The Spaniards held Moctezuma prisoner here, and dug through a freshly plastered wall to find the treasure. After the massacre of Toxcatl the Mexica besieged them here until the flight of the Noche Triste.",
     "The miniature shows a palace of the usual Aztec form: a low platform, a ring of halls round a central court, a smaller inner court and a shrine. Its plan is not known."
    ],
    "confidence": "interpretation",
@@ -6561,7 +6561,7 @@
      }
     },
     "moctezuma-1519": {
-     "note": "A plaza ringed by arcades, where 20,000 to 25,000 people came daily and 40,000 to 50,000 every fifth day, each kind of goods in its own street, judges keeping order."
+     "note": "A plaza ringed by arcades, each kind of goods in its own row, judges keeping order. Cortés claimed more than 60,000 buyers and sellers a day; an anonymous conquistador gave 20,000–25,000, twice that on market days."
     },
     "colonial-1620": {
      "note": "Much reduced after the siege; the main markets moved to the Plaza Mayor and San Juan, though a market at Tlatelolco continued.",
@@ -6716,7 +6716,7 @@
      "confidence": "interpretation"
     },
     "moctezuma-1519": {
-     "note": "A walled bulwark with two towers where the Coyoacán causeway joins the Iztapalapa causeway, about 2 km south of the precinct. Here Moctezuma met Cortés on 8 November 1519."
+     "note": "A walled bulwark with two towers where the Coyoacán causeway joins the Iztapalapa causeway, about 2 km south of the precinct. Cortés passed it on 8 November 1519 on his way to meet Moctezuma."
     },
     "colonial-1620": {
      "name": "San Antonio Abad",
@@ -6724,10 +6724,10 @@
      "confidence": "interpretation"
     }
    },
-   "summary": "A fortified gate on the southern causeway, about two stone walls high with towers and a wooden drawbridge, guarding the main road into the city from the south.",
+   "summary": "A fortified gate on the southern causeway, a stone wall with towers and two gates, guarding the main road into the city from the south.",
    "details": [
-    "Cortés describes a strong bulwark of stone two estados (about 3.5 m) high with towers and two gates, where the two causeways met. Moctezuma came out to it to meet the Spaniards on 8 November 1519. During the siege of 1521 Cortés took it and made it his camp.",
-    "The miniature shows a wall across the causeway with two square towers, a gateway and a timber drawbridge in front. Its form is reconstruction from Cortés's letter."
+    "Cortés describes a strong bulwark of stone two estados (about 3.5 m) high with towers and two gates, where the two causeways met. Beyond it, at a bridge where the causeway reached the city (by tradition at Huitzillan), Moctezuma met the Spaniards on 8 November 1519. During the siege of 1521 Cortés took it and made it his camp.",
+    "The miniature shows a wall across the causeway with two square towers, a gateway and a timber bridge in front. Its form is interpretation from Cortés's letter."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -6845,8 +6845,8 @@
      "note": "Two masonry channels side by side on the causeway, one used while the other was cleaned. At the bridges water was sold from canoes."
     },
     "colonial-1620": {
-     "name": "Aqueduct of Chapultepec (Santa Fe line)",
-     "note": "Restored by the Spaniards and gradually rebuilt as an arcade along the Tacuba and San Cosme roads; the city's main water supply.",
+     "name": "Aqueducts of Chapultepec and Santa Fe",
+     "note": "The Chapultepec channel was repaired; from the 1570s a new arcaded aqueduct brought water from the springs of Santa Fe along the San Cosme and Tacuba roads.",
      "confidence": "reconstruction",
      "model": {
       "glb": "models/tenochtitlan/aqueduct-1620.glb",
@@ -6862,7 +6862,7 @@
    },
    "summary": "The aqueduct that brought spring water from the hill of Chapultepec to the island, about 5 km, running along the Tlacopan causeway into the city.",
    "details": [
-    "Earlier channels were of clay and reed and broke easily. The masonry aqueduct of the 1460s had a double channel, so one could be cleaned while the other carried water. Cutting it was the Spaniards' first move in the siege of May 1521. In colonial times it was rebuilt on arches.",
+    "Earlier channels were of clay and reed and broke easily. The masonry aqueduct of the 1460s had a double channel, so one could be cleaned while the other carried water. Cutting it was the Spaniards' first move in the siege of May 1521. In colonial times the city's water came on arches, from Chapultepec and from Santa Fe.",
     "The miniature shows a stretch of the causeway in the lake, with the twin channels on a stone embankment beside the road and a short timber bridge. The 1620 version shows a low arcade. The exact course is reconstruction."
    ],
    "confidence": "reconstruction",
@@ -6984,7 +6984,7 @@
    },
    "summary": "The cathedral of New Spain, first a modest church built with stones of the Aztec temples, then from 1573 the great cathedral that took 240 years to finish.",
    "details": [
-    "The first church, on the north side of the Plaza Mayor, was small, low and timber-roofed, and was soon judged unworthy of the capital. The new cathedral, planned by Claudio de Arciniega, was begun in 1573 on a raft of piles in the soft lake bed. By 1620 its walls and side chapels stood, the first vaults followed in the 1620s, and it was consecrated in 1656.",
+    "The first church, on the north side of the Plaza Mayor, was small, low and timber-roofed, and was soon judged unworthy of the capital. The new cathedral, planned by Claudio de Arciniega, was begun in 1573 on a raft of piles in the soft lake bed. By 1620 its walls were rising; vaulting began in the following decades, and it was first dedicated in 1656.",
     "The miniature shows the old church with its small tower and, north of it, the unfinished new cathedral: thick walls, buttresses and the stumps of the towers. Heights in 1620 are estimated."
    ],
    "confidence": "reconstruction",
@@ -7258,7 +7258,7 @@
      "note": "The Franciscan church of Santiago (rebuilt 1604–10) with its convent, and the Colegio de Santa Cruz (1536), where Nahua students learned Latin and worked with Sahagún on the Florentine Codex."
     }
    },
-   "summary": "The Franciscan church and college of Tlatelolco, the first school of higher learning in the Americas, built from the stones of the Tlatelolco temple.",
+   "summary": "The Franciscan church and college of Tlatelolco, the first European-style school of higher learning in the Americas, built with stones of the Tlatelolco temple.",
    "details": [
     "The Colegio de Santa Cruz was founded in 1536 to educate sons of the Nahua nobility in Latin, rhetoric, philosophy and medicine. Its students and teachers produced the Badianus herbal (1552) and worked with Bernardino de Sahagún on the Florentine Codex. By 1620 the college was in decline; the church of Santiago had just been rebuilt in stone.",
     "The miniature shows the fortress-like single-nave church with a tower, the convent cloister and the college buildings round a second court. The college's form is interpretation."
@@ -7333,9 +7333,9 @@
    "activePeriods": [
     "moctezuma-1519"
    ],
-   "summary": "Craftsmen who pressed long razor-sharp blades from cores of obsidian, volcanic glass, while you watched; Cortés marvelled at their skill.",
+   "summary": "Craftsmen who pressed long razor-sharp blades from cores of obsidian, volcanic glass, while you watched; Spanish friars marvelled at their skill.",
    "details": [
-    "The black and green glass came from mines at Otumba and Pachuca in the hills north-east of the lake. With a pointed stick braced against the chest, a knapper detached long parallel blades from a prepared core, used for knives, razors and the edges of the wooden warclub (macuahuitl). Spanish soldiers were shaved with them."
+    "The black and green glass came from mines at Otumba and Pachuca in the hills north-east of the lake. With a pointed stick braced against the chest, a knapper detached long parallel blades from a prepared core, used for knives, razors and the edges of the wooden warclub (macuahuitl). Barbers shaved with them."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -7417,7 +7417,7 @@
    ],
    "summary": "Sellers of pulque, the milky fermented sap of the maguey, drunk by the old, the sick and at festivals; public drunkenness among the young could be punished by death.",
    "details": [
-    "Aztec law restricted pulque: elders over about 52 could drink, and everyone at certain feasts, but a drunken noble might be executed. Sahagún describes pulque sellers in the market with their jars and gourds. Under Spanish rule the trade was licensed, taxed and boomed, and pulque shops became the taverns of the poor."
+    "Aztec law restricted pulque: elders (traditionally those past 52) could drink, and everyone at certain feasts, but a drunken noble might be executed. Sahagún describes pulque sellers in the market with their jars and gourds. Under Spanish rule the trade was licensed, taxed and boomed, and pulque shops became the taverns of the poor."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -7637,7 +7637,7 @@
     "itzcoatl-1440",
     "moctezuma-1519"
    ],
-   "summary": "The 'house of youth' of a calpolli, where commoner boys from about fifteen lived, worked and trained for war under veteran warriors.",
+   "summary": "The 'house of youth' of a calpolli, where commoner boys in their teens lived, worked and trained for war under veteran warriors.",
    "details": [
     "Every ward had its telpochcalli. Boys swept, carried wood and worked on public projects by day, learned to fight and to handle weapons, and at night sang and danced at the house of song (cuicacalli). Their teachers were seasoned warriors; a youth who took captives in battle rose in rank and could leave to marry."
    ],
@@ -7931,7 +7931,7 @@
    ],
    "summary": "The school founded by the Flemish Franciscan Pedro de Gante in the 1520s beside San Francisco, where Indian boys learned to read, write, sing, paint and practise European crafts.",
    "details": [
-    "Pedro de Gante, a relative of Charles V, taught here for half a century until his death in 1572; it is said to have had about 1,000 pupils at its height. Its open chapel held huge congregations of Indians. Painters, sculptors, musicians and craftsmen trained here decorated the churches of New Spain."
+    "Pedro de Gante, said to be a relative of Charles V, taught here for half a century until his death in 1572; it is said to have had about 1,000 pupils at its height. Its open chapel held huge congregations of Indians. Painters, sculptors, musicians and craftsmen trained here decorated the churches of New Spain."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -8004,7 +8004,7 @@
    ],
    "summary": "The hospital founded by Cortés in the 1520s near the place where, by tradition, he first met Moctezuma; it is still a hospital, and Cortés's bones lie in its church.",
    "details": [
-    "Cortés endowed the Hospital of the Immaculate Conception, later called de Jesús, from his estates. Its stone patios with arcades are among the oldest buildings of the city. Tradition places his meeting with Moctezuma here, though the meeting was further south at Xoloc."
+    "Cortés endowed the Hospital of the Immaculate Conception, later called de Jesús, from his estates. Its stone patios with arcades are among the oldest buildings of the city. Tradition places his meeting with Moctezuma here, at Huitzillan, where the southern causeway reached the city; some historians put it farther south, near Xoloc."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -8232,7 +8232,7 @@
     "landmarkId": "xoloc"
    },
    "effect": "procession",
-   "text": "Moctezuma, carried in a litter under a canopy of green feathers, comes down the Iztapalapa causeway to meet Cortés and some 400 Spaniards with thousands of Tlaxcalan allies. He gives Cortés necklaces of shell and gold, then lodges them in his father's palace. Bernal Díaz: 'it was like the enchantments in the book of Amadís'.",
+   "text": "Moctezuma, carried in a litter under a canopy of green feathers, comes out along the Iztapalapa causeway to meet Cortés and some 400 Spaniards with thousands of Tlaxcalan allies. He gives Cortés necklaces of shell and gold, then lodges them in his father's palace. Bernal Díaz: 'it was like the enchantments in the book of Amadís'.",
    "sourceIds": [
     "bernal-diaz",
     "cortes-letters",
@@ -8283,7 +8283,7 @@
     "landmarkId": "tlatelolco-market"
    },
    "effect": "fire",
-   "text": "After almost three months of siege by brigantines on the lake and tens of thousands of indigenous allies, with the aqueduct cut and smallpox in the city, the last defenders hold out in Tlatelolco round the market. Cuauhtémoc is captured in a canoe trying to escape. 'Broken spears lie in the roads', says a Nahua lament.",
+   "text": "After almost three months of siege by brigantines on the lake and tens of thousands of indigenous allies, with the aqueduct cut and the city already ravaged by smallpox, the last defenders hold out in Tlatelolco round the market. Cuauhtémoc is captured in a canoe trying to escape. 'Broken spears lie in the roads', says a Nahua lament written a few years later.",
    "sourceIds": [
     "wiki-fall-tenochtitlan",
     "wiki-cuauhtemoc",
@@ -8379,13 +8379,13 @@
    "id": "cortes-first-days",
    "title": "The first days of Cortés in Tenochtitlan",
    "periodId": "moctezuma-1519",
-   "summary": "Follow the Spaniards from the meeting with Moctezuma on the southern causeway to the summits of the two great temples, as Bernal Díaz remembered it fifty years later.",
+   "summary": "Follow the Spaniards from the meeting with Moctezuma on the southern causeway to the summits of the two great temples, as Bernal Díaz remembered it decades later.",
    "steps": [
     {
      "landmarkId": "xoloc",
      "title": "The meeting",
      "when": "8 November 1519",
-     "text": "On the causeway at Xoloc Moctezuma steps down from his litter onto cloths spread by his lords. Cortés tries to embrace him and is held back: no one touches the ruler. They exchange necklaces."
+     "text": "Past the fort of Xoloc, where the causeway reaches the city, Moctezuma steps down from his litter onto cloths spread by his lords. Cortés tries to embrace him and is held back: no one touches the ruler. They exchange necklaces."
     },
     {
      "landmarkId": "axayacatl-palace",
@@ -8455,7 +8455,7 @@
     {
      "spotId": "canoe-landing",
      "title": "The Roldán landing",
-     "text": "Back along the Acequia, canoes from Chalco unload maize and flowers. Gage warned that the city stood on water and could be drowned; five years later, it was."
+     "text": "Back along the Acequia, canoes from Chalco unload maize and flowers. Gage saw a city built on the lake's edge; in 1629, a few years after his visit, it drowned."
     }
    ],
    "sourceIds": [
