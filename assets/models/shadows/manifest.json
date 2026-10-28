@@ -540,14 +540,14 @@
   "size": 69.69
  },
  "babylon/esagila": {
-  "cx": 0.66,
+  "cx": 0.7,
   "cy": -0.0,
-  "size": 247.13
+  "size": 247.21
  },
  "babylon/etemenanki": {
   "cx": 0.0,
   "cy": -0.5,
-  "size": 326.94
+  "size": 327.06
  },
  "babylon/etemenanki-early": {
   "cx": 0.0,
@@ -557,17 +557,17 @@
  "babylon/etemenanki-ruin": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 203.09
+  "size": 203.21
  },
  "babylon/hanging-gardens": {
-  "cx": -0.35,
+  "cx": -0.32,
   "cy": -0.0,
   "size": 225.9
  },
  "babylon/ishtar-gate": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 109.26
+  "cy": -0.01,
+  "size": 109.28
  },
  "babylon/nabu-sha-hare": {
   "cx": 0.0,
@@ -586,7 +586,7 @@
  },
  "babylon/outer-gate": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": -0.02,
   "size": 130.65
  },
  "babylon/persian-pavilion": {
@@ -596,8 +596,8 @@
  },
  "babylon/processional-way": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 202.35
+  "cy": -0.03,
+  "size": 202.41
  },
  "babylon/southern-palace": {
   "cx": 0.0,
@@ -605,9 +605,9 @@
   "size": 348.5
  },
  "babylon/summer-palace": {
-  "cx": 0.0,
-  "cy": -0.74,
-  "size": 263.41
+  "cx": 0.04,
+  "cy": -0.78,
+  "size": 263.49
  },
  "babylon/theatre": {
   "cx": 0.0,
