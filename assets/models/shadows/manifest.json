@@ -915,7 +915,7 @@
   "size": 576.2
  },
  "carthage/commercial-harbour": {
-  "cx": -0.5,
+  "cx": -0.42,
   "cy": -0.0,
   "size": 440.06
  },
@@ -940,9 +940,9 @@
   "size": 197.0
  },
  "carthage/hannibal-quarter": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 153.2
+  "cx": -0.02,
+  "cy": -0.02,
+  "size": 153.25
  },
  "carthage/harbour-silted": {
   "cx": 0.0,
@@ -955,14 +955,14 @@
   "size": 106.59
  },
  "carthage/la-malga": {
-  "cx": -0.5,
+  "cx": -0.53,
   "cy": 0.6,
-  "size": 164.55
+  "size": 164.6
  },
  "carthage/la-malga-ruin": {
-  "cx": -0.5,
+  "cx": -0.53,
   "cy": 0.6,
-  "size": 164.55
+  "size": 164.6
  },
  "carthage/odeon": {
   "cx": 0.0,
@@ -972,7 +972,7 @@
  "carthage/sea-wall": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 278.06
+  "size": 278.25
  },
  "carthage/sidi-bou-said": {
   "cx": 0.23,
@@ -991,7 +991,7 @@
  },
  "carthage/villa-aviary": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.01,
   "size": 77.26
  },
  "changan/bell-tower": {
