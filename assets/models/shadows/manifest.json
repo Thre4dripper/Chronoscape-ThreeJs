@@ -4736,23 +4736,23 @@
  },
  "thebes/avenue-of-sphinxes": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 315.09
+  "cy": -0.06,
+  "size": 315.21
  },
  "thebes/colossi-of-memnon": {
   "cx": 0.0,
   "cy": -0.3,
-  "size": 457.45
+  "size": 457.16
  },
  "thebes/deir-el-bahari": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 392.01
+  "cy": 0.06,
+  "size": 391.92
  },
  "thebes/deir-el-bahari-1950": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 392.01
+  "cy": 0.06,
+  "size": 391.92
  },
  "thebes/deir-el-medina": {
   "cx": -0.59,
@@ -4772,12 +4772,12 @@
  "thebes/karnak": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 651.72
+  "size": 651.36
  },
  "thebes/karnak-1470": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 644.63
+  "cy": 0.12,
+  "size": 644.86
  },
  "thebes/karnak-1950": {
   "cx": 0.0,
@@ -4787,42 +4787,42 @@
  "thebes/karnak-late": {
   "cx": 0.0,
   "cy": -0.75,
-  "size": 653.22
+  "size": 652.86
  },
  "thebes/karnak-quay": {
   "cx": 0.0,
-  "cy": 1.0,
-  "size": 191.42
+  "cy": 0.97,
+  "size": 191.48
  },
  "thebes/luxor-1470": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 325.61
+  "size": 325.4
  },
  "thebes/luxor-roman": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 348.98
+  "size": 348.77
  },
  "thebes/luxor-temple": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 348.98
+  "size": 348.77
  },
  "thebes/malkata": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 329.42
+  "cy": -0.06,
+  "size": 329.54
  },
  "thebes/medinet-habu": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 378.98
+  "size": 378.75
  },
  "thebes/medinet-habu-djeme": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 378.98
+  "size": 378.75
  },
  "thebes/memnon-roman": {
   "cx": 0.0,
@@ -4837,32 +4837,32 @@
  "thebes/montu-precinct": {
   "cx": 0.0,
   "cy": 0.35,
-  "size": 212.68
+  "size": 212.56
  },
  "thebes/mut-precinct": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 376.23
+  "size": 375.99
  },
  "thebes/nobles-tombs": {
   "cx": 0.0,
   "cy": -0.5,
-  "size": 261.96
+  "size": 261.82
  },
  "thebes/opet-shrine": {
   "cx": -0.21,
-  "cy": -0.0,
-  "size": 56.22
+  "cy": -0.01,
+  "size": 56.23
  },
  "thebes/processional-way": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 318.42
+  "cy": -0.06,
+  "size": 318.76
  },
  "thebes/ramesseum": {
   "cx": 0.0,
   "cy": -0.3,
-  "size": 339.58
+  "size": 339.37
  },
  "thebes/ramesseum-ruin": {
   "cx": 0.0,
@@ -4872,7 +4872,7 @@
  "thebes/seti-qurna": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 200.41
+  "size": 200.29
  },
  "thebes/town-of-thebes": {
   "cx": 0.0,
@@ -4881,8 +4881,8 @@
  },
  "thebes/valley-of-the-kings": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 278.66
+  "cy": -0.04,
+  "size": 278.6
  },
  "timbuktu/aqit-house": {
   "cx": 0.0,
