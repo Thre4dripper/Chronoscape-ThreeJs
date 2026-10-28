@@ -3530,14 +3530,14 @@
   "size": 195.15
  },
  "persepolis/garrison": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": -0.0,
   "size": 174.2
  },
  "persepolis/garrison-ruin": {
-  "cx": 0.26,
+  "cx": 0.24,
   "cy": -0.0,
-  "size": 157.2
+  "size": 157.11
  },
  "persepolis/gate-all-nations": {
   "cx": 0.2,
@@ -3560,12 +3560,12 @@
   "size": 108.88
  },
  "persepolis/harem": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
   "size": 142.94
  },
  "persepolis/harem-ruin": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
   "size": 132.58
  },
@@ -3580,7 +3580,7 @@
   "size": 140.51
  },
  "persepolis/plain-palace": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": 0.68,
   "size": 131.31
  },
@@ -3605,29 +3605,29 @@
   "size": 92.8
  },
  "persepolis/takht": {
-  "cx": 0.85,
-  "cy": 0.05,
+  "cx": 0.9,
+  "cy": 0.02,
   "size": 187.61
  },
  "persepolis/takht-500": {
-  "cx": 0.85,
-  "cy": 0.05,
+  "cx": 0.9,
+  "cy": 0.02,
   "size": 179.02
  },
  "persepolis/takht-ruin": {
-  "cx": 0.35,
+  "cx": 0.38,
   "cy": -0.5,
-  "size": 172.1
+  "size": 172.06
  },
  "persepolis/treasury": {
   "cx": -0.32,
   "cy": -0.32,
-  "size": 176.67
+  "size": 176.76
  },
  "persepolis/treasury-ruin": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 165.84
+  "size": 165.75
  },
  "persepolis/tripylon": {
   "cx": 0.0,
@@ -3640,7 +3640,7 @@
   "size": 73.72
  },
  "persepolis/unfinished-gate": {
-  "cx": 0.0,
+  "cx": -0.0,
   "cy": -0.0,
   "size": 82.08
  },
