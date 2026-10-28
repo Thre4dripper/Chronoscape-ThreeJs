@@ -83,7 +83,7 @@ SPOTS = [
 
     dict(id="silver-weighers", name="Silver weighers at the treasury door", kind="bank", latlon=L(104, -56), activePeriods=["xerxes-460"],
          summary="Treasury officials weighing out silver to pay workers in place of part of their sheep and wine rations, as recorded on the Elamite Treasury Tablets (492–458 BCE).",
-         details=["The Treasury Tablets, about 750 texts, are orders to pay groups of workers, among them Egyptian, Ionian and Carian craftsmen, part of their wages in silver at fixed rates: one shekel stood in for a sheep, for example. Silver was weighed, not counted; coins were rare in Persia."],
+         details=["The Treasury Tablets, about 750 texts, are orders to pay groups of workers, among them Egyptian, Ionian and Carian craftsmen, part of their wages in silver, at fixed rates in shekels for each sheep or jar of wine they would otherwise have received. Silver was weighed, not counted; coins were rare in Persia."],
          confidence="documented", sourceIds=["cameron-treasury", "wiki-pfa", "briant"],
          vignettes=[dict(hour=8, text="A scribe reads the order aloud; the weigher sets a stone weight in one pan and clipped silver pieces in the other until the beam is level."),
                     dict(hour=13, text="A foreman of Egyptian carpenters signs for his gang's pay with a seal-ring, and the silver is tied up in a cloth."),
@@ -158,7 +158,7 @@ EVENTS = [
          sourceIds=["wiki-apadana", "kent-old-persian", "schmidt-persepolis"]),
     dict(id="fortification-archive", title="The first ration tablets", periodId="darius-500", date="509 BCE", kind="civic",
          at=dict(spotId="ration-office"), effect="none",
-         text="In Darius' 13th year the surviving Fortification archive begins: tens of thousands of small tablets, mostly in Elamite, a few in Aramaic, Greek and other languages, recording food issued across Fars for sixteen years. They are the fullest picture of how an ancient empire fed its people.",
+         text="In Darius' 13th year the surviving Fortification archive begins: many thousands of small tablets, mostly in Elamite, a few in Aramaic, Greek and other languages, recording food issued across Fars for sixteen years. They are the fullest picture of how an ancient empire fed its people.",
          sourceIds=["wiki-pfa", "hallock", "henkelman"]),
     dict(id="gate-of-xerxes", title="Xerxes raises the Gate of All Nations", periodId="xerxes-460", date="c. 480 BCE", kind="construction",
          at=dict(landmarkId="gate-all-nations"), effect="construction",

@@ -37,7 +37,7 @@ CARTOUCHE = L(-2700, -1930)
 
 PERIODS = [
     dict(id="darius-500", label="Darius' terrace", year=-500, startYear=-518, endYear=-486,
-         summary="Parsa under Darius I. Since about 518 BCE gangs of workers have been cutting and filling the rock at the foot of Kuh-e Rahmat into a limestone terrace 12 to 18 m high. By 500 the first treasury and Darius' own palace, the Tachara, stand; the Apadana's columns rise on their platform. Below, a lower town of officials, workshops and gardens spreads over the Marvdasht plain.",
+         summary="Parsa under Darius I. Since about 518 BCE gangs of workers have been cutting and filling the rock at the foot of Kuh-e Rahmat into a limestone terrace, about 12 m high where the great stair climbs it. By 500 the first treasury and Darius' own palace, the Tachara, stand; the Apadana's columns rise on their platform. Below, a lower town of officials, workshops and gardens spreads over the Marvdasht plain.",
          population="unknown; the ration tablets list thousands of workers in the region",
          feel="Chisels ringing on grey limestone, ox-carts hauling column drums up the ramps, clerks pressing Elamite into wet clay, the sour smell of barley beer at the ration store.",
          style="courtyard",
@@ -102,7 +102,7 @@ WATER = [
 
 HILLS = [
     dict(id="kuh-e-rahmat", name="Kuh-e Rahmat", center=L(700, 100), radius=520,
-         blurb="The 'Mountain of Mercy' (the Achaemenid name is unknown) rises behind the terrace to about 2,500 m. Its limestone was quarried for the terrace, its slope was walled, and the tombs of later kings were cut into its face above the palaces."),
+         blurb="The 'Mountain of Mercy' (the Achaemenid name is unknown) rises steeply behind the terrace. Its limestone was quarried for the terrace, its slope was walled, and the tombs of later kings were cut into its face above the palaces."),
     dict(id="rahmat-north", name="Kuh-e Rahmat (north spur)", center=L(620, 900), radius=480, label=False,
          blurb="The northern spur of the mountain, crossed by the fortification walls and the quarry roads."),
     dict(id="rahmat-south", name="Kuh-e Rahmat (south spur)", center=L(660, -720), radius=500, label=False,
@@ -159,10 +159,10 @@ ROADS = [
 TERRACE = [(-150, -228), (-150, 228), (140, 228), (150, 205), (152, -200), (140, -228)]
 WALLS = [
     dict(id="terrace-wall", name="Retaining wall of the Takht", closed=True, path=LS(TERRACE),
-         blurb="The terrace face of huge polygonal and squared limestone blocks fitted without mortar and held with iron clamps set in lead, rising 12 to 18 m above the plain; the platform behind is part cut rock, part fill. In Achaemenid times a mud-brick wall with towers crowned its edge."),
+         blurb="The terrace face of huge polygonal and squared limestone blocks fitted without mortar and held with iron clamps set in lead, rising about 12 m above the plain at the stair, the height varying with the rock; the platform behind is part cut rock, part fill. In Achaemenid times a mud-brick wall with towers crowned its edge."),
     dict(id="mountain-wall", name="Fortification on Kuh-e Rahmat", periods=ACHAEMENID,
          path=LS([(140, 228), (260, 300), (380, 260), (430, 80), (410, -150), (300, -280), (140, -228)]),
-         blurb="A mud-brick wall on stone footings with towers climbed the mountain behind the terrace, closing the side the terrace face did not protect. The Fortification Tablets were found in its north-east corner, used as fill."),
+         blurb="A mud-brick wall on stone footings with towers climbed the mountain behind the terrace, closing the side the terrace face did not protect. The Fortification Tablets were found stored in rooms within its north-east corner."),
     dict(id="mountain-wall-ruin", name="Ruined fortification on Kuh-e Rahmat", periods=LATER,
          path=LS([(140, 228), (260, 300), (380, 260), (430, 80), (410, -150), (300, -280), (140, -228)]),
          blurb="Fallen mud brick and stone footings on the slope, the towers reduced to mounds."),
@@ -216,7 +216,7 @@ GARDENS = [
 
 DISTRICTS = [
     dict(id="takht", name="The Takht (terrace)", polygon=LS(TERRACE),
-         description="The royal terrace, about 455 by 300 m and 12 to 18 m above the plain, holding the audience halls, palaces, treasury and barracks. Modern Persians call it Takht-e Jamshid, the Throne of Jamshid; the Greeks called the city Persepolis, the Persians Parsa."),
+         description="The royal terrace, about 455 by 300 m and some 12 m above the plain at the stair, holding the audience halls, palaces, treasury and barracks. Modern Persians call it Takht-e Jamshid, the Throne of Jamshid; the Greeks called the city Persepolis, the Persians Parsa."),
     dict(id="lower-town", name="Parsa (lower town)", periods=TOWN,
          polygon=LS([(-210, 300), (-1000, 340), (-1000, -720), (-210, -720)]),
          description="The town on the plain: houses of officials, scribes and craftsmen, workshops, storehouses, palaces and paradises. Mostly unexcavated; surveys and soundings show buildings scattered over several square kilometres."),
