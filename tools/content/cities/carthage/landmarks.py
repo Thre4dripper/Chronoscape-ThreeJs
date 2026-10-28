@@ -39,7 +39,7 @@ SOURCES = [
     dict(id="wiki-archaeological-site", title="Archaeological site of Carthage", author="Wikipedia", url="https://en.wikipedia.org/wiki/Archaeological_site_of_Carthage"),
     dict(id="wiki-acropolium", title="Acropolium of Carthage", author="Wikipedia", url="https://en.wikipedia.org/wiki/Acropolium_of_Carthage"),
     dict(id="wiki-sidi-bou-said", title="Sidi Bou Said", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sidi_Bou_Said"),
-    dict(id="wiki-punic-architecture", title="Punic architecture", author="Wikipedia", url="https://en.wikipedia.org/wiki/Punic_architecture"),
+    dict(id="wiki-punic-architecture", title="Ancient Carthage", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ancient_Carthage"),
     dict(id="appian", title="Roman History, Book 8: The Punic Wars (Punica) 95–135", author="Appian", year="2nd century CE", url="https://en.wikipedia.org/wiki/Appian"),
     dict(id="victor-vita", title="History of the Vandal Persecution 1.8", author="Victor of Vita", year="c. 489", url="https://en.wikipedia.org/wiki/Victor_of_Vita"),
     dict(id="al-bakri", title="Book of Roads and Kingdoms (description of Carthage)", author="al-Bakri", year="1068", url="https://en.wikipedia.org/wiki/Abu_Abdullah_al-Bakri"),
@@ -288,7 +288,7 @@ LANDMARKS = [
          variants={
              "roman-200": dict(note="Not yet built: a cemetery outside the city, where Christians will later be buried around their martyrs."),
              "vandal-480": dict(note="The largest church of Carthage: nine aisles, a semicircular court and an underground rotunda for a martyr's relics; rebuilt and enlarged after the Byzantine reconquest of 533."),
-             "ruins-1600": dict(note="Gone to the lime kilns; a field of column bases and broken capitals, its name, from domus caritatis, 'house of charity', kept by the villagers."),
+             "ruins-1600": dict(note="Gone to the lime kilns; a field of column bases and broken capitals, its name, traditionally explained as domus caritatis, 'house of charity', kept by the villagers."),
          },
          summary="The greatest Christian basilica of Carthage, outside the old city to the north: nine aisles, a semicircular atrium and a rotunda over a martyr's crypt.",
          details=["Built in the later 4th century and remodelled in the 6th, it measured about 65 by 45 m, with columns of reused marble. A great semicircular court opened from it toward an underground rotunda. Which martyrs it honoured is not known for certain.",

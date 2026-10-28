@@ -1777,7 +1777,7 @@
     ],
     "closed": true,
     "id": "byrsa-wall",
-    "blurb": "The citadel's own circuit, about two stades round in Orosius' figure, where the last defenders held out in 146 BCE.",
+    "blurb": "The citadel's own circuit, a little over two Roman miles round in Orosius' figure (probably too large), where the last defenders held out in 146 BCE.",
     "periods": [
      "punic-400",
      "punic-150"
@@ -4379,7 +4379,7 @@
    "year": -150,
    "startYear": -264,
    "endYear": -146,
-   "summary": "Beaten twice by Rome and stripped of its empire, Carthage is still rich: it paid off its war debt early, and Hannibal as suffete (196) reformed its finances. The circular naval harbour, probably dug in these decades, holds its 220 ship sheds; new houses climb the Byrsa slope. In 149 Rome declares war, and in 146 the city is taken street by street and burned.",
+   "summary": "Beaten twice by Rome and stripped of its empire, Carthage is still rich: it offered to pay off its war indemnity early, and Hannibal as suffete (196) reformed its finances. The circular naval harbour, probably dug in these decades, holds its 220 ship sheds; new houses climb the Byrsa slope. In 149 Rome declares war, and in 146 the city is taken street by street and burned.",
    "population": "perhaps 150,000–250,000; Strabo's 700,000 is not believed",
    "feel": "Shipwrights' mallets in the closed harbour, merchants' scales in the agora, and from 149 the thud of Roman rams against the walls.",
    "style": "courtyard",
@@ -5576,7 +5576,7 @@
      "note": "The largest church of Carthage: nine aisles, a semicircular court and an underground rotunda for a martyr's relics; rebuilt and enlarged after the Byzantine reconquest of 533."
     },
     "ruins-1600": {
-     "note": "Gone to the lime kilns; a field of column bases and broken capitals, its name, from domus caritatis, 'house of charity', kept by the villagers."
+     "note": "Gone to the lime kilns; a field of column bases and broken capitals, its name, traditionally explained as domus caritatis, 'house of charity', kept by the villagers."
     }
    },
    "summary": "The greatest Christian basilica of Carthage, outside the old city to the north: nine aisles, a semicircular atrium and a rotunda over a martyr's crypt.",
@@ -5779,7 +5779,7 @@
      "note": "Coins are still a novelty: most trade at Carthage runs on silver weighed in the scales; Punic coins struck in Sicily pay the armies there."
     },
     "punic-150": {
-     "note": "The silver is debased and much of the gold went to Rome as war indemnity; the changers deal mostly in bronze and Roman denarii."
+     "note": "The silver is debased and much silver went to Rome as war indemnity; the changers deal mostly in bronze, with some Roman and Greek silver."
     }
    }
   },
@@ -6446,7 +6446,7 @@
     "landmarkId": "byrsa"
    },
    "effect": "none",
-   "text": "The French crusade against Tunis lands at Carthage and camps in the ruins in midsummer. Dysentery sweeps the army; King Louis IX dies, by Joinville's account saying 'Jerusalem'. His body is boiled to carry home. Six centuries later the French build a chapel and then a cathedral in his name on the Byrsa.",
+   "text": "The French crusade against Tunis lands at Carthage and camps in the ruins in midsummer. Dysentery sweeps the army; King Louis IX dies, reportedly murmuring 'Jerusalem'. His body is boiled to carry home. Six centuries later the French build a chapel and then a cathedral in his name on the Byrsa.",
    "sourceIds": [
     "joinville",
     "wiki-eighth-crusade"
@@ -6490,7 +6490,7 @@
     {
      "landmarkId": "byrsa",
      "title": "The temple of Eshmun",
-     "text": "Sixty steps to the summit and the city's richest temple. From here you see the whole of it, the harbours, the sea wall and the gardens of Megara: the view Scipio will have, in flames, three years from now.",
+     "text": "Sixty steps to the summit and the city's richest temple. From here you see the whole of it, the harbours, the sea wall and the gardens of Megara: the view Scipio will have, in flames, four years from now.",
      "when": "evening"
     }
    ],
@@ -6694,9 +6694,9 @@
   },
   {
    "id": "wiki-punic-architecture",
-   "title": "Punic architecture",
+   "title": "Ancient Carthage",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Punic_architecture"
+   "url": "https://en.wikipedia.org/wiki/Ancient_Carthage"
   },
   {
    "id": "victor-vita",

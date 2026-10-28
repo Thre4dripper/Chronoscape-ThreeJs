@@ -105,7 +105,7 @@ PERIODS = [
          houses=dict(title="Punic houses", text="Houses of two or more storeys round a central court with a cistern beneath, walls of rubble and mud brick on sandstone footings, white stucco, flat roofs, floors of red mortar studded with white stone chips (pavimentum punicum), and a narrow corridor from the street."),
          outskirts=dict(title="Megara: gardens and estates", text="North of the city, inside the walls, the Megara: market gardens, orchards and vineyards cut by hedges and irrigation channels, with country houses of the rich. Tombs on the hills of Juno and Byrsa's flanks.")),
     dict(id="punic-150", label="The Punic city, 150 BCE", year=-150, startYear=-264, endYear=-146,
-         summary="Beaten twice by Rome and stripped of its empire, Carthage is still rich: it paid off its war debt early, and Hannibal as suffete (196) reformed its finances. The circular naval harbour, probably dug in these decades, holds its 220 ship sheds; new houses climb the Byrsa slope. In 149 Rome declares war, and in 146 the city is taken street by street and burned.",
+         summary="Beaten twice by Rome and stripped of its empire, Carthage is still rich: it offered to pay off its war indemnity early, and Hannibal as suffete (196) reformed its finances. The circular naval harbour, probably dug in these decades, holds its 220 ship sheds; new houses climb the Byrsa slope. In 149 Rome declares war, and in 146 the city is taken street by street and burned.",
          population="perhaps 150,000–250,000; Strabo's 700,000 is not believed",
          feel="Shipwrights' mallets in the closed harbour, merchants' scales in the agora, and from 149 the thud of Roman rams against the walls.",
          style="courtyard",
@@ -242,7 +242,7 @@ WALLS = [
     dict(id="sea-wall", name="Sea wall", path=SEA_WALL, periods=PUNIC,
          blurb="A single wall along the shore. A stretch of it, of large sandstone blocks with towers and a gate, was excavated in the seaside quarter north of the harbours; it was rebuilt and thickened in the 4th–3rd centuries BCE."),
     dict(id="byrsa-wall", name="Walls of the Byrsa", path=BYRSA_WALL, closed=True, periods=PUNIC,
-         blurb="The citadel's own circuit, about two stades round in Orosius' figure, where the last defenders held out in 146 BCE."),
+         blurb="The citadel's own circuit, a little over two Roman miles round in Orosius' figure (probably too large), where the last defenders held out in 146 BCE."),
     dict(id="theodosian-wall", name="Wall of Theodosius II", path=THEODOSIAN, periods=LATE,
          blurb="Built in 425 against the Vandal threat, after the Roman city had stood unwalled for 450 years; restored by Justinian after 533. Its line is known from short stretches only and is drawn here in outline."),
 ]

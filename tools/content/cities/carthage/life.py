@@ -95,7 +95,7 @@ SPOTS = [
                     dict(hour=13, text="A stack of bronzes, the goddess's wreathed head on one side and a horse on the other, counted out in tens for a dyer's wages."),
                     dict(hour=19, text="He locks the gold staters in a box under the floor of his house and pays the night guard of the agora in bronze.")],
          variants={"punic-400": dict(note="Coins are still a novelty: most trade at Carthage runs on silver weighed in the scales; Punic coins struck in Sicily pay the armies there."),
-                   "punic-150": dict(note="The silver is debased and much of the gold went to Rome as war indemnity; the changers deal mostly in bronze and Roman denarii.")}),
+                   "punic-150": dict(note="The silver is debased and much silver went to Rome as war indemnity; the changers deal mostly in bronze, with some Roman and Greek silver.")}),
 
     dict(id="shipwright", name="Shipwright in the Cothon's sheds", kind="dock", latlon=UV(400, -470),
          activePeriods=P150,
@@ -261,7 +261,7 @@ EVENTS = [
          sourceIds=["wiki-carthage-698", "lancel"]),
     dict(id="louis-1270", title="Louis IX dies among the ruins", periodId="ruins-1600", date="25 August 1270", kind="disaster",
          at=dict(landmarkId="byrsa"), effect="none",
-         text="The French crusade against Tunis lands at Carthage and camps in the ruins in midsummer. Dysentery sweeps the army; King Louis IX dies, by Joinville's account saying 'Jerusalem'. His body is boiled to carry home. Six centuries later the French build a chapel and then a cathedral in his name on the Byrsa.",
+         text="The French crusade against Tunis lands at Carthage and camps in the ruins in midsummer. Dysentery sweeps the army; King Louis IX dies, reportedly murmuring 'Jerusalem'. His body is boiled to carry home. Six centuries later the French build a chapel and then a cathedral in his name on the Byrsa.",
          sourceIds=["joinville", "wiki-eighth-crusade"]),
 ]
 
@@ -273,7 +273,7 @@ STORIES = [
                 dict(spotId="tanit-coins", title="The agora", text="Money-changers, olive oil and wine from the Megara estates, Numidian horses for sale, and arguments about the Numidian king Masinissa, who is eating Carthage's lands piece by piece."),
                 dict(landmarkId="tophet", title="The Tophet", text="West of the harbours, the old precinct of Baal Hammon and Tanit, stelae thick as a forest. What happened here is still argued over; for the Carthaginians it was a place of vows kept."),
                 dict(landmarkId="hannibal-quarter", title="The new houses on the Byrsa", text="Up the slope, blocks of new courtyard houses: red floors studded with white chips, cisterns under the courts, stairs to the roofs."),
-                dict(landmarkId="byrsa", title="The temple of Eshmun", text="Sixty steps to the summit and the city's richest temple. From here you see the whole of it, the harbours, the sea wall and the gardens of Megara: the view Scipio will have, in flames, three years from now.", when="evening")]),
+                dict(landmarkId="byrsa", title="The temple of Eshmun", text="Sixty steps to the summit and the city's richest temple. From here you see the whole of it, the harbours, the sea wall and the gardens of Megara: the view Scipio will have, in flames, four years from now.", when="evening")]),
     dict(id="augustine-carthage", title="Augustine's Carthage", periodId="roman-200", sourceIds=["augustine-conf", "brown-augustine"],
          summary="The city of Augustine's student and teaching years, 371–383, as he remembered it in the Confessions: 'a cauldron of shameful loves seething and sounding all around me'.",
          steps=[dict(spotId="augustine-school", title="The school of rhetoric", text="Augustine, a provincial from Thagaste, studies and then teaches here: Cicero's speeches by heart, the 'wreckers' in the benches, and ambitions of a court career.", when="371–383"),
