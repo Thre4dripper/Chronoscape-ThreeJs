@@ -2380,19 +2380,19 @@
   "size": 158.43
  },
  "kaifeng/bian-wharves": {
-  "cx": 0.0,
+  "cx": -0.04,
   "cy": -0.0,
-  "size": 251.22
+  "size": 251.31
  },
  "kaifeng/dragon-pavilion": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 214.37
+  "cy": 0.03,
+  "size": 214.43
  },
  "kaifeng/east-water-gate": {
-  "cx": 0.28,
+  "cx": 0.26,
   "cy": -0.0,
-  "size": 146.02
+  "size": 146.06
  },
  "kaifeng/fan-pagoda": {
   "cx": 0.0,
@@ -2430,24 +2430,24 @@
   "size": 202.18
  },
  "kaifeng/rainbow-bridge": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
   "size": 84.16
  },
  "kaifeng/song-palace": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 403.95
+  "cy": 0.07,
+  "size": 404.09
  },
  "kaifeng/south-gate": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 182.84
+  "cx": -0.03,
+  "cy": -0.03,
+  "size": 182.9
  },
  "kaifeng/south-gate-ming": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 202.04
+  "cx": -0.03,
+  "cy": -0.03,
+  "size": 202.0
  },
  "kaifeng/synagogue": {
   "cx": 0.0,
@@ -2475,12 +2475,12 @@
   "size": 433.95
  },
  "kaifeng/zhouqiao": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": 0.0,
   "size": 87.74
  },
  "kaifeng/zhouqiao-ming": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
   "size": 89.13
  },
