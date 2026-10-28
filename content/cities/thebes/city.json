@@ -160,7 +160,7 @@
     "radius": 170,
     "label": false,
     "id": "deir-el-bahari-cliffs",
-    "blurb": "The sheer amphitheatre of cliffs, 300 metres high, that frames the temples of Mentuhotep II and Hatshepsut; Hathor, as a cow, was believed to emerge from the mountain here."
+    "blurb": "The sheer amphitheatre of limestone cliffs that frames the temples of Mentuhotep II and Hatshepsut; Hathor, as a cow, was believed to emerge from the mountain here."
    },
    {
     "name": "Ridge between Deir el-Bahari and the Valley of the Kings",
@@ -2589,7 +2589,7 @@
     ]
    },
    {
-    "text": "Ta Set Maat",
+    "text": "Set Maat",
     "position": [
      351,
      1664
@@ -2664,7 +2664,7 @@
    "year": -1950,
    "startYear": -2055,
    "endYear": -1550,
-   "summary": "A provincial town of Upper Egypt whose princes, the Mentuhoteps, reunited the country about 2040 BCE. Under the 12th dynasty Senusret I builds the first stone temple of Amun at Karnak and the White Chapel for his jubilee; the court soon moves north, but Thebes keeps its god. Mud-brick town, limestone temples, Mentuhotep's terraced tomb-temple under the western cliffs.",
+   "summary": "A provincial town of Upper Egypt whose princes, the Mentuhoteps, reunited the country about 2040 BCE. Under the 12th dynasty Senusret I builds the first large stone temple of Amun at Karnak and the White Chapel for his jubilee; the court soon moves north, but Thebes keeps its god. Mud-brick town, limestone temples, Mentuhotep's terraced tomb-temple under the western cliffs.",
    "population": "perhaps 10,000–20,000",
    "feel": "Mud and dung smoke at dawn, oxen on the threshing floors, a new white limestone shrine gleaming over the brick roofs, and the cliffs of the west turning pink at sunset.",
    "style": "courtyard",
@@ -2702,7 +2702,7 @@
    "year": -1250,
    "startYear": -1390,
    "endYear": -1070,
-   "summary": "The Thebes of the 'Temples of Karnak and Luxor': Amenhotep III's colonnades and colossi, and after Akhenaten's heresy the restored cult of Amun, whose temple now owns a vast share of Egypt's land. Ramesses II finishes the Great Hypostyle Hall, adds Luxor's pylon, obelisks and court, and builds the Ramesseum. The kings live in the north; Thebes is the city of the gods and the dead.",
+   "summary": "The Thebes of the great temples: Amenhotep III's colonnades and colossi, and after Akhenaten's heresy the restored cult of Amun, whose temple now owns a vast share of Egypt's land. Ramesses II finishes the Great Hypostyle Hall, adds Luxor's pylon, obelisks and court, and builds the Ramesseum. The kings live in the north; Thebes is the city of the gods and the dead.",
    "population": "perhaps 50,000–80,000",
    "feel": "Painted pylons with fluttering pennants on their flagstaffs, incense and roasting meat at the temple gates, ferries crowded with workmen, the clack of looms in the temple workshops.",
    "style": "courtyard",
@@ -2721,7 +2721,7 @@
    "year": -600,
    "startYear": -1069,
    "endYear": -333,
-   "summary": "After the New Kingdom, Thebes is ruled by the high priests of Amun, then by the God's Wives of Amun: royal princesses, Kushite and then Saite, who govern the city as the god's consorts. Taharqa builds his kiosk at Karnak; the Assyrians sack Thebes in 664 BCE. A smaller city of priests and officials, with tombs for the God's Wives at Medinet Habu.",
+   "summary": "After the New Kingdom, Thebes is ruled by the high priests of Amun, then by the God's Wives of Amun: royal princesses, Kushite and then Saite, who govern the city as the god's consorts. Taharqa builds his kiosk at Karnak; the Assyrians sack Thebes in 664 or 663 BCE. A smaller city of priests and officials, with tombs for the God's Wives at Medinet Habu.",
    "population": "perhaps 20,000–40,000",
    "feel": "Bald-headed priests with their temple tallies, Nubian soldiers at the gates, scorched blocks from the Assyrian sack in the rubble, brick tower-tombs of the officials on the west bank.",
    "style": "courtyard",
@@ -2829,7 +2829,7 @@
     },
     "late-period-600": {
      "confidence": "reconstruction",
-     "note": "Taharqa's kiosk of ten columns stands in the forecourt and the Bubastite kings' portal on its south side. The great brick enclosure and the unfinished first pylon are 30th-dynasty work, shown here as complete by about 350 BCE.",
+     "note": "Taharqa's kiosk of ten columns stands in the forecourt and the Bubastite kings' portal on its south side. The model also shows the great brick enclosure and the unfinished first pylon, usually dated to the 30th dynasty, about 350 BCE.",
      "model": {
       "glb": "models/thebes/karnak-late.glb",
       "fallback": {
@@ -3165,10 +3165,10 @@
      "note": "The old town is built over as the temple grows; houses of priests and craftsmen and the workshops of Amun's estate stand on the mound."
     },
     "ramesside-1250": {
-     "note": "A crowded mound of houses, bakeries and stores east of the temple; Akhenaten's great temples to the Aten stood just east of here until Horemheb pulled them down."
+     "note": "A crowded mound of houses, bakeries and stores east of the temple; Akhenaten's great temples to the Aten stood just east of here until Horemheb and his successors pulled them down."
     },
     "late-period-600": {
-     "note": "Houses rebuilt again and again on the rubble, each storey higher; the mound shows burned layers of the Assyrian sack of 664 BCE."
+     "note": "Houses rebuilt again and again on the rubble, each rebuilding higher than the last, the city recovering after the Assyrian sack of 664 or 663 BCE."
     },
     "roman-200": {
      "note": "A village of mud-brick houses with dovecotes on top of two thousand years of ruins, the 'Great Thebes' Strabo found broken into villages."
@@ -3506,7 +3506,7 @@
      "note": "Hatshepsut's 'Holiest of Holies' rises beside Mentuhotep's temple: three terraces joined by ramps, colonnades carved with her divine birth and the Punt expedition, the sanctuary cut into the cliff."
     },
     "ramesside-1250": {
-     "note": "Thutmose III has hacked out Hatshepsut's figures and names; Ramesses II's men repair Akhenaten's damage. The temples still receive Amun at the Valley Festival."
+     "note": "Thutmose III has hacked out Hatshepsut's figures and names; Ramesside restorers have repaired Akhenaten's damage to Amun's images. The temples still receive Amun at the Valley Festival."
     },
     "late-period-600": {
      "note": "Priests of the 21st–25th dynasties are buried in tombs in the temple courts; the terraces are partly buried by rockfall and sand."
@@ -3517,7 +3517,7 @@
    },
    "summary": "Hatshepsut's terraced temple under the cliffs of the west bank, beside the older tomb-temple of Mentuhotep II, aligned across the river with Karnak.",
    "details": [
-    "Senenmut is credited with the queen's temple, begun about 1479 BCE: ramps rise through three terraces fronted by square pillars to a court and a sanctuary cut into the rock. The reliefs show her divine birth and a trading voyage to Punt. Mentuhotep II's temple of about 2000 BCE beside it inspired the design.",
+    "Senenmut is traditionally credited with the queen's temple, begun early in her reign: ramps rise through three terraces fronted by square pillars to a court and a sanctuary cut into the rock. The reliefs show her divine birth and a trading voyage to Punt. Mentuhotep II's temple of about 2000 BCE beside it inspired the design.",
     "The miniature shows Hatshepsut's terraces, ramps and colonnades, the Hathor and Anubis chapels and the upper court, with Mentuhotep's temple to the south and the cliffs behind. Gardens, sphinxes and statues are simplified."
    ],
    "confidence": "documented",
@@ -3586,7 +3586,7 @@
    },
    "summary": "The wadi behind the western cliffs where the kings of the New Kingdom, from about 1500 to 1070 BCE, were buried in tombs cut deep into the rock.",
    "details": [
-    "Some 64 tombs are known, from small pits to corridors over 100 m long, decorated with the books of the underworld. Built by the workmen of Deir el-Medina and guarded by the necropolis police, nearly all were robbed in antiquity; Tutankhamun's, found in 1922, is the exception.",
+    "Over sixty tombs are known, from small pits to corridors over 100 m long, decorated with the books of the underworld. Built by the workmen of Deir el-Medina and guarded by the necropolis police, nearly all were robbed in antiquity; Tutankhamun's, found in 1922 largely intact, is the exception.",
     "The miniature shows a stretch of the valley floor between rock slopes, the doorways of several tombs with their spoil heaps, the guards' and workmen's huts and a path. The valley is compressed to fit."
    ],
    "confidence": "documented",
@@ -3852,7 +3852,7 @@
     },
     "late-period-600": {
      "confidence": "reconstruction",
-     "note": "An earthquake about 1200 BCE brought the temple down, and Merenptah and later kings quarried it. Only the colossi stand among stumps of walls and fallen statues.",
+     "note": "Quarried by Merenptah and later kings and probably shaken down by an earthquake about 1200 BCE, the temple is gone. Only the colossi stand among stumps of walls and fallen statues.",
      "model": {
       "glb": "models/thebes/memnon-ruin.glb",
       "fallback": {
@@ -3881,7 +3881,7 @@
    },
    "summary": "Two seated colossi of Amenhotep III, 18 m tall, before the ruins of his mortuary temple, the largest in Thebes; the Greeks called the northern one Memnon and came to hear it sing.",
    "details": [
-    "Amenhotep III's temple (about 1360 BCE) stretched some 600 m back from the colossi through three pylons to a great sun court, its pavement flooded each year by the Nile. It fell in an earthquake about a century later and was quarried. The colossi, carved from single blocks of quartzite, were visited by Greek and Roman tourists who carved over a hundred poems and names on their legs.",
+    "Amenhotep III's temple (about 1360 BCE) stretched some 600 m back from the colossi through three pylons to a great sun court, its pavement flooded each year by the Nile. It was quarried by later kings and probably brought down by an earthquake about 1200 BCE. The colossi, carved from single blocks of quartzite, were visited by Greek and Roman tourists who carved over a hundred poems and names on their legs.",
     "The miniature shows the colossi, the pylons, the processional way with jackal sphinxes and the peristyle court with standing statues; the temple is compressed in length. The ruin variant shows the later state."
    ],
    "confidence": "documented",
@@ -4030,7 +4030,7 @@
      "note": "An empty side valley under Qurnet Murai."
     },
     "hatshepsut-1470": {
-     "note": "The walled village founded under Thutmose I for the royal tomb builders is still small, a few dozen houses on a single street."
+     "note": "The walled village of the royal tomb builders, probably founded under Thutmose I, is still smaller than its later extent, its houses along a single street."
     },
     "ramesside-1250": {
      "note": "'The Place of Truth': some 68 houses of the tomb builders inside a wall, their chapels and tombs with small pyramids on the slopes."
@@ -4106,7 +4106,7 @@
    },
    "summary": "The walled village of the craftsmen who cut and painted the royal tombs, home for four centuries to some 60–70 families who left thousands of written ostraca.",
    "details": [
-    "Founded about 1500 BCE and enlarged under the Ramesside kings, the village had houses of four rooms in a row along one main street, a kitchen at the back and stairs to the roof. Its literate workmen left letters, accounts, laundry lists, love poems and records of court cases on flakes of limestone and pottery.",
+    "Probably founded under Thutmose I about 1500 BCE and enlarged under the Ramesside kings, the village had houses of four rooms in a row along one main street, a kitchen at the back and stairs to the roof. Its literate workmen left letters, accounts, laundry lists, love poems and records of court cases on flakes of limestone and pottery.",
     "The miniature shows the enclosure wall, the houses with their roofs and courts, the main street, chapels and the workmen's tombs with small pyramids on the slope. House plans are simplified."
    ],
    "confidence": "documented",
@@ -4225,7 +4225,7 @@
    ],
    "variants": {
     "roman-200": {
-     "note": "Now a village market with coins: Roman bronze drachmas, and Greek spoken beside Egyptian."
+     "note": "Now a village market with coins, the bronze and billon money of Roman Alexandria, and Greek spoken beside Egyptian."
     }
    }
   },
@@ -4246,7 +4246,7 @@
    ],
    "summary": "A yard of wheels, drying racks and a round kiln where Nile mud and desert marl were turned into beer jars, bread moulds, bowls and the big storage vessels of every household.",
    "details": [
-    "Potters dug Nile silt for everyday red wares and finer marl clay from the desert. From the Middle Kingdom the wheel was turned with one hand while the other shaped the pot; bread moulds were made by the thousand for the temple bakeries. The yard's place here is an interpretation."
+    "Potters dug Nile silt for everyday red wares and finer marl clay from the desert. The potter's wheel, known since the Old Kingdom, was turned by hand, often with one hand while the other shaped the pot; bread moulds were made by the thousand for the temple bakeries. The yard's place here is an interpretation."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -4284,7 +4284,7 @@
    ],
    "summary": "The workshops that made the god's daily bread and beer: thousands of loaves and jars a day, offered on Amun's altars and then paid out as wages to his priests and staff.",
    "details": [
-    "Temple bakeries and breweries stood beside the precincts; at Karnak, Late Period bakeries with rows of ovens have been excavated east of the sacred lake. Bread was baked in conical clay moulds; beer was brewed from barley or emmer bread mashed with malt, and drunk through straws to strain the husks."
+    "Temple bakeries and breweries stood beside the precincts; at Karnak, ovens and bread moulds have been excavated near the sacred lake. Bread was baked in conical clay moulds. Beer was brewed from barley or emmer; microscopy of residues suggests it was made from malt and cooked grain rather than, as long assumed, from bread."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -4299,7 +4299,7 @@
     },
     {
      "hour": 10,
-     "text": "Brewers crumble half-baked loaves into vats with malt and water; the sweet, sour smell fills the yard, and a scribe tallies jars for the god's table."
+     "text": "Brewers mix cooked grain and malt with water in big vats; the sweet, sour smell fills the yard, and a scribe tallies jars for the god's table."
     },
     {
      "hour": 17,
@@ -4361,7 +4361,7 @@
    ],
    "summary": "Rows of domed silos and storehouses by the temple harbour, where the grain of Amun's estates was measured in, recorded and paid out.",
    "details": [
-    "By the reign of Ramesses III the temple of Amun owned perhaps a fifth of Egypt's farmland, worked by tenants who paid grain to its granaries. Tomb paintings show scribes recording each measure as workers fill domed silos from the top by ladders. The granaries' site here is an interpretation."
+    "By the reign of Ramesses III the temple of Amun held a large share of Egypt's farmland, perhaps a fifth by modern estimates, worked by tenants who paid grain to its granaries. Tomb paintings show scribes recording each measure as workers fill domed silos from the top by ladders. The granaries' site here is an interpretation."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -4397,7 +4397,7 @@
    ],
    "summary": "The kenbet, the court of the city's officials, which in about 1110 BCE heard the confessions of the men who had robbed the royal tombs.",
    "details": [
-    "The Abbott and Leopold-Amherst papyri record the inquiries of Ramesses IX's sixteenth year, when the vizier Khaemwaset sat with the mayors and priests to examine accused robbers; another series follows under Ramesses XI. Where the court sat is uncertain: the records name a place by a temple gate, and this placing is an interpretation."
+    "The Abbott and Leopold-Amherst papyri record the inquiries of about Ramesses IX's sixteenth year, when the vizier Khaemwaset sat with the mayors and priests to examine accused robbers; another series follows under Ramesses XI. Where the court sat is uncertain: the records name a place by a temple gate, and this placing is an interpretation."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -4465,15 +4465,13 @@
     4305
    ],
    "activePeriods": [
-    "middle-kingdom-1950",
-    "hatshepsut-1470",
     "ramesside-1250",
     "late-period-600",
     "roman-200"
    ],
    "summary": "A walled vegetable garden watered by a shaduf, a counterweighted pole and bucket, with beds of onions, lettuce, leeks and cucumbers under date palms.",
    "details": [
-    "The shaduf appears in Theban tomb paintings from the time of Amenhotep III: a pole on a post, a bucket on one end, a lump of mud as counterweight on the other, lifting water from a canal into channels. Gardens were watered by hand in the dry months after the flood had gone."
+    "The shaduf appears in Egyptian paintings only from the later 18th dynasty, in the 14th century BCE: a pole on a post, a bucket on one end, a lump of mud as counterweight on the other, lifting water from a canal into channels. Gardens were watered by hand in the dry months after the flood had gone."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4494,7 +4492,11 @@
      "text": "The pole creaks a few more times before dark; goats are shut out of the beds with a fence of thorns."
     }
    ],
-   "variants": {}
+   "variants": {
+    "hatshepsut-1470": {
+     "note": "Gardens here are still watered by men carrying pairs of pots on a yoke; the shaduf is not yet in use in Egypt."
+    }
+   }
   },
   {
    "id": "opet-landing",
@@ -4546,7 +4548,7 @@
    ],
    "summary": "A round bath house in the Greek style with individual hip-bath tubs in a ring, excavated in 2007 in front of Karnak's first pylon.",
    "details": [
-    "Built in the Ptolemaic period and later enlarged, the baths had a circular room (tholos) with seats for bathers, a heating system and mosaic floors. They were used into Roman times by the townspeople and pilgrims who came to Karnak."
+    "Built in the Ptolemaic period and later enlarged, the baths had a circular room (tholos) with individual seated tubs for bathers and a heating system. They were used into Roman times by the townspeople and pilgrims who came to Karnak."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4563,7 +4565,7 @@
     },
     {
      "hour": 19,
-     "text": "The furnace boy rakes out the ashes; the floor mosaic gleams wet in lamplight as the last bathers leave."
+     "text": "The furnace boy rakes out the ashes; the wet floor gleams in lamplight as the last bathers leave."
     }
    ],
    "variants": {}
@@ -4659,7 +4661,7 @@
    ],
    "summary": "A school by the Ramesseum where boys learned hieratic by copying classic texts, maxims and model letters onto ostraca and writing boards.",
    "details": [
-    "Hundreds of schoolboy exercises from the Ramesseum and Deir el-Medina copy texts like the Satire of the Trades, which praises the scribe's life over every other: 'Be a scribe! It saves you from labour.' Students were beaten for laziness; teachers were often scribes of the temple."
+    "Hundreds of schoolboy exercises from the Ramesseum and Deir el-Medina copy texts like the Satire of the Trades, which praises the scribe's life over every other; model letters urge 'Be a scribe! It saves you from toil.' Students were beaten for laziness. A school at the Ramesseum is inferred from exercises found there."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4771,7 +4773,7 @@
    ],
    "summary": "The legs and base of the northern Colossus of Memnon, covered with over a hundred Greek and Latin inscriptions by visitors who came at dawn to hear it sing.",
    "details": [
-    "From the reign of Nero to the early 3rd century CE prefects, soldiers, poets and tourists carved their names, the date and what they heard. Some wrote verses; the poet Julia Balbilla's epigrams for Hadrian's visit in 130 CE are among them. After the repair of about 199 CE the statue fell silent."
+    "From the early 1st century to the early 3rd century CE prefects, soldiers, poets and tourists carved their names, the date and what they heard. Some wrote verses; the poet Julia Balbilla's epigrams for Hadrian's visit in 130 CE are among them. After the repair of about 199 CE the statue fell silent."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4827,7 +4829,7 @@
     "landmarkId": "karnak"
    },
    "effect": "construction",
-   "text": "For his thirty-year jubilee Senusret I built a limestone kiosk at Karnak to receive Amun's barque, its pillars carved with the king before the god and a list of Egypt's provinces. Amenhotep III later dismantled it as fill for his third pylon, which saved it: Henri Chevrier recovered the blocks in 1927–1930 and rebuilt it.",
+   "text": "For his thirty-year jubilee Senusret I built a limestone kiosk at Karnak to receive Amun's barque, its pillars carved with the king before the god and a list of Egypt's provinces. Amenhotep III later dismantled it as fill for his third pylon, which saved it: Henri Chevrier recovered the blocks from 1927 and rebuilt it in the 1930s.",
    "sourceIds": [
     "wiki-white-chapel",
     "lacau-chevrier-white"
@@ -4843,7 +4845,7 @@
     "landmarkId": "deir-el-bahari"
    },
    "effect": "procession",
-   "text": "Hatshepsut's fleet sailed down the Red Sea to Punt, somewhere on the African coast, and came back with myrrh, ebony, ivory, gold, baboons and living incense trees in baskets. The reliefs of her temple show the Puntite houses on stilts and their queen; the incense trees, it is said, were planted on the temple terraces.",
+   "text": "Hatshepsut's fleet sailed down the Red Sea to Punt, somewhere on the African coast, and came back with myrrh, ebony, ivory, gold, baboons and living incense trees in baskets. The reliefs of her temple show the Puntite houses on stilts and their queen; tree pits in front of the temple may once have held the incense trees.",
    "sourceIds": [
     "wiki-punt",
     "naville-deir-el-bahari",
@@ -4854,13 +4856,13 @@
    "id": "hatshepsut-obelisks",
    "title": "Hatshepsut raises two obelisks",
    "periodId": "hatshepsut-1470",
-   "date": "c. 1457 BCE (year 16)",
+   "date": "c. 1463 BCE (year 16)",
    "kind": "construction",
    "at": {
     "landmarkId": "karnak"
    },
    "effect": "construction",
-   "text": "Two granite obelisks, about 29.5 m high, quarried at Aswan in seven months by her inscription's account, were set up in the hall between Thutmose I's pylons, their tips sheathed in electrum to catch the sun. Thutmose III later walled them in to the roof, which is why one still stands, its upper inscription crisp.",
+   "text": "Two granite obelisks, about 29.5 m high, quarried at Aswan in seven months by her inscription's account, were set up in the hall between Thutmose I's pylons, their tips sheathed in electrum to catch the sun. Thutmose III later masked them behind a stone wall, which protected the one that still stands.",
    "sourceIds": [
     "wiki-hatshepsut",
     "blyth-karnak"
@@ -4960,7 +4962,7 @@
     "spotId": "tomb-robbers-court"
    },
    "effect": "crowd",
-   "text": "Paser, mayor of Thebes, accused Paweraa, mayor of the west bank, of letting royal tombs be robbed. A commission inspected ten royal tombs and found one king's tomb broken into. A stonemason, Amenpanefer, confessed how his gang burned the coffins and shared the gold. Most of the accused were convicted; robbing went on.",
+   "text": "Paser, mayor of Thebes, accused Paweraa, mayor of the west bank, of letting royal tombs be robbed. A commission inspected ten royal tombs and found only one, Sobekemsaf II's, broken into, and Paser's charges were largely dismissed. Yet a stonemason, Amenpanefer, confessed how his gang set fire to the coffins and shared the gold. The robbing went on.",
    "sourceIds": [
     "wiki-abbott-papyrus",
     "peet-robberies"
@@ -5106,7 +5108,7 @@
     {
      "landmarkId": "ramesseum",
      "title": "Wages in grain",
-     "text": "At the month's end porters bring the crew's wages from the temple stores: emmer for bread, barley for beer, with fish, vegetables and firewood. When rations come late, there will be trouble."
+     "text": "At the month's end porters bring the crew's wages, probably from the Ramesseum's stores: emmer for bread, barley for beer, with fish, vegetables and firewood. When rations come late, there will be trouble."
     },
     {
      "spotId": "scribal-school",
@@ -5317,9 +5319,9 @@
   },
   {
    "id": "wiki-hypostyle",
-   "title": "Great Hypostyle Hall of Karnak",
+   "title": "Great Hypostyle Hall",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Great_Hypostyle_Hall_of_Karnak"
+   "url": "https://en.wikipedia.org/wiki/Great_Hypostyle_Hall"
   },
   {
    "id": "wiki-white-chapel",
@@ -5377,9 +5379,9 @@
   },
   {
    "id": "wiki-mentuhotep-temple",
-   "title": "Mortuary Temple of Mentuhotep II",
+   "title": "Mentuhotep II",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Mortuary_Temple_of_Mentuhotep_II"
+   "url": "https://en.wikipedia.org/wiki/Mentuhotep_II"
   },
   {
    "id": "wiki-valley-kings",
@@ -5469,10 +5471,10 @@
   },
   {
    "id": "vogelsang-kenamun",
-   "title": "The Theban tomb of Kenamun (TT 162): the riverside market scene",
+   "title": "A Syrian Trading Venture to Egypt",
    "author": "Norman de Garis Davies and R. O. Faulkner",
    "year": 1947,
-   "note": "Journal of Egyptian Archaeology 33"
+   "note": "Journal of Egyptian Archaeology 33; the market scene in the tomb of Kenamun (TT 162)"
   },
   {
    "id": "caminos-nitocris",
@@ -5543,9 +5545,9 @@
   },
   {
    "id": "wiki-strike",
-   "title": "Turin Strike Papyrus",
+   "title": "Deir el-Medina strikes",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Turin_Strike_Papyrus"
+   "url": "https://en.wikipedia.org/wiki/Deir_el-Medina_strikes"
   },
   {
    "id": "wiki-gods-wife",
@@ -5603,7 +5605,7 @@
   },
   {
    "id": "wiki-roman-bath-karnak",
-   "title": "Karnak: the Ptolemaic baths at the quay",
+   "title": "Karnak",
    "author": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Karnak"
   }
