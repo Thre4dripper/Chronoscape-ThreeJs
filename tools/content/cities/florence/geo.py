@@ -53,7 +53,7 @@ PERIODS = [
 SOURCES = [
     dict(id="wiki-florence-history", title="History of Florence", author="Wikipedia", url="https://en.wikipedia.org/wiki/History_of_Florence"),
     dict(id="wiki-florentia", title="Florentia (Roman city)", author="Wikipedia", url="https://en.wikipedia.org/wiki/History_of_Florence#Roman_origins"),
-    dict(id="wiki-walls-florence", title="Walls of Florence", author="Wikipedia", url="https://en.wikipedia.org/wiki/Walls_of_Florence"),
+    dict(id="wiki-walls-florence", title="Walls of Florence", author="Wikipedia", url="https://it.wikipedia.org/wiki/Mura_di_Firenze"),
     dict(id="wiki-arno", title="Arno", author="Wikipedia", url="https://en.wikipedia.org/wiki/Arno"),
     dict(id="wiki-mugnone", title="Mugnone", author="Wikipedia", url="https://en.wikipedia.org/wiki/Mugnone"),
     dict(id="wiki-cascine", title="Parco delle Cascine", author="Wikipedia", url="https://en.wikipedia.org/wiki/Parco_delle_Cascine"),
@@ -64,7 +64,7 @@ SOURCES = [
     dict(id="davidsohn", title="Storia di Firenze", author="Robert Davidsohn", year="1896–1927"),
     dict(id="goldthwaite", title="The Economy of Renaissance Florence", author="Richard A. Goldthwaite", year=2009),
     dict(id="fanelli", title="Firenze: architettura e città", author="Giovanni Fanelli", year=1973),
-    dict(id="catena-map", title="Veduta della Catena (view of Florence)", author="attributed to Francesco Rosselli", year="c. 1471–82", url="https://en.wikipedia.org/wiki/Map_of_the_Chain"),
+    dict(id="catena-map", title="Veduta della Catena (view of Florence)", author="attributed to Francesco Rosselli", year="c. 1471–82", url="https://it.wikipedia.org/wiki/Pianta_della_Catena"),
     dict(id="buonsignori", title="Nova pulcherrimae civitatis Florentiae topographia", author="Stefano Bonsignori", year=1584),
 ]
 
@@ -153,7 +153,7 @@ ROADS = [
          blurb="From the cathedral to the church of the Servites at the Santissima Annunziata, lined with the palaces of their patrons."),
     dict(id="borgo-la-croce", name="Borgo la Croce", periods=LATER, width=8, style="major",
          path=[(43.7718, 11.2610), (43.7716, 11.2650), (43.7714, 11.2690), (43.7713, 11.2717), (43.7714, 11.2780)],
-         blurb="East through Sant'Ambrogio to the Porta alla Croce and the road to Arezzo; condemned men went out this way to the gallows at the Porta alla Giustizia."),
+         blurb="East through Sant'Ambrogio to the Porta alla Croce and the road to Arezzo; condemned men were led out further south, along the Via de' Malcontenti, to the gallows at the Porta alla Giustizia."),
     dict(id="ghibellina", name="Via Ghibellina", periods=LATER, width=7, style="minor",
          path=[(43.7702, 11.2585), (43.7703, 11.2630), (43.7705, 11.2680)]),
     dict(id="benci", name="Via de' Benci", periods=LATER, width=7, style="minor",
@@ -340,9 +340,9 @@ DISTRICTS = [
     dict(id="santa-croce-q", name="Quartiere di Santa Croce", periods=LATE, polygon=[(43.7712, 11.2541), (43.7718, 11.2610), (43.7713, 11.2717), (43.7646, 11.2716), (43.7659, 11.2596), (43.7684, 11.2540)],
          description="The south-east quarter, from the Piazza della Signoria to the Franciscans: the dyers and wool-workers of the Corso dei Tintori, the Bargello and the Stinche prison."),
     dict(id="san-giovanni-q", name="Quartiere di San Giovanni", periods=LATE, polygon=[(43.7714, 11.2541), (43.7733, 11.2543), (43.7853, 11.2593), (43.7812, 11.2668), (43.7713, 11.2717), (43.7718, 11.2610)],
-         description="The quarter of the Baptistery: the cathedral, the Medici palace on Via Larga, San Marco and the Annunziata with the Innocenti."),
+         description="The quarter of the Baptistery: the cathedral, San Lorenzo and the Medici palace on Via Larga, San Marco and the Annunziata with the Innocenti."),
     dict(id="santa-maria-novella-q", name="Quartiere di Santa Maria Novella", periods=LATE, polygon=[(43.7714, 11.2541), (43.7733, 11.2543), (43.7853, 11.2593), (43.7803, 11.2462), (43.7748, 11.2368), (43.7707, 11.2460)],
-         description="The north-west quarter: the Dominicans, San Lorenzo, the Rucellai and Strozzi palaces, the Umiliati at Ognissanti and the meadow of the Prato."),
+         description="The north-west quarter: the Dominicans, the Rucellai and Strozzi palaces, the Umiliati at Ognissanti and the meadow of the Prato."),
 ]
 
 LABELS = [

@@ -760,7 +760,7 @@
     "style": "major",
     "labelled": false,
     "id": "borgo-la-croce",
-    "blurb": "East through Sant'Ambrogio to the Porta alla Croce and the road to Arezzo; condemned men went out this way to the gallows at the Porta alla Giustizia.",
+    "blurb": "East through Sant'Ambrogio to the Porta alla Croce and the road to Arezzo; condemned men were led out further south, along the Via de' Malcontenti, to the gallows at the Porta alla Giustizia.",
     "periods": [
      "comune-1300",
      "medici-1490",
@@ -3776,7 +3776,7 @@
       1908
      ]
     ],
-    "description": "The quarter of the Baptistery: the cathedral, the Medici palace on Via Larga, San Marco and the Annunziata with the Innocenti.",
+    "description": "The quarter of the Baptistery: the cathedral, San Lorenzo and the Medici palace on Via Larga, San Marco and the Annunziata with the Innocenti.",
     "periods": [
      "medici-1490",
      "grand-ducal-1600"
@@ -3811,7 +3811,7 @@
       2030
      ]
     ],
-    "description": "The north-west quarter: the Dominicans, San Lorenzo, the Rucellai and Strozzi palaces, the Umiliati at Ognissanti and the meadow of the Prato.",
+    "description": "The north-west quarter: the Dominicans, the Rucellai and Strozzi palaces, the Umiliati at Ognissanti and the meadow of the Prato.",
     "periods": [
      "medici-1490",
      "grand-ducal-1600"
@@ -4557,7 +4557,7 @@
     "comune-1300": {
      "name": "Ponte Vecchio (the old bridge)",
      "confidence": "reconstruction",
-     "note": "The bridge rebuilt in stone after the flood of 1177, with timber shops; a statue said to be of Mars stood at its north end, where Buondelmonte was murdered in 1216. Lost in 1333.",
+     "note": "The bridge rebuilt in stone in the 12th century after a flood, with timber shops; a statue said to be of Mars stood at its north end, where Buondelmonte was murdered in 1216. Lost in 1333.",
      "model": {
       "glb": "models/florence/ponte-vecchio-old.glb",
       "fallback": {
@@ -4697,7 +4697,7 @@
    "variants": {
     "comune-1300": {
      "name": "Ponte Rubaconte",
-     "note": "Built in 1237 under the podestà Rubaconte da Mandello, the longest and the oldest standing bridge; it survived the flood of 1333 that took the others."
+     "note": "Built in 1237 under the podestà Rubaconte da Mandello, the longest bridge of the city; it will survive the flood of 1333 that takes the others."
     },
     "medici-1490": {
      "name": "Ponte alle Grazie",
@@ -4903,7 +4903,7 @@
     },
     "medici-1490": {
      "name": "Palazzo del Podestà",
-     "note": "The court of the podestà. In 1478 the Pazzi conspirators were hanged from its windows and painted on its walls in effigy by Botticelli, as the custom was for traitors."
+     "note": "The court of the podestà. After the Pazzi conspiracy of 1478 Botticelli painted the hanged conspirators in effigy on its walls, as the custom was for traitors."
     },
     "grand-ducal-1600": {
      "name": "Bargello",
@@ -4978,7 +4978,7 @@
      "note": "Rebuilt from 1337 as grain market and granary; the arches were walled up about 1380 to make a church. The guilds set their patron saints in its niches: Donatello's Saint George, Ghiberti's Baptist."
     },
     "grand-ducal-1600": {
-     "note": "Unchanged. The upper storeys still keep the city's emergency grain, sent down through chutes in the piers."
+     "note": "Unchanged outside. In 1569 Cosimo I turned the upper floors into the archive of notarial contracts; chutes in the piers recall the old granary."
     }
    },
    "summary": "A tall square block of stone, granary above and church below, ringed with fourteen niches where the guilds set statues of their patron saints by Ghiberti, Donatello and Verrocchio.",
@@ -5469,7 +5469,7 @@
      }
     }
    },
-   "summary": "The palace of Luca Pitti, begun about 1458, a cliff of huge rough-hewn blocks with seven tall arched bays on each floor; from 1550 the palace of the Medici grand dukes.",
+   "summary": "The palace of Luca Pitti, begun about 1458, a cliff of huge rough-hewn blocks with seven tall arched bays on each floor; from 1550 the palace of the Medici dukes, later grand dukes.",
    "details": [
     "The original block had three storeys of seven bays in massive rustication. Under Cosimo I Ammannati added the courtyard behind, its three orders of rusticated columns opening onto the Boboli. The façade was stretched to thirteen bays in the 1620s and given its long wings later.",
     "The 1490 model shows Pitti's seven-bay block with its rough rustication, terraces and central door. The 1600 model adds Ammannati's courtyard and wings, the grotto terrace and the start of the Boboli amphitheatre behind."
@@ -5637,12 +5637,12 @@
      "note": "Vineyards and the walls of 1333 on the crest of the hill above the Boboli."
     },
     "grand-ducal-1600": {
-     "note": "Built 1590–95 by Bernardo Buontalenti for Ferdinando I on the crest above the Boboli, a star fort guarding the Pitti and the treasury, with a villa (palazzina) at its heart."
+     "note": "Built 1590–95 by Bernardo Buontalenti for Ferdinando I on the crest above the Boboli, a star fort guarding the Pitti, with a villa (palazzina) at its heart."
     }
    },
    "summary": "The star fort on the hill above the Boboli, built by Buontalenti for Ferdinando I in 1590–95, with the grand duke's palazzina rising from the middle of its bastions.",
    "details": [
-    "The fort follows the ridge in an elongated star of bastions faced with stone, reached from the Boboli by a private path. Inside stands a three-storey villa with a loggia on top, older than the fort and built into it, with the Medici treasury in its vaults.",
+    "The fort follows the ridge in an elongated star of bastions faced with stone, reached from the Boboli by a private path. Inside stands a three-storey villa with a loggia on top; the Medici are said to have kept part of their treasure in its vaults.",
     "The model shows the bastioned walls on the slope, the palazzina with its loggia, and the gate. Bastion outlines are simplified."
    ],
    "confidence": "documented",
@@ -5814,7 +5814,7 @@
      "note": "The gate of the road to Siena and Rome, a tall tower of pietra forte over a single arch, with a fresco of the Madonna in the lunette."
     },
     "grand-ducal-1600": {
-     "note": "Unchanged. Through it in 1539 came Eleonora of Toledo, Cosimo I's bride from Naples, and later the grand dukes' great processions."
+     "note": "Unchanged: the gate of the road to Siena and Rome, by which travellers from the south entered the grand duke's city."
     }
    },
    "summary": "The great south gate of the Oltrarno, built in 1326–28 on the walls of 1284–1333: a tall square tower of stone over the road to Siena and Rome, with a stretch of wall on either side.",
@@ -6039,7 +6039,7 @@
    ],
    "summary": "The Alighieri, a family of small nobility, had houses in the parish of San Martino del Vescovo near the Badia, where Dante was born in 1265.",
    "details": [
-    "Dante grew up here among the houses of the Cerchi and the Donati, the families whose feud split the Guelfs into Whites and Blacks. He married Gemma Donati in the little church of San Martino. The 'Casa di Dante' shown today was rebuilt in 1910 near the old site."
+    "Dante grew up here among the houses of the Cerchi and the Donati, the families whose feud split the Guelfs into Whites and Blacks. By tradition he married Gemma Donati in the little church of San Martino. The 'Casa di Dante' shown today was rebuilt in 1910 near the old site."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -6836,7 +6836,7 @@
    "id": "wiki-walls-florence",
    "title": "Walls of Florence",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Walls_of_Florence"
+   "url": "https://it.wikipedia.org/wiki/Mura_di_Firenze"
   },
   {
    "id": "wiki-arno",
@@ -6904,7 +6904,7 @@
    "title": "Veduta della Catena (view of Florence)",
    "author": "attributed to Francesco Rosselli",
    "year": "c. 1471–82",
-   "url": "https://en.wikipedia.org/wiki/Map_of_the_Chain"
+   "url": "https://it.wikipedia.org/wiki/Pianta_della_Catena"
   },
   {
    "id": "buonsignori",
@@ -7225,7 +7225,7 @@
    "id": "wiki-stinche",
    "title": "Le Stinche",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Le_Stinche"
+   "url": "https://en.wikipedia.org/wiki/Stinche_Prison"
   },
   {
    "id": "wiki-smn-pharmacy",
@@ -7249,7 +7249,7 @@
    "id": "wiki-gates-paradise",
    "title": "Gates of Paradise",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Gates_of_Paradise_(Ghiberti)"
+   "url": "https://en.wikipedia.org/wiki/Florence_Baptistery"
   },
   {
    "id": "wiki-arte-lana",
@@ -7261,7 +7261,7 @@
    "id": "wiki-arte-medici-speziali",
    "title": "Arte dei Medici e Speziali",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Arte_dei_Medici_e_Speziali"
+   "url": "https://it.wikipedia.org/wiki/Arte_dei_Medici_e_Speziali"
   },
   {
    "id": "wiki-arte-seta",
@@ -7273,7 +7273,7 @@
    "id": "wiki-mercato-nuovo",
    "title": "Mercato Nuovo",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Mercato_Nuovo"
+   "url": "https://en.wikipedia.org/wiki/Loggia_del_Mercato_Nuovo"
   },
   {
    "id": "wiki-mercato-vecchio",
@@ -7285,7 +7285,7 @@
    "id": "wiki-casa-dante",
    "title": "Casa di Dante",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Casa_di_Dante"
+   "url": "https://it.wikipedia.org/wiki/Casa_di_Dante"
   },
   {
    "id": "wiki-dante",
@@ -7297,7 +7297,7 @@
    "id": "wiki-flood-1333",
    "title": "1333 Florence flood",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/1333_Florence_flood"
+   "url": "https://it.wikipedia.org/wiki/Alluvione_di_Firenze_del_4_novembre_1333"
   },
   {
    "id": "wiki-black-death-florence",
