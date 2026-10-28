@@ -4634,7 +4634,7 @@
    "endYear": 1911,
    "summary": "The Manchus entered in June 1644 and gave the Inner City to the Eight Banners, moving most Han Chinese to the Outer City. They kept and rebuilt the Ming palaces: Tiananmen and the White Dagoba on Qionghua island in 1651, the Hall of Supreme Harmony in 1695-1697. Under Qianlong came the Yonghegong lamasery (1744), the brick Bell Tower (1745-1747) and the Jingshan pavilions (1751).",
    "population": "perhaps 700,000 to 1,000,000",
-   "feel": "Bannermen with caged larks in the tea houses, Tibetan lamas in maroon at the Yonghegong, camel trains of coal from the Western Hills, and the noon gun of the Drum Tower.",
+   "feel": "Bannermen with caged larks in the tea houses, Tibetan lamas in maroon at the Yonghegong, camel trains of coal from the Western Hills, and the drums of the Drum Tower at dusk.",
    "style": "sinic",
    "houses": {
     "title": "Banner courtyards",
@@ -4689,7 +4689,7 @@
    },
    "summary": "Kublai Khan's palace city on the east bank of the Taiye lake: a walled rectangle with corner towers, the Daming Hall on a terrace at the front, the Yanchun Pavilion behind, both on the 'I'-shaped plan of front hall, corridor and rear hall.",
    "details": [
-    "Tao Zongyi and Xiao Xun, who surveyed it in 1368, describe the Daming Hall as eleven bays, 200 by 120 chi (about 63 by 38 m) and 90 chi high, joined by a columned corridor to a rear hall. Marco Polo saw walls covered in gold and silver, a hall that could seat 6,000, and a roof glazed 'red, yellow, green, blue' that shone like crystal. Kublai had steppe grass from Mongolia planted before its steps.",
+    "Tao Zongyi (1366) and Xiao Xun, who inspected the palace in 1368, describe the Daming Hall as eleven bays, 200 by 120 chi (about 63 by 38 m) and 90 chi high, joined by a columned corridor to a rear hall. Marco Polo saw walls covered in gold and silver, a hall that could seat 6,000, and a roof glazed 'red, yellow, green, blue' that shone like crystal. Kublai had steppe grass from Mongolia planted before its steps.",
     "The miniature is a reconstruction after Xiao Xun and Fu Xinian's studies: the palace wall with four corner towers and the Chongtian gate, the Daming and Yanchun courts with their cloisters, white marble terraces and glazed roofs. The exact site under the Forbidden City is debated, and the colours of the tiles are a guess."
    ],
    "confidence": "reconstruction",
@@ -5824,7 +5824,7 @@
      "note": "Xu Da's north wall of 1368; the gate tower, barbican and arrow tower were rebuilt in brick in 1436-1439. In October 1449 Yu Qian beat back the Oirats here."
     },
     "qing-1750": {
-     "note": "The 'Gate of Virtuous Victory' through which armies marched out to war. Water carts from the Jade Spring for the palace came in by the Xizhimen; coal and camels came here."
+     "note": "The 'Gate of Virtuous Victory' through which armies marched out to war, by tradition; its barbican held a temple of the god Zhenwu."
     }
    },
    "summary": "The western of the two gates in the Ming north wall: a gate tower on the wall, a barbican and a massive arrow tower with rows of firing windows, built in 1436-1439.",
@@ -6519,7 +6519,7 @@
     "landmarkId": "miaoying"
    },
    "effect": "construction",
-   "text": "Over a Liao relic pagoda, the Nepali artist Anige built a white stupa in Tibetan style for Kublai's state temple, consecrated in 1279. Anige, brought to the court by Phagpa, went on to direct the imperial workshops and made the portraits of Kublai and his empress Chabi.",
+   "text": "Over a Liao relic pagoda, the Nepali artist Anige built a white stupa in Tibetan style for Kublai's state temple, consecrated in 1279. Anige, brought to the court by Phagpa, went on to direct the imperial workshops and is credited with the portraits of Kublai and his empress Chabi.",
    "sourceIds": [
     "wiki-miaoying"
    ]
@@ -6586,7 +6586,7 @@
     "landmarkId": "forbidden-city"
    },
    "effect": "procession",
-   "text": "The Yongle emperor, who had seized the throne from Nanjing in 1402 and had ruled the north as Prince of Yan, held the New Year audience in his new palace and proclaimed Beijing the chief capital. Envoys from Timurid Herat, who were present, described the vast halls, the crowds of officials and the elephants at the gates.",
+   "text": "The Yongle emperor, who as Prince of Yan had ruled the north and in 1402 seized the throne from his nephew in Nanjing, held the New Year audience in his new palace and proclaimed Beijing the chief capital. Envoys from Timurid Herat, who were present, described the vast halls, the crowds of officials and the elephants at the gates.",
    "sourceIds": [
     "wiki-yongle",
     "wiki-forbidden-city"
@@ -7058,9 +7058,9 @@
   },
   {
    "id": "wiki-hallerstein",
-   "title": "Augustin Hallerstein",
+   "title": "Ferdinand Augustin Hallerstein",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Augustin_Hallerstein"
+   "url": "https://en.wikipedia.org/wiki/Ferdinand_Augustin_Hallerstein"
   },
   {
    "id": "wiki-imperial-exam",
@@ -7088,9 +7088,9 @@
   },
   {
    "id": "wiki-meng-an",
-   "title": "Meng'an Mouke",
+   "title": "Military of the Jin dynasty (1115–1234)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Meng%27an_Mouke"
+   "url": "https://en.wikipedia.org/wiki/Military_of_the_Jin_dynasty_(1115%E2%80%931234)"
   },
   {
    "id": "wiki-siege-zhongdu",

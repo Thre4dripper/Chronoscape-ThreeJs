@@ -52,7 +52,7 @@ LANDMARKS = [
              "ming-1450": dict(note="Gone. The Ming pulled the Yuan palace down after 1368; the Forbidden City and Jingshan were raised over and around its site."),
          },
          summary="Kublai Khan's palace city on the east bank of the Taiye lake: a walled rectangle with corner towers, the Daming Hall on a terrace at the front, the Yanchun Pavilion behind, both on the 'I'-shaped plan of front hall, corridor and rear hall.",
-         details=["Tao Zongyi and Xiao Xun, who surveyed it in 1368, describe the Daming Hall as eleven bays, 200 by 120 chi (about 63 by 38 m) and 90 chi high, joined by a columned corridor to a rear hall. Marco Polo saw walls covered in gold and silver, a hall that could seat 6,000, and a roof glazed 'red, yellow, green, blue' that shone like crystal. Kublai had steppe grass from Mongolia planted before its steps.",
+         details=["Tao Zongyi (1366) and Xiao Xun, who inspected the palace in 1368, describe the Daming Hall as eleven bays, 200 by 120 chi (about 63 by 38 m) and 90 chi high, joined by a columned corridor to a rear hall. Marco Polo saw walls covered in gold and silver, a hall that could seat 6,000, and a roof glazed 'red, yellow, green, blue' that shone like crystal. Kublai had steppe grass from Mongolia planted before its steps.",
                   "The miniature is a reconstruction after Xiao Xun and Fu Xinian's studies: the palace wall with four corner towers and the Chongtian gate, the Daming and Yanchun courts with their cloisters, white marble terraces and glazed roofs. The exact site under the Forbidden City is debated, and the colours of the tiles are a guess."],
          built="1267-1274", function="Palace of the Yuan emperors: audiences, banquets, enthronements", confidence="reconstruction",
          sourceIds=["wiki-khanbaliq", "xiao-xun", "tao-zongyi", "polo", "steinhardt"], activity=dict(figures=60, radius=420)),
@@ -279,7 +279,7 @@ LANDMARKS = [
          variants={
              "kublai-1290": dict(note="Not yet: the Yuan north wall ran 2.5 km further north; here were lanes of the Yuan city near the lakes."),
              "ming-1450": dict(note="Xu Da's north wall of 1368; the gate tower, barbican and arrow tower were rebuilt in brick in 1436-1439. In October 1449 Yu Qian beat back the Oirats here."),
-             "qing-1750": dict(note="The 'Gate of Virtuous Victory' through which armies marched out to war. Water carts from the Jade Spring for the palace came in by the Xizhimen; coal and camels came here."),
+             "qing-1750": dict(note="The 'Gate of Virtuous Victory' through which armies marched out to war, by tradition; its barbican held a temple of the god Zhenwu."),
          },
          summary="The western of the two gates in the Ming north wall: a gate tower on the wall, a barbican and a massive arrow tower with rows of firing windows, built in 1436-1439.",
          details=["Each gate of the Inner City had a gate tower on the wall and, outside it, a barbican (wengcheng) whose arrow tower (jianlou) faced the enemy with 82 windows; the barbican gate opened to one side. Deshengmen's gate tower was pulled down in 1921; its arrow tower still stands.",

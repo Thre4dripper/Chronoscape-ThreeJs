@@ -93,7 +93,7 @@ PERIODS = [
     dict(id="qing-1750", label="Qianlong's Beijing", year=1750, startYear=1644, endYear=1911,
          summary="The Manchus entered in June 1644 and gave the Inner City to the Eight Banners, moving most Han Chinese to the Outer City. They kept and rebuilt the Ming palaces: Tiananmen and the White Dagoba on Qionghua island in 1651, the Hall of Supreme Harmony in 1695-1697. Under Qianlong came the Yonghegong lamasery (1744), the brick Bell Tower (1745-1747) and the Jingshan pavilions (1751).",
          population="perhaps 700,000 to 1,000,000",
-         feel="Bannermen with caged larks in the tea houses, Tibetan lamas in maroon at the Yonghegong, camel trains of coal from the Western Hills, and the noon gun of the Drum Tower.",
+         feel="Bannermen with caged larks in the tea houses, Tibetan lamas in maroon at the Yonghegong, camel trains of coal from the Western Hills, and the drums of the Drum Tower at dusk.",
          style="sinic",
          houses=dict(title="Banner courtyards", text="Each banner holds a sector of the Inner City; its families live in rows of siheyuan of grey brick round one, two or three courts, with jujube and pomegranate trees, goldfish jars and a screen wall inside the gate. Princes' mansions (wangfu) take whole blocks."),
          outskirts=dict(title="Banner barracks and gardens", text="Soldiers' rows, granaries, temple gardens and vegetable plots in the corners of the city, and lotus ponds round Shichahai.")),
