@@ -625,14 +625,14 @@
   "size": 453.65
  },
  "baghdad/dar-al-khilafa": {
-  "cx": 0.0,
+  "cx": -0.09,
   "cy": 0.86,
-  "size": 536.59
+  "size": 536.77
  },
  "baghdad/dar-al-khilafa-830": {
-  "cx": 0.0,
+  "cx": -0.09,
   "cy": 1.5,
-  "size": 517.07
+  "size": 517.25
  },
  "baghdad/gilani-1200": {
   "cx": -0.05,
@@ -650,9 +650,9 @@
   "size": 303.15
  },
  "baghdad/karkh-market": {
-  "cx": 0.0,
+  "cx": -0.05,
   "cy": -0.0,
-  "size": 306.03
+  "size": 306.13
  },
  "baghdad/kazimayn": {
   "cx": 0.0,
@@ -667,7 +667,7 @@
  "baghdad/kazimayn-800": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 159.25
+  "size": 159.35
  },
  "baghdad/khan-mirjan": {
   "cx": 0.0,
@@ -675,9 +675,9 @@
   "size": 88.55
  },
  "baghdad/khuld-palace": {
-  "cx": 0.0,
+  "cx": -0.06,
   "cy": 1.5,
-  "size": 372.55
+  "size": 372.67
  },
  "baghdad/mansur-mosque": {
   "cx": 0.0,
