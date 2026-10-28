@@ -35,8 +35,6 @@ SOURCES = [
     dict(id="oliveira-marques", title="History of Portugal (2 vols)", author="A. H. de Oliveira Marques", year=1972),
     dict(id="global-city", title="The Global City: On the Streets of Renaissance Lisbon", author="Annemarie Jordan Gschwend and K. J. P. Lowe (eds.)", year=2015),
     dict(id="franca-pombalina", title="Lisboa Pombalina e o Iluminismo", author="José-Augusto França", year=1965),
-    dict(id="fernandes-teatro", title="Studies and excavation reports on the Roman theatre of Lisbon (Museu de Lisboa – Teatro Romano)", author="Lídia Fernandes", year="1990s–2010s"),
-    dict(id="moita-castelo", title="Castelo de São Jorge: the archaeological excavations of the Praça Nova", author="Alexandra Gaspar and Ana Gomes (excavators)", year="1996–2010"),
     dict(id="kubler-plain", title="Portuguese Plain Architecture: Between Spices and Diamonds, 1521–1706", author="George Kubler", year=1972),
     dict(id="paice-wrath", title="Wrath of God: The Great Lisbon Earthquake of 1755", author="Edward Paice", year=2008),
 ]
@@ -60,7 +58,7 @@ LANDMARKS = [
          details=["The walls are mostly Moorish of the 11th century, repaired after the conquest of 1147. The castelejo, an inner fort with some ten square towers, held the keep; the larger alcáçova enclosed the royal palace, where the kings lived and received embassies. Excavations in the Praça Nova have found Iron Age, Moorish and 15th-century layers.",
                   "The miniature shows the hilltop as a stone platform with battered curtain walls, square towers with merlons and the castelejo at its east end; the palace ranges with tiled roofs, a chapel and a courtyard. Positions of the palace buildings are a reconstruction; the walls follow the surviving circuit, simplified."],
          built="Iron Age and Roman; walls 11th century, rebuilt after 1147; palace 13th–15th centuries", function="Citadel; royal palace until about 1505",
-         confidence="documented", sourceIds=["wiki-castle", "moita-castelo", "oliveira-marques"], activity=dict(figures=40, radius=200)),
+         confidence="documented", sourceIds=["wiki-castle", "oliveira-marques"], activity=dict(figures=40, radius=200)),
 
     dict(id="se", placeId="se-de-lisboa", name="Sé de Lisboa (Cathedral)", category="religious",
          latlon=(38.7098, -9.1333), rotation=90, footprint=(40, 90), scale=1.0, model="lisbon/se",
@@ -91,7 +89,7 @@ LANDMARKS = [
          details=["The cavea of the theatre was dug into the hillside facing south, with the stage and its decorated front below. An inscription on the stage front records its renovation in 57 CE by the augustalis Gaius Heius Primus in honour of Nero. Rua de São Mamede now runs across the cavea.",
                   "The miniature shows the half-circle of seats in three tiers, the orchestra, the stage and a two-storey stage building with columns. The size and the form of the stage building are a reconstruction based on the excavated foundations and Fabri's drawings of 1798."],
          built="probably Augustan; rebuilt 57 CE", function="Theatre",
-         confidence="reconstruction", sourceIds=["wiki-olisipo", "fernandes-teatro"], activity=dict(figures=30, radius=90)),
+         confidence="reconstruction", sourceIds=["wiki-olisipo"], activity=dict(figures=30, radius=90)),
 
     dict(id="porta-do-sol", placeId="porta-do-sol", name="Cerca Moura: Porta do Sol", category="military",
          latlon=(38.71215, -9.13025), rotation=-90, footprint=(50, 16), scale=1.0, model="lisbon/porta-do-sol",
@@ -234,10 +232,10 @@ LANDMARKS = [
              "pre-earthquake-1750": dict(note="The Jesuits' great hall-church, plain outside and gilded within. The chapel of St John the Baptist, made in Rome (1742–1747) and shipped to Lisbon, is being assembled."),
              "pombaline-1800": dict(note="It came through the earthquake almost undamaged. After the Jesuits' expulsion (1759) it was given in 1768 to the Santa Casa da Misericórdia, which keeps it today."),
          },
-         summary="The Jesuits' first church in Portugal, a wide single-nave hall begun in 1555, with one of the richest Baroque chapels in Europe; it survived 1755 nearly intact.",
-         details=["The Jesuits received the chapel of St Roch in 1553 and built a hall-church designed by Afonso Álvares, with later changes by Filippo Terzi; it was finished around 1573–1619. Its chapel of St John the Baptist, of marble, lapis lazuli and gilt bronze, was commissioned by João V in Rome.",
+         summary="The Jesuits' first church in Portugal, a wide single-nave hall begun in the 1550s–60s, with one of the richest Baroque chapels in Europe; it survived 1755 nearly intact.",
+         details=["The Jesuits received the chapel of St Roch in 1553 and built a hall-church designed by Afonso Álvares, with later changes by Filippo Terzi; sources date its completion variously between about 1573 and 1619. Its chapel of St John the Baptist, of marble, lapis lazuli and gilt bronze, was commissioned by João V in Rome.",
                   "The miniature shows the plain Mannerist façade with its portal and windows, the long nave under a tiled roof with side chapels and the small bell tower. The earlier chapel version is a simple whitewashed hermitage with a porch."],
-         built="1555–c. 1573 (decoration to 1619 and later)", function="Jesuit church; Misericórdia church from 1768",
+         built="begun 1550s–60s; finished c. 1573–1619 (decoration later)", function="Jesuit church; Misericórdia church from 1768",
          confidence="documented", sourceIds=["wiki-sao-roque", "kubler-plain"], activity=dict(figures=25, radius=90)),
 
     # ------------------------------------------------------------ the Ribeira east

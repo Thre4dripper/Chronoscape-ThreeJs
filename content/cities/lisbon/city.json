@@ -3929,7 +3929,6 @@
    "confidence": "documented",
    "sourceIds": [
     "wiki-castle",
-    "moita-castelo",
     "oliveira-marques"
    ],
    "built": "Iron Age and Roman; walls 11th century, rebuilt after 1147; palace 13th–15th centuries",
@@ -4078,8 +4077,7 @@
    ],
    "confidence": "reconstruction",
    "sourceIds": [
-    "wiki-olisipo",
-    "fernandes-teatro"
+    "wiki-olisipo"
    ],
    "built": "probably Augustan; rebuilt 57 CE",
    "function": "Theatre",
@@ -4791,9 +4789,9 @@
      "note": "It came through the earthquake almost undamaged. After the Jesuits' expulsion (1759) it was given in 1768 to the Santa Casa da Misericórdia, which keeps it today."
     }
    },
-   "summary": "The Jesuits' first church in Portugal, a wide single-nave hall begun in 1555, with one of the richest Baroque chapels in Europe; it survived 1755 nearly intact.",
+   "summary": "The Jesuits' first church in Portugal, a wide single-nave hall begun in the 1550s–60s, with one of the richest Baroque chapels in Europe; it survived 1755 nearly intact.",
    "details": [
-    "The Jesuits received the chapel of St Roch in 1553 and built a hall-church designed by Afonso Álvares, with later changes by Filippo Terzi; it was finished around 1573–1619. Its chapel of St John the Baptist, of marble, lapis lazuli and gilt bronze, was commissioned by João V in Rome.",
+    "The Jesuits received the chapel of St Roch in 1553 and built a hall-church designed by Afonso Álvares, with later changes by Filippo Terzi; sources date its completion variously between about 1573 and 1619. Its chapel of St John the Baptist, of marble, lapis lazuli and gilt bronze, was commissioned by João V in Rome.",
     "The miniature shows the plain Mannerist façade with its portal and windows, the long nave under a tiled roof with side chapels and the small bell tower. The earlier chapel version is a simple whitewashed hermitage with a porch."
    ],
    "confidence": "documented",
@@ -4801,7 +4799,7 @@
     "wiki-sao-roque",
     "kubler-plain"
    ],
-   "built": "1555–c. 1573 (decoration to 1619 and later)",
+   "built": "begun 1550s–60s; finished c. 1573–1619 (decoration later)",
    "function": "Jesuit church; Misericórdia church from 1768",
    "activity": {
     "figures": 25,
@@ -5780,9 +5778,8 @@
     "landmarkId": "roman-theatre"
    },
    "effect": "construction",
-   "text": "An inscription on the stage front records that Gaius Heius Primus, a priest of the imperial cult, paid for the stage and orchestra in honour of Nero in 57 CE. Rediscovered after the earthquake, in 1798, the inscription is one of the main sources for the theatre.",
+   "text": "An inscription on the stage front records that Gaius Heius Primus, a member of the Augustales (the college of the imperial cult), paid for the stage and orchestra in honour of Nero in 57 CE. Rediscovered after the earthquake, in 1798, the inscription is one of the main sources for the theatre.",
    "sourceIds": [
-    "fernandes-teatro",
     "wiki-olisipo"
    ]
   },
@@ -6028,7 +6025,7 @@
     {
      "spotId": "rua-nova-shops",
      "title": "The Rua Nova",
-     "text": "Walk up into the Rua Nova: Chinese porcelain, Indian quilts, Flemish tapestry, a parrot in a cage. The crowd speaks Portuguese, Kimbundu, Flemish, Italian and Castilian."
+     "text": "Walk up into the Rua Nova: Chinese porcelain, Indian quilts, Flemish tapestry, a parrot in a cage. The crowd speaks Portuguese, West African languages, Flemish, Italian and Castilian."
     },
     {
      "spotId": "water-carriers",
@@ -6364,18 +6361,6 @@
    "title": "Siege of Lisbon",
    "author": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Siege_of_Lisbon"
-  },
-  {
-   "id": "fernandes-teatro",
-   "title": "Studies and excavation reports on the Roman theatre of Lisbon (Museu de Lisboa – Teatro Romano)",
-   "author": "Lídia Fernandes",
-   "year": "1990s–2010s"
-  },
-  {
-   "id": "moita-castelo",
-   "title": "Castelo de São Jorge: the archaeological excavations of the Praça Nova",
-   "author": "Alexandra Gaspar and Ana Gomes (excavators)",
-   "year": "1996–2010"
   },
   {
    "id": "kubler-plain",

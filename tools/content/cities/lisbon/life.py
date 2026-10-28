@@ -51,7 +51,6 @@ SOURCES = [
     dict(id="paice-wrath", title="Wrath of God: The Great Lisbon Earthquake of 1755", author="Edward Paice", year=2008),
     dict(id="maxwell-pombal", title="Pombal: Paradox of the Enlightenment", author="Kenneth Maxwell", year=1995),
     dict(id="franca-pombalina", title="Lisboa Pombalina e o Iluminismo", author="José-Augusto França", year=1965),
-    dict(id="fernandes-teatro", title="Studies and excavation reports on the Roman theatre of Lisbon (Museu de Lisboa – Teatro Romano)", author="Lídia Fernandes", year="1990s–2010s"),
 ]
 
 SPOTS = [
@@ -204,8 +203,8 @@ EVENTS = [
          sourceIds=["strabo", "pliny-nh", "wiki-olisipo"]),
     dict(id="theatre-57", title="The theatre is rebuilt for Nero", periodId="olisipo-50", date="57 CE", kind="construction",
          at=dict(landmarkId="roman-theatre"), effect="construction",
-         text="An inscription on the stage front records that Gaius Heius Primus, a priest of the imperial cult, paid for the stage and orchestra in honour of Nero in 57 CE. Rediscovered after the earthquake, in 1798, the inscription is one of the main sources for the theatre.",
-         sourceIds=["fernandes-teatro", "wiki-olisipo"]),
+         text="An inscription on the stage front records that Gaius Heius Primus, a member of the Augustales (the college of the imperial cult), paid for the stage and orchestra in honour of Nero in 57 CE. Rediscovered after the earthquake, in 1798, the inscription is one of the main sources for the theatre.",
+         sourceIds=["wiki-olisipo"]),
     dict(id="vikings-844", title="Norse raiders in the Tagus", periodId="moorish-1100", date="August 844", kind="riot",
          at=dict(latlon=(38.7085, -9.1370)), effect="fire",
          text="A Norse fleet appeared in the Tagus in August 844 and fought the Muslims of al-Ushbuna for thirteen days, according to the Arab chroniclers, before sailing south to sack Seville. The raid pushed the emirs of Córdoba to build a fleet and coastal defences.",
@@ -265,7 +264,7 @@ STORIES = [
                 dict(landmarkId="casa-da-india", title="The Casa da Índia", text="The officials of the Casa da Índia check cargo lists and seamen's wages; a returning ship's captain reports what he brought and what he lost."),
                 dict(spotId="pepper-store", title="Pepper", text="Sacks of pepper go up to the great scales. Agents of German and Italian firms bargain with the king's men; the dust makes everyone sneeze."),
                 dict(landmarkId="paco-ribeira", title="The king's windows", text="Above it all, João III's palace looks over the river from its loggias. Courtiers cross the Terreiro, where a bullfight is being set up for Sunday."),
-                dict(spotId="rua-nova-shops", title="The Rua Nova", text="Walk up into the Rua Nova: Chinese porcelain, Indian quilts, Flemish tapestry, a parrot in a cage. The crowd speaks Portuguese, Kimbundu, Flemish, Italian and Castilian."),
+                dict(spotId="rua-nova-shops", title="The Rua Nova", text="Walk up into the Rua Nova: Chinese porcelain, Indian quilts, Flemish tapestry, a parrot in a cage. The crowd speaks Portuguese, West African languages, Flemish, Italian and Castilian."),
                 dict(spotId="water-carriers", title="The king's fountain", text="End at the Chafariz d'El-Rei below Alfama, where water-carriers queue at the spouts and boats from the India fleet fill their casks.")]),
     dict(id="all-saints-1755", title="All Saints' Day, 1755", periodId="pre-earthquake-1750",
          summary="The morning of 1 November 1755 across the old centre of Lisbon, from the cathedral to the palace and the new opera house, as the city was shaken, swept by the river and burned.",
