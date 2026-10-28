@@ -4325,9 +4325,9 @@
   "size": 133.3
  },
  "taxila/apsidal-temple": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": 0.49,
-  "size": 110.16
+  "size": 110.17
  },
  "taxila/bhir-quarter": {
   "cx": 0.0,
@@ -4357,7 +4357,7 @@
  "taxila/eagle-shrine": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 41.19
+  "size": 41.21
  },
  "taxila/hathial": {
   "cx": 0.0,
@@ -4395,9 +4395,9 @@
   "size": 128.67
  },
  "taxila/sirkap-block": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 86.54
+  "cx": -0.01,
+  "cy": -0.01,
+  "size": 86.56
  },
  "taxila/sirkap-palace": {
   "cx": -0.1,
@@ -4405,19 +4405,19 @@
   "size": 134.58
  },
  "taxila/sirkap-wall": {
-  "cx": 0.0,
+  "cx": -0.01,
   "cy": -0.0,
-  "size": 259.9
+  "size": 260.21
  },
  "taxila/sirkap-wall-ruin": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 239.06
+  "cx": -0.01,
+  "cy": -0.04,
+  "size": 239.22
  },
  "taxila/sirsukh-wall": {
-  "cx": 0.05,
+  "cx": 0.0,
   "cy": -0.0,
-  "size": 289.21
+  "size": 289.31
  },
  "tenochtitlan/aqueduct": {
   "cx": 0.0,
