@@ -2805,9 +2805,9 @@
   "size": 55.38
  },
  "lisbon/conceicao-velha": {
-  "cx": -0.2,
+  "cx": -0.21,
   "cy": -0.0,
-  "size": 91.42
+  "size": 91.4
  },
  "lisbon/estaus": {
   "cx": -0.62,
@@ -2816,13 +2816,13 @@
  },
  "lisbon/hospital-todos-os-santos": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 164.44
+  "cy": 0.02,
+  "size": 164.48
  },
  "lisbon/misericordia": {
-  "cx": -1.1,
+  "cx": -1.11,
   "cy": -0.0,
-  "size": 85.3
+  "size": 85.28
  },
  "lisbon/opera-do-tejo": {
   "cx": 0.0,
@@ -2855,19 +2855,19 @@
   "size": 281.9
  },
  "lisbon/ribeira-das-naus": {
-  "cx": 0.0,
+  "cx": 0.03,
   "cy": 0.12,
-  "size": 207.7
+  "size": 207.75
  },
  "lisbon/ribeira-das-naus-1800": {
-  "cx": 0.0,
+  "cx": 0.03,
   "cy": 0.12,
-  "size": 215.04
+  "size": 215.09
  },
  "lisbon/roman-theatre": {
-  "cx": 0.0,
+  "cx": 0.01,
   "cy": -0.0,
-  "size": 105.9
+  "size": 105.98
  },
  "lisbon/sao-roque": {
   "cx": 0.0,
