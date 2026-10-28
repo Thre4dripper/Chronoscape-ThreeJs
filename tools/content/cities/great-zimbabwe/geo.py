@@ -42,7 +42,7 @@ PERIODS = [
          houses=dict(title="Daga houses on the hill", text="Round houses of daga, a mud-and-gravel plaster over a frame of poles, under conical grass thatch, set close together on terraces among the boulders, each family's houses round a swept yard (dare)."),
          outskirts=dict(title="Homesteads and cattle pens", text="Scattered homesteads of a few round houses, granaries on stilts and a pole-and-thorn pen for cattle and goats, with sorghum and finger-millet fields cleared from the woodland.")),
     dict(id="zenith-1350", label="The stone city", year=1350, startYear=1290, endYear=1449,
-         summary="The capital of the Zimbabwe state at its height. The king's court has moved down from the hill to the Great Enclosure, whose outer wall, 11 m high and 250 m long, is laid in courses of dressed granite without mortar. Gold and ivory from the plateau go to the Swahili coast at Sofala and Kilwa; Chinese celadon, Persian faience and glass beads come back.",
+         summary="The capital of the Zimbabwe state at its height. In the usual reading, the king's court has moved down from the hill to the Great Enclosure, whose outer wall, 11 m high and 250 m long, is laid in courses of dressed granite without mortar. Gold and ivory from the plateau go to the Swahili coast at Sofala and Kilwa; Chinese celadon, Persian faience and glass beads come back.",
          population="perhaps 10,000 (older estimates up to 18,000)",
          feel="Gongs and drums from the Great Enclosure, the clink of masons dressing granite blocks, woodsmoke and cattle dung, the bright clay of new daga houses after the rains.",
          style="kraal",
@@ -79,7 +79,7 @@ HILLS = [
     dict(id="western-kopje", name="Western kopje", center=(-20.2680, 30.9215), radius=200, label=False,
          blurb="A smaller granite dome west of the Hill, among msasa woodland."),
     dict(id="southern-kopjes", name="Southern kopjes", center=(-20.2820, 30.9225), radius=250,
-         blurb="Bare granite domes and boulder heaps south of the valley; granite exfoliates naturally into slabs, which builders split further with fire and water into the blocks of the walls."),
+         blurb="Bare granite domes and boulder heaps south of the valley; granite exfoliates naturally into slabs, which builders split further, probably with fire and water, into the blocks of the walls."),
     dict(id="south-east-kopje", name="South-eastern kopje", center=(-20.2780, 30.9470), radius=150, label=False,
          blurb="A granite outcrop above the streams on the way down toward the Mutirikwi valley."),
 ]

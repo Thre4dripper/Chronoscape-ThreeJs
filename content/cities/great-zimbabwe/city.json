@@ -173,7 +173,7 @@
     "radius": 250,
     "label": true,
     "id": "southern-kopjes",
-    "blurb": "Bare granite domes and boulder heaps south of the valley; granite exfoliates naturally into slabs, which builders split further with fire and water into the blocks of the walls."
+    "blurb": "Bare granite domes and boulder heaps south of the valley; granite exfoliates naturally into slabs, which builders split further, probably with fire and water, into the blocks of the walls."
    },
    {
     "name": "South-eastern kopje",
@@ -1123,7 +1123,7 @@
    "year": 1350,
    "startYear": 1290,
    "endYear": 1449,
-   "summary": "The capital of the Zimbabwe state at its height. The king's court has moved down from the hill to the Great Enclosure, whose outer wall, 11 m high and 250 m long, is laid in courses of dressed granite without mortar. Gold and ivory from the plateau go to the Swahili coast at Sofala and Kilwa; Chinese celadon, Persian faience and glass beads come back.",
+   "summary": "The capital of the Zimbabwe state at its height. In the usual reading, the king's court has moved down from the hill to the Great Enclosure, whose outer wall, 11 m high and 250 m long, is laid in courses of dressed granite without mortar. Gold and ivory from the plateau go to the Swahili coast at Sofala and Kilwa; Chinese celadon, Persian faience and glass beads come back.",
    "population": "perhaps 10,000 (older estimates up to 18,000)",
    "feel": "Gongs and drums from the Great Enclosure, the clink of masons dressing granite blocks, woodsmoke and cattle dung, the bright clay of new daga houses after the rains.",
    "style": "kraal",
@@ -1211,7 +1211,7 @@
    },
    "summary": "The largest single ancient structure in sub-Saharan Africa: an elliptical drystone wall of granite blocks, 11 m high and about 250 m long, round the residence of the kings, with a solid Conical Tower inside. Shona: Imba Huru, 'the great house'.",
    "details": [
-    "Built in stages during the 13th and 14th centuries, the outer wall is up to 5 m thick at its base and battered inward as it rises, its courses of split granite laid without mortar. On the east, where it is highest, a chevron band runs along its top and a narrow parallel passage, barely a metre wide, runs inside it from the north entrance to the Conical Tower, 9 m high and 5.5 m across.",
+    "Built in stages during the 13th and 14th centuries, the outer wall is up to about 5–6 m thick at its base and battered inward as it rises, its courses of split granite laid without mortar. On the east, where it is highest, a chevron band runs along its top and a narrow parallel passage, barely a metre wide, runs inside it from the north entrance to the Conical Tower, 9 m high and 5.5 m across.",
     "The miniature shows the course-laid outer wall with its batter, the three entrances with rounded ends, the chevron band, the parallel passage and the older inner wall, the Conical Tower with its small twin, and daga houses on platforms. The inner plan and the houses are simplified; the wall's orientation is approximate."
    ],
    "confidence": "documented",
@@ -1279,7 +1279,7 @@
      "note": "The walls at their fullest, following the boulders along the summit: the Western Enclosure with its turrets and monoliths, and the Eastern Enclosure, where the soapstone birds stood on their columns."
     },
     "decline-1500": {
-     "note": "Scrub grows in the empty enclosures, but the hill is still visited as a sacred place; the birds on their columns stayed in the Eastern Enclosure until the 1880s.",
+     "note": "Scrub grows in the empty enclosures, but the hill is still visited as a sacred place; the birds on their columns stayed in the Eastern Enclosure until collectors removed them from 1889 on.",
      "confidence": "interpretation",
      "model": {
       "glb": "models/great-zimbabwe/hill-complex-1500.glb",
@@ -2409,7 +2409,7 @@
     },
     {
      "hour": 16,
-     "text": "Under a fig tree a man plays an mbira inside a gourd resonator, its bottle-top rattles buzzing. Three women sing an answering line."
+     "text": "Under a fig tree a man plays an mbira inside a gourd resonator, its shell rattles buzzing. Three women sing an answering line."
     },
     {
      "hour": 21,
@@ -2687,7 +2687,7 @@
     "landmarkId": "royal-kraal"
    },
    "effect": "none",
-   "text": "On the Limpopo, 300 km to the south, the kings of Mapungubwe hold the trade in gold and ivory with the coast, and their court lives on a hilltop above the commoners. Great Zimbabwe, on the margin of this world, keeps cattle, farms, and learns: the hilltop court is a model it will follow.",
+   "text": "On the Limpopo, 300 km to the south, the kings of Mapungubwe hold the trade in gold and ivory with the coast, and their court lives on a hilltop above the commoners. Great Zimbabwe, on the margin of this world, keeps cattle and farms; many archaeologists see Mapungubwe's hilltop court as the model it would follow.",
    "sourceIds": [
     "wiki-mapungubwe",
     "wiki-kingdom-gz"
@@ -2703,7 +2703,7 @@
     "landmarkId": "trade-ground"
    },
    "effect": "crowd",
-   "text": "Mapungubwe declines quickly and the trade routes shift north, with merchants going straight to the gold-producing plateau. Great Zimbabwe, between the goldfields and the route down the Save to Sofala, takes its place, and its rulers grow rich on what passes through their hands.",
+   "text": "Mapungubwe declines quickly, perhaps with drier years, and the trade routes shift north toward the gold-producing plateau. Great Zimbabwe, between the goldfields and the route down the Save to Sofala, takes its place, and its rulers grow rich on what passes through their hands.",
    "sourceIds": [
     "wiki-kingdom-gz",
     "wiki-mapungubwe",
@@ -2720,7 +2720,7 @@
     "landmarkId": "great-enclosure"
    },
    "effect": "construction",
-   "text": "The kings move down from the hill. In the valley their masons build the Great Enclosure in stages: first the inner walls, then the great outer wall of coursed granite blocks without mortar, 11 m high on the east, crowned with a chevron band, and the Conical Tower inside. Granite was split with fire and water.",
+   "text": "The kings, in the usual account, move down from the hill. In the valley their masons build the Great Enclosure in stages: first the inner walls, then the great outer wall of coursed granite blocks without mortar, 11 m high on the east, crowned with a chevron band, and the Conical Tower inside. The granite was probably split with fire and water.",
    "sourceIds": [
     "wiki-great-zimbabwe",
     "garlake-gz",
