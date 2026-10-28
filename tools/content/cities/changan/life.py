@@ -5,16 +5,16 @@ FROM750 = ["tang-750", "late-tang-880"]
 MING = ["ming-1400"]
 
 SOURCES = [
-    dict(id="wiki-sogdians-china", title="Sogdians in China", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sogdians_in_China"),
-    dict(id="wiki-huxuan", title="Huxuan dance", author="Wikipedia", url="https://en.wikipedia.org/wiki/Huxuan_dance"),
+    dict(id="wiki-sogdians-china", title="Iranians in China", author="Wikipedia", url="https://en.wikipedia.org/wiki/Iranians_in_China"),
+    dict(id="wiki-huxuan", title="Sogdian Whirl dance", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sogdian_Whirl_dance"),
     dict(id="wiki-li-bai", title="Li Bai", author="Wikipedia", url="https://en.wikipedia.org/wiki/Li_Bai"),
     dict(id="wiki-du-fu", title="Du Fu", author="Wikipedia", url="https://en.wikipedia.org/wiki/Du_Fu"),
     dict(id="wiki-abe-nakamaro", title="Abe no Nakamaro", author="Wikipedia", url="https://en.wikipedia.org/wiki/Abe_no_Nakamaro"),
     dict(id="wiki-xuanzang", title="Xuanzang", author="Wikipedia", url="https://en.wikipedia.org/wiki/Xuanzang"),
     dict(id="wiki-imperial-exam", title="Imperial examination", author="Wikipedia", url="https://en.wikipedia.org/wiki/Imperial_examination"),
-    dict(id="wiki-polo-china", title="Polo in China", author="Wikipedia", url="https://en.wikipedia.org/wiki/Polo#History"),
+    dict(id="wiki-polo-china", title="Polo", author="Wikipedia", url="https://en.wikipedia.org/wiki/Polo#History"),
     dict(id="wiki-silk-road", title="Silk Road", author="Wikipedia", url="https://en.wikipedia.org/wiki/Silk_Road"),
-    dict(id="wiki-feiqian", title="Feiqian (flying money)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Feiqian"),
+    dict(id="wiki-feiqian", title="Flying cash", author="Wikipedia", url="https://en.wikipedia.org/wiki/Flying_cash"),
     dict(id="wiki-xuanwu-gate", title="Xuanwu Gate Incident", author="Wikipedia", url="https://en.wikipedia.org/wiki/Xuanwu_Gate_Incident"),
     dict(id="wiki-an-lushan", title="An Lushan rebellion", author="Wikipedia", url="https://en.wikipedia.org/wiki/An_Lushan_rebellion"),
     dict(id="wiki-huichang", title="Great Anti-Buddhist Persecution", author="Wikipedia", url="https://en.wikipedia.org/wiki/Great_Anti-Buddhist_Persecution"),
@@ -48,7 +48,7 @@ SPOTS = [
          vignettes=[dict(hour=11, text="Shutters come down at the noon drum. A Sogdian woman with green eyes and a red silk skirt sets out amber cups and jars of grape wine on the counter."),
                     dict(hour=17, text="Young men of good family tie their horses at the gate. A dancer spins on a round rug, faster and faster, to a drum and a curved pipa, sleeves flying."),
                     dict(hour=19, text="The dusk drums start. The drinkers must be home inside their own ward walls before the last beat, or spend the night here with the wine.")],
-         variants={"late-tang-880": dict(note="Fewer Sogdians since the An Lushan rebellion, led by a Sogdian general, turned the city against westerners; Uighur traders now run many wine shops and moneylenders.")}),
+         variants={"late-tang-880": dict(note="Fewer Sogdians since the An Lushan rebellion, led by a general of Sogdian descent, turned the city against westerners; Uighur traders now run many wine shops and moneylenders.")}),
     dict(id="caravan", name="A camel caravan on the Jinguang avenue", kind="market", latlon=(34.2575, 108.8990), activePeriods=["early-tang-650", "tang-750"],
          summary="A caravan of Bactrian camels arriving from the Jinguang gate with silver, glass, spices and horses from the Western Regions, bound for the caravanserais beside the West Market.",
          details=["Caravans came up the Gansu corridor from Dunhuang and Liangzhou, with passes checked at every barrier. Sogdian caravan leaders (sabao) carried silver, glass, perfumes, saffron and horses west to east, and silk the other way. Tang tomb figurines show the camels loaded with rolls of silk, flasks and even musicians riding on their backs."],
@@ -110,7 +110,7 @@ SPOTS = [
          confidence="documented", sourceIds=["wiki-abe-nakamaro", "wiki-li-bai"],
          vignettes=[dict(hour=7, text="Chao Heng, in the green robe of a Tang official, rides to his office in the palace library past the guards at the Anfu gate."),
                     dict(hour=14, text="An embassy from Japan has arrived. He interprets for the envoys at the Court of State Ceremonial and hears news of home after thirty years."),
-                    dict(hour=21, text="In his lodging he looks up at the moon and thinks of Mount Mikasa at Kasuga, which he left as a youth of nineteen.")]),
+                    dict(hour=21, text="In his lodging he looks up at the moon and thinks of Mount Mikasa at Kasuga, which he left as a youth.")]),
     dict(id="peony-sellers", name="Peony sellers in spring", kind="market", latlon=(34.2430, 108.9560), activePeriods=["late-tang-880"],
          summary="The peony craze of late Tang Chang'an: for three weeks each spring the city bought tree peonies by the cart, and a single clump of dark flowers could cost the taxes of ten households.",
          details=["Bai Juyi's poem 'Buying Flowers' describes the crowds going 'like mad' after peonies at the end of spring, carts and horses jostling, and an old farmer sighing that one clump of deep-red blooms costs as much as the taxes of ten middle households. The Ci'en temple's peonies and those of the great mansions drew sightseers across the city."],
@@ -146,7 +146,7 @@ SPOTS = [
     # ------------------------------------------------------------ Ming Xi'an
     dict(id="ming-watch", name="The night watch at the crossing", kind="civic", latlon=(34.2600, 108.9442), activePeriods=MING,
          summary="The watchmen of Ming Xi'an at the crossing of the four main streets, answering the Bell Tower's dawn bell and the Drum Tower's dusk drum and calling the night watches.",
-         details=["Ming cities kept a curfew enforced by watchmen and the garrison. The bell rang at dawn and the drum at dusk, the 'morning bell and evening drum' of Chinese cities; the watches were struck on drums or wooden clappers through the night. Xi'an was also a frontier garrison city, with troops of the Xi'an guards in the north-west quarter."],
+         details=["Ming cities kept a curfew enforced by watchmen and the garrison. The bell rang at dawn and the drum at dusk, the 'morning bell and evening drum' of Chinese cities; the watches were struck on drums or wooden clappers through the night. Xi'an was also a frontier garrison city, with the troops of several guard units quartered inside the walls."],
          confidence="interpretation", sourceIds=["wiki-bell-tower", "wiki-fortifications-xian"],
          vignettes=[dict(hour=5, text="The bell sounds from the tower near Guangji Street. Gatekeepers at the four gates draw the bolts; carts of vegetables wait on the moat bridges."),
                     dict(hour=18, text="The Drum Tower's drum beats the dusk. Shopkeepers on East Street put up their shutters; a watchman lights the lantern at his post."),
@@ -222,7 +222,7 @@ EVENTS = [
          sourceIds=["wiki-fortifications-xian"]),
     dict(id="bell-tower-1384", title="The Bell Tower is built", periodId="ming-1400", date="1384", kind="construction",
          at=dict(landmarkId="bell-tower"), effect="construction",
-         text="A bell tower was built near Guangji Street, then the centre of the city, to ring the dawn and the hours; legend says it was raised to calm the earthquakes of the dragon under the city. In 1582 it was taken down and rebuilt 300 m to the east, at the new crossing of the four main streets, where it still stands.",
+         text="A bell tower was built near Guangji Street, then the centre of the city, to ring the dawn and the hours; legend says it was raised to calm the earthquakes of the dragon under the city. In 1582 it was taken down and rebuilt a few hundred metres to the east, at the new crossing of the four main streets, where it still stands.",
          sourceIds=["wiki-bell-tower"]),
 ]
 

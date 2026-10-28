@@ -1190,7 +1190,7 @@
     ],
     "closed": true,
     "id": "tang-wall",
-    "blurb": "The rammed-earth outer wall of 582, about 36.7 km round and only some 5 m high, with three gates on each side but the north. It was a boundary and a customs line more than a fortification.",
+    "blurb": "The rammed-earth outer wall of 582, about 36.7 km round and only some 5 m high, with three gates on each of the east, south and west sides. It was a boundary and a customs line more than a fortification.",
     "periods": [
      "sui-600",
      "early-tang-650",
@@ -7759,7 +7759,7 @@
      ]
     ],
     "density": "dense",
-    "name": "North-west quarter (the garrison)",
+    "name": "North-west quarter",
     "periods": [
      "ming-1400"
     ]
@@ -8722,7 +8722,7 @@
       4294
      ]
     ],
-    "description": "The Ming city of the 1370s: four main streets from four gates, the Prince of Qin's palace in the north-east, the garrison in the north-west, the Hui lanes round the Great Mosque near the Drum Tower.",
+    "description": "The Ming city of the 1370s: four main streets from four gates, the Prince of Qin's palace in the north-east, garrison quarters, the Hui lanes round the Great Mosque near the Drum Tower.",
     "periods": [
      "ming-1400"
     ]
@@ -8936,7 +8936,7 @@
    "year": 650,
    "startYear": 618,
    "endYear": 712,
-   "summary": "The Tang took the Sui city whole in 617 and renamed it Chang'an. Under Taizong and Gaozong it fills: monks back from India, envoys from Japan, Silla and the Western Regions, the Daming Palace raised on the Longshou plateau (begun 634, built 662–663), and in 652 Xuanzang's brick pagoda at the Ci'en temple.",
+   "summary": "The Tang took the Sui city whole in 617 and in 618 renamed it Chang'an. Under Taizong and Gaozong it fills: monks back from India, envoys from Japan, Silla and the Western Regions, the Daming Palace raised on the Longshou plateau (begun 634, built 662–663), and in 652 Xuanzang's brick pagoda at the Ci'en temple.",
    "population": "perhaps 600,000–800,000",
    "feel": "Drums at dawn opening the ward gates, camel bells on the Jinguang avenue, chanting from new temples, and dust from the polo grounds.",
    "style": "sinic",
@@ -8999,7 +8999,7 @@
    "style": "sinic",
    "houses": {
     "title": "Courtyards of Ming Xi'an",
-    "text": "Inside the walls, quadrangle houses of grey brick and timber line straight lanes off the four main streets; soldiers of the garrison hold the north-west quarter, the Hui families the lanes round the Great Mosque, merchants the east."
+    "text": "Inside the walls, quadrangle houses of grey brick and timber line straight lanes off the four main streets; garrison soldiers live in quarters of their own, the Hui families the lanes round the Great Mosque, merchants the east."
    },
    "outskirts": {
     "title": "Villages on the Tang wards",
@@ -9055,7 +9055,7 @@
      "note": "Patched after the sacks of 756 and 763 and seldom used. In 904 Zhu Wen will have its timbers pulled down and floated to Luoyang."
     },
     "ming-1400": {
-     "note": "Gone. The Ming north wall cuts across the site; the Tang terraces lie under fields and the garrison's houses."
+     "note": "Gone. The Ming north wall cuts across the site; the Tang terraces lie under fields and the houses of the north of the city."
     }
    },
    "summary": "The main hall of the Sui-Tang Palace City on the city's axis: a great hipped hall on a rammed-earth terrace, behind the Taiji gate and its cloistered court.",
@@ -9508,7 +9508,7 @@
      "note": "The 'Golden Market' of the poets: Sogdian wine shops with western serving girls, Persian jewellers, money shops holding deposits, and timber brought by a new canal of 742 to a pond in the market."
     },
     "late-tang-880": {
-     "note": "Poorer since the Uighurs and the Tibetans cut the Silk Road in the 760s-790s, and many foreigners left after 845; still the city's busiest market."
+     "note": "Poorer since the Tibetans took the Gansu corridor and the Western Regions between the 760s and 790s, and many foreigners left after 845; still the city's busiest market."
     },
     "ming-1400": {
      "note": "Gone, a hamlet and fields west of the Ming walls. Its site was excavated before the Tang West Market Museum was built over part of it."
@@ -10019,7 +10019,7 @@
    "summary": "The first Christian church in China, of the Church of the East, in the Yining ward near the west gate: a small temple-style compound where in 781 the great stele recording its history was set up.",
    "details": [
     "The stele of 781, carved in Chinese and Syriac, tells how Aluoben brought the 'luminous teaching' in 635 and how emperors favoured it, and lists some seventy clergy. Tang Christians used Buddhist and Taoist words for their faith; the monastery looked like a Chinese temple, with a cross set on its roof perhaps.",
-    "The miniature is an interpretation: a gate, a main hall and a court with the stele on a tortoise, as in 780s descriptions of such steles. The site of the monastery in the ward is approximate, and its buildings are not known."
+    "The miniature is an interpretation: a gate, a main hall and a court with the stele on a tortoise base, as Tang steles commonly stood. The site of the monastery in the ward is approximate, and its buildings are not known."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -10139,7 +10139,7 @@
    },
    "summary": "The south gate of the Ming walls, on the line of the Tang Imperial City: a gate tower on the wall, a square barbican and an arrow tower facing the moat.",
    "details": [
-    "Zhu Yuanzhang's son Zhu Shuang, Prince of Qin, held Xi'an from 1378. The walls were raised in 1370-1378 on the Tang walls to the west and south and extended north and east, 12 m high and 15-18 m thick at the top. The gate towers and barbicans are of the Ming; the brick facing of the whole wall dates from 1568.",
+    "Zhu Yuanzhang's son Zhu Shuang, Prince of Qin, held Xi'an from 1378. The walls were raised in 1370-1378 on the Tang walls to the west and south and extended north and east, 12 m high, 15-18 m thick at the base and 12-14 m at the top. The gate towers and barbicans are of the Ming; the brick facing of the whole wall dates from 1568.",
     "The miniature shows the gate as rebuilt later in the Ming and as it stands today, with the earth wall faced in brick; in 1400 the wall's face was probably still bare rammed earth. The drawbridge tower in front is omitted."
    ],
    "confidence": "documented",
@@ -10188,7 +10188,7 @@
      "note": "Not yet. The ruined Imperial City's offices stand here."
     },
     "ming-1400": {
-     "note": "New in 1384: built near Guangji Street at the centre of the older city, it rang the hours for the city; it was moved 300 m east to the crossing of the four main streets in 1582."
+     "note": "New in 1384: built near Guangji Street at the centre of the older city, it rang the hours for the city; it was moved a few hundred metres east to the crossing of the four main streets in 1582."
     }
    },
    "summary": "The Ming bell tower of 1384, a three-eaved timber pavilion with a pointed roof on a square brick base pierced by four arched passages.",
@@ -10353,7 +10353,7 @@
    },
    "summary": "The Ming palace of the Princes of Qin in the north-east of Xi'an: a moated, walled inner palace with three main halls on an axis, inside an outer walled precinct.",
    "details": [
-    "Zhu Shuang was enfeoffed as Prince of Qin in 1370 and came to Xi'an in 1378; the palace, the first and grandest of the Ming princely palaces, was built in the 1370s. The princes of Qin held it until the city fell to Li Zicheng in 1643. Fragments of its earth walls survive round the modern Xincheng square.",
+    "Zhu Shuang was enfeoffed as Prince of Qin in 1370 and came to Xi'an in 1378; the palace, among the first and grandest of the Ming princely palaces, was built in the 1370s. The princes of Qin held it until the city fell to Li Zicheng in 1643. Fragments of its earth walls survive round the modern Xincheng square.",
     "The miniature is a reconstruction after the rules for princely palaces in the Ming statutes and the later palace plans: double walls with a moat between, a gate, three halls on a terrace and the residential halls behind."
    ],
    "confidence": "reconstruction",
@@ -10409,7 +10409,7 @@
    ],
    "variants": {
     "late-tang-880": {
-     "note": "Fewer Sogdians since the An Lushan rebellion, led by a Sogdian general, turned the city against westerners; Uighur traders now run many wine shops and moneylenders."
+     "note": "Fewer Sogdians since the An Lushan rebellion, led by a general of Sogdian descent, turned the city against westerners; Uighur traders now run many wine shops and moneylenders."
     }
    }
   },
@@ -10723,7 +10723,7 @@
     },
     {
      "hour": 21,
-     "text": "In his lodging he looks up at the moon and thinks of Mount Mikasa at Kasuga, which he left as a youth of nineteen."
+     "text": "In his lodging he looks up at the moon and thinks of Mount Mikasa at Kasuga, which he left as a youth."
     }
    ],
    "variants": {}
@@ -10891,7 +10891,7 @@
    ],
    "summary": "The watchmen of Ming Xi'an at the crossing of the four main streets, answering the Bell Tower's dawn bell and the Drum Tower's dusk drum and calling the night watches.",
    "details": [
-    "Ming cities kept a curfew enforced by watchmen and the garrison. The bell rang at dawn and the drum at dusk, the 'morning bell and evening drum' of Chinese cities; the watches were struck on drums or wooden clappers through the night. Xi'an was also a frontier garrison city, with troops of the Xi'an guards in the north-west quarter."
+    "Ming cities kept a curfew enforced by watchmen and the garrison. The bell rang at dawn and the drum at dusk, the 'morning bell and evening drum' of Chinese cities; the watches were struck on drums or wooden clappers through the night. Xi'an was also a frontier garrison city, with the troops of several guard units quartered inside the walls."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -11215,7 +11215,7 @@
     "landmarkId": "bell-tower"
    },
    "effect": "construction",
-   "text": "A bell tower was built near Guangji Street, then the centre of the city, to ring the dawn and the hours; legend says it was raised to calm the earthquakes of the dragon under the city. In 1582 it was taken down and rebuilt 300 m to the east, at the new crossing of the four main streets, where it still stands.",
+   "text": "A bell tower was built near Guangji Street, then the centre of the city, to ring the dawn and the hours; legend says it was raised to calm the earthquakes of the dragon under the city. In 1582 it was taken down and rebuilt a few hundred metres to the east, at the new crossing of the four main streets, where it still stands.",
    "sourceIds": [
     "wiki-bell-tower"
    ]
@@ -11342,9 +11342,9 @@
   },
   {
    "id": "wiki-yuwen-kai",
-   "title": "Yuwen Kai",
+   "title": "Emperor Wen of Sui",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Yuwen_Kai"
+   "url": "https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui"
   },
   {
    "id": "xiong",
@@ -11396,33 +11396,33 @@
   },
   {
    "id": "wiki-chengtian-gate",
-   "title": "Chengtian Gate",
+   "title": "Daxing Palace",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Chengtian_Gate"
+   "url": "https://en.wikipedia.org/wiki/Daxing_Palace"
   },
   {
    "id": "wiki-zhuque-gate",
-   "title": "Zhuque Gate (Chang'an)",
+   "title": "Chang'an",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Zhuque_Gate"
+   "url": "https://en.wikipedia.org/wiki/Chang%27an"
   },
   {
    "id": "wiki-east-market",
-   "title": "East Market (Chang'an)",
+   "title": "Chang'an",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/East_Market_(Chang%27an)"
+   "url": "https://en.wikipedia.org/wiki/Chang%27an"
   },
   {
    "id": "wiki-west-market",
-   "title": "West Market (Chang'an)",
+   "title": "Chang'an",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/West_Market_(Chang%27an)"
+   "url": "https://en.wikipedia.org/wiki/Chang%27an"
   },
   {
    "id": "wiki-xingqing-palace",
-   "title": "Xingqing Palace",
+   "title": "Xingqinggong Park",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Xingqing_Palace"
+   "url": "https://en.wikipedia.org/wiki/Xingqinggong_Park"
   },
   {
    "id": "wiki-giant-goose",
@@ -11450,9 +11450,9 @@
   },
   {
    "id": "wiki-xuandu-guan",
-   "title": "Xuandu Abbey",
+   "title": "Chang'an",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Xuandu_Abbey"
+   "url": "https://en.wikipedia.org/wiki/Chang%27an"
   },
   {
    "id": "wiki-daxingshan",
@@ -11492,7 +11492,7 @@
   },
   {
    "id": "wiki-qin-palace",
-   "title": "Prince of Qin (Ming dynasty)",
+   "title": "Zhu Shuang",
    "author": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Zhu_Shuang"
   },
@@ -11533,15 +11533,15 @@
   },
   {
    "id": "wiki-sogdians-china",
-   "title": "Sogdians in China",
+   "title": "Iranians in China",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Sogdians_in_China"
+   "url": "https://en.wikipedia.org/wiki/Iranians_in_China"
   },
   {
    "id": "wiki-huxuan",
-   "title": "Huxuan dance",
+   "title": "Sogdian Whirl dance",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Huxuan_dance"
+   "url": "https://en.wikipedia.org/wiki/Sogdian_Whirl_dance"
   },
   {
    "id": "wiki-li-bai",
@@ -11569,7 +11569,7 @@
   },
   {
    "id": "wiki-polo-china",
-   "title": "Polo in China",
+   "title": "Polo",
    "author": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Polo#History"
   },
@@ -11581,9 +11581,9 @@
   },
   {
    "id": "wiki-feiqian",
-   "title": "Feiqian (flying money)",
+   "title": "Flying cash",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Feiqian"
+   "url": "https://en.wikipedia.org/wiki/Flying_cash"
   },
   {
    "id": "wiki-xuanwu-gate",

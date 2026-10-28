@@ -53,7 +53,7 @@ PERIODS = [
          houses=dict(title="Wards of the new capital", text="Each ward (fang) is a rammed-earth rectangle with two or four gates and a cross of lanes inside. Officials and the families moved in from the old Han city build courtyard compounds of rammed earth and timber near the palace; temples are given whole quarters of wards."),
          outskirts=dict(title="Empty wards in the south", text="South of the markets many wards are walled but hardly lived in: wheat, millet and vegetable plots, a few farmhouses and new temples on the low ridges.")),
     dict(id="early-tang-650", label="Chang'an of Taizong and Gaozong", year=650, startYear=618, endYear=712,
-         summary="The Tang took the Sui city whole in 617 and renamed it Chang'an. Under Taizong and Gaozong it fills: monks back from India, envoys from Japan, Silla and the Western Regions, the Daming Palace raised on the Longshou plateau (begun 634, built 662–663), and in 652 Xuanzang's brick pagoda at the Ci'en temple.",
+         summary="The Tang took the Sui city whole in 617 and in 618 renamed it Chang'an. Under Taizong and Gaozong it fills: monks back from India, envoys from Japan, Silla and the Western Regions, the Daming Palace raised on the Longshou plateau (begun 634, built 662–663), and in 652 Xuanzang's brick pagoda at the Ci'en temple.",
          population="perhaps 600,000–800,000",
          feel="Drums at dawn opening the ward gates, camel bells on the Jinguang avenue, chanting from new temples, and dust from the polo grounds.",
          style="sinic",
@@ -78,7 +78,7 @@ PERIODS = [
          population="perhaps 100,000 (no reliable figure)",
          feel="Garrison drums from the gate towers, camel trains of the Hui merchants, the reek of tanneries and mutton stalls, and wheat fields running to the foot of the old pagodas.",
          style="sinic",
-         houses=dict(title="Courtyards of Ming Xi'an", text="Inside the walls, quadrangle houses of grey brick and timber line straight lanes off the four main streets; soldiers of the garrison hold the north-west quarter, the Hui families the lanes round the Great Mosque, merchants the east."),
+         houses=dict(title="Courtyards of Ming Xi'an", text="Inside the walls, quadrangle houses of grey brick and timber line straight lanes off the four main streets; garrison soldiers live in quarters of their own, the Hui families the lanes round the Great Mosque, merchants the east."),
          outskirts=dict(title="Villages on the Tang wards", text="Outside the walls, villages of loess and brick houses stand among wheat fields on the old wards; the lines of the Tang avenues survive here and there as field roads and village names.")),
 ]
 
@@ -174,7 +174,7 @@ ROADS = [dict(r, periods=r.get("periods", GRID)) for r in _GRID_ROADS] + [
 WALLS = [
     dict(id="tang-wall", name="Outer wall (guocheng)", closed=True, periods=GRID,
          path=[(N_WALL, W_WALL), (N_WALL, E_WALL), (S_WALL, E_WALL), (S_WALL, W_WALL)],
-         blurb="The rammed-earth outer wall of 582, about 36.7 km round and only some 5 m high, with three gates on each side but the north. It was a boundary and a customs line more than a fortification."),
+         blurb="The rammed-earth outer wall of 582, about 36.7 km round and only some 5 m high, with three gates on each of the east, south and west sides. It was a boundary and a customs line more than a fortification."),
     dict(id="palace-wall", name="Palace City wall", closed=True, periods=GRID,
          path=[(N_WALL, ICW), (N_WALL, ICE), (PC_S, ICE), (PC_S, ICW)],
          blurb="The Palace City, 2.8 by 1.5 km: the Taiji Palace in the middle, the Eastern Palace of the crown prince and the Yeting of the palace women on either side, walled in rammed earth about 10 m high."),
@@ -277,7 +277,7 @@ BLOCKS = (
     + wards("late-tang-880", 3, 5, west_dense_to=1, west_loose_to=1, skip=XINGQING | LEYOU)
     + [
         # Ming Xi'an: four quarters inside the walls, the suburbs at the gates, villages on the old wards
-        dict(name="North-west quarter (the garrison)", polygon=R(MN - 0.0003, MY + 0.0003, MW + 0.0003, MX - 0.0003), density="dense", periods=MING),
+        dict(name="North-west quarter", polygon=R(MN - 0.0003, MY + 0.0003, MW + 0.0003, MX - 0.0003), density="dense", periods=MING),
         dict(name="South-west quarter", polygon=R(MY - 0.0005, MS + 0.0003, MW + 0.0003, MX - 0.0003), density="dense", periods=MING),
         dict(name="South-east quarter", polygon=R(MY - 0.0003, MS + 0.0003, MX + 0.0003, ME - 0.0003), density="dense", periods=MING),
         dict(name="North-east quarter", polygon=R(MN - 0.0003, MY + 0.0003, MX + 0.0003, ME - 0.0003), density="dense", periods=MING),
@@ -329,7 +329,7 @@ DISTRICTS = [
     dict(id="pingkang", name="Pingkang ward", polygon=R(CHUNMING, IC_S, ICE, E34), periods=["tang-750", "late-tang-880"],
          description="The ward between the Imperial City and the East Market, close to the examination offices: lodgings of candidates and provincial liaison offices, and in its north-east lanes the 'Northern Quarter' of courtesans described by Sun Qi in 884."),
     dict(id="ming-xian", name="Xi'an walled city", polygon=R(MN, MS, MW, ME), periods=MING,
-         description="The Ming city of the 1370s: four main streets from four gates, the Prince of Qin's palace in the north-east, the garrison in the north-west, the Hui lanes round the Great Mosque near the Drum Tower."),
+         description="The Ming city of the 1370s: four main streets from four gates, the Prince of Qin's palace in the north-east, garrison quarters, the Hui lanes round the Great Mosque near the Drum Tower."),
 ]
 
 LABELS = [
@@ -351,7 +351,7 @@ SOURCES = [
     dict(id="wiki-changan", title="Chang'an", author="Wikipedia", url="https://en.wikipedia.org/wiki/Chang%27an"),
     dict(id="wiki-xian", title="Xi'an", author="Wikipedia", url="https://en.wikipedia.org/wiki/Xi%27an"),
     dict(id="wiki-fortifications-xian", title="Fortifications of Xi'an", author="Wikipedia", url="https://en.wikipedia.org/wiki/Fortifications_of_Xi%27an"),
-    dict(id="wiki-yuwen-kai", title="Yuwen Kai", author="Wikipedia", url="https://en.wikipedia.org/wiki/Yuwen_Kai"),
+    dict(id="wiki-yuwen-kai", title="Emperor Wen of Sui", author="Wikipedia", url="https://en.wikipedia.org/wiki/Emperor_Wen_of_Sui"),
     dict(id="xiong", title="Sui-Tang Chang'an: A Study in the Urban History of Medieval China", author="Victor Cunrui Xiong", year=2000),
     dict(id="heng", title="Cities of Aristocrats and Bureaucrats: The Development of Medieval Chinese Cityscapes", author="Heng Chye Kiang", year=1999),
     dict(id="steinhardt", title="Chinese Imperial City Planning", author="Nancy Shatzman Steinhardt", year=1990),
