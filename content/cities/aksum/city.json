@@ -1427,7 +1427,7 @@
       2164
      ]
     ],
-    "description": "The cathedral and its enclosures: in Alvares' day a great walled circuit holding the church, the houses of its two rectors, canons and monks. Boundaries approximate.",
+    "description": "The cathedral and its enclosures: in Alvares' day a great walled circuit holding the church, the houses of its clergy, canons and monks. Boundaries approximate.",
     "periods": [
      "ezana-350",
      "kaleb-530",
@@ -1712,7 +1712,7 @@
    "year": 1500,
    "startYear": 750,
    "endYear": 1535,
-   "summary": "The kings have long moved south; Aksum is a small town of priests round the church of Mary of Zion, rebuilt in the early 15th century and visited by emperors to be crowned. Francisco Alvares, here in the 1520s, saw a five-aisled painted church inside two walled enclosures, stelae, thrones and good houses. In 1535 the army of Ahmad Gragn burned the church.",
+   "summary": "The kings have long moved south; Aksum is a small town of priests round the church of Mary of Zion, rebuilt at some time in the Middle Ages and visited by a few emperors to be crowned. Francisco Alvares, here in the 1520s, saw a five-aisled painted church inside two walled enclosures, stelae, thrones and good houses. In 1535 the army of Ahmad Gragn burned the church.",
    "population": "perhaps 2,000–5,000 (a guess)",
    "feel": "Bells of stone and drums at the church gate, incense at dawn, the long chant of the priests, pilgrims sleeping in the churchyard.",
    "style": "kraal",
@@ -1731,7 +1731,7 @@
    "year": 1665,
    "startYear": 1536,
    "endYear": 1800,
-   "summary": "After the wars, Aksum's church is rebuilt under Gelawdewos and Minas, then replaced by Emperor Fasilides around 1665 with the battlemented church that still stands, on the old Aksumite podium. The court is at Gondar; Aksum is a holy town of priests, monks and church schools, with the right of sanctuary and the coronation stones where emperors were anointed.",
+   "summary": "After the wars, Aksum's church is rebuilt in a modest form, then replaced by Emperor Fasilides around 1665 with the battlemented church that still stands, on the old Aksumite podium. The court is at Gondar; Aksum is a holy town of priests, monks and church schools, with the right of sanctuary and the coronation stones where emperors were anointed.",
    "population": "a few thousand, many of them clergy (a guess)",
    "feel": "The chant of Yared's hymns before dawn, white-robed priests under juniper trees, pilgrims in the churchyard for the feast of Zion.",
    "style": "courtyard",
@@ -1886,7 +1886,7 @@
      "note": "Not yet raised. The royal cemetery here holds only rough standing stones over the early graves."
     },
     "ezana-350": {
-     "note": "New or nearly new: probably the last great stele set up at Aksum, around the time Ezana turned Christian. The name 'Ezana's stele' is modern; whose grave it marks is not known."
+     "note": "Raised probably in the first half of the 4th century, before the Great Stele was attempted. The name 'Ezana's stele' is modern; whose grave it marks is not known."
     },
     "kaleb-530": {
      "note": "Standing over the royal cemetery in a Christian city; new kings are buried elsewhere, but the old stelae are left in place."
@@ -1981,7 +1981,7 @@
    },
    "summary": "A 24 m carved stele with false doors at its base, taken to Rome as war booty in 1937, set up by the Circus Maximus, returned in 2005 and re-erected here in 2008.",
    "details": [
-    "Like Ezana's stele it is carved on all sides as a tower of storeys with a rounded head once enclosed in metal. When it fell is unknown: it was lying broken when Mussolini's army cut it into three and shipped it from Massawa. A UN agreement of 1947 promised its return, which took until 2005.",
+    "Like Ezana's stele it is carved on all sides as a tower of storeys with a rounded head once enclosed in metal. When it fell is unknown: it was lying broken in three pieces when Mussolini's army took it and shipped it from Massawa. A UN agreement of 1947 promised its return, which took until 2005.",
     "The model shows it standing, then fallen in pieces from the 17th century, a guess at the date. Storey count and carving are simplified."
    ],
    "confidence": "documented",
@@ -2053,7 +2053,7 @@
      "note": "The stelae are no longer raised; the field is an old cemetery beside the Christian city, its tombs perhaps already robbed."
     },
     "medieval-1500": {
-     "note": "Many stelae have fallen. The field belongs to the church's domain, and Alvares saw 'many tall stones' here, some carved, some broken."
+     "note": "Many stelae have fallen. The field belongs to the church's domain, and Alvares in the 1520s described tall stones here, some carved, some broken."
     },
     "gondarine-1665": {
      "note": "Fallen and standing stelae in the grass, with the round huts of the town pressing at the edge."
@@ -2433,7 +2433,7 @@
      "note": "Royal tombs of the 6th century: two blocks of fine dressed granite on a terrace, each opened by a stair down to stone-built chambers. Tradition gives them to Kaleb and his son Gebre Meskel."
     },
     "medieval-1500": {
-     "note": "The tombs are a place of legend: one story has Kaleb's treasure hidden in them; the chapel above Gebre Meskel's tomb has fallen."
+     "note": "The tombs are a place of legend: one story has Kaleb's treasure hidden in them. Whatever stood above them has fallen."
     },
     "gondarine-1665": {
      "note": "Open, empty vaults on the ridge, visited by the curious and by shepherds."
@@ -2593,7 +2593,7 @@
      }
     },
     "medieval-1500": {
-     "note": "The church rebuilt in the early 15th century, as Alvares saw it in the 1520s: five aisles, vaulted and painted, in a high-walled court inside a great enclosure. Burned in 1535.",
+     "note": "The medieval church, of uncertain date, as Alvares saw it in the 1520s: five aisles, vaulted and painted, in a high-walled court inside a great enclosure. Burned in 1535.",
      "confidence": "reconstruction",
      "model": {
       "glb": "models/aksum/mary-of-zion-1500.glb",
@@ -2610,10 +2610,10 @@
      "note": "Fasilides' church of about 1665, rectangular and battlemented with round corner turrets, standing on the old Aksumite podium in its walled precinct."
     }
    },
-   "summary": "Ethiopia's holiest church and the place where emperors were crowned, said to hold the Ark of the Covenant. Founded by tradition under Ezana, rebuilt in the 15th century, burned in 1535, and rebuilt by Fasilides around 1665.",
+   "summary": "Ethiopia's holiest church and the place where emperors were crowned, said to hold the Ark of the Covenant. Founded by tradition under Ezana, rebuilt in the Middle Ages, burned in 1535, and rebuilt by Fasilides around 1665.",
    "details": [
-    "The church stands on a stepped podium of Aksumite masonry, the one certain remnant of the first cathedral. Alvares described the late-medieval church of five aisles with seven chapels inside two enclosures; Ahmad Gragn's army burned it in 1535. Gelawdewos and Minas rebuilt it; Fasilides replaced that building with the present one.",
-    "Three models: an interpretation of the Aksumite basilica, a reconstruction from Alvares' account, and Fasilides' church, simplified. The 1955 cathedral and 1965 chapel of the Tablet are outside this atlas's time."
+    "The church stands on a stepped podium of Aksumite masonry, the one certain remnant of the first cathedral. Alvares described the late-medieval church of five aisles with seven chapels inside two enclosures; Ahmad Gragn's army burned it in 1535. It was rebuilt after the war, and Fasilides replaced that building with the present one.",
+    "Three models: an interpretation of the Aksumite basilica, a reconstruction from Alvares' account, and Fasilides' church, simplified. Haile Selassie's new cathedral and the chapel of the Tablet (1960s) are outside this atlas's time."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -2623,7 +2623,7 @@
     "wiki-fasilides",
     "munro-hay-aksum"
    ],
-   "built": "4th century (tradition); rebuilt 15th century; c. 1665",
+   "built": "4th century (tradition); rebuilt in the Middle Ages; c. 1665",
    "function": "Cathedral and coronation church",
    "activity": {
     "figures": 50,
@@ -2667,13 +2667,13 @@
      "note": "Open ground by the cemetery; the custom of setting up thrones may be old, but none is known from this time."
     },
     "ezana-350": {
-     "note": "Granite thrones of the kings, set up after victories and carrying inscribed panels and perhaps metal statues; Ezana's inscriptions speak of a throne raised 'here in Sado'."
+     "note": "Granite thrones of the kings, set up after victories and carrying inscribed panels and perhaps metal statues; Aksumite inscriptions speak of thrones set up to mark victories."
     },
     "kaleb-530": {
      "note": "A row of thrones of earlier kings on the ceremonial way between the stelae and the cathedral, with their inscriptions of wars won."
     },
     "medieval-1500": {
-     "note": "The old thrones are coronation seats now: here Zara Yaqob sat in 1436, after cutting a cord held across his path by the 'daughters of Aksum'.",
+     "note": "The old thrones are coronation seats now: Zara Yaqob was crowned here in 1436, in a rite that, as later described, began with the king cutting a cord held across his path by the 'daughters of Zion'.",
      "name": "The coronation seats"
     },
     "gondarine-1665": {
@@ -2743,7 +2743,7 @@
      "note": "An old royal inscription by the road up to the new royal tombs; its Greek could still be read by the merchants."
     },
     "medieval-1500": {
-     "note": "Half-buried; the scripts are older than the church Ge'ez anyone around it reads."
+     "note": "Half-buried; few in the town can read its Greek and South Arabian lines any more."
     },
     "gondarine-1665": {
      "note": "Buried or lying forgotten; farmers found it again in modern times, and it now stands under a shelter on the spot."
@@ -3017,7 +3017,7 @@
    ],
    "variants": {
     "kaleb-530": {
-     "note": "Kaleb's coins carry his throne name, Ella Asbeha, and the cross; copper coins are struck in large numbers."
+     "note": "Kaleb's coins name him as son of Tazena and carry the cross; copper coins are struck in large numbers."
     }
    }
   },
@@ -3305,7 +3305,7 @@
     },
     {
      "hour": 11,
-     "text": "The king rides up; girls hold a cord across the road and ask who he is. 'King of Zion', he answers, and cuts it with his sword."
+     "text": "The king rides up; girls hold a cord across the road and ask who he is. He names his royal line and cuts the cord with his sword."
     },
     {
      "hour": 18,
@@ -3369,7 +3369,7 @@
    ],
    "summary": "A farmer behind a pair of oxen and a wooden ard, the iron-tipped plough of the highlands, breaking the black soil for teff in the early rains.",
    "details": [
-    "Teff, the tiny grain of injera, was domesticated in the Ethiopian highlands; Aksum's farmers grew it with wheat and barley, and the ox-drawn ard is shown on Aksumite-period objects and still used. The plain south of the town was its granary. The scene is an interpretation."
+    "Teff, the tiny grain of injera, was domesticated in the Ethiopian highlands; Aksum's farmers grew it with wheat and barley, and the ox-drawn ard, still used today, probably goes back to Aksumite times. The plain south of the town was its granary. The scene is an interpretation."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -3595,7 +3595,7 @@
     "landmarkId": "coronation-thrones"
    },
    "effect": "procession",
-   "text": "Emperor Zara Yaqob came north to be crowned at Aksum, by the rite later described: the cord held by the daughters of Aksum cut, the stone throne, anointing, and mass in the rebuilt church of Zion. He stayed in the region for three years, and few later kings repeated the journey.",
+   "text": "Emperor Zara Yaqob came north to be crowned at Aksum, by the rite later described: the cord held by the daughters of Aksum cut, the stone throne, anointing, and mass in the rebuilt church of Zion. Few later kings repeated the journey.",
    "sourceIds": [
     "wiki-zara-yaqob",
     "wiki-axum",
@@ -3612,7 +3612,7 @@
     "landmarkId": "mary-of-zion"
    },
    "effect": "fire",
-   "text": "In the war between Adal and Ethiopia, the army of Imam Ahmad ibn Ibrahim, called Gragn ('the left-handed'), took Aksum and burned the great church Alvares had admired a decade before. A list in the Book of Aksum counts 1,705 gold objects that Emperor Lebna Dengel had already sent away for safekeeping.",
+   "text": "In the war between Adal and Ethiopia, the army of Imam Ahmad ibn Ibrahim, called Gragn ('the left-handed'), took Aksum and burned the great church Alvares had admired fifteen years before. The church's treasures, tradition says, had been carried away to safety in time.",
    "sourceIds": [
     "futuh",
     "wiki-ahmad-gragn",
@@ -3629,7 +3629,7 @@
     "landmarkId": "mary-of-zion"
    },
    "effect": "construction",
-   "text": "Emperor Fasilides, builder of the castles of Gondar, replaced the church put up after the war with a new one in the Gondarine manner on the old Aksumite podium: rectangular, battlemented, with round corner towers. His daughter Yodit gave lavishly for its dedication. It is the 'old church' still standing.",
+   "text": "Emperor Fasilides, builder of the castles of Gondar, replaced the church put up after the war with a new one in the Gondarine manner on the old Aksumite podium: rectangular, battlemented, with round corner towers. It is the 'old church' still standing.",
    "sourceIds": [
     "wiki-fasilides",
     "wiki-axum",
@@ -3646,7 +3646,7 @@
     "landmarkId": "mary-of-zion"
    },
    "effect": "crowd",
-   "text": "Fifteen years after rebels burned the town in 1678, Emperor Iyasu I came to Aksum for the rites at Mary of Zion, which had survived. The visit of the emperor from Gondar renewed the old tie between the crown and Aksum's church, though the court itself stayed far to the south.",
+   "text": "In 1693 Emperor Iyasu I came to Aksum for the rites at Mary of Zion. The visit of the emperor from Gondar renewed the old tie between the crown and Aksum's church, though the court itself stayed far to the south.",
    "sourceIds": [
     "wiki-iyasu-i",
     "wiki-axum"
@@ -3678,7 +3678,7 @@
     {
      "landmarkId": "ezana-stele",
      "title": "The house of stone",
-     "text": "The newest stele rises 21 m over a royal tomb, carved as a tower of storeys with a false door at its foot. It may be the last one: Christian kings will not raise more."
+     "text": "A stele 21 m high rises over a royal tomb, carved as a tower of storeys with a false door at its foot. Christian kings will raise no more."
     },
     {
      "landmarkId": "great-stele",
