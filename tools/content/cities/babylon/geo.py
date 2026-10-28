@@ -101,7 +101,7 @@ ROADS = [
     dict(id="processional-way", name="Ay-ibur-šabû, the Processional Way", path=[(32.5555, 44.4226), (32.5500, 44.4224), (32.5455, 44.4223), (32.5436, 44.4222), (32.5412, 44.4223), (32.5398, 44.4236),
                                                                                (32.5385, 44.4237), (32.5346, 44.4237), (32.5343, 44.4210), (32.5343, 44.4181)],
          width=20, style="major", labelled=True, periods=NEO,
-         blurb="'The enemy shall not cross it': the sacred road of Marduk from the Akitu house north of the city through the Ishtar Gate, south past the palace and the ziggurat, then west between Etemenanki and Esagila to the bridge. Nebuchadnezzar raised and paved it."),
+         blurb="'May the arrogant not prevail', the usual translation of its name: the sacred road of Marduk from the Akitu house north of the city through the Ishtar Gate, south past the palace and the ziggurat, then west between Etemenanki and Esagila to the bridge. Nebuchadnezzar raised and paved it."),
     dict(id="west-street", name="Street of Adad (to the Adad Gate)", path=[(32.5343, 44.4159), (32.5343, 44.4120), (32.5343, 44.4076)], width=12, style="major", periods=NEO,
          blurb="From the bridge across the western city to its west gate. Street names are known from the Tintir list; which street ran where is approximate."),
     dict(id="borsippa-road", name="Road to Borsippa", path=[(32.5343, 44.4076), (32.5300, 44.4040), (32.5240, 44.4012), (32.5178, 44.3990)], width=12, style="major", labelled=True, periods=NEO,

@@ -339,7 +339,7 @@
     "style": "major",
     "labelled": true,
     "id": "processional-way",
-    "blurb": "'The enemy shall not cross it': the sacred road of Marduk from the Akitu house north of the city through the Ishtar Gate, south past the palace and the ziggurat, then west between Etemenanki and Esagila to the bridge. Nebuchadnezzar raised and paved it.",
+    "blurb": "'May the arrogant not prevail', the usual translation of its name: the sacred road of Marduk from the Akitu house north of the city through the Ishtar Gate, south past the palace and the ziggurat, then west between Etemenanki and Esagila to the bridge. Nebuchadnezzar raised and paved it.",
     "periods": [
      "nebuchadnezzar-575",
      "achaemenid-450",
@@ -2572,7 +2572,7 @@
      "note": "Still the city's grand northern entrance. Persian kings and their armies rode through it; the gate seems to have survived the reprisals of 484 that damaged other walls."
     },
     "alexander-323": {
-     "note": "Alexander's army entered from the north in October 331, received by the satrap Mazaeus and the people strewing flowers. The gate still stood, its glaze bright."
+     "note": "Alexander's army entered in October 331, received by Mazaeus, the Persian commander who surrendered the city, and, Curtius says, by people strewing flowers. The gate still stood, its glaze bright."
     }
    },
    "summary": "The northern gate of the inner city, faced with brick glazed deep blue, its walls set with rows of raised dragons of Marduk and bulls of Adad.",
@@ -2764,7 +2764,7 @@
      "note": "Herodotus, who describes Babylon at length, never mentions hanging gardens; that silence is one reason some doubt they were here at all."
     },
     "alexander-323": {
-     "note": "Greek writers of Alexander's time are the first to describe the gardens, as terraces built by a king for a wife homesick for her mountains."
+     "note": "The gardens are first described in the generations after Alexander, by Berossus and Greek historians, as terraces built by a king for a wife homesick for her mountains."
     }
    },
    "summary": "The famous terraced gardens of a Babylonian king, one of the Seven Wonders. Their site is unknown: here they are drawn, as one interpretation, on the western outwork by the river.",
@@ -2945,7 +2945,7 @@
      "note": "Gardens and fields north of the city; the mound of Babil did not yet exist."
     },
     "nebuchadnezzar-575": {
-     "note": "Built late in Nebuchadnezzar's reign at the northern tip of the outer wall on a high platform, perhaps to catch the north wind; Koldewey found ventilation shafts in its structure."
+     "note": "Built late in Nebuchadnezzar's reign at the northern tip of the outer wall on a high platform, perhaps to catch the north wind; Koldewey found shafts in its platform that he took for ventilation."
     },
     "achaemenid-450": {
      "note": "Still a royal residence and the outer city's northern bastion."
@@ -3616,7 +3616,7 @@
     },
     {
      "hour": 19,
-     "text": "Exercises are smoothed flat for tomorrow, or thrown into the bin to be soaked and reused; four thousand years later archaeologists will find them under the floor."
+     "text": "Exercises are smoothed flat for tomorrow, or thrown into the bin to be soaked and reused; at Ur and Nippur archaeologists found such discards under the floors."
     }
    ],
    "variants": {
@@ -3639,7 +3639,7 @@
    ],
    "summary": "A beer house kept by a woman, the sabitum, regulated by Hammurabi's laws: fair measures, and a duty to report outlaws who plot in her house.",
    "details": [
-    "Laws 108–111 of Hammurabi's code deal with the alewife: if she takes silver at a short measure she is thrown into the water; if criminals gather in her house and she does not report them, she is put to death; a priestess who opens a tavern is burned. Beer was paid for in barley, often on credit until harvest."
+    "Laws 108–111 of Hammurabi's code deal with the alewife: if she takes silver at a short measure she is thrown into the water; if criminals gather in her house and she does not report them, she is put to death; a priestess who opens a tavern, or enters one to drink, is burned. Beer was paid for in barley, often on credit until harvest."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -3993,7 +3993,7 @@
    "vignettes": [
     {
      "hour": 8,
-     "text": "Itti-Marduk-balatu, head of the family, receives a tenant who cannot pay. A scribe drafts a new contract, with witnesses' names at the foot."
+     "text": "The head of the family receives a tenant who cannot pay. A scribe drafts a new contract, with witnesses' names at the foot."
     },
     {
      "hour": 14,
@@ -4119,7 +4119,7 @@
     },
     {
      "hour": 21,
-     "text": "On the roof the observer measures the moon's distance from a normal star in fingers, a thumb's width held at arm's length."
+     "text": "On the roof the observer notes the moon's distance above or below a 'normal star', reckoned in cubits and fingers."
     }
    ],
    "variants": {
@@ -4430,7 +4430,7 @@
     "landmarkId": "etemenanki"
    },
    "effect": "construction",
-   "text": "Alexander set his army to clear the ruins of Etemenanki for a rebuilding; Strabo says the work needed 10,000 men for two months. Babylonian texts mention clearing the rubble again under his successors. The tower was never rebuilt; the brick was carted to the Homera mound.",
+   "text": "Alexander set his army to clear the ruins of Etemenanki for a rebuilding; Strabo says the work needed 10,000 men for two months. Babylonian texts mention clearing the rubble again under his successors. The tower was never rebuilt; the rubble was probably dumped on the Homera mound.",
    "sourceIds": [
     "wiki-etemenanki",
     "arrian"
