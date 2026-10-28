@@ -2117,7 +2117,7 @@
  "florence/amphitheatre": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 158.98
+  "size": 159.07
  },
  "florence/baptistery": {
   "cx": 0.12,
@@ -2126,8 +2126,8 @@
  },
  "florence/bargello": {
   "cx": 0.0,
-  "cy": 0.25,
-  "size": 164.5
+  "cy": 0.26,
+  "size": 164.52
  },
  "florence/campanile": {
   "cx": 0.0,
@@ -2147,7 +2147,7 @@
  "florence/fortezza-da-basso": {
   "cx": 0.0,
   "cy": 1.8,
-  "size": 356.8
+  "size": 356.57
  },
  "florence/forum": {
   "cx": 0.0,
@@ -2156,18 +2156,18 @@
  },
  "florence/innocenti": {
   "cx": 0.0,
-  "cy": -0.2,
+  "cy": -0.19,
   "size": 120.96
  },
  "florence/loggia-lanzi": {
   "cx": 0.0,
   "cy": 0.72,
-  "size": 87.38
+  "size": 87.41
  },
  "florence/loggia-lanzi-1600": {
   "cx": 0.0,
   "cy": 0.72,
-  "size": 87.38
+  "size": 87.41
  },
  "florence/orsanmichele": {
   "cx": 0.0,
@@ -2186,13 +2186,13 @@
  },
  "florence/palazzo-pitti": {
   "cx": 0.0,
-  "cy": 0.83,
-  "size": 193.09
+  "cy": 0.85,
+  "size": 193.13
  },
  "florence/palazzo-pitti-1600": {
   "cx": 0.0,
-  "cy": 0.83,
-  "size": 193.09
+  "cy": 0.85,
+  "size": 193.13
  },
  "florence/palazzo-vecchio": {
   "cx": -0.1,
@@ -2221,11 +2221,11 @@
  },
  "florence/ponte-vecchio": {
   "cx": 0.01,
-  "cy": 0.4,
-  "size": 168.28
+  "cy": 0.42,
+  "size": 168.32
  },
  "florence/ponte-vecchio-1600": {
-  "cx": 0.4,
+  "cx": 0.43,
   "cy": 1.4,
   "size": 170.28
  },
@@ -2237,7 +2237,7 @@
  "florence/porta-romana": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 88.99
+  "size": 89.01
  },
  "florence/san-lorenzo": {
   "cx": 0.0,
@@ -2255,19 +2255,19 @@
   "size": 187.2
  },
  "florence/san-miniato": {
-  "cx": 0.22,
+  "cx": 0.23,
   "cy": 0.5,
   "size": 152.04
  },
  "florence/santa-croce": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": -0.0,
   "size": 192.06
  },
  "florence/santa-croce-1300": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 173.15
+  "cy": 0.02,
+  "size": 173.2
  },
  "florence/santa-maria-novella": {
   "cx": 0.0,
