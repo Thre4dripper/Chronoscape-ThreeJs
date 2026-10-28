@@ -1827,7 +1827,7 @@
    "year": 1340,
    "startYear": 1324,
    "endYear": 1432,
-   "summary": "Timbuktu passes to the empire of Mali around Mansa Musa's return from his pilgrimage of 1324–25. Tradition credits the Andalusian poet Abu Ishaq al-Sahili with the Djinguereber mosque and a royal palace, the Madugu. Salt from the Sahara and gold from the south meet here; merchants from Walata move in. Banco houses, mat huts, the market.",
+   "summary": "Timbuktu passes to the empire of Mali around Mansa Musa's return from his pilgrimage of 1324–25. Tradition credits the Andalusian poet Abu Ishaq al-Sahili with the Djinguereber mosque and a royal palace, the Madugu. Salt from the Sahara and gold from the south meet here; merchants from Walata begin to move in. Banco houses, mat huts, the market.",
    "population": "perhaps 10,000 (no figures survive)",
    "feel": "Caravans unloading salt slabs in the north, the Friday crowd at the new mosque, Mande, Songhay and Berber spoken in one market.",
    "style": "sahel",
@@ -1865,7 +1865,7 @@
    "year": 1550,
    "startYear": 1493,
    "endYear": 1590,
-   "summary": "Under the Askia dynasty of Songhai, ruling from Gao, Timbuktu is the empire's city of learning and trade, run by qadis of the Aqit family. Leo Africanus, here around 1510, saw a rich town of scholars and judges where books sold for more than any other goods. Ahmed Baba is born in 1556; the qadi al-Aqib rebuilds the great mosques from 1569.",
+   "summary": "Under the Askia dynasty of Songhai, ruling from Gao, Timbuktu is the empire's city of learning and trade, run by qadis of the Aqit family. Leo Africanus, here around 1510, saw a rich town of scholars and judges where books sold for more than any other goods. Ahmed Baba is born in 1556; the qadi al-Aqib rebuilds the great mosques from 1570.",
    "population": "perhaps 50,000–80,000 at its height (estimates vary widely)",
    "feel": "Students from all over West Africa in the mosque courts, gold dust on the scales, the Azalai's camels kneeling in the north, drums on feast days.",
    "style": "sahel",
@@ -1995,8 +1995,8 @@
    "name": "Sankore mosque",
    "category": "religious",
    "position": [
-    2174,
-    1309
+    1972,
+    1442
    ],
    "rotation": -100,
    "footprint": [
@@ -2069,8 +2069,8 @@
    "name": "Sidi Yahya mosque",
    "category": "religious",
    "position": [
-    1769,
-    1609
+    1801,
+    1853
    ],
    "rotation": -100,
    "footprint": [
@@ -3392,7 +3392,7 @@
     },
     {
      "hour": 20,
-     "text": "Green tea is a later custom; now there is milk and dates. A man plays a one-stringed fiddle, and the women sing to it."
+     "text": "Green tea is a later custom; now there is milk and dates. A woman plays the one-stringed imzad fiddle, and the others sing to it."
     }
    ],
    "variants": {}
@@ -3531,7 +3531,7 @@
    "id": "sonni-ali-1468",
    "title": "Sonni Ali storms Timbuktu",
    "periodId": "songhai-1450",
-   "date": "January 1468",
+   "date": "1468 (some sources give early 1469)",
    "kind": "riot",
    "at": {
     "landmarkId": "sankore"
@@ -3581,7 +3581,7 @@
    "id": "al-aqib-1570",
    "title": "The qadi rebuilds the mosques",
    "periodId": "askia-1550",
-   "date": "1569–1583",
+   "date": "1570–1583",
    "kind": "construction",
    "at": {
     "landmarkId": "djinguereber"
@@ -3917,9 +3917,9 @@
   },
   {
    "id": "wiki-mausoleums",
-   "title": "Destruction of the mausoleums of Timbuktu (the saints' tombs)",
+   "title": "Ahmad al-Faqi al-Mahdi (the destruction of Timbuktu's mausoleums)",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Destruction_of_cultural_heritage_by_Islamists_in_Mali"
+   "url": "https://en.wikipedia.org/wiki/Ahmad_al-Faqi_al-Mahdi"
   },
   {
    "id": "ibn-battuta",

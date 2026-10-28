@@ -31,7 +31,7 @@ SOURCES = [
     dict(id="wiki-tuareg", title="Tuareg people", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tuareg_people"),
     dict(id="wiki-ghadames", title="Ghadames", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ghadames"),
     dict(id="wiki-sudano-sahelian", title="Sudano-Sahelian architecture", author="Wikipedia", url="https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture"),
-    dict(id="wiki-mausoleums", title="Destruction of the mausoleums of Timbuktu (the saints' tombs)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Destruction_of_cultural_heritage_by_Islamists_in_Mali"),
+    dict(id="wiki-mausoleums", title="Ahmad al-Faqi al-Mahdi (the destruction of Timbuktu's mausoleums)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ahmad_al-Faqi_al-Mahdi"),
 ]
 
 LANDMARKS = [
@@ -53,7 +53,7 @@ LANDMARKS = [
          sourceIds=["wiki-djinguereber", "wiki-al-sahili", "sadi-tarikh", "prussin-hatumere", "unesco-timbuktu"], activity=dict(figures=60, radius=160)),
 
     dict(id="sankore", placeId="sankore", name="Sankore mosque", category="religious",
-         latlon=(16.7772, -3.0036), rotation=-100, footprint=(56, 50), scale=1.0, model="timbuktu/sankore",
+         latlon=(16.7760, -3.0055), rotation=-100, footprint=(56, 50), scale=1.0, model="timbuktu/sankore",
          activePeriods=FROM_1450,
          variants={
              "mali-1340": dict(note="Houses and sand where the Sankore mosque will stand. Its foundation date is unknown: tradition credits a wealthy woman, and some accounts place it as early as Mali's time."),
@@ -68,7 +68,7 @@ LANDMARKS = [
          sourceIds=["wiki-sankore", "sadi-tarikh", "saad-timbuktu", "prussin-hatumere"], activity=dict(figures=40, radius=120)),
 
     dict(id="sidi-yahya", placeId="sidi-yahya", name="Sidi Yahya mosque", category="religious",
-         latlon=(16.7745, -3.0074), rotation=-100, footprint=(42, 36), scale=1.0, model="timbuktu/sidi-yahya",
+         latlon=(16.7723, -3.0071), rotation=-100, footprint=(42, 36), scale=1.0, model="timbuktu/sidi-yahya",
          activePeriods=FROM_1450,
          variants={
              "mali-1340": dict(note="Open ground in the middle of the town, between the market and the northern houses. A mosque would be built here in the 1440s."),
