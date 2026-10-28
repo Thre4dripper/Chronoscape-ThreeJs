@@ -271,7 +271,7 @@ SOURCES = [
     dict(id="wiki-shazhou", title="Shazhou", author="Wikipedia", url="https://en.wikipedia.org/wiki/Shazhou"),
     dict(id="wiki-crescent-lake", title="Crescent Lake (Dunhuang)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Crescent_Lake_(Dunhuang)"),
     dict(id="wiki-singing-sand", title="Singing sand", author="Wikipedia", url="https://en.wikipedia.org/wiki/Singing_sand"),
-    dict(id="wiki-guiyi", title="Guiyi Circuit", author="Wikipedia", url="https://en.wikipedia.org/wiki/Guiyi_Circuit"),
+    dict(id="wiki-guiyi", title="Guiyi Prefecture", author="Wikipedia", url="https://en.wikipedia.org/wiki/Guiyi_Prefecture"),
     dict(id="hansen", title="The Silk Road: A New History", author="Valerie Hansen", year=2012),
     dict(id="whitfield", title="Life Along the Silk Road", author="Susan Whitfield", year=1999),
     dict(id="rong-xinjiang", title="Eighteen Lectures on Dunhuang", author="Rong Xinjiang (trans. Imre Galambos)", year=2013),

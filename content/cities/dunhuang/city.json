@@ -3298,7 +3298,7 @@
      }
     },
     "tang-800": {
-     "note": "At the height of the site: the 35 m North Great Buddha (Cave 96, 695) behind a four-storey timber façade, the 26 m South Great Buddha (Cave 130), tiers of painted caves joined by plank galleries."
+     "note": "At the height of the site: the 35 m North Great Buddha (Cave 96, 695) behind a four-storey timber façade, the 26 m South Great Buddha (Cave 130), tiers of painted caves and plank galleries."
     },
     "guiyi-950": {
      "note": "The Zhang and Cao families add great caves with timber porches; the Great Buddha's façade has five storeys. About 1000 a chamber off Cave 16 is walled up full of manuscripts.",
@@ -3330,7 +3330,7 @@
    },
    "summary": "The cliff of the Thousand Buddha Caves, 25 km south-east of the town and far outside this map, drawn at the frame's edge so the reader can see it: rows of cave mouths, plank galleries and the timber façade of the Great Buddha.",
    "details": [
-    "Some 735 caves, 492 of them painted, are cut over 1.7 km of the cliff above the Daquan stream, from the 4th to the 14th century. A stele of 698 says the monk Lezun cut the first in 366. The North Great Buddha (Cave 96, 695) is 35.5 m high; its façade had four storeys, five after a rebuilding in the 870s and repairs in 966; the nine-storey front seen today dates from 1935.",
+    "Some 735 caves, 492 of them painted, are cut over 1.7 km of the cliff above the Daquan stream, from the 4th to the 14th century. A stele of 698 says the monk Lezun cut the first in 366. The North Great Buddha (Cave 96, 695) is 35.5 m high; its façade had four storeys, five after a rebuilding in the 870s; the nine-storey front seen today dates from 1935.",
     "Shown out of place and much compressed: the real cliff faces east and is far longer. The miniature keeps its character - several tiers of square cave mouths, timber porches and galleries, the tall façade of Cave 96 and the smaller one of Cave 130 - and the poplars along the stream."
    ],
    "confidence": "reconstruction",
@@ -3495,7 +3495,7 @@
    ],
    "summary": "Boys of the town's families learning to read and write at a monastery school, copying primers, poems and model letters, and signing their exercises.",
    "details": [
-    "Many Dunhuang manuscripts are school exercises signed by 'student' (xuelang) so-and-so of the Jingtu, Lianfeng or Sanjie monastery schools, sometimes with a scribbled verse complaining of the cold or the teacher. They copied the Thousand Character Classic, the Classic of Filial Piety, model letters and poems."
+    "Many Dunhuang manuscripts are school exercises signed by 'student' (xuelang) so-and-so of the Jingtu, Liantai or Sanjie monastery schools, sometimes with a scribbled verse complaining of the cold or the teacher. They copied the Thousand Character Classic, the Classic of Filial Piety, model letters and poems."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -3837,7 +3837,7 @@
     },
     {
      "hour": 13,
-     "text": "He writes the day's entry on a pine slip: 'no alarm'. His rations, two bushels of millet a month, arrive from the commandery granary."
+     "text": "He writes the day's entry on a wooden slip: 'no alarm'. His month's ration of millet arrives from the commandery granary."
     },
     {
      "hour": 21,
@@ -4160,9 +4160,9 @@
   },
   {
    "id": "wiki-guiyi",
-   "title": "Guiyi Circuit",
+   "title": "Guiyi Prefecture",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Guiyi_Circuit"
+   "url": "https://en.wikipedia.org/wiki/Guiyi_Prefecture"
   },
   {
    "id": "hansen",
@@ -4195,9 +4195,9 @@
   },
   {
    "id": "wiki-library-cave",
-   "title": "Library Cave",
+   "title": "Mogao Caves: the Library Cave",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Library_Cave"
+   "url": "https://en.wikipedia.org/wiki/Mogao_Caves#Library_Cave"
   },
   {
    "id": "wiki-dunhuang-manuscripts",
@@ -4237,21 +4237,21 @@
   },
   {
    "id": "wiki-chinese-buddhist-architecture",
-   "title": "Buddhist temples in China",
+   "title": "Buddhist architecture",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Buddhist_temples_in_China"
+   "url": "https://en.wikipedia.org/wiki/Buddhist_architecture"
   },
   {
    "id": "wiki-sogdians-china",
-   "title": "Sogdians",
+   "title": "Sogdia",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Sogdians"
+   "url": "https://en.wikipedia.org/wiki/Sogdia"
   },
   {
    "id": "wiki-zoroastrianism-china",
-   "title": "Zoroastrianism in China",
+   "title": "Zoroastrianism",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Zoroastrianism_in_China"
+   "url": "https://en.wikipedia.org/wiki/Zoroastrianism"
   },
   {
    "id": "wiki-caravanserai",
@@ -4261,9 +4261,9 @@
   },
   {
    "id": "wiki-karez",
-   "title": "Irrigation in China",
+   "title": "Irrigation",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Irrigation_in_China"
+   "url": "https://en.wikipedia.org/wiki/Irrigation"
   },
   {
    "id": "wiki-ming-great-wall",
@@ -4311,13 +4311,13 @@
    "id": "wiki-kumarajiva",
    "title": "Kumārajīva",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Kumarajiva"
+   "url": "https://en.wikipedia.org/wiki/Kum%C4%81raj%C4%ABva"
   },
   {
    "id": "wiki-white-horse-pagoda",
-   "title": "White Horse Pagoda",
+   "title": "White Horse Pagoda, Dunhuang",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/White_Horse_Pagoda"
+   "url": "https://en.wikipedia.org/wiki/White_Horse_Pagoda,_Dunhuang"
   },
   {
    "id": "wiki-zhang-yichao",
@@ -4369,9 +4369,9 @@
   },
   {
    "id": "wiki-sogdians",
-   "title": "Sogdians",
+   "title": "Sogdia",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Sogdians"
+   "url": "https://en.wikipedia.org/wiki/Sogdia"
   },
   {
    "id": "wiki-great-wall",
@@ -4383,7 +4383,7 @@
    "id": "wiki-dharmaraksha",
    "title": "Dharmarakṣa",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Dharmaraksha"
+   "url": "https://en.wikipedia.org/wiki/Dharmarak%E1%B9%A3a"
   },
   {
    "id": "trombert",
