@@ -4886,12 +4886,12 @@
  },
  "timbuktu/aqit-house": {
   "cx": 0.0,
-  "cy": 0.18,
+  "cy": 0.19,
   "size": 50.35
  },
  "timbuktu/azalai-ground": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.02,
   "size": 97.45
  },
  "timbuktu/djinguereber": {
@@ -4931,7 +4931,7 @@
  },
  "timbuktu/merchant-house": {
   "cx": 0.0,
-  "cy": 0.18,
+  "cy": 0.19,
   "size": 48.35
  },
  "timbuktu/saints-cemetery": {
