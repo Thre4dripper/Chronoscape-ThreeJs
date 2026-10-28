@@ -1060,9 +1060,9 @@
   "size": 302.65
  },
  "changan/hanyuan-hall": {
-  "cx": 0.0,
+  "cx": -0.06,
   "cy": 0.55,
-  "size": 408.49
+  "size": 408.62
  },
  "changan/hanyuan-hall-ruin": {
   "cx": 0.0,
@@ -1075,9 +1075,9 @@
   "size": 206.02
  },
  "changan/ming-south-gate": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 219.92
+  "cx": -0.03,
+  "cy": -0.03,
+  "size": 219.88
  },
  "changan/qin-palace": {
   "cx": 0.0,
