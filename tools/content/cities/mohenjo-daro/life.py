@@ -46,7 +46,7 @@ SPOTS = [
 
     dict(id="bead-maker", name="A carnelian bead-maker", kind="workshop", latlon=(27.3214, 68.1396), activePeriods=MATURE_LATE,
          summary="Long barrel beads of red carnelian, heated to deepen their colour, then drilled end to end with stone drills, a labour of days for a single bead.",
-         details=["Indus bead-makers heated carnelian to turn it a deep red, chipped and ground the blanks, and drilled them with hard stone drills spun by a bow, using water and abrasive. The longest beads, up to about 10 cm, took days or weeks of drilling. Etched carnelian beads, with white patterns burned in with alkali, reached Mesopotamia and were buried in the royal tombs of Ur."],
+         details=["Indus bead-makers heated carnelian to turn it a deep red, chipped and ground the blanks, and drilled them with hard stone drills spun by a bow, using water and abrasive. The longest beads, over 10 cm, took days or weeks of drilling. Etched carnelian beads, with white patterns burned in with alkali, reached Mesopotamia and were buried in the royal tombs of Ur."],
          confidence="documented", sourceIds=["wiki-carnelian", "kenoyer-1998", "wright-2010"],
          vignettes=[dict(hour=6, text="Nodules of carnelian from Gujarat, wrapped in clay jars, come out of the slow fire a shade redder. Some have cracked; they go to the cheap-bead pile."),
                     dict(hour=12, text="Bow string rasping, the drill turns and stops, turns and stops. A trickle of water and grit keeps the hole cool. Half a finger's depth by midday."),
@@ -184,7 +184,7 @@ EVENTS = [
          sourceIds=["possehl-2002", "wiki-ivc"]),
     dict(id="stupa-built", title="Monks build a stupa on the mound", periodId="kushan-150", date="c. 2nd century CE (approximate)", kind="construction",
          at=dict(landmarkId="stupa"), effect="construction",
-         text="Buddhist monks raised a stupa and monastery on the highest mound, using mud brick and old bricks dug from the ruins. Eighteen centuries later, in 1922, R. D. Banerji of the Archaeological Survey came to excavate the stupa and found seals of an unknown script beneath the Buddhist levels: the discovery of the Indus civilisation.",
+         text="Buddhist monks raised a stupa and monastery on the highest mound, using mud brick and old bricks dug from the ruins. Eighteen centuries later, in 1922, R. D. Banerji of the Archaeological Survey came to excavate the stupa and found beneath it seals like those already known from Harappa. In 1924 John Marshall announced the two sites as a lost civilisation.",
          sourceIds=["wiki-banerji", "wiki-mohenjo-daro", "marshall-1931"]),
 ]
 

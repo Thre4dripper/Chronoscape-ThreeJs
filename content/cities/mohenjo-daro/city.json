@@ -2177,7 +2177,7 @@
    "style": "courtyard",
    "houses": {
     "title": "Courtyard houses of the Lower Town",
-    "text": "Houses of fired brick round an open court, one or two storeys, with flat roofs of timber and earth. They show blank walls to the main streets, doors on the side lanes, and no windows outside; many had their own well, a brick bathing platform and a drain to the street."
+    "text": "Houses of fired brick round an open court, one or two storeys, flat roofs of timber and earth. They show blank walls to the main streets, doors on the side lanes, and no windows outside; many had their own well, a brick bathing platform and a drain to the street."
    },
    "outskirts": {
     "title": "Fields on the flood plain",
@@ -2328,7 +2328,7 @@
      "note": "In the late period the timber hall decayed or burned; later walls were built against the podium."
     },
     "kushan-150": {
-     "note": "A low rise beside the stupa mound; its brick blocks lay buried until the 1950s."
+     "note": "A low rise beside the stupa mound; its brick blocks lay buried until the excavations of the 1920s and Wheeler's of 1950."
     }
    },
    "summary": "A podium of 27 solid brick blocks in three rows, divided by narrow passages, that once carried a large timber building. Wheeler called it a granary; many archaeologists now prefer 'Great Hall'.",
@@ -2894,7 +2894,7 @@
      "note": "Buried under the DK mound."
     }
    },
-   "summary": "A building in the DK area with ornamental brickwork, near where the famous steatite bust of a bearded man, the 'Priest-King', was found in 1927.",
+   "summary": "A building in the DK area with ornamental brickwork, near where the famous steatite bust of a bearded man, the 'Priest-King', was found in the mid-1920s.",
    "details": [
     "The 17.5 cm bust shows a man with a fillet round his head and a robe decorated with trefoils that once held red paste. The name 'Priest-King' is a modern guess: nothing shows he was either. The building where it was found is unusual for its decorative brick wall and niche, but its use is unknown.",
     "The miniature shows a courtyard house with the decorated wall, a niche, a well and bathroom; the plan is simplified from the excavated area, and its heights are reconstructed."
@@ -3033,7 +3033,7 @@
    },
    "summary": "A Buddhist stupa of mud brick on a square terrace, with a monastery of cells round a court, built on the highest point of the Citadel mound, probably in the 2nd or 3rd century CE.",
    "details": [
-    "The stupa drew the first archaeologists: R. D. Banerji came in 1922 to study it and found in the mound round it seals of a far older civilisation. Kushan coins found in the monastery date its use. In 2011 Verardi and Barba argued that the stupa's base may be Harappan, a view not generally accepted.",
+    "The stupa drew the first archaeologists: R. D. Banerji, who visited in 1919–20 and dug here in 1922, came for it and found in the mound round it seals of a far older civilisation. Kushan coins found in the monastery date its use. In 2011 Verardi and Barba argued that the stupa's base may be Harappan, a view not generally accepted.",
     "The miniature shows the stupa (dome, harmika and umbrellas are reconstructed, since only the lower part survives), its terrace and stair, the court wall and the monastery's cells round a court. Exact dimensions are simplified."
    ],
    "confidence": "reconstruction",
@@ -3109,7 +3109,7 @@
    ],
    "summary": "Long barrel beads of red carnelian, heated to deepen their colour, then drilled end to end with stone drills, a labour of days for a single bead.",
    "details": [
-    "Indus bead-makers heated carnelian to turn it a deep red, chipped and ground the blanks, and drilled them with hard stone drills spun by a bow, using water and abrasive. The longest beads, up to about 10 cm, took days or weeks of drilling. Etched carnelian beads, with white patterns burned in with alkali, reached Mesopotamia and were buried in the royal tombs of Ur."
+    "Indus bead-makers heated carnelian to turn it a deep red, chipped and ground the blanks, and drilled them with hard stone drills spun by a bow, using water and abrasive. The longest beads, over 10 cm, took days or weeks of drilling. Etched carnelian beads, with white patterns burned in with alkali, reached Mesopotamia and were buried in the royal tombs of Ur."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -3730,7 +3730,7 @@
     "landmarkId": "stupa"
    },
    "effect": "construction",
-   "text": "Buddhist monks raised a stupa and monastery on the highest mound, using mud brick and old bricks dug from the ruins. Eighteen centuries later, in 1922, R. D. Banerji of the Archaeological Survey came to excavate the stupa and found seals of an unknown script beneath the Buddhist levels: the discovery of the Indus civilisation.",
+   "text": "Buddhist monks raised a stupa and monastery on the highest mound, using mud brick and old bricks dug from the ruins. Eighteen centuries later, in 1922, R. D. Banerji of the Archaeological Survey came to excavate the stupa and found beneath it seals like those already known from Harappa. In 1924 John Marshall announced the two sites as a lost civilisation.",
    "sourceIds": [
     "wiki-banerji",
     "wiki-mohenjo-daro",

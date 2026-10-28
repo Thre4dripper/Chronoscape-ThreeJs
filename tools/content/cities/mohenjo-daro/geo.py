@@ -50,7 +50,7 @@ PERIODS = [
          population="perhaps 40,000 (estimates range from about 20,000 upward)",
          feel="Water drawn from hundreds of wells, the smell of the drains and of wet brick, potters' wheels and bead drills whirring in the courtyards, ox-carts creaking down First Street.",
          style="courtyard",
-         houses=dict(title="Courtyard houses of the Lower Town", text="Houses of fired brick round an open court, one or two storeys, with flat roofs of timber and earth. They show blank walls to the main streets, doors on the side lanes, and no windows outside; many had their own well, a brick bathing platform and a drain to the street."),
+         houses=dict(title="Courtyard houses of the Lower Town", text="Houses of fired brick round an open court, one or two storeys, flat roofs of timber and earth. They show blank walls to the main streets, doors on the side lanes, and no windows outside; many had their own well, a brick bathing platform and a drain to the street."),
          outskirts=dict(title="Fields on the flood plain", text="Wheat, barley, sesame, peas and cotton grown on the silt left by the river's flood; buffalo and humped cattle grazing the banks, threshing floors and herders' huts.")),
     dict(id="late-1900", label="Late Harappan decline", year=-1900, startYear=-2000, endYear=-1700,
          summary="From about 1900 BCE the city shrank and decayed. Houses were rebuilt crudely in reused brick, large houses were cut up into small rooms, kilns were set up inside the city and drains went unrepaired. The causes are debated: shifts of the river, floods, a weaker monsoon, the end of the Mesopotamian trade. By about 1700 the city was largely deserted.",
