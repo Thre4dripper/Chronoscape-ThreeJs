@@ -2911,7 +2911,7 @@
  },
  "merv/abdullah-khan-kala": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.04,
   "size": 238.06
  },
  "merv/askhab": {
@@ -2946,13 +2946,13 @@
  },
  "merv/gyaur-kala-walls": {
   "cx": 0.0,
-  "cy": -0.0,
+  "cy": 0.05,
   "size": 292.82
  },
  "merv/gyaur-kala-walls-ruin": {
   "cx": -0.38,
-  "cy": -0.22,
-  "size": 283.23
+  "cy": -0.17,
+  "size": 283.06
  },
  "merv/majan-dam": {
   "cx": 0.0,
@@ -2960,9 +2960,9 @@
   "size": 89.88
  },
  "merv/muhammad-ibn-zayd": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 71.53
+  "cx": 0.01,
+  "cy": 0.01,
+  "size": 71.54
  },
  "merv/sanjar-mausoleum": {
   "cx": 0.0,
@@ -2971,8 +2971,8 @@
  },
  "merv/shahriyar-ark": {
   "cx": 0.0,
-  "cy": -0.0,
-  "size": 433.72
+  "cy": 0.08,
+  "size": 433.87
  },
  "merv/shahriyar-ark-ruin": {
   "cx": 0.0,
@@ -2995,9 +2995,9 @@
   "size": 344.9
  },
  "merv/sultan-kala-walls-ruin": {
-  "cx": 0.0,
-  "cy": -1.0,
-  "size": 336.32
+  "cx": 0.06,
+  "cy": -0.94,
+  "size": 336.22
  },
  "merv/yakhdan": {
   "cx": 0.0,
