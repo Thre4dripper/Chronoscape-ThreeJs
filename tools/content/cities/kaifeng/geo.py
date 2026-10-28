@@ -111,7 +111,7 @@ WATER = [
          blurb="After the Jin the Bian silted up and was cut off from the Yellow River; inside the Ming city only a drain ran in its bed under the old Zhou bridge."),
     dict(id="cai", name="Cai river (Huimin)", width=24, periods=EARLY,
          path=[(34.7712, WEST), (34.7716, OUT_W), (34.7735, 114.3300), (34.7745, 114.3440), (34.7740, 114.3600), (34.7712, 114.3740), (34.7690, 114.3800), (OUT_S, 114.3815), (SOUTH, 114.3830)],
-         blurb="The Huimin or Cai river curved through the southern outer city under thirteen bridges, among them the Longjin bridge on the Imperial Way, carrying boats from the south-west and the Huai."),
+         blurb="The Huimin or Cai river curved through the southern outer city under a dozen or so bridges, among them the Longjin bridge on the Imperial Way, carrying boats from the south-west and the Huai."),
     dict(id="wuzhang", name="Wuzhang river (Guangji)", width=20, periods=EARLY,
          path=[(34.8236, WEST), (34.8228, 114.3200), (34.8212, 114.3400), (34.8205, 114.3545), (34.8215, 114.3700), (34.8228, OUT_E), (34.8232, EAST)],
          blurb="The 'Five-zhang' canal (about 15 m wide, as its name says), fed from the Jinshui, carried grain from Shandong into the north of the outer city. Its line here is the usual reconstruction; a modern stream follows it."),
@@ -135,7 +135,7 @@ WATER = [
 
 HILLS = [
     dict(id="genyue-hill", name="Wansui Mountain (Genyue)", center=(34.8110, 114.3590), radius=150, periods=SONG,
-         blurb="The 'Mountain of Ten Thousand Years' raised by Huizong's builders from 1117 in the north-east of the inner city, with rocks shipped from Lake Tai on the 'Flower and Rock Convoys'. The usual figure for its height is about 90 chi, some 28 m."),
+         blurb="The 'Mountain of Ten Thousand Years' raised by Huizong's builders from 1117 in the north-east of the inner city, with rocks shipped from Lake Tai on the 'Flower and Rock Convoys'. Its main peak is recorded as '90 bu', a figure whose meaning, and so its real height, is uncertain."),
     dict(id="fantai", name="Fan terrace", center=(34.7706, 114.3588), radius=90,
          blurb="A low mound in the south-east, named after the Fan family who lived round it; the Tianqing temple and its pagoda stood on it."),
     dict(id="coal-hill", name="Coal Hill of the Zhou palace", center=(34.8098, 114.3466), radius=80, periods=LATE,
@@ -425,7 +425,7 @@ DISTRICTS = [
     dict(id="bianzhou", name="Bianzhou", polygon=SONG_INNER, periods=TANG,
          description="The prefectural city of Bianzhou, seat from 781 of the Xuanwu military governor: a walled town at the crossing of the Tongji canal and the roads across the plain."),
     dict(id="zhou-palace-d", name="Palace of the Prince of Zhou", polygon=R(34.8135, 34.8032, 114.3398, 114.3532), periods=MING,
-         description="The palace of Zhu Su, fifth son of the Hongwu emperor, made Prince of Zhou in 1370 and settled in Kaifeng in 1378, and of his descendants for 260 years: walled courts on the old Song-Jin palace site, gardens, and a hill behind."),
+         description="The palace of Zhu Su, fifth son of the Hongwu emperor, made Prince of Wu in 1370 and Prince of Zhou in 1378, and settled in Kaifeng in 1381, and of his descendants for 260 years: walled courts on the old Song-Jin palace site, gardens, and a hill behind."),
     dict(id="kaifeng-qing", name="Walled city of Kaifeng", polygon=MQ_WALL, periods=QING,
          description="The Qing provincial capital rebuilt on the silt: yamens, temples, guild halls and markets along a few streets; lakes, ponds and fields fill much of the area inside the walls."),
 ]
@@ -456,7 +456,7 @@ SOURCES = [
     dict(id="wiki-grand-canal", title="Grand Canal (China)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Grand_Canal_(China)"),
     dict(id="wiki-1642-flood", title="1642 Yellow River flood", author="Wikipedia", url="https://en.wikipedia.org/wiki/1642_Yellow_River_flood"),
     dict(id="dongjing-menghualu", title="Dongjing meng Hua lu (The Eastern Capital: A Dream of Splendour)", author="Meng Yuanlao", year=1147),
-    dict(id="west-dongjing", title="The Interplay of Commerce and Culture in Song Kaifeng (on the Dongjing meng Hua lu)", author="Stephen H. West"),
+    dict(id="west-dongjing", title="The Interpretation of a Dream: The Sources, Evaluation, and Influence of the Dongjing meng Hua lu (T'oung Pao 71)", author="Stephen H. West", year=1985),
     dict(id="heng", title="Cities of Aristocrats and Bureaucrats: The Development of Medieval Chinese Cityscapes", author="Heng Chye Kiang", year=1999),
     dict(id="steinhardt", title="Chinese Imperial City Planning", author="Nancy Shatzman Steinhardt", year=1990),
     dict(id="qiu-gang", title="Kaifeng Song cheng kaogu (archaeology of the Song city of Kaifeng)", author="Qiu Gang et al., Kaifeng Song City Archaeological Team"),

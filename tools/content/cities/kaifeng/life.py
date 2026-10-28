@@ -39,7 +39,7 @@ SOURCES = [
     dict(id="wiki-jin", title="Jin dynasty (1115–1234)", author="Wikipedia", url="https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)"),
     dict(id="wiki-dragon-pavilion", title="Dragon Pavilion", author="Wikipedia", url="https://en.wikipedia.org/wiki/Dragon_Pavilion"),
     dict(id="dongjing-menghualu", title="Dongjing meng Hua lu (The Eastern Capital: A Dream of Splendour)", author="Meng Yuanlao", year=1147),
-    dict(id="west-dongjing", title="The Interplay of Commerce and Culture in Song Kaifeng (on the Dongjing meng Hua lu)", author="Stephen H. West"),
+    dict(id="west-dongjing", title="The Interpretation of a Dream: The Sources, Evaluation, and Influence of the Dongjing meng Hua lu (T'oung Pao 71)", author="Stephen H. West", year=1985),
     dict(id="hansen-scroll", title="The Beginnings and the End of the Qingming Scroll", author="Valerie Hansen", year=1996),
     dict(id="gernet", title="Daily Life in China on the Eve of the Mongol Invasion, 1250-1276", author="Jacques Gernet", year=1962),
     dict(id="hartwell", title="A Cycle of Economic Change in Imperial China: Coal and Iron in Northeast China, 750-1350", author="Robert Hartwell", year=1967),
@@ -135,8 +135,8 @@ SPOTS = [
 
     # ------------------------------------------------------------ the Jin
     dict(id="wang-chongyang-inn", name="The inn where Wang Chongyang died", kind="inn", latlon=(34.7928, 114.3398), activePeriods=JIN,
-         summary="An inn of the Wang family in Bianjing where Wang Chongyang, founder of the Quanzhen ('Complete Perfection') school of Daoism, died in 1170 on his way back west with four disciples.",
-         details=["Wang Chongyang, a failed military candidate turned hermit, preached in Shandong and won disciples such as Ma Yu and Qiu Chuji, who would later meet Genghis Khan. He died in Bianjing in early 1170. The Yanqing temple was later built where he died, tradition says; the inn's exact site is not known."],
+         summary="An inn in Bianjing where Wang Chongyang, founder of the Quanzhen ('Complete Perfection') school of Daoism, died in 1170 on his way back west with four disciples.",
+         details=["Wang Chongyang, a former military examination candidate turned hermit, preached in Shandong and won disciples such as Ma Yu and Qiu Chuji, who would later meet Genghis Khan. He died in Bianjing in early 1170. The Yanqing temple was later built where he died, tradition says; the inn's exact site is not known."],
          confidence="interpretation", sourceIds=["wiki-wang-chongyang", "wiki-quanzhen"],
          vignettes=[dict(hour=7, text="Four Daoists in patched robes sweep the inn yard and boil water for their master, who coughs in the back room."),
                     dict(hour=14, text="The innkeeper's wife brings broth. The old man sits up, recites a poem on emptiness and asks for brush and paper."),
@@ -160,7 +160,7 @@ SPOTS = [
 
     # ------------------------------------------------------------ the Qing
     dict(id="guild-hall", name="The Shanxi-Shaanxi merchants' guild hall", kind="civic", latlon=(34.7982, 114.3474), activePeriods=QING,
-         summary="The guild hall of the Shanxi and Shaanxi merchants, built in the Qianlong reign on the site of a Ming minister's mansion, with a carved gate, a stage and a hall to Guan Yu.",
+         summary="The guild hall of the Shanxi and Shaanxi merchants, built in the Qianlong reign, by tradition on the site of a Ming minister's mansion, with a carved gate, a stage and a hall to Guan Yu.",
          details=["Merchants from Shanxi and Shaanxi, later joined by Gansu, dominated the trade in salt, cloth, tea and money in Qing Kaifeng. Their hall, famous for its wood, brick and stone carving, still stands; opera was performed on its stage for the god Guan Yu and the members' feasts."],
          confidence="documented", sourceIds=["wiki-kaifeng"],
          vignettes=[dict(hour=9, text="Merchants in blue gowns burn incense before the red-faced statue of Guan Yu, god of loyalty and of honest accounts."),
@@ -216,9 +216,9 @@ EVENTS = [
          at=dict(latlon=(34.7900, 114.3850)), effect="fire",
          text="Subutai's Mongols besieged Bianjing for months. The defenders lowered 'thunder-crash bombs' (zhentianlei), iron shells filled with gunpowder, on chains onto the sappers' cowhide shelters at the wall foot and blew them apart, and used 'flying fire lances'. Plague and famine did what the bombs could not; the city surrendered in 1233.",
          sourceIds=["wiki-siege-1232", "wiki-thunder-crash", "needham-gunpowder"]),
-    dict(id="zhou-1378", title="The Prince of Zhou comes to Kaifeng", periodId="ming-1600", date="1378", kind="procession",
+    dict(id="zhou-1378", title="The Prince of Zhou comes to Kaifeng", periodId="ming-1600", date="1381", kind="procession",
          at=dict(landmarkId="zhou-palace"), effect="procession",
-         text="Zhu Su, fifth son of the Hongwu emperor, made Prince of Zhou in 1370, took up his fief in Kaifeng, whose palace was built for him on the site of the Song and Jin palaces. His descendants would hold it until the city drowned in 1642.",
+         text="Zhu Su, fifth son of the Hongwu emperor, made Prince of Wu in 1370 and Prince of Zhou in 1378, took up his fief in Kaifeng in 1381, whose palace was built for him on the site of the Song and Jin palaces. His descendants would hold it until the city drowned in 1642.",
          sourceIds=["wiki-zhu-su"]),
     dict(id="flood-1642", title="The dykes are cut: Kaifeng drowns", periodId="ming-1600", date="October 1642", kind="disaster",
          at=dict(landmarkId="zhou-palace"), effect="none",

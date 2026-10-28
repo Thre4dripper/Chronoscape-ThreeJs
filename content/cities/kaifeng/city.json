@@ -181,7 +181,7 @@
     ],
     "width": 24,
     "id": "cai",
-    "blurb": "The Huimin or Cai river curved through the southern outer city under thirteen bridges, among them the Longjin bridge on the Imperial Way, carrying boats from the south-west and the Huai.",
+    "blurb": "The Huimin or Cai river curved through the southern outer city under a dozen or so bridges, among them the Longjin bridge on the Imperial Way, carrying boats from the south-west and the Huai.",
     "periods": [
      "tang-800",
      "song-1120",
@@ -535,7 +535,7 @@
     "radius": 150,
     "label": true,
     "id": "genyue-hill",
-    "blurb": "The 'Mountain of Ten Thousand Years' raised by Huizong's builders from 1117 in the north-east of the inner city, with rocks shipped from Lake Tai on the 'Flower and Rock Convoys'. The usual figure for its height is about 90 chi, some 28 m.",
+    "blurb": "The 'Mountain of Ten Thousand Years' raised by Huizong's builders from 1117 in the north-east of the inner city, with rocks shipped from Lake Tai on the 'Flower and Rock Convoys'. Its main peak is recorded as '90 bu', a figure whose meaning, and so its real height, is uncertain.",
     "periods": [
      "song-1120"
     ]
@@ -5303,7 +5303,7 @@
       2308
      ]
     ],
-    "description": "The palace of Zhu Su, fifth son of the Hongwu emperor, made Prince of Zhou in 1370 and settled in Kaifeng in 1378, and of his descendants for 260 years: walled courts on the old Song-Jin palace site, gardens, and a hill behind.",
+    "description": "The palace of Zhu Su, fifth son of the Hongwu emperor, made Prince of Wu in 1370 and Prince of Zhou in 1378, and settled in Kaifeng in 1381, and of his descendants for 260 years: walled courts on the old Song-Jin palace site, gardens, and a hill behind.",
     "periods": [
      "ming-1600"
     ]
@@ -5833,7 +5833,7 @@
      "note": "The Fan terrace (Fantai), a low mound south-east of the town named after the Fan family who lived round it; an old music terrace stood nearby."
     },
     "song-1120": {
-     "note": "Begun in 974 for the Tianqing temple on the Fan terrace: a hexagonal brick tower of nine storeys, probably the capital's tallest before the Iron Pagoda (its full height is not known)."
+     "note": "Begun in 974 for the Tianqing temple on the Fan terrace: a hexagonal brick tower, by tradition of nine storeys, a landmark of the southern outer city (its full height is not known)."
     },
     "jin-1200": {
      "note": "Still standing at full height above the half-empty southern outer city."
@@ -5927,7 +5927,7 @@
      "note": "The greatest temple of the capital, 64 courtyards, its bell and drum towers rising over the Bian. Five times a month its courtyards became a market of thousands of traders, Meng Yuanlao says."
     },
     "jin-1200": {
-     "note": "Plundered in 1127 but kept up under the Jin; in the siege of 1232 its courtyards sheltered refugees."
+     "note": "Plundered in 1127 but kept up under the Jin, with fewer monks and smaller fairs."
     },
     "ming-1600": {
      "note": "Rebuilt in the Ming and still the city's great temple, with fairs and storytellers in its courts, until the flood of 1642 buried it."
@@ -6001,7 +6001,7 @@
      "note": "The walled headquarters (yamen) of the Xuanwu army's governor, seat from 781. Zhu Wen, governor here, made it his palace when he founded the Later Liang in 907."
     },
     "song-1120": {
-     "note": "The Song palace at its height: Huizong rebuilt the Xuande gate with glazed tiles and gilt nails, and painted the cranes that circled its roof in 1112."
+     "note": "The Song palace at its height: the Xuande gate shines with glazed tiles and gilt nails, and Huizong painted the cranes that circled its roof in 1112."
     },
     "jin-1200": {
      "name": "Jin palace (Nanjing)",
@@ -6014,7 +6014,7 @@
    },
    "summary": "The front of the Song imperial palace: the Xuande gate with its double-eaved tower and projecting wings over red walls, and behind it the Daqing hall of great audiences.",
    "details": [
-    "The palace grew from the Tang governor's compound, rebuilt in 962 on the model of Luoyang's palace. The Xuande gate had five passages, a towering hall roofed in glazed tiles and wings ending in que towers; from it emperors watched the Lantern Festival. The Daqing hall held New Year audiences and the examination ceremonies.",
+    "The palace grew from the Tang governor's compound, rebuilt in 962 on the model of Luoyang's palace. The Xuande gate had five passages, a towering hall roofed in glazed tiles and wings ending in que towers; from it emperors watched the Lantern Festival. The Daqing hall held New Year audiences and other great ceremonies.",
     "Excavation has found parts of the palace walls under the lakes and the Dragon Pavilion. The miniature is a reconstruction from texts, Huizong's 'Auspicious Cranes' and the Song building manual Yingzao fashi: the gate, the court, the Daqing hall and its galleries."
    ],
    "confidence": "reconstruction",
@@ -6067,7 +6067,7 @@
      "note": "An ordinary broad street south from the governor's compound to the canal bridge."
     },
     "song-1120": {
-     "note": "At its finest under Huizong: in 1112 the channels were planted with lotus and the banks with peach, plum, pear and apricot, 'like embroidery in spring', and commoners walked under the corridors beside it."
+     "note": "At its finest under Huizong: in the 1110s the channels were planted with lotus and the banks with peach, plum, pear and apricot, 'like embroidery in spring', and commoners walked under the corridors beside it."
     },
     "jin-1200": {
      "note": "The fences and covered walks are gone; the avenue is still the city's spine and the road of Jin processions."
@@ -6078,8 +6078,8 @@
    },
    "summary": "The ceremonial avenue south from the palace: a central lane for the emperor fenced in red lacquer, brick-lined channels of lotus and fruit trees, and covered walks for the people.",
    "details": [
-    "Meng Yuanlao describes it as 'some two hundred paces wide', with covered walkways (yulang) where merchants once traded until banned in 1112, two rows of black-lacquered fences, then red-lacquered ones down the middle where only the emperor's train could pass, and brick-lined water channels planted with lotus.",
-    "The miniature shows a stretch of the avenue near the palace in its 1112 form: corridors, channels, fences and blossoming trees. The width is reduced; its real width and the corridors' form are uncertain."
+    "Meng Yuanlao describes it as 'some two hundred paces wide', with covered walkways (yulang) where merchants once traded until banned in the 1110s, two rows of black-lacquered fences, then red-lacquered ones down the middle where only the emperor's train could pass, and brick-lined water channels planted with lotus.",
+    "The miniature shows a stretch of the avenue near the palace in its form of the 1110s: corridors, channels, fences and blossoming trees. The width is reduced; its real width and the corridors' form are uncertain."
    ],
    "confidence": "reconstruction",
    "sourceIds": [
@@ -6087,7 +6087,7 @@
     "dongjing-menghualu",
     "heng"
    ],
-   "built": "Song, laid out on the Tang street; channels 1112",
+   "built": "Song, laid out on the Tang street; channels 1110s",
    "function": "Ceremonial avenue of the capital",
    "activity": {
     "figures": 60,
@@ -6157,7 +6157,7 @@
    },
    "summary": "The most famous restaurant of Song Kaifeng, first called the Alum Tower (Baifanlou): linked three-storey halls joined by flying bridges, lit by lanterns all night, with a coloured gate of lashed poles at its door.",
    "details": [
-    "Meng Yuanlao says the Fan Tower (Fanlou, from fan, alum, whose traders first used it) was rebuilt as 'five buildings facing each other, each of three storeys, linked by flying bridges, bright and dark'; it bought 5,000 jars of official wine a year and sold its own. Like the scroll's taverns it had a 'coloured tower gate' (caimen) of lashed poles and banners.",
+    "Meng Yuanlao says the Fan Tower (Fanlou, from fan, alum, whose traders first used it) was rebuilt as 'five buildings facing each other, each of three storeys, linked by flying bridges, bright and dark'; it bought official wine from the state in bulk. Like the scroll's taverns it had a 'coloured tower gate' (caimen) of lashed poles and banners.",
     "The miniature shows three of the linked halls with galleries, flying bridges and the caimen; the exact plan and its place, given here east of the palace, are uncertain."
    ],
    "confidence": "interpretation",
@@ -6215,7 +6215,7 @@
    },
    "summary": "Emperor Huizong's imperial garden, an artificial mountain of Lake Tai rocks with pavilions, streams and rare plants, built 1117-1122 in the north-east of the inner city and destroyed five years later.",
    "details": [
-    "The Genyue ('Mountain of Stability in the North-east', the gen trigram) was raised on a geomancer's advice to bring the emperor sons. Its main peak, Wansui Shan, is usually said to have been about 90 chi (some 28 m) high. Huizong's own record describes cliffs, caves, waterfalls, pavilions and thousands of exotic trees, cranes and deer.",
+    "The Genyue ('Mountain of Stability in the North-east', the gen trigram) was raised on a geomancer's advice to bring the emperor sons. Its main peak, Wansui Shan, is recorded as '90 bu', a figure whose meaning, and so the hill's real height, is uncertain. Huizong's own record describes cliffs, caves, waterfalls, pavilions and thousands of exotic trees, cranes and deer.",
     "The miniature is an interpretation: a rocky hill of grey Taihu stones with pavilions, a lake and plantings. The garden's exact extent and layout are not known."
    ],
    "confidence": "interpretation",
@@ -6349,7 +6349,7 @@
      "note": "Probably gone. Timber bridges need constant renewal, and the Bian, no longer carrying the southern grain, was silting up."
     }
    },
-   "summary": "The arched timber bridge without piers over the Bian outside the city, the centrepiece of Zhang Zeduan's scroll. Drawn here at the frame's edge; the real bridge stood some 7 li (about 3.5 km) further downstream.",
+   "summary": "The arched timber bridge without piers over the Bian outside the city, the centrepiece of Zhang Zeduan's scroll. Drawn here at the frame's edge; the real bridge stood some 7 li (about 4 km) further downstream.",
    "details": [
     "Pier bridges kept being rammed by barges, so from the 1030s, after a design first built at Qingzhou in Shandong, 'flying bridges' without piers were thrown over the Bian: logs lashed into interlocking polygonal arches, a 'woven arch' that held itself up. Meng Yuanlao counts the Rainbow Bridge seven li east of the East Water Gate.",
     "The miniature follows the scroll and Tang Huancheng's study of its structure: two interlocking systems of logs, cross beams, a humped plank deck with railings, stalls at both ends, and a boat beneath lowering its mast."
@@ -6645,7 +6645,7 @@
      "note": "New: the 1489 stele dates the first synagogue to 1163, under the Jin; the date is the community's own tradition."
     },
     "ming-1600": {
-     "note": "Rebuilt after floods in 1279, 1421 and 1461. In 1605 the scholar Ai Tian of this congregation visited Matteo Ricci in Beijing, and the West learned of the Jews of Kaifeng."
+     "note": "Rebuilt in 1279 and 1421, and again after the flood of 1461. In 1605 the scholar Ai Tian of this congregation visited Matteo Ricci in Beijing, and the West learned of the Jews of Kaifeng."
     },
     "qing-1700": {
      "note": "Rebuilt in the 1650s and 1660s after the flood of 1642, which had soaked its scrolls; the Jesuit Jean Domenge drew it in 1722. It decayed in the 1800s and was gone by the 1860s."
@@ -6710,7 +6710,7 @@
    },
    "summary": "The palace of Zhu Su, Prince of Zhou, fifth son of the first Ming emperor, and his heirs, built from 1378 on the site of the Song and Jin palaces.",
    "details": [
-    "Zhu Su was made Prince of Zhou in 1370 and came to Kaifeng in 1378. His palace was a reduced imperial palace: a gate, a front hall of audience, a rear hall and residence, flanking courts and gardens, all inside an inner wall and moat and an outer screen wall. Zhu Su compiled the famine herbal Jiuhuang bencao (1406) here.",
+    "Zhu Su was made Prince of Wu in 1370 and Prince of Zhou in 1378, and came to Kaifeng in 1381. His palace was a reduced imperial palace: a gate, a front hall of audience, a rear hall and residence, flanking courts and gardens, all inside an inner wall and moat and an outer screen wall. Zhu Su compiled the famine herbal Jiuhuang bencao (1406) here.",
     "The miniature is an interpretation from the Ming rules for princely palaces and from Chang'an's Prince of Qin's palace: the Duanli gate, three halls on an I-shaped terrace, green-glazed roofs and red walls. Its real layout is buried under the lakes."
    ],
    "confidence": "interpretation",
@@ -6766,7 +6766,7 @@
    },
    "summary": "A hall on a high brick platform at the north end of the old palace axis, raised on the hill of the drowned Zhou palace and reached by a long stair between the two lakes.",
    "details": [
-    "In 1692 the Qing built a Wanshou ('Ten Thousand Years') pavilion on the Coal Hill to hold a tablet in honour of the emperor; under Yongzheng it became a palace hall, and the name Longting, Dragon Pavilion, came from the tradition that it stood on the Song palace's throne hall. The present hall is of the 1800s.",
+    "In 1692 the Qing built a Wanshou ('Ten Thousand Years') pavilion on the Coal Hill to hold a tablet in honour of the emperor; under Yongzheng it became a palace hall, and the name Longting, Dragon Pavilion, came from the tradition that it stood on the Song palace's throne hall. The present hall is a later Qing rebuilding.",
     "The miniature shows the present form: a brick platform about 13 m high, the long stair with a carved dragon ramp up the middle, and a hall with yellow-glazed roof and red columns. The 1692 pavilion was smaller."
    ],
    "confidence": "reconstruction",
@@ -7276,9 +7276,9 @@
    "activePeriods": [
     "jin-1200"
    ],
-   "summary": "An inn of the Wang family in Bianjing where Wang Chongyang, founder of the Quanzhen ('Complete Perfection') school of Daoism, died in 1170 on his way back west with four disciples.",
+   "summary": "An inn in Bianjing where Wang Chongyang, founder of the Quanzhen ('Complete Perfection') school of Daoism, died in 1170 on his way back west with four disciples.",
    "details": [
-    "Wang Chongyang, a failed military candidate turned hermit, preached in Shandong and won disciples such as Ma Yu and Qiu Chuji, who would later meet Genghis Khan. He died in Bianjing in early 1170. The Yanqing temple was later built where he died, tradition says; the inn's exact site is not known."
+    "Wang Chongyang, a former military examination candidate turned hermit, preached in Shandong and won disciples such as Ma Yu and Qiu Chuji, who would later meet Genghis Khan. He died in Bianjing in early 1170. The Yanqing temple was later built where he died, tradition says; the inn's exact site is not known."
    ],
    "confidence": "interpretation",
    "sourceIds": [
@@ -7384,7 +7384,7 @@
    "activePeriods": [
     "qing-1700"
    ],
-   "summary": "The guild hall of the Shanxi and Shaanxi merchants, built in the Qianlong reign on the site of a Ming minister's mansion, with a carved gate, a stage and a hall to Guan Yu.",
+   "summary": "The guild hall of the Shanxi and Shaanxi merchants, built in the Qianlong reign, by tradition on the site of a Ming minister's mansion, with a carved gate, a stage and a hall to Guan Yu.",
    "details": [
     "Merchants from Shanxi and Shaanxi, later joined by Gansu, dominated the trade in salt, cloth, tea and money in Qing Kaifeng. Their hall, famous for its wood, brick and stone carving, still stands; opera was performed on its stage for the god Guan Yu and the members' feasts."
    ],
@@ -7613,13 +7613,13 @@
    "id": "zhou-1378",
    "title": "The Prince of Zhou comes to Kaifeng",
    "periodId": "ming-1600",
-   "date": "1378",
+   "date": "1381",
    "kind": "procession",
    "at": {
     "landmarkId": "zhou-palace"
    },
    "effect": "procession",
-   "text": "Zhu Su, fifth son of the Hongwu emperor, made Prince of Zhou in 1370, took up his fief in Kaifeng, whose palace was built for him on the site of the Song and Jin palaces. His descendants would hold it until the city drowned in 1642.",
+   "text": "Zhu Su, fifth son of the Hongwu emperor, made Prince of Wu in 1370 and Prince of Zhou in 1378, took up his fief in Kaifeng in 1381, whose palace was built for him on the site of the Song and Jin palaces. His descendants would hold it until the city drowned in 1642.",
    "sourceIds": [
     "wiki-zhu-su"
    ]
@@ -7817,8 +7817,9 @@
   },
   {
    "id": "west-dongjing",
-   "title": "The Interplay of Commerce and Culture in Song Kaifeng (on the Dongjing meng Hua lu)",
-   "author": "Stephen H. West"
+   "title": "The Interpretation of a Dream: The Sources, Evaluation, and Influence of the Dongjing meng Hua lu (T'oung Pao 71)",
+   "author": "Stephen H. West",
+   "year": 1985
   },
   {
    "id": "heng",
