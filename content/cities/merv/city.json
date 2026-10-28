@@ -828,7 +828,7 @@
     "style": "minor",
     "labelled": false,
     "id": "akk-west",
-    "blurb": "West to Sarakhs and Mashhad, where Shah Rukh's wife Gawhar Shad was building her great mosque.",
+    "blurb": "West to Sarakhs and Mashhad, where Shah Rukh's wife Gawhar Shad had built her great mosque.",
     "periods": [
      "timurid-1450"
     ]
@@ -3043,7 +3043,7 @@
    "endYear": 1036,
    "summary": "Refounded about 280 BCE by Antiochus I as Antiochia Margiana, the city is now Gyaur Kala, a walled square nearly two kilometres a side with Erk Kala as its citadel. Under the Sasanians it is a frontier capital and mint. Fire temples, a Buddhist stupa and monastery and the churches of a Christian metropolitan stand inside one wall: a city of many faiths. Mud brick and pakhsa.",
    "population": "unknown; perhaps a few tens of thousands",
-   "feel": "Hymns in Syriac from the church, the bell of the monastery, the smoke of the sacred fire, Sogdian, Persian and Bactrian spoken at the caravan gates.",
+   "feel": "Hymns in Syriac from the church, chanting at the Buddhist monastery, the smoke of the sacred fire, Sogdian, Persian and Bactrian spoken at the caravan gates.",
    "style": "courtyard",
    "houses": {
     "title": "Houses of Gyaur Kala",
@@ -3764,7 +3764,7 @@
    },
    "summary": "The 'Great Maidens' Castle': a fortified two-storey manor (koshk) of mud brick about 42 by 37 metres, its walls ribbed with tall half-round corrugations.",
    "details": [
-    "The Great Kyz Kala stands on a sloping plinth about 12 metres high. Its outer walls are formed by closely packed half-columns of mud brick, which strengthened the walls and gave them their striking corrugated look. Inside, two storeys of rooms surround a small court. Its date is debated, mostly put in the 7th or 8th century.",
+    "The Great Kyz Kala stands on a high sloping plinth. Its outer walls are formed by closely packed half-columns of mud brick, which strengthened the walls and gave them their striking corrugated look. Inside, two storeys of rooms surround a small court. Its date is debated: proposals run from the 6th to the 9th century.",
     "The miniature shows the plinth, the corrugated walls, a ramp to the door and the court. The upper parapet is reconstructed."
    ],
    "confidence": "documented",
@@ -4421,7 +4421,7 @@
    ],
    "summary": "The office of the amir of water on the Majan, who decided how much of the Murghab each canal and village could take.",
    "details": [
-    "Istakhri and Ibn Hawqal report that Merv's water was shared by careful measure, with the mir-ab commanding some 10,000 men to guard the dams and clean the canals, more than the governor had. Lead-weighted measuring boards marked the shares."
+    "Istakhri and Ibn Hawqal report that Merv's water was shared by careful measure, with the mir-ab commanding some 10,000 men to guard the dams and clean the canals, more than the governor had. How the shares were measured in detail is not recorded."
    ],
    "confidence": "documented",
    "sourceIds": [
@@ -4998,7 +4998,7 @@
    "title": "Kitab al-Masalik wa'l-Mamalik",
    "author": "al-Istakhri",
    "year": "c. 950",
-   "url": "https://en.wikipedia.org/wiki/Estakhri"
+   "url": "https://en.wikipedia.org/wiki/Istakhri"
   },
   {
    "id": "yaqut",
@@ -5021,9 +5021,9 @@
   },
   {
    "id": "wiki-murghab",
-   "title": "Murghab River",
+   "title": "Marghab River",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Murghab_River"
+   "url": "https://en.wikipedia.org/wiki/Marghab_River"
   },
   {
    "id": "wiki-siege-1221",
@@ -5125,7 +5125,7 @@
    "id": "wiki-behistun",
    "title": "Behistun Inscription",
    "author": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Behistun_Inscription"
+   "url": "https://en.wikipedia.org/wiki/Behistun_inscription"
   },
   {
    "id": "wiki-antiochus-i",

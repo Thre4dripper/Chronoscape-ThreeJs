@@ -10,7 +10,7 @@ SOURCES = [
     dict(id="pugachenkova", title="Puti razvitiya arkhitektury Yuzhnogo Turkmenistana pory rabovladeniya i feodalizma", author="G. A. Pugachenkova", year=1958),
     dict(id="koshelenko", title="Excavations of the Buddhist complex at Gyaur Kala (reports of the YuTAKE expedition)", author="G. A. Koshelenko et al.", year="1960s–1970s"),
     dict(id="le-strange", title="The Lands of the Eastern Caliphate", author="Guy Le Strange", year=1905),
-    dict(id="istakhri", title="Kitab al-Masalik wa'l-Mamalik", author="al-Istakhri", year="c. 950", url="https://en.wikipedia.org/wiki/Estakhri"),
+    dict(id="istakhri", title="Kitab al-Masalik wa'l-Mamalik", author="al-Istakhri", year="c. 950", url="https://en.wikipedia.org/wiki/Istakhri"),
     dict(id="wiki-merv", title="Merv", author="Wikipedia", url="https://en.wikipedia.org/wiki/Merv"),
     dict(id="wiki-sanjar-tomb", title="Tomb of Ahmad Sanjar", author="Wikipedia", url="https://en.wikipedia.org/wiki/Tomb_of_Ahmad_Sanjar"),
     dict(id="wiki-ahmad-sanjar", title="Ahmad Sanjar", author="Wikipedia", url="https://en.wikipedia.org/wiki/Ahmad_Sanjar"),
@@ -21,7 +21,7 @@ SOURCES = [
     dict(id="wiki-margiana", title="Margiana", author="Wikipedia", url="https://en.wikipedia.org/wiki/Margiana"),
     dict(id="wiki-shah-rukh", title="Shah Rukh", author="Wikipedia", url="https://en.wikipedia.org/wiki/Shah_Rukh"),
     dict(id="wiki-seljuk-architecture", title="Great Seljuk architecture", author="Wikipedia", url="https://en.wikipedia.org/wiki/Great_Seljuk_architecture"),
-    dict(id="wiki-murghab", title="Murghab River", author="Wikipedia", url="https://en.wikipedia.org/wiki/Murghab_River"),
+    dict(id="wiki-murghab", title="Marghab River", author="Wikipedia", url="https://en.wikipedia.org/wiki/Marghab_River"),
 ]
 
 LANDMARKS = [
@@ -163,7 +163,7 @@ LANDMARKS = [
              "timurid-1450": dict(note="Already an old ruin with a legend: the 'Maidens' Castle'."),
          },
          summary="The 'Great Maidens' Castle': a fortified two-storey manor (koshk) of mud brick about 42 by 37 metres, its walls ribbed with tall half-round corrugations.",
-         details=["The Great Kyz Kala stands on a sloping plinth about 12 metres high. Its outer walls are formed by closely packed half-columns of mud brick, which strengthened the walls and gave them their striking corrugated look. Inside, two storeys of rooms surround a small court. Its date is debated, mostly put in the 7th or 8th century.",
+         details=["The Great Kyz Kala stands on a high sloping plinth. Its outer walls are formed by closely packed half-columns of mud brick, which strengthened the walls and gave them their striking corrugated look. Inside, two storeys of rooms surround a small court. Its date is debated: proposals run from the 6th to the 9th century.",
                   "The miniature shows the plinth, the corrugated walls, a ramp to the door and the court. The upper parapet is reconstructed."],
          built="7th–8th century? (debated)", function="Fortified manor (koshk)", confidence="documented",
          sourceIds=["wiki-great-kyz-kala", "wiki-kushk", "herrmann-merv"], activity=dict(figures=8, radius=80)),
