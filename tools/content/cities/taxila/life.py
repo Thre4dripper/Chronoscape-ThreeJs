@@ -41,7 +41,7 @@ SOURCES = [
 
 SPOTS = [
     dict(id="teacher-house", name="A teacher and his pupils", kind="school", latlon=(33.7440, 72.8208), activePeriods=BHIR,
-         summary="A Brahmin teacher's house where a handful of pupils live, work for him and learn by heart: the Vedas, grammar, perhaps law, archery or medicine. There was no university building; teaching happened in houses like this.",
+         summary="A Brahmin teacher's house where a few pupils live, work for him and learn by heart: the Vedas, grammar, perhaps law, archery or medicine. There was no university building; teaching happened in houses.",
          details=["Buddhist Jataka stories send princes from Benares to 'Takkasila' to study under famous teachers, paying a fee or working it off. Later tradition links the grammarian Panini, who came from Shalatura near the Indus, and Chanakya, Chandragupta's minister, with the town; none of this can be proved, but Taxila's name as a seat of learning was old by the time it was written down."],
          confidence="interpretation", sourceIds=["wiki-takshashila-learning", "wiki-panini", "wiki-chanakya", "marshall-taxila"],
          vignettes=[dict(hour=6, text="Before light the pupils sweep the court and fetch water; then they sit cross-legged and repeat after the teacher, line by line, until the verse is right."),
@@ -114,7 +114,7 @@ SPOTS = [
                     dict(hour=13, text="In the shaded court the official's sons recite Homer to a tutor, then switch to Prakrit to argue with the cook."),
                     dict(hour=20, text="Guests recline at dinner on couches in the Greek way, and the talk turns to the new god whose pillar the envoy has raised in the south.")]),
 
-    dict(id="sculptor", name="A sculptor of schist Buddhas", kind="workshop", latlon=(33.7398, 72.8398), activePeriods=["kushan-200"],
+    dict(id="sculptor", name="A sculptor of schist Buddhas", kind="workshop", latlon=(33.7446, 72.8403), activePeriods=["kushan-200"],
          summary="A workshop by the Dharmarajika carving grey-green schist into Buddhas, bodhisattvas and relief panels of the Buddha's life for the chapels and stupas of the valley.",
          details=["Gandharan sculpture mixes Indian subjects with Hellenistic and Roman forms: wavy hair, toga-like robes, acanthus and Corinthian capitals. At Taxila much decoration was in stucco, but schist reliefs were brought or carved for the richer shrines. Pieces were painted and gilded."],
          confidence="reconstruction", sourceIds=["wiki-gandhara-art", "marshall-taxila", "behrendt"],
@@ -130,14 +130,14 @@ SPOTS = [
                     dict(hour=12, text="On scaffolding against the stupa a modeller presses a moulded head into place and sharpens the curls with a wooden tool."),
                     dict(hour=18, text="The painter walks the row of new figures adding red to the lips and black to the eyes while the monks begin the evening chant.")]),
 
-    dict(id="monk-cell", name="A monk's cell", kind="shrine", latlon=(33.7422, 72.8412), activePeriods=["kushan-200", "huna-500"],
+    dict(id="monk-cell", name="A monk's cell", kind="shrine", latlon=(33.7468, 72.8411), activePeriods=["kushan-200", "huna-500"],
          summary="One small room in a monastery court: a bed of stone or wood, a niche for a lamp, a begging bowl, a few manuscripts of birch bark.",
          details=["Gandharan monasteries set cells round a court with a verandah, often on two storeys, with an assembly hall, kitchen and stores beside it. Birch-bark manuscripts in Gandhari found elsewhere in the region show what monks read and copied."],
          confidence="reconstruction", sourceIds=["marshall-taxila", "behrendt"],
          vignettes=[dict(hour=5, text="Before dawn the monk sits on his bed in the dark cell, legs folded, while the court fills with the sound of others waking."),
                     dict(hour=11, text="Back from the begging round in town with rice and lentils in his bowl, he eats once, before noon, as the rule requires."),
                     dict(hour=20, text="By a small lamp in the wall niche he copies a text on a strip of birch bark, letter by letter, in Kharoshthi.")],
-         variants={"huna-500": dict(note="The court has burned; three monks live on in the few cells with roofs, and Xuanzang's later visitors find the Dharma 'in decline'.")}),
+         variants={"huna-500": dict(note="The court has burned; a few monks live on in the cells that still have roofs. When Xuanzang comes in the 630s he finds few monks anywhere in the valley.")}),
 
     dict(id="glass-merchant", name="A Kushan merchant with Roman glass", kind="shop", latlon=(33.7745, 72.8455), activePeriods=["kushan-200"],
          summary="A trader in Sirsukh with goods from the far west: thin blown glass from Roman Egypt and Syria, bronze figurines, wine, set beside Chinese silk and Indian ivory.",
@@ -167,7 +167,7 @@ EVENTS = [
          sourceIds=["arrian", "plutarch-alexander", "wiki-taxiles"]),
     dict(id="kalanos-326", title="Alexander's envoy meets the naked sages", periodId="maurya-300", date="326 BCE", kind="daily",
          at=dict(latlon=(33.7515, 72.8172)), effect="none",
-         text="Alexander sent the philosopher Onesicritus to the ascetics living outside the town. Their elder, Dandamis, would not come: Alexander had nothing he wanted. Another, Kalanos, joined the army and followed it to Persia, where in 323 he had himself burned alive on a pyre before the troops.",
+         text="Alexander sent the philosopher Onesicritus to the ascetics living outside the town. Their elder, Dandamis, would not come: Alexander had nothing he wanted. Another, Kalanos, joined the army and followed it to Persia, where in 324 or 323 he had himself burned alive on a pyre before the troops.",
          sourceIds=["strabo", "arrian", "plutarch-alexander", "wiki-calanus"]),
     dict(id="chanakya-320", title="Chanakya and Chandragupta (tradition)", periodId="maurya-300", date="c. 320 BCE (tradition)", kind="civic",
          at=dict(spotId="teacher-house"), effect="none",

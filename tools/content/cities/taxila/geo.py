@@ -139,7 +139,7 @@ ROADS = BHIR_STREETS + SIRKAP_LANES + [
          path=[(33.7613, 72.8300), (33.7630, 72.8302), (33.7650, 72.8306), (33.7680, 72.8315), (33.7730, 72.8325), (33.7790, 72.8335)],
          blurb="From the north gate the road ran north past the temple at Jandial toward the Haro and the hill country beyond."),
     dict(id="dharmarajika-road", name="Road to the Dharmarajika", width=7, style="minor", periods=LATE,
-         path=[(33.7556, 72.8337), (33.7552, 72.8380), (33.7535, 72.8410), (33.7500, 72.8422), (33.7465, 72.8430), (33.7440, 72.8432), (33.7420, 72.8428)],
+         path=[(33.7556, 72.8337), (33.7552, 72.8380), (33.7535, 72.8410), (33.7500, 72.8422), (33.7476, 72.8430), (33.7460, 72.8433)],
          blurb="A path from Sirkap round the north and east of the Hathial ridge to the great stupa, walked by pilgrims and by monks going to and from the town."),
     dict(id="sirkap-sirsukh-road", name="Road from Sirkap to Sirsukh", width=9, style="minor", periods=SIRSUKH,
          path=[(33.7630, 72.8302), (33.7642, 72.8345), (33.7652, 72.8400), (33.7660, 72.8450), (33.7665, 72.8480)],
@@ -182,7 +182,7 @@ BRIDGES = [
     dict(id="tamra-bridge-west", name="Crossing of the Tamra Nala", path=[(33.7619, 72.8249), (33.7614, 72.8228)], build="timber", arches=2, periods=LATE,
          blurb="A wooden bridge, or in the dry season simply a ford, where the western road crossed the stream below Sirkap."),
     dict(id="tamra-bridge-stupa", name="Ford below the Dharmarajika", path=[(33.7445, 72.8433), (33.7429, 72.8430)], build="timber", arches=1, periods=LATE,
-         blurb="The pilgrims' crossing of the Tamra Nala on the way up to the great stupa."),
+         blurb="A ford of the Tamra Nala just below the rise of the great stupa, for those coming up from the south road."),
 ]
 
 AQUEDUCTS = []
@@ -229,7 +229,7 @@ BLOCKS = BHIR_BLOCKS + SIRKAP_BLOCKS + [
     dict(name="Sirsukh, what is left", density="loose", periods=["huna-500"], polygon=_rect(33.7745, 33.7727, 72.8440, 72.8475)),
     dict(name="Sirsukh, what is left", density="loose", periods=["huna-500"], polygon=_rect(33.7717, 33.7690, 72.8485, 72.8520)),
     dict(name="Monks' village by the Dharmarajika", density="loose", periods=["kushan-200"],
-         polygon=[(33.7400, 72.8388), (33.7402, 72.8410), (33.7397, 72.8412), (33.7395, 72.8390)]),
+         polygon=[(33.7473, 72.8400), (33.7473, 72.8422), (33.7464, 72.8422), (33.7464, 72.8400)]),
     dict(name="Hamlet by the Tamra Nala", density="loose", periods=["huna-500"],
          polygon=[(33.7470, 72.8228), (33.7470, 72.8236), (33.7452, 72.8236), (33.7452, 72.8226)]),
 ]
@@ -267,7 +267,7 @@ DISTRICTS = [
          polygon=[(33.7775, 72.8410), (33.7775, 72.8550), (33.7665, 72.8550), (33.7665, 72.8410)],
          description="The Kushan city on the plain, square-walled with round bastions, built probably in the late 1st or 2nd century CE. Its interior is almost unexcavated; modern villages and fields cover it."),
     dict(id="dharmarajika-precinct", name="Dharmarajika precinct", periods=BUDDHIST,
-         polygon=[(33.7422, 72.8410), (33.7422, 72.8440), (33.7398, 72.8440), (33.7398, 72.8410)],
+         polygon=[(33.7462, 72.8410), (33.7462, 72.8436), (33.7444, 72.8436), (33.7444, 72.8410)],
          description="The sacred ground of the great stupa on the rise east of the Tamra Nala, with its chapels, votive stupas and monastery."),
 ]
 

@@ -724,15 +724,11 @@
      ],
      [
       2591,
-      3606
+      3484
      ],
      [
-      2610,
-      3883
-     ],
-     [
-      2573,
-      4105
+      2619,
+      3661
      ]
     ],
     "width": 7,
@@ -1105,7 +1101,7 @@
     "build": "timber",
     "arches": 1,
     "id": "tamra-bridge-stupa",
-    "blurb": "The pilgrims' crossing of the Tamra Nala on the way up to the great stupa.",
+    "blurb": "A ford of the Tamra Nala just below the rise of the great stupa, for those coming up from the south road.",
     "periods": [
      "indo-greek-50",
      "kushan-200",
@@ -2124,20 +2120,20 @@
    {
     "polygon": [
      [
-      2203,
-      4327
+      2314,
+      3517
      ],
      [
-      2406,
-      4305
+      2517,
+      3517
      ],
      [
-      2425,
-      4360
+      2517,
+      3617
      ],
      [
-      2221,
-      4383
+      2314,
+      3617
      ]
     ],
     "density": "loose",
@@ -2491,19 +2487,19 @@
     "polygon": [
      [
       2406,
-      4083
+      3639
      ],
      [
-      2684,
-      4083
+      2647,
+      3639
      ],
      [
-      2684,
-      4349
+      2647,
+      3839
      ],
      [
       2406,
-      4349
+      3839
      ]
     ],
     "description": "The sacred ground of the great stupa on the rise east of the Tamra Nala, with its chapels, votive stupas and monastery.",
@@ -2769,8 +2765,8 @@
    "name": "Dharmarajika stupa",
    "category": "religious",
    "position": [
-    2545,
-    4216
+    2517,
+    3761
    ],
    "rotation": 0,
    "footprint": [
@@ -2801,7 +2797,7 @@
     },
     "maurya-300": {
      "confidence": "interpretation",
-     "note": "By the usual account the first stupa was raised under Ashoka in the mid-3rd century BCE, later in this era, to hold relics of the Buddha: a plain dome on a low drum inside a wooden railing.",
+     "note": "By the usual account the first stupa was raised under Ashoka in the mid-3rd century BCE, later in this era, for relics of the Buddha: a plain dome inside a wooden railing.",
      "model": {
       "glb": "models/taxila/dharmarajika-early.glb",
       "fallback": {
@@ -2827,7 +2823,7 @@
      }
     },
     "kushan-200": {
-     "note": "Rebuilt larger and refaced, ringed by chapels with images of stucco and schist, the monastery courts to the north. A silver scroll dated 'year 136' (probably 78 CE), found in one chapel, records a gift of relics."
+     "note": "Rebuilt larger, ringed by chapels with stucco and schist images, monastery courts to the north. A silver scroll dated 'year 136' (probably 78–79 CE), found in one chapel, records a gift of relics."
     },
     "huna-500": {
      "name": "Dharmarajika (ruined)",
@@ -3642,7 +3638,7 @@
     "achaemenid-450",
     "maurya-300"
    ],
-   "summary": "A Brahmin teacher's house where a handful of pupils live, work for him and learn by heart: the Vedas, grammar, perhaps law, archery or medicine. There was no university building; teaching happened in houses like this.",
+   "summary": "A Brahmin teacher's house where a few pupils live, work for him and learn by heart: the Vedas, grammar, perhaps law, archery or medicine. There was no university building; teaching happened in houses.",
    "details": [
     "Buddhist Jataka stories send princes from Benares to 'Takkasila' to study under famous teachers, paying a fee or working it off. Later tradition links the grammarian Panini, who came from Shalatura near the Indus, and Chanakya, Chandragupta's minister, with the town; none of this can be proved, but Taxila's name as a seat of learning was old by the time it was written down."
    ],
@@ -3977,8 +3973,8 @@
    "name": "A sculptor of schist Buddhas",
    "kind": "workshop",
    "position": [
-    2295,
-    4349
+    2342,
+    3817
    ],
    "activePeriods": [
     "kushan-200"
@@ -4051,8 +4047,8 @@
    "name": "A monk's cell",
    "kind": "shrine",
    "position": [
-    2425,
-    4083
+    2416,
+    3573
    ],
    "activePeriods": [
     "kushan-200",
@@ -4083,7 +4079,7 @@
    ],
    "variants": {
     "huna-500": {
-     "note": "The court has burned; three monks live on in the few cells with roofs, and Xuanzang's later visitors find the Dharma 'in decline'."
+     "note": "The court has burned; a few monks live on in the cells that still have roofs. When Xuanzang comes in the 630s he finds few monks anywhere in the valley."
     }
    }
   },
@@ -4208,7 +4204,7 @@
     ]
    },
    "effect": "none",
-   "text": "Alexander sent the philosopher Onesicritus to the ascetics living outside the town. Their elder, Dandamis, would not come: Alexander had nothing he wanted. Another, Kalanos, joined the army and followed it to Persia, where in 323 he had himself burned alive on a pyre before the troops.",
+   "text": "Alexander sent the philosopher Onesicritus to the ascetics living outside the town. Their elder, Dandamis, would not come: Alexander had nothing he wanted. Another, Kalanos, joined the army and followed it to Persia, where in 324 or 323 he had himself burned alive on a pyre before the troops.",
    "sourceIds": [
     "strabo",
     "arrian",

@@ -30,15 +30,15 @@ SOURCES = [
 LANDMARKS = [
     # ------------------------------------------------------------ the great stupa
     dict(id="dharmarajika", name="Dharmarajika stupa", category="religious",
-         latlon=(33.7410, 72.8425), rotation=0, footprint=(140, 170), scale=1.0, model="taxila/dharmarajika",
+         latlon=(33.7451, 72.8422), rotation=0, footprint=(140, 170), scale=1.0, model="taxila/dharmarajika",
          activePeriods=BUDDHIST,
          variants={
              "achaemenid-450": dict(note="Open ground on the rise east of the Tamra Nala; nothing is known to have stood here before the stupa."),
              "maurya-300": dict(model="taxila/dharmarajika-early", confidence="interpretation",
-                                note="By the usual account the first stupa was raised under Ashoka in the mid-3rd century BCE, later in this era, to hold relics of the Buddha: a plain dome on a low drum inside a wooden railing."),
+                                note="By the usual account the first stupa was raised under Ashoka in the mid-3rd century BCE, later in this era, for relics of the Buddha: a plain dome inside a wooden railing."),
              "indo-greek-50": dict(model="taxila/dharmarajika-ig",
                                    note="The old stupa stands in a growing ring of small votive stupas, given by pilgrims and townspeople of Sirkap."),
-             "kushan-200": dict(note="Rebuilt larger and refaced, ringed by chapels with images of stucco and schist, the monastery courts to the north. A silver scroll dated 'year 136' (probably 78 CE), found in one chapel, records a gift of relics."),
+             "kushan-200": dict(note="Rebuilt larger, ringed by chapels with stucco and schist images, monastery courts to the north. A silver scroll dated 'year 136' (probably 78–79 CE), found in one chapel, records a gift of relics."),
              "huna-500": dict(model="taxila/dharmarajika-ruin", name="Dharmarajika (ruined)", confidence="reconstruction",
                               note="Burned, by the usual reading of the ash layers, in the Huna raids of the later 5th century; the dome stands stripped, the chapels roofless, a few monks in the remaining cells."),
          },
