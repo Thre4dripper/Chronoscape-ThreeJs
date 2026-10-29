@@ -1,6 +1,17 @@
-# Production build: validate, typecheck, test, bundle, and bake the map plates into dist/plates.
-# Plates are build output, kept between runs in the Actions cache; only cities whose content or
-# PLATE_VERSION changed are baked again (scripts/bake-plates.mjs compares each city's content hash).
+# Build and deploy: validate, typecheck, test, bundle, bake the map plates into dist/plates, then publish
+# dist to Cloudflare Workers (static assets, see wrangler.jsonc). Cloudflare's own git builds can't do this:
+# their machines have no Chrome to bake plates with, so the build happens here and only the upload goes there.
+#
+#  - push to main          production deploy (chronoscape-threejs.<account>.workers.dev)
+#  - pull request          a preview version at its own URL (alias pr-<number>), production untouched; the URL
+#                          is posted on the PR and shown as its "preview" deployment
+#  - manual run elsewhere  a preview named after the branch
+#
+# Plates are kept between runs in the Actions cache; only eras whose drawing changed are baked again
+# (scripts/bake-plates.mjs compares each era's hash), so a usual run is a few minutes.
+#
+# Needs the repo secrets CLOUDFLARE_API_TOKEN ("Edit Cloudflare Workers" template) and CLOUDFLARE_ACCOUNT_ID.
+# Without them (e.g. pull requests from forks) the build still runs as a check and the deploy is skipped.
 name: build
 
 on:
@@ -9,10 +20,27 @@ on:
   pull_request:
   workflow_dispatch:
 
+# a newer push to the same pull request replaces the run in progress; main always finishes
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+  deployments: write
+  pull-requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    environment:
+      name: ${{ (github.event_name != 'pull_request' && github.ref == 'refs/heads/main') && 'production' || 'preview' }}
+      url: ${{ steps.deploy.outputs.url }}
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PRODUCTION: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,19 +57,55 @@ jobs:
       - run: pnpm test
 
       # the cache key changes with anything a plate is drawn from; an older cache is restored as the
-      # starting point and the baker keeps every city in it that is still current
+      # starting point and the baker keeps every era in it that is still current
       - uses: actions/cache@v4
         with:
           path: .plate-cache
           key: plates-${{ hashFiles('content/**', 'src/**', 'assets/models/plans/**', 'assets/fonts/**') }}
           restore-keys: plates-
 
+      # the runner has 4 cores and no GPU: plates draw on the CPU, so run a Chrome on every core
       - run: pnpm build
         env:
           CHROME: /usr/bin/google-chrome
+          PLATE_JOBS: 4
 
-      - uses: actions/upload-artifact@v4
+      - name: Deploy to Cloudflare
+        id: deploy
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+          SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          set -o pipefail
+          if [ "$PRODUCTION" = "true" ]; then
+            npx --yes wrangler@4 deploy --message "$SHA" 2>&1 | tee deploy.log
+            url=$(grep -oE 'https://[a-z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          else
+            # aliases: lowercase letters, digits and dashes, starting with a letter
+            if [ -n "$PR_NUMBER" ]; then alias="pr-$PR_NUMBER"; else alias="b-$(echo "$BRANCH" | tr 'A-Z' 'a-z' | tr -c 'a-z0-9\n' '-' | cut -c1-40 | sed 's/-*$//')"; fi
+            npx --yes wrangler@4 versions upload --preview-alias "$alias" --message "$SHA" 2>&1 | tee deploy.log
+            url=$(grep -i 'alias url' deploy.log | grep -oE 'https://[^ ]+' | head -1)
+            [ -n "$url" ] || url=$(grep -oE 'https://[a-z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          fi
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "### Deployed: $url" >> "$GITHUB_STEP_SUMMARY"
+
+      # one comment per pull request, updated on every push
+      - name: Post the preview URL on the pull request
+        if: github.event_name == 'pull_request' && steps.deploy.outputs.url != ''
+        uses: actions/github-script@v7
+        env:
+          URL: ${{ steps.deploy.outputs.url }}
+          SHA: ${{ github.event.pull_request.head.sha }}
         with:
-          name: dist
-          path: dist
-          retention-days: 7
+          script: |
+            const marker = "<!-- cloudflare-preview -->";
+            const body = `${marker}\n**Preview** deployed to Cloudflare\n\n| | |\n|---|---|\n| URL | ${process.env.URL} |\n| Commit | \`${process.env.SHA.slice(0, 7)}\` |\n`;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const mine = comments.find((c) => c.body?.includes(marker));
+            if (mine) await github.rest.issues.updateComment({ owner, repo, comment_id: mine.id, body });
+            else await github.rest.issues.createComment({ owner, repo, issue_number, body });

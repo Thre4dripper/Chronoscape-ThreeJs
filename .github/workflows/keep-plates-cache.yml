@@ -1,0 +1,24 @@
+# GitHub drops a cache nobody has used for 7 days. The baked plates take an hour or more to redraw from
+# scratch on a runner, so every few days this restores the newest plate cache (on main, where every
+# branch's build can read it), which counts as a use and keeps it alive through quiet weeks.
+name: keep plates cache
+
+on:
+  schedule:
+    - cron: "17 4 */4 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  touch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/cache/restore@v4
+        with:
+          path: .plate-cache
+          # no exact key matches on purpose: the prefix picks the most recent plate cache
+          key: plates-keepalive
+          restore-keys: plates-
