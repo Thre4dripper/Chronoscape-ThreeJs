@@ -90,7 +90,7 @@ canvas { display: block; cursor: grab; }
 .timeline__stop:hover:not(:disabled) { background: rgba(230,211,170,0.08); }
 .timeline__stop.is-active { background: rgba(166,82,56,0.45); border-color: rgba(230,211,170,0.35); }
 .timeline__stop:disabled { opacity: 0.45; cursor: not-allowed; }
-.timeline__year { font-family: var(--display); font-size: 15px; letter-spacing: 0.08em; }
+.timeline__year { font-family: var(--display); font-size: 15px; letter-spacing: 0.08em; white-space: nowrap; }
 .timeline__label { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.7; }
 
 /* ---------- Landmark panel ---------- */
@@ -830,6 +830,54 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .hud--top-right .btn--desk.is-active { background: rgba(120,92,48,0.8); }
 .hud--bottom-left .status-hint { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
+/* Compact, fluid HUD: everything scales with the window between laptop and large-desktop sizes, so on a
+   13-15" screen the plaques, buttons and cards stay small and the map keeps the room */
+@media (min-width: 721px) {
+  .hud--top-left { top: 14px; left: 16px; padding: 6px 12px 7px; min-width: 0; }
+  .brand { font-size: clamp(9px, 0.62vw, 11px); letter-spacing: 0.38em; }
+  .city-line { margin-top: 2px; font-size: clamp(17px, 1.3vw, 22px); }
+  .city-sub { font-size: clamp(9.5px, 0.7vw, 12px); letter-spacing: 0.26em; }
+  .hud--top-right { top: 14px; right: 16px; }
+  .hud--top-right .btn { padding: clamp(5px, 0.4vw, 7px) clamp(9px, 0.75vw, 13px); font-size: clamp(10px, 0.68vw, 12px); letter-spacing: 0.18em; }
+  .btn--era, .btn--desk { margin-right: 8px; }
+  .story-launcher { bottom: 16px; }
+  .story-launcher .btn { padding: 6px 14px; font-size: clamp(10px, 0.68vw, 12px); letter-spacing: 0.2em; }
+
+  /* the era bar: years only, one caption for the chosen (or pointed-at) era */
+  .timeline { top: calc(14px + clamp(28px, 2.3vw, 36px) + 8px); right: 16px; flex-direction: column; gap: 3px; padding: 3px; overflow: visible; max-width: calc(100vw - 32px); }
+  .timeline__stops { display: flex; gap: 2px; }
+  .timeline__stop { min-width: 0; padding: clamp(3px, 0.3vw, 5px) clamp(8px, 0.7vw, 12px); }
+  .timeline__year { font-size: clamp(11.5px, 0.8vw, 14px); }
+  .timeline__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .timeline__caption {
+    padding: 1px 6px 2px; text-align: center; font-family: var(--display); font-size: clamp(9px, 0.6vw, 10.5px); letter-spacing: 0.22em; text-transform: uppercase;
+    color: #e9c89a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color 0.15s, opacity 0.15s;
+  }
+  .timeline__caption.is-preview { color: var(--parchment); opacity: 0.75; }
+  .panel, .era { top: calc(14px + clamp(28px, 2.3vw, 36px) + 8px + clamp(52px, 3.6vw, 62px) + 12px); }
+
+  .hud--bottom-left { left: 16px; bottom: 16px; padding: 6px 12px 7px; max-width: min(460px, 36vw); }
+  .status-subject { font-size: clamp(14px, 1.05vw, 18px); }
+  .status-line { font-size: clamp(9.5px, 0.65vw, 11px); letter-spacing: 0.26em; }
+  .status-hint { margin-top: 3px; font-size: clamp(9.5px, 0.62vw, 11px); letter-spacing: 0.14em; }
+  .leftcol { left: 16px; bottom: 16px; width: min(340px, calc(100vw - 32px)); }
+  .leftcol:not(.has-codex) .hunt { margin-bottom: clamp(64px, 5vw, 82px); }
+  .hunt--closed { padding: 6px 12px 6px 8px; gap: 10px; font-size: clamp(13px, 0.9vw, 15px); }
+  .hunt--closed .hunt__seal { width: 28px; height: 28px; font-size: 14px; }
+  .hunt__latin { font-size: 9px; }
+
+  .daydial { right: 16px; bottom: 16px; padding: 5px 12px; gap: 8px; }
+  .daydial input { width: clamp(90px, 8vw, 140px); }
+  .daydial__glyph { font-size: 15px; }
+  .daydial__label { font-size: 12px; min-width: 38px; }
+
+  .tooltip { width: clamp(240px, 19vw, 300px); padding: 8px 12px; }
+  .tooltip__kind { font-size: 9.5px; }
+  .tooltip__name { font-size: clamp(15px, 1.05vw, 18px); }
+  .tooltip__blurb { font-size: clamp(12px, 0.82vw, 13.5px); line-height: 1.4; }
+  .tooltip__hint { font-size: 10.5px; }
+}
+
 @media (max-width: 1100px) {
   /* the left column (codex, map hunt) moves to the bottom here: the status line would sit on top of it */
   .hud--bottom-left { display: none; }
@@ -843,10 +891,19 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
   .hud--top-right { top: 10px; right: 10px; display: flex; gap: 6px; }
   .hud--top-right .btn { padding: 7px 10px; font-size: 11px; letter-spacing: 0.12em; }
   .btn--era { margin-right: 0; }
+  .btn--desk { margin-right: 0; display: inline-flex; align-items: center; }
+  .hud--top-right .btn--desk { padding: 7px 9px; }
+  .btn--desk__icon { display: block; }
+  .btn--desk__label { display: none; }
+  .hud--top-right .btn--case { padding: 7px 9px; }
+  .hud--top-right .btn--case .btn--case__icon { display: block; }
+  .btn--case__label { display: none; }
   .timeline { top: 66px; left: 10px; right: 10px; max-width: none; padding: 4px; gap: 4px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .timeline::-webkit-scrollbar { display: none; }
   .timeline__stop { min-width: 64px; padding: 5px 6px; }
   .timeline__label { display: none; }
+  .timeline__stops { display: flex; gap: 4px; justify-content: space-between; }
+  .timeline__caption { display: none; }
   .panel, .era { top: auto; }
   .changes { top: 118px; left: 10px; right: 10px; }
   .leftcol { left: 10px; right: 10px; bottom: 10px; }
@@ -856,7 +913,6 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
   .daydial input { width: 90px; }
 }
 @media (max-width: 380px) {
-  .hud--top-right .btn--case__icon { display: none; }
   .daydial__label { display: none; }
 }
 

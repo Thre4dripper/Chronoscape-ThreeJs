@@ -46,7 +46,7 @@ export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) 
         </button>
         <button className="btn btn--case" onClick={onMapCase} aria-label="Open the map case: every atlas and map">
           <span className="btn--case__icon" aria-hidden="true" />
-          Map case
+          <span className="btn--case__label">Map case</span>
         </button>
       </div>
 
