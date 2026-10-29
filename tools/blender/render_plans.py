@@ -95,6 +95,20 @@ def render_plan(key, out_dir):
     return {"size": round(size, 2), "cx": round(cx, 2), "cy": round(-cy, 2), "w": round(x1 - x0, 2), "d": round(y1 - y0, 2), "px": px, "ext": "webp"}
 
 
+def render_keys(keys):
+    """Re-render the plans of just these models (after an incremental bake)."""
+    out_dir = os.path.join(ROOT, "assets", "models", "plans")
+    manifest_path = os.path.join(out_dir, "manifest.json")
+    manifest = json.load(open(manifest_path)) if os.path.exists(manifest_path) else {}
+    for key in keys:
+        if key in BUILDERS:
+            manifest[key] = render_plan(key, out_dir)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(manifest_path, "w") as f:
+        json.dump(manifest, f, indent=1, sort_keys=True)
+    return manifest
+
+
 def render_all(filter_text=None):
     out_dir = os.path.join(ROOT, "assets", "models", "plans")
     manifest_path = os.path.join(out_dir, "manifest.json")
