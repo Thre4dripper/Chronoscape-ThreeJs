@@ -9,3 +9,7 @@ tools/blender/baked/
 # baked map plates are build output (scripts/bake-plates.mjs)
 .plate-cache/
 assets/plates/
+# local secrets
+.env*
+# Wrangler's local state
+.wrangler/

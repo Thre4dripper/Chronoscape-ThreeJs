@@ -12,7 +12,8 @@
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "assets:build": "tools/blender/build_all.sh",
-    "plates:bake": "node scripts/bake-plates.mjs"
+    "plates:bake": "node scripts/bake-plates.mjs",
+    "deploy:cf": "node scripts/deploy-cloudflare.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.9",

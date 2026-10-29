@@ -1,0 +1,14 @@
+// Cloudflare Workers: the site is all static assets (dist), served for free with no Worker code.
+// Deploy from this machine with `pnpm deploy:cf` (scripts/deploy-cloudflare.mjs): Cloudflare's build machines
+// have no Chrome to bake the map plates with, so dist is always built here or in GitHub Actions.
+{
+  "name": "chronoscape-threejs",
+  "compatibility_date": "2026-09-01",
+  // served at chronoscape-threejs.<account>.workers.dev, with a preview URL for every uploaded version
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
