@@ -20,7 +20,7 @@ import { spawn } from "node:child_process";
 import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { createHash } from "node:crypto";
-import { availableParallelism } from "node:os";
+import { availableParallelism, totalmem } from "node:os";
 import { tmpdir } from "node:os";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -86,7 +86,9 @@ const CARD_JS = `window.__card = async ({ srcs, kicker, title, line }) => {
   const g = c.getContext("2d");
   g.fillStyle = "#2a1d14";
   g.fillRect(0, 0, W, H);
-  const imgs = await Promise.all(srcs.map((src) => new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = rej; i.src = src; })));
+  // decode each map already scaled down (a full plate is 4096 px square, 64 MB once decoded) and free it as soon
+  // as it is drawn: a 2-core, 7 GB CI runner draws 183 of these while the city renders in software
+  const imgs = await Promise.all(srcs.map(async (src) => createImageBitmap(await (await fetch(src)).blob(), { resizeWidth: srcs.length > 1 ? 800 : 1600, resizeQuality: "high" })));
   const cw = W / imgs.length;
   imgs.forEach((img, k) => {
     // cover each column, a little zoomed in toward the middle of the map, where the city is
@@ -99,6 +101,7 @@ const CARD_JS = `window.__card = async ({ srcs, kicker, title, line }) => {
     g.drawImage(img, k * cw + (cw - dw) / 2, (H - dh) / 2, dw, dh);
     g.restore();
     if (k) { g.fillStyle = "rgba(42,29,20,0.85)"; g.fillRect(k * cw - 2, 0, 4, H); }
+    img.close();
   });
   const shade = g.createLinearGradient(0, H * 0.35, 0, H);
   shade.addColorStop(0, "rgba(28,19,12,0)");
@@ -125,7 +128,9 @@ const CARD_JS = `window.__card = async ({ srcs, kicker, title, line }) => {
   text(kicker.toUpperCase(), 20, "#e9c89a", H - 168, 7);
   text(title.toUpperCase(), 72, "#f6e9c9", H - 92, 4);
   text(line, 30, "#efe0bd", H - 50, 1);
-  return c.toDataURL("image/jpeg", 0.84).split(",")[1];
+  const jpg = c.toDataURL("image/jpeg", 0.84).split(",")[1];
+  c.width = c.height = 0;
+  return jpg;
 };`;
 let server = null;
 let base = process.env.APP_URL;
@@ -137,7 +142,9 @@ if (!base) {
 }
 // one headless Chrome per job: each draws its plates on its own CPU core (tabs of one Chrome can share a
 // renderer process, which would draw them one after another)
-const JOBS = Math.max(1, Math.min(+(process.env.PLATE_JOBS ?? 0) || Math.max(1, availableParallelism() - 2), 8));
+// and never more browsers than the memory holds (the pages only draw plates, ?bake skips the 3D city, but a
+// plate is a 4096 px canvas; a private repo's CI runner has 2 cores and 7 GB)
+const JOBS = Math.max(1, Math.min(+(process.env.PLATE_JOBS ?? 0) || Math.max(1, availableParallelism() - 2), 8, Math.floor(totalmem() / 3 / 1024 ** 3)));
 const queue = cities.filter((c) => !only || only === c);
 let baked = 0, kept = 0;
 const t0 = Date.now();
@@ -146,6 +153,8 @@ async function startChrome(port) {
   const profile = mkdtempSync(join(tmpdir(), "bake-"));
   const chromeArgs = ["--headless=new", `--remote-debugging-port=${port}`, `--user-data-dir=${profile}`, "--window-size=800,600"];
   if (process.env.CI) chromeArgs.push("--no-sandbox"); // CI runners forbid the sandbox's user namespaces
+  // extra flags for debugging, e.g. CHROME_ARGS=--disable-gpu to see how a GPU-less CI runner fares
+  chromeArgs.push(...(process.env.CHROME_ARGS ?? "").split(" ").filter(Boolean));
   const proc = spawn(findChrome(), [...chromeArgs, "about:blank"], { stdio: "ignore" });
   let list;
   for (let i = 0; i < 80 && !list; i++) {
@@ -189,14 +198,23 @@ async function startChrome(port) {
   return { send, evalv, close };
 }
 
-async function bakeCity(b, city) {
-  await b.send("Page.navigate", { url: `${base}/${city}/` });
-  let meta = null;
-  for (let i = 0; i < 240 && !meta; i++) {
+/** Poll the page until `expr` is truthy, for at most `ms` of wall time (a busy page can make each poll slow). */
+async function waitFor(b, expr, ms) {
+  const end = Date.now() + ms;
+  while (Date.now() < end) {
+    const v = await b.evalv(expr, Math.max(1000, Math.min(20000, end - Date.now()))).catch(() => null);
+    if (v) return v;
     await sleep(250);
-    meta = await b.evalv("window.__plateMeta ? window.__plateMeta() : null").catch(() => null);
   }
-  if (!meta) throw new Error(`bake hook not found for ${city} (is ${base} a dev server?)`);
+  return null;
+}
+
+async function bakeCity(b, city) {
+  const t0 = Date.now();
+  await b.send("Page.navigate", { url: `${base}/${city}/?bake` });
+  // ?bake loads only the city's data and the drawing code; the first load also waits for Vite to compile
+  const meta = await waitFor(b, "window.__plateMeta ? window.__plateMeta() : null", 180000);
+  if (!meta) throw new Error(`bake hook not found for ${city} within 3 min (is ${base} a dev server?)`);
   await b.evalv(CARD_JS);
   const pack = JSON.parse(readFileSync(join(ROOT, "content/cities", city, "city.json"), "utf8"));
   const dir = join(CACHE, city);
@@ -224,11 +242,15 @@ async function bakeCity(b, city) {
     console.log(`${city}/${p.id}  full ${(res.full.length * 0.75 / 1048576).toFixed(2)} MB, preview ${Math.round(res.preview.length * 0.75 / 1024)} KB  ${Date.now() - t} ms`);
     await card(b, city, pack, p.id, periods[p.id], prev);
   }
+  const cards = Object.values(periods).filter((e) => e.card?.fresh && delete e.card.fresh).length;
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, "manifest.json"), JSON.stringify({ version: meta.version, periods }, null, 1));
   baked += drew;
   kept += meta.periods.length - drew;
+  // a line per city, so a slow or stuck run shows where it is
+  console.log(`plates: ${city}  ${drew} drawn, ${meta.periods.length - drew} current, ${cards} cards drawn  ${Math.round((Date.now() - t0) / 1000)} s`);
 }
+
 
 /** An era's share card, drawn again only when its map or its words change. */
 async function card(b, city, pack, periodId, entry, prev) {
@@ -240,7 +262,7 @@ async function card(b, city, pack, periodId, entry, prev) {
   try {
     const jpg = await b.evalv(`window.__card(${JSON.stringify({ srcs: [`/plates/${city}/${entry.full}`], ...words })})`, 120000);
     writeFileSync(join(CACHE, city, file), Buffer.from(jpg, "base64"));
-    entry.card = { file, key };
+    entry.card = { file, key, fresh: true };
   } catch (e) {
     // a missing card costs a link preview, not the build
     console.warn(`plates: no share card for ${city}/${periodId} (${e.message.split("\n")[0]})`);
@@ -288,11 +310,9 @@ try {
   // let one browser go through that alone before the others connect
   browsers.push(await startChrome(PORT));
   if (queue.length) {
-    await browsers[0].send("Page.navigate", { url: `${base}/${queue[0]}/` });
-    for (let i = 0; i < 480; i++) {
-      await sleep(250);
-      if (await browsers[0].evalv("!!window.__plateMeta").catch(() => false)) break;
-    }
+    console.log(`plates: warming up the dev server on ${queue[0]}`);
+    await browsers[0].send("Page.navigate", { url: `${base}/${queue[0]}/?bake` });
+    await waitFor(browsers[0], "!!window.__plateMeta", 180000);
   }
   for (let i = 1; i < jobs; i++) browsers.push(await startChrome(PORT + i));
   const failed = [];

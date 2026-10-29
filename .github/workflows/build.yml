@@ -65,7 +65,8 @@ jobs:
           key: plates-${{ hashFiles('content/**', 'src/**', 'assets/models/plans/**', 'assets/fonts/**') }}
           restore-keys: plates-
 
-      # the runner has 4 cores and no GPU: plates draw on the CPU, so run a Chrome on every core
+      # a public repo's runner has 4 cores, 16 GB and no GPU: plates draw on the CPU, one Chrome per core
+      # (the baker also caps its browsers by memory, so a private repo's 2-core, 7 GB runner gets 2)
       - run: pnpm build
         env:
           CHROME: /usr/bin/google-chrome

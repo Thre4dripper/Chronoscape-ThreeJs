@@ -174,7 +174,8 @@ useStore.subscribe((s, prev) => {
   if (useNav.getState().view !== "city" || !s.city || !s.cityId) return;
   if (s.periodId === prev.periodId && s.focusedId === prev.focusedId && s.city === prev.city) return;
   const path = pathFor({ view: "city", city: s.cityId, period: s.periodId, landmark: s.focusedId }, s.city);
-  const keep = new URLSearchParams([...new URLSearchParams(location.search)].filter(([k]) => ["hour", "spot", "event"].includes(k)));
+  // (bake: the plate baker's dev-only mode, src/CityView.tsx)
+  const keep = new URLSearchParams([...new URLSearchParams(location.search)].filter(([k]) => ["hour", "spot", "event", "bake"].includes(k)));
   const next = path + (keep.size ? (path.includes("?") ? "&" : "?") + keep : "");
   if (location.pathname + location.search !== next) history.replaceState(null, "", next);
 });
