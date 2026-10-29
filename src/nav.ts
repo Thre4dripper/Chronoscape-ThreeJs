@@ -2,15 +2,14 @@ import { create } from "zustand";
 import type { AtlasMap } from "@/content/schema";
 import { atlasCatalog, loadCity } from "@/content/registry";
 import { useStore } from "@/engine/store";
+import { parsePath, pathFor, monumentEra } from "./meta";
 
 /**
  * Where the visitor is: the title page, the map room (with an atlas open or
- * not), or inside a city map. Kept in the address bar so links, reloads and
- * the back button all work:
- *   /                      title page
- *   ?room                  the map room
- *   ?room=medieval-europe  the map room with that atlas taken off the shelf
- *   ?city=rome&period=…    a city map (existing deep links keep working)
+ * not), or inside a city map. Kept in the address bar as a real path, so links,
+ * reloads and the back button all work and every page has its own baked HTML
+ * (the addresses are listed in src/meta.ts):
+ *   /  ·  /atlases/  ·  /atlases/<atlas>/  ·  /<city>/  ·  /<city>/<era>/  ·  /<city>/<monument>/
  */
 export type View = "title" | "room" | "city";
 
@@ -42,14 +41,9 @@ type Nav = {
 export const previewOf = (city: string, period?: string) => `/plates/${city}/${period ?? ""}.preview.webp`;
 
 function urlFor(view: View, atlasId: string | null, city?: string, period?: string | null) {
-  const u = new URL(location.href);
-  u.search = "";
-  if (view === "room") u.search = atlasId ? `?room=${atlasId}` : "?room";
-  if (view === "city" && city) {
-    u.searchParams.set("city", city);
-    if (period) u.searchParams.set("period", period);
-  }
-  return u.toString();
+  if (view === "room") return pathFor({ view: "room", atlasId });
+  if (view === "city" && city) return pathFor({ view: "city", city, period });
+  return "/";
 }
 
 export const useNav = create<Nav>((set, get) => ({
@@ -138,28 +132,52 @@ export async function enterCity(id: string, period: string | null) {
 
 /** Read the address bar into the navigation state (first load and the back button). */
 export function syncFromUrl() {
-  const p = new URLSearchParams(location.search);
-  const city = p.get("city");
-  if (city) {
-    useNav.setState({ view: "city", atlasId: null, flight: null });
-    void enterCity(city, p.get("period")).then(() => {
-      const st = useStore.getState();
-      const hour = p.get("hour");
-      if (hour) st.setHour(parseFloat(hour));
-      if (p.get("focus")) st.focus(p.get("focus")!);
-      if (p.get("spot")) st.focusSpot(p.get("spot")!);
-      if (p.get("event")) st.focusEvent(p.get("event")!);
-      st.dismissChange();
-    });
-    return;
-  }
-  if (p.has("room")) {
-    const a = p.get("room");
-    useNav.setState({ view: "room", atlasId: a && atlasCatalog.atlases.some((x) => x.id === a) ? a : null, flight: null });
+  const r = parsePath(location.pathname);
+  if (r.view === "city") return openCityAt(r.city, r.segment, new URLSearchParams(location.search));
+  if (r.view === "room") {
+    useNav.setState({ view: "room", atlasId: r.atlasId && atlasCatalog.atlases.some((x) => x.id === r.atlasId) ? r.atlasId : null, flight: null });
     return;
   }
   useNav.setState({ view: "title", atlasId: null, flight: null });
 }
+
+/**
+ * A city from the address: `segment` names an era or a monument (or neither), resolved once the pack has
+ * loaded; ?period, ?hour, ?spot and ?event refine it.
+ */
+function openCityAt(id: string, segment: string | null, p: URLSearchParams) {
+  useNav.setState({ view: "city", atlasId: null, flight: null });
+  void loadCity(id)
+    .then((city) => {
+      const isEra = !!segment && city.periods.some((x) => x.id === segment);
+      const landmark = !isEra && segment && city.landmarks.some((l) => l.id === segment) ? segment : null;
+      const asked = p.get("period");
+      const period = isEra ? segment : asked && city.periods.some((x) => x.id === asked) ? asked : landmark ? monumentEra(city, landmark) : null;
+      return enterCity(id, period).then(() => {
+        const st = useStore.getState();
+        const hour = p.get("hour");
+        if (hour) st.setHour(parseFloat(hour));
+        if (landmark) st.focus(landmark);
+        if (p.get("spot")) st.focusSpot(p.get("spot")!);
+        if (p.get("event")) st.focusEvent(p.get("event")!);
+        st.dismissChange();
+      });
+    })
+    .catch(() => enterCity(id, null)); // an unknown city: let the city view show its error
+}
+
+/*
+ * Inside a city the address follows the visitor: changing the era or opening a monument rewrites it in place
+ * (no new history entry, so Back still leaves the city), and closing a monument returns to its era's page.
+ */
+useStore.subscribe((s, prev) => {
+  if (useNav.getState().view !== "city" || !s.city || !s.cityId) return;
+  if (s.periodId === prev.periodId && s.focusedId === prev.focusedId && s.city === prev.city) return;
+  const path = pathFor({ view: "city", city: s.cityId, period: s.periodId, landmark: s.focusedId }, s.city);
+  const keep = new URLSearchParams([...new URLSearchParams(location.search)].filter(([k]) => ["hour", "spot", "event"].includes(k)));
+  const next = path + (keep.size ? (path.includes("?") ? "&" : "?") + keep : "");
+  if (location.pathname + location.search !== next) history.replaceState(null, "", next);
+});
 
 /** Every playable map, for the map case and the title page's shortcuts. */
 export function playableMaps() {
