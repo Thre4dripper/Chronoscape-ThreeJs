@@ -1,6 +1,6 @@
 /**
  * Build-time content validation: every city pack must parse, cross-reference
- * cleanly, and point at assets that exist. Run with `npm run validate`.
+ * cleanly, and point at assets that exist. Run with `pnpm validate`.
  */
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { join, resolve } from "node:path";

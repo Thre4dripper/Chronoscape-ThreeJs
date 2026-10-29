@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 tools/content/build_rome.py
-npm run validate
-npm run plates:bake
-npx tsc -p tsconfig.json --noEmit
-npx vite build >/dev/null && echo "build ok"
+pnpm validate
+pnpm plates:bake
+pnpm exec tsc -p tsconfig.json --noEmit
+pnpm exec vite build >/dev/null && echo "build ok"

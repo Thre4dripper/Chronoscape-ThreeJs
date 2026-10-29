@@ -36,7 +36,7 @@ If you query Wikipedia, use the User-Agent `Chronoscape/0.1 (educational map pro
 requests (it rate-limits), and never send any personal data.
 
 After each city: `python3 tools/content/build_city.py <id>` (Rome: `python3 tools/content/build_rome.py`)
-and `npm run validate` must show 0 errors.
+and `pnpm validate` must show 0 errors.
 
 Report per city in a few lines: the corrections made (most important first), what remains
 uncertain, and whether `geo.py` changed.

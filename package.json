@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@11.22.0",
   "scripts": {
     "dev": "vite",
-    "build": "npm run validate && tsc -p tsconfig.json --noEmit && vite build && node scripts/bake-plates.mjs --out dist/plates",
+    "build": "pnpm validate && tsc -p tsconfig.json --noEmit && vite build && node scripts/bake-plates.mjs --out dist/plates",
     "preview": "vite preview",
     "validate": "tsx scripts/validate-content.ts",
     "test": "vitest run",

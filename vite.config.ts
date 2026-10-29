@@ -6,7 +6,7 @@ import { extname, join, normalize } from "node:path";
 import type { Plugin } from "vite";
 
 /**
- * Baked map plates are build output (scripts/bake-plates.mjs writes .plate-cache/, `npm run build` copies it
+ * Baked map plates are build output (scripts/bake-plates.mjs writes .plate-cache/, `pnpm build` copies it
  * into dist/plates). The dev server serves the cache at /plates when it has one; a plate it lacks is a 404,
  * and the app draws that plate in a worker instead.
  */

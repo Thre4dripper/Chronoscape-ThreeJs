@@ -6,7 +6,7 @@ reference: 8 eras, 52 monuments with Blender miniatures, 52 spots of daily life,
 modules plus one Blender module, and assembled by:
 
     python3 tools/content/build_city.py <id>      # writes content/cities/<id>/city.json
-    npm run validate                              # schema + cross-reference check (all cities)
+    pnpm validate                              # schema + cross-reference check (all cities)
 
 | file | what |
 | --- | --- |
@@ -198,7 +198,7 @@ wrong proportions). Run only one Blender at a time and never open the Blender UI
 ## Done means
 
 1. `python3 tools/content/build_city.py <id>` prints the counts without errors.
-2. `npm run validate` reports 0 errors for your city (warnings about missing preview plates or
+2. `pnpm validate` reports 0 errors for your city (warnings about missing preview plates or
    the city not being listed in index.json are expected).
 3. Every model key in landmarks.py (including variant models) has a builder, and the sketch run
    shows no errors.

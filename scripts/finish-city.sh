@@ -26,4 +26,4 @@ python3 tools/content/register_city.py "$id" "$@"
 if ! skip plates; then
   node scripts/bake-plates.mjs "$id"
 fi
-npm run validate 2>&1 | grep -E "^(error|ok) .*$id|error\(s\)" || true
+pnpm validate 2>&1 | grep -E "^(error|ok) .*$id|error\(s\)" || true
