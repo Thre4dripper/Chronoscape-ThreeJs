@@ -105,3 +105,8 @@ exec(open(os.path.join(ROOT, "tools", "blender", "render_plans.py")).read(), pns
 pns["render_keys"](done)
 with open(log, "a") as fh:
     fh.write(json.dumps({"done": time.strftime("%H:%M:%S")}) + "\n")
+
+# the study (the writing table and the things on it) bakes from its own builders, incrementally, into assets/models/study
+sns = {"__name__": "bake_study"}
+exec(open(os.path.join(ROOT, "tools", "blender", "bake_study.py")).read(), sns)
+sns["main"]()
