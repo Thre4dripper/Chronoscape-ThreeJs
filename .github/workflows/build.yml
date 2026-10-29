@@ -43,12 +43,12 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       PRODUCTION: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # pnpm's version comes from "packageManager" in package.json
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
@@ -59,7 +59,7 @@ jobs:
 
       # the cache key changes with anything a plate is drawn from; an older cache is restored as the
       # starting point and the baker keeps every era in it that is still current
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: .plate-cache
           key: plates-${{ hashFiles('content/**', 'src/**', 'assets/models/plans/**', 'assets/fonts/**') }}
@@ -99,7 +99,7 @@ jobs:
       # one comment per pull request, updated on every push
       - name: Post the preview URL on the pull request
         if: github.event_name == 'pull_request' && steps.deploy.outputs.url != ''
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           URL: ${{ steps.deploy.outputs.url }}
           SHA: ${{ github.event.pull_request.head.sha }}
