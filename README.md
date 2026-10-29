@@ -108,7 +108,11 @@ pnpm build        # validate, typecheck, bundle, bake the map plates into dist/p
 The plate bake drives a headless Chrome (set `CHROME=/path/to/chrome` if it isn't found). Plates are build output,
 cached in `.plate-cache/`; only eras whose drawing changed are baked again, so a warm build takes about 15 seconds.
 
-Deep links: `?city=rome&period=medieval-1300&focus=colosseum`, `&spot=thermopolium&hour=20`, `&event=great-fire-64`.
+Every page has its own address and its own baked HTML head (title, description, keywords, share card, structured
+data), written at build time by `scripts/build-pages.ts` from `src/meta.ts`, plus `sitemap.xml` and `robots.txt`:
+`/` · `/atlases/` · `/atlases/japan/` · `/rome/` · `/rome/medieval-1300/` · `/rome/colosseum/`. A monument at another
+era is `/rome/colosseum/?period=medieval-1300`, and `?spot=thermopolium`, `?event=great-fire-64` and `?hour=20`
+work on top.
 
 Controls: drag to pan, wheel to zoom, right-drag or shift-drag to orbit, arrows / + / − / Q / E on the keyboard,
 Esc to step back. On touch: tap to raise, hold to glide, two fingers to zoom, rotate and tilt.
@@ -139,12 +143,15 @@ Conventions: metres, origin at ground centre, top-level objects `p0_…`, `p1_�
 
 ## Deploying
 
+Every build needs `SITE_URL`, the site's public address (canonical links, share images and the sitemap are written
+with it). Locally, copy `.env.example` to `.env`; in GitHub Actions it is the repository variable `SITE_URL`.
+
 The site is static and is served from Cloudflare Workers. Cloudflare's own build machines have no Chrome to bake the
 plates with, so the build always happens elsewhere and only the upload goes to Cloudflare.
 
 - **GitHub Actions** (`.github/workflows/build.yml`) builds every push and pull request. Pushes to `main` deploy to
   production; each pull request gets its own preview URL, posted on the PR. It needs the repository secrets
-  `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+  `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`, and the repository variable `SITE_URL`.
 - **From your machine:** `pnpm deploy:cf` (production) or `pnpm deploy:cf --preview` (a preview URL named after the
   branch). Log in once with `pnpm dlx wrangler@4 login`.
 

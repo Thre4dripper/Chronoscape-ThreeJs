@@ -10,7 +10,8 @@
 # Plates are kept between runs in the Actions cache; only eras whose drawing changed are baked again
 # (scripts/bake-plates.mjs compares each era's hash), so a usual run is a few minutes.
 #
-# Needs the repo secrets CLOUDFLARE_API_TOKEN ("Edit Cloudflare Workers" template) and CLOUDFLARE_ACCOUNT_ID.
+# Needs the repo secrets CLOUDFLARE_API_TOKEN ("Edit Cloudflare Workers" template) and CLOUDFLARE_ACCOUNT_ID,
+# and the repo variable SITE_URL (the site's public address, e.g. https://chronoscape-threejs.<account>.workers.dev).
 # Without them (e.g. pull requests from forks) the build still runs as a check and the deploy is skipped.
 name: build
 
@@ -69,6 +70,8 @@ jobs:
         env:
           CHROME: /usr/bin/google-chrome
           PLATE_JOBS: 4
+          # the public address baked into every page's canonical link, share image and the sitemap
+          SITE_URL: ${{ vars.SITE_URL }}
 
       - name: Deploy to Cloudflare
         id: deploy
