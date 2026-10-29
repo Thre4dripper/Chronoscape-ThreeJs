@@ -4,7 +4,6 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 python3 tools/content/build_rome.py
 npm run validate
-curl -sf http://localhost:5173/ >/dev/null || { echo "start the dev server first (npm run dev)"; exit 1; }
 npm run plates:bake
 npx tsc -p tsconfig.json --noEmit
 npx vite build >/dev/null && echo "build ok"

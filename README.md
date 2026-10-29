@@ -38,8 +38,8 @@ to enter. On touch: tap to preview, tap again to enter.
 ## Bake (after content or drawing changes)
 
 ```bash
-npm run dev                                   # the plate bake renders in the browser
-npm run plates:bake                           # map plates per era -> assets/plates/
+npm run plates:bake                           # map plates per era -> .plate-cache/ (git-ignored build output;
+                                              # npm run build bakes what is stale and copies it into dist/plates)
 Blender -b -P tools/blender/bake_all.py       # all landmark models and props (vertex-colour miniatures), shadows and plans
 # or, in a running Blender with the MCP add-on: exec tools/blender/bake_queue.py and call start(keys)
 ```

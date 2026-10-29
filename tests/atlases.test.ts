@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { AtlasCatalogSchema, CityIndexSchema } from "../src/content/schema";
 import { yearU } from "../src/ui/room/EraRuler";
@@ -9,13 +9,13 @@ const catalog = AtlasCatalogSchema.parse(JSON.parse(readFileSync(join(root, "con
 const index = CityIndexSchema.parse(JSON.parse(readFileSync(join(root, "content", "cities", "index.json"), "utf8")));
 
 describe("the map room's atlases", () => {
-  it("open real cities at real eras, with a baked preview to fold", () => {
+  // (their baked previews are build output: scripts/bake-plates.mjs fails the build if one is missing)
+  it("open real cities at real eras", () => {
     for (const a of catalog.atlases)
       for (const m of a.maps.filter((x) => x.city)) {
         expect(index.cities.map((c) => c.id)).toContain(m.city);
         const city = JSON.parse(readFileSync(join(root, "content", "cities", m.city!, "city.json"), "utf8"));
         expect(city.periods.map((p: { id: string }) => p.id)).toContain(m.period);
-        expect(existsSync(join(root, "assets", "plates", m.city!, `${m.period}.preview.webp`))).toBe(true);
       }
   });
 

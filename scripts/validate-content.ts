@@ -69,7 +69,6 @@ if (!cat.success) {
       }
       const raw = JSON.parse(readFileSync(join(citiesDir, m.city, "city.json"), "utf8"));
       if (m.period && !raw.periods.some((p: { id: string }) => p.id === m.period)) console.error(`error atlases.${a.id}: map "${m.title}" opens unknown era "${m.period}"`), errors++;
-      if (m.period && !existsSync(join(assetsDir, "plates", m.city, `${m.period}.preview.webp`))) console.warn(`warn  atlases.${a.id}: no baked preview plate for ${m.city}/${m.period}`), warnings++;
     }
   }
   console.log(`ok    atlases: ${cat.data.atlases.length} atlases, ${cat.data.atlases.reduce((n, a) => n + a.maps.filter((m) => m.city).length, 0)} playable maps`);

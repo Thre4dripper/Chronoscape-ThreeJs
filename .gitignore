@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 .claude/scheduled_tasks.lock
 tools/blender/baked/
+# baked map plates are build output (scripts/bake-plates.mjs)
+.plate-cache/
+assets/plates/

@@ -2,7 +2,7 @@
 # After a city's data and model builders are written (tools/content/cities/<id>/, tools/blender/models/cities/<id>.py):
 # bake its models, render plans (footprints) and elevations, rebuild its content, fetch pictures, list it, bake its plates.
 #   scripts/finish-city.sh <id> "<atlas-id>:<map title>:<period-id>" [...]
-# Needs the dev server on :5173 for the plates. Steps can be skipped with SKIP="bake media plates".
+# The plates go to .plate-cache/ (build output; the baker starts its own dev server). Steps can be skipped with SKIP="bake media plates".
 set -euo pipefail
 cd "$(dirname "$0")/.."
 id="$1"; shift
@@ -24,7 +24,6 @@ if ! skip media; then
 fi
 python3 tools/content/register_city.py "$id" "$@"
 if ! skip plates; then
-  curl -sf http://localhost:5173/ >/dev/null || { echo "start the dev server first (npm run dev)"; exit 1; }
   node scripts/bake-plates.mjs "$id"
 fi
 npm run validate 2>&1 | grep -E "^(error|ok) .*$id|error\(s\)" || true
