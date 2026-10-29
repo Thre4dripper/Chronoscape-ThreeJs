@@ -65,7 +65,7 @@ SPOTS = [
          confidence="documented", sourceIds=["megasthenes", "wiki-megasthenes", "arthashastra"],
          vignettes=[dict(hour=7, text="A clerk of the second board enters the name of a Greek traveller and the house he lodges in; a guide is assigned to keep him company."),
                     dict(hour=12, text="Weights and measures from the cloth market are tested on the board's scales; a light weight is broken and its owner fined."),
-                    dict(hour=17, text="The births and deaths of the day are read out and written down 'so that the king may know', as Megasthenes puts it.")]),
+                    dict(hour=17, text="The births and deaths of the day are read out and written down, so that, as Megasthenes explains, none escape the government's notice.")]),
 
     dict(id="elephant-stables", name="The royal elephant stables", kind="works", latlon=(25.60100, 85.17550), activePeriods=MAURYAN,
          summary="Long sheds and bathing tanks for the king's war elephants, which only the king might own; Seleucus received 500 of them for his eastern provinces.",
@@ -74,7 +74,7 @@ SPOTS = [
          vignettes=[dict(hour=6, text="Mahouts lead the elephants down to the tank; trunks spray, boys scrub grey hides with bricks of pumice."),
                     dict(hour=12, text="The fodder carts arrive: rice balls with salt and ghee, green cane, a ration weighed out by the superintendent's clerk."),
                     dict(hour=19, text="A young elephant, newly caught in the eastern forests, rocks against its chains while an old keeper sings to it.")],
-         variants={ASHOKA: dict(note="Ashoka's edicts parade the royal elephant as a sign of the dhamma; the war stables still stand.")}),
+         variants={ASHOKA: dict(note="Ashoka's fourth rock edict speaks of showing the people elephants and other spectacles to teach the dhamma; the war stables still stand.")}),
 
     dict(id="kautilya-tavern", name="A wine-shop of the spies", kind="tavern", latlon=(25.59400, 85.22400), activePeriods=[MAURYA],
          summary="A licensed drinking house of the kind the Arthashastra wants watched: comfortable rooms, scented seats, and agents posing as customers who note who spends too freely.",

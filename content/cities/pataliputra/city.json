@@ -3027,7 +3027,8 @@
      "note": "Megasthenes' wooden wall: two rows of sal posts with a walk between, loopholed for archers, towers at intervals and the ditch in front. He counted 570 towers and 64 gates round the whole circuit."
     },
     "ashoka-250": {
-     "note": "Still the city's defence; posts were renewed as they rotted, and brick began to replace timber in places (hedge)."
+     "note": "Still the city's defence; posts were probably renewed as they rotted.",
+     "confidence": "interpretation"
     },
     "gupta-400": {
      "name": "Old rampart at Bulandi Bagh",
@@ -3103,7 +3104,7 @@
    },
    "summary": "A timber gatehouse of the palisade on the road south to Rajagriha: twin towers with barrel-vaulted roofs, a bridge over the moat, and guards at the gate.",
    "details": [
-    "No gate of Pataliputra has been excavated. The Arthashastra prescribes gates with towers, a moat bridge that can be removed and gatekeepers who register strangers; Megasthenes gives 64 gates for the whole circuit. Mauryan relief panels at Sanchi (later) show city gates with timber towers and barrel-vaulted roofs.",
+    "No gate of Pataliputra has been excavated. The Arthashastra prescribes gates with towers, a moat bridge that can be removed and gatekeepers who register strangers; Megasthenes gives 64 gates for the whole circuit. Reliefs at Sanchi, carved two centuries later, show city gates with timber towers and barrel-vaulted roofs.",
     "The miniature is an interpretation: two timber towers on brick plinths joined by a gallery, chaitya-arched roofs, stretches of palisade either side, and a timber bridge over the moat on the outer side."
    ],
    "confidence": "interpretation",
@@ -3159,7 +3160,7 @@
    },
    "summary": "The fortified village at the river that began Pataliputra: an earth rampart with a timber stockade, gate towers and thatched halls, built to watch the Licchavis across the Ganges.",
    "details": [
-    "The Mahaparinibbana Sutta says that when the Buddha passed through Pataligama the ministers Sunidha and Vassakara were building a fortress there against the Vajjis, and he foretold a great city that fire, water and dissension would one day ruin. Tradition dates the fort c. 490 BCE (hedge: the Buddha's dates are disputed).",
+    "The Mahaparinibbana Sutta says that when the Buddha passed through Pataligama the ministers Sunidha and Vassakara were building a fortress there against the Vajjis, and he foretold a great city that fire, water and dissension would one day ruin. Tradition dates the fort c. 490 BCE, but the Buddha's dates, and so this one, are disputed.",
     "The miniature is an interpretation: a rectangle of rammed earth with a stockade and corner towers, a gate toward the river, granaries, a hall and thatched huts inside. Its site is unknown."
    ],
    "confidence": "interpretation",
@@ -3434,7 +3435,8 @@
      "note": "Xuanzang (c. 637) tells the story of Ashoka's hell at Pataliputra; Agam Kuan is the place local tradition points to."
     },
     "sher-shah-1545": {
-     "note": "A venerated well beside the shrine of Shitala Devi; the Mughals are said to have added the arched superstructure (hedge)."
+     "note": "A venerated well beside the shrine of Shitala Devi; the arched superstructure over it is later, perhaps of Mughal date.",
+     "confidence": "interpretation"
     }
    },
    "summary": "A deep round well of brick, said to be Ashoka's, which legend ties to the 'hell' in which he tortured prisoners before he turned to the Buddha.",
@@ -3490,7 +3492,7 @@
      "note": "Not yet built: a grove south-east of the city."
     },
     "ashoka-250": {
-     "note": "Ashoka's monastery, the 'Cock Park', where the Ashokavadana says he gave away his last half-mango. Some identify it with the Ashokarama of the Third Council."
+     "note": "Ashoka's monastery, the 'Cock Park', to which the Ashokavadana says he gave his last possession, half an amalaka fruit. Some identify it with the Ashokarama of the Third Council."
     },
     "gupta-400": {
      "note": "Faxian lodged at a Mahayana monastery beside Ashoka's stupa; the Kukkutarama itself, Xuanzang says two centuries later, lay in ruins.",
@@ -3525,8 +3527,8 @@
    "name": "Faxian's hospital (the Arogya Vihara)",
    "category": "civic",
    "position": [
-    1004,
-    3328
+    1285,
+    3417
    ],
    "rotation": 0,
    "footprint": [
@@ -3756,8 +3758,8 @@
    "name": "Kamaldah Jain shrine",
    "category": "religious",
    "position": [
-    3815,
-    3772
+    3323,
+    3706
    ],
    "rotation": 0,
    "footprint": [
@@ -3787,7 +3789,7 @@
      "note": "Jain tradition remembers Seth Sudarshan, a merchant who kept his vows under false accusation, as attaining liberation at this spot."
     },
     "sher-shah-1545": {
-     "note": "A small walled Jain shrine on a mound by Gulzarbagh. The present temples are later (hedge: the dates given vary, 18th century or earlier); a shrine may have stood here already.",
+     "note": "A small walled Jain shrine on a mound by Gulzarbagh. The present temples are later (the dates given vary, 18th century or earlier); a shrine may have stood here already.",
      "confidence": "interpretation"
     }
    },
@@ -3801,7 +3803,7 @@
     "wiki-kamaldah",
     "wiki-sthulabhadra"
    ],
-   "built": "shrines later than the 16th century (hedge)",
+   "built": "present shrines probably later than the 16th century",
    "function": "Jain shrine",
    "activity": {
     "figures": 8,
@@ -3928,7 +3930,7 @@
     },
     {
      "hour": 17,
-     "text": "The births and deaths of the day are read out and written down 'so that the king may know', as Megasthenes puts it."
+     "text": "The births and deaths of the day are read out and written down, so that, as Megasthenes explains, none escape the government's notice."
     }
    ],
    "variants": {}
@@ -3971,7 +3973,7 @@
    ],
    "variants": {
     "ashoka-250": {
-     "note": "Ashoka's edicts parade the royal elephant as a sign of the dhamma; the war stables still stand."
+     "note": "Ashoka's fourth rock edict speaks of showing the people elephants and other spectacles to teach the dhamma; the war stables still stand."
     }
    }
   },

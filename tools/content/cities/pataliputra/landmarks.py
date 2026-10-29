@@ -82,7 +82,7 @@ LANDMARKS = [
          variants={
              MAGADHA: dict(note="The early city's stockade probably ran further in; this stretch of riverbank is fields and boat landings.", confidence="interpretation"),
              MAURYA: dict(note="Megasthenes' wooden wall: two rows of sal posts with a walk between, loopholed for archers, towers at intervals and the ditch in front. He counted 570 towers and 64 gates round the whole circuit."),
-             ASHOKA: dict(note="Still the city's defence; posts were renewed as they rotted, and brick began to replace timber in places (hedge)."),
+             ASHOKA: dict(note="Still the city's defence; posts were probably renewed as they rotted.", confidence="interpretation"),
              GUPTA: dict(name="Old rampart at Bulandi Bagh", note="The timber has rotted or burned; an earth bank and the silted ditch mark the line. Waterlogged clay preserved the stumps below ground.", confidence="interpretation"),
          },
          summary="A section of the Mauryan city wall: a double line of upright sal-wood posts, towers and gateways behind a wet ditch, the 'wooden wall' Megasthenes describes. Its posts were found at Bulandi Bagh.",
@@ -101,7 +101,7 @@ LANDMARKS = [
              GUPTA: dict(name="Old south gate", note="A gap in the old earth rampart; the road still runs south across the silting moat.", confidence="interpretation"),
          },
          summary="A timber gatehouse of the palisade on the road south to Rajagriha: twin towers with barrel-vaulted roofs, a bridge over the moat, and guards at the gate.",
-         details=["No gate of Pataliputra has been excavated. The Arthashastra prescribes gates with towers, a moat bridge that can be removed and gatekeepers who register strangers; Megasthenes gives 64 gates for the whole circuit. Mauryan relief panels at Sanchi (later) show city gates with timber towers and barrel-vaulted roofs.",
+         details=["No gate of Pataliputra has been excavated. The Arthashastra prescribes gates with towers, a moat bridge that can be removed and gatekeepers who register strangers; Megasthenes gives 64 gates for the whole circuit. Reliefs at Sanchi, carved two centuries later, show city gates with timber towers and barrel-vaulted roofs.",
                   "The miniature is an interpretation: two timber towers on brick plinths joined by a gallery, chaitya-arched roofs, stretches of palisade either side, and a timber bridge over the moat on the outer side."],
          built="4th–3rd century BCE", function="City gate", confidence="interpretation",
          sourceIds=["wiki-pataliputra", "megasthenes", "harle"], activity=dict(figures=20, radius=90)),
@@ -114,7 +114,7 @@ LANDMARKS = [
              MAURYA: dict(note="Swallowed by the growing city; its site is not known, and this placement by the river is a guess.", confidence="interpretation"),
          },
          summary="The fortified village at the river that began Pataliputra: an earth rampart with a timber stockade, gate towers and thatched halls, built to watch the Licchavis across the Ganges.",
-         details=["The Mahaparinibbana Sutta says that when the Buddha passed through Pataligama the ministers Sunidha and Vassakara were building a fortress there against the Vajjis, and he foretold a great city that fire, water and dissension would one day ruin. Tradition dates the fort c. 490 BCE (hedge: the Buddha's dates are disputed).",
+         details=["The Mahaparinibbana Sutta says that when the Buddha passed through Pataligama the ministers Sunidha and Vassakara were building a fortress there against the Vajjis, and he foretold a great city that fire, water and dissension would one day ruin. Tradition dates the fort c. 490 BCE, but the Buddha's dates, and so this one, are disputed.",
                   "The miniature is an interpretation: a rectangle of rammed earth with a stockade and corner towers, a gate toward the river, granaries, a hall and thatched huts inside. Its site is unknown."],
          built="5th century BCE (traditionally c. 490 BCE)", function="Fort and early capital", confidence="interpretation",
          sourceIds=["wiki-ajatashatru", "wiki-udayin", "mahaparinibbana", "wiki-pataliputra"], activity=dict(figures=20, radius=170)),
@@ -173,7 +173,7 @@ LANDMARKS = [
              MAURYA: dict(note="Not yet dug, if tradition is right that it belongs to Ashoka's reign."),
              ASHOKA: dict(note="A round brick-lined well. Legend makes it part of Ashoka's 'hell', the torture chamber of his cruel years, where victims were thrown in before his conversion."),
              GUPTA: dict(note="Xuanzang (c. 637) tells the story of Ashoka's hell at Pataliputra; Agam Kuan is the place local tradition points to."),
-             SURI: dict(note="A venerated well beside the shrine of Shitala Devi; the Mughals are said to have added the arched superstructure (hedge)."),
+             SURI: dict(note="A venerated well beside the shrine of Shitala Devi; the arched superstructure over it is later, perhaps of Mughal date.", confidence="interpretation"),
          },
          summary="A deep round well of brick, said to be Ashoka's, which legend ties to the 'hell' in which he tortured prisoners before he turned to the Buddha.",
          details=["The well is about 32 m deep and some 6 m across, lined with brick in its upper part; its date is not established. The Chinese pilgrims retell the story of Ashoka's hell, a prison of tortures built in the city; local tradition identifies it with Agam Kuan, and a Shitala Devi temple stands beside it.",
@@ -186,7 +186,7 @@ LANDMARKS = [
          activePeriods=[ASHOKA, GUPTA],
          variants={
              MAURYA: dict(note="Not yet built: a grove south-east of the city."),
-             ASHOKA: dict(note="Ashoka's monastery, the 'Cock Park', where the Ashokavadana says he gave away his last half-mango. Some identify it with the Ashokarama of the Third Council."),
+             ASHOKA: dict(note="Ashoka's monastery, the 'Cock Park', to which the Ashokavadana says he gave his last possession, half an amalaka fruit. Some identify it with the Ashokarama of the Third Council."),
              GUPTA: dict(note="Faxian lodged at a Mahayana monastery beside Ashoka's stupa; the Kukkutarama itself, Xuanzang says two centuries later, lay in ruins.", confidence="interpretation"),
              SURI: dict(note="Gone; its site is unknown. Xuanzang places its ruins south-east of the old city."),
          },
@@ -198,7 +198,7 @@ LANDMARKS = [
 
     # ------------------------------------------------------------ the Gupta city
     dict(id="arogya-vihara", placeId="arogya-vihara", name="Faxian's hospital (the Arogya Vihara)", category="civic",
-         latlon=(25.60000, 85.18000), rotation=0, footprint=(70, 56), scale=1.0, model="pataliputra/arogya-vihara",
+         latlon=(25.59920, 85.18280), rotation=0, footprint=(70, 56), scale=1.0, model="pataliputra/arogya-vihara",
          activePeriods=[GUPTA],
          variants={
              ASHOKA: dict(note="Open ground by the palace. Ashoka's edicts speak of medical care for people and animals, but no hospital building of his is known here."),
@@ -253,16 +253,16 @@ LANDMARKS = [
          sourceIds=["wiki-sher-shah-mosque", "wiki-sher-shah", "asher"], activity=dict(figures=24, radius=70)),
 
     dict(id="kamaldah", placeId="kamaldah", name="Kamaldah Jain shrine", category="religious",
-         latlon=(25.59600, 85.20800), rotation=0, footprint=(36, 36), scale=1.0, model="pataliputra/kamaldah",
+         latlon=(25.59660, 85.20310), rotation=0, footprint=(36, 36), scale=1.0, model="pataliputra/kamaldah",
          activePeriods=[SURI],
          variants={
              MAURYA: dict(note="Jain tradition places the death of the monk Sthulabhadra, leader of the Jains in Pataliputra under Chandragupta, near here."),
              GUPTA: dict(note="Jain tradition remembers Seth Sudarshan, a merchant who kept his vows under false accusation, as attaining liberation at this spot."),
-             SURI: dict(note="A small walled Jain shrine on a mound by Gulzarbagh. The present temples are later (hedge: the dates given vary, 18th century or earlier); a shrine may have stood here already.", confidence="interpretation"),
+             SURI: dict(note="A small walled Jain shrine on a mound by Gulzarbagh. The present temples are later (the dates given vary, 18th century or earlier); a shrine may have stood here already.", confidence="interpretation"),
          },
          summary="A small Jain shrine on a mound near Gulzarbagh, sacred as the place of Sthulabhadra and of the merchant Sudarshan: white plastered sanctums with spires inside a walled court.",
          details=["Kamaldah is honoured by Jains as the place where Seth Sudarshan attained liberation and as linked to Sthulabhadra, Bhadrabahu's pupil, who held the Jain council at Pataliputra. The surviving temples are later than this era and their date is uncertain.",
                   "The miniature shows a walled court on a low mound with two small white shrines with curved spires and a gateway. It is an interpretation; the 16th-century state of the site is not known."],
-         built="shrines later than the 16th century (hedge)", function="Jain shrine", confidence="interpretation",
+         built="present shrines probably later than the 16th century", function="Jain shrine", confidence="interpretation",
          sourceIds=["wiki-kamaldah", "wiki-sthulabhadra"], activity=dict(figures=8, radius=40)),
 ]
