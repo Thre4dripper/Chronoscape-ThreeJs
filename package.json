@@ -2,6 +2,16 @@
   "name": "chronoscape",
   "private": true,
   "version": "0.1.0",
+  "description": "An illustrated atlas of the world's cities through time: hand-drawn maps of 36 historic cities, their eras, and monuments that rise in 3D.",
+  "license": "(MIT AND CC-BY-NC-4.0)",
+  "author": "Ijlal Ahmad",
+  "homepage": "https://chronoscape.ijlalahmad.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thre4dripper/Chronoscape-ThreeJs.git"
+  },
+  "bugs": "https://github.com/Thre4dripper/Chronoscape-ThreeJs/issues",
+  "keywords": ["history", "historical-maps", "atlas", "ancient-cities", "threejs", "react-three-fiber", "webgl", "3d", "blender", "education"],
   "type": "module",
   "packageManager": "pnpm@11.22.0",
   "scripts": {

@@ -1,0 +1,34 @@
+name: Content correction
+description: A historical error, a misplaced monument, a broken source or an anachronism
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Accuracy matters more than anything else here, so a source for the correction helps most.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the page, e.g. /rome/colosseum/ or /kyoto/fujiwara-1000/
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the text, or describe what's misplaced on the map
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should be
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Books, articles or reliable web pages that support the correction
+    validations:
+      required: true

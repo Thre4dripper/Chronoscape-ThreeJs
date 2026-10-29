@@ -1,0 +1,16 @@
+name: Feature request
+description: An idea for the atlas, a city or era you'd like to see, or an improvement
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you'd like, and what it would let you do or learn
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (for a new city or era)
+      description: Maps, plans or histories it could be drawn from

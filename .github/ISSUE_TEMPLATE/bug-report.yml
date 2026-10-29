@@ -1,0 +1,25 @@
+name: Bug report
+description: Something doesn't work or looks broken
+labels: ["bug"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address where it happens, e.g. /rome/medieval-1300/
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Screenshots help a lot.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device
+      description: e.g. Chrome 140 on a MacBook Air, Safari on an iPhone 15
+    validations:
+      required: true

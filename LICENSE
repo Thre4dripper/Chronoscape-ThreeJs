@@ -1,0 +1,52 @@
+Chronoscape is licensed in two parts:
+
+  - the code, under the MIT License (below);
+  - the content (the city atlases, texts, maps and 3D models), under the Creative Commons
+    Attribution-NonCommercial 4.0 International License (see LICENSE-CONTENT).
+
+Third-party material keeps its own licence (see "Third-party material" at the end).
+
+================================================================================
+
+MIT License
+
+Copyright (c) 2026 Ijlal Ahmad
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The MIT License covers the source code: src/, scripts/, tests/, the build and
+content tooling (tools/content/*.py builders, tools/blender/ scripts and kits),
+configuration files, and .github/. Where a file is both code and content (the
+per-city sources under tools/content/cities/ and tools/content/rome/, which
+hold the atlas texts and geography), LICENSE-CONTENT applies.
+
+================================================================================
+
+Third-party material
+
+  - Historical pictures (assets/media/, assets/room/portraits/): engravings,
+    paintings, drawings and photographs, mostly public domain or Creative
+    Commons from Wikimedia Commons. Each keeps its own licence, recorded with
+    its artist, date and source in the folder's index.json or manifest.json
+    and shown beside the picture in the app.
+  - Fonts (assets/fonts/): Cinzel, Cormorant Garamond and IM Fell English,
+    under the SIL Open Font License 1.1.
+  - Land outlines (assets/world/): derived from Natural Earth, public domain.
+  - Draco decoder (assets/draco/): Google's Draco, Apache License 2.0.
+  - npm dependencies: their own licences, as listed in pnpm-lock.yaml.

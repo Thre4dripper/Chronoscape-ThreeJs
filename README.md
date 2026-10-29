@@ -173,3 +173,18 @@ tests/             vitest suites
 
 Historical images in the codex come from Wikimedia Commons and other public collections; each one is shown with its
 artist, date, licence and a link to its source.
+
+## Contributing
+
+Corrections are the most welcome contribution: a wrong date, a misplaced monument, a dead source. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for setup, the content rules and how pull requests are previewed, and the
+[Code of Conduct](CODE_OF_CONDUCT.md). Security problems: [SECURITY.md](SECURITY.md).
+
+## Licence
+
+- **Code** (the app, build scripts and tooling, including the Blender scripts): [MIT](LICENSE).
+- **Content** (the city atlases and their texts, the maps, share cards and 3D models): [CC BY-NC 4.0](LICENSE-CONTENT),
+  free to share and adapt with credit, not for commercial use.
+- **Third-party material** keeps its own licence: historical pictures (each recorded with its artist and source,
+  mostly public domain or Creative Commons via Wikimedia Commons), fonts (SIL Open Font License), land outlines
+  (Natural Earth, public domain) and the Draco decoder (Apache 2.0).
