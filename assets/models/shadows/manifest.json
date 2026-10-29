@@ -1770,9 +1770,9 @@
   "size": 36.6
  },
  "dunhuang/canal-head": {
-  "cx": 0.0,
-  "cy": -0.0,
-  "size": 77.8
+  "cx": -0.01,
+  "cy": -0.01,
+  "size": 77.82
  },
  "dunhuang/caravan-market": {
   "cx": 0.0,
@@ -1787,7 +1787,7 @@
  "dunhuang/han-fort": {
   "cx": -1.5,
   "cy": -0.0,
-  "size": 70.62
+  "size": 70.65
  },
  "dunhuang/kaiyuan-si": {
   "cx": 0.0,
@@ -1797,32 +1797,32 @@
  "dunhuang/longxing-si": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 170.04
+  "size": 169.95
  },
  "dunhuang/ming-village": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 107.8
+  "size": 107.86
  },
  "dunhuang/mogao": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 515.26
+  "size": 515.3
  },
  "dunhuang/mogao-1500": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 515.26
+  "size": 515.3
  },
  "dunhuang/mogao-500": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 515.26
+  "size": 515.3
  },
  "dunhuang/mogao-950": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 515.26
+  "size": 515.3
  },
  "dunhuang/shazhou-gate": {
   "cx": 0.8,
@@ -1832,12 +1832,12 @@
  "dunhuang/shazhou-gate-han": {
   "cx": 1.0,
   "cy": -0.0,
-  "size": 460.42
+  "size": 460.12
  },
  "dunhuang/shazhou-gate-ruin": {
-  "cx": -0.45,
+  "cx": -0.37,
   "cy": -0.0,
-  "size": 446.36
+  "size": 446.53
  },
  "dunhuang/spring-shrine": {
   "cx": 0.0,
@@ -1862,7 +1862,7 @@
  "dunhuang/yamen-han": {
   "cx": 0.0,
   "cy": 0.25,
-  "size": 190.18
+  "size": 190.07
  },
  "edo/asakusa-okura": {
   "cx": -0.63,
