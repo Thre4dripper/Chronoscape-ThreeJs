@@ -12,10 +12,37 @@ import { hash } from "./geom";
  */
 export const BASE_EDGE = 4096;
 
-type BakeManifest = { version: number; content: string; periods: Record<string, { full: string; preview: string }> };
+type BakeManifest = { version: number; periods: Record<string, { full: string; preview: string; hash: string }> };
 
-export function contentHash(city: City): string {
-  return `${PLATE_VERSION}:${hash(JSON.stringify(city)).toString(36)}`;
+/** Texts the plate never draws (they only appear in panels and tooltips): editing them must not redraw it. */
+const PROSE = new Set(["blurb", "description", "summary", "details", "feel", "population", "houses", "outskirts", "note", "sources", "sourceIds", "function", "built", "confidence", "activity", "focus"]);
+
+/**
+ * Everything one era's plate is drawn from: the map features standing in that era, the monuments
+ * standing then (where, how big, which model and so which plan), the era's name, year and house style,
+ * and the city's name, frame and palette. Prose is left out, so fact-checking a text never makes a plate stale.
+ */
+export function plateInputs(city: City, periodId: string) {
+  const strip = (o: unknown): unknown =>
+    Array.isArray(o) ? o.map(strip) : o && typeof o === "object" ? Object.fromEntries(Object.entries(o).filter(([k]) => !PROSE.has(k)).map(([k, v]) => [k, strip(v)])) : o;
+  const inP = (f: unknown) => !(f && typeof f === "object" && "periods" in f && Array.isArray(f.periods)) || f.periods.includes(periodId);
+  // lists of features keep only those standing in this era (map.size, a pair of numbers, passes untouched)
+  const map = Object.fromEntries(Object.entries(city.map).map(([k, v]) => [k, Array.isArray(v) ? strip((v as unknown[]).filter(inP)) : v]));
+  const landmarks = city.landmarks
+    .filter((l) => l.activePeriods.includes(periodId))
+    .map((l) => ({ id: l.id, category: l.category, position: l.position, rotation: l.rotation, footprint: l.footprint, scale: l.scale, model: l.variants[periodId]?.model ?? l.model }));
+  return { id: city.id, name: city.name, world: city.world, period: strip(city.periods.find((p) => p.id === periodId)), map, landmarks };
+}
+
+/** The key of one era's baked plate. */
+export function periodHash(city: City, periodId: string): string {
+  return `${PLATE_VERSION}:${hash(JSON.stringify(plateInputs(city, periodId))).toString(36)}`;
+}
+
+/** The plan images (Blender top-down renders) an era's plate uses, as "<city>/<model>" keys. */
+export function plansOf(city: City, periodId: string): string[] {
+  const keys = plateInputs(city, periodId).landmarks.map((l) => ("glb" in l.model ? l.model.glb.replace(/^models\//, "").replace(/\.glb$/, "") : null));
+  return [...new Set(keys.filter((k): k is string => !!k))].sort();
 }
 
 export class PlateService {
@@ -25,19 +52,17 @@ export class PlateService {
   private manifest: Promise<BakeManifest | null>;
   private blobs = new Map<string, Promise<Blob | null>>();
   private previews = new Map<string, Promise<Blob | null>>();
-  readonly hash: string;
-
   constructor(private city: City) {
-    this.hash = contentHash(city);
+    // each era's baked plate is used only if it was drawn from exactly this era's inputs; a stale one is
+    // drawn in the worker instead, the others stay baked
     this.manifest = fetch(`/plates/${city.id}/manifest.json`)
       .then((r) => (r.ok ? r.json() : null))
       .then((m: BakeManifest | null) => {
-        if (!m) return null;
-        if (m.content !== this.hash) {
-          console.info(`[plates] baked plates for ${city.id} are stale; drawing in a worker. Run npm run plates:bake.`);
-          return null;
-        }
-        return m;
+        if (!m?.periods) return null;
+        const fresh = Object.fromEntries(Object.entries(m.periods).filter(([p, e]) => e.hash === periodHash(city, p)));
+        const stale = city.periods.filter((p) => !fresh[p.id]).map((p) => p.id);
+        if (stale.length) console.info(`[plates] ${city.id}: no current baked plate for ${stale.join(", ")}; drawing in a worker. Run pnpm plates:bake.`);
+        return { ...m, periods: fresh };
       })
       .catch(() => null);
     if (typeof Worker !== "undefined" && typeof OffscreenCanvas !== "undefined") {
@@ -118,7 +143,7 @@ async function drawOnMainThread(city: City, periodId: string, view: View, w: num
 /** Dev only: lets scripts/bake-plates.mjs render every period's plate in the browser. */
 export function installBakeHook(city: City) {
   const w = window as unknown as Record<string, unknown>;
-  w.__plateMeta = () => ({ city: city.id, version: PLATE_VERSION, content: contentHash(city), periods: city.periods.map((p) => p.id) });
+  w.__plateMeta = () => ({ city: city.id, version: PLATE_VERSION, periods: city.periods.map((p) => ({ id: p.id, hash: periodHash(city, p.id), plans: plansOf(city, p.id) })) });
   w.__bakePlate = async (periodId: string, quality = 0.8) => {
     const [MW, MH] = city.map.size;
     const k = BASE_EDGE / Math.max(MW, MH);
