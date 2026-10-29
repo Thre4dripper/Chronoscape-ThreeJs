@@ -21,6 +21,7 @@ export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) 
   const focusedEventId = useStore((s) => s.focusedEventId);
   const focus = currentFocus({ city, focusedId, focusedSpotId, focusedEventId, periodId });
   const eraOpen = useStore((s) => s.eraOpen);
+  const desk = useStore((s) => s.desk);
   const subjectName = subject ? resolveVariant(subject, periodId).name : focus ? focus.name : city.name;
 
   return (
@@ -36,6 +37,10 @@ export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) 
       </header>
 
       <div className="hud hud--top-right">
+        <button className={`btn btn--desk ${desk ? "is-active" : ""}`} onClick={() => useStore.getState().toggleDesk()} aria-pressed={desk} aria-label="Desk" title={desk ? "Clear the table: just the map" : "Lay the map on the writing table"}>
+          <span className="btn--desk__icon" aria-hidden="true" />
+          <span className="btn--desk__label">Desk</span>
+        </button>
         <button className={`btn btn--era ${eraOpen ? "is-active" : ""}`} onClick={() => useStore.getState().toggleEra()}>
           This era
         </button>

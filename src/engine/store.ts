@@ -9,7 +9,7 @@ export type PeriodChange = {
   entries: { landmarkId: string; name: string; kind: "appears" | "disappears" | "changes"; note?: string }[];
 };
 
-export type HoveredFeature = { kind: "road" | "district" | "hill" | "water" | "wall" | "spot" | "gate" | "event" | "aqueduct" | "bridge"; id: string; name: string; blurb?: string };
+export type HoveredFeature = { kind: "road" | "district" | "hill" | "water" | "wall" | "spot" | "gate" | "event" | "aqueduct" | "bridge" | "object"; id: string; name: string; blurb?: string; hint?: string };
 
 /** What the camera and panels are centred on. */
 export type Focus =
@@ -42,6 +42,8 @@ type State = {
   hoveredArea: { kind: string; name?: string } | null;
   zoomLevel: "city" | "district" | "landmark";
   touch: boolean;
+  /** The writing table and the things on it, round the map (remembered between visits). */
+  desk: boolean;
 };
 
 type Actions = {
@@ -67,6 +69,7 @@ type Actions = {
   setHoveredArea: (a: { kind: string; name?: string } | null) => void;
   setZoomLevel: (z: State["zoomLevel"]) => void;
   setTouch: (t: boolean) => void;
+  toggleDesk: () => void;
 };
 
 export type Store = State & Actions;
@@ -93,6 +96,7 @@ const initial: State = {
   hoveredArea: null,
   zoomLevel: "city",
   touch: false,
+  desk: readDesk(),
 };
 
 export const useStore = create<Store>((set, get) => ({
@@ -104,6 +108,7 @@ export const useStore = create<Store>((set, get) => ({
     set({
       ...initial,
       touch: get().touch,
+      desk: get().desk,
       hour: get().hour,
       city,
       cityId: id,
@@ -232,7 +237,24 @@ export const useStore = create<Store>((set, get) => ({
     if (get().zoomLevel !== zoomLevel) set({ zoomLevel });
   },
   setTouch: (touch) => set({ touch }),
+  toggleDesk: () => {
+    const desk = !get().desk;
+    try {
+      localStorage.setItem("chronoscape.desk", desk ? "1" : "0");
+    } catch {
+      /* private mode: just for this visit */
+    }
+    set({ desk });
+  },
 }));
+
+function readDesk() {
+  try {
+    return localStorage.getItem("chronoscape.desk") !== "0";
+  } catch {
+    return true;
+  }
+}
 
 function focusStep(get: () => Store, step: Story["steps"][number]) {
   if (step.landmarkId) get().focus(step.landmarkId);

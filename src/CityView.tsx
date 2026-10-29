@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { City } from "@/content/schema";
 import { Scene } from "./engine/Scene";
 import { Hud } from "./ui/Hud";
@@ -18,6 +18,12 @@ import { MapCase } from "./ui/MapCase";
 /** A city map with everything around it. Loaded on demand: the title page and map room never pay for three.js city code. */
 export default function CityView({ city }: { city: City }) {
   const [caseOpen, setCaseOpen] = useState(false);
+  // the atlases on the study table open the map case too
+  useEffect(() => {
+    const open = () => setCaseOpen(true);
+    addEventListener("chronoscape:open-mapcase", open);
+    return () => removeEventListener("chronoscape:open-mapcase", open);
+  }, []);
   return (
     <>
       <Scene key={city.id} city={city} />

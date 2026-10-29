@@ -5,6 +5,8 @@ import type { City, Vec2 } from "@/content/schema";
 import { frameOf, mapToWorld } from "../coords";
 import { useStore, type HoveredFeature } from "../store";
 import { featurePick } from "./touchLens";
+import { bakedMaterial } from "../render/baked";
+import { CLIP_FRAG, MAP_CLIP, onMap } from "../render/clip";
 
 /**
  * Invisible pick geometry over the map so roads, districts, hills, walls and the
@@ -68,14 +70,18 @@ export function MapFeatures({ city }: { city: City }) {
     e.stopPropagation();
     // a finger panning the map is not pointing at anything: on touch the lens chooses the feature
     if (e.pointerType === "touch") return;
-    hoverFeature(feature);
+    // the data runs past the sheet: off the paper there is nothing to point at
+    const cur = useStore.getState().hoveredFeature;
+    const same = cur?.kind === feature.kind && cur?.id === feature.id;
+    if (!onMap(e.point.x, e.point.z)) return void (same && hoverFeature(null));
+    if (!same) hoverFeature(feature);
   };
   const out = (e: ThreeEvent<PointerEvent>) => {
     if (e.pointerType !== "touch") hoverFeature(null);
   };
 
   // Draw order: districts first (large), then hills, then water, walls, roads, gates so small things win the hit test.
-  const order: Record<HoveredFeature["kind"], number> = { district: 0, hill: 1, water: 2, aqueduct: 3, wall: 4, road: 5, bridge: 6, gate: 7, spot: 8, event: 9 };
+  const order: Record<HoveredFeature["kind"], number> = { district: 0, hill: 1, water: 2, aqueduct: 3, wall: 4, road: 5, bridge: 6, gate: 7, spot: 8, event: 9, object: 10 };
   const sorted = [...items].sort((a, b) => order[a.feature.kind] - order[b.feature.kind]);
 
   const root = useRef<THREE.Group>(null);
@@ -88,12 +94,10 @@ export function MapFeatures({ city }: { city: City }) {
     <group position-y={0.006} ref={root}>
       {sorted.filter((it) => inPeriod(it.periods)).map((it, i) => (
         // invisible pick geometry: raycast only, never drawn
-        <mesh key={it.key} geometry={it.geom} material={PICK_MAT} position-y={i * 0.0004} visible={false} userData={{ feature: it.feature }} onPointerOver={over(it.feature)} onPointerOut={out} />
+        <mesh key={it.key} geometry={it.geom} material={PICK_MAT} position-y={i * 0.0004} visible={false} userData={{ feature: it.feature }} onPointerOver={over(it.feature)} onPointerMove={over(it.feature)} onPointerOut={out} />
       ))}
       {litItem && (
-        <mesh geometry={litItem.geom} position-y={0.02} raycast={() => null}>
-          <meshBasicMaterial color={litItem.feature.kind === "water" ? "#65888A" : "#6F4D34"} transparent opacity={litItem.feature.kind === "district" ? 0.08 : 0.28} depthWrite={false} side={THREE.DoubleSide} />
-        </mesh>
+        <mesh geometry={litItem.geom} position-y={0.02} raycast={() => null} material={highlight(litItem.feature.kind)} />
       )}
     </group>
   );
@@ -101,6 +105,15 @@ export function MapFeatures({ city }: { city: City }) {
 
 /** Pick geometry is hit from above whatever the winding of its path. */
 const PICK_MAT = new THREE.MeshBasicMaterial({ side: THREE.DoubleSide });
+/** The wash over a hovered feature, cut at the sheet's edge. */
+const highlights = new Map<string, THREE.MeshBasicMaterial>();
+function highlight(kind: HoveredFeature["kind"]) {
+  const key = kind === "water" ? "water" : kind === "district" ? "district" : "other";
+  let m = highlights.get(key);
+  if (!m)
+    highlights.set(key, (m = bakedMaterial({ color: kind === "water" ? "#65888A" : "#6F4D34", transparent: true, opacity: kind === "district" ? 0.08 : 0.28, depthWrite: false, side: THREE.DoubleSide, shade: false, extraFrag: CLIP_FRAG, extraUniforms: MAP_CLIP, key: "clip" })));
+  return m;
+}
 
 /** Flat ribbon along a polyline, lying on the ground (y = 0). */
 function ribbon(pts: [number, number][], width: number, closed = false): THREE.BufferGeometry {

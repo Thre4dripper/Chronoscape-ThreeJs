@@ -259,6 +259,9 @@ canvas { display: block; cursor: grab; }
 
 /* ---------- Era panel ---------- */
 .btn--era { margin-right: 12px; }
+.btn--desk { margin-right: 12px; }
+.btn--desk.is-active { background: rgba(120,92,48,0.75); }
+.btn--desk__icon { display: none; width: 16px; height: 11px; border-top: 3px solid currentColor; background: linear-gradient(90deg, transparent 8%, currentColor 8% 22%, transparent 22% 78%, currentColor 78% 92%, transparent 92%); opacity: 0.85; }
 .btn--era.is-active { background: rgba(166,82,56,0.7); }
 .hud--top-right { display: flex; align-items: center; }
 .era {
@@ -824,6 +827,7 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .hud--top-right .btn:hover { background: rgba(84,61,42,0.9); }
 .story-launcher .btn { background: rgba(58,42,30,0.78); border-color: rgba(230,211,170,0.3); backdrop-filter: blur(6px); }
 .hud--top-right .btn--era.is-active { background: rgba(166,82,56,0.85); }
+.hud--top-right .btn--desk.is-active { background: rgba(120,92,48,0.8); }
 .hud--bottom-left .status-hint { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 @media (max-width: 1100px) {

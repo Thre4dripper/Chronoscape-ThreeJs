@@ -93,7 +93,7 @@ function TooltipBody({ city }: { city: City }) {
   const vignette = spot ? vignetteAt(spot, hour) : null;
   return (
     <div className={`tooltip tooltip--${feature.kind}`}>
-      <div className="tooltip__kind">{spot ? spot.kind : feature.kind}</div>
+      <div className="tooltip__kind">{spot ? spot.kind : feature.kind === "object" ? "On the table" : feature.kind}</div>
       <div className="tooltip__name">{spot ? resolveSpot(spot, periodId).name : feature.name}</div>
       {vignette ? (
         <div className="tooltip__blurb">
@@ -103,6 +103,7 @@ function TooltipBody({ city }: { city: City }) {
         <div className="tooltip__blurb">{feature.blurb}</div>
       ) : null}
       {spot && <div className="tooltip__hint">Click to visit</div>}
+      {feature.hint && <div className="tooltip__hint">{feature.hint}</div>}
       {feature.kind === "district" && <div className="tooltip__hint">Its shops and workshops are shown while you hover</div>}
     </div>
   );

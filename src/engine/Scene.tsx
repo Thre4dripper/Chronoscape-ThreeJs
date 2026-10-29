@@ -9,6 +9,7 @@ import { CameraRig } from "./camera/CameraRig";
 import { Figures } from "./activity/Figures";
 import { HoverMassing } from "./map/HoverMassing";
 import { TouchLens } from "./map/LensRing";
+import { Study } from "./map/Study";
 import { LifeProps } from "./map/LifeProps";
 import { AreaPopout } from "./map/AreaPopout";
 import { LinePopout } from "./map/LinePopout";
@@ -30,6 +31,7 @@ export function Scene({ city }: { city: City }) {
   const periodId = useStore((s) => s.periodId);
   const focus = useMemo(() => currentFocus({ city, focusedId, focusedSpotId, focusedEventId, periodId }), [city, focusedId, focusedSpotId, focusedEventId, periodId]);
   const hour = useStore((s) => s.hour);
+  const desk = useStore((s) => s.desk);
   const landmark = landmarkById(city, focusedId);
   const event = eventById(city, focusedEventId);
 
@@ -39,7 +41,7 @@ export function Scene({ city }: { city: City }) {
   else if (focus?.kind === "event" && event) figures = { center: focus.position, radius: Math.max(40, focus.size * 0.8), count: event.effect === "crowd" || event.effect === "procession" ? 90 : 24, scale: 1.4 };
 
   const night = hour < 6 || hour > 20;
-  const bg = night ? "#17120e" : "#3a2a1e";
+  const bg = night ? "#0c0907" : "#17110c";
 
   return (
     <Canvas
@@ -70,6 +72,7 @@ export function Scene({ city }: { city: City }) {
     >
       <DayTint />
       <ShaderWarmup />
+      {desk && <Study city={city} />}
       <ParchmentMap city={city} />
       <MapFeatures city={city} />
       {city.landmarks.map((l) => (

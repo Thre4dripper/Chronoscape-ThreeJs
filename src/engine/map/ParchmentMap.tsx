@@ -8,6 +8,7 @@ import type { View } from "./plate";
 import { BASE_EDGE, PlateService, installBakeHook } from "./plateService";
 import { useStore } from "../store";
 import { prefersReducedMotion } from "../motion";
+import { CLIP_FRAG, MAP_CLIP } from "../render/clip";
 import { bakedMaterial } from "../render/baked";
 
 const TILE_PX = 2048;
@@ -49,9 +50,8 @@ export function ParchmentMap({ city }: { city: City }) {
       prev: bakedMaterial({ polygonOffset: 3, key: "tex" }),
       cur: bakedMaterial({ transparent: true, polygonOffset: 2, key: "tex" }),
       blank: bakedMaterial({ color: city.map.palette.parchment, shade: false }),
-      tiles: [0, 1].map(() => bakedMaterial({ transparent: true, depthWrite: false, polygonOffset: 1, key: "tex" })),
+      tiles: [0, 1].map(() => bakedMaterial({ transparent: true, depthWrite: false, polygonOffset: 1, extraFrag: CLIP_FRAG, extraUniforms: MAP_CLIP, key: "tex" })),
       board: bakedMaterial({ color: "#cdb78f", polygonOffset: 8 }),
-      desk: bakedMaterial({ color: "#3a2a1e", shade: false }),
     }),
     [city],
   );
@@ -216,6 +216,7 @@ export function ParchmentMap({ city }: { city: City }) {
 
   const w = MW * f.scale;
   const h = MH * f.scale;
+  MAP_CLIP.uMapHalf.value.set(w / 2, h / 2);
   const plane = useMemo(() => flippedPlane(w, h), [w, h]);
   const unit = useMemo(() => flippedPlane(1, 1), []);
 
@@ -240,9 +241,6 @@ export function ParchmentMap({ city }: { city: City }) {
       ))}
       <mesh position-y={-0.36} material={mats.board}>
         <boxGeometry args={[w + 0.4, 0.7, h + 0.4]} />
-      </mesh>
-      <mesh rotation-x={-Math.PI / 2} position-y={-0.75} material={mats.desk}>
-        <planeGeometry args={[w * 4, h * 4]} />
       </mesh>
     </group>
   );
