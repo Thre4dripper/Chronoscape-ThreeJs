@@ -91,7 +91,11 @@ async function startChrome(port) {
   }
   if (!list) throw new Error("Chrome did not start");
   const ws = new WebSocket(list.find((t) => t.type === "page").webSocketDebuggerUrl);
-  await new Promise((r) => (ws.onopen = r));
+  await new Promise((res, rej) => {
+    ws.onopen = res;
+    ws.onerror = () => rej(new Error("could not connect to Chrome"));
+    setTimeout(() => rej(new Error("Chrome did not accept the connection")), 20000);
+  });
   let id = 0;
   const pending = new Map();
   ws.onmessage = (ev) => {
@@ -99,9 +103,17 @@ async function startChrome(port) {
     if (m.id && pending.has(m.id)) pending.get(m.id)(m), pending.delete(m.id);
   };
   ws.onclose = () => pending.forEach((res) => res({ result: { exceptionDetails: { exception: { description: "Chrome closed the connection" } } } }));
-  const send = (method, params = {}) => new Promise((res) => { const i = ++id; pending.set(i, res); ws.send(JSON.stringify({ id: i, method, params })); });
-  const evalv = async (expression) => {
-    const r = await send("Runtime.evaluate", { expression, returnByValue: true, awaitPromise: true });
+  // every call has a deadline: a tab that stops answering counts as a failure (and gets a fresh browser)
+  // instead of holding the build forever
+  const send = (method, params = {}, ms = 60000) =>
+    new Promise((res, rej) => {
+      const i = ++id;
+      const timer = setTimeout(() => (pending.delete(i), rej(new Error(`Chrome did not answer ${method} within ${ms / 1000} s`))), ms);
+      pending.set(i, (m) => (clearTimeout(timer), res(m)));
+      ws.send(JSON.stringify({ id: i, method, params }));
+    });
+  const evalv = async (expression, ms) => {
+    const r = await send("Runtime.evaluate", { expression, returnByValue: true, awaitPromise: true }, ms);
     if (r.result?.exceptionDetails) throw new Error(r.result.exceptionDetails.exception?.description);
     return r.result.result.value;
   };
@@ -135,7 +147,8 @@ async function bakeCity(b, city) {
       continue;
     }
     const t = Date.now();
-    const res = await b.evalv(`window.__bakePlate(${JSON.stringify(p.id)})`);
+    // the biggest plates take a few minutes on a CPU-only CI runner
+    const res = await b.evalv(`window.__bakePlate(${JSON.stringify(p.id)})`, 15 * 60000);
     const full = `${p.id}.webp`, preview = `${p.id}.preview.webp`;
     mkdirSync(dir, { recursive: true });
     writeFileSync(join(dir, full), Buffer.from(res.full, "base64"));
