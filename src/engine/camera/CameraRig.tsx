@@ -6,6 +6,7 @@ import { useStore, landmarkById, resolveVariant, currentFocus, type Focus } from
 import { frameOf, mapToWorld, worldBounds, degToRad } from "../coords";
 import { clamp, prefersReducedMotion } from "../motion";
 import { clearLens, setLens, touchLens } from "../map/touchLens";
+import { introFit, useNav } from "@/nav";
 
 /**
  * Orbit-style rig expressed as {target, distance, tilt, heading}.
@@ -37,7 +38,12 @@ export function CameraRig({ city }: { city: City }) {
   const f = frameOf(city);
   const bounds = worldBounds(f);
   const minD = city.camera?.minDistance ?? 3;
-  const maxD = city.camera?.maxDistance ?? Math.max(f.width, f.height) * f.scale * 1.6;
+  // never further out than the whole map seen from straight above, and closer still at low angles,
+  // where an oblique map shrinks to a sliver: the map stays the largest thing on screen
+  const tanH = Math.tan(degToRad(FOV) / 2);
+  const fitD = (Math.max(f.height * f.scale, (f.width * f.scale) / Math.max(0.3, size.width / size.height)) / (2 * tanH)) * 1.02;
+  const maxD = Math.min(city.camera?.maxDistance ?? Infinity, fitD);
+  const capD = (tilt: number) => maxD * (0.6 + 0.4 * Math.sin(tilt));
   // dev probe: jump the camera to a map point (distance in world units, angles in degrees) for scripted checks
   useEffect(() => {
     if (!import.meta.env.DEV) return;
@@ -49,11 +55,33 @@ export function CameraRig({ city }: { city: City }) {
   }, [f]);
 
   // Reset on city change.
+  // Arriving by an unfolding map, the camera opens straight above the whole map, framed exactly like the
+  // paper sheet's last frame (introFit), and holds still; when the sheet has dissolved it glides down to the
+  // city's usual view along an eased curve.
+  const intro = useRef<{ from: Pose; to: Pose; t0: number } | null>(null);
   useEffect(() => {
     goal.current = startPose(city);
     cur.current = { ...goal.current };
     returnPose.current = null;
     prevKey.current = null;
+    intro.current = null;
+    const fl = useNav.getState().flight;
+    if (fl?.kind === "unfold" && fl.map.city === city.id && !prefersReducedMotion()) {
+      const fit = introFit(f.width / f.height, size.width, size.height);
+      const [x, , z] = mapToWorld(f, [f.width / 2, f.height / 2]);
+      const d = (f.height * f.scale * size.height) / (fit.h * 2 * Math.tan(degToRad(FOV) / 2));
+      const above: Pose = { tx: x, tz: z, distance: d, tilt: degToRad(89.5), heading: 0 };
+      const to = { ...goal.current };
+      goal.current = { ...above };
+      cur.current = { ...above };
+      const go = (e: Event) => {
+        if ((e as CustomEvent<{ city: string }>).detail?.city !== city.id) return;
+        intro.current = { from: { ...cur.current }, to, t0: performance.now() };
+      };
+      addEventListener("chronoscape:handoff", go);
+      return () => removeEventListener("chronoscape:handoff", go);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city]);
 
   // React to focus / immersion changes from the store.
@@ -154,7 +182,7 @@ export function CameraRig({ city }: { city: City }) {
 
     const zoomBy = (factor: number, clientX?: number, clientY?: number) => {
       const g = goal.current;
-      const next = clamp(g.distance * factor, minD, maxD);
+      const next = clamp(g.distance * factor, minD, Math.max(minD, capD(g.tilt)));
       const real = next / g.distance;
       if (clientX !== undefined && clientY !== undefined) {
         const p = groundPointAt(clientX, clientY);
@@ -175,6 +203,7 @@ export function CameraRig({ city }: { city: City }) {
       mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
     };
     const onDown = (e: PointerEvent) => {
+      intro.current = null; // the visitor takes over: the opening glide stops where it is
       pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
       wasTouch = e.pointerType === "touch";
       if (wasTouch) useStore.getState().setTouch(true);
@@ -281,6 +310,7 @@ export function CameraRig({ city }: { city: City }) {
     };
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
+      intro.current = null;
       const factor = Math.exp(clamp(e.deltaY, -120, 120) * 0.0025);
       zoomBy(factor, e.clientX, e.clientY);
     };
@@ -347,8 +377,20 @@ export function CameraRig({ city }: { city: City }) {
   /* ---------- per-frame damping and camera placement ---------- */
   useFrame((_, dt) => {
     const d = Math.min(dt, 0.05);
+    const it = intro.current;
+    if (it) {
+      // the opening glide: an ease-in-out from straight above to the usual view, then hand back to damping
+      const u = Math.min(1, (performance.now() - it.t0) / 2200);
+      const e = u < 0.5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+      const mix = (a: number, b: number) => a + (b - a) * e;
+      goal.current = { tx: mix(it.from.tx, it.to.tx), tz: mix(it.from.tz, it.to.tz), distance: Math.exp(mix(Math.log(it.from.distance), Math.log(it.to.distance))), tilt: mix(it.from.tilt, it.to.tilt), heading: mix(it.from.heading, it.to.heading) };
+      cur.current = { ...goal.current };
+      if (u >= 1) intro.current = null;
+    }
     const g = goal.current,
       c = cur.current;
+    // (straight above is only the opening frame, held until the unfolded sheet hands over: left alone)
+    if (!it && g.tilt < degToRad(89) && g.distance > capD(g.tilt)) g.distance = capD(g.tilt);
     const r = prefersReducedMotion() ? 1000 : rate.current;
     const k = 1 - Math.exp(-r * d);
     c.tx += (g.tx - c.tx) * k;

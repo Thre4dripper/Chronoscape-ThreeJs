@@ -186,3 +186,13 @@ function remember(kind: keyof Log, item: string) {
     /* private mode: nothing is kept */
   }
 }
+
+/**
+ * Where an unfolded map comes to rest on screen, centred and whole (the sheet's last frame). The city's
+ * camera opens looking straight down at exactly this framing, so the paper sheet and the live map line
+ * up and the hand-over is invisible.
+ */
+export function introFit(aspect: number, vw: number, vh: number): { w: number; h: number } {
+  const h = Math.min(vh * 0.86, (vw * 0.9) / aspect);
+  return { w: h * aspect, h };
+}

@@ -666,7 +666,7 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 /* ---------- the flight of a map between shelf and screen ---------- */
 .flight { position: fixed; inset: 0; z-index: 80; pointer-events: none; perspective: 2600px; perspective-origin: 50% 45%; }
 .flight--wait { background: transparent; }
-.flight__shade { position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(40,24,10,0.35), rgba(30,18,8,0.75)); }
+.flight__shade { position: absolute; inset: 0; background: radial-gradient(ellipse at center, #3a2a1e 0%, #2a1e15 70%, #1c140e 100%); }
 .flight__sheet { position: absolute; left: 0; top: 0; transform-origin: 0 0; transform-style: preserve-3d; will-change: transform; }
 /* (no filter or opacity on the sheet or its rows: either would flatten the folds) */
 .flight__row { position: absolute; left: 0; transform-style: preserve-3d; }

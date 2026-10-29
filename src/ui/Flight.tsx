@@ -1,13 +1,15 @@
 import { useEffect, useRef, useState } from "react";
-import { useNav, type Flight as FlightT } from "@/nav";
+import { introFit, useNav, type Flight as FlightT } from "@/nav";
 
 /**
  * A map between the shelf and the screen. Unfold: the folded packet flies
  * from where it was clicked to the middle of the screen, opens along its
- * horizontal fold, then its accordion folds one by one, and the sheet grows
- * to fill the screen; it waits there until the live city has painted its
- * first plate, then fades away into it. Fold is the same, backwards, ending
- * in the atlas card it came from.
+ * horizontal fold, then its accordion folds one by one, and the sheet settles
+ * whole in the middle of the screen over a dark backdrop, exactly where the
+ * live city's camera opens looking straight down at the same map. When the
+ * city has painted, the sheet dissolves into it (the two line up, so only the
+ * margins change) and the camera glides down to its usual view. Fold is the
+ * same, backwards, ending in the atlas card it came from.
  *
  * The sheet is 4 x 2 panels built as nested 3D-transformed elements, each
  * showing its slice of the map on the front and plain paper on the back.
@@ -67,7 +69,8 @@ function Sheet({ flight, aspect }: { flight: FlightT; aspect: number }) {
     };
     let target = flight.rect ?? slot() ?? { x: vw / 2 - 60, y: vh / 2 - 70, w: 120, h: 120 / (pw / ph) };
     let found = !!flight.rect || !!slot();
-    const fill = Math.max(vw / W, vh / H) * 1.03;
+    // the last frame: the whole map, centred, where the city's opening camera shows it
+    const fill = introFit(aspect, vw, vh).h / H;
     const T = reduced ? { fly: 0.01, rows: 0.02, cols: 0.03, fill: 0.04 } : { fly: 0.6, rows: 1.1, cols: 1.95, fill: 2.6 };
     const t0 = performance.now();
     const frame = (now: number) => {
@@ -104,7 +107,8 @@ function Sheet({ flight, aspect }: { flight: FlightT; aspect: number }) {
         const sign = col % 2 === 0 ? 1 : -1;
         h.style.transform = `rotateY(${sign * 179.4 * (1 - cols[col])}deg)`;
       });
-      shade.current!.style.opacity = String(0.55 * (1 - grow));
+      // the backdrop darkens as the sheet settles, so the room behind is gone before the city takes its place
+      shade.current!.style.opacity = String(0.55 + 0.45 * grow);
       root.current!.style.setProperty("--fold-shade", String(1 - grow));
       // the map covers the screen: the room behind can give way to the city
       if (unfold && grow > 0.97 && !covered) {
@@ -121,10 +125,13 @@ function Sheet({ flight, aspect }: { flight: FlightT; aspect: number }) {
         const waited = (now - t0) / 1000 - T.fill;
         if (!readyAt && waited > 6) readyAt = now; // never wait forever
         if (readyAt) {
-          const f = clamp01((now - readyAt) / 450);
+          // the live map lies exactly under the sheet: a short dissolve changes only the margins
+          const f = clamp01((now - readyAt) / 260);
           root.current!.style.opacity = String(1 - f);
           if (f >= 1) {
             cancelAnimationFrame(raf);
+            // then the camera, still, starts its glide down to the city's usual view
+            dispatchEvent(new CustomEvent("chronoscape:handoff", { detail: { city: flight.map.city } }));
             useNav.getState().landed();
           }
         }
@@ -144,7 +151,7 @@ function Sheet({ flight, aspect }: { flight: FlightT; aspect: number }) {
       cancelAnimationFrame(raf);
       removeEventListener("chronoscape:plate", onPlate);
     };
-  }, [flight, W, H, pw, ph, reduced, vw, vh]);
+  }, [flight, W, H, pw, ph, reduced, vw, vh, aspect]);
 
   const panelStyle = (c: number, r: number) => ({
     width: pw,
