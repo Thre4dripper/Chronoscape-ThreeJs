@@ -810,3 +810,57 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .room.is-evening .room__heading { color: #f1e1bd; text-shadow: 0 1px 2px rgba(0,0,0,0.6); }
 .room.is-evening .room__kicker { color: #e9b98a; }
 .room__heading, .room__kicker { transition: color 0.8s; }
+
+/* ======================================================================
+   City view at every screen size: the title plaque, the buttons and the era bar never share a line they
+   can collide on; the status line gives way on narrow screens; phones get a compact top and stacked controls
+   ====================================================================== */
+.hud--top-left { max-width: calc(100vw - 340px); }
+.timeline { top: 96px; }
+.panel, .era { top: 160px; }
+.hud--bottom-left { max-width: min(560px, 42vw); }
+/* the top buttons sit on the light map: give them the same dark plaque as the title and the era bar */
+.hud--top-right .btn { background: rgba(58,42,30,0.78); border-color: rgba(230,211,170,0.3); backdrop-filter: blur(6px); }
+.hud--top-right .btn:hover { background: rgba(84,61,42,0.9); }
+.story-launcher .btn { background: rgba(58,42,30,0.78); border-color: rgba(230,211,170,0.3); backdrop-filter: blur(6px); }
+.hud--top-right .btn--era.is-active { background: rgba(166,82,56,0.85); }
+.hud--bottom-left .status-hint { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+@media (max-width: 1100px) {
+  /* the left column (codex, map hunt) moves to the bottom here: the status line would sit on top of it */
+  .hud--bottom-left { display: none; }
+}
+
+@media (max-width: 720px) {
+  .hud--top-left { top: 10px; left: 10px; min-width: 0; max-width: calc(100vw - 190px); padding: 6px 10px 7px; }
+  .brand { font-size: 10px; letter-spacing: 0.32em; }
+  .city-line { font-size: 17px; margin-top: 2px; }
+  .city-sub, .city-line .dot { display: none; }
+  .hud--top-right { top: 10px; right: 10px; display: flex; gap: 6px; }
+  .hud--top-right .btn { padding: 7px 10px; font-size: 11px; letter-spacing: 0.12em; }
+  .btn--era { margin-right: 0; }
+  .timeline { top: 66px; left: 10px; right: 10px; max-width: none; padding: 4px; gap: 4px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .timeline::-webkit-scrollbar { display: none; }
+  .timeline__stop { min-width: 64px; padding: 5px 6px; }
+  .timeline__label { display: none; }
+  .panel, .era { top: auto; }
+  .changes { top: 118px; left: 10px; right: 10px; }
+  .leftcol { left: 10px; right: 10px; bottom: 10px; }
+  /* on phones the map hunt card floats above the bottom edge: the story button and the dial sit below it */
+  .story-launcher { left: 10px; bottom: 10px; transform: none; }
+  .daydial { right: 10px; bottom: 10px; padding: 6px 10px; }
+  .daydial input { width: 90px; }
+}
+@media (max-width: 380px) {
+  .hud--top-right .btn--case__icon { display: none; }
+  .daydial__label { display: none; }
+}
+
+/* short screens (a phone held sideways): the cabinet gets the room; the ruler and the help label step aside */
+@media (max-height: 520px) {
+  .ruler, .room__hover--idle { display: none; }
+  .room__heading h1 { font-size: 22px; }
+  .room__heading p { display: none; }
+  .timeline__label { display: none; }
+  .timeline { top: 86px; }
+}

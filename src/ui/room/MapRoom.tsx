@@ -251,7 +251,7 @@ function CameraRig({ totalH, cabW, portrait, open }: { totalH: number; cabW: num
       // measure the HUD the scene must stay clear of: the ruler below, the heading and label on the left (or above, on a phone)
       band.current.at = now;
       const r = document.querySelector(".ruler")?.getBoundingClientRect();
-      band.current.bottom = r ? innerHeight - r.top + 12 : 24;
+      band.current.bottom = r && r.height > 0 ? innerHeight - r.top + 12 : 24; // a hidden ruler (short screens) takes no room
       const boxes = [".room__heading", ".room__back", ".room__hover"].map((q) => document.querySelector(q)?.getBoundingClientRect()).filter((b): b is DOMRect => !!b);
       if (portrait) {
         band.current.left = 0;
