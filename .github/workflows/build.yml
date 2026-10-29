@@ -1,0 +1,44 @@
+# Production build: validate, typecheck, test, bundle, and bake the map plates into dist/plates.
+# Plates are build output, kept between runs in the Actions cache; only cities whose content or
+# PLATE_VERSION changed are baked again (scripts/bake-plates.mjs compares each city's content hash).
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      # the cache key changes with anything a plate is drawn from; an older cache is restored as the
+      # starting point and the baker keeps every city in it that is still current
+      - uses: actions/cache@v4
+        with:
+          path: .plate-cache
+          key: plates-${{ hashFiles('content/**', 'src/**', 'assets/models/plans/**', 'assets/fonts/**') }}
+          restore-keys: plates-
+
+      - run: npm run build
+        env:
+          CHROME: /usr/bin/google-chrome
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+          retention-days: 7
