@@ -3452,7 +3452,7 @@
  "pataliputra/city-gate": {
   "cx": 0.0,
   "cy": -0.0,
-  "size": 119.1
+  "size": 119.16
  },
  "pataliputra/gupta-temple": {
   "cx": 0.0,
@@ -3482,7 +3482,7 @@
  "pataliputra/palisade": {
   "cx": 0.0,
   "cy": -0.28,
-  "size": 304.05
+  "size": 304.26
  },
  "pataliputra/pataligama": {
   "cx": 0.0,
@@ -3495,12 +3495,12 @@
   "size": 379.66
  },
  "pataliputra/pillared-hall": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": 0.5,
   "size": 134.54
  },
  "pataliputra/pillared-hall-ruin": {
-  "cx": 0.0,
+  "cx": -0.02,
   "cy": 0.5,
   "size": 103.49
  },
