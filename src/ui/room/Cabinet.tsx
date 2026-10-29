@@ -28,10 +28,10 @@ export function cabinetSize(cols: number, rows: number) {
 
 /* ------------------------------------------------------------------ static carving, merged per colour */
 
-type Part = { g: THREE.BufferGeometry; c: string; o?: boolean };
-const B = (w: number, h: number, d: number, x: number, y: number, z: number) => new THREE.BoxGeometry(w, h, d).translate(x, y, z);
+export type Part = { g: THREE.BufferGeometry; c: string; o?: boolean };
+export const B = (w: number, h: number, d: number, x: number, y: number, z: number) => new THREE.BoxGeometry(w, h, d).translate(x, y, z);
 
-function merge(parts: Part[]) {
+export function merge(parts: Part[]) {
   const by = new Map<string, THREE.BufferGeometry[]>();
   for (const p of parts) {
     let g = p.g.index ? p.g.toNonIndexed() : p.g;

@@ -10,6 +10,7 @@ import { toon, WOOD, WOOD_DARK, WOOD_LIGHT, fontsReady } from "./toon";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 import { Desk, GLOBE_AT, LAMP_AT } from "./Desk";
 import { Portraits } from "./Portraits";
+import { Furnishings } from "./Furnishings";
 import { Register, RoomTip } from "./Register";
 import { useRoom } from "./roomState";
 import { AtlasCard } from "./AtlasCard";
@@ -177,6 +178,7 @@ function Room({ atlases, focus, openId, onOpen }: { atlases: typeof atlasCatalog
           <Desk at={[desk.x, desk.y, desk.z]} />
           <Globe atlas={focus} at={[desk.x + GLOBE_AT.x, GLOBE_AT.y, desk.z + GLOBE_AT.z]} />
           <Portraits x0={cab.w / 2 + 0.35} x1={cab.w / 2 + 3.85} y0={3.05} y1={Math.min(totalH - 0.55, 5.6)} z={-0.5} only={["rome", "constantinople", "delhi", "edo"]} />
+          <Furnishings cabW={cab.w} desk={desk} />
           <LightShaft at={[-cab.w / 2 - 0.6, 3.2, 0.6]} />
         </>
       )}
