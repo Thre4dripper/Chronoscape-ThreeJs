@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import type { City } from "@/content/schema";
 import { useStore, landmarkById, resolveVariant, currentFocus } from "@/engine/store";
 
@@ -24,6 +25,7 @@ export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) 
 
   return (
     <>
+      {touch && <TouchTip />}
       <header className="hud hud--top-left">
         <div className="brand">Chronoscape</div>
         <div className="city-line">
@@ -50,7 +52,7 @@ export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) 
           <span className="dot">·</span>
           <span className="status-mode">{mode}</span>
         </div>
-        <div className="status-hint">{touch && mode === "exploring" ? "Tap a landmark to preview · tap again to enter" : HINTS[mode]}</div>
+        <div className="status-hint">{touch && mode === "exploring" ? "Tap a monument to raise it · tap the map to raise its streets" : HINTS[mode]}</div>
       </footer>
     </>
   );
@@ -58,4 +60,37 @@ export function Hud({ city, onMapCase }: { city: City; onMapCase: () => void }) 
 
 export function formatYear(y: number): string {
   return y < 0 ? `${-y} BCE` : `${y} CE`;
+}
+
+/** Shown once on a touch screen: how a finger explores the map without hover. */
+function TouchTip() {
+  const KEY = "chronoscape.touch-tip";
+  const [show, setShow] = useState(() => {
+    try {
+      return !localStorage.getItem(KEY);
+    } catch {
+      return true;
+    }
+  });
+  useEffect(() => {
+    if (!show) return;
+    const done = () => {
+      setShow(false);
+      try {
+        localStorage.setItem(KEY, "1");
+      } catch {
+        /* private mode: show it again next time */
+      }
+    };
+    const t = setTimeout(done, 9000);
+    return () => clearTimeout(t);
+  }, [show]);
+  if (!show) return null;
+  return (
+    <div className="touch-tip" role="note" onClick={() => setShow(false)}>
+      <strong>Exploring with a finger</strong>
+      <span>Tap a monument to raise it · tap the map to raise its streets, fields and boats</span>
+      <span>Hold and slide to glide the lens · two fingers twist to turn, slide up or down to tilt</span>
+    </div>
+  );
 }

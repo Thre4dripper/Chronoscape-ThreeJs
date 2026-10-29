@@ -7,6 +7,7 @@ import { getFabric, type Insula } from "./fabric";
 import { useStore } from "../store";
 import { prefersReducedMotion } from "../motion";
 import { groundPointer } from "./pointer";
+import { touchLens } from "./touchLens";
 import { piecesFor, type Piece, type PieceMesh } from "./massingKit";
 import { bakedMaterial } from "../render/baked";
 import { registerForWarmup } from "../render/warmup";
@@ -166,7 +167,14 @@ export function HoverMassing({ city }: { city: City }) {
     let hovered: Insula | null = null;
     const p = pointer.current;
     groundPointer.valid = false;
-    if (p.inside && p.buttons === 0 && !st.hoveredId && st.mode !== "immersed") {
+    if (touchLens.active && !st.hoveredId && st.mode !== "immersed") {
+      // a finger has no hover: the lens it set stands in for the pointer
+      groundPointer.valid = true;
+      groundPointer.mx = touchLens.mx;
+      groundPointer.my = touchLens.my;
+      hovered = fabric.index.at(groundPointer.mx, groundPointer.my, 6);
+      raise(hovered, 1);
+    } else if (p.inside && p.buttons === 0 && !st.hoveredId && st.mode !== "immersed" && !st.touch) {
       ray.setFromCamera(new THREE.Vector2(p.x, p.y), camera);
       if (ray.ray.intersectPlane(plane, hit)) {
         groundPointer.valid = true;

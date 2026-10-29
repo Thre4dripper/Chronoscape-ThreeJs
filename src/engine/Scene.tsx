@@ -8,6 +8,7 @@ import { Landmark } from "./landmarks/Landmark";
 import { CameraRig } from "./camera/CameraRig";
 import { Figures } from "./activity/Figures";
 import { HoverMassing } from "./map/HoverMassing";
+import { TouchLens } from "./map/LensRing";
 import { LifeProps } from "./map/LifeProps";
 import { AreaPopout } from "./map/AreaPopout";
 import { LinePopout } from "./map/LinePopout";
@@ -77,6 +78,7 @@ export function Scene({ city }: { city: City }) {
       {figures && <Figures key={`${focus!.kind}:${focus!.id}`} city={city} center={figures.center} radius={figures.radius} count={figures.count} visualScale={figures.scale} />}
       {event && event.effect === "fire" && focus && <Smoke position={mapToWorld(f, focus.position)} size={Math.max(0.4, focus.size * f.scale * 0.5)} />}
       <HoverMassing city={city} />
+      <TouchLens city={city} />
       <Suspense fallback={null}>
         <LifeProps city={city} />
         <AreaPopout city={city} />

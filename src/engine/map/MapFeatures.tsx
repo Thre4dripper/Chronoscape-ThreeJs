@@ -1,9 +1,10 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
 import type { ThreeEvent } from "@react-three/fiber";
 import type { City, Vec2 } from "@/content/schema";
 import { frameOf, mapToWorld } from "../coords";
 import { useStore, type HoveredFeature } from "../store";
+import { featurePick } from "./touchLens";
 
 /**
  * Invisible pick geometry over the map so roads, districts, hills, walls and the
@@ -65,20 +66,29 @@ export function MapFeatures({ city }: { city: City }) {
   const over = (feature: HoveredFeature) => (e: ThreeEvent<PointerEvent>) => {
     // landmarks and spots stop propagation themselves, so anything reaching here is a plain map feature
     e.stopPropagation();
+    // a finger panning the map is not pointing at anything: on touch the lens chooses the feature
+    if (e.pointerType === "touch") return;
     hoverFeature(feature);
   };
-  const out = () => hoverFeature(null);
+  const out = (e: ThreeEvent<PointerEvent>) => {
+    if (e.pointerType !== "touch") hoverFeature(null);
+  };
 
   // Draw order: districts first (large), then hills, then water, walls, roads, gates so small things win the hit test.
   const order: Record<HoveredFeature["kind"], number> = { district: 0, hill: 1, water: 2, aqueduct: 3, wall: 4, road: 5, bridge: 6, gate: 7, spot: 8, event: 9 };
   const sorted = [...items].sort((a, b) => order[a.feature.kind] - order[b.feature.kind]);
 
+  const root = useRef<THREE.Group>(null);
+  useEffect(() => {
+    featurePick.root = root.current;
+    return () => void (featurePick.root = null);
+  }, []);
   const litItem = hovered ? items.find((it) => it.feature.kind === hovered.kind && it.feature.id === hovered.id) : undefined;
   return (
-    <group position-y={0.006}>
+    <group position-y={0.006} ref={root}>
       {sorted.filter((it) => inPeriod(it.periods)).map((it, i) => (
         // invisible pick geometry: raycast only, never drawn
-        <mesh key={it.key} geometry={it.geom} material={PICK_MAT} position-y={i * 0.0004} visible={false} onPointerOver={over(it.feature)} onPointerOut={out} />
+        <mesh key={it.key} geometry={it.geom} material={PICK_MAT} position-y={i * 0.0004} visible={false} userData={{ feature: it.feature }} onPointerOver={over(it.feature)} onPointerOut={out} />
       ))}
       {litItem && (
         <mesh geometry={litItem.geom} position-y={0.02} raycast={() => null}>

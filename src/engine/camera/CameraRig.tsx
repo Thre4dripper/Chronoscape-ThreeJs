@@ -5,6 +5,7 @@ import type { City } from "@/content/schema";
 import { useStore, landmarkById, resolveVariant, currentFocus, type Focus } from "../store";
 import { frameOf, mapToWorld, worldBounds, degToRad } from "../coords";
 import { clamp, prefersReducedMotion } from "../motion";
+import { clearLens, setLens, touchLens } from "../map/touchLens";
 
 /**
  * Orbit-style rig expressed as {target, distance, tilt, heading}.
@@ -115,6 +116,15 @@ export function CameraRig({ city }: { city: City }) {
     let rotating = false;
     let pinchDist = 0;
     let moved = 0;
+    // touch: two fingers twist to turn, swipe together up or down to tilt, pinch to zoom
+    let twist = 0, mid = { x: 0, y: 0 };
+    // touch: a tap drops the lens, a press held still then slid glides it
+    let downAt = 0, downPos = { x: 0, y: 0 }, holdTimer = 0, wasTouch = false, multi = false;
+    const lensAt = (clientX: number, clientY: number) => {
+      const p = groundPointAt(clientX, clientY);
+      if (!p) return null;
+      return { mx: p.x / f.scale + f.width / 2, my: p.z / f.scale + f.height / 2 };
+    };
 
     const groundPointAt = (clientX: number, clientY: number): THREE.Vector3 | null => {
       const rect = el.getBoundingClientRect();
@@ -158,16 +168,40 @@ export function CameraRig({ city }: { city: City }) {
       rate.current = 10;
     };
 
+    const twoFinger = () => {
+      const [a, b] = [...pointers.values()];
+      pinchDist = Math.hypot(a.x - b.x, a.y - b.y);
+      twist = Math.atan2(b.y - a.y, b.x - a.x);
+      mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+    };
     const onDown = (e: PointerEvent) => {
       pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (e.pointerType === "touch") useStore.getState().setTouch(true);
+      wasTouch = e.pointerType === "touch";
+      if (wasTouch) useStore.getState().setTouch(true);
+      clearTimeout(holdTimer);
       if (pointers.size === 1) {
         dragging = true;
         rotating = e.button === 2 || e.shiftKey || e.ctrlKey;
         moved = 0;
+        multi = false;
+        downAt = performance.now();
+        downPos = { x: e.clientX, y: e.clientY };
+        if (wasTouch) {
+          // held still for a moment: the finger takes the lens and glides it instead of panning the map
+          holdTimer = window.setTimeout(() => {
+            if (pointers.size !== 1 || moved > 10) return;
+            const at = lensAt(downPos.x, downPos.y);
+            if (!at) return;
+            setLens(at.mx, at.my);
+            touchLens.gliding = true;
+            useStore.getState().hover(null);
+            navigator.vibrate?.(12);
+          }, 380);
+        }
       } else if (pointers.size === 2) {
-        const [a, b] = [...pointers.values()];
-        pinchDist = Math.hypot(a.x - b.x, a.y - b.y);
+        multi = true;
+        touchLens.gliding = false;
+        twoFinger();
       }
       el.setPointerCapture(e.pointerId);
     };
@@ -180,12 +214,31 @@ export function CameraRig({ city }: { city: City }) {
       if (pointers.size === 2) {
         const [a, b] = [...pointers.values()];
         const d = Math.hypot(a.x - b.x, a.y - b.y);
-        if (pinchDist > 0) zoomBy(pinchDist / d);
+        const ang = Math.atan2(b.y - a.y, b.x - a.x);
+        const m = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+        if (pinchDist > 0) {
+          zoomBy(pinchDist / d);
+          // twist: the map turns with the fingers
+          let dA = ang - twist;
+          dA = Math.atan2(Math.sin(dA), Math.cos(dA));
+          goal.current.heading += dA;
+          // both fingers sliding up or down together (not pinching): tilt toward the horizon or overhead
+          const pinching = Math.abs(d - pinchDist) > Math.abs(m.y - mid.y) * 0.6;
+          if (!pinching) goal.current.tilt = clamp(goal.current.tilt + (m.y - mid.y) * 0.005, degToRad(18), degToRad(85));
+          rate.current = 10;
+        }
         pinchDist = d;
+        twist = ang;
+        mid = m;
         return;
       }
-      if (!dragging) return;
+      if (!dragging || multi) return;
       moved += Math.abs(dx) + Math.abs(dy);
+      if (touchLens.gliding) {
+        const at = lensAt(e.clientX, e.clientY);
+        if (at) setLens(at.mx, at.my);
+        return;
+      }
       if (rotating) {
         goal.current.heading -= dx * 0.005;
         goal.current.tilt = clamp(goal.current.tilt + dy * 0.004, degToRad(18), degToRad(85));
@@ -197,12 +250,34 @@ export function CameraRig({ city }: { city: City }) {
     };
     const onUp = (e: PointerEvent) => {
       pointers.delete(e.pointerId);
+      clearTimeout(holdTimer);
       if (pointers.size === 0) {
+        const tap = wasTouch && !multi && !touchLens.gliding && moved < 10 && performance.now() - downAt < 350 && e.type === "pointerup";
+        if (tap) {
+          // a tap on a monument previews it (its own handler runs on the click that follows); a tap on open
+          // map drops the lens there, or lifts it if it lands on the lens
+          const before = useStore.getState().hoveredId ?? useStore.getState().focusedId;
+          const at = lensAt(e.clientX, e.clientY);
+          setTimeout(() => {
+            const st = useStore.getState();
+            if ((st.hoveredId ?? st.focusedId) !== before || !at) return clearLens();
+            // within about 40 px of the lens on screen
+            const near = touchLens.active && Math.hypot(at.mx - touchLens.mx, at.my - touchLens.my) < (worldPerPixel() * 40) / f.scale;
+            if (near) clearLens();
+            else {
+              setLens(at.mx, at.my);
+              if (st.hoveredId) st.hover(null);
+            }
+          }, 30);
+        }
+        touchLens.gliding = false;
         dragging = false;
         rotating = false;
+        multi = false;
         el.style.cursor = "";
       }
       pinchDist = 0;
+      if (pointers.size === 2) twoFinger();
     };
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
