@@ -4,9 +4,10 @@ import { Outlines } from "@react-three/drei";
 import * as THREE from "three";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 import type { Atlas, AtlasMap } from "@/content/schema";
-import { playableMaps, previewOf, readRegister, useNav } from "@/nav";
+import { useNav } from "@/nav";
 import { BRASS, cartoucheTexture, coverTexture, GILT, inlayTexture, labelTexture, OUTLINE, PAPER_T, ROMAN, toon, toonGradient, WOOD, WOOD_DARK, WOOD_LIGHT } from "./toon";
 import { tipHandlers, useRoom } from "./roomState";
+import { DrawerBoard, MeasureTools, WritingTools, type DrawerKind } from "./DrawerTools";
 import { bookplateTexture, indexTexture } from "./pages";
 
 /**
@@ -273,13 +274,13 @@ function Drawers({ w }: { w: number }) {
   const cx = 0.07 + 0.03 + fw / 2;
   return (
     <>
-      <Drawer kind="maps" x={-cx} fw={fw} label="MAPPAE PARATAE" seed={7} />
+      <Drawer kind="writing" x={-cx} fw={fw} label="CALAMI · SIGILLA" seed={7} />
       <Drawer kind="instruments" x={cx} fw={fw} label="INSTRVMENTA" seed={19} />
     </>
   );
 }
 
-function Drawer({ kind, x, fw, label, seed }: { kind: "maps" | "instruments"; x: number; fw: number; label: string; seed: number }) {
+function Drawer({ kind, x, fw, label, seed }: { kind: DrawerKind; x: number; fw: number; label: string; seed: number }) {
   const g = useRef<THREE.Group>(null);
   const open = useRoom((s) => s.drawer === kind);
   const inlay = useMemo(() => inlayTexture(seed), [seed]);
@@ -292,7 +293,7 @@ function Drawer({ kind, x, fw, label, seed }: { kind: "maps" | "instruments"; x:
       { g: B(0.02, 0.22, d, -ww / 2, -0.03, -d / 2), c: WOOD },
       { g: B(0.02, 0.22, d, ww / 2, -0.03, -d / 2), c: WOOD },
       { g: B(ww, 0.22, 0.02, 0, -0.03, -d), c: WOOD },
-      { g: B(ww - 0.04, 0.005, d - 0.04, 0, -0.117, -d / 2), c: kind === "maps" ? "#5d2f2a" : "#2f4a3a" },
+      { g: B(ww - 0.04, 0.005, d - 0.04, 0, -0.117, -d / 2), c: kind === "writing" ? "#5d2f2a" : "#2f4a3a" },
     ]);
   }, [fw, kind]);
   useFrame((_, dt) => {
@@ -300,7 +301,10 @@ function Drawer({ kind, x, fw, label, seed }: { kind: "maps" | "instruments"; x:
     const want = open ? 0.62 : 0;
     g.current.position.z += (want - g.current.position.z) * (1 - Math.exp(-8 * Math.min(dt, 0.05)));
   });
-  const tip = kind === "maps" ? { title: "The drawer of ready maps", text: "Every map that can be unfolded today, kept flat.", hint: open ? "Click the drawer to close it" : "Click to pull it out" } : { title: "The map maker's instruments", text: "Dividers, a compass and a glass, for measuring distances on the old charts.", hint: open ? "Click to close" : "Click to pull it out" };
+  const tip =
+    kind === "writing"
+      ? { title: "The writing drawer", text: "A quill and ink, a seal and its wax, and a candle to melt it: how a finished chart was signed and sealed.", hint: open ? "Click to close" : "Click to pull it out" }
+      : { title: "The map maker's instruments", text: "Dividers, a pocket compass and a reading glass, for measuring and reading the old charts.", hint: open ? "Click to close" : "Click to pull it out" };
   return (
     <group position={[x, 0.38, DEPTH / 2 + 0.02]}>
       <group ref={g}>
@@ -333,161 +337,16 @@ function Drawer({ kind, x, fw, label, seed }: { kind: "maps" | "instruments"; x:
         {tray.map((p, i) => (
           <mesh key={i} geometry={p.geom} material={toon(p.color)} receiveShadow />
         ))}
-        {kind === "maps" ? <DrawerMaps fw={fw} /> : <Instruments />}
+        {kind === "writing" ? (
+          <DrawerBoard kind="writing" color="#5a2a22">
+            <WritingTools />
+          </DrawerBoard>
+        ) : (
+          <DrawerBoard kind="instruments" color="#2f4a3a">
+            <MeasureTools />
+          </DrawerBoard>
+        )}
       </group>
-    </group>
-  );
-}
-
-/** The ready maps lying flat in their drawer: click one to unfold it. */
-/** Up to eight ready maps for the drawer: the visitor's recent travels first, then a selection that changes daily. */
-function drawerPicks() {
-  const all = playableMaps();
-  const seen = readRegister().travels;
-  const day = Math.floor(Date.now() / 864e5);
-  const score = (p: (typeof all)[number], i: number) => {
-    const k = seen.indexOf(`${p.map.title}|${p.map.subtitle}`);
-    return k >= 0 ? k : 100 + (((i + 1) * 2654435761 + day * 40503) % 997);
-  };
-  return all
-    .map((p, i) => ({ p, s: score(p, i) }))
-    .sort((a, b) => a.s - b.s)
-    .slice(0, 8)
-    .map((x) => x.p);
-}
-
-function DrawerMaps({ fw }: { fw: number }) {
-  const ready = useMemo(drawerPicks, []);
-  const open = useRoom((s) => s.drawer === "maps");
-  const n = ready.length;
-  const cols = Math.min(n, 4);
-  return (
-    <>
-      {ready.map(({ atlas, map }, i) => {
-        const c = i % cols, row = Math.floor(i / cols);
-        const inRow = Math.min(cols, n - row * cols);
-        // lying flat in the drawer; when it opens they rise and stand up in rows, facing you (the back row higher)
-        const flat: [number, number, number] = [(c - 1.5) * (fw * 0.23), -0.105, -0.17 - row * 0.3];
-        const up: [number, number, number] = [(c - (inRow - 1) / 2) * ((fw * 0.95) / cols), 0.36 + (c % 2) * 0.04 + row * 0.5, 0.2 - row * 0.18];
-        return <FlatMap key={`${atlas.id}:${map.title}:${i}`} atlas={atlas} map={map} flat={flat} up={up} open={open} rot={((i * 37) % 9 - 4) * 0.03} delay={i * 0.07} />;
-      })}
-    </>
-  );
-}
-
-function FlatMap({ atlas, map, flat, up, open, rot, delay }: { atlas: Atlas; map: AtlasMap; flat: [number, number, number]; up: [number, number, number]; open: boolean; rot: number; delay: number }) {
-  const i_ = delay / 0.07;
-  const [tex, setTex] = useState<THREE.Texture | null>(null);
-  useEffect(() => {
-    let alive = true;
-    new THREE.TextureLoader().load(previewOf(map.city!, map.period), (t) => {
-      t.colorSpace = THREE.SRGBColorSpace;
-      if (alive) setTex(t);
-      else t.dispose();
-    });
-    return () => {
-      alive = false;
-    };
-  }, [map]);
-  useEffect(() => () => tex?.dispose(), [tex]);
-  const [hot, setHot] = useState(false);
-  const { gl } = useThree();
-  const tip = { title: `${map.title}, ${map.subtitle.split(", ").pop()}`, text: `From ${atlas.title}.`, hint: "Click to unfold it" };
-  const h = tipHandlers(tip);
-  const g = useRef<THREE.Group>(null);
-  const t = useRef(0);
-  useFrame((_, dt) => {
-    const o = g.current;
-    if (!o) return;
-    t.current = Math.max(0, Math.min(1 + delay, t.current + (open ? dt : -dt) * 2.4));
-    const e = Math.max(0, Math.min(1, t.current - delay));
-    const k = e * e * (3 - 2 * e);
-    o.position.set(flat[0] + (up[0] - flat[0]) * k, flat[1] + (up[1] - flat[1]) * k, flat[2] + (up[2] - flat[2]) * k);
-    // from lying flat (the maps' planes face up) to standing, tilted back a little toward the viewer
-    o.rotation.set(k * 1.35, rot * (1 - k), ((i_ % 4) - 1.5) * -0.06 * k);
-    o.scale.setScalar(1 + 0.7 * k);
-  });
-  return (
-    <group ref={g} position={flat} rotation={[0, rot, 0]}>
-      <mesh
-        rotation={[-Math.PI / 2, 0, 0]}
-        position={[0, hot ? 0.03 : 0.004, 0]}
-        onPointerOver={(e) => (h.onPointerOver(e), setHot(true))}
-        onPointerOut={() => (h.onPointerOut(), setHot(false))}
-        onClick={(e: ThreeEvent<MouseEvent>) => {
-          e.stopPropagation();
-          const r = gl.domElement.getBoundingClientRect();
-          useNav.getState().openMap(atlas.id, map, { x: e.nativeEvent.clientX - r.left - 40, y: e.nativeEvent.clientY - r.top - 50, w: 80, h: 100 });
-        }}
-      >
-        <planeGeometry args={[0.3, 0.22]} />
-        <meshToonMaterial key={tex ? "map" : "blank"} map={tex} color={tex ? "#ffffff" : PAPER_T} gradientMap={toonGradient()} />
-      </mesh>
-      <mesh position={[0, hot ? 0.022 : -0.004, 0]} material={toon("#e3cfa2")}>
-        <boxGeometry args={[0.31, 0.012, 0.23]} />
-      </mesh>
-      <mesh position={[0, hot ? 0.035 : 0.009, 0.04]} rotation={[-Math.PI / 2, 0, 0]} material={toon(atlas.color)}>
-        <planeGeometry args={[0.31, 0.022]} />
-      </mesh>
-    </group>
-  );
-}
-
-/** Dividers, a pocket compass and a reading glass, lying in green baize. */
-function Instruments() {
-  const brass = toon(BRASS), steel = toon("#9aa0a6");
-  return (
-    <group position={[0, -0.1, -0.3]}>
-      <group position={[-0.32, 0, 0]} rotation={[0, 0.5, 0]} {...tipHandlers({ title: "A pair of dividers", text: "Walked across the scale bar of a chart, they measured distance in leagues or miles." })}>
-        <mesh position={[-0.05, 0.01, 0.08]} rotation={[Math.PI / 2, 0, 0.3]} material={steel}>
-          <cylinderGeometry args={[0.008, 0.002, 0.32, 8]} />
-        </mesh>
-        <mesh position={[0.05, 0.01, 0.08]} rotation={[Math.PI / 2, 0, -0.3]} material={steel}>
-          <cylinderGeometry args={[0.008, 0.002, 0.32, 8]} />
-        </mesh>
-        <mesh position={[0, 0.015, -0.07]} material={brass}>
-          <sphereGeometry args={[0.022, 12, 8]} />
-        </mesh>
-      </group>
-      <group position={[0.02, 0, 0]} {...tipHandlers({ title: "A pocket compass", text: "A magnetised needle on a pin: north, whatever the weather." })}>
-        <mesh material={brass}>
-          <cylinderGeometry args={[0.09, 0.09, 0.03, 24]} />
-          <Outlines thickness={0.005} color={OUTLINE} />
-        </mesh>
-        <mesh position={[0, 0.017, 0]} material={toon("#efe2c3")}>
-          <cylinderGeometry args={[0.075, 0.075, 0.004, 24]} />
-        </mesh>
-        <CompassNeedle />
-      </group>
-      <group position={[0.32, 0, 0.02]} rotation={[0, -0.6, 0]} {...tipHandlers({ title: "A reading glass", text: "For the small print: map makers crowded their sheets with names." })}>
-        <mesh rotation={[Math.PI / 2, 0, 0]} material={brass}>
-          <torusGeometry args={[0.07, 0.012, 8, 28]} />
-        </mesh>
-        <mesh rotation={[-Math.PI / 2, 0, 0]}>
-          <circleGeometry args={[0.068, 24]} />
-          <meshBasicMaterial color="#cfe3e8" transparent opacity={0.35} />
-        </mesh>
-        <mesh position={[0, 0, 0.14]} rotation={[Math.PI / 2, 0, 0]} material={toon(WOOD_DARK)}>
-          <cylinderGeometry args={[0.014, 0.016, 0.14, 10]} />
-        </mesh>
-      </group>
-    </group>
-  );
-}
-
-function CompassNeedle() {
-  const g = useRef<THREE.Group>(null);
-  useFrame((s) => {
-    if (g.current) g.current.rotation.y = Math.sin(s.clock.elapsedTime * 1.3) * 0.25 + Math.sin(s.clock.elapsedTime * 3.1) * 0.05;
-  });
-  return (
-    <group ref={g} position={[0, 0.022, 0]}>
-      <mesh position={[0, 0, -0.03]} rotation={[-Math.PI / 2, 0, 0]} material={toon("#a65238")}>
-        <coneGeometry args={[0.012, 0.06, 4]} />
-      </mesh>
-      <mesh position={[0, 0, 0.03]} rotation={[Math.PI / 2, 0, 0]} material={toon("#3d2a1c")}>
-        <coneGeometry args={[0.012, 0.06, 4]} />
-      </mesh>
     </group>
   );
 }
@@ -816,13 +675,14 @@ function Bundle({ atlas, index, at, openId, onOpen }: { atlas: Atlas; index: num
             </mesh>
           ))}
         </group>
-        {/* an invisible, generous hit box so the whole niche answers to the pointer (only on the shelf) */}
-        {!open && (
-          <mesh position={[0, CELL_H / 2, 0.1]} visible={false}>
-            <boxGeometry args={[CELL_W, CELL_H, 0.6]} />
-          </mesh>
-        )}
       </group>
+      {/* an invisible, generous hit box so the whole niche answers to the pointer (only on the shelf); it stays in the
+          niche rather than sliding out with a pointed-at atlas, or it would reach over the drawers below and take their clicks */}
+      {!open && (
+        <mesh position={[at[0], at[1] + CELL_H / 2, 0.1]} visible={false} onPointerOver={over} onPointerOut={out} onClick={clickShelf}>
+          <boxGeometry args={[CELL_W, CELL_H, 0.6]} />
+        </mesh>
+      )}
     </>
   );
 }

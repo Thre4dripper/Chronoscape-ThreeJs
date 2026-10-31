@@ -11,8 +11,8 @@ export const useRoom = create<{
   setTip: (t: Tip) => void;
   evening: boolean;
   toggleEvening: () => void;
-  drawer: "maps" | "instruments" | null;
-  setDrawer: (d: "maps" | "instruments" | null) => void;
+  drawer: "writing" | "instruments" | null;
+  setDrawer: (d: "writing" | "instruments" | null) => void;
   register: boolean;
   setRegister: (on: boolean) => void;
 }>((set) => ({
