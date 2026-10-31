@@ -17,6 +17,12 @@ export function planKey(glb: string): string {
   return glb.replace(/^models\//, "").replace(/\.glb$/, "");
 }
 
+/** Forget one city's plans (keys are "<city>/<model>") when it is left. */
+export function forgetPlans(city: string) {
+  for (const key of [...plans.keys()]) if (key.startsWith(`${city}/`)) plans.delete(key);
+  for (const key of [...pending.keys()]) if (key.startsWith(`${city}/`)) pending.delete(key);
+}
+
 export function planFor(glb: string): Plan | undefined {
   return plans.get(planKey(glb));
 }

@@ -15,6 +15,11 @@ import { MapOverlay } from "./ui/MapOverlay";
 import { LeftColumn } from "./ui/Codex";
 import { MapCase } from "./ui/MapCase";
 import { installBakeHook } from "./engine/map/plateService";
+import { forgetModels } from "./engine/render/models";
+import { forgetStages } from "./engine/landmarks/GlbModel";
+import { forgetShadows } from "./engine/landmarks/ShadowDecal";
+import { forgetPlans } from "./engine/map/plans";
+import { forgetFabric } from "./engine/map/fabric";
 
 /** A city map with everything around it. Loaded on demand: the title page and map room never pay for three.js city code. */
 export default function CityView({ city }: { city: City }) {
@@ -38,6 +43,17 @@ function CityScreen({ city }: { city: City }) {
     addEventListener("chronoscape:open-mapcase", open);
     return () => removeEventListener("chronoscape:open-mapcase", open);
   }, []);
+  // a city left behind (for another, or the map room) lets go of its models, shadows, plans and street fabric
+  useEffect(
+    () => () => {
+      forgetModels(`/models/${city.id}/`);
+      forgetStages(`/models/${city.id}/`);
+      forgetShadows(city.id);
+      forgetPlans(city.id);
+      forgetFabric(city.id);
+    },
+    [city.id],
+  );
   return (
     <>
       <Scene key={city.id} city={city} />

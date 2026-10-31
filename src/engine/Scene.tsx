@@ -17,6 +17,7 @@ import { StreetLife } from "./map/StreetLife";
 import { OverlayProjector } from "./overlay/Projector";
 import { Smoke } from "./effects/Smoke";
 import { useStore, currentFocus, landmarkById, eventById } from "./store";
+import { useNav } from "@/nav";
 import { frameOf, mapToWorld } from "./coords";
 import { bakedMaterial, dayTint, tintForHour } from "./render/baked";
 import { warmupMaterials } from "./render/warmup";
@@ -40,6 +41,12 @@ export function Scene({ city }: { city: City }) {
 
   else if (focus?.kind === "event" && event) figures = { center: focus.position, radius: Math.max(40, focus.size * 0.8), count: event.effect === "crowd" || event.effect === "procession" ? 90 : 24, scale: 1.4 };
 
+  // while another city's map unfolds over this one, this one only lies underneath: no drawing, no hovering
+  const covered = useNav((s) => !!s.flight && s.flight.kind === "unfold" && s.flight.map.city !== city.id);
+  useEffect(() => {
+    if (covered) useStore.getState().hover(null);
+  }, [covered]);
+
   const night = hour < 6 || hour > 20;
   const bg = night ? "#0c0907" : "#17110c";
 
@@ -62,6 +69,7 @@ export function Scene({ city }: { city: City }) {
           };
         }
       }}
+      frameloop={covered ? "never" : "always"}
       orthographic={ortho}
       camera={ortho ? { near: 0.1, far: span * 6, position: [0, span, span] } : { fov: 28, near: 0.1, far: span * 6, position: [0, span, span] }}
       onPointerMissed={() => {

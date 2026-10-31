@@ -21,6 +21,11 @@ export type Fabric = { lots: Lot[]; insulae: Insula[]; fields: Field[]; trees: T
 
 const cache = new Map<string, Fabric>();
 
+/** Forget one city's street fabric (every era) when it is left. */
+export function forgetFabric(city: string) {
+  for (const key of [...cache.keys()]) if (key.startsWith(`${city}:`)) cache.delete(key);
+}
+
 export function getFabric(city: City, periodId: string): Fabric {
   // while one city hands over to another, the outgoing 3D scene can render once with the new city's era
   if (!city.periods.some((p) => p.id === periodId)) periodId = city.defaultPeriodId;

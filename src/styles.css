@@ -664,7 +664,8 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .fmap--sm .fmap__label span { font-size: 12.5px; }
 
 /* ---------- the flight of a map between shelf and screen ---------- */
-.flight { position: fixed; inset: 0; z-index: 80; pointer-events: none; perspective: 2600px; perspective-origin: 50% 45%; }
+/* the flight takes the pointer: the map underneath (or the room) stays still until the new one has landed */
+.flight { position: fixed; inset: 0; z-index: 80; pointer-events: auto; perspective: 2600px; perspective-origin: 50% 45%; }
 .flight--wait { background: transparent; }
 .flight__shade { position: absolute; inset: 0; background: radial-gradient(ellipse at center, #3a2a1e 0%, #2a1e15 70%, #1c140e 100%); }
 .flight__sheet { position: absolute; left: 0; top: 0; transform-origin: 0 0; transform-style: preserve-3d; will-change: transform; }

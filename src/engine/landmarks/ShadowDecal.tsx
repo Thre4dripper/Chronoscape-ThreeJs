@@ -8,6 +8,15 @@ type Meta = { size: number; cx: number; cy: number };
 let manifest: Promise<Record<string, Meta>> | null = null;
 const textures = new Map<string, Promise<THREE.Texture | null>>();
 
+/** Free the shadows of one city's models (keys are "<city>/<model>") when it is left. */
+export function forgetShadows(city: string) {
+  for (const [key, p] of [...textures]) {
+    if (!key.startsWith(`${city}/`)) continue;
+    textures.delete(key);
+    void p.then((t) => t?.dispose());
+  }
+}
+
 function loadShadow(key: string) {
   let p = textures.get(key);
   if (!p) {

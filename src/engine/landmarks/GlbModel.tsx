@@ -14,6 +14,11 @@ import { inkLines, INK_MAT } from "../render/ink";
  */
 const prepared = new Map<string, THREE.Group[]>();
 
+/** Forget the split stages of the models under `prefix` (see forgetModels). */
+export function forgetStages(prefix: string) {
+  for (const url of [...prepared.keys()]) if (url.startsWith(prefix)) prepared.delete(url);
+}
+
 function GlbStages({ url, onReady }: { url: string; onReady?: () => void }) {
   const gltf = useModel(url);
   const stages = useMemo(() => {
