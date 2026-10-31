@@ -786,12 +786,39 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 }
 @keyframes register-open { from { transform: scale(0.9) rotateX(12deg); opacity: 0; } to { transform: none; opacity: 1; } }
 .register__page {
-  position: relative; padding: 28px 30px 24px; color: #3d2a1c; overflow: auto;
+  position: relative; padding: 28px 30px 72px; color: #3d2a1c; overflow: auto;
   background: linear-gradient(90deg, #e9d8b0, #f6ecd2 12%, #f4e8c9 88%, #e4cf9f);
 }
 .register__page--left { border-radius: 3px 0 0 3px; box-shadow: inset -18px 0 24px -16px rgba(80,50,20,0.45); }
-.register__page--right { border-radius: 0 3px 3px 0; box-shadow: inset 18px 0 24px -16px rgba(80,50,20,0.45); transform-origin: 0 50%; transition: transform 0.26s ease-in, opacity 0.26s; }
-.register__page--right.is-turning { transform: rotateY(-70deg); opacity: 0.2; }
+.register__page--right { border-radius: 0 3px 3px 0; box-shadow: inset 18px 0 24px -16px rgba(80,50,20,0.45); }
+/* the leaves in the air share one 3D space, so a leaf further along its turn is drawn over or under the others as it should be;
+   each is hinged on the spine over the right page, a page on its face and the next on its back */
+.register__leaves { position: absolute; inset: 0; transform-style: preserve-3d; pointer-events: none; z-index: 2; }
+.register__leaf { position: absolute; top: 18px; bottom: 18px; left: 50%; right: 18px; transform-origin: 0 50%; transform-style: preserve-3d; }
+.register__leaf > .register__page { position: absolute; inset: 0; backface-visibility: hidden; overflow: hidden; }
+.register__leaf-back { transform: rotateY(180deg); }
+/* (no opacity on a leaf: it would flatten it and show its face through its back) */
+.register__leaf--next { animation: register-leaf-next 0.8s cubic-bezier(0.4, 0.05, 0.3, 1) both; }
+.register__leaf--prev { animation: register-leaf-prev 0.8s cubic-bezier(0.4, 0.05, 0.3, 1) both; }
+@keyframes register-leaf-next { from { transform: translateZ(1px) rotateY(0deg); } to { transform: translateZ(1px) rotateY(-180deg); } }
+@keyframes register-leaf-prev { from { transform: translateZ(1px) rotateY(-180deg); } to { transform: translateZ(1px) rotateY(0deg); } }
+/* a page darkens as it lifts away from the light, and brightens as it comes down */
+.register__shade { position: absolute; inset: 0; pointer-events: none; opacity: 0; }
+.register__leaf-front .register__shade { background: linear-gradient(90deg, rgba(60,36,16,0.4), rgba(60,36,16,0.08)); }
+.register__leaf-back .register__shade { background: linear-gradient(270deg, rgba(60,36,16,0.4), rgba(60,36,16,0.08)); }
+.register__leaf--next .register__leaf-front .register__shade { animation: register-shade-lift 0.8s linear both; }
+.register__leaf--next .register__leaf-back .register__shade { animation: register-shade-land 0.8s linear both; }
+.register__leaf--prev .register__leaf-front .register__shade { animation: register-shade-lift 0.8s linear reverse both; }
+.register__leaf--prev .register__leaf-back .register__shade { animation: register-shade-land 0.8s linear reverse both; }
+@keyframes register-shade-lift { 0% { opacity: 0; } 50%, 100% { opacity: 1; } }
+@keyframes register-shade-land { 0%, 50% { opacity: 1; } 100% { opacity: 0; } }
+.register__folio { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font-family: var(--display); font-size: 14px; opacity: 0.6; }
+.register__turn { position: absolute; bottom: 30px; z-index: 3; width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(84,58,38,0.45); background: rgba(255,250,235,0.75); color: #3d2a1c; font-size: 22px; line-height: 1; cursor: pointer; }
+.register__turn--prev { left: 34px; }
+.register__turn--next { right: 34px; }
+.register__turn:disabled { opacity: 0.3; cursor: default; }
+.register__open { margin-top: 18px; }
+.register__finis { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--display); font-style: italic; font-size: 22px; opacity: 0.55; }
 .register__kicker { font-family: var(--roman); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: #8a3f26; }
 .register__page h2 { margin: 6px 0 10px; font-family: var(--roman); font-weight: 700; font-size: 26px; letter-spacing: 0.04em; }
 .register__list { margin: 0 0 14px; padding-left: 20px; font-family: var(--display); font-size: 17px; line-height: 1.5; }
@@ -806,11 +833,9 @@ button.fmap:hover .fmap__flap, button.fmap:focus-visible .fmap__flap { transform
 .register__text { font-size: 17.5px; line-height: 1.5; }
 .register__from { font-size: 15px; opacity: 0.85; }
 .register__from i { font-family: var(--roman); font-style: normal; font-size: 13px; letter-spacing: 0.06em; filter: brightness(0.8); }
-.register__actions { position: absolute; left: 30px; right: 30px; bottom: 22px; display: flex; gap: 8px; align-items: center; }
-.register__actions .btn { color: #3d2a1c; border-color: rgba(84,58,38,0.45); background: rgba(255,250,235,0.5); }
-.register__actions .btn--primary { flex: 1; color: #fbf1d9; background: var(--terracotta); border-color: var(--terracotta); }
+.register__open.btn--primary { color: #fbf1d9; background: var(--terracotta); border-color: var(--terracotta); }
 .register__close { position: absolute; top: -14px; right: -14px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(230,211,170,0.5); background: #4e1c15; color: #f4e8c9; font-size: 22px; line-height: 1; cursor: pointer; }
-@media (max-width: 720px) { .register__book { grid-template-columns: 1fr; } .register__actions { position: static; margin-top: 12px; } }
+@media (max-width: 720px) { .register__book { grid-template-columns: 1fr; }  }
 .room.is-evening .room__heading { color: #f1e1bd; text-shadow: 0 1px 2px rgba(0,0,0,0.6); }
 .room.is-evening .room__kicker { color: #e9b98a; }
 .room__heading, .room__kicker { transition: color 0.8s; }
