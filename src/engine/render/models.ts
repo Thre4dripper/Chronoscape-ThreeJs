@@ -6,3 +6,11 @@ export const DRACO_PATH = "/draco/";
 export function useModel(url: string) {
   return useGLTF(url, DRACO_PATH);
 }
+
+const preloaded = new Set<string>();
+/** Fetch and decode a model ahead of use (once), so the first hover finds it ready. */
+export function preloadModel(url: string) {
+  if (preloaded.has(url)) return;
+  preloaded.add(url);
+  useGLTF.preload(url, DRACO_PATH);
+}

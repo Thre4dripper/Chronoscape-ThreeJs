@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useFrame, type ThreeEvent } from "@react-three/fiber";
 import * as THREE from "three";
 import type { City, Landmark as LandmarkDef } from "@/content/schema";
@@ -9,6 +9,7 @@ import { Kit } from "./kits";
 import { RevealContext } from "./kits/shared";
 import { GlbModel } from "./GlbModel";
 import { ShadowDecal } from "./ShadowDecal";
+import { preloadModel } from "../render/models";
 
 const HOVER_EXIT_DELAY = 220;
 
@@ -40,10 +41,26 @@ export function Landmark({ city, def }: { city: City; def: LandmarkDef }) {
   const target = !active ? -0.3 : focused || hovered || withOuter ? 1 : 0;
   // the 3D model only exists while it is wanted (hover / focus) or still animating out
   const [mounted, setMounted] = useState(false);
+  // which glb has loaded: until it has, the rise waits at the paper, or it would finish unseen and the model pop in whole
+  const glb = "glb" in variant.model ? variant.model.glb : null;
+  const loaded = useRef<string | null>(null);
+  const onReady = useCallback(() => void (loaded.current = glb), [glb]);
+
+  // fetch this era's model while the map is idle, so even the first hover rises at once
+  useEffect(() => {
+    if (!active || !glb) return;
+    const idle = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 200));
+    const cancel = window.cancelIdleCallback ?? window.clearTimeout;
+    // (after the map itself has had the network and the main thread)
+    let h = 0;
+    const t = window.setTimeout(() => (h = idle(() => preloadModel(`/${glb}`), { timeout: 4000 })), 2500);
+    return () => (window.clearTimeout(t), cancel(h));
+  }, [active, glb]);
 
   useFrame((_, dt) => {
-    const rate = prefersReducedMotion() ? 1000 : target > progress.current ? 4.5 : 3;
-    progress.current = damp(progress.current, target, rate, Math.min(dt, 0.05));
+    const goal = glb && loaded.current !== glb ? Math.min(target, 0) : target;
+    const rate = prefersReducedMotion() ? 1000 : goal > progress.current ? 4.5 : 3;
+    progress.current = damp(progress.current, goal, rate, Math.min(dt, 0.05));
     const p = Math.max(0, progress.current);
     if (root.current) {
       // Absent-in-this-period landmarks sink below the paper and vanish.
@@ -111,7 +128,7 @@ export function Landmark({ city, def }: { city: City; def: LandmarkDef }) {
         </mesh>
         <group scale={[s, s, s]}>
           <RevealContext.Provider value={ctx}>
-            {mounted && ("glb" in variant.model ? <GlbModel key={variant.model.glb} url={`/${variant.model.glb}`} fallback={variant.model.fallback} /> : <Kit key={variant.model.kit} params={variant.model} />)}
+            {mounted && ("glb" in variant.model ? <GlbModel key={variant.model.glb} url={`/${variant.model.glb}`} fallback={variant.model.fallback} onReady={onReady} /> : <Kit key={variant.model.kit} params={variant.model} />)}
             {mounted && "glb" in variant.model && <ShadowDecal key={`sh:${variant.model.glb}`} glb={variant.model.glb} />}
           </RevealContext.Provider>
         </group>

@@ -1,4 +1,4 @@
-import { Component, Suspense, useMemo, type ReactNode } from "react";
+import { Component, Suspense, useLayoutEffect, useMemo, type ReactNode } from "react";
 import * as THREE from "three";
 import { bakeify } from "../render/baked";
 import type { KitParams } from "@/content/schema";
@@ -14,7 +14,7 @@ import { inkLines, INK_MAT } from "../render/ink";
  */
 const prepared = new Map<string, THREE.Group[]>();
 
-function GlbStages({ url }: { url: string }) {
+function GlbStages({ url, onReady }: { url: string; onReady?: () => void }) {
   const gltf = useModel(url);
   const stages = useMemo(() => {
     const hit = prepared.get(url);
@@ -62,6 +62,7 @@ function GlbStages({ url }: { url: string }) {
     prepared.set(url, out);
     return out;
   }, [gltf, url]);
+  useLayoutEffect(() => onReady?.(), [onReady, stages]);
 
   return (
     <>
@@ -87,12 +88,19 @@ class Boundary extends Component<{ fallback: ReactNode; children: ReactNode; onE
   }
 }
 
-export function GlbModel({ url, fallback }: { url: string; fallback?: KitParams }) {
+/** `onReady` fires once there is something to show (the model, or its stand-in if it failed), so the rise can wait for it. */
+export function GlbModel({ url, fallback, onReady }: { url: string; fallback?: KitParams; onReady?: () => void }) {
   const stand = fallback ? <Kit params={fallback} /> : <Placeholder />;
   return (
-    <Boundary fallback={stand} onError={(e) => console.warn(`[asset] failed to load ${url}`, e)}>
+    <Boundary
+      fallback={stand}
+      onError={(e) => {
+        console.warn(`[asset] failed to load ${url}`, e);
+        onReady?.();
+      }}
+    >
       <Suspense fallback={null}>
-        <GlbStages url={url} />
+        <GlbStages url={url} onReady={onReady} />
       </Suspense>
     </Boundary>
   );
