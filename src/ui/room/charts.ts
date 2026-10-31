@@ -164,7 +164,17 @@ export async function portolanTexture() {
 }
 
 /** The atlas open on the lectern: a page of text on the left, a map of Europe on the right. */
-export async function atlasSpreadTexture() {
+/** The tables of the open atlas on the lectern, one spread each: a page of text, and the map facing it. */
+const TABLES = [
+  { name: "EVROPA", tab: "VI", lon: [-14, 44], lat: [33, 66] },
+  { name: "ASIA", tab: "II", lon: [40, 150], lat: [-8, 62] },
+  { name: "AFRICA", tab: "IV", lon: [-20, 55], lat: [-38, 38] },
+  { name: "AMERICA", tab: "I", lon: [-130, -30], lat: [-56, 62] },
+] as const;
+export const ATLAS_TABLES = TABLES.length;
+
+export async function atlasSpreadTexture(i = 0) {
+  const T = TABLES[i % TABLES.length];
   const land = await loadLand("110m");
   const W = 1024, H = 640;
   const c = document.createElement("canvas");
@@ -173,15 +183,15 @@ export async function atlasSpreadTexture() {
   const g = c.getContext("2d")!;
   g.fillStyle = "#f2e5c4";
   g.fillRect(0, 0, W, H);
-  const r = rng(5);
+  const r = rng(5 + i * 7);
   // the left page: a heading and blocks of text
   g.fillStyle = INK;
   g.textAlign = "center";
   g.textBaseline = "middle";
   g.font = '600 30px "Cinzel", Georgia, serif';
-  spaced(g, "EVROPA", W / 4, 74, 8);
+  spaced(g, T.name, W / 4, 74, 8);
   g.font = 'italic 19px "IM Fell English", Georgia, serif';
-  g.fillText("Theatrum Orbis Terrarum · Tab. VI", W / 4, 112);
+  g.fillText(`Theatrum Orbis Terrarum · Tab. ${T.tab}`, W / 4, 112);
   g.fillStyle = "rgba(74,51,34,0.55)";
   for (let y = 150, k = 0; y < H - 60; y += 22, k++) {
     if (k % 8 === 7) continue; // a break between paragraphs
@@ -193,8 +203,9 @@ export async function atlasSpreadTexture() {
   g.fillStyle = "#a8452f";
   g.fillRect(W / 4 - 190, 144, 40, 34);
   // the right page: the map
-  const v: View = { lon0: -14, lon1: 44, lat0: 33, lat1: 66, x: W / 2 + 46, y: 50, w: W / 2 - 92, h: H - 100 };
-  drawMap(g, v, { land, wrap: true, graticule: 10, weight: 0.9, sea: "#e8d6aa", paper: "#f3e6c4", labels: [{ text: "EVROPA", at: [16, 54], size: 22, spacing: 0.5 }] });
+  const v: View = { lon0: T.lon[0], lon1: T.lon[1], lat0: T.lat[0], lat1: T.lat[1], x: W / 2 + 46, y: 50, w: W / 2 - 92, h: H - 100 };
+  const mid: [number, number] = [(T.lon[0] + T.lon[1]) / 2, (T.lat[0] + T.lat[1]) / 2];
+  drawMap(g, v, { land, wrap: true, graticule: 10, weight: 0.9, sea: "#e8d6aa", paper: "#f3e6c4", labels: [{ text: T.name, at: mid, size: 22, spacing: 0.5 }] });
   g.strokeStyle = INK;
   g.lineWidth = 2;
   g.strokeRect(v.x, v.y, v.w, v.h);

@@ -2,9 +2,9 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useFrame, type ThreeEvent } from "@react-three/fiber";
 import * as THREE from "three";
 import { B, type Part } from "./Cabinet";
-import { atlasSpreadTexture, portolanTexture, worldMapTexture } from "./charts";
+import { ATLAS_TABLES, atlasSpreadTexture, portolanTexture, worldMapTexture } from "./charts";
 import { Astrolabe, CelestialGlobe, CrossStaff, Dividers, Parts, Quadrant, Sandglass, tint, useParts } from "./Instruments";
-import { BRASS, GILT, PAPER_T, toon, toonGradient, WOOD, WOOD_DARK, WOOD_LIGHT } from "./toon";
+import { BRASS, GILT, PAPER_T, toonGradient, WOOD, WOOD_DARK, WOOD_LIGHT } from "./toon";
 import { tipHandlers, useRoom } from "./roomState";
 
 /**
@@ -245,16 +245,18 @@ function drawerFront(P: Part[], W: number, y: number, front: number) {
 /* ------------------------------------------------------------------ lectern with an open atlas */
 
 function Lectern({ at }: { at: V3 }) {
-  const [tex, setTex] = useState<THREE.CanvasTexture | null>(null);
+  // a few tables of the atlas, a spread each, drawn once
+  const [texs, setTexs] = useState<THREE.CanvasTexture[] | null>(null);
   useEffect(() => {
     let alive = true;
-    void atlasSpreadTexture().then((t) => (alive ? setTex(t) : t.dispose()));
+    void Promise.all(Array.from({ length: ATLAS_TABLES }, (_, i) => atlasSpreadTexture(i))).then((ts) => (alive ? setTexs(ts) : ts.forEach((t) => t.dispose())));
     return () => {
       alive = false;
     };
   }, []);
-  useEffect(() => () => tex?.dispose(), [tex]);
+  useEffect(() => () => texs?.forEach((t) => t.dispose()), [texs]);
   const TOP = 1.05, TILT = 0.42, BW = 0.74, BD = 0.48;
+  const HW = (BW - 0.06) / 2, PD = BD - 0.04;
   const parts = useParts(() => {
     const P: Part[] = [
       { g: new THREE.LatheGeometry(([[0, 0], [0.27, 0], [0.28, 0.04], [0.2, 0.08], [0.08, 0.13], [0.05, 0.3], [0.07, 0.52], [0.045, 0.82], [0.065, 0.95], [0.1, TOP - 0.02], [0, TOP - 0.02]] as [number, number][]).map(([r, y]) => new THREE.Vector2(r, y)), 14), c: WOOD, o: true },
@@ -270,42 +272,110 @@ function Lectern({ at }: { at: V3 }) {
     { g: B(BW / 2 - 0.03, 0.03, BD - 0.03, -BW / 4 + 0.005, 0.045, 0), c: PAPER_T },
     { g: B(BW / 2 - 0.03, 0.03, BD - 0.03, BW / 4 - 0.005, 0.045, 0), c: PAPER_T },
   ]);
-  const spread = useMemo(() => {
-    const g = new THREE.PlaneGeometry(BW - 0.06, BD - 0.04, 20, 1).rotateX(-Math.PI / 2);
-    const p = g.attributes.position as THREE.BufferAttribute;
-    const hw = (BW - 0.06) / 2;
-    for (let i = 0; i < p.count; i++) p.setY(i, 0.062 + 0.022 * Math.pow(Math.max(0, Math.sin((Math.PI * Math.abs(p.getX(i))) / hw)), 0.7));
-    g.computeVertexNormals();
-    return g;
-  }, []);
-  useEffect(() => () => spread.dispose(), [spread]);
-  const leaf = useRef<THREE.Group>(null);
-  const t = useRef(-1);
-  useFrame((_, dt) => {
-    const o = leaf.current;
-    if (t.current < 0 || !o) return;
-    t.current += Math.min(dt, 0.05);
-    const k = smooth(t.current / 0.9);
-    o.rotation.z = k * Math.PI;
-    o.visible = t.current < 0.95;
-    if (t.current > 0.95) t.current = -1;
-  });
+  // each page swells up from the gutter and settles at its edge
+  const swell = (r: number) => 0.022 * Math.pow(Math.max(0, Math.sin((Math.PI * Math.abs(r)) / HW)), 0.7);
+  const halves = useMemo(
+    () =>
+      [-1, 1].map((side) => {
+        const g = new THREE.PlaneGeometry(HW, PD, 10, 1).rotateX(-Math.PI / 2).translate((side * HW) / 2, 0, 0);
+        const p = g.attributes.position as THREE.BufferAttribute, uv = g.attributes.uv as THREE.BufferAttribute;
+        for (let i = 0; i < p.count; i++) {
+          p.setY(i, 0.062 + swell(p.getX(i)));
+          uv.setX(i, 0.5 + (0.5 * p.getX(i)) / HW);
+        }
+        g.computeVertexNormals();
+        return g;
+      }),
+    [], // eslint-disable-line react-hooks/exhaustive-deps
+  );
+  useEffect(() => () => halves.forEach((g) => g.dispose()), [halves]);
+  // the spread asked for, the one the landed leaves show, and the leaves in the air (click fast and several turn at once)
+  const [target, setTarget] = useState(0);
+  const [settled, setSettled] = useState(0);
+  const [leaves, setLeaves] = useState<number[]>([]);
+  const n = texs?.length ?? 1;
+  const turn = () => {
+    if (!texs) return;
+    setLeaves((ls) => [...ls, target]);
+    setTarget((x) => x + 1);
+  };
+  const land = (from: number) => {
+    setLeaves((ls) => ls.filter((l) => l !== from));
+    setSettled(from + 1);
+  };
+  const pageMat = (i: number) => (texs ? <meshToonMaterial key={i % n} map={texs[i % n]} gradientMap={toonGradient()} /> : <meshToonMaterial color={PAPER_T} gradientMap={toonGradient()} />);
   return (
-    <group position={at} rotation={[0, 0.25, 0]} {...tipHandlers({ title: "An atlas lying open", text: "Ortelius's Theatrum Orbis Terrarum of 1570 was the first modern atlas: maps of the whole world drawn to one plan and bound in one book.", hint: "Click to turn a page" })} onClick={(e: ThreeEvent<MouseEvent>) => (e.stopPropagation(), t.current < 0 && (t.current = 0))}>
+    <group position={at} rotation={[0, 0.25, 0]} {...tipHandlers({ title: "An atlas lying open", text: "Ortelius's Theatrum Orbis Terrarum of 1570 was the first modern atlas: maps of the whole world drawn to one plan and bound in one book.", hint: "Click to turn a page" })} onClick={(e: ThreeEvent<MouseEvent>) => (e.stopPropagation(), turn())}>
       <Parts parts={parts} thickness={0.008} />
       <group position={[0, TOP + 0.02, 0]} rotation={[TILT, 0, 0]}>
         <Parts parts={top} thickness={0.006} />
-        <mesh geometry={spread}>
-          <meshToonMaterial key={tex ? "map" : "blank"} map={tex} color={tex ? "#ffffff" : PAPER_T} gradientMap={toonGradient()} />
-        </mesh>
-        {/* a leaf that turns over from right to left */}
-        <group ref={leaf} position={[0, 0.07, 0]} visible={false}>
-          <mesh position={[(BW - 0.08) / 4, 0, 0]} rotation={[-Math.PI / 2, 0, 0]} material={toon("#f3e6c4")}>
-            <planeGeometry args={[(BW - 0.08) / 2, BD - 0.06]} />
-          </mesh>
-        </group>
+        {/* the left page is the last leaf landed, the right the spread being turned to */}
+        <mesh geometry={halves[0]}>{pageMat(settled)}</mesh>
+        <mesh geometry={halves[1]}>{pageMat(target)}</mesh>
+        {texs && leaves.map((from, k) => <AtlasLeaf key={from} front={texs[from % n]} back={texs[(from + 1) % n]} hw={HW} pd={PD} swell={swell} lift={0.0015 * (k + 1)} onDone={() => land(from)} />)}
       </group>
     </group>
+  );
+}
+
+/**
+ * One leaf of the lectern's atlas turning from right to left about the gutter: its face is the right
+ * half of this spread, its back the left half of the next. It keeps the pages' swell, flattening as
+ * it stands up and bowing the other way as it comes down, so it lies exactly on each page at the ends.
+ */
+function AtlasLeaf({ front, back, hw, pd, swell, lift, onDone }: { front: THREE.Texture; back: THREE.Texture; hw: number; pd: number; swell: (r: number) => number; lift: number; onDone: () => void }) {
+  const SEG = 16;
+  const [geoF, geoB] = useMemo(() => {
+    const uvF: number[] = [], uvB: number[] = [], iF: number[] = [], iB: number[] = [];
+    for (let i = 0; i <= SEG; i++)
+      for (let j = 0; j < 2; j++) {
+        uvF.push(0.5 + (0.5 * i) / SEG, 1 - j);
+        uvB.push(0.5 - (0.5 * i) / SEG, 1 - j);
+      }
+    for (let i = 0; i < SEG; i++) {
+      const a = 2 * i, b = a + 1, c = a + 2, d = a + 3;
+      iF.push(a, b, c, c, b, d);
+      iB.push(a, c, b, c, d, b);
+    }
+    const pos = new THREE.BufferAttribute(new Float32Array((SEG + 1) * 2 * 3), 3);
+    const make = (uv: number[], idx: number[]) => {
+      const g = new THREE.BufferGeometry();
+      g.setAttribute("position", pos);
+      g.setAttribute("uv", new THREE.Float32BufferAttribute(uv, 2));
+      g.setIndex(idx);
+      return g;
+    };
+    return [make(uvF, iF), make(uvB, iB)];
+  }, []);
+  useEffect(() => () => (geoF.dispose(), geoB.dispose()), [geoF, geoB]);
+  const t = useRef(0);
+  const done = useRef(false);
+  useFrame((_, dt) => {
+    t.current = Math.min(1, t.current + Math.min(dt, 0.05) / 0.9);
+    const th = Math.PI * smooth(t.current), c = Math.cos(th), s = Math.sin(th);
+    const p = geoF.attributes.position as THREE.BufferAttribute;
+    for (let i = 0; i <= SEG; i++) {
+      const r = (hw * i) / SEG, h = swell(r) * c + lift;
+      for (let j = 0; j < 2; j++) p.setXYZ(2 * i + j, r * c - h * s, 0.062 + r * s + h * c, -pd / 2 + pd * j);
+    }
+    p.needsUpdate = true;
+    geoF.computeVertexNormals();
+    geoB.computeVertexNormals();
+    geoF.computeBoundingSphere();
+    if (t.current >= 1 && !done.current) {
+      done.current = true;
+      onDone();
+    }
+  });
+  return (
+    <>
+      <mesh geometry={geoF} frustumCulled={false}>
+        <meshToonMaterial map={front} gradientMap={toonGradient()} />
+      </mesh>
+      <mesh geometry={geoB} frustumCulled={false}>
+        <meshToonMaterial map={back} gradientMap={toonGradient()} />
+      </mesh>
+    </>
   );
 }
 
