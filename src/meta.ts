@@ -25,6 +25,7 @@ export type Route =
 
 export const SITE = "Chronoscape";
 export const TAGLINE = "An illustrated atlas of the world's cities through time";
+export const SOURCE = "https://github.com/Thre4dripper/Chronoscape-ThreeJs";
 const HOME_DESC =
   "An illustrated atlas of the world's cities through time: unfold a hand-drawn map of Rome, Delhi, Kyoto, Tenochtitlan and 32 more cities, turn the ages, and watch temples, palaces and streets rise in 3D.";
 
